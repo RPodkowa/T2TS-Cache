@@ -1,0 +1,104 @@
+﻿<SKILLS_RITUALS>
+
+	<SKILL-SPIRITUAL_HEALING Rarity="0">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="RitualSpiritualHealing"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-SPIRITUAL_HEALING"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualSpiritualHealing"/>
+	</SKILL-SPIRITUAL_HEALING>
+	<SKILL-EARTH_VISION Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_EARTH_VISION" Description="DES_SKILL_EARTH_VISION_DES" IconName="RitualEarthVision"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<ChargesCounter>
+			<ChargesCount MinimumCount="3" MaximumCount="3"/>
+			<ChargesTrigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+				<TriggerGroup Value="OnEndTurn"/>
+				<TriggerScript ScriptName=""/>
+			</ChargesTrigger>
+			<Script ScriptName="Deg_SimpleCountdown"/>
+		</ChargesCounter>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_RANGE_OF_SIGHT"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualSkill"/>
+	</SKILL-EARTH_VISION>
+	<SKILL-FIRE_GIFT Rarity="40">
+		<DescriptionInfo Name="DES_SKILL_FIRE_GIFT" Description="DES_SKILL_FIRE_GIFT_DES" IconName="RitualFireGift"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<ChargesCounter>
+			<ChargesCount MinimumCount="5" MaximumCount="5"/>
+			<ChargesTrigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+				<TriggerGroup Value="OnEndTurn"/>
+				<TriggerScript ScriptName=""/>
+			</ChargesTrigger>
+			<Script ScriptName="Deg_SimpleCountdown"/>
+		</ChargesCounter>
+		<SkillSubskill Value="SUBSKILL-CONST_SUB_WEAK_GATHERING"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_STRONG_CRAFTING"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualFireGift"/>
+	</SKILL-FIRE_GIFT>
+	<SKILL-SHOULDERS_POWER Rarity="40">
+		<DescriptionInfo Name="DES_SKILL_SHOULDERS_POWER" Description="DES_SKILL_SHOULDERS_POWER_DES" IconName="RitualShouldersPower"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<ChargesCounter>
+			<ChargesCount MinimumCount="5" MaximumCount="5"/>
+			<ChargesTrigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+				<TriggerGroup Value="OnEndTurn"/>
+				<TriggerScript ScriptName=""/>
+			</ChargesTrigger>
+			<Script ScriptName="Deg_SimpleCountdown"/>
+		</ChargesCounter>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_GATHERING"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_GROUP_CARRY"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualShouldersPower"/>
+	</SKILL-SHOULDERS_POWER>
+	<SKILL-KNOWLEDGE_ARMOR Rarity="40">
+		<DescriptionInfo Name="DES_SKILL_KNOWLEDGE_ARMOR" Description="DES_SKILL_KNOWLEDGE_ARMOR_DES" IconName="RitualKnowledgeArmour"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<ChargesCounter>
+			<ChargesCount MinimumCount="5" MaximumCount="5"/>
+			<ChargesTrigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+				<TriggerGroup Value="OnEndTurn"/>
+				<TriggerScript ScriptName=""/>
+			</ChargesTrigger>
+			<Script ScriptName="Deg_SimpleCountdown"/>
+		</ChargesCounter>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualKnowladgeArmor"/>
+	</SKILL-KNOWLEDGE_ARMOR>
+	
+	<!--
+	<SKILL-MAGIC_POWDER Rarity="0">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="RitualMagicPowder"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-MAGIC_POWDER"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualMagicPowder"/>
+	</SKILL-MAGIC_POWDER>
+	<SKILL-CABBAGE_FIELD Rarity="20">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="RitualCabbageField"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CABBAGE_FIELD"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualCabbageField"/>
+	</SKILL-CABBAGE_FIELD>
+	<SKILL-MYSTICAL_KNOWLEDGE Rarity="0">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="RitualMysticalKnowledge"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-MYSTICAL_KNOWLEDGE"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualMisticalKnowladge"/>
+	</SKILL-MYSTICAL_KNOWLEDGE>
+	<SKILL-DEMONIC_SPLINTER Rarity="20">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="RitualDemonicSplinter"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-DEMONIC_SPLINTER_HP"/>
+		<SkillSubskill Value="SUBSKILL-DEMONIC_SPLINTER_MORALE"/>
+		<SkillGroupFilter Value="Ritual"/>
+		<SkillGroupFilter Value="RitualDemonicSplinter"/>
+	</SKILL-DEMONIC_SPLINTER>
+	-->
+</SKILLS_RITUALS>

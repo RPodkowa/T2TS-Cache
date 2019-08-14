@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Graphics example" Graphic="example_art.png" Visibility="2">  
+	
+	<!--Replaces image of the male "strong" child form the 2 children trait card-->
+	<DB>DATABASE_SUBRACE.xml</DB>
+	<!--Replaces image of the blunt attack- natural skill-->
+	<DB>DATABASE_SKILLS_1_NATURAL.xml</DB>
+	<!--Example of the Character Image-->
+	<IMAGE Name="CharImage" Model="HumanChildMale5" Path="NewCharacter.png" Path2="NewCharacter_Portrait.png" MemoryStorage="true" TagMode="false" EventImage="false"/>
+	<!--Example of the Event image-->
+	<IMAGE Name="EventImage" Path="EventExample.png" MemoryStorage="false" TagMode="false"  EventImage="true"/>
+	<!--Example of the Skill image-->
+	<IMAGE Name="SkillImage" Path="SkillExample.png" MemoryStorage="true" TagMode="false"  EventImage="false"/>
+	
+</ModInfo>

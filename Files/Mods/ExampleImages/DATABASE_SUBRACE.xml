@@ -1,0 +1,43 @@
+﻿<SUBRACES>
+	<!-- HUMANS -->
+	<!-- challenge level 0 -->
+	<SUBRACE-HUM_STRONG_CHILD1>
+		<DescriptionInfo Name="DES_SUBRACE_HUM_STRONG1_CHILD" Description="DES_SUBRACE_HUM_STRONG1_CHILD_DES" IconName="ClassChild"/>
+		<Race Value="RACE-HUMAN"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-CHILD_HUM"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="8" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="6" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="4" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="0" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="250" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-GENDER_FEMALE"/>
+		</CommonSubraceAttributes>
+		<BlockedItemSlot Value="TAG-BLOCKED_JEWELLERY"/>
+		<NaturalSkills Value="SKILL_PACK-HUM_CHILD"/>
+		<AdvancementSkills Value="SKILL_PACK-RANDOM_ADVANCEMENT"/>
+		<GraphicMale Value="CharImage"/>
+        <GraphicMale Value="HumanChildMale"/>        
+        <GraphicFemale Value="HumanChildFemale"/>
+        <GraphicFemale Value="HumanChildFemale2"/>
+        <GraphicFemale Value="HumanChildFemale3"/>
+        <GraphicFemale Value="HumanChildFemale4"/>
+        <GraphicFemale Value="HumanChildFemale5"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_AMBER_ONE_CLUB_1H"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_FOOD"/>
+		<!-- BodyCargo -->
+	</SUBRACE-HUM_STRONG_CHILD1>
+	
+</SUBRACES>

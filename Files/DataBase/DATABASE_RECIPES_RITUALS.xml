@@ -1,0 +1,838 @@
+<RECIPTS_RITUALS>
+
+	<!-- Heals all characters within the group by 50% SHP points -->
+	<RITUAL_REC-SPIRITUAL_HEALING UseCount="-1" WorkCost="100">
+        <Script ScriptName="Rit_HealSHP"/>
+		<RecipeBase ResearchCost="0" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_SPIRITUAL_HEALING" Description="DES_SPIRITUAL_HEALING_DES" IconName="RitualSpiritualHealing"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>      
+			<MaterialRow>
+				<Material ResourceCount="35">
+					<Resource Value="RES-WOOD"/>
+				</Material>
+                <Material ResourceCount="5">
+                    <Resource Value="RES-DRYAD_WOOD"/>
+                </Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-SHADOW_BONE"/>
+				</Material>
+                <Material ResourceCount="8">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-MEAT"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-FISH"/>
+				</Material>				
+				<Material ResourceCount="15">
+					<Resource Value="RES-FRUITS"/>
+				</Material>
+                <Material ResourceCount="10">
+                    <Resource Value="RES-MUSHROOMS"/>
+                </Material>
+                <Material ResourceCount="8">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>		
+	</RITUAL_REC-SPIRITUAL_HEALING>
+    <RITUAL_REC-CURSE_REMOVAL UseCount="-1" WorkCost="200">
+        <Script ScriptName="Rit_CurseRemoval"/>
+        <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+            <DescriptionInfo Name="DES_RITUAL_CURSE_REMOVAL" Description="DES_RITUAL_CURSE_REMOVAL_DES" IconName="RitualCurseRemoval"/>
+            <CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+            <MaterialRow>
+                <Material ResourceCount="50">
+                    <Resource Value="RES-AMBER"/>
+                </Material>
+                <Material ResourceCount="25">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+            </MaterialRow>
+            <MaterialRow>
+                <Material ResourceCount="50">
+                    <Resource Value="RES-AMBER"/>
+                </Material>                
+                <Material ResourceCount="40">
+                    <Resource Value="RES-MUSHROOMS"/>
+                </Material>
+                <Material ResourceCount="25">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+            </MaterialRow>
+        </RecipeBase>
+    </RITUAL_REC-CURSE_REMOVAL>
+    <RITUAL_REC-UPGRADE_IDOL UseCount="-1" WorkCost="1000">
+        <Script ScriptName="Rit_RefreshUpgradeIdol"/>
+        <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+            <DescriptionInfo Name="DES_RITUAL_UPGRADE_IDOL" Description="DES_RITUAL_UPGRADE_IDOL_DES" IconName="RitualUpgradeIdol"/>
+            <CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="32">
+					<Resource Value="RES-SANDSTONE"/>
+				</Material>
+				<Material ResourceCount="31">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+				<Material ResourceCount="30">
+					<Resource Value="RES-WOOD"/>
+				</Material>
+				<Material ResourceCount="29">
+					<Resource Value="RES-BONE"/>
+				</Material>
+			</MaterialRow>
+            <MaterialRow>
+                <Material ResourceCount="100">
+                    <Resource Value="RES-FRUITS"/>
+                </Material>
+                <Material ResourceCount="100">
+                    <Resource Value="RES-MUSHROOMS"/>
+                </Material>
+                <Material ResourceCount="100">
+                    <Resource Value="RES-VEGGIES"/>
+                </Material>
+                <Material ResourceCount="100">
+                    <Resource Value="RES-MEAT"/>
+                </Material>
+            </MaterialRow>
+        </RecipeBase>
+    </RITUAL_REC-UPGRADE_IDOL>
+    
+	
+	<RITUAL_REC-CREATE_BOG_BIES UseCount="-1" WorkCost="350">
+      <Script ScriptName="Rit_CreateBogBies"/>
+		  <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_CREATE_BOG_BIES" Description="DES_RITUAL_CREATE_BOG_BIES_DES" IconName="RitualCreateBogBies"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-SCALED_LEATHER"/>
+				</Material>
+				<Material ResourceCount="16">
+					<Resource Value="RES-FUR_LEATHER"/>
+				</Material>
+				<Material ResourceCount="17">
+					<Resource Value="RES-ENCHANTED_LEATHER"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-MYTHICAL_LEATHER"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="5">
+					<Resource Value="RES-SHADOW_BONE"/>
+				</Material>
+				<Material ResourceCount="7">
+					<Resource Value="RES-MONSTER_BONE"/>
+				</Material>
+				<Material ResourceCount="8">
+					<Resource Value="RES-BLOOD_BONE"/>
+				</Material>
+				<Material ResourceCount="1">
+					<Resource Value="RES-MYTHICAL_LEATHER"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-CREATE_BOG_BIES>
+	<RITUAL_REC-CREATE_ALKONOST UseCount="-1" WorkCost="650">
+        <Script ScriptName="Rit_CreateAlkonost"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_CREATE_ALKONOST" Description="DES_RITUAL_CREATE_ALKONOST_DES" IconName="RitualCreateAlkonost"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="17">
+					<Resource Value="RES-ANCIENT_WOOD"/>
+				</Material>
+				<Material ResourceCount="18">
+					<Resource Value="RES-DIAMOND"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-SACRED_WOOD"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-CRYSTAL_WOOD"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-GRANDGEM"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="20">
+					<Resource Value="RES-DRYAD_WOOD"/>
+				</Material>
+				<Material ResourceCount="22">
+					<Resource Value="RES-MALACHITE"/>
+				</Material>
+				<Material ResourceCount="24">
+					<Resource Value="RES-TOPAZ"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-ANCIENT_WOOD"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-DIAMOND"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-CREATE_ALKONOST>
+	<RITUAL_REC-CREATE_TROLL_ROCK UseCount="-1" WorkCost="1000">
+        <Script ScriptName="Rit_CreateTrollRock"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_CREATE_TROLL_ROCK" Description="DES_RITUAL_CREATE_TROLL_ROCK_DES" IconName="RitualCreateRockTroll"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="23">
+					<Resource Value="RES-PURE_STONE"/>
+				</Material>
+				<Material ResourceCount="24">
+					<Resource Value="RES-ARMOURED_STONE"/>
+				</Material>
+				<Material ResourceCount="25">
+					<Resource Value="RES-METAL_COMPOSITE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-MOONSTONE"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-SECRET_ALLOY"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="23">
+					<Resource Value="RES-OBSIDIAN"/>
+				</Material>
+				<Material ResourceCount="25">
+					<Resource Value="RES-MITHRILL"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-METAL_COMPOSITE"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-ARMOURED_STONE"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-PURE_STONE"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-CREATE_TROLL_ROCK>
+	<RITUAL_REC-CATCH_DOMESTIC_PET UseCount="-1" WorkCost="300">
+        <Script ScriptName="Rit_SummonPet"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_CATCH_DOMESTIC_PET" Description="DES_RITUAL_CATCH_DOMESTIC_PET_DES" IconName="RitualCatchDomesticPet"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="25">
+					<Resource Value="RES-BONE"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-MONSTER_BONE"/>
+				</Material>
+				<Material ResourceCount="7">
+					<Resource Value="RES-RUBY"/>
+				</Material>
+				<Material ResourceCount="9">
+					<Resource Value="RES-FUR_LEATHER"/>
+				</Material>
+				<Material ResourceCount="30">
+					<Resource Value="RES-MEAT"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+                <Material ResourceCount="10">
+                    <Resource Value="RES-LEATHER"/>
+                </Material>                
+                <Material ResourceCount="5">
+                    <Resource Value="RES-SHADOW_BONE"/>
+                </Material>
+                <Material ResourceCount="16">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+                <Material ResourceCount="15">
+                    <Resource Value="RES-MEAT"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-CATCH_DOMESTIC_PET>
+	<RITUAL_REC-SUMMON_BOAT UseCount="-1" WorkCost="600">
+        <Script ScriptName="Rit_SummonBoat"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_SUMMON_BOAT" Description="DES_RITUAL_SUMMON_BOAT_DES" IconName="RitualSummonBoat"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="25">
+					<Resource Value="RES-IRON"/>
+				</Material>
+				<Material ResourceCount="27">
+					<Resource Value="RES-SANDSTONE"/>
+				</Material>
+				<Material ResourceCount="29">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+				<Material ResourceCount="31">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+                <Material ResourceCount="10">
+                    <Resource Value="RES-IRON"/>
+                </Material>                
+                <Material ResourceCount="8">
+                    <Resource Value="RES-SANDSTONE"/>
+                </Material>
+                <Material ResourceCount="12">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+                <Material ResourceCount="7">
+                    <Resource Value="RES-AMBER"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-SUMMON_BOAT>
+	<RITUAL_REC-EARTH_VISION UseCount="-1" WorkCost="400">
+        <Script ScriptName="Rit_EarthVision"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_EARTH_VISION" Description="DES_RITUAL_EARTH_VISION_DES" IconName="RitualEarthVision"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="28">
+					<Resource Value="RES-BONE"/>
+				</Material>
+                <Material ResourceCount="4">
+                    <Resource Value="RES-DARK_WOOD"/>
+                </Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-CLAY"/>
+				</Material>
+				<Material ResourceCount="9">
+					<Resource Value="RES-MUSHROOMS"/>
+				</Material>
+                <Material ResourceCount="8">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+			</MaterialRow>
+			<MaterialRow>
+                <Material ResourceCount="25">
+                    <Resource Value="RES-WOOD"/>
+                </Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-STEEL"/>
+				</Material>				
+				<Material ResourceCount="4">
+					<Resource Value="RES-SHADOW_BONE"/>
+				</Material>
+				<Material ResourceCount="8">
+					<Resource Value="RES-MUSHROOMS"/>
+				</Material>
+                <Material ResourceCount="7">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-EARTH_VISION>
+	<RITUAL_REC-PHYSICAL_BLESS UseCount="-1" WorkCost="300">
+        <Script ScriptName="Rit_BlessPhisical"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_PHYSICAL_BLESS" Description="DES_RITUAL_PHYSICAL_BLESS_DES" IconName="RitualPhysicalBless"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="22">
+					<Resource Value="RES-SILVER"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-QUARTZ"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-MITHRILL"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-OBSIDIAN"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-SILVER"/>
+				</Material>
+				<Material ResourceCount="13">
+					<Resource Value="RES-QUARTZ"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-MITHRILL"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-OBSIDIAN"/>
+				</Material>
+				<Material ResourceCount="22">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-PHYSICAL_BLESS>
+	<RITUAL_REC-MENTAL_BLESS UseCount="-1" WorkCost="300">
+        <Script ScriptName="Rit_BlessMental"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_MENTAL_BLESS" Description="DES_RITUAL_MENTAL_BLESS_DES" IconName="RitualMentalBless"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="22">
+					<Resource Value="RES-ELVEN_WOOD"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-SCALED_LEATHER"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-MYTHICAL_LEATHER"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-ELVEN_WOOD"/>
+				</Material>
+				<Material ResourceCount="13">
+					<Resource Value="RES-SCALED_LEATHER"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-MYTHICAL_LEATHER"/>
+				</Material>
+				<Material ResourceCount="22">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-MENTAL_BLESS>
+	<RITUAL_REC-SPIRITUAL_BLESS UseCount="-1" WorkCost="350">
+        <Script ScriptName="Rit_BlessSpiritual"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_SPIRITUAL_BLESS" Description="DES_RITUAL_SPIRITUAL_BLESS_DES" IconName="RitualSpiritualBless"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="22">
+					<Resource Value="RES-TOPAZ"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-BLOOD_BONE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-DIAMOND"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-TOPAZ"/>
+				</Material>
+				<Material ResourceCount="13">
+					<Resource Value="RES-BLOOD_BONE"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-DIAMOND"/>
+				</Material>
+				<Material ResourceCount="22">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-SPIRITUAL_BLESS>
+	<RITUAL_REC-HIGHER_EDUCATION UseCount="-1" WorkCost="600">
+        <Script ScriptName="Rit_HigherEducation"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_HIGHER_EDUCATION" Description="DES_RITUAL_HIGHER_EDUCATION_DES" IconName="RitualHigherEducation"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="45">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+				<Material ResourceCount="8">
+					<Resource Value="RES-ENCHANTED_LEATHER"/>
+				</Material>
+				<Material ResourceCount="9">
+					<Resource Value="RES-GRANITE"/>
+				</Material>
+				<Material ResourceCount="11">
+					<Resource Value="RES-BLOOD_BONE"/>
+				</Material>
+				<Material ResourceCount="30">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+                <Material ResourceCount="20">
+                    <Resource Value="RES-AMBER"/>
+                </Material>                
+                <Material ResourceCount="7">
+                    <Resource Value="RES-GOLD"/>
+                </Material>
+                <Material ResourceCount="22">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+                <Material ResourceCount="25">
+                    <Resource Value="RES-FRUITS"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-HIGHER_EDUCATION>
+	<RITUAL_REC-FIRE_GIFT UseCount="-1" WorkCost="200">
+        <Script ScriptName="Rit_FireGift"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_FIRE_GIFT" Description="DES_RITUAL_FIRE_GIFT_DES" IconName="RitualFireGift"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-IRON"/>
+				</Material>
+				<Material ResourceCount="18">
+					<Resource Value="RES-BONE"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-WOOD"/>
+				</Material>
+				<Material ResourceCount="17">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="13">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-SCALED_LEATHER"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-CLAY"/>
+				</Material>
+				<Material ResourceCount="12">
+					<Resource Value="RES-SANDSTONE"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-FIRE_GIFT>
+	<RITUAL_REC-SHOULDERS_POWER UseCount="-1" WorkCost="250">
+        <Script ScriptName="Rit_ShouldersPower"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_SHOULDERS_POWER" Description="DES_RITUAL_SHOULDERS_POWER_DES" IconName="RitualShouldersPower"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+				<Material ResourceCount="18">
+					<Resource Value="RES-SANDSTONE"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+				<Material ResourceCount="17">
+					<Resource Value="RES-HERBS"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="13">
+					<Resource Value="RES-BONE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-MONSTER_BONE"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-DARK_WOOD"/>
+				</Material>
+				<Material ResourceCount="12">
+					<Resource Value="RES-WOOD"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-SHOULDERS_POWER>
+	<RITUAL_REC-KNOWLEDGE_ARMOR UseCount="-1" WorkCost="300">
+        <Script ScriptName="Rit_KnowledgeArmor"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_KNOWLEDGE_ARMOR" Description="DES_RITUAL_KNOWLEDGE_ARMOR_DES" IconName="RitualKnowledgeArmour"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="35">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+                <Material ResourceCount="5">
+                    <Resource Value="RES-RUBY"/>
+                </Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-BONE"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-FUR_LEATHER"/>
+				</Material>
+                <Material ResourceCount="8">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="6">
+					<Resource Value="RES-BEETLE_JELLY"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-SPICES"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-SILVER"/>
+				</Material>
+                <Material ResourceCount="4">
+                    <Resource Value="RES-QUARTZ"/>
+                </Material>
+                <Material ResourceCount="8">
+                    <Resource Value="RES-HERBS"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-KNOWLEDGE_ARMOR>
+	<RITUAL_REC-CELEBRATION UseCount="-1" WorkCost="400">
+        <Script ScriptName="Rit_Celebration"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_CELEBRATION" Description="DES_RITUAL_CELEBRATION_DES" IconName="RitualCelebration"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="45">
+					<Resource Value="RES-MEAT"/>
+				</Material>
+                <Material ResourceCount="47">
+                    <Resource Value="RES-VEGGIES"/>
+                </Material>
+				<Material ResourceCount="52">
+					<Resource Value="RES-FRUITS"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="24">
+					<Resource Value="RES-MUSHROOMS"/>
+				</Material>
+				<Material ResourceCount="26">
+					<Resource Value="RES-EGGS"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-BEETLE_JELLY"/>
+				</Material>
+                <Material ResourceCount="22">
+                    <Resource Value="RES-SPICES"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-CELEBRATION>
+	<RITUAL_REC-MOON_BRIDGE UseCount="-1" WorkCost="450">
+        <Script ScriptName="Rit_MoonBridge"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_MOON_BRIDGE" Description="DES_RITUAL_MOON_BRIDGE_DES" IconName="RitualMoonBridge"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="38">
+					<Resource Value="RES-IRON"/>
+				</Material>
+				<Material ResourceCount="41">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+				<Material ResourceCount="4">
+					<Resource Value="RES-DIAMOND"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-ANCIENT_WOOD"/>
+				</Material>
+				<Material ResourceCount="6">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+			</MaterialRow>
+            <MaterialRow>
+                <Material ResourceCount="2">
+                    <Resource Value="RES-MYTHICAL_LEATHER"/>
+                </Material>
+                <Material ResourceCount="3">
+                    <Resource Value="RES-OBSIDIAN"/>
+                </Material>
+                <Material ResourceCount="12">
+                    <Resource Value="RES-MALACHITE"/>
+                </Material>
+                <Material ResourceCount="70">
+                    <Resource Value="RES-VEGGIES"/>
+                </Material>
+                <Material ResourceCount="70">
+                    <Resource Value="RES-MEAT"/>
+                </Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-MOON_BRIDGE>
+	
+	
+	
+	<!-- Each character get random tag like TAG-WARRIOR, TAG-CRAFTSMAN, TAG-GATHERER, 
+		TAG-HUNTER, TAG-HEALER, TAG-MAGIC_USER
+	<RITUAL_REC-MYSTICAL_KNOWLEDGE  UseCount="-1" WorkCost="250">
+        <Script ScriptName="Rit_HealSHP"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_MYSTICAL_KNOWLEDGE" Description="DES_RITUAL_MYSTICAL_KNOWLEDGE_DES" IconName="RitualMysticalKnowledge"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="10">
+					<Resource Value="RES-TOPAZ"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-CRYSTAL_WOOD"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-GRANITE"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-GOLD"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="5">
+					<Resource Value="RES-DIAMOND"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-PURE_STONE"/>
+				</Material>
+				<Material ResourceCount="1">
+					<Resource Value="RES-MOONSTONE"/>
+				</Material>
+				<Material ResourceCount="5">
+					<Resource Value="RES-GOLD"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-MYSTICAL_KNOWLEDGE>-->
+	
+	<!-- Take 10% of each demon life (P M S) and lower demon fraction loyalty for 30 
+	<RITUAL_REC-DEMONIC_SPLINTER UseCount="-1" WorkCost="750">
+        <Script ScriptName="Rit_HealSHP"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_DEMONIC_SPLINTER" Description="DES_RITUAL_DEMONIC_SPLINTER_DES" IconName="RitualDemonicSplinter"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="40">
+					<Resource Value="RES-FUR_LEATHER"/>
+				</Material>
+				<Material ResourceCount="6">
+					<Resource Value="RES-GOLEM_LEATHER"/>
+				</Material>
+				<Material ResourceCount="40">
+					<Resource Value="RES-CLAY"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-MONSTER_BONE"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="20">
+					<Resource Value="RES-MYTHICAL_LEATHER"/>
+				</Material>
+				<Material ResourceCount="6">
+					<Resource Value="RES-COMBAT_LEATHER"/>
+				</Material>
+				<Material ResourceCount="2">
+					<Resource Value="RES-WYRM_SILK"/>
+				</Material>
+				<Material ResourceCount="20">
+					<Resource Value="RES-MONSTER_BONE"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-DEMONIC_SPLINTER>	-->
+	
+	
+	<!-- Instant pHeal each player character in world.
+	<RITUAL_REC-MAGIC_POWDER UseCount="-1" WorkCost="20">
+        <Script ScriptName="Rit_HealSHP"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_MAGIC_POWDER" Description="DES_RITUAL_MAGIC_POWDER_DES" IconName="RitualMagicPowder"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="20">
+					<Resource Value="RES-DARK_WOOD"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-SACRED_WOOD"/>
+				</Material>
+				<Material ResourceCount="6">
+					<Resource Value="RES-ELVEN_WOOD"/>
+				</Material>
+				<Material ResourceCount="10">
+					<Resource Value="RES-BLOOD_BONE"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="10">
+					<Resource Value="RES-ANCIENT_WOOD"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-CRYSTAL_WOOD"/>
+				</Material>
+				<Material ResourceCount="1">
+					<Resource Value="RES-LIFE_ROOT"/>
+				</Material>
+				<Material ResourceCount="10">
+					<Resource Value="RES-BLOOD_BONE"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-MAGIC_POWDER>-->
+	
+	<!-- Give one child 
+	<RITUAL_REC-CABBAGE_FIELD UseCount="-1" WorkCost="500">
+        <Script ScriptName="Rit_HealSHP"/>
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_RITUAL_CABBAGE_FIELD" Description="DES_RITUAL_CABBAGE_FIELD_DES" IconName="RitualCabbageField"/>
+			<CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="20">
+					<Resource Value="RES-SHADOW_BONE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-GRANDGEM"/>
+				</Material>
+				<Material ResourceCount="6">
+					<Resource Value="RES-ELVEN_WOOD"/>
+				</Material>
+				<Material ResourceCount="10">
+					<Resource Value="RES-SCALED_LEATHER"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="10">
+					<Resource Value="RES-DRAGON_BONE"/>
+				</Material>
+				<Material ResourceCount="3">
+					<Resource Value="RES-SACRED_WOOD"/>
+				</Material>
+				<Material ResourceCount="1">
+					<Resource Value="RES-GODS_BRANCH"/>
+				</Material>
+				<Material ResourceCount="10">
+					<Resource Value="RES-SCALED_LEATHER"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+	</RITUAL_REC-CABBAGE_FIELD>-->
+
+
+</RECIPTS_RITUALS>
