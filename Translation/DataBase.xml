@@ -124,7 +124,7 @@
     </Groups>
     <Texts>
       <Input>Primary Mental attribute. Affects Research and Crafting abilities and Sanity (mental health).</Input>
-      <Output>Podstawowy atrybut mentalny. Wpływa na badania i rzemiosło oraz zdrowie psychiczne.</Output>
+      <Output>Podstawowy atrybut mentalny. Wpływa na badania i rzemiosło oraz poczytalność (zdrowie psychiczne.)</Output>
     </Texts>
   </Element>
   <Element ID="9" Key="DES_TAG_WISDOM" Flag="1">
@@ -4518,7 +4518,7 @@
     </Groups>
     <Texts>
       <Input>Increase Combat Attributes</Input>
-      <Output>Zwiększenie atrybuty walki</Output>
+      <Output>Zwiększenie atrybutów walki</Output>
     </Texts>
   </Element>
   <Element ID="258" Key="DES_TAG_DAMAGE_ADD_CA_DES" Flag="1">
@@ -4536,10 +4536,15 @@
     </Groups>
     <Texts>
       <Input>Gives a bonus attributes relevant to the challenge you take part in.</Input>
-      <Output>Daje atrybuty premii odpowiadające wyzwaniu, w którym bierzesz udział.</Output>
+      <Output>Daje premię do atrybutów odpowiadających wyzwaniu, w którym bierzesz udział.</Output>
     </Texts>
   </Element>
-  <Element ID="259" Key="DES_TAG_DAMAGE_ADD_HEALTH_P_REGENERATION" Flag="0">
+  <Element ID="259" Key="DES_TAG_DAMAGE_ADD_HEALTH_P_REGENERATION" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:19:32</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4551,10 +4556,15 @@
     </Groups>
     <Texts>
       <Input>Incr. Physical Health Regen.</Input>
-      <Output>Incr. Regen zdrowia fizycznego.</Output>
+      <Output>Zwiększenie regeneracji zdrowia fizycznego.</Output>
     </Texts>
   </Element>
-  <Element ID="260" Key="DES_TAG_DAMAGE_ADD_HEALTH_P_REGENERATION_DES" Flag="0">
+  <Element ID="260" Key="DES_TAG_DAMAGE_ADD_HEALTH_P_REGENERATION_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:19:51</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4566,10 +4576,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to regeneration of Health (physical hit points).</Input>
-      <Output>Zapewnia premię do regeneracji zdrowia (fizycznych punktów życia).</Output>
+      <Output>Zapewnia premię do regeneracji zdrowia (zdrowie fizyczne).</Output>
     </Texts>
   </Element>
-  <Element ID="261" Key="DES_TAG_DAMAGE_ADD_HEALTH_M_REGENERATION" Flag="0">
+  <Element ID="261" Key="DES_TAG_DAMAGE_ADD_HEALTH_M_REGENERATION" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:20:13</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4581,10 +4596,15 @@
     </Groups>
     <Texts>
       <Input>Incr. Mental Health Regen.</Input>
-      <Output>Incr. Regeneracja zdrowia psychicznego.</Output>
+      <Output>Zwiększenie regeneracji zdrowia psychicznego.</Output>
     </Texts>
   </Element>
-  <Element ID="262" Key="DES_TAG_DAMAGE_ADD_HEALTH_M_REGENERATION_DES" Flag="0">
+  <Element ID="262" Key="DES_TAG_DAMAGE_ADD_HEALTH_M_REGENERATION_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:20:52</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4596,10 +4616,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to regeneration of Sanity (mental hit points).</Input>
-      <Output>Zapewnia premię do regeneracji poczytalności (mentalne punkty wytrzymałości).</Output>
+      <Output>Zapewnia premię do regeneracji pczytalności (zdrowie psychiczne).</Output>
     </Texts>
   </Element>
-  <Element ID="263" Key="DES_TAG_DAMAGE_ADD_HEALTH_S_REGENERATION" Flag="0">
+  <Element ID="263" Key="DES_TAG_DAMAGE_ADD_HEALTH_S_REGENERATION" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:20:28</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4611,10 +4636,15 @@
     </Groups>
     <Texts>
       <Input>Incr. Spiritual Health Regen.</Input>
-      <Output>Incr. Odrodzenie zdrowia duchowego.</Output>
+      <Output>Zwiększenie regeneracji zdrowia duchowego.</Output>
     </Texts>
   </Element>
-  <Element ID="264" Key="DES_TAG_DAMAGE_ADD_HEALTH_S_REGENERATION_DES" Flag="0">
+  <Element ID="264" Key="DES_TAG_DAMAGE_ADD_HEALTH_S_REGENERATION_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:21:10</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4626,10 +4656,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to regeneration of Faith (spiritual hit points).</Input>
-      <Output>Zapewnia premię do regeneracji Wiary (duchowe punkty wytrzymałości).</Output>
+      <Output>Zapewnia premię do regeneracji wiary (zdrowie duchowe).</Output>
     </Texts>
   </Element>
-  <Element ID="265" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH" Flag="0">
+  <Element ID="265" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:22:45</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4640,10 +4675,15 @@
     </Groups>
     <Texts>
       <Input>Increase Maximum Health</Input>
-      <Output>Zwiększ maksymalne zdrowie</Output>
+      <Output>Zwiększenie maksymalnego zdrowia</Output>
     </Texts>
   </Element>
-  <Element ID="266" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_DES" Flag="0">
+  <Element ID="266" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:24:56</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4654,10 +4694,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to maximum all three health types.</Input>
-      <Output>Zapewnia premię do maksymalnie wszystkich trzech typów zdrowia.</Output>
+      <Output>Zapewnia premię do maksymalej wartości wszystkich trzech typów zdrowia.</Output>
     </Texts>
   </Element>
-  <Element ID="267" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_P" Flag="0">
+  <Element ID="267" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_P" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:22:51</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4669,10 +4714,15 @@
     </Groups>
     <Texts>
       <Input>Increase Maximum Health</Input>
-      <Output>Zwiększ maksymalne zdrowie</Output>
+      <Output>Zwiększenie maksymalnego zdrowia</Output>
     </Texts>
   </Element>
-  <Element ID="268" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_P_DES" Flag="0">
+  <Element ID="268" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_P_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:25:06</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4687,7 +4737,12 @@
       <Output>Zapewnia premię do maksymalnego zdrowia fizycznego.</Output>
     </Texts>
   </Element>
-  <Element ID="269" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_M" Flag="0">
+  <Element ID="269" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_M" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:23:08</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4699,10 +4754,15 @@
     </Groups>
     <Texts>
       <Input>Increase Maximum Sanity</Input>
-      <Output>Zwiększ maksymalne zdrowie psychiczne</Output>
+      <Output>Zwiększenie maksymalnej poczytalności</Output>
     </Texts>
   </Element>
-  <Element ID="270" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_M_DES" Flag="0">
+  <Element ID="270" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_M_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:25:18</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4717,7 +4777,12 @@
       <Output>Zapewnia premię do maksymalnego zdrowia psychicznego.</Output>
     </Texts>
   </Element>
-  <Element ID="271" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_S" Flag="0">
+  <Element ID="271" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_S" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:23:19</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4729,10 +4794,15 @@
     </Groups>
     <Texts>
       <Input>Increase Maximum Faith</Input>
-      <Output>Zwiększ maksymalną wiarę</Output>
+      <Output>Zwiększenie maksymalnej wiary</Output>
     </Texts>
   </Element>
-  <Element ID="272" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_S_DES" Flag="0">
+  <Element ID="272" Key="DES_TAG_DAMAGE_ADD_MAX_HEALTH_S_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:25:59</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4747,7 +4817,12 @@
       <Output>Zapewnia premię do maksymalnego zdrowia duchowego.</Output>
     </Texts>
   </Element>
-  <Element ID="273" Key="DES_TAG_DAMAGE_ADD_WITS" Flag="0">
+  <Element ID="273" Key="DES_TAG_DAMAGE_ADD_WITS" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:23:33</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4757,10 +4832,15 @@
     </Groups>
     <Texts>
       <Input>Increase Wits</Input>
-      <Output>Zwiększ spryt</Output>
+      <Output>Zwiększenie sprytu</Output>
     </Texts>
   </Element>
-  <Element ID="274" Key="DES_TAG_DAMAGE_ADD_WITS_DES" Flag="0">
+  <Element ID="274" Key="DES_TAG_DAMAGE_ADD_WITS_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:26:12</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4770,10 +4850,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Wits attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Wits.</Output>
+      <Output>Zapewnia premię do sprytu.</Output>
     </Texts>
   </Element>
-  <Element ID="275" Key="DES_TAG_DAMAGE_ADD_MAIN_ATT" Flag="0">
+  <Element ID="275" Key="DES_TAG_DAMAGE_ADD_MAIN_ATT" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:26:28</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4784,10 +4869,15 @@
     </Groups>
     <Texts>
       <Input>Increase Main Attributes</Input>
-      <Output>Zwiększ główne atrybuty</Output>
+      <Output>Zwiększenie głównych atrybutów</Output>
     </Texts>
   </Element>
-  <Element ID="276" Key="DES_TAG_DAMAGE_ADD_MAIN_ATT_DES" Flag="0">
+  <Element ID="276" Key="DES_TAG_DAMAGE_ADD_MAIN_ATT_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:26:55</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4801,7 +4891,12 @@
       <Output>Zapewnia premię do głównych atrybutów: sprytu, siły, percepcji, inteligencji, mądrości, mistycyzmu, przeznaczenia.</Output>
     </Texts>
   </Element>
-  <Element ID="277" Key="DES_TAG_DAMAGE_ADD_STRENGTH" Flag="0">
+  <Element ID="277" Key="DES_TAG_DAMAGE_ADD_STRENGTH" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:27:08</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4811,10 +4906,15 @@
     </Groups>
     <Texts>
       <Input>Increase Strength</Input>
-      <Output>Zwiększ siłę</Output>
+      <Output>Zwiększenie siły</Output>
     </Texts>
   </Element>
-  <Element ID="278" Key="DES_TAG_DAMAGE_ADD_STRENGTH_DES" Flag="0">
+  <Element ID="278" Key="DES_TAG_DAMAGE_ADD_STRENGTH_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:27:27</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4824,10 +4924,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Strength attribute.</Input>
-      <Output>Zapewnia premię do atrybutu siły.</Output>
+      <Output>Zapewnia premię do siły.</Output>
     </Texts>
   </Element>
-  <Element ID="279" Key="DES_TAG_DAMAGE_ADD_PERCEPTION" Flag="0">
+  <Element ID="279" Key="DES_TAG_DAMAGE_ADD_PERCEPTION" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:27:45</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4837,10 +4942,15 @@
     </Groups>
     <Texts>
       <Input>Increase Perception</Input>
-      <Output>Zwiększ postrzeganie</Output>
+      <Output>Zwiększenie percepcji</Output>
     </Texts>
   </Element>
-  <Element ID="280" Key="DES_TAG_DAMAGE_ADD_PERCEPTION_DES" Flag="0">
+  <Element ID="280" Key="DES_TAG_DAMAGE_ADD_PERCEPTION_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:27:54</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4850,10 +4960,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Perception attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Percepcji.</Output>
+      <Output>Zapewnia premię do percepcji.</Output>
     </Texts>
   </Element>
-  <Element ID="281" Key="DES_TAG_DAMAGE_ADD_INTELLIGENCE" Flag="0">
+  <Element ID="281" Key="DES_TAG_DAMAGE_ADD_INTELLIGENCE" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:28:04</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4863,10 +4978,15 @@
     </Groups>
     <Texts>
       <Input>Increase Intelligence</Input>
-      <Output>Zwiększ inteligencję</Output>
+      <Output>Zwiększenie inteligencji</Output>
     </Texts>
   </Element>
-  <Element ID="282" Key="DES_TAG_DAMAGE_ADD_INTELLIGENCE_DES" Flag="0">
+  <Element ID="282" Key="DES_TAG_DAMAGE_ADD_INTELLIGENCE_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:28:17</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4876,10 +4996,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Intelligence attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Intelligence.</Output>
+      <Output>Zapewnia premię do inteligencji.</Output>
     </Texts>
   </Element>
-  <Element ID="283" Key="DES_TAG_DAMAGE_ADD_WISDOM" Flag="0">
+  <Element ID="283" Key="DES_TAG_DAMAGE_ADD_WISDOM" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:28:33</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4889,10 +5014,15 @@
     </Groups>
     <Texts>
       <Input>Increase Wisdom</Input>
-      <Output>Zwiększ mądrość</Output>
+      <Output>Zwiększenie mądrości</Output>
     </Texts>
   </Element>
-  <Element ID="284" Key="DES_TAG_DAMAGE_ADD_WISDOM_DES" Flag="0">
+  <Element ID="284" Key="DES_TAG_DAMAGE_ADD_WISDOM_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:33:39</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4902,10 +5032,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Wisdom attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Mądrość.</Output>
+      <Output>Zapewnia premię do mądrości.</Output>
     </Texts>
   </Element>
-  <Element ID="285" Key="DES_TAG_DAMAGE_ADD_MYSTICISM" Flag="0">
+  <Element ID="285" Key="DES_TAG_DAMAGE_ADD_MYSTICISM" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:28:40</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4915,10 +5050,15 @@
     </Groups>
     <Texts>
       <Input>Increase Mysticism</Input>
-      <Output>Zwiększ mistycyzm</Output>
+      <Output>Zwiększenie mistycyzmu</Output>
     </Texts>
   </Element>
-  <Element ID="286" Key="DES_TAG_DAMAGE_ADD_MYSTICISM_DES" Flag="0">
+  <Element ID="286" Key="DES_TAG_DAMAGE_ADD_MYSTICISM_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:33:48</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4928,10 +5068,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Mysticism attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Mistycyzm.</Output>
+      <Output>Zapewnia premię do mistycyzmu.</Output>
     </Texts>
   </Element>
-  <Element ID="287" Key="DES_TAG_DAMAGE_ADD_DESTINY" Flag="0">
+  <Element ID="287" Key="DES_TAG_DAMAGE_ADD_DESTINY" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:28:51</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4941,10 +5086,15 @@
     </Groups>
     <Texts>
       <Input>Increase Destiny</Input>
-      <Output>Zwiększ przeznaczenie</Output>
+      <Output>Zwiększenie przeznaczenia</Output>
     </Texts>
   </Element>
-  <Element ID="288" Key="DES_TAG_DAMAGE_ADD_DESTINY_DES" Flag="0">
+  <Element ID="288" Key="DES_TAG_DAMAGE_ADD_DESTINY_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:33:57</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4954,10 +5104,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Destiny attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Przeznaczenie.</Output>
+      <Output>Zapewnia premię do przeznaczenia.</Output>
     </Texts>
   </Element>
-  <Element ID="289" Key="DES_TAG_DAMAGE_ADD_GATHERING" Flag="0">
+  <Element ID="289" Key="DES_TAG_DAMAGE_ADD_GATHERING" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:29:03</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4967,10 +5122,15 @@
     </Groups>
     <Texts>
       <Input>Increase Gathering</Input>
-      <Output>Zwiększ zgromadzenie</Output>
+      <Output>Zwiększenie zbieractwa</Output>
     </Texts>
   </Element>
-  <Element ID="290" Key="DES_TAG_DAMAGE_ADD_GATHERING_DES" Flag="0">
+  <Element ID="290" Key="DES_TAG_DAMAGE_ADD_GATHERING_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:34:11</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4980,10 +5140,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Gathering attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Zbieranie.</Output>
+      <Output>Zapewnia premię do zbieractwa.</Output>
     </Texts>
   </Element>
-  <Element ID="291" Key="DES_TAG_DAMAGE_ADD_RESEARCH" Flag="0">
+  <Element ID="291" Key="DES_TAG_DAMAGE_ADD_RESEARCH" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:29:15</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -4993,10 +5158,15 @@
     </Groups>
     <Texts>
       <Input>Increase Research</Input>
-      <Output>Zwiększ badania</Output>
+      <Output>Zwiększenie badań</Output>
     </Texts>
   </Element>
-  <Element ID="292" Key="DES_TAG_DAMAGE_ADD_RESEARCH_DES" Flag="0">
+  <Element ID="292" Key="DES_TAG_DAMAGE_ADD_RESEARCH_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:34:31</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5006,10 +5176,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Research attribute.</Input>
-      <Output>Zapewnia premię do atrybutu badania.</Output>
+      <Output>Zapewnia premię do badań.</Output>
     </Texts>
   </Element>
-  <Element ID="293" Key="DES_TAG_DAMAGE_ADD_LUCK" Flag="0">
+  <Element ID="293" Key="DES_TAG_DAMAGE_ADD_LUCK" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:29:28</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5019,10 +5194,15 @@
     </Groups>
     <Texts>
       <Input>Increase Luck</Input>
-      <Output>Zwiększ szczęście</Output>
+      <Output>Zwiększenie szczęścia</Output>
     </Texts>
   </Element>
-  <Element ID="294" Key="DES_TAG_DAMAGE_ADD_LUCK_DES" Flag="0">
+  <Element ID="294" Key="DES_TAG_DAMAGE_ADD_LUCK_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:34:40</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5032,10 +5212,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Luck attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Szczęścia.</Output>
+      <Output>Zapewnia premię do szczęścia.</Output>
     </Texts>
   </Element>
-  <Element ID="295" Key="DES_TAG_DAMAGE_ADD_RITUALS" Flag="0">
+  <Element ID="295" Key="DES_TAG_DAMAGE_ADD_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:29:37</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5045,10 +5230,15 @@
     </Groups>
     <Texts>
       <Input>Increase Rituals</Input>
-      <Output>Zwiększ rytuały</Output>
+      <Output>Zwiększenie rytuałów</Output>
     </Texts>
   </Element>
-  <Element ID="296" Key="DES_TAG_DAMAGE_ADD_RITUALS_DES" Flag="0">
+  <Element ID="296" Key="DES_TAG_DAMAGE_ADD_RITUALS_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:34:51</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5058,10 +5248,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Rituals attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Rytuały.</Output>
+      <Output>Zapewnia premię do rytuałów.</Output>
     </Texts>
   </Element>
-  <Element ID="297" Key="DES_TAG_DAMAGE_ADD_CRAFTING" Flag="0">
+  <Element ID="297" Key="DES_TAG_DAMAGE_ADD_CRAFTING" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:29:44</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5071,10 +5266,15 @@
     </Groups>
     <Texts>
       <Input>Increase Crafting</Input>
-      <Output>Zwiększ rzemiosło</Output>
+      <Output>Zwiększenie rzemiosła</Output>
     </Texts>
   </Element>
-  <Element ID="298" Key="DES_TAG_DAMAGE_ADD_CRAFTING_DES" Flag="0">
+  <Element ID="298" Key="DES_TAG_DAMAGE_ADD_CRAFTING_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:35:02</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5084,10 +5284,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Crafting attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Crafting.</Output>
+      <Output>Zapewnia premię do rzemiosła.</Output>
     </Texts>
   </Element>
-  <Element ID="299" Key="DES_TAG_DAMAGE_ADD_TASK_EFFICIENCY" Flag="0">
+  <Element ID="299" Key="DES_TAG_DAMAGE_ADD_TASK_EFFICIENCY" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:35:49</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5098,10 +5303,15 @@
     </Groups>
     <Texts>
       <Input>Task Efficiency</Input>
-      <Output>Efektywność zadania</Output>
+      <Output>Wydajność</Output>
     </Texts>
   </Element>
-  <Element ID="300" Key="DES_TAG_DAMAGE_ADD_TASK_EFFICIENCY_DES" Flag="0">
+  <Element ID="300" Key="DES_TAG_DAMAGE_ADD_TASK_EFFICIENCY_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:36:45</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5112,10 +5322,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Gathering, Crafting, Luck, Research and Rituals attributes.</Input>
-      <Output>Zapewnia bonus do atrybutów Zbieranie, Rzemiosło, Szczęście, Badania i Rytuały.</Output>
+      <Output>Zapewnia bonus do atrybutów: zbieractwo, rzemiosło, szczęście, badania i rytuały.</Output>
     </Texts>
   </Element>
-  <Element ID="301" Key="DES_TAG_DAMAGE_ADD_PERSONAL_CARRY" Flag="0">
+  <Element ID="301" Key="DES_TAG_DAMAGE_ADD_PERSONAL_CARRY" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:37:48</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5126,10 +5341,15 @@
     </Groups>
     <Texts>
       <Input>Increase Personal Carry</Input>
-      <Output>Zwiększ nośność osobistą</Output>
+      <Output>Zwiększenie udźwigu osobistego</Output>
     </Texts>
   </Element>
-  <Element ID="302" Key="DES_TAG_DAMAGE_ADD_PERSONAL_CARRY_DES" Flag="0">
+  <Element ID="302" Key="DES_TAG_DAMAGE_ADD_PERSONAL_CARRY_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:38:16</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5140,10 +5360,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Personal Carry attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Przeniesienie osobiste.</Output>
+      <Output>Zapewnia premię do osobistego udźwigu.</Output>
     </Texts>
   </Element>
-  <Element ID="303" Key="DES_TAG_DAMAGE_ADD_GROUP_CARRY" Flag="0">
+  <Element ID="303" Key="DES_TAG_DAMAGE_ADD_GROUP_CARRY" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:40:16</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5154,10 +5379,15 @@
     </Groups>
     <Texts>
       <Input>Increase Group Carry</Input>
-      <Output>Zwiększ przewóz grupowy</Output>
+      <Output>Zwiększenie udźwigu grupy</Output>
     </Texts>
   </Element>
-  <Element ID="304" Key="DES_TAG_DAMAGE_ADD_GROUP_CARRY_DES" Flag="0">
+  <Element ID="304" Key="DES_TAG_DAMAGE_ADD_GROUP_CARRY_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:40:32</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5168,10 +5398,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Group Carry attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Carry grupy.</Output>
+      <Output>Zapewnia premię do udźwigu grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="305" Key="DES_TAG_DAMAGE_ADD_SEA_GROUP_CARRY" Flag="0">
+  <Element ID="305" Key="DES_TAG_DAMAGE_ADD_SEA_GROUP_CARRY" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:41:18</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5183,10 +5418,15 @@
     </Groups>
     <Texts>
       <Input>Increase Sea Group Carry</Input>
-      <Output>Zwiększ nośność grupy morskiej</Output>
+      <Output>Zwiększenie udźwigu grupy na morzu</Output>
     </Texts>
   </Element>
-  <Element ID="306" Key="DES_TAG_DAMAGE_ADD_SEA_GROUP_CARRY_DES" Flag="0">
+  <Element ID="306" Key="DES_TAG_DAMAGE_ADD_SEA_GROUP_CARRY_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:41:37</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5198,10 +5438,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Sea Group Carry attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Carry grupy morskiej.</Output>
+      <Output>Zapewnia premię udźwigu grupy na morzu.</Output>
     </Texts>
   </Element>
-  <Element ID="307" Key="DES_TAG_DAMAGE_ADD_MOVEMENT_POINTS" Flag="0">
+  <Element ID="307" Key="DES_TAG_DAMAGE_ADD_MOVEMENT_POINTS" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:41:42</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5215,7 +5460,12 @@
       <Output>Szybszy ruch</Output>
     </Texts>
   </Element>
-  <Element ID="308" Key="DES_TAG_DAMAGE_ADD_MOVEMENT_POINTS_DES" Flag="0">
+  <Element ID="308" Key="DES_TAG_DAMAGE_ADD_MOVEMENT_POINTS_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:42:54</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5226,10 +5476,15 @@
     </Groups>
     <Texts>
       <Input>Provides a bonus to the Movement Points attribute.</Input>
-      <Output>Zapewnia premię do atrybutu Punkty ruchu.</Output>
+      <Output>Zapewnia premię do punktów ruchu.</Output>
     </Texts>
   </Element>
-  <Element ID="309" Key="DES_TAG_DAMAGE_ADD_RANGE_OF_SIGHT" Flag="0">
+  <Element ID="309" Key="DES_TAG_DAMAGE_ADD_RANGE_OF_SIGHT" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:43:13</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5244,7 +5499,12 @@
       <Output>Zwiększony zasięg widzenia</Output>
     </Texts>
   </Element>
-  <Element ID="310" Key="DES_TAG_DAMAGE_ADD_RANGE_OF_SIGHT_DES" Flag="0">
+  <Element ID="310" Key="DES_TAG_DAMAGE_ADD_RANGE_OF_SIGHT_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:43:16</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5259,7 +5519,12 @@
       <Output>Zapewnia premię do zasięgu widzenia.</Output>
     </Texts>
   </Element>
-  <Element ID="311" Key="DES_TAG_DAMAGE_ADD_SEA_MOVEMENT_POINTS" Flag="0">
+  <Element ID="311" Key="DES_TAG_DAMAGE_ADD_SEA_MOVEMENT_POINTS" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:43:31</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -5271,10 +5536,15 @@
     </Groups>
     <Texts>
       <Input>Faster Sea Movement</Input>
-      <Output>Szybszy ruch morski</Output>
+      <Output>Szybszy ruch na morzu</Output>
     </Texts>
   </Element>
-  <Element ID="312" Key="DES_TAG_DAMAGE_ADD_SEA_MOVEMENT_POINTS_DES" Flag="0">
+  <Element ID="312" Key="DES_TAG_DAMAGE_ADD_SEA_MOVEMENT_POINTS_DES" Flag="1">
+    <Confirmation>
+      <Time>12-08-2019 14:43:51</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -13710,7 +13980,12 @@
       <Output>Mówi się, że cmok jest ogierem kochanki strigi i zagładą tych, którzy widzą ją latającą w nocy.</Output>
     </Texts>
   </Element>
-  <Element ID="843" Key="DES_SUBRACE_WATER_VODNIK" Flag="0">
+  <Element ID="843" Key="DES_SUBRACE_WATER_VODNIK" Flag="1">
+    <Confirmation>
+      <Time>16-08-2019 10:52:23</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBRACE</Group>
@@ -13719,10 +13994,15 @@
     </Groups>
     <Texts>
       <Input>Vodnik</Input>
-      <Output>Vodnik</Output>
+      <Output>Wodnik</Output>
     </Texts>
   </Element>
-  <Element ID="844" Key="DES_SUBRACE_WATER_LIGHT_SICK_VODNIK" Flag="0">
+  <Element ID="844" Key="DES_SUBRACE_WATER_LIGHT_SICK_VODNIK" Flag="1">
+    <Confirmation>
+      <Time>16-08-2019 10:53:34</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBRACE</Group>
@@ -13733,7 +14013,7 @@
     </Groups>
     <Texts>
       <Input>Light-Sick Vodnik</Input>
-      <Output>Light-Sick Vodnik</Output>
+      <Output>Wodnik skażony jasnością</Output>
     </Texts>
   </Element>
   <Element ID="845" Key="DES_SUBRACE_WATER_VODNIK_DES" Flag="0">
@@ -13762,7 +14042,12 @@
       <Output>Potężny i starożytny demon wody, który walczył z atakiem ze strony wojowników światła, ale nie bez ceny. Jest teraz słabszy niż jego rówieśnicy.</Output>
     </Texts>
   </Element>
-  <Element ID="847" Key="DES_SUBRACE_WATER_RUSALKA" Flag="0">
+  <Element ID="847" Key="DES_SUBRACE_WATER_RUSALKA" Flag="1">
+    <Confirmation>
+      <Time>16-08-2019 10:54:04</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBRACE</Group>
@@ -13786,7 +14071,12 @@
       <Output>Ruski są równe w pięknie i okrucieństwie. Niezdolni do noszenia potomstwa bez pomocy człowieka, znani są z tego, że zwabiają zarówno dzieci, jak i mężczyzn na własne, mroczne pragnienia.</Output>
     </Texts>
   </Element>
-  <Element ID="849" Key="DES_SUBRACE_WATER_LIGHT_SICK_RUSALKA" Flag="0">
+  <Element ID="849" Key="DES_SUBRACE_WATER_LIGHT_SICK_RUSALKA" Flag="1">
+    <Confirmation>
+      <Time>16-08-2019 10:54:54</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBRACE</Group>
@@ -13797,7 +14087,7 @@
     </Groups>
     <Texts>
       <Input>Light-Sick Rusalka</Input>
-      <Output>Light-Sick Rusalka</Output>
+      <Output>Rusałka skażona jasnością</Output>
     </Texts>
   </Element>
   <Element ID="850" Key="DES_SUBRACE_WATER_LIGHT_SICK_RUSALKA_DES" Flag="0">
@@ -13814,7 +14104,12 @@
       <Output>Ruski są równe pod względem piękna i okrucieństwa. Lekka choroba osłabia jej ciemną duszę, ale nie jej dzikie pragnienia.</Output>
     </Texts>
   </Element>
-  <Element ID="851" Key="DES_SUBRACE_WATER_UTOPIEC" Flag="0">
+  <Element ID="851" Key="DES_SUBRACE_WATER_UTOPIEC" Flag="1">
+    <Confirmation>
+      <Time>16-08-2019 10:54:12</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBRACE</Group>
