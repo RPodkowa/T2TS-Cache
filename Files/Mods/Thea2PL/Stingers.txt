@@ -1,0 +1,218 @@
+-- [EVENT] --StingersTradesmall(0)
++[NODE]2
+[STORY]
+The Stingers pokazuja ci swoj zapas do handlu.
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestescie naszymi przyjaciolmi, placicie nam najpierw.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Teraz sie wylacz.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --StingersTradeadv(1)
++[NODE]2
+[STORY]
+The Stingers pokazuja ci swoj zapas do handlu.
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestescie naszymi przyjaciolmi, wiec najpierw musicie zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Teraz sie wylacz.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Army Stingers(2)
++[NODE]2
+[STORY]
+Slyszysz niebezpieczny szum patrolu Stingera za toba!
+[/STORY]
+[OUT]Pozdrow swoich sojusznikow. 
+[OUT]Badz ostrozny, ale rozmawiaj z nimi.
+[OUT]Sprobuj poradzic sobie z tym.
+[OUT]Walka!
+[OUT]Odsun sie.
+[OUT]Przekupcie Stingerow, aby pokazac, ze jestescie przyjaciolmi.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Ty, dobra, nie walczymy.'
+[/STORY]
+[OUT]Zapytaj, czy chca handlowac.
+[OUT]Wymien jedzenie i okazuj szacunek.
+[/NODE]
+
++[NODE]11
+[STORY]
+Oni nie odpowiadaja, oni ciagle przychodza do ciebie.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Sprobuj poradzic sobie z tym.
+[OUT]Walka!
+[/NODE]
+
++[NODE]17
+[STORY]
+Pokonujesz Stingerow. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Stingery pokonuja cie i zarazaja cie toksyna, zanim uda ci sie uciec.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]25
+[STORY]
+Stingery oddalaja sie, a ty nawet zyskujesz od nich szacunek.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Stingery nie sluchaja, w rzeczywistosci uzywaja twojego rozkojarzonego stanu, zeby cie ugryzc i zarazic cie toksyna, zanim uda ci sie uciec.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Stingers Lair_(3)
++[NODE]3
+[STORY]
+Znajdujesz tetniace zyciem centrum aktywnosci zwierzat. Wyglada to troche jak duzy ul, ale potem dostrzegasz takze pare par podziemnych i rozne inne gniazda, ktore sa zorganizowane w jedna osade. 
+
+Kilka pszczol zbliza sie do ciebie i mowi: 
+'Ty, ty nie jestes bestia. Chcesz walczyc, czy chcesz handlowac?'
+
+[/STORY]
+[OUT]Sprobuj z nimi porozmawiac.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Lair tetni zyciem, ale staraja sie trzymac z dala od ciebie. 
+
+Mozesz handlowac lub leczyc toksyny, a niektore pajaki moga chciec do ciebie dolaczyc za oplata. 
+
+Kiedy jestescie przyjaciolmi, mozecie rekrutowac niektore pszczoly, pajaki lub trenowac swoje bestie, aby staly sie silniejsze, zdrowsze lub madrzejsze.
+[/STORY]
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[OUT][Bestia] Idz zobaczyc trening bestii.
+[OUT]Cos, co cie pociaga. Spojrz w dol.
+[OUT]Plac z jedzeniem, aby weze usunely toksyny.
+[OUT]Plac za rzadkiego pajaka domowego [Co 80 tur].
+[/NODE]
+
++[NODE]7
+[STORY]
+Znajdujesz tetniace zyciem centrum aktywnosci zwierzat. Wyglada to troche jak duzy ul, ale potem dostrzegasz takze pare par podziemnych i rozne inne gniazda, ktore sa zorganizowane w jedna osade. 
+
+Ale nie jestescie przyjaciolmi kluciarzy, wiec atakuja! 
+
+[/STORY]
+[OUT]Obron sie!
+[OUT]Biegnij!
+[/NODE]
+
++[NODE]8
+[STORY]
+Legowisko zadlow jest zniszczone. Jego mieszkancy nie zyja.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Trujacy ukaszenie zadel okazuje sie zbyt silny i musisz uciekac.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Krolowa cie bada: 
+
+'Ciemnosc nadeszla dawno temu i zmienila nas. Wiemy, jak opanowac nasze ciala i umysly. 
+
+Plac nam mieso, duzo! My tez cie szkolimy, przyjacielu bestii.'
+
+
+[/STORY]
+[OUT]Trenuj zwierzeta 
+[OUT]Upadek polityczny.
+[/NODE]
+
++[NODE]22
+[STORY]
+Krolowa cie bada: 
+
+'Ciemnosc nadeszla dawno temu i zmienila nas. Wiemy, jak opanowac nasze ciala i umysly. 
+
+Plac nam mieso, duzo! My tez cie szkolimy, przyjacielu bestii.'
+
+
+[/STORY]
+[OUT]Tak, zaakceptuj.
+[OUT]Upadek polityczny.
+[/NODE]
+
++[NODE]26
+[STORY]
+Maly critter lubi cie i chce sie przylaczyc, ale musisz zaplacic stingerom.
+[/STORY]
+[OUT]Wez to.
+[OUT]Nie, wroc do miasta.
+[/NODE]
+
++[NODE]33
+[STORY]
+Maly critter lubi cie i chce sie przylaczyc, ale musisz zaplacic stingerom.
+[/STORY]
+[OUT]Wez to.
+[OUT]Nie, wroc do miasta.
+[/NODE]
+
+[/EVENT]
+

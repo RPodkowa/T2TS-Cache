@@ -1,0 +1,424 @@
+-- [EVENT] -- Nest spiders(0)
++[NODE]3
+[STORY]
+Dostrzegasz w poblizu gniazdo pajaka. Wyglada na bardzo zajety i myslisz, ze widziales stworzenia niosace w srodku duze kokony.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Krolowa Pajakow] Zastrasza gniazdo.
+[OUT][Bestia] Komunikuj sie z gniazdem.
+[OUT][Druid] Badz jak bestia i rozmawiaj z pajakami.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Pajaki sa nieco wrazliwe. Bestia do bestii, dowiadujesz sie, ze najechali pobliska wioske i przyniesli do gniazda wiele „soczystych” nagrod. 
+
+Poniewaz probuja ustanowic swoja osade jako cos wiecej niz gniazdo, zgadzaja sie dac ci lup w zamian za pozostawienie ich w spokoju. Oferuja rowniez handel. 
+
+[/STORY]
+[OUT]Zaakceptuj ich towary i wyjdz.
+[OUT]Akceptuj takze ich towary i handel.
+[OUT]Zabili cala wioske. Atak!
+[/NODE]
+
++[NODE]43
+[STORY]
+Jako krolowa pajakow twierdzisz, ze dominujesz nad tym zwyklym gniazdem. Rozkazujesz robotnikom porzucic te strone i nigdy nie wracac na swoje terytorium. Oni sa posluszni. 
+
+W gniezdzie znajdziesz mniej szczesliwych ludzi owinietych kokonami. 
+
+Jest malo prawdopodobne, aby ktorykolwiek z nich jeszcze zyl, ale warto to sprawdzic. 
+[/STORY]
+[OUT]Jeden z pajakow postanawia cie sledzic. Zostawcie razem.
+[OUT]Sprawdz kokony, zbierz co mozesz i wyjdz.
+[OUT]Sprawdz kokony, zbierz co mozesz i wyjdz.
+[OUT]Sprawdz kokony, zbierz co mozesz i wyjdz.
+[/NODE]
+
++[NODE]57
+[STORY]
+Niszczysz gniazdo i wewnatrz znajdziesz mniej szczesliwych ludzi owinietych kokonami. 
+
+Jest malo prawdopodobne, aby ktorykolwiek z nich jeszcze zyl, ale warto to sprawdzic. 
+[/STORY]
+[OUT]Sprawdz kokony, zbierz co mozesz i wyjdz.
+[OUT]Sprawdz kokony, zbierz co mozesz i wyjdz.
+[OUT]Sprawdz kokony, zbierz co mozesz i wyjdz.
+[/NODE]
+
++[NODE]61
+[STORY]
+Nie udalo sie nawiazac komunikacji. Gniazdo jest wzburzone i gotowe do roju.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]62
+[STORY]
+Pajaki sa nieco wrazliwe. Bestia do bestii, dowiadujesz sie, ze najechali pobliska wioske i przyniesli do gniazda wiele „soczystych” nagrod.
+
+Poniewaz probuja ustanowic swoja osade jako cos wiecej niz gniazdo, oferuja pewne towary i mowia, ze jeden z nich przylaczy sie do ciebie jako dobry poczatek relacji. 
+
+[/STORY]
+[OUT]Zaakceptuj ich dobra wole i wyjdz.
+[OUT]Zabili cala wioske. Atak!
+[/NODE]
+
++[NODE]67
+[STORY]
+Pajaki sa nieco wrazliwe. Bestia do bestii, dowiadujesz sie, ze najechali pobliska wioske i przyniesli do gniazda wiele „soczystych” nagrod. 
+
+Poniewaz probuja ustanowic swoja osade jako cos wiecej niz gniazdo, zgadzaja sie dac ci lup w zamian za pozostawienie ich w spokoju. Oferuja rowniez handel. 
+
+[/STORY]
+[OUT]Zaakceptuj ich towary i wyjdz.
+[OUT]Akceptuj takze ich towary i handel.
+[OUT]Zabili cala wioske. Atak!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest rat(1)
++[NODE]2
+[STORY]
+Ziemia pod twoimi stopami zapada sie i wpadasz do tunelu. Wkrotce zdajesz sobie sprawe, ze podloga sie porusza. Roi sie od robactwa!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Sprobuj szybko sie wspiac.
+[OUT]Obserwuj szczury. Wydaje sie dziwne, ze cie nie atakuja.
+[OUT][Bestia lub bestia] Staraj sie dominowac nad tym rojem, aby wykonac licytacje!
+[/NODE]
+
++[NODE]6
+[STORY]
+Szczury spadaja w kolejce lub uciekaja, zwazywszy na twoja pozycje. Wkrotce gniazdo lezy puste, abys mogl go lupic. 
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Szczury roi sie od ciebie i gryzie ze zloscia, piszczac, ze juz maja mistrza. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]12
+[STORY]
+Gniazdo szczurow to glownie kupa gnoju i gruzu, ale mozesz byc w stanie uratowac niektore towary.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Wspinasz sie, ale zdajesz sobie sprawe, ze zostales ugryziony przez szczury, a rany sa zainfekowane.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Szczury tego nie maja. Roi sie od ciebie, a ty jestes zmuszony upuscic ladunek podczas ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Jestes bardzo pobity i zmuszony do porzucenia niektorych rzeczy podczas ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Szczury wydaja sie miec obsesje na punkcie noszenia przedmiotow glebiej w tunelu. Rzeczy takie jak galezie, kamienie, kawalki cial, kosci i sprzet. Byc moze zauwazyles tez osobe, ktora zostala porwana przez roj. 
+
+Niektore szczury zaczynaja szarpac wasze stopy, jakby chcialy was niesc, ale na razie oceniaja to za trudne zadanie.
+[/STORY]
+[OUT][Szczur] Zatrzymaj grupe i wypytaj ich.
+[OUT]Idz za szczurami. 
+[OUT]Do ataku!
+[OUT][Druid] Stan sie jak szczur i porozmawiaj z nimi.
+[/NODE]
+
++[NODE]32
+[STORY]
+Dalej w tunelu widac otylego szczura osunietego na tronie z odchodow szczurow, kosci i dziwnych kawalkow. 
+
+Mniejsze szczury porastaja siedzenie i dodaja nowe warstwy.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Druid] Sprobuj porozmawiac z grubym szczurem. Wyglada przynajmniej czesciowo na czucie.
+[OUT][Czarownica] Sprobuj zdominowac szczura. Robactwo powinno byc twoimi chowancami, a nie siedziec na tronach.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Da szefie, czlowieku, szefie jest glodny, da szefowi potrzebuje rzeczy na swoje blyszczace siedzenie, wiec wszyscy jestesmy silni i radzimy sobie z toba z wielkim ludem ... tak, tak ... Ty szczurze, ty przyjacielu, nie mow szefowi, ze pozwolilismy tunelom sie zawalic, dajemy ci rzeczy, tak, tak?'
+
+[/STORY]
+[OUT]Wpatruj sie w nich groznie.
+[OUT]Odrzuc i atakuj!
+[OUT]Zgoda.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Oyoyoy ... ty tez jestes wielkim szefem ... bierzesz nagrode, wielki wrog, znalezlismy to, mamy to, masz to, idziesz, nie zabijasz nas, nie mowisz naszemu szefowi, tak , tak?'
+[/STORY]
+[OUT]Zgoda.
+[/NODE]
+
++[NODE]39
+[STORY]
+Szczury spadaja w kolejce lub uciekaja, zwazywszy na twoja pozycje. Wkrotce gniazdo lezy puste, abys mogl go lupic. 
+
+Gruby szczur dowodzi twoja wyzszoscia i podazy za toba.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest(2)
++[NODE]2
+[STORY]
+Dostrzegasz interesujace miejsce.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Crow nest(3)
++[NODE]2
+[STORY]
+Po gwaltownej burzy wiele drzew spada. Widzisz roj wron okrazajacych jedno z takich drzew, a kiedy zblizysz sie, zdasz sobie sprawe, ze ich gniazdo rowniez upadlo, a ptaki probuja przeniesc to, co moga, do innego drzewa.
+[/STORY]
+[OUT][Percepcja lub lowca] Wiesz, ze gniazda gigantycznych wron moga ukrywac wiele skarbow w srodku. Podejdz blizej, aby zbadac.
+[OUT][Leshy] Drzewo nie jest calkowicie zawalone. Zaspiewajcie to i przywroccie do dawnego siebie, oszczedzajac w ten sposob takze gniazdo.
+[OUT]Z szacunku dla natury poczekaj, az wrony uratuja swoje mlode, a nastepnie zbadaj.
+[OUT]Przekonaj wrony, aby pomogly ci w ruchu - za cene.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz blizej i widzisz szczatki z upadlego gniazda. Istnieje kilka martwych pisklat, ale takze wiele blyszczacych bombek wplecionych w strukture. 
+
+Drzewo jest rowniez dobrej jakosci. 
+
+Wrony nadal przewoza towary gdzies wysoko.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Poczekaj, az skoncza i zbierz to, co zostalo. 
+[OUT]Poczekaj, az skoncza i zbierz to, co zostalo. 
+[OUT]Skradnij sie miedzy nimi, aby ukrasc niektore towary. 
+[OUT]Przekonaj wrony, aby pomogly ci w ruchu - za cene.
+[OUT][Leshy] Drzewo nie jest calkowicie zawalone. Zaspiewajcie to i przywroccie do dawnego siebie, oszczedzajac w ten sposob takze gniazdo.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Czekasz, az piskleta zostana uratowane i odlecisz z silniejszymi wronami. Niewielka grupa maruderow pozostaje, by oczyscic gniazdo. Teraz jest to kwestia najsilniejszego zdobywania lupow. 
+[/STORY]
+[OUT]Teraz atakuj slabsze wrony.
+[OUT]Poczekaj, az skoncza i zbierz to, co zostalo. 
+[OUT]Poczekaj, az skoncza i zbierz to, co zostalo. 
+[OUT]Przekonaj wrony, aby pomogly ci w ruchu - za cene.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozostalo niewiele do zebrania, ale odkrywasz ranna wrone, a kiedy ja leczysz, ptak postanawia podazac twoja sciezka.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Pokonujesz wrony i spladrujesz gniazdo w spokoju. 
+
+[/STORY]
+[OUT]Wez co mozesz i odejdz.
+[OUT]Wez co mozesz i odejdz.
+[/NODE]
+
++[NODE]30
+[STORY]
+Zakradasz sie i udaje ci sie wyrwac jakies towary bez wiedzy wron. Po tym, jak odejda na dobre, zbierasz rowniez pozostale drewno.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Pozostalo niewiele do zebrania, ale odkrywasz ranna wrone, a kiedy ja leczysz, ptak postanawia podazac twoja sciezka.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Wrony widzialy, ze przychodzisz i atakujesz, zmuszajac cie do zrzucenia niektorych towarow.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Szepczesz w starozytnym jezyku duchowym drzew, a stary dab stoi na nowo. Z gniazdem wron w koronie, wrony zaczynaja go odbudowywac. 
+
+Jeden z nich upuszcza prezent w podziekowaniu.
+[/STORY]
+[OUT]Prezent okazuje sie byc wrona, aby ci sluzyc. Pozostawiac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Niestety, drzewo bylo zbyt slabe, by sluchac twojego wezwania. Pomimo twojej proby pomocy uschla. 
+
+Czujesz sie bardzo zasmucony, ale wrony wydaja sie byc na razie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Wrony zgadzaja sie na twoje warunki. Po tym, jak pomozesz im zabezpieczyc gniazdo, zostawiaja ci prezenty w podziekowaniu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Wsciekle morderstwo wron sciga cie, zmuszajac do upuszczenia niektorych towarow, aby uratowac zycie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Odkrywasz ranna wrone, a kiedy ja leczysz, ptak postanawia podazac twoja sciezka. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest snakes(4)
++[NODE]2
+[STORY]
+Odkrywasz podziemne tunele.
+[/STORY]
+[OUT]Najpierw wrzuc kilka pochodni, a nastepnie zbadaj.
+[OUT]Wejdz i zbadaj.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Tunele byly kiedys uzywane do kryjowki, a moze sa pozostaloscia krasnoludzkiej placowki. Tak czy inaczej, tutaj jest wyraznie kilka zasobow. 
+
+Jednak widzisz gniazdo zmij rozciagajace sie wewnatrz i oni cie widza!
+[/STORY]
+[OUT][Druid] Spokojne te weze koncza zwiedzanie komory.
+[OUT][Druid] Spokojne te weze koncza zwiedzanie komory.
+[OUT]Sprobuj szybko sie wspiac.
+[OUT]Do ataku!
+[OUT][Beastmaster] Wyjmij flet i zagraj.
+[/NODE]
+
++[NODE]5
+[STORY]
+Tunele byly kiedys uzywane do kryjowki, a moze sa pozostaloscia krasnoludzkiej placowki. Tak czy inaczej, tutaj jest wyraznie kilka zasobow. 
+
+Jednak widzisz gniazdo zmij rozciagajace sie wewnatrz.
+[/STORY]
+[OUT]Wykorzystaj przewage zaskoczenia i ataku!
+[OUT][Druid] Spokojne te weze koncza zwiedzanie komory.
+[OUT][Druid] Spokojne te weze koncza zwiedzanie komory.
+[OUT]Pomysl o tym, jak przechytrzyc zmije.
+[OUT]Odwrot.
+[/NODE]
+
++[NODE]6
+[STORY]
+Stajesz przed wezami i wyciagasz reke, zaciskajac piesc. Nastepnie powoli wyprostuj jeden palec i zacznij zaznaczac kregi w powietrzu, szepczac slizgajace sie dzwieki mowy weza. 
+
+Weze sa zahipnotyzowane, a ty mozesz spladrowac to miejsce. 
+
+[/STORY]
+[OUT]Jeden z wezy slizga sie za toba. Zostawcie razem.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Stajesz przed wezami i wyciagasz reke, zaciskajac piesc. Nastepnie powoli wyprostuj jeden palec i zacznij zaznaczac kregi w powietrzu, szepczac slizgajace sie dzwieki mowy weza. 
+
+Weze wydaja sie przez pewien czas zachwycone, ale jeden z nich przerywa koncentracje i trzaska na ciebie. Wkrotce pojawia sie inni!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobuj szybko sie wspiac.
+[/NODE]
+
++[NODE]18
+[STORY]
+Gdy weze zniknely, mozesz zrabowac to miejsce.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Wspinasz sie z powrotem, ale nie bez kilku ukaszen wezy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Weze okazuja sie zbyt silne. Roi sie od ciebie i zmusza cie do ucieczki. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Z odpowiednimi ziolami i roslinami oraz odrobina pomyslowosci, wypalasz weze z tunelu. Mozesz nawet polowac na niektorych, gdy probuja uciekac w panice.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Probujesz wypalic weze, ale to tylko ich rozwsciecza. Roi sie od ciebie i zmusza cie do odwrotu.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Stare tradycje goblinow lapiacych szczury zyja w tobie mocno. Twoj flet hipnotyzuje weze, a ty mozesz go zlupic.
+[/STORY]
+[OUT]Jeden z wezy slizga sie za toba. Zostawcie razem.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

@@ -1,0 +1,314 @@
+-- [EVENT] --ForestdemonsTradeadv(0)
++[NODE]2
+[STORY]
+Demony lesne wydobywaja rozne przedmioty, ktore „nabyli” od tych, ktorzy wkraczaja na ich ziemie.
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestescie naszymi przyjaciolmi, nie lubimy tej wymiany, wiec dacie wiecej.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Teraz zacznij od naszej ziemi.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ForestDemonVillage(1)
++[NODE]2
+[STORY]
+Wchodzisz na terytorium zadeklarowane przez demony lesne. Czujesz na sobie wiele oczu. 
+
+- Co cie tu szuka, nieznajomy? Nie lubimy czajacych sie tu osob z zewnatrz.'
+[/STORY]
+[OUT][Drewno, madrosc lub przyjaciel] Zaoferuj straznikom lesnym danine, aby zlagodzic ich gniew.
+[OUT]Zapytaj, czy mozesz wejsc i zbadac?
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Wchodzisz na terytorium zadeklarowane przez demony lesne. Czujesz na sobie wiele oczu. 
+
+„Opusc nasza ziemie, zanim pozre cie gniew lasu, z zewnatrz! 
+
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Im dluzej tu bedziesz, tym bardziej poczujesz ciezkie zniwo lasu na twoim morale. 
+
+„Przyjezdzasz tutaj niosac tyle starego drewna! Odwazysz sie prosic o nasza przysluge. Pozostawiac.'
+[/STORY]
+[OUT]Lepsze wyjscie.
+[OUT]Do ataku!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]6
+[STORY]
+Im dluzej tu bedziesz, tym bardziej poczujesz ciezkie zniwo lasu na twoim morale. 
+
+„Ty, ty i twoj rodzaj, zawsze przychodzicie z brudnymi toporami, zawsze palcie i tniecie! Zacznijcie i niech wasze ciala gnija.'
+[/STORY]
+[OUT]Lepsze wyjscie.
+[OUT]Do ataku!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]7
+[STORY]
+„Co zaoferujesz?'
+[/STORY]
+[OUT]Ofiarowanie zywnosci, wykonane z wlasnych, gotowanych produktow. 
+[OUT]Ofiarowanie zwierzat domowych, w zamian za jakakolwiek zwierzyne, na ktora polowales lub na ktora polujesz.
+[OUT]Osie, aby pokazac, ze nie chcesz zbezczescic lasu.
+[OUT]Do ataku!
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Akceptujemy Twoja oferte. Mozesz wejsc i jesli ktorykolwiek z moich duchow tego zyczy, moga obdarzyc cie blogoslawienstwem.'
+[/STORY]
+[OUT]Zapytaj, czy beda z toba handlowac?
+[OUT]Oczekuj, czy duchy poblogoslawia cie w jakikolwiek sposob.
+[OUT]Zapytaj, czy moga wytrenowac twoje zwierzeta-demony.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Dotychczas udowodniles nam, ze jestescie przyjaciolmi, tak, bedziemy z wami handlowac.'
+[/STORY]
+[OUT]Handel.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Akceptujemy Twoja oferte. Mozesz wejsc i jesli ktorykolwiek z moich duchow tego zyczy, moga obdarzyc cie blogoslawienstwem.'
+[/STORY]
+[OUT]Zapytaj, czy beda z toba handlowac?
+[OUT]Oczekuj, czy duchy poblogoslawia cie w jakikolwiek sposob.
+[OUT]Glos cie wzywa, idz zobaczyc, czego chca?
+[OUT]Zapytaj, czy moga wytrenowac twoje zwierzeta-demony.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Akceptujemy twoja obecnosc tutaj. Mozesz wejsc i jesli ktorykolwiek z moich duchow tego zyczy, moga obdarzyc cie blogoslawienstwem.'
+[/STORY]
+[OUT]Zapytaj, czy beda z toba handlowac?
+[OUT]Oczekuj, czy duchy poblogoslawia cie w jakikolwiek sposob.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Twoj duch jest chory, zabierzemy ci te skaze.'
+[/STORY]
+[OUT]Dziekuje im, odpocznijcie i odejdzcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Twoje cialo jest chore, wezmiemy od ciebie te skaze.'
+[/STORY]
+[OUT]Dziekuje im, odpocznijcie i odejdzcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Siedzisz i ogladasz las, ktory tetni zyciem i jest bardzo relaksujacy. Las szepcze ci do ucha: 
+
+'Leshy, Borowy, nasz opiekun, moze przybierac wiele form, niedzwiedzia jest tylko jedna. Ten bedzie ci towarzyszyl, moze nauczy cie drog lesnych, przyjacielu.' 
+[/STORY]
+[OUT]Dziekuje im, odpocznijcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Siedzisz i ogladasz las, ktory tetni zyciem i jest bardzo relaksujacy.
+[/STORY]
+[OUT]Dziekuje im, odpocznijcie i odejdzcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Siedzisz i ogladasz las, ktory tetni zyciem i jest bardzo relaksujacy.
+[/STORY]
+[OUT]Dziekuje im, odpocznijcie i odejdzcie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Demony lesne sa zabijane i slyszysz straszny szept lasu wokol ciebie ...
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Las pokonuje cie i ledwo unikasz zycia, gdy drzewa i stworzenia rozrywaja twoje cialo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Im dluzej tu bedziesz, tym bardziej poczujesz ciezkie zniwo lasu na twoim morale. 
+
+'Nie odchodz. Wroc z tymi, ktorzy wiedza o lesie, byc moze wtedy bedziemy sluchac.'
+[/STORY]
+[OUT]Lepsze wyjscie.
+[OUT]Do ataku!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]37
+[STORY]
+„Akceptujemy twoja obecnosc tutaj. Mozesz wejsc i jesli ktorykolwiek z moich duchow tego zyczy, moga obdarzyc cie blogoslawienstwem.'
+[/STORY]
+[OUT]Zapytaj, czy beda z toba handlowac?
+[OUT]Oczekuj, czy duchy poblogoslawia cie w jakikolwiek sposob.
+[/NODE]
+
++[NODE]38
+[STORY]
+Z wnetrza lasu rozmawiaja z toba: 
+
+'Twoj panteon nazywa Dievanna ich corka, a natura jest jedna z twoich domen. Chce dolaczyc do waszej sciezki i dowiedziec sie wiecej o tych bogach, ktorzy uczynili was przyjaciolmi lasu.
+[/STORY]
+[OUT]Zaakceptuj tego, kto chce dolaczyc.
+[OUT]Odmow grzecznie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyForestDemon(2)
++[NODE]2
+[STORY]
+Las porusza sie ku tobie i nie wyglada na zbyt szczesliwego, czujesz, ze jego duch zostal przez nich zaatakowany.
+[/STORY]
+[OUT]Pozdrow swoich sojusznikow. 
+[OUT]Badz ostrozny, ale rozmawiaj z nimi.
+[OUT]Walka!
+[OUT]Bron swojego ducha!
+[OUT]Odsun sie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Przepraszam, przyjaciele. Nie poznalismy cie. Pozdrowienia i zyczenia.'
+[/STORY]
+[OUT]Zapytaj, czy chca handlowac.
+[OUT]Medytujcie razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+Oni nie odpowiadaja, oni ciagle przychodza do ciebie.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Walka!
+[OUT]Bron swojego ducha!
+[/NODE]
+
++[NODE]17
+[STORY]
+Niszczysz lesne demony i ich ciala pekaja. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Las osusza twojego ducha, ale pozwala ci uciekac. Tracisz niektore rzeczy po drodze.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pokonujesz lesne demony.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Demon Pet training(3)
++[NODE]3
+[STORY]
+„Masz demonicznych towarzyszy, ale ich pelny potencjal moze nie zostac jeszcze odblokowany. Za oplata umiesc je na kamieniu i damy im moc.'
+
+[Trening twojego zwierzaka podniesie go tylko do czwartej rangi, nie wyzej]
+[/STORY]
+[OUT]Tak, daj skaczke, aby zostac przeszkolonym.
+[OUT]Nie, odejdz.
+[OUT]Tak, daj cmuch, aby zostac przeszkolonym.
+[OUT]Plac swoim duchem, aby trenowac kota.
+[OUT]Plac swoim duchem, aby cwiczyc cmuch.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Oplata zaplacona, dobra, teraz biore twoich znajomych i ucze nowych sztuczek.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Oplata zaplacona, dobra, teraz biore twoich znajomych i ucze nowych sztuczek.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]30
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Oplata zaplacona, dobra, teraz biore twoich znajomych i ucze nowych sztuczek.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]36
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
+[/EVENT]
+

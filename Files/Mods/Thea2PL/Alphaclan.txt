@@ -1,0 +1,4585 @@
+-- [EVENT] --OrcKillDwarf(0)
++[NODE]2
+[STORY]
+Odnajdujecie stare ruiny do ktorych przyslali Was orkowie, by uporac sie z krasnoludami .
+
+Widac, ze ktos tu jest, jednak nie wydaje sie by byli to krasnoludowie.
+[/STORY]
+[OUT][Lowca lub percepcja] Sledzenie istot kopiacych w ziemi.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Sledzicie krasnoludy. Po chwili obserwacji odkrywacie, ze pracuja nad wejsciem do podziemnej struktury. Nie wiedza na razie o Waszej obecnosci.
+[/STORY]
+[OUT]Otoczcie krasnoludy i ustalcie swoje pozycje.
+[OUT]Macie przewage. Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Krasnoludy wpadaja w zasadzke!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujecie miejsce, az w koncu dostrzegacie krasnoludy. Niestety, oni tez Was zauwazaja. Zatem nie ma zbyt wiele czasu, by decydowac co zrobicie.
+[/STORY]
+[OUT]Zatrzymajcie sie. Podniescie rece do gory i powiedzcie, ze nie jestescie tu po to, zeby walczyc. Wyjasnijcie im, ze musza odejsc. Orkowie ich tutaj nie chca, bo uwazaja, ze to ich ziemia!
+[OUT]Sprobujcie wygladac groznie. Postraszcie ich i powiedzcie, zeby stad odeszli natychmiast.
+[OUT]Do ataku!
+[OUT][Krasnolud]Spytaj co robia tutaj, tak gleboko na terytorium orkow.
+[/NODE]
+
++[NODE]16
+[STORY]
+Zostajecie mocno pobici, a orkowie chcac nie chcac, musza przyjsc Wam z pomoca. Wyraznie nie sa pod wrazeniem Waszej 'pomocy'.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+'Och, chlopcze. Ciezka to sprawa. Dowiedzielismy sie, ze tu pochowano stare kowadlo. Kowadlo znanego krasnoludzkiego mistrza kowalstwa. Jak sie pewnie domyslacie jest to rodowa pamiatka. Musimy je znalezc zanim te skunksy wyciagna po nie swoje zielone lapska. Czy pomozecie nam?'
+[/STORY]
+[OUT][Rzemieslnik lub Narzedzia] Zaoferujcie pomoc.
+[OUT]Powiedzcie, ze pomozecie im zrobic to szybciej tak, aby mogli uniknac spotkania z orkami.
+[OUT]Nalegajcie, by jesli cenia swoje zycie, odeszli juz teraz.
+[/NODE]
+
++[NODE]20
+[STORY]
+Zostajecie przez jakis czas i pomagacie krasnoludom odzyskac kowadlo. 
+'Jestescie z kamienia i stali, jak my. Macie nasza krasnoludzka wdziecznosc. Wezcie ze soba to.. i powiedz swym dzikim przyjaciolom, ze juz nas tu nie ma. Badzcie jednak ostrozni majac ten rodzaj za przyjaciela. Zamieszanie i mrok biegnie w ich zylach!'
+[/STORY]
+[OUT]Pokloncie sie i zyczcie dobrej drogi.
+[/NODE]
+
++[NODE]23
+[STORY]
+'Smialo, panienki skaczcie i bawcie sie wokol Waszych zielonych kolesi. My, tutaj mamy cos do zrobienia i kazdemu kto nam przeszkodzi oferujemy siarczystego kopniaka.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Zrywaja sie na rowne nogi. Kilku krzepkich krasnoludzkich wojownikow staje przed Wami zagradzajac droge toporami.
+'Ej, Wy tam! Walnac Was? Czego tu, to nasze znalezisko.'
+[/STORY]
+[OUT]Przekonajcie krasnoludy, ze orkowie sa liczniejsi. Wielka banda krwiozerczych zielonych bestii jest juz w drodze wiec lepiej bedzie jak sie stad zabiora.
+[OUT]Do ataku!
+[OUT][Krasnolud]Spytaj co robia tutaj, tak gleboko na terytorium orkow.
+[/NODE]
+
++[NODE]35
+[STORY]
+'Hah, ani Wy ani ci glupcy i tak nie otworzycie tego. Teraz odejdziemy, ale wrocimy tu! Spiewajcie teraz z radosci oskijskie pomioty. Tak, Wy kumple orkow!'
+Orkowie sa zadowoleni gdy widza 'uciekajacych' krasnoludow. Co prawda woleli by widziec ich ciala lezace w blocie, ale mimo to i tak otrzymujecie zaplate.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Orkowie nie zdaja sobie sprawy, ze pomogliscie krasnoludom i ciesza sie, ze sie ich pozbyliscie. Skarza sie jednak, bo nigdzie nie ma cial krasnoludow, co wedlug nich oznacza, ze nie wybraliscie sciezki wojownika. Nadal jednak chetni sa zaplacic.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Krasnoludy sa wdzieczne za Wasza pomoc. Zostaja dluzej, aby odzyskac kowadlo, co moze im zajac troche wiecej czasu.
+
+[/STORY]
+[OUT]Pokloncie sie i zyczcie dobrej drogi.
+[/NODE]
+
++[NODE]39
+[STORY]
+Orkowie nie sa zadowoleni z Waszych wynikow. Wysylaja swoj wlasny oddzial by zabic krasnoludy. Twierdza, ze nigdy wiecej nie powinniscie oferowac pomocy, jesli nie zamierzacie dotrzymac slowa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Orkowie nie sa zachwyceni Waszym 'rozwiazaniem', ale w koncu dotrzymuja obietnicy i pozwalaja krasnoludom wydobyc kowadlo.
+
+'Daliscie slowo, ze dla nas dzialac bedziecie. My nie lamiemy obietnicy, ale Wy jestescie tchorzami! Zaplacimy za prace ale na tym koniec! Nie jestesmy w przyjazni!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy informujecie orkow o swojej porazce, wyraznie sa rozczarowani.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijacie krasnoludy.
+
+Orkowie sa zachwyceni i zadowoleni z Waszej pomocy. W zamian oferuja mala nagrode.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+'Och, chlopcze. Ciezka to sprawa. Dowiedzielismy sie, ze tu pochowano stare kowadlo. Kowadlo znanego krasnoludzkiego mistrza kowalstwa. Jak sie pewnie domyslacie jest to rodowa pamiatka. Musimy je znalezc zanim te skunksy wyciagna po nie swoje zielone lapska. Czy pomozecie nam?'
+[/STORY]
+[OUT][Rzemieslnik lub Narzedzia] Zaoferujcie pomoc.
+[OUT]Powiedzcie, ze pomozecie im zrobic to szybciej tak, aby mogli uniknac spotkania z orkami.
+[OUT]Nalegajcie, by jesli cenia swoje zycie, odeszli juz teraz.
+[OUT][Ork] Pokaz im co moga zrobic te, skunksowe zielone rece. Do ataku!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillWolves(1)
++[NODE]2
+[STORY]
+Klan Alfa wyslal Was byscie dotarli do wilczej watachy.  Wytropiliscie jaskinie w ktorej zwierzeta spia.
+[/STORY]
+[OUT]Umiecie obchodzic sie z wilkami. Znajdzcie rozwiazanie.
+[OUT][Lowca] Sledz wilki.
+[OUT][Natura] Sprobujcie przemowic do wewnetrznego ducha wilkow i w imie natury uspokoic je.
+[OUT][Mistrz strzyg lub Mistrzyni strzyg] Wyczuwasz tutaj sluge nocy. Wezwij je i spraw by sluchaly Twych polecen!
+[OUT]Do ataku!
+[OUT]Uzyjcie miesa i sprobujcie zwabic mlode do wioski orkow.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Obserwujecie watache i szybko zauwazacie, ze nie sa to zwykle wilki. Wyraznie wykazuja cechy jakie przypisywane sa ludziom -- wszyscy, albo przynajmniej niektorzy z nich sa wilkolakami.
+[/STORY]
+[OUT][Wilkolak] Podbiegnij do watachy i porozmawiaj z przywodca. Sprawdz czy nie bylby chetny podeslac kilku swoich wilkow, by sluzyly orkom.
+[OUT][Wilkolak] Podbiegnij do watachy i porozmawiaj z przywodca. Sprawdz czy nie bylby chetny podeslac kilku swoich wilkow, by sluzyly orkom.
+[OUT]Porozmawiaj z wilkolakiem-przywodca i przekonaj go, ze jego niewielka watacha bedzie lepiej traktowana, jesli pozwoli niektorym wilkom udac sie do wioski orkow.
+[OUT][Nocny demon lub sila] Sprobujcie przejac terytorium, byc moze cofna sie, jesli uznaja Was za silniejszych.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Obserwujecie watache i szybko zauwazacie, ze nie sa to zwykle wilki. Wyraznie wykazuja cechy jakie przypisywane sa ludziom -- wszyscy, albo przynajmniej niektorzy z nich sa wilkolakami.
+Mozecie sprobowac zastawic pulapki i zlapac niektore wilki. Jesli jednak dopadna Was wilkolaki, mozecie nie przezyc.
+[/STORY]
+[OUT]Zasadzka na wilki.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[OUT]Umiecie obchodzic sie z wilkami. Znajdzcie rozwiazanie.
+[OUT][Natura] Sprobujcie przemowic do wewnetrznego ducha wilkow i w imie natury uspokoic je.
+[OUT][Mistrz strzyg lub Mistrzyni strzyg] Wyczuwasz tutaj sluge nocy. Wezwij je i spraw by sluchaly Twych polecen!
+[/NODE]
+
++[NODE]7
+[STORY]
+Podbiegacie do watachy i mowicie o klanach orkow. Przywodca stada zgadza sie sprobowac i wyslac czesc swoich wilkow by sluzyly klanom.
+
+Orki sa pod wrazeniem Waszych umiejetnosci -- sojusz z wilcza watacha jest dla nich poteznym dobrodziejstwem. Czcza Was niczym prorokow i zostawiaja dary.
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Wilkolaki klaniaja sie Wam wyczuwajac Wasza dominacje. Dzieki postawie jaka prezentujecie udaje sie zdobyc kilka mlodych wilkow, ktore mozna przekazac orkom
+
+Klan Alfa jest bardzo zadowolony z Waszej pracy.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Udaje sie Wam zdobyc kilka mlodych szczeniat dla orkow, oraz uwiezic kilka doroslych wilkow. Na szczescie dla Was, tylko dorosle wilki potrafia gryzc. 
+
+Orkowie sa pod wrazeniem Waszych umiejetnosci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Oddajesz mieso i doprowadzasz zwierzeta do wioski orkow.
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zwabiacie kilka szczeniat do wioski ale wkrotce zdajecie sobie sprawe z tego, ze nie mieliscie do czynienia ze zwyklymi wilkami tylko w koncu byly to wilkolaki. Watacha atakuje orkow i odbiera swoje mlode. 
+
+Orkowie z zadowoleniem rzucili sie na wilki dajac upust swojej agresji. Nie sa jednak zadowoleni z Waszej, jak sie okazalo, dosc slabej wiedzy na temat wilkow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Zwabiacie kilka szczeniat do wioski orkow. Klan w sumie jest zadowolony z Waszej pracy, jednak marudza, ze zrobiliscie to nie jak wojownicy, a niczym tchorze.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Udaje sie zwabic niektore szczeniaki do wioski orkow.
+
+Klan Alfa jest zadowolony z Waszej pracy, chociaz mowia, ze nie zrobiliscie tego jak przystalo na prawdziwych wojownikow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie lud, ktory poprosil cie o pomoc, sam poradzi sobie z problemem, wiec nie zyskasz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+'Arggghh!, Slowa, ludzkie slowa. Jestesmy wolni! Jestesmy wolni!'
+Watacha zaczyna krazyc wokol Was.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Uzyjcie miesa i sprobujcie zwabic mlode do wioski orkow.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]33
+[STORY]
+Wasza intryga zawodzi. Jestescie atakowani przez wilkolaki, a orkowie zmuszeni sa ocalic Wasze skory. Smieja sie teraz z Was.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+'Madroscia jest tworzyc sojusze z korzyscia dla obu stron.'
+
+Rzecze przywodca stada i zgadza sie, by kilka mlodych wilkow odeszlo z orkami by im sluzyc. 
+
+Orkowie sa pod Waszym wielkim wrazeniem. Uklad z wilczym stadem jest dla nich poteznym dobrodziejstwem. Oddaja Wam czesc i pozostawiaja prezenty.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Orkowie smieja sie z Waszego braku kompetencji. Tracicie calkowicie ich szacunek.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Podbiegacie do watachy i mowicie im o orkach, ale wilki z kolei opowiadaja o swojej wolnosci i zadzy zycia. Reagujecie na ich wezwanie i zanim sie zorientujecie, bierzecie udzial w polowaniu na klan Alfa. 
+
+Orkowie podejmuja wyzwanie. Widzac Wasza determinacje i zelazna wole, udaje sie zyskac  troche ich przyjazni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Wilkolak przywodca odpowiada na wezwanie i przychyla sie do Waszej prosby. Watacha wysyla niektore wilki z Wami by sluzyly orkom. 
+
+Klan Alfa jest zadowolony z Waszej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Zabijacie watache, po czym stwierdzacie, ze nie zostal ani jeden wilk, ktorego moglyby zabrac orki. 
+
+Klan Alfa kpia z Was jako mistrzow bestii i glupoty jaka sie wykazaliscie. Jednak cenia ducha walki ktory pokazaliscie. Zyskujecie nieco w ich oczach.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]54
+[STORY]
+Gdy odchodzicie, jeden z wilkolakow wyje po czym szepcze w Wasza strone: 
+
+'Jeden z Was jest z naszej krwi, a teraz, gdy uslyszy wezwanie, obudzi sie. 
+
+Jesli chcesz, przyjdz do nas. Jesli nie, zyczymy udanego polowania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Udaje sie Wam dobyc kilka mlodych szczeniat dla orkow i uwiezic takze kilka doroslych, ale wilkolaki polapaly sie co jest grane i z trudem unikacie ich gniewu. 
+
+Orki sa pod wrazeniem Waszych umiejetnosci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --AlphaclansTradesmall(2)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jestescie naszymi przyjaciolmi, wiec nie bedziemy przyjmowac zywnosci jako zaplaty. Najpierw jednak bedziecie musieli zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+‘Dobrze pohandlowac. Teraz odejdz i walcz z wrogami!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --AlphaclansTrademedium(3)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Nie jestescie naszymi przyjaciolmi, wiec najpierw musicie zaplacic nam dodatkowo.
+
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+‘Dobrze pohandlowac. Teraz odejdz i walcz z wrogami!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --AlphaclansTradeadv(4)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jestescie naszymi przyjaciolmi, wiec nie bedziemy przyjmowac zywnosci jako zaplaty. Najpierw jednak bedziecie musieli zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+‘Dobrze pohandlowac. Teraz odejdz i walcz z wrogami!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --AlphaclansVillageSmall(5)
++[NODE]2
+[STORY]
+‘Jesli cenicie swoje skory, mowcie szybko lub umierajcie jeszcze szybciej! Po co tu przylezliscie?'
+
+Niektore aktywnosci w wiosce beda dostepne tylko wtedy, gdy przyjaznicie sie z jej ludzmi, a niektore sa ograniczone do szansy, wiec powrot od czasu do czasu moze byc tego wart. 
+
+Ta wioska jest mala, jako taka nie oferuje rekrutacji i moze miec tez inne opcje ograniczone.
+[/STORY]
+[OUT]Zapytajcie, czy mozecie w czyms pomoc.
+[OUT]Powiedzcie, ze przybyliscie tylko w odwiedziny i odpoczac, byc moze tez uleczyc rany.
+[OUT]Zapytajcie, czy mozesz kupic jakies wilki.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+'Nie jestescie naszymi przyjaciolmi, wiec najlepiej ruszajcie stad, bo inaczej zasmakujecie naszych ostrzy.'
+
+Widzicie jak zbieraja sie orki.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Stancie pewnie i powiedzcie, ze chcesz udowodnic swoja wartosc, pokazujac swoja sprawnosc fizyczna.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a lupy sa Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+'Niektorzy z naszych ludzi zagineli. Myslimy, ze stado wilkow moglo stac sie zbyt aroganckie. Oczywiscie wysylalibysmy naszych tropicieli, ale skoro chcecie grac dla nas, moze Wy powinniscie isc.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+‘Chodzcie, usiadzcie przy ogniu, trenujcie z nami lub odwiedzcie znachorke, jesli sie odwazycie! Sa tez mezczyzni, ktorzy beda do Waszej dyspozycji, jesli chcecie.'
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc fizyczne rany. 
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Zapytajcie, czy jest orcza czarownica, ktora moze leczyc duchowe dolegliwosci.
+[OUT]Tropiciel krwi demonstruje swoja sprawnosc. Dolaczcie do niego, a moze nauczy Was sztuczki lub dwoch.
+[OUT]Wroccie nastepnego dnia.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Niedaleko stad jest niewielki dol z lawa. Wiele naszych wojowniczych kobiet poszlo zlozyc hold ognia, ale zadna nie powrocila. Mamy wiele problemow z utrzymaniem tej malej osady, wiec jesli naprawde chcesz pomoc, idzcie zobaczyc, gdzie poszly nasze wojowniczki.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+'Chcecie udowodnic swoja wartosc? Dobrze. Zrobcie to!'
+[/STORY]
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[OUT]Dzwigacie sporo drewna. Zapytaj, czy potrzebuja troche.
+[OUT]Widzicie, ze potrzebuja metalu. Powiedzcie im, ze chcecie dac troche swojego.
+[OUT]Na razie nie ma tu nic do roboty. Wroccie nastepnego dnia.
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[/NODE]
+
++[NODE]22
+[STORY]
+'Niektore spiczaste uszy kreca sie wokol naszych lasow i chcemy, zeby zniknely. W ten sposob udowodnicie swoja wartosc.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+'Moge z Was zdjac ciemnosc, ale musisz zaplacic. Magia ma swoja cene. Uzdrawianie ducha jest latwiejsze, ale przeklenstwa, coz, sa paskudnymi rzeczami i beda cie kosztowac wiecej - bedzie Was to kosztowac krew. Och, jeszcze jedno, nie lecze chlopow.'
+[/STORY]
+[OUT][Wiedzma] Powiedz, ze potrzebujesz tylko pomocy swojej siostry. Sama zaplacisz i obiecasz, ze jej nie obciazysz. 
+[OUT]Zgodzcie sie zaplacic cene za usuniecie klatwy.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT][Ork] Popros ja o tradycyjne leczenie orczego ducha zarowno z przeklenstw, jak i ran duchowych.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Czarownica mowi: 'Hah, powinnas tak powiedziec od razu, siostro. Nie probowalbym ci sprzedac kitu, ha. Wezmy sie za to.'
+
+Razem usuniecie wszystkie przeklenstwa, ktore mieliscie i uzdrowicie ducha. 
+
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+'Oddajecie nam swoje towary, uznajac nasza wyzszosc, dobrze!” 
+Mozemy zaoszczedzic troche resztek dla Was.'
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+'Mamy kilka dobrych wilkow, ale musicie byc pewni, ze potraficie je oswoic - nie sa pupilkami. To zwierzeta, ktore moga stac sie twoim towarzyszem!'
+[/STORY]
+[OUT]Kupcie wilka. 
+[/NODE]
+
++[NODE]47
+[STORY]
+„Tak, mamy zadanie w sam raz dla Was. Idzcie do starych ruin, w ktorych kiedys mieszkalismy, zanim Strzaskanie to wszystko zepsulo. Odkop zelazne bostwo. To dla nas bardzo wazne, ale nie moglismy sami tam pojsc. Udowodnijcie swa wartosc.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+„Ha! Jestescie twardymi draniami. Dobrze, chodzcie, ale bedziemy patrzec Wam na rece!'
+[/STORY]
+[OUT]Zapytajcie o mozliwosc handlu.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[/NODE]
+
++[NODE]53
+[STORY]
+'Jestescie slabeuszami, nie wartymi naszej uwagi. Won!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]71
+[STORY]
+'Idziesz dziwna sciezka, ale przypuszczam, ze Ty jestes z naszej krwi, wiec tak, ulecze twojego ducha plomieniem, ktory zabije innych. 
+
+Twoi przyjaciele nadal musza mi placic, jesli potrzebuja uzdrowienia.'
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[OUT]Zgodzcie sie zaplacic cene za usuniecie klatwy.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT][Wiedzma] Powiedz, ze potrzebujesz tylko pomocy swojej siostry. Sama zaplacisz i obiecasz, ze jej nie obciazysz. 
+[/NODE]
+
++[NODE]75
+[STORY]
+„Albo nie mamy dla Was zadnej pracy, albo Wy lub twoi krewniacy juz jestescie na dobrej drodze, aby nam pomoc. Zakonczcie te sciezke, zanim poprosicie o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]77
+[STORY]
+„Jestescie smutni, prawda? Chodzcie, sprawie, ze zapomnicie o smutku!'
+
+Ogromna orcza kobieta zbliza sie do Was z zelaznym pretem.
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Byc moze nie. Odejdzcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --AlphaclansVillageMed(6)
++[NODE]2
+[STORY]
+'Stac? Och, to Wy. Mozecie wejsc.'
+
+Niektore aktywnosci w wiosce beda dostepne tylko wtedy, gdy przyjaznicie sie z jej ludzmi, a niektore sa ograniczone do szansy, wiec powrot od czasu do czasu moze byc tego wart. 
+
+Gdy staniecie sie przyjaciolmi, otrzymacie szanse na rekrutacje.
+[/STORY]
+[OUT]Zapytajcie, czy mozecie w czyms pomoc.
+[OUT]Powiedzcie, ze przybyliscie tylko w odwiedziny i odpoczac, byc moze tez uleczyc rany.
+[OUT]Powiedzcie, ze wiecie, ze orkowie maja dostep do najlepszych wilczych watach i spytajcie, czy mozecie cos kupic.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Popros o przeglad siedzib wojownikow, i zapytaj o szanse na rekrutacje. 
+[OUT]Sprawdzcie, czy mozecie trenowac tutaj swoje zwierzaki.
+[OUT]Do ataku!
+[OUT]Popros o przeglad siedzib wojownikow, i zapytaj o szanse na rekrutacje. 
+[OUT]Widzicie znajoma twarz, podejdzcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+'Nie jestescie naszymi przyjaciolmi, wiec najlepiej ruszajcie stad, bo inaczej zasmakujecie naszych ostrzy.'
+
+Widzicie jak zbieraja sie orki.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Stancie pewnie i powiedzcie, ze chcesz udowodnic swoja wartosc, pokazujac swoja sprawnosc fizyczna.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a lupy sa Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+'Krasnoludy zdaja sie myslec, ze moga kopac gdziekolwiek chca, jak gdyby cala ziemia nalezala do nich. Powiedzcie im, zeby sie wynosili, zanim sami przemowimy im do rozsadku!'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+‘Chodzcie, usiadzcie przy ogniu, trenujcie z nami lub odwiedzcie znachorke, jesli sie odwazycie! Sa tez mezczyzni, ktorzy beda do Waszej dyspozycji, jesli chcecie.'
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc fizyczne rany. 
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Zapytajcie, czy jest jakis czarownik, ktory moze leczyc duchowe dolegliwosci.
+[OUT]Tropiciel krwi demonstruje swoja sprawnosc. Dolaczcie do niego, a moze nauczy Was sztuczki lub dwoch.
+[OUT]Wroccie nastepnego dnia.
+[OUT][Kobieta] Powiedz, ze chcialbys tych meskich uslug, o ktorych wspominali.
+[OUT][Mezczyzna] Powiedz, ze chcialbys tych meskich uslug, o ktorych wspominali.
+[/NODE]
+
++[NODE]19
+[STORY]
+'Nieznane sily skalaly nasze stosy pogrzebowe. Kosci orkow powstaly z popiolu i teraz nie moga wrocic do siebie. Udowodnicie swoja wartosc, jesli sie z nimi uporacie.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+'Chcecie udowodnic swoja wartosc? Dobrze. Zrobcie to!'
+[/STORY]
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[OUT]Dzwigacie sporo drewna. Zapytaj, czy potrzebuja troche.
+[OUT]Widzicie, ze potrzebuja metalu. Powiedzcie im, ze chcecie dac troche swojego.
+[OUT]Na razie nie ma tu nic do roboty. Wroccie nastepnego dnia.
+[OUT]Czy sa tu jakies interesujace miejsca?
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Jest kilka orkow nie zbyt daleko stad ktore nie naleza do zadnego klanu  - bardzo uparci, nie chca odejsc. Pozbeciecie sie ich, tak? Oni sa . . . problemem dla mnie. Byc moze obecnosc osob z zewnatrz pomoze.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Moge zdjac ciemnosc z Was, ale musicie zaplacic. Magia ma swoja cene. Uzdrawianie ducha jest latwiejsze, ale przeklenstwa, coz, sa paskudnymi rzeczami i beda Was kosztowac wiecej - bedzie Was to kosztowac krew. Och, i jeszcze jedno, nie lecze mezczyzn.'
+[/STORY]
+[OUT][Wiedzma] Powiedz, ze potrzebujesz tylko pomocy swojej siostry. Sama zaplacisz i obiecasz, ze jej nie obciazysz. 
+[OUT]Zgodzcie sie zaplacic cene za usuniecie klatwy.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT][Ork] Popros ja o tradycyjne leczenie orczego ducha zarowno z przeklenstw, jak i ran duchowych.
+[/NODE]
+
++[NODE]29
+[STORY]
+Czarownica mowi: 'Hah, powinnas tak powiedziec od razu, siostro. Nie probowalbym ci sprzedac kitu, ha. Wezmy sie za to.'
+
+Razem usuniecie wszystkie przeklenstwa, ktore mieliscie i uzdrowicie ducha. 
+
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+'Oddajecie nam swoje towary, uznajac nasza wyzszosc, dobrze!” 
+Mozemy zaoszczedzic troche resztek dla Was.'
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Mamy kilka dobrych wilkow, ale musicie byc pewni, ze umiecie je oswoic - nie sa przytulaskami. To zwierzeta, ktore moga stac sie prawdziwym towarzyszem!'
+[/STORY]
+[OUT]Kupcie wilka. 
+[/NODE]
+
++[NODE]47
+[STORY]
+„Goblinska cholota rozbila oboz w poblizu. Wyglada na to, ze chca tu zostac. Nie podoba nam sie to. Chcecie byc dla nas cos warci to, idzcie i zabijcie ich!'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+„Ha! Jestescie twardymi draniami. Dobrze, chodzcie, ale bedziemy patrzec Wam na rece!'
+[/STORY]
+[OUT]Zapytajcie o mozliwosc handlu.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Jestescie slabeuszami, nie marnujcie naszego czasu. Odejdzcie!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]71
+[STORY]
+'Idziesz dziwna sciezka, ale przypuszczam, ze Ty jestes z naszej krwi, wiec tak, ulecze twojego ducha plomieniem, ktory zabije innych. 
+
+Twoi przyjaciele nadal musza mi placic, jesli potrzebuja uzdrowienia.'
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[OUT]Zgodzcie sie zaplacic cene za usuniecie klatwy.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT][Wiedzma] Powiedz, ze potrzebujesz tylko pomocy swojej siostry. Sama zaplacisz i obiecasz, ze jej nie obciazysz. 
+[/NODE]
+
++[NODE]74
+[STORY]
+„Udowodniliscie swa wartosc, a my nie mozemy tego wszystkiego przeszukac. Oczywiscie, sa miejsca warte Waszego zachodu. Prosze smialo, droga wolna.'
+[/STORY]
+[OUT]Skincie glowami ze zrozumieniem.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]79
+[STORY]
+„Kilka demonicznych szumowin sprawia problemy. Chcecie udowodnic swoja wartosc, to znajdzcie na nich sposob.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]87
+[STORY]
+Paradnym krokiem przychodzi kilku orczych mezczyzn po czym preza swoje muskuly liczac na Wasz podziw. Kiedy widza, ze glownym zainteresowanym jest mezczyzna, zaczynaja sie wahac, ale gest kobiety wymusza ich posluszenstwo. 
+
+Wzruszaja ramionami, jakby mowili „A co mi tam”. Po chwili jeden ze szczesliwcow pozwala sie zabrac za wlosy do namiotu. 
+
+Goracy seks nie jest tylko metafora dla orkow, poniewaz kochasz sie na lozku na ktorym rozlozony jest rozzarzony wegiel!
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]88
+[STORY]
+Paradnym krokiem przychodzi kilku orczych mezczyzn po czym preza swoje muskuly liczac na Wasz podziw. Po chwili jeden ze szczesliwcow pozwala sie zabrac za wlosy do namiotu. 
+
+Goracy seks nie jest tylko metafora dla orkow, poniewaz kochasz sie na lozku na ktorym rozlozony jest rozzarzony wegiel!
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]92
+[STORY]
+„Jestescie smutni, prawda? Chodzcie, sprawie, ze zapomnicie o smutku!'
+
+Ogromna orcza kobieta zbliza sie do Was z zelaznym pretem.
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Byc moze nie. Odejdzcie.
+[/NODE]
+
++[NODE]94
+[STORY]
+„Albo nie mamy dla Was zadnej pracy, albo Wy lub twoi krewniacy juz jestescie na dobrej drodze, aby nam pomoc. Zakonczcie te sciezke, zanim poprosicie o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]100
+[STORY]
+Poszukujecie trenerow zwierzat.
+[/STORY]
+[OUT]Widzicie tropicieli krwi, trenuja z wilkami i nie tylko.
+[OUT]Idzcie do wiedzmy, zeby trenowac chowance.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillOrcs(7)
++[NODE]2
+[STORY]
+Znajdujecie miejsce, do ktorego zostaliscie wyslani, aby uporac sie z wygnanymi orkami, sprawiajacymi klopoty klanowi Alfa. Z jakiegos powodu Alfy nie chca rozwiazac tego problemu sami.
+[/STORY]
+[OUT][Ork lub bandyta] Wiesz, jak sobie radzic z lotrzykami - Ty tez sie przeciez w to bawiles. Porozmawiaj z nimi. 
+[OUT][Zamieszanie] Nawrzeszczcie na orkow i zmuscie ich by ruszyli swoje ciezkie tylki. Powiedzcie, ze siedza tutaj, bez klanu i znudzeni, jak tchorze. Musza isc dalej, walczyc, rzucic wyzwanie swiatu!
+[OUT]Przekupcie orkow, aby odeszli.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[OUT][Orcza matriarcha] Rozkaz im, by byli posluszni, bo sa pod Twoja wladza!
+[OUT]Idzcie do nich i zapytajcie, dlaczego nie opuszcza tych ziem, jesli zostali wygnani.
+[OUT][Harmonia] Przekonajcie wygnane orki, ze madrzej jest odejsc niz stawic czola Wam lub co gorsza pozniej zmierzyc sie z innymi orkami.
+[/NODE]
+
++[NODE]3
+[STORY]
+Przychodzicie do obozu wygnancow i widzicie tylko kilku orkow. Wygladaja na szczuplych i zmeczonych, wiec moze uda sie z nimi negocjowac. Trzeba uwazac, bo  przeciez powszechnie wiadomo, ze te istoty przepelnia chaos.
+[/STORY]
+[OUT][Ork] Przekonaj swoich krewnych, ze musza szukac wyzwan. Musza zdobyc i zaniesc do domu trofea krwi, aby odzyskac honor, a nie siedziec tutaj i plakac jak niemowleta!
+[OUT][Ork] Przekonaj swoich krewnych, ze musza szukac wyzwan. Musza zdobyc i zaniesc do domu trofea krwi, aby odzyskac honor, a nie siedziec tutaj i plakac jak niemowleta!
+[OUT][Bandyta lub ork] Przekonaj swoich krewnych, ze musza szukac wyzwan. Musza zdobyc i zaniesc do domu trofea krwi, aby odzyskac honor, a nie siedziec tutaj i plakac jak niemowleta!
+[OUT][Bandyta] Zamien sie z nimi. Wyjasnij, ze dni bezsensownego, honorowego zycia maja za soba, wiec czas pomyslec o kolejnym dobrym posilku i przygodzie. Mozliwe ze sklonny jestes zaplacic, aby poszli rozrabiac w innym miejscu.
+[OUT]Wciaz mozecie ich zaskoczyc, Atak!
+[/NODE]
+
++[NODE]7
+[STORY]
+'Tak, tak! Racja, jestesmy bezwartosciowymi szumowinami, musimy isc i walczyc! Za honor!'
+
+Klan Alfa jest pod wrazeniem tego w jaki sposob zalatwiliscie sprawe. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Tak, tak! Racja, jestesmy bezwartosciowymi szumowinami, musimy isc i walczyc! Za honor!'
+
+Klan alfa nie jest znany z tego, ze faworyzuje pokojowe rozwiazywania. Tym razem jednak wydaja sie byc bardzo zadowoleni z wyniku i nagradzaja Was sowicie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Zabieranie dobr tym ktorzy sa bez klanu - nigdy nie sadzilem, ze nadejdzie ten dzien. Ale moi ludzie gloduja, a klan Alfa trzyma nas z dala od zasobow. Czas ruszyc.'
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Oglaszacie sukces, gdy dowiadujecie sie, ze orkowie bez klanu zaatakowali klan Alfa w desperackiej probie ginac chwalebna smiercia. 
+
+Orkowie sa zadowoleni z tego, jak to sie skonczylo, problem zniknal, a ich bracia zgineli z honorem. Nagradzaja Was sowicie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Orkowie bez klanu odchodza, ich honor praktycznie nic juz nie znaczy. 
+
+Klan Alfa wydaje sie tym zasmucony dowiadujac sie o Waszym przekupstwie, ale i tak obdarowuja Was za wykonana prace. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz orki i zdajesz raport, ale klan Alfa jest rozgniewany: 
+
+'Gdybysmy chcieli ich zabic, sami bysmy ich zabili! Bah. Przypuszczam, ze trudno jest oprzec sie wezwaniu krwi, ale nie przyrownujcie sie do nas . .'
+
+Wreczaja Wam nagrode, ale Wasza przyjazn na tym nie zyskuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestescie obici, a orkowie smieja sie z Waszej niehonorowej porazki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Ha ha, dobra proba, szczeniaki, dobra proba. Powiedz swojej cholernej matronie, ze musi sie bardziej postarac, poniewaz nie rusza nas jej srebrna mowa.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Do ataku!
+[OUT]Zapytajcie ich, dlaczego nie opuszcza tych ziem, skoro zostali wygnani.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Tak, tak! Racja, jestesmy bezwartosciowymi szumowinami, musimy isc i walczyc. Za honor!'
+
+Klan Alfa nie jest znany z tego, ze faworyzuje pokojowe rozwiazywania, ale tym razem wydaje sie, ze sa bardzo zadowoleni z wyniku i nagradzaja Was sowicie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Klan Alfa dowiedzial sie o Waszym tchorzostwie i smieje sie teraz z Waszych slabych bogow. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Bah, stul pysk, Ty zdrajco! Przecwiczymy nasze ostrza na Waszej zdradzieckiej skorze!'
+
+Orki atakuja. 
+[/STORY]
+[OUT]Walka.
+[/NODE]
+
++[NODE]44
+[STORY]
+'Umowa to umowa. Dobrze sie z Wami handluje.'
+
+Ida dalej a orkowie sa zadowoleni z Waszego podejscia. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Ech, moze masz racje. Nadszedl czas, aby przerwac te gierki i wyrwac nasza garsc ziemi jako na bandytow przystalo. Wiec placisz nam za odejscie, a nawet handlujesz z nami, jak to jest, ze nie cierpi tu honor zlodziejski, co?'
+[/STORY]
+[OUT]Zgodzcie sie na handel i zaplate.
+[OUT]Odmowcie.
+[/NODE]
+
++[NODE]48
+[STORY]
+'Nie boimy sie Was, ani tych tak zwanych honorowych orkow! Zostajemy.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Po prostu ich zaatakujcie.
+[/NODE]
+
++[NODE]51
+[STORY]
+„Ha, wysylaja najgorsza matrone, zeby sie z nami uporala, co za bezwstydna suka! Skosztujecie naszych ostrzy i powiesz im jak smakuja!'
+
+Atakuja z wieksza zaciekloscia! 
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]54
+[STORY]
+Orcza matriarcha odwraca sie. Jest stara, co nie jest czesto spotykane wsrod orkow: 
+
+'Zostajemy, poniewaz tak wybralismy. Mlode szczenieta moga przyjsc i zadac sobie pytanie. Jestesmy bohaterami czasow krwi. Zostalismy wyrzuceni za lamanie regul klanowych, ale nasze imiona pozostaja ubroczone we krwi i pocie jako oznaka honoru. Szczenieta nie maja pojecia o co tu chodzi, ha!'
+[/STORY]
+[OUT][Ork] Dlaczego klan Alfa nie prosi o walke honorowa? Z pewnoscia to zalatwilo by sprawe.
+[OUT]Powiedz, ze wyobrazales sobie, ze orkowie beda mieli jakis krwawy sposob, by sobie z tym poradzic. Z pewnoscia nie jest tak przerazajacy dla calego klanu?
+[/NODE]
+
++[NODE]55
+[STORY]
+„Czyzby? Mloda Kroczaca we Krwi, alfa matriarcha, jest madra, rozumiesz. Czy taka kobieta przegra walke honorowa ze starym, bezdomnym pierdnieciem, takim jak ja, ha ha. 
+
+Moglaby zaryzykowac i wyslac mezczyzne, a wtedy porazka spadla by na niego, ale czy wysyla sie gorszego pretendenta do stawienia czola bohaterowi? Mogla przyjsc sama - najprawdopodobniej roztrzaskala by mi tylek - ale to dla mnie to zbyt wielki zaszczyt. Smutna sprawa, ha ha!'
+[/STORY]
+[OUT]Zatem dlaczego Was posyla? Czy to jest problem?
+[/NODE]
+
++[NODE]56
+[STORY]
+„Domyslam sie, ze to interesujacy wybor. Sprytna suka. Jestescie z zewnatrz, ale chcecie wkupic sie w jej laske, tak? Naszym zwyczajem jest umozliwienie osobom z zewnatrz udowodnienie swojej wartosci. Wiec jesli wygrasz, dobrze, pozbyla sie nas i zyskala silnego sojusznika. Jesli przegrasz, ma czyste rece.'
+[/STORY]
+[OUT]W takim przypadku zazadajcie, by stanela przeciwko jednemu z Was i podjela wyzwanie w walce o honor, a jesli wygracie, musza odejsc!
+[OUT]Powiedz, ze ta cala sprawa wydaje sie raczej szyta grubymi nicmi. Siedzac tutaj, czekajac, i grajac na nerwach klanowi Alfa niczego nie zyskuja. Z pewnoscia bohater woli poszukac chwaly i powrocic triumfalnie?
+[OUT]Wystarczy tego paplania, zaatakujcie ich!
+[/NODE]
+
++[NODE]57
+[STORY]
+„Prawie macie racje. Zazwyczaj rozwiazywalismy to przez walke honorowa. Jeden na jednego, najlepsze ostrze wygrywa.'
+[/STORY]
+[OUT]Wiec to rozwiazaloby problem, tak?
+[/NODE]
+
++[NODE]58
+[STORY]
+„Czyzby? Mloda Kroczaca we Krwi, alfa matriarcha, jest madra, rozumiesz. Czy taka kobieta przegra walke honorowa ze starym, bezdomnym pierdnieciem, takim jak ja, ha ha. 
+
+Moglaby zaryzykowac i wyslac mezczyzne, a wtedy porazka spadla by na niego, ale czy wysyla sie gorszego pretendenta do stawienia czola bohaterowi? Mogla przyjsc sama - najprawdopodobniej roztrzaskala by mi tylek - ale to dla mnie to zbyt wielki zaszczyt. Smutna sprawa, ha ha!'
+[/STORY]
+[OUT]Zatem dlaczego Was posyla? Czy to jest problem?
+[/NODE]
+
++[NODE]60
+[STORY]
+Ktores z Was otwiera usta, zeby mowic, ale jeden z orkow na niego pluje: 
+
+„Czuje stagnacje harmonii w Twoim oddechu! Dziekuje, bo poruszyliscie moja wojownicza krew z tej zgnilizny. Teraz biegnijcie albo umrzecie!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]61
+[STORY]
+„Proponujecie nam rzeczy, by odejsc cicho, jak jakies goblinskie szumowiny? Jak smiecie obrazac nas! Gincie!'
+[/STORY]
+[OUT]Ucieczka!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]65
+[STORY]
+Poddajecie sie, a orkowie smieja sie Wam w twarz: 
+
+„Tchorzliwe szczeniaki, to jest to, co oferuja Wasi mali bogowie? Zginiesz lub wygrasz - nie ma innej opcji!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]66
+[STORY]
+Poddajecie sie, a orkowie smieja sie Wam w twarz: 
+
+'Tchorzliwe szczenieta takie jak Wy szargaja tylko honor Alfa matriarchy, ha ha! Wysylaja za nami takich bezksztaltnych drani. Teraz, czolgajcie sie.'
+
+Klan Alfa nie rozmawia z Wami przez jakis czas. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]67
+[STORY]
+Orki zostaja pobite, a matriarcha mowi ostatnim tchnieniem: 
+
+'Za krew i honor. Dziekuje, ze pozwoliliscie nam na smierc w bitwie. A poniewaz nie rzuciles mi wyzwania, ta suka Alfa nie zyskuje wiele. Ha!'
+
+Umiera, przywodczyni Alfa przyjmuje wiadomosc ze spokojem i z gniewem. Zyskujecie szacunek, ale nie tak wielki, jaki moglby byc gdybyscie rzucili wyzwanie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]68
+[STORY]
+Pokonujecie matriarche, a ona kleka przed Wami, krwawi. Widzicie, ze prawdopodobnie wezmie ostatni oddech: 
+
+'Dla krwi i honoru jestescie dziecmi Zorzy! Umieram... i dobrze... Ta mloda suka moze byc godna matriarcha, jesli Was wyslala. Uieram z honorem, przyjacielu.'
+
+Reszta klanu okazuje Wam szacunek i odchodzi. Klan Alfa jest pod wrazeniem Waszego czynu za co zostajecie nagrodzeni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]69
+[STORY]
+„No to idzcie. Jej duma jest niewzruszona i moze Was unikac, bo jestescie bezuzyteczni a my zostajemy. Zastanawiam sie, jaki bedzie jej nastepny ruch. Krew i czesc niech beda z Wami - dobrze sie spisaliscie.'
+
+Klan Alfa nie bedzie rozmawiac z Wami przez jakis czas.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]71
+[STORY]
+„Nie”.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]W takim przypadku zazadajcie, by stanela przeciwko jednemu z Was i podjela wyzwanie w walce o honor, a jesli wygracie, musza odejsc!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]72
+[STORY]
+„Madrosc mlodosci, czy to sa ci Wasi bogowie? Siedzac tutaj stalismy sie starymi pierdolami. Czas zakonczyc te gierki. Wyprowadzamy sie i pokazemy tym mlodym, jak bohaterowie umieraja!'
+
+Odchodza, a klan Alfa jest niezwykle zadowolony z tej pokojowej rezolucji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillsmallLava(8)
++[NODE]2
+[STORY]
+Zblizasz sie do niecki z lawa, gdzie orkowie mowili, ze ich ludzie znikaja.
+[/STORY]
+[OUT][Lowca lub postrzeganie] Upewnij sie, ze sciezki sa bezpieczne.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Na poczatku lawy wydaje sie normalna, ale zauwazacie nieregularne ruchy, a potem zdajecie sobie sprawe, ze widac wiele malych czerwonych oczu obserwujacych Was z dolu.
+[/STORY]
+[OUT]Zachowajcie dystans i sprobujcie znalezc zaginione orki - lub ich szczatki.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Zostajecie napadnieci przez stwory z lawy!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujecie miejsce, a jama z lawa wydaje sie zwyczajna, ale kiedy juz macie zamiar wyjsc, dostrzegacie w miare bezpieczna sciezke w poprzek dolu. W srodku czeka na wybranca wspaniale ostrze trzymane przez kamienna reke.
+[/STORY]
+[OUT]Idzcie po bron!
+[OUT]Na slepo atakujcie jame z lawa. Wyraznie cos tu jest!
+[OUT]Odpuscie i powiedzcie orkom, co znalezliscie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jestescie ciezko pobici i zmuszono Was do ucieczki. Orkowie smieja sie z Waszego tchorzostwa. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+'Orki przychodza, podejmuja wyzwanie, ale przegrywaja. Pochlonela ich lawa.'
+
+Lakolit pokazuje Wam naszyjnik z orczych klow.
+[/STORY]
+[OUT][Mistrz run] To przypomina stare krasnoludzkie praktyki, w ktorych skalniak lub lakolit stawiany jest jako straznik wspanialego ostrza. Trole maja obsesje na punkcie danej pracy. 
+[OUT]Podziekujcie lakolitowi za wyjawienie prawdy i opowiedzcie orkom o tym.
+[OUT]Zaatakujcie w odwecie za poleglych!
+[/NODE]
+
++[NODE]20
+[STORY]
+Lakolit patrzy na Was, a potem odpowiada: 
+
+'Jestescie mistrzami. Dobrze wykonuje prace. Nikt jeszcze nie zdobyl broni.'
+[/STORY]
+[OUT]Powiedzcie, ze dobrze wykonal swoja prace. Teraz przyszliscie po bron.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Orki przychodza tutaj, podejmuja wyzwanie ale przegrywaja. Pochlania ich lawa. Chcecie dolaczyc?'
+
+Lakolit pokazuje naszyjnik z orczych klow.
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Okrazacie dol kilka razy, czerwone oczy wciaz sa czujnie. Nie widzisz sladow orkow. Ale slyszysz glos brzeczacy z lawy: 
+
+'Stancie twarza w twarz ze mna? Chcecie nagrode?'
+
+Widzisz wielka bron wylaniajaca sie z ognia. Wprost do srodka dolu z lawa tworzy sie sciezka.
+[/STORY]
+[OUT]Powiedzcie, ze jestescie tutaj tylko po to, by znalezc zaginione orki i nie interesuje Was podejmowanie zadnych wyzwan.
+[OUT]Do ataku!
+[OUT][Ork] Wyzwanie? Tak, biore to!
+[OUT][Swiatlo] Te stworzenia emanuja swiatlem kuzni Svaroga. Zapytaj ich, gdzie sa orkowie.
+[OUT]Zapytajcie, jakie bedzie to wyzwanie.
+[OUT]Zaakceptujcie wyzwanie.
+[OUT][Madrosc] Wroc i powiedz o tym orkom. Powiedz, ze wasza duma zabrania Wam podjecia wyzwania, poniewaz stalo sie to na ich terenie, i to ich ludzie wyraznie na to wpadli.
+[/NODE]
+
++[NODE]36
+[STORY]
+„Zgoda. Teraz ide.'
+
+Lakolit tonie w jamie lawy, a czerwone oczy podazaja za nim. 
+
+Orki odczuwaja ulge, ze ich krewni zgineli w walce, chociaz szemraja, ze udalo Wam sie jedynie zbyc bestie. Szanuja jednak to co udalo sie uczynic i dzieki temu Wasza przyjazn rosnie.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Orki sa zadowolone, bo wiedza teraz, co spotkalo ich towarzyszy: 
+
+'Gineli w bitwie, a to dobrze! Domyslam sie, ze bylo by to zbyt wiele oczekiwac, ze ludzie dadza rade temu zapyzialemu ognistemu potworowi  - po prostu zrobimy to sami. Tutaj nagroda za trudy.'
+[/STORY]
+[OUT]Pokloncie sie i zyczcie dobrej drogi.
+[/NODE]
+
++[NODE]42
+[STORY]
+Orkowie smieja sie z Waszej ucieczki i nazywaja Was tchorzliwymi metami. 
+
+Ciesza sie, ze ich bracia wybrali ognista smierc a nie umykali jak Wy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijacie kamienne stwory i odnajdujecie szczatki orkow w jamie z lawa, a takze martwego lakolita. Ostatni zaginiony ork musial go zabic, ale najwyrazniej sam tez umarl. 
+
+Orkowie sa zadowoleni, bo dowiedzieli sie o heroicznych czynach swoich krewnych. Cieszy ich takze Wasza zemsta.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+Prawicie o swietle i Svarogu, az glos w koncu odpowiada: 
+
+- Czujesz zapach ognia mej kuzni. Jestescie solidni niczym skala odlana z magmy. Orki sa tez niczym ogien, zawiedli jednak przy wyzwaniu, teraz zdobia moja szyje. Podejmiecie wyzwanie, dostaniecie nagrode. 
+
+A poniewaz jestescie swiatlem, nie trzymam Was. Wybierajcie zatem.'
+[/STORY]
+[OUT][Mistrz run] To przypomina stare krasnoludzkie praktyki, w ktorych skalniak lub lakolit stawiany jest jako straznik wspanialego ostrza. Trole maja obsesje na punkcie danej pracy. 
+[OUT]Przywolajcie swoja boska domene i zazadajcie, aby lakolit i jego pobratymcy oddaly Wam bron!
+[OUT]Zaakceptujcie wyzwanie.
+[OUT]Odmowcie i odejdzcie.
+[OUT]Powiedzcie, ze jestescie tutaj tylko po to, by znalezc zaginione orki i nie interesuje Was podejmowanie zadnych wyzwan.
+[/NODE]
+
++[NODE]56
+[STORY]
+'Przychodzicie, widzicie. Wyzwanie?'
+[/STORY]
+[OUT]Zaakceptujcie wyzwanie.
+[OUT]Powiedzcie, ze jestescie tutaj tylko po to, by znalezc zaginione orki i nie interesuje Was podejmowanie zadnych wyzwan.
+[OUT][Swiatlo] Te stworzenia emanuja swiatlem kuzni Svaroga. Zapytaj ich, gdzie sa orkowie.
+[OUT]Do ataku!
+[OUT][Madrosc] Wroc i powiedz o tym orkom. Powiedz, ze wasza duma zabrania Wam podjecia wyzwania, poniewaz stalo sie to na ich terenie, i to ich ludzie wyraznie na to wpadli.
+[/NODE]
+
++[NODE]57
+[STORY]
+Wchodzicie do dolu z lawa, a kiedy podazacie sciezka do centrum, znika ona za Wami i zostajecie otoczeni ogniem. 
+
+Wiele czerwonych oczu wylania sie z ognistych kipiacych babli. Potem wychodzi najwiekszy z nich. Jego plonaca szyja przyzdobiona jest orkowymi klami.
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec!
+[/NODE]
+
++[NODE]61
+[STORY]
+Zawracacie, ale jestescie poparzeni, a lakolit wciaz stoi przed Wami!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec!
+[/NODE]
+
++[NODE]65
+[STORY]
+Orkowie smieja sie z Waszej ucieczki i nazywaja Was tchorzliwymi metami. 
+
+Ciesza sie, ze ich bracia wybrali ognista smierc a nie umykali jak Wy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]66
+[STORY]
+Matriarcha orkow jest pod wrazeniem: 
+
+'Tak, madry wybor rzeczywiscie. Byloby zle dla mojego malego klanu, gdyby obcokrajowcy radzili sobie z naszymi problemami, z ktorymi powinien radzic sobie moj lud. 
+
+Tutaj, nagroda i moja wdziecznosc!'
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]67
+[STORY]
+„Zgoda. Teraz ide.'
+
+Lakolit tonie w jamie lawy, a czerwone oczy podazaja za nim. 
+
+Orki odczuwaja ulge, ze ich krewni zgineli w walce, chociaz szemraja, ze udalo Wam sie jedynie zbyc bestie. Szanuja jednak to co udalo sie uczynic i dzieki temu Wasza przyjazn rosnie.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]68
+[STORY]
+Orkowie smieja sie z Waszego tchorzostwa i mowia, ze stana twarza w twarz z tym, co kryje sie w plomieniach. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]69
+[STORY]
+Wchodzicie do dolu z lawa, a kiedy podazacie sciezka do centrum, znika ona za Wami i zostajecie otoczeni ogniem. 
+
+Wiele czerwonych oczu wylania sie z ognistych kipiacych babli. Potem wychodzi najwiekszy z nich. Jego plonaca szyja przyzdobiona jest orkowymi klami.
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec!
+[/NODE]
+
++[NODE]70
+[STORY]
+Zabijacie skalne stwory. Odnajdujecie szczatki orkow w miejscach gdzie lawa zastygla, a takze martwego lakolita. Ostatni zaginiony ork musial go zabic, ale sam tez tu umarl. 
+
+Orkowie sa zadowoleni, bo dowiedzieli sie o heroicznych czynach swoich krewnych. Cieszy ich tez Wasza zemsta.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillsmallRuins(9)
++[NODE]2
+[STORY]
+Znajdujecie ruiny do ktorych przybyliscie na prosbe orkow. Chca oni odzyskac zakopana tutaj pamiatke rodowa.
+[/STORY]
+[OUT][Krasnolud lub percepcja] Przyjrzyj sie blizej.
+[OUT]Wyszukaj odpowiedni budynek.
+[OUT]Wyszukaj odpowiedni budynek.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Identyfikujecie budynek, w ktorym prawdopodobnie moze sie cos znajdowac i zauwazacie kilka slabych punktow, ktore ulatwia Wam prace. 
+[/STORY]
+[OUT]Macie narzedzia, ktore zwieksza Wasze szanse na zdobycz. Zacznijcie kopac.
+[OUT]Kopcie.
+[OUT][Ork] Dostrzegasz tu grupe ludzi - nomadow. Podejdz i przekonaj ich, aby wykonali te nudna prace za Was, inaczej Twoi krewni nie beda Cie szanowac!
+[/NODE]
+
++[NODE]4
+[STORY]
+Gdy szukasz budynku, zostajesz napadniety przez bandytow!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Znajdziesz budynek, w ktorym kazano ci kopac. Czesc z nich zostala zbudowana z kamienia i wydaje sie, ze zawalila sie z powodu drzenia. 
+[/STORY]
+[OUT]Macie narzedzia, ktore zwieksza Wasze szanse na zdobycz. Zacznijcie kopac.
+[OUT]Kopcie.
+[OUT][Ork] Dostrzegasz tu grupe ludzi - nomadow. Podejdz i przekonaj ich, aby wykonali te nudna prace za Was, inaczej Twoi krewni nie beda Cie szanowac!
+[/NODE]
+
++[NODE]16
+[STORY]
+Smierdzicie potem, jestescie wykonczeni, a niektorzy z was moga sie pochorowac z powodu zgnilizny i plesni jaka tu sie znajduje. 
+
+Orkowie smieja sie z tego, ze nie udalo sie Wam wykonac tego morderczego zadania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Przekopujecie sie przez kilka warstw gruzu i pylu. Zdajecie sobie sprawe z tego, ze ten budynek byl prawdopodobnie jakims typem lazni lub wychodka, choc nie wiadomo, dlaczego bylby zbudowany z kamienia. 
+
+Drewno, kamien i ziemia smierdza jak diabli, a tym samym i Wasze ubrania przeszly tym zapachem. Mimo to odkrywacie odkrywasz szkielet trzymajacy zelaznego bozka. 
+
+[/STORY]
+[OUT]Zabierz to by zwrocic orkom.
+[/NODE]
+
++[NODE]23
+[STORY]
+Koczownicy czuja sie na tyle zastraszeni, by spelnic twoje zyczenie. 
+
+Kiedy wracacie triumfalnie z zelaznym bozkiem w reku, orkowie sa pod Waszym wrazeniem i dobrze Was wynagradzaja.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Orki smieja sie i szydza z Was z powodu tego, ze pdjeliscie sie tak morderczego zadania. 
+
+- Ta stara wiedzma, byla zwykla dziwka. Zbudowala ten potezny przybytek, bo bala sie, ze przybiegna za nia biesy, a potem ta przekleta budowla zabila ja, gdy ziemia sie zatrzesla. Nikt z nas nie chcial tu kopac, bo moze sie zawalic, ale dzieki!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy informujecie orki o swojej porazce, smieja sie Wam w twarz i drwia z Was okrutnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]60
+[STORY]
+Zabijacie bandytow i odkrywacie, ze musieli oni juz wykopac skarb orkow, gdy odkrywacie zelaznego bozka, po ktorego przyszliscie. 
+
+Orkowie sa dziwnie zaskoczeni waszym odwaznym sukcesem. Mowia, ze bogowie rzeczywiscie musza oswietlac Wasza sciezke - sciezke wojownika. 
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]69
+[STORY]
+Koczownicy nie tylko sie z Was smieja - ich lucznicy zasypuja Was strzalami, a Wy jestescie zmuszeni uciekac z tego miejsca.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKilladvOrcSkel(10)
++[NODE]2
+[STORY]
+Zblizacie sie do cmentarza, gdzie klan Alfa wyslal Was, abyscie uporaliscie sie z uciazliwymi szkieletami.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Madrosc i lowca] Szkielety orkow wydaja sie byc zwiazane z konkretnym miejscem. Uloz kilka stosow z  ogniem i spal te niezyjace orki na proch.
+[OUT][Magiczny uzytkownik] Wiesz, jak sobie poradzic z niezyjaca plaga. Przygotuj rytual.
+[OUT][Nieumarly] Nie musisz zabijac. Powiedz swoim niezyjacym braciom, aby opuscili to miejsce.
+[OUT][Zamieszanie] To stare pole bitwy. Mocno wyczuwalny jest niepokoj jakim gleboko przesiaknela ta ziemia. Uczcijcie poleglych w bitwie!
+[OUT]Zbadajcie to miejsce.
+[OUT][Szkielet] Idz sam i przekonaj tych ktorzy podobni sa do Ciebie, by odeszli.
+[OUT][Szkielet] Idz sam i przekonaj tych ktorzy podobni sa do Ciebie, by odeszli.
+[OUT][Szkielet] Idz sam i przekonaj tych ktorzy podobni sa do Ciebie, by odeszli.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Przygotowujecie rytual, ktory powinien zaklocic czarna magie, ktora ozywia te kosci. To znacznie ulatwi ich zniszczenie. Teraz, kiedy sie obudzili, mozesz stawic im czola w krolestwie duchow, a tym samym calkowicie zniszczyc mroczna magie. 
+
+[/STORY]
+[OUT]Zabijcie te, ktore pozostaly w nienaruszonym stanie. Atak!
+[OUT]Zniszczcie zrodlo ciemnosci.
+[OUT]To wyzwanie Was przerasta. Porzuccie je.
+[OUT][Nieumarly] Nie musisz zabijac. Powiedz swoim niezyjacym braciom, aby opuscili to miejsce.
+[/NODE]
+
++[NODE]9
+[STORY]
+Przemawiasz do swoich szkieletowych krewniakow. Sluchaja i czerpia sile z twojego boskiego wplywu, mimo ze ich sila zyciowa jest trzymana przez mroczna magie, ktora jednoczesnie je ozywia. 
+
+Nie obudzili sie jak Ty, ale twoje slowa sprawily, ze chcieli sie uwolnic. Widzisz, jak tocza wewnetrzneczna bitwie, i ostatecznie wygrywaja - upadaja na ziemie, sa martwi i znowu wolni.
+[/STORY]
+[OUT]Poinformuj orkow.
+[/NODE]
+
++[NODE]10
+[STORY]
+Wchodzisz i rozmawiasz z nieozywionymi orkami, ale nie budza sie jak ty. Podazaja za mroczna sciezka jakiegos mistrza i agresywnie zblizaja sie do Was.
+[/STORY]
+[OUT]Sprobujcie uciec.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]11
+[STORY]
+Przemawiasz do swoich szkieletowych krewniakow. Sluchaja i czerpia sile z twojego boskiego wplywu, mimo ze ich sila zyciowa jest trzymana przez mroczna magie, ktora jednoczesnie je ozywia.. 
+
+Twoi bracia blagaja Cie, abys podazyl wraz z nimi i wyprowadzil ich z ciemnosci na lepsza sciezke. Nie sa gotowi by dolaczyc do pozostalych i potrzebuja przewodnika.
+[/STORY]
+[OUT]Zgadzacie sie by Wasz przyjaciel wzia na siebie te odpowiedzialnosc. [Tracicie szkielet]
+[OUT]Nie pozwol swojemu przyjacielowi odejsc! 
+[/NODE]
+
++[NODE]18
+[STORY]
+Ustawiasz stosy i szkielety orkow spalaja sie na popiol. 
+
+Orkowie dziekuja Wam za uwolnienie poleglych i pozostawiaja nagrode.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Szkielety i ich mroczny mistrz leza martwi, ale jego cialo rozpuszcza sie w gestym dymie, zanim bedzie mozna je jeszcze sprawdzic. 
+
+Znajdziesz takze upior, prawdopodobnie produkt wszelkich ciemnych sztuk, ktore tu wykonano. Moze chcesz zostac z toba.
+[/STORY]
+[OUT]Wez upior.
+[OUT]Zabij widmo, poniewaz jest to wyraznie narzedzie tego zla!
+[/NODE]
+
++[NODE]28
+[STORY]
+Szkielety orkow pokonuja twoje wysilki i roi sie od ciebie. Orkowie musza przyjsc z pomoca i nie sa pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Jestes zrozpaczony decyzja, ale sluchasz w tym swoich przyjaciol i zegnasz sie ze szkieletami. 
+
+Wyjezdzaja, ale niektorzy juz narzekaja, ze stary sposob jest lepszy i ze powinni znalezc nekromante, ktoremu beda sluzyc.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]49
+[STORY]
+Te niezyjace kosci musialy byc daleko od swego pana przez dlugi czas. Sluchaja twoich rozkazow tak, jakby tesknily za kims, kto by je dal. 
+
+Odchodza, ale orkowie sa niezadowoleni, ze nie skonczyliscie cierpienia ich upadlych.
+[/STORY]
+[OUT]Dostrzegasz takze upior uwieziony tutaj i chce sie do ciebie przywiazac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Te niezyjace kosci musialy byc daleko od swego pana przez dlugi czas. Sluchaja twoich rozkazow tak, jakby tesknily za kims, kto by je dal. 
+
+Orkowie nie sa zadowoleni z tego, ze nie zakonczyles nienaturalnego stanu ich rodziny, ale uwolniles ich z niewoli i to jest doceniane.
+[/STORY]
+[OUT]Dostrzegasz takze upior uwieziony tutaj i chce sie do ciebie przywiazac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Gdy podchodzisz blizej, widzisz ruiny starej areny, aw niej walczy kilka niezyjacych trupow. Postac odziana w czarne szaty stoi nad nimi i patrzy intensywnie z jedna reka uniesiona wysoko nad glowa.
+[/STORY]
+[OUT][Magiczny uzytkownik lub magia] Podejdz do tej dziwnej menazerii i sprobuj wyczuc, jaka magia tu dziala.
+[OUT]Do ataku!
+[OUT][Ork or Turmil] Cos tu smierdzi. Podejdz blizej.
+[OUT]Porzuc to zadanie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Nieozywione orki pobily cie i zmusily do ucieczki. Orkowie musza przyjsc z pomoca i nie sa pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Klan alfa nie mowi zbyt wiele o tym wydarzeniu, zwlaszcza o nekromancie, mowiac tylko, ze nigdy nie powinien zyc, aby stac sie jednym. 
+
+Dziekuje ci za pozbycie sie plagi i pozostawienie nagrody.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]62
+[STORY]
+Ani czlowiek na arenie, ani szkielety orkow nie reaguja na ciebie. Cokolwiek to jest, sa calkowicie zafascynowani. 
+
+Czujesz tutaj silna magie zamieszania i myslisz, ze cokolwiek to jest, to jest wyraznie nekromancja!
+[/STORY]
+[OUT]Atakuj teraz, gdy jest zajety.
+[OUT][Ork witch lub matriarch] To nie jest zwykly czlowiek - to orczy mezczyzna, smialy praktykowac nekromancje! Laduj go.
+[OUT][Ork witch lub matriarch] To nie jest zwykly czlowiek - to orczy mezczyzna, smialy praktykowac nekromancje! Laduj go.
+[OUT]Przygotuj rytual, aby stawic czola tym potworom w swiecie duchow!
+[/NODE]
+
++[NODE]64
+[STORY]
+Niszczysz zaklecie wiazace i niezyjace orki zapadaja sie w stos kosci. 
+
+Orkowie dziekuja za uwolnienie poleglych i pozostawiaja nagrode.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]68
+[STORY]
+Niszczysz szkielety i spalasz szczatki, aby nie powstaly ponownie. 
+
+Orkowie dziekuja za uwolnienie poleglych i pozostawiaja nagrode.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]74
+[STORY]
+Widmo nie mowi, ale gestykuluje, ze teraz bedzie ci sluzyc.
+[/STORY]
+[OUT]Wez widmo i wyjdz.
+[/NODE]
+
++[NODE]78
+[STORY]
+„Nie!„Nekromanta odwraca sie w ostatniej chwili, wykrzykuje slowo mocy i znika, zabrany przez ciemne wasy w cienie. 
+
+Szkielety rozpadaja sie, uwolnione z jego domeny, a ty je spalasz, aby upewnic sie, ze nie bedzie mogl ponownie przejac kontroli.
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]79
+[STORY]
+Ork zwraca sie do ciebie i probuje rzucic zaklecie, by uciec, ale najpierw do niego trafisz.
+[/STORY]
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]82
+[STORY]
+Ani czlowiek na arenie, ani szkielety orkow nie reaguja na ciebie. Cokolwiek to jest, sa calkowicie zafascynowani. 
+
+Czujesz tutaj silna magie zamieszania i myslisz, ze cokolwiek to jest, to kontroluje te szkielety.
+[/STORY]
+[OUT]Atakuj teraz, gdy jest zajety.
+[OUT][Ork witch lub matriarch] To nie jest zwykly czlowiek - to orczy mezczyzna, smialy praktykowac nekromancje! Laduj go.
+[OUT][Ork witch lub matriarch] To nie jest zwykly czlowiek - to orczy mezczyzna, smialy praktykowac nekromancje! Laduj go.
+[/NODE]
+
++[NODE]84
+[STORY]
+Odkrywasz pozostalosci rytualu i odczuwasz niespokojna energie w powietrzu, powodujac, ze jestes chory. 
+
+Znajdziesz tu takze widmo, prawdopodobnie produkt wszelkich ciemnych sztuk, ktore zostaly tu wykonane. Wydaje sie, ze chce zostac z toba.
+[/STORY]
+[OUT]Wez upior.
+[OUT]Zabij widmo, poniewaz jest to wyraznie narzedzie tego zla!
+[/NODE]
+
++[NODE]86
+[STORY]
+Orki dziekuja za uwolnienie poleglych i pozostawiaja nagrode.
+[/STORY]
+[OUT]Dostrzegasz takze upior uwieziony tutaj i chce sie do ciebie przywiazac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]88
+[STORY]
+Przemawiasz do swoich szkieletowych krewniakow. Sluchaja i czerpia sile z twojego boskiego wplywu, mimo ze ich sila zyciowa jest trzymana przez mroczna magie, ktora jednoczesnie je ozywia.. 
+
+Twoi bracia blagaja Cie, abys podazyl wraz z nimi i wyprowadzil ich z ciemnosci na lepsza sciezke. Nie sa gotowi by dolaczyc do pozostalych i potrzebuja przewodnika.
+[/STORY]
+[OUT]Zgadzacie sie by Wasz przyjaciel wzia na siebie te odpowiedzialnosc. [Tracicie szkielet]
+[OUT]Nie pozwol swojemu przyjacielowi odejsc! 
+[/NODE]
+
++[NODE]90
+[STORY]
+Orkowie nie sa zadowoleni, ze nie zakonczyles nienaturalnego stanu ich rodziny, ale uwolniles ich z niewoli i to jest doceniane.
+[/STORY]
+[OUT]Dostrzegasz takze upior uwieziony tutaj i chce sie do ciebie przywiazac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]91
+[STORY]
+Znajdziesz szczatki szkieletow. 
+
+Znajdziesz takze upior, prawdopodobnie produkt wszelkich ciemnych sztuk, ktore tu wykonano. Moze chcesz zostac z toba.
+[/STORY]
+[OUT]Wez upior.
+[OUT]Zabij widmo, poniewaz jest to wyraznie narzedzie tego zla!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillsmallElves(11)
++[NODE]2
+[STORY]
+Znajdziesz miejsce, w ktorym orkowie powiedzieli, ze wedruja elfy. Jest to niewielki skrawek lasu, ale jak tylko wejdziesz, poczujesz dziwnie uspokajajaca energie.
+[/STORY]
+[OUT]Znasz lud lesny. Wejdz i poszukaj starszego rodu.
+[OUT][Rusalka lub syrin] Elfy maja slabosc do sztuki. Zaspiewaj im piosenke, ktorej nie moga zignorowac i odprowadz ich z tego miejsca.
+[OUT][Natura lub harmonia] Odezwij sie i popros elfy, aby opuscily to miejsce, poniewaz orczy sposob zametu z pewnoscia spowoduje wkrotce konflikt.
+[OUT]Zapytaj, czy jest jakakolwiek cena, ktora zaakceptowaliby za odejscie w spokoju, poniewaz nie chcesz walczyc.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[OUT][Ork] Elfy bratek, sadzac, ze to znowu ich ziemia. Atakuj ich!
+[/NODE]
+
++[NODE]3
+[STORY]
+Znajdujesz male drzewko srebrnego debu i czujesz, ze elfy patrza, jak sie zblizasz.
+[/STORY]
+[OUT][Elf] Powiedz, ze mozesz zobaczyc, ze twoi krewni sa tutaj, aby czuwac nad srebrnym debem, ale radze im, aby wzieli drzewko i znalezli bezpieczniejsze tereny, poniewaz orkowie sa brutalni i prawdopodobnie nie zostawia ich.
+[OUT][Elf] Powiedz, ze mozesz zobaczyc, ze twoi krewni sa tutaj, aby czuwac nad srebrnym debem, ale radze im, aby wzieli drzewko i znalezli bezpieczniejsze tereny, poniewaz orkowie sa brutalni i prawdopodobnie nie zostawia ich.
+[OUT][Demon lesny] Powiedz swoim towarzyszom, ze widzisz, ze sa tutaj, by troszczyc sie o to drzewko, ale w takim malym lesie i brutalnych orkach na progu jest to daremne.
+[OUT]Zapytaj, czy jest jakakolwiek cena, ktora zaakceptowaliby za odejscie w spokoju, poniewaz nie chcesz walczyc.
+[OUT][Ork] Elfy bratek, sadzac, ze to znowu ich ziemia. Atakuj ich!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Twoja piosenka jest piekna i zachwycajaca. Elfy rzeczywiscie podazaja za melodia z lasu, chociaz nie jestes pewien, jak trwale jest to rozwiazanie.
+[/STORY]
+[OUT]Obserwuj, jak odchodza.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Tak, twoje slowa sa rzeczywiscie madre, i bedziemy ich sluchac. Badz jednak uwazny, z kim sie zaprzyjazniasz. Nie nalezy stawiac czola wlasnym krewnym w walce, gdy wybierana jest niewlasciwa strona.'
+
+Klaniaja sie i rozpoczynaja przygotowania do wyjazdu. Orkowie sa smutni, ze nie zabiles elfow, ale sie ich pozbyles, wiec zyskujesz przyjazn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Elfy trzymaja sie z daleka, abys mogl odebrac nagrode od orkow. 
+
+[/STORY]
+[OUT]Dobrze. Pozostawiac.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Zgoda, ich droga to chaos i zniszczenie, a my nie chcemy sie angazowac. Dziekujemy ci za ostrzezenie, przyjacielu. Bywaj.'
+
+Znikaja z powrotem w lesie i zaraz wyjezdzaja. Orkowie sa smutni, ze nie zabiles elfow, ale sie ich pozbyles, wiec zyskujesz przyjazn. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Elfy wracaja wkrotce po zakonczeniu piesni, wiec orkowie nie sa pod wrazeniem twojego oszustwa. 
+
+Ale oni tez lubili twoja piosenke, wiec zyskujesz troche przyjazni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz elfy, a orkowie wydaja sie bardzo szczesliwi. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Mowisz z madroscia, ale nie mozemy zostawic tego drzewka tutaj, ani nie jest ono gotowe do zabrania. Musimy pozostac.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Powiedz, ze sprobujesz przeciagnac orki na tyle dlugo, by elfy mogly odepchnac mlode drzewko.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]34
+[STORY]
+„Tak, twoje slowa sa rzeczywiscie madre, i bedziemy ich sluchac. Badz jednak uwazny, z kim sie zaprzyjazniasz. Nie nalezy stawiac czola wlasnym krewnym w walce, gdy wybierana jest niewlasciwa strona.'
+
+Klaniaja sie i rozpoczynaja przygotowania do wyjazdu. Orkowie sa smutni, ze nie zabiles elfow, ale sie ich pozbyles, wiec zyskujesz przyjazn.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Orkowie drwia z twojej porazki i smieja sie w twoja twarz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Tak, twoje slowa sa naprawde madre i bedziemy ich sluchac. Badz jednak uwazny, z kim sie zaprzyjazniasz. Nie nalezy stawiac czola wlasnym krewnym w walce, gdy wybierana jest niewlasciwa strona.'
+
+Klaniaja sie i rozpoczynaja przygotowania do wyjazdu. 
+
+Orkowie sa szczesliwi, ze sie ich pozbyliscie i nagrodzili.
+[/STORY]
+[OUT]Walka.
+[/NODE]
+
++[NODE]44
+[STORY]
+Elfy honoruja swoja umowe i wkrotce odejda. 
+
+Orkowie sa smutni, ze nie zabiles elfow, ale sie ich pozbyles, wiec zyskujesz przyjazn. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+„To nie jest nasz sposob na kupno, ale czujemy, ze masz cos, czego potrzebujemy. Jesli zamienisz nas na piec swoich diamentow, bedziemy mogli wykonac rytual i tym samym opuscic to miejsce w pospiechu, tak jak chcesz.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Moga miec chaos, ale nie pochylamy sie nad kaprysami zamieszania. Pozostaniemy.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Zapytaj, czy jest jakakolwiek cena, ktora zaakceptowaliby za odejscie w spokoju, poniewaz nie chcesz walczyc.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]58
+[STORY]
+„To bedzie naprawde wielkie dobrodziejstwo. Dziekujemy Ci, lesne dziecko. Sprobujemy odejsc z pospiechem.'
+
+[/STORY]
+[OUT]Sprobuj przekonac orkow, ze powinni zaczekac.
+[OUT]Poloz sie do orkow, aby sprobowac kupic czas.
+[/NODE]
+
++[NODE]60
+[STORY]
+„Bah, aroganccy dupki, wielu z was! To nasza ziemia. Nie maja prawa prosic o wiecej czasu.'
+
+Orki ida poradzic sobie z elfami, a twoja przyjazn z nimi bardzo cierpi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]61
+[STORY]
+„Bah, zlozyles umowy w naszym imieniu, wiec bedziemy ich honorowac. Dopoki te aroganckie, spiczaste uszy znikna wkrotce, jestesmy szczesliwi.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]63
+[STORY]
+Mowisz orkom, ze goniles elfy, a oni ci wierza. Na szczescie nie sprawdzaja. 
+
+Sa smutni, ze nie zabiles elfow, ale sie ich pozbyles, wiec zyskujesz przyjazn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]64
+[STORY]
+„Lezaca szumowina, zacznij, zanim cie zabijemy!'
+
+Orki ida poradzic sobie z elfami, a twoja przyjazn z nimi bardzo cierpi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillKarakandza(12)
++[NODE]2
+[STORY]
+Znajdujesz miejsce, w ktorym orkowie mowia, ze demony ich niepokoja.
+[/STORY]
+[OUT]Masz pewna wiedze o mistycznym swiecie i demonach. Przyjrzyj sie blizej.
+[OUT][Madrosc] Demony lubia gry, wiec zagraj z nimi w gre.
+[OUT][Intelekt] Sprobuj wykorzystac madrosc swojej domeny, aby znalezc sposob na przechytrzenie tych stworzen. 
+[OUT][Karakandza] Zdobadz te wioske jako swoja darn!
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Teraz widzisz, ze sa to karakandza, paskudne wspolne demony, ktorych sztuczki moga byc smiertelne. Czesto znajduja kopanie w korzeniach kosmicznego drzewa, na zawsze probujac wyrzadzic krzywde nawet bogom.
+[/STORY]
+[OUT][Wspolny demon] Sprobuj przescignac swojego demonicznego krewnego i zmusic go do opuszczenia go.
+[OUT][Wspolny demon] Sprobuj przescignac swojego demonicznego krewnego i zmusic go do opuszczenia go.
+[OUT]Porozmawiaj z demonami. Sprobuj przekonac ich, ze orkowie maja zbyt duze klopoty i zamiast tego powinni szukac ludzkich wiosek. 
+[OUT]Wykorzystaj swoja wiedze o demonach, aby naklonic ich do opuszczenia i scigania innej wioski.
+[OUT]Do ataku!
+[OUT]Karakandza to demony zywiace sie duchem. Zaoferuj im wlasnego ducha, aby odeszli.
+[/NODE]
+
++[NODE]4
+[STORY]
+Karakandza zgadza sie na gre czystego przypadku, piecdziesiat piecdziesiat. Demony zabiora czesc twojego ducha, jesli przegrasz, ale wiesz, ze sa to paskudne stworzenia, i czujesz, ze ich szczescie nie jest tak silne jak twoje.
+[/STORY]
+[OUT]Zgadzam sie grac - w koncu bogowie sa po twojej stronie.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[OUT]Karakandza to demony zywiace sie duchem. Zaoferuj im wlasnego ducha, aby odeszli.
+[/NODE]
+
++[NODE]7
+[STORY]
+Krecisz wysoka opowiesc o tym, ze orki sa nudne i mniej podatne na prawa demonow. Podkreslasz, ze ludzie zawsze byli rzecza i mowili, ze znasz wlasciwa wioske, dojrzala do wziecia i wskazujesz im falszywy kierunek. 
+
+Kupuja to i masz nadzieje, ze pozniej cie nie znajda. 
+
+Orkowie mowia, ze udowodniliscie swoje umiejetnosci podstepem, a nie zaszczytem, wiec nie sa pod wrazeniem. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Te stworzenia sa demonicznymi oszustami. Zwabisz ich do gry, a kiedy wygrasz, zgadzaja sie pozostawic jako swoje prawa demonow. 
+
+Orki nie lubia sztuczek, ale sa pod wrazeniem mocy Twojej domeny, wiec zyskujesz szacunek. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Kosci zostaly zwiniete, los przemowil, a demony odeszly zgodnie z ustaleniami. 
+
+Orki nie lubia gry z demonami, ale rozumieja twoje zaufanie do losu, wiec zyskujesz szacunek.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zamierzasz zglosic swoj sukces orkom, gdy odkryjesz, ze karakandza oszukal cie, poniewaz nie byles wystarczajaco precyzyjny w swojej umowie. Wyjechali, ale wrocili nastepnego dnia. 
+
+Orkowie smieja sie z waszej porazki, ale to zyskuje choc troche ich przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Karakandza odchodzi, ale orkowie mowia, ze wszystko, co udowodniles, to twoja glupota, oddajac wlasne sily tym stworzeniom zamiast ich zabijac. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Demony sa zabijane, a orkowie sa pod wrazeniem twoich czynow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Orkowie smieja sie z twojej porazki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie odniosles sukcesu, wiec demony zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Karakandza to demony zywiace sie duchem. Zaoferuj im wlasnego ducha, aby odeszli.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]34
+[STORY]
+Przekonujesz karakandze, zebys poszedl, chociaz podejrzewasz, ze nastepna wioska slowianska nie bedzie szczesliwa. 
+
+Orkowie mowia, ze dobrze jest, ze demony zniknely, ale nie okazalo sie, ze masz zaszczyt wyslac ich do innego miejsca.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Orkowie drwia z twojej porazki i smieja sie w twoja twarz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Krecisz wysoka opowiesc o tym, ze orkowie sa nudni i mniej podatni na prawa demonow. Wskazujesz, ze ludzie zawsze byli rzecza. Ale karakandza traktuje to jako znak, aby ich obecnosc byla bardziej zlosliwa i rozpoczynaly bezposrednie ataki na osade orkow. 
+
+Orkowie ciesza sie, ze w koncu moga naprawde walczyc, wiec sa zadowoleni z twojej rezolucji. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Zglaszasz swoje roszczenie, a twoi krewni to przyjmuja. 
+
+Orki sa pod wrazeniem pokazu sily. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKillBies(13)
++[NODE]2
+[STORY]
+Znajdujesz miejsce, w ktorym orkowie mowia, ze demony ich niepokoja.
+[/STORY]
+[OUT]Masz pewna wiedze o mistycznym swiecie i demonach. Przyjrzyj sie blizej.
+[OUT][Lowca] Sledz demony.
+[OUT][Harmonia lub Swiatlo] To stworzenie cuchnie ciemnoscia. Wezwij swoja domene, aby wygnac ja do krolestw duchowych, do ktorych nalezy.
+[OUT][Nocny demon] Zdobadz te wioske jako swoja darn!
+[OUT]Znajdz je i zaatakuj!
+[OUT]Zaoferuj demonom swoja wlasna sile zyciowa, ale uwazaj - nie wiesz dokladnie, co moga wziac!
+[OUT]Porozmawiaj z demonami i powiedz, ze twoi bogowie kaza im opuscic to miejsce!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Jestes swiadkiem, jak samotny wilk ulega ciemnej sile i zostaje opetany - to czaja sie tutaj.
+[/STORY]
+[OUT][Czarownica] Krawaty sa czesto podobne do twoich. Polacz sie z nimi i popros, aby zostawili ci te murawe.
+[OUT][Czarownica] Krawaty sa czesto podobne do twoich. Polacz sie z nimi i popros, aby zostawili ci te murawe.
+[OUT]Porozmawiaj z demonami i powiedz, ze twoi bogowie kaza im opuscic to miejsce!
+[OUT]Bies to istota tylko czesciowo fizyczna, wiec zmierzyc sie z nia w krolestwie duchow!
+[OUT]Do ataku!
+[OUT]Zaoferuj swoj wlasny duch, umysl i cialo, aby nakarmic demony w zamian za opuszczenie tego miejsca.
+[/NODE]
+
++[NODE]4
+[STORY]
+Obserwujesz demony i odkrywasz, ze posiadaja inne formy zycia i szczegolnie lubia wilki. Mozesz probowac zwabic ich w pulapke, tak jak w przypadku bestii - ich ciala moga nadal reagowac na instynkt. 
+
+Jesli jednak pojdzie zle, mozesz byc narazony na wiele niebezpieczenstw.
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Siostra mrocznych sztuk. Tak. Pochylimy sie przed twoja prosba, ale byc moze pewnego dnia my rowniez poprosimy o taka przysluge. Badz zdrowa, mala czarownica.'
+
+Orkowie szanuja bies i czary, klaniajac sie twojej wyzszosci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Zamiast tego podstep cie oszukuje, a ty zostajesz zaatakowany! 
+
+[/STORY]
+[OUT]Walka.
+[/NODE]
+
++[NODE]17
+[STORY]
+Wiezi sa usuwane z fizycznego krolestwa, przynajmniej na razie. 
+
+Orki sa pod wrazeniem twojej mocy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Twoj plan dziala i zabijasz demony. 
+
+Orki, zwlaszcza ich tropiciele krwi, lubia twoj styl i zyskuja szacunek. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Dales swojemu wlasnemu duchowi, umyslowi i sercu, a wiezy odejda. 
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, odkrywasz, ze biesi nadal byly glodne i wrocily. 
+
+Orki smieja sie z twojej glupoty, oferujac tak duzo zamiast zabijac diably.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie biesow, ale orkowie smieja sie z twojej glupoty, oferujac tak duzo zamiast zabijac diablow. 
+
+Zyskasz jednak troche przyjazni za to, ze sie z nich smieja. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Wiezi sa zabijane, a orki przyjmuja to jako dowod twojej awantury. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Orkowie smieja sie z twojej porazki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Jestes nieprzekonujacy, a demony zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Zaoferuj swoj wlasny duch, umysl i cialo, aby nakarmic demony w zamian za opuszczenie tego miejsca.
+[OUT]Po prostu ich zaatakuj!
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje knowania sie nie udaja, a ty jestes atakowany przez bies. 
+
+Orki kpia z twojej porazki i smieja sie w twoja twarz. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Wiezy klaniaja sie twojemu boskiemu poleceniu i opuszczaja ten obszar. 
+
+Orki sa pod wrazeniem potegi twoich bogow. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Orkowie drwia z twojej porazki i smieja sie w twoja twarz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Mowisz do biesow, ale to ty klaniasz sie ich woli. Posiadaja twoje cialo i przez pewien czas gubisz sie w mrocznej ekstazie. 
+
+Orkowie szanuja czary, wiec nie sa pewni, co z tym zrobic. Otrzymujesz od nich ostrozny szacunek. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Zglaszasz swoje roszczenie, a twoi krewni to przyjmuja. 
+
+Orkowie sa pod wrazeniem, poniewaz lubia pokaz sily. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcKilladvGoblins(14)
++[NODE]2
+[STORY]
+Natkniesz sie na oboz goblinow, ktorego orkowie chca, abys sie pozbyl.
+[/STORY]
+[OUT][Lowca lub percepcja] Skradnij sie na nich.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Widzisz, gobliny rzeczywiscie zakladaja tu mala osade. Sa straznicy i niektorzy robotnicy buduja male chaty. Slyszysz takze wyrazny pisk dzikow w poblizu. 
+
+Straznicy jeszcze cie nie zauwazyli.
+[/STORY]
+[OUT]Zbliz sie do nich, bron w pogotowiu.
+[OUT]Macie przewage. Do ataku!
+[OUT][Ork] Brudne male robale, zabij je!
+[OUT][Lowca lub inteligencja] Zagraj w dluga gre. Ustaw pulapki i zatruj ich wode. Wymieszaj wiele drobnych klopotow, aby chcieli sami wyjechac.
+[/NODE]
+
++[NODE]4
+[STORY]
+Gobliny wpadaja w zasadzke i zdajesz sobie sprawe, ze przygotowaly rytual, ktory wciaga cie w swiat duchow!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz miejsce i wreszcie dostrzegasz gobliny. Niestety, oni tez cie zauwazaja, wiec nie masz zbyt wiele czasu, aby zdecydowac, co robic.
+[/STORY]
+[OUT]Zatrzymaj sie, podnies rece i powiedz, ze nie chcesz walczyc, tylko po to, by powiedziec im, ze musza odejsc, poniewaz orkowie ich nie chca.
+[OUT]Sprobuj zastraszyc sie i powiedz im, zeby go pokonali!
+[OUT]Do ataku!
+[OUT][Goblin] Powiedz, ze bekarci orkowie nie zwalniaja ich. Sa nawet wystarczajaco zdeterminowani, aby wyslac outsiderow do pracy.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jestes bardzo pobity, a orkowie musza przyjsc ci z pomoca. Twoja pomoc nie robi na nich wrazenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Ach, masz racje, tak. Zawsze nas drecza, nawet w dawnych czasach. Ale to miejsce jest brama do szarego swiata, naszym obowiazkiem jest utrzymanie go w bezpiecznym miejscu. Co robimy?'
+
+[/STORY]
+[OUT][Szaman] Zaoferuj swoja pomoc, aby zamknac brame, aby orkowie nie mogli jej zbezczescic, a nastepnie pomoz im sie wyprowadzic.
+[OUT]Domagaj sie, aby odeszli w ciagu jednego dnia dla wlasnego bezpieczenstwa.
+[OUT]Powiedz, ze nie zmusisz ich do odejscia, nawet jesli to rozgniewa orkow! Ta strona powinna byc chroniona.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Ta strona jest swieta, brama do szarego swiata, idz teraz!'
+
+Gobliny sa zdecydowane zostac.
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Gobliny zrywaja sie na nogi, bron tylko w polowie wyciagnieta: 
+
+'Oi, czego tu chcesz? Wyslales przez tych lobuzow, klan alfa? Mowisz im, ze zostajemy, bo to nie jest tylko ich darn. Jest tutaj swieta duchowa duchowosc i zostajemy!'
+[/STORY]
+[OUT]Przyznaj, ze tak, kazano ci pozbyc sie goblinow. Powiedz, ze najlepiej byloby przejsc dalej. Z pewnoscia nie jest to bezpieczny obszar do osiedlenia sie.
+[OUT]Do ataku!
+[OUT][Goblin] Powiedz, ze bekarci orkowie nie zwalniaja ich. Sa nawet wystarczajaco zdeterminowani, aby wyslac outsiderow do pracy.
+[/NODE]
+
++[NODE]35
+[STORY]
+Gobliny odchodza z ciezkim sercem, ostrzegajac, bys trzymal sie z dala od tego miejsca, poniewaz duchy beda tym rozgniewane. 
+
+Orkowie sa zadowoleni z twojej pomocy i oferuja mala nagrode. 
+
+Pozniej zauwazasz, ze obszar zostal zaatakowany przez upiory, ale to jest problem orkow.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy informujecie orkow o swojej porazce, wyraznie sa rozczarowani.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz wojownikow, a reszta ucieka. 
+
+Orkowie sa zadowoleni z twojej pomocy i oferuja mala nagrode. 
+
+Pozniej zauwazasz, ze obszar zostal zaatakowany przez upiory, ale to jest problem orkow.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Ach, masz racje, tak. Zawsze nas drecza, nawet w dawnych czasach. Ale to miejsce jest brama do szarego swiata, naszym obowiazkiem jest utrzymanie go w bezpiecznym miejscu. Co robimy?'
+
+[/STORY]
+[OUT][Szaman] Zaoferuj swoja pomoc, aby zamknac brame, aby orkowie nie mogli jej zbezczescic, a nastepnie pomoz im sie wyprowadzic.
+[OUT]Domagaj sie, aby odeszli w ciagu jednego dnia dla wlasnego bezpieczenstwa.
+[OUT]Powiedz, ze nie zmusisz ich do odejscia, nawet jesli to rozgniewa orkow! Ta strona powinna byc chroniona.
+[/NODE]
+
++[NODE]53
+[STORY]
+Szamani przyjmuja twoja pomoc i razem zamykasz brame do duchowego swiata. 
+
+Pomoz swoim krewnym w opuszczeniu tej ziemi, aby znalezc bezpieczniejsze miejsce. 
+
+„Nasze podziekowania naleza sie tobie, przyjacielu. Niech duchy zawsze dobrze wam mowia.'
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]55
+[STORY]
+Kiedy odchodzisz, wodz zabiera cie na bok: 
+
+- Duchy przemowily i mowia, ze bierzesz to dziecko. Nie ma innego. Badz dla nich dobry.'
+
+[/STORY]
+[OUT]Poklon sie z wdziecznoscia i przyjmij ciezar, tak jak twoj obowiazek goblinow.
+[/NODE]
+
++[NODE]56
+[STORY]
+Kiedy odchodzisz, wodz zabiera cie na bok: 
+
+'Duchy przemowily, a jeden dolaczy do ciebie w twojej podrozy.'
+
+[/STORY]
+[OUT]Uklon sie z wdziecznoscia i zaakceptuj ducha.
+[/NODE]
+
++[NODE]57
+[STORY]
+Kiedy odchodzisz, wodz zabiera cie na bok: 
+
+'Duchy przemowily, a jeden dolaczy do ciebie w twojej podrozy.'
+
+[/STORY]
+[OUT]Uklon sie z wdziecznoscia i zaakceptuj ducha.
+[/NODE]
+
++[NODE]65
+[STORY]
+Probujesz wyjasnic swoje powody orkom, ale oni nie sluchaja: 
+
+'Jak smiesz! Odsun sie, a my sami zabijemy robactwo.'
+[/STORY]
+[OUT]Probowales. Pozwol im odejsc.
+[OUT]Przekonaj ich, ze ta strona jest bezpieczniejsza w rekach goblinow, bo inaczej beda mieli klopoty z duchami.
+[OUT]Zabij orkow!
+[/NODE]
+
++[NODE]67
+[STORY]
+„Duchy, mowicie? Tak, te male zielone robale sa z nimi dobre. Pozwolilismy im zostac, dopoki nie sprawia nam klopotu!'
+
+Zarowno gobliny, jak i orki sa zadowolone z kompromisu, ktory wypracowales. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]70
+[STORY]
+Orki ignoruja twoje prosby i atakuja gobliny z pelna sila. Wielu umiera po obu stronach, ale orkowie wiedza, jak walczyc na swojej murawie, wiec wygrywaja. 
+
+Gobliny wciaz doceniaja twoje wysilki, ale orkowie nie szanuja porazki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]73
+[STORY]
+Orki sa bite i masz je pod swymi mieczami: 
+
+'Wygrywasz, ha! Chyba na razie masz prawo chronic gobbos.'
+[/STORY]
+[OUT]Zabij orkow, aby pozniej nie zranili goblinow.
+[OUT]Zostaw ich i miej nadzieje, ze honor zatrzyma ich wystarczajaco dlugo, aby gobliny staly sie silniejsze.
+[/NODE]
+
++[NODE]75
+[STORY]
+Orki bija cie najpierw, a nastepnie atakuja gobliny z pelna sila. Wielu umiera po obu stronach, ale orkowie wiedza, jak walczyc na swojej murawie, wiec wygrywaja. 
+
+Gobliny wciaz doceniaja twoje wysilki, ale orkowie nie szanuja porazki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]82
+[STORY]
+Draznisz gobliny na tyle, ze porzucaja plany osiedlenia sie tutaj. 
+
+Orkowie sa zadowoleni z twojej pomocy i oferuja mala nagrode. Pozniej zauwazasz, ze obszar zostal zaatakowany przez upiory, ale to jest problem orkow.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Army(15)
++[NODE]2
+[STORY]
+Uzbrojona grupa orkow stoi przed toba.
+[/STORY]
+[OUT]Pozdrow swoich sojusznikow. 
+[OUT]Badz ostrozny, ale rozmawiaj z nimi.
+[OUT]Walka!
+[OUT]Zastrasz ich!
+[OUT]Odsun sie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Siostry bojowe, dobrze poznane.'
+[/STORY]
+[OUT]Zapytaj, czy chca handlowac.
+[OUT]Wypijcie razem drinka.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Nie jestes naszym wrogiem, ale nie jestes naszym przyjacielem. Idz do naszej wioski, jesli chcesz sie zaprzyjaznic. Teraz odejdz.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Walka!
+[OUT]Zastrasz ich!
+[/NODE]
+
++[NODE]17
+[STORY]
+„Klaniamy sie waszej dominacji, robimy tak, jak mowicie, jak to jest w naszym zwyczaju, gdy spotykamy sie z alfa.'
+[/STORY]
+[OUT]Wez ich rzeczy i wyjdz.
+[/NODE]
+
++[NODE]19
+[STORY]
+Twoje zagrozenia nie dzialaja. Jestes bity i goniony.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery beasts orc(16)
++[NODE]2
+[STORY]
+Zdajesz sobie sprawe, ze nie sa to ruiny, ale miejsce pochowku klanu orkow. 
+
+Widzisz kilka starych stosow i jeden nowy. Dostrzegasz tez stado wilkow krazacych.
+[/STORY]
+[OUT][Ork] Przyjrzyj sie blizej paczce, aby sprawdzic, czy maja znak skrobiserow.
+[OUT][Ork] Przyjrzyj sie blizej paczce, aby sprawdzic, czy maja znak skrobiserow.
+[OUT]Masz umiejetnosci radzenia sobie ze zlymi bestiami. Obserwuj pakiet, aby znalezc sposob na to.
+[OUT]Atakuj wilki!
+[OUT][Horz] W imie Horza, pokloncie sie!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Te wilki sa rzeczywiscie skrepaczami, lojalnymi towarzyszami tropicieli krwi, wyraznie strzegacymi miejsca spoczynku swoich panow. 
+
+Ich przywodca musi zostac polozony tutaj. Najlepiej pozostawic je, ale jesli chcesz lupic stosy (co jest twoim prawem), musisz stawic czola wilkom. 
+
+[/STORY]
+[OUT]Unikaj stosu nalezacego do dawnych mistrzow wilkow i rabuj innych, jak masz prawo.
+[OUT]Zabij wilki. Nie maja sensu, gdy ich pan zniknie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Te wilki sa rzeczywiscie krochmalami, lojalnymi towarzyszami tropicieli krwi. 
+
+Zostaly bez lidera paczki. To twoja szansa na zdobycie lojalnosci, ale uwazaj, moze sie to stac krwawe!
+[/STORY]
+[OUT][Bloodtracker] Pokaz te wilki swoja surowa wola i uczyn je pietami!
+[OUT][Matriarch] Dominuj te wilki swoja moca!
+[OUT]Unikaj stosu nalezacego do dawnych mistrzow wilkow i rabuj innych, jak masz prawo.
+[OUT]Unikaj stosu nalezacego do dawnych mistrzow wilkow i rabuj innych, jak masz prawo.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wilki sa bite i poddawane twojej szarzy. 
+
+Jeden z wilkow decyduje, ze jestes jego nowym panem.
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]12
+[STORY]
+Wilki sa bite i poddawane twojej szarzy. Ten pakiet bedzie nadal wedrowal, ale bedziesz mogl wezwac jego pomoc. 
+
+
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]13
+[STORY]
+Wilki nie poddaja sie, a ty ledwo unikasz ich gniewu.
+[/STORY]
+[OUT]Zmykac sie z nimi! Zamiast tego atakuj!
+[OUT]Biegnij dalej.
+[/NODE]
+
++[NODE]16
+[STORY]
+Zdajesz sobie sprawe, ze te wilki sa dzikie, gniewne i glodujace - niebezpieczne polaczenie. 
+
+Beda reagowac tylko na brutalna sile lub dominacje.
+[/STORY]
+[OUT][Nocny demon] Jako demon nocny, zastraszasz bestie. 
+[OUT]Wykorzystaj swoja wiedze o wilkach, aby zdominowac stado!
+[OUT][Natura] Sprobuj dotrzec do wewnetrznego ducha wilkow, aby uspokoic ich w imie natury. 
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Pokonujesz wilki i mozesz spladrowac stosy pogrzebowe. 
+
+Jeden z wilkow decyduje, ze jestes nowa alfa, wiec teraz mozesz wezwac jego pomoc. 
+
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz wilki i mozesz je spladrowac.
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]29
+[STORY]
+Wilki sa bite i poddawane twojej szarzy. 
+
+Jeden z wilkow decyduje, ze jestes jego nowym panem.
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]30
+[STORY]
+Wilki sa bite i poddaja sie twojej szarzy. 
+
+Ten pakiet bedzie nadal wedrowal, ale mozesz byc w stanie wezwac jego pomoc. 
+
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]31
+[STORY]
+Wilki poddaja sie twojej szarzy. 
+
+Ta paczka bedzie nadal wedrowac, ale mozesz spladrowac stosy. 
+
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Unliving(17)
++[NODE]2
+[STORY]
+Podczas odkrywania zauwazysz, ze dawno martwe humanoidalne szczatki sa rozrzucone po calym miejscu. 
+
+Wygladaja na wieksze niz ludzkie, byc moze orkowe. 
+[/STORY]
+[OUT]Zostaw kosci i kontynuuj poszukiwania lupow. 
+[OUT][Ork] Przygotuj stosy pogrzebowe, aby zmarli mogli byc honorowani.
+[OUT][Ork] Przygotuj stosy pogrzebowe, aby zmarli mogli byc honorowani.
+[OUT]Najpierw pochowaj ciala z szacunku. 
+[OUT]Najpierw pochowaj ciala z szacunku. 
+[OUT]Najpierw pochowaj ciala z szacunku. 
+[OUT]Nienaturalne sily wiazace te niezywe sa wciaz slabe. Sprobuj przelamac te wiez, a tym samym uwolnic ich dusze.
+[OUT]Zostaw kosci i kontynuuj poszukiwania lupow. 
+[OUT]Opusc to miejsce.
+[/NODE]
+
++[NODE]4
+[STORY]
+Rytual dziala, a ty uwalniasz niezyjace dusze. 
+[/STORY]
+[OUT]Przeszukaj ruiny.
+[OUT]Przeszukaj ruiny.
+[/NODE]
+
++[NODE]5
+[STORY]
+Stosy pogrzebowe pala sie wysoko i wymawiasz gardlowy rozkaz ladowania, aby dusze poleglych mogly podniesc sie w swoim ostatnim wezwaniu do bitwy. 
+
+Twoje duchy sa podniesione, gdy czujesz obecnosc poleglych teraz w pokoju. 
+[/STORY]
+[OUT]Dobrze. Kontynuuj sprawdzanie ruin pod katem uzytecznego lupu.
+[OUT]Dobrze. Kontynuuj sprawdzanie ruin pod katem uzytecznego lupu.
+[/NODE]
+
++[NODE]7
+[STORY]
+Stosy pogrzebowe pala sie wysoko i wymawiasz gardlowy rozkaz ladowania, aby dusze poleglych mogly podniesc sie w swoim ostatnim wezwaniu do bitwy. 
+[/STORY]
+[OUT]Dobrze. Kontynuuj sprawdzanie ruin pod katem uzytecznego lupu.
+[OUT]Dobrze. Kontynuuj sprawdzanie ruin pod katem uzytecznego lupu.
+[/NODE]
+
++[NODE]8
+[STORY]
+Zakopujesz ciala zgodnie z twoim zwyczajem. Niestety, czujesz ciezki niepokoj duchow w powietrzu, a twoje dusze czuja sie przez to obciazone. 
+
+[/STORY]
+[OUT]Kontynuuj przeszukiwanie ruin. 
+[OUT]Kontynuuj wyszukiwanie czegokolwiek przydatnego.
+[/NODE]
+
++[NODE]9
+[STORY]
+Zakopujesz ciala zgodnie z twoim zwyczajem, ale byc moze upadlym orkom sie to nie podobalo, poniewaz powstaja, by cie zaatakowac!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[OUT]Porozmawiaj ze swoimi niezywymi krewnymi, aby uspokoic ich gniew i zaoferowac pomoc.
+[OUT]Poniewaz natura i harmonia kolysza twoja dusze, uzyj swojej domeny, aby oslabic te nieozywione, zanim zabijesz je na dobre!
+[/NODE]
+
++[NODE]10
+[STORY]
+Pochowujesz ciala zgodnie z twoim zwyczajem i nie wzniecasz zycia, by cie zabic, wiec prawdopodobnie dobrze ci poszlo.
+[/STORY]
+[OUT]Kontynuuj wyszukiwanie czegokolwiek przydatnego.
+[OUT]Kontynuuj wyszukiwanie czegokolwiek przydatnego.
+[/NODE]
+
++[NODE]12
+[STORY]
+„My… nie mozemy odpoczac. Ciemnosc ciagnie nas, trzyma nas tutaj ... ogien, ogien do naszych kosci!'
+
+Jeden z nieozywionych laczy sie z twoim umyslem i nagle znasz wlasciwy orczy sposob na ich odlozenie.
+[/STORY]
+[OUT]Stworz stos pogrzebowy i poprowadz go do zycia, zgodnie z ich zyczeniem.
+[OUT]Poniewaz natura i harmonia kolysza twoja dusze, uzyj swojej domeny, aby oslabic te nieozywione, zanim zabijesz je na dobre!
+[OUT]Poniewaz natura i harmonia kolysza twoja dusze, uzyj swojej domeny, aby oslabic te nieozywione, zanim zabijesz je na dobre!
+[OUT]Po prostu zabij zycie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Pokonujesz unliving po tym, jak zostali oslabieni przez interwencje twojej domeny. Jednak zdajesz sobie sprawe, ze miales pokojowy sposob rozwiazania tego, aby twoje duchy cierpialy z powodu tego aktu przemocy. 
+[/STORY]
+[OUT]Cholera. Przeszukuj ruiny w poszukiwaniu lupow.
+[OUT]Cholera. Przeszukuj ruiny w poszukiwaniu lupow.
+[/NODE]
+
++[NODE]15
+[STORY]
+Twoje wysilki sa daremne, a niezyjacy atak!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]18
+[STORY]
+Z martwymi, coz, martwymi, mozesz teraz przeszukac ruiny w spokoju.
+[/STORY]
+[OUT]Zbierz co mozesz i odejdz.
+[OUT]Zbierz co mozesz i odejdz.
+[/NODE]
+
++[NODE]19
+[STORY]
+Niezyjace przytloczy cie i zmusi cie do ucieczki.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]21
+[STORY]
+Gdy przeszukujesz stary gruz, slyszysz glos kobiecego orka: 
+
+- Bylismy swiadkami z daleka twojego honorowego czynu, jak oczywiscie oczekiwano od siostry. Tutaj znalezlismy lup, ktorego nie mozemy pokonac na dlugiej drodze. Wez to i dobrze sluzyc bogom!'
+[/STORY]
+[OUT]Dziekuje ci w klatce piersiowej i pozegnaj ich. Zakoncz sprawdzanie ruin i wyjdz.
+[/NODE]
+
++[NODE]26
+[STORY]
+Kiedy masz zamiar odejsc, slyszysz ryk gloszacy cie orkowego wojownika: 
+
+- Pokazales naszemu wojownikowi szacunek i nie pozwoliles swoim zhanbionym cialom chodzic jak niezyjace plagi. Oto nasze podziekowania.'
+[/STORY]
+[OUT]Dziekuje im i odejdzcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Kiedy masz zamiar odejsc, slyszysz ryk gloszacy cie orkowego wojownika: 
+
+- Pokazales naszemu wojownikowi szacunek i nie pozwoliles swoim zhanbionym cialom chodzic jak niezyjace plagi. Oto nasze podziekowania.'
+[/STORY]
+[OUT]Zbierz co mozesz i odejdz.
+[/NODE]
+
++[NODE]33
+[STORY]
+Zanim zdazysz zabrac swoj skarb, uslyszysz ryczacy glos orczego wojownika ryczacego na ciebie: 
+
+'Uwazamy te ruine za nasza darn, tak jak to zaznaczyli nasi upadli krewni!'
+
+[/STORY]
+[OUT]Sluchaj dalej. Najlepiej nie rozwscieczac juz wscieklego orka.
+[/NODE]
+
++[NODE]35
+[STORY]
+Pomagasz wykopac ciala i dokonac odpowiednich stosow pogrzebowych zgodnie z obyczajami orkow.
+[/STORY]
+[OUT]Dobrze. Zabierz swoj lup i wyjdz.
+[/NODE]
+
++[NODE]36
+[STORY]
+Pomagasz wykopac ciala i wykonac stosy pogrzebowe zgodnie z obyczajami orkow. 
+
+Orkowie doceniaja twoja pomoc i dodaja troche metali jako nagrode, zanim pozegnaja cie.
+[/STORY]
+[OUT]Dobrze. Zabierz swoj lup i wyjdz.
+[/NODE]
+
++[NODE]39
+[STORY]
+Ork wojownik warczy, jej ostre, odsloniete zeby blyszcza na ciebie, ale potem sie smieje: 
+
+'Ha! Masz serce wojownika i szanujesz naszych poleglych. Mozesz odejsc, a twoja sciezka moze byc wypelniona dobrymi wrogami i silnymi przyjaciolmi.'
+[/STORY]
+[OUT]Zycze im takze dobrze i odejdz.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Dobrze walczyles o slabe ciala. Masz cycki! Dobry.
+
+Wszystkie te walki doprowadzily mnie do glodu. Zostaw swoje jedzenie, zostaw lup i mozesz isc.'
+[/STORY]
+[OUT]Chwalcie ich honor i odejdzcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]41
+[STORY]
+Kimkolwiek byli ci martwi ludzie, ich zabojcy wystartowali z duza iloscia tego, co bylo tutaj uzyteczne, ale nadal widzisz jakies zbawialne zasoby i kilka rozproszonych broni, ktore moga byc dobre.
+[/STORY]
+[OUT]Wez rzeczy i wyjdz.
+[/NODE]
+
++[NODE]42
+[STORY]
+Zbierasz to, co zostalo w ruinach, ale kiedy podnosisz szkielet, by podniesc jego miecz, slyszysz kroki za soba i widzisz, jak nie zyje!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[OUT]Porozmawiaj ze swoimi niezywymi krewnymi, aby uspokoic ich gniew i zaoferowac pomoc.
+[OUT]Poniewaz natura i harmonia kolysza twoja dusze, uzyj swojej domeny, aby oslabic te nieozywione, zanim zabijesz je na dobre!
+[/NODE]
+
++[NODE]43
+[STORY]
+„Ale mowie ci co, okazales szacunek zmarlym, mimo ze je pochowales zamiast spalic ... Wiec pomoz nam wykopac je i zrobic stosy pogrzebowe i mozesz zatrzymac polowe lupow.'
+[/STORY]
+[OUT]Zgodz sie pomoc z cialami. 
+[OUT]Zgodz sie pomoc z cialami. 
+[OUT][Zamieszanie] Poniewaz zamieszanie jest twoja sciezka, stoj mocno i powiedz, ze nie ulegniesz ich zadaniom. Lup jest twoj, a jesli mysla inaczej, moga z toba walczyc.
+[OUT][Zamieszanie] Poniewaz zamieszanie jest twoja sciezka, stoj mocno i powiedz, ze nie ulegniesz ich zadaniom. Lup jest twoj, a jesli mysla inaczej, moga z toba walczyc.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Wiec poddajesz sie ... slaby, tchorzliwy, a ty twierdzisz, ze podazasz droga zamieszania, prawda? Zalosne.'
+
+Wojownik pluje ci w twarz, a jej ludzie wyrzucaja cie z ruin, zabierajac ci lup, ale, co zaskakujace, nie sprzet.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]46
+[STORY]
+„Ach, prawdziwi wojownicy, dobrze! Rob z nami, jak chcesz. Poddajemy sie twoim mieczom!'
+[/STORY]
+[OUT]Zabij ich wszystkich i zabierz ich rzeczy.
+[OUT]Wez tylko lup, ktory znalazles w ruinach, i zostaw orki. 
+
+[/NODE]
+
++[NODE]55
+[STORY]
+Stosy pogrzebowe pala sie wysoko i wymawiasz gardlowy rozkaz ladowania, aby dusze poleglych mogly podniesc sie w swoim ostatnim wezwaniu do bitwy. 
+
+Twoje duchy sa podniesione, gdy czujesz obecnosc poleglych teraz w pokoju. 
+[/STORY]
+[OUT]Dobrze. Kontynuuj sprawdzanie ruin pod katem uzytecznego lupu.
+[OUT]Dobrze. Kontynuuj sprawdzanie ruin pod katem uzytecznego lupu.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Traps(18)
++[NODE]2
+[STORY]
+Znajdziesz rozproszone pozostalosci starej osady orkow. 
+
+W dawnych czasach klany byly w wiekszosci nomadyczne, wiec jest to rzadkie znalezisko. 
+
+Wkrotce zdajesz sobie sprawe, ze obszar jest pelen pulapek, z pewnoscia chroniacych cos dalej.
+[/STORY]
+[OUT]Pulapki sa stare. Po prostu je rozbij.
+[OUT]Pulapki sa stare. Po prostu je rozbij.
+[OUT][Intelekt] Pozwol intelektowi oczyscic umysl i znalezc sciezke przez te pulapki.
+[OUT][Intelekt] Pozwol intelektowi oczyscic umysl i znalezc sciezke przez te pulapki.
+[OUT]Jestes rzemieslnikiem. Uzyj swoich umiejetnosci, aby rozbroic te pulapki.
+[OUT]Jestes rzemieslnikiem. Uzyj swoich umiejetnosci, aby rozbroic te pulapki.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Niszczysz wiekszosc pulapek, ale niektore zostawiaja cie z cieciami i siniakami. 
+[/STORY]
+[OUT]Przeszukaj ruiny.
+[/NODE]
+
++[NODE]11
+[STORY]
+Pulapki moga byc stare, ale jest ich za duzo. Odchodzisz z cieciami i siniakami i nic wiecej.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Tu nie ma zbyt wielu kosztownosci, ale udaje ci sie zebrac przydatne materialy. 
+
+[/STORY]
+[OUT]Zbierz to, co znalazles i odejdz.
+[/NODE]
+
++[NODE]20
+[STORY]
+Odkrywasz zakopana skrzynie, w ktorej czesc jej zawartosci jest nienaruszona. 
+
+[/STORY]
+[OUT]Zbierz to, co znalazles i odejdz.
+[/NODE]
+
++[NODE]29
+[STORY]
+Widzisz bezpieczna sciezke, ktora zabierze Cie do centrum tych ruin. 
+
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]30
+[STORY]
+Rozbrajasz pulapki bez problemu. 
+
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]31
+[STORY]
+Widzisz bezpieczna sciezke, ktora zabierze Cie do centrum tych ruin. 
+
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]32
+[STORY]
+Twoj umysl pozostaje pomieszany i czujesz sie przygnebiony. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Pulapki sa stare. Po prostu je rozbij.
+[/NODE]
+
++[NODE]34
+[STORY]
+Rozbrajasz pulapki bez problemu. 
+
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Orc guardians(19)
++[NODE]2
+[STORY]
+Znajdujesz rozproszone pozostalosci starej orczej osady. W dawnych czasach klany byly w wiekszosci nomadyczne, wiec jest to rzadkie znalezisko. 
+
+Podczas przeszukiwania prymitywnych, ale mocnych starych struktur, dostrzegasz takze grupe orkow.
+[/STORY]
+[OUT][Ork] Potwierdz prawo najsilniejszych do zadania tego znaleziska. 
+[OUT][Ork] Sprobuj rozmawiac ze swoimi krewnymi. 
+[OUT][Zorya i mistycyzm] Krzyczcie do nich, ze podobnie jak corki Zory, ktore rzadza swoimi klanami, wy takze podazacie za wojownicza boginia i tym samym macie prawo do tych lupow!
+[OUT][Harmonia] W imie harmonii, sprobuj z nimi porozmawiac.
+[OUT]Sprobuj negocjowac.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Ach, zle wychowane dzieci naszej kochanki, tak! 
+
+Pozwalasz mezczyznom w twoich szeregach na rowne. To cie umniejsza, ale byc moze pewnego dnia sie dowiesz. 
+
+To nie jest zwykle zrujnowanie, ale poligon doswiadczalny. Jesli chcesz tutaj szukac nagrod, staniesz twarza w twarz z naszym duchem, a zobaczymy, czy jestes prawdziwy.'
+
+[/STORY]
+[OUT]Zgodz sie wziac udzial w rytuale duchowym.
+[OUT]Odmow i atakuj!
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Ach, roszczenie ma racje, tak. Jeden z was na jednego z naszych. Tylko kobiety oczywiscie - nie bede cie szanowac mezczyzna.'
+
+[/STORY]
+[OUT]Jestes orkiem i jestes kobieta. Zgodzic sie!
+[OUT]Ork jest orkiem. Nalegaj, aby mezczyzna orkow zmierzyl sie z nimi!
+[OUT]Nie masz orki, ale kazda kobieta moze to zrobic!
+[OUT]Zamiast tego odmow i atakuj!
+[OUT]Odmow i wyjdz. 
+[/NODE]
+
++[NODE]25
+[STORY]
+„Zamknij pulapki, zanim je zamkniemy! To nasze miejsce, wiec pobij to!'
+[/STORY]
+[OUT]Pompatyczny dranie. Zamiast tego zaatakuj ich!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Och, przestan gwizdac! Nie marnujemy naszych ostrzy na rozmowcow. 
+
+Idz, przeszukaj obrzeza i ciesz sie z resztek, ktore tam znajdziesz. To zaszczyt, na ktory latwo nie pozwalamy.'
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[OUT]Pompatyczny dranie. Zamiast tego zaatakuj ich!
+[/NODE]
+
++[NODE]29
+[STORY]
+„Ha! Dobra kobieca bijatyka, tak, rozumiesz, i dobrze zrobilas, bijac mnie! Ta ziemia nalezy do ciebie.'
+[/STORY]
+[OUT]Dziekuje im i zacznijcie odkrywac.
+[OUT]Pozwol orkom przeszukac zewnetrzne czesci ziemi. Walczyli dobrze i zaslugiwali na honor.
+[/NODE]
+
++[NODE]37
+[STORY]
+Orkowy szaman podchodzi i karmi cie nedzna mikstura, ktora smakuje metalem i brudem. 
+
+Orki zaczynaja dziwny taniec wojownika i starasz sie jak najlepiej dolaczyc, proszac Zorye o wskazowki.
+[/STORY]
+[OUT]Otworz swoje dusze na sciezke Zoryi i pokaz tym orkom, ze jestes prawda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]41
+[STORY]
+„Poddaj sie!'
+
+Orki pluja, odwracaja sie od ciebie i czekaja na ciebie, zebys odszedl ze wstydem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Dobrze walczyles! Ale ci twoi bogowie wyraznie oslabiaja twoje cialo i umysl, przyjacielu. Tylko Zorya moze cie uwiarygodnic! 
+
+Wygralismy, wiec to nasza ziemia, ale mozesz przeszukac zewnetrzna krawedz. Zarobiles to.'
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Argh, nie poddam sie samemu samcowi. Oczywiscie, tobie bylo latwo. 
+
+Ale uczciwe jest sprawiedliwe, udowodniles swoja wartosc i zawstydzasz mnie. Ta ziemia nalezy do ciebie.'
+[/STORY]
+[OUT]Dziekuje im i zacznijcie odkrywac.
+[OUT]Pozwol orkom przeszukac zewnetrzne czesci ziemi. Walczyli dobrze i zaslugiwali na honor.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Poddaj sie! Ty meski gowno, jak smiesz tak hanbic orcza krew!'
+
+Ork pluje ci w twarz z obrzydzeniem, a potem warczy na ciebie, zacisniete piesci.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Pompatyczny dranie. Zamiast tego zaatakuj ich!
+[/NODE]
+
++[NODE]48
+[STORY]
+Zabijasz orki, a ruiny leza teraz przed toba w celu grabiezy!
+[/STORY]
+[OUT]Zbierzcie lupy i odejdzcie.
+[/NODE]
+
++[NODE]51
+[STORY]
+„Tak! Wasze duchy sa silne, a wasze dusze pograzone sa w zamieszaniu, wiec akceptujemy wasze pokrewienstwo. 
+
+Przeszukamy te ruiny obok siebie.'
+[/STORY]
+[OUT]Zgadzam sie i rozpocznij poszukiwania.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Twoj duch jest slaby. Jesli podazasz za Zorya, musisz sie jeszcze wiele nauczyc. 
+
+Ta ziemia jest nasza do lupienia. Pozostawiac.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Pompatyczny dranie. Zamiast tego zaatakuj ich!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Darknessdiff5(20)
++[NODE]2
+[STORY]
+Przeszukujesz stare ruiny, az zdasz sobie sprawe, ze ciemna, zlowroga mgla spada na to miejsce. 
+
+Czarna mgla jest przerazajaca pozostaloscia dni ciemnosci.
+[/STORY]
+[OUT]Wzywaj swiatla lub harmonii, aby chronic cie przed ta ciemna moca. 
+[OUT]Wzywaj swiatla lub harmonii, aby chronic cie przed ta ciemna moca. 
+[OUT]Wezwij zamieszanie lub magie, by ochronic cie przed ciemnoscia.
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[OUT]Sprobuj przemknac sie szybko przez mgle, aby dostac sie do mozliwego lupu w tych ruinach.
+[OUT][Shadow elf] Czarna mgla nie stanowi dla ciebie zagrozenia. Przejdz przez nia i zakoncz przeszukiwanie ruin.
+[OUT][Shadow elf] Czarna mgla nie stanowi dla ciebie zagrozenia. Przejdz przez nia i zakoncz przeszukiwanie ruin.
+[/NODE]
+
++[NODE]13
+[STORY]
+Niestety, twoja boska domena sluzy tylko jako latarnia dla czarnej mgly, ktora ma uderzyc. 
+
+Jestescie pochlonieci przez jego ciemne szpony, ktore lekaja sie w waszej duszy ze strachem i szalenstwem!
+[/STORY]
+[OUT]Nie pozwol wygrac tej ciemnosci. Zbierz swojego ducha i walcz z nim!
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]14
+[STORY]
+Twoja domena chroni cie, gdy przerazajaca mgla usiluje przedostac sie do twoich dusz. 
+
+Wciaz niespokojne z tego doswiadczenia, mozesz sprobowac przeszukac to miejsce w poszukiwaniu lupow i miec nadzieje, ze mgla nie pojawi sie ponownie. 
+
+[/STORY]
+[OUT]Wez to, co znajdziesz i wyjdz. 
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[/NODE]
+
++[NODE]23
+[STORY]
+Czarnej mgly nie mozna latwo pokonac. Zanim sie zorientujesz, gleboka, przenikliwa ciemnosc ogarnia cie w jego zimnych szponach i lzach w twoim umysle i duszy. 
+
+[/STORY]
+[OUT]Biegnij!
+[/NODE]
+
++[NODE]26
+[STORY]
+Pokonujesz ciemnosc i mozesz teraz probowac wyssac jej moc.
+[/STORY]
+[OUT]Wysysaj energie.
+[OUT]Wysysaj energie.
+[OUT]Wysysaj energie.
+[OUT]Wysysaj energie.
+[OUT]Nie ryzykuj wtracania sie w mgle. Przeszukaj ruiny w poszukiwaniu lupow.
+[OUT]Nie ryzykuj wtracania sie w mgle. Przeszukaj ruiny w poszukiwaniu lupow.
+[/NODE]
+
++[NODE]27
+[STORY]
+Skora twoich zebow udaje ci sie uniknac mgly, chociaz wciaz odczuwasz trwoge i znajdujesz przyzwoity zapas towarow do grabiezy.
+[/STORY]
+[OUT]Zbierz kazdy lup, ktory znajdziesz i wyjdz.
+[/NODE]
+
++[NODE]29
+[STORY]
+Bezpiecznie wysysasz czesc ciemnej energii, chronionej przez boska domene magii. 
+
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
++[NODE]30
+[STORY]
+Probujesz wyssac ciemna energie, ale nie pasuje ona do twojej boskiej domeny. 
+
+Choroba duchowa cie spotka. 
+
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
++[NODE]31
+[STORY]
+Bezpiecznie wysysasz czesc ciemnej energii.
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
++[NODE]32
+[STORY]
+Ciemna mgla niszczy wiekszosc tego, co niegdys tu bylo, ale znajdujesz dosc swieze zwloki, by je spladrowac. 
+[/STORY]
+[OUT]Wez rzeczy i wyjdz.
+[/NODE]
+
++[NODE]35
+[STORY]
+Twoja domena chroni cie, gdy przerazajaca mgla usiluje przedostac sie do twoich dusz. 
+
+Wciaz niespokojne z tego doswiadczenia, mozesz sprobowac przeszukac to miejsce w poszukiwaniu lupow i miec nadzieje, ze mgla nie pojawi sie ponownie. 
+
+[/STORY]
+[OUT]Wez to, co znajdziesz i wyjdz. 
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[OUT]Miales z wami madrych. Walcz z ta moca ciemnosci swoim duchem!
+[/NODE]
+
++[NODE]37
+[STORY]
+Moc ciemnosci przenika do twojego ducha, wzmacniajac go od wewnatrz.
+[/STORY]
+[OUT]Dobrze. Zbierz kazdy lup, ktory znajdziesz i wyjdz.
+[/NODE]
+
++[NODE]39
+[STORY]
+Probujesz wyssac ciemna energie, ale ciemnosc jest zmiennym przyjacielem. 
+
+Choroba duchowa cie spotka. 
+
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Bear cave(21)
++[NODE]2
+[STORY]
+Natkniesz sie na jaskinie. Jego wejscie wyglada jak kiedys zamieszkane, ale teraz jest zarosniete i ciemne. 
+[/STORY]
+[OUT]Najpierw zajrzyj do jaskini.
+[OUT]Wejdzcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Rozpoznajesz jaskinie i widzisz slady niedzwiedzi. Co dziwne, widac tylko slady w jaskini, nigdy na zewnatrz. 
+
+Kiedy zagladasz glebiej, widzisz zlamana taczke, jakis inny podarty sprzet i spiacego niedzwiedzia.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Zwierzecy krewny lub Natura] Wyczuwasz cos dziwnego w stworzeniu. Obserwuj to dluzej.
+[OUT]Przekradnij sie, by zebrac wszystkie uzyteczne lupy w jaskini.
+[OUT]Przekradnij sie, by zebrac wszystkie uzyteczne lupy w jaskini.
+[/NODE]
+
++[NODE]5
+[STORY]
+Wchodzisz do jaskini. Jest ciemno i wilgotno, ale sa oznaki humanoidalnego zycia, polamane meble i krzywe taczki. 
+
+Zanim bedziesz mogl dalej badac, zauwazysz niedzwiedzia. Patrzy na ciebie i potrzasa glowa i lapami, jakby probowal cie odepchnac. Potem sie zatrzymuje. Slyszysz wiecej ryku i niedzwiedzia!
+[/STORY]
+[OUT]Walka.
+[OUT]Ucieczka!
+
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]8
+[STORY]
+Niedzwiedzie cie bija i zmuszaja do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Zabijasz niedzwiedzia i jego paczke, a ty mozesz spladrowac jaskinie.
+[/STORY]
+[OUT]Jeden z mlodszych niedzwiedzi przezywa i teraz podaza za twoim tropem. Pozostawiac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Przekleta niedzwiedzia skora, taczka, tata, wiezienie, pomoc czarownicy, nosi straszne.'
+
+Glos niedzwiedzia brzmi jak mowienie dziecka i zgadujesz, ze zostal przeklety. Niedzwiedz wskazuje mala figurke niedzwiedzia, ktora widzisz teraz na podlodze. 
+[/STORY]
+[OUT]Zniszcz figurke.
+[OUT]Zniszcz figurke.
+[OUT]Starannie rozwiaz magie figurki, zanim ja zniszczysz.
+[/NODE]
+
++[NODE]18
+[STORY]
+Niedzwiedz porusza sie i budzi, ale wydaje sie, ze cie nie wacha ani nie zauwaza. Zamiast tego siedzi tam, wpatrujac sie w podloge. 
+[/STORY]
+[OUT]Sprobuj rozmawiac z niedzwiedziem.
+[OUT]Do ataku!
+[OUT]Przekradnij sie, by zebrac wszystkie uzyteczne lupy w jaskini.
+[OUT][Magiczny uzytkownik] Wyczuwasz silna obecnosc magii od niedzwiedzia. Wykonaj rytual oczyszczania, aby odkryc wszelkie ukryte mistyczne sploty. 
+[OUT]Przekradnij sie, by zebrac wszystkie uzyteczne lupy w jaskini.
+[/NODE]
+
++[NODE]19
+[STORY]
+Niedzwiedz patrzy na ciebie z wielkimi brazowymi oczami. Chrzaka i warczy, ani humanoidalny jezyk, ani jezyk dzikiego, ale dziwna mieszanka tych dwoch. 
+
+[/STORY]
+[OUT]Sprobuj dowiedziec sie, co mowi niedzwiedz.
+[/NODE]
+
++[NODE]21
+[STORY]
+Identyfikujesz mala figurke niedzwiedzia jako totem, do ktorego przywiazana jest klatwa niedzwiedzia. 
+
+Twoj rytual powoli odkrywa magiczne sploty i ujawnia stara, mroczna magie. 
+[/STORY]
+[OUT]Kontynuuj czyszczenie jaskini.
+[/NODE]
+
++[NODE]23
+[STORY]
+Przekradasz sie przez niedzwiedzia i zbierasz zasoby. 
+
+Wsrod rzeczy jest mala figurka niedzwiedzia, ktora pekla, gdy opusciles prog jaskini. Gdy patrzysz wstecz, widzisz, jak niedzwiedz przekreca sie i umiera w strasznym bolu. 
+[/STORY]
+[OUT]Gdy odchodzisz, duch wydaje sie przywiazywac do twojej sluzby.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Zmiazdzona figurka zamienia sie w cialo i krew, a wraz z nia umiera niedzwiedz. Jednak zwierze powoli zamienia sie w mloda dziewczyne w ekstrawaganckim ubraniu. Jej cialo rozpada sie w ciagu kilku minut, az zostana tylko kosci. 
+
+[/STORY]
+[OUT]Poloz kosci, aby odpoczac.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pojawia sie duch, klania sie w zabawny sposob i mowi: „Dziekuje ci, mili rycerze z krolestwa. Zrobiles mi swietna sluzbe, ratujac mnie przed nikczemna klatwa. Mam nadzieje, ze moje szczatki zapewnia nagrode za wasze uslugi rycerskie.'
+
+[/STORY]
+[OUT]Zapytaj ducha o jego historie.
+[OUT]Duch pomoze ci takze w potrzebie. Kiwnij glowa i zbierz bogactwa z kosci. 
+[OUT]Kiwnij glowa i zbierz bogactwa z kosci. 
+[/NODE]
+
++[NODE]28
+[STORY]
+Zmiazdzona figurka zamienia sie w cialo i krew, a wraz z nia umiera niedzwiedz. Krzyczy z bolu w glosie dziewczyny. 
+
+Wszystkie oznaki jej czlowieczenstwa znikaja, a zwierze staje sie wlasnie tym - bestia. 
+
+Mozna jednak swobodnie opuscic jaskinie i robi to, patrzac na ciebie z ostatnim przeblyskiem ludzkiej wdziecznosci, a moze smutku. 
+
+[/STORY]
+[OUT]Niedzwiedz przyjdzie na twoja strone, kiedy bedziesz go potrzebowal.
+[OUT]Zbierz wszystkie uzyteczne pozostalosci, ktore mozesz, i odejdz.
+[/NODE]
+
++[NODE]31
+[STORY]
+Ostroznie rozplatujesz magie od figurki niedzwiedzia i poczujesz, ze jej mocny uscisk na niedzwiedziu slabnie. 
+
+Ale klatwa jest starozytna i nie ma czasu na wlasciwe rytualy. 
+
+Wszystko, co mozesz zrobic, to wybrac los niedzwiedzia. Pozwol mu umrzec i pozwol, by jego ludzki duch zostal uwolniony z wiezow. Albo niech zyje niedzwiedz, ale bedzie bestia i nie pozostanie zadne uczucie.
+[/STORY]
+[OUT]Wybierz uwolnienie ludzkiego ducha.
+[OUT]Wybierz, aby pozwolic niedzwiedziu zyc. 
+[/NODE]
+
++[NODE]32
+[STORY]
+Zwierze powoli zamienia sie w mloda dziewczyne w ekstrawaganckim ubraniu. Jej cialo rozpada sie w ciagu kilku minut, az zostana tylko kosci. 
+
+[/STORY]
+[OUT]Poloz kosci, aby odpoczac.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Bylem kiedys dama, ksiezniczka. Tatus nie lubil mnie opuszczajacego zamek. Powiedzial, ze robi sie ciemno, wszedzie wszedzie jest beasty. Nie jestes bezpieczny, powiedzial, musisz zostac w wiezy.'
+[/STORY]
+[OUT]Milcz.
+[OUT]Zapytaj, czym dokladnie jest ksiezniczka. Nie brzmi to jak rola slowianska.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Zostalem, ale to bylo takie nudne. Pewna czekajaca kobieta przyszla raz. Byla ladna. Powiedziala mi, ze zrobi to, abym mogl wedrowac po wszystkich ziemiach wolnych, silnych i bezpiecznych przed wszelkimi niebezpieczenstwami. Klepnalem sie w dlonie i zgodzilem sie na jej warunki, mimo ze byly osobliwe.'
+[/STORY]
+[OUT]Osobliwy?
+[/NODE]
+
++[NODE]35
+[STORY]
+„Powiedziala, zeby poprosic mojego ojca o taczke i skore niedzwiedzi, zeby mu powiedziec, ze to moje najwieksze zyczenie, ktore musi udzielic z blogoslawienstwem. I oczywiscie Daddy to zrobil. 
+
+Kazala mi nosic niedzwiedzie futro, jezdzic na taczce i myslec o dzikim lesie. Zrobilem.'
+[/STORY]
+[OUT]Zapytaj, czy to wtedy zostala przemieniona w niedzwiedzia.
+[/NODE]
+
++[NODE]36
+[STORY]
+„Tak. Ale sklamala, sklamala. Znowu zostalem uwieziony, ale teraz bylem sam w skorze bestii. Przybeda inne niedzwiedzie, robia rozne rzeczy ... przynosza paskudne cialo, a moje bestialskie cialo pozeralo je jak slodycze ...'
+
+Ksiezniczka placze. 
+
+[/STORY]
+[OUT]Zapytaj, co stalo sie z czarownica.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Przyszla kilka razy na poczatku, smiala sie ze mnie, powiedziala, ze moj tata na to zasluzyl, ze cala jego sila nie przyniesie mi z powrotem, bo nigdy nie znajdzie swojej ksiezniczki, tylko niedzwiedzia w jaskini.'
+[/STORY]
+[OUT]Zapytaj, czy jej ojciec kiedykolwiek ja znalazl.
+[/NODE]
+
++[NODE]38
+[STORY]
+Duch kiwa smutno glowa. 'W pewien sposob. Przybyli jego mysliwi, zobaczyli moje rzeczy w tej jaskini i pomyslalem, ze niedzwiedz zjadl ksiezniczke. Chcieli mnie skrzywdzic, wiec ja i niedzwiedzie, my ... zjedlismy je ...'
+
+Znow szlocha.
+[/STORY]
+[OUT]Pociesz ja i powiedz, ze jest teraz wolna.
+[OUT]Zapytaj, czy wie, gdzie jest teraz czarownica.
+[/NODE]
+
++[NODE]39
+[STORY]
+Duch patrzy na ciebie i kiwa glowa, chociaz widac, ze pozostaje udreczony. 
+
+Powoli zanika, zostawiajac cie w pustej jaskini.
+[/STORY]
+[OUT]Duch pomoze ci takze w potrzebie. Kiwnij glowa i zbierz bogactwa z kosci. 
+[OUT]Kiwnij glowa i zbierz bogactwa z kosci. 
+[/NODE]
+
++[NODE]40
+[STORY]
+„Tak, teraz, kiedy mnie uwolniles, wyczuwam jej plugawa obecnosc. Nieszczesna rzecz mieszka niedaleko stad.'
+
+Drzy ze zlosci.
+[/STORY]
+[OUT]Pociesz ja i powiedz, ze jest teraz wolna.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Oczywiscie corka krola. Chlopi zadaja najsmieszniejsze pytania. 
+
+Czy moze ciemnosc, ktora czulem na zewnatrz, zabrala nawet krolow i krolowe, tak jak powiedziala zla wiedzma? 
+
+Teraz niewiele ma znaczenia. Bede kontynuowal moja historie nieprzerwanie.'
+[/STORY]
+[OUT]Skinienie glowa.
+[/NODE]
+
++[NODE]43
+[STORY]
+Niedzwiedz krzyczy z bolu w glosie dziewczyny. 
+
+Wszystkie oznaki jej czlowieczenstwa znikaja, a zwierze staje sie wlasnie tym - bestia. 
+
+Mozna jednak opuscic te jaskinie i robi to, spogladajac na ciebie z ostatnim blyskiem ludzkiej wdziecznosci, a moze smutku. 
+
+[/STORY]
+[OUT]Niedzwiedz przyjdzie na twoja strone, kiedy bedziesz go potrzebowal.
+[OUT]Zbierz wszystkie uzyteczne pozostalosci, ktore mozesz, i odejdz.
+[/NODE]
+
++[NODE]45
+[STORY]
+Klatwa jest starozytna, zbyt silna, aby mogla byc naprawde cofnieta. 
+
+Ale mozesz ja zniszczyc, co uwolni ducha uwiezionego czlowieka. 
+
+Albo mozesz zrownowazyc unie niedzwiedzia i czlowieka. Forma pozostanie zwierzeca, ale duch bedzie ludzki i kontrolowany. Jednak ta sciezka ma ryzyko porazki i przeksztalcenia uwiezionej osoby w czysta bestie. 
+
+[/STORY]
+[OUT]Wybierz uwolnienie ludzkiego ducha.
+[OUT]Wybierz sciezke niedzwiedzia.
+[OUT]Wybierz sciezke niedzwiedzia.
+[/NODE]
+
++[NODE]46
+[STORY]
+Niedzwiedz krzyczy z bolu w glosie dziewczyny. 
+
+Wszystkie oznaki jej czlowieczenstwa znikaja, a zwierze staje sie wlasnie tym - bestia. 
+
+Mozna jednak opuscic te jaskinie i robi to, spogladajac na ciebie z ostatnim blyskiem ludzkiej wdziecznosci, a moze smutku. 
+
+[/STORY]
+[OUT]Niedzwiedz przyjdzie na twoja strone, kiedy bedziesz go potrzebowal.
+[OUT]Zbierz wszystkie uzyteczne pozostalosci, ktore mozesz, i odejdz.
+[/NODE]
+
++[NODE]47
+[STORY]
+Niedzwiedz krzyczy z bolu w glosie dziewczyny, ale kiedy sie zatrzyma, patrzy na ciebie zdezorientowany: 
+
+'Co ... co mi zrobiles? Jestem teraz bestia, naprawde? Ale wtedy... Jestem wolny...'
+
+[/STORY]
+[OUT]Zapytaj niedzwiedzia o jego historie.
+[OUT]Niedzwiedz postanawia dolaczyc do ciebie, poniewaz nie chce pozostac na pustyni sam. Zostawcie razem.
+[OUT]Niedzwiedz odchodzi, ale w jaskini znajduja sie szczatki innych, ktorzy mieszkali tutaj wczesniej. Wez co mozesz i wyjdz.
+[/NODE]
+
++[NODE]51
+[STORY]
+„Tak, jestem wolny. W tej skorze ... na zawsze ...'
+
+[/STORY]
+[OUT]Niedzwiedz postanawia dolaczyc do ciebie, poniewaz nie chce pozostac na pustyni sam. Zostawcie razem.
+[OUT]Niedzwiedz odchodzi, ale w jaskini znajduja sie szczatki innych, ktorzy mieszkali tutaj wczesniej. Wez co mozesz i wyjdz.
+[/NODE]
+
++[NODE]52
+[STORY]
+Gdy probujesz rozwiklac tajemnice niedzwiedzia, zaskakuje cie wiecej zwierzat, wscieklych i terytorialnych, ktore cie scigaja. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Wslizgujesz sie i zbierasz towary, ale niedzwiedzie budza sie i atakuja cie zaciekle, zmuszajac cie do ucieczki. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Animal or kanibal  house(22)
++[NODE]2
+[STORY]
+Znajdujecie stara chate ktora przypomina domek mysliwski. Wyglada na to, ze od dawna jest opuszczony, poniewaz zarosl  krzewami, a z tylnej sciany wyroslo nawet drzewo.
+[/STORY]
+[OUT]Przeszukajcie.
+[OUT]Przeszukajcie.
+[OUT]Przeszukajcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Chwilke po przekroczeniu progu podloga zatrzeszczala. Zgnile deski pekaja i wpadacie w ciemna dziure.
+
+Kiedy spadacie, czuc lepkie pajeczyny, ktore lagodza nieco twarde ladowanie. Nici jest tak wiele, ze po chwili zdajecie sobie sprawe, ze to gniazdo pajakow a Wy lezycie prawdopodobnie na ich jajach. W ciemnosciach widac jedynie, wiele szybko zblizajacych sie czerwonych oczu.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Probujecie wspiac sie z powrotem!
+[OUT][Intellect or Nature] Zainspirowani twoja domena, sprobuj znalezc szybki sposob na radzenie sobie z pajakami bez walki.
+[/NODE]
+
++[NODE]8
+[STORY]
+Pajaki nie zyja, ale moze nadejsc wiecej. Znajdziesz szczatki innych ofiar zlapanych w sieci.
+[/STORY]
+[OUT]Zbierzcie co mozecie i trzeba wspinac sie z powrotem.
+[/NODE]
+
++[NODE]10
+[STORY]
+Pajakow jest zbyt wiele, przytlaczaja Was i zmuszaja do ucieczki.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Szybko wychodzicie na gore i uzywacie poteznego kamienia by zakryc dziure w podlodze zanim pajaki beda mogly wypelznac.
+
+W chacie nie ma zbyt wiele do roboty. W koncu opada takze adrenalina po ucieczce z gniazda, mimo to ozywienie pozostaje.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Udaje sie wydostac z tego paskudnego miejsca, ale mimo to, kilkoro z Was zostalo przez nie pokasane. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Podpalacie swoje pochodnie i zapalacie sieci w taki sposob, by dym i ogien poszedl w glab tunelu w strone nacierajacych pajakow.
+
+Potwory trzymaja sie z dala od Was, ale moze byc ich tutaj wiecej.
+
+Kiedy sie rozjasnia widzicie szczatki ofiar, ktore wpadly tutaj podobnie jak Wy.
+[/STORY]
+[OUT]Zbierzcie co mozecie i trzeba wspinac sie z powrotem.
+[/NODE]
+
++[NODE]19
+[STORY]
+Probujecie wymyslic cos na szybko, ale pajaki sa duzo szybsze. Rzucaja sie na Was gniewnie, a wszystko co mozecie zrobic to jak najszybciej wspinac sie z powrotem. 
+
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]20
+[STORY]
+Przygladacie sie opuszczonej chacie. Wyglada na to, ze nie ma tu niczego godnego uwagi z wyjatkiem wielkiego gniazda znajdujacego sie w rozpadajacym kominie. 
+
+To siedzisko gigantycznych wron, sa one niebezpieczne, lecz wiadomo tez, ze zbieraja trofea swoich ofiar.
+[/STORY]
+[OUT]Wdrapcie sie i sprobujcie ograbic gniazdo zanim ptaki powroca.
+[OUT]Wdrapcie sie i sprobujcie ograbic gniazdo zanim ptaki powroca.
+[OUT]Lichy dach i stary komin sie chwieja. Sprobuj stracic gniazdo.
+[OUT]Lichy dach i stary komin sie chwieja. Sprobuj stracic gniazdo.
+[OUT]Wrony giganty sa niebezpieczne. Odpuszczacie.
+[OUT][Wrona] Lec i ograb gniazdo.
+[/NODE]
+
++[NODE]22
+[STORY]
+Wspinacie sie i siegacie do gniazda. Trzepot skrzydel i glosne krakanie oglusza Was. Widzicie tylko czarne piora i szpony, ktore szybko sie zblizaja!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]24
+[STORY]
+Wspinacie sie i siegacie do gniazda zanim wlasciciele wroca.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Bez trudu zrzucacie gniazdo. Kiedy juz zajrzeliscie do srodka, trzepot skrzydel i glosne krakanie oglusza Was. Widac jedynie czarne piora i ostre szpony zblizajace sie w Waszym kierunku.
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]27
+[STORY]
+Bez trudu zrzucacie gniazdo i odkrywacie troche sprzetu wsrod martwych juz mlodych wron.
+[/STORY]
+[OUT]Pomyslcie nad bezsensowna smiercia pisklat.
+[OUT]Zbierzcie lup i odejdzcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Czujecie, ze zniszczenie gniazda nie bylo zgodne z natura i porzadkiem swiata. 
+
+[/STORY]
+[OUT]Zbierzcie lup i ze wstydem odejdzcie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Wchodzicie miedzy kilku rozradowanych zbirow, ktorzy pieka kawalek ludzkiej nogi na ognisku. 
+
+Kiedy Was dostrzegaja usmiechy nagle znikaja z ich twarzy. Czujecie jak wyglodnialymi oczyma mierza Was z gory na dol. Powoli wstaja i siegaja po bron. 
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[OUT]Ucieczka!
+
+[OUT][Nocny demon] Pochwal ich wspanialy posilek i zapytaj czy maja cos, czym mozna handlowac.
+[OUT][Umarly] Wytknij im, ze to jedzenie nie ma zadnej wartosci odzywczej i zasugeruj, by zrezygnowali z niego.
+[/NODE]
+
++[NODE]44
+[STORY]
+Zamieszanie wsrod Was sprowokowalo walke. Czujecie, ze jestescie slabsi. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Zabijacie zbirow. Odkrywacie, ze nie mieli oni zbyt wiele przy sobie. Mimo to jest jakas satysfakcja, bo zakonczone zostaly ich kanibalistyczne praktyki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]47
+[STORY]
+Zbiry straszliwie Was obili. Musicie zostawic swoje jedzenie by powstrzymac poscig!
+
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]61
+[STORY]
+Wznosicie sie do gory i siegacie zapasow zanim wlasciciel wroci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]62
+[STORY]
+Wrony tluka Was niemilosiernie i odganiaja od gniazda.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]63
+[STORY]
+Patrza na Was i ze zrozumieniem kiwaja glowami. Jeden z nich wyciaga zakrwawiona paczke i proponuje handel.
+[/STORY]
+[OUT]Handel.
+[OUT]Podziekujcie za oferte i odejdzcie.
+[OUT]Do ataku!
+[OUT]Udajcie, ze odchodzicie, a po chwili wykonajcie taktyczny atak.
+[/NODE]
+
++[NODE]65
+[STORY]
+Patrza na Was, krzywia sie i kiwaja glowami.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Udajcie, ze odchodzicie, a po chwili wykonajcie taktyczny atak.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcMap(23)
++[NODE]2
+[STORY]
+Na horyzoncie jest cos interesujacego.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Orc loot(24)
++[NODE]2
+[STORY]
+Znajdziesz rozproszone pozostalosci starej osady orkow. 
+
+W dawnych czasach klany byly w wiekszosci nomadyczne, wiec jest to rzadkie znalezisko. 
+
+Szczatki wydaja sie calkowicie opuszczone. 
+[/STORY]
+[OUT]Wyszukaj. 
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Wolves(25)
++[NODE]2
+[STORY]
+Zlapany na strzepy przez huragan, znajdziesz jaskinie, w ktorej mozesz sie schronic.
+[/STORY]
+[OUT]Ukryj sie w jaskini.
+[OUT]Odwazny huragan. 
+[OUT]Odwazny huragan. 
+[/NODE]
+
++[NODE]3
+[STORY]
+Ukrywasz sie w jaskini, ale wkrotce zdajesz sobie sprawe, ze nie jestes sam. Zestaw glodnych wilczych oczu wpatruje sie w ciebie i wiecej wilkow spi w srodku. Co gorsza, dostrzegasz jakies ksztalty, ktore wskazuja, ze wilkolaki prowadza te paczke.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Skup sie na swojej boskiej domenie, aby uzyskac wskazowki.
+[OUT][Nocny demon] Zawolaj do swoich krewnych i popros o schronienie.
+[OUT][Horz] Zdominuj te wilkolaki, poklon im sie!
+[OUT]Odwazny huragan. 
+[OUT]Odwazny huragan. 
+[/NODE]
+
++[NODE]5
+[STORY]
+Probujesz przepchnac sie i wyprzedzic huragan, ale on rzuca cie o kilka razy, zanim sobie poradzisz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wycie wilkow wypelnia jaskinie. Nastepuja warczenia i warczenie, ale w koncu paczka przesuwa sie glebiej do jaskini, pozwalajac ci schronic sie w pokoju. 
+
+Istnieje szansa, ze niektore wilki moga zdecydowac sie na sledzenie twojego stada.
+
+[/STORY]
+[OUT]Poczekaj, az huragan sie skonczy i wyjdz. 
+[/NODE]
+
++[NODE]8
+[STORY]
+Wycie wilkow wypelnia jaskinie. Nastepuja warczenia i warczenie, ale w koncu paczka przesuwa sie glebiej do jaskini, pozwalajac ci schronic sie w pokoju. 
+
+Istnieje szansa, ze niektore wilki moga zdecydowac sie na sledzenie twojego stada.
+
+[/STORY]
+[OUT]Poczekaj, az huragan sie skonczy i wyjdz. 
+[/NODE]
+
++[NODE]11
+[STORY]
+Czujesz wplyw zawirowan i natury i wiesz, ze musisz zdominowac te wilkolaki, tak jak zrobilby to alf. Prowadza tylko najsilniejsi.
+[/STORY]
+[OUT]Stan twarza w twarz z wilkami.
+[OUT]Walcz normalnie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Zabijasz wilkolaki i mozesz schronic sie w jaskini. 
+
+Odkrywasz nawet niewielka ilosc dobrego kamienia.
+[/STORY]
+[OUT]Opusc, gdy burza sie skonczy.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pobiles wilkolaki. Reszta paczki poddaje sie twojej dominacji i odchodzi. 
+[/STORY]
+[OUT]Opusc, gdy burza sie skonczy.
+[OUT]Opusc, gdy burza sie skonczy.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wilkolaki bija cie zle i gonia za toba. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Odkrywasz, ze mlody wilk wciaz zyje i chce dolaczyc do twojego stada.
+[/STORY]
+[OUT]Wez wilka i wyjdz.
+[/NODE]
+
++[NODE]27
+[STORY]
+Wilki warcza i warcza na ciebie, lamiac ich gniewne szczeki. 
+
+Musisz albo stawic im czola, albo wrocic do huraganu.
+[/STORY]
+[OUT]Walka.
+[OUT]Zmierz sie z huraganem.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Witch house(26)
++[NODE]2
+[STORY]
+Natrafiacie na stara chate w lesie. Z poczatku wydaje sie ona w dosc kiepskim stanie, ale z komina unosi sie dym.
+[/STORY]
+[OUT]Zapukajcie i sprawdzcie, czy ktos jest w domu.
+[OUT]Zapukajcie i sprawdzcie, czy ktos jest w domu.
+[OUT]Podkradnijcie sie i sprawdzcie.
+[OUT]Podkradnijcie sie i sprawdzcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Gdy zblizacie sie do domu nagle slychac dzwonki. Brzmia jakby byly wykonane ze srebra. 
+
+'Ha! Przeklete, nocne demony trzymajcie sie z dala od mego domu! Slyszycie!'
+[/STORY]
+[OUT][Wiedzma] Pochwalcie wlasciciela domu za dobre uroki obronne.
+[OUT]Uwazacie, ze srebrne dzwoneczki i uroki Was oslabia. Nadal mozecie wejsc jesli chcecie. Nie zyczycie nikomu przeciez krzywdy, a jedynie chcecie porozmawiac.
+[OUT]Wpadnijcie do srodka i zabijcie wszystko co sie rusza!
+[/NODE]
+
++[NODE]5
+[STORY]
+Wewnatrz chaty widzicie stara kobiete zgarbiona nad paleniskiem. Z sufitu zwisaja suszone peki ziol, wokol pelno dziwnych plynow w fiolkach, drobnych kostek, kurzych nozek i wszelkiego rodzaju podobnych skladnikow.
+[/STORY]
+[OUT]To wiedzma, zabic ja!
+[OUT]To wiedzma, zabic ja!
+[OUT][Wiedzma] Podejdzcie porozmawiac z nia, ale ostrzezcie, zeby nie probowala zadnych sztuczek.
+[OUT]Zapukajcie do drzwi.
+[/NODE]
+
++[NODE]6
+[STORY]
+Stara zakapturzona kobieta otwiera drzwi i czyni gest zapraszajac Was do srodka. Potem siada w swoim bujanym fotelu i mowi:
+
+'Zapraszam nieznajomi. Co moge Wam zaoferowac? Cieply posilek, slodycze, a moze pohandlujemy?'
+
+[/STORY]
+[OUT]To wiedzma, zabic ja!
+[OUT]To wiedzma, zabic ja!
+[OUT]Wejdzcie i porozmawiajcie z nia.
+[OUT][Wiedzma] Podejdzcie porozmawiac z nia, ale ostrzezcie, zeby nie probowala zadnych sztuczek.
+[/NODE]
+
++[NODE]10
+[STORY]
+Zaskakujecie stara wiedzme i szybko ja zabijacie. Niestety gdy kona, przeklina Was!
+
+[/STORY]
+[OUT]Spladrujcie dom i odejdzcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Zaskakujecie stara wiedzme i szybko ja zabijacie. Probuje Was jeszcze przeklac, ale jeden z Was jest wystarczajaco szybki, by ja powstrzymac. 
+
+[/STORY]
+[OUT]Spladrujcie dom i odejdzcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+'Jesli chcecie moge zrobic napar ktory daje niezlego kopa. Oczywiscie nie za darmo.'
+[/STORY]
+[OUT]Poproscie o blogoslawienstwo ciala. [w zamian za 5 sztuk kwarcu]
+[OUT]Poproscie o blogoslawienstwo umyslu. [w zamian za 5 sztuk topazu]
+[OUT]Poproscie o blogoslawienstwo duszy. [w zamian za 5 sztuk kosci cienia]
+[OUT]Podaj swoja domene magii lub powinowactwo do sztuk mistycznych i zapytaj, czy bylaby na tyle uprzejma, by cie nauczyc. 
+[OUT]Zaoferujcie jej czesc zywnosci w zamian za jej madrosc.
+[OUT]Zapytajcie czy zechce z Wami handlowac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Stara wiedzma mowi Wam wiele madrych rzeczy. Konczy chrapliwym glosem:
+
+'... i jesli kiedykolwiek zobaczycie piekna dziewczyne przy wodzie, albo uslyszycie cudowna piesn na morzu, modlcie sie i wspomnijcie na me slowa. Trzy razy uszczypnijcie sie w policzek, zanim pojdziecie zrobic cos glupiego z jednym z tych uwodzicielskich demonow.'
+[/STORY]
+[OUT]Podziekujcie jej za rade i odejdzcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Oddajecie jej zapasy, a wiedzma szybkim ruchem kluje jedno z Was zakrzywionym sztyletem. 
+
+Nastepnie pluje na zakrwawione ostrze, zdrapuje jedna z brodawek i rozgniata ja, po czym rozciera razem pozostalymi skladnikami. Patrzycie z obrzydzeniem jak zlizuje ze sztyletu sluzowata miksture 
+
+Rzuca sie gwaltownie na Was wypowiadajac slowa jakby w obcym jezyku. Jestescie calkowicie chorzy, ale rownoczesnie daja sie odczuc skutki obiecanego blogoslawienstwa
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Oddajecie jej zapasy, a wiedzma szybkim ruchem kluje jedno z Was zakrzywionym sztyletem. 
+
+Rozmazuje zakrwawione ostrze krwia martwego krolika, i potem spod wlasnej pachy. Pluje trzy razy na swoje prawe ramie wyciera w sline sztylet. 
+
+Potem kilka razy uderza Was tusza krolika. Co bardzo zaskakujace zaczynacie odczuwac pozadany efekt.
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Oddajecie jej zapasy, a wiedzma szybkim ruchem kluje jedno z Was zakrzywionym sztyletem. 
+
+Czekacie na reszte rytualu, ale ona smieje sie szczerzac resztki zebow:
+
+'Co? Myslicie, ze zrobie cos paskudnego? Wszystko gotowe. Krew zalatwila sprawe. Do nastepnego razu.'
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Stara wiedzma opowiada Wam wiele zabawnych opowiesci. Konczy mowiac:
+
+'...wiec teraz juz wiecie, w zyciu najcenniejsze sa goraca woda, zdrowe zeby i miekka poduszka na ktorej Twoj stary tylek moze usiasc.'
+
+Jakos, nikt z Was nie czuje, zeby zmadrzal.
+
+[/STORY]
+[OUT]Podziekujcie jej za rade i odejdzcie.
+[OUT]Zabic ja!
+[OUT]Zabic ja!
+[/NODE]
+
++[NODE]24
+[STORY]
+'Hmm, w dawnych czasach podazalam za mistrzem Velesem, zatem dzis wieczor bede chwalic te wspaniale dni. 
+
+Siadajcie, pijcie i sluchajcie.'
+
+Stara wiedzma opowiada Wam wiele historii. W koncu mowi zmeczona, ze nadszedl czas by isc.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+'Ha! Dobre! Poznaje Cie siostro. Z nieznajomymi moge pogrywac i oszukiwac ich. 
+
+Wam jednak oferuje uczciwa wymiane jak miedzy siostrami. Moge nauczyc Was pewnych rytualow i dac Wam kilka ziol, ale potrzebuje troche energii duchowej w zamian.
+[/STORY]
+[OUT]Handel.
+[OUT]Nauczcie sie rytualow.
+[OUT]Podziekujcie jej na razie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Jeden z Was nacina reke i unosi zacisnieta piesc. Krople krwi spadaja na oczyszczona wczesniej podloge. Rzucasz trzy kosci z lewej reki nienarodzonego dziecka.
+
+Ale kosci nie ukladaja sie w zaden wzor, a glos z zaswiatow smieje sie z Was:
+'Tanie sztuczki nie robia na mnie wrazenia. Odejdzcie!'
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Wpadnijcie do srodka i zabijcie wszystko co sie rusza!
+[/NODE]
+
++[NODE]39
+[STORY]
+'Odczep sie. Nie ma tu czego szukac'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Wpadnijcie do srodka i zabijcie wszystko co sie rusza!
+[/NODE]
+
++[NODE]43
+[STORY]
+'Jesli jestes tym, za kogo sie podajesz, udowodnij to.'
+[/STORY]
+[OUT]Wykonanie prostego rytualu czytania kosci.
+[/NODE]
+
++[NODE]44
+[STORY]
+Jeden z Was nacina reke i unosi ja z zacisnieta piescia do gory. Krew splywa na oczyszczony kawalek ziemi. Rzucone zostaja trzy kosci z lewej reki nienarodzonego dziecka. 
+
+Kosci tworza wzor.
+[/STORY]
+[OUT]Powiedzcie kobiecie, ze juz wkrotce z cienia wyjdzie jej przystojny nieznajomy.
+[/NODE]
+
++[NODE]48
+[STORY]
+Zostajecie pokonani przez wiedzme, ktora rzuca na wasze dusze klatwe.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+'No coz, troche pohandlowalismy. Teraz pora juz isc.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+'Dobrze robic z Toba interesy, Tymczasem....'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcMain(27)
++[NODE]2
+[STORY]
+Zostales wyslany, aby porozmawiac z orcza czarownica. Jej imie - Eater of Souls - budzi strach i szacunek w sercach tych, z ktorymi rozmawiasz. Gdy sie do ciebie zbliza, inni sie oddalaja: 
+
+- Przyszliscie zapytac o wielkie swiatlo, tak? Te obrzydliwe swieczniki, ktore zabijaja tak wielu naszych krewnych orkow. Ale dlaczego mialbym powiedziec cos takiego jak ty? Jakie sa dla mnie bogowie?'
+[/STORY]
+[OUT][Zorya] Jest wola Zoryi lub Zorzy, ze to musi zostac rozwiazane!
+[OUT]Sposrod wszystkich ludow Slavy, to wlasnie orkowie najczesciej dziela panteon z ludzmi, tylko w roznych hierarchiach. Z pewnoscia twoj bog moze zobaczyc na to oko?
+[/NODE]
+
++[NODE]3
+[STORY]
+„Bah, tak! Masz racje - walczymy o te sama kochanke, wiec nie bede bic w krzakach. Prawde mowiac, mialem wizje nadchodzacego mistrza i sluze jak ty. Nawet jesli oznacza to mowienie o niewygodnej przeszlosci.'
+[/STORY]
+[OUT]Wiec ta przeszlosc moze pomoc?
+[/NODE]
+
++[NODE]4
+[STORY]
+„Byc moze. Widzicie, nie uczymy sie jak twoi uczeni, ani nie jestesmy dlugowieczni jak spiczaste uszy i ludzie z kamienia, i nie obcujemy z duchami, jak rowniez z zielonymi karlami. 
+
+Ale rodzimy sie z ciemnosci i chaosu. Wyczuwamy to, mowi do nas. I mowi nam, ze to swiatlo probuje nas spalic do kosci.'
+[/STORY]
+[OUT]Ale czy oni wiedza, jak ponownie zlapac swiatlo i przywrocic to ziemskie serce?
+[/NODE]
+
++[NODE]5
+[STORY]
+„Nie. Ja nie. I choc sluchamy szeptow, nasza krew wrze i staramy sie walczyc. 
+
+Ale zeby walczyc, potrzebujemy broni. Tak jak spiczaste uszy byly przeklete przez ciemnosc przed Przebudzeniem, teraz jestesmy oslabieni przez to swiatlo.'
+[/STORY]
+[OUT]Czy ona wie o takiej broni?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Wiem o kims, kto kroczy mroczna sciezka poza moje zrozumienie. Powinienem wiedziec - on jest moim szczeniakiem. 
+
+Wtraca sie w sily smierci i zycia, i zaglebia sie w ciemnosci tak gleboko. Glupia, glupia mlodziez. Ale probowal ze mna rozmawiac. Probowalem mi powiedziec. Nie zniose hanby mojej alfa i porozmawiam z Shame Bringer, ale powinienes. '
+[/STORY]
+[OUT][Ork] Mezczyzna, ktory dzierzy magie? Dlaczego on zyje?
+[OUT]Dziekuje za informacje i odejdz.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Argh! Nie zakladaj, ze mnie kwestionujesz. Zostawilem go samego na plonacych rowninach. Mial umrzec, ale tego nie zrobil. Moze byc haniebny, ale zarobil na zycie, a kazdy, kto mi mowi inaczej, skosztuje mojego ostrza!'
+[/STORY]
+[OUT]Dziekuje za informacje i odejdz.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Tak, mozesz nieslusznie nie rozpoznac Zorzy jako swojej bogini alfa, ale szanujesz ja i wladce polowan wystarczajaco dobrze. Prawde mowiac, mialem wizje nadchodzacego mistrza i sluze jak ty. Nawet jesli oznacza to mowienie o niewygodnej przeszlosci.'
+[/STORY]
+[OUT]Wiec ta przeszlosc moze pomoc?
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Necromancer(28)
++[NODE]2
+[STORY]
+Zblizasz sie do wiezy Shame Bringer, orka, ktory podobno ma sposob na pokonanie tego rosnacego swiatla. 
+
+To miejsce jest niczym niezwyklym - pojedyncza kamienna wieza. Jedynym dziwactwem jest brak widocznego wejscia. 
+[/STORY]
+[OUT]Podejdz do wiezy i powiedz orkowi, ze zostales tu wyslany przez Eatera Dusz, jego matke.
+[OUT]Podejdz do wiezy i powiedz orkowi, ze zostales wyslany przez szamanow goblinow.
+[/NODE]
+
++[NODE]3
+[STORY]
+Mezczyzna orkow wychodzi z wiezy, jakby wlasnie przeszedl przez kamien. 
+
+„Szamani? Ciekawy. Nie liczylem na taki wynik, chociaz teraz, kiedy o tym wspomniales, ma to sens. Oni takze sa stworzeniami utkanymi z chaosu, magii i ciemnosci bardziej niz swiatlo i harmonia.'
+[/STORY]
+[OUT]Czy on wie, jak zatrzymac swiatlo?
+[OUT]Zapytaj go, jaka jest jego historia. Mescy orkowie, ktorzy uzywaja magii, nie sa powszechni.
+[OUT]Zastosuj orka, aby powiedziec ci, jak pokonac swiatlo w najprostszy mozliwy sposob. Nie masz czasu na opowiesci i nie dbasz o jego motywy.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Nie, nie jestesmy. Kiedy talent do mistycznego przedstawienia u mezczyzny, matka ma zabic dziecko. 
+
+Moj jest najlepsza czarownica alfa. Otrzymala pozwolenie na pozostawienie mojego losu w rekach przypadkowych. Wydaje sie, ze przypadek mi sprzyjal. Zostalem porzucony, by umrzec na plonacych rowninach, ale przezylem. Wezwalem do smierci, zeby mnie odebrac. Zamiast tego pozwolil mi zyc.'
+[/STORY]
+[OUT][Nyia] Smierc odpowiedziala? Jak to?
+[OUT]Wiec co on robi? 
+[/NODE]
+
++[NODE]5
+[STORY]
+„To nie byla twoja kochanka, jesli o to pytasz. To byla dama odziana w ciemne piora. Smierc i zima towarzyszyly jej na kazdym kroku. Smutek i madrosc owinely jej szyje. 
+
+Powiedziala, ze musze uzyc sprytu, aby przezyc, i tylko wtedy krolestwo smierci poslucha mojego polecenia. Utonelam w ciemnosci i jej glos poprowadzil mnie z powrotem.'
+[/STORY]
+[OUT]Wiec co on robi? 
+[/NODE]
+
++[NODE]6
+[STORY]
+„Jestem tym, co inni nazywaja nekromanta. Surowe slowo, ale wystarczy. Opanowalem sztuke nieumarlych. Moje stworzenia chodza po tej ziemi i wypelniaja moje polecenia, ale jest ich znacznie wiecej. 
+
+Zaglebiam sie w krolestwa smierci. Patrze w twarz ciemnosci i chodze po wielu sciezkach chaosu.'
+[/STORY]
+[OUT][Nyia] Twierdzi, ze zostal ocalony przez dame smierci, ale nekromancja jest obraza dla naturalnego kregu!
+[OUT]W jaki sposob nekromancja moze pomoc powstrzymac rozpad?
+[/NODE]
+
++[NODE]7
+[STORY]
+„Tak. I ona tez to wiedziala, kiedy uratowala mi zycie. Mogla postawic mnie na wybranej sciezce, ale nie zrobila tego, twierdzac, ze musze dokonac wlasnego losu. 
+
+Nigdy wiecej mi sie nie ukazala, ale wierze, ze moja sciezka jest tak samo czescia kregu zycia jak wszystko. A teraz jestesmy tutaj, ja trzymam ciemne odpowiedzi, ty ich szukasz.'
+[/STORY]
+[OUT]W jaki sposob nekromancja moze pomoc powstrzymac rozpad?
+[/NODE]
+
++[NODE]8
+[STORY]
+„Moja sztuka nekromancji nie moze pomoc bezposrednio, ale moge. Nauczylem sie prawdy. Tylko ciemnosc moze pokonac to swiatlo. Pomysl o tym. 
+
+Po Przebudzeniu mielismy spokoj w szarych czasach, gdzie ani swiatlo, ani ciemnosc nie przytloczyly - rozejm. I tak, obecnosc czarnej mgly czesto powoduje chaos, ale byla dobra.'
+[/STORY]
+[OUT]O czym on mowi?
+[/NODE]
+
++[NODE]9
+[STORY]
+„Kosmiczne drzewo nie zostalo ani ocalone, ani spalone. Pozostal w stanie stagnacji. I to zadzialalo - dopoki nie pojawili sie swietlicy. Ktos nie lubil nowego rozejmu. Wiec uwolnili swiatlo. 
+
+Moge ci powiedziec, jak zrobic serce ciemnosci. Posadz go w jaskini ziemskiej i zniszcz bestie swiatla na dobre.'
+[/STORY]
+[OUT]Na dobre?
+[/NODE]
+
++[NODE]10
+[STORY]
+„Tak, serce nie tylko zabije cialo gospodarza, ale takze calkowicie zepsuje swiatlo. Niektorzy przetrwaja, ale nie na tyle, by powodowac klopoty. Ciemnosc, ktora wciaz utrzymuje sie na tym swiecie, wystarczy, by utrzymac ja w ryzach, moze nawet pokonac ja na czas.'
+[/STORY]
+[OUT]Wiec proponuje sabotaz? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobow?
+[OUT]I rozbicie?
+[/NODE]
+
++[NODE]11
+[STORY]
+„Tak.'
+[/STORY]
+[OUT]Czy to nie przywroci wieku ciemnosci?
+[OUT]Jak mozna stworzyc serce ciemnosci?
+[OUT]Ten caly plan jest niebezpieczny i nie mozna mu pozwolic na sukces. Zaatakuj nekromante!
+[/NODE]
+
++[NODE]12
+[STORY]
+„Nie do konca, nie. Kosmiczne drzewo zyje z tego, co zbieram, nie? Znaczy sie, sluzysz bogom i oni na tym polegaja. 
+
+Wiec rdzen ciemnosci pozostanie w zatoce. Wzmocni sie tylko to, co pozostanie z nami. To bedzie zmiana. W rzeczywistosci moze to wplywac na spiczaste uszy.'
+[/STORY]
+[OUT]Jak?
+[/NODE]
+
++[NODE]13
+[STORY]
+„Narodzili sie ze swiatla, tak jak my z ciemnosci. Prawdopodobnie poniosa klatwe ponownie. Ale przezyli raz, wiec jestem pewien, ze moga to zrobic ponownie.'
+[/STORY]
+[OUT]Jak mozna stworzyc serce ciemnosci?
+[/NODE]
+
++[NODE]14
+[STORY]
+„Krotko mowiac, uczyn serce ciemnosci, ktore zepsuje swiatlo i zniszczy wiele z nich. Ciemnosc bedzie w stanie odeprzec reszte, a rozpad powinien ustac, poniewaz jest spowodowany ucieczkami swiatla z rdzenia Ziemi.'
+[/STORY]
+[OUT]Wiec proponuje sabotaz? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobow?
+[/NODE]
+
++[NODE]15
+[STORY]
+„Ziemia rozpada sie, gdy swietlicy uciekaja z rdzenia i wychodza na gore. Gdy swiatlo jest uszkodzone, wstrzasy powinny sie zatrzymac na czas.'
+[/STORY]
+[OUT]Wiec proponuje sabotaz? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobow?
+[OUT]Dlaczego on chce ci pomoc?
+[/NODE]
+
++[NODE]16
+[STORY]
+„Mroki byly kiedys gigantami, wiesz? Zostaly zmienione przez ciemnosc iz czasem staly sie czyms zupelnie nowym. Ale ich serca, wypelnione moja magia, oszukaja mechanizm w zywej jaskini, by myslec, ze to serce olbrzyma. 
+
+Oczywiscie bedziesz musial pokonac bestie swiatla, ktora teraz strzeze komnaty. Ale jesli sie zgodzisz, pomoge ci. I pamietajcie, nie kazde mroki bedzie mialo serce, wiec moze zabrac troche polowania.'
+[/STORY]
+[OUT]Zgadzam sie i poluj na mroki. Mozna je znalezc w ciemnosci, w biomach wulkanicznych.
+[OUT]Odmow i wyjdz.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Duma? Chcesz zaimponowac mojej bezdusznej matce? Albo moze czyste przetrwanie. W koncu jestem mistrzem ciemnosci - dominacja swiatla, a nawet czysta rownowaga nie sa moimi przyjaciolmi. Jesli pojdziesz moja droga, bede oczywiscie silniejszy.'
+[/STORY]
+[OUT]Wiec proponuje sabotaz? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobow?
+[/NODE]
+
++[NODE]21
+[STORY]
+Mezczyzna orkow wychodzi z wiezy, jakby wlasnie przeszedl przez kamien. 
+
+„Wiec sluchala, ale byla zbyt tchorzliwa, by przyjsc! Czy tez jest to znak jej blasku, ktory rowniez tkwi we mnie, ze powinna uzyc czempionow innych bogow, aby wykonac jej rozkaz? To nie ma znaczenia, bo jestes tutaj, chetny do sluchania.'
+[/STORY]
+[OUT]Czy on wie, jak zatrzymac swiatlo?
+[OUT]Zapytaj go, jaka jest jego historia. Mescy orkowie, ktorzy uzywaja magii, nie sa powszechni.
+[OUT]Zastosuj orka, aby powiedziec ci, jak pokonac swiatlo w najprostszy mozliwy sposob. Nie masz czasu na opowiesci i nie dbasz o jego motywy.
+[/NODE]
+
++[NODE]23
+[STORY]
+Cialo nekromanty zamienia sie w ciemna mgle i rozpuszcza sie. Musisz znalezc inne sposoby na powstrzymanie Rozpadu. 
+
+Moze uda ci sie wrocic do czerwonej jaskini i znow porozmawiac z Alchemikiem, uratowac krasnoluda z wiezienia lub szukac pomocy u elfow lub krasnoludow. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Glupcy, slepi glupcy!'
+
+Nekromanta pokonuje cie i przeklina twoje imiona. Nastepnie znika wraz ze swoja wieza. Musisz znalezc inne sposoby na powstrzymanie Rozpadu. 
+
+Byc moze wrocisz do czerwonej jaskini i znowu porozmawiasz z Alchemikiem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+„Glupcy, slepi glupcy!'
+
+Nekromanta znika wraz ze swoja wieza. Musisz znalezc inne sposoby na powstrzymanie Rozpadu. 
+
+Moze uda ci sie wrocic do czerwonej jaskini i znow porozmawiac z Alchemikiem, uratowac krasnoluda z wiezienia lub szukac pomocy u elfow lub krasnoludow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Znajdujesz wieze, wewnatrz sa kosci i oznaki zajecia, ale ktokolwiek tu mieszkal, juz dawno zniknal.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OrcTown(29)
++[NODE]2
+[STORY]
+Oboz orkow jest pelen popiolu i kosci poleglych. Wyglada na to, ze medrcy przyjechali tu po zwiekszeniu ich mocy. 
+
+Miejsce jest martwe.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Orc Fighting Pits(30)
++[NODE]2
+[STORY]
+„Jako przyjaciel klanow alfa, jestes zaproszony do wziecia udzialu w boksach bojowych - jako widz. 
+
+Przegrani takich walk beda zhanbieni i zyja ze wstydu, wiec niektorzy z nich przychodza do ciebie po tym i prosza o przyjecie do twojego „klanu”. Trzeba by zaplacic cene klanu alfa, aby zapewnic zachowanie niektorych strzepow honoru.'
+
+[Mozesz rekrutowac sie w tej frakcji tylko raz, z mala szansa na drugie, kiedy twoja populacja jest bardzo niska]
+[/STORY]
+[OUT]Zgodz sie zaplacic cene klanu za wojownika.
+[OUT]Zapytaj, czy nie jest to typ niewolnictwa i czy orkowie nie byli brutalnie przeciwni niewolnictwu z powodu ich przeszlosci?
+[OUT]Odchodzicie.
+[OUT]Zgadzam sie zaplacic za pracownika.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Dobrze. Niosa najwieksza cene klanu, poniewaz sa silne, ale moga umrzec z powodu ran. Idz, zobacz, kto chce dolaczyc do twojego klanu.'
+
+[Mozesz rekrutowac sie w tej frakcji tylko raz, z mala szansa na sekunde, kiedy twoja populacja jest bardzo niska]
+[/STORY]
+[OUT]Zaplac honorowa cene za wojownika.
+[OUT][Ork, Dwarf lub Turmoil] Powiedz, ze bedziesz walczyl zamiast placic, to jest honorowy sposob.
+[OUT]Zaplac honorowa cene za tropiciela krwi.
+[OUT]Zaplac honorowa cene dla orkowego dziecka, ktore nie zdalo egzaminow bojowych.
+[OUT]Dzieci moga tu takze stracic swoj honor?
+[OUT]Nie ma nikogo, kto chce teraz dolaczyc, lub nie jest to odpowiedni czas dla ciebie. Pozostawiac.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Dobra walka, jestes godny bycia alfa dla naszych krewnych. Niech ogien w twoim sercu nigdy nie umrze!'
+[/STORY]
+[OUT]Przyjmij honor i powitaj nowego towarzysza.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Jak smiesz! Jestes przyjacielem, wiec cie nie zabije. Sa wolnymi kobietami i mezczyznami. Moga isc z toba w kazdej chwili bez placenia ceny klanu. Straca swoj honor i oczywiscie stana sie bezklanowi. Dlatego prosza cie o zaplate. W ten sposob stajesz sie ich alfa i mozemy to uszanowac. 
+
+Mozesz oczywiscie walczyc o zaszczyt stania sie ich alfa?'
+[/STORY]
+[OUT]Dziekuje im za wyjasnienie. Powiedzmy, ze wtedy rozwazysz te honorowa cene dla wojownika.
+[OUT]Powiedz, ze bedziesz walczyc zamiast placic, to jest honorowy sposob.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Tak. Kazde orkowe dziecko musi przejsc pierwszy proces bojowy, gdy tylko bedzie wystarczajaco wysoki, by trzymac noz. 
+
+Ci, ktorzy zawodza, maja szanse odzyskac honor pozniej, ale jest to malo prawdopodobne. Wiele matek woli uwolnic takie dziecko do innego klanu, dajac im nowy poczatek.'
+[/STORY]
+[OUT]Zgodz sie zaplacic cene klanu za wojownika. 
+[/NODE]
+
++[NODE]17
+[STORY]
+„Jestes slaby, nasi krewni nie radza sobie dobrze w twoim klanie. Wroc tylko wtedy, gdy twoj ogien plonie.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Niosa mniejsza cene honoru, poniewaz byli juz zhanbieni w przeszlosci i byla to ich druga szansa, by stac sie bardziej. Prawdopodobnie ich morale bedzie bardzo niskie.'
+[/STORY]
+[OUT]Plac honorowa cene za rzemieslnika.
+[OUT]Plac honorowa cene za zbieracza.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Pet Training Orc(31)
++[NODE]3
+[STORY]
+Podchodzi do ciebie bloodtracker: 
+
+'Ty mi placisz, trenuje twojego zwierzaka, by zadal prawdziwe obrazenia!'
+
+[Trening twojego zwierzaka podniesie go tylko do czwartej rangi, z niewielka szansa na wyzsza i mozesz trenowac tylko jednego zwierzaka na raz]
+[/STORY]
+[OUT]Tak, daj kotowi przeszkolenie.
+[OUT]Tak, daj wilka do szkolenia.
+[OUT]Tak, daj niedzwiedziowi przeszkolenie.
+[OUT]Tak, daj dzikowi przeszkolenie.
+[OUT]Nie, odejdz.
+[OUT]Tak, daj pajakowi przeszkolenie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Jestes szalony? Nie moge trenowac kotow! Czy wygladam na czarodzieja? Duzo czesciej drapia mi oczy niz sluchaja.'
+[/STORY]
+[OUT]Zapytaj o inne zwierzeta.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Oplata zaplacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]14
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]15
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]22
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]26
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Creepy Crawlies training(32)
++[NODE]3
+[STORY]
+„Wiec starasz sie poprawic swoich chowancow, dobrze. Zaplac mi, a zrobi to.'
+
+[Trening twojego zwierzaka podniesie go do czwartej lub piatej rangi i mozesz trenowac tylko jednego zwierzaka na raz]
+[/STORY]
+[OUT]Tak, daj kotowi przeszkolenie.
+[OUT]Tak, daj pajakowi przeszkolenie.
+[OUT]Nie, odejdz.
+[OUT]Tak, daj wronie do wytrenowania.
+[OUT]Plac swoim duchem, aby trenowac kota.
+[OUT]Plac swoim duchem, aby szkolic pajaka.
+[OUT]Plac swoim duchem, aby wycwiczyc wrone.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Oplata zaplacona, dobra, teraz biore twoich znajomych i ucze nowych sztuczek.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Oplata zaplacona, dobra, teraz biore twoich znajomych i ucze nowych sztuczek.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]14
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Oplata zaplacona, dobra, teraz biore twoich znajomych i ucze nowych sztuczek.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]30
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Mental Return(33)
++[NODE]2
+[STORY]
+Jeden z twoich ludzi, ktorzy wczesniej stracili wiare w ciebie, zamieszkal w miescie. Teraz, kiedy mieli czas na odpoczynek i refleksje, chcieliby ponownie dolaczyc do ciebie.
+[/STORY]
+[OUT]Akceptuj je.
+[OUT]Odrzuc, nie potrzebujesz slabeuszy!
+[/NODE]
+
++[NODE]3
+[STORY]
+Sa szczesliwi, mogac ponownie byc czescia rodziny. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

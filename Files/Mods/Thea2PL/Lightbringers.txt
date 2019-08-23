@@ -1,0 +1,331 @@
+-- [EVENT] --VillageSmall(0)
++[NODE]2
+[STORY]
+Przychodzisz do osady zadanej przez swiatlo. Jego lud wedruje ulicami w zgodzie, pracujac, tworzac, orajac pola, wszystko w ciszy, razem. 
+
+Kiedy cie zauwaza, zblizaja sie: 
+
+'Przyszedles do nas dolaczyc?'
+[/STORY]
+[OUT]Nie, powiedz im, ze przyszedles porozmawiac i byc moze nawiazac przyjazn.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jestes jednym z nas, albo nie jestes. Chodz . . .'
+
+Lekkie kosmyki zaczynaja krazyc wokol ciebie, ich zimny upal na twojej skorze i plonace sople dotykaja twoich wnetrznosci w probie polaczenia.
+[/STORY]
+[OUT]Odrzuc i odejdz szybko.
+[OUT][Zamieszanie lub Swiatlo] To jest obrzydliwosc, ktora sprzeciwia sie zarowno zametowi (probujac go oswoic), jak i swiatlu (naduzywajac jego mocy). Atak na glowe!
+[OUT][Magia lub natura] Ta sila wydaje sie nieistotna. Wzywaj swojej domeny i staw czola tym diablom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaz im sile twojego umyslu, wole, ktora nie bedzie wygieta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczysz strzelcow i wioske plonie, jak gdyby swiatlo nie pozwolilo ci na pelne zwyciestwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Jeden lub wiecej twoich ludzi moze wpasc pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twoj opor budzi cos w przyjetych ludziach i wypedzaja swiatlo z ich dusz! Niestety, ich ciala sa zbyt slabe i wypalone, aby przetrwac bez umyslu ula i padly martwe, ale wolne. 
+
+Wies sama plonie, jakby swiatlo nie wytrzymalo twojego zwyciestwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszacy swiatlo, chodz, zobacz nas. Pewnego dnia dolaczysz. Na razie niektorzy z nas moga chciec podrozowac z toba.'
+[/STORY]
+[OUT]Zobacz wioske swiatla.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wies wydaje sie zamrozona w czasie. Ludzie poruszaja sie tak wolno, ze ledwo to widac. Jednak wszyscy wydaja sie naprawde szczesliwi. 
+
+
+[/STORY]
+[OUT]Niech twoj duch zostanie uzdrowiony.
+[OUT]Wylecz swoje zdrowie psychiczne.
+[OUT]Usun przeklenstwa. 
+[OUT]Rekrutuj malarzy swiatla.
+[OUT]Na razie nic do zrobienia, odejdz.
+[/NODE]
+
++[NODE]32
+[STORY]
+Lowcy swiatla zwracaja sie do ciebie w gniewie, ale nagle po prostu zapadaja sie. Zniszczenie bestii swietlnej dziala.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyLight(1)
++[NODE]2
+[STORY]
+Podchodzi do ciebie grupa ludu zabrana przez lekka bicze - swierszcze, jak sa teraz znane. 
+
+Oni nie mowia. Staraja sie tylko wprowadzic was do ich wspolnoty z umyslem-swiatlem.
+[/STORY]
+[OUT]Porozmawiaj z nimi.
+[OUT]Walka!
+[OUT]Zmierz sie z duchem!
+[OUT]Odsun sie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Niszczycie miotacze swiatla, a ich ciala zamieniaja sie w popiol. 
+[/STORY]
+[OUT]Wez ich rzeczy i wyjdz.
+[/NODE]
+
++[NODE]19
+[STORY]
+Twoj duch jest zbyt slaby. Lowcy swiatla atakuja cie, a ty ledwo unikasz - a moze niektorzy z was nie. . .
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Ty dales wiecej swiatla. Przylaczysz sie, gdy bedziesz gotowy ...'
+
+Odchodza.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Zbliza sie grupa strzelcow, ale nagle po prostu zapadaja sie. Zniszczenie bestii swietlnej dziala.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --VillageLarge(2)
++[NODE]2
+[STORY]
+Przychodzisz do osady zadanej przez swiatlo. Jego lud wedruje ulicami w zgodzie, pracujac, tworzac, orajac pola, wszystko w ciszy, razem. 
+
+Kiedy cie zauwaza, zblizaja sie: 
+
+'Przyszedles do nas dolaczyc?'
+[/STORY]
+[OUT]Nie, powiedz im, ze przyszedles porozmawiac i byc moze nawiazac przyjazn.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jestes jednym z nas, albo nie jestes. Chodz . . .'
+
+Lekkie kosmyki zaczynaja krazyc wokol ciebie, ich zimny upal na twojej skorze i plonace sople dotykaja twoich wnetrznosci w probie polaczenia.
+[/STORY]
+[OUT]Odrzuc i odejdz szybko.
+[OUT][Zamieszanie lub Swiatlo] To jest obrzydliwosc, ktora sprzeciwia sie zarowno zametowi (probujac go oswoic), jak i swiatlu (naduzywajac jego mocy). Atak na glowe!
+[OUT][Magia lub natura] Ta sila wydaje sie nieistotna. Wzywaj swojej domeny i staw czola tym diablom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaz im sile twojego umyslu, wole, ktora nie bedzie wygieta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczysz strzelcow i wioske plonie, jak gdyby swiatlo nie pozwolilo ci na pelne zwyciestwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Jeden lub wiecej twoich ludzi moze wpasc pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twoj opor budzi cos w przyjetych ludziach i wypedzaja swiatlo z ich dusz! Niestety, ich ciala sa zbyt slabe i wypalone, aby przetrwac bez umyslu ula i padly martwe, ale wolne. 
+
+Wies sama plonie, jakby swiatlo nie wytrzymalo twojego zwyciestwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszacy swiatlo, chodz, zobacz nas. Pewnego dnia dolaczysz. Na razie niektorzy z nas moga chciec podrozowac z toba.'
+[/STORY]
+[OUT]Zobacz wioske swiatla.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wies wydaje sie zamrozona w czasie. Ludzie poruszaja sie tak wolno, ze ledwo to widac. Jednak wszyscy wydaja sie naprawde szczesliwi. 
+
+
+[/STORY]
+[OUT]Niech twoj duch zostanie uzdrowiony.
+[OUT]Wylecz swoje zdrowie psychiczne.
+[OUT]Usun przeklenstwa. 
+[OUT]Rekrutuj malarzy swiatla.
+[OUT]Na razie nic do zrobienia, odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Village Very Small(3)
++[NODE]2
+[STORY]
+Przychodzisz do osady zadanej przez swiatlo. Jego lud wedruje ulicami w zgodzie, pracujac, tworzac, orajac pola, wszystko w ciszy, razem. 
+
+Kiedy cie zauwaza, zblizaja sie: 
+
+'Przyszedles do nas dolaczyc?'
+[/STORY]
+[OUT]Nie, powiedz im, ze przyszedles porozmawiac i byc moze nawiazac przyjazn.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jestes jednym z nas, albo nie jestes. Chodz . . .'
+
+Lekkie kosmyki zaczynaja krazyc wokol ciebie, ich zimny upal na twojej skorze i plonace sople dotykaja twoich wnetrznosci w probie polaczenia.
+[/STORY]
+[OUT]Odrzuc i odejdz szybko.
+[OUT][Zamieszanie lub Swiatlo] To jest obrzydliwosc, ktora sprzeciwia sie zarowno zametowi (probujac go oswoic), jak i swiatlu (naduzywajac jego mocy). Atak na glowe!
+[OUT][Magia lub natura] Ta sila wydaje sie nieistotna. Wzywaj swojej domeny i staw czola tym diablom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaz im sile twojego umyslu, wole, ktora nie bedzie wygieta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczysz strzelcow i wioske plonie, jak gdyby swiatlo nie pozwolilo ci na pelne zwyciestwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Jeden lub wiecej twoich ludzi moze wpasc pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twoj opor budzi cos w przyjetych ludziach i wypedzaja swiatlo z ich dusz! Niestety, ich ciala sa zbyt slabe i wypalone, aby przetrwac bez umyslu ula i padly martwe, ale wolne. 
+
+Wies sama plonie, jakby swiatlo nie wytrzymalo twojego zwyciestwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszacy swiatlo, chodz, zobacz nas. Pewnego dnia dolaczysz. Na razie niektorzy z nas moga chciec podrozowac z toba.'
+[/STORY]
+[OUT]Zobacz wioske swiatla.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wies wydaje sie zamrozona w czasie. Ludzie poruszaja sie tak wolno, ze ledwo to widac. Jednak wszyscy wydaja sie naprawde szczesliwi. 
+
+
+[/STORY]
+[OUT]Niech twoj duch zostanie uzdrowiony.
+[OUT]Wylecz swoje zdrowie psychiczne.
+[OUT]Usun przeklenstwa. 
+[OUT]Rekrutuj malarzy swiatla.
+[OUT]Na razie nic do zrobienia, odejdz.
+[/NODE]
+
++[NODE]32
+[STORY]
+Lowcy swiatla zwracaja sie do ciebie w gniewie, ale nagle po prostu zapadaja sie. Zniszczenie bestii swietlnej dziala.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest(4)
++[NODE]2
+[STORY]
+Przychodzisz do miejsca, do ktorego dochodzi swiatlo. Sa tu stworzenia i ludzie, wszyscy stoja razem, wpatruja sie w przestrzen. 
+
+Kiedy cie zauwaza, podchodza: 
+
+'Przyszedles do nas dolaczyc?'
+[/STORY]
+[OUT]Nie, powiedz im, ze przyszedles porozmawiac i byc moze nawiazac przyjazn.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jestes jednym z nas, albo nie jestes. Chodz . . .'
+
+Lekkie kosmyki zaczynaja krazyc wokol ciebie, ich zimny upal na twojej skorze i plonace sople dotykaja twoich wnetrznosci w probie polaczenia.
+[/STORY]
+[OUT]Odrzuc i odejdz szybko.
+[OUT][Zamieszanie lub Swiatlo] To jest obrzydliwosc, ktora sprzeciwia sie zarowno zametowi (probujac go oswoic), jak i swiatlu (naduzywajac jego mocy). Atak na glowe!
+[OUT][Magia lub natura] Ta sila wydaje sie nieistotna. Wzywaj swojej domeny i staw czola tym diablom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaz im sile twojego umyslu, wole, ktora nie bedzie wygieta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczycie swieczniki i gniazdo plonie, jakby swiatlo nie pozwolilo wam na pelne zwyciestwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Jeden lub wiecej twoich ludzi moze wpasc pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twoj opor budzi cos w przyjetych ludziach i wypedzaja swiatlo z ich dusz! Niestety, ich ciala sa zbyt slabe i wypalone, aby przetrwac bez umyslu ula i padly martwe, ale wolne. 
+
+Gniazdo samo plonie, jakby swiatlo nie wytrzymalo twojego zwyciestwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszacy swiatlo, chodz, zobacz nas. Pewnego dnia dolaczysz. Na razie dziekujemy za pomoc.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]32
+[STORY]
+Zbliza sie grupa strzelcow, ale nagle po prostu zapadaja sie. Zniszczenie bestii swietlnej dziala.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

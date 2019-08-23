@@ -1,0 +1,226 @@
+-- [EVENT] --IcedemonsTradesmall(0)
++[NODE]2
+[STORY]
+Stoiska handlowca sa otwarte dla ciebie, ale handlujemy kamieniem, chyba ze masz dzieci, my tez je akceptujemy. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[OUT]Handluj dziecmi.
+[OUT]Handluj dziecmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestescie naszymi przyjaciolmi, wiec najpierw musicie zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[OUT]Handluj dziecmi.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Bogowie niech beda z toba.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --IcedemonsTrademedium(1)
++[NODE]2
+[STORY]
+Stoiska handlowca sa otwarte dla ciebie, ale handlujemy kamieniem, chyba ze masz dzieci, my tez je akceptujemy. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[OUT]Handluj dziecmi.
+[OUT]Handluj dziecmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestescie naszymi przyjaciolmi, wiec najpierw musicie zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[OUT]Handluj dziecmi.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Odejdz teraz.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --IcedemonsTradeadv(2)
++[NODE]2
+[STORY]
+Stoiska handlowca sa otwarte dla ciebie, ale handlujemy kamieniem, chyba ze masz dzieci, my tez je akceptujemy. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[OUT]Handluj dziecmi.
+[OUT]Handluj dziecmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestescie naszymi przyjaciolmi, wiec najpierw musicie zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[OUT]Handluj dziecmi.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Odejdz teraz.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --IceVillage(3)
++[NODE]3
+[STORY]
+Znajdujesz miejsce ukryte przed prostym widokiem, aw tobie spotykaja sie gromadzace sie demony lodu. 
+
+Trudno nazwac to ugoda, ale prawdopodobnie tak blisko, jak tylko sie do niej dojda. 
+
+[/STORY]
+[OUT]Sprobuj z nimi porozmawiac.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]7
+[STORY]
+Znajdujesz miejsce ukryte przed prostym wzrokiem, aw tobie spotykaja sie gromadzace sie demony lodu. 
+
+Trudno nazwac to ugoda, ale prawdopodobnie jest tak blisko, jak do jednej. Dostrzegaja cie i atakuja! 
+
+[/STORY]
+[OUT]Obron sie!
+[OUT]Biegnij!
+[/NODE]
+
++[NODE]8
+[STORY]
+Lodowe miasto jest zniszczone. Jego mieszkancy rozpadaja sie na sople lodu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Lodowe demony pokonuja cie i biora zycie jako zaplata za twoj atak.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Nie masz odpowiedzi, tylko kilka lodowych spojrzen. 
+
+Kiedy zostaniesz przyjaciolmi, bedziesz mogl rekrutowac, handlowac i leczyc wszystkie przeklenstwa tutaj. 
+
+[/STORY]
+[OUT]Jako przyjaciele popros o wymiane.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[OUT]Otwiera sie dla ciebie jeden z lodowych pomnikow. Wchodzic.
+[OUT]Jeden z lodowych demonow oferuje oczyszczenie twoich klatw. Idz do nich.
+[OUT]Sopel podaza za toba wszedzie i myslisz, ze to znaczy zostac z toba, jesli na to pozwolisz. Opusc miasto, aby zobaczyc, czy to z toba pochodzi.
+[/NODE]
+
++[NODE]21
+[STORY]
+Dziad mroz siedzi posrodku, jego cialo jest czesciowo zanurzone w lodowej podlodze: 
+
+'Udowodniles, ze jestes silny. Jestem zainteresowany, aby dowiedziec sie wiecej. Jeden z moich wnukow, sniezynka, dolaczy do ciebie, a jeden z twoich stanie sie lodem. W ten sposob mozemy sie oboje wzajemnie uczyc. Po prostu nie daj mi swojego wybranego, bo bogowie nie byliby ze mnie zadowoleni. Zgoda?'
+
+
+[/STORY]
+[OUT]Tak, zaakceptuj.
+[OUT]Upadek polityczny.
+[/NODE]
+
++[NODE]24
+[STORY]
+Dziad mroz siedzi posrodku, jego cialo jest czesciowo zanurzone w lodowej podlodze: 
+
+'Udowodniles, ze jestes silny. Jestem zainteresowany, aby dowiedziec sie wiecej. Jeden z moich wnukow, sniezynka, dolaczy do ciebie, a jeden z twoich stanie sie lodem. W ten sposob mozemy sie oboje wzajemnie uczyc. Zgoda?'
+
+[/STORY]
+[OUT]Tak, zaakceptuj.
+[OUT]Upadek polityczny.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyIceDemon_(4)
++[NODE]2
+[STORY]
+Lodowe demony przesladuja cie!
+[/STORY]
+[OUT]Pozdrow swoich sojusznikow. 
+[OUT]Badz ostrozny, ale rozmawiaj z nimi.
+[OUT]Walcz z duchem, szanuja go najbardziej.
+[OUT]Walka!
+[OUT]Odsun sie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Przepraszam, przyjaciele. Nie poznalismy cie. Pozdrowienia i zyczenia.'
+[/STORY]
+[OUT]Zapytaj, czy chca handlowac.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Oni nie odpowiadaja, oni ciagle przychodza do ciebie.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Walcz z duchem.
+[OUT]Walka!
+[/NODE]
+
++[NODE]17
+[STORY]
+Pokonujesz lodowe demony. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Lodowe demony pokonuja cie i ucztuja twoja krwia i esencja zycia, zanim uda ci sie uciec.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]25
+[STORY]
+Twoj duch byl silniejszy. Demony gina.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

@@ -1,0 +1,4418 @@
+-- [EVENT] --WoodKillsmallShelf(0)
++[NODE]2
+[STORY]
+Znajdujesz miejsce, w ktorym mieli osiedlic sie intruzi - maly, ale gesty gaj. 
+
+Widzisz pewne oznaki obecnosci humanoidow.
+[/STORY]
+[OUT][Lowca lub percepcja] Sledz intruzow.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Sledzisz intruzow w jaskini. W tobie dostrzegasz jakis ruch, a z czasem zdajesz sobie sprawe, ze sa one elfami cieni kroczacymi nerwowo. 
+
+Na szczescie dla ciebie wydaje sie, ze jest tylko kilka z bronia w pogotowiu.
+[/STORY]
+[OUT]Otaczaj cienie i poznaj swoja obecnosc.
+[OUT]Masz przewage. Atak!
+[/NODE]
+
++[NODE]4
+[STORY]
+Jestes zasadzka przez elfy cienia!
+[/STORY]
+[OUT]Walka!
+[OUT]Sprobujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz miejsce i wreszcie dostrzegasz cienie elfow. Niestety, oni tez cie zauwazaja. 
+
+[/STORY]
+[OUT]Zatrzymaj sie, pokaz swoje rece i powiedz, ze nie chcesz walczyc, tylko po to, by powiedziec im, ze musza odejsc, poniewaz elfy nie chca ich tutaj.
+[OUT][Sila] Sprobuj zastraszyc sie i powiedz im, aby opuscili ten las!
+[OUT]Do ataku!
+[OUT][Cien elf] Zapytaj swojego krewnego, dlaczego tu sa, gdzie nie sa pozadani.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jestes mocno pobity, a elfy musza przyjsc ci z pomoca. Twoja pomoc nie robi na nich wrazenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Odwiedzalismy jedynie swiete miejsca, czczac nasze przeszle i rodzinne wiezi. 
+
+Ale niektorzy z naszych oczyszczonych krewnych nie przyjeli naszej podrozy i nie zaatakowali nas. Jestesmy ranni i po prostu potrzebujemy czasu, aby sie uleczyc, zanim ruszymy dalej. Nie szukamy zemsty na lesnych krewnych 
+
+Wyjedziemy teraz, jesli musimy.' 
+[/STORY]
+[OUT][Uzdrowiciel lub cmuch] Zaoferuj im pomoc w uzdrowieniu.
+[OUT]Powiedz, ze nie musza wychodzic. Wyjasnisz ich sytuacje elfom.
+[OUT]Kiwnij glowa i nalegaj, aby odeszli w ciagu jednego dnia. 
+[/NODE]
+
++[NODE]20
+[STORY]
+Pozostajesz przez jakis czas i pomagasz uzdrawiac elfy cienia. 
+
+'Dziekujemy Ci i zostawimy ci ten dar, by splacic twoja dobroc. Nie wiem, jak sobie radzisz z tymi aroganckimi, stojacymi glupcami, ale to twoja droga. Dobrze cie trzymaj.'
+[/STORY]
+[OUT]Pokloncie sie i zyczcie dobrej drogi.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Zranilismy przyjaciol, wiec nie wyjezdzamy i mozesz to powiedziec tym aroganckim dobroczyncom, ktorzy cie tu przyslali.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Elfy cienia zatrzymuja sie na swoich sladach, patrzac na ciebie. Wiesz, ze wiekszosc z nich jest gotowa do walki, ale jeden z nich mowi: 
+
+'Nie chcemy walczyc. Po prostu przechodzimy.'
+[/STORY]
+[OUT]Do ataku!
+[OUT][Cien elf] Zapytaj swojego krewnego, dlaczego tu sa, gdzie nie sa pozadani.
+[OUT][Elf] Zadaj, zeby teraz odeszli, poniewaz sa plaga na twoich krewnych i przynosza ciemnosc do owczarni.
+[OUT]Powiedz im, ze lud lesny nie chce, aby byli sasiadami, i popros ich, aby sie przeniesli, teraz!
+[/NODE]
+
++[NODE]35
+[STORY]
+Elfy cienia odchodza, niosac rannych. 
+
+Elfy wydaja sie tym niewzruszone i po prostu dziekuje za dobrze wykonana prace. 
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Krewni lesni sa zadowoleni z twojej pomocy, a przynajmniej nie pokazuja inaczej. Oferuja nawet niewielka nagrode.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Cienisci krewni sa wdzieczni za twoja laske. Pozostaja leczyc rany, co moze zajac troche czasu. 
+
+[/STORY]
+[OUT]Pokloncie sie i zyczcie dobrej drogi.
+[/NODE]
+
++[NODE]39
+[STORY]
+Elfy sa niezadowolone z twojej rezolucji, a kiedy zapytano ich dlaczego, nie odpowiadaja bezposrednio, wspominajac tylko o skazie ciemnosci i jej niebezpieczenstwach. 
+
+Zyskasz jakas przysluge, ale niewiele. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Elfy sa zadowolone z pokojowego rozwiazania i zostawiaja ci mala nagrode za twoje uslugi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy poinformujesz elfy o swojej porazce, sa rozczarowani twoimi wysilkami. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz elfy cienia. 
+
+Elfy dziwnie odczuwaja ulge na twoich wiadomosciach, mimo ze zazwyczaj nie lubia gwaltownych rezolucji. Zostawiaja ci nagrode.
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Odwiedzalismy jedynie swiete miejsca, czczac nasze dawne i rodzinne wiezi. 
+
+Ale niektorzy z naszych oczyszczonych krewnych nie przyjeli naszej podrozy i nie zaatakowali nas. Jestesmy ranni i po prostu potrzebujemy czasu, aby sie uleczyc, zanim ruszymy dalej. Nie szukamy zemsty na lesnych krewnych.' 
+[/STORY]
+[OUT][Uzdrowiciel lub cmuch] Zaoferuj im pomoc w uzdrowieniu.
+[OUT]Powiedz, ze nie musza wychodzic. Wyjasnisz ich sytuacje elfom.
+[OUT]Kiwnij glowa i nalegaj, aby odeszli w ciagu jednego dnia. 
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKillsmallPines(1)
++[NODE]2
+[STORY]
+Znajdziesz krnabrne lesne stworzenia, grzebiace w lesie, bez widocznego celu poza zniszczeniem.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Lowca] Ustaw pulapki, aby zwabic zwierzeta.
+[OUT][Forest folk] Dobrze znasz lesne stworzenia, wiec zastraszaj pineconettes do wyjscia.
+[OUT]Elfy poprosily o przywrocenie pinekonow do krotnie, wiec sprobuj to zrobic.
+[OUT][Leshy] Pineconettes to twoje kohorty, wiec wezwij ich do posluszenstwa i natychmiast zaprzestan tego nonsensu!
+[OUT][Percepcja] Zbadaj dalej.
+[OUT][Pineconette] Idz sam i porozmawiaj z krewnymi.
+[OUT][Pineconette] Idz sam i porozmawiaj z krewnymi.
+[OUT][Pineconette] Idz sam i porozmawiaj z krewnymi.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wabisz stwory w kat, zmieniasz swoja postawe, by wygladac bardziej groznie, i szepczesz, ze las jest na nich zly. Wkrotce wielu z nich ucieka w panice. 
+
+[/STORY]
+[OUT]Zabij tych, ktorzy pozostawili staromodny sposob. Atak!
+[OUT]Kontynuuj zastraszanie.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]9
+[STORY]
+Podchodzisz do swoich krewnych i kwestionujesz ich niesforne sposoby. Probujesz mowic o obowiazku wobec lasu, starozytnych prawach i zobowiazaniach. 
+
+Pineconettes sluchaja i obiecuja sie zachowywac.
+[/STORY]
+[OUT]Dobrze, powiedz im, zeby poszli dolaczyc do elfow.
+[/NODE]
+
++[NODE]10
+[STORY]
+Podchodzisz do swoich krewnych i kwestionujesz ich niesforne sposoby. Probujesz mowic o obowiazku wobec lasu, starozytnych prawach i zobowiazaniach. 
+
+Ale duchy lesne sa dziwnie wzburzone i ledwo zdolne do rozmowy. Warkaja na ciebie i groza atakiem.
+[/STORY]
+[OUT]Sprobuj odejsc spokojnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Podchodzisz do swoich krewnych i kwestionujesz ich niesforne sposoby. Probujesz mowic o obowiazku wobec lasu, starozytnych prawach i zobowiazaniach. 
+
+Pineconettes blagaja cie, abys zostal z nimi i pokazal im wlasciwa droge.
+[/STORY]
+[OUT]Zgadzam sie wziac na siebie odpowiedzialnosc. [Lose one pineconette]
+[OUT]Nie pozwol swojemu lesnemu przyjacielowi odejsc! 
+[/NODE]
+
++[NODE]18
+[STORY]
+Ustawiasz pulapki i pozbywasz sie stworzen. 
+
+Ale kiedy zglosisz sie do elfiego ludu, oni sa zrozpaczeni twoimi brutalnymi sposobami i twoja przyjazn cierpi.
+[/STORY]
+[OUT]Pojedyncza pineconette wydaje sie jednak zainteresowana twoja sila. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Pineconette jest zraniona, ale bedzie zyla, wiec mozesz ja zabrac ze soba.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Przeszukujesz gruzy i odkrywasz, ze zyje jeszcze kilka pineconette. Najbardziej rozpraszaja sie w lesie, ale wydaje sie, ze chce zostac z toba. 
+
+Jego oczy wydaja sie czesciowo dotkniete dziwnym swiatlem - czy to tylko twoj umysl, ktory gra sztuczki?
+[/STORY]
+[OUT]Wez ze soba pineconette.
+[OUT]Swiatlo jest nienaturalne, a demon z pewnoscia obawialby sie, ze zostanie zarazony. Zabij to szybko.
+[/NODE]
+
++[NODE]27
+[STORY]
+Ustawiasz pulapki i zabijasz wiekszosc pinekonow, ktore zamieniaja sie w bialy popiol. Inni uciekaja. 
+
+Na poczatku elfy sa zrozpaczone twoja przemoca, ale kiedy widza bialy popiol, zgadzaja sie, ze to byl jedyny sposob.
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalalych.
+[/NODE]
+
++[NODE]28
+[STORY]
+Pineconettes sa uruchamiane i roj bez powodu. Elfy musza przyjsc ci z pomoca i nie jestes pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Twoj przyjaciel jest przygnebiony twoja decyzja, a pineconettes znow sie pobudzaja.
+[/STORY]
+[OUT]Sprobuj wyjsc.
+[/NODE]
+
++[NODE]49
+[STORY]
+Pineconettes sluchaja i obiecuja sie zachowywac. Natura i harmonia sa zaspokojone przez twoje dzialania. 
+
+Elfy dziekuja i zostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz pojedyncza pineconette czajaca sie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Pineconettes sluchaja i obiecuja sie zachowywac. Elfy dziekuja i zostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz pojedyncza pineconette czajaca sie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Zblizasz sie i obserwujesz dziwne zachowania pineconettes. Podczas gdy myslales, ze sa po prostu destrukcyjni, teraz widzisz, ze scigaja jednego z nich i rozrywaja go na strzepy!
+[/STORY]
+[OUT][Lowca] Sprobuj wkrasc sie i zalozyc pulapki, aby pozbyc sie chorych demonow lesnych.
+[OUT][Lasowy lud] Wykorzystaj swoje powinowactwo do lasu, aby zawolac demony. Popros las o pomoc!
+[OUT]Atakuj pineconettes!
+[/NODE]
+
++[NODE]53
+[STORY]
+Elfy zostawiaja niektore prezenty dla twoich wysilkow.
+[/STORY]
+[OUT]Widzisz pojedyncza pineconette czajaca sie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Pineconettes pobily cie i zmusily do ucieczki. Elfy musza przyjsc ci z pomoca i nie jestes pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Pineconettes leza martwe, ich ciala zwrocone w popiol. 
+
+Ale kiedy zdajesz raport elfim ludziom, oni sa zrozpaczeni twoimi brutalnymi sposobami!
+[/STORY]
+[OUT]Pojedyncza pineconette wydaje sie jednak zainteresowana twoja sila. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Elfy zostawiaja niektore prezenty dla twoich wysilkow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]61
+[STORY]
+Niszczysz szalone pineconettes i zamieniaja sie w bialy popiol. 
+
+Poczatkowo elfy sa zrozpaczone twoja przemoca, ale kiedy widza bialy popiol, zgadzaja sie, ze to byl jedyny sposob. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalalych.
+[/NODE]
+
++[NODE]62
+[STORY]
+Widzisz, jak oczy szalejacych paletek plona jasnym swiatlem, swiatlem, ktore pochlania ich kruche ciala, ale wsciekaja sie, goniac swoich braci, ktorzy wydaja sie normalni i nie chca zaakceptowac tego dziwnego swiatla. 
+
+[/STORY]
+[OUT]Ciagle dzwon do lasu.
+[/NODE]
+
++[NODE]65
+[STORY]
+Przestrasz reszte i zbierz troche drewna, ktore zostawili. 
+
+Ale kiedy zglosisz sie do elfiego ludu, nie sa pod wrazeniem taktyki strachu, ktora nazywaja zastraszaniem. 
+
+Mimo to, uznaja twoje wysilki i zyskujesz niewielka przysluge.
+[/STORY]
+[OUT]Pojedyncza pineconette wydaje sie jednak zainteresowana twoja sila. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]66
+[STORY]
+Kiedy dzwonisz do lasu, odpowiada, a dziwne pineconettes w koncu przepalaja sie, pozostawiajac za soba wdziecznych ocalalych. 
+
+Kiedy pytasz ich, co sie tu stalo, nie wiedza. Wiedza tylko, ze swiatlo probowalo je zabrac. 
+
+[/STORY]
+[OUT]Pomoz im dolaczyc do elfow we wsi.
+[/NODE]
+
++[NODE]67
+[STORY]
+Elfy zostawiaja niektore prezenty dla twoich wysilkow.
+[/STORY]
+[OUT]Widzisz pojedyncza pineconette czajaca sie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKillLeshy(2)
++[NODE]2
+[STORY]
+Zblizasz sie do obszaru, gdzie mieszkaja niegodziwi straznicy lasu. 
+
+Widzisz zaciemniony, zamkniety gaj i wyczuwasz wiele obserwujacych cie oczu.
+[/STORY]
+[OUT][Wood folk] Podejdz ostroznie i sprobuj porozmawiac z lesnymi straznikami.
+[OUT][Goblinski szaman] Popros lesne duchy, aby powiedzialy ci, co tu jest nie w porzadku.
+[OUT][Harmonia] Przywolaj moc harmonii, aby uspokoic gniew tego starego ducha.
+[OUT][Nature] Wezwij swoja domene, aby pokazac, ze jestes po jego stronie.
+[OUT]Do ataku!
+[OUT]Zaoferuj swoja wlasna energie duchowa, aby sprobowac uspokoic te stara istote i zostawic ja elfom. [Wez obrazenia duchowe]
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Jedno z niedoli zamienia ich starozytne spojrzenie na ciebie: 
+
+'Maly lesny podworko cie tu przykryl, yee? Nie cofniemy sie. Ten las jest nasz i sa szkodnikami!' 
+[/STORY]
+[OUT][Leshy] Wolajcie do swoich braci i zadajcie, aby ustapili, poniewaz nie jest to ich miejsce, by atakowac inne lesne dzieci, kiedy nie zrobia nic, by na to zasluzyc!
+[OUT][Leshy] Wolajcie do swoich braci i zadajcie, aby ustapili, poniewaz nie jest to ich miejsce, by atakowac inne lesne dzieci, kiedy nie zrobia nic, by na to zasluzyc!
+[OUT]Zaangazuj lesbijke, aby sluchac rozumu. Z pewnoscia elfy tez sa dziecmi lasu. Nie mogli go tak obrazic.
+[OUT][Magiczny uzytkownik] Ten straznik lesny wydaje sie nieco wytracony z rownowagi. Wejdz do krolestwa duchow i walcz z nim, abys mogl wniesc sens do starego drewna.
+[OUT][Ork] Te demony lesne wymknely sie spod kontroli. Otocz je, zasadzaj ogien w odpowiednich miejscach i spal je! Wyzwaniem bedzie zrobic to wystarczajaco szybko, ale wiesz, jak dobrze spalic lasy.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Duchy mowia ci, ze dusza niedobitka jest nadal poplamiona przez dawna plame ciemnosci. To czyni go bardziej agresywnym i niestabilnym. 
+
+Duchy proponuja ci odciecie dla ciebie niedoli od swiata duchow, ale bedzie to oznaczalo dla niego powolna i bolesna smierc.
+[/STORY]
+[OUT]Zrob to. Nieuczciwy opiekun jest niebezpieczny dla zamieszkujacych tutaj lasow i duchow.
+[OUT][Wood folk] Podejdz ostroznie i sprobuj porozmawiac z lesnymi straznikami.
+[OUT]Daj spokoj. Poinformuj o tym elfy. 
+[/NODE]
+
++[NODE]7
+[STORY]
+Licha marszczy brwi i jeczy, gdy slucha twoich slow. Potrzeba czasu, ale starozytny pasterz przyznaje sie do twojego argumentu i zgadza sie, ze byc moze droga elfow nie jest taka zla i musi myslec mniej konserwatywnie. 
+
+Elfy sa bardzo wdzieczne za to pokojowe rozwiazanie i zostawiaja ci prezent. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Lek nie idzie latwo, a ty zostajesz zraniony przez szalone proby stworzenia, ktore probuja go szybko zakonczyc. 
+
+[/STORY]
+[OUT]Idz dalej.
+[/NODE]
+
++[NODE]17
+[STORY]
+Stoisz twarza w twarz z choroba w krolestwie duchow i odkrywasz jego pradawne korzenie dotkniete ciemna zgnilizna, ktora pomagasz oczyscic. Opiekun lasu dziekuje i obiecuje, ze juz wiecej nie przeszkadza elfom. 
+
+Lesni ludzie sa bardzo wdzieczni za te spokojna decyzje i zostawia ci prezent. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Elfy sa zrozpaczone gwaltowna smiercia straznika lasu. Rozpoznaja twoja wiedze i wiedza, ze naprawde mowiles o niebezpieczenstwie, ale nie sa pewni swojej taktyki. 
+
+Twoja przyjazn nie rosnie tak bardzo, jak sie spodziewales. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Dajesz swoj wlasny duch i leniwe liscie.
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, dowiadujesz sie, ze dreczyciel powrocil na swoje miejsce i nadal nekal osadnikow. Oni musieli sobie z tym poradzic, wiec twoja przyjazn nie rosnie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Elfy sa zaniepokojone stanem psychicznym chorego, a ty go karmisz, ale sa wdzieczni za twoja ofiare i pomoc. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Niszczysz chorobe i jego demony. Ale kiedy zdajesz raport elfom, oni sa zrozpaczeni twoimi brutalnymi sposobami i zycza sobie, aby nigdy nie prosili o twoja pomoc. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany. Elfy slysza twoje krzyki i przychodza z pomoca. Musza sami zabic straznika lesnego i sa zli na to, ze musza to robic. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Byles nieprzekonujacy. Choroba pozostaje i jest zdecydowana walczyc z elfami.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Zaoferuj swoja wlasna energie duchowa, aby sprobowac uspokoic te stara istote i zostawic ja elfom. [Wez obrazenia duchowe]
+[OUT][Ork] Te demony lesne wymknely sie spod kontroli. Otocz je, zasadzaj ogien w odpowiednich miejscach i spal je! Wyzwaniem bedzie zrobic to wystarczajaco szybko, ale wiesz, jak dobrze spalic lasy.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]33
+[STORY]
+Bez wzgledu na to, co probowales, ta choroba okazala sie zbyt silna i uparta. Lesne demony atakuja cie. 
+
+Elfy slysza twoje krzyki i przychodza z pomoca. Musza sami zabijac straznikow lesnych i sa zli na to, ze musza to robic.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Elfy nie sa zadowolone, ze przekazujesz prace, ale sa pod wrazeniem, ze nie ucieklas sie do brutalnej sily i wiedzac, jak uparta jest ta pomylka, zintensyfikuja swoje wysilki, aby sobie z tym poradzic. }
+
+Dziekuja ci za probe, choc czules, ze „Oczywiscie, ze nie mogli tego zrobic.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Licha marszczy brwi i jeczy, gdy slucha twoich slow. Ale on sie nie porusza: 
+
+'Noo, nie bede sie klanial do ich nowych, zwariowanych chwil. Oni zostawia moja ziemie!'
+
+Lek i jego trzoda atakuja cie, a elfy musza przyjsc ci z pomoca. Sa zasmuceni porazka, ale doceniaja wysilek. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Licha marszczy brwi i jeczy, gdy slucha twoich slow. Potrzeba czasu, ale starozytny pasterz przyznaje sie do twojego argumentu i zgadza sie, ze byc moze droga elfow nie jest taka zla i musi myslec mniej konserwatywnie. 
+
+Elfy sa bardzo wdzieczne za to pokojowe rozwiazanie i zostawiaja ci prezent. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]53
+[STORY]
+Niszczysz chorobe i jego demony. Ale kiedy zdajesz raport elfom, oni sa zrozpaczeni twoimi brutalnymi sposobami. 
+
+Pomimo smutku, zdaja sobie sprawe, ze problem nie byl wlasciwy i byc moze to byl jedyny sposob. Niechetnie zostawiaja ci tez mala nagrode. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]55
+[STORY]
+Twoj plan dziala, a stary straznik lesny jest zbyt wolny, by uciec przed plomieniami. 
+
+Jednak elfy sa przerazone zniszczeniem ich ziemi i brutalnym zabiciem starszego straznika. Twoja przyjazn nie rosnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Lek wyglada na zaskoczony - co w jego przypadku wyglada naprawde niepokojaco: 
+
+'Ja ... Mowilem przez taka mloda rzecz. Zrobie lepiej, noow.'
+
+Elfy sa bardzo wdzieczne za pokojowe rozwiazanie i zostawia ci prezent. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKillsmallOrcs(3)
++[NODE]2
+[STORY]
+Znajdziesz miejsce, w ktorym zostales wyslany, aby poradzic sobie z niektorymi orkowymi bandytami.
+[/STORY]
+[OUT]Wiesz, jak sobie radzic z lotrzykami - ty tez sie tym zajmowales. Porozmawiaj z nimi. 
+[OUT][Orc Matriarch] Powiedz im, zeby wyszli, teraz!
+[OUT][Intelekt i harmonia] Przekonaj bandytow, ze madrzej jest odejsc niz stawic czola tobie - a pozniej takze stawic czola elfom.
+[OUT]Zaplac bandytom za wyjscie.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz do obozu bandytow i dostrzegasz kilku orkow. Wygladaja na szczuplych i zmeczonych, wiec moze byc miejsce na negocjacje, choc nigdy nie jest pewne, ze ci tak wypelnieni chaosem.
+[/STORY]
+[OUT][Ork] Przekonaj ich, ze zawracanie sobie glowy mala osada elfow nie jest godnym wyzwaniem. Opowiedz im o innych miejscach, w ktorych natknales sie na honor ich wojownika.
+[OUT][Ork] Przekonaj ich, ze zawracanie sobie glowy mala osada elfow nie jest godnym wyzwaniem. Opowiedz im o innych miejscach, w ktorych natknales sie na honor ich wojownika.
+[OUT][Bandyta] Handluj z nimi. Przekonaj ich, ze nie jest prawdziwym wyzwaniem pozostac z elfami bratek.
+[OUT]Bandyci sa za dobrami, wiec zaoferujcie im troche do opuszczenia.
+[OUT]Znasz ich taktyke, wiec walka bedzie latwiejsza. Atak!
+[/NODE]
+
++[NODE]4
+[STORY]
+„Cholera, tak, ehm, jak mowisz, to jest wyraznie twoja darn. Czesc tobie, matko krwi!'
+[/STORY]
+[OUT]Obserwuj ich kazdy krok, gdy ida.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Prawda, elfy nie sa warte wysilku, jak sadze. Zostawiamy cie, przyjaciele. Za honor!'
+
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z elfami z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Orki rozpraszaja sie, a nawet zostawiaja czesc swoich rzeczy za soba. 
+
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Bah, mowisz i rozmawiasz, podobnie jak spiczaste uszy, ktore przychodza tutaj krwawo, rozmawiajac z drzew, wystarczy! Opuszczamy!'
+
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, dobra, umowa to umowa, wyprowadzamy sie.'
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zamierzasz zglosic swoj sukces, kiedy zdasz sobie sprawe, ze orkowie udali sie do wioski w drodze na zewnatrz i ponownie zaatakowali. 
+
+W koncu zostali pobici przez elfy bez twojej pomocy, a twoja przyjazn ucierpiala z tego powodu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, ale elfy wydaja sie rozczarowane rozlewem krwi. 
+
+'Oni tylko podazali za swoja brutalna natura, wiec smierc byla byc moze nieunikniona, ale zasmuca nas, ze nie mozesz znalezc innej drogi. Mimo to zrobiles to najlepiej. ”
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany. Ostatecznie lud, ktory poprosil cie o pomoc, sam poradzi sobie z problemem, wiec nie zyskasz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Myslisz, ze mozesz szalec i powiedziec nam, co robic? Odpieprz sie!'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]34
+[STORY]
+„Zgoda! Honor wsrod zlodziei zyje w nas. Wyjezdzamy i niech twoje ostrza pozostana ostre!'
+
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Elfy slysza o twojej porazce i przychodza ci z pomoca. Musza zabic samych orkow, wiec nie zyskujesz przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Bah, stul pysk, Ty zdrajco! Przecwiczymy nasze ostrza na Waszej zdradzieckiej skorze!'
+
+Orki atakuja. 
+[/STORY]
+[OUT]Walka.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Deal to umowa. Solidny handel z Toba.'
+
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Przypuszczam, ze niepokojace sa spiczaste uszy. Wezmiemy troche towarow, a nawet handlujemy z toba. Nie ma powodu, zeby sie trzymac, jesli sie wzbogacimy.'
+[/STORY]
+[OUT]Zgodzcie sie na handel i zaplate.
+[OUT]Odmowcie.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Nie boimy sie ciebie ani spiczastych uszu! Ale wydaje sie to zmarnowanym wysilkiem. Tak, placisz nam, a my znajdziemy lepszych wrogow.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Po prostu ich zaatakujcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKilladvWraith(4)
++[NODE]2
+[STORY]
+Znajdziesz maly cmentarz, na ktorym elfy mysla o niezywym wedrowaniu.
+[/STORY]
+[OUT][Magiczny lub magiczny uzytkownik] Moze tu dzialac troche czarnej magii. Zbadac.
+[OUT][Magiczny uzytkownik lub Wraith] Niektorzy w twojej grupie wiedza o niezyjacych duszach. Przyjrzyj sie blizej.
+[OUT][Natura lub Swiatlo] Oczysc to miejsce plugawej sily, ktora narusza prawa twoich bogow.
+[OUT]Do ataku!
+[OUT][Zerca] Te upiory sa tu zwiazane i zdarza sie, ze wiesz przez jaki rytual. Wszystko, co musisz zrobic, to pogrzebac troche srebra w ziemi i poswiecic jednego zwierzecia, a upiory nie beda juz przeszkadzac elfom. Zrob to.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Dostrzegasz kilka widm unoszacych sie w kolko wokol jednego nagrobka.
+[/STORY]
+[OUT][Wraith] Porozmawiaj z nimi i popros ich, aby ruszyli lub opuscili wioske.
+[OUT][Wraith] Porozmawiaj z nimi i popros ich, aby ruszyli lub opuscili wioske.
+[OUT]Wykonaj rytual, ktory zatrzyma uwiezionych tutaj niezyjacych. To jest mroczna magia, wiec moze cie to kosztowac, ale powinno dzialac.
+[OUT]Masz na nich skok. Atak!
+[/NODE]
+
++[NODE]4
+[STORY]
+Smrod mrocznej magii uderza w twoje zmysly i odkrywasz, ze przekleta figurka na szczycie jednego z nagrobkow powoduje, ze dusze zmarlych zwlekaja i zmieniaja sie w widma. 
+
+Latwo jest zniszczyc, ale moze zranic twojego ducha.
+[/STORY]
+[OUT]Zniszcz obiekt.
+[OUT][Magiczny uzytkownik lub Wraith] Masz ludzi, ktorzy wiedza o niezyjacych, wiec przyjrzyj sie im blizej.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+Okazuje sie, ze upiory zostaly tu wywolane przez przeklety obiekt, ale twoje slowa wyrywaja je z transu. Sa wdzieczni i robia, co chcesz. 
+
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z elfami z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Wrightowie rozrzucaja, a nawet zostawiaja czesc swoich rzeczy, jesli masz szczescie. 
+
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z elfami z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Zakopujesz cenny metal i poswiecasz esencje zycia jednego zwierzecia, a upiory powinny teraz pozostac uwiezione w duchu szarego swiata.
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zamierzasz zglosic swoj sukces, gdy zdasz sobie sprawe, ze byc moze twoja wiedza nie byla calkowicie dokladna. Widma pozostaja, a niektore zlosliwe demony zostaly przyciagniete przez wolny metal i teraz kradna elfy. 
+
+W koncu zostaja pobici przez elfich krewnych bez twojej pomocy, a twoja przyjazn cierpi z tego powodu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z elfami z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z elfami z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie elfy radza sobie ze swoim problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Twoje wysilki zawodza, a upiory zwracaja uwage na ciebie.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Po prostu ich zaatakujcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Zwiazujesz upiory z tym grobowym miejscem, a jesli ktos celowo nie zlamie twojej pracy, pozostana tutaj. 
+
+Elfy nie maja pewnosci, co sadza o tym rozwoju, ale poradziles sobie z ich bezposrednim problemem i sa wdzieczni.  
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Elfy slysza o twojej porazce i przychodza ci z pomoca. Musza sami zabijac upiory i sa zli na koniecznosc oszczedzania czasu. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Okazuje sie, ze upiory zostaly tutaj wywolane przez przeklety obiekt. Twoja wiez z bogami chroni cie troche, ale kiedy probujesz uwolnic swoich krewnych, sa oni rozdzierani z wielkim bolem. 
+
+Niemniej jednak pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z elfami z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Twoje modlitwy dzialaja. Jeden z nagrobkow rozpada sie na pyl, a wraz z nim upiory sa uwalniane z ich wiazania i znikaja.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodkinVillageSmall(5)
++[NODE]2
+[STORY]
+„Witaj, co sprowadza cie do naszej skromnej siedziby?'
+[/STORY]
+[OUT]Zapytajcie, czy mozecie w czyms pomoc.
+[OUT]Powiedzcie, ze przybyliscie tylko w odwiedziny i odpoczac, byc moze tez uleczyc rany.
+[OUT]Zapytaj, czy mozesz sprobowac zaprzyjaznic sie z niektorymi demonami, ktore tutaj zamieszkuja.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Zapytaj, czy mozesz odwiedzic swiete drzewo debowe, aby je uczcic.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Ze wzgledu na twoje dobre samopoczucie prosimy cie, abys sie poruszal, poniewaz nie jestes przyjacielem starszego ludu.'
+
+Nie widzisz nikogo, ale czujesz sie obserwowany.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, ze nie myslisz o nich nic zlego - wszystko, co chcesz, to porozmawiac i odwiedzic.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a lupy sa Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Probujesz nam pomoc - dobrze. Mamy niesforne demony lesne wloczace sie po ziemi. Przynies je do owczarni i bedziemy wdzieczni.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Tak, zawsze byl to nasz sposob na pomoc zmeczonym. Wchodzic.
+
+Mozesz szukac naszych uzdrowicieli, a moze odmlodzic umysl i ducha, jesli los da ci szanse.'
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc fizyczne rany. 
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Zapytaj, czy ich magowie sa gotowi przywrocic twojego ducha.
+[OUT]Elfia gawedziarz rozpoczyna kolorowa ballade ciemnej nocy. Usiadz, posluchaj i naucz sie.
+[OUT]Wroccie nastepnego dnia.
+[OUT]Zapytaj, czy ich magowie sa gotowi przywrocic twojego ducha.
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Probujesz nam pomoc - dobrze. Nie ma niepokoju w ulu nie tak daleko stad. Chcielibysmy, zeby to sie rozwiazalo.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Chcesz zaoferowac swoje uslugi. To jest dopuszczalne.'
+[/STORY]
+[OUT]Zapytaj, czy maja jakies problemy.
+[OUT]Masz duzo dobrych metali. Zapytaj, czy czegos potrzebuja.
+[OUT]Masz troche kamieni szlachetnych. Zapytaj, czy czegos potrzebuja.
+[OUT]Na razie nie ma tu nic do roboty. Wroccie nastepnego dnia.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Mamy problem z banda orkowych orkow w poblizu. Niszcza las i rowniez nas niepokoja. Wydaja sie niezdolni do sluchania rozumu, ale byc moze beda cie sluchac.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jeden z elfow kiwa glowa i pokazuje ci miejsce do siedzenia. 
+
+„Twoja dusza jest skazona i potrzebuje oczyszczenia. Klatwy przeciazaja swiatlo naszych dusz; w ten sposob cena bedzie wysoka i obciazy twoje umysly. Uzdrowienie twoich duchowych ran jest dla mnie latwiejsze, wiec nie bede prosic o wiele w zamian.'
+[/STORY]
+[OUT][Elf] Delikatnie przechyl glowe.
+[OUT][Magiczni uzytkownicy] Powiedz, ze znasz troche oczyszczania, ale potrzebujesz ich pomocy, aby zrobic to poprawnie.
+[OUT]Zgodz sie zaplacic cene za usuniecie klatwy. [20 szlachetnych klejnotow]
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT]Powiedz, ze nie masz platnosci.
+[/NODE]
+
++[NODE]29
+[STORY]
+Uzdrowiciel ducha usmiecha sie. - Ach, przepraszam, poczulem dotyk mlodych bogow i nie spodziewalem sie starszego dziecka. 
+
+Usiadz, odpocznij i medytuj, a twoja dusza zostanie oczyszczona. Oczywiscie twoi krewni beda musieli zaplacic.'
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[OUT][Magiczni uzytkownicy] Powiedz, ze znasz troche oczyszczania, ale potrzebujesz ich pomocy, aby zrobic to poprawnie.
+[OUT]Zgodzcie sie zaplacic cene za usuniecie klatwy.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]37
+[STORY]
+Elf patrzy na ciebie przez jakis czas i zastanawiasz sie, czy poszli w medytacje. 
+
+'Widze. Droga twojego panteonu jest naprawde interesujaca. Przyjmujemy Twoje prezenty z wdziecznoscia. Tutaj jest to skrzynia nieznanego pochodzenia, ktora niedawno znalazlem - jest twoja.'
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Nie handlujemy demonami jako zwierzetami domowymi, ale pozwolimy ci sprobowac zaprzyjaznic sie z cmuchem lub skshackiem, a oni moga poprosic cie o wyplate demonow.'
+[/STORY]
+[OUT]Zgoda.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Mamy kilku intruzow. Rozbili oboz nie za daleko, a my zyczymy im, zeby odeszli.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+„Zgoda, na razie mozesz wejsc.'
+[/STORY]
+[OUT]Zapytajcie o mozliwosc handlu.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Wyjdz!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+cmuch interesuje sie toba i dolaczy do ciebie, jesli dasz mu troche swojego ducha.
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]60
+[STORY]
+Skshack jest zainteresowany dolaczeniem do ciebie: 
+
+'Dajesz mi shinies, a ja bede twoim kumplem, co?
+[/STORY]
+[OUT]Zgadzam sie. Daj dwa klejnoty.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]61
+[STORY]
+Niestety, zaden demon nie chce teraz dolaczyc do twoich szeregow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]64
+[STORY]
+„Rozumiem. W takim przypadku pomoge ci, a ty wykonasz prace. Usiadz, odpocznij, medytuj, stan sie jednym z lasem i sluchaj jego madrosci.'
+
+Czujesz, ze ciemna energia powoli odplywa. 
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]67
+[STORY]
+„Albo nie mamy dla Was zadnej pracy, albo Wy lub twoi krewniacy juz jestescie na dobrej drodze, aby nam pomoc. Zakonczcie te sciezke, zanim poprosicie o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]68
+[STORY]
+Jeden z elfow kiwa glowa i pokazuje ci miejsce do siedzenia. 
+
+„Twoja dusza jest skazona i potrzebuje oczyszczenia. Klatwy przeciazaja swiatlo naszych dusz; w ten sposob cena bedzie wysoka i obciazy twoje umysly. Uzdrowienie twoich duchowych ran jest dla mnie latwiejsze, wiec nie bede prosic o wiele w zamian.'
+[/STORY]
+[OUT][Elf] Delikatnie przechyl glowe.
+[OUT][Magiczni uzytkownicy] Powiedz, ze znasz troche oczyszczania, ale potrzebujesz ich pomocy, aby zrobic to poprawnie.
+[OUT]Zgodz sie zaplacic cene za usuniecie klatwy. [20 szlachetnych klejnotow]
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT]Powiedz, ze nie masz platnosci.
+[/NODE]
+
++[NODE]70
+[STORY]
+„Mozesz, ale badz ostrozny, bo ci, ktorzy nie chodza po sciezce elfow, moga nie uwazac ich za przyjaznych.'
+[/STORY]
+[OUT][Natura] Wezwij nature, by uhonorowala starozytny dab.
+[OUT][Harmony] Popros o harmonie, aby uspokoic starozytne drzewo i okazuj szacunek.
+[OUT][Swiatlo] Wzywajcie mocy slonca, aby swiecic na drzewie.
+[OUT][Intelekt] Pozostan w cichej kontemplacji, aby okazac swoj szacunek i zrozumienie starozytnych sposobow.
+[OUT][Magia] Wzywaj splotow magii, aby swietowac ten symbol mocy mistycznej.
+[OUT][Zamieszanie] Staraj sie zachowac spokoj i opanuj pod ciezkim spojrzeniem starozytnego drzewa. 
+[OUT]Zachowaj dystans i podziwiaj miejsce z daleka, zanim przejdziesz dalej.
+[/NODE]
+
++[NODE]87
+[STORY]
+Kiedy wchodzisz w osade elfow, zdajesz sobie sprawe, ze to sie zmienilo. Drzewa sa skrecone i pokryte ciemnym mchem, a cienie czaja sie w kazdym rogu. 
+
+To jest teraz miasto cienia, a jego skorumpowani mieszkancy nie wydaja sie chetni do rozmowy z toba.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Zapytaj ich, co sie stalo.
+[/NODE]
+
++[NODE]88
+[STORY]
+Cienie szepcza: 
+
+'Ty to zrobiles. Jestesmy teraz przekleci. Wielu spotkalo prawdziwa smierc. . . inni przetrwaja w tej zepsutej formie. Zostaw nas.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKillsmallBees(6)
++[NODE]2
+[STORY]
+Zblizasz sie do ula, o ktory poprosily cie elfy. Jest wyraznie poruszony.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Druid lub natura] Nie ma potrzeby przemocy. Idz powoli i zobacz, co tu jest nie tak.
+[OUT][Forest folk] Porozmawiaj z pszczolami, aby dowiedziec sie, co jest nie tak.
+[OUT]Zbadajcie.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]12
+[STORY]
+Jestes bardzo pobity. Elfy musza przyjsc ci z pomoca i nie sa pod wrazeniem twoich brutalnych sposobow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pszczoly glosno brzecza, sluchajac twoich slow. 
+
+Mowia ci, ze w ich ulu tkwi niedzwiedz, ktory go niszczy. Blagaja cie, zebys zabil bestie. 
+
+Dostrzegasz teraz niedzwiedzia, ktory rzeczywiscie utknal, wiec latwo go zabic. 
+
+[/STORY]
+[OUT]Zgadzam sie. Zabij niedzwiedzia.
+[OUT]Poszukaj innej opcji.
+[/NODE]
+
++[NODE]20
+[STORY]
+Zabijasz niedzwiedzia, a pszczoly sa wdzieczne. 
+
+Elfy wydaja sie jednak zasmucone: 
+
+- Czy naprawde nie bylo sposobu, aby uniknac bezsensownej smierci? Mimo to zrobiles to, o co prosilismy. Przypuszczam, ze nie mozemy wymagac wiecej od twojego rodzaju.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Pszczoly brzecza ze zlosci i odwracaja sie.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Bedziesz ukaszony, wiec uciekaj.
+[/NODE]
+
++[NODE]48
+[STORY]
+Pomogles uwolnic niedzwiedzia, a pszczoly sa zadowolone iw koncu sie uspokoja. 
+
+Elfy sa pod wrazeniem twoich wysilkow: 
+
+„Przyznaje, ze nie sadzilem, ze twoj gatunek wklada tak wiele wysilku w ratowanie zycia bestii. Tutaj, wez to z moim podziekowaniem.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Atakujesz roj i zabijasz pszczoly, a takze odkrywasz niedzwiedzia uwiezionego wewnatrz ula. Udaje ci sie go tez zabic, zanim bedzie mogl cie zaatakowac. 
+
+Elfy sa przerazone twoja brutalna natura. Placa ci zgodnie z ustaleniami, ale tracisz wiele ze swojego szacunku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Mozesz sprobowac uwolnic niedzwiedzia bez zniszczenia zbyt duzej czesci ula, ale prawdopodobnie doznasz obrazen zarowno w panice, jak i rannym niedzwiedziu. 
+[/STORY]
+[OUT]Zabij niedzwiedzia.
+[OUT]Uwolnij niedzwiedzia, pomimo ryzyka. 
+[/NODE]
+
++[NODE]56
+[STORY]
+Zblizasz sie i dostrzegasz niedzwiedzia szalejacego w ulu. Zarowno pszczoly, jak i niedzwiedz wydaja sie rozgniewani, gdy niedzwiedz rzuca sie w ulu, niszczac go. 
+
+[/STORY]
+[OUT]Zabij niedzwiedzia.
+[OUT]Zabij pszczoly.
+[OUT]To prawdopodobnie nie bedzie bezpieczny plan, ale sprobuj zwabic niedzwiedzia z dala od pszczol.
+[/NODE]
+
++[NODE]60
+[STORY]
+Pszczoly cie zadla, a niedzwiedz bije, a ty musisz biec milami, zeby je stracic. 
+[/STORY]
+[OUT]Dobrze, zglos sie do elfow.
+[/NODE]
+
++[NODE]61
+[STORY]
+Starsi ludzie sa pod wrazeniem twoich wysilkow: 
+
+„Przyznaje, ze nie sadzilem, ze twoj gatunek wklada tak wiele wysilku w ratowanie zycia bestii. Tutaj, wez to z moim podziekowaniem.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]63
+[STORY]
+Jestes bardzo pobity. Elfy musza przyjsc ci z pomoca i nie jestes pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodkinVillageMed(7)
++[NODE]2
+[STORY]
+„Witaj, co sprowadza cie do naszej przystani?'
+
+Niektore zajecia w wiosce beda dostepne tylko wtedy, gdy przyjaznisz sie z jej ludzmi, a niektore sa ograniczone do szansy, wiec powrot od czasu do czasu moze byc wart.
+[/STORY]
+[OUT]Zapytajcie, czy mozecie w czyms pomoc.
+[OUT]Powiedzcie, ze przybyliscie tylko w odwiedziny i odpoczac, byc moze tez uleczyc rany.
+[OUT]Zapytaj, czy mozesz sprobowac zaprzyjaznic sie z niektorymi demonami, ktore tutaj zamieszkuja.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Zapytaj, czy mozesz odwiedzic swiete drzewo debowe, aby je uczcic.
+[OUT]Zapytaj, czy beda szkolic twoje zwierzeta?
+[OUT]Zapytaj, czy ktorys z ludzi chcialby dolaczyc do twojej sciezki?
+[OUT]Do ataku!
+[OUT]Zapytaj, czy ktorys z ludzi chcialby dolaczyc do twojej sciezki?
+[OUT]Widzicie znajoma twarz, podejdzcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Ze wzgledu na twoje dobre samopoczucie prosimy cie, abys sie poruszal, poniewaz nie jestes przyjacielem starszego ludu.'
+
+Nie widzisz nikogo, ale czujesz sie obserwowany. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, ze nie myslisz o nich nic zlego - wszystko, co chcesz, to porozmawiac i odwiedzic.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a lupy sa Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Ciemna magia zawsze tkwi w ciemnych zakatkach naszego lasu. Wyczuwamy czajaca sie w poblizu nekromancje. Szukaj go i pozbadz sie go.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Zazwyczaj nie lubimy nieznajomych szturchajacych nasza ziemie. Jako przyjaciele otrzymasz wyjatek. 
+
+Elfickie ruiny leza niedaleko stad. Jesli szukasz oswiecenia, odszukaj je, ale prosze, zachowaj szacunek dla naszych przodkow.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Resztki mrocznej klatwy kiedykolwiek tkwia w naszych lasach, tak wiele lesnych demonow, a nawet zwierzat zachowuje sie dziwnie, delikatnie mowiac. 
+
+Jedno takie miejsce lezy w poblizu. Szukaj tego, co dolega naszemu lasowi i naprawiaj.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Chcesz zaoferowac swoje uslugi. To jest dopuszczalne.'
+[/STORY]
+[OUT]Zapytaj, czy maja jakies problemy.
+[OUT]Masz duzo dobrych metali. Zapytaj, czy czegos potrzebuja.
+[OUT]Masz troche kamieni szlachetnych. Zapytaj, czy czegos potrzebuja.
+[OUT]Na razie nie ma tu nic do roboty. Wroccie nastepnego dnia.
+[OUT]Zapytaj, czy sa tu jakies interesujace miejsca.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Mamy problem z banda orkowych orkow w poblizu. Niszcza las i rowniez nas niepokoja. Wydaja sie niezdolni do sluchania rozumu, ale byc moze beda cie sluchac.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]49
+[STORY]
+„Zgoda, na razie mozesz wejsc.'
+[/STORY]
+[OUT]Zapytajcie o mozliwosc handlu.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[/NODE]
+
++[NODE]51
+[STORY]
+„Resztki mrocznej klatwy kiedykolwiek tkwia w naszych lasach, tak wiele lesnych demonow, a nawet zwierzat zachowuje sie dziwnie, delikatnie mowiac. 
+
+W jednej czesci naszego cennego lasu panuje niepokoj. Jesli chcesz, idz, poszukaj rozwiazania.'
+
+[/STORY]
+[OUT]Zgoda.
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Wyjdz, teraz!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+„Zazwyczaj nie lubimy nieznajomych szturchajacych nasza ziemie. Jako przyjaciele otrzymasz wyjatek. 
+
+Swiete drzewo lezy w poblizu. Jesli zostaniesz uznany za godnego, mozesz znalezc tam oswiecenie. Uwazaj jednak, nie gwarantujemy pokrewienstwa naszych krewnych z twoja wizyta.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]60
+[STORY]
+„Niezyjaca plaga niszczy nasza ziemie. Oczysc to dla nas, a nasza przyjazn rozkwitnie.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]65
+[STORY]
+Elf patrzy na ciebie przez jakis czas i zastanawiasz sie, czy poszli w medytacje. 
+
+'Widze. Droga twojego panteonu jest naprawde interesujaca. Przyjmujemy Twoje prezenty z wdziecznoscia. Tutaj jest to skrzynia nieznanego pochodzenia, ktora niedawno znalazlem - jest twoja.'
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]66
+[STORY]
+„Albo nie mamy dla Was zadnej pracy, albo Wy lub twoi krewniacy juz jestescie na dobrej drodze, aby nam pomoc. Zakonczcie te sciezke, zanim poprosicie o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]67
+[STORY]
+„Nie handlujemy demonami jako zwierzetami domowymi, ale pozwolimy ci sprobowac zaprzyjaznic sie z cmuchem lub skshackiem, a oni moga poprosic cie o wyplate demonow.'
+[/STORY]
+[OUT]Zgadzam sie. Daj dwa klejnoty.
+[/NODE]
+
++[NODE]69
+[STORY]
+Skshack jest zainteresowany dolaczeniem do ciebie: 
+
+'Dajesz mi shinies, a ja bede twoim kumplem, co?
+[/STORY]
+[OUT]Zgadzam sie. Daj dwa klejnoty.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]70
+[STORY]
+cmuch interesuje sie toba i dolaczy do ciebie, jesli dasz mu troche swojego ducha.
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]71
+[STORY]
+Niestety, zaden demon nie chce teraz dolaczyc do twoich szeregow.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]79
+[STORY]
+„Tak, zawsze byl to nasz sposob na pomoc zmeczonym. Wchodzic.
+
+Mozesz szukac naszych uzdrowicieli, a moze odmlodzic umysl i ducha, jesli los da ci szanse.'
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc fizyczne rany. 
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Elfia gawedziarz rozpoczyna kolorowa ballade ciemnej nocy. Usiadz, posluchaj i naucz sie.
+[OUT]Wroccie nastepnego dnia.
+[OUT]Zapytaj, czy ich magowie sa gotowi przywrocic twojego ducha.
+[OUT]Zapytaj, czy ich magowie sa gotowi przywrocic twojego ducha.
+[/NODE]
+
++[NODE]82
+[STORY]
+Jeden z elfow kiwa glowa i pokazuje ci miejsce do siedzenia. 
+
+„Twoja dusza jest skazona i potrzebuje oczyszczenia. Klatwy przeciazaja swiatlo naszych dusz; w ten sposob cena bedzie wysoka i obciazy twoje umysly. Uzdrowienie twoich duchowych ran jest dla mnie latwiejsze, wiec nie bede prosic o wiele w zamian.'
+[/STORY]
+[OUT][Elf] Delikatnie przechyl glowe.
+[OUT][Magiczni uzytkownicy] Powiedz, ze znasz troche oczyszczania, ale potrzebujesz ich pomocy, aby zrobic to poprawnie.
+[OUT]Zgodz sie zaplacic cene za usuniecie klatwy. [20 szlachetnych klejnotow]
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT]Powiedz, ze nie masz platnosci.
+[/NODE]
+
++[NODE]83
+[STORY]
+Uzdrowiciel ducha usmiecha sie. - Ach, przepraszam, poczulem dotyk mlodych bogow i nie spodziewalem sie starszego dziecka. 
+
+Usiadz, odpocznij i medytuj, a twoja dusza zostanie oczyszczona. Oczywiscie twoi krewni beda musieli zaplacic.'
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[OUT][Magiczni uzytkownicy] Powiedz, ze znasz niektore oczyszczenie klatw, ale potrzebujesz ich pomocy, aby zrobic to poprawnie.
+[OUT]Zgodzcie sie zaplacic cene za usuniecie klatwy.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]84
+[STORY]
+„Rozumiem. W takim przypadku pomoge ci, a ty wykonasz prace. Usiadz, odpocznij, medytuj, stan sie jednym z lasem i sluchaj jego madrosci.'
+
+Czujesz, ze ciemna energia powoli odplywa. 
+
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]85
+[STORY]
+Jeden z elfow kiwa glowa i pokazuje ci miejsce do siedzenia. 
+
+„Twoja dusza jest skazona i potrzebuje oczyszczenia. Klatwy przeciazaja swiatlo naszych dusz; w ten sposob cena bedzie wysoka i obciazy twoje umysly. Uzdrowienie twoich duchowych ran jest dla mnie latwiejsze, wiec nie bede prosic o wiele w zamian.'
+[/STORY]
+[OUT][Elf] Delikatnie przechyl glowe.
+[OUT][Magiczni uzytkownicy] Powiedz, ze znasz troche oczyszczania, ale potrzebujesz ich pomocy, aby zrobic to poprawnie.
+[OUT]Zgodz sie zaplacic cene za usuniecie klatwy. [20 szlachetnych klejnotow]
+[OUT]Proscie o uzdrowienie ran duchowych.
+[OUT]Powiedz, ze nie masz platnosci i wyjdz.
+[/NODE]
+
++[NODE]87
+[STORY]
+„Mozesz, ale badz ostrozny, bo ci, ktorzy nie chodza po sciezce elfow, moga nie uwazac ich za przyjaznych.'
+[/STORY]
+[OUT][Natura] Wezwij nature, by uhonorowala starozytny dab.
+[OUT][Harmony] Popros o harmonie, aby uspokoic starozytne drzewo i okazuj szacunek.
+[OUT][Swiatlo] Wzywajcie mocy slonca, aby swiecic na drzewie.
+[OUT][Intelekt] Pozostan w cichej kontemplacji, aby okazac swoj szacunek i zrozumienie starozytnych sposobow.
+[OUT][Magia] Wzywaj splotow magii, aby swietowac ten symbol mocy mistycznej.
+[OUT][Zamieszanie] Staraj sie zachowac spokoj i opanuj pod ciezkim spojrzeniem starozytnego drzewa. 
+[OUT]Zachowaj dystans i podziwiaj miejsce z daleka, zanim przejdziesz dalej.
+[/NODE]
+
++[NODE]105
+[STORY]
+Kiedy wchodzisz w osade elfow, zdajesz sobie sprawe, ze to sie zmienilo. Drzewa sa skrecone i pokryte ciemnym mchem, a cienie czaja sie w kazdym rogu. 
+
+To jest teraz miasto cienia, a jego skorumpowani mieszkancy nie wydaja sie chetni do rozmowy z toba.
+[/STORY]
+[OUT]Zapytaj ich, co sie stalo.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]106
+[STORY]
+Cienie szepcza: 
+
+'Ty to zrobiles. Jestesmy teraz przekleci. Wielu spotkalo prawdziwa smierc. . . inni przetrwaja w tej zepsutej formie. Zostaw nas.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKillVily(8)
++[NODE]2
+[STORY]
+Podchodzisz do miejsca, w ktorym paczka niesfornego vily, o ktora cie proszono, mowi sie, ze wedruje.
+[/STORY]
+[OUT]Wiesz, jak sobie radzic z vily. Sprobuj to rozgryzc.
+[OUT][Hunter] Przesledz ich przez jakis czas i obserwuj ich.
+[OUT]Poprzez nature lub intelekt uzyj swojej zdolnosci umyslowej, aby dowiedziec sie, co robic. 
+[OUT][Leshy] Zdominuj vily i wolaj o posluszenstwo!
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zblizasz sie i obserwujesz. Vily wiruja wokol jednego mlodego drzewka. Wydaja sie szaleni, klapia i sycza na drzewie. 
+[/STORY]
+[OUT][Vily i viatroviec] Dolacz do ich chaotycznego lotu i sprobuj dowiedziec sie, co dzieje sie od wewnatrz. 
+[OUT][Vily i viatroviec] Dolacz do ich chaotycznego lotu i sprobuj dowiedziec sie, co dzieje sie od wewnatrz. 
+[OUT]Porozmawiaj z vily. Wezwij ich obowiazek wobec lasu!
+[OUT][Leshy] Zdominuj vily i wolaj o posluszenstwo!
+[OUT]Ustaw pulapke na paczke i atakuj, gdy sa oslabione.
+[OUT][Magiczny uzytkownik] Te vily wydaja sie byc przejete przez jakas mroczna klatwe. Sprobuj przelamac go, aby je uwolnic!
+[OUT][Leshy] Wyczuwasz, ze ci cwaniacy trzymaja sie jakiejs dziwnej sily. Uzyj swojego lesnego glosu, aby wzywac posluszenstwa!
+[/NODE]
+
++[NODE]4
+[STORY]
+Przesledzisz vily i obserwujesz wzor, ktory mozesz sledzic. Ale twoja obserwacja ulatwilaby ich zabijanie po kolei, po cichu. 
+
+[/STORY]
+[OUT]Postepuj zgodnie ze wzorem.
+[OUT]Zabij ich.
+[/NODE]
+
++[NODE]7
+[STORY]
+Zdajesz sobie sprawe, ze vily sa opetane przez jakies dziwne zaklecie, ale twoja obecnosc wyrywa ich z transu i staja sie znowu soba. 
+
+Wiatr sie uspokaja, a demony wracaja do swoich obowiazkow. Elfy sa bardzo wdzieczne za pomoc i pokojowe rozwiazanie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Niektore z vily walcza i rania cie. 
+
+[/STORY]
+[OUT]Odloz je.
+[/NODE]
+
++[NODE]17
+[STORY]
+Dowiedziales sie, ze vily sa w transie i przez pewien czas obserwujesz wzor ich lotu. 
+
+To prowadzi do malego drewnianego bozka, pochowanego w poblizu. Niszczysz go i vily zostaja uwolnione. Odlatuja ze wstydem, ale elfy sa bardzo wdzieczne za sprytne rozwiazanie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Zabijasz vily. Elfy sa zszokowane twoja brutalnoscia i kaza ci nie udzielac pomocy w przyszlosci, jesli zabijasz lesnych krewnych. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Wsciekle cie pobili, a elfy musza przyjsc i cie uratowac. Nie sa zadowoleni z twoich brutalnych sposobow, wiec nie zyskujesz z nimi zadnych lask.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie przekonujesz. Vily kontynuuja swoje dziwne zachowanie.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT][Magiczny uzytkownik] Te vily wydaja sie byc przejete przez jakas mroczna klatwe. Sprobuj przelamac go, aby je uwolnic.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje knowania sie nie udaja, a ty jestes atakowany przez vily. 
+
+Elfy slysza twoje krzyki i przychodza z pomoca. Musza sami zabic vily i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Vily zatrzymuja sie i patrza na ciebie, zszokowani wlasnym zachowaniem: 
+'Zaklecie, paskudne zaklecie zabralo nas, kazalo nam to zabic tutaj ... coz, w naszym oszolomieniu myslelismy, ze to diabel ciemnosci. Twoje slowa przywrocily nas i mozemy teraz walczyc z klatwa. Dziekuje Ci!'
+
+Vily odlatuja, a elfy sa wdzieczne za twoja pomoc. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Elfy ciesza sie, ze nie uciekles sie do przemocy po twojej porazce. Chociaz musza sobie radzic z samym soba, wciaz zyskujesz przyjazn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Zdajesz sobie sprawe, ze vily sa opetane przez jakies dziwne zaklecie i przez pewien czas rowniez cie to zabiera. Niszczysz lasy ze swoimi siostrami, zabijajac mlode sadzonki, ktore pewnego dnia moglyby wyrosnac na lesbijek. 
+
+Elfy musza wkroczyc i cie zatrzymac, a twoja pomoc nie robi na nich wrazenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Vily slyszy twoj placz lasu i zatrzymuje sie w ich sladzie. Cokolwiek doprowadzilo ich do tego szalenstwa, klaniaja sie woli z przeprosinami. Obiecuja naprawic wszelkie szkody. 
+
+Vily odlatuja, ale zostawiaja cie z prezentem, a elfy sa wdzieczne za twoja pomoc. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Vily zatrzymuja sie i patrza na ciebie, zszokowani wlasnym zachowaniem: 
+'Zaklecie, paskudne zaklecie zabralo nas, kazalo nam to zabic tutaj ... coz, w naszym oszolomieniu myslelismy, ze diabel ciemnosci. Twoje slowa przywrocily nas i mozemy teraz walczyc z klatwa. Dziekuje Ci!'
+
+Vily odlatuja, ale zostawiaja cie z prezentem, a elfy sa wdzieczne za twoja pomoc. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]55
+[STORY]
+Zabijasz vily. Elfy sa zszokowane twoja brutalnoscia i kaza ci nie udzielac pomocy w przyszlosci, jesli zabijasz lesnych krewnych. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKillBears(9)
++[NODE]2
+[STORY]
+Podchodzisz do obszaru, na ktorym mowi sie, ze paczka niedzwiedzi, z ktora zostales poproszony, porusza sie.
+[/STORY]
+[OUT]Wiesz, jak obchodzic sie z niedzwiedziami. Sprobuj to rozgryzc.
+[OUT][Hunter] Sledz niedzwiedzie.
+[OUT][Intelekt] Uzyj swojej zdolnosci umyslowej, aby dowiedziec sie, co robic. 
+[OUT][Niedzwiedz] Zdominuj niedzwiedzie.
+[OUT]Znajdz je i zaatakuj!
+[OUT]Uzyj jedzenia, aby zwabic te zwierzeta z terytorium i miec nadzieje, ze nie wroca.
+[OUT][Ork] Czas na zapasy!
+[OUT][Ork] Czas na zapasy!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zblizasz sie i obserwujesz. Kilka niedzwiedzi nerwowo krazy po jaskini. Myslisz, ze moga byc wsciekli, sadzac po zlym stanie ich futra i tym, ze pienia sie w ustach.
+[/STORY]
+[OUT][Zwierzecy krewny] Sprobuj ocenic, czy ktores z niedzwiedzi nadal moze byc wspomagane, nawet jesli oznacza to narazenie wlasnego zdrowia.
+[OUT][Natura lub harmonia] Szukaj boskiego wgladu, aby dowiedziec sie, czy ktoregos z niedzwiedzi nadal mozna pomoc, nawet jesli oznacza to narazenie wlasnego zdrowia.
+[OUT][Hunter] Sledz niedzwiedzie.
+[OUT][Lowca] Ustaw pulapki i szybko zabij wsciekle niedzwiedzie. Jest to najbezpieczniejszy sposob na powstrzymanie rozprzestrzeniania sie choroby.
+[OUT]Zabij niedzwiedzie. To najbezpieczniejszy sposob na zatrzymanie choroby.
+[/NODE]
+
++[NODE]4
+[STORY]
+Przesledzisz niedzwiedzie i widzisz, ze niektorzy juz umieraja z powodu wscieklizny. To wydaje sie byc agresywnym napieciem. Odkrywasz rowniez, ze wejscie do jaskini, w ktorym sie znajduja, jest niestabilne, wiec mozesz ich uwiezic, choc bedzie to powolna smierc. 
+
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT][Lowca] Ustaw pulapki i szybko zabij wsciekle niedzwiedzie. Jest to najbezpieczniejszy sposob na powstrzymanie rozprzestrzeniania sie choroby.
+[/NODE]
+
++[NODE]7
+[STORY]
+Walczysz z niedzwiedziem alfa i lamiesz go golymi rekami. Inni podporzadkowuja sie twojej dominacji i uciekaja. Zdajesz sobie sprawe, ze pozniej byli wsciekli, ale na szczescie nie zostales zainfekowany. 
+
+Elfy ciesza sie, ze oczysciles jaskinie, ale mniej pod wrazeniem twojej brutalnej sily i faktu, ze wscieklizna bedzie sie teraz rozprzestrzeniac. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Wejscie bylo wieksze niz sie spodziewales, a ty zostales uderzony przez kilka skal. 
+
+[/STORY]
+[OUT]Odejdz.
+[/NODE]
+
++[NODE]18
+[STORY]
+Lapiesz niedzwiedzie i bezpiecznie sie ich pozbywasz. 
+
+Elfy rozumieja potrzebe zabijania wscieklych zwierzat, ale nie lubia twoich okrutnych metod. Twoja przyjazn rosnie tylko nieznacznie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Oddajesz jedzenie i doprowadzasz zwierzeta do innego miejsca. 
+
+Jednak sa to wsciekle zwierzeta. W koncu nie tylko wracaja, ale elfy nie sa pod wrazeniem tego, jak pozwoliles, by choroba rozprzestrzenila sie w ich lesie. 
+
+Twoja przyjazn cierpi za to.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz wsciekle niedzwiedzie, a elfy dziekuja za ochrone lasu przed ta niebezpieczna choroba, chociaz sa zasmuceni, ze nikt nie moze zostac uratowany. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Niedzwiedzie cie boli, a niektorzy z was choruja.  Elfy musza przyjsc ci z pomoca i poradzic sobie z problemem. 
+
+Choroba rozprzestrzenia sie za daleko i nie jestes w stanie oddzielic chorych niedzwiedzi od zdrowych. Jestes ugryziony i zarazasz sie.
+[/STORY]
+[OUT]Poddajcie sie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Choroba rozprzestrzenia sie za daleko i nie jestes w stanie oddzielic chorych niedzwiedzi od zdrowych. Jestes ugryziony i zarazasz sie.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Uzyj jedzenia, aby zwabic te zwierzeta z terytorium i miec nadzieje, ze nie wroca.
+[OUT][Lowca] Ustaw pulapki i szybko zabij wsciekle niedzwiedzie. Jest to najbezpieczniejszy sposob na powstrzymanie rozprzestrzeniania sie choroby.
+[OUT]Zabij niedzwiedzie. To najbezpieczniejszy sposob na zatrzymanie choroby.
+[/NODE]
+
++[NODE]34
+[STORY]
+Dowiesz sie, ktore niedzwiedzie sa wystarczajaco silne, aby zwalczyc chorobe, iz pomoca elfow oddzielasz je od tych, ktore trzeba odlozyc. 
+
+Niektorzy z was zachoruja lub doznaja ran, ale elfy sa pod wrazeniem waszych wysilkow. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Probujesz zmagac sie z niedzwiedziem, ale wszyscy sa wsciekli. Odkladasz jedna, ale reszta roi sie od ciebie, a elfy musza przyjsc ci z pomoca. 
+
+Nie sa pod wrazeniem twojej pomocy.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Niektore niedzwiedzie sa wsciekle i nieosiagalne, ale niektorzy sluchaja twojego powolania. Nie tylko zgadzaja sie na odejscie, ale zabijaja swoich wscieklych braci. 
+
+W legowisku znajdziesz martwych dzikow [R34], ale takze kilka, ktore moga jeszcze zyc. Elfy sa zadowolone z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]53
+[STORY]
+Obserwujesz niedzwiedzie i widzisz, ze niektore juz umieraja z powodu wscieklizny. To wydaje sie byc agresywnym napieciem. Odkrywasz rowniez, ze wejscie do jaskini, w ktorym sie znajduja, jest niestabilne, wiec mozesz ich uwiezic, choc bedzie to powolna smierc. 
+
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT][Lowca] Ustaw pulapki i szybko zabij wsciekle niedzwiedzie. Jest to najbezpieczniejszy sposob na powstrzymanie rozprzestrzeniania sie choroby.
+[OUT]Zabij niedzwiedzie. To najbezpieczniejszy sposob na zatrzymanie choroby.
+[OUT]Zglos sie do elfow. Wydaje sie to wiekszym problemem dla nich.
+[/NODE]
+
++[NODE]54
+[STORY]
+Elfy nie sa zadowolone, ze przekazujesz prace, ale sa pod wrazeniem, ze nie uciekles sie do brutalnej sily. Po tym, jak uda im sie uratowac niektore niedzwiedzie, dziekuje ci, ze zwrociliscie na nie uwage i nagrodzili.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKilladvSkel(10)
++[NODE]2
+[STORY]
+Znajdziesz kryjowke szkieletow, ktore elfy chcialy ci oczyscic. 
+[/STORY]
+[OUT]Do ataku!
+[OUT][Madrosc i lowca] Uloz kilka pulapek ognia i spal te niezyjace istoty do zuzli.
+[OUT][Magiczny uzytkownik] Wiesz, jak sobie poradzic z niezyjaca plaga. Przygotuj rytual.
+[OUT][Unliving only] Nie trzeba zabijac. Powiedz swoim niezyjacym braciom, aby porzucili te lasy.
+[OUT][Natura] Twoim smutnym obowiazkiem jest zniszczenie takich skaz. Atak!
+[OUT]Zbadaj to gniazdo szczurow.
+[OUT][Szkielet] Idz sam i przekonaj swoich krewnych, by odeszli.
+[OUT][Szkielet] Idz sam i przekonaj swoich krewnych, by odeszli.
+[OUT][Szkielet] Idz sam i przekonaj swoich krewnych, by odeszli.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Przygotowujesz rytual, ktory oslabia szkielety i wiaze je w granicach. Sprawi to, ze zabijanie ich bedzie znacznie latwiejsze, albo mozesz stawic im czola w krolestwie duchow i zniszczyc czarna magie, ktora je animuje. 
+
+[/STORY]
+[OUT]Zabij tych, ktorzy pozostawili staromodny sposob. Atak!
+[OUT]Zniszcz zrodlo.
+[OUT]To wyzwanie jest zbyt wielkie. Wroc innym razem.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wchodzisz do legowiska i obijasz sie. Mowisz o bogach i grozisz potega boskosci. 
+
+Twoi krewni sluchaja, a oni odsuwaja sie poslusznie, zostawiajac cie na lup. 
+[/STORY]
+[OUT]Dobrze, zbierz co mozesz.
+[/NODE]
+
++[NODE]10
+[STORY]
+Wchodzisz i rozmawiasz z nieozywionymi, ale oni nie budza sie jak ty. Podazaja za mroczna sciezka jakiegos mistrza i agresywnie zblizaja sie do ciebie.
+[/STORY]
+[OUT]Sprobuj odejsc spokojnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wchodzisz do legowiska i obijasz sie. Mowisz o bogach i grozisz potega boskosci. 
+
+Twoi bracia blagaja cie, abys przyszedl z nimi, aby odprowadzil ich z ciemnosci na lepsza sciezke. Ale nie sa gotowi dolaczyc do innych. Potrzebuja cie, zebys z nimi odszedl.
+[/STORY]
+[OUT]Zgadzam sie wziac na siebie odpowiedzialnosc. [Stracil niezyjacego]
+[OUT]Nie pozwol swojemu przyjacielowi odejsc! 
+[/NODE]
+
++[NODE]18
+[STORY]
+Ustawiasz pulapki, a szkielety pala sie na popiol. Znajdziesz tu takze resztki wozu konnego i martwych ludzi, ktorzy zostali zaatakowani przez szkielety. 
+
+Elfy dziekuje za pozbycie sie plagi i pozostawienie nagrody.
+[/STORY]
+[OUT]Zauwazasz, ze jeden z koni zyje i patrzy na ciebie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Przynajmniej jeden z koni jest na tyle dobry, ze moze przyjechac z toba.
+[/STORY]
+[OUT]Wez konia i wyjdz.
+[/NODE]
+
++[NODE]25
+[STORY]
+Odkrywasz pozostalosci rytualu i odczuwasz niespokojna energie w powietrzu, czyniac cie chorym. 
+
+Znajdziesz tu takze widmo, prawdopodobnie produkt wszelkich ciemnych sztuk, ktore zostaly tu wykonane. Wydaje sie, ze chce zostac z toba.
+[/STORY]
+[OUT]Wez upior.
+[OUT]Zabij widmo. To wyraznie narzedzie tego zla!
+[/NODE]
+
++[NODE]27
+[STORY]
+Ustawiasz pulapke, a dziwny taniec szkieletow prowadzi ich wprost do tego. Leza zniszczone, a cialo starej kobiety lezy z nimi. 
+
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]28
+[STORY]
+Szkielety pokonuja twoje wysilki i roi sie od ciebie. Elfy musza przyjsc ci z pomoca i nie jestes pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Jestes zrozpaczony decyzja, ale sluchasz swoich przyjaciol i zegnasz sie ze szkieletami. 
+
+Wyjezdzaja, ale niektorzy juz narzekaja, ze stary sposob jest lepszy i ze powinni znalezc jakies ludzkie mieso do jedzenia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]49
+[STORY]
+Szkielety sluchaja cie i oddalaja sie od lasu. Harmonia jest zadowolona z twoich dzialan. Znajdziesz tu takze resztki wozu konnego i martwych ludzi, ktorzy zostali zaatakowani przez szkielety. 
+
+Elfy nie maja pewnosci, czy nienaturalna plaga nie zostanie uwolniona, ale honoruja twoja umowe i pozostawiaja platnosc.
+[/STORY]
+[OUT]Zauwazasz, ze jeden z koni zyje i patrzy na ciebie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Szkielety sluchaja cie i oddalaja sie od lasu. Znajdziesz tu takze resztki wozu konnego i martwych ludzi, ktorzy zostali zaatakowani przez szkielety. 
+
+Elfy nie maja pewnosci, czy nienaturalna plaga nie zostanie uwolniona, ale honoruja twoja umowe i pozostawiaja platnosc.
+[/STORY]
+[OUT]Zauwazasz, ze jeden z koni zyje i patrzy na ciebie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Podchodzisz blizej i zdajesz sobie sprawe, ze szkielety robia cos dziwnego. Sa zebrani w kolko i wydaja sie ... tanczyc? W srodku jest zywa osoba, ktora kieruje tym dziwnym spektaklem.
+[/STORY]
+[OUT][Lowca] Wykorzystaj te okazje, aby odwrocic uwage, uwiezic szkielety w ich legowisku i spalic je wszystkie.
+[OUT][Magiczny uzytkownik] Podejdz do tej dziwnej menazerii i sprobuj wyczuc, jaka magia tu dziala.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]53
+[STORY]
+Elfy nie maja pewnosci, czy nienaturalna plaga nie zostanie uwolniona, ale honoruja twoja transakcje i pozostawiaja platnosc. 
+
+Znajdziesz tu takze resztki wozu konnego i martwych ludzi, ktorzy zostali zaatakowani przez szkielety.
+[/STORY]
+[OUT]Zauwazasz, ze jeden z koni zyje i patrzy na ciebie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Niewidzialnosc pobila cie i zmusila do ucieczki. Elfy musza przyjsc ci z pomoca i nie jestes pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Elfy dziekuje za pozbycie sie plagi i pozostawienie nagrody.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]61
+[STORY]
+Szkielety sa zniszczone, a cialo starej kobiety lezy z nimi. 
+
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]62
+[STORY]
+Ani czarownica w srodku, ani szkielety nie reaguja na ciebie. Cokolwiek to jest, sa calkowicie zafascynowani. 
+
+Czujesz tutaj silna magie zamieszania i myslisz, ze cokolwiek to jest rytual, ostatecznie zniszczy ich wszystkich - ale mozesz sie mylic.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zostawcie ich.
+[/NODE]
+
++[NODE]64
+[STORY]
+Niszczysz zaklecie wiazace i nieozywione zawalenie w stosie kosci. Znajdziesz tu takze resztki wozu konnego i martwych ludzi, ktorzy zostali zaatakowani przez szkielety. 
+
+Elfy dziekuje za pozbycie sie plagi i pozostawienie nagrody.
+[/STORY]
+[OUT]Zauwazasz, ze jeden z koni zyje i patrzy na ciebie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]68
+[STORY]
+Szkielety zostaja zniszczone. Znajdziesz tu takze resztki wozu konnego i martwych ludzi, ktorzy zostali zaatakowani przez szkielety. 
+
+Elfy dziekuje za pozbycie sie plagi i pozostawienie nagrody.
+[/STORY]
+[OUT]Zauwazasz, ze jeden z koni zyje i patrzy na ciebie. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]71
+[STORY]
+Trzymaj sie z powrotem i obserwuj, i rzeczywiscie, w ciagu kilku godzin dziwny taniec zaczyna pochlaniac szkielety w ziemie. Pani posrodku patrzy na ciebie, usmiecha sie i zamienia w brud. 
+
+Czujesz blogoslawienstwo ziemi na tobie.
+[/STORY]
+[OUT]Dobrze, zbierz z resztek, co mozesz, i odejdz.
+[/NODE]
+
++[NODE]72
+[STORY]
+Trzymaj sie z powrotem i obserwuj, i rzeczywiscie, w ciagu kilku godzin dziwny taniec zaczyna pochlaniac szkielety w ziemie. Pani posrodku patrzy na ciebie, usmiecha sie, a nastepnie pochlania energie pozostawiona przez niezyjacych i znika. 
+
+Czesc utrzymujacej sie energii wzmacnia cie, a upior utworzony z tego dziwnego rytualu przywiera do ciebie.
+[/STORY]
+[OUT]Dobrze, zbierz z resztek, co mozesz, i odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodlandKinTradesmall(11)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestesmy jeszcze zaprzyjaznieni; dlatego nie bedziemy oferowac dobrych warunkow, ale mozesz handlowac.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Niech natura was blogoslawi.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodlandKinTrademedium(12)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestesmy jeszcze zaprzyjaznieni; dlatego nie bedziemy oferowac dobrych warunkow, ale mozesz handlowac.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Niech natura was blogoslawi.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodlandKinTradeadv(13)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jestesmy jeszcze zaprzyjaznieni; dlatego nie bedziemy oferowac dobrych warunkow, ale mozesz handlowac.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Niech natura was blogoslawi.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WoodKilladvOrcs(14)
++[NODE]2
+[STORY]
+Znajdziesz miejsce, w ktorym zostales wyslany, aby poradzic sobie z niektorymi orkowymi bandytami, ktorzy niszcza las i atakuja mala osade.
+[/STORY]
+[OUT]Wiesz, jak sobie radzic z lotrzykami - ty tez sie tym zajmowales. Porozmawiaj z nimi. 
+[OUT][Orc Matriarch] Powiedz im, zeby wyszli, teraz!
+[OUT][Intelekt i harmonia] Przekonaj bandytow, ze madrzej jest odejsc niz stawic czola tobie - a pozniej takze stawic czola elfom.
+[OUT]Zaplac orkom, aby wyszli.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz do obozu bandytow i dostrzegasz kilku orkow. Wygladaja na szczuplych i zmeczonych, wiec moze byc miejsce na negocjacje, choc nigdy nie jest pewne, ze ci tak wypelnieni chaosem.
+[/STORY]
+[OUT][Ork] Przekonaj ich, ze zawracanie sobie glowy mala osada elfow nie jest godnym wyzwaniem. Opowiedz im o innych miejscach, w ktorych natknales sie na honor ich wojownika.
+[OUT][Ork] Przekonaj ich, ze zawracanie sobie glowy mala osada elfow nie jest godnym wyzwaniem. Opowiedz im o innych miejscach, w ktorych natknales sie na honor ich wojownika.
+[OUT][Bandyta] Handluj z nimi. Przekonaj ich, ze nie jest prawdziwym wyzwaniem pozostac z elfami bratek.
+[OUT]Bandyci sa za dobrami, wiec zaoferujcie im troche do opuszczenia.
+[OUT]Znasz ich taktyke, wiec walka bedzie latwiejsza. Atak.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Cholera, tak, ehm, jak mowisz, to jest wyraznie twoja darn. Czesc tobie, matko krwi!'
+[/STORY]
+[OUT]Obserwuj ich kazdy krok, gdy ida.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Uzgodnione. Twoj honor jest silny. Tego dnia nie bedziemy go kwestionowac.'
+
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Orki rozpraszaja sie, a nawet zostawiaja czesc swoich rzeczy za soba. 
+
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Bah, mowisz i rozmawiasz, podobnie jak spiczaste uszy, ktore przychodza tutaj krwawo, rozmawiajac z drzew, wystarczy! Opuszczamy!'
+
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, dobra, umowa to umowa, wyprowadzamy sie.'
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zamierzasz zglosic swoj sukces, kiedy zdasz sobie sprawe, ze orkowie udali sie do wioski w drodze na zewnatrz i ponownie zaatakowali. 
+
+W koncu zostali pobici przez elfy bez twojej pomocy, a twoja przyjazn ucierpiala z tego powodu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, ale elfy wydaja sie rozczarowane rozlewem krwi. 
+
+'Oni tylko podazali za swoja brutalna natura, wiec smierc byla byc moze nieunikniona, ale zasmuca nas, ze nie mozesz znalezc innej drogi. Mimo to zrobiles wszystko, co mozesz. ”
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie elfy radza sobie ze swoim problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Myslisz, ze mozesz szalec i powiedziec nam, co robic? Odpieprz sie!'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]34
+[STORY]
+„Zgoda. Twoj honor jest silny. Tego dnia nie bedziemy go kwestionowac. Wyjdziemy.'
+
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Elfy slysza o twojej porazce i przychodza ci z pomoca. Musza zabic samych orkow i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Bah, zamknij swoje slabe usta, ty skoczku. Bedziemy cwiczyc nasze ostrza na twojej zdrajczej skorze!'
+
+Orki atakuja. 
+[/STORY]
+[OUT]Walka.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Deal to umowa. Solidny handel z Toba.'
+
+Ida dalej, a elfy sa pod wrazeniem twojego pokojowego rozwiazania. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Przypuszczam, ze niepokojace sa spiczaste uszy. Wezmiemy troche towarow, a nawet handlujemy z toba. Nie ma powodu, zeby sie trzymac, jesli sie wzbogacimy.'
+[/STORY]
+[OUT]Zgodzcie sie na handel i zaplate.
+[OUT]Odmowcie.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Nie boimy sie ciebie ani spiczastych uszu! Ale wydaje sie to zmarnowanym wysilkiem. Tak, placisz nam, a my znajdziemy lepszych wrogow.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Po prostu ich zaatakujcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Crazy elf(15)
++[NODE]2
+[STORY]
+Kiedy patrzysz na drzewa, widzisz pozostalosci starego elfiego domu z powalonymi mostami linowymi i opuszczonymi budowlami, ktore staly sie niemal calkowicie czescia drzew. 
+
+Kto wie, jakie tajemnice moze posiadac?
+[/STORY]
+[OUT]Idz w gore, by zbadac ruiny.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Znajdziesz wiele opuszczonych struktur, ale sa one albo puste, albo niemozliwe do osiagniecia. Widzisz taki, ktory wydaje sie bardziej nienaruszony, ale krete schody sa prawie calkowicie zapadniete, a kora drzewa ostra jak gwozdzie, wiec bedzie trudna wspinaczka.
+[/STORY]
+[OUT][Drewno ludowe] To nie jest dla ciebie przeszkoda. Szepcz do drzew, abys mogl wspiac sie bez szwanku. 
+[OUT]Poniewaz natura jest twoja domena, wezwij ja, aby poprosila las o pomoc w tej wspinaczce.
+[OUT]Wspinaj sie ostroznie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+Las slucha i pozwala wspinac sie bez problemu.
+[/STORY]
+[OUT]Ostroznie przeszukaj miejsce. 
+[OUT]Ostroznie przeszukaj miejsce. 
+[/NODE]
+
++[NODE]8
+[STORY]
+Las okazuje sie milosierny i wspinasz sie bez przeszkod. 
+
+Stoisz w zwodniczo duzej, otwartej komnacie, ktorej sciany sa zrobione z dziwnego krysztalu, teraz porosnietego winorosla i kwiatami, z resztkami starych mebli i sztuki - kruche i zapomniane, ale wciaz piekne.
+[/STORY]
+[OUT]Ostroznie przeszukaj miejsce. 
+[OUT]Ostroznie przeszukaj miejsce. 
+[/NODE]
+
++[NODE]10
+[STORY]
+Wspinaczka okazuje sie zbyt trudna. Resztki schodow rozpadaja sie, a ty nie widzisz innego sposobu, aby sie tu wspinac. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Wspinasz sie i znajdujesz szereg opuszczonych domow na drzewie, ale wiekszosc z nich jest teraz niedostepna i zarosnieta. 
+
+Znajdziesz troche rozrzuconych ziol i kawalkow uzytecznego drewna, ale niewiele wiecej. Ale w poblizu slychac dziwny, niepokojacy dzwiek belkotu.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbierz to, co juz masz i wyjdz.
+[/NODE]
+
++[NODE]16
+[STORY]
+Po chwilowym przeszukiwaniu odkrywasz ukryte drzwi pulapki, ktore prowadza do pnia drzewa. 
+
+Wewnatrz, widzisz, co kiedys moglo byc warsztatem, ale teraz jest pustym, ciemnym pokojem, porosnietym zielenia i pajeczynami. 
+
+Posrod tego wszystkiego widzisz samotnego elfa, kolysajacego sie i mamroczacego do siebie.
+[/STORY]
+[OUT][Elf] Porozmawiaj z nimi cicho w swoim jezyku. Sprobuj je uspokoic.
+[OUT]Sprobuj z nimi rozmawiac.
+[OUT]Wyrzuc ich z nedzy.
+[OUT]Wyrzuc ich z nedzy.
+[OUT][Demon lasu] Uzyj jezyka lasu, aby uspokoic niespokojna dusze tego stworzenia.
+[OUT][Ork] Zabij to.
+[/NODE]
+
++[NODE]17
+[STORY]
+Przechodzisz przez komnate i odkrywasz wiele ukrytych wnek, korytarzy prowadzacych do dawno zniszczonych sciezek i malego zaplecza. 
+
+Wewnatrz widzisz resztki narzedzi, fiolek, ziol, a moze nawet ksiazek. 
+
+Jest tez gniazdo wron chetnie obserwujace kazdy twoj ruch.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Zwierze kinowe] Zastraszac wrony.
+[OUT][Zwierze kinowe] Zastraszac wrony.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Kiedy zniknely wrony, przeszukujesz pokoj w spokoju.
+[/STORY]
+[OUT]Zbierzcie lupy i odejdzcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Elf zatrzymuje sie na sekunde, odwraca glowe w twoja strone, slucha, a potem znow sie cofa, mamroczac: 
+
+'Swiatlo, za duzo, za duzo, nie powiodlo sie, nie udalo sie ... spalic. ..'
+
+Elf jest wyraznie starozytny, byc moze z czasow ciemnosci, sadzac po wyblaklych bliznach mrocznej klatwy, ale jego umysl jest tak bardzo zagubiony. 
+[/STORY]
+[OUT]Ofiaruj troche swojego zdrowia duchowego, aby zlagodzic umysl. Moze z toba porozmawia.
+[OUT]Uderz go w twarz. Czasami pomaga z szalonym.
+[OUT]Uderz go w twarz. Czasami pomaga z szalonym.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Swiatlo, za duzo, za duzo, nie powiodlo sie, nie udalo sie ... spalic ...'
+
+Elf nie wydaje sie potwierdzac twojej obecnosci.
+[/STORY]
+[OUT]Uderz go w twarz. Czasami pomaga z szalonym.
+[OUT]Zabij elfa. 
+[OUT]Zabij elfa. 
+[OUT]Po prostu spladruj pokoj i opusc tego dziwnego elfa.
+[OUT]Uderz go w twarz. Czasami pomaga z szalonym.
+[OUT][Ork] Zabij go szybko, zanim szalony sie zetrze.
+[/NODE]
+
++[NODE]28
+[STORY]
+Zabijasz elfa jednym precyzyjnym ciosem, jego oslabione cialo nie daje zadnego oporu. 
+
+Ale gdy cialo rozpuszcza sie w pyl, robi to z gwaltownym wybuchem oslepiajacego swiatla, ktore spala zarowno twoje cialo, jak i dusze! 
+
+[/STORY]
+[OUT]Zbierz kazdy lup, ktory znajdziesz i wyjdz.
+[/NODE]
+
++[NODE]30
+[STORY]
+Zabijasz elfa jednym precyzyjnym ciosem, jego oslabione cialo nie daje zadnego oporu. 
+
+Cialo zamienia sie w srebrny pyl i czujesz, ze twoja dusza jest wzmocniona przez ten akt milosierdzia, zamierzony lub przypadkowy. 
+[/STORY]
+[OUT]Zbierz kazdy lup, ktory znajdziesz i wyjdz.
+[/NODE]
+
++[NODE]31
+[STORY]
+„Ja ... dziekuje ci, pokrewne duchy, bo nawet ta ulotna chwila jasnosci spiewa mojej duszy w najbardziej wysublimowany sposob.'
+
+Szumi smutna, uderzajaca melodie. Nagle widzisz, jak skreca sie z bolu, a jego oczy swieca slabym swiatlem. Kolysanie znowu, krzyczy na ciebie: 
+
+'Zakoncz to, zakoncz ten smutek teraz, blagam cie!'
+[/STORY]
+[OUT]Wezwij nature i popros ten las, aby pozwolil swemu dziecku na wieczny sen, gdyz z czasem moze wyleczyc jego chore umysly.
+[OUT]Jego umysl jest wyraznie atakowany przez jakas mistyczna sile. Jest zbyt silny, by go zniszczyc, ale mozesz polaczyc sie duchowo z elfem i probowac go oslonic.
+[OUT][Harmonia] To nie jest droga harmonii, by zniszczyc zycie, nawet udreczone zycie w ten sposob. Wezwij swoja domene, aby probowac oslonic biedne stworzenie przed tym, co mu dolega. 
+[OUT]Wyrzuc ich z nedzy.
+[OUT]Wyrzuc ich z nedzy.
+[OUT]Wezwij nature i popros ten las, aby pozwolil swemu dziecku na wieczny sen, gdyz z czasem moze wyleczyc jego chore umysly.
+[OUT]Elf moze jeszcze wyzdrowiec. To nie twoja sprawa, wiec zostaw go. Zbierz wszystko, co do tej pory znalazles i odejdz.
+[OUT][Ork] Zabij go szybko, zanim szalony sie zetrze.
+[/NODE]
+
++[NODE]37
+[STORY]
+Las slucha. Winorosl i korzenie z drzewa pochlaniaja elfa w ochronnej skorupie. 
+
+Widzisz, ze jego cialo powoli sie rozluznia, jego skora staje sie bardziej srebrna, az wyglada jak doskonale rzezbiona, spokojna statua spiacej boskosci. 
+
+Widzisz paczke odziana w liscie debu i wiesz, ze to twoja nagroda, czy to z lasu, czy z elfa. 
+
+[/STORY]
+[OUT]Wez prezent i wyjdz.
+[/NODE]
+
++[NODE]41
+[STORY]
+Las slucha. Winorosl i korzenie z drzewa pochlaniaja elfa w ochronnej skorupie. 
+
+Jego cialo powoli sie rozluznia, jego skora staje sie bardziej srebrna, az wyglada jak spokojny, doskonale rzezbiony posag spiacej boskosci. 
+
+Widzisz paczke odziana w liscie debu. Wiesz, ze to twoja nagroda, czy to z lasu, czy z elfa. 
+[/STORY]
+[OUT]Wez prezent i wyjdz.
+[/NODE]
+
++[NODE]42
+[STORY]
+Twoj rytual dziala. Oslaniasz umysl elfa przed jakakolwiek pokrecona sila, ktora go atakuje. 
+
+Nie wiesz, jak dlugo to potrwa, czy nawet wie, co sie stalo, ale jego cialo wydaje sie bardziej zrelaksowane i spokojne. 
+
+Widzisz paczke odziana w liscie debu. Wiesz, ze to twoja nagroda, czy to z lasu, czy z elfa. 
+[/STORY]
+[OUT]Wez prezent i wyjdz.
+[/NODE]
+
++[NODE]44
+[STORY]
+Cokolwiek trzyma umysl i dusze tego elfa, jest dla ciebie zbyt silne. 
+
+Udreczeni lesni krewni odskakuja od ciebie i znow uskakuja, mamroczac cos nie do odroznienia.
+[/STORY]
+[OUT]Wyrzuc ich z nedzy.
+[OUT]Elf moze jeszcze wyzdrowiec. To nie twoja sprawa, wiec zostaw go. Zbierz wszystko, co do tej pory znalazles i odejdz.
+[OUT]Wyrzuc ich z nedzy.
+[OUT][Ork] Zabij go szybko, zanim szalony sie zetrze.
+[/NODE]
+
++[NODE]50
+[STORY]
+Elf patrzy na ciebie oszolomiony: 
+
+„Stwor ciemnosci, zamieszanie? Chaos? Przemoc jest wszystkim, co mowi, przemoca ... moze swiatlo jest dobre, tak, byc moze, moze nadszedl czas, by to przyjac ...'
+
+Zaczyna swiecic. 
+[/STORY]
+[OUT]Zabij elfa. 
+[OUT]Zabij elfa. 
+[OUT]Lepiej po prostu odejdz.
+[/NODE]
+
++[NODE]55
+[STORY]
+Zabijasz elfa jednym precyzyjnym ciosem, jego oslabione cialo nie daje zadnego oporu. 
+
+Ale gdy cialo rozpuszcza sie w pyl, robi to z gwaltownym wybuchem oslepiajacego swiatla, ktore spala zarowno twoje cialo, jak i dusze! 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+„Wiec ... brutalnie, twoja krewna, wiec ... prosta ... Jeszcze chwila wytchnienia ... przelotna, wiec ...'
+
+Nagle widzisz, jak skreca sie z bolu, a jego oczy swieca slabym swiatlem. Kolysanie znowu, krzyczy na ciebie: 
+
+'Zakoncz to, zakoncz ten smutek teraz, blagam cie!'
+[/STORY]
+[OUT]Wezwij nature i popros ten las, aby pozwolil swemu dziecku na wieczny sen, gdyz z czasem moze wyleczyc jego chore umysly.
+[OUT]Jego umysl jest wyraznie atakowany przez jakas mistyczna sile. Jest zbyt silny, by go zniszczyc, ale mozesz polaczyc sie duchowo z elfem i probowac go oslonic.
+[OUT]To nie jest droga harmonii, aby zniszczyc zycie, nawet zycie, ktore jest tak dreczone. Wezwij swoja domene, aby probowac oslonic biedne stworzenie przed tym, co mu dolega. 
+[OUT]Wyrzuc ich z nedzy.
+[OUT]Wyrzuc ich z nedzy.
+[OUT]Wezwij nature i popros ten las, aby pozwolil swemu dziecku na wieczny sen, gdyz z czasem moze wyleczyc jego chore umysly.
+[OUT]Elf moze jeszcze wyzdrowiec. To nie twoja sprawa, wiec zostaw go. Zbierz wszystko, co do tej pory znalazles i odejdz.
+[OUT][Ork] Zabij go szybko, zanim szalony sie zetrze.
+[/NODE]
+
++[NODE]62
+[STORY]
+Kiedy zniknely wrony, przeszukujesz pokoj w spokoju.
+[/STORY]
+[OUT]Zbierzcie lupy i odejdzcie.
+[/NODE]
+
++[NODE]70
+[STORY]
+Elf zatrzymuje sie na sekunde, odwraca glowe w twoja strone, slucha, a potem znow sie cofa, mamroczac: 
+
+'Swiatlo, za duzo, za duzo, nie powiodlo sie, nie udalo sie ... spalic. ..'
+
+Elf jest wyraznie starozytny, byc moze z czasow ciemnosci, sadzac po wyblaklych bliznach mrocznej klatwy, ale jego umysl jest tak bardzo zagubiony. 
+[/STORY]
+[OUT]Ofiaruj troche swojego zdrowia duchowego, aby zlagodzic umysl. Moze z toba porozmawia.
+[OUT]Uderz go w twarz. Czasami pomaga z szalonym.
+[OUT]Uderz go w twarz. Czasami pomaga z szalonym.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Darkness(16)
++[NODE]2
+[STORY]
+Przeszukujesz stare ruiny, az zdasz sobie sprawe, ze ciemna, zlowroga mgla spada na to miejsce. 
+
+Czarna mgla jest przerazajaca pozostaloscia dni ciemnosci.
+[/STORY]
+[OUT][Swiatlo lub harmonia] Wezwij swoja domene, aby chronic cie przed ta ciemna moca. 
+[OUT][Swiatlo lub harmonia] Wezwij swoja domene, aby chronic cie przed ta ciemna moca. 
+[OUT][Zamet lub magia] Wezwij swoja domene, aby ochronic cie przed ciemnoscia.
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[OUT]Sprobuj przemknac sie szybko przez mgle, aby dostac sie do mozliwego lupu w tych ruinach.
+[OUT][Shadow elf] Czarna mgla nie stanowi dla ciebie zagrozenia. Przejdz przez nia i zakoncz przeszukiwanie ruin.
+[OUT][Shadow elf] Czarna mgla nie stanowi dla ciebie zagrozenia. Przejdz przez nia i zakoncz przeszukiwanie ruin.
+[/NODE]
+
++[NODE]13
+[STORY]
+Niestety, twoja boska domena sluzy tylko jako latarnia dla czarnej mgly, ktora ma uderzyc. 
+
+Jestescie pochlonieci przez jego ciemne szpony, ktore lekaja sie w waszej duszy ze strachem i szalenstwem!
+[/STORY]
+[OUT]Nie pozwol wygrac tej ciemnosci. Zbierz swojego ducha i walcz z nim!
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]14
+[STORY]
+Twoja domena chroni cie, gdy przerazajaca mgla usiluje przedostac sie do twoich dusz. 
+
+Wciaz niespokojne z tego doswiadczenia, mozesz sprobowac przeszukac to miejsce w poszukiwaniu lupow i miec nadzieje, ze mgla nie pojawi sie ponownie. 
+
+[/STORY]
+[OUT]Wez to, co znajdziesz i wyjdz. 
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[/NODE]
+
++[NODE]23
+[STORY]
+Czarnej mgly nie mozna latwo pokonac. Zanim sie zorientujesz, gleboka, przenikliwa ciemnosc ogarnia cie w jego zimnych szponach i lzach w twoim umysle i duszy. 
+
+[/STORY]
+[OUT]Biegnij!
+[/NODE]
+
++[NODE]26
+[STORY]
+Pokonujesz ciemnosc i mozesz teraz probowac wyssac jej moc.
+[/STORY]
+[OUT]Wysysaj energie.
+[OUT]Wysysaj energie.
+[OUT]Wysysaj energie.
+[OUT]Wysysaj energie.
+[OUT]Nie ryzykuj wtracania sie w mgle. Przeszukaj ruiny w poszukiwaniu lupow.
+[OUT]Nie ryzykuj wtracania sie w mgle. Przeszukaj ruiny w poszukiwaniu lupow.
+[/NODE]
+
++[NODE]27
+[STORY]
+Skora twoich zebow udaje ci sie uniknac mgly, chociaz wciaz odczuwasz trwoge i znajdujesz przyzwoity zapas towarow do grabiezy.
+[/STORY]
+[OUT]Zbierz kazdy lup, ktory znajdziesz i wyjdz.
+[/NODE]
+
++[NODE]29
+[STORY]
+Bezpiecznie wysysasz czesc ciemnej energii, chronionej przez boska domene magii. 
+
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
++[NODE]30
+[STORY]
+Probujesz wyssac ciemna energie, ale nie pasuje ona do twojej boskiej domeny. 
+
+Choroba duchowa cie spotka. 
+
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
++[NODE]31
+[STORY]
+Bezpiecznie wysysasz czesc ciemnej energii.
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
++[NODE]32
+[STORY]
+Ciemna mgla niszczy wiekszosc tego, co niegdys tu bylo, ale znajdujesz dosc swieze zwloki, by je spladrowac. 
+[/STORY]
+[OUT]Wez rzeczy i wyjdz.
+[/NODE]
+
++[NODE]35
+[STORY]
+Twoja domena chroni cie, gdy przerazajaca mgla usiluje przedostac sie do twoich dusz. 
+
+Wciaz niespokojne z tego doswiadczenia, mozesz sprobowac przeszukac to miejsce w poszukiwaniu lupow i miec nadzieje, ze mgla nie pojawi sie ponownie. 
+
+[/STORY]
+[OUT]Wez to, co znajdziesz i wyjdz. 
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[OUT]Ucieczka!
+[OUT][Magiczny uzytkownik] Posiadasz madre umiejetnosci. Walcz z ta moca ciemnosci swoim duchem!
+[/NODE]
+
++[NODE]37
+[STORY]
+Moc ciemnosci przenika do twojego ducha, wzmacniajac go od wewnatrz.
+[/STORY]
+[OUT]Dobrze. Zbierz kazdy lup, ktory znajdziesz i wyjdz.
+[/NODE]
+
++[NODE]39
+[STORY]
+Probujesz wyssac ciemna energie, ale ciemnosc jest zmiennym przyjacielem. 
+
+Choroba duchowa cie spotka. 
+
+[/STORY]
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[OUT]Sprawdz ruiny pod katem lupow i wyjdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Elven guardians(17)
++[NODE]2
+[STORY]
+Podczas przeszukiwania elfich ruin masz wyrazne uczucie bycia obserwowanym. Wkrotce zdajesz sobie sprawe, ze na twojej drodze jest wiele lukow i slyszysz: 
+
+'Co cie tu szuka, intruzie?'
+[/STORY]
+[OUT][Demon Lasu] Zadaja, zeby odlozyli te luki, bo jestes lesnym stworzeniem, a wiec tym lepiej!
+[OUT][Elf] Mow w jezyku elfow, aby uspokoic te sytuacje.
+[OUT][Ork] Warknij na nich obelgami i powiedz, ze wolisz nie skazywac dzis elfa.
+[OUT]Sprobuj z nimi porozmawiac. Zapytaj, dlaczego celuja w ciebie luki.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Strzegamy swietego miejsca i nie pozwolimy, aby twoja obecnosc zepsula jego spokoj. Nie testuj naszej determinacji.'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zapewnij, ze podazasz sciezka Dievanny iz pewnoscia nawet oni szanuja ja jako wlasna.
+[OUT]Przekonaj ich, ze zamierzasz zabrac tylko kilka uzytecznych zasobow z ruin. Obiecujesz, ze nie podejdziesz do swietego miejsca ani niczego nie zniszczysz.
+[OUT]Zapytaj, czy mozesz odwiedzic swiete miejsce.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Podazasz za przekonaniami dzieci, jakby byly twoje. Mimo to jestes krewny, wiec porozmawiamy z toba bez przemocy.'
+[/STORY]
+[OUT]Zapytaj ich, co robia w ruinach.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Dziewa, lowczyni, tak, chociaz moze byc mloda, jest naszym rodzajem. Widzimy teraz, ze jestes godny, by przetestowac swoj umysl i dusze na wiosne. 
+
+Pamietaj, wiosna bierze cie, zanim sie odda. Idz, a niech ona z lasu prowadzi twoja sciezke.'
+[/STORY]
+[OUT]Pij ze wiosny. 
+[OUT]Pij ze wiosny. 
+[OUT]Pij ze wiosny. 
+[/NODE]
+
++[NODE]9
+[STORY]
+Woda zrodlana jest orzezwiajaca i rzeska. Z kazdym lykiem czujesz, ze twoj duch sie unosi, a twoje cialo odpoczywa. 
+
+Blogoslawienstwa wiosny moga byc liczne lub zadne, ale czujesz sie wspaniale, probujac tego. 
+
+Elfy przyznaja ci rowniez pozwolenie na przeszukiwanie ruin w poszukiwaniu uzytecznych zasobow - oczywiscie, niczego nie uszkadzajac. 
+[/STORY]
+[OUT]Dziekuj wiosna i zbierz to, co znalazles.
+[OUT]Dziekuj wiosna i zbierz to, co znalazles.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Te ruiny sa dla nas bezuzyteczne. Cokolwiek pozostanie tutaj, mozesz wziac i uzyc ponownie. 
+
+Nie uszkadzaj lasu, nie zblizaj sie do swietej wiosny i nie przeszkadzaj nam ponownie.'
+
+Znikaja w lesie, ale wiesz, ze wciaz jestes obserwowany.
+[/STORY]
+[OUT]Zbierz, co mozesz tu znalezc i odejdz.
+[OUT]Zbierz, co mozesz tu znalezc i odejdz.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Swieta wiosna nie zostanie zaklocona na naszym zegarku. Wyjdz teraz i nie testuj dalej naszego pokojowego postanowienia, poniewaz nie jest to nasz naturalny stan.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]18
+[STORY]
+Zabijasz elfich straznikow i mozesz zrabowac te ruiny. 
+
+Jednak gdy zblizasz sie do miejsca, ktore strzega, malej wiosny, jej wody staja sie czarne.
+[/STORY]
+[OUT]Zbierz, co mozesz znalezc i odejsc.
+[OUT]I tak pij ze zrodla. Nastepnie zbierz jakikolwiek lup i wyjdz.
+[OUT]I tak pij ze zrodla. Nastepnie zbierz jakikolwiek lup i wyjdz.
+[OUT]I tak pij ze zrodla. Nastepnie zbierz jakikolwiek lup i wyjdz.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pomimo twojej porazki, elfy nie scigaja cie poza ich terytorium. 
+
+[/STORY]
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]24
+[STORY]
+„Jestesmy lesnymi krewnymi, a to pozostaje naszym domem, przynajmniej wtedy, gdy strzezemy tutaj wody zycia - swietego miejsca leczenia. 
+
+Jak dobrze wiecie, tylko godni moga zblizyc sie do wiosny, poniewaz niesie wielkie niebezpieczenstwo, jak rowniez obietnice zycia.'
+[/STORY]
+[OUT]Zapewnij, ze podazasz sciezka Dievanny iz pewnoscia nawet oni szanuja ja jako wlasna.
+[OUT]Popros o pozwolenie na honor bycia testowanym.
+[OUT][Wood folk] Popros o pozwolenie na honor bycia testowanym.
+[OUT]Domagaj sie, abys mogl zostac przetestowany. 
+[/NODE]
+
++[NODE]25
+[STORY]
+„Przychodzicie tu, w obecnosci brudu orkow, bracia. 
+
+Nie maja szacunku dla natury, tylko stala potrzebe zmiany, ruchu, przemocy. Nie, nie mozesz otrzymac dobrodziejstwa!'
+[/STORY]
+[OUT]Zapewnij, ze podazasz sciezka Dievanny iz pewnoscia nawet oni szanuja ja jako wlasna.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jest dluga przerwa, podczas ktorej czujesz elfie ego walczace ze swoim poczuciem obowiazku. W koncu mowia: 
+
+'Przeprosiny, duch lesny. Mieliscie nas zdezorientowanych, poniewaz kroczycie sciezka dzieciecych bogow, jakby byli waszymi mistrzami.'
+
+[/STORY]
+[OUT]Ignoruj lekcewazenie i zapytaj, dlaczego wciaz tu mieszkaja.
+[OUT]Nie bedziesz cierpial z powodu takich drzewek jak te. Atak!
+[/NODE]
+
++[NODE]29
+[STORY]
+„Wykazujesz wiele powsciagliwosci dla wscieklego szczeniecia. Jak ciekawy. 
+
+Teraz wyjdz. To nie jest miejsce dla kundli. Strzegamy swietego miejsca i nie pozwolimy, aby twoja obecnosc zepsula jego spokoj. Nie testuj naszej determinacji.'
+[/STORY]
+[OUT]Atakuj tych pompatycznych dlugich uszu!
+[OUT]Zapewnij, ze podazasz sciezka Dievanny iz pewnoscia nawet oni szanuja ja jako wlasna.
+[OUT]Przekonaj ich, ze zamierzasz zabrac tylko kilka uzytecznych zasobow z ruin. Obiecujesz, ze nie podejdziesz do swietego miejsca ani niczego nie zniszczysz.
+[/NODE]
+
++[NODE]30
+[STORY]
+„Nie”.
+[/STORY]
+[OUT]Atakuj tych pompatycznych dlugich uszu!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+„Mowisz dobrze i jestes jednym z naszych. Widzimy teraz, ze jestes godny, by przetestowac swoj umysl i dusze na wiosne. 
+
+Pamietaj, wiosna bierze cie, zanim sie odda. Idz, a niech ona z lasu prowadzi twoja sciezke.'
+[/STORY]
+[OUT]Pij ze wiosny. 
+[OUT]Pij ze wiosny. 
+[OUT]Pij ze wiosny. 
+[/NODE]
+
++[NODE]33
+[STORY]
+„Mowisz dobrze. Zrobimy wyjatek i pozwolimy ci przetestowac swoj umysl i dusze na wiosne. 
+
+Pamietaj, wiosna bierze cie, zanim sie odda. Idz, a niech ona z lasu prowadzi twoja sciezke.'
+[/STORY]
+[OUT]Pij ze wiosny. 
+[OUT]Pij ze wiosny. 
+[OUT]Pij ze wiosny. 
+[/NODE]
+
++[NODE]37
+[STORY]
+Zabijasz elfich straznikow i mozesz zrabowac te ruiny. 
+
+Jednakze, kiedy zblizasz sie do miejsca, ktore strzega, malej wiosny, jej wody staja sie czarne, a wiesz, ze straznicy musieli przeklinac je swoim umierajacym oddechem.
+[/STORY]
+[OUT]Zbierz, co mozesz znalezc i odejsc.
+[OUT]I tak pij ze zrodla. Nastepnie zbierz jakikolwiek lup i wyjdz.
+[OUT]I tak pij ze zrodla. Nastepnie zbierz jakikolwiek lup i wyjdz.
+[OUT]I tak pij ze zrodla. Nastepnie zbierz jakikolwiek lup i wyjdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Elf Loot(18)
++[NODE]2
+[STORY]
+Te elfie ruiny wygladaja dosc swiezo, pozornie porzucone z powodu przemocy, a nie wieku. Elfy zostaly ewakuowane, ale wciaz mozesz znalezc uzyteczne zasoby. 
+[/STORY]
+[OUT]Zbierz jakikolwiek lup i wyjdz.
+[/NODE]
+
++[NODE]3
+[STORY]
+Znajdujesz skrzynie z bronia, ale gdy siegasz po nia, niestabilny budynek rozpada sie na ciebie, zostawiajac wiele siniakow. 
+
+Nadal masz skrzynie.
+[/STORY]
+[OUT]Wez skrzynie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Forest attacks(19)
++[NODE]2
+[STORY]
+Wspinasz sie, by zbadac elfie ruiny, ale slyszysz niepokojace poruszenie w lesie. Niektore drzewa wydaja sie opadac na ciebie!
+[/STORY]
+[OUT][Leshy] Wezwij las, aby wysluchal twojej woli!
+[OUT][Wood folk] Porozmawiaj z lasem i oglaszaj, ze twoje elfie prawo tu jest.
+[OUT][Natura] Potwierdz swoja wiernosc lasowi i popros las, aby sie uspokoil.
+[OUT]Sprobuj negocjowac z wyraznie rozgniewanym lasem.
+[OUT]Walka!
+[OUT][Lesne demony] Twoi krewni wygladaja na bardzo rozgniewanych. Zaoferuj im swoje zdrowie duchowe jako danine w zamian za wolny przejazd.
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]5
+[STORY]
+Dajesz swojej duchowej esencji i lasowi spokoj, na razie ... 
+
+Mozesz swobodnie przeszukiwac ruiny.
+[/STORY]
+[OUT]Dokoncz eksploracje szybko i wyjdz.
+[/NODE]
+
++[NODE]6
+[STORY]
+Las slucha twoich slow i uspokaja jego gniew, pozwalajac ci wejsc bez dalszego oporu.
+[/STORY]
+[OUT]Dokoncz eksploracje i wyjdz.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Zgadzam sie, pachniesz drewnem. Yoou maay przechodzi.'
+[/STORY]
+[OUT]Dokoncz eksploracje i wyjdz.
+[/NODE]
+
++[NODE]15
+[STORY]
+Las nie slucha ani nie odpowiada. Jego gniew jest stary i surowy! 
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]16
+[STORY]
+Chociaz wiekszosc starego miasta jest nie do uratowania, znajdziesz cos, co moze byc starym magazynem, a moze warsztat kowalski, w ktorym znajdziesz kilka niezmienionych zasobow.
+[/STORY]
+[OUT]Dokoncz eksploracje szybko i wyjdz.
+[/NODE]
+
++[NODE]19
+[STORY]
+Straznicy lasu leza martwi, wiec mozesz spokojnie spladrowac ruiny. 
+[/STORY]
+[OUT]Kontynuuj przeszukiwanie ruin.
+[/NODE]
+
++[NODE]21
+[STORY]
+Chociaz wiekszosc starego miasta jest nie do uratowania, odkrywasz, co moglo byc pracownia rzemieslnicza. 
+[/STORY]
+[OUT]Dokoncz eksploracje szybko i wyjdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ElvenRuins(20)
+[/EVENT]
+
+-- [EVENT] --cemetery elf guard(21)
++[NODE]2
+[STORY]
+Podchodzisz blizej i slyszysz cichy szelest lisci. Patrzysz w gore i widzisz luki skierowane na ciebie. 
+
+'Czego szukasz w tym swietym miejscu?'
+
+[/STORY]
+[OUT][Forest folk] Panstwo przybyliscie po blogoslawienstwa drzewa pamieci, tak jak macie prawo.
+[OUT]Poklon sie w szacunku i powiedz, ze przyszedles szukac madrosci od elfow.
+[OUT][Ork lub zamieszanie] Czujesz sie dziwnie oslabiony, stojac w obecnosci drzewa. Powiedz, ze przychodzisz w pokoju.
+[OUT]Atakuj elfy i rabuj drzewo.
+[OUT]Powiedz, ze jestes tu tylko z ciekawosci.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Wybacz nasza ostroznosc. Niektorzy z naszych krewnych oddalili sie od swiatla i nie pamietaja naszych drog. Przyjdz wiec do drzewa pamieci i popros o blogoslawienstwo.'
+[/STORY]
+[OUT]„Dziekuje.'
+[OUT]„Dziekuje.'
+[/NODE]
+
++[NODE]5
+[STORY]
+„Poniewaz jestes tutaj, mamy dobrodziejstwo do zadawania pytan. Zepsuty duch atakuje to swiete miejsce i nie jestesmy zmuszeni do opuszczenia tego drzewa. Duch mieszka niedaleko i mozna sie nim zajac tylko tam. Czy pomozesz? 
+
+Wszystko, co musisz zrobic, to przeniesc te galaz w to miejsce. Zatrzyma zlego ducha i powstrzyma go przed nekaniem drzewa pamieci.'
+[/STORY]
+[OUT]Zgodz sie pomoc. Powiedz im, zeby wskazali ci, gdzie lezy duch.
+[OUT]Odmowcie i odejdzcie.
+[OUT]Zapytaj, dlaczego jeszcze tego nie zrobili.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Podazasz wlasciwa sciezka. Mozesz kontynuowac.'
+
+Stoisz przy drzewie pamieci i medytujesz. Slyszysz slaba, ale poruszajaca piosenke w glowie, a slowa wydaja sie pochodzic z kazdego krysztalu, ktory wisi przed toba.
+[/STORY]
+[OUT]Luk dzieki za blogoslawienstwo.
+[/NODE]
+
++[NODE]10
+[STORY]
+Stoisz przy drzewie pamieci i medytujesz. Slyszysz slaba, ale poruszajaca piosenke w glowie, a slowa wydaja sie pochodzic z kazdego krysztalu, ktory wisi przed toba.
+[/STORY]
+[OUT]Luk dzieki za blogoslawienstwo.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Mozemy poradzic sobie z ta sprawa przy nastepnej zmianie straznika, ale to nie bedzie jeszcze za kilka cykli. To irytacja; widzielismy wiec mozliwosc pozbycia sie go.'
+[/STORY]
+[OUT]Zgodz sie pomoc.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Przychodzisz na miejsce i widzisz duchowa forme spleciona z mlodym drzewkiem. Nie czujesz od niego mrocznej magii, ale odczuwasz wiele gniewu i strachu. 
+
+To najwyrazniej duch lesny zbladzony, a nie zagubiona dusza. Byc moze dlatego elfy chcialy go schwytac, a nie zabic.
+[/STORY]
+[OUT][Goblinski szaman] Duch jest w lotnej formie. Mozesz uzyc rytualu, aby sprobowac powiazac go ze swoja usluga.
+[OUT]Uzyj oddzialu elfa.
+[OUT]Zamiast tego zabij ducha.
+[OUT][Demon lasu] Daj troche swojego ducha, aby pomoc uleczyc to lesne stworzenie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Duch lasu skreca sie w agonii z twojego rytualu i przemienia sie w upior, ale teraz bedzie ci sluzyc. 
+
+Jest zlowieszczy szelest lisci i czujesz, ze spada na ciebie klatwa, prawdopodobnie za zlamanie slowa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Duch lasu odpowiada na twoje rozkazy. Przeksztalca sie w swoja demoniczna forme i teraz bedzie ci sluzyc. 
+
+Jest zlowieszczy szelest lisci i myslisz, ze lepiej opusc las, zanim elfi straznicy zdecyduja, ze zlamales slowo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Zwiazujesz ducha i oddajesz go straznikom. Dziekuja ci i zostawiaja ci prezenty z drzewa pamieci.
+[/STORY]
+[OUT]Dziekuje i odejdz.
+[/NODE]
+
++[NODE]26
+[STORY]
+Zabijasz ducha - a raczej duchy, ktore okazaly sie pinekonetami. 
+
+Czujesz rosnace, ciezkie spojrzenie lasu na ciebie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Nie uda ci sie zabic ducha i poczuc rosnace, ciezkie spojrzenie lasu na ciebie. 
+
+Masz poczucie, ze masz szczescie, ze straznicy elfow nie moga opuscic swojego stanowiska.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Dziwne slowa pochodzace od ciebie. Podazasz sciezka zgielku i podzegania. To nie jest mile widziane w tym miejscu. 
+
+Jesli chcesz zostac, mozesz zostac osadzony przez wspomnienia i zaryzykowac ducha, ale pozwolimy ci dotknac drzewa, jesli chcesz.'
+[/STORY]
+[OUT]Zgadzam sie na test.
+[OUT]Zgadzam sie na test.
+[OUT]Odmowcie i odejdzcie.
+[OUT]Zamiast tego atakuj!
+[/NODE]
+
++[NODE]29
+[STORY]
+Siegasz po drzewo i czujesz, ze jego energia siega. Jest pelen swiatla i spokoju, spokoju ... tepy, duszny, duszacy, szarpiacy w tobie wlokno zamieszania w tobie! 
+
+Udaje ci sie cofnac, ale czujesz glebokie palenie wewnatrz. 
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]30
+[STORY]
+Siegasz po drzewo i czujesz, ze jego energia siega. Jest pelen swiatla i spokoju, spokoju. 
+
+Jeden z krysztalow unosi sie w twoim kierunku i dzieli sie z toba swoja madroscia.
+[/STORY]
+[OUT]Swietnie. Placcie szacunek i odejdzcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Zabijasz straznikow i probujesz ograbic drzewo z jego krysztalow, ale wiekszosc po prostu obraca sie w pyl, gdy ich dotykasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Zabijasz straznikow i probujesz ograbic drzewo z jego krysztalow, ale kazdy, ktorego dotkniesz, po prostu zamienia sie w pyl, a ty czujesz, ze cierpi na ciebie choroba.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Przegrywasz i chociaz elfy pozwalaja ci odejsc, czujesz na sobie ciezkie przeklenstwo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Zabijasz straznikow i probujesz ograbic drzewo z jego krysztalow, ale kazdy, ktorego dotkniesz, po prostu zamienia sie w pyl. 
+
+Z kazdym znikajacym krysztalem czujesz plame na swojej elfiej duszy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+Rytual zawodzi, a stworzenie umiera z wielka udreka. Las blisko niego takze wiednie. 
+
+Masz poczucie, ze masz szczescie, ze straznicy elfow nie moga opuscic swojego stanowiska.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+Cos poszlo nie tak, a galaz skreca w wyschniety kawalek wegla, podczas gdy duch wydaje sie coraz bardziej niesforny. Kiedy sie zglosisz, straznicy skina uroczyscie: 
+
+- Zrobiles, co mogles. Nie powinnismy prosic o to nieznajomego. Dobrze cie, podrozniku. Musimy teraz skupic sie na ochronie drzewa pamieci, dopoki nasza straznik sie nie zmieni.'
+[/STORY]
+[OUT]Luk i wyjdz.
+[/NODE]
+
++[NODE]56
+[STORY]
+„Jestes tu nieznajomy. Mimo to drzewo pamieci jest miejscem kontemplacji dla wszystkich. 
+
+Jesli chcesz zostac, mozesz zostac osadzony przez wspomnienia i zaryzykowac ducha, ale pozwolimy ci dotknac drzewa, jesli chcesz.'
+[/STORY]
+[OUT]Zgadzam sie na test.
+[OUT]Zgadzam sie na test.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Siegasz po drzewo i czujesz, ze jego energia siega. Jest pelen swiatla i spokoju, spokoju ... tepy, duszny, duszacy, szarpiacy w tobie wlokno zamieszania w tobie! 
+
+Udaje ci sie cofnac, ale czujesz glebokie palenie wewnatrz. 
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]60
+[STORY]
+Poswiecasz wlasnego ducha, a lesne stworzenie powoli odzyskuje kontrole. 
+[/STORY]
+[OUT]Dziekuje i odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf ghost(22)
++[NODE]2
+[STORY]
+Podchodzisz blizej drzewa i patrzysz na rozne krysztaly promieniujace wsrod lisci. 
+
+Slyszysz slaba piosenke, jakby szeptala z samego drzewa. 
+[/STORY]
+[OUT]Posluchaj piosenki, ale badz czujny.
+[OUT]Posluchaj pieknej piosenki.
+[/NODE]
+
++[NODE]3
+[STORY]
+Melodia jest zachwycajaca, ale wiesz, ze moze to byc niebezpieczne. Skupiasz sie i widzisz upiorna postac siedzaca na galezi i patrzac na ciebie z przyjemnym usmiechem: 
+
+'Twoja wola nie jest zabawka. Dobry. Co cie tu szuka, nieznajomy?'
+[/STORY]
+[OUT][Elf] Witaj lesnego krewnego jako jednego z twoich. 
+[OUT]Powiedz, ze przyszedles podziwiac piekno tego miejsca.
+[OUT]Powiedz, ze te krysztaly wygladaly na opuszczone, wiec chciales je miec.
+[OUT]Zaatakuj zjawy!
+[OUT]Zaatakuj zjawy!
+[/NODE]
+
++[NODE]4
+[STORY]
+Gubisz sie w piosence i nawet nie zdajesz sobie sprawy, ze nie widzisz juz drzewa. W rzeczywistosci jakie drzewo? 
+
+Slyszysz ostatni szept w glowie. 
+
+„Zmeczeni podroznicy, uslysz moja piesn i niech twoj duch pozostanie zawsze silny.'
+
+Czujesz sie oslabiony i zdezorientowany, ale takze czujesz sie pozytywnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Ach, oczywiscie, przepraszam. Zmysly fizyczne w tej formie sa dla mnie wciaz tajemnica. Czego szukacie, bracia? Przyszedles na wieczny sen?'
+[/STORY]
+[OUT]Powiedz, ze nie jestes jeszcze gotowy opuscic plan fizyczny, tylko tutaj, aby oddac swoj szacunek.
+[OUT]Powiedz im, ze jestes mlody i nie pamietasz wiecznego snu.
+[OUT]Przypomnij im, ze jestes lesnym krewnym, ale nie elfem. Zapytaj o to, ze zawsze spisz.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Przyszedlem na wieczny sen, ale moja dusza byla skazona ciemnoscia. Jako taki nie mogl polaczyc sie w swietle. Zamiast tego utknalem tutaj, pilnujac drzewa pamieci, dopoki nie zostanie oczyszczony.'
+[/STORY]
+[OUT]Zapytaj, czy potrzebuja pomocy.
+[OUT]Tak, slyszales o swoich krewnych przekletych przez ciemnosc - cienie krewnych. Zycze im szczescia w oczyszczaniu ich skazy i pytamy, czy mozna uzyskac blogoslawienstwo z drzewa pamieci.
+[OUT]Przepros za twoja ignorancje, ale zapytaj, czym jest drzewo pamieci.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Dziekuje wam, bracia, ale ja nie. Oczyszczenie musi przebiegac bez pomocy, aby bylo prawdziwe. Ale czuje, ze podazasz sciezka smiertelnych bogow zamiast naszych. Jak dziwne.'
+
+[/STORY]
+[OUT]Potwierdz, ze podazasz sciezka kosmicznego panteonu, poniewaz sa straznikami rownowagi. Potwierdz, ze to wciaz cel wszystkich elfow.
+[/NODE]
+
++[NODE]8
+[STORY]
+„To prawda, ze jestes elfem, nawet jesli jest to troche bledne, i dlatego moge ci zaoferowac dobrodziejstwo. Wybierz jeden z krysztalow pamieci i zabierz ze soba jego blogoslawienstwa. 
+
+Pozwole ci takze siegnac po te, ktore sa na gorze, poniewaz niosa wieksze blogoslawienstwa, ale musisz stawic czola wyzwaniu, aby je wziac.'
+[/STORY]
+[OUT]Przyjmij krysztal pamieci i powiedz, ze tego dnia nie staniesz przed wyzwaniem. Dziekuje mu i odejdz.
+[OUT]Dziekuje mu za oferte i zmierzyc sie z wyzwaniem.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Jestes elfem i mowisz wyraznie ze mna, a wiec moge ci zaoferowac dobrodziejstwo. Wybierz jeden z krysztalow pamieci i zabierz ze soba jego blogoslawienstwa. 
+
+Pozwole ci takze siegnac po te, ktore sa na gorze, poniewaz niosa wieksze blogoslawienstwa, ale musisz stawic czola wyzwaniu, aby je wziac.'
+[/STORY]
+[OUT]Przyjmij krysztal pamieci i powiedz, ze tego dnia nie staniesz przed wyzwaniem. Dziekuje mu i odejdz.
+[OUT]Dziekuje mu za oferte i zmierzyc sie z wyzwaniem.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Takie pragnienia moga cie sprowadzic na manowce, mlody, wiec badz ostrozny. 
+
+A jednak nie wyczuwam zlosci w twoim zamiarze, wiec pozwole ci stawic czola wyzwaniu, jakim sa spryt lub duchy. Jesli mi sie uda, dam ci dobrodziejstwo z drzewa pamieci.'
+[/STORY]
+[OUT]Co to za drzewo pamieci?
+[OUT]Zgodz sie stawic czola wyzwaniu duchowemu.
+[OUT]Zgodz sie stawic czola psychicznemu wyzwaniu.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Drzewo pamieci jest miejscem pamieci dla elfich dusz, ktore wybraly wieczny sen. Przed przylaczeniem sie do swiatla, placza pojedyncza lza dla zycia materialnego, w ktorym zyli, i pozostawiaja te lzy w pamieci. Oto co tutaj widzisz. 
+
+Lzy moga udzielac dobrodziejstw, jesli zostana dobrowolnie podane przez opiekuna.'
+[/STORY]
+[OUT]Zgodz sie stawic czola wyzwaniu duchowemu.
+[OUT]Zgodz sie stawic czola psychicznemu wyzwaniu.
+[OUT]Zaatakuj zjawy!
+[OUT]Zaatakuj zjawy!
+[/NODE]
+
++[NODE]16
+[STORY]
+„Poszukiwanie wiedzy nie jest kwestia przebaczenia, ale podziwem. 
+
+Drzewo pamieci jest miejscem pamieci dla tych elfich dusz, ktore wybraly wieczny sen. Przed przylaczeniem sie do swiatla, placza pojedyncza lza dla zycia materialnego, w ktorym zyli, i pozostawiaja te lzy w pamieci. Oto co tutaj widzisz. 
+
+Lzy moga dawac dobrodziejstwa, jesli zostana dobrowolnie podane przez opiekuna.'
+[/STORY]
+[OUT]Zapytaj, czy potrzebuja pomocy w ich oczyszczeniu.
+[OUT]Zycze im szczescia w oczyszczaniu ich skazy i pytamy, czy mozna uzyskac blogoslawienstwo z drzewa pamieci.
+[/NODE]
+
++[NODE]17
+[STORY]
+„To konsekwencja nasladowania tych smiertelnych bogow, moi mlodzi bracia. Badz ostrozny na swojej sciezce. 
+
+Wieczny sen jest wtedy, gdy decydujemy sie zrzucic nasze materialne powloki i ponownie dolaczyc do swiatla, z ktorego przyszlismy.'
+[/STORY]
+[OUT]Powiedz, ze nie jestes jeszcze gotowy opuscic plan fizyczny, tylko tutaj, aby oddac swoj szacunek.
+[/NODE]
+
++[NODE]18
+[STORY]
+Atakujesz upiorna postac, ale wszystko, co slyszysz, to smiech. Zamiast ducha las ozywa i uderza w ciebie!
+[/STORY]
+[OUT]Walka!
+[/NODE]
+
++[NODE]20
+[STORY]
+Bezskutecznie atakujesz upiorna postac, a zamiast tego natkniesz sie na silna magie!
+[/STORY]
+[OUT]Broncie sie!
+[/NODE]
+
++[NODE]25
+[STORY]
+„Rzeczywiscie smiale twierdzenie, nieznajomy! I modlcie sie, dlaczego mialbym pozwolic na taki czyn? To nie sa blyskotki, ale lzy tych, ktorzy zasneli. Czy zbezczescisz ich pamiec?'
+[/STORY]
+[OUT]Przyznaj, ze szukales zasobow.
+[OUT]Zaatakuj zjawy!
+[OUT]Zaatakuj zjawy!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Nie. Wasza smialosc zblizyla sie do mojej duszy. Probujesz przezyc, a ja wspolczuje. Pozwole ci podjac wyzwanie duchowe, trudne. Jesli zdasz, mozesz otrzymac dobrodziejstwo. W przeciwnym razie wyjdz tutaj teraz.'
+[/STORY]
+[OUT]Zgadzam sie na test.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„To konsekwencja nasladowania tych smiertelnych bogow, moi mlodzi bracia. Badz ostrozny na swojej sciezce. 
+
+Wieczny sen jest wtedy, gdy decydujemy sie zrzucic nasze materialne powloki i ponownie dolaczyc do swiatla, z ktorego przyszlismy.'
+[/STORY]
+[OUT]Powiedz, ze nie jestes jeszcze gotowy opuscic plan fizyczny, tylko tutaj, aby oddac swoj szacunek.
+[/NODE]
+
++[NODE]35
+[STORY]
+Drzewo pamieci uwaza cie za niegodnego, a twoja dusza czuje sie zraniona przez to odrzucenie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Pokonales straznikow, ktorzy wstali, by z toba walczyc. Drzewo pamieci stoi niestrzezone.
+[/STORY]
+[OUT]Jestes zadowolony ze swojej wygranej. Czas wyjsc.
+[OUT]Wez krysztaly z drzewa. Moga byc cos warte.
+[OUT]Wez krysztaly i posiekaj drzewo.
+[/NODE]
+
++[NODE]42
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki. Czujesz na sobie gniew lasu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf statue(23)
++[NODE]2
+[STORY]
+Podchodzisz blizej drzewa i zdajesz sobie sprawe, ze z jednego z korzeni wyrasta postac elfa - drewniana statua, realistyczna, ale wyraznie statyczna. Na posagu znajduje sie kilka ozdob wykonanych z kamieni szlachetnych i metali - diadem, kilka pierscieni i ozdobny element na piersi. 
+[/STORY]
+[OUT]Czujesz, ze twoje boskie polaczenie przyciaga cie do posagu. Dotknij tego. 
+[OUT][Elf] Zaspiewaj wiecznie spiaca piesn, aby uspokoic twoich elfich braci w ich podrozy.
+[OUT]Wyczuwasz slabe pozostalosci zycia w stolarce - byc moze duch przeszedl? Medytujcie w szacunku dla tej duszy.
+[OUT][Krasnolud] Gdy posagi ida, ta nie zostala wykonana przez smiertelne rece. Zbadaj statek.
+[OUT]Wyjmij cenne rzeczy.
+[OUT]Wyjmij cenne rzeczy.
+[OUT]Oddaj swoj szacunek i odejdz.
+[/NODE]
+
++[NODE]3
+[STORY]
+Kiedy dotykasz posagu, czujesz, ze szarpie twoja wiez z bogami. 
+
+W spiacym elfie jest pustka, a twoja domena wydaje sie odpowiadac temu, czego brakuje. Czujesz, ze bylbys w stanie nakarmic te pustke, ale moze to byc ryzykowne. 
+[/STORY]
+[OUT]Daj troche swego ducha, aby dusza ta przeszla w pokoju.
+[OUT]Rabunek towarow z posagu.
+[OUT]Rabunek towarow z posagu.
+[OUT]Nie oferuj swojego ducha, ale z szacunkiem przed wyjazdem.
+[/NODE]
+
++[NODE]4
+[STORY]
+Rzezba jest zbyt delikatna, projekt zbyt niedoskonaly w swojej absolutnej doskonalosci. To musi uswiecac swiete elfy. Jak niektorzy z twoich starozytnych krewnych, ktorzy upadli na kamien po smierci, mowi sie, ze elfy wybieraja czas smierci i zamieniaja sie w posagi, zanim ich formy duchowe odplyna.
+
+[/STORY]
+[OUT]Stworz mala kamienna rzezbe i dodaj ja do tego posagu na czesc mijajacej duszy.
+[OUT]Rabunek towarow z posagu.
+[OUT]Rabunek towarow z posagu.
+[/NODE]
+
++[NODE]5
+[STORY]
+Probujesz rozebrac posag, ale jego oczy sa otwarte i promien dusznego, jasnego swiatla pochlania cie w plonacym ogniu.
+[/STORY]
+[OUT]Sprobuj sie oprzec.
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]9
+[STORY]
+Znasz ten posag jako elfa, ktory wszedl w wieczny sen, ale nie rzucil calkowicie cewki fizycznej. W takim stanie elficcy krewni moga pozostawac przez wieki, wciaz swiadomi tego, co dzieje sie wokol nich i zdolni do przebudzenia sie w razie potrzeby, ale odpoczywajac i kontemplujac jednoczesnie. 
+
+Ta piosenka uspokaja takich spiacych i mowi im o wlasnej sciezce zycia. 
+
+[/STORY]
+[OUT]Kontynuuj piosenke przed wyjsciem.
+[OUT]Bracia, czy nie, maja drogocenne kamienie. Lup spiacego elfa.
+[OUT]Bracia, czy nie, maja drogocenne kamienie. Lup spiacego elfa.
+[/NODE]
+
++[NODE]12
+[STORY]
+Niszczysz spiacego elfa i widzisz, jak ich twarz pograza sie w smutku. Wasz duch pograza sie w waszych uczynkach, ale dostajecie drogocenne kamienie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Czujesz energie probujaca uciec z tego samolotu, ale wyczuwasz takze duszna sile utrzymujaca ja nienaturalnie zwiazana. 
+
+Mozesz sprobowac rytualu, aby pomoc uwolnic te dusze, ale jesli ci sie nie uda, moze ci to zaszkodzic.
+[/STORY]
+[OUT]Sprobuj rytualu.
+[OUT]Oddaj swoj szacunek i odejdz.
+[OUT]Rabunek towarow z posagu.
+[OUT]Rabunek towarow z posagu.
+[/NODE]
+
++[NODE]19
+[STORY]
+Kiedy dotykasz kamienia, aby go zbezczescic, postac otwiera oczy, sapie i zamienia sie w srebrny popiol. 
+
+Wasze elfie dusze sa zranione brakiem szacunku, ktory pokazaliscie, ale gromadzicie troche srebra ...
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Niszczysz spiacego elfa i widzisz, jak ich twarz pograza sie w smutku. Wasz duch pograza sie w waszych uczynkach, ale dostajecie drogocenne kamienie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Swiatlo spala twoja dusze i zostawia ja pokaleczona. Jestes zmuszony uciekac, zanim zatracisz sie w plomieniach.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Kiedy dotykasz kamienia, aby go zbezczescic, postac otwiera oczy, sapie i zamienia sie w srebrny popiol. 
+
+Wszelkie elfie dusze sa zranione brakiem szacunku, ktory pokazales, ale zbierasz troche srebra ...
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Otwierasz ducha, a dzieki polaczeniu boskosci sila wpada do spiacej elfiej duszy. Posag patrzy na pokoj, a potem powoli, na twoich oczach, zamienia sie w srebrny popiol. 
+
+Czujesz, ze mozesz wziac wszystko, co dusza ci zostawila, bez szacunku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Twoj rytual zakloca wszystko, co trzyma dusze tutaj. Posag patrzy na pokoj, a potem powoli, na twoich oczach, zamienia sie w srebrny popiol. 
+
+Czujesz, ze mozesz wziac wszystko, co dusza ci zostawila, bez szacunku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Twoje rytualne ognie i widzisz blask jasnego swiatla przypalajacego posag. Jego przelotna dusza sapie w niemym krzyku, zanim zniknie na zawsze. 
+
+Kazdy, kto zna elfie kultury, jest dotkniety ostatecznoscia tej smierci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf(24)
++[NODE]2
+[STORY]
+Odkrywasz elfia swieta ziemie, oddana pamieci zmarlych.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyWoodkin(25)
++[NODE]2
+[STORY]
+Przed wami stoi uzbrojona grupa lesnych elfow: 
+
+- Upusc swoje towary i poddaj sie. Nie chcemy krwi, ale nie bedziemy tolerowac twojej obecnosci.'
+[/STORY]
+[OUT]Pozdrow swoich sojusznikow. 
+[OUT]Badz ostrozny, ale rozmawiaj z nimi.
+[OUT]Walka!
+[OUT]Twierdza, ze jesli nie chca rozlewu krwi, teraz poddadza sie tobie!
+[OUT]Odsun sie.
+[OUT]Przekonaj ich, ze jestes przyjazny.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Przepraszam, przyjaciele. Nie poznalismy cie. Pozdrowienia i zyczenia.'
+[/STORY]
+[OUT]Zapytaj, czy chca handlowac.
+[OUT]Medytujcie razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Nie jestesmy wrogami, ale my tez nie jestesmy przyjaciolmi. Jesli chcesz to zmienic, poszukaj naszych mieszkan.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Walka!
+[OUT]Twierdza, ze jesli nie chca rozlewu krwi, teraz poddadza sie tobie!
+[OUT]Przekonaj ich, ze jestes przyjazny.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Wydaje sie, ze panuje twoja brutalna natura. Poddajemy sie, bo nie chcemy ci zaszkodzic.„
+
+Odchodza, a niektorzy upuszczaja towary przed toba. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Twoje slowa nie dzialaja. Jestes goniony i bity.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Wygladasz na milego. Odejdziemy. Badz zdrowy, przyjaciele.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ElfMain(26)
++[NODE]2
+[STORY]
+„Witamy. Jestem Nai-ysir, straznik. Chce z toba porozmawiac pilnie. To niepokojacy czas, tak? Swietlacze, jak sie dowiedzieli, sa oznaka dominacji swiatla, czyms, co czujemy bardzo mocno. 
+
+Przyznam, ze wielu z nas chetnie do nich dolaczylo lub odmawia ich dzialania. W koncu rodzimy sie ze swiatla.'
+[/STORY]
+[OUT]Wiec nie pomoga?
+[OUT][Elf] Wsparcie jest tak powszechne jak to? Czy to nie jest podejrzane? Starsi krewni przysiegali podtrzymywac harmonie i rownowage.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Sobor zostal zwolany, jak tylko ziemia sie rozbila, oczywiscie. Potrzebna jest szybka decyzja. Nadal jednak rozwazaja. Widzicie, moze to zajac troche czasu, aby dojsc do jednomyslnej decyzji.'
+[/STORY]
+[OUT][Elf] Rada obraduje juz od dziesiecioleci, prawda? 
+[OUT]Ile jeszcze czasu? 
+[/NODE]
+
++[NODE]4
+[STORY]
+„Nalezy miec nadzieje, ze zostana dokonane w tym stuleciu. - Elf chichocze dziwnie, a potem patrzy na ciebie i przechyla glowe: 
+
+'Och. Tak. Dla ciebie moze to nie wygladac jowialnie, poniewaz wy, ludzie, zawsze jestescie w pospiechu, aby zrobic wszystko.'
+[/STORY]
+[OUT]Swiat sie rozpada. . .
+[/NODE]
+
++[NODE]5
+[STORY]
+„Tak, rzeczywiscie, maja i osiagniecie porozumienia moze potrwac kilka lat. Od czasow Przebudzenia nie bylismy tak podzieleni. Jest co najmniej klopotliwe. 
+
+A poniewaz jestescie spokrewnieni, powiem, ze to dziwne, jak rada dokladnie wiedziala, co sie stalo i jakie sa jej konsekwencje, prawie tak, jakby jeden z nich mogl dostarczyc konto. . .'
+[/STORY]
+[OUT]To jest klopotliwe, tak. Ale czy swiat sie rozpadnie, czy teraz naprawde nic nie zrobia?
+[/NODE]
+
++[NODE]6
+[STORY]
+„To wstrzasajace i bedzie to robic przez dluzszy czas. Te rzeczy nie zdarzaja sie tylko przez zycie smiertelnika lub dwa. 
+
+Ale nie przyjechalem tutaj, by oferowac zniechecenie. Obawiam sie, ze ten konflikt moze nam zaszkodzic. Wiec wolalbym pomoc ci rozwiazac sprawe.'
+[/STORY]
+[OUT]Dobrze, jak?
+[/NODE]
+
++[NODE]7
+[STORY]
+„Tak, wielu najstarszych, ktorzy przezyli ciemnosc, pragna swiatla, widzicie. Wierze wiec, ze pozwalaja sobie na te glupote ze wzgledu na tesknote. To moze byc smieszne. 
+
+Sobor zostal zwolany, jak tylko ziemia sie rozbila, oczywiscie. Potrzebna jest szybka decyzja. Nadal jednak rozwazaja. Widzicie, moze to zajac troche czasu, aby dojsc do jednomyslnej decyzji.'
+[/STORY]
+[OUT][Elf] Rada obraduje juz od dziesiecioleci, prawda? 
+[/NODE]
+
++[NODE]8
+[STORY]
+„Powinienem sobie wyobrazic, ze potrzebujesz nowego serca, aby zastapic zniszczone serce ziemi. Zwykle las moze zapewnic ci alternatywe. 
+
+Ale jak powiedzialem, ten konflikt spowodowal impas. Gdybyscie udowodnili, ze elf bral aktywny udzial w Rozbijaniu, to wstrzasneliby tymi starymi glupcami w radzie i zapewniliby wam wsparcie, jakiego potrzebujecie.'
+[/STORY]
+[OUT]A czy istnieje taki dowod? Czy elfy to zrobily?
+[/NODE]
+
++[NODE]9
+[STORY]
+„Nie jako calosc, nie. Ale indywidualnie - tak, wierze w to. Jest mlody, zbuntowany mag, Ail'yleth. Ma dosc srebrny jezyk. Jestem pewien, ze wtracila sie w to. Tutaj zaznaczylem jej kryjowke na mapie. Ale strzez sie, ma wielu obroncow. I modl sie, abys nie zakochal sie w jej urokach!'
+[/STORY]
+[OUT]Dziekuje im za informacje i odejdz.
+[/NODE]
+
++[NODE]12
+[STORY]
+Zrob kilka krokow i znajdziesz sie z powrotem w elfim miescie, Nai-ysir wita: 
+
+'Wrociles z Ail'yleth. Nie sadzilem, ze to mozliwe. Nie martw sie, wrocimy do miejsca, w ktorym sie znajdowales, kiedy juz skonczylismy. Niestety, mam klopotliwe wiesci i czuje sie okropnie, musze sie nim dzielic, gdy juz wiele dla mnie zrobiles.'
+[/STORY]
+[OUT]Co to jest?
+[/NODE]
+
++[NODE]13
+[STORY]
+„Sledzilem twoje postepy. Wszystkie elfy maja slabe polaczenie - o wiele slabsza forme tego, co maja milosnicy swiatla. W kazdym razie poinformowalem rade o twoim sukcesie i oni sa wiecznie uparci.'
+[/STORY]
+[OUT]Nie pomoga, nawet teraz?
+[/NODE]
+
++[NODE]14
+[STORY]
+Nai-ysir robi dziwna mine, a nastepnie mowi tak, jakby dziecko nasladowalo doroslego: 
+
+„Dziekujemy ci za te pomoc, ktora dostarczyles, dziecko bogow. Ale nie jest naszym zwyczajem spieszyc sie z osadem, zwlaszcza dla naszych krewnych. Ail'yleth zmierzy sie z nami, ale okreslenie naszego sposobu dzialania zajmie troche czasu.'
+[/STORY]
+[OUT]Co!
+[/NODE]
+
++[NODE]15
+[STORY]
+„Ale nie martw sie, zebralem juz sprzymierzencow i wygralem prawo do przemawiania ze mna do rady. Razem wierze, ze mozemy ich przekonac do - przepraszam za moj jezyk - przesuwac ich dna!'
+[/STORY]
+[OUT]Zgadzam sie i udajcie sie do rady, aby zrobic sprawe.
+[OUT][Inteligencja] Powiedz jej, ze zamiast tego przygotujesz rzeczowy opis wszystkich dowodow, a tym samym apel do rady z powodow intelektualnych.
+[/NODE]
+
++[NODE]16
+[STORY]
+Rada slucha, a ich mowca zwraca sie do ciebie: 
+
+'Nai-ysir, dobrze wybrales swoich sojusznikow. Wierzymy, ze twoja przyczyna jest prawdziwa, a ponadto akceptujemy wine elfiego ludu podczas tej katastrofy. W zwiazku z tym dokonamy niezbednych poswiecen, aby zapewnic przywrocenie rownowagi tak szybko, jak to mozliwe i przy najmniejszej utracie zycia.'
+[/STORY]
+[OUT]Luk dzieki.
+[OUT]Powiedz im, ze nadszedl czas, zeby cos zrobili!
+[/NODE]
+
++[NODE]18
+[STORY]
+„Wroc do swojej czerwonej jaskini, gdzie czeka Alchemik. Zapewnimy nowe ziemskie serce, a takze pomoc w pokonaniu bestii swietlnej, ktora siedzi w komorze serca. Masz nasze uroczyste slowo na ten temat. 
+
+Wierze, ze Nai-ysir chce Ci towarzyszyc, aby osiagnac ten cel?'
+
+Druid kiwa glowa.
+[/STORY]
+[OUT]Dziekuje im za pomoc i odejdz.
+[OUT][Elf] Jak oni dokladnie robia to serce? O ile wiesz, to nie rzemioslo starszego rodu wykuwa zywe kamienne serca, a olbrzymy odeszly dawno temu.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Dowiesz sie o tym w odpowiednim czasie. Nie boj sie - twoje polaczenie z bogami uchroni cie przed tym, co musimy zrobic. Nie powiemy wiecej, dopoki nie nadejdzie odpowiedni czas. Idz. '
+
+Czlonkowie rady powoli opuszczaja pokoj i zostawiaja cie z Nai-ysirem.
+[/STORY]
+[OUT]Zostawcie razem.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Nie, nie bedziemy ulegac wplywom z zewnatrz. Musimy to spokojnie rozwazyc. Zostaw nas.'
+
+Rada odchodzi i Nai-ysir stoi obok ciebie, oszolomiony: 
+
+' Ja. . . Nie moge w to uwierzyc. Nawet teraz nie beda dzialac. To znaczy, ze sie z nia zgadzaja. Przepraszam. Ale dolacze do ciebie i pomoge ci znalezc inna droge!'
+[/STORY]
+[OUT]Dziekuje jej i odejdzcie razem. Byc moze znalezienie krasnoludzkiego wieznia, o ktorym mowil Alchemik, jest teraz najlepszym rozwiazaniem.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ElfMage(27)
++[NODE]2
+[STORY]
+Znajdziesz samotne drzewo, o ktorym ci powiedziano, i podazasz za nim do wielkiej jaskini przy wodospadzie. Powiedziano ci, ze elfi mag Ail'yleth zyje. 
+[/STORY]
+[OUT]Wejdz i zawolaj maga.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Witamy. Przyznaje, ze jestem zaskoczony, ze moi krewni uznali, ze konieczne jest wyslanie tutaj ludzi z zewnatrz. Z drugiej strony, przypuszczam, ze to madry ruch. 
+
+Jesli ci sie nie uda, ich rece sa czyste, a jesli ci sie uda i przyprowadzisz, otrzymaja kredyt. Tak. Teraz to widze.'
+[/STORY]
+[OUT]Wiec ona przyznaje, ze jest w czyms, z czego mozna ja wziac? Przynoszac o rozbiciu?
+[OUT]Powiedz jej, ze nie jestes tutaj, aby grac w gry. Elfy moga miec czas wolny, ale twoi ludzie tego nie robia. Jestes tutaj po kilka odpowiedzi!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Jesli uwazasz, ze przyznanie sie do swoich projektow jest tak proste, ze jestes nieco bardziej naiwny, niz oczekiwalem od mistrza kosmicznego drzewa.'
+[/STORY]
+[OUT][Swiatlo, natura lub harmonia] Wzywaj swojej domeny i blagaj Ail'yleth, aby powiedziala ci prawde.
+[OUT][Elf] Powiedz, ze rozumiesz wezwanie swiatla, cieplo jego dotyku, a nawet obietnice czystej zemsty na ciemnosci, ktora niegdys prawie zniszczyla twoj rodzaj. Ale mimo to popros ja, by powiedziala ci prawde. Wyglada na to, ze nie oklamuja sie nawzajem.
+[OUT][Ork] Powiedz elfiemu nieczystosci, ze lepiej ci powie, co zrobila, albo zasypiesz ciemnosc po jej blyszczacej twarzy!
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[OUT]Jak sobie z tym poradzila - Roztrzaskanie, zniszczenie ziemskiego serca?
+[OUT]Popros o najkrotszy opis tego, co sie dzieje. Nie masz czasu na rozmowe.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Twoje serce jest czyste, gdy podazasz swoja boska sciezka, tak. Ale twoj panteon rowniez czci zamet i magie pochodzaca z samej ciemnosci - i zimny uscisk intelektu, ktory podczas Przebudzenia doprowadzil twoich krewnych do zniszczenia twojego drzewa. 
+
+Wiec jak mozna sluchac swojej prosby, gdy tylko czesc z was jest prawdziwa?'
+[/STORY]
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[OUT]I dlaczego mowi, ze magia jest takze ciemna?
+[OUT]Jak intelekt doprowadzil do ciemnosci? 
+[/NODE]
+
++[NODE]7
+[STORY]
+„Tak, to wstyd mowic nieprawde swoim krewnym, ale czy ty jestes taki? Czy nie porzuciles naszej sprawy, kiedy zdecydowales sie pojsc w slady Velesa i mlodego upstartego Dievanna, ktory tak jak ty opuscil nasze szeregi, by dolaczyc do Them? 
+
+To ty zlamales zaufanie, przyjacielu, dlatego nie mam obowiazku mowic szczerze w twojej obecnosci.'
+[/STORY]
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[/NODE]
+
++[NODE]8
+[STORY]
+„Rzeczy rzadko sa tak proste, jak sie wydaja. Tak, swiatlowody wydaja ci sie niebezpieczne, ale co wlasciwie robia? Lacza nas w symfonii swiatla. Jeden umysl i wiele, na zawsze polaczonych. Bez konfliktu, bez konfliktow. Prawie tak jak w pierwotnym swietle i zaufajcie mi, bylo wspaniale. Zrzucajac to fizyczne polaczenie, cialo i wszystko, co z nim pochodzi.'
+[/STORY]
+[OUT]Ale czy to nie kradnie naszej woli, odsuwajac nasza indywidualnosc?
+[/NODE]
+
++[NODE]9
+[STORY]
+Krotki cien irytacji przecina twarz Ail'yleth, zanim odzyska opanowanie: 
+
+'Coz, na przyklad. Wlasnie dlatego potrzebne jest oczyszczanie.' 
+[/STORY]
+[OUT][Ork] Ona chce zemsty, nic wiecej. Powiedz jej, ze czujesz nienawisc na jej pretensjonalnej skorze. Jej ladny pot cuchnie zloscia i strata. Jak bardzo odmienne jest stworzenie, ktore udaje, ze jest stoikiem.
+[OUT][Goblin] Nie cala ciemnosc jest zla. Jeden niegrzeczny ork nie robi sprawy. Gobliny od dawna sa przyjaciolmi elfow. Czy naprawde jest w porzadku z potepiania takze twoich krewnych?
+[OUT]To jej swiatlo zajmie wiele niewinnych zyc. Czy naprawde z tym jest w porzadku? 
+[/NODE]
+
++[NODE]10
+[STORY]
+„Tak, tak! I doceniam, jak przerazajace moze wydawac sie stworzenie tak przyzwyczajone do swojej smiertelnej cewki, ale staraj sie poszerzac swoj umysl. 
+
+Nie zabiera niczego - po prostu jednoczy wszystko w prawdziwej rownosci. Kiedy kiedykolwiek staralismy sie o zmiane? To, co nazywacie postepem, przynosi tylko spor, wojne, gniew, przemoc i nietolerancje. Dlaczego to masz? Dlaczego nie zadowolic sie jednym umyslem w zgodzie, pokoju?'
+[/STORY]
+[OUT][Swiatlo] Brzmi jak perwersja twojej domeny. Ekstremum, ktore nie powinno byc.
+[OUT][Swiatlo lub harmonia] Tak, mozesz zobaczyc jej punkt. Jesli swiatlowody zabiora wszystko, swiat bedzie bezpieczniejszy i spokojniejszy. 
+[OUT][Madrosc] Wyglada na to, ze przez nia przemawia wiele goryczy. Czy to naprawde jest dazenie swiata do znalezienia spokoju, albo do pozbycia sie smiertelnych emocji, ludzkich zwiazkow na rzecz jednego umyslu, ktory nie odrozni jej bolu od drugiego, a tym samym sprawi, ze wszystko zniknie?
+[OUT]To jest kontrowersyjne, ale moze ma racje. Jaka jest jej sugestia? Jesli pozwolisz swiatu sie rozbic, jak to przyniesie pokoj?
+[OUT]To jest glupota - ani swiatlo, ani ciemnosc nie powinny rzadzic, poniewaz ludzie Thea beda cierpiec. Bogowie zostali oskarzeni o zachowanie rownowagi, a ty podazasz ich sciezka. Czy zapomniala, ze elfy zlozyly takie sluby?
+[/NODE]
+
++[NODE]12
+[STORY]
+„Swiat nie rozpadnie sie, jesli pomozemy swiatlu wyjsc calkowicie. Widzicie, to wielka moc luminescencji, probujaca uwolnic sie od pradawnych lancuchow, to w rzeczywistosci lamanie ziemi. 
+
+Ale jesli ulatwimy pelne uwolnienie, powstrzymamy to Roztrzaskanie, o ktorym mowisz i przyspieszysz sciezke do pokoju i harmonii. Z pewnoscia wasze bostwo rowniez bedzie sie rozwijac w tym nowym swiecie, nie? Unchained, nieobciazony od innych, ktorzy nie sa czystymi w swoim celu.'
+[/STORY]
+[OUT]Skincie glowami ze zrozumieniem.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Swiat nie rozpadnie sie, jesli pomozemy swiatlu wyjsc calkowicie. Widzicie, to wielka moc luminescencji, probujaca uwolnic sie od pradawnych lancuchow, to w rzeczywistosci lamanie ziemi. 
+
+Ale jesli ulatwimy pelne uwolnienie, powstrzymamy to Roztrzaskanie, o ktorym mowisz i przyspieszysz sciezke do pokoju i harmonii.'
+[/STORY]
+[OUT]Skincie glowami ze zrozumieniem.
+[/NODE]
+
++[NODE]14
+[STORY]
+Ail'yleth osuwa ramiona i odwraca wzrok. Pojedyncza lza splywa po jej brodzie i zamienia sie w krysztal, gdy spada: 
+
+'Czy naprawde zostalem tak oszukany? Czy wpadlem w pulapke, ktora ustawilem dla innych? Twoje slowa mylily moj cel. Nie jestem juz pewny swojej drogi i bez tej pewnosci moge sie do tego wszystkiego zobowiazac? Nie, nie moge. Przynajmniej nie teraz. Byc moze inny sposob przedstawi sie w odpowiednim czasie.'
+[/STORY]
+[OUT]Czy wtedy pomoze ci to powstrzymac? Czy odda sie elfom, aby pomogly ci w przywroceniu ziemskiego serca?
+[/NODE]
+
++[NODE]15
+[STORY]
+Ail'yleth marszczy brwi i widzisz jej dlon drzaca: 
+
+'Filth like you to dlaczego swiatlo musi spalic wszystko! Zaden z was nie przetrwa czystki. Nie dolaczysz do nas w ciszy i spokoju, bo nie zaslugujesz na to. Twoje slowa sa dla mnie pewne. Zabij mnie lub odejdz, ale nie pomoge twojej zgubionej sprawie. Swiatlo zwyciezy.'
+[/STORY]
+[OUT]Przepros za niegrzecznosc, ale sprobuj sprawic, by zobaczyla, jak zniszczy wolna wole, pozwalajac swiatlu zabrac wszystko. Czym bedzie swiatlo nawet bez ciemnosci? Nic. Z pewnoscia wierzy, ze prawdziwy pokoj przychodzi z przyjeciem wszystkiego, a nie z jej strony?
+[OUT]Ona jest bez powodu. Zaatakuj ja i odciagnij do elfow!
+[/NODE]
+
++[NODE]16
+[STORY]
+Ail'yleth marszczy brwi i wzdycha: 
+
+'Tak, los twojego rodzaju i niektorych starszych rodzajow demonow mnie niepokoi. Ale czy nie warto placic ceny? Pokoj i harmonia dla tej ziemi, koniec cierpienia, przemocy i zepsucia ciemnosci - czyz nie jest to cel wart osiagania? Z pewnoscia swiatlo kiedykolwiek bylo przeznaczone do panowania nad ciemnoscia?'
+[/STORY]
+[OUT][Goblin] Powiedz, ze twoj rodzaj od dawna byl oddany ludowi lesnemu, dawnym tradycjom i swiatu szarosci, ktory utrzymuje duchy tej ziemi. Czy naprawde bedzie tym, ktory zniszczy porzadek rzeczy? To brzmi jak cos, czym rozkoszowalaby sie istota zamieszania i ciemnosci, a nie taka, ktora sluzy porzadkowi.
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[OUT]Ona jest bez powodu. Zaatakuj ja i odciagnij do elfow!
+[/NODE]
+
++[NODE]17
+[STORY]
+„Uczeni poswieceni intelektowi spogladali na mistyke i starali sie pozbyc naszego swiata z wszelkiej magii. Gdyby nie moja interwencja, udalo im sie spalic drzewo, a nastepnie zniszczyc ziarno.'
+[/STORY]
+[OUT]Jak to?
+[/NODE]
+
++[NODE]18
+[STORY]
+„Zepsuli mistrzow waszych bogow i kazali im spalic to, co uwazali za ostatnie nasienie kosmicznego drzewa. 
+
+Ale udalo mi sie przekonac niektorych glupcow, by z czasem zniszczyli ziemskie serce. Swiatlo, ktore ucieklo, pomoglo odrodzic sie kosmicznemu drzewu. Ty i twoi bogowie jestescie mi winni.'
+[/STORY]
+[OUT]To nie jest historia, ktora slyszales; kosmiczne drzewo zostalo uratowane przez mistrzow.
+[OUT]Kiwnij glowa, ale zapytaj, jakie sa jej plany. Zeby ziemia sie rozpadla?
+[/NODE]
+
++[NODE]19
+[STORY]
+„Ufaj historiom omylnych smiertelnikow lub tych wiecznej istoty, ktorzy swiadczyli o smiertelnym bledzie, jakim bylo palenie. Nie obchodzi mnie, ktorej wersji ufasz.'
+[/STORY]
+[OUT]Kiwnij glowa, ale zapytaj, jakie sa jej plany. Zeby ziemia sie rozpadla?
+[/NODE]
+
++[NODE]20
+[STORY]
+„Magia praktykowana przez smiertelnikow, a nawet bliskich smiertelnikow, ta, ktora jest twoja boska domena, pochodzi z ciemnosci. Tylko elfy moga wykorzystywac swiatlo do mocy mistycznej, dlatego nie starzejemy sie, ani nie szalejemy, gdy go uzywamy. I choc zdaje sobie sprawe, ze entropia i zmiana nie sa zle, maja tendencje do sprowadzania na swiat wielu konfliktow i konfliktow.'
+[/STORY]
+[OUT]Jak intelekt doprowadzil do ciemnosci? 
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[/NODE]
+
++[NODE]21
+[STORY]
+„Szczegoly nie maja znaczenia. Widzialem potrzebe. Wyczulem, ze kolo smiertelnego zycia doprowadzi cie w koncu do ciemnosci. Moi krewni znowu poniosa ciezar. 
+
+Znalazlem zagubione dusze, nakarmilem ich tym, czego potrzebowali, by uslyszec, i uzylem twoich wlasnych bogow, by poprowadzic glupie owce do ziemskiego serca. Po raz kolejny ludzie udowodnili, jak latwo sa skorumpowani.'
+[/STORY]
+[OUT]Ale to ona je zepsula!
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[/NODE]
+
++[NODE]22
+[STORY]
+„To nie ma znaczenia. Pokazalem im sciezke i podsycilem ich slabe pragnienia, a oni poszli bez pytania. Zniszczyli relikwie ludzi, elfow i goblinow. Zniszczyli slup rownowagi. Po co? Bogini, ktora im powiedzialem, byla w potrzebie i nagrodzilaby ich, gdy zostanie uwolniona, gdy przez caly czas byla wolna, wypelniajac swoje obowiazki, nieswiadoma glupcow.'
+[/STORY]
+[OUT]Jaka bogini?
+[OUT]Brzmi okropnie dumnie ze swojej pracy. To duzo zlosliwosci dla starszego rodu, ktory twierdzi, ze faworyzuje harmonie i pokoj.
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[/NODE]
+
++[NODE]23
+[STORY]
+„Byc moze. To smutna prawda kazdego mistrza, z ktora walczymy, przeciwko czemu walczymy, nie? Zbyt dlugo przebywalem w tym smiertelnym swiecie. Nie oklamuje sie i nie powiem, ze nie cenie moich zwyciestw.'
+[/STORY]
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[/NODE]
+
++[NODE]24
+[STORY]
+„Nyia, ktora nosi teraz obowiazki Velesa i Moreny, najnowszej damy smierci - byla wowczas jedna z wielu corek, poslancow. 
+
+Przypuszczam, ze moj podstep wymusil smierc starych bogow, a zatem Nyia podniosla sie do boskosci. W ten sposob nie oszukalem glupcow.'
+[/STORY]
+[OUT]Brzmi okropnie dumnie ze swojej pracy. To duzo zlosliwosci dla starszego rodu, ktory twierdzi, ze faworyzuje harmonie i pokoj.
+[OUT]Jaki jest jej cel? Czy chce, zeby swiatlowcy zabrali nas wszystkich i Roztrzaskanie, by zniszczyc ziemie?
+[/NODE]
+
++[NODE]25
+[STORY]
+„O nie, nie, prosze, nie wybierajcie tej sciezki! Pojde z toba do wiezienia krasnoludzkiego arcymistrza. On wykuwa dla ciebie nowe serce. 
+
+Bo jesli wrocimy do moich krewnych i oni zdecyduja sie ci pomoc, poczuja sie winni moich czynow, beda sie starac ponosic odpowiedzialnosc. Boje sie o to, co poswieca, aby ci pomoc. Prosze, nie kaz mi isc ta sciezka!'
+[/STORY]
+[OUT]Czy ona pomoze ci wyrwac krasnoluda z wiezienia i przywrocic ziemskie serce? 
+[OUT]Nie, Nai-ysir wyslal cie tutaj, abys sprowadzil Ail'yleth na sprawiedliwosc, i to zrobisz.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Tak, zrobie to. Przysiegam na wiecznie zielone drzewa elfow i swiete swiatlo, ktore zrodzilo moja dusze - spelnie te przysiege i porzuce sciezke pomocy jasnowidzom. Niech moja dusza zwroci sie w ciemnosc, jesli zlamie te obietnice.'
+[/STORY]
+[OUT][Elf] Przyjmij jej przysiege, bo wiesz, ze nie moze jej zlamac bez konsekwencji.
+[OUT]Akceptuj.
+[OUT]Nie, Nai-ysir wyslal cie tutaj, abys sprowadzil Ail'yleth na sprawiedliwosc, i to zrobisz.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Moi sojusznicy, ktorzy maja swiatlo, opuscili mnie po wysluchaniu mojej zmiany serca. Ale nawet sam wolalbym zostac zabity przez ciebie, niz odgrywac jakakolwiek role w przywroceniu mojej porazki do domu.'
+[/STORY]
+[OUT]Czy ona pomoze ci wyrwac krasnoluda z wiezienia i przywrocic ziemskie serce? 
+[OUT]Wez ja sila!
+[/NODE]
+
++[NODE]29
+[STORY]
+Pokonales Ail'yleth i zwiazales ja. Mozesz teraz zabrac ja z powrotem do miasta elfow na sad.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Ail'yleth cie pokonuje i ucieka: 
+
+'Byc moze zmieniles zdanie na temat tych, ktorzy padaja ofiara swiatla, ale twoje gwaltowne sposoby poglebiaja moje obawy o ten swiat. Zostawiam cie na twojej drodze, a ty zostawiasz mnie w mojej. Idz szukac swoich rozwiazan gdzie indziej i zostaw nas elfami.'
+
+Znika w jaskini.
+[/STORY]
+[OUT]Wyjdz i sprobuj znalezc inny sposob, moze uratuj tego krasnoluda?
+[/NODE]
+
++[NODE]35
+[STORY]
+„Dobrze, tak. Chodzmy do wiezienia i uwolnijmy starego arcymistrza. Jest wybitnym wladca, ale nosi ciemne serce, wiec uwazaj na niego. Bede podrozowac sam i spotkac sie tam z toba.'
+[/STORY]
+[OUT]Dziekuje jej i odejdz. 
+[/NODE]
+
++[NODE]36
+[STORY]
+Ail'yleth patrzy na ciebie ze znuzonym wyrazem: 
+
+'Twoje slowa nie moga zmienic wiekow zniszczenia i chaosu, ktorych bylem swiadkiem. Moge sie teraz nazywac zdrajca, ale przyniose pokoj tej ziemi. Pozostawiac. Nie chce tu zadnej przemocy, ale w razie potrzeby bede sie bronil.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Zaatakuj ja!
+[/NODE]
+
++[NODE]44
+[STORY]
+Pokonujesz elfiego maga i mozesz przeciagnac ja z powrotem do swego rodzaju po sad - a potem, miejmy nadzieje, dostaniesz od nich potrzebna pomoc.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Ail'yleth cie pokonuje, a jej sojusznicy ze swiatlowodem wysysaja czesc twojego ducha, zanim pozwoli ci uciec: 
+
+'Odejdz, bo nie chce tu wiecej przemocy, ale bede sie bronic Jesli potrzebne.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Dobrze. W takim przypadku mozesz mi pomoc w osiagnieciu naszych celow. Wiem, gdzie lezy wejscie do komory serca i oznacze to dla ciebie. Przyniose artefakt swiatla do komory, wzmacniajac w ten sposob bestie swiatla, ktora tam sie znajduje, i tym samym utworze szersze otwarcie, aby mogla byc wolna. 
+
+Stworze wtedy iluzje, aby oslonic komnate przed przyszlymi mistrzami i dac czas na prawdziwe swiatlo.'
+[/STORY]
+[OUT]Powiedz jej, ze spotkasz ja w jaskini. 
+[/NODE]
+
++[NODE]50
+[STORY]
+„Wracasz, jak uroczo. Czy przyszedles na przemoc, czy przylaczyc sie do mnie, aby przyniesc swiatu swiat?'
+[/STORY]
+[OUT]Tak, zrozumiales, ze ma racje. Chcesz wzmocnic malarzy swiatla i przyniesc pokoj na tej ziemi.
+[OUT]Do ataku!
+[OUT]To jest glupota - ani swiatlo, ani ciemnosc nie powinny rzadzic, gdyz ludzie Thea beda cierpiec. Bogowie zostali oskarzeni o zachowanie rownowagi, a ty podazasz ich sciezka. Czy zapomniala, ze elfy zlozyly takie sluby?
+[/NODE]
+
++[NODE]52
+[STORY]
+„Krotka relacja, tak. Jestem mistrzem swiatla. Zycze swiatlom, aby odniesli sukces, abysmy wszyscy mogli stac sie jednym, w pokoju. Prawdziwa rownosc i harmonia. 
+
+Spowodowalem Rozbicie, ale jesli zastosujesz sie do mojego planu, ziemia przestanie sie lamac w czasie. Swiatlo bedzie rzadzic ciemnoscia raz na zawsze.'
+[/STORY]
+[OUT][Swiatlo] Brzmi jak perwersja twojej domeny. Ekstremum, ktore nie powinno byc.
+[OUT][Swiatlo lub harmonia] Tak, mozesz zobaczyc jej punkt. Jesli swiatlowody zabiora wszystko, swiat bedzie bezpieczniejszy i spokojniejszy. 
+[OUT][Madrosc] Wyglada na to, ze przez nia przemawia wiele goryczy. Czy to naprawde jest dazenie swiata do znalezienia spokoju, albo do pozbycia sie smiertelnych emocji, ludzkich zwiazkow na rzecz jednego umyslu, ktory nie odrozni jej bolu od drugiego, a tym samym sprawi, ze wszystko zniknie?
+[OUT]To jest kontrowersyjne, ale moze ma racje. Jaka jest jej sugestia? Jesli pozwolisz swiatu sie rozbic, jak to przyniesie pokoj?
+[OUT]To jest glupota - ani swiatlo, ani ciemnosc nie powinny rzadzic, gdyz ludzie Thea beda cierpiec. Bogowie zostali oskarzeni o zachowanie rownowagi, a ty podazasz ich sciezka. Czy zapomniala, ze elfy zlozyly takie sluby?
+[/NODE]
+
++[NODE]53
+[STORY]
+„Dobrze, tak. Chodzmy do wiezienia i uwolnijmy starego arcymistrza. Jest wybitnym wladca, ale nosi ciemne serce, wiec uwazaj na niego. Bede podrozowac sam i spotkac sie tam z toba.'
+[/STORY]
+[OUT]Dziekuje jej i odejdz. 
+[/NODE]
+
++[NODE]56
+[STORY]
+Znajdujesz jaskinie, w ktorej powiedziano ci, ze elfi magowie zyja, ale jest porzucona.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ElfTown(28)
++[NODE]2
+[STORY]
+Kiedy wchodzisz w osade elfow, zdajesz sobie sprawe, ze to sie zmienilo. Drzewa sa skrecone i pokryte ciemnym mchem, a cienie czaja sie w kazdym rogu. 
+
+To jest teraz miasto cienia, a jego skorumpowani mieszkancy nie wydaja sie chetni do rozmowy z toba.
+[/STORY]
+[OUT]Zapytaj ich, co sie stalo.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Cienie szepcza: 
+
+'Ty to zrobiles. Jestesmy teraz przekleci. Wielu spotkalo prawdziwa smierc. . . inni przetrwaja w tej zepsutej formie. Zostaw nas.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__DwarfGuardians(29)
++[NODE]3
+[STORY]
+Wchodzisz do wielkiej komnaty, gdzie majaczyja nad toba cztery posagi bohaterow starego. Jeden z nich mowi, jak tylko wejdziesz: 
+
+- Dlugo czekalismy, az ktos przyjdzie ukarac nasza porazke. To ty?'
+[/STORY]
+[OUT]Powiedz, ze moga teraz pomoc, oddajac zycie za zrobienie nowego serca.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Klamiesz! Mozemy to wyczuc. Nie przynosisz tutaj prawdziwego serca. Przynosisz koniec tego, co powinno byc. Zawroc lub umrzyj!'
+[/STORY]
+[OUT]Do ataku!
+[OUT][Magiczny uzytkownik] Jesli sa duchami, mozesz pokonac ich w mistycznej bitwie. Atak!
+[/NODE]
+
++[NODE]7
+[STORY]
+„Niech cie szlag. . .'
+
+Kamienne i metalowe posagi rozpadaja sie, a ty wchodzisz do komory serca, gdzie nad rozwarta dziura unosi sie zwloki zabrane przez swietlozercow. Wchodzi w samo sedno ziemi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Straznicy cie pokonuja i wyrzucaja ze swojego terytorium. Jeden z was zwrocil sie do kamienia! 
+
+Ail'yleth mowi: 
+
+'Bede tu czekal na twoj powrot, jesli zdecydujesz sie stawic im czola.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Ail'yleth wnosi swoj artefakt, ktory teraz rozpoznajesz jako jedno z kosmicznych nasion, wzmocnione przez wiecej swiatla. 
+
+Intonuje zaklecie, a lekka bestia rosnie i rozprzestrzenia sie. Ona krzyczy do ciebie: 
+
+'Odejdzmy szybko, poniewaz nasze zadanie zostalo zakonczone. Z czasem owoce naszej pracy dojrzeja.'
+[/STORY]
+[OUT]Uciekaj, zanim swiatlo cie pochlonie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --LightZmey2(30)
++[NODE]2
+[STORY]
+Przychodzisz do wejscia do jaskini serca, zgodnie z poleceniem Ail'yleth.
+[/STORY]
+[OUT]Rozejrzyj sie za magiem elfow.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jestem tutaj. Ale napotkalismy niewielka komplikacje. Sciezka do komory swietlnej jest strzezona przez krasnoludzkie posagi. Wyglada na to, ze twoj Alchemik reaktywowal stara siec bezpieczenstwa, prawdopodobnie podejrzewajac zmiane twojego serca. 
+
+Zabijmy wiec tych glupcow i uwolnijmy bestie.'
+
+
+[/STORY]
+[OUT]Idz, aby stawic czola straznikom.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wejscie do jaskini bestii jest zablokowane. Najwyrazniej potrzebowales Ail'yleth, zeby pojsc ta droga.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wracasz do jaskini, gdzie czeka Ail'yleth. 
+[/STORY]
+[OUT]Wejdzcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__ElfTown(31)
++[NODE]2
+[STORY]
+Kiedy wchodzisz w osade elfow, zdajesz sobie sprawe, ze to sie zmienilo. Drzewa sa skrecone i pokryte ciemnym mchem, a cienie czaja sie w kazdym rogu. 
+
+To jest teraz miasto cienia, a jego skorumpowani mieszkancy nie wydaja sie chetni do rozmowy z toba.
+[/STORY]
+[OUT]Zapytaj ich, co sie stalo.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Cienie szepcza: 
+
+- Zaplacilismy cene za przywrocenie rownowagi. Wiemy, ze zrobiles to, co trzeba bylo zrobic, chetnie Ci pomoglismy. Jednak nasz bol jest wielki, dlatego musimy miec czas na uzdrowienie. Badz zdrowy, przyjacielu.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Pet Trainer Elf(32)
++[NODE]3
+[STORY]
+„Towarzysza ci bestie, ktore ci sluza, i wyczuwam, ze robia to chetnie, w przeciwnym razie wyzwolilbym je. Ale ich potencjal nie jest w pelni odblokowany w twojej obecnosci. Za oplata pojda z nami sciezka druidow i tym samym stana sie bardziej.'
+
+[Trening twojego zwierzaka podniesie go tylko do czwartej rangi, z niewielka szansa na wyzsza i mozesz trenowac tylko jednego zwierzaka na raz]
+[/STORY]
+[OUT]Tak, daj psa do wytrenowania.
+[OUT]Tak, daj kotowi przeszkolenie.
+[OUT]Tak, daj wilka do szkolenia.
+[OUT]Tak, daj koze, ktora ma zostac przeszkolona.
+[OUT]Tak, daj dzikowi przeszkolenie.
+[OUT]Tak, daj niedzwiedziowi przeszkolenie.
+[OUT]Nie, odejdz.
+[OUT]Tak, daj konowi szkolenie.
+[OUT]Tak, daj zelazna zabe, aby zostala przeszkolona.
+[OUT]Trenuj swojego kutasa.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Niestety, kotow nalezy szanowac takimi, jakimi sa.'
+[/STORY]
+[OUT]Zapytaj o inne zwierzeta.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]14
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]15
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Oplata zaplacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]22
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Oplata zaplacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]26
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Oplata zaplacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]30
+[STORY]
+Twoj zwierzak wraca po chwili i wydaje sie, ze lepiej sie zachowuje.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Oplata zaplacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]34
+[STORY]
+Twoj zolw wraca po chwili i wydaje sie znacznie madrzejszy.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
++[NODE]36
+[STORY]
+„Oplata zaplacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT]Oddaj zwierzeciu.
+[/NODE]
+
++[NODE]38
+[STORY]
+Twoj kutas powraca silniejszy i bardziej dumny niz kiedykolwiek.
+[/STORY]
+[OUT]Dziekuje trenerowi i odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Woodkin Recruitment(33)
++[NODE]2
+[STORY]
+„Chcesz, zeby nasz rodzaj przylaczyl sie do twojego? Dziwny pomysl, ale nie bez jego zalet. Jest malo prawdopodobne, aby ktokolwiek ze starszych podjal te droge, ale mlodzieniec moze chciec zbadac takie pelne przygod zycie. Ci, ktorzy wyrazili zainteresowanie, czekaja na ciebie. 
+
+Bedziesz oczywiscie zostawic zwyczajowy prezent w zamian za ich sluzbe.'
+
+[Mozesz rekrutowac sie w tej frakcji tylko raz, z mala szansa na sekunde, kiedy twoja populacja jest bardzo niska]
+[/STORY]
+[OUT]Popros zbieracza, aby przylaczyl sie do ciebie.
+[OUT]Popros rzemieslnika, aby podazal twoja sciezka.
+[OUT]Zapytaj dziecko, czy naprawde chca z toba przyjsc?
+[OUT]Wiec musisz zaplacic, aby ich zatrudnic?
+[OUT]Opiekun wydaje sie zainteresowany, podejdz do nich.
+[OUT]Wygnany druid czeka, popros ich, aby sie przylaczyli.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Prosze, zostaw dar pod drzewem lub odejdz cicho, dziekuje.'
+[/STORY]
+[OUT]Popros zbieracza, aby przylaczyl sie do ciebie.
+[OUT]Popros rzemieslnika, aby podazal twoja sciezka.
+[OUT]Zapytaj dziecko, czy naprawde chca z toba przyjsc?
+[OUT]Opiekun wydaje sie zainteresowany, podejdz do nich.
+[OUT]Wygnany druid czeka, popros ich, aby sie przylaczyli.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Mental Return(34)
++[NODE]2
+[STORY]
+Jeden z twoich ludzi, ktorzy wczesniej stracili wiare w ciebie, zamieszkal w miescie. Teraz, kiedy mieli czas na odpoczynek i refleksje, chcieliby ponownie dolaczyc do ciebie.
+[/STORY]
+[OUT]Akceptuj je.
+[OUT]Odrzuc, nie potrzebujesz slabeuszy!
+[/NODE]
+
++[NODE]3
+[STORY]
+Sa szczesliwi, mogac ponownie byc czescia rodziny. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

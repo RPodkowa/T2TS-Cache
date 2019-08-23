@@ -1,0 +1,2700 @@
+-- [EVENT] --ScavengersTradesmall(0)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jestescie naszymi przyjaciolmi, wiec nie bedziemy przyjmowac zywnosci jako zaplaty. Najpierw jednak bedziecie musieli zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Bogowie niech beda z toba.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavengersTrademedium(1)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jestescie naszymi przyjaciolmi, wiec nie bedziemy przyjmowac zywnosci jako zaplaty. Najpierw jednak bedziecie musieli zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. Bogowie niech beda z toba.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavengersTradeadv(2)
++[NODE]2
+[STORY]
+Stoiska handlowe sa dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jestescie naszymi przyjaciolmi, wiec nie bedziemy przyjmowac zywnosci jako zaplaty. Najpierw jednak bedziecie musieli zaplacic nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z toba. A teraz odwal sie.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavengersVillageSmall(3)
++[NODE]2
+[STORY]
+„Jestes tam, czego tu chcesz?'
+
+Niektore zajecia w wiosce beda dostepne tylko wtedy, gdy przyjaznisz sie z jej ludzmi, a niektore sa ograniczone do szansy, wiec powrot od czasu do czasu moze byc wart.
+[/STORY]
+[OUT]Zapytajcie, czy mozecie w czyms pomoc.
+[OUT]Powiedzcie, ze przybyliscie tylko w odwiedziny i odpoczac, byc moze tez uleczyc rany.
+[OUT]Zapytaj, czy mozesz odwiedzic handel zywym inwentarzem.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Uderzyles, albo cie pobilismy, szumowiny!'
+
+Widzisz zbrojne zgromadzenie ludowe.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, ze nie myslisz o nich nic zlego. Chcesz tylko porozmawiac i odwiedzic.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a lupy sa Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Niektore przeklete wrony siedza w pobliskiej wiezy. Ciagle nas niepokoja i nie mamy czasu, zeby je zdobyc. Poradzisz sobie z tym, jesli chcesz.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Przypuszczam, ze mozesz odpoczac. 
+
+Mamy tu kilku madrych. Jesli nie sa zajeci, sa dobrzy z cialem i umyslem.'
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc fizyczne rany. 
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Zapytaj, czy jest madry, ktory moze uleczyc duchowe dolegliwosci.
+[OUT]Mowi sie, ze jeden z padlinozercow umiera na zgnilizne umyslu i wszyscy gromadza sie, aby sluchac ich umierajacych opowiesci. Brzmia jak belkot, ale lud wydaje sie przekonany, ze warto. Posluchaj z nimi.
+[OUT]Wroccie nastepnego dnia.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Zawsze jest problem z miejscem. Niedaleko znajduje sie ladny, bogaty skrawek ruin, ale tam glupie pszczoly. Jestesmy male, tylko konfigurujemy, wiec jesli pomozesz nam zdobyc pszczoly, na pewno bedziemy przyjaciolmi.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Szukasz pomocy kolegom, co? Jasne, zawsze sa klopoty.'
+[/STORY]
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[OUT]Dzwigacie sporo drewna. Zapytaj, czy potrzebuja troche.
+[OUT]Widzisz, ze potrzebuja kamienia. Powiedz im, ze chcesz rozdac swoje.
+[OUT]Na razie nie ma tu nic do roboty. Wroccie nastepnego dnia.
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Bastard Slavyans zalozyli osade niedaleko nas. Wkrotce zapukaja do naszego progu, mowiac „pobozne rzeczy i zmuszaja nas do sluchania. Pozbadz sie ich, a my na pewno bedziemy kumplami.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Czarownica, o to ci chodzi, eh? 
+Magia ma swoja cene. Uzdrawianie ducha jest latwiejsze. Klatwy - coz, sa okropne i beda cie kosztowac wiecej. Kosztuje cie krew.'
+[/STORY]
+[OUT][Wiedzma] Powiedz, ze potrzebujesz tylko pomocy swojej siostry. Sama zaplacisz i obiecasz, ze jej nie obciazysz. 
+[OUT]Zgadzam sie zaplacic cene.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]29
+[STORY]
+Czarownica mowi: „Bah, powinnas tak powiedziec, siostro. Nie probowalbym ci sprzedac bzdury cenowej, ha. Wezmy sie za to.'
+
+Razem usuniesz wszystkie przeklenstwa, ktore miales. 
+
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Jestes dziwny, jestes. Ale na pewno dzieki. 
+
+Nie mozemy dac wiele w zamian, poniewaz nie jestesmy tak dziwni jak ty, ale tutaj, miej to, co mozemy oszczedzic.'
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Jasne, zalatwmy sprawe, mozemy miec dla ciebie troche zycia.'
+
+[/STORY]
+[OUT]Kup zywego niespodzianke.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Zawsze jest problem z miejscem. Niektore sluzowate weze ustawiaja gniazdo w poblizu. Zabijasz ich, na pewno jestesmy przyjaciolmi.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+„Bah, w porzadku, wygladasz dosc uczciwie i nosisz znak bogow. Najlepiej ich nie gniewac. 
+
+Wejdz, ale obserwujemy cie!'
+[/STORY]
+[OUT]Zapytajcie o mozliwosc handlu.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Pobij to!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]66
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]67
+[STORY]
+„Albo nie mamy dla Was zadnej pracy, albo Wy lub twoi krewniacy juz jestescie na dobrej drodze, aby nam pomoc. Zakonczcie te sciezke, zanim poprosicie o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavengersVillageMed(4)
++[NODE]2
+[STORY]
+„Jestes tam, czego tu chcesz?'
+
+Niektore zajecia w wiosce beda dostepne tylko wtedy, gdy przyjaznisz sie z jej ludzmi, a niektore sa ograniczone do szansy, wiec powrot od czasu do czasu moze byc wart.
+[/STORY]
+[OUT]Zapytajcie, czy mozecie w czyms pomoc.
+[OUT]Powiedzcie, ze przybyliscie tylko w odwiedziny i odpoczac, byc moze tez uleczyc rany.
+[OUT]Zapytaj, czy mozesz odwiedzic handlarza niewolnikami. [Niewolnik kosztuje 7000, a rynek nie zawsze bedzie tutaj, nawet jesli nie kupisz, wiec odwiedzaj tylko, jesli masz gotowke]
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Popros o sprzedaz kilku osob.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Najlepiej ruszaj sie dalej. Nie jestescie naszymi przyjaciolmi.'
+
+Widzisz zbrojne zgromadzenie ludowe.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, ze nie myslisz o nich nic zlego. Chcesz tylko porozmawiac i odwiedzic.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a lupy sa Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Niektore przeklete wrony siedza w pobliskiej wiezy. Ciagle nas niepokoja i nie mamy czasu, zeby je zdobyc. Poradzisz sobie z tym, jesli chcesz.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Przypuszczam, ze mozesz odpoczac. 
+
+Mamy tu kilku madrych. Jesli nie sa zajeci, sa dobrzy z cialem i umyslem.'
+[/STORY]
+[OUT]Zaplaccie, aby wyleczyc fizyczne rany. 
+[OUT]Zaplaccie, aby wyleczyc rany umyslu. 
+[OUT]Zaplaccie, aby wyleczyc trucizne.
+[OUT]Zapytaj, czy jest madry, ktory moze uleczyc duchowe dolegliwosci.
+[OUT]Mowi sie, ze jeden z padlinozercow umiera na zgnilizne umyslu i wszyscy gromadza sie, aby sluchac ich umierajacych opowiesci. Brzmia jak belkot, ale lud wydaje sie przekonany, ze warto. Posluchaj z nimi.
+[OUT]Wroccie nastepnego dnia.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Jasne, wybij sie, nie mamy sily roboczej, zeby to wszystko sprawdzic.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Zawsze jest problem z miejscem. Jest ladny, bogaty skrawek gruntu, ktory mozna zmiatac, ale przeklete szczury ustawily gniazdo i wciaz nam przeszkadzaja. Jestesmy mali, tylko konfigurujemy, wiec jesli pomozesz nam uspokoic szczury, bedziemy bardzo wdzieczni, zeby byc pewnym.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Szukasz pomocy kolegom, co? Jasne, zawsze sa klopoty.'
+[/STORY]
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[OUT]Widzisz, ze potrzebuja kamienia. Powiedz im, ze chcesz rozdac swoje.
+[OUT]Dzwigacie sporo drewna. Zapytaj, czy potrzebuja troche.
+[OUT]Na razie nie ma tu nic do roboty. Wroccie nastepnego dnia.
+[OUT]Zapytaj, czy sa tu jakies interesujace miejsca.
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Brudni gobbowie ustawili oboz w poblizu, a ta szumowina z pewnoscia chce naszej murawy! Trzymasz je dla nas.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Czarownica, o to ci chodzi, eh? 
+Magia ma swoja cene. Uzdrawianie ducha jest latwiejsze. Klatwy - coz, sa okropne i beda cie kosztowac wiecej. Kosztuje cie krew.'
+[/STORY]
+[OUT][Wiedzma] Powiedz, ze potrzebujesz tylko pomocy swojej siostry. Sama zaplacisz i obiecasz, ze jej nie obciazysz. 
+[OUT]Zgadzam sie zaplacic cene.
+[OUT]Proscie o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]29
+[STORY]
+Czarownica mowi: „Bah, powinnas tak powiedziec, siostro. Nie probowalbym ci sprzedac bzdury cenowej, ha. Wezmy sie za to.'
+
+Razem usuniesz wszystkie przeklenstwa, ktore miales. 
+
+[/STORY]
+[OUT]Podziekujcie jej i odejdzcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Jestes dziwny, jestes. Ale na pewno dzieki. 
+
+Nie mozemy dac wiele w zamian, poniewaz nie jestesmy tak dziwni jak ty, ale tutaj, miej to, co mozemy oszczedzic.'
+[/STORY]
+[OUT]Zyczcie im dobrze i odejdzcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Jasne, zalatwmy sprawe, mozemy miec dla ciebie troche zycia.'
+
+[/STORY]
+[OUT]Kup niewolnika.
+[/NODE]
+
++[NODE]49
+[STORY]
+„Bah, w porzadku, wygladasz dosc uczciwie i nosisz znak bogow. Najlepiej ich nie gniewac. 
+
+Wejdz, ale obserwujemy cie!'
+[/STORY]
+[OUT]Zapytajcie o mozliwosc handlu.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[OUT]Zaoferujcie, ze zrobicie cos dla nich, aby udowodnic swoja przychylnosc.
+[/NODE]
+
++[NODE]51
+[STORY]
+„Mamy problemy z drapieznikami wedrujacymi po naszej murawie. Pytales, czy moglbys pomoc?'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Odejdz!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]60
+[STORY]
+„Bekarci bandyci zakladaja osade niedaleko nas. Wkrotce zapukaja do naszych drzwi, rozwala nasze gowno. Pozbadz sie ich, a my na pewno bedziemy kumplami.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]69
+[STORY]
+„Pajaki zajely miejsce w poblizu. Przejrzyj to, jesli lubisz robic rzeczy tak bardzo.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie i odejdzcie.
+[/NODE]
+
++[NODE]73
+[STORY]
+Jestes ciezko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]74
+[STORY]
+„Albo nie mamy dla Was zadnej pracy, albo Wy lub twoi krewniacy juz jestescie na dobrej drodze, aby nam pomoc. Zakonczcie te sciezke, zanim poprosicie o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --scavKillsmallBees(5)
++[NODE]2
+[STORY]
+Przychodzisz do miejsca, w ktorym padlinozercy twierdza, ze ulewa im ule.
+[/STORY]
+[OUT]Masz ludzi, ktorzy wiedza, jak postepowac z pszczolami. Rozwaz swoje opcje.
+[OUT][Madrosc] Wiesz troche o pszczolach, wiec zastanow sie, jak sobie z nimi poradzic.
+[OUT][Natura lub intelekt] Uzyj swojej zdolnosci umyslowej, aby dowiedziec sie, co robic. 
+[OUT]Uzyj jedzenia, by zwabic pszczoly z terytorium i miej nadzieje, ze nie wroca.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zblizasz sie, abys mogl ocenic sytuacje.
+[/STORY]
+[OUT][Bee] Buzz do ula i powiedz im, zeby wyszli.
+[OUT][Bee] Buzz do ula i powiedz im, zeby wyszli.
+[OUT]Sprobuj komunikowac sie z pszczolami.
+[OUT]Pszczoly nie lubia dymu. Znajdz najlepsze miejsce, aby bezpiecznie je wypalic.
+[OUT]Zabij pszczoly w latwej walce, poniewaz znasz wroga. [Fizyczny]
+[/NODE]
+
++[NODE]4
+[STORY]
+Mozesz sprobowac uzyc gestego dymu z zatrutymi makami. To powoli zadusi pszczoly, ale powinno sie ich pozbyc. 
+
+Jesli jednak cos pojdzie nie tak, beda bardzo zli.
+[/STORY]
+[OUT]Tak, zabij je jeden po drugim.
+[OUT]Masz ludzi, ktorzy wiedza, jak postepowac z pszczolami. Rozwaz swoje opcje.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+Gadasz z innymi pszczolami i przekonujesz ich, ze ten obszar nie jest bezpieczny. 
+
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Dym dziala, ale powoli, wiec jestes ukaszony przez gniewnych ocalalych przed smiercia ula. 
+
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+Znajdujesz wlasciwe miejsce i uzywasz odpowiedniej ilosci dymu, aby pozbyc sie problemu. Pszczoly odzywaja sie, a padlinozercy powinni byc szczesliwi. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Oddajesz jedzenie i doprowadzasz pszczoly do innego miejsca. 
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, odkrywasz, ze pszczoly wrocily na swoje miejsce i nadal nekaja osadnikow. Musza radzic sobie z pszczolami, wiec twoja przyjazn nie rosnie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie lud, ktory poprosil cie o pomoc, sam poradzi sobie z problemem, wiec nie zyskasz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie przekonujesz, a pszczoly zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Uzyj wlasnego jedzenia, aby zwabic te zwierzeta z terytorium i miec nadzieje, ze nie wroca.
+[OUT]Po prostu ich zaatakuj. [Fizyczny]
+[/NODE]
+
++[NODE]33
+[STORY]
+Zawodzisz i pszczoly szaleja na ciebie! 
+
+Lud, ktory poprosil cie o pomoc, uslyszy twoje krzyki i przyjdzie ci z pomoca. Musza sami zabic wilki i sa wsciekli na koniecznosc oszczedzania czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Pszczoly sluchaja rozumu i postanawiaja sie przeniesc. Poradziles sobie z tym problemem, jak zapytales, wiec zyskujesz przyjazn.
+[/STORY]
+[OUT]Wyjdz.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Jedna pszczola buczy sie dla ciebie przyjaznia i zostaje.
+[/STORY]
+[OUT]Zostawcie razem.
+[OUT]Nie, odejdz.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce i przychodza ci z pomoca. Musza sami zabijac pszczoly i sa zli na koniecznosc oszczedzania czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Gadasz z innymi pszczolami i probujesz im powiedziec, ze tutaj nie jest bezpiecznie, ale sa rozgniewani twoja obecnoscia i atakiem! 
+
+[/STORY]
+[OUT]Obron sie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKilladvGobs(6)
++[NODE]2
+[STORY]
+Znajdujesz prowizoryczna osade goblinow, o ktora prosily cie padlinozercy. 
+[/STORY]
+[OUT]Idz blizej do rozmowy.
+[OUT][Lowca lub percepcja] Przyjrzyj sie blizej.
+[OUT][Magia lub intelekt] Gobliny sa znane z poszanowania twojej domeny. Sprobuj z nimi porozmawiac.
+[OUT]Zaplac zielonoskorym za wyjscie.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Gobliny stoja z bronia w gotowosci: 
+
+'Czego tu chcesz? To nasz kawalek ziemi duchowej, zostajemy tutaj.'
+[/STORY]
+[OUT][Goblin] Powiedzmy, ze mniszki sa podstepami i chca, zeby zniknely. Zapytaj, czy moga sie ruszyc.
+[OUT]Powiedz im, ze padlinozercy nie chca, aby byli sasiadami. Popros ich o przeniesienie, teraz!
+[OUT]Gobliny zwykle nie lapia lapowki, ale ci goscie wygladaja gorzej, wiec moga zaakceptowac zasoby. Zapytaj ich, czy wyjada za cene.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Zauwazasz, ze wiele goblinow zostalo rannych w poprzedniej walce i probuja sie zalatac. 
+
+Widzisz strumien, z ktorego biora wode. Mozesz go zatruc. W tym oslabionym stanie musza umrzec bolesnie.
+[/STORY]
+[OUT]Zatruj strumien.
+[OUT]Idz blizej do rozmowy.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Tak, te rodzaje miekkiej skory, zawsze sa tak drazliwe, jesli chodzi o darn. Pojdziemy, przyjacielu. Nie chcemy zadnych klopotow, mielismy dosc z niektorymi orkami niedaleko stad, wiec strzezcie sie!'
+
+[/STORY]
+[OUT]Dziekuje im za ostrzezenie i zycze im szczescia.
+[OUT]Zaoferuj przyjecie razem przed wyjazdem.
+[/NODE]
+
++[NODE]13
+[STORY]
+Gobbowie umieraja strasznie z trucizny, ale zanim padnie ostatni, potrzasa personelem szamanow i przeklina wasze bezbozne dusze!
+[/STORY]
+[OUT]Cholerny goblin. Wez z nich to, co mozesz.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Rozumiem, tak. Mowisz dobrze, przyjacielu, a ci twoi bogowie rozumieja umysl i ducha. Wyjezdzamy i dajemy ci ten znak naszej przyjazni. Duchy sa z toba.'
+[/STORY]
+[OUT]Podziekujcie im i odejdzcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, dobra, umowa to sprawa, czasy sa trudne, a rzeczy sa dobre, wiec sie wyprowadzamy.'
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zamierzasz zglosic swoj sukces, gdy zdasz sobie sprawe, ze gobliny nie maja honoru - wrocily. 
+
+W koncu zostaja pobici przez padlinozercow bez twojej pomocy, a twoja przyjazn cierpi z tego powodu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie padlinozercy zajmuja sie tym problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Myslisz, ze mozesz szalec i powiedziec nam, co robic? Beat it or else!'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]34
+[STORY]
+„Ach, ty, te hummies, to miejsce wydaje sie miec zle mojo. Idziemy.'
+
+Poradziles sobie z tym problemem, jak zapytales, wiec zyskujesz przyjazn. 
+
+[/STORY]
+[OUT]Dobrze.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce. Musza sami sie pozbyc goblinow i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Tak, masz dobre wibracje, wiec idziemy tak, jak mowilismy. Niech duchy beda dla ciebie mile.'
+
+Gobby poruszaja sie, a padlinozercy sa zadowoleni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Hmm, moze. Daj nam jakies wartosciowe towary, a my odejdziemy, a nawet bedziemy z toba handlowac, jesli chcesz.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmowcie.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Ha! Dobre miejsce w tym kraju, duchy dobrze tu mowia. Nie odchodzimy, mozesz to powiedziec swoim znajomym.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]53
+[STORY]
+„Teraz mowisz jak prawdziwe duchowe dziecko. Chodz, zacznijmy palic i tanczyc!'
+[/STORY]
+[OUT]Impreza do rana.
+[/NODE]
+
++[NODE]55
+[STORY]
+Dobrze imprezujesz. Potem gobliny dotrzymuja slowa i odchodza. 
+
+Zmiatacze sa zadowoleni z wyniku. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Dobrze sie bawisz - za dobrze dla niektorych. Potem gobliny dotrzymuja slowa i odchodza. 
+
+Zmiatacze sa zadowoleni z wyniku. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Dobrze imprezujesz. Potem gobliny dotrzymuja slowa i odchodza. 
+
+Zmiatacze sa zadowoleni z wyniku. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]60
+[STORY]
+Trucizna wykonuje swoja makabryczna prace, a padlinozercy powinni byc szczesliwi, ze ich problem zniknal. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKillsmallSlav(7)
++[NODE]2
+[STORY]
+Znajdujesz oboz slowianski, z ktorym poradzili ci padlinozercy.
+[/STORY]
+[OUT]Przekonaj Slawianow, ze padlinozercy nie sa warci klopotow i najlepiej odejsc.
+[OUT][Intelekt lub harmonia] Przekonaj Slawianow, ze walka nie jest sposobem, by tu pojsc. Rozejm moze okazac sie bezpieczniejszy i bardziej oplacalny dla obu.
+[OUT]Zaplac zwiadowcom.
+[OUT]Atak.
+[OUT]Wroccie pozniej.
+[OUT][Lowca lub percepcja] Ci Slowianie zdaja sie byc zdeterminowani, by polowac na padlinozercow, wiec posadz falszywe slady, by odciagnac ich od tego kawalka ziemi.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Dziekujemy ci, przyjacielu, poniewaz uratowales nam czas. My lud slowianski powinnismy trzymac sie razem z tymi bezboznymi typami. Powodzenia.'
+[/STORY]
+[OUT]Zycze im dobrze i zostancie zglosic swoj sukces.
+[/NODE]
+
++[NODE]13
+[STORY]
+Gdy Slowianczycy odsuwaja sie, zostawiaja ci dar.
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Mowisz w imieniu bogow, wiec bedziemy sluchac. Zrobimy pokoj.'
+[/STORY]
+[OUT]Opusc i zglos swoj sukces.
+[OUT]Opusc i zglos swoj sukces.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, dobra, umowa to umowa, wyprowadzamy sie.'
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zamierzasz zglosic swoj sukces, kiedy dowiesz sie, ze Slawianczycy cie oklamali i nadal drecza padlinozercow. 
+
+Twoja przyjazn za to cierpi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie padlinozercy zajmuja sie tym problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie udaje ci sie oszukac Slowian. Nie wygladaja na ciebie pod wrazeniem.
+[/STORY]
+[OUT]Zaplac im za te zniewage i opusc te ziemie.
+[OUT]Do ataku!
+[OUT]Opusc i przyznaj sie do porazki.
+[/NODE]
+
++[NODE]34
+[STORY]
+Twoj blad dziala, a Slavyanie sie oddalaja. 
+
+Poradziles sobie z tym problemem, jak zapytales, wiec zyskujesz przyjazn. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce. Musza sami zabic Slavyan i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Pewnie mowisz dla bogow, ale musimy zarabiac na zycie. Placisz nam, zostawiamy ciebie i twoich przyjaciol w spokoju, radzimy?'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Po prostu ich zaatakujcie.
+[/NODE]
+
++[NODE]53
+[STORY]
+Smieciarze sa wsciekli: 
+
+'Co? Pokoj z nimi duzo? Prawdopodobnie nie to, o co prosilismy. Ty bogu, wszyscy trzymacie sie razem - zacznijcie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKillsmallSnakes(8)
++[NODE]2
+[STORY]
+Znajdujesz gniazdo weza, z ktorym poradzili ci padlinozercy.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Druid lub Nature] Wiesz, ze weze sa podatne na pewna melodie fletu, wiec uzyj jej, aby odciagnac ich od tego miejsca.
+[OUT][Lasowy lud] Przekonaj weze, by odeszly.
+[OUT][Snake] Musisz zdobyc to terytorium. Wszystkie weze odejda. 
+[OUT][Lowca] Ustaw pulapki, aby rozrzedzic gniazdo, a tym samym gonic reszte.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]12
+[STORY]
+Jestes bardzo pobity. Padlinozercy musza przyjsc ci z pomoca i nie sa pod wrazeniem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Grasz porywajaca melodie i odprowadzasz weze z tego obszaru, a padlinozercy sa wdzieczni za twoja pomoc. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Kiedy wyjezdzasz, waz slizga sie za toba, zdecydowany stac sie czescia twojej grupy.
+[/STORY]
+[OUT]Zaakceptuj weza i odejdz razem.
+[/NODE]
+
++[NODE]28
+[STORY]
+Weze sycza w gniewie i odwracaja sie.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zostaniesz ugryziony, ale uciekaj.
+[/NODE]
+
++[NODE]50
+[STORY]
+Twoje pulapki dzialaja, a wszystkie weze, ktore uciekly, opuszczaja obszar szybko. Pojawiaja sie padlinozercy: 
+
+- Bede przeklety, odpedziles ich. Wspaniale! Tutaj, dziekuje.'
+[/STORY]
+[OUT]Przyjmij ich podziekowania i odejdz.
+[/NODE]
+
++[NODE]51
+[STORY]
+Twoj waz slizga sie do przodu i szepcze do swoich krewnych. Cokolwiek powiedziano, weze odchodza. Wkrotce pojawia sie padlinozercy: 
+
+- Bede przeklety, ty ich przegnales. Wspaniale! Tutaj, dziekuje.'
+[/STORY]
+[OUT]Przyjmij ich podziekowania i odejdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKillWolves(9)
++[NODE]2
+[STORY]
+Podchodzisz do obszaru, gdzie mowi sie, ze stado wilkow, z ktorymi miales do czynienia, wedruje.
+[/STORY]
+[OUT]Umiecie obchodzic sie z wilkami. Znajdzcie rozwiazanie.
+[OUT][Lowca] Sledz wilki.
+[OUT][Natura lub intelekt] Uzyj swojej zdolnosci umyslowej, aby dowiedziec sie, co robic. 
+[OUT][Wilkolak] Dominuj wilki.
+[OUT]Znajdz je i zaatakuj!
+[OUT]Uzyj swojego miesa, aby zwabic te zwierzeta z terytorium i miec nadzieje, ze nie wroca.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Dostrzegasz paczke biegnaca razem, ale jeszcze cie nie widzieli. 
+[/STORY]
+[OUT][Wolf] Biegnij z paczka i przekonaj ich, aby ruszyli dalej.
+[OUT][Wolf] Biegnij z paczka i przekonaj ich, aby ruszyli dalej.
+[OUT]Masz tych, ktorzy potrafia komunikowac sie z wilkami, wiec spraw, by wilki byly ci posluszne.
+[OUT]Wilki szanuja terytorium. Sprobuj wymyslic sposob na oznaczenie tej ziemi dla padlinozercow, dzieki czemu wilki odejda.
+[OUT]Ustaw pulapke na paczke i atakuj, gdy sa oslabione.
+[/NODE]
+
++[NODE]4
+[STORY]
+Sledzisz wilki do ich legowiska. Jest to jaskinia z tylko jedna droga do srodka lub na zewnatrz. 
+
+Mozesz tu zastawic pulapke i zabic ich pojedynczo.
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+Biegniesz z wilkami i poprowadzisz ich do lepszej krainy. Dziekuja i nie wracaja tutaj. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Niektore wilki probuja uciec od twoich pulapek i ugryzc cie w ich umierajacym szalenstwie. 
+
+[/STORY]
+[OUT]Odloz je.
+[/NODE]
+
++[NODE]17
+[STORY]
+Zaznaczasz terytorium i nekasz paczke przez pewien czas, aby w koncu sie ruszyli. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Oddajesz mieso i doprowadzasz zwierzeta do innego miejsca. 
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, dowiadujesz sie, ze zwierzeta wrocily na swoje miejsce i nadal nekaly osadnikow. Musza sobie radzic z samymi wilkami, wiec twoja przyjazn nie rosnie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie padlinozercy zajmuja sie tym problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie przekonujesz, wiec bestie zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Uzyj swojego miesa, aby zwabic te zwierzeta z terytorium i miec nadzieje, ze nie wroca.
+[OUT]Po prostu ich zaatakuj. [Fizyczny]
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje knowania sie nie udaja i jestes atakowany przez pakiet wilkow. 
+
+Padlinozercy slysza twoje krzyki i przychodza z pomoca. Musza sami zabic wilki i sa wsciekli na koniecznosc oszczedzania czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Wilki klaniaja sie twojej dominacji i odchodza. Moze jeden lub dwoch moze nawet zdecydowac sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce i przychodza ci z pomoca. Musza sami zabijac pszczoly i sa zli na koniecznosc oszczedzania czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Biegniesz z wilkami i poprowadzisz ich do lepszej krainy, ale biora to tylko za zwiekszenie swojego terytorium. 
+
+Masz ich wdziecznosc, ale padlinozercy nie sa pod wrazeniem twojej pomocy.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Wilki klaniaja sie twojej dominacji i odchodza. Moze jeden lub dwoch moze nawet zdecydowac sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKilladvRats(10)
++[NODE]2
+[STORY]
+Znajdujesz gniazdo robactwa, do ktorego wyslano cie, by je oczyscic.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Lowca] Ustaw pulapki i zwab ich szczury.
+[OUT][Mistrz bestii lub madrosc] Wiesz, ze szczury sa podatne na pewna melodie fletu. 
+[OUT][Druid] Nie musisz zabijac. Sprobuj zmusic szczury do wyjscia. 
+[OUT][Czarownica] Szczury sa twoja kohorta. Zdominuj robactwo i pozwol im odejsc.
+[OUT]Zbadaj to gniazdo szczurow.
+[OUT][Szczur] Wejdz sam i przekonaj swoich robactwa, by opuscili to miejsce.
+[OUT][Szczur] Wejdz sam i przekonaj swoich robactwa, by opuscili to miejsce.
+[OUT][Szczur] Wejdz sam i przekonaj swoich robactwa, by opuscili to miejsce.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Grasz na flecie, a szczury powoli zaczynaja podazac za toba. Niektorzy juz zatapiaja sie w wodzie. Musisz trzymac melodie wystarczajaco dlugo, aby utopic wszystkie. 
+
+[/STORY]
+[OUT]Zabijcie te, ktore pozostaly w nienaruszonym stanie. Atak!
+[OUT]Kontynuuj gre.
+[OUT]Wroc innym razem.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wchodzisz do gniazda i obijasz sie. Mowisz o bogach, majac nadzieje, ze zagrozisz potega czlowieka i boskosci. 
+
+Szczury sluchaja i odsuwaja sie poslusznie, pozostawiajac ci swobode lupienia ich gniazda. 
+[/STORY]
+[OUT]Dobrze, zbierz co mozesz.
+[/NODE]
+
++[NODE]10
+[STORY]
+Wchodzisz do gniazda i obijasz sie. Mowisz o bogach, majac nadzieje, ze zagrozisz potega czlowieka i boskosci. 
+
+Ale gruby szczur odpowiedzialny za to nie kupuje. Jestes ugryziony i wyrzucony. Gniazdo jest niespokojne.
+[/STORY]
+[OUT]Sprobuj odejsc spokojnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wchodzisz do gniazda i obijasz sie. Mowisz o bogach, majac nadzieje, ze zagrozisz potega czlowieka i boskosci. 
+
+Szczury sluchaja tak dobrze, chca, zebys byl teraz ich mistrzem stada. Poprowadzilbys wlasne gniazdo, miales wiele malych szczurow i przynosiles slowo bogow do robactwa.
+[/STORY]
+[OUT]Zgadzam sie wziac na siebie odpowiedzialnosc. [Stracic jednego szczura]
+[OUT]Nie pozwol swojemu szczurowi odejsc! Zabij samice szczura, ktora jest wyraznie architektem tej katastrofy!
+[/NODE]
+
++[NODE]18
+[STORY]
+Ustawiasz pulapki i pozbywasz sie robactwa. 
+
+Wiesniacy dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Szczur jest bardzo mlody i ranny, ale wiesz jak trenowac szczury, wiec mozesz zabrac go ze soba.
+[/STORY]
+[OUT]Zostawcie razem.
+[/NODE]
+
++[NODE]25
+[STORY]
+Znajdziesz wiele cial dzieci, ale takze demonow i zwierzat. Wiekszosc nie zyje. To gniazdo bylo zajete. 
+
+Co bardziej zaskakujace, odkrywasz w centralnej przestrzeni, na tronie kosci, kota komesa, zwiazanego w kolnierzu. Pozostaje niejasne, czy byl tu pan, czy ofiara. 
+
+Mruczy na ciebie.
+[/STORY]
+[OUT]Wez kota. 
+[OUT]Zabij kota. To wyraznie ten zlo!
+[/NODE]
+
++[NODE]27
+[STORY]
+Ustawiasz pulapki i zabijasz wiekszosc szczurow, a inni uciekaja. W jednej z twoich pulapek odkrywasz cradlepossum - zarosniete, poskrecane, podobne do robactwa stworzenie z duza sakiewka na froncie, znana z kradziezy mlodych. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalalych.
+[/NODE]
+
++[NODE]28
+[STORY]
+Szczury sa straszne i roi sie od ciebie w ciagu kilku minut. Padlinozercy musza przyjsc ci z pomoca i nie sa pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Twoj przyjaciel jest zrozpaczony twoimi dzialaniami, ale gniazdo ucieka ze strachu.
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]49
+[STORY]
+Szczury sluchaja i uciekaja z wioski. Natura i harmonia sa zadowolone z twoich dzialan. Smieciarze dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Szczury sluchaja i uciekaja z wioski. 
+
+Wiesniacy dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Szczury sluchaja i uciekaja z wioski. Smieciarze dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Zblizasz sie i obserwujesz szczury. Wkrotce zdajesz sobie sprawe, ze sa niezwykle. Wyglada na to, ze buduja swego rodzaju wiezienie - sa klatki i dziury, a ty widzisz ciala ich wiezniow wystajace. 
+
+[/STORY]
+[OUT][Lowca] Sprobuj wkrasc sie i zalozyc pulapki, aby pozbyc sie robactwa.
+[OUT][Druid lub beastmaster] Zagraj na flecie, aby zawolac szczury, a nastepnie sprobuj uratowac kogokolwiek.
+[OUT]Atakuj robactwo!
+[/NODE]
+
++[NODE]53
+[STORY]
+Wiesniacy dziekuja za oczyszczenie gniazda i pozostawienie nagrody.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Szczury cie bili i zmuszaja do ucieczki. Wiesniacy musza przyjsc ci z pomoca i nie sa pod wrazeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Gniazdo jest wyczyszczone. Wiesniacy dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Gniazdo jest wyczyszczone. Smieciarze dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]61
+[STORY]
+Robactwo jest martwe lub ucieka. Odkrywasz, ze jednym z cial bylo cradlepossum - zarosniete, poskrecane, podobne do robactwa stworzenie z duza sakiewka na froncie, znana z kradziezy mlodych. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalalych.
+[/NODE]
+
++[NODE]62
+[STORY]
+Szczury sluchaja twojej melodii i poslusznie opuszczaja swoje gniazdo. Odkrywasz, ze jeden z nich byl w rzeczywistosci cradlepossum - przerosnietym, poskrecanym, podobnym do robactwa stworzeniem z duza sakiewka na froncie, znana z kradziezy mlodych. Najprawdopodobniej nie zostal zabrany przez flet, ale zdecydowal sie uciec, gdy mogl. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalalych.
+[/NODE]
+
++[NODE]63
+[STORY]
+Szczury podazaja za melodia i tona. Smieciarze dziekuja i pozostawiaja nagrode.
+[/STORY]
+[OUT]Widzisz czajacego sie szczura. Podejdz do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKilladvBand(11)
++[NODE]2
+[STORY]
+Dostrzegasz oboz bandytow, ktory zmiatali cie zbieracze. 
+[/STORY]
+[OUT][Bandyta lub inteligencja] Sprobuj przekonac ich, ze ani ty, ani padlinozercy nie jestescie warte klopotow i nie wskaz im miejsca, w ktorym moze lezec wiekszy zysk.
+[OUT][Intelekt i harmonia] Sprobuj sparowac sie z bandytami i przekonaj ich, ze walka nie przyniesie teraz zyskow, jesli jestes zaangazowany. 
+[OUT]Zaplac bandytom za opuszczenie tego miejsca.
+[OUT]Do ataku!
+[OUT]Wroccie pozniej.
+[OUT][Lowca lub percepcja] Ci bandyci wydaja sie zdeterminowani, by polowac na padlinozercow. Posadz falszywe tory, aby odciagnac je od tego kawalka ziemi.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Rozumiem, tak, dobra wskazowka, dzieki. Nic gorszego niz marnowanie czasu. Bezpieczny podroz do ciebie, przyjacielu.'
+[/STORY]
+[OUT]Zycze im dobrze i odejdz. 
+[/NODE]
+
++[NODE]13
+[STORY]
+Bandyci nawet zostawiaja ci prezent przed wyjazdem.
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Bah, za duzo mowisz, ale masz sens. Wyjdziemy.'
+[/STORY]
+[OUT]Zycze im dobrze i odejdz. 
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, dobra, umowa to umowa, wyprowadzamy sie.'
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Okazuje sie, ze nie ma honoru wsrod zlodziei - bandyci wracaja na swoja ziemie. 
+
+Padlinozercy nie sa z ciebie zadowoleni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie padlinozercy zajmuja sie tym problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie udaje ci sie oszukac bandytow. Nie wygladaja na ciebie pod wrazeniem.
+[/STORY]
+[OUT]Wyplac je!
+[OUT]Do ataku!
+[OUT]Opusc i przyznaj sie do porazki.
+[/NODE]
+
++[NODE]34
+[STORY]
+Twoj blad dziala, a bandyci oddalaja sie. Poradziles sobie z tym problemem, jak zapytales, wiec zyskujesz przyjazn. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce. Musza sami zabic bandytow i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+„To prawda, ze wygladasz na wiecej klopotow niz oni. Potem znowu wygladasz dobrze. Placisz nam, wyprowadzamy sie.'
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Splac ich.
+[OUT]Do ataku!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKillCrows(12)
++[NODE]2
+[STORY]
+Znajdujesz wieze, w ktorej kurzace gniazdo przeszkadza padlinozercom. 
+[/STORY]
+[OUT]Wiesz, jak postepowac z wronami. Sprobuj to rozgryzc.
+[OUT][Lowca] Sledz wrony.
+[OUT][Natura lub intelekt] Uzyj swojej zdolnosci umyslowej, aby dowiedziec sie, co robic. 
+[OUT][Crow] Dominuj wrony.
+[OUT]Znajdz je i zaatakuj!
+[OUT]Wrony lubia zbierac blyszczace rzeczy. Sprobuj przekupic ich, aby wyszli.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz blizej i obserwujesz ptaki, probujac znalezc najlepszy sposob, aby sie do tego zblizyc. 
+[/STORY]
+[OUT][Crow] Lec z wronami i przekonaj ich, ze nie jest to bezpieczne miejsce dla gniazda, poniewaz padlinozercy sa zdeterminowani, by go zbadac. 
+[OUT][Crow] Lec z wronami i przekonaj ich, ze nie jest to bezpieczne miejsce dla gniazda, poniewaz padlinozercy sa zdeterminowani, by go zbadac. 
+[OUT]Masz tych, ktorzy potrafia komunikowac sie z wronami, wiec spraw, by byli ci posluszni.
+[OUT]Ustaw pulapke na wrony i atakuj, gdy sa oslabione.
+[OUT]Wrony szanuja terytorium. Sprobuj wymyslic sposob na oznaczenie tej ziemi dla padlinozercow, dzieki czemu wrony odejda.
+[/NODE]
+
++[NODE]4
+[STORY]
+Przesledzisz kruki i wybierzesz je jeden po drugim, dzieki czemu reszta ucieknie. 
+
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+Lecicie razem, a wrony sluchaja waszej madrosci i oddalaja sie od wiezy. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Wrony probuja walczyc i zostawic cie krwawiaca, ale zadanie sie konczy. 
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+Zaznaczasz terytorium i przez jakis czas nekasz wrony, aby w koncu ruszyly z wiezy. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Wrony biora swoje blyszczace drobiazgi i odlatuja.
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, dowiadujesz sie, ze wrony wrocily do swojej wiezy. Zmiatacze musza sobie radzic z problemem, wiec twoja przyjazn nie rosnie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie padlinozercy zajmuja sie tym problemem, wiec nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie przekonujesz, wiec wrony zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Wrony lubia zbierac blyszczace rzeczy. Sprobuj przekupic ich, aby wyszli.
+[OUT]Po prostu ich zaatakuj!
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje knowania sie nie udaja i jestes atakowany przez wrony. 
+
+Padlinozercy slysza o twoich bledach i przychodza ci z pomoca. Musza sami zabijac wrony i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Wrony klaniaja sie twojej dominacji i odchodza. Moze jeden lub dwoch moze nawet zdecydowac sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce i przychodza ci z pomoca. Musza sami zabijac wrony i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Wrony zdaja sie najpierw sluchac twojej madrosci, ale pozniej odkrywasz, ze przenosily swoje gniazdo glebiej w wieze, co sprawia, ze padlinozercy sa jeszcze bardziej niebezpieczni. 
+
+Nie robia na tobie wrazenia. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Wrony klaniaja sie twojej dominacji i odlatuja. Byc moze nawet zdecydujesz sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKillAdvSpiders(13)
++[NODE]2
+[STORY]
+Dochodzisz do ruin zajmowanych przez pajaki. To musza byc ci, ktorych zmiatali zadnicy.
+[/STORY]
+[OUT]Wiesz, jak obchodzic sie ze zwierzetami. Sprobuj to rozgryzc.
+[OUT][Hunter] Uzyj sledzenia, aby dowiedziec sie, gdzie lezy ich gniazdo.
+[OUT][Druid] Badz jak bestia i rozmawiaj z pajakami.
+[OUT][Krolowa Pajakow] Zastrasza gniazdo.
+[OUT]Znajdz je i zaatakuj!
+[OUT]Zaoferuj jedzenie krolowej pajakow w zamian za odejscie. Powiedzmy, ze te ruiny i tak nie beda dla nich spokojne, poniewaz padlinozercy chca ich zdobyc.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Znajac zwyczaje zwierzat, szybko identyfikujesz glowne gniazdo, w ktorym prawdopodobnie mieszka krolowa pajakow.
+[/STORY]
+[OUT][Pajak] Idz porozmawiaj ze swoimi krewnymi i przekonaj ich, ze jest to miejsce, w ktorym mozna sie zatrzymac.
+[OUT][Pajak] Idz porozmawiaj ze swoimi krewnymi i przekonaj ich, ze jest to miejsce, w ktorym mozna sie zatrzymac.
+[OUT]Masz tych, ktorzy potrafia komunikowac sie z pajakami. Porozmawiaj z nimi.
+[OUT]Pajaki nie lubia dymu, a ogien moze zniszczyc ich sieci.
+[OUT]Uzyj tej przewagi do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Znajdziesz krolowa pajakow ulozona w malym tunelu w ruinach. Mozesz zablokowac wyjscia i zadusic pajaki dymem. 
+
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT]Wiesz, jak obchodzic sie ze zwierzetami. Sprobuj to rozgryzc.
+[OUT]Zaoferuj jedzenie krolowej pajakow w zamian za odejscie. Powiedzmy, ze te ruiny i tak nie beda dla nich spokojne, poniewaz padlinozercy chca ich zdobyc.
+[/NODE]
+
++[NODE]7
+[STORY]
+Opowiadasz historie o soczystych zdobyczach i chwalebnie ciemnych lochach, ktore pasowalyby do takiej wielkiej krolowej. Slucha i wychodzi, szukajac bardziej zielonych pastwisk. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Niektore pajaki probuja uciec od twojej pulapki i ugryzc cie w ich umierajacym szalenstwie. 
+
+[/STORY]
+[OUT]Odloz je.
+[/NODE]
+
++[NODE]17
+[STORY]
+Udaje ci sie wypalic pajaki ze swoich gniazd i spalic ich sieci, aby zmusic je do opuszczenia tego terytorium. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Oddajesz jedzenie, a krolowa pajakow wychodzi ze swoim gniazdem zgodnie z obietnica.
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, dowiadujesz sie, ze pajaki wrocily na swoje miejsce i nadal nekaja osadnikow. Musza sobie radzic z pajakami, wiec twoja przyjazn nie rosnie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie lud, ktory poprosil cie o pomoc, sam poradzi sobie z problemem, wiec nie zyskasz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie przekonujesz, wiec pajaki zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Zaoferuj jedzenie krolowej pajakow w zamian za odejscie. Powiedzmy, ze te ruiny i tak nie beda dla nich spokojne, poniewaz padlinozercy chca ich zdobyc.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje knowania sie nie udaja i jestes atakowany przez krolowa pajakow. 
+
+Padlinozercy slysza twoje krzyki i przychodza z pomoca. Musza sami zabic pajaki i sa wsciekli na koniecznosc oszczedzania czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Krolowa pajakow klania sie twojej dominacji i odchodzi z pajakami. Moze jeden lub dwoch moze nawet zdecydowac sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce i przychodza ci z pomoca. Musza sami zabic pajaki i sa wsciekli na koniecznosc oszczedzania czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Twoj pajak probowal przekonac innych, by wyszli, ale oferta krolowej byla lepsza, a twoj przyjaciel pozostal ze swoja nowa krolowa! 
+
+Zmiatacze musza radzic sobie z tym problemem sami i nie sa pod wrazeniem twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Jako krolowa pajakow twierdzisz, ze dominujesz nad zwyklym gniazdem. Rozkazujesz robotnikom porzucic te strone i nigdy nie wracac na swoje terytorium. Oni sa posluszni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Army(14)
++[NODE]2
+[STORY]
+Przed toba stoi uzbrojona grupa padlinozercow.
+[/STORY]
+[OUT]Pozdrow swoich sojusznikow. 
+[OUT]Badz ostrozny, ale rozmawiaj z nimi.
+[OUT]Walka!
+[OUT]Zastrasz ich!
+[OUT]Odsun sie.
+[OUT]Zbieracze sa tylko po rzeczy, daj im troche, byc moze zaprzyjaznisz sie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Ach, ludu bogow, dobrze cie widziec!'
+[/STORY]
+[OUT]Zapytaj, czy chca handlowac.
+[OUT]Wypijcie razem drinka.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Nie jestes naszym wrogiem, ale nie jestes naszym przyjacielem. Idz do naszej wioski, jesli chcesz sie zaprzyjaznic. Teraz odejdz.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Walka!
+[OUT]Zastrasz ich!
+[/NODE]
+
++[NODE]17
+[STORY]
+„Dobrze, dobrze, tutaj, zabierasz nasze gowno, a my sie wycofujemy. Nie ma potrzeby walki i zadnych twardych uczuc, eh.'
+[/STORY]
+[OUT]Jesli zostawili cos do uzycia, wez to i odejdz.
+[/NODE]
+
++[NODE]19
+[STORY]
+Twoje zagrozenia nie dzialaja. Jestes bity i goniony.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]25
+[STORY]
+Wygraliscie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Zostales ciezko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Jasne, glupcze, ale nas to nie obchodzi. PA.'
+
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavKillSmallCrows(15)
++[NODE]2
+[STORY]
+Znajdujesz wieze, w ktorej kurzace gniazdo przeszkadza padlinozercom. 
+[/STORY]
+[OUT]Wiesz, jak postepowac z wronami. Sprobuj to rozgryzc.
+[OUT][Lowca] Sledz wrony.
+[OUT][Natura lub intelekt] Uzyj swojej zdolnosci umyslowej, aby dowiedziec sie, co robic. 
+[OUT][Crow] Dominuj wrony.
+[OUT]Znajdz je i zaatakuj!
+[OUT]Wrony lubia zbierac blyszczace rzeczy. Sprobuj przekupic ich, aby wyszli.
+[OUT]Wroccie pozniej.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz blizej i obserwujesz ptaki, probujac znalezc najlepszy sposob, aby sie do tego zblizyc. 
+[/STORY]
+[OUT][Crow] Lec z wronami i przekonaj ich, ze nie jest to bezpieczne miejsce dla gniazda, poniewaz padlinozercy sa zdeterminowani, by go zbadac. 
+[OUT][Crow] Lec z wronami i przekonaj ich, ze nie jest to bezpieczne miejsce dla gniazda, poniewaz padlinozercy sa zdeterminowani, by go zbadac. 
+[OUT]Masz tych, ktorzy potrafia komunikowac sie z wronami, wiec spraw, by byli ci posluszni.
+[OUT]Ustaw pulapke na wrony i atakuj, gdy sa oslabione.
+[OUT]Wrony szanuja terytorium. Sprobuj wymyslic sposob na oznaczenie tej ziemi dla padlinozercow, dzieki czemu wrony odejda.
+[/NODE]
+
++[NODE]4
+[STORY]
+Przesledzisz kruki i wybierzesz je jeden po drugim, dzieki czemu reszta ucieknie. 
+
+[/STORY]
+[OUT]Tak, zrob to.
+[OUT]Po prostu, w staromodny sposob zabijcie je.
+[/NODE]
+
++[NODE]7
+[STORY]
+Lecicie razem, a wrony sluchaja waszej madrosci i oddalaja sie od wiezy. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Wrony probuja walczyc i zostawic cie krwawiaca, ale zadanie sie konczy. 
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]17
+[STORY]
+Zaznaczasz terytorium i przez jakis czas nekasz wrony, aby w koncu ruszyly z wiezy. 
+
+Pozbyles sie problemu, tak jak zostales zapytany, wiec padlinozercy sa wdzieczni. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Wrony biora swoje blyszczace drobiazgi i odlatuja.
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+Niestety, tak jak zamierzasz zglosic swoja udana misje, dowiadujesz sie, ze zwierzeta wrocily do swojej wiezy. Padlinozercy maja do czynienia z samymi bestiami, wiec twoja przyjazn nie rosnie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyles sie problemu, tak jak zostales poproszony, a twoja przyjazn z pewnoscia wzrosnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jestes pokonany i ostatecznie lud, ktory poprosil cie o pomoc, sam poradzi sobie z problemem, wiec nie zyskasz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Nie przekonujesz, wiec wrony zostaja.
+[/STORY]
+[OUT]Poddajcie sie.
+[OUT]Wrony lubia zbierac blyszczace rzeczy. Sprobuj przekupic ich, aby wyszli.
+[OUT]Po prostu ich zaatakuj!
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje knowania sie nie udaja i jestes atakowany przez wrony. 
+
+Padlinozercy slysza o twoich bledach i przychodza ci z pomoca. Musza sami zabijac wrony i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Wrony klaniaja sie twojej dominacji i odchodza. Moze jeden lub dwoch moze nawet zdecydowac sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+padlinozercy slysza o twojej porazce i przychodza ci z pomoca. Musza sami zabijac wrony i sa zli na koniecznosc poswiecenia czasu. Nie zyskujesz zadnej przyjazni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Wrony zdaja sie najpierw sluchac twojej madrosci, ale pozniej odkrywasz, ze przenosily swoje gniazdo glebiej w wieze, co sprawia, ze padlinozercy sa jeszcze bardziej niebezpieczni. 
+
+Nie robia na tobie wrazenia. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Wrony klaniaja sie twojej dominacji i odlatuja. Byc moze nawet zdecydujesz sie zostac z toba. 
+
+Zmiatacze sa zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavangersQuarry(16)
++[NODE]2
+[STORY]
+Wiekszosc tego kamieniolomu zapadla sie w gleboki wawoz, ale wciaz moga tu byc jakies uzyteczne zasoby.
+[/STORY]
+[OUT][Percepcja] Najpierw zajrzyj na miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Przeszukujesz gruz, ale zamiast zasobow natkniesz sie na bande padlinozercow, ktorzy nie wygladaja na zadowolonych z udostepniania tej strony.
+[/STORY]
+[OUT][Scavenger] Porozmawiaj ze swoimi krewnymi. Powiedz im, ze twoj los jest wiekszy i trudniejszy, wiec lepiej sie dziela.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz gruz tego starego kamieniolomu i dostrzegasz slady rudy zlota, ale podejrzewasz, ze musisz kopac gleboko, aby znalezc cos znaczacego. 
+[/STORY]
+[OUT][Krasnolud] Uzyj swojej krasnoludzkiej wiedzy, aby ulatwic ci wykop.
+[OUT][Krasnolud] Uzyj swojej krasnoludzkiej wiedzy, aby ulatwic ci wykop.
+[OUT]Uzyj narzedzi do kopania.
+[OUT]Kopcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Gdy probujesz kopac w poszukiwaniu zlota, ziemia przesuwa sie jeszcze raz i prawie grzebie cie zywcem. 
+
+Udaje ci sie wspiac na powierzchnie. Jesli bylo jakies zloto, zniknelo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Odkrywasz dobry zapas zlota i kilka szkieletow gornikow, ktorzy prawdopodobnie zgineli wraz z nim.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Kiedy znikneli padlinozercy, przekopujesz sie przez gruz, ale poza jakims podstawowym kamieniem, odkrywasz, ze kamieniolom sie wyczerpal.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Oprocz kamienia, znajdujesz porzucone dziecko zamkniete w klatce i wykorzystywane. Jest wdzieczny za pomoc i chce isc z toba.
+[/STORY]
+[OUT]Zabierz dziecko i wyjdz.
+[/NODE]
+
++[NODE]31
+[STORY]
+Probujesz uzyc przesadow padlinozercow i zestawu jaskin i tuneli, aby sklonic ich do myslenia, ze ten kamieniolom jest nawiedzony. Dziala, ale zamiast uciekac, padlinozercy decyduja sie zawalic jaskinie i zabic „duchy”.'
+
+Ledwo co zyjesz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Przeszukujesz gruz, ale zamiast zasobow natkniesz sie na bande padlinozercow. Jeszcze cie nie zauwazyli.
+[/STORY]
+[OUT][Scavenger] Porozmawiaj ze swoimi krewnymi. Powiedz im, ze twoj los jest wiekszy i trudniejszy, wiec lepiej sie dziela.
+[OUT]Sprobuj przechytrzyc tych padlinozercow, zanim cie zobacza.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]38
+[STORY]
+Te stare kamieniolomy maja wiele jaskin i nor, a padlinozercy sa bardzo przesadni. 
+
+Podsycasz ich podejrzanymi dzwiekami i spadajacymi kamieniami, dopoki nie zdecyduja, ze to miejsce jest nawiedzone i porzucaja je, zostawiajac nawet troche ich rzeczy.
+[/STORY]
+[OUT]Zbierz co mozesz.
+[/NODE]
+
++[NODE]39
+[STORY]
+Odkrywasz dobry zapas zlota i kilka szkieletow gornikow, ktorzy prawdopodobnie zgineli wraz z nim.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zmiatacze wygladaja na przerazonych i oddalaja sie: 
+
+'Tak, wez udzial, wez, wez i idz.'
+[/STORY]
+[OUT]Zbierz ich rzeczy.
+[/NODE]
+
++[NODE]45
+[STORY]
+Jest ich tak wiele i wygladaja dobrze wyposazone i agresywne. Myslisz, ze najlepiej teraz odejsc.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Human loot(17)
++[NODE]2
+[STORY]
+Ruiny sa stare i zniszczone, prawdopodobnie juz wielokrotnie spladrowane, ale nigdy nie wiesz, jakie ukryte tajemnice mozesz jeszcze odkryc. 
+
+Obszar na poludniu wydaje sie mniej trawersowany, ale takze niestabilny. 
+[/STORY]
+[OUT]Zbadaj poludnie.
+[OUT]Zbadaj poludnie.
+[OUT]Zbadaj bezpieczniejsze obszary.
+[/NODE]
+
++[NODE]3
+[STORY]
+Znajdujesz ukryta piwnice - lub raczej znajdujesz ja, gdy bolesnie upadasz przez jej sufit na twarda podloge. Nadal jednak mozna znalezc lup. 
+
+
+[/STORY]
+[OUT]Zbierz to.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Robbers(18)
++[NODE]2
+[STORY]
+Gdy przeczesujesz stare ruiny w poszukiwaniu lupow, zauwazysz, ze nie przybyles pierwszy. 
+
+Druga grupa jeszcze cie nie widzi, ale moze sie to zmienic w kazdej chwili.
+[/STORY]
+[OUT]Wezwij zamieszanie i zaatakuj kazdego, kto osmieli sie stanac na twojej drodze!
+[OUT]Do ataku!
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]3
+[STORY]
+Gdy zblizasz sie do drugiej grupy, zdajesz sobie sprawe, ze nie sa padlinozercami, ale bandytami czekajacymi na zasadzke. 
+
+„Jestesmy generalem… genral? Jestesmy rodzajem rodzaju. Bierzemy troche twoich rzeczy, pozwalamy ci wyjsc zywy.'
+
+[/STORY]
+[OUT]Zgadzam sie, aby dac im troche swoich rzeczy (do wartosci 100).
+[OUT]Sprobuj ich zastraszyc.
+[OUT]Walka!
+[OUT]Okazja z nimi, bandyta do bandyty.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wyglada na to, ze to padlinozercy - chropowata, niechlujna partia, grabiaca to, co moze z ruin. 
+
+Poswieciles czas na zwiad, wiec teraz jestes w lepszej pozycji do ataku taktycznego.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Poniewaz harmonia i intelekt dyktuja, musi istniec pokojowe wyjscie. Ci ludzie wygladaja na glodnych. Zaoferuj im jedzenie w zamian za przeszukiwanie ruin. [Lose 20 [R7] food]
+[OUT]Podejdz do padlinozercow i zaoferuj umowe, by przeszukac ruiny razem.
+[OUT]Zastrasz ich.
+[OUT]Zastrasz ich.
+[OUT]Po prostu ich zostawcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Wydajesz sie byc uczciwym typem, a my jestesmy glodni. Sprawa. 
+
+A poniewaz nie jestesmy na tyle glupi, zeby mieszac z twoimi bogami, mozesz szukac tutaj na poludnie i zachod. Uwazaj jednak na wschod - powietrze wydaje sie tam okropne, a dwaj z nas nigdy nie wrocili, by powiedziec, co sie tam ukrywa.'
+
+[/STORY]
+[OUT]Sprawdz strone zachodnia.
+[OUT]Sprawdz strone poludniowa.
+[OUT]Zignoruj ostrzezenie i zbadaj wschodnia strone.
+[/NODE]
+
++[NODE]12
+[STORY]
+Wchodzisz do wschodniej czesci ruin i odkrywasz, ze gleboka, paskudna rana zostala rozerwana w ziemi pod toba. 
+
+Od wewnatrz wyczuwasz obecnosc, ogladasz, czekasz ... 
+
+Poczujesz cieply blask, ktory na poczatku wydaje sie przyjemny, a potem staje sie duszny, goracy i plonacy!
+[/STORY]
+[OUT]Ucieczka!
+
+[OUT]Zostan i walcz z tym!
+[/NODE]
+
++[NODE]17
+[STORY]
+„Przypuszczam, ze jesli dasz nam troche jedzenia, mozemy pozwolic ci przeszukac to miejsce. 
+
+Albo moglibysmy handlowac z tym, co do tej pory znalezlismy.' 
+[/STORY]
+[OUT]Daj im troche jedzenia, abys mogl szukac. [Lose 20 food]
+[OUT]Handluj z nimi i odejdz.
+[OUT]Zamiast tego zaatakuj ich.
+[OUT]Wlasciwie po prostu wyjdz.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Idziemy teraz. Nie zabijasz nas!'
+
+Padlinozercy patrza na ciebie i decyduja, ze lup nie jest wart ich zycia. Uciekaja.
+
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Ty przerazajacy, ale ty nie wiele. Bierzemy cie!'
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]29
+[STORY]
+„Idziemy teraz. Nie zabijasz nas!'
+
+Padlinozercy patrza na ciebie i decyduja, ze lup nie jest wart ich zycia. Uciekaja.
+
+[/STORY]
+[OUT]Dobrze. Zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]30
+[STORY]
+Przewijasz sie i odkrywasz, ze jest to grupa bandytow udajacych, ze niszcza ruiny, ale w rzeczywistosci czekaja na ciebie!
+[/STORY]
+[OUT]Zaatakuj ich prewencyjnym uderzeniem!
+[OUT]Ucieczka!
+[OUT]Okazja z nimi, bandyta do bandyty.
+[OUT]Sprobuj ich zastraszyc.
+[/NODE]
+
++[NODE]35
+[STORY]
+„Myslisz, ze jestes straszny, co? Pomysl jeszcze raz, szumowiny!'
+
+Kiedy rozmawiales, przygotowywali sie do walki, a oni rzucili sie na ciebie.
+[/STORY]
+[OUT]Walka!
+[OUT]Rzuc im troche swoich rzeczy i uciekaj!
+[/NODE]
+
++[NODE]38
+[STORY]
+Zabijasz bandytow i bierzesz ich lup! 
+
+Ale ruiny byly juz wielokrotnie ograbiane.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Plonace swiatlo jest przytlaczajace. Spala twoja dusze, grozac jej calkowitym rozpuszczeniem i zwiazaniem z wiecznie swiecaca obecnoscia. 
+
+Tak jak myslisz?Bede ulegac lekkim ucieczkom, byc moze wciaz zbyt slabym, by cie w pelni zabrac.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Twoj duch jest silny i odpycha plonace swiatlo, ktore grozi pozrec twoja dusze. 
+
+Przynajmniej teraz mozesz spladrowac ruiny w spokoju, mimo ze doznajesz wstrzasu. 
+[/STORY]
+[OUT]Przeszukaj ruiny i wyjdz.
+[/NODE]
+
++[NODE]55
+[STORY]
+„Wydajesz sie byc uczciwym typem, a my jestesmy glodni. Sprawa. 
+
+A poniewaz nie jestesmy na tyle glupi, zeby mieszac z twoimi bogami, mozesz szukac tutaj na poludnie i zachod. Uwazaj jednak na wschod - powietrze wydaje sie tam okropne, a dwaj z nas nigdy nie wrocili, by powiedziec, co sie tam ukrywa.'
+
+[/STORY]
+[OUT]Sprawdz strone zachodnia.
+[OUT]Sprawdz strone poludniowa.
+[OUT]Zignoruj ostrzezenie i zbadaj wschodnia strone.
+[/NODE]
+
++[NODE]56
+[STORY]
+„Nie, nie chcemy zajmowac sie twoim rodzajem. Pokonaj!'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Zamiast tego zaatakuj ich.
+[/NODE]
+
++[NODE]59
+[STORY]
+Twoj zdecydowany atak niszczy wroga, ale nie zauwazyles malej grupy startujacej z tym, co tu spladrowal. 
+
+Mimo to mozesz teraz przeszukiwac ruiny. 
+
+[/STORY]
+[OUT]Sprawdz strone zachodnia.
+[OUT]Sprawdz strone poludniowa.
+[OUT]Sprawdz strone wschodnia. 
+[/NODE]
+
++[NODE]60
+[STORY]
+Zrecznie wysylasz wroga. 
+
+Masz teraz mozliwosc kontynuowania przeszukiwania ruin. 
+
+[/STORY]
+[OUT]Sprawdz strone zachodnia.
+[OUT]Sprawdz strone poludniowa.
+[OUT]Sprawdz strone wschodnia. 
+[/NODE]
+
++[NODE]62
+[STORY]
+Pokonany, uciekasz dla swojego zycia, musisz zostawic troche swoich zapasow. 
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]64
+[STORY]
+„Sadze, ze dealin jest bardziej oplacalny. Mozemy handlowac, albo mozesz sie wyglupiac. Nazywac to zawodowa kora ... dygac?'
+[/STORY]
+[OUT]Zgadzam sie na handel.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]66
+[STORY]
+„Ech, wygladasz wystarczajaco krzepko i jestesmy zmeczeni. Moze najlepiej, ze damy ci troche naszych rzeczy, a ty zostawisz nas, prawda?'
+[/STORY]
+[OUT]Zgadzam sie wziac ich rzeczy i pozwolic im byc.
+[OUT]Zamiast tego zaatakuj ich. Walka powinna byc teraz latwiejsza, bo sie boja!
+[/NODE]
+
++[NODE]69
+[STORY]
+Jestes bardzo pobity i moze upuscisz troche swoich rzeczy, zeby cie nie gonic. 
+
+„Na szczescie nie jestesmy zli, w przeciwnym razie wezmiemy wszystkie twoje rzeczy!'
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]71
+[STORY]
+„Przypuszczam, ze jesli dasz nam troche jedzenia, mozemy pozwolic ci przeszukac to miejsce. 
+
+Albo moglibysmy handlowac z tym, co do tej pory znalezlismy.' 
+[/STORY]
+[OUT]Daj im troche jedzenia, abys mogl szukac. [Lose 20 food]
+[OUT]Zamiast tego zaatakuj ich.
+[OUT]Wlasciwie po prostu wyjdz.
+[/NODE]
+
++[NODE]72
+[STORY]
+Czujesz sie wzmocniony przez swojego boga. 
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery hum mix(19)
++[NODE]2
+[STORY]
+Wchodzisz na starozytny cmentarz ludzki. Tutaj czujesz obecnosc istot nieziemskich pozostajacych w ciemnych zakamarkach, ale nie reaguja na ciebie w zaden sposob.
+[/STORY]
+[OUT]Dobrze. Szukaj przydatnych zasobow, nie przeszkadzajac zmarlym.
+[OUT]Dobrze. Szukaj przydatnych zasobow, nie przeszkadzajac zmarlym.
+[OUT]Dobrze. Szukaj przydatnych zasobow, nie przeszkadzajac zmarlym.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Cmentarz wyglada, jakby byl wielokrotnie ograbiany. Jest troche gruzu i brudu. 
+
+Znalazles jednak wyblakly pentagram i martwe cialo, ktore nie zostalo zakopane. Wsrod zgnilych rzeczy znajdziesz mape narysowana na kawalku skory.
+[/STORY]
+[OUT]Wez mape i wyjdz. 
+[OUT]Wez mape i wyjdz.
+[/NODE]
+
++[NODE]6
+[STORY]
+Cmentarz wyglada, jakby byl wielokrotnie ograbiany. Jest troche gruzu i brudu. 
+
+Znajdujesz jedna duza krypte, ktora wciaz moze kryc w sobie pewne tajemnice, ale musisz sie przesunac duza plyte kamienna, aby sie tam dostac.
+[/STORY]
+[OUT]Jestes wystarczajaco silny, aby przeniesc plyte bez wiekszego wysilku.
+[OUT]Sprobuj przeniesc plyte.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Przesuwasz plyte i wchodzisz do ciemnej krypty. 
+
+Kiedy wchodzisz do srodka, swiece zapalaja sie wzdluz twojej sciezki, a wewnatrz znajdziesz kamienna trumne. Wokol niego, w roznych wnekach, widac posagi w bizuterii, przedmiotach ozdobnych, a nawet ceremonialnej broni.  Niektore z nich sa prawdopodobnie zbyt stare, aby je wykorzystac, ale niektore moga zostac uratowane. 
+
+[/STORY]
+[OUT]Wkradnij sie i szybko zrabuj miejsce.
+[OUT]Wkradnij sie i szybko zrabuj miejsce.
+[OUT]Wkradnij sie i szybko zrabuj miejsce.
+[OUT]Zaatakuj wszystko, co lezy w trumnie.
+[OUT]Zaatakuj wszystko, co lezy w trumnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Krypta pozostaje nietknieta, a wysilek pozostawia cie wyczerpanym.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Czujesz, jak powietrze napina sie wokol ciebie, a po twoim kregoslupie leka sie strach, ale wslizgujesz sie i lapiesz jak najwiecej, zanim cokolwiek sie stanie. 
+[/STORY]
+[OUT]Dobrze, wez rzeczy i wyjdz.
+[OUT]Dobrze, wez rzeczy i wyjdz.
+[/NODE]
+
++[NODE]16
+[STORY]
+Czujesz, jak powietrze napina cie wokol i kregoslup splywa na ciebie. Nic nie widzisz, ale czujesz ciemna klatwe atakujaca cie!
+[/STORY]
+[OUT]Broncie sie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Czujesz, jak powietrze napina sie wokol ciebie, a po twoim kregoslupie leka sie strach, ale wslizgujesz sie i lapiesz jak najwiecej, zanim cokolwiek sie stanie. 
+[/STORY]
+[OUT]Dobrze, wez rzeczy i wyjdz.
+[OUT]Dobrze, wez rzeczy i wyjdz.
+[/NODE]
+
++[NODE]19
+[STORY]
+Cokolwiek ciemna sila probowala cie zlamac, zawodzi i wycofuje sie, skad przyszla. 
+
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Otwierasz krypte i dzgasz wszystko, co bylo w srodku. Wyglada jak bardzo martwe cialo, a teraz jest, er, martwy.
+[/STORY]
+[OUT]Dobrze. Zrabuj miejsce i wyjdz.
+[/NODE]
+
++[NODE]25
+[STORY]
+Striga, ktora lezala wewnatrz, spelnila swoja prawdziwa smierc. Grobowiec jest otwarty na grabieze.
+[/STORY]
+[OUT]Zbieracie co mozecie i wychodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Zle cie pobito, twoja krew zostala pobita, twoje dusze oslabione, ale udaje ci sie uciec przed smiercia.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Cmentarz wyglada, jakby byl wielokrotnie ograbiany. Jest troche gruzu i brudu. 
+
+Pod jednym z nagrobkow zauwazysz takze stwora. 
+
+[/STORY]
+[OUT]Przyjrzyj sie blizej, aby sprobowac go zidentyfikowac.
+[OUT]Do ataku!
+[OUT]Zostaw to.
+[OUT][Unliving] Czujesz sie tutaj slabsza forma zycia. Sprobuj zdominowac go w poddanstwo.
+[/NODE]
+
++[NODE]28
+[STORY]
+To sa nieozywione robactwo!
+[/STORY]
+[OUT]Zabij ich!
+[OUT]Odciagnij ich troche jedzenia i troche krwi. Nastepnie zrabuj grob, ktory kopali.
+[OUT]Odchodzicie.
+[OUT][Unliving] Czujesz sie tutaj slabsza forma zycia. Sprobuj zdominowac go w poddanstwo.
+[/NODE]
+
++[NODE]35
+[STORY]
+Szczury cie pokonaly i jestes zmuszony do ucieczki. Niektorzy z was sa zarazeni nieozywionym robactwem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Ciemna, zlowroga sila sciska wasze dusze, niszczac je od wewnatrz. Czujesz sie brudny, pogwalcony. 
+
+Udaje ci sie wydostac z tego miejsca, ale nie bez blizn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Przesuwasz plyte i wchodzisz do ciemnej krypty. 
+
+Kiedy wchodzisz do srodka, swiece zapalaja sie wzdluz twojej sciezki, a wewnatrz znajdziesz kamienna trumne. Wokol niego, w roznych wnekach, widac posagi w bizuterii, przedmiotach ozdobnych, a nawet ceremonialnej broni.  Niektore z nich sa prawdopodobnie zbyt stare, aby je wykorzystac, ale niektore moga zostac uratowane. 
+
+[/STORY]
+[OUT]Wkradnij sie i szybko zrabuj miejsce.
+[OUT]Wkradnij sie i szybko zrabuj miejsce.
+[OUT]Wkradnij sie i szybko zrabuj miejsce.
+[OUT]Zaatakuj wszystko, co lezy w trumnie.
+[OUT]Zaatakuj wszystko, co lezy w trumnie.
+[/NODE]
+
++[NODE]46
+[STORY]
+Niestety, dla jednego z was rany byly zabojcze - a przynajmniej tak sie wydawalo, dopoki nie powstales jako nocny spacerowicz, strzyga. Na szczescie twoje polaczenie z kosmicznym panteonem pozostaje silne, wiec mozesz swobodnie podazac wlasna sciezka.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Twoj plan dziala, ale rzeczy, ktore zdobedziesz, sa zainfekowane jakas paskudna choroba szczura.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Dominujesz nad nieozywionymi szczurami roi sie od grobu, ale sa zbyt przerazeni, by sluzyc. Po prostu uciekaja w cienie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Batcave(20)
++[NODE]2
+[STORY]
+Natkniesz sie na jaskinie, a twoi zwiadowcy donosza, ze ma tunele w glebi, co moze kryc w sobie tajemnice.
+[/STORY]
+[OUT][Lowca lub percepcja] Sprawdz obszar przed wejsciem.
+[OUT]Wejdzcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wchodzisz do jaskini, zeby zobaczyc, czy ma w niej dobre mineraly. Ale jestes takze zaskoczony gniazdem wscieklych nietoperzy!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]9
+[STORY]
+Nie widzisz ostatniej aktywnosci humanoidalnej ani zadnych duzych sladow zwierzat. 
+
+Jaskinia ma w sobie dobre mineraly. Widzisz takze odchody nietoperzy, wiec spodziewasz sie znalezc gniazdo. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Poczekaj do zapadniecia zmroku, a potem sprobuj sie zakrasc, gdy nietoperze beda zerowaly.
+[OUT]Poczekaj do zapadniecia zmroku, a potem sprobuj sie zakrasc, gdy nietoperze beda zerowaly.
+[/NODE]
+
++[NODE]15
+[STORY]
+Nietoperze pobily cie i zmusily do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+O zmroku nietoperze wyruszaja na karmienie, a ty wkradasz sie, by wziac z jaskini to, co mozesz. 
+
+Niestety, nietoperze musialy cie zauwazyc. Wracaja i roi sie od ciebie!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]19
+[STORY]
+Zabijasz nietoperze i mozesz je odkrywac.
+[/STORY]
+[OUT]Przeszukaj jaskinie.
+[OUT]Przeszukaj jaskinie, zbierz lup i wyjdz.
+[/NODE]
+
++[NODE]20
+[STORY]
+W glebi jaskini, ukryty przed wzrokiem, odkrywasz szczatki mezczyzny odzianego w ciezka zbroje, czarnego jak noc, jakiegos rodzaju peleryna i czapke ze spiczastymi kawalkami, prawie jak nietoperz. Znajdziesz tu rowniez kilka dziwnych mechanicznych gadzetow, wszystkie zardzewiale i polamane, ale przynajmniej mozesz dostac troche metalu od dziwnego faceta. 
+
+[/STORY]
+[OUT]Zbierzcie lupy i odejdzcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+O zmroku nietoperze wyruszaja na karmienie, a ty wkradasz sie, by wziac z jaskini to, co mozesz.
+[/STORY]
+[OUT]Przeszukaj jaskinie.
+[OUT]Przeszukaj jaskinie, zbierz lup i wyjdz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ScavPOI(21)
+[/EVENT]
+
+-- [EVENT] --Scavenger sell ppl(22)
++[NODE]2
+[STORY]
+„Sprzedaj kilku ludzi, ktorych mowisz, tak, wygladasz, jakbys mial za duzo, co? 
+
+Nie jestesmy bogaci, ale mozemy zaoferowac ci uczciwa cene.'
+[/STORY]
+[OUT]Sprzedaj kogos za dobre kosci. [Min 30]
+[OUT]Sprzedaj kogos za gwarantowane mocne zwierze. [Kon lub koza przewoznika]
+[OUT]Sprzedaj kogos za paczke mocnych narzedzi. [Min. 1 zebranie i 1 zebranie]
+[OUT]Sprzedaj kogos za dobry kamien. [Min 30]
+[OUT]Odchodzicie.
+[OUT]Sprzedaj kogos za padlinozerce. [Tylko jeden raz]
+[/NODE]
+
+[/EVENT]
+
