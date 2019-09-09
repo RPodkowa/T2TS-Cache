@@ -6095,8 +6095,8 @@ Wise ones worry that this may be a bad sign for the coming harvest, so you make 
     </nodes>
   </Adventure>
   <Adventure name="Spider Cult" uniqueID="31" allowOnce="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="26" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-11" positionY="6" width="347" height="661" image="DefaultPlains">
-      <outputs ownerID="1" targetID="2" fromX="313" fromY="-597" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-109" positionY="142" width="347" height="661" image="DefaultPlains">
+      <outputs ownerID="1" targetID="2" fromX="215" fromY="-461" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="379" positionY="117" width="350" height="885">
       <logic>
@@ -6151,7 +6151,7 @@ Their heated discussion halts when they see you. They draw weapons and stand rea
       <outputs name="Lose" ownerID="5" targetID="12" fromX="1429" fromY="443" />
       <outputs name="Surrender" ownerID="5" targetID="12" fromX="1429" fromY="363" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="1765" positionY="1287" width="350" height="885">
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="1598" positionY="1384" width="350" height="885">
       <logic>
         <ModifierBlock>
           <LogicModifiers list="ppl">
@@ -6159,9 +6159,9 @@ Their heated discussion halts when they see you. They draw weapons and stand rea
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Ask if they are part of the stingers faction." ownerID="6" targetID="8" fromX="2090" fromY="795" />
-      <outputs name="Agree to help." ownerID="6" targetID="9" fromX="2090" fromY="715" />
-      <outputs name="Refuse and say that you will not go against the Slavyans for a spider cult. Leave." ownerID="6" targetID="10" fromX="2090" fromY="635" />'Well, I suppose we can share. We were forced out of our nest by humans who took offence at our beliefs. We worship the lady Dievanna, but we see her best reflected as the spider queen. 
+      <outputs name="Ask if they are part of the stingers faction." ownerID="6" targetID="8" fromX="1923" fromY="892" />
+      <outputs name="Agree to help." ownerID="6" targetID="9" fromX="1923" fromY="812" />
+      <outputs name="Refuse and say that you will not go against the Slavyans for a spider cult. Leave." ownerID="6" targetID="10" fromX="1923" fromY="732" />'Well, I suppose we can share. We were forced out of our nest by humans who took offence at our beliefs. We worship the lady Dievanna, but we see her best reflected as the spider queen. 
 
 The Slavyans felt we were disrespectful. They took our home and burned the young as if they were mere beasts. 
 
@@ -6253,7 +6253,7 @@ If you truly want to aid us, reclaim our nest. It is rich in blood bones, collec
 The Slavyans felt we were disrespectful. They took our home and burned the young as if they were mere beasts. 
 
 If you truly want to aid us, reclaim our nest. It is rich in blood bones, collected over many years. You can harvest them if you like.'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="19" positionX="-460" positionY="-94" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="19" positionX="-527" positionY="-84" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="20" positionX="-409" positionY="-1710" width="350" height="725">
       <outputs name="Leave." ownerID="20" targetID="21" fromX="-83" fromY="-2201" />You are badly beaten and forced to flee.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="21" positionX="39" positionY="-1771" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
@@ -6496,7 +6496,7 @@ They pack up and leave, and the spider cult approaches:
       <outputs name="Nothing to do here for now. Leave." ownerID="23" targetID="25" fromX="-261" fromY="-698" />You find the spider cult nest you once helped:
 
 'Welcome back, friend. You can rest, recruit any folk who'd like to join you, heal toxins, or trade with us.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="24" positionX="-1149" positionY="72" width="460" height="479" traderProfile="TRADER-BEASTS_FRIENDLY" playerInventory="stuff2">
+    <nodes xsi:type="NodeTrade" ID="24" positionX="-1526" positionY="225" width="460" height="479" traderProfile="TRADER-BEASTS_FRIENDLY" playerInventory="stuff2">
       <logic>
         <FilterBlock>
           <LogicFilter name="stuff2">
@@ -6512,26 +6512,11 @@ They pack up and leave, and the spider cult approaches:
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Confirm" ownerID="24" targetID="26" fromX="-718" fromY="-256" />
-      <outputs name="Cancel" ownerID="24" targetID="26" fromX="-718" fromY="-336" />
+      <outputs name="Confirm" ownerID="24" targetID="25" fromX="-1095" fromY="-103" />
+      <outputs name="Cancel" ownerID="24" targetID="25" fromX="-1095" fromY="-183" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="-1082" positionY="-692" width="350" height="530" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventure" ID="26" positionX="-1605" positionY="39" width="350" height="966">
-      <logic>
-        <FilterBlock>
-          <LogicFilter name="ppl" makePublic="true">
-            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
-          </LogicFilter>
-          <LogicFilter name="stuff" makePublic="true">
-            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
-          </LogicFilter>
-        </FilterBlock>
-      </logic>
-      <outputs name="Trade. [10 turn cooldown]" ownerID="26" targetID="24" fromX="-1279" fromY="-452" />
-      <outputs name="Heal toxins." ownerID="26" targetID="27" fromX="-1279" fromY="-532" />
-      <outputs name="Recruit spiders, for a price. [Strong Spiders]" ownerID="26" targetID="28" fromX="-1279" fromY="-612" />
-      <outputs name="Nothing to do here for now. Leave." ownerID="26" targetID="25" fromX="-1279" fromY="-692" />'Anything else?'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="-2063" positionY="-378" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="-800" positionY="-1028" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="-1697" positionY="-360" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicProcessing name="ill" list1="ppl">
@@ -6548,7 +6533,7 @@ They pack up and leave, and the spider cult approaches:
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="28" positionX="-1710" positionY="-984" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="nopet" startingBalance="-1000">
+    <nodes xsi:type="NodeTrade" ID="28" positionX="-1465" positionY="-966" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="nopet" startingBalance="-1000">
       <logic>
         <FilterBlock>
           <LogicFilter name="stuff2">
@@ -6570,10 +6555,10 @@ They pack up and leave, and the spider cult approaches:
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Confirm" ownerID="28" targetID="29" fromX="-1279" fromY="-1312" />
-      <outputs name="Cancel" ownerID="28" targetID="26" fromX="-1279" fromY="-1392" />
+      <outputs name="Confirm" ownerID="28" targetID="29" fromX="-1034" fromY="-1294" />
+      <outputs name="Cancel" ownerID="28" targetID="25" fromX="-1034" fromY="-1374" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="-2190" positionY="-968" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="-1996" positionY="-1099" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -13124,7 +13109,7 @@ He is gone, and you are left with his rejected collectible.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="5" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -13138,7 +13123,7 @@ He is gone, and you are left with his rejected collectible.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="3" tag="SUBRACE-GOB_TAINTED_SHAMAN" />
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-GOB_TAINTED_SHAMAN" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>

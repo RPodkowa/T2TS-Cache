@@ -261,8 +261,8 @@ Since they are trying to establish their settlement as more than a nest, they ag
     </nodes>
   </Adventure>
   <Adventure name="Nest rat" uniqueID="2" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="1" nodeIdMax="48" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-191.9802" positionY="17.3267326" width="347" height="783" image="Event095">
-      <outputs ownerID="1" targetID="2" fromX="132" fromY="-708" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-191.9802" positionY="17.3267326" width="347" height="661" image="Event095">
+      <outputs ownerID="1" targetID="2" fromX="132" fromY="-586" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="236.2846" positionY="210.822525" width="350" height="966">
       <logic>
@@ -330,7 +330,7 @@ Since they are trying to establish their settlement as more than a nest, they ag
         </ModifierBlock>
       </logic>
       <outputs name="Leave." ownerID="14" targetID="45" fromX="3216" fromY="-784" />You climb up but realise you were bitten by rats and the wounds are infected.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="2474" positionY="-240" width="350" height="455" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="2474" positionY="-240" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicProcessing name="2" list1="ppl">
@@ -422,7 +422,7 @@ Since they are trying to establish their settlement as more than a nest, they ag
 Some of the rats begin tugging at your feet as if to carry you too, but for now they judge it too hard of a task.</nodes>
     <nodes xsi:type="NodeAdventure" ID="32" positionX="499.237854" positionY="-1170.16919" width="350" height="885">
       <outputs name="Attack!" ownerID="32" targetID="3" fromX="824" fromY="-1661" />
-      <outputs name="[Druid]Try talking to the fat rat. It looks at least partly sentient." ownerID="32" targetID="37" fromX="824" fromY="-1741" />
+      <outputs name="[Druid]Become like a rat and speak to them." ownerID="32" targetID="37" fromX="824" fromY="-1741" />
       <outputs name="[Witch]Try to dominate the rat. The vermin should be your familiars, not sitting on thrones." ownerID="32" targetID="43" fromX="824" fromY="-1821" />Farther into the tunnel, you see an obese rat slumped on a throne made of rat droppings, bones, and odd bits. 
 
 Smaller rats swarm around the seat and add new layers.</nodes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Children" lastEventIndex="45" allowToUse="true" uniqueModuleID="1995964287">
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Children" lastEventIndex="46" allowToUse="true" uniqueModuleID="1995964287">
   <Adventure name="StorkHum" uniqueID="1" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="3" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
       <logic>
@@ -1784,10 +1784,13 @@ But the ever-vigilant and slightly over enthusiastic stork is spotted nearby and
           <LogicProcessing name="adult" list1="ppl" list2="child">
             <scriptCallWithTag scriptName="FLP_AminusB" />
           </LogicProcessing>
+          <LogicProcessing name="adultnounl" list1="adult" list2="unliving">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
           <LogicResultAction list="unliving">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
-          <LogicResultAction list="adult">
+          <LogicResultAction list="adultnounl">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
           <LogicResultAction>
@@ -2030,7 +2033,7 @@ Only one such ceremony can be undertaken every two decades and it is not always 
       <outputs ownerID="8" targetID="7" fromX="1198" fromY="-1168" />
     </nodes>
   </Adventure>
-  <Adventure name="Unliving Mating2" uniqueID="44" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="Unliving Mating2" uniqueID="44" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
       <logic>
         <FilterBlock>
@@ -2049,10 +2052,13 @@ Only one such ceremony can be undertaken every two decades and it is not always 
           <LogicProcessing name="adult" list1="ppl" list2="child">
             <scriptCallWithTag scriptName="FLP_AminusB" />
           </LogicProcessing>
+          <LogicProcessing name="adultnotunliving" list1="adult" list2="unliving">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
           <LogicResultAction list="unliving">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
-          <LogicResultAction list="adult">
+          <LogicResultAction list="adultnotunliving">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
           <LogicResultAction>
@@ -2225,5 +2231,137 @@ Your unliving friend got really friendly with someone, and the stork decided to 
       <outputs name="Rejoice." ownerID="2" targetID="3" fromX="743" fromY="-614" />A couple of your folk found  a child in the cabbage patch!
 </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="819" positionY="-270" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="__Unliving Mating2" uniqueID="46" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="10" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="unliving">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-UNLIVING" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicFilter name="allchildren">
+            <scriptCallWithTag scriptName="FwT_UnSafe_ThisPlayerAllGroupsCharacters" parameter="1" tag="TAG-CHILD_HUM" />
+          </LogicFilter>
+          <LogicFilter name="ppl">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicProcessing name="adult" list1="ppl" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="adultnotunliving" list1="adult" list2="unliving">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="unliving">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="adultnotunliving">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="allchildren">
+            <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="3" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="447" positionY="-87" width="350" height="966">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="unl">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-UNLIVING" />
+          </LogicFilter>
+          <LogicFilter name="ppl">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="---" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="1unl" makePublic="true" list1="unl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicProcessing name="adult" list1="ppl" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" parameter="" />
+          </LogicProcessing>
+          <LogicProcessing name="nounl" list1="adult" list2="unl">
+            <scriptCallWithTag scriptName="FLP_AminusB" parameter="" />
+          </LogicProcessing>
+          <LogicProcessing name="1other" makePublic="true" list1="nounl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="1unl">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_S" />
+          </LogicModifiers>
+          <LogicModifiers list="1other">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-ILLNESS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Rejoice." ownerID="2" targetID="3" group="G1" fromX="772" fromY="-578" />
+      <outputs name="Rejoice." ownerID="2" targetID="4" group="G1" fromX="772" fromY="-658" />
+      <outputs name="Rejoice." ownerID="2" targetID="5" group="G1" fromX="772" fromY="-738" />
+      <outputs name="Rejoice." ownerID="2" targetID="6" group="G1" fromX="772" fromY="-818" />Either love knows no bounds, or there is something wrong with the stork, but... 
+
+Your unliving friend got really friendly with someone, and the stork decided to deliver an offspring into their care.
+
+ </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="914" positionY="95" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="10" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-GOB_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="919" positionY="-438" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="20" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-HUM_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1326" positionY="-653" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="40" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-UNLI_CORPSE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="877" positionY="-993" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-UNLI_RAT" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
   </Adventure>
 </MODULE>

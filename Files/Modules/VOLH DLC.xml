@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="VOLH DLC" lastEventIndex="41" allowToUse="true" uniqueModuleID="-1610678347">
   <Adventure name="Dark Volh" uniqueID="6" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="22" eventTag="TAG-LOGVOLH" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="13" positionY="112" width="347" height="661" image="Event011">
@@ -7501,7 +7501,7 @@ Others nod. You hear them mention curses, bad omens, and evil spirits. The witch
       <outputs name="Actually, being a rat is not so bad. Thank her for the new perspective, and ask for another payment for saving her life." ownerID="9" targetID="40" fromX="2843" fromY="255" />
       <outputs name="Kill her!" ownerID="9" targetID="10" fromX="2843" fromY="175" />
       <outputs name="[Witch]Demand that she give you a clipping of her armpit hair and two toenails, and tell her to spit over her left shoulder three times so you can catch it. This will make a potion to break the curse for sure." ownerID="9" targetID="29" fromX="2843" fromY="95" />
-      <outputs name="[Gusla or volh]Demand that she give you a clipping of her armpit hair and two toenails, and tell her to spit over her left shoulder three times so you can catch it. This will make a potion to break the curse for sure.&#xD;&#xA;'Now, now, I told the others, but at least you already know, I am great at curses, so if you kill me, you will pay!'" ownerID="9" targetID="31" fromX="2843" fromY="15" />The witch shows no remorse and shrugs:
+      <outputs name="[Gusla or volh]Demand that she give you a clipping of her armpit hair and two toenails, and tell her to spit over her left shoulder three times so you can catch it. This will make a potion to break the curse for sure.&#xD;" ownerID="9" targetID="31" fromX="2843" fromY="15" />The witch shows no remorse and shrugs:
 'Breaking curses is not the same as dishing them out, my dearie. But you did save my bacon, so I can try to help you out. It will not be easy.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="3343" positionY="418" width="350" height="885">
       <outputs name="Kill her anyway." ownerID="10" targetID="12" fromX="3668" fromY="-73" />
@@ -7661,7 +7661,7 @@ The people are angry, and you get a few bumps and bruises as they chase you away
         </FilterBlock>
       </logic>
       <outputs name="[Cursed rat only]Drink up." ownerID="29" targetID="30" fromX="4099" fromY="813" />
-      <outputs name="Try a different way." ownerID="29" targetID="9" fromX="3755" fromY="733" />'Bah, you know this will take some of my power, but I suppose I do owe the rat, and you are a sister. Here, enjoy. Don't blame me if the undoing of the curse doesn't return one exactly to what they were. But they won't be a rat, that's for sure.'
+      <outputs name="Try a different way." ownerID="29" targetID="9" fromX="4099" fromY="733" />'Bah, you know this will take some of my power, but I suppose I do owe the rat, and you are a sister. Here, enjoy. Don't blame me if the undoing of the curse doesn't return one exactly to what they were. But they won't be a rat, that's for sure.'
 She follows your instructions to the letter and even aids you in preparing the potion. Now all you must do is drink it and not throw up. You only get one go.</nodes>
     <nodes xsi:type="NodeChallenge" ID="30" positionX="4252" positionY="1471" width="500" height="807" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_2P_0M_0S" challengeScale="0" challengedList="cursed">
       <logic>
@@ -7688,7 +7688,7 @@ She follows your instructions to the letter and even aids you in preparing the p
         </FilterBlock>
       </logic>
       <outputs name="[Cursed rat only]Drink up." ownerID="31" targetID="30" fromX="3042" fromY="1201" />
-      <outputs name="Try a different way." ownerID="31" targetID="9" fromX="2698" fromY="1121" />'Bah, a man-witch tellin' me what to do... In my day, you were clever enough to hide your mugs! Veles be damned for allowing this. But fair is fair - here.'
+      <outputs name="Try a different way." ownerID="31" targetID="9" fromX="3042" fromY="1201" />'Bah, a man-witch tellin' me what to do... In my day, you were clever enough to hide your mugs! Veles be damned for allowing this. But fair is fair - here.'
 She follows your instructions to the letter and even aids you in preparing the potion. Now all you must do is drink it and not throw up. You only get one go.</nodes>
     <nodes xsi:type="NodeAdventure" ID="32" positionX="4942" positionY="1505" width="350" height="725">
       <logic>
