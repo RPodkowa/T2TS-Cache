@@ -1,0 +1,415 @@
+-- [EVENT] --ShadowKinTradesmall(0)
++[NODE]2
+[STORY]
+Stoiska handlowca są dla ciebie otwarte.   
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako zapłaty. Najpierw jednak będziecie musieli zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z tobą. Bogowie niech będą z tobą.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ShadowKinTrademedium(1)
++[NODE]2
+[STORY]
+Stoiska kupca są otwarte dla ciebie.  
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako zapłaty. Najpierw jednak będziecie musieli zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z tobą. Bogowie niech będą z tobą.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ShadowKinTradeadv(2)
++[NODE]2
+[STORY]
+Stoiska handlowca są dla ciebie otwarte.   
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako zapłaty. Najpierw jednak będziecie musieli zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Skończyliśmy, zostaw nas teraz.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ShadowkinTown(3)
++[NODE]2
+[STORY]
+Wchodzisz na krainy cienia i czujesz tutaj surową obecność ciemności. Gruba, nisko zawieszona czarna mgła pokrywa ziemię, dzięki czemu nigdy nie zobaczysz stóp. A inna taka warstwa, choć cieńsza, zasłania niebo. Głos z cienia mówi: 
+
+'Dlaczego przychodzisz szukać ciemności? Czy chcesz, żebyś się zmienił, czy jesteś tu, by spróbować nas wyrzucić?'
+
+
+[/STORY]
+[OUT][Światło lub harmonia] Czujesz się tu wyjątkowo nieswojo. Ale zapewnij ich, że nie jesteś wrogiem, po prostu chcesz porozmawiać i odwiedzić.
+[OUT][Elf] To jest miejsce, gdzie żyją teraz twoi przeklęci bracia, elfy cienia. Ta ciemność czyni cię chorym. Ale powiedz, że jesteś tutaj bez uprzedzeń i chcesz tylko odwiedzić.
+[OUT][Zamieszanie lub magia] Czujesz tutaj silną domenę. Powiedz mieszkańcom, że chcesz rozmawiać, a nie jesteś wrogiem.
+[OUT][Ork] Jako stworzenie zrodzone z ciemności, czujesz się tutaj jak w domu. Powiedz, że jesteś tutaj tylko po to, by odwiedzić.
+[OUT]Powiedz głosowi, który chcesz wejść do osady, a nie walczyć.
+[OUT][Demon] Wszystkie demony rodzą się z magii, a ta z kolei jest zanurzona w ciemności z natury, więc nie jesteś tutaj, aby walczyć z nimi bez powodu. 
+[OUT][Shadow Elf] Powiedz, że jesteś tu jako krewny i chcesz tylko odwiedzić. 
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]3
+[STORY]
+„Wyznawca ścieżki stagnacji. Najlepiej trzymaj się z dala od naszego serca lub ryzykuj, że poczernisz. A może to jest twoje życzenie? 
+
+Możesz wejść, ale na własne ryzyko i wiesz, że los jest w naszym domu zamieszany i nie będziemy ci pomagać, jeśli chce grać w gry.'
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Zawróć.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Dziecko światła łaskawi nas swoją obecnością, czy chcesz zostać shadowkinem? Czy jesteś ciekawy, jak przekierowaliśmy przekleństwo na nową ścieżkę? Zapraszamy do przyłączenia się, ciemność jest otwarta dla wszystkich. Oczywiście możesz umrzeć ... 
+
+Wejdź, ale na własne ryzyko i wiedz, że los jest w naszym domu zamieszany i nie będziemy ci pomagać, jeśli chce grać w gry.'
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Zawróć.
+[OUT]Powiedz, że chcesz zostać przemieniony w cienia.
+[OUT]Powiedz im, że twoje elfie dziecko obejmie ścieżkę cienia, jeśli ich oferta jest prawdziwa?
+[/NODE]
+
++[NODE]7
+[STORY]
+Wejdź więc, obejmij ciemność, bracia, a ja poprowadzę cię na twoją nową ścieżkę. 
+[/STORY]
+[OUT]Kontynuuj.
+[OUT]Zawróć.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wejdź więc, obejmij ciemność, bracia, a ja poprowadzimy naszego młodego przyjaciela do mrocznego i pięknego losu. Chodź dziecko, idź za mną.
+[/STORY]
+[OUT]Kontynuuj.
+[OUT]Zawróć.
+[/NODE]
+
++[NODE]11
+[STORY]
+Ciemność obciąża twoją naturę, ale przenikasz i wchodzisz do miasta, usytuowanego w ukrytej jaskini. 
+
+Tutaj możesz odwiedzić kilka miejsc otwartych dla osób z zewnątrz. 
+
+
+[/STORY]
+[OUT]Istnieje taki rodzaj ratusza, w którym ludzie płacą składki, robią to, rozdając ciemną energię, aby w ten sposób pozbyć się swoich przekleństw. 
+[OUT]Chata zielarza interesuje się toksynami, będą one wysysać twoje, ale procedura nie jest całkowicie bezpieczna.
+[OUT]Czarownica oferuje ci sprzedaż niektórych swoich chowańców. 
+[OUT]Po prostu ciesz się wizytą, rozmawiaj z ludźmi i odpoczywaj.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Przyjrzyj się mojemu losowi, niektórzy z nich są gotowi znaleźć nowych mistrzów.'
+[/STORY]
+[OUT]Kup kota.
+[OUT]Kup wrona.
+[OUT]Kup pająka.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Przyjrzyj się mojemu losowi, niektórzy z nich są gotowi znaleźć nowych mistrzów.'
+[/STORY]
+[OUT]Kup kota.
+[OUT]Kup wrona.
+[OUT]Kup pająka.
+[OUT]Być może innym razem. Pozostawiać.
+[/NODE]
+
++[NODE]23
+[STORY]
+Zostałeś pobłogosławiony, kiedy wszedłeś, ale ciemność przekręciła światło błogosławieństw i pozostawiła cię pustą. 
+
+Możesz jednak teraz wejść do miasta.
+[/STORY]
+[OUT]Wpisz.
+[/NODE]
+
++[NODE]25
+[STORY]
+Ciemność jest siłą zmiany, a niektórzy mówią, korupcją. Jedna z twoich kobiet miała na sobie ślad mrocznych sztuk, a czarna mgła go obudziła, przemieniając w czarownicę. 
+
+Możesz teraz wejść do miasta.
+[/STORY]
+[OUT]Wpisz.
+[/NODE]
+
++[NODE]26
+[STORY]
+Czarna mgła wsiąka głęboko w jedną z twoich dusz, pozostawiając ją przeklętą i na razie nie możesz wejść do osady.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Ach, zwolennicy ciemniejszych ścieżek. Dobry. Strzeż się jednak, że ciemność nie jest jedną z wielu przysług, ponieważ nie jesteście naszymi przyjaciółmi, nadal będziecie musieli zmierzyć się z czarnymi kaprysami mgły, jeśli chcecie wejść.'
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Zawróć.
+[/NODE]
+
++[NODE]30
+[STORY]
+Ciemność obciąża twoją naturę, ale przenikasz i wchodzisz do miasta, usytuowanego w ukrytej jaskini. 
+
+Tutaj możesz odwiedzić kilka miejsc otwartych dla osób z zewnątrz. 
+
+
+[/STORY]
+[OUT]Istnieje taki rodzaj ratusza, w którym ludzie płacą składki, robią to, rozdając ciemną energię, aby w ten sposób pozbyć się swoich przekleństw. 
+[OUT]Chata zielarza interesuje się toksynami, będą one wysysać twoje, ale procedura nie jest całkowicie bezpieczna.
+[OUT]Czarownica oferuje ci sprzedaż niektórych swoich chowańców. 
+[OUT]Po prostu ciesz się wizytą, rozmawiaj z ludźmi i odpoczywaj.
+[OUT]Porozmawiaj z ludźmi, może ktoś chciałby dołączyć do ścieżki kosmicznego drzewa?
+[/NODE]
+
++[NODE]31
+[STORY]
+„Udowodniłeś, że jesteś przyjacielem cieni, może jeden z nas pójdzie za tobą, ale tylko wtedy, gdy uczynisz go wartym dla nas wszystkich. Przyjmiemy również dziecko w zamian za nasze usługi. Nie jesteśmy idealistami, musimy przetrwać. Obie oferty są jednorazowe.'
+[/STORY]
+[OUT]Zapłać za rekrutację elfa cienia.
+[OUT]Zaoferuj wymianę, jedną z twoich na jedną z nich.
+[OUT]Nie ma nikogo zainteresowanego. Pozostawiać.
+[/NODE]
+
++[NODE]33
+[STORY]
+Wchodzisz na krainy cienia i czujesz tutaj surową obecność ciemności. Gruba, nisko zawieszona czarna mgła pokrywa ziemię, dzięki czemu nigdy nie zobaczysz stóp. A inna taka warstwa, choć cieńsza, zasłania niebo. Głos z cienia mówi: 
+
+'Przyjacielu, wejdź i osłonimy cię przed naszą ciemnością.'
+[/STORY]
+[OUT]Handel.
+[OUT]Odwiedź miasto.
+[/NODE]
+
++[NODE]35
+[STORY]
+„Tak, jest to dopuszczalne. Młody nauczy się naszych sposobów, a jeden z nas dołączy do ciebie.'
+[/STORY]
+[OUT]Handel.
+[/NODE]
+
++[NODE]38
+[STORY]
+Ciemność jest siłą zmiany, a niektórzy mówią, korupcją. Jedna z twoich kobiet miała na sobie ślad mrocznych sztuk, a czarna mgła go obudziła, przemieniając w czarownicę. 
+
+Możesz teraz wejść do miasta.
+[/STORY]
+[OUT]Wpisz.
+[/NODE]
+
++[NODE]39
+[STORY]
+Czarna mgła wsiąka głęboko w jedną z twoich dusz, pozostawiając ją przeklętą i na razie nie możesz wejść do osady.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]41
+[STORY]
+Wchodzisz do jednej z ciemnych jaskiń, a wnętrze ciemności wita cię. Dzielą się swoją energią z tobą i budzą się twoje ciemne dary. Stajesz się czarownicą. 
+
+Możesz również odwiedzić osadę teraz. 
+[/STORY]
+[OUT]Wpisz.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Ach, dziecko zrodzone z ciemności, bardzo podobne do nas, tylko bardziej - pierwotne. Czego od nas szukasz? Jeśli jesteś tutaj, aby odwiedzić, wejdź, ciemność cię nie skrzywdzi, prawdopodobnie ...'
+[/STORY]
+[OUT]Jedna z twoich orkowych kobiet ma na sobie ciemną plamę magii, mimo że nie jest wyszkolona. Oferta cienia, aby obudzić te prezenty, przekształci ją w czarownicę.
+[OUT]Wpisz.
+[/NODE]
+
++[NODE]43
+[STORY]
+„Ach, zwolennicy ciemniejszych ścieżek. Dobry. Strzeż się jednak, że ciemność nie jest jedną z wielu przysług, ponieważ nie jesteście naszymi przyjaciółmi, nadal będziecie musieli zmierzyć się z czarnymi kaprysami mgły, jeśli chcecie wejść.„”
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Zawróć.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Najlepiej trzymaj się z daleka od naszego serca lub ryzykuj, że poczernisz. A może to jest twoje życzenie? 
+
+Możesz wejść, ale na własne ryzyko i wiesz, że los jest w naszym domu zamieszany i nie będziemy ci pomagać, jeśli chce grać w gry.'
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Zawróć.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Witajcie, krewni cieniu, to był wasz dom, ale postanowiliście odejść, więc bądźcie zmęczeni kaprysami swojej starej rodziny.  Jeśli jesteś tutaj, aby odwiedzić, wejdź, ciemność cię nie skrzywdzi, prawdopodobnie ...'
+[/STORY]
+[OUT]Powiedz, że chciałbyś, aby jedno z twoich elfich dzieci poszło ścieżką cienia. 
+[OUT]Wpisz.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Tak, jest to dopuszczalne. Młody nauczy się naszych sposobów, a jeden z nas dołączy do ciebie.'
+[/STORY]
+[OUT]Kontynuuj.
+[/NODE]
+
++[NODE]50
+[STORY]
+Mroczne miasto jest zrujnowane i możesz je splądrować, ale uważaj, ciemność się tu utrzymuje i prawdopodobnie cię zarazi.
+[/STORY]
+[OUT]Opuść bez grabieży.
+[OUT]Łup i wyjdź.
+[/NODE]
+
++[NODE]52
+[STORY]
+Ciemność jest siłą zmiany, a niektórzy mówią, korupcją. Jedna z twoich kobiet miała na sobie ślad mrocznych sztuk, a czarna mgła go obudziła, przemieniając w czarownicę. 
+
+Udało ci się odzyskać kilka użytecznych zasobów, ale większość miasta zdawała się natychmiast popadać w ruinę, kiedy zabiłeś lud cienia. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Czarna mgła wsiąka głęboko w jedną z twoich dusz, zostawiając ją przeklętą. 
+
+Udało ci się odzyskać użyteczne zasoby, ale większość miasta zdawała się natychmiast popadać w ruinę, gdy zabiłeś lud cienia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Ciemność ci nie zaszkodzi. 
+
+Udało ci się odzyskać użyteczne zasoby, ale większość miasta zdawała się natychmiast popadać w ruinę, gdy zabiłeś lud cienia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Byliście bardzo pobici, a ciemności wnikają głęboko w wasze dusze, gdy uciekacie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyShadowKin(4)
++[NODE]2
+[STORY]
+Zdajesz sobie sprawę, że cienie podążają za tobą!
+[/STORY]
+[OUT]Pozdrówcie swoich sojuszników. 
+[OUT]Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT]Spróbuj poradzić sobie z tym.
+[OUT]Walka!
+[OUT]Usuńcie się.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Przepraszam, przyjaciele. Nie poznaliśmy cię. Pozdrowienia i życzenia.'
+[/STORY]
+[OUT]Zapytajcie, czy chcą pohandlować.
+[OUT]Medytujcie razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Spróbuj poradzić sobie z tym.
+[OUT]Walka!
+[/NODE]
+
++[NODE]17
+[STORY]
+Pokonujesz cienia. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+The shadowkin pokonuje cię i zaraża cię ciemnością, zanim uda ci się uciec.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]25
+[STORY]
+Cienie oddalają się.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

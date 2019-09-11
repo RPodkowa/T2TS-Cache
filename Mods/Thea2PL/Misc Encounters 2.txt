@@ -1,0 +1,3361 @@
+-- [EVENT] --SkshackAndHohlick4(0)
++[NODE]2
+[STORY]
+Siadasz na wieczorny posiłek.
+[/STORY]
+[OUT][Postrzeganie] Wasze jedzenie wygląda na nie. Lepiej to sprawdź.
+[OUT]Ciesz się jedzeniem.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zdajesz sobie sprawę, że twoje jedzenie jest splecione z odchodami małego stworzenia. 
+
+Dostrzegasz uciekającą małą futrzastą istotę. 
+
+[/STORY]
+[OUT]Leopold? Pieprzyć tego małego drania. Zabij go!
+[OUT]Leopold? Zostaw go i idź poszukać tych demonów, aby powstrzymać tę głupotę.
+[/NODE]
+
++[NODE]5
+[STORY]
+Za późno zdajesz sobie sprawę, że twoje jedzenie zostało splecione z odchodami małego stworzenia. 
+
+Czujesz się źle. Znajdziesz także brązowe futro. Leopold? 
+
+
+[/STORY]
+[OUT]Potrząśnij pięścią w powietrzu i przysięgnij na demony.
+[OUT]Zachowaj spokój i odejdź. Być może powinieneś wyśledzić demony, o których opowiadał Leopold, aby zatrzymać te sztuczki.
+[/NODE]
+
++[NODE]8
+[STORY]
+Zabiłeś demona i kiedy umiera, wywiera on zieloną, gęsią flegmę, która rozprzestrzenia się po tobie i sprawia, że krztusisz się i prawdopodobnie zachorujesz. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Przegrałeś ze skshackiem ... 
+
+Patrzy na ciebie z niedowierzaniem, śmieje się, rzuca się na ciebie z zieloną gęsią flegmą, która rozprzestrzenia się po tobie i sprawia, że dławisz się i prawdopodobnie zachorujesz. 
+
+Kiedy przysięgasz na to, stworzenie pokazuje środkowy palec, ale nie dla ciebie, dla kogoś lub czegoś na niebie. Potem ucieka.  
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Masz poczucie, że właśnie zdobyłeś punkty.
+[/STORY]
+[OUT]Zachowaj spokój i odejdź. Być może powinieneś wyśledzić demony, o których opowiadał Leopold, aby zatrzymać te sztuczki.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TheodoreQuest(1)
++[NODE]2
+[STORY]
+„Teraz, kiedy miałeś trochę czasu, żeby się zorientować, co powiesz na zrobienie mi i twoim bogom odrobiny przysługi, co? 
+
+Musisz iść do miejsca i poradzić sobie z kłopotami.'
+
+[/STORY]
+[OUT]Jasne, słuchajcie.
+[OUT]ważne zadanie? Tak, zaakceptuj to teraz. [Pomiń historię]
+[/NODE]
+
++[NODE]4
+[STORY]
+„Jak pamiętasz, aby założyć pierwszą wioskę, musisz znaleźć odpowiednie miejsce i zebrać materiały. Albo możesz po prostu wybrać życie wędrowca. 
+
+Ale tak czy inaczej, nadejdzie czas, kiedy bogowie poprosią cię, byś walczył, aby rozwiązać zagadkę Roztrzaskania.'
+
+[/STORY]
+[OUT]A co masz robić do tego czasu?
+[/NODE]
+
++[NODE]5
+[STORY]
+„Na razie Twoim zadaniem jest żyć wystarczająco długo, aby sprostać tym wyzwaniom. Niezbyt efektowne, wiem. 
+
+Ale słuchajcie, niedaleko stąd jest mała wioska Słowian. Proszę o ich wyszukanie i pomoc w rozwiązaniu problemów, jeśli sobie tego życzysz.'
+
+[/STORY]
+[OUT]Jakiej pomocy?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Ostateczny odpoczynek po herezji nie wchodzi w rachubę, ale pokojowa rezolucja byłaby dla nas odpowiednia. Twój wybór.'
+[/STORY]
+[OUT]Herezja?
+[/NODE]
+
++[NODE]7
+[STORY]
+„Powiedzmy, że nie podążają ścieżką bogów, ale zboczyli w ramiona błędu. 
+
+Zazwyczaj nasi bogowie nie dbają o to. Ale winowajcą był wybrany, jak ty. Tak więc jest to przypadek nauczania jednej lekcji.'
+
+[/STORY]
+[OUT]Nauczanie ich, czy ty?
+[OUT]Zaakceptuj to zadanie.
+[/NODE]
+
++[NODE]8
+[STORY]
+On tylko się uśmiecha. 
+[/STORY]
+[OUT]Zaakceptuj to zadanie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SlavyanVillageSmall(2)
++[NODE]2
+[STORY]
+„Dobrze poznani, przyjaciele, teraz, kiedy Zbigniev już nie niepokoi was ani nas, możemy was powitać właściwie.'
+[/STORY]
+[OUT]Zapytajcie, czy możecie w czymś pomóc.
+[OUT]Powiedz, że właśnie przyszedłeś odpocząć i odwiedzić.
+[OUT]Zapytajcie, czy możesz odwiedzić psiarnie.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[OUT]Tawerna jest otwarta, odwiedź ją.
+[OUT]Zapytajcie, czy możesz odwiedzić psiarnie.
+[OUT]Odwiedź sprzedawcę żywności.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Najlepiej ruszaj się dalej. Nie jesteście naszymi przyjaciółmi.'
+
+Widzisz zbrojne zgromadzenie ludowe.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, że nie myślisz o nich nic złego - wszystko, co chcesz, to porozmawiać i odwiedzić.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a łupy są Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Zawsze jest problem z miejscem. W pobliżu gniazduje grono robactwa. Jesteśmy małe, tylko konfigurujemy. Jeśli pomożesz nam się ich pozbyć, będziemy bardzo wdzięczni.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„To będzie zimny dzień w lecie, zanim odmówimy gościnności zmęczonym. 
+
+Mamy też uzdrowiciela we wsi. Jeśli nie są zajęci, są dobrzy z ciałem i umysłem.'
+[/STORY]
+[OUT]Zapłaćcie, aby wyleczyć fizyczne rany. 
+[OUT]Zapłaćcie, aby wyleczyć rany umysłu. 
+[OUT]Zapłaćcie, aby wyleczyć truciznę.
+[OUT]Zapytajcie, czy jest mędrzec, który może uleczyć duchowe dolegliwości.
+[OUT]Zero opowiada historię kosmicznego drzewa. Idźcie posłuchać jego opowieści na cześć bogów.
+[OUT]Wróćcie następnego dnia.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Zawsze jest problem z miejscem. W pobliżu jest miły bogaty ul. Chcielibyśmy zdobyć miód, ale jesteśmy mali, tylko ustawianie. Jeśli pomożesz nam uspokoić pszczoły, na pewno będziemy wdzięczni.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Szukasz pomocy kolegom, co? Jasne, zawsze są kłopoty.'
+[/STORY]
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[OUT]Dźwigacie sporo drewna. Zapytajcie, czy potrzebują trochę.
+[OUT]Widzisz, że potrzebują kamienia, więc powiedz im, że jesteś gotów oddać część swoich.
+[OUT]Wróćcie następnego dnia.
+[OUT]Zapytajcie, czy wymaga to zabijania.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Chodzi Wam o czarownicę? Magia ma swoją cenę. Uzdrawianie ducha jest łatwiejsze, ale przekleństwa, cóż, są okropne. Będą Was kosztować nieco więcej, będą Was kosztować krew.'
+[/STORY]
+[OUT][Czarownica] Powiedz, że potrzebujesz tylko pomocy siostry, a sam zapłacisz cenę i obiecasz, że jej nie obciążysz. 
+[OUT]Zgódźcie się zapłacić cenę za usunięcie klątwy.
+[OUT]Proście o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]29
+[STORY]
+Czarownica kiwa głową. - Bah, powinienem tak powiedzieć, siostro. Nie próbowałbym ci sprzedać drogiego gówna, ha. Weźmy się za to.'
+
+Razem usuniesz wszystkie przekleństwa, które miałeś. 
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+„W imię samego kosmicznego drzewa jesteś naprawdę dziwnym ludem, który oferuje takie zasoby. Dziękujemy. 
+
+Nie możemy wiele dać, ale tutaj, mamy to, co możemy oszczędzić.'
+[/STORY]
+[OUT]Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Jasne, idź naprzód, możemy mieć trochę szczeniąt do kupienia.'
+
+[/STORY]
+[OUT]Kup psa. 
+[/NODE]
+
++[NODE]50
+[STORY]
+„Bah, w porządku, wyglądasz dość uczciwie i nosisz znak bogów, więc najlepiej ich nie gniewajmy. 
+
+Wejdź, ale obserwujemy cię!'
+[/STORY]
+[OUT]Zapytajcie o możliwość handlu.
+[OUT]Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[OUT]Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Odejdź!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+„Albo nie mamy dla ciebie żadnej pracy, albo ty lub twoi krewni już jesteście na drodze, aby nam pomóc. Zakończ tę ścieżkę, zanim poprosisz o nowe zadania.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]63
+[STORY]
+„Jasne, idź naprzód, możemy mieć trochę szczeniaków, które możesz kupić, albo możemy mieć coś bardziej egzotycznego. To jednorazowa pomoc za pomoc.'
+
+[/STORY]
+[OUT]Kup wyszkolonego pająka, aby pomóc ci w walce.
+[OUT]Kup kota, pomoże w sprawach mistycznych i uspokoi umysł.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]66
+[STORY]
+„Jasne, idź naprzód, możemy mieć trochę szczeniaków, które możesz kupić, albo możemy mieć coś bardziej egzotycznego. To jednorazowa pomoc za pomoc.'
+
+[/STORY]
+[OUT]Kup wyszkolonego pająka, aby pomóc ci w walce.
+[OUT]Kup kota, pomoże w sprawach mistycznych i uspokoi umysł.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --HeresyQuest(3)
++[NODE]2
+[STORY]
+Przychodzisz do małej wioski i pomimo spokojnej pogody na zewnątrz, widzisz chmury burzowe wiszące nad tą osadą i błyskawice tańczące groźnie wokół palisady.
+[/STORY]
+[OUT][Stribog] Poproś swojego pana, aby uspokoił tę burzę, abyś mógł wejść w spokoju.
+[OUT][Wybrany] Czujesz, że ta burza cię nie skrzywdzi, więc wejdź.
+[OUT]Do ataku!
+[OUT]Wpadnij i zapytaj, gdzie dokładnie jest ten wybrany, który przeciwstawił się bogom. [Pomiń historię]
+[/NODE]
+
++[NODE]5
+[STORY]
+Kiedy wchodzisz pewnie, widzisz kilka przerażonych twarzy patrzących przez okna na ciebie. W końcu mała grupa wieśniaków wychodzi ci naprzeciw: 
+
+„Burza, słucha cię. Wydaje się, że cię nie dotyka. W jaki sposób?'
+
+[/STORY]
+[OUT]Wywołaj imię Striboga. Powiedz im, że bogowie są niezadowoleni i przybyliście w ich imieniu.
+[OUT]Powiedz, że bóg wiatrów cię chroni. Zapytaj ich, czy może ostatnio rozgniewali bogów
+[/NODE]
+
++[NODE]6
+[STORY]
+„Och, to. To nie nasza wina. To ten głupiec, Zbigniev. On też jest wybrany, widzicie, więc słuchaliśmy, a on powiedział, że światło jest dobre i musimy czcić to mocniej niż dawni bogowie. Powiedział, że Svarog jest głupcem, który nie jest w stanie oswoić własnej domeny. I ta cześć Magii i Zamętu była zła. 
+
+My słuchaliśmy?'
+
+[/STORY]
+[OUT]Gdzie jest teraz ten Zbigniev?
+[OUT]Nic dziwnego, że są przeklęci. Pokaż im gniew bogów - atak!
+[OUT][Svarog] Jak śmiesz nawet to mówić? Gdyby nie mistrz światła i pożarów domowych, byliby zimni, a ciemna noc wróciłaby!
+[OUT][Zamęt lub magia] Są wyraźnie ignorantami. Twoja domena obejmuje ciemność, ale tylko do pewnego stopnia, aby utrzymać równowagę w panteonie.
+[OUT][Zorya] Obrażają ojca twojej pani! Umierać!
+[OUT][Intelekt, światło, natura lub harmonia] Pojawienie się tego światła jest niepokojące i na pewno nie jest pochodzenia boskiego. Musiał skręcić ich wybrane. Gdzie on teraz jest?
+[/NODE]
+
++[NODE]7
+[STORY]
+„Pojechał tutaj, aby przynieść świeczniki. Mówi, że nas uratuje. Błagaliśmy go, żeby tego nie robił. Ale nie możemy odejść, bo każdy, kto próbuje, zostaje uderzony piorunem. 
+
+To tak, jakby bogowie chcieli, żebyśmy tu umarli?'
+
+[/STORY]
+[OUT]Tak, robią. Atak!
+[OUT]Poproś ich, aby powiedzieli ci, gdzie szukać Zbigniewa. Być może, jeśli sobie z nim poradzisz, zostaną oszczędzeni.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Cóż, nie wiem. Już raz wysłuchaliśmy wybranego?'
+[/STORY]
+[OUT]Przekonaj ich, że muszą sami dla siebie i bogów.
+[OUT]Nic dziwnego, że są przeklęci. Pokaż im gniew bogów - atak!
+[/NODE]
+
++[NODE]11
+[STORY]
+„Twoja logika jest rozsądna, wybrana. Nie zawiedziemy ponownie bogów. Tutaj poszedł.'
+
+Ukrywają się w swoich domach i wskazują kierunek, w którym ostatnio widzieli Zbigniewa. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Kiedy wchodzisz pewnie, widzisz kilka przerażonych twarzy patrzących przez okna na ciebie. W końcu mała grupa wieśniaków wychodzi ci naprzeciw: 
+
+„Burza, wydaje się, że cię nie dotyka. W jaki sposób?'
+
+[/STORY]
+[OUT]Powiedz, że jesteś wybrany. Powiedz im, że bogowie są niezadowoleni i przybyliście w ich imieniu.
+[OUT]Powiedz im, że bogowie czuwają nad tobą. Zapytaj ich, czy może ostatnio rozgniewali bogów.
+[/NODE]
+
++[NODE]13
+[STORY]
+Kulą się przed twoim gniewem, ale jeden z nich pozostaje wyzywający, mimo wszystko: 
+
+„Był kiedyś mistrzem samego słońca. Światło powinno być jego zabawką. Zamiast tego przychodzi i mówi nam, że uczyni nas bezpiecznymi i spokojnymi, podczas gdy twój bóg rzuca napady złości u naszych stóp!'
+
+[/STORY]
+[OUT]Uderz go i powiedz, że lepiej nie mówić źle o bogach w twojej obecności.
+[OUT]Kiwnij głową i powiedz, że dobrze wiesz, że bogowie gier bawią się z wybranymi i ich krewnymi, ale zarówno ty, jak i oni są przeznaczeni do zabawy lub zginięcia. Zapytaj, gdzie jest Zbigniev.
+[OUT]Powiedz, że nie jesteś tutaj, aby dyskutować z nimi o boskiej filozofii, ale aby rozwiązać ten problem. Gdzie jest ten Zbigniev?
+[/NODE]
+
++[NODE]14
+[STORY]
+Kulą się przed twoim gniewem, ale jeden z nich pozostaje wyzywający mimo wszystko: 
+
+'Jesteśmy prostymi ludźmi i nie rozumiem twojej równowagi. Ciemność była zła, światło jest dobre. Poszliśmy za tym, ponieważ nasz wybrany tak powiedział. To miało sens.'
+
+[/STORY]
+[OUT]Głupcy. Pokaż im, co naprawdę oznacza gniew bogów, atakuj!
+[OUT]Kiwnij głową i powiedz, że dobrze wiesz, że bogowie gier bawią się z wybranymi i ich krewnymi, ale zarówno ty, jak i oni są przeznaczeni do zabawy lub zginięcia. Zapytaj, gdzie jest Zbigniev.
+[OUT]Powiedz, że nie interesują cię ich wymówki, gdzie jest ten Zbigniev?
+[/NODE]
+
++[NODE]15
+[STORY]
+Mężczyzna podnosi rękę, aby zemścić się, ale zostaje złapany przez innych: 
+
+'Nie dodawajmy do naszych niebezpieczeństw, Leszko. A ty zostaw nas.'
+
+[/STORY]
+[OUT]Zapytaj, gdzie możesz znaleźć Zbigniewa.
+[/NODE]
+
++[NODE]16
+[STORY]
+Zostaw nas!
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]20
+[STORY]
+Niszczysz wioskę i burza słabnie. 
+
+Ci, którzy pozostali przy życiu, uciekają, czując ulgę, że mogą teraz opuścić to miejsce. Niektórzy nawet dziękują, gdy odchodzą. 
+
+[/STORY]
+[OUT]Powiedz im, że najlepiej nie gniew bogów ponownie!
+[/NODE]
+
++[NODE]21
+[STORY]
+„Dobrze zrobione, wybrane. To powinno nauczyć ich pewności. 
+
+Oczywiście, to oznacza, że stworzyłeś kilku wrogów i nie będziesz w stanie z nimi handlować ani leczyć się w swoich chatach medycznych i tak dalej. Jednak los należy do ciebie.'
+
+[/STORY]
+[OUT]Skinienie głową.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Teraz, gdy zniszczyłeś heretyków, radzę zachować czujność wobec któregokolwiek z ich przyjaciół. 
+
+To na razie wszystko ode mnie. Bogowie wkrótce wezwą cię ponownie. Na razie spróbuj pozostać przy życiu!'
+
+[/STORY]
+[OUT]Życz mu dobrze i odejdź.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jesteś pokonany i przegoniony.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Kulą się przed twoim gniewem, ale jeden z nich pozostaje wyzywający mimo wszystko: 
+
+'Jesteśmy prostymi ludźmi. Nie rozumiemy zbyt wiele, ale światło powinno być dobre, to wiemy. Twoje słowa są tak zimne, jak powiedział Zbigniev.'
+
+[/STORY]
+[OUT]Głupcy. Pokaż im, co naprawdę oznacza gniew bogów, atakuj!
+[OUT]Kiwnij głową i powiedz, że dobrze wiesz, że bogowie gier bawią się z wybranymi i ich krewnymi, ale zarówno ty, jak i oni są przeznaczeni do zabawy lub zginięcia. Zapytaj, gdzie jest Zbigniev.
+[OUT]Powiedz, że nie interesują cię ich wymówki, gdzie jest ten Zbigniev?
+[/NODE]
+
++[NODE]31
+[STORY]
+„Powiedzieliśmy, odejdź!'
+[/STORY]
+[OUT]Spróbuj przekonać ich, aby powiedzieli ci, gdzie jest Zbigniev. Powiedz im, że to boski interes. 
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]33
+[STORY]
+„Proszę, poszukaj Zbigniewa, nie możemy tu normalnie żyć, dopóki bogowie nie będą szczęśliwi, rozumiemy to teraz.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Zbigniev(4)
++[NODE]2
+[STORY]
+Wyśledzisz Zbigniewa, wybranego heretyka, który rozgniewał swoich bogów. Dostrzega cię i mówi: 
+
+'Och, nowy wybrany. Chodź mnie uderzyć, prawda?'
+
+[/STORY]
+[OUT]Przyznaj, że jest to jedna z wiodących opcji.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jesteś uczciwy, dobry. Powiem ci jednak, że twoi mali bogowie mogą go ssać. Miałem dość.'
+[/STORY]
+[OUT]Brzmi naprawdę wściekle, a bogowie również wydają się niezwykle zaangażowani. Co dokładnie zrobił? 
+[OUT]Powiedz mu, żeby przestał przeklinać twoich bogów, albo będziesz musiał go „uderzyć”. 
+[/NODE]
+
++[NODE]4
+[STORY]
+„Zatrzymałem się. Miałem dość robienia ich brudnej roboty. Żyłem swoim życiem, a kiedy zapukało światło, odpowiedziałem, bo lepiej lubię ich stronę.'
+[/STORY]
+[OUT]Kiwnij głową i powiedz, że go nie skrzywdzisz, ponieważ wierzysz, że to nie twoje miejsce, aby ingerować w przebieg losu.
+[OUT]Powiedz mu, że jest słaby i bezwartościowy, a bogowie nie mają czasu na takie robactwo. Należy ustawić przykład. Zabij go!
+[OUT]Powiedz mu, że możesz uspokoić jego złamaną duszę, ponieważ wyraźnie cierpiał i zgubił drogę. Poproś go, aby pozwolił ci poprowadzić go z powrotem do boskiego światła.
+[/NODE]
+
++[NODE]6
+[STORY]
+Zbigniev odchodzi, ale wygląda mniej pewnie o sobie.  Pojawia się Theodore: 
+
+„Natura i intelekt, zawsze trzeźwi towarzysze. Masz rację, że twoje bóstwo nie chciałoby, abyś po prostu był posłuszny, bo gdyby bogowie mieli uderzyć wszystkich, którzy zbłądzą, cóż, nie byłoby już żadnej błyskawicy. 
+
+[/STORY]
+[OUT]Kiwnij głową i spytaj, czy to był dla ciebie test?
+[/NODE]
+
++[NODE]7
+[STORY]
+Zbigniev odchodzi, ale śmieje się w twoją twarz. Pojawia się Theodore: 
+
+'Ciekawy wybór, nic nie robienie. Hmm. Nie jestem przekonany, że bogowie mieli to na myśli, kiedy cię wysłali, ale kim mam wiedzieć? 
+
+Otóż, zostawiam cię na twoich własnych urządzeniach, a bogowie z pewnością wezwą twoje usługi ponownie. Ale na razie pozostań przy życiu.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Rzeczywiście. Chociaż konfrontacja ze Zbigniewem była potrzebna także z innych powodów. Wiele pieców pali się w naszych boskich kuchniach, moi kochani. 
+
+Teraz zostawiam was na waszych własnych urządzeniach, a bogowie z pewnością ponownie wezwą wasze usługi. Ale na razie pozostań przy życiu.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Zbigniev był zaskakująco słaby, więc zabijasz go bez problemu. Pojawia się Teodor: 
+
+'Zawirowania i Światło są w tym wyrównane. Ci, którzy starają się podążać za nienaturalną ścieżką osób, które mają światło, muszą z pewnością zostać zniszczeni, zwłaszcza jeśli kiedyś zostali wybrani. Należy wykonać przykłady.'
+
+[/STORY]
+[OUT]Kiwnij głową i spytaj, czy to był dla ciebie test?
+[/NODE]
+
++[NODE]11
+[STORY]
+Zbigniev był zaskakująco słaby, więc zabijasz go bez problemu. Pojawia się Theodore: 
+
+'Cóż, to zawsze był mój wybór numer jeden, ale czy tak naprawdę chciał tego twój bóg? Pytanie do rozważenia. 
+
+Teraz zostawiam was na waszych własnych urządzeniach, a bogowie z pewnością ponownie wezwą wasze usługi. Ale na razie pozostań przy życiu.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Zbigniev spada na podłogę i przysięga, że zrobi lepiej. Wyjeżdża do wioski. Pojawia się Teodor: 
+
+'Magia i Harmonia wzywają, by światło bogów oświetliło tę nędzną duszę. Dobra robota. To z pewnością najlepszy sposób na pokazanie potęgi bogów, co?'
+
+[/STORY]
+[OUT]Kiwnij głową i spytaj, czy to był dla ciebie test?
+[/NODE]
+
++[NODE]18
+[STORY]
+Zbigniev odchodzi, ale śmieje się w twoją twarz. Pojawia się Theodore: 
+
+'Cóż, to zawsze był mój wybór numer jeden, ale czy tak naprawdę chciał tego twój bóg? Pytanie do rozważenia. 
+
+Teraz zostawiam was na waszych własnych urządzeniach, a bogowie z pewnością ponownie wezwą wasze usługi. Ale na razie pozostań przy życiu.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Zejdź z potężnego konia! Chcesz wiedzieć, jak wybrani trafiają tutaj? Zatrzymałem się. Miałem dość robienia ich brudnej roboty. Żyłem swoim życiem, a kiedy zapukało światło, odpowiedziałem, bo lepiej lubię ich stronę.'
+[/STORY]
+[OUT]Kiwnij głową i powiedz, że go nie skrzywdzisz, ponieważ wierzysz, że to nie twoje miejsce, aby ingerować w przebieg losu.
+[OUT]Powiedz mu, że jest słaby i bezwartościowy, a bogowie nie mają czasu na takie robactwo. Należy ustawić przykład. Zabij go!
+[OUT]Powiedz mu, że możesz uspokoić jego złamaną duszę, ponieważ wyraźnie cierpiał i zgubił drogę. Poproś go, aby pozwolił ci poprowadzić go z powrotem do boskiego światła.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TheodoreMIniQuest1(5)
++[NODE]2
+[STORY]
+„Tak więc, jak głosi tradycja, Twoi bogowie wysłali mnie, abym pokierował Twoimi pierwszymi krokami na tej nowej, oszałamiającej wyspie. 
+
+Aby zacząć, sprawdź, jakie zasoby masz w pobliżu (obok mini mapy znajduje się przełącznik).'
+
+[/STORY]
+[OUT]Skinienie głową.
+[OUT]Powiedz mu, że rozumiesz. Ugotuj mu trochę jedzenia i zrób o co prosi.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jeśli masz jedzenie i drewno, zawsze dobrze się je zaopatruje. Musisz zarówno leczyć obozem, jak i potrzebować różnorodnych potraw, aby lepiej uleczyć rany umysłowe i utrzymać morale na wysokim poziomie. 
+
+Aha i czy wiesz, co to znaczy, że jesteś wybrany?'
+[/STORY]
+[OUT]Powiedz mu, że robisz, więc nie musisz ci przypominać.
+[OUT]Nie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Dobrze. Wreszcie, moje pierwsze zadanie dla ciebie, gotuj lub znajdź mi więcej jedzenia. Aby to zrobić, ustaw obóz i wybierz fajną ikonę kamiennego pieca, aby Cook (później możesz również wykonać wysokie poziomy, 4+, materiały tam), lub koszyk Zbierz jedzenie z ziemi. 
+
+To sprawia, że jestem głodny, więc pośpiesz się!'
+
+On znika.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Wszyscy jesteście naśladowcami waszego bóstwa, ale wasi bogowie mówią i działają poprzez Wybrańców. 
+
+Mają specjalną więź, więc jeśli umrzesz, to właśnie ten bóg traci władzę i grę. Teraz gotowy na zadanie, które mam dla ciebie?'
+
+[/STORY]
+[OUT]Tak.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TheodoreMIniQuest2(6)
++[NODE]2
+[STORY]
+„Pyszne, wspaniale zrobione! Tutaj też trzeba mieć dobry napój. Teraz, w ten sam sposób, w jaki ugotowaliście mi posiłek, możecie również wytwarzać wyposażenie a później i budynki w swojej wiosce. Możecie również zaprojektować co chcecie wytwarzać.'
+[/STORY]
+[OUT]Słuchajcie dalej.
+[OUT]Powiedzcie, że już to wiecie: idźcie sprawdzić opuszczony dom.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Ah, i nie zapomnijcie wydać swoich Punktów Badawczych. Możecie zobaczyć swoje drzewo badań w prawym górnym rogu. 
+
+Zatem, gdy wiecie już wszystko, udajcie się do opuszczonego domu, który możeciezbadać. Kto wie, jakie tajemnice odkryjecie? 
+
+Pamiętajcie, aby sprawdzić swój ekwipunek, zanim wyruszycie!'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Aha, i jeśli zrobisz specjalne jedzenie, którego nie checie zjadać, lub co bardziej prawdopodobne, zbierzecie lepsze drewno lub lepsze jedzenie i nie chcecie, żeby je zużyto, możesz je wykluczyć. W obozie, w lewym górnym rogu, znajdziesz ikonę lupy.'
+[/STORY]
+[OUT]Skinienie głową.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TheodoresHouse(7)
++[NODE]2
+[STORY]
+Znajdujesz opuszczony dom Theodore'a. Znajduje się wśród drzew i wygląda dość staro.
+[/STORY]
+[OUT]Wejdźcie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Znajdujesz opuszczony dom Theodore'a. Znajduje się wśród drzew i wygląda dość staro. 
+
+Gdy tylko zrobisz kolejny krok, zdasz sobie sprawę, że wszyscy wybrani są z tobą wciągnięci. 
+
+
+[/STORY]
+[OUT]Wejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wewnątrz, miejsce jest zaskakująco żywe i zadbane. Jest nawet kominek. 
+Słyszysz głos starszej kobiety: 
+
+- No cóż, dobrze, goście obiadowi. Jak wspaniale. Przyjdź i zostań. Na zawsze. Ha ha!'
+
+[/STORY]
+[OUT]Spróbuj wyjść.
+[/NODE]
+
++[NODE]5
+[STORY]
+Nie ma wyjścia - drzwi zniknęły. Będziesz musiał zmierzyć się z tą wiedźmą, aby uciec.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Magiczny użytkownik lub mistycyzm] Użyj ducha, aby rozwiać mroczną magię!
+[OUT][Inteligencja] Użyj swojego umysłu, aby wydostać się z tej marynaty.
+[OUT]Spróbuj przekonać ją, żeby cię puściła.
+[/NODE]
+
++[NODE]7
+[STORY]
+Pokonujesz czarownicę, a chata zmienia się w stary, zgrzybiały budynek. 
+
+
+[/STORY]
+[OUT]Zbierz dowolny łup.
+[/NODE]
+
++[NODE]8
+[STORY]
+Pojawia się Theodore: 
+
+'Dobra robota, dobrze zrobiona! Zgodnie z wyborem, Twoim zadaniem jest pozostać przy życiu. Musisz albo zdominować ziemie, albo rozwiązać zagadkę Shattering, bo inaczej wszystko zostanie stracone. I do tego musisz żyć. 
+
+Niedługo wrócę, aby dać ci ostatnie zadanie.'
+
+Znika. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Jesteś pokonany. Ale gdy wiedźma ma cię zranić, pojawia się Teodor i dom zmienia się w ruinę.
+[/STORY]
+[OUT]Zapytaj go, jak to zrobił?
+[/NODE]
+
++[NODE]11
+[STORY]
+„Posłańcy Boga mają swoje drogi. Więc zostałeś pobity. Nie tak dobrze, ale dowiesz się, jestem pewien? albo wszyscy jesteśmy zgubieni. 
+
+Zgodnie z wyborem, Twoim zadaniem jest pozostać przy życiu. Musisz albo zdominować ziemie, albo rozwiązać zagadkę Shattering, bo inaczej wszystko zostanie stracone. I do tego musisz żyć. 
+
+Niedługo wrócę, aby dać ci ostatnie zadanie.'
+
+Znika. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Czarownica śmieje się: 
+
+'Bah, jesteś miły. Nie zjem cię W rzeczywistości jest to mały prezent, zanim pójdę, wybrany.'
+
+Pakiet jest dla ciebie, a chata zmienia się z powrotem w stary, zgrzybiały budynek. 
+
+[/STORY]
+[OUT]Weź to.
+[/NODE]
+
++[NODE]20
+[STORY]
+Czarownica śmieje się: 
+
+'Bah, jesteś mądry. Nie zjem cię W rzeczywistości jest to mały prezent, zanim pójdę, wybrany.'
+
+Pakiet jest dla ciebie, a chata zmienia się z powrotem w stary, zgrzybiały budynek. 
+[/STORY]
+[OUT]Weź to.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SlavyanTrademedium(8)
++[NODE]3
+[STORY]
+„Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako płatności, a najpierw musicie zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Kontynuuj.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Dobry handel z tobą. Bogowie niech będą z tobą.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SlavKillsmallRats(9)
++[NODE]2
+[STORY]
+Znajdujesz gniazdo robactwa, do którego wysłano cię, by je oczyścić.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Łowca] Ustaw pułapki, aby zwabić szczury.
+[OUT][Mistrz bestii lub mądrość] Wiesz, że szczury są podatne na pewną melodię fletu. 
+[OUT][Druid] Nie musisz zabijać szczurów. Spróbuj zmusić ich do opuszczenia.
+[OUT][Czarownica] Szczury to twoje kohorty. Zdominuj robactwo i pozwól im odejść.
+[OUT]Zbadaj to gniazdo szczurów.
+[OUT][Szczur] Wejdź sam i przekonaj swoich robaczków, by odeszli.
+[OUT][Szczur] Wejdź sam i przekonaj swoich robaczków, by odeszli.
+[OUT][Szczur] Wejdź sam i przekonaj swoich robaczków, by odeszli.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Grasz na flecie, a szczury powoli zaczynają podążać za tobą. Niektórzy już zatapiają się w wodzie. Musisz trzymać melodię wystarczająco długo, aby utopić wszystkie. 
+
+[/STORY]
+[OUT]Zabij tych, którzy pozostawili staromodny sposób. Atak!
+[OUT]Kontynuuj grę.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wchodzisz do gniazda i obijasz się. Mówisz o bogach i grozisz szczurom potęgą człowieka i boskości. 
+
+Szczury słuchają i odsuwają się posłusznie, pozostawiając ci swobodę łupienia ich gniazda. 
+[/STORY]
+[OUT]Dobrze, zbierz co możesz.
+[/NODE]
+
++[NODE]10
+[STORY]
+Wchodzisz do gniazda i obijasz się. Mówisz o bogach i grozisz szczurom potęgą człowieka i boskości. 
+
+Ale gruby szczur odpowiedzialny za to nie kupuje. Jesteś ugryziony i wyrzucony. Gniazdo jest niespokojne.
+[/STORY]
+[OUT]Spróbuj odejść spokojnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wchodzisz do gniazda i obijasz się. Mówisz o bogach i grozisz szczurom potęgą człowieka i boskości. 
+
+Szczury są tak przekonane twoimi słowami, że chcą, abyś był ich mistrzem w nowym opakowaniu. Poprowadziłbyś własne gniazdo, miałeś wiele małych szczurów i przynosiłeś słowo bogów do robactwa.
+[/STORY]
+[OUT]Zgadzam się wziąć na siebie odpowiedzialność. [Stracić jednego szczura]
+[OUT]Nie pozwól swojemu szczurowi odejść! Zabij samicę szczura, która jest wyraźnie architektem tej katastrofy!
+[/NODE]
+
++[NODE]18
+[STORY]
+Ustawiasz pułapki i pozbywasz się robactwa. 
+
+Wieśniacy dziękują i dają ci nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Szczur jest bardzo młody i ranny, ale wiesz jak trenować szczury, więc możesz zabrać go ze sobą.
+[/STORY]
+[OUT]Ładnie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Znajdujesz ciała wielu dzieci, ale także ciała demonów i zwierząt. To gniazdo było zajęte. 
+
+Bardziej zaskakujące jest odkrycie w centralnej przestrzeni, na tronie kości, zwykłego kota, związanego w kołnierzu. Czy to tutaj był pan, czy ofiara? 
+
+Mruczy na ciebie.
+[/STORY]
+[OUT]Weź kota. 
+[OUT]Zabij kota, ponieważ jest on wyraźnie architektem tego zła!
+[/NODE]
+
++[NODE]27
+[STORY]
+Ustawiasz pułapki i zabijasz większość szczurów, podczas gdy inne uciekają. W jednej z twoich pułapek odkrywasz cradlepossum - zarośnięte, poskręcane, podobne do robactwa stworzenie z dużą sakiewką na froncie, znaną z kradzieży młodych. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalałych.
+[/NODE]
+
++[NODE]28
+[STORY]
+Szczury są straszne i roi się od ciebie w ciągu kilku minut. Wieśniacy muszą przyjść ci z pomocą i nie jesteś pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Twój przyjaciel jest zrozpaczony twoimi działaniami, ale gniazdo ucieka ze strachu.
+[/STORY]
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]49
+[STORY]
+Szczury słuchają i uciekają z wioski. Natura i harmonia są zaspokojone przez twoje działania. 
+
+Wieśniacy dziękują ci i dają ci nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Szczury słuchają i uciekają z wioski. 
+
+Wieśniacy dziękują ci i dają ci nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Szczury słuchają i uciekają z wioski. 
+
+Wieśniacy dziękują ci i dają ci nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Zbliżasz się i obserwujesz szczury. Wkrótce zdajesz sobie sprawę, że są niezwykłe. Wygląda na to, że budują swego rodzaju więzienie z klatkami i dziurami, a ty widzisz zwłoki ich więźniów.
+[/STORY]
+[OUT][Łowca] Spróbuj wkraść się i założyć pułapki, aby pozbyć się robactwa.
+[OUT][Druid lub beastmaster] Zagraj na flecie, aby zawołać szczury, a następnie spróbuj uratować kogokolwiek.
+[OUT]Atakuj robactwo!
+[/NODE]
+
++[NODE]53
+[STORY]
+Wieśniacy dziękują za oczyszczenie gniazda i dają nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Szczury cię bili i zmuszają do ucieczki. Wieśniacy muszą przyjść ci z pomocą i nie jesteś pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Gniazdo jest wyczyszczone. Wieśniacy dziękują ci i dają ci nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Gniazdo jest wyczyszczone. Wieśniacy dziękują ci i dają ci nagrodę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]61
+[STORY]
+Robactwo jest martwe lub ucieka. Jednym z ciał, jak odkrywasz, był cradlepossum - zarośnięte, poskręcane, podobne do robactwa stworzenie z dużą sakiewką na froncie, znaną z kradzieży młodych. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalałych.
+[/NODE]
+
++[NODE]62
+[STORY]
+Szczury słuchają twojej melodii i posłusznie opuszczają swoje gniazdo. Zauważasz, że jeden z nich był w rzeczywistości cradlepossum - przerośniętym, poskręcanym, podobnym do robactwa stworzeniem z dużą sakiewką na froncie, znaną z kradzieży młodych. Najprawdopodobniej nie był zachwycony fletem, ale zdecydował się uciec, kiedy mógł. 
+
+[/STORY]
+[OUT]Wyszukaj miejsce dla ocalałych.
+[/NODE]
+
++[NODE]63
+[STORY]
+Szczury podążają za melodią i topią się. 
+
+Wieśniacy dziękują ci i dają ci nagrodę.
+[/STORY]
+[OUT]Widzisz czającego się szczura. Podejdź do niego.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SlavyanKillsmallBees(10)
++[NODE]2
+[STORY]
+Zbliżasz się do ula, o który prosili Slavyanie.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Druid lub natura] Nie ma potrzeby przemocy. Po prostu musisz poprosić ich o udostępnienie.
+[OUT][Forest folk] Przekonaj pszczoły do współpracy, ponieważ w dłuższej perspektywie jest to zawsze bardziej owocne.
+[OUT][Mistrz bestii] Musisz zdobyć to terytorium. Wszelkie bestie odejdą. 
+[OUT][Łowca] Ustaw pułapki, aby rozrzedzić rój, a następnie zaatakuj.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]7
+[STORY]
+Znajdziesz odpowiednie miejsca, aby oznaczyć swoje terytorium silnym, drapieżnym zapachem. 
+
+Pszczoły szybko odzywają się i zostawiają miód za sobą.
+[/STORY]
+[OUT]Świetnie. Idź powiedz wieśniakom.
+[/NODE]
+
++[NODE]12
+[STORY]
+Jesteś bardzo pobity, a mieszkańcy wioski muszą przyjść ci z pomocą. Nie są pod wrażeniem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pszczoły głośno brzęczą, słuchając twoich słów. 
+
+Zgadzają się na współpracę z ludzką wioską. Jeśli ludzie trzymają się z dala i zostawiają ich w spokoju, pszczoły z kolei oddadzą część swojego miodu. 
+
+[/STORY]
+[OUT]Zgadzam się. 
+[OUT]Zgadzam się. 
+[/NODE]
+
++[NODE]20
+[STORY]
+Zwiadowca widział cię i podchodził: 
+
+- Będę przeklęty. Rozumowałeś z żądłami, ale dlaczego? Nie chcemy, aby buzzery mieszkały w naszym domu. 
+
+To znaczy, miałeś na myśli dobrze. Ale może następnym razem zrób to, o co prosimy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Pszczoły brzęczą ze złości i odwracają się.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Będziesz ukąszony, więc uciekaj.
+[/NODE]
+
++[NODE]48
+[STORY]
+Zwiadowca widział cię i podchodził: 
+
+- Będę przeklęty. Rozumowałeś z żądłami. Świetny. Chyba nie będziemy mieli nic przeciwko szumowi, jeśli to nas kocha. Dziękuję i oto twoja nagroda.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Zwiadowca widział cię i podchodził: 
+
+- Będę przeklęty. Goniłeś ich. Wspaniale! Tutaj, dziękuję.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Nie jesteś na nic nazywany mistrzem bestii. Odstraszasz pszczoły. Zwiadowca widział cię i podchodził: 
+
+- Będę przeklęty. Goniłeś ich. Wspaniale! Tutaj, dziękuję.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TavernSlavyan_(11)
++[NODE]2
+[STORY]
+Potrawy są ciepłe a piwo jest wyjątkowo dobre. Tawerna tętni życiem i radością. 
+[/STORY]
+[OUT]Sprawdź, czy możesz rekrutować kogokolwiek.
+[OUT][Demon] Zażyj nieco hazardu.
+[OUT]Zażyjcie nieco hazardu.
+[OUT]Napij się.
+[/NODE]
+
++[NODE]3
+[STORY]
+Są tutaj tacy ludzie, którzy mogą chcieć dołączyć do twojego zespołu, widząc, że jesteś wybranym i wszystkim.
+[/STORY]
+[OUT]Podejdź do wojownika.
+[OUT]Podejdź do łowcy.
+[OUT]Patrzy na ciebie zerka. Zapytaj go.
+[OUT]W kącie siedzi bandyta. Podejdź do niego.
+[OUT]Ktoś prowadzi cię, by z nimi porozmawiać. Idź zobaczyć, czego chcą.
+[OUT]Ktoś prowadzi cię, by z nimi porozmawiać. Idź zobaczyć, czego chcą.
+[OUT]Nie ma więcej osób, które chcą dołączyć tym razem. 
+[/NODE]
+
++[NODE]8
+[STORY]
+Bez umowy. Więcej szczęścia następnym razem. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wojownik jest dostępny, ale wymaga zapłaty.
+[/STORY]
+[OUT]Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]12
+[STORY]
+Łowca jest dostępny, ale wymaga zapłaty.
+[/STORY]
+[OUT]Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]13
+[STORY]
+Podchodzi do ciebie i mówi, że pójdzie za tobą za darmo, tak jak jesteś wybrany!
+[/STORY]
+[OUT]Witajcie ich.
+[/NODE]
+
++[NODE]14
+[STORY]
+Mówią, że wykonają pracę najemników za odpowiednią cenę.
+[/STORY]
+[OUT]Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]17
+[STORY]
+Sierota słyszy, jak rekrutujesz i błaga, żebyś ich zabrał. Słyszeli, że jesteś mistrzem i najwyraźniej chcą być jednym.
+[/STORY]
+[OUT]Witajcie ich.
+[/NODE]
+
++[NODE]24
+[STORY]
+Sierota słyszy, jak rekrutujesz i błaga, żebyś ich zabrał. Słyszeli, że jesteś mistrzem i najwyraźniej chcą być jednym.
+[/STORY]
+[OUT]Witajcie ich.
+[/NODE]
+
++[NODE]26
+[STORY]
+Nigdy nie należy próbować uprawiać hazardu z demonami. W końcu zostałeś stworzony do oszustwa. 
+
+Wygrywasz, ale lud patrzy na ciebie z podejrzliwością.
+[/STORY]
+[OUT]Czas iść.
+[/NODE]
+
++[NODE]27
+[STORY]
+Powodzenia pani znów się uśmiechnęła. Wygrałeś.
+[/STORY]
+[OUT]Czas iść.
+[/NODE]
+
++[NODE]28
+[STORY]
+Kto potrzebuje szczęścia, gdy masz bogów po swojej stronie? Wygrałeś.
+[/STORY]
+[OUT]Czas iść.
+[/NODE]
+
++[NODE]29
+[STORY]
+Niestety, szczęście nie było po twojej stronie. Przegrałeś.
+[/STORY]
+[OUT]Czas iść.
+[/NODE]
+
++[NODE]30
+[STORY]
+Tak się upiłaś, że nie pamiętasz wiele z tego, co się stało. Ale bocian odwiedza cię jakiś czas później. . .
+[/STORY]
+[OUT]Dobrze?
+[/NODE]
+
++[NODE]33
+[STORY]
+Słowianie mogą być znani z picia, ale po prostu nie ma nikogo o twardszej głowie niż słowiański krasnolud! 
+
+Pijesz wszystkich pod stołem i imponujesz miejscowym.
+[/STORY]
+[OUT]Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]34
+[STORY]
+Słowianie mogą być znani z tego, że piją, ale przecież jesteś także Słowianinem, nawet jeśli nie pochodzi z tej samej gałęzi. Pijesz więc z nimi w parze i są pod wrażeniem.
+[/STORY]
+[OUT]Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]35
+[STORY]
+Slavyanie na pewno wiedzą, jak pić. Nie pamiętasz wieczoru, ale odczuwasz jego skutki boleśnie. . .
+[/STORY]
+[OUT]Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]36
+[STORY]
+Slavyanie na pewno wiedzą, jak pić. Nie pamiętasz wieczoru, ale odczuwasz jego skutki boleśnie. . .
+[/STORY]
+[OUT]Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]37
+[STORY]
+Walczyłeś i odkryłeś w sobie ukrytą siłę. Niestety miejscowi nie doceniają twoich umiejętności. Wyrzucono cię z tawerny.
+[/STORY]
+[OUT]Czas wyjść.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Hahlek_(12)
++[NODE]2
+[STORY]
+Budzisz się w nocy z własnego histerycznego śmiechu. Za każdym razem, gdy myślisz, że się zatrzymało, znowu czujesz łaskotanie i za każdym razem są coraz gorsze!
+[/STORY]
+[OUT][Mądrość lub percepcja] To z pewnością praca demona. Spróbuj to zauważyć.
+[OUT]Jesteś twardy. Trzymaj to.
+[/NODE]
+
++[NODE]3
+[STORY]
+Stworzenie jest naprawdę szybkie i wylewa na ciebie jakiś pył, więc nie możesz go dobrze zobaczyć. Ale zauważasz to i myślisz, że może to być hahalek, demoniczny trickster, który między innymi lubi łaskotać swoją zdobycz, czasami aż do śmierci!
+[/STORY]
+[OUT][Mądrość] Takie demony domowe zazwyczaj biorą jedzenie jako ofiarę. Rzuć to trochę i może się zatrzyma.
+[OUT][Postrzeganie] Obserwuj.
+[OUT][Dziecko] Walka łaskotania! Wskocz na stwora i łaskocz go. To świetna zabawa.
+[OUT]Jesteś twardy. Trzymaj to.
+[/NODE]
+
++[NODE]5
+[STORY]
+Zauważasz, że hahalek po cichu naśladuje twój śmiech, a nawet grymasy i gesty, jakby to go napędzało. Być może, jeśli zostaniesz nieruchomo, będzie się nudzić i odejdzie.
+[/STORY]
+[OUT]Skoncentruj swój umysł na czymś innym i nie ruszaj się. 
+[OUT]Spróbuj czegoś innego.
+[/NODE]
+
++[NODE]6
+[STORY]
+Hahalek skacze po jedzenie i odpływa, zostawiając cię zużytym, ale bezpiecznym.
+[/STORY]
+[OUT]Wróć do snu.
+[/NODE]
+
++[NODE]10
+[STORY]
+Pozostajesz idealnie spokojny i udaje ci się powstrzymać od śmiechu, a hahalek się nudzi. Sapie, sapie i rzuca się z rozczarowaniem, a potem odchodzi. 
+
+Zaskakujące jest to, że pozostawia dla ciebie prezent. Być może zrobiłeś na nim wrażenie.
+[/STORY]
+[OUT]Wróć do snu.
+[/NODE]
+
++[NODE]11
+[STORY]
+Pozostajesz idealnie spokojny i na początku powstrzymujesz się od śmiechu, ale to za dużo. Wpadłeś w histeryczne ataki i wydaje się, że hahalek cieszy się tym bardzo. 
+
+W końcu odchodzi, ale niektórzy z was czują się źle po spotkaniu. 
+[/STORY]
+[OUT]Wróć do snu.
+[/NODE]
+
++[NODE]13
+[STORY]
+Hahalek naśladuje każdy twój ruch, a bitwa łaskotania trwa. W końcu oboje upadliście, wyczerpani i prawdopodobnie chorzy, ale demon wydaje się być z was bardzo szczęśliwy i może zostawić dar. 
+[/STORY]
+[OUT]Wróć do snu.
+[/NODE]
+
++[NODE]21
+[STORY]
+Śmiejesz się i śmiejesz, a twoje żołądki bolą jak wszystkie piekła, ale w końcu, cokolwiek to było, przestało. 
+
+[/STORY]
+[OUT]Wróć do snu.
+[OUT]Wróć do snu.
+[/NODE]
+
++[NODE]23
+[STORY]
+Śmiejesz się i śmiejesz, a twoje żołądki bolą jak wszystkie piekła. W końcu cokolwiek to było, ale niektórzy z was czują się później źle. 
+[/STORY]
+[OUT]Wróć do snu.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SkshackAndHohlick_(13)
++[NODE]2
+[STORY]
+Budzi Was w nocy delikatny szmer. Odkrywacie Skrzaka który dobrał się do zapasów żywności!
+[/STORY]
+[OUT]Pogoń go!
+[OUT]Zabijć to coś!
+[OUT]Teodor?
+[OUT]Tak, tak. Jest zmuszony do demonicznej zabawy i musicie poszukać przyjaciela, który spróbuje rozwiązać tę sprawę, albo ten biedak będzie zmuszany by robić Wam psikusy. [Pomiń historię]
+[/NODE]
+
++[NODE]3
+[STORY]
+Stwór wypluwa jedzenie i prawie się dusi: 
+
+'Cholera, przestraszyłeś mnie! To znaczy, jestem taki, przepraszam za kradzież twoich rzeczy. Nie był mój pomysł, to przekleństwo!'
+
+[/STORY]
+[OUT]Czyj to był pomysł?
+[/NODE]
+
++[NODE]4
+[STORY]
+Stwór wypluwa jedzenie prawie się dusząc krzyczy: 
+
+'Nie, nie, nie! Proszę nie. To znaczy, jestem taki, przepraszam za kradzież Waszych rzeczy. Nie był mój pomysł, to przekleństwo!'
+[/STORY]
+[OUT]Czyj to był pomysł?
+[OUT]Zabijcie go i tak.
+[/NODE]
+
++[NODE]5
+[STORY]
+Stwór wypluwa jedzenie i prawie się dusi: 
+
+'Cholera, przestraszyłeś mnie! I nie, nie jestem nim. To znaczy, on jest moim trzecim kuzynem ze strony Cioci Wilmy, trzy razy wygnany, ale wciąż rodzina. Jesteście bogobojni, zawsze mówicie, że jestem nim - no nie, ja jestem mną! Leopold to me imię. 
+
+Poza tym, jestem taki, przepraszam za kradzież Waszych rzeczy. Nie był mój pomysł, to przekleństwo!'
+
+[/STORY]
+[OUT]Czyj to był pomysł?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Aw, ja. . . Nie wolno mi mówić bezpośrednio. Wiecie... prawa demona. Ale mogę Wam opowiedzieć tę historię?'
+[/STORY]
+[OUT]Dobrze, słuchajcie.
+[OUT]Zabijcie go i tak.
+[OUT]Nie, nie jesteście zainteresowani, odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Zabijacie demona i kiedy umiera, wyrzuca on z siebiezieloną, lepką flegmę, która pryska na Was i sprawia, że krztusicie się i prawdopodobnie zachorujecie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Przegraliście ze skaszakiem. . . 
+
+Patrzy na ciebie z niedowierzaniem, śmieje się i pluje na Was z zieloną, lepką flegmą, która śmierdzi niemiłosiernie i sprawia, że krztusicie się i prawdopodobnie zachorujecie. Można by przysiąc, że stworzenie pokazuje środkowy palec, ale nie Wam - komuś lub czemuś na niebie. Potem ucieka. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Grałem w grę Kurv z kilkoma kumplami - chochlikiem, szyszakiem i wróżką zębuszką. 
+
+Cóż, prawdopodobnie tego nie wiesz, ale te wróżki zębuszki, są prawdziwymi łobuziarami. Więc, ja i Frix, chochlik, postanowiliśmy, wiecie, pokazać tej małej cholerze, pokonać ją w grze i dobrze nam szło.' 
+[/STORY]
+[OUT]Odzukiwał?
+[/NODE]
+
++[NODE]12
+[STORY]
+„Oszustwo to takie śmierdzące słowo. Kiedy gramy my demony, to tym lepiej im ktoś kręci więcej. 
+
+Ale tak, próbowaliśmy oszukiwać, można  tak powiedzieć, i to razem. Tylko wszystko poszło nie tak.'
+[/STORY]
+[OUT]Łobuziara cię znalazła i kazała ci kraść rzeczy?
+[/NODE]
+
++[NODE]13
+[STORY]
+„Co? Ona? Nie. Wróżki zębuszki są dobre tylko do wyciągania zębów, a ja mam mnóstwo. To nie był prawdziwy problem. . . Frix. . . Ale nie mogę. . .'
+
+Skrzak zaczyna gwałtownie się dusić i nadymać się.
+[/STORY]
+[OUT][Demon lub mądrość] Uspokój go. Więź demona nie pozwala mu mówić o tym Frixzie, co jest oczywiste. Poproś go, aby opowiedział ci, jak można wejść do jego gry.
+[OUT][Demoniczny przyjaciel] Wasz demoniczny przyjaciel mówi Wam, że skrzak jest przeklęty lub związany silnym paktem. Dlatego tak cierpi. Przyjaciel prosi Was o dołączenie do tej gry, ponieważ w ten sposób dowiecie się więcej.
+[OUT]Cóż, czujesz do niego, ale co to ma wspólnego z tobą?
+[/NODE]
+
++[NODE]14
+[STORY]
+„Widzisz, jestem teraz pionkiem, ale ci, którzy grają, myślę, że możesz być celem. Więc nawet jeśli mnie zabijesz, najprawdopodobniej zostaniesz przez nie popchnięty. I nie mogę powiedzieć więcej. Już rozlewam więcej fasoli niż powinienem i tylko dlatego, że mnie wkurzył. . .'
+
+Znowu się dusi. 
+
+'Więc pomagasz mi, a ja ci pomagam, przysięgam!'
+[/STORY]
+[OUT][Demon lub mądrość] Uspokój go. Więź demona nie pozwala mu mówić o tym Frixzie, co jest oczywiste. Poproś go, aby opowiedział ci, jak można wejść do jego gry.
+[OUT][Demoniczny przyjaciel] Wasz demoniczny przyjaciel mówi Wam, że skrzak jest przeklęty lub związany silnym paktem. Dlatego tak cierpi. Przyjaciel prosi Was o dołączenie do tej gry, ponieważ w ten sposób dowiecie się więcej.
+[OUT]Jak dokładnie to na Was wpłynie? Częściej będziecie okradani przez demony?
+[OUT]Zabijcie to!
+[/NODE]
+
++[NODE]15
+[STORY]
+„Tak, tak, wiesz, jak to działa. Klątwa, związanie. Coś tam. Ale obawiam się, że gra ma za zadanie wiązać Kurvów, więc wiecie, takich jak ja i Wy, utknęliśmy w tym, ponieważ ktoś wskazał na Was jako „śmiertelników do zabawy”. I tylko demony mogą grać. . .'
+[/STORY]
+[OUT][Demon lub przyjaciel demon] Zaoferuj, że chcesz pomóc mu się z tego wyplątać.
+[OUT]Jak inaczej możesz to rozwiązać?
+[OUT]Jak dokładnie to na Was wpłynie? Częściej będziecie okradani przez demony?
+[/NODE]
+
++[NODE]16
+[STORY]
+„Tak, i jeszcze gorzej, w zależności od tego, jak gra się toczy. Będą Was denerwować, przeklinać, żeby zdobywać punkty. Tak więc, sprawią, że sie pochorujecie okradną Was, spowodują, że Wasza podróż będzie uciążliwa a czasem niemożliwa - wszystkiego po trochu. 
+
+W każdym razie nie mogę powiedzieć więcej, albowiem prawa demonów spalą mój język.'
+[/STORY]
+[OUT]Więc jak można się z tego wyplątać?
+[OUT][Demon lub przyjaciel demon] Zaoferuj, że chcesz pomóc mu się z tego wyplątać.
+[OUT]Zabijcie to!
+[/NODE]
+
++[NODE]17
+[STORY]
+„No cóż, tylko demon może wprowadzić do gry Kurv, a bez jego zaproszenia nie można grać. 
+
+Mam dwójkę ziomków, którzy mogą Was wprowadzić. Jeden to ćmuch, jest nieśmiałym kolesiem, a znalezienie go wymaga trochę umiejętności. Druga, to ona i jest dolą. Nie jest to typowy rodzaj gry które ona lubi, ale ona wie dużo, więc jestem pewien, że może Was wprowadzić.'
+[/STORY]
+[OUT]Czy zatem pójdzie za Tobą?
+[/NODE]
+
++[NODE]18
+[STORY]
+„Tak, tak,Wasz towarzysz chyba wie, jak to działa. Klątwa, związanie. Coś tam. Ale obawiam się, że gra jest przynętą na Kurvów, wiesz,  takich jak ja i Wy, utknęliśmy w tym, ponieważ ktoś wskazał na Was jako „śmiertelników do zabawy”.No, i tylko demony mogą grać. . .'
+[/STORY]
+[OUT][Demon lub przyjaciel demon] Zaoferuj, że chcesz pomóc mu się z tego wyplątać.
+[OUT]Jak inaczej możesz to rozwiązać?
+[OUT]Jak dokładnie to na Was wpłynie? Częściej będziecie okradani przez demony?
+[/NODE]
+
++[NODE]19
+[STORY]
+„Żałuję, że nie mogę - widzicie, wiążą mnie prawa. A jeśli zdarzy się, że zrobię Wam jakieś okropne świństwo, zanim porozmawiamy, naprawdę przepraszam i proszę, nie zabijajcie mnie!'
+
+Z twarzy skrzaka można wyczytać, że panicznie się boi. Chwilę później spowija go zielonkawa mgła poczym stworzenie znika. Zostawia po sobie skrawek skóry z napisem: 
+
+'Wybierz jednego przyjaciela, którego odwiedzisz.'
+[/STORY]
+[OUT]Wybierzcie cmucha i odejdźcie.
+[OUT]Wybierzcie dolę i odejdźcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Cóż, tylko demon może wejść do gry Kurv, więc mamy to ogarnięte, ale wciąż potrzebujemy zaproszenia. 
+
+Mam dwójkę ziomków, którzy mogą Was wpuścić. Jeden to cmuch, więc jest nieśmiałym gościem, a znalezienie wymaga trochę umiejętności. Druga, bo to ona jest dolą. Nie jest to typowy rodzaj gry, ale ona wie wiele, więc jestem pewien, że może Was wprowadzić.'
+[/STORY]
+[OUT]Czy zatem pójdzie za Tobą?
+[/NODE]
+
++[NODE]27
+[STORY]
+„Tak, tak, dokładnie. Idźcie, zagrajcie dla mnie, ale najpierw musicie otrzymać zaproszenie.'
+
+' Wybierz jedno z mych przyjaciół, którego odwiedzisz.'
+[/STORY]
+[OUT]Wybierzcie cmucha i odejdźcie.
+[OUT]Wybierzcie dolę i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SAndHDolaSpwn_(14)
++[NODE]2
+[STORY]
+Mapa Leopolda prowadzi do opuszczonego domu. W tym miejscu ma mieszkać dola, który może dać ci zaproszenie do gry Kurv.
+[/STORY]
+[OUT][Demon lub mądrość] Dola są przyjaznymi demonami. Wejdź i zawołaj ją.
+[OUT]Wejdź ostrożnie. 
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Demon dola jest rzadki i często niewidoczny, ponieważ przybiera kształty zwykłych zwierząt. 
+
+Więc kiedy widzisz czarnego kota gapiącego się na ciebie, podejrzewasz, że to ona.
+[/STORY]
+[OUT]Powiedz jej o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[OUT]Zabij dolę!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Ach, ta głupota. Tak, wiem o tym. Ale dlaczego miałbym ci pomóc, albo mój znany przyjaciel, który nie powinien był uczestniczyć w pierwszej kolejności? Domowe demony grające okrutne sztuczki dla zabawy i hazardu. Wstyd.' 
+[/STORY]
+[OUT][Demon] Tak, łamanie praw demona jest haniebne. Dlatego musisz tam iść i je uporządkować.
+[OUT][Dziecko] Spójrz na nią tymi wielkimi, smutnymi oczami.
+[OUT][Harmony] Dola są znanymi duchami strażników i dobrymi losami. Czy twoja własna domena nie jest podobna do jej natury? 
+[OUT]Zaangażuj ją, by ci pomogła, bo możesz nie mieć innego sposobu niż zabicie biednego skshacka, który nazywa przyjaciółką.
+[OUT]Powiedz, że naprawdę chcesz pomóc skakać, a ta gra i tak brzmi okropnie.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wchodzisz do domu, a wszystko, co widzisz, to czarny kot gapiący się na ciebie.
+[/STORY]
+[OUT]Czarne koty są znane jako czarownice. Zabij to!
+[OUT][Czarownica] To nie jest zwykły kot ani znajoma czarownica. To musi być dola.
+[OUT][Animal kin] To nie jest zwykły kot. Być może to jest dola. Porozmawiaj z nim.
+[OUT]Czarne koty są notorycznie złymi wróżbami, więc najlepiej pozostać ostrożnym, ale pozostaw to. 
+[/NODE]
+
++[NODE]7
+[STORY]
+„Czego ode mnie chcesz, czarownica? Rzadko się z tobą kocham.'
+[/STORY]
+[OUT]Dlaczego nie?
+[OUT]Powiedz jej o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Twoje zmysły są chętne. Dlaczego mnie szukasz?'
+[/STORY]
+[OUT]Powiedz jej o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]10
+[STORY]
+Gdy tylko zaatakujesz stwora, czujesz się słabo i czujesz się zaatakowany przez magię.
+[/STORY]
+[OUT]Walcz!
+[/NODE]
+
++[NODE]11
+[STORY]
+Walczysz z magią, która cię zaatakowała, ale kiedy rozejrzysz się po domu, dola zniknęła. 
+
+Podczas gdy znana jest przyjazna dola, która pilnuje dzieci lub przynosi szczęście, jest wściekła. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Walczysz z magią, która cię zaatakowała, ale kiedy rozejrzysz się po domu, dola zniknęła. 
+
+Podczas gdy znana jest przyjazna dola, która pilnuje dzieci lub przynosi szczęście, jest wściekła. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Wykazujesz powściągliwość, chociaż wyraźnie nie ufasz mojej formie. Więc porozmawiam z tobą. Dlaczego mnie szukasz?'
+[/STORY]
+[OUT]Powiedz jej o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Wiele form, które biorę, jest używanych przez twoją czarną magię, czy to w służbie czy w rytuałach. Nie doceniam tego. Ale nie jesteśmy tutaj, aby o tym mówić. Dlaczego mnie szukasz?'
+[/STORY]
+[OUT]Powiedz jej o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Twój argument jest słuszny i moja natura jest pomocna, co, jak jestem pewien, Leopold wiedział, kiedy cię tu wysłał. Pomogę ci, bo ktoś powinien odejść i posortować tych durniów.'
+[/STORY]
+[OUT]Jak ona może cię dostać?
+[OUT]Jak ona może cię dostać?
+[/NODE]
+
++[NODE]18
+[STORY]
+„Wszystko, czego potrzebujesz, to naprawdę demon, więc dla ciebie potrzebujesz tylko tego zaproszenia.'
+
+Podaje ci krwawy ludzki ząb. 
+
+„Pokaże ci wejście, gdy nadejdzie czas na kolejną grę.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Na krótko udzielę ci możliwości zmiany formy. W ten sposób demony będą myśleć, że jesteś jednym z moich, więc wszystko, czego potrzebujesz, to to zaproszenie.'
+
+Podaje ci krwawy ludzki ząb. 
+
+„Pokaże ci wejście, gdy nadejdzie czas na kolejną grę. A moje zaklęcie zadziała, kiedy będzie to konieczne, nie wcześniej.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Odważysz się zagrozić życiu mojego przyjaciela i oczekiwać pomocy? Zaczynaj, śmiertelny przyjacielu, i nie wracaj.'
+
+Podczas gdy znana jest przyjazna dola, która pilnuje dzieci lub przynosi szczęście, jest wściekła. . .
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]24
+[STORY]
+„Tak, najlepiej nadaje się do tego jeden z naszych. Pomogę ci, bo ktoś powinien odejść i posortować tych głupców.'
+[/STORY]
+[OUT]Jak ona może cię dostać?
+[OUT]Jak ona może cię dostać?
+[/NODE]
+
++[NODE]25
+[STORY]
+„Granie w paskudne sztuczki na dzieciach? Nie będę stał bezczynnie, moja droga. Pomogę ci, bo ktoś powinien odejść i posortować tych głupców.'
+[/STORY]
+[OUT]Jak ona może cię dostać?
+[OUT]Jak ona może cię dostać?
+[/NODE]
+
++[NODE]26
+[STORY]
+„Tak, twoja natura czuje się dobrze. Poza tym granie w paskudne sztuczki na dzieciach? Nie będę stał bezczynnie, moja droga. Pomogę ci, bo ktoś powinien odejść i posortować tych głupców.'
+[/STORY]
+[OUT]Jak ona może cię dostać?
+[OUT]Jak ona może cię dostać?
+[/NODE]
+
++[NODE]27
+[STORY]
+„Zazwyczaj w mojej naturze jest pomoc, a jestem pewien, że Leopold przysłał cię tutaj właśnie z tego powodu. Jednak tym razem nie będę ingerować w jego imieniu. Musi nauczyć się radzić sobie z własną krzywdą. 
+
+Do widzenia.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]29
+[STORY]
+Mapa Leopolda prowadzi do opuszczonego domu. W tym miejscu ma mieszkać dola, który może dać ci zaproszenie do gry Kurv, ale jest pusty. 
+
+Być może słyszała o śmierci Leopolda.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SkshackAndHohlick2_(15)
++[NODE]2
+[STORY]
+Budzi Was w nocy delikatny szmer. Odkrywacie Skrzaka który dobrał się do zapasów żywności!
+[/STORY]
+[OUT]Leopold ?!
+[OUT]To wszystko. Zabij go!
+[/NODE]
+
++[NODE]3
+[STORY]
+„Ach, tak, tak, powiedziałem. . . Nie mogę nic na to poradzić. . . Proszę, posortuj grę, proszę. . .'
+
+[/STORY]
+[OUT]Powiedz mu, żeby się wygłupiał, zanim zdecydujesz się go zakończyć, zabijając go.
+[OUT]To wszystko. Zabij go!
+[OUT]Przyznaj, że zabiłeś dolę lub próbowałeś. To był wypadek. 
+[OUT]Powiedz, że zabiłeś cmuch.
+[OUT]Powiedz mu, że dola powiedział, że jest sam z tym bałaganem.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Tak, tak, idę. PA.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Cóż, dobrze, przypuszczam, że będę siedzieć w pobliżu. . .'
+
+Znika. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Aw, ouch. JA . . . cóż, jestem pewien, że zrobiłeś co w twojej mocy. Więc zamiast tego pójdziesz zobaczyć mojego przyjaciela cmuch?'
+[/STORY]
+[OUT]Tak. 
+[OUT]Nie.
+[OUT]To wszystko. Zabij go!
+[OUT]Zabił też cmuch.
+[/NODE]
+
++[NODE]8
+[STORY]
+Zabijacie demona i kiedy umiera, wyrzuca on z siebiezieloną, lepką flegmę, która pryska na Was i sprawia, że krztusicie się i prawdopodobnie zachorujecie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Przegraliście ze skaszakiem. . . 
+
+Patrzy na ciebie z niedowierzaniem, śmieje się i pluje na Was z zieloną, lepką flegmą, która śmierdzi niemiłosiernie i sprawia, że krztusicie się i prawdopodobnie zachorujecie. Można by przysiąc, że stworzenie pokazuje środkowy palec, ale nie Wam - komuś lub czemuś na niebie. Potem ucieka. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Świetnie, świetnie. Być może mniej rzeczy zabijania, co? ' 
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+„W takim razie wszystko w porządku. Niezręcznie, to. Przypuszczam, że będę siedzieć w pobliżu. . .'
+
+Znika.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Aw, ouch. JA . . . cóż, jestem pewien, że nie miałeś wyboru. Więc zamiast tego pójdziesz zobaczyć mojego przyjaciela dola?'
+[/STORY]
+[OUT]Tak. 
+[OUT]Nie.
+[OUT]To wszystko. Zabij go!
+[OUT]Zabił też dolę.
+[/NODE]
+
++[NODE]31
+[STORY]
+„Aw, ouch. JA . . . bardzo dziwny. . . Więc zamiast tego pójdziesz zobaczyć mojego przyjaciela cmuch?'
+[/STORY]
+[OUT]Tak. 
+[OUT]Nie.
+[OUT]To wszystko. Zabij go!
+[OUT]Zabił cmuch.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SAndHCmuchSpwn_(16)
++[NODE]2
+[STORY]
+Wskazówki Leopolda prowadzą do małego stawu. To tam żyje wiecznie nieuchwytny cmuch. 
+
+Z tego, co powiedział Leopold, wyzwaniem będzie znalezienie jego przyjaciela.
+[/STORY]
+[OUT][Demon lub percepcja] Wiele jest dostosowanych do cierpienia. Jeśli zranisz się i spróbujesz sprawić, by wyglądało to i wyglądało na prawdziwe, może do ciebie przyjść.
+[OUT][Cmuch] Twój towarzysz towarzyszy wszystkim kryjówkom. Podążaj za nimi.
+[OUT]Wejdź ostrożnie i wyszukaj cmuch.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Coś porusza się w pobliskim buszu. Czujesz, że jesteś obserwowany.
+[/STORY]
+[OUT]Opowiedz mu o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[OUT]Zabij cmuch!
+[/NODE]
+
++[NODE]5
+[STORY]
+Widzisz cmuch obserwujący cię z daleka, ale wciąż nie chcesz podejść bliżej. 
+[/STORY]
+[OUT][Demon] Powiedz, że wiesz, że jest dobry w sercu, więc musi pomóc swojemu przyjacielowi, nie?
+[OUT]Powiedz mu, że te demony ranią ciebie i innych dla zabawy. Z pewnością chciałby pomóc - jeśli nie ty, to jego własny przyjaciel?
+[OUT]Spróbuj złapać tego demona. Leopold powiedział, że pomoże ci, gdy się z nim spotkasz.
+[OUT][Owoc] Słyszałeś plotki, że lubią owoce. Zostaw ich i zwab i zobacz, czy wyjdą.
+[OUT][Magiczny użytkownik] Użyj rytuału, aby go śledzić. W końcu to demon.
+[/NODE]
+
++[NODE]6
+[STORY]
+Znajdziesz kilka ropuch, ale jeszcze nie ma cuchów. Jednak myślisz, że zauważyłeś, że ucieka od ciebie kilka razy.
+[/STORY]
+[OUT]Następnym razem, gdy to zobaczysz, biegnij za nim.
+[OUT]Poświęć więcej czasu na szukanie.
+[OUT][Magiczny użytkownik] Użyj rytuału, aby go śledzić. W końcu to demon.
+[OUT][Owoc] Słyszałeś plotki, że lubią owoce. Zostaw je i zobacz, czy wyjdą.
+[/NODE]
+
++[NODE]11
+[STORY]
+Twój rytuał zadziałał i niechętnie podchodzi cmuch. 
+
+[/STORY]
+[OUT]Opowiedz mu o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]12
+[STORY]
+Twoje wysiłki nie powiodły się. Ale widzisz małego drania, czającego się z daleka, śmiejącego się.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT][Owoc] Słyszałeś plotki, że lubią owoce. Zostaw je i zobacz, czy wyjdą.
+[OUT]Poświęć więcej czasu na szukanie.
+[OUT]Atakuj go!
+[/NODE]
+
++[NODE]14
+[STORY]
+Twoja przynęta zadziałała i niechętnie podchodzi cmuch.
+[/STORY]
+[OUT]Opowiedz mu o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]17
+[STORY]
+cmuch zbliża się, niechętnie. 
+
+'Dobrze, powiedzieli mi, że jestem zbyt wolny, żeby się z nimi bawić, więc wprowadzę cię, pokażę.' 
+[/STORY]
+[OUT]Jak on może cię wprowadzić?
+[OUT]Jak on może cię wprowadzić?
+[/NODE]
+
++[NODE]18
+[STORY]
+„Wszystko, czego potrzebujesz, to naprawdę demon, więc dla ciebie potrzebujesz tylko tego zaproszenia.'
+
+Wręcza ci cholerny ludzki ząb. 
+
+„Pokaże ci wejście, gdy nadejdzie czas na kolejną grę.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Cóż, przypuszczam, że będę musiał z tobą przyjść. Ząb pokaże ci wejście, a ja też przyjadę w tym czasie.'
+
+Podaje ci krwawy ludzki ząb. 
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]24
+[STORY]
+cmuch zbliża się, niechętnie. 
+
+'Dobrze, powiedzieli mi, że jestem zbyt wolny, żeby się z nimi bawić, więc wprowadzę cię, pokażę.' 
+[/STORY]
+[OUT]Jak on może cię wprowadzić?
+[OUT]Jak on może cię wprowadzić?
+[/NODE]
+
++[NODE]29
+[STORY]
+Znajdujesz cmuch bez problemu i patrzy na ciebie zirytowany.
+[/STORY]
+[OUT]Opowiedz mu o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]30
+[STORY]
+„Dobrze, powiedzieli mi, że jestem zbyt wolny, by się nimi bawić, więc wprowadzę cię, pokażę.' 
+[/STORY]
+[OUT]Jak on może cię wprowadzić?
+[OUT]Jak on może cię wprowadzić?
+[/NODE]
+
++[NODE]33
+[STORY]
+Łapiesz małego łobuza i uspokaja się, pozwalając ci z nim rozmawiać, niechętnie. 
+
+[/STORY]
+[OUT]Opowiedz mu o skshacku, którego spotkałeś i grze Kurv, w którą musisz się dostać.
+[/NODE]
+
++[NODE]35
+[STORY]
+cmuch nie żyje. Niewiele do wykorzystania w przypadku problemu. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Nawet jeśli cię pobiło, biedak musiał cierpieć na atak serca ze względu na stres. Cmuch nie żyje. Niewiele do wykorzystania w przypadku problemu. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TheGame_(17)
++[NODE]2
+[STORY]
+Zakrwawiony ząb wibruje w twojej kieszeni i wiesz, że zaproszenie do gry Kurv jest aktywne. 
+
+Wkrótce zobaczysz portal, a przez niego tawernę. 
+[/STORY]
+[OUT][Demon] Wejdź.
+[OUT]Poczekaj, aż pojawi się dola i zmień cię w demona.
+[OUT]Czekaj na cmuch, aby mogło ci towarzyszyć.
+[/NODE]
+
++[NODE]3
+[STORY]
+Wchodzisz do zaplecza zwykłej ludzkiej tawerny. Ale w środku znajduje się niezwykły tłum. Hochlick, pineconette, skshack i wróżka z zębami siedzą przy stole, zgarbieni nad miskami wypełnionymi wodą. Na stole są kości i dziwna tablica wyników. 
+
+Wróżka zębowa kusi cię: 
+
+'Nie znam cię, ale masz ząb, więc w tobie przychodzisz. Chwyć krzesło i miskę, a my zajmiemy się tobą.'
+[/STORY]
+[OUT]Usiądź.
+[OUT]Zaatakuj tę grupę i skończ z nią!
+[/NODE]
+
++[NODE]5
+[STORY]
+Zabijasz całą przeklętą imprezę i masz nadzieję, że zatrzyma tę śmieszną grę. 
+
+[/STORY]
+[OUT]Zawołaj Leopolda.
+[/NODE]
+
++[NODE]6
+[STORY]
+Pojawia się dola: 
+
+'Tak, gotowy zmierzyć się z tymi draniami? Nauczcie ich lekcji. Tutaj zaklęcie będzie działać przez jakiś czas, ale staraj się nie pozostać zbyt długo.'
+
+Nie czujesz się inaczej, ale przysięga, że zobaczą cię jako demony.
+[/STORY]
+[OUT]Idź do tawerny. 
+[/NODE]
+
++[NODE]7
+[STORY]
+Wchodzisz do zaplecza zwykłej ludzkiej tawerny. Ale w środku znajduje się niezwykły tłum. Hochlick, pineconette, skshack i wróżka z zębami siedzą przy stole, zgarbieni nad miskami wypełnionymi wodą. Na stole są kości i dziwna tablica wyników. 
+
+Wróżka zębowa kusi cię: 
+
+'Nie znam cię, ale masz ząb, więc w tobie przychodzisz. Chwyć krzesło i miskę, a my zajmiemy się tobą.'
+[/STORY]
+[OUT]Usiądź.
+[OUT]Zaatakuj tę grupę i skończ z nią!
+[OUT]Usiądź i powiedz, że chcesz grać. Bez bzdur, tylko gra - cokolwiek to jest.
+[/NODE]
+
++[NODE]8
+[STORY]
+Pojawia się cmuch: 
+
+'Cóż, chodźmy. Będę się ukrywał po wprowadzeniu, więc nie oczekuj mojej pomocy po tym.'
+[/STORY]
+[OUT]Idź do tawerny. 
+[/NODE]
+
++[NODE]9
+[STORY]
+Siadasz i zachęcasz do rzucania kośćmi z kości. Gdy spadają, na powierzchni pojawia się obraz mężczyzny. Wróżka ząb klaszcze w dłonie: 
+
+'Dobrze, dobrze, zawodnik jest wyciągnięty. Teraz, kiedy nadejdzie twoja kolej, rzuć kośćmi i zobacz, jakie psoty ich spotkają. Oczywiście wszystkie twoje demoniczne sztuczki są dozwolone.'
+[/STORY]
+[OUT]Kiwnij, jakbyś wiedział dokładnie, co on ma na myśli.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Im więcej kurvów i innych dozwolonych przekleństw krzyczy twój człowiek, tym więcej punktów otrzymasz. Proste, naprawdę. 
+
+Zachęca się do intryg, backstabingu i oszustw. Twoje miejsce nie stało się przypadkiem, ha ha!'
+
+Inni kiwają, niektórzy z entuzjazmem, inni trochę zestresowani. Hochlick wydaje się szczególnie zużyty. Szaszak siedzący po lewej stronie przechyla swoją miskę, aby pokazać ci ją cicho.
+[/STORY]
+[OUT]Zajrzyj. 
+[OUT]Powiedz, że jesteś gotowy, aby rozpocząć grę.
+[OUT][Demon] Wszyscy myślą, że jesteś po prostu amatorem. Ale dostrzegasz okazję do zagrania swojej pierwszej brudnej sztuczki, więc zrób to!
+[/NODE]
+
++[NODE]11
+[STORY]
+Miska pokazuje jednego z was! Na szczęście nie siedzę tutaj - jakaś demoniczna sztuczka, prawdopodobnie od Leopolda, pokazuje ci biwakowanie w lesie, a Leopold podkrada się, by zasadzić w butach trującego bluszczu.
+[/STORY]
+[OUT]Mów cicho do skshacka. Zapytaj, czy zna Leopolda.
+[OUT]Zaatakuj tę grupę i skończ z nią!
+[OUT]Powiedz, że jesteś gotowy, aby rozpocząć grę.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Tak, Leopold miał coś wspólnego z hochlickiem, ale ten skrzydlaty łotr oszukiwał, a teraz Leo utknął jako pionek w grze. Słuchaj, jeśli grasz i wygrywasz, pomogę i uwolnimy Leo.'
+[/STORY]
+[OUT]Zapytaj, jakie są stawki.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Och, cóż, różne rzeczy, ale przede wszystkim zwolnienie z przyszłych gier przez trzy lata, przynajmniej dla mnie. Ale także przedmioty i takie. 
+
+Jeśli ci się nie uda, możesz stracić rzeczy lub ducha lub krew, jeśli ta głupia wróżka wygra.'
+[/STORY]
+[OUT]Zapytaj go, czy zamierza w tym przypadku pomóc.
+[/NODE]
+
++[NODE]14
+[STORY]
+Wróżka zęba mówi: 
+
+'Tak więc, jako przypomnienie, im więcej kurvów i innych dozwolonych przekleństw krzyczy twój człowiek, tym więcej punktów otrzymasz. Proste, naprawdę. 
+
+Rzuć kośćmi, wymyśl najlepsze sposoby na zirytowanie śmiertelnika i baw się dobrze!'
+[/STORY]
+[OUT]Używaj swoich umiejętności tutaj, aby czytać innych, blefować i również nazywać ich blefem. 
+[OUT][Magiczny użytkownik] Użyj magii, aby wpłynąć na swoją grę i sprawić, by wyglądała na wygraną.
+[OUT][Demon] Pomyśl o cudownie psotnych sposobach, by dręczyć swojego śmiertelnika, a jednocześnie oszukiwać swoich konkurentów przy stole. 
+[OUT]Zaatakuj tę grupę i skończ z nią!
+[OUT]Spróbuj grać uczciwie i zastanów się, jak sprawić, by śmiertelnik przysiągł. 
+[OUT]Skshack oferuje swoją pomoc. Słuchać. 
+[/NODE]
+
++[NODE]16
+[STORY]
+Oglądasz, uczysz się i blefujesz na drodze do zwycięstwa. Inne demony są rozdrażnione, ale przyznaj się do swojej dominacji. Wróżka zęba wygląda na wściekłą, ale pyta: 
+
+'Tak więc wygrywa nowicjusz. Szczęście Beginnera. Tutaj, nagroda, i możesz nazwać tuzin śmiertelników i demonów zwolnionych z gier na trzy lata, zgodnie z zasadami.' 
+[/STORY]
+[OUT]Zwolniony? 
+[OUT]Nazwij swoich ludzi i Leopolda. 
+[OUT]Nazwij tylko swoich ludzi.
+[OUT]Nazwij swoich ludzi, ale powiedz, że chcesz, aby Leopold pozostał związany z grą. 
+[/NODE]
+
++[NODE]17
+[STORY]
+„Tak, dlatego dobroduszni dwa buty, takie jak szorty i cmuchy, bawią się z nami, aby chronić swoich podopiecznych. Miękkie. Ale zasady są regułami.'
+[/STORY]
+[OUT]Nazwij swoich ludzi i Leopolda. 
+[OUT]Nazwij tylko swoich ludzi.
+[/NODE]
+
++[NODE]18
+[STORY]
+„W porządku, umowa jest zapieczętowana. Seeya wokół, najlepiej nie przy stole. Nie gram z tobą już więcej.'
+[/STORY]
+[OUT]Pożegnaj się z graczami.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Rzeczywiście interesujące. Nie rozumiem, dlaczego nie, więc sprawa jest zapieczętowana. Seeya wokół, najlepiej nie przy stole. Nie gram z tobą już więcej.'
+
+Gdy wróżka z zębów odchodzi, widzisz Leopolda wezwanego i umieszczonego w klatce. Patrzy w twoją stronę i uśmiecha się, jakby chciał powiedzieć, że jest szczęśliwy, że już się nie zranisz. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Wszystko w porządku, transakcja jest zapieczętowana. Seeya wokół, najlepiej nie przy stole. Nie gram z tobą już więcej.'
+
+Gdy wróżka z zębów odchodzi, widzisz Leopolda wezwanego i umieszczonego w klatce. Patrzy w twoją stronę i uśmiecha się, jakby chciał powiedzieć, że jest szczęśliwy, że już się nie zranisz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Pomimo twoich najlepszych wysiłków, wróżka sprawiła, że jego człowiek przysiągł jak marynarz, z rozbitymi zębami, zepsutym jedzeniem i zwycięzcą - pikantną gorącą pastą na prawej ręce, która doprowadziła do paskudnych oparzeń w miękkich miejscach.
+
+[/STORY]
+[OUT]Poczekaj, aby zobaczyć, co się teraz stanie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Zwycięzca chwali się tobą: 
+
+'Nie masz szczęścia dla początkującego, ha ha. Teraz biorę od ciebie jeden ząb i jesteś przeklęty z powodu pecha. Do następnego razu.'
+
+Gdy wróżka z zębów odchodzi, widzisz Leopolda wezwanego, włożonego do klatki i zabranego. Zostajesz w pustej, opuszczonej tawernie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Przekręcasz swój los za pomocą delikatnych wybuchów magii, a twoja miska pokazuje doskonałą iluzję „twojego człowieka” przeklinającego lepiej niż jakiegokolwiek marynarza. Inne demony są rozdrażnione, ale przyznaj się do swojej dominacji. Wróżka zęba wygląda na wściekłą, ale pyta: 
+
+'Tak więc wygrywa nowicjusz. Szczęście Beginnera. Tutaj, nagroda, i możesz nazwać tuzin śmiertelników i demonów zwolnionych z gier na trzy lata, zgodnie z zasadami.' 
+[/STORY]
+[OUT]Zwolniony? 
+[OUT]Nazwij swoich ludzi i Leopolda. 
+[OUT]Nazwij tylko swoich ludzi.
+[OUT]Nazwij swoich ludzi, ale powiedz, że chcesz, aby Leopold pozostał związany z grą. 
+[/NODE]
+
++[NODE]31
+[STORY]
+Przekręcasz swój los i oszukujesz swoją drogę do zwycięstwa jak zawodowiec. Inne demony są rozdrażnione, ale przyznaj się do swojej dominacji. Wróżka zęba wygląda na wściekłą, ale pyta: 
+
+'Tak więc wygrywa nowicjusz. Szczęście Beginnera. Tutaj, nagroda, i możesz nazwać tuzin śmiertelników i demonów zwolnionych z gier na trzy lata, zgodnie z zasadami.' 
+[/STORY]
+[OUT]Zwolniony? 
+[OUT]Nazwij swoich ludzi i Leopolda. 
+[OUT]Nazwij tylko swoich ludzi.
+[OUT]Nazwij swoich ludzi, ale powiedz, że chcesz, aby Leopold pozostał związany z grą. 
+[/NODE]
+
++[NODE]32
+[STORY]
+Pojawia się skshack, patrzy na rzeź i krzyczy: 
+
+'Ojej, ojej kochanie. Nigdy nie sądziłem, że tak to uporządkujesz. . . jesteście śmiertelnymi śmiertelnikami. . . Przepadnij!'
+
+Znika w kłębie zielonego dymu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Stwory biją cię i wydają się zszokowane, ale wróżka szybko odzyskuje spokój: 
+
+'Dlaczego, diabełku. Przyjdź do naszego domu z brutalną siłą, bez oszukiwania, bez dźgania w plecy, po prostu salwa. Wstyd, wstyd! Zacznij i zostań przeklęty przez nas wszystkich!'
+
+Zanim będziesz mógł zareagować, znajdziesz się w pustym polu. Bez tawerny, bez demonów, bez zaproszenia ząb.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Jeden z zawodników nie patrzył i byłeś w stanie upuścić krew do miski. Magia krwi zniekształca rzeczy i powinna pomóc ci wygrać.
+[/STORY]
+[OUT]Racja, spójrz w te miski, zobacz, czym one są.
+[OUT]Powiedz, że jesteś gotowy, aby rozpocząć grę.
+[/NODE]
+
++[NODE]39
+[STORY]
+Jeden z zawodników nie patrzył i byłeś w stanie upuścić krew do miski. Magia krwi zniekształca rzeczy, więc daje ci przewagę, ale później spóźniasz się, że ktoś cię zaatakował, kiedy byłeś zajęty.
+[/STORY]
+[OUT]Racja, spójrz w te miski, zobacz, czym one są.
+[OUT]Powiedz, że jesteś gotowy, aby rozpocząć grę.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Tak, pomogę, ale. . . musisz pozwolić mi wygrać. Pozwól mi zabrać trochę twojego ducha, staję się silniejszy, wygram. Mogę uwolnić Leo i nazwać cię zwolnionym z gier. Musisz mi tylko zaufać.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odrzuć, powiedz, że sam zagrasz w grę i wygrasz.
+[/NODE]
+
++[NODE]41
+[STORY]
+Skshack wygrywa i wymienia cię wśród zwolnionych z gier, ale nie zwalnia Leopolda. 
+
+„Wow, jesteś naiwny. Wygrywam, biorę to wszystko i ten idiota Leopold będzie naszą suką. A teraz odejdź, zanim zmienię zdanie i wyręcę cię.'
+
+Gdy wróżka z zębów odchodzi, widzisz Leopolda wezwanego i umieszczonego w klatce. Patrzy w twoją stronę i uśmiecha się, jakby chciał powiedzieć, że jest szczęśliwy, że już cię nie skrzywdzi. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Zaskakujesz nawet siebie, gdy sprawiasz, że śmiertelnik przysięga jak marynarz swoimi paskudnymi sztuczkami. Inne demony są rozdrażnione, ale przyznaj się do swojej dominacji. Wróżka zęba wygląda na wściekłą, ale pyta: 
+
+'Tak więc wygrywa nowicjusz. Szczęście Beginnera. Tutaj, nagroda, i możesz nazwać tuzin śmiertelników i demonów zwolnionych z gier na trzy lata, zgodnie z zasadami.' 
+[/STORY]
+[OUT]Zwolniony? 
+[OUT]Nazwij swoich ludzi i Leopolda. 
+[OUT]Nazwij tylko swoich ludzi.
+[OUT]Nazwij swoich ludzi, ale powiedz, że chcesz, aby Leopold pozostał związany z grą. 
+[/NODE]
+
++[NODE]46
+[STORY]
+Tak jak ty odchodzisz, znajdziesz przyjaznego skshacka, może dołączył do ciebie jakiś kuzyn Leopolda.
+[/STORY]
+[OUT]Świetnie. Pozostawiać.
+[/NODE]
+
++[NODE]47
+[STORY]
+Tak jak odchodzisz, podchodzi do ciebie cmuch, który siedział cicho w kącie, milcząc, ale podąża za tobą. Najwyraźniej był pod wrażeniem twoich umiejętności.
+[/STORY]
+[OUT]Świetnie. Pozostawiać.
+[/NODE]
+
++[NODE]50
+[STORY]
+Tak jak odchodzisz, podchodzi do ciebie cmuch, który siedział cicho w kącie, milcząc, ale podąża za tobą. Najwyraźniej był pod wrażeniem twoich umiejętności.
+[/STORY]
+[OUT]Świetnie. Pozostawiać.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --hohlick_(18)
++[NODE]2
+[STORY]
+„Ty - zostałeś wysłany przez Leopolda, tak? Powiedz, może zapłacę ci i zabijesz tę irytującą ciotkę. Oboje jesteśmy szczęśliwi, co?'
+[/STORY]
+[OUT]Dlaczego?
+[OUT]Nie.
+[OUT]Zamiast tego zabij ten hochlick.
+[OUT]Zgoda.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Dlaczego, dlaczego? On jest prześladowcą, dlatego. Chce dostać się do moich spodni przez sto lat! 
+
+Więc w końcu oszukałem faceta z wróżki, żeby pomógł mi pozbyć się idioty, przynajmniej na jakiś czas. Ale potem przychodzisz. . .'
+[/STORY]
+[OUT]Więc założył Leopolda? 
+[OUT]Zgoda.
+[OUT]Powiedz, że rozważysz to, ale dla lepszej nagrody.
+[OUT]Nie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Jesteś głuchy? Tak, zrobiłem. Teraz go zabijasz? Dam ci moją różdżkę, to dobrze, przysięgam.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Zabicie go wydaje się ekstremalne. Czy jest inny sposób?
+[OUT]Powiedz, że rozważysz to, ale dla lepszej nagrody.
+[OUT]Nie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Przypuszczam, że jeśli wygrasz grę, możesz poprosić Leopolda, aby został pionkiem przez następne trzy lata. Tak, to go nauczy!'
+[/STORY]
+[OUT]Czy może ci powiedzieć więcej o grze?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Nie, to łamią zasady, a ja jestem demonem - nie jesteśmy zbyt dobrzy w łamaniu prawa. Udajesz się tam i po prostu wygraj.'
+[/STORY]
+[OUT]A twoja nagroda?
+[/NODE]
+
++[NODE]7
+[STORY]
+„Och, to. Oczywiście dam ci to, jeśli wygrasz. Demoniczna transakcja jest dobra jak złoto.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Niesamowite, oczywiście dam ci różdżkę, jeśli wygrasz. Demoniczna transakcja jest dobra jak złoto.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„No dobrze, dobrze, mam tego goblińskiego dzieciaka. Przyniosę ci to.'
+[/STORY]
+[OUT]Umowa stoi.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Różdżka jest fajna, przysięgam. Pozbądź się tego szkodnika, proszę!'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Zabicie go wydaje się ekstremalne. Czy jest inny sposób?
+[/NODE]
+
++[NODE]13
+[STORY]
+Stwór nie żyje. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Hej, whoa, dobrze, dobrze, idę!'
+
+Stwór odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Och, daj spokój, proszę? On jest taki uciążliwy.'
+[/STORY]
+[OUT]Dlaczego?
+[OUT]Nie, odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SkshackAndHohlick3_(19)
++[NODE]2
+[STORY]
+Łapiesz Leopolda, próbującego rozmazać gówno na ubraniu.
+[/STORY]
+[OUT]To wszystko! Zabij małego łobuza!
+[OUT]Powiedz mu, co powiedział hochlick.
+[/NODE]
+
++[NODE]4
+[STORY]
+Zabijasz skaczaka i hochlick leci nad: 
+
+'Tak!'
+
+Potem patrzy na swojego martwego towarzysza, a widzisz, jak łzy się wznoszą: 
+
+' Cholera, teraz to się skończyło. . . denerwujące, tak, ale martwe, och, kochanie. . . W każdym razie, oto twoja różdżka.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Jaka różdżka? A co z dzieckiem goblinów?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Powiedziałem, że ci to przyniosę. Oto jest, zobacz.'
+
+Wskazuje na dziecko noszone przez rój hochlicków. 
+
+„Nigdy nie powiedziałem, że ci to dam. Tutaj zamiast tego weź zwierzę. Zrobiłeś mi solidne.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[OUT]Atakuj przeklętego hochlicka!
+[/NODE]
+
++[NODE]8
+[STORY]
+Zabijasz hochlick i masz szansę uratować goblińskie dziecko, jeśli możesz się do niego dostać, zanim więcej hohlicks go zabierze.
+[/STORY]
+[OUT]Zabierz dziecko, jeśli możesz i wyjdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Hochlicks pobiły cię i przeklinały, zanim odlecą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Jasne, jasne, idź, i tak jest zbyt duży jak na mój gust. Odchodzę, pa.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Na dobre serce Łady, przestań. Po prostu zagraj w grę. Wyluzuj.'
+
+On ucieka.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Co? Dlaczego ona?'
+[/STORY]
+[OUT]Ona? 
+[/NODE]
+
++[NODE]16
+[STORY]
+„Czy powiedziała, że to on? Lubi tak grać, nie ma dla mnie znaczenia. Dlaczego ona tak powiedziała? Jesteśmy najlepszymi przyjaciółmi od wieku. Chodzi mi o to, myślę, że ona jest puchnącą hochlicką, ale ja nigdy. . .'
+[/STORY]
+[OUT]Powiedz mu, że to nie twoja sprawa, ale wolisz nikogo nie zabijać, więc najlepiej to załatwić.
+[OUT]Powiedz, że jest ci przykro, ale umowa to umowa. Atak!
+[/NODE]
+
++[NODE]17
+[STORY]
+„Proszę, wygraj grę. Przysięgam, że sam zajmę się Frixem.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SAndHFritzReward_(20)
++[NODE]2
+[STORY]
+„Zrobiłeś to, dzięki! Ten głupiec już mi nie przeszkadza, przynajmniej przez kilka lat. Pomyślę o czymś później. Oto nagroda zgodnie z obietnicą.'
+
+Frix wręcza ci prezent i odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Okrutny lud okrutnie na nas polujesz. . . zdradziłeś biednego Leopolda. . . Nienawidzę cię. Muszę ci dać głupią różdżkę według prawa, ale przeklinam cię!'
+
+Frix wręcza ci prezent i odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Ale poprosił cię o to.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Ja. . . To wszystko Twoja wina!'
+
+Hochlick krzyczy na ciebie przed zniknięciem. Być może nigdy nie miał problemów z Leopoldem. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --LeopoldSpwn_(21)
++[NODE]2
+[STORY]
+Natkniesz się na Leopolda: 
+
+- Słyszałem, co się stało. Naprawdę ich zaatakowałeś? Odważny. Również strasznie brutalne. Mimo to, mimo że byłeś pokonany, byli tak wstrząśnięci, że na razie zawiesili grę. Więc mam czas, żeby wymyślić drogę. Dziękuję Ci. Oto mały prezent. PA.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfSmth2Spwn_(22)
++[NODE]2
+[STORY]
+Znajdujesz jezioro, w którym ukrywają się wnuczki Bohdana. 
+[/STORY]
+[OUT]Wyszukaj je.
+[/NODE]
+
++[NODE]3
+[STORY]
+Widzisz kilka kobiet tańczących w kręgu nad jeziorem. W kręgu siedzi dziecko, które wpatruje się w zachwyt. 
+
+Słodka melodia ich piosenki przyciąga cię. . .
+[/STORY]
+[OUT][Przeznaczenie lub magiczny użytkownik] Łatwo nie zachwiejesz się ich urokami. Trzymaj głowę czysto i podejdź.
+[OUT][Kobieta] Pieśń rusalka jest piękna, ale na szczęście nie wpływa ona tak samo na kobiety. Podejdź do nich.
+[OUT]Śledź ładną piosenkę.
+[/NODE]
+
++[NODE]5
+[STORY]
+Podchodzisz do dziewczyn i dwa z nich zwracają się do ciebie, zaskoczeni. Trzeci z nich kontynuuje swoją piosenkę i tańczy bez przeszkód. Jeden z dwóch mówi: 
+
+'Hej, nie powinieneś nam przeszkadzać. Czy musimy teraz przestać?'
+
+Pyta drugiego, który wzrusza ramionami i patrzy na trzeciego, który wciąż ignoruje całą sprawę.
+[/STORY]
+[OUT]Zapytaj, czy są to Eva i Anya, wnuczki Bohdana.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Och, gówno, dziadku cię przysłał? Po prostu powiedz mu, żeby nas zostawił, odkrywamy nasze korzenie, odnajdujemy naszą prawdziwą tożsamość. Nie może nas powstrzymać, wiesz!'
+[/STORY]
+[OUT]Powiedz im, że spodziewałeś się dzieci.
+[OUT]Powiedz, że to nie twoja sprawa, ale wydawał się stary i zmartwiony, i prawdopodobnie byłoby miło powiedzieć mu, że wszystko w porządku.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Tak, zarówno mama, jak i on, traktują nas jak dzieci, cały czas! Są takie stare i zrzędliwe, po prostu nas nie mają!- Siostra Anyi kiwa energicznie głową. 
+
+Trzecia rusalka marszczy brwi i szepcze coś do dwóch sióstr. Anya ponownie zwraca się do ciebie: 
+
+'Och, musimy już iść. Musimy skończyć ten taniec właściwie. Najlepiej idź.'
+[/STORY]
+[OUT]Zapytaj, czym właściwie jest ten taniec i czy ma to coś wspólnego z siedzącym tutaj dzieckiem.
+[OUT][Mądrość lub demon wody] Zapytaj, czy przechodzą inicjację, topiąc dziecko, aby mogło się odrodzić jako jedno z nich.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Spotkaliśmy tu tę ładną demoniczną damę i powiedziała, że ponieważ jesteśmy pół-rasami, musimy udowodnić, że możemy być rusalkas. W przeciwnym razie nie jesteśmy lepsi od befuddler bastard - cokolwiek to znaczy. Więc musimy spróbować uczynić to dziecko jednym z nas.'
+[/STORY]
+[OUT]Zapytaj, dlaczego ich matka sama tego nie zrobiła.
+[OUT][Mądrość lub demon wody] Więc utopią dziecko?
+[OUT]Jak sprawią, że będzie jednym z nich?
+[OUT]Pobij ich i zabierz z powrotem do Bohdana!
+[/NODE]
+
++[NODE]9
+[STORY]
+„Och, tak, właśnie to.'
+[/STORY]
+[OUT]Zapytaj, dlaczego ich matka sama tego nie zrobiła.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Och, mama jest bardziej krasnoludką niż rusałką, wiesz. Ona jest jak - dziedzictwo krasnoludów uczy nas szanować życie i pracować ze światłem, tworzyć rzeczy, a świat demonów jest ciemny, niebezpieczny i uwodzicielski. Nigdy nawet nie zabrała nas do jeziora, kulawy.Siostra znów energicznie kiwa głową, ale wygląda na niepewną, jakby spodziewała się, że jej dziadek lub mama wyskoczą w każdej chwili, by ją skarcić.
+[/STORY]
+[OUT]Więc ich mama jest krasnoludem?
+[OUT]Przypomnij im, że ich dziadek jest stary i chory, i został im na obserwację. Jeśli to zrobią teraz, zhańbią go.
+[OUT][Demon wody] Powiedz im, że powinni objąć swoją demoniczną naturę, ale uważaj, by nie wpaść w ciemne ścieżki. Opowiedz im o swojej własnej podróży, która doprowadziła cię do służenia kosmicznemu panteonowi.
+[OUT]Zachęcaj ich do podążania za swoją naturą, jak słusznie powinni. Odejdź i powiedz Bohdanowi o tym.
+[OUT]Pobij ich i zabierz z powrotem do Bohdana!
+[OUT][Postrzeganie] Widzisz, że Eva, cicha siostra, nie jest pewna, co się dzieje. Porozmawiaj z nią bezpośrednio i zapytaj, czy naprawdę tego chce, czy lepiej byłoby wrócić do Bohdana i robić rzeczy we właściwy sposób.
+[/NODE]
+
++[NODE]11
+[STORY]
+„No tak, mam na myśli nie fizycznie, jak wiesz, jest krótsza i bardziej krępa od nas, a nasi wujowie zaakceptowali ją jako jedną z rodziny, powiedziała, że ma kamienne serce i żelazną wolę prawdziwej krasnoludki , lub cokolwiek.'
+[/STORY]
+[OUT]A twój ojciec?
+[/NODE]
+
++[NODE]12
+[STORY]
+„To rusalka interes, wiesz.'
+[/STORY]
+[OUT]Zapytaj, dlaczego ich matka sama tego nie zrobiła.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Dzięki, więc powiedz dziadkowi, że wszystko w porządku, prawda? To nie znaczy, że go nie kochamy, tylko idziemy w tym kierunku.'
+[/STORY]
+[OUT]Powiedz, że zrobisz to, jeśli możesz, a potem życz im szczęścia i wyjdź.
+[/NODE]
+
++[NODE]14
+[STORY]
+Dziewczyny wyglądają na smutne: 
+
+'Zmarł goniąc niektórych kultystów dekady temu. Ale nigdy nie powiedział nam, żebyśmy byli krasnoludami, wiesz, powiedział, że powinniśmy podążać za naszymi sercami, tak jak on i mama. Więc jesteśmy!'
+[/STORY]
+[OUT]Przypomnij im, że ich dziadek jest stary i chory, i został im na obserwację. Jeśli to zrobią teraz, zhańbią go.
+[OUT][Demon wody] Powiedz im, że powinni objąć swoją demoniczną naturę, ale uważaj, by nie wpaść w ciemne ścieżki. Opowiedz im o swojej własnej podróży, która doprowadziła cię do służenia kosmicznemu panteonowi.
+[OUT]Zachęcaj ich do podążania za swoją naturą, jak słusznie powinni. Odejdź i powiedz Bohdanowi o tym.
+[OUT]Pobij ich i zabierz z powrotem do Bohdana!
+[OUT][Postrzeganie] Widzisz, że Eva, cicha siostra, nie jest pewna, co się dzieje. Porozmawiaj z nią bezpośrednio i zapytaj, czy naprawdę tego chce, czy lepiej byłoby wrócić do Bohdana i robić rzeczy we właściwy sposób.
+[/NODE]
+
++[NODE]15
+[STORY]
+Melodia pieśni rusałki wznosi się ponownie, a demony kontynuują swój taniec, tym razem zbliżają się coraz bliżej jeziora. Dziecko podąża za nim nieśmiało i wkrótce usłyszysz głośny dźwięk, gdy wpadną w głęboką, ciemną wodę. 
+
+Potem wszystko idzie cicho, a ty już nikogo nie widzisz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Tym razem Eva, cicha siostra, mówi: „Ja. . . przypuśćmy, że dziadek poczuje się naprawdę zraniony, a jego honor jest już zraniony. Możemy to zrobić innym razem. Zawsze. Dziękujemy za przypomnienie nam, wrócimy teraz.„Szarpie siostrę. 
+
+[/STORY]
+[OUT]Spójrz na drugą siostrę, aby zobaczyć, czy ona podąża.
+[/NODE]
+
++[NODE]20
+[STORY]
+Anya kiwa głową i podąża za siostrą. Trzecia rusalka wygląda na dość zakłopotaną, ale wzrusza ramionami i również zaczyna odchodzić. Dziecko pozostaje zdezorientowane i zaraz płacze. 
+
+Siostry wyglądają na zawstydzone: 
+
+'Daj spokój, dzieciaku, zabierzemy cię z powrotem do twojej mamy, zanim dziadek skopie nam tyłki.' 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+„Jesteśmy zmęczeni słuchaniem tych krasnoludzkich opowieści honoru. Nie jesteśmy krasnoludami, jesteśmy rusalkas. Teraz odejdź!'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Pobij ich i zabierz z powrotem do Bohdana!
+[/NODE]
+
++[NODE]27
+[STORY]
+Pobiłeś rusalkas, ale trzeci ucieka, zabierając dziecko ze sobą. 
+
+Obie dziewczyny płaczą i posłusznie pójdą za tobą do Bohdana.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Ruski źle cię biją, ale pozwalają ci odejść. Anya krzyczy na ciebie: 
+
+'Idź powiedz naszemu dziadkowi, że jesteśmy teraz rusalkas, i nie wrócimy, dopóki nie wiemy, co to znaczy.'
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]30
+[STORY]
+Tym razem Eva, cicha siostra, mówi: „Ja. . . przypuśćmy, że masz rację. Więc twoi bogowie mogą nam pokazać drogę? I nie musimy utopić dziecka? Wrócimy do dziadka i zamiast tego nauczymy się o twoich bogach.'
+
+[/STORY]
+[OUT]Spójrz na drugą siostrę, aby zobaczyć, czy ona podąża.
+[/NODE]
+
++[NODE]31
+[STORY]
+Przychodzisz do małego jeziora i widzisz trzy tańce rusalkas. Ich melodia jest oczywiście fascynująca. 
+
+Wiesz, że jeśli podejdziesz bliżej, ryzykujesz wciągnięciem magii. 
+[/STORY]
+[OUT][Demon wody] Wejdź i zapytaj ich, czy to Eva i Anya.
+[OUT][Magiczny użytkownik lub przeznaczenie] Takie sztuczki nie dają ci łatwego efektu. Wejdź i spytaj, czy są to dziewczyny, których szukasz.
+[OUT][Kobieta] O ile wiesz, rusalkas dotyczą tylko mężczyzn. Zapytaj ich o Anyę i Evę.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]32
+[STORY]
+Podchodzisz do dziewczyn i dwa z nich zwracają się do ciebie, zaskoczeni. Trzeci z nich kontynuuje swoją piosenkę i tańczy bez przeszkód. Jeden z dwóch mówi: 
+
+'Hej, nie powinieneś nam przeszkadzać. Czy musimy teraz przestać?'
+
+Pyta drugiego, który wzrusza ramionami i patrzy na trzeciego, który wciąż ignoruje całą sprawę.
+[/STORY]
+[OUT]Zapytaj, czy są to Eva i Anya, wnuczki Bohdana.
+[/NODE]
+
++[NODE]33
+[STORY]
+Przyciągają cię piękne nimfy, a wszystko, co chcesz zrobić, to dołączyć do ich pięknego tańca. Ale dwie rusalkas przestają tańczyć i zwracają się do ciebie, zaskoczeni. Trzeci z nich kontynuuje swoją piosenkę i tańczy bez przeszkód. Jeden z dwóch mówi: 
+
+'Hej, nie powinieneś tu być. Czy musimy teraz przestać?'
+
+Pyta drugiego, który wzrusza ramionami i patrzy na trzeciego, który wciąż ignoruje całą sprawę.
+[/STORY]
+[OUT]Zapytaj, czy są to Eva i Anya, wnuczki Bohdana.
+[/NODE]
+
++[NODE]35
+[STORY]
+Zwracają się do ciebie: 
+
+'Nie, nie jesteśmy nimi. Niepokoisz nas, więc dołącz do nas lub odejdź.'
+[/STORY]
+[OUT]Dołącz do rytuału. 
+[OUT]Zostaw ich. 
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]38
+[STORY]
+Dołączasz do ich tańca duchowego i czujesz delikatny dotyk powietrza na swoich stopach, gdy razem pasiesz się na gładkiej powierzchni jeziora. 
+
+Czujesz się ożywiony, a rusalkas również daje ci prezent. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]41
+[STORY]
+Próbujesz się przyłączyć, ale najwyraźniej nie jesteś zsynchronizowany z duchami wody. 
+
+Ruski znikają w jeziorze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Zwracają się do ciebie, zmienili: 
+
+'Jesteś głuchy na naszą piosenkę, ale nie na nasz pocałunek. Chodź, chodź, graj!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Powiedz, że jesteś szczęśliwy, że grasz, po prostu nie tak szorstko. 
+[OUT][Magiczny użytkownik] Zaatakuj ich swoim duchem!
+[/NODE]
+
++[NODE]44
+[STORY]
+Ruski leżą martwe i sądząc po wieku tych zwłok, nie były to młode dziewczyny, których szukałeś. 
+[/STORY]
+[OUT]Dobrze. Pozostawiać.
+[/NODE]
+
++[NODE]48
+[STORY]
+Naprawdę nie pamiętasz, co się stało później. Myślisz, że dużo tańczyłeś, potem więcej. . . w końcu rusalkas cię opuszczą, ale czujesz się używany i wykorzystywany. 
+
+Widoczny wiek demonów wodnych sugeruje, że nie były to dziewczyny, których szukałeś.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]49
+[STORY]
+„Tak, tak, jesteś zabawny. Nie jesteśmy dziewczynami, których szukasz, chociaż widzieliśmy, jak wchodzą do jaskini, jeśli to pomaga? Teraz chodź, tańcz, obiecujemy być łagodni!'
+[/STORY]
+[OUT]Tańcz z ralkalkami.
+[/NODE]
+
++[NODE]53
+[STORY]
+Zwracają się do ciebie, zmienili: 
+
+'Jesteś głuchy na naszą piosenkę, ale nie na nasz pocałunek. Chodź, chodź, graj!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Powiedz, że jesteś szczęśliwy, że grasz, po prostu nie tak szorstko. 
+[OUT][Magiczny użytkownik] Zaatakuj ich swoim duchem!
+[OUT]To jest zbyt niebezpieczne, odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfSmth3Spwn_(23)
++[NODE]2
+[STORY]
+Znajdujesz jaskinię, w której ukrywają się Anya i Eva, według ich dziadka Bohdana. 
+[/STORY]
+[OUT]Wejdź. 
+[OUT]Wróć później. 
+[/NODE]
+
++[NODE]4
+[STORY]
+Wchodzisz do dużej podziemnej komory, która jest mroczna i niesamowita. W jednym rogu widać dwie dziewczyny, skulone nad małymi kamieniami i śpiewające krasnoludami.
+[/STORY]
+[OUT][Dwarf] Czy próbują śpiewać pieśń życia do tych skał? Powiedz im, aby natychmiast przestali! 
+[OUT]Podejdź do nich i powiedz, że nadszedł czas, aby wrócić do swojego dziadka, ponieważ jest bardzo zmartwiony i wysłał cię tutaj.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Co, kim jesteś? I dlaczego powinniśmy przestać? Zrobimy małego krasnoluda, a wtedy będziemy krasnoludkami!'
+[/STORY]
+[OUT]Powiedz im, że tak nie będzie. Te skały nie są krasnoludzkimi dziećmi. Nie mogą po prostu zabrać żadnej skały, zaśpiewać i zrobić krasnoluda!
+[OUT]Zapytaj, czy wiedzą nawet, co robią krasnoludzkie żony i jak się z nim stajesz. To dziwna głupota, na której grają.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Mylisz się, to właśnie jesteś! Widzieliśmy, jak te małe skały się poruszają. Oni są tak małymi krasnoludami.„Druga siostra energicznie kiwa głową. 
+[/STORY]
+[OUT]Przeprowadzili się? O nie. Powiedz im, żeby odeszli od tych małych rockerów! Ich rodzice trolli będą blisko. 
+[/NODE]
+
++[NODE]7
+[STORY]
+„Dziadek zawsze traktuje nas jak małe dzieci. Cóż, nie jesteśmy. Chcemy być teraz odpowiednimi krasnoludami. Ale nasza krasnoludzka rodzina mówi, że nie możemy być karłowatymi żonami, ponieważ nie możemy śpiewać piosenki. Cóż, słuchaliśmy i możemy! Jeśli rusalkas potrafi coś zrobić, to śpiewaj.'
+[/STORY]
+[OUT]Ale są to rusalkas. Dlaczego chcą być krasnoludzkimi żonami?
+[OUT]Naprawdę cię to nie interesuje. Bohdan powiedział, że muszą wrócić do domu. Teraz. 
+[/NODE]
+
++[NODE]8
+[STORY]
+„To nasze prawo do wyboru. Nasze dziedzictwo. Nie wiem, czy w końcu go wybierzemy, ale chcemy mieć wybór, prawda? 
+
+Bycie karłowatą żoną jest również bardzo ważne. Chcemy udowodnić, że możemy to zrobić.'
+[/STORY]
+[OUT]A śpiewanie do tych kamieni osiągnie to wszystko?
+[/NODE]
+
++[NODE]9
+[STORY]
+„No tak. To znaczy, nie powinniśmy mówić ludziom, ale tak, te kamienie to dzieci, a jeśli im zaśpiewamy, wyrosną na prawdziwych żywych, wiesz!'
+[/STORY]
+[OUT][Percepcja lub mądrość] Te skały wyglądają nienormalnie, ale nie bardzo przypominają dzieci karłowate. Bardziej jak trolle. Małe rockowe trolle. Powiedz dziewczynom, że czas już odejść!
+[OUT]Naprawdę cię to nie interesuje. Bohdan powiedział, że muszą wrócić do domu. Teraz. 
+[OUT]W porządku. Pozwól im zostać. 
+[/NODE]
+
++[NODE]10
+[STORY]
+„Nie, nie pojedziemy!'
+
+Zamierzasz dalej się z nimi kłócić, gdy usłyszysz rytmiczne bicie w tę stronę. Znowu patrzysz na małe kamienie, a teraz widzisz, że to rockersy - małe trolle! Dziewczyny piszczą ze strachu. 
+[/STORY]
+[OUT]Chwyć rusalkas i uciekaj. 
+[OUT]Stój mocno i walcz z trollami!
+[/NODE]
+
++[NODE]12
+[STORY]
+Opuszczasz dziewczęta i odchodzisz, ale potem słyszysz straszny ryk i dudnienie z komory. Te małe skały były prawdopodobnie rockerami - małe trolle - a rodzice nie będą mili dla tych rusalkas.
+[/STORY]
+[OUT]Zawróć i walcz z trollami!
+[OUT]Spróbuj złapać dziewczyny i pobiec, zanim trolle cię złapią.
+[/NODE]
+
++[NODE]13
+[STORY]
+Udaje ci się uciec z trolli, a dziewczyny są zalane łzami. 
+
+'Przykro nam. Dziadek będzie taki szalony. Wrócimy do niego teraz, przysięgamy. Dziękuję za uratowanie nas.'
+[/STORY]
+[OUT]Pozwól im odejść i powiedz, że wkrótce przyjdziesz sprawdzić je, żeby lepiej nie zbłądzić!
+[/NODE]
+
++[NODE]16
+[STORY]
+Trolle uderzyły cię kamieniami, a jedna z dziewczyn jest ciężko ranna. Ale udaje ci się uciec przez tunel, który jest za mały dla trolli. Dziewczyny są zalane łzami. 
+
+'Przykro nam. Dziadek będzie taki szalony. Wrócimy do niego teraz, przysięgamy. Dziękuję za uratowanie nas.'
+[/STORY]
+[OUT]Pozwól im odejść i powiedz, że wkrótce przyjdziesz sprawdzić je, żeby lepiej nie zbłądzić!
+[/NODE]
+
++[NODE]22
+[STORY]
+Trolle uderzyły cię kamieniami, a jedna z dziewczyn została zjedzona przez trolla. Udaje ci się uciec przez tunel, który jest za mały dla trolli. Pozostała siostra jest histeryczna i przysięga teraz wrócić do Bohdana. 
+
+[/STORY]
+[OUT]Zabierz ją z powrotem do Bohdana.
+[/NODE]
+
++[NODE]24
+[STORY]
+Zabijasz trolle, a dziewczyny są zalane łzami. 
+
+'Przykro nam. Dziadek będzie taki szalony. Wrócimy do niego teraz, przysięgamy. Dziękuję za uratowanie nas.'
+[/STORY]
+[OUT]Pozwól im odejść i powiedz, że wkrótce przyjdziesz sprawdzić je, żeby lepiej nie zbłądzić!
+[/NODE]
+
++[NODE]25
+[STORY]
+„Co? O nie . . .'
+
+[/STORY]
+[OUT]Chwyć rusalkas i uciekaj. 
+[OUT]Stój mocno i walcz z trollami!
+[/NODE]
+
++[NODE]27
+[STORY]
+„To nie jest! My wiemy. Są bardzo mądrzy i czczeni i nie tylko dają życie małym krasnoludom, ale także rzeźbią swoje dusze i uczą ich kultury i innych rzeczy. Wiemy, wiemy. Nasza mama i dziadek powiedzieli nam!'
+[/STORY]
+[OUT]Powiedz im, że tak nie będzie. Te skały nie są krasnoludzkimi dziećmi. Nie mogą po prostu zabrać żadnej skały, zaśpiewać i zrobić krasnoluda!
+[/NODE]
+
++[NODE]28
+[STORY]
+„Co? O nie . . .'
+
+[/STORY]
+[OUT]Chwyć rusalkas i uciekaj. 
+[OUT]Stój mocno i walcz z trollami!
+[/NODE]
+
++[NODE]29
+[STORY]
+Odkrywasz, że jaskinia jest opuszczona - brak ostatniej aktywności. Ale jak ma to szczęście, odkrywasz ukrytą komnatę i jakiś dawno zaginiony łup.
+[/STORY]
+[OUT]Świetnie. Chwyć go i wyjdź.
+[OUT]Świetnie. Chwyć go i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --2RusalkaSmithSpwn_(24)
++[NODE]2
+[STORY]
+„Zabiłeś dziadka, ty potworze!'
+
+Anya i Eva rzucają się na ciebie, ich ciała zamieniają się w demoniczne potwory i czujesz, że to twój duch jest atakowany.
+[/STORY]
+[OUT]Obroń się!
+[/NODE]
+
++[NODE]4
+[STORY]
+Pokonujesz dziewczyny, a ich ciała dziwnie zamieniają się w kamień, jakby były krasnoludami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Twój duch wyczerpał się, rusalkas zabrał jednego z was jako nagrodę!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --1RusalkaSmithSpwn_(25)
++[NODE]2
+[STORY]
+„Zabiłeś dziadka, ty potworze!'
+
+Anya wystrzeliwuje na ciebie, jej ciało przekształciło się w demona i czujesz, że to twój duch jest atakowany.
+[/STORY]
+[OUT]Obroń się!
+[/NODE]
+
++[NODE]4
+[STORY]
+Pokonujesz Anyę, a jej ciało dziwnie zamienia się w kamień.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Twój duch wyczerpał się, rusalkas zabrał jednego z was jako nagrodę!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --3RusalkaSmithSpwn_(26)
++[NODE]2
+[STORY]
+„Zabiłeś dziadka! Nigdy nie chcieliśmy go skrzywdzić, ty potworze!'
+
+Anya i Eva, razem z drugą rusalką, z którą się zaprzyjaźnili, rzucają się na ciebie, ich ciała zamieniają się w demoniczne potwory i czujesz, że to twój duch jest atakowany.
+[/STORY]
+[OUT]Obroń się!
+[/NODE]
+
++[NODE]4
+[STORY]
+Pokonujesz dziewczyny, a ich ciała dziwnie zamieniają się w kamień, jakby były krasnoludami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Twój duch wyczerpał się, rusalkas zabrał jednego z was jako nagrodę!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfSmithLegacy_(27)
++[NODE]2
+[STORY]
+natkniesz się na imponującą, zbudowaną z kamienia kuźnię stojącą dumnie pośrodku niczego. Przysiągłbyś, że przechodziłeś tutaj wcześniej i nie zauważyłeś tego. 
+
+Na zewnątrz stoi młody ogolony krasnolud. Wewnątrz widzisz zarys starszego, grubszego faceta, uderzającego w kowadło. Przy wejściu dostrzegasz także duży stos kamieni.
+[/STORY]
+[OUT]Podejdź i porozmawiaj z krasnoludem.
+[OUT]Do ataku!
+[OUT]Powiedz, że nie chcesz rozmawiać ani mu pomóc, odejdź. 
+[OUT]Zaakceptuj zadanie znalezienia jego dwóch wnuczek. [Pomiń historię]
+[/NODE]
+
++[NODE]3
+[STORY]
+„Och, goście. Wspaniały. Jestem Bohdan, mistrz kowalski. Powiedz, nie widziałeś gdzieś paru małych dziewczyn, a może robisz jakieś psoty?'
+[/STORY]
+[OUT]Nie, nie możesz powiedzieć, że masz.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Ach, cóż. Jak byś się czuł, kiedy zostałeś zatrudniony, żeby ich znaleźć, co?'
+[/STORY]
+[OUT]Dlaczego?
+[OUT]Zgadzam się. Więc szuka krasnoludzkich dziewczyn?
+[/NODE]
+
++[NODE]5
+[STORY]
+„Widzisz, moja córko, poprosiła mnie, żebym się opiekował, i cóż, nie jestem taki młody, jak wyglądam. Miałem małą drzemkę. Budzę się i sapie, drobne łobuzy zniknęły. A Chale też nie był pomocny.- Patrzy brudnym wzrokiem na stos kamieni.
+[/STORY]
+[OUT]Chale?
+[OUT]Więc szukasz krasnoludzkich dziewczyn?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Nie ściśle, nie. Są bardziej rusalkas. Chociaż zawsze mówię, że Anya ma mój podbródek, ona ma, a Eva ma silne ramię, które powinien posiadać każdy kowboj. . . W każdym razie, są to dwie wyglądające na ludzkie lasy, ale założę się, że poszli do jaskiń, mglistego bagna lub tego zarumienionego jeziora.'
+[/STORY]
+[OUT]Czy on nie będzie wyglądał?
+[OUT]Więc miał dzieci z rusałką? 
+[/NODE]
+
++[NODE]7
+[STORY]
+On pokazuje ci swoje nogi i są częściowo zamieniane w kamień. 
+
+'Tak jak powiedziałem, nie jestem tak sprośny jak wyglądam. Ja i mój żonaty spotkaliśmy się w dniach Przebudzenia, dawno, dawno temu. Teraz powoli odwracam się do kamienia, z którego zostałem wyrzeźbiony. Natura. Ale naprawdę potrzebuję bezpieczeństwa moich wnuków. Dobrze ci wynagrodzę!'
+[/STORY]
+[OUT]Zgadzam się ich szukać.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Cii, nie za głośno! Jest stara i zepsuta. Jest rockowym trollem, moim najlepszym przyjacielem od dobrych kilku wieków. Wydaje się jednak, że bezużyteczny w opiece nad dziećmi.'
+[/STORY]
+[OUT]Więc szukasz krasnoludzkich dziewczyn?
+[/NODE]
+
++[NODE]9
+[STORY]
+„To nie jest to, co nazywacie konwencjonalne, jasne. Ale wiesz, jak rzadkie są krasnoludzkie żony - no nie, nie rób tego! Dopóki nie żyłeś tak długo jak ja. W każdym razie tak, ożeniłem się ze mną Marianna, no cóż, to znaczy, została na początku oszukana i związana prawem demonów, ale potem sprawiliśmy, że to zadziałało. Ona już minęła, ale nasza córka jest dla mnie największym skarbem, a jej małe też!'
+[/STORY]
+[OUT]Czy on nie będzie wyglądał?
+[/NODE]
+
++[NODE]14
+[STORY]
+„Więc znalazłeś ich łotrów. Wejdź.'
+[/STORY]
+[OUT]Zapytaj, czy wrócili jeszcze z jaskini trolli.
+[OUT]Złóż kondolencje i powiedz mu o trollu.
+[OUT]Powiedz mu, że dziewczyny chciały stać się prawdziwymi ralkalkami, topiąc dziecko. Przekonałeś ich inaczej.
+[OUT]Powiedz mu, że dziewczyny chciały stać się prawdziwymi ralkalkami, topiąc dziecko. Przekonałeś ich inaczej.
+[OUT]Powiedz mu, że dziewczyny chciały stać się prawdziwymi ralkalkami, topiąc dziecko, a ty nie przeszkadzałeś w ich naturze.
+[OUT]Powiedz mu, że dziewczyny chciały stać się prawdziwymi rusalkasami, topiąc dziecko. Ponieważ są częścią rusałki, może to w porządku?
+[/NODE]
+
++[NODE]15
+[STORY]
+„Tak, głupi dranie przybyli tu niedługo przed tobą. Stawanie się krasnoludzkimi żonami - jeśli kiedykolwiek słyszałem coś głupszego! Te trolle mogły je mieć na lunch. 
+
+W każdym razie dziękuję, chłopaki, uratowałaś je i mój tyłek. Tutaj, twoja nagroda.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Zapytaj, czy nauczy ich, jak być krasnoludami bez niebezpieczeństwa.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Tak, dziękuję. Wiem, że wszystko zrobiłeś. Głupie dziewczyny, chodzą do jaskiń, śpiewają do skał. Nie nauczyłem ich wystarczająco dobrze.'
+
+Bohdan szlocha. I to jest Chale, przyjaciel rockowego trolla, który mówi: 
+
+'Idź teraz. Pomagasz, dostajesz błyszczący prezent. Ale musimy odejść, więc idź.'
+[/STORY]
+[OUT]Kiwnij głową, podziękuj im i wyjdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Odważ się przyjść tutaj z kondolencjami, kiedy jej nie uratowałeś? Powinienem trzymać twoją głowę na szczupaku, żeby moja córka mogła się na nim bawić. Zostaw nas teraz.'
+
+Rockowy troll, Chale, wstaje i powoli zbliża się do ciebie, ich twarz jest zła.
+[/STORY]
+[OUT]Ucieczka!
+[OUT]Zabij ich!
+[/NODE]
+
++[NODE]21
+[STORY]
+„Posłuchaj mnie. Dokonałem wyboru przed wiekami. Jestem wygnany, widzisz, zniesławiony. Więc mogłem mieć żonę rusalka. Teraz kocham mnie wnuki, ale nie są to krasnoludy. Muszą być zrobione z tą głupotą i nauczyć się żyć jak osobliwości, którymi wszyscy jesteśmy. To jest to. 
+
+Przepraszam, ale teraz muszę trochę wyczuć w niektórych młodych umysłach. Dbasz o siebie.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz krasnoluda i jego przyjaciela trolla skalnego, ale kiedy próbujesz splądrować kuźnię, trzęsie się i kruszy, i upada, zanim uda ci się wydostać jakieś dobre rzeczy. 
+
+Słyszysz też, jak ktoś krzyczy z ziemi, prawdopodobnie ukryty tunel.
+[/STORY]
+[OUT][Krasnolud] Spróbuj wyszukać ukrytą strukturę.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Znajdziesz tunel ewakuacyjny i zapas towarów. 
+[/STORY]
+[OUT]Świetnie, weź to i odejdź.
+[/NODE]
+
++[NODE]32
+[STORY]
+Bohdan i Chale pobili cię na miazgę, rozebrają cię do naga i pozwolą ci uciekać. Kuźnia znika z twojego widoku i nie możesz tam wrócić.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Kuźnia wygląda na zamkniętą, ale widzisz notatkę: 
+
+'Wróć, kiedy je znajdziesz. Twoje zdrowie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Tak, słyszałem. Utonięcie małych dzieci, tak jak ich babcia. . . 
+
+Cóż, z przyjemnością dowiesz się, że zamierzam zapukać trochę sensu w ich głupie głowy. Pod moim dachem nie będzie biznesu rusalka! O, i tutaj, twoja nagroda zgodnie z obietnicą.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Zapytaj, czy może ktoś powinien nauczyć ich o swoim dziedzictwie - może po prostu w bezpieczniejszym środowisku.
+[/NODE]
+
++[NODE]38
+[STORY]
+„Co, jak miły sposób na bycie demonem wodnym, co? Nie ma jednego. Ich babcia utopiła trzy nasze małe, zanim w jakiś sposób przemówiłem do niej. I przysiągłem mojej córce, że ci będą trzymali się z dala od tych śmieci! Muszą być zrobione z tą głupotą i nauczyć się żyć jak osobliwości, którymi wszyscy jesteśmy. To jest to. 
+
+Przepraszam, ale teraz muszę trochę wyczuć w niektórych młodych umysłach. Dbasz o siebie.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]39
+[STORY]
+„Tak, słyszałem. Utonięcie małych dzieci, tak jak ich babcia. . . 
+
+Cóż, z przyjemnością dowiesz się, że zamierzam zapukać trochę sensu w ich głupie głowy. Pod moim dachem nie będzie biznesu rusalka! Wygląda na to, że rozpaliłeś ich o tym kosmicznym drzewie. Poproszę partnera zerowego, aby przyszedł porozmawiać z nimi. O, i tutaj, twoja nagroda zgodnie z obietnicą.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Zapytaj, czy może ktoś powinien nauczyć ich o swoim dziedzictwie - może po prostu w bezpieczniejszym środowisku.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Co, jak miły sposób na bycie demonem wodnym, co? Nie ma jednego. Ich babcia utopiła trzy nasze małe, zanim w jakiś sposób przemówiłem do niej. I przysiągłem mojej córce, że ci będą trzymali się z dala od tych śmieci! Muszą być zrobione z tą głupotą i nauczyć się żyć jak osobliwości, którymi wszyscy jesteśmy. To jest to. 
+
+Przepraszam, ale teraz muszę trochę wyczuć w niektórych młodych umysłach. Dbasz o siebie.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Ale jeśli podążą za panteonem, te ciemne pragnienia mogą być kontrolowane.
+[/NODE]
+
++[NODE]41
+[STORY]
+„Czy mogą teraz? Bo żyłem długo, chłopaki, i widziałem twoje pobożne typy tak samo jak złe rzeczy. 
+
+Nadal jednak, jak powiedziałem, przyjdzie do nich mówić człowiek zerowy, którego znam dobrze. Kto wie. Teraz najlepiej idź. Nadal muszę zaopiekować się ich tyłkami!'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]42
+[STORY]
+„Tak, słyszałem. Utonięcie małych dzieci, tak jak ich babcia. . . 
+
+A ty, pozwól im to zrobić. Wstydź się! Tak bardzo starałem się utrzymać je na linii prostej i wąskiej. Wiesz, że ich babcia utopiła trzy nasze małe, zanim przekonałem ją, żeby spróbowała czegoś innego. . . 
+
+Zostaw mnie.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Co, bez nagrody? Atak!
+[/NODE]
+
++[NODE]44
+[STORY]
+„Tak, słyszałem. Utonięcie małych dzieci, tak jak ich babcia. . . Właściwie postąpiłeś słusznie, „wskoczył trochę w ich gęste głowy!” 
+
+Cóż, z przyjemnością dowiesz się, że zamierzam zapukać trochę sensu w ich głupie głowy. Pod moim dachem nie będzie biznesu rusalka! O, i tutaj, twoja nagroda zgodnie z obietnicą.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Zapytaj, czy może ktoś powinien nauczyć ich o swoim dziedzictwie - może po prostu w bezpieczniejszym środowisku.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfSpawner_(28)
++[NODE]5
+[STORY]
+Wygląda na to, że budynek pojawił się blisko twojej lokalizacji. 
+[/STORY]
+[OUT]Ciekawe, może warto się temu przyjrzeć.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WitchHut1(29)
++[NODE]2
+[STORY]
+Szałas czarownicy podchodzi do ciebie na stopie z kurczaka i odzywa się głos: 
+
+'Czuję słodką ciemność ściskającą twoje dusze. A tam, gdzie jest popyt, przynoszę zaopatrzenie. 
+
+Zapłać, moi drodzy, a twoje przekleństwa zostaną wyleczone!'
+[/STORY]
+[OUT][Wiedźma] Powiedz jej, żeby przestała skrzeczeć o handlowaniu tylko niech da Ci stopę królika zanurzoną w krwi dziewicy upuszczonej pod półksiężycem podczas żniw. Możesz zrobić sobie resztę.
+[OUT][Magiczny użytkownik] Poproś o profesjonalną zniżkę, ponieważ potrzebujesz tylko urządzeń i materiałów eksploatacyjnych, a resztę możesz przyrządzić.
+[OUT]Zgadzacie się zapłacić.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Bah, racja, siostro. Dla Ciebie mam specjalną cenę.'
+[/STORY]
+[OUT]Zapłaćcie za jedną klątwę.
+[OUT]Zapłaćcie więcej, aby usunąć więcej niż jeden rodzaj klątwy.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Hmm, brzmi rozsądnie. Zapłacisz mniej, słodzinko.'
+[/STORY]
+[OUT]Zapłaćcie za jedną klątwę.
+[OUT]Zapłaćcie więcej, aby usunąć więcej niż jeden rodzaj klątwy.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Które przekleństwo?'
+[/STORY]
+[OUT]Fizyczne.
+[OUT]Mentalne.
+[OUT]Duch.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Świetnie. Zapłaćcie i do dzieła.'
+[/STORY]
+[OUT]Zapłaćcie za jedną klątwę.
+[OUT]Zapłaćcie więcej, aby usunąć więcej niż jeden rodzaj klątwy.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Divine Skshack(30)
++[NODE]2
+[STORY]
+„Cześć, wybrano bogów! Jestem twoim własnym demonem boskiego domu. Tutaj, aby pomóc swojemu domowi i tym wszystkim. 
+
+
+Będę walczył za ciebie w wiosce, a czasami dołączę do ciebie, gdy zostaniesz postawiony przed osadą. 
+
+Proszę, nie zostawiajcie mnie na przyjęciu, kiedy opuszczacie wioskę, bo ja nigdy nie mogę odejść, a ze mną też nie będziecie!'
+
+
+[/STORY]
+[OUT]Boski demon domowy - co to jest? Wyglądasz jak Theodore.
+[OUT]Czy możesz zrobić coś jeszcze?
+[OUT]Witajcie go i kontynuujcie przygodę.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jestem dość przydatny w całej wiosce. Mogę tworzyć i zbierać. I z czasem stanę się silniejszy. Ale nie mogę odejść z tobą podczas podróży. Jestem też słodka, prawda?'
+[/STORY]
+[OUT]Boski demon domowy - co to jest? Wyglądasz jak Theodore.
+[OUT]Witajcie go i kontynuujcie przygodę.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Dobrze zauważeni, tak, bogowie wydają się faworyzować nasz rodzaj. Nie jestem pewien, czy powinniśmy być pochlebeni, czy wkurzeni. 
+
+Jestem skshackiem, ale dano mi zaszczyt bycia związanym na zawsze z twoim pięknym domem, bez wyboru? 
+
+W każdym razie wszystko w porządku.'
+
+
+[/STORY]
+[OUT]Czy możesz zrobić coś jeszcze?
+[OUT]Witajcie go i kontynuujcie przygodę.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Food trader(31)
++[NODE]2
+[STORY]
+„Witamy w naszych stoiskach z jedzeniem. Teraz jedzenie nie jest łatwe do zdobycia na naszych ziemiach, więc zrobimy tylko wymianę żywności na żywność.'
+[/STORY]
+[OUT]Handel
+[OUT]Nie dzisiaj, odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__WitchHut1(32)
++[NODE]2
+[STORY]
+Szałas wiedźmy zbliża się do Was przeskakując niezgrabnie na kurzej stopie. Kawałki trzciny i drzazgi wysypują się na boki a całość trzeszczy niemiłosiernie. Kiedy staje przed Wami odzywa się skrzekliwy głos: 
+
+'Czuję słodką ciemność ściskającą Wasze dusze. A tam, gdzie jest popyt, przynoszę zaopatrzenie. 
+
+Zapłaćcie, moi drodzy, a Wasze przekleństwa zostaną zdjęte! Pamiętajcie jedynie, że lubię ilość, a nie jakość.'
+[/STORY]
+[OUT][Wiedźma] Powiedz jej, żeby przestała skrzeczeć o handlowaniu tylko niech da Ci stopę królika zanurzoną w krwi dziewicy upuszczonej pod półksiężycem podczas żniw. Możesz zrobić sobie resztę.
+[OUT][Magiczny użytkownik] Poproś o profesjonalną zniżkę, ponieważ potrzebujesz tylko urządzeń i materiałów eksploatacyjnych, a resztę możesz przyrządzić.
+[OUT]Zgadzacie się zapłacić.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Bah, racja, siostro. Dla Ciebie mam specjalną cenę.'
+[/STORY]
+[OUT]Zapłaćcie za jedną klątwę.
+[OUT]Zapłaćcie więcej, aby usunąć więcej niż jeden rodzaj klątwy.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Hmm, brzmi rozsądnie. Zapłacisz mniej, słodzinko.'
+[/STORY]
+[OUT]Zapłaćcie za jedną klątwę.
+[OUT]Zapłaćcie więcej, aby usunąć więcej niż jeden rodzaj klątwy.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Które przekleństwo?'
+[/STORY]
+[OUT]Fizyczne.
+[OUT]Mentalne.
+[OUT]Duch.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Świetnie. Zapłaćcie i do dzieła.'
+[/STORY]
+[OUT]Zapłaćcie za jedną klątwę.
+[OUT]Zapłaćcie więcej, aby usunąć więcej niż jeden rodzaj klątwy.
+[/NODE]
+
+[/EVENT]
+

@@ -1,0 +1,3120 @@
+-- [EVENT] --Dark Volh(0)
++[NODE]2
+[STORY]
+Widzisz małą wioskę napadniętą przez nieżyjące!
+[/STORY]
+[OUT]Pomóż im i zaatakuj unliving!
+[OUT]Brak Twojej firmy. Wyjechać.
+[OUT][Male witch] Te nieżyjące zostały przywołane tutaj - możesz to poczuć. Spróbuj złamać ich więź z własnym rytuałem.
+[OUT][Nekromanta] Pewna niedoświadczona młodzież wyraźnie przywołała te szkielety. Nakazaj im przestać i wyśledzić winowajcę.
+[/NODE]
+
++[NODE]7
+[STORY]
+Szkielety rozpadają się, ich nienaturalna więź z życiem zostaje zerwana. Wyczuwasz słaby ślad ich młodego mistrza, bo wiesz na pewno, że jest to zwykłe dziecko bawiące się mroczną sztuką. 
+Szlak prowadzi w głąb szarego świata, kraju nie żyjącego ani martwego. 
+[/STORY]
+[OUT]Zapytaj wieśniaków, co się tu stało.
+[/NODE]
+
++[NODE]10
+[STORY]
+W końcu przełamujesz więź, która sprawiała, że żyliście tutaj, ale wstrętna magia, która ich obudziła, była dzika, niekontrolowana i odskoczyła. 
+
+[/STORY]
+[OUT]Zapytaj wieśniaków, co się tu stało.
+[/NODE]
+
++[NODE]11
+[STORY]
+Niszczysz nieżyjącą plagę i spalasz kości na popiół, aby upewnić się, że nie powstanie ponownie. 
+
+[/STORY]
+[OUT]Zapytaj wieśniaków, co się tu stało.
+[/NODE]
+
++[NODE]12
+[STORY]
+Jesteś poważnie pobity i zmuszony do ucieczki na razie.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]14
+[STORY]
+Starszy z wioski mówi do ciebie: 
+'To był nasz chłopiec, Ivan ... urodził się z ciemnym znakiem, a widzisz, wcześniej, upewniliśmy się, że nigdy nie nauczono go magii, ale teraz przyszedł volh , powiedzieli, że go nauczą, powiedzieli bogowie. Więc pozwoliliśmy im, ale chłopiec, on, on kpił z umarłych po prostu zaimponować swoim przyjaciołom ... biedna Viola, została zabita przez jednego z diabłów ...'
+[/STORY]
+[OUT]Czy on wie, gdzie jest teraz chłopak?
+[OUT]Czy volh uczył go jeszcze tutaj?
+[/NODE]
+
++[NODE]15
+[STORY]
+„Jego nauczyciel powiedział, że chłopiec poszedł do jakiegoś miejsca duchów. Nie wiemy. Znajduje się na ziemiach goblinów, wyspach ciemności. To wszystko co wiem.'
+[/STORY]
+[OUT]Kiwnij głową i powiedz, że być może spróbujesz znaleźć tę niespokojną młodość, zanim zacznie żyć dalej.
+[OUT]Kiwnij głową i powiedz, że być może spróbujesz znaleźć tę niespokojną młodość, zanim zacznie żyć dalej.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Nie, drań poszedł i pozostawił nas naszym losom! Powiedział coś o tym, że trzeba szybko znaleźć chłopca, o złych konsekwencjach przy dłuższym czasie.' 
+[/STORY]
+[OUT]Czy on wie, gdzie jest teraz chłopak?
+[/NODE]
+
++[NODE]17
+[STORY]
+„Robisz co chcesz. Będziemy na najlepszej drodze do znalezienia bezpieczniejszych części, aw przyszłości nie będziemy mieli nic z tej głupoty z magii uczenia się chłopców!„
+Dają ci własne, brudne spojrzenia, zanim się pospieszą.
+[/STORY]
+[OUT]Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Robisz co chcesz. Będziemy na najlepszej drodze do znalezienia bezpieczniejszych części, aw przyszłości nie będziemy mieli nic z tej głupoty z magii uczenia się chłopców!'
+Lud odsuwa się i zostawia ci mały prezent w podziękowaniu za pomoc. 
+
+[/STORY]
+[OUT]Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Szkielety rozpadają się, ich nienaturalna więź z życiem zostaje zerwana. Wyczuwasz słaby ślad ich młodego mistrza, bo wiesz na pewno, że jest to zwykłe dziecko bawiące się mroczną sztuką. 
+Szlak prowadzi w głąb szarego świata, kraju nie żyjącego ani martwego. 
+[/STORY]
+[OUT]Zapytaj wieśniaków, co się tu stało.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dark Volh Start(1)
++[NODE]2
+[STORY]
+Słyszysz dźwięki walki i widzisz pochodnie przed sobą. Prawdopodobnie mała osada.
+[/STORY]
+[OUT]Zaznacz go na mapie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dark Volh Trail(2)
++[NODE]2
+[STORY]
+Słyszałeś plotki o nieżyjącym wędrowaniu w pobliżu io chłopcu, który zdawał się je kontrolować. To może być dziecko, którego szukałeś.
+[/STORY]
+[OUT]Śledź go.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dark Volh Spwn(3)
++[NODE]2
+[STORY]
+Widzisz miejsce, w którym zasłona między światem szarego - kraina duchów i czystej magii - i ta się przerzedziła do punktu połączenia. 
+To tutaj dostrzegasz ciało starego volha i młodego chłopca płaczącego nad nim. Ciało chłopca jest częściowo eteryczne, a żyły na jego okrągłej twarzy są sczerniałe i pulsujące.
+[/STORY]
+[OUT][Tylko męska wiedźma] Rośliny tego chłopca wyraźnie zbłądzą. Jest zagubiony i doprowadzony do ciemności. Spróbuj rozmawiać z nim spokojnie.
+[OUT][Tylko szaman lub duch] Ten biedny człowiek jest wyraźnie uwięziony w świecie szarości, a głupia ludzka czarownica nie była w stanie go właściwie przeprowadzić. Duchy muszą być szanowane, a nie zmuszane do posłuszeństwa. Porozmawiaj z duchami i poproś ich, aby wypuścili chłopca, aby mógł swobodnie wybrać drogę. 
+[OUT][Magiczny użytkownik] Wiele ciemnych energii kumuluje się tutaj. Spróbuj uspokoić tę burzę, zanim wybuchnie, nawet jeśli spowoduje to większe niebezpieczeństwo dla dziecka.
+[OUT][Czarownica] Typowy wynik mężczyzn lub orków próbujących wtrącić się w coś, co nie jest ich mocną stroną! Zabij dziecko szybko, aby nie cierpiało ani nie przynosiło tu więcej ciemności. 
+[OUT]Spróbuj porozmawiać z dzieckiem.
+[OUT]Do ataku!
+[OUT]Zostaw ich. To nie Twój interes.
+[/NODE]
+
++[NODE]5
+[STORY]
+Chłopiec spogląda w górę, czarne łzy spływają po jego bladych policzkach: 
+„Przepraszam, nigdy nie chciałem ... powiedział, że wszystko w porządku, powiedział, że to bezpieczne, przyjść do niego, ale potem duchy kazały mi brać więcej ciemności, i coraz więcej, i było tak dobrze ... ale teraz on nie żyje.- 
+Chłopiec płacze.
+[/STORY]
+[OUT][Tylko męska wiedźma] Chłopiec musi ukończyć swoją ścieżkę, a ty musisz stać się jego przewodnikiem. Mów obrzędy wolh, aby spróbować pomóc dziecku.
+[OUT]Zabij chłopca, bo jego ścieżka jest już zaćmiona i trudno będzie go powstrzymać, nawet jeśli miałbyś mu teraz pomóc. 
+[OUT][Magiczny użytkownik] Mistyczne moce wirują tu z chaosem. Spróbuj oczyścić to miejsce, aby dziecko mogło zostać uratowane przed zniszczeniem lub całkowitą ciemnością.
+[OUT]Spróbuj fizycznie odciągnąć chłopca od tego miejsca magii, nawet jeśli wiesz, że jest to najbardziej ryzykowna ścieżka.
+[OUT]Zostaw ich. To nie Twój interes.
+[/NODE]
+
++[NODE]9
+[STORY]
+Mówisz słowa, a gdy chłopiec je słyszy, wstaje i idzie ścieżką, stając się coraz bardziej cielesny z każdym krokiem. 
+Widzisz ciemność wyciekającą z jego ciała, chociaż podejrzewasz, że zawsze będzie skażony. Upada, gdy w pełni wychodzi z szarego świata. 
+Czujesz jednak, że teraz stałeś się prawdziwym wolh, jak udowodniłeś, że możesz być mentorem dla młodego chłopca.
+[/STORY]
+[OUT]Poczekaj, aż chłopiec się obudzi.
+[/NODE]
+
++[NODE]10
+[STORY]
+Dziecko budzi się. Jego ciało i umysł powróciły do jego młodszego ja, więc być może będzie miał szansę dorastać do wolh pewnego dnia.
+[/STORY]
+[OUT]Zapytaj go, co się stało w wiosce.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Ja… Nie jestem pewien. Było tak ciemno i myląco. Tyle głosów, wszystkie każą mi robić rzeczy. A potem miałem przyjaciół, tylu przyjaciół, zrobiliby to, co chciałem ... dopóki tego nie zrobili, dopóki nie zrobili złych rzeczy, a ja nie mogłem ich powstrzymać ... o nie, och nie, musisz przestać on - mój smok! Jest tam i myślę, że chce zniszczyć wiele innych wiosek!'
+[/STORY]
+[OUT]Zapytaj chłopca, gdzie jest smok, i odejdź razem.
+[OUT]Zapytaj chłopca, gdzie jest smok, ale zostaw go tutaj - od teraz musi znaleźć własną drogę.
+[/NODE]
+
++[NODE]14
+[STORY]
+Gdy zbliżasz się do dziecka z zabójczą intencją, czujesz, jak ziemia drży, a spod niej wyłania się kościsty pazur, a za nim w pełni dojrzały nieżyjący smok!
+[/STORY]
+[OUT]Walka!
+[/NODE]
+
++[NODE]15
+[STORY]
+Cokolwiek próbowałeś, nie zadziałało. Chłopiec kontynuuje wdychanie ciemności i przekręca jego małe ciało, aż stanie się dorosłym mężczyzną. 
+Spogląda na ciebie i uśmiecha się, a potem łzy w zasłonie i wychodzi, daleko od twojego zasięgu.
+[/STORY]
+[OUT]Spróbuj go śledzić. 
+[/NODE]
+
++[NODE]16
+[STORY]
+Zabijasz smoka i widzisz, jak chłopiec się zapada, podczas gdy on wciąż jest uwięziony w szarej strefie. Jego ciało zwiotczeje i duchy rozdzierają go. Potem zamyka się świat duchów. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Mówisz słowa, a gdy chłopiec je słyszy, wstaje i idzie ścieżką, stając się coraz bardziej cielesny z każdym krokiem. 
+Widzisz ciemność wyciekającą z jego ciała, chociaż podejrzewasz, że zawsze będzie skażony. Upada, gdy w pełni wychodzi z szarego świata. 
+
+[/STORY]
+[OUT]Poczekaj, aż chłopiec się obudzi.
+[/NODE]
+
++[NODE]22
+[STORY]
+Duchy słuchają waszej prośby i zgadzają się, aby pozwolić chłopcu odejść. Wznosi się i idzie ścieżką, z każdym krokiem staje się coraz bardziej cielesny. 
+Widzisz ciemność wyciekającą z jego ciała, chociaż podejrzewasz, że zawsze będzie skażony. Upada, gdy w pełni wychodzi z szarego świata.
+[/STORY]
+[OUT]Poczekaj, aż chłopiec się obudzi.
+[/NODE]
+
++[NODE]27
+[STORY]
+Udaje ci się zamknąć zgrzyt między tym światem a światem szarości, uspokajając ciemne energie. Dziecko jest wypluwane do naszego świata, nieświadome, ale żywe.
+Widzisz ciemność wydostającą się z jego ciała, chociaż podejrzewasz, że zawsze pozostanie skażony.
+[/STORY]
+[OUT]Poczekaj, aż chłopiec się obudzi.
+[/NODE]
+
++[NODE]28
+[STORY]
+Udaje ci się zamknąć zgrzyt między tym światem a światem szarości, uspokajając ciemne energie. Niestety, chłopiec ginie w świecie duchów i wyłania się jako zagubiony upiór, nie przypuszczając swego dawnego siebie. Będzie za tobą, ale tylko jako sługa.
+Zauważysz jednak, że nieżyjący smok leci obok i ryczy z radości z powodu nowo odkrytej wolności. Najprawdopodobniej skieruje spustoszenie na życie, jeśli nie będzie kontrolowane.
+[/STORY]
+[OUT]Weź upiór i rozpraw się z tym nieżyjącym smokiem.
+[/NODE]
+
++[NODE]29
+[STORY]
+Używasz pióra kruka, zanurzonego we krwi trzech dziewic i noszonego pod pachą przez trzy pełne księżyce. Pióro delikatnie unosi się do chłopca, bez przeszkód wkraczając w świat szarości, a po dotknięciu serca dziecka zabija go natychmiast. 
+Zrywa również wszelkie magiczne powiązania z nieczystymi stworzeniami, które dziecko powołało do życia. Duch chłopca, oczyszczony i spokojny, staje się twoim dowództwem.
+[/STORY]
+[OUT]Weź ducha i opuść to miejsce.
+[/NODE]
+
++[NODE]33
+[STORY]
+Chłopiec utknął w świecie szarości, miejscu, gdzie mieszkają duchy, a ciemność biegnie amokiem. Wszyscy, którzy są obdarzeni mistyczną mocą, muszą się tam udać, ale ten chłopiec nie czuje się dobrze.
+Patrzy na ciebie, wyglądając na przestraszonego, ale nie słyszy cię. Dziecko utknęło. Prawie możesz go dosięgnąć w jednej chwili, a potem znów się oddala. Jeśli go złapiesz, być może uda ci się go wyciągnąć czystą siłą, chociaż dobrze wiesz, że próbowanie tego jest szaleństwem ...
+[/STORY]
+[OUT]Wyciągnij go!
+[OUT]Zabij chłopca i zakończ jego nieszczęście.
+[OUT][Magiczny użytkownik] Wiele ciemnych energii kumuluje się tutaj. Spróbuj uspokoić tę burzę, zanim wybuchnie, nawet jeśli spowoduje to większe niebezpieczeństwo dla dziecka.
+[OUT][Czarownica] Typowy wynik mężczyzn lub orków próbujących wtrącić się w coś, co nie jest ich mocną stroną! Zabij dziecko szybko, aby nie cierpiało ani nie przynosiło tu więcej ciemności. 
+[OUT]Zostaw ich. To nie Twój interes.
+[/NODE]
+
++[NODE]36
+[STORY]
+Smok pokonuje cię i żywi się twoim duchem. Chłopiec wyłania się z szarego świata, zmienia i wsiada do nieożywionego smoka. Odlatują.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Chwytasz dziecko i ciągniesz, podczas gdy duchy szarego świata atakują cię i odpychają. W końcu wyciągasz dziecko, ale on nie żyje. Mimo to czujesz, że jest teraz w pokoju i czujesz jego ducha z tobą.
+Zauważysz jednak, że nieżyjący smok leci obok i ryczy z radości z powodu nowo odkrytej wolności. Najprawdopodobniej skieruje spustoszenie na życie, jeśli nie będzie kontrolowane.
+[/STORY]
+[OUT]Weź upiór i rozpraw się z tym nieżyjącym smokiem.
+[/NODE]
+
++[NODE]39
+[STORY]
+Udaje ci się złapać chłopca i wyciągnąć go przez szczelinę między tym światem a światem szarości. Dziecko jest nieprzytomne, ale żywe. 
+Widzisz ciemność wyciekającą z jego ciała, chociaż podejrzewasz, że zawsze pozostanie skażony. 
+
+[/STORY]
+[OUT]Poczekaj, aż chłopiec się obudzi.
+[/NODE]
+
++[NODE]46
+[STORY]
+Znajdujesz zrujnowaną wioskę. Domy są zgniłe, pokryte dziwnym zielonym szlamem. Wysuszone humanoidalne trupy leżą na podłodze, drżąc, jakby chciały się podnieść. 
+Wśród nich stoi młody mężczyzna z bladą i wychudłą twarzą, żyłami płynącymi z czarną krwią. Za nim stoi nieżyjący smok, żywiący się kilkoma pozostałymi ludźmi.
+[/STORY]
+[OUT][Magiczny użytkownik] Niestety, to, co dzieje się z volhem, gdy nie są właściwie prowadzone. Zaatakuj tego nekromanta w królestwach duchów i szybko, zanim jego moc wzrośnie jeszcze bardziej!
+[OUT]Do ataku!
+[OUT]Zostaw ich. To nie Twój interes.
+[OUT]Spróbuj porozmawiać z tą osobą i być może z nim powód.
+[/NODE]
+
++[NODE]48
+[STORY]
+Niszczysz Iwana i jego sługusów. Każde inne życie, które stworzył, powinno teraz stracić siłę życiową i upadek. 
+Duch chłopca zamienił się w upiór i teraz przywiązuje się do twojej służby.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Iwan cię pokonuje i osusza twojego ducha, zanim odleci na swoim nieożywionym wierzchowcu. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Niszczysz łotrzyka i jego sługusów. Każde inne życie, które stworzył, powinno teraz stracić siłę życiową i upadek. 
+Duch chłopca zamienił się w upiór i teraz przywiązuje się do twojej służby.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]54
+[STORY]
+Mężczyzna patrzy na ciebie. Jego głos jest młody, pomimo pomarszczonej twarzy i zniszczonego ciała: 
+- Czujesz dom ... dlaczego przyszedłeś?'  
+[/STORY]
+[OUT][Volh] Powiedz, że wyraźnie nie udało mu się przyciąć i jest teraz na ciemnej ścieżce, ale możesz spróbować mu pomóc.
+[OUT][Czarownica] Powiedz, że jesteś tutaj, aby poprawić błąd. Powiedz, że albo poddaje się tobie, albo umiera!
+[OUT]Powiedz mu, że widziałeś, co zrobił we własnej wiosce, i musi się zatrzymać lub zostać zatrzymany.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]55
+[STORY]
+„Dlaczego miałbym kiedykolwiek chcieć porzucić moją moc? Na tym świecie jesteś albo drapieżnikiem, albo ofiarą. Wszyscy ludzie w mojej wiosce byli słabi. Mój nauczyciel też mówi mi, żebym był hartowny, ostrożny. Głupcy, wszyscy. Kontroluję teraz smoki - smoki!
+Chłopak podnieca z nekromanty, a jego stwory zwracają się do ciebie.
+[/STORY]
+[OUT]Wezwijcie waszych bogów i włóżcie lęk przed podziemiami w to nieznośne dziecko!
+[OUT]Do ataku!
+[OUT][Magiczny użytkownik] Niestety, to, co dzieje się z volhem, gdy nie są właściwie prowadzone. Zaatakuj tego nekromanta w królestwach duchów i szybko, zanim jego moc wzrośnie jeszcze bardziej!
+[/NODE]
+
++[NODE]57
+[STORY]
+„Dlaczego miałbym kiedykolwiek chcieć porzucić moją moc? Na tym świecie jesteś albo drapieżnikiem, albo ofiarą. Wszyscy ludzie w mojej wiosce byli słabi. Mój nauczyciel też mówi mi, żebym był hartowny, ostrożny. Głupcy, wszyscy. Kontroluję teraz smoki - smoki!
+Chłopak podnieca z nekromanty, a jego stwory zwracają się do ciebie.
+[/STORY]
+[OUT]Wezwijcie waszych bogów i włóżcie lęk przed podziemiami w to nieznośne dziecko!
+[OUT]Do ataku!
+[OUT][Magiczny użytkownik] Niestety, to, co dzieje się z volhem, gdy nie są właściwie prowadzone. Zaatakuj tego nekromanta w królestwach duchów i szybko, zanim jego moc wzrośnie jeszcze bardziej!
+[/NODE]
+
++[NODE]58
+[STORY]
+Mężczyzna wygląda na zaskoczonego stanowczością twojego głosu, tak jak dziecko, gdy zostanie opowiadane przez rodzica. 
+'JA... Przepraszam. Wiem, że to źle, ale to była świetna zabawa ...„
+Pstryknął palcami, a smok i wszystkie inne nieożywione zapadły się w stos kości.
+[/STORY]
+[OUT]Zabij człowieka. Ma umysł dziecka i moc wychowywania smoków.
+[OUT]Powiedz człowiekowi, że zostanie z tobą teraz i nauczy się robić lepiej.
+[OUT]Powiedz człowiekowi, że zostanie z tobą teraz i nauczy się robić lepiej.
+[/NODE]
+
++[NODE]62
+[STORY]
+„Ha ha, jak śmiesz próbować mi grozić, głupcy! Czas umierać!'
+[/STORY]
+[OUT]Walka.
+[OUT]Ucieczka!
+
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cmok(4)
++[NODE]2
+[STORY]
+Olbrzymi nietoperz próbuje usiąść na twoim domu. Ścisnął się w połowie drogi, ale jest zbyt duży, by iść dalej. Wygląda to na zakłopotane, ale też wzburzone.
+[/STORY]
+[OUT][Nocny demon] To nie jest nietoperz - to cmok lub cmuk [RV1], istota, która służy nocy. Porozmawiaj z nim.
+[OUT][Mądrość] To nie jest nietoperz. To musi być demon, prawdopodobnie cmok. Spróbuj z nim porozmawiać.
+[OUT]Cokolwiek to jest, zabij to!
+[OUT]Bestia musi zniszczyć twój dom, ale jest groźna. Spróbuj go zwabić jedzeniem.
+[OUT]Zostaw to i miej nadzieję na najlepsze.
+[/NODE]
+
++[NODE]3
+[STORY]
+Stwór zwraca się do ciebie i wygląda na wściekłego: 
+'Ty - nie, nie ty! Uczyniłeś nas takimi, wielkimi, przylegającymi ... byliśmy demonami domowymi, było ciepło i miło ... teraz lecimy nocą, sami, weźmy krew, spójrzmy na księżyc. Chcę znowu być demonem domowym!'
+[/STORY]
+[OUT]Powiedz, że twój gatunek wzniósł ich od prostych prostaków do plagi nocy, potężnych rycerzy ciemności służących samemu księżycowi. Czy naprawdę by to odrzucił? Zapytaj, co to spowodowało.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Cóż, ja ... moja kochanka striga odeszła. Brak celu. Nie ma zabawy. Była zabawna. Nie smutny jak wielu nocnych ludzi. Demony domowe robią niegrzeczne rzeczy. Ja, muszę być krwawa i przerażająca.'
+[/STORY]
+[OUT]Powiedz, że spotkałeś czarownicę, która może przeklinać kogoś w innej formie. Może uda mu się ją znaleźć i poprosić o zmianę.
+[OUT][Horz] Powiedz, że powinien być dumny z tego, że jest demonem nocnym, zwłaszcza w służbie samego władcy księżyca!
+[OUT]Upierać się, że bycie demonem nocnym jest lepsze, ponieważ demony domowe są najskromniejsze ze wszystkich. Powiedz mu, że powinien wznieść się z nieba dumnie!
+[OUT]Atakuj cmok!
+[/NODE]
+
++[NODE]6
+[STORY]
+Pokonujesz stwora, a jego ciało kurczy się na śmierć, przypominając śmiesznie wyglądającego nietoperza wielkości kota.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Oczy cmoka robią się czerwone, gdy pożera twoją ofiarę duchową. Jego ciało pulsuje cienkimi zielonymi żyłami i odsuwa się od domu i wznosi się w nocne niebo, rycząc: 
+„Nocne wezwania, natura tak silna, bez domu dla mnie, tylko nocne niebo.„
+Odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Jestem cmokiem, domem cmok, bez cmok, nie. Jestem demonem domowym. Więc dajesz mi rzeczy, a ja tu zostanę i ... tak.'
+[/STORY]
+[OUT]Zwróć uwagę, że jest to o wiele za duże dla demona domu.
+[OUT]Cokolwiek to jest, zabij to!
+[OUT][Mądrość] cmok to nocna istota żywiąca się duchem. Zaoferujcie jej trochę, abyście odeszli.
+[/NODE]
+
++[NODE]10
+[STORY]
+Oczy cmoka robią się czerwone, gdy pożera twoją ofiarę duchową. Jego ciało pulsuje cienkimi zielonymi żyłami i odsuwa się od domu i wznosi się w nocne niebo, rycząc: 
+„Nocne wezwania, natura tak silna, bez domu dla mnie, tylko nocne niebo.„
+Odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Za duży, za duży!„Stworzenie rozciąga skrzydła i drży, niszcząc twój dom i wiele z tego, co jest w środku.
+Rozpływa się gęsta mgła czystej ciemności i zostawia cię skamieniałą, ale cmok odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Stworzenie podnosi się i bierze jedzenie: 
+'Ofiara za demona domu, tak! Ja biorę, idę. Jestem wolny...„
+Stwór pozostawia ci prezent, a potem odlatuje, wyraźnie bardzo szczęśliwy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Stworzenie nie ustaje w próbie zagnieżdżenia się w twoim domu. Mówi o chęci zostania demonem domowym, a następnie gniewa się i rzuca się na każdego, kto się zbliży. 
+Prosi o nieustanne łaski, dopóki jednej nocy z księżycem w pełni nie odleci, jakby wezwany przez sam księżyc. Pozostawia cię znużonym jego wybrykami, ale bez szwanku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Stworzenie nie ustaje w próbie zagnieżdżenia się w twoim domu. Mówi o chęci zostania demonem domowym, a następnie gniewa się i rzuca się na każdego, kto się zbliży. 
+Prosi o nieustanne łaski, dopóki jednej nocy z księżycem w pełni nie odleci, jakby wezwany przez sam księżyc. Pozostawia cię z opróżnionymi zapasami i zepsutym towarem, ale bez szwanku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Stworzenie nie ustaje w próbie zagnieżdżenia się w twoim domu. Mówi o chęci zostania demonem domowym, a następnie gniewa się i rzuca się na każdego, kto się zbliży. 
+Prosi o nieustanne łaski, dopóki jednej nocy z księżycem w pełni nie odleci, jakby wezwany przez sam księżyc. Wydaje się bardzo zadowolony z twojej zgodności i pozostawia ci prezent.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+cmok pochyla się przed tobą i skacze w powietrze: 
+'Tak, przepraszam, będę służyć i być dumnym!'
+Cmok odlatuje i zostawia Ci dar jako podziękowanie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+cmok pochyla się przed tobą i skacze w powietrze: 
+'Tak, przepraszam, będę służyć i być dumnym!'
+Cmok odlatuje i zostawia Ci dar jako podziękowanie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Nie, nie, nie! Zbyt duży, za duży!„Stworzenie rozciąga skrzydła i drży, niszcząc twój dom i wiele z tego, co jest w środku.
+Gęsta mgła czystej ciemności zostaje uwolniona i pozostawia cię skamieniałą, ale cmok odlatuje. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+cmok pochyla się przed tobą i skacze w powietrze: 
+'Tak, przepraszam, będę służyć i być dumnym!'
+Cmok odlatuje i zostawia Ci dar jako podziękowanie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Exposure(5)
++[NODE]2
+[STORY]
+Letnie słońce jest upalne, wzmocnione przez nienaturalne wezwanie mędrców światła. 
+Upał sprawia, że jesteś zawrotny i słaby. Musisz szybko szukać schronienia lub ryzykować wyczerpanie.
+[/STORY]
+[OUT][Łowca lub padlinożerca] Wiesz, jak przetrwać takie próby. Szukajcie cienia, racjonujcie wodę i zasłońcie głowę przed paleniem. 
+[OUT][Demon wody] Ten upał grozi ci gotowaniem żywcem! Spróbuj szybko znaleźć schronienie.
+[OUT]Szukaj schronienia.
+[/NODE]
+
++[NODE]6
+[STORY]
+Udaje ci się przepchnąć i znaleźć cień i wodę. Odpoczywasz, aż fala upałów zmaleje na tyle, byś mógł wznowić podróż.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Umiejętnie zachowujesz swoją energię i znajdujesz cień i wodę. Odpoczywasz, aż fala upałów zmaleje na tyle, byś mógł wznowić podróż.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Słońce pali się tak gorąco, że ledwo można oddychać. Wyczerpany, w końcu udaje ci się znaleźć cień. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cmok lair(6)
++[NODE]2
+[STORY]
+W głębi ciemnej jaskini odkrywasz grobowiec. Chociaż jest wyraźnie starożytna i zrujnowana, widzisz oznaki zamieszkiwania - zapalone świece, bezpyłowe podłogi i dziwnie przyjemny zapach, którego nie można całkowicie zidentyfikować.
+Ogłuszająca cisza starego miejsca zostaje nagle przerwana przez straszny wstrząs z sąsiedniej komory.
+[/STORY]
+[OUT]Posłuchaj.
+[OUT]Zignoruj to. Skorzystaj z tej okazji, aby ograbić grobowiec i wyjść.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Ściany tutaj są grube, ale wydaje się, że hałas to głosy, męskie i żeńskie, krzyczące na siebie - coś o „nigdy nie pozwalaniu mi się bawić i byciu nudnym” i „ale nie możesz po prostu iść i ssać kogokolwiek, kogo lubisz .'
+[/STORY]
+[OUT]Wtrącaj się w walkę.
+[OUT][Hunter] Skradnij się, aby zobaczyć, kto się kłóci.
+[OUT][Nocny demon] To najwyraźniej legowisko kochanki lub mistrza striga - albo obu tych dźwięków. Idź do nich mówić.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Zakradasz się i widzisz bogato umeblowaną sypialnię i dwie strzygi walczące. Samiec kuli się w kącie, podczas gdy kobieta rzuca w niego rzeczą. Jest kilka humanoidalnych ciał, osuszonych, rozłożonych na podłodze. 
+Z sufitu jaskini zwisają ukryte w cieniu kilka większych kształtów.
+[/STORY]
+[OUT]Wtrącaj się w walkę.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+Gdy wchodzisz w interferencję, powietrze nagle staje się zimne. Głosy uspokajają się, a dwie strigas odwracają się do ciebie. Samica mówi: 
+'Dostawa do domu, jak miło ...'
+Mężczyzna krzyczy na nią. 'Nie! To właśnie mówiłem. Nie możesz pożreć każdego życia, które spotkasz! Mam tego dość!„
+Kobieta warczy na niego i robi kilka kroków w twoim kierunku.
+[/STORY]
+[OUT]Strona z mężczyzną. Przekonaj kobietę, że ssanie wszystkich, których spotyka, wydaje się niezdrowe, przynajmniej jeśli chodzi o ich związek, nie mówiąc już o zawieraniu przyjaźni i utrzymywaniu zapasów.
+[OUT]Powiedz mężczyźnie, że nie powinien mówić swojemu partnerowi, co ma robić.
+[OUT]Atakuj strigas!
+[/NODE]
+
++[NODE]7
+[STORY]
+„Och, dobrze, dobrze, wygrywasz. Wrócę do tego.
+Samica odsuwa się, a samiec pochyla się przed tobą: 
+- Dziękuję ci. Nie jest rozsądne poddawać się popędom krwi, w przeciwnym razie stajemy się zwykłymi zwierzętami, a nie prawdziwymi sługami księżyca. W podzięce powiem wam o skarbie ukrytym w głębi stawu. Uważaj jednak na kraken śpi w środku.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Pani śmieje się w twoją twarz i rusza w twoją stronę, obnażone kły.
+[/STORY]
+[OUT]Opuść to miejsce.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]13
+[STORY]
+Mężczyzna patrzy na ciebie zdziwiony, a potem wzrusza ramionami i odchodzi, gdy jego partner rzuca się na ciebie ze swoim zwierzęcym cmokiem u boku!
+[/STORY]
+[OUT]Ucieczka!
+
+[OUT]Walka!
+[/NODE]
+
++[NODE]16
+[STORY]
+Legowisko striga zostaje wyczyszczone. Wewnątrz znajdziesz wiele humanoidalnych szczątków.
+[/STORY]
+[OUT]Weź to, co jest przydatne i wyjdź.
+[/NODE]
+
++[NODE]20
+[STORY]
+Łupisz to miejsce, ale za późno zdajesz sobie sprawę, że jesteś obserwowany. Cmok schodzi z wnętrza jaskini i atakuje!
+[/STORY]
+[OUT]Walka!
+[OUT]Uciekaj, nawet jeśli prawdopodobnie doznasz obrażeń.
+[/NODE]
+
++[NODE]22
+[STORY]
+Gdy wchodzisz w interferencję, powietrze nagle staje się zimne. Głosy uspokajają się, a dwie strigas odwracają się do ciebie. Samica mówi: 
+'Dostawa do domu, jak miło ...'
+Mężczyzna krzyczy na nią. 'Nie! To właśnie mówiłem. Nie możesz pożreć każdego życia, które spotkasz! Mam tego dość!„
+Kobieta warczy na niego i robi kilka kroków w twoim kierunku.
+[/STORY]
+[OUT]Powiedz dziewczynie striga, że jest lekceważąca dla władcy księżyca przez przekarmianie.
+[OUT]Powiedz mężczyźnie, że nie powinien mówić swojemu partnerowi, co ma robić.
+[OUT]Atakuj strigas!
+[/NODE]
+
++[NODE]23
+[STORY]
+„Och, dobrze, dobrze, wygrywasz. Wrócę do tego.
+Samica odsuwa się, a samiec pochyla się przed tobą: 
+- Dziękuję ci. Nie jest rozsądne poddawać się popędom krwi, w przeciwnym razie stajemy się zwykłymi zwierzętami, a nie prawdziwymi sługami księżyca. W podzięce powiem wam o skarbie ukrytym w głębi stawu. Uważaj jednak na kraken śpi w środku.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+cmok są potężnymi sługami strigi i dobrze bronią swoich mistrzów. Pokonują cię i wysysają ducha, zanim pozwolisz ci uciekać. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Kraken pond(7)
++[NODE]2
+[STORY]
+Znajdujesz staw kraken, w którym powiedziano ci, że wielki skarb pilnuje dziwnie umieszczony potwór morski.
+[/STORY]
+[OUT]Przeszukaj staw, ale pozostań gotowy do walki.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Powierzchnia stawu bulgocze, a ty widzisz małe rozproszone ryby, a poziom wody podnosi się, gdy kraken wyłania się, by na ciebie patrzeć.
+[/STORY]
+[OUT][Demon wody] Kraken jest stworzeniem morskim. Musi tu być uwięziony i na pewno chory. Zaoferuj wezwanie rzek i twego krewnego demona wody, aby zaniesili krakena z powrotem do morza.
+[OUT][Lodowy demon] Krakens zapada w głęboki sen, gdy woda jest zimna. Schłodzić staw, a następnie ostrożnie splądrować skarb.
+[OUT]Wrzuć kogoś do stawu. To powinno utrzymać bestię zajętą podczas łupu, co możesz.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT][Magiczny użytkownik] Ten kraken jest poza swoim elementem. Ciemna magia przyniosła go tutaj, a zatem ciemna magia może go zniszczyć. Wykonaj rytuał, aby wypędzić ducha bestii morskiej z tego stawu.
+[/NODE]
+
++[NODE]12
+[STORY]
+Kraken patrzy na ciebie, a potem wyciąga mackę i podaje ci kilka pereł, zamykając umowę między wami. 
+Wiesz, że jako krewni możesz bezpiecznie przechowywać perły w swoim własnym ciele i wypuścić je do morza, gdy dotrzesz do brzegu. Następnie kraken zostanie uwolniony. Oczywiście możesz zamiast tego zatrzymać perły, a bestia w końcu umrze.
+[/STORY]
+[OUT]Weź perły i trzymaj je w bezpiecznym miejscu, aż będziesz mógł pomóc krakenowi.
+[OUT]Trzymaj perły i wróć za chwilę, aby zebrać skarb, gdy bestia nie żyje.
+[/NODE]
+
++[NODE]16
+[STORY]
+Pokonujesz krakena i splądrujesz skarb, który gromadził pod wodą. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Kraken cię pokonuje i uciekasz tylko dlatego, że nie może opuścić stawu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Przychodzisz do stawu kraken, ale znajdujesz go opuszczonego - żadna bestia, żaden skarb, tylko zwykły staw. Być może ktoś cię uderzył, a może stworzenie znalazło drogę z powrotem do morza. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Kraken robi się bardzo zły i atakuje cię, zmuszając cię do odejścia.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]28
+[STORY]
+Kraken wygląda oszołomiony iw końcu zapada w głęboki sen, gdy lodowata woda go przytula. 
+Możesz zdobyć część skarbu, który nie jest pokryty bestią.
+[/STORY]
+[OUT]Weźcie co możecie i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Release the kraken(8)
++[NODE]2
+[STORY]
+Nosisz perły na brzeg morza i umieszczasz je w wodzie, szepcząc: „Uwolnij krakena na fale.'
+Bąbelki wody, a ty słyszysz coś ciężkiego zanurzającego się w głębiny. Potem morze uspokaja się, ale czujesz się dobrze, robiąc ten czyn. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Summer Harvest(9)
++[NODE]2
+[STORY]
+Jest lato i czas zbiorów wiosennych plonów. Chociaż jest to zazwyczaj dobry czas dla rolników, jest również niebezpieczny, zwłaszcza teraz, ponieważ osoby rzucające światło skręcają nawet samo słońce, aby wykonać swoją palącą licytację. 
+Mimo to owoce twoich prac muszą być zebrane. 
+[/STORY]
+[OUT]Rozpocznij żniwo.
+[OUT]Rozpocznij żniwo.
+[OUT]Rozpocznij żniwo.
+[OUT]Rozpocznij żniwo.
+[/NODE]
+
++[NODE]3
+[STORY]
+Niektóre kobiety wracają z pól z paskudnymi, ropiejącymi ukąszeniami.
+[/STORY]
+[OUT][Zerca lub uzdrowiciel] Dokładnie obejrzyj ukąszenia.
+[OUT][Mądrość] Dokładnie obejrzyj ukąszenia.
+[OUT]Starannie wycinaj dotknięte obszary.
+[OUT]Zostawcie ich.
+[/NODE]
+
++[NODE]4
+[STORY]
+To dziuk - małe, podobne do węża demony lubią czołgać się pod skórą ofiary i składać jaja. Celują w kobiety, więc jaja mogą w rzeczywistości stać się bestialskimi owocami.
+[/STORY]
+[OUT][Snake] Dziuk są bardzo wrażliwe na jad węża. Ugryź kobiety, aby pozbyć się odradzania demonów i chronić je na polach. 
+[OUT]Nałóż trochę smalcu i wypowiedz te słowa, aby demony odeszły: „Obyś umarł, skurczył się i obrócił w kamień.- To zrani dotkniętych, ale powinno pozbyć się stworzeń.
+[OUT]Starannie wycinaj dotknięte obszary.
+[OUT]Te demony mogą być śmiertelne - lub, co gorsza, mogą uszkodzić i zmienić gospodarza. Mimo to niektórzy z zadowoleniem przyjmują szansę na zmianę i dzięki swojej wiedzy możesz zwiększyć szanse na przeżycie. Pozwól, aby larwy dziuk pozostały.
+[/NODE]
+
++[NODE]7
+[STORY]
+Zbiory poszły dobrze. Zebrałeś ziarno i poczułeś się błogosławiony przez bogów za swoją pracę.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]14
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać zbyt wiele. 
+W ciągu kilku godzin widzisz podobne do węża stworzenia ślizgające się pod skórą cierpiących, a każda próba ich odzyskania powoduje, że zagłębiają się coraz głębiej w ciało. Jedna z kobiet umiera w strasznym bólu, podczas gdy druga przeżywa, ale zmieniła się.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać zbyt wiele. 
+Kto wie, czy kobiety przetrwają kilka następnych dni?
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać zbyt wiele. 
+W ciągu kilku godzin widzisz podobne do węża stworzenia ślizgające się pod skórą cierpiących, a każda próba ich odzyskania powoduje, że zagłębiają się coraz głębiej w ciało. Jedna z kobiet w końcu rodzi węża!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać zbyt wiele. 
+Nie wiadomo, czy choroba minie, ale na razie możesz tylko mieć nadzieję.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać dużo. 
+W ciągu kilku godzin widzisz podobne do węża stworzenia ślizgające się pod skórą cierpiących, a każda próba ich odzyskania powoduje, że zagłębiają się coraz głębiej w ciało. Jedna z kobiet przechodzi szybciej, ale się zmienia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać zbyt wiele. 
+W ciągu kilku godzin widzisz podobne do węża stworzenia ślizgające się pod skórą cierpiących, a każda próba ich odzyskania powoduje, że zagłębiają się coraz głębiej w ciało. Jedna z kobiet umiera w strasznym bólu, podczas gdy druga przeżywa, ale zmieniła się.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Ukąszenia nadal ropieją, a kobiety stają się gorączkowe i chore. Podczas gdy poświęcasz im czas na opiekę nad nimi, nie zdołasz zebrać dużo. 
+W ciągu kilku godzin widzisz podobne do węża stworzenia ślizgające się pod skórą cierpiących, a każda próba ich odzyskania powoduje, że zagłębiają się coraz głębiej w ciało. Jedna z kobiet przechodzi szybciej, ale się zmienia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Potrzeba było czasu, aby wyciąć ukąszenia jednej z kobiet, a ty myślisz, że jakiś jad już wszedł do jej ciała, ale wygląda świetnie i czuje, że jej umysł staje się ostrzejszy!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Potrzeba było czasu, aby wyciąć ukąszenia jednej z kobiet, a ty myślisz, że jakiś jad już wszedł do jej ciała. Wygląda trochę przerażająco z bliznami i dziwnym, przypominającym węża blaskiem w oku. Ale ona żyje innym dniem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Wycinanie ugryzień zajęło trochę czasu i myślisz, że jakiś rodzaj jadu już wszedł do ich ciał, powodując więcej chorób. Wyglądają trochę przerażająco z bliznami i dziwnym, wężowym blaskiem w oku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+To dziuk - małe, podobne do węża demony lubią czołgać się pod skórą ofiary i składać jaja. Celują w kobiety, więc jaja mogą w rzeczywistości stać się bestialskimi owocami.
+[/STORY]
+[OUT][Snake] Dziuk są bardzo wrażliwe na jad węża. Ugryź kobiety, aby pozbyć się odradzania demonów i chronić je na polach. 
+[OUT]Nałóż trochę smalcu i wypowiedz te słowa, aby demony odeszły: „Obyś umarł, skurczył się i obrócił w kamień.- To zrani dotkniętych, ale powinno pozbyć się stworzeń.
+[OUT]Starannie wycinaj dotknięte obszary.
+[OUT]Zostaw to. Być może kobiety mogą to pokonać. 
+
+[/NODE]
+
++[NODE]27
+[STORY]
+Poludnica zostaje zauważona wędrując po polach w samo południe. Zbieranie podczas jej obecności będzie niebezpieczne, a nawet atakowanie jej może nie zapewnić ci spokoju, jakiego potrzebujesz. 
+[/STORY]
+[OUT][Zerca lub mądrość] Jedynym pewnym sposobem na pozbycie się jej jest mówienie zagadkami i pokonanie jej w jej własnej grze.
+[OUT]Zaatakuj ją, żeby kupiła trochę czasu.
+[OUT][Poludnica] Poproś swoją siostrę, żeby cię opuściła.
+[OUT][Dziecko] Te demony często szukają dzieci, więc bądź bezpieczny, ale proponuj zabawę z nią, podczas gdy dorośli robią żniwo.
+[OUT]Tak czy owak.
+[OUT]Pomiń te żniwa.
+[/NODE]
+
++[NODE]29
+[STORY]
+Poludnica odeszła, a twoje żniwo idzie gładko. Obchody trwają przez całą noc, aby uczcić bogów i podziękować za dobre plony.
+[/STORY]
+[OUT]Radujcie się.
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]32
+[STORY]
+Poludnica nadal nawiedza pola i odczuwasz spadek morale. Przefrunieni przez stwory, niektórzy ludzie zachorują na skutek ekspozycji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Poludnica odeszła, a twoje żniwo idzie gładko. Obchody trwają przez całą noc, aby uczcić bogów i podziękować za dobre plony.
+[/STORY]
+[OUT]Radujcie się.
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]36
+[STORY]
+Zabijasz poludnicę, ale powraca ona w kółko, pozostawiając twoje żniwa mniej zamożne niż miałeś nadzieję. Mimo to nikt nie jest ranny i dostajesz trochę plonów.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]37
+[STORY]
+Poludnica odeszła, a twoje żniwo idzie gładko. Obchody trwają przez całą noc, aby uczcić bogów i podziękować za dobre plony.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Demon się zgadza i zostawia cię. Ostatecznie poludnica odeszła, a twoje zbiory przebiegają sprawnie. Obchody trwają przez całą noc, aby oddać cześć bogom i dziękować za dobre zbiory.
+Niestety, rano zdajesz sobie sprawę, że jedno z twoich dzieci zniknęło. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Demon zgadza się i zostawia cię. Ostatecznie poludnica odeszła, a twoje zbiory przebiegają sprawnie. Obchody trwają przez całą noc, aby oddać cześć bogom i dziękować za dobre zbiory.
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Poludnica nie atakuje, ale dręczy cię cały dzień, wyczerpując twoje morale i pozostawiając twoje żniwa mniej zamożne, niż miałeś nadzieję. Mimo to nikt nie jest ranny i dostajesz trochę plonów.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zbiory są niewielkie, ale występują bez incydentów. Czujesz się błogosławiony przez bogów, ponieważ pokój jest rzadkością na tej ziemi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Żniwo zawodzi, twoi ludzie zachorują, a teraz pamiętasz nieudane spalanie Marzanny ... 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Autumn Preserves(10)
++[NODE]2
+[STORY]
+Jest jesień - czas, aby skorzystać z żniw tego lata i przygotować przetwory na zimę. 
+W tym czasie należy pozostać czujnym wobec demonów domowych, które, tak jak ty, mogą chcieć zaopatrzyć się w nadchodzącą zimę.
+[/STORY]
+[OUT]Zrób co możesz.
+[OUT]Zrób co możesz.
+[OUT]Zrób co możesz.
+[/NODE]
+
++[NODE]3
+[STORY]
+Wkrótce domy wypełniają cudowne zapachy i gwar radosnego gotowania. Ale jeden z twoich rzemieślników wygląda trochę dziwnie. Ciągle drapią się, zdejmują ubrania, jak gdyby ubrania powodowały ból, i mamrocząc pod nosem.
+[/STORY]
+[OUT][Zerca] Przyjrzyj się im uważnie.
+[OUT][Mądrość] Przyjrzyj się im uważnie.
+[OUT]Wbij w nie trochę sensu!
+[OUT]Zostawcie ich.
+[/NODE]
+
++[NODE]4
+[STORY]
+Ze względu na ich nieregularne zachowanie, nagłą i niewytłumaczalną obsesję na punkcie gotowania, a księżyc jest dziś pełen, podejrzewasz, że demon miesiecznik zamieszkuje ciało twojego przyjaciela.
+Prawdopodobnie teraz zdarzy się, że dotknięta chorobą osoba zmieni swoją płeć i odziedziczy niektóre cechy demona.
+[/STORY]
+[OUT][Demon] Wywołaj imię demona i wydaj polecenie, aby odeszło, zanim w pełni połączy się z hostem.
+[OUT]Pozwalanie demonom na ich drogę nigdy nie jest bezpieczne. Wykąp przyjaciela w lodowatej wodzie pod księżycem, a następnie każ mu spać przez trzy noce w dębowej beczce związanej czerwonym sznurkiem. To wypędzi demona.
+[OUT]Wbij w nie trochę sensu!
+[OUT]Możliwe, że twój przyjaciel zawsze był miesiecznik, i że to, co się z nimi dzieje, jest naturalne i powinno być pozostawione bez przeszkód. Pomóżcie im stać się tym, kim mieli być.
+[/NODE]
+
++[NODE]7
+[STORY]
+Po tym jak wszyscy osiedlą się ponownie, kontynuujesz przygotowywanie przetworów i gotowanie dla zapasów zimowych.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Niech miesiecznik będzie, ale niestety ciało gospodarza okazało się zbyt słabe, by poradzić sobie z każdą zmianą, a biedne stworzenie zginęło.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Mięiecznik zmienia rzemieślnika w mężczyznę, ale twój przyjaciel zdaje się nie uznawać zmiany - po prostu kontynuują swoją pracę, jakby nic się nie stało. 
+Nadal marynujesz korniszony i gotujesz dżem, aby zaopatrzyć się w zimę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Okazuje się, że twój przyjaciel czuje się bardzo, bardzo chory, prawdopodobnie z powodu nieszczęśliwego domovnika grającego w domu. 
+Pozostawienie go własnym urządzeniom okazało się złym pomysłem, ponieważ obraził go brak uwagi. Później okazuje się, że wkurzyło to wszystkie starannie przygotowane przetwory zimowe.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Niech miesiecznik będzie, ale niestety ciało gospodarza okazało się zbyt słabe, by poradzić sobie z każdą zmianą, a biedne stworzenie zginęło.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pobiłeś demona pałeczką dębową i zostawia twojego przyjaciela w spokoju. Potem twój przyjaciel czuje się raczej dobrze. 
+Nadal pracujesz nad piklami i dżemem bez żadnego dramatu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Pobiłeś demona pałeczką dębową i zostawia twojego przyjaciela w spokoju. Potem twój przyjaciel czuje się wstrząśnięty i wygląda raczej źle. 
+Nadal pracujesz nad piklami i dżemem bez żadnego dramatu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pobiłeś demona pałeczką dębową i zostawia twojego przyjaciela w spokoju. Potem są chorzy i osłabieni przez tę próbę. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Ze względu na ich nieregularne zachowanie, nagłą i niewytłumaczalną obsesję na punkcie gotowania, a księżyc jest dziś pełen, podejrzewasz, że demon miesiecznik zamieszkuje ciało twojego przyjaciela.
+Prawdopodobnie teraz zdarzy się, że dotknięta chorobą osoba zmieni swoją płeć i odziedziczy niektóre cechy demona.
+[/STORY]
+[OUT][Demon] Wywołaj imię demona i wydaj polecenie, aby odeszło, zanim w pełni połączy się z hostem.
+[OUT]Pozwalanie demonom na ich drogę nigdy nie jest bezpieczne. Wykąp przyjaciela w lodowatej wodzie pod księżycem, a następnie każ mu spać przez trzy noce w dębowej beczce związanej czerwonym sznurkiem. To wypędzi demona.
+[OUT]Wbij w nie trochę sensu!
+[OUT]Możliwe, że twój przyjaciel zawsze był miesiecznik, i że to, co się z nimi dzieje, jest naturalne i powinno być pozostawione bez przeszkód. Pomóżcie im stać się tym, kim mieli być.
+[/NODE]
+
++[NODE]27
+[STORY]
+Twoja praca przebiegała dobrze - korniszony były przygotowane do marynowania, a dżem był gotowy. Ale kiedy przynosisz słoiki z piwnicy, odkrywasz, że jest tam zagnieżdżony cradlepossum! Szczury roi się na podłodze, a ich mistrz czai się w kącie, gotowy do rzucenia się. Widzisz, że większość twoich produktów jest już ukryta w worku.
+[/STORY]
+[OUT][Zwierzęce pokrewieństwo] Ten demon uważa się za bestię. Spróbuj zastraszyć stwora i zdobyć to terytorium jako własne.
+[OUT]Zabijć to coś!
+[OUT][Cradlepossum] Poproś swojego demona, aby cię opuścił.
+[OUT]Ignoruj oposa i miej nadzieję, że cię opuści.
+[/NODE]
+
++[NODE]29
+[STORY]
+Cradlepossum akceptuje twoją dominację i liście, więc możesz kontynuować swoją pracę w spokoju. Obchody trwają przez całą noc, aby oddać cześć bogom i dziękować za dobrą pracę.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Cradlepossum w końcu wychodzi, ale kradnie większość twojego jedzenia, a jak później się dowiesz, rozprzestrzenia się także choroba.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Cradlepossum zniknął, a twoja praca idzie gładko. Obchody trwają przez całą noc, aby oddać cześć bogom i dziękować za dobrą pracę.
+[/STORY]
+[OUT]Radujcie się.
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]36
+[STORY]
+Cradlepossum zniknął, a twoja praca idzie gładko. Obchody trwają przez całą noc, aby oddać cześć bogom i dziękować za dobrą pracę.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]37
+[STORY]
+Cradlepossum kiwa głową i opuszcza dom, więc możesz kontynuować swoją pracę w spokoju.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Kontynuujesz swoją pracę i ignorujesz stwora. Ale cradlepossum jest znanym złodziejem, a gdy tylko pozwolisz mu wędrować swobodnie, porywa twoje dziecko i znika.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Cradlepossum pozostaje zagnieżdżony w twojej piwnicy i na początku kradnie wiele twoich zapasów. Kiedy w końcu odejdzie, znajdziesz mały zapas towarów, prawdopodobnie skradziony innym ludziom. Najwyraźniej opos lubił być sam.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]43
+[STORY]
+Twoje zapasy nie są wspaniałe w tym roku, ale praca przebiega bez incydentów. Czujesz się błogosławiony przez bogów, ponieważ pokój jest rzadkością na tej ziemi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]46
+[STORY]
+Mięiecznik zmienia rzemieślnika w kobietę, ale twoja przyjaciółka wydaje się nie uznawać zmiany - po prostu kontynuują swoją pracę, jakby nic się nie stało. 
+Nadal marynujesz korniszony i gotujesz dżem, aby zaopatrzyć się w zimę. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Marzanna(11)
++[NODE]2
+[STORY]
+Podczas wielkiej ciemności zima i noc panowały nad ziemiami. Kiedy słońce wróciło, zwyczajem stało się spalenie wizerunku jednej ze starych bogiń, Marzanny (lub Moreny, jak wtedy była znana), aby powitać wiosenne i honorowe odrodzenie. 
+Palenie Marzanny jest prostym rytuałem, ale jeśli zawodzi, jest to pewny znak nieszczęścia.
+[/STORY]
+[OUT]Rozpocznij palenie rytuału Marzanny.
+[/NODE]
+
++[NODE]3
+[STORY]
+Rytuał idzie gładko. Wizerunek jest podpalany i wkładany do świeżej wody rzecznej, tak aby zarówno ogień, jak i woda mogły oczyścić duchy ciemności i pozwolić na rozkwit wiosny. 
+Czujesz się błogosławiony swoim sukcesem, a teraz możesz zbierać trochę wiosennych plonów.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wizerunek jest zrobiony z siana, sznurka i wosku, ale nie położyłeś go dobrze i rozpadł się, zanim płomienie mogą go oczyścić i wezwać wiosnę, aby przyszła.
+Nie czujesz się z tym dobrze i jesteś pewien, że bogowie nie są szczęśliwi.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Pikulik(12)
++[NODE]2
+[STORY]
+Widzicie czorta siedzącego na swojej kozie który wygląda na znudzonego. Zwraca się do Was: 
+'Och, ludzie, tak. Powiedzcie, chcecie może przyjąć jakąś ofertę od demona ? Mam dla Was kilka w sam raz... Kurka, muszę w teraz coś popchnąć, albo ...'
+[/STORY]
+[OUT]Zapytajcie co oferuje.
+[OUT]Grzecznie odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Mam teraz dwie. Jedna to prosta gra w kości ze mną. Wygrywacie, dostajecie nagrody. Przegrywacie, dostaję kawałek Waszej duszy. 
+Druga, mam tu prawdziwego pikulika. Ten mały koleś daje szczyptę bogactwa i szczęścia, dopóki żyje - lub tak długo, jak żyje jego właściciel - w zamian trzeba go karmić swoim duchem, wystarczy co jakiś czas.'
+[/STORY]
+[OUT][Demon] Powiedz czortowi, żeby nie ściemniał i niech lepiej opowie o prawdziwej cenie.
+[OUT]Weźcie pikulika.
+[OUT]Zagraj z nim w kości.
+[OUT]Grzecznie odmówcie i odejdźcie.
+[OUT][Mądrość lub inteligencja] Wiemy, że oferty demonów zawsze mają jakiś haczyk, więc o co tu chodzi?
+[/NODE]
+
++[NODE]5
+[STORY]
+„Dobrze, dobrze, cóż, kości są tym, czym są kości, ale jak dobrze wiesz, los sprzyja naszym krewnym. Wam mogę powiedzieć, że szanse są równe. 
+Pikulik, cóż, moi przyjaciele, jest małym chłopakiem, ale bardzo spragnionym. Powiedzmy, że poważnie traktuje swój biznes o nazwie „sprzedaj swoją duszę”, a ja znam ludzi, którzy umarli po zakończeniu jego służby, he he. Z drugiej strony niektórzy żyli i stali się bardzo bogaci.'
+[/STORY]
+[OUT]Weźcie pikulika.
+[OUT]Zagraj z nim w kości.
+[OUT]Grzecznie odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Dobry wybór. Oto on, mały chłopiec, tak. W rzeczywistości nie zobaczycie go ponownie, dopóki jego usługi nie zostaną zakończone. 
+Jeden z Was został teraz oznaczony jako jego właściciel, jeden z Was otrzyma nagrody na pewien czas i zapłaci cenę. Teraz mogę wreszcie iść, trzymajcie się!
+Czort znika w kłębie czerwonego dymu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Bah, wygrałeś. Powinienem to przewidzieć, i nie grać z moimi krewniakami. Mimo to umowa to umowa. Do zobaczenia.
+Czort znika w kłębie czerwonego dymu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Bah, wygrałeś. Jakie to denerwujące. Mimo to umowa to umowa. Do zobaczenia.
+Czort znika w kłębie czerwonego dymu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Lepiej pójdzie następnym razem, ale to była dobra gra, więc wezmę swoją zapłatę duchową i zostawię Wam mały prezent. Bywajcie!
+Czort znika w kłębie czerwonego dymu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Lepiej pójdzie następnym razem, ale to była dobra gra, więc wezmę teraz swoją nagrodę z Waszego ducha. Bywajcie!
+Czort znika w kłębie czerwonego dymu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Dobrze, dobrze, cóż, kości są tym, czym są kości, ale jak dobrze wiesz, los sprzyja moim krewnym. Ale hej, może twoi bogowie pomogą? 
+Pikulik, cóż, moi przyjaciele, jest małym stworzonkiem, ale bardzo spragnionym. Powiedzmy, że poważnie traktuje ten biznes który nazywam „sprzedaj swoją duszę”, a ja znam ludzi, którzy umarli po zakończeniu jego służby he he. Z drugiej strony niektórzy żyli i stali się bardzo bogaci.'
+[/STORY]
+[OUT]Weźcie pikulika.
+[OUT]Zagraj z nim w kości.
+[OUT]Grzecznie odmówcie i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Pikulik consequence(13)
++[NODE]2
+[STORY]
+Twój demon pikulik staje się aktywny. Przyniesie Ci szczęście lub odbierze zapłatę.
+[/STORY]
+[OUT]Czekaj na wynik.
+[/NODE]
+
++[NODE]12
+[STORY]
+Twój demon pikulik opuścił Cię zadowolony ze swej obsługi i odebranej płatności.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Old nanny(14)
++[NODE]2
+[STORY]
+„Dziecko nie jest łatwym zadaniem. Twoi młodzi będą musieli przejść rytuał dojrzewania. Niektóre zawiodą, a niektóre mogą nawet zginąć, ale tak to działa. 
+Każda kasta ma swoje własne wymagania i ryzyko, więc jeśli chcesz, aby Twoje maleństwo stało się kimś wyjątkowym, lepiej zadbaj o ich szkolenie. Chociaż los często śmieje się z twoich planów w obu kierunkach.'
+[/STORY]
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać wojownikiem.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać myśliwym.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać uzdrowicielem.
+[OUT]Zapytaj, co dziecko potrzebuje, aby stać się zerką.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać bandytą.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać czarownicą.
+[OUT]Zapytaj, co to znaczy pozwolić losowi kierować ścieżką twojego dziecka.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać czarownicą.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać zbieraczem lub rzemieślnikiem.
+[OUT]A co z nie-ludźmi?
+[OUT]Zapytaj, co się stanie, jeśli zawiodą.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Ach tak, oni dużo, mają też swoje własne zasady. Najprawdopodobniej będziesz musiał najpierw zaprzyjaźnić się ze swoim rodzajem, albo mieć dorosłego, który może użyczyć własnego doświadczenia - wiesz, gobbo naucza innego gobbo o sposobach.'
+[/STORY]
+[OUT]Zapytaj o gobliny.
+[OUT]Zapytaj o elfy.
+[OUT]Zapytaj o krasnoludy.
+[OUT]Zapytaj o orków.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Aby zostać wojownikiem, dziecko będzie musiało być silne (3). Jeśli dziecko jest bardzo silne (4), będzie miało większe szanse powodzenia.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Te miejsca pracy są budulcem naszego społeczeństwa. Twoje dziecko nie potrzebuje żadnego dodatkowego szkolenia i jest to ścieżka, która najprawdopodobniej odniesie sukces bez niespodzianek.' 
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Aby zostać czarownicą, dziecko musi być kobietą silną w magii (4) i mieć szansę po swojej stronie (50%, aby się pojawić). Jeśli dziecko jest bardzo silne (7), zawsze będzie miało okazję spróbować prób. 
+Posiadanie innej wiedźmy, która nauczy twoje dziecko, zwiększa ich szanse na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Ach, gobbowie, tak. Spróbuję ci powiedzieć wszystko, co wiem.'
+[/STORY]
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać harcownikiem.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać jeźdźcem z dzika.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać mistrzem zwierząt.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać szamanem.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać zbieraczem lub rzemieślnikiem.
+[OUT]Zapytaj o inny zawód.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+„To zależy, moja droga. Niektórzy zostawiają cię na lepsze życie. Niektórzy wracają, ale splamieni ciemnością stali się padlinożercami. Niektóre są przekręcone przez przekleństwa. Inni po prostu umierają.'
+[/STORY]
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Aby zostać harcownikiem, dziecko będzie musiało być silne (4) i mieć szansę po swojej stronie (pojawi się 45%). Jeśli dziecko jest silne (3) i ma krew, aby uczyć je lub przyjaźnić się z tą frakcją, zawsze będzie miało okazję próbować prób i zwiększyć szansę na sukces.„
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód goblina.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Aby zostać myśliwym, dziecko musi być spostrzegawcze (3). Jeśli dziecko jest bardzo spostrzegawcze (4), będzie również miało większe szanse powodzenia.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Aby zostać uzdrowicielem, dziecko musi być mądre (3). 
+Posiadanie innego uzdrowiciela, aby nauczyć swojego młodzieńca, zwiększa jego szanse na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Aby stać się zerem, dziecko będzie musiało być mądre (4) i mieć szansę po swojej stronie (pojawi się 65%). Jeśli dziecko jest bardzo mądre (6), zawsze będzie miało okazję spróbować prób. 
+Posiadanie kolejnej zerki, aby nauczyć młodzieńca, zwiększa ich szanse na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Aby zostać bandytą, dziecko musi być szybkie (3) i mieć szansę po swojej stronie (50%, aby się pojawić).'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Ścieżka losu wciąż wiruje w chaosie. Dziecko będzie musiało mieć szansę po swojej stronie (40%, aby się pojawiło), aby przejść tę ścieżkę.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Aby zostać męską czarownicą, chłopiec musi być silny w magii (4) i mieć szansę po swojej stronie (40%, aby się pojawić). Jeśli dziecko jest bardzo silne (7), zawsze będzie miało okazję spróbować prób. 
+Posiadanie magicznego użytkownika, aby nauczyć młodzieńca, zwiększa jego szanse na sukces. Ale aby opcja pojawiła się w ogóle, musisz najpierw spotkać wolh na świecie.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Aby zostać jeźdźcem dzików, dziecko będzie musiało być silne (4) i mieć szansę po swojej stronie (pojawi się 25%). Jeśli dziecko jest silne (3) i ma krew, aby uczyć je lub przyjaźnić się z tą frakcją, zawsze będzie miało okazję próbować prób i zwiększyć szansę na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód goblina.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Aby zostać mistrzem zwierząt, dziecko będzie musiało być silne (4) i mieć szansę po swojej stronie (pojawi się 15%). Jeśli dziecko jest spostrzegawcze (4) i mądre (4) i ma krewnych, aby uczyć je lub przyjaźnić się z tą frakcją, zawsze będą miały okazję próbować prób i zwiększyć swoje szanse na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód goblina.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Aby zostać szamanem, dziecko musi być silne w magii (4), mieć szansę po swojej stronie (15%, aby się pojawiło) i mieć magicznego użytkownika, aby ich uczyć. Jeśli dziecko jest silne w magii (4), ma po swojej stronie szansę (65% na pojawienie się [RV2]) i ma krewnych, aby uczyć ich lub przyjaźnić się z tą frakcją, zawsze będą mieli okazję próbować prób.„
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód goblina.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Ach, elfy, tak. Spróbuję ci powiedzieć wszystko, co wiem.'
+[/STORY]
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać opiekunem.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać druidem.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać magiem.
+[OUT]Zapytaj, co to znaczy pozwolić losowi kierować ścieżką twojego dziecka.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać zbieraczem lub rzemieślnikiem.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Aby zostać opiekunem, dziecko musi być silne (3) i bardzo spostrzegawcze (7) oraz mieć szansę po swojej stronie (pojawi się 10%). Jeśli dziecko jest silne (3) i bardzo spostrzegawcze (7) i ma magicznych użytkowników (2), aby uczyć je lub przyjaźnić się z tą frakcją, będą miały większą szansę na pojawienie się tej ścieżki (pojawi się 70%).'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód elfa.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Aby zostać druidem, dziecko musi być silne w magii (5), mieć szansę po swojej stronie (pojawienie się 35%) i mieć magicznych użytkowników (2), aby uczyć ich lub zaprzyjaźnić się z tą frakcją.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód elfa.
+[/NODE]
+
++[NODE]25
+[STORY]
+„Aby zostać magiem, dziecko musi być silne w magii (5), mieć szansę po swojej stronie (35% plus szczęście, aby się pojawić) i mieć magicznych użytkowników (2), aby uczyć ich lub zaprzyjaźnić się z tym odłam.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód elfa.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Ścieżka losu wciąż wiruje w chaosie. Dziecko będzie musiało mieć szansę po swojej stronie (20%, aby się pojawiło), aby przejść tę ścieżkę.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód elfa.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Aby zostać sluggerem, dziecko musi być silne (6) i mieć szansę po swojej stronie (pojawi się 5%). Jeśli dziecko jest silne (6) i ma krew, aby uczyć je lub przyjaźnić się z tą frakcją, zawsze będzie miało okazję próbować prób i zwiększyć szansę na sukces.„
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód orka.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Ach, orkowie, tak. Spróbuję ci powiedzieć wszystko, co wiem.'
+[/STORY]
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać opiekunem.
+[OUT]Zapytaj, co dziecko potrzebuje, by zostać bloodtrackerem.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać czarownicą.
+[OUT]Zapytaj, co dziecko potrzebuje, by stać się jednym z lasem.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać zbieraczem lub rzemieślnikiem.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Aby zostać bloodtrackerem, dziecko będzie musiało być silne (6) i mieć szansę po swojej stronie (pojawi się 5%). Jeśli dziecko jest spostrzegawcze (5) i ma krewnych, aby uczyć je lub przyjaźnić się z tą frakcją, zawsze będą miały okazję próbować prób i zwiększyć szanse na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód orka.
+[/NODE]
+
++[NODE]30
+[STORY]
+„Żeby zostać czarownicą, dziecko musi mieć czarownicę, aby ją nauczyć i mieć szansę po jej stronie (pojawi się 5%). Jednakże, jeśli dziecko jest silne w magii (5), ma po swojej stronie szansę (30% plus szczęście, że może się pojawić) i ma pokrewieństwo, by uczyć ją lub przyjaźnić się z tą frakcją, próby mają większe szanse na sukces.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód orka.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Zostanie matriarchą jest prawie niemożliwe, moja droga. Dziecko musi nauczyć ją krewnych lub zaprzyjaźnić się z tą frakcją, a nawet wtedy będzie miała tylko niewielką szansę (5% plus szczęście).„
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny zawód orka.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Ach, krasnoludy, tak. Spróbuję ci powiedzieć wszystko, co wiem.'
+[/STORY]
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać kowalem.
+[OUT]Zapytaj, co dziecko potrzebuje, aby zostać ciepłolubem.
+[OUT]Zapytaj, co to znaczy pozwolić losowi kierować ścieżką twojego dziecka.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać mistrzem run.
+[OUT]Zapytaj, czego dziecko potrzebuje, aby zostać robotnikiem.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Aby zostać kowalem, dziecko płci męskiej będzie musiało mieć szansę po swojej stronie (pojawi się 20%). Jeśli jest dobrym rzemieślnikiem (12) i ma krewnych, aby uczyć go lub przyjaźnić się z tą frakcją, zawsze będzie miał okazję spróbować prób i zwiększyć swoją szansę na sukces.„
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny krasnoludzki zawód.
+[/NODE]
+
++[NODE]35
+[STORY]
+„Aby zostać mistrzem ciepła, dziecko płci męskiej będzie musiało mieć krewnych, aby uczyć go lub zaprzyjaźnić się z tą frakcją i mieć szansę po jego stronie (30%, aby odnieść sukces).'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny krasnoludzki zawód.
+[/NODE]
+
++[NODE]36
+[STORY]
+„Ścieżka losu wciąż wiruje w chaosie. Dziecko będzie musiało mieć szansę po swojej stronie (15% plus szczęście, aby się pojawiło), aby przejść tę ścieżkę.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny krasnoludzki zawód.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Aby zostać mistrzem runów, dziecko płci męskiej będzie musiało mieć krewnych, aby uczyć go lub zaprzyjaźnić się z tą frakcją i mieć szansę po jego stronie (10% plus szczęście, aby odnieść sukces).„
+
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[OUT]Zapytaj o inny zawód.
+[OUT]Zapytaj o inny krasnoludzki zawód.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Bialun(15)
++[NODE]2
+[STORY]
+Przechodząc przez pole, dostrzegasz stworzenie, które cię obserwuje. Jest mały, krzywy i śluzowaty. Kiedy twoje oczy się spotkają, mówi: 
+'Czy zlizasz mnie ze śluzu, prawda?'
+[/STORY]
+[OUT][Mądrość lub zerka] Zbadaj to.
+[OUT][Demon] Zgadzam się na lizanie, ale upewnij się, że istota jest związana prawem demonów, aby ci dobrze oddać.
+[OUT]Odmów i wyjdź.
+[OUT]Zabijć to coś!
+[OUT]Zróbcie to.
+[/NODE]
+
++[NODE]4
+[STORY]
+To jest bialun, dziwny demon polowy, który pochłania choroby z upraw, ale potem zostaje przez niego zatruty.
+Opowieści ludowe mówią, że jeśli zlizujesz je ze śluzu, zostaniesz nagrodzony bogactwami, ale śluz z pewnością będzie trujący. A jeśli zakneblujesz się, zanim uda ci się wylizać wszystko, może cię spotkać klątwa demona.
+[/STORY]
+[OUT]Teraz, kiedy znasz fakty, zapnij pasy i zlizaj śluz.
+[OUT]Odmów i wyjdź.
+[OUT]Zabijć to coś!
+[/NODE]
+
++[NODE]7
+[STORY]
+Teraz, kiedy widzisz to wyraźniej, jest to demon bialun. Skrzeczy na ciebie z zaciśniętymi zębami: 
+'Tak, tak, demoniczny interes. Lizasz, daję, ale lizam wszystko! I nie płacz, jeśli boli!'
+[/STORY]
+[OUT]Teraz, kiedy znasz fakty, zapnij pasy i zlizaj śluz.
+[OUT]Odmów i wyjdź.
+[OUT]Zabijć to coś!
+[/NODE]
+
++[NODE]8
+[STORY]
+Udaje ci się zlizać cały brudny śluz ze stwora, ale czujesz truciznę płynącą przez twoje żyły. 
+Demon uśmiecha się w podziękowaniu i zostawia worek z nagrodami. Możesz tu teraz zbierać naprawdę zdrowe zboże.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Szlam jest obrzydliwy i trujący, więc kneblujesz i nie możesz go oczyścić za jednym zamachem. 
+Stwór krzyczy i umiera, a ty czujesz, że spada na ciebie klątwa demona. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Szlam jest obrzydliwy i trujący, więc kneblujesz i nie możesz go oczyścić za jednym zamachem. 
+Stwór krzyczy i umiera, a ty czujesz, że spada na ciebie klątwa demona. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Udaje ci się zlizać cały brudny szlam ze stwora, ale czujesz, jak trucizna płynie w twoich żyłach. 
+Demon uśmiecha się w podziękowaniu i czujesz się wzmocniony tym doświadczeniem. Możesz tu teraz zbierać naprawdę zdrowe zboże.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Udaje ci się zlizać cały brudny śluz ze stwora, ale czujesz, jak trucizna płynie w twoich żyłach, a jedno z was czuje się osłabione przez to doświadczenie.
+Demon uśmiecha się w podziękowaniu i zostawia worek z nagrodami. Możesz tutaj również zebrać naprawdę zdrowe zboże. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Udaje ci się zlizać cały brudny śluz ze stwora, ale czujesz, jak trucizna płynie w twoich żyłach, a jedno z was czuje się osłabione przez to doświadczenie.
+Demon uśmiecha się w podziękowaniu i zostawia worek z nagrodami. Możesz tutaj również zebrać naprawdę zdrowe zboże. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Udaje ci się zlizać cały brudny śluz ze stwora, ale czujesz truciznę płynącą przez twoje żyły. 
+Demon uśmiecha się w podziękowaniu i zostawia worek z nagrodami. Możesz tu teraz zbierać naprawdę zdrowe zboże.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Bludnik(16)
++[NODE]2
+[STORY]
+Idąc przez bagna, mógłbyś przysiąc, że używasz znanej ścieżki, ale zdajesz sobie sprawę, że chodzisz w kółko i nie masz wyjścia. 
+Dopiero wtedy widzisz brzydkiego dziecinnego demona śmiejącego się z ciebie: „Zapłać lub zgub się!'
+[/STORY]
+[OUT][Zerca lub mądrość] Przyjrzyj się temu demonowi, aby dowiedzieć się, jak sobie z tym poradzić.
+[OUT][Swamper] Nie potrzebujesz demona, który cię wyprowadzi. Powiedz stworzeniu, aby cię opuściło, a następnie znajdź nową ścieżkę.
+[OUT][Łowca lub percepcja] Ignoruj nieznośnego demona i znajdź własne wyjście.
+[OUT]Atakuj go!
+[OUT]Spróbuj znaleźć własne wyjście.
+[OUT]Zapłać.
+[OUT][Magiczny użytkownik] Działa tu silna magia demonów. Wykonaj rytuał, aby oczyścić umysł z mgły i rozwiać sztuczki stwora.
+[/NODE]
+
++[NODE]7
+[STORY]
+Nie masz pojęcia, jaki to demon, ale wiesz, że twój umysł jest zamglony, a wydostanie się stąd będzie trudne.
+[/STORY]
+[OUT]Zapłać.
+[OUT]Spróbuj znaleźć własne wyjście.
+[OUT]Atakuj go!
+[OUT][Łowca lub percepcja] Ignoruj nieznośnego demona i znajdź własne wyjście.
+[OUT][Swamper] Nie potrzebujesz demona, który cię wyprowadzi. Powiedz stworzeniu, aby cię opuściło, a następnie znajdź nową ścieżkę.
+[OUT][Magiczny użytkownik] Działa tu silna magia demonów. Wykonaj rytuał, aby oczyścić umysł z mgły i rozwiać sztuczki stwora.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Dobrze, dobrze. Jestem bludnikiem, do twojej dyspozycji. Oto twoja ścieżka - niech ci dobrze służy.
+Demon znika i znajdujesz się z powrotem na drodze, którą podróżowałeś.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Próbujesz złapać demona, ale jest zbyt cholernie trudno nawet chodzić po linii prostej. Wciąż się z ciebie śmieje i żąda zapłaty.
+[/STORY]
+[OUT]Zapłać.
+[OUT]Spróbuj znaleźć własne wyjście.
+[OUT][Łowca lub percepcja] Ignoruj nieznośnego demona i znajdź własne wyjście.
+[OUT][Swamper] Nie potrzebujesz demona, który cię wyprowadzi. Powiedz stworzeniu, aby cię opuściło, a następnie znajdź nową ścieżkę.
+[OUT][Magiczny użytkownik] Działa tu silna magia demonów. Wykonaj rytuał, aby oczyścić umysł z mgły i rozwiać sztuczki stwora.
+[/NODE]
+
++[NODE]14
+[STORY]
+Ten denerwujący facet to bludnik, a kiedy to sobie uświadomisz, wyjście jest proste. Wszyscy się pochylacie, połóżcie głowy między nogami, aby spojrzeć na ścieżkę, z której przyszliście i powiedzcie: „To jest moja droga!
+Bludnik znów się śmieje, potem klaszcze w dłonie i znika. Znajdujesz się z powrotem na właściwej drodze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Znalezienie własnej drogi wyjścia jest wyczerpujące, ale twój umysł jest silny i ostatecznie uwolnisz się od zaklęcia demona i odkryjesz właściwą ścieżkę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Pomimo wysiłków stwora, możesz znaleźć drogę powrotną, więc demon cię opuszcza. Pozostawia ci nawet prezent.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Łamiesz magię, która zmąciła twój umysł i znalazła się na właściwej drodze. Demon śmieje się i znika, najwyraźniej pod wrażeniem twoich umiejętności.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Pomimo magii demona, urodziłeś się z bagna, więc mówi ci, jak się wydostać. Demon oklaskuje cię i znika.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Nie masz pojęcia, jak opuścić to miejsce i czujesz się wyczerpany próbami. 
+Demon śmieje się z twoich wysiłków.
+[/STORY]
+[OUT]Zapłać.
+[OUT]Spróbuj znaleźć własne wyjście.
+[OUT]Atakuj go!
+[OUT][Swamper] Nie potrzebujesz demona, który cię wyprowadzi. Powiedz stworzeniu, aby cię opuściło, a następnie znajdź nową ścieżkę.
+[OUT][Magiczny użytkownik] Działa tu silna magia demonów. Wykonaj rytuał, aby oczyścić umysł z mgły i rozwiać sztuczki stwora.
+[/NODE]
+
++[NODE]26
+[STORY]
+Nie możesz złamać żadnej magii demonów, która cię tu trzyma. 
+[/STORY]
+[OUT]Zapłać.
+[OUT]Spróbuj znaleźć własne wyjście.
+[OUT]Atakuj go!
+[OUT][Łowca lub percepcja] Ignoruj nieznośnego demona i znajdź własne wyjście.
+[OUT][Swamper] Nie potrzebujesz demona, który cię wyprowadzi. Powiedz stworzeniu, aby cię opuściło, a następnie znajdź nową ścieżkę.
+[/NODE]
+
++[NODE]27
+[STORY]
+Złapiesz i zabijesz demona, ale wciąż nie masz pojęcia, gdzie jesteś i jak znaleźć swoją ścieżkę. Wszystko pozostaje pomieszane.
+[/STORY]
+[OUT]Spróbuj znaleźć wyjście.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Pustecki(17)
++[NODE]2
+[STORY]
+Znajdujesz starą jaskinię, a może opuszczoną kopalnię - trudno powiedzieć, ponieważ krzewy i rozkład okrywają prawdę.
+[/STORY]
+[OUT]Eksploruj.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wchodzisz do jaskini i niedługo zobaczysz, że rzeczywiście była to kopalnia. Tunele są stare i długo opuszczone, ale zostały wykonane przy użyciu narzędzi. 
+Kiedy wchodzisz głębiej, dostrzegasz oznaki rudy metalu przed sobą, ale kiedy masz zamiar iść w jej kierunku, widzisz brodatego starca trzymającego lampę naftową. Przecina twoją ścieżkę i pozornie znika w ścianach.
+[/STORY]
+[OUT][Krasnolud lub zerka] To pustecki, duch kopalni. Jego wygląd jest ostrzeżeniem. Mów imię ducha z szacunkiem i dziękuję za ostrzeżenie, a następnie opuść to miejsce.
+[OUT]Kontynuuj zdobywanie rudy metalu.
+[OUT]Spróbuj znaleźć starca.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Opuszczasz kopalnię i znajdujesz prezent czekający na ciebie na zewnątrz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+Znajdujesz świetne miejsce, w którym możesz zdobyć rudę i łatwo ją odzyskać, ale kiedy to robisz, ściany i ziemia zaczynają się trząść, a tunel zaczyna się zawalać!
+[/STORY]
+[OUT]Spróbuj uciec!
+[/NODE]
+
++[NODE]8
+[STORY]
+Udaje ci się prześcignąć upadek, a nawet odkryć, że odkopał ci jakiś dobry kamień.
+[/STORY]
+[OUT]Zbierz go i wyjdź.
+[/NODE]
+
++[NODE]11
+[STORY]
+Ledwo dostałeś się i czujesz się wyczerpany.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Szukasz mężczyzny, ale kiedy badasz, znajdujesz się coraz głębiej w kopalni. Wkrótce się zgubiłeś.
+[/STORY]
+[OUT]Spróbuj znaleźć wyjście.
+[/NODE]
+
++[NODE]15
+[STORY]
+Udaje ci się znaleźć wyjście, a nawet zbierać więcej rudy metalu po drodze. 
+
+[/STORY]
+[OUT]Zbierz go i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Domovniks(18)
++[NODE]2
+[STORY]
+Dostrzegasz znaki jakiegoś rodzaju demona domovnika, który chce osiąść w twoim domu. 
+Demony domowe mogą być błogosławieństwem lub przekleństwem dla twojego domu, więc musisz zdecydować, czy wpuścisz je.
+[/STORY]
+[OUT]Zostaw trochę jedzenia i mów dobrze o demonie, aby zachęcić go do osiedlenia się.
+[OUT]Trzymaj drzwi zamknięte, a wszystkie progi zapieczętowane solą i makiem. Lepiej nie ryzykuj złego demona.
+[OUT][Zerca] Spróbuj zdecydować, który demon jest przed podjęciem decyzji.
+[/NODE]
+
++[NODE]6
+[STORY]
+Prawdopodobnie będzie to diduch. Jeśli cię polubi, będzie żył na twoim progu, pod liliowym drzewem. 
+Jednak te demony są niestabilne, a jeśli masz w wiosce jakichś przerażających użytkowników ludu lub magii, może się to przerazić i stać się destrukcyjne.
+[/STORY]
+[OUT]Nie masz nikogo, kto zdenerwowałby stwora, więc wpuść go.
+[OUT]Masz kilku ludzi, którzy mogą być problemem, ale i tak ryzykuj.
+[OUT]To może być ryzykowne, ale miej zamknięte drzwi i wszystkie progi zapieczętuj solą i makiem. 
+[/NODE]
+
++[NODE]7
+[STORY]
+Teraz, gdy diduch chroni twój dom, czujesz się wzmocniony przeciwko tym, którzy cię skrzywdzą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Duchuch jest nieszczęśliwy i drwi z tych, których najbardziej się boi. Niszczy także część zapasów. 
+Na szczęście wiesz, jak sobie z tym poradzić. Tworzysz wizerunek stwora ze stosu siana i wymawiasz jego imię trzy razy, skacząc na prawą stopę, a następnie demon odjeżdża.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Demon okazał się diduchiem i podobało ci się na tyle, że pozostawało pod twoim liliowym drzewem. 
+Teraz, gdy chroni twój dom, czujesz się wzmocniony przeciwko tym, którzy cię skrzywdzą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+To jest diduch, iz jakiegoś powodu jest nieszczęśliwy i drwi z niektórych z was. Niszczy także część zapasów i rozprzestrzenia chorobę, zanim w końcu odejdzie. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Demon, którego zaprosiłeś, jest zymkiem, ludzkim stworzeniem o bardzo długich rękach i nogach, ledwo pokrytym niejednolitą skórą. 
+Lepiej daj mu dużo dobrego gotowanego jedzenia, bo może ci to przynieść wielkie nieszczęście. Po wpuszczeniu wróci kilka razy, żądając zapłaty. 
+[/STORY]
+[OUT][Czarownica lub męska czarownica] Jedynym pewnym sposobem na wypędzenie takich demonów jest ciemna magia. Może to być dla ciebie niebezpieczne, ale spróbuj na zymku.
+[OUT]Daj mu jedzenie.
+[OUT]Nie masz gotowanego jedzenia lub nie chcesz się dzielić. Ścigaj demona.
+[/NODE]
+
++[NODE]19
+[STORY]
+Usuwasz zymka bez żadnej złej energii.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Usuwasz zymka, ale nie bez problemu. Ciemna magia, której użyłeś, wyczerpała twojego ducha, a demon zostawił cię przeklętego i zdeformowanego.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Dobrze odżywiony, zymk odchodzi, zostawiając cię z dobrymi plonami i błogosławieństwem. Ale wiesz, że wkrótce wróci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Nie udaje ci się nakarmić zymka, a twoje zapasy żywności są zgniłe, a ludzie chorzy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Demon domowy chętnie zostaje z tobą i przynosi szczęście.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Demon domowy chętnie zostaje z tobą i przynosi szczęście.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Demon, którego zaprosiłeś, jest zymkiem, ludzkim stworzeniem o bardzo długich rękach i nogach, ledwo pokrytym niejednolitą skórą. 
+Lepiej daj mu dużo dobrego gotowanego jedzenia, bo może ci to przynieść wielkie nieszczęście. Po wpuszczeniu wróci kilka razy, żądając zapłaty. 
+[/STORY]
+[OUT][Czarownica lub męska czarownica] Jedynym pewnym sposobem na wypędzenie takich demonów jest ciemna magia. Może to być dla ciebie niebezpieczne, ale spróbuj na zymku.
+[OUT]Daj mu jedzenie.
+[OUT]To może być ryzykowne, ale miej zamknięte drzwi i wszystkie progi zapieczętuj solą i makiem. 
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Spring Offering(19)
++[NODE]2
+[STORY]
+Wiosna to czas odrodzenia, więc czas uczcić bogów i poprosić o płodne lato.
+[/STORY]
+[OUT]Poświęć bydło.
+[OUT]Daj hojną ilość swojego jedzenia. [40%]
+[OUT]Daj trochę jedzenia.
+[OUT]Nie dawaj niczego.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --zymk1(20)
++[NODE]2
+[STORY]
+Zymk wraca po jedzenie. 
+[/STORY]
+[OUT]Zostaw trochę jedzenia i mów dobrze o demonie, aby zachęcić go do osiedlenia się.
+[OUT]Trzymaj drzwi zamknięte, a wszystkie progi zapieczętowane solą i makiem. Lepiej nie ryzykuj złego demona.
+[/NODE]
+
++[NODE]16
+[STORY]
+Demon, którego wcześniej zaprosiłeś, jest zymkiem, ludzkim stworzeniem o bardzo długich rękach i nogach, ledwo pokrytym niejednolitą skórą. 
+Lepiej daj mu dużo dobrego gotowanego jedzenia, bo może ci to przynieść wielkie nieszczęście. Po wpuszczeniu wróci kilka razy, żądając zapłaty. 
+[/STORY]
+[OUT][Czarownica lub męska czarownica] Jedynym pewnym sposobem na wypędzenie takich demonów jest ciemna magia. Może to być dla ciebie niebezpieczne, ale spróbuj na zymku.
+[OUT]Daj mu jedzenie.
+[OUT]Nie masz gotowanego jedzenia lub nie chcesz się dzielić. Ścigaj demona.
+[/NODE]
+
++[NODE]19
+[STORY]
+Usuwasz zymka bez żadnej złej energii.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Nie możesz usunąć zymka. Ciemna magia, której użyłeś, wyczerpała twojego ducha, a demon zostawił cię przeklętego i zdeformowanego.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Dobrze karmiony, zymk odchodzi i zostawia cię z błogosławieństwem. Ale wiesz, że wkrótce wróci. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Nie udaje ci się nakarmić zymka, a twoje zapasy żywności są zgniłe, a ludzie chorzy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --zymk2(21)
++[NODE]2
+[STORY]
+Zymk wraca po jedzenie. 
+[/STORY]
+[OUT]Zostaw trochę jedzenia i mów dobrze o demonie, aby zachęcić go do osiedlenia się.
+[OUT]Trzymaj drzwi zamknięte, a wszystkie progi zapieczętowane solą i makiem. Lepiej nie ryzykuj złego demona.
+[/NODE]
+
++[NODE]16
+[STORY]
+Demon, którego zaprosiłeś, jest zymkiem, ludzkim stworzeniem o bardzo długich rękach i nogach, ledwo pokrytym niejednolitą skórą. 
+Lepiej daj mu dużo dobrego gotowanego jedzenia, bo może ci to przynieść wielkie nieszczęście. Po wpuszczeniu wróci kilka razy, żądając zapłaty. 
+[/STORY]
+[OUT][Czarownica lub męska czarownica] Jedynym pewnym sposobem na wypędzenie takich demonów jest ciemna magia. Może to być dla ciebie niebezpieczne, ale spróbuj na zymku.
+[OUT]Daj mu jedzenie.
+[OUT]Nie masz gotowanego jedzenia lub nie chcesz się dzielić. Ścigaj demona.
+[/NODE]
+
++[NODE]19
+[STORY]
+Usuwasz zymka bez żadnej złej energii.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Nie możesz usunąć zymka. Ciemna magia, której użyłeś, wyczerpała twojego ducha, a demon zostawił cię przeklętego i zdeformowanego.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Dobrze karmiony, zymk odchodzi i zostawia cię z błogosławieństwem. Ale wiesz, że wkrótce wróci. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Nie udaje ci się nakarmić zymka, a twoje zapasy żywności są zgniłe, a ludzie chorzy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Volh madness(22)
++[NODE]2
+[STORY]
+Kiedyś zaakceptowałeś skorumpowaną wolę w swojej owczarni i do tej pory myślałeś o nim jako o krewnym.
+Ale tej nocy jesteś niewolnikiem, a twój przyjaciel śmieje się z satysfakcji, kiedy krwawisz i próbujesz zareagować.
+[/STORY]
+[OUT]Walka!
+[OUT]Zmierz się z nimi w świecie duchów!
+[/NODE]
+
++[NODE]4
+[STORY]
+Pokonujesz łotra, ale nie było to łatwe. Jego gniewny duch trwa jako twój sługa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+„I myślałeś, że możesz mnie oswoić!„
+Volh pokonuje cię i żywi się twoim duchem przed odejściem, jego dziecinny śmiech dzwoni w twoich uszach przez wiele dni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Pokonujesz łotra, ale nie było to łatwe. Jego gniewny duch trwa jako twój sługa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Volh madness2(23)
++[NODE]2
+[STORY]
+Kiedyś nie poradziłeś sobie z problemem niestabilnego chłopca, który używał nekromancji. Wygląda na to, że chłopiec i jego podwładni atakują teraz twoją własną wioskę!
+[/STORY]
+[OUT]Walka!
+[OUT]Zmierz się z nimi w świecie duchów!
+[OUT]Błagaj o litość. Zaoferuj jedną osobę jako zapłatę, aby zaoszczędzić resztę.
+[/NODE]
+
++[NODE]4
+[STORY]
+Pokonujesz łotrzyka, Ivana, ale nie było to łatwe. Jego gniewny duch trwa jako twój sługa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Volh pokonuje cię i żywi się twoim duchem przed odejściem, jego dziecinny śmiech dzwoni w twoich uszach przez wiele dni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Pokonujesz łotra, ale nie było to łatwe. Jego gniewny duch trwa jako twój sługa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Rogue volh zgadza się. Na razie zabiera twojego przyjaciela i odchodzi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dark Volh Spwn2(24)
++[NODE]46
+[STORY]
+Dostrzegasz łotra, którego kiedyś śledziłeś po tym, jak zaatakował własną wioskę. 
+Stoi nad wyschniętymi łuskami niektórych podróżnych, a jego nieżyjący smok wciąż żeruje na kilku innych, którzy musieli próbować uciec.
+[/STORY]
+[OUT][Magiczny użytkownik] Niestety, to, co dzieje się z volhem, gdy nie są właściwie prowadzone. Zaatakuj tego nekromanta w królestwach duchów i szybko, zanim jego moc wzrośnie jeszcze bardziej!
+[OUT]Do ataku!
+[OUT]Zostaw ich. To nie Twój interes.
+[/NODE]
+
++[NODE]48
+[STORY]
+Niszczysz łotrzyka i jego sługusów. Każde inne życie, które stworzył, powinno teraz stracić siłę życiową i upadek. 
+Duch chłopca zamienił się w upiór i teraz przywiązuje się do twojej służby.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Rogue volh pokonuje cię i żywi się twoim duchem, zanim odleci na swoim nieożywionym wierzchowcu. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Niszczysz łotrzyka i jego sługusów. Każde inne życie, które stworzył, powinno teraz stracić siłę życiową i upadek. 
+Duch chłopca zamienił się w upiór i teraz przywiązuje się do twojej służby.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Winter Koliada(25)
++[NODE]2
+[STORY]
+Zima jest czasem starannej refleksji w Thea, ponieważ krótkie dni i ciemne noce pozostają stałym przypomnieniem dni ciemności. 
+Aby zatrzymać ciemność i zawołać do słońca tego samego dnia, kiedy noc jest najdłuższa, świętujecie szczodre gody i koliadę. 
+[/STORY]
+[OUT][Światło] Rozpocznij obchody w imię światła!
+[OUT][Zamieszanie] Czcij słońce w imię zamieszania!
+[OUT][Harmonia] Chwal słońce za harmonię.
+[OUT][Magia] Czcij moc słońca w imię magii.
+[OUT][Natura] Rozpocznij koliadę w imię samej natury!
+[OUT][Intelekt] Chwal bogów i słońce w imię intelektu.
+[/NODE]
+
++[NODE]3
+[STORY]
+Aby uszanować światło, palisz ogniska, które mogą dotykać gwiazd i ogrzewać nocne niebo, dopóki słońce nie wróci. 
+[/STORY]
+[OUT]Stwórz najlepszy ogień, jaki możesz!
+[/NODE]
+
++[NODE]5
+[STORY]
+Aby uszanować światło, palicie ogniska, które są tak gorące jak samo słońce, a następnie przechodzicie przez nie, aby pokazać swoją siłę.
+[/STORY]
+[OUT]Przejdź przez ogień!
+[/NODE]
+
++[NODE]6
+[STORY]
+Dobrze wykonałeś swoje zadanie i czujesz, że bogowie są zadowoleni z twoich wysiłków.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]14
+[STORY]
+Zawiodłeś swoich bogów i boisz się, że samo słońce może zemścić się na tobie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Idź od domu do domu i śpiewaj opowieści o bogach i słońcu, aby mogli cię usłyszeć w niebiosach.
+[/STORY]
+[OUT]Śpiewaj kolendy.
+[/NODE]
+
++[NODE]21
+[STORY]
+Przygotuj nektar z maku i kwiatów bzu i wykonaj rytualny taniec, aby duchy oświetliły drogę, aż przyjdzie słońce.
+[/STORY]
+[OUT]Wykonaj rytuał.
+[/NODE]
+
++[NODE]23
+[STORY]
+Zapal świecę z gromnicy i opowiadaj opowieści o potędze bogów, aby mogła odstąpić grzmot i noc od ciebie, aż wróci słońce. 
+[/STORY]
+[OUT]Rozpocznij opowieści.
+[/NODE]
+
++[NODE]25
+[STORY]
+Przygotuj ucztę dla bogów i, ku czci potęgi słońca, nie śpij przez całą noc, recytując księgi światła w pokucie o roli uczonych w ciemności dawno temu.
+[/STORY]
+[OUT]Rozpocznij czuwanie. 
+
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Summer Results(26)
++[NODE]2
+[STORY]
+Nadszedł czas, aby zobaczyć, czy twoje zwierzęta dobrze się spisały tego lata, i wiele będzie jeździć na temat tego, jak dobrze obdarowałeś bogów wiosną.
+[/STORY]
+[OUT]Sprawdź zwierzęta.
+[OUT]Sprawdź zwierzęta.
+[/NODE]
+
++[NODE]3
+[STORY]
+Twoje zwierzęta mają się bardzo dobrze, więc w tym roku będziesz miał dobre mięso. 
+A może nawet jakieś nowe dodatki.
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
++[NODE]5
+[STORY]
+Twoje zwierzęta mają się dobrze, chociaż czujesz, że mogłyby zrobić lepiej, gdyby twoje wiosenne ofiary były bardziej hojne. 
+Mimo to jesteś w stanie zebrać przyzwoite ilości mięsa i skóry. 
+
+[/STORY]
+[OUT]Radujcie się.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --caravan(27)
++[NODE]2
+[STORY]
+Karawana zatrzymuje się w pobliżu twojej osady. Pytają, czy mogą chwilę odpocząć, i oferują podzielenie się z tobą swoim jedzeniem.
+[/STORY]
+[OUT]Zaproś ich.
+[OUT]Do ataku!
+[OUT]Jest noc i są obcy. Odrzucać.
+[OUT]Jest noc i są obcy. Odrzucać.
+[/NODE]
+
++[NODE]3
+[STORY]
+Jedzcie razem i dzielcie się jedzeniem i piciem. Podróżujący żałują ci opowieści o swoich przygodach. 
+'... i wtedy hochlick dranie zostawili nas wysoko i sucho z naszymi spodniami na środku bagna! Ha!'
+[/STORY]
+[OUT]Słuchajcie dalej.
+[/NODE]
+
++[NODE]10
+[STORY]
+Zabijasz podróżników, a karawana jest twoja do grabieży.
+[/STORY]
+[OUT]Zbierz wszystko, co jest przydatne. 
+[OUT]Zbierz wszystko, co jest przydatne. 
+[/NODE]
+
++[NODE]11
+[STORY]
+Źle cię biją i zmuszają do odwrotu i zamykają się w twoich chatach. 
+Biorą to, co uważają za uczciwą cenę za swoje złe maniery, a potem odchodzą.
+[/STORY]
+[OUT]Poczekaj, aż odejdą na wypadek, gdyby zmienili zdanie.
+[/NODE]
+
++[NODE]13
+[STORY]
+To był logiczny i mądry wybór i czujesz, że twoja domena jest przez niego wzmocniona.
+[/STORY]
+[OUT]Dobrze. Wróć do pracy na wsi.
+[/NODE]
+
++[NODE]15
+[STORY]
+Wśród rzeczy odkrywasz mapę z miejscem oznaczonym jako skarb.
+[/STORY]
+[OUT]Weź mapę. Może kiedyś znajdziesz to miejsce.
+[OUT]Weź mapę. Może kiedyś znajdziesz to miejsce.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Cóż, prawdę powiedziawszy, zmokliśmy, zmarzliśmy i straciliśmy, a ostatecznie Stribog poprowadził naszą ścieżkę do bezpieczeństwa. 
+W każdym razie mamy często miejsca pełne adwentu, ale nie zawsze mamy środki, aby się udać, więc tutaj, weź jedną z naszych map skarbów i baw się nią. Ale nie obwiniaj nas za żadne psoty!„
+Wyruszają i zostawiają cię z jedzeniem i mapą.
+[/STORY]
+[OUT]Życzę im dobrze podczas podróży.
+[OUT]Życzę im dobrze podczas podróży.
+[OUT]Poproś o handel przed wyjazdem.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Dobry handel z tobą. Teraz już jesteśmy.„
+Wyruszają i zostawiają cię z jedzeniem i mapą.
+[/STORY]
+[OUT]Życzę im dobrze podczas podróży.
+[OUT]Życzę im dobrze podczas podróży.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --forest(28)
++[NODE]2
+[STORY]
+Znalazłeś miejsce zaznaczone na mapie jako skarb, ale jest to bardzo gęsty i ciemny gaj, który wydaje się dość wilgotny i zimny, więc poszukiwanie go nie będzie łatwe.
+[/STORY]
+[OUT]Szukaj skarbu.
+[OUT]Szukaj skarbu.
+[OUT]Szukaj skarbu.
+[/NODE]
+
++[NODE]3
+[STORY]
+Nie znajdziesz nic więcej niż zimno i trochę owoców i ziół.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Przeszukujesz gaj i odkrywasz legowisko wilków. Być może skarb jest ukryty w środku.
+[/STORY]
+[OUT][Natura lub bestia] Wezwij naturę, aby uspokoiła wilki i pozwoliła ci przeszukać jaskinię w spokoju.
+[OUT][Natura lub bestia] Wezwij naturę, aby uspokoiła wilki i pozwoliła ci przeszukać jaskinię w spokoju.
+[OUT]Zabij wilki.
+[OUT][Łowca] Ustaw pułapki i wywab wilki.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Kiedy przeszukasz las, znajdziesz niewielką polanę, a rzeczywiście znajduje się skrzynia w środku, na widoku. 
+Jednakże, dostrzegasz również trochę ogryzionych kości leżących wokół, jak również świeże ciała innych poszukiwaczy przygód. 
+[/STORY]
+[OUT]Zbierz co możesz z ciał, zanim przejdziesz do skrzyni.
+[/NODE]
+
++[NODE]11
+[STORY]
+Możesz być przyjacielem natury, ale natura ma swoje zasady, a te wilki nie zamierzają porzucić swojego terytorium. Stoją mocno i warczą.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Gdy zbierasz łup, widzisz, jak krążą wokół ciebie niedźwiedzie. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Weź to, co masz i uciekaj!
+[/NODE]
+
++[NODE]34
+[STORY]
+Niedźwiedzie cię biją i zmuszają do ucieczki i opuszczenia niektórych rzeczy.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]37
+[STORY]
+Wilki tracą cierpliwość i atak.
+[/STORY]
+[OUT]Walka!
+[/NODE]
+
++[NODE]41
+[STORY]
+Wilki pobiły cię i zmusiły do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Wilki przyjmują cię jako część natury i pozwalają ci wejść, ale czujesz ich oczy na każdym kroku. Mogą zmienić zdanie w dowolnym momencie. 
+Możesz jednak zauważyć skrzynię ukrytą w otworze głęboko w jaskini.
+[/STORY]
+[OUT]Weź co możesz szybko i odejdź.
+[OUT]Ryzykuj gniew wilków i przeszukaj jaskinię więcej.
+[OUT]Ryzykuj gniew wilków i przeszukaj jaskinię więcej.
+[/NODE]
+
++[NODE]58
+[STORY]
+Zabijasz wilki i odnajdziesz skarb ukryty w jaskini.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]59
+[STORY]
+Zabijasz niedźwiedzie i możesz spokojnie wziąć skrzynię.
+[/STORY]
+[OUT]Weź skarb i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --swamps(29)
++[NODE]2
+[STORY]
+Znalazłeś miejsce oznaczone na mapie jako skarb, ale jest to rozległe bagno, które wydaje się dość wilgotne i zimne, więc poszukiwanie go nie będzie łatwe.
+[/STORY]
+[OUT]Szukaj skarbu.
+[OUT]Szukaj skarbu.
+[OUT]Szukaj skarbu.
+[/NODE]
+
++[NODE]3
+[STORY]
+Przeszukujesz bagna, ale nie znajdziesz nic oprócz zimna i niektórych grzybów.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+Znajdujesz miejsce na suchym lądzie z kopcem nienaturalnie umieszczonych kamieni - prawdopodobnie kryjówką dla skarbu. 
+Niestety, grupa goblinów krąży wokół. Jeden z nich dostrzega cię i krzyczy: 
+'Pokonaj go! Dotarliśmy tu pierwszy i nie jesteśmy w nastroju do walki!'
+[/STORY]
+[OUT]Atakuj gobbosów!
+[OUT]Pokaż im swoją mapę i przekonaj ich, że jesteś właścicielem tego skarbu.
+[OUT][Goblin friend] Powiedz, że powinieneś się dzielić, tak jak przyjaciele.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Widzisz skrzynię skarbów, której szukasz, ale wygląda na to, że teraz jest w niej gromada bagien.
+[/STORY]
+[OUT]Szybko zabij bagna, zanim wrócą ich rodzice.
+[OUT]Zbyt ryzykowne - odejdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Ach, tak, jasne. Chodź, pomóż nam, a my oboje dostaniemy gadżety.'
+Wykopujesz skarb i rozdzielasz go równomiernie.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Wydaje mi się, że wygląda legalnie. Dobrze, bierzemy niewielką opłatę za znalezienie i zostawiamy cię.'
+[/STORY]
+[OUT]Zgadzam się i pozwól im odejść.
+[OUT]Nie, to wszystko jest twoje. Zabij ich!
+[/NODE]
+
++[NODE]17
+[STORY]
+Zabijasz gobliny i możesz zrabować skarb w spokoju. 
+[/STORY]
+[OUT]Weźcie co możecie i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+„Nie, odchodzisz albo umierasz.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]42
+[STORY]
+Zabijasz bagna i łapiesz szybko pierś, zanim nadejdą jakieś bagienne trolle.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Zabijasz małych bagien, ale kiedy łapiesz pierś i odwracasz się, widzisz, jak kilka bardzo wściekłych bagiennych trolli biegnie i pluje na ciebie toksycznym bagnem!
+[/STORY]
+[OUT]Biegnij!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Chosen advancement(30)
++[NODE]2
+[STORY]
+Po ukończeniu ścieżki wybranej osoby możesz teraz przejść lub zmienić ścieżkę kariery.
+[/STORY]
+[OUT][Elf] Trenuj, by zostać druidem.
+[OUT][Elf] Trenuj, by zostać strażnikiem.
+[OUT][Mężczyzna krasnoludów] Trenuj, by stać się mistrzem ciepła.
+[OUT][Mężczyzna krasnoludów] Trenuj, by zostać młodym kowalem.
+[OUT][Dwarf female] Trenuj, by zostać młodym kowalem. Jako wybrani bogów możesz przeciwstawić się konwencjom!
+[OUT][Orc female] Zostań czarownicą.
+[OUT][Ork] Trenuj, by zostać wojownikiem.
+[OUT][Goblin] Zostań jeźdźcem dzików.
+[OUT][Goblin] Trenuj jako szaman.
+[OUT][Young zerca] Nadszedł czas, aby stać się pełną zerą.
+[OUT][Młoda czarownica] Udowodniłaś, że jesteś godny i będziesz teraz viedmą - pełną czarownicą.
+[OUT][Ludzki wojownik] Trenuj jako kapitan bandytów.
+[OUT][Człowiek] Zostań uzdrowicielem.
+[OUT][Ludzka kobieta] Zostań młodą czarownicą.
+[OUT][Gusla] Nadszedł czas, aby stać się prawdziwym wolh.
+[OUT][Scavenger] Przez boską ścieżkę jesteś uzdrowiony ze skazy, którą noszą śmieciarze. Zostań młodym zerem, aby rozpowszechniać dobre słowo.
+[OUT][Samiec Pożeracza] Przez boską ścieżkę jesteś uzdrowiony ze skazy, którą noszą śmieciarze. Zostań gusla.
+[OUT]Nie zmieniaj - jesteś szczęśliwy we własnej skórze.
+[OUT][Snake] Ewoluuj w królewskiego węża.
+[OUT][Pająk] Zostań królową pająków.
+[OUT][Szczur] Zostań cradlepossum.
+[OUT][Bestia] Czy to przez los, czy narodziny, jesteś bestią. Ale twoja boska ścieżka jest silna, więc możesz teraz rzucić się w ręce bogów i wynurzyć się na nowo. Ostateczna forma, którą weźmiesz, zostanie ustalona przypadkowo, ale nie będzie to postać bestii.
+[OUT][Pineconette] Nadszedł czas, aby stać się starszym conerem.
+[OUT][Demon lasu] Zostań vily.
+[OUT][Ludzki mężczyzna] Zostań guslą.
+[OUT][Bat] Rośnie w cmok! 
+
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rat curse(31)
++[NODE]2
+[STORY]
+Grupa wściekłych wieśniaków gromadzi się wokół samotnej chaty. Mają widły, ogień i wyglądają na gotowych spalić to miejsce.
+[/STORY]
+[OUT]Zapytaj ich, dlaczego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Znaleźliśmy nikczemną wiedźmę, a my spalimy ją dobrze za wszystkie złe rzeczy, które zrobiła!„
+Inni kiwają głową. Słyszysz, jak wspominają o przekleństwach, złych wróżbach i złych duchach. Ta czarownica ukrywa się w chacie. Słyszysz jej płacz i błagam o jej życie, przysięgając, że nigdy nie zrobiła nic złego.
+[/STORY]
+[OUT]Spróbuj przekonać tłum, by się uspokoił i odszedł.
+[OUT]Atakuj tłum.
+[OUT]Pomóż złemu mobowi zabić nikczemną czarownicę.
+[OUT][Czarownica lub wolh] Użyj własnej magii, aby połączyć się z chatą i chronić czarownicę wewnątrz przed ignoranckim ludem.
+[/NODE]
+
++[NODE]8
+[STORY]
+Gdy tłum zniknął, czarownica ostrożnie wychodzi z chaty i wręcza ci dar w podziękowaniu. Natychmiast rozpoznajesz ją jako tego, który cię przeklął i zmienił w szczura!
+[/STORY]
+[OUT]Żądaj, żeby teraz usunęła twoją klątwę!
+[OUT]Zabić ją!
+[/NODE]
+
++[NODE]9
+[STORY]
+Wiedźma nie ma wyrzutów sumienia i wzrusza ramionami: 
+„Łamanie przekleństw nie jest tym samym, co wykorzenienie ich, moja droga. Ale uratowałeś mój bekon, więc mogę ci pomóc. To nie będzie łatwe.'
+[/STORY]
+[OUT]Poproś ją, żeby spróbowała.
+[OUT]Właściwie bycie szczurem nie jest takie złe. Dziękuję za nową perspektywę i poproś o kolejną zapłatę za uratowanie jej życia.
+[OUT]Zabić ją!
+[OUT][Czarownica] Żądaj, żeby dała ci obcinanie włosów pod pachami i dwóch paznokci u stóp i powiedz jej, żeby trzy razy pluła na lewe ramię, żebyś mogła je złapać. To z pewnością sprawi, że eliksir złamie klątwę.
+[OUT][Gusla lub volh] Żądaj, żeby dała ci obcinanie włosów pod pachami i dwóch paznokci u stóp i powiedz jej, żeby trzy razy pluła na lewe ramię, żebyś mogła je złapać. To z pewnością sprawi, że eliksir przełamie klątwę. 
+[ID]-350998459 [TXT] 'Teraz powiedziałem innym, ale przynajmniej już wiesz, że jestem świetny w przekleństwach, więc jeśli mnie zabijesz, zapłacisz!'
+[/NODE]
+
++[NODE]10
+[STORY]
+„Teraz powiedziałem innym, ale przynajmniej już wiesz, jestem wielki w przekleństwach, więc jeśli mnie zabijesz, zapłacisz!'
+[/STORY]
+[OUT]I tak ją zabij.
+[OUT]Właściwie bycie szczurem nie jest takie złe. Dziękuję za nową perspektywę i poproś o kolejną zapłatę za uratowanie jej życia.
+[OUT]Skinienie głową. Zgadzam się, aby spróbować jej sposób, aby pozbyć się klątwy.
+[/NODE]
+
++[NODE]11
+[STORY]
+Zabijasz czarownicę, ale czujesz, że jej przekleństwa są dla ciebie trudne. Ale okazuje się, że jej śmierć podniosła klątwę robactwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Cóż, kiedy kogoś przeklinam, robię to dobrze i dobrze, więc wiem tylko o dwóch sposobach. Jednym z nich jest wyssanie złej magii. Oczywiście nikt nie może tak ssać. Ale wiem, że w pobliżu jest elf, który może, choć jak przekonasz ich, by dotknęli szczura, to twój problem. 
+Drugi sposób jest odrobinę bardziej krwawy. Musisz zabić kilka szczurów - konkretnie, konkretnie - a następnie wymazać ich krew na sobie, przejść do kamiennego kręgu i wreszcie wykąpać się w ludzkiej krwi pod księżycem w pełni.'
+[/STORY]
+[OUT]Idź szukać elfa.
+[OUT]Zabij kilka szczurów.
+[/NODE]
+
++[NODE]14
+[STORY]
+Przyłączasz się i spalasz szałas czarownicy, ale zanim usłyszysz jej krzywy głos, wylej klątwę na was wszystkich!
+I dopiero teraz zdajesz sobie sprawę, że głos to głos wiedźmy, która przeklina cię w szczura na twoje plony.
+[/STORY]
+[OUT][Czarownica lub volh] Masz małe okno, aby przerwać klątwę i uciec od tego nowego. Działać teraz.
+[OUT][Magiczny użytkownik] Spróbuj odeprzeć tę klątwę. Wiesz już, że ta czarownica oznacza biznes.
+[OUT]Rozejrzyj się, aby sprawdzić, czy ludzie zamieniają się w szczury.
+[/NODE]
+
++[NODE]16
+[STORY]
+Rzeczywiście, wielu ludzi w tłumie wokół ciebie zaczyna piszczeć i przekształcać się w robactwo. Niestety, jeden z twoich też jest ofiarą klątwy!
+[/STORY]
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]17
+[STORY]
+Rzeczywiście, wielu ludzi w tłumie wokół ciebie zaczyna piszczeć i przekształcać się w robactwo, ale żaden z was jeszcze się nie obrócił.
+[/STORY]
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]18
+[STORY]
+Rzeczywiście, wielu ludzi w tłumie wokół ciebie zaczyna piszczeć i przekształcać się w robactwo, ale żaden z was się nie odwrócił. Jeszcze lepiej, wydaje się, że twoje własne przekleństwo szczura zareagowało na to nowe i przekształciło cię w ludzką formę!
+[/STORY]
+[OUT]Zostaw, zanim wydarzy się coś innego.
+[/NODE]
+
++[NODE]21
+[STORY]
+Odpierasz klątwę i możesz bezpiecznie uciec z tego miejsca.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Rzeczywiście, wielu ludzi w tłumie wokół ciebie zaczyna piszczeć i przekształcać się w robactwo, ale żaden z was się nie odwrócił. Jeszcze lepiej, wydaje się, że twoje własne przekleństwo szczura zareagowało na to nowe i przekształciło cię w ludzką formę!
+[/STORY]
+[OUT]Zostaw, zanim wydarzy się coś innego.
+[/NODE]
+
++[NODE]24
+[STORY]
+Wiele osób w tłumie wokół ciebie zaczyna piszczeć i przekształcać się w robactwo, ale udaje ci się osłonić przed najgorszym i cierpieć tylko z powodu złamanych duchów - na razie.
+[/STORY]
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]26
+[STORY]
+Nie radzisz sobie z tłumem i pomagasz wiedźmie, ale wykorzystała ten czas na ucieczkę. 
+Ludzie są źli, a ty masz kilka uderzeń i siniaków, kiedy cię ścigają.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Strasznie cię pobito i przepędzono.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Bah, wiesz, że to zajmie trochę mojej mocy, ale przypuszczam, że jestem winien szczurowi, a ty jesteś siostrą. Tutaj ciesz się. Nie obwiniaj mnie, jeśli cofnięcie klątwy nie wróci dokładnie do tego, czym były. Ale na pewno nie będą szczurem.„
+Podąża za twoimi instrukcjami do listu, a nawet pomaga ci w przygotowaniu eliksiru. Teraz wszystko, co musisz zrobić, to pić i nie rzucać. Masz tylko jedną szansę.
+[/STORY]
+[OUT][Tylko przeklęty szczur] Wypij.
+[OUT]Spróbuj inaczej.
+[/NODE]
+
++[NODE]31
+[STORY]
+„Bah, czarownica mówi mi, co mam robić ... W moich czasach byłeś na tyle sprytny, żeby ukryć swoje kubki! Veles niech będą przeklęci za to, że na to pozwolili. Ale targi są sprawiedliwe - tutaj.„
+Podąża za twoimi instrukcjami do listu, a nawet pomaga ci w przygotowaniu eliksiru. Teraz wszystko, co musisz zrobić, to pić i nie rzucać. Masz tylko jedną szansę.
+[/STORY]
+[OUT][Tylko przeklęty szczur] Wypij.
+[OUT]Spróbuj inaczej.
+[/NODE]
+
++[NODE]32
+[STORY]
+Obrzydliwa mikstura zamienia twój żołądek, ale także usuwa klątwę! 
+Wiedźma skorzystała z okazji, by się wymknąć, ale już nie jesteś szczurem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Obrzydliwa mikstura zamienia twój żołądek, ale także usuwa klątwę! 
+Wiedźma skorzystała z okazji, by się wymknąć, ale już nie jesteś szczurem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Obrzydliwa mikstura zamienia twój żołądek, a kiedy wyrzucasz wnętrzności, słyszysz śmiech czarownicy z daleka: 
+„Słabe małe robactwo - jak smutne. Zobacz się!„
+Znika, a ty zostajesz chory, ale też dziwnie się wzmacniasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Czarownica cię pokonuje, a ty czujesz, że jej klątwy są dla ciebie ciężkie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Ha, kto by pomyślał. Mimo to jestem ci winien. Tutaj, kolejny prezent na pożegnanie, a ja odjeżdżam. Staraj się nie zgubić tego pięknego futra robactwa, które ci podarowałem!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz czarownicę, ale czujesz, że jej przekleństwa są dla ciebie trudne.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]47
+[STORY]
+Rzeczywiście, wielu ludzi w tłumie wokół ciebie zaczyna piszczeć i przekształcać się w robactwo, ale żaden z was się nie odwrócił. Jeszcze lepiej, wydaje się, że twoje własne przekleństwo szczura zareagowało na to nowe i przekształciło cię w ludzką formę!
+[/STORY]
+[OUT]Zostaw, zanim wydarzy się coś innego.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rat curse elf spwn(32)
++[NODE]2
+[STORY]
+Znajdziesz elfa, który może cofnąć klątwę szczura. Siedzą przy drzewie i wydają się medytować.
+[/STORY]
+[OUT]Przeproś za wtargnięcie i wyjaśnij swoją sytuację.
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]3
+[STORY]
+Zwracają się do ciebie i mówią: 
+'Zakłócasz moje myśli, aby poinformować mnie o swoich przyziemnych kłopotach? Jak typowy jest twój rodzaj. Dlaczego ma znaczenie, czy twoja forma jest ludzka czy robactwo? To tylko mała różnica, nie?'
+[/STORY]
+[OUT]Powiedzmy, że szczury są bardzo squishy, a ponieważ służysz bogom, naprawdę wolałbyś być bardziej użyteczny.
+[OUT]Przyznaj, że chodzenie jako bestia nie jest takie złe. Niemniej jednak starasz się służyć, a ta forma jest ograniczona.
+[OUT][Elf] Powiedz swoim braciom, że życie bestii jest rzeczywiście szlachetne, ale w tym przypadku jest to dzieło nienaturalnej skazy i powinno zostać oczyszczone.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Hmm, tak, robisz mocny punkt, jak można się spodziewać. Obrzydza mnie, że kiedykolwiek powinienem zostać wykorzystany do takich ludowych sztuczek, ale nie mogę zaprzeczyć, że moje usta są utalentowane.- 
+Elf klęka, by dosięgnąć szczura, liże futro i zaczyna ssać ciemną plamę. Gdy to robią, ciało robactwa powoli zamienia się w ludzką formę.
+[/STORY]
+[OUT]Oczekuj wyników.
+[OUT]Oczekuj wyników.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Być może. Niemniej jednak nie jestem w żaden sposób skłonny dotykać robactwa - to jest pode mną.'
+[/STORY]
+[OUT]Spróbuj przekonać ich, że to właściwa rzecz.
+[OUT]Zaatakuj aroganckiego głupca.
+[OUT]Zapytaj, czy jest jakaś cena, którą możesz zapłacić za czyn.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]8
+[STORY]
+Znajdziesz elfa, który może cofnąć klątwę szczura. Siedzą przy drzewie i wydają się medytować. Ale nie masz przy sobie swojego szczura, więc nie ma sensu się zbliżać.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twój duch jest osłabiony, ale nie jesteś już robactwem!
+Elf wygląda blado i mdląco. Odwracają się od ciebie, zawstydzeni, i wiesz, że czas odejść.
+[/STORY]
+[OUT]Łuk w podziękowaniu i odejdź.
+[OUT][Ork] Śmiej się z elfa, kiedy wychodzisz.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Hmm, tak, robisz mocny punkt, jak można się spodziewać. Obrzydza mnie, że kiedykolwiek powinienem zostać wykorzystany do takich ludowych sztuczek, ale nie mogę zaprzeczyć, że moje usta są utalentowane.- 
+Elf klęka, by dosięgnąć szczura, liże futro i zaczyna ssać ciemną plamę. Gdy to robią, ciało robactwa powoli zamienia się w ludzką formę.
+[/STORY]
+[OUT]Oczekuj wyników.
+[OUT]Oczekuj wyników.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Nie interesuje mnie zysk materialny. Przypuszczam, że potrzebuję sługi, więc możesz zostawić mi dziecko, a wtedy ssę twojego szczura.'
+[/STORY]
+[OUT]Akceptuj.
+[OUT]Spróbuj przekonać ich, że to właściwa rzecz.
+[OUT]Zaatakuj aroganckiego głupca.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Cóż, kontynuujmy to upokorzenie.- 
+Elf klęka, by dosięgnąć szczura, liże futro i zaczyna ssać ciemną plamę. Gdy to robią, ciało robactwa powoli zamienia się w ludzką formę.
+[/STORY]
+[OUT]Oczekuj wyników.
+[OUT]Oczekuj wyników.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Nie”.
+[/STORY]
+[OUT]Zaatakuj aroganckiego głupca.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pokonujesz elfa i leżą u twoich stóp, krwawiąc.
+[/STORY]
+[OUT]Żądaj, aby cofnęli klątwę lub zginęli!
+[OUT]Zabij ich.
+[/NODE]
+
++[NODE]25
+[STORY]
+Elf kiwa głową i zaczyna powoli lizać, a następnie ssać szczura. Robactwo zaczyna się obracać i obracać.
+[/STORY]
+[OUT]Czekaj na wynik.
+[/NODE]
+
++[NODE]27
+[STORY]
+Ciało szczura zmienia się, ale nie w ich ludzką formę. Zamiast tego stają się wężem. Elf uśmiecha się z satysfakcją, gdy umierają.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Szczur zamienia się w ludzką formę, ale elf ginie z wysiłku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Jesteś pokonany i zmuszony do ucieczki, nigdy więcej nie znajdziesz elfa. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rat Curse Rats spwn(33)
++[NODE]2
+[STORY]
+Wyśledzisz gniazdo szczurów, które wiedźma powiedziała, że musisz zabić, aby złamać klątwę. Gdy się zbliżasz, słyszysz cichy pisk: 
+'O nie, widzieliśmy, jak z nią rozmawiasz. Przyszedłeś nas zabić? Proszę nie - jesteśmy rodziną, kiedyś człowiekiem takim jak ty, a ona nas przeklęła!'
+[/STORY]
+[OUT]I tak ich zabij. To ty lub oni.
+[OUT]Zostaw ich i spróbuj ponownie złapać tę czarownicę!
+[/NODE]
+
++[NODE]3
+[STORY]
+Wróć ze swoim przeklętym szczurem i przynajmniej jednym przyjacielem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wracasz do miejsca, gdzie była chata, ale jej nie ma.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Zabijasz szczury i zakrywasz swoje futro robactwa we krwi. Teraz musisz iść do kamiennego kręgu, aby dać więcej krwi w ofierze.
+[/STORY]
+[OUT]Podejdź do kamieni. Następnie weź krew od przyjaciół, aby ci pomóc.
+[OUT]Idź znaleźć kamienie. Następnie weź krew od przyjaciół, aby ci pomóc.
+[/NODE]
+
++[NODE]10
+[STORY]
+Ofiara krwi działa, a twoja forma robactwa wraca do człowieka. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Ofiara krwi działa, a twoja forma robactwa wraca do człowieka. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Ofiara krwi działa, a twoja forma robactwa wraca do człowieka. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Nie wykonałeś instrukcji. Miałeś iść do tyłu do kamiennego kręgu. Zamiast podnieść klątwę, pogorszyłeś to.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Szczury cię biją i wysysają twoją przeklętą krew, aby ich własna mroczna magia mogła zostać podniesiona. 
+Pozostawiają ci oddech, ale ledwo. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Volh Return(34)
++[NODE]2
+[STORY]
+natkniesz się na ruiny małej osady ludzkiej osłoniętej w ciemnym gaju. 
+Nie ma resztek ciał, nawet śladów walki. Zamiast tego wydaje się, że ludzie po prostu opuścili dom. Ich materialne rzeczy wykazują jednak oznaki ekstremalnego upału i popiołu - są zespawane w nienaturalny sposób. 
+W pobliżu widać migoczące ładne światła.
+[/STORY]
+[OUT]Podejdźcie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Światła są piękne, kuszące. Śpiewają i dzwonią do ciebie ze swoim spokojem i ciepłem. 
+Masz zamiar zrobić kolejny krok naprzód, gdy człowiek wejdzie w pole widzenia i zawoła: 
+'Przestań, proszę. Są to svatelko. Wydają się mili, ale starają się cię zabrać i nie możemy ich już karmić!'
+[/STORY]
+[OUT]Zapytaj o svatelko.
+[OUT]Zaatakuj svatelko, aby pokazać człowiekowi, że wiesz, czym one są! [Pomiń historię]
+[/NODE]
+
++[NODE]4
+[STORY]
+„Są to najniższe formy myśliwych, siła pochodząca spod ziemi. Nie wiem, co to za siła, tylko że kiedy przyszli, nasze wygnanie zostało zrobione i wróciliśmy, by pomóc bogom.
+Svatelko i ich los zaatakują cię duchem, więc musisz planować z wyprzedzeniem, aby zaatakować ich jako pierwsi lub przygotować się na walkę duchową, kiedy będą cię atakować jako pierwsi.'
+Svatelko posuwa się do ciebie.
+[/STORY]
+[OUT]Obroń się duchem!
+[/NODE]
+
++[NODE]6
+[STORY]
+Svatelko rozpuszcza się, a mężczyzna kiwa głową: 
+„Dobrze, więc jesteś wybrany spośród bogów, a zatem my, volh, przyrzekamy naszą służbę dla ciebie.'
+[/STORY]
+[OUT]Kim są volh?
+[OUT][Witch] The volh? Czy ma na myśli męskich czarownic, wygnanych przed wiekami przez samego Velesa, za nadużywanie swojej władzy i nieuchronnie popadanie w ciemność z powodu ich niekontrolowanego temperamentu, uporu i praktyk pomiaru kutasów?
+[OUT]Kiwnij głową i powiedz, że już wiesz. Zapytaj, czy to oznacza, że teraz do ciebie dołączy.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Jesteśmy tym, co możesz uważać za czarownice, tylko my jesteśmy mężczyznami. Widzicie, po tym, jak Veles obdarował magią pierwszą viedmę i jej potomków, obdarował też sześciu mężczyzn magią. Jesteśmy potomkami jednego z nich.'
+[/STORY]
+[OUT]Racja. Koshei był jednym z sześciu, tak?
+[OUT]Zapytaj, dlaczego wcześniej o nich nie słyszałeś.
+[/NODE]
+
++[NODE]8
+[STORY]
+„Koshei, tak - nasz wujek, można powiedzieć. Kostek był naszym ojcem. Nie interesował się walkami o władzę ani wielkimi planami, próbował żyć prostym życiem. Miał żonę i bardzo chcieli dzieci, ale prawo zabraniało tego. Sześciu nie należało przekazywać swojej magii. Ale szóstka była dobra w łamaniu praw.'
+[/STORY]
+[OUT]Więc kto je wygnał?
+[/NODE]
+
++[NODE]9
+[STORY]
+„Nie powinniśmy być. Kostek był naszym ojcem. Nie interesował się walkami o władzę ani wielkimi planami, próbował żyć prostym życiem. Miał żonę i bardzo chcieli dzieci, ale prawo zabraniało tego. Tylko córki Viedmy miały być obdarowane.  Sześciu mężczyzn nie miało przekazywać swojej magii. Ale szóstka była dobra w łamaniu praw.'
+[/STORY]
+[OUT]Więc kto je wygnał?
+[/NODE]
+
++[NODE]10
+[STORY]
+„Czarownice były tymi, które narzekały, zercowie byli tymi, którzy rozmawiali z bogami, i to dzięki boskiemu dekretowi zostaliśmy wyjęci spod prawa. Do dziś nie znajdziesz wielu wolh, a do niedawna nikt nie mówił otwarcie o ich handlu, ani nie uczył chłopców, chyba że byliśmy tego pewni.'
+[/STORY]
+[OUT]Zapytaj, co się zmieniło.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Chociaż Veles już dawno zniknął, słyszeliśmy jego szept w naszych snach. Wiemy, że wielu nie może tego zaakceptować, ale zostaliśmy wezwani do służby, a my to zrobimy.
+Od teraz, jeśli chłopiec pokaże talent, przyjdziemy go nauczyć. Staną się gusla, jeśli ich magia będzie słaba, lub volh, jeśli będzie silna.'
+[/STORY]
+[OUT]Czy więc zostanie z tobą?
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Nie. Jesteśmy nieliczni i muszę uczyć wielu chłopców i prowadzić tych, którzy są już moimi uczniami. Przyjdę w razie potrzeby. A teraz strzeżcie się zapalających światło. Pamiętaj, że kiedy cię zaatakują, będą żądlić ducha, więc bądź czujny i spróbuj zaatakować pierwszy, jeśli twoja mistyczna moc jest niska.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Jako córka viedma, oczywiście widziałbyś nas jako takich. Jakby twój gatunek nie popełnił błędu w ciemności i nie mieszał się z magią krwi i przekleństwami, co?'
+[/STORY]
+[OUT]Powiedz mu, że to prawda, ale mówi się, że męski skaz jest jeszcze ciemniejszy!
+[/NODE]
+
++[NODE]14
+[STORY]
+„A kiedy tak się stanie, mamy z nimi do czynienia, tak jak sobie radzisz!
+Żyłki mężczyzny stają się czarne na ułamek sekundy, zanim dodaje, spokojnym głosem: 
+'Nie kłóćmy się. Czasy są ciemne. Słyszeliśmy szepty od Velesa, który nakłaniał nas do powrotu i pomocy, a my to zrobimy. Gdy to światło zostanie pokonane, możemy powrócić do naszej sprzeczki, droga siostro.'
+[/STORY]
+[OUT]Nod i spytaj o ten głos Velesa, który usłyszał.
+[/NODE]
+
++[NODE]16
+[STORY]
+Svatelko rozpuszcza się, a mężczyzna kiwa głową: 
+'Hmm, wydaje się, że brakuje ci jakiejkolwiek przyzwoitej mocy mistycznej. Musisz trenować, bo przyjdą mędrcy, a ich ulubionym atakiem jest duch. Mimo to jesteście wybrani spośród bogów i dlatego my, wolh, przyrzekamy wam swoją służbę.'
+[/STORY]
+[OUT]Kim są volh?
+[OUT][Witch] The volh? Czy ma na myśli męskich czarownic, wygnanych przed wiekami przez samego Velesa, za nadużywanie swojej władzy i nieuchronnie popadanie w ciemność z powodu ich niekontrolowanego temperamentu, uporu i praktyk pomiaru kutasów?
+[OUT]Kiwnij głową i powiedz, że już wiesz. Zapytaj, czy to oznacza, że teraz do ciebie dołączy.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Dobrze, dobrze. Więc wiesz, że światłowcy zaatakują cię duchem, gdy podejmą wyzwanie. I wiecie, że my, volh, wróciliśmy do ziemi i od tej pory nauczymy ludzkich chłopców chodzić ścieżką czarów.
+Muszę już iść. Szczęście bądź z tobą, wybrani.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Hmm, to było imponujące, mówiąc co najmniej ... Mimo to powiedziałeś, że wiesz ... Więc wiesz, że światłowcy zaatakują cię duchem, gdy podejmą wyzwanie. I wiecie, że my, volh, wróciliśmy do ziemi i od tej pory nauczymy ludzkich chłopców chodzić ścieżką czarów.
+Muszę już iść. Szczęście bądź z tobą, wybrani.„
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

@@ -1,0 +1,331 @@
+-- [EVENT] --VillageSmall(0)
++[NODE]2
+[STORY]
+Przychodzisz do osady żądanej przez światło. Jego lud wędruje ulicami w zgodzie, pracując, tworząc, orając pola, wszystko w ciszy, razem. 
+
+Kiedy cię zauważą, zbliżają się: 
+
+'Przyszedłeś do nas dołączyć?'
+[/STORY]
+[OUT]Nie, powiedz im, że przyszedłeś porozmawiać i być może nawiązać przyjaźń.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jesteś jednym z nas, albo nie jesteś. Chodź . . .'
+
+Lekkie kosmyki zaczynają krążyć wokół ciebie, ich zimny upał na twojej skórze i płonące sople dotykają twoich wnętrzności w próbie połączenia.
+[/STORY]
+[OUT]Odrzuć i odejdź szybko.
+[OUT][Zamieszanie lub Światło] To jest obrzydliwość, która sprzeciwia się zarówno zamętowi (próbując go oswoić), jak i światłu (nadużywając jego mocy). Atak na głowę!
+[OUT][Magia lub natura] Ta siła wydaje się nieistotna. Wzywaj swojej domeny i staw czoła tym diabłom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaż im siłę twojego umysłu, wolę, która nie będzie wygięta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczysz strzelców i wioskę płonie, jak gdyby światło nie pozwoliło ci na pełne zwycięstwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki. Jeden lub więcej twoich ludzi może wpaść pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twój opór budzi coś w przyjętych ludziach i wypędzają światło z ich dusz! Niestety, ich ciała są zbyt słabe i wypalone, aby przetrwać bez umysłu ula i padły martwe, ale wolne. 
+
+Wieś sama płonie, jakby światło nie wytrzymało twojego zwycięstwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszący światło, chodź, zobacz nas. Pewnego dnia dołączysz. Na razie niektórzy z nas mogą chcieć podróżować z tobą.'
+[/STORY]
+[OUT]Zobacz wioskę światła.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wieś wydaje się zamrożona w czasie. Ludzie poruszają się tak wolno, że ledwo to widać. Jednak wszyscy wydają się naprawdę szczęśliwi. 
+
+
+[/STORY]
+[OUT]Niech twój duch zostanie uzdrowiony.
+[OUT]Wylecz swoje zdrowie psychiczne.
+[OUT]Usuń przekleństwa. 
+[OUT]Rekrutuj malarzy światła.
+[OUT]Na razie nic do zrobienia, odejdź.
+[/NODE]
+
++[NODE]32
+[STORY]
+Łowcy światła zwracają się do ciebie w gniewie, ale nagle po prostu zapadają się. Zniszczenie bestii świetlnej działa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyLight(1)
++[NODE]2
+[STORY]
+Podchodzi do Was grupa osobników pochodząca z ludu nazywanego świetlistą plagą. 
+
+Oni nie mówią. Starają się tylko wciągnąć was za pomocą umysłu do swej wspólnoty światła.
+[/STORY]
+[OUT]Porozmawiajcie z nimi.
+[OUT]Walka!
+[OUT]Wasz duch niech stanie im na przeciw!
+[OUT]Usuńcie się.
+[/NODE]
+
++[NODE]17
+[STORY]
+Niszczycie nosicieli śwatłości, a ich ciała zamieniają się w popiół. 
+[/STORY]
+[OUT]Weźcie ich rzeczy i odejdźcie
+[/NODE]
+
++[NODE]19
+[STORY]
+Wasz duch jest zbyt słaby. Nosiciele światła atakują Was, a Wy ledwo umykacie - zaraz, chyba nie wszyscy. . .
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]27
+[STORY]
+„Wy dajecie więcej światła. Przyłączycie się, gdy będziecie gotowi ...'
+
+Odchodzą.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Zbliża się grupa nosicieli jasności, ale nagle po prostu zapadają się. Zadziałało zniszczenie bestii świetlnych.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --VillageLarge(2)
++[NODE]2
+[STORY]
+Przychodzisz do osady żądanej przez światło. Jego lud wędruje ulicami w zgodzie, pracując, tworząc, orając pola, wszystko w ciszy, razem. 
+
+Kiedy cię zauważą, zbliżają się: 
+
+'Przyszedłeś do nas dołączyć?'
+[/STORY]
+[OUT]Nie, powiedz im, że przyszedłeś porozmawiać i być może nawiązać przyjaźń.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jesteś jednym z nas, albo nie jesteś. Chodź . . .'
+
+Lekkie kosmyki zaczynają krążyć wokół ciebie, ich zimny upał na twojej skórze i płonące sople dotykają twoich wnętrzności w próbie połączenia.
+[/STORY]
+[OUT]Odrzuć i odejdź szybko.
+[OUT][Zamieszanie lub Światło] To jest obrzydliwość, która sprzeciwia się zarówno zamętowi (próbując go oswoić), jak i światłu (nadużywając jego mocy). Atak na głowę!
+[OUT][Magia lub natura] Ta siła wydaje się nieistotna. Wzywaj swojej domeny i staw czoła tym diabłom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaż im siłę twojego umysłu, wolę, która nie będzie wygięta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczysz strzelców i wioskę płonie, jak gdyby światło nie pozwoliło ci na pełne zwycięstwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki. Jeden lub więcej twoich ludzi może wpaść pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twój opór budzi coś w przyjętych ludziach i wypędzają światło z ich dusz! Niestety, ich ciała są zbyt słabe i wypalone, aby przetrwać bez umysłu ula i padły martwe, ale wolne. 
+
+Wieś sama płonie, jakby światło nie wytrzymało twojego zwycięstwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszący światło, chodź, zobacz nas. Pewnego dnia dołączysz. Na razie niektórzy z nas mogą chcieć podróżować z tobą.'
+[/STORY]
+[OUT]Zobacz wioskę światła.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wieś wydaje się zamrożona w czasie. Ludzie poruszają się tak wolno, że ledwo to widać. Jednak wszyscy wydają się naprawdę szczęśliwi. 
+
+
+[/STORY]
+[OUT]Niech twój duch zostanie uzdrowiony.
+[OUT]Wylecz swoje zdrowie psychiczne.
+[OUT]Usuń przekleństwa. 
+[OUT]Rekrutuj malarzy światła.
+[OUT]Na razie nic do zrobienia, odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Village Very Small(3)
++[NODE]2
+[STORY]
+Przychodzisz do osady żądanej przez światło. Jego lud wędruje ulicami w zgodzie, pracując, tworząc, orając pola, wszystko w ciszy, razem. 
+
+Kiedy cię zauważą, zbliżają się: 
+
+'Przyszedłeś do nas dołączyć?'
+[/STORY]
+[OUT]Nie, powiedz im, że przyszedłeś porozmawiać i być może nawiązać przyjaźń.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jesteś jednym z nas, albo nie jesteś. Chodź . . .'
+
+Lekkie kosmyki zaczynają krążyć wokół ciebie, ich zimny upał na twojej skórze i płonące sople dotykają twoich wnętrzności w próbie połączenia.
+[/STORY]
+[OUT]Odrzuć i odejdź szybko.
+[OUT][Zamieszanie lub Światło] To jest obrzydliwość, która sprzeciwia się zarówno zamętowi (próbując go oswoić), jak i światłu (nadużywając jego mocy). Atak na głowę!
+[OUT][Magia lub natura] Ta siła wydaje się nieistotna. Wzywaj swojej domeny i staw czoła tym diabłom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaż im siłę twojego umysłu, wolę, która nie będzie wygięta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczysz strzelców i wioskę płonie, jak gdyby światło nie pozwoliło ci na pełne zwycięstwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki. Jeden lub więcej twoich ludzi może wpaść pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twój opór budzi coś w przyjętych ludziach i wypędzają światło z ich dusz! Niestety, ich ciała są zbyt słabe i wypalone, aby przetrwać bez umysłu ula i padły martwe, ale wolne. 
+
+Wieś sama płonie, jakby światło nie wytrzymało twojego zwycięstwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszący światło, chodź, zobacz nas. Pewnego dnia dołączysz. Na razie niektórzy z nas mogą chcieć podróżować z tobą.'
+[/STORY]
+[OUT]Zobacz wioskę światła.
+[/NODE]
+
++[NODE]19
+[STORY]
+Wieś wydaje się zamrożona w czasie. Ludzie poruszają się tak wolno, że ledwo to widać. Jednak wszyscy wydają się naprawdę szczęśliwi. 
+
+
+[/STORY]
+[OUT]Niech twój duch zostanie uzdrowiony.
+[OUT]Wylecz swoje zdrowie psychiczne.
+[OUT]Usuń przekleństwa. 
+[OUT]Rekrutuj malarzy światła.
+[OUT]Na razie nic do zrobienia, odejdź.
+[/NODE]
+
++[NODE]32
+[STORY]
+Łowcy światła zwracają się do ciebie w gniewie, ale nagle po prostu zapadają się. Zniszczenie bestii świetlnej działa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest(4)
++[NODE]2
+[STORY]
+Przychodzisz do miejsca, do którego dochodzi światło. Są tu stworzenia i ludzie, wszyscy stoją razem, wpatrują się w przestrzeń. 
+
+Kiedy cię zauważą, podchodzą: 
+
+'Przyszedłeś do nas dołączyć?'
+[/STORY]
+[OUT]Nie, powiedz im, że przyszedłeś porozmawiać i być może nawiązać przyjaźń.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Jesteś jednym z nas, albo nie jesteś. Chodź . . .'
+
+Lekkie kosmyki zaczynają krążyć wokół ciebie, ich zimny upał na twojej skórze i płonące sople dotykają twoich wnętrzności w próbie połączenia.
+[/STORY]
+[OUT]Odrzuć i odejdź szybko.
+[OUT][Zamieszanie lub Światło] To jest obrzydliwość, która sprzeciwia się zarówno zamętowi (próbując go oswoić), jak i światłu (nadużywając jego mocy). Atak na głowę!
+[OUT][Magia lub natura] Ta siła wydaje się nieistotna. Wzywaj swojej domeny i staw czoła tym diabłom swoim duchem!
+[OUT][Harmonia lub Intelekt] Pokaż im siłę twojego umysłu, wolę, która nie będzie wygięta. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Niszczycie świeczniki i gniazdo płonie, jakby światło nie pozwoliło wam na pełne zwycięstwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki. Jeden lub więcej twoich ludzi może wpaść pod ich panowanie. . .
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Twój opór budzi coś w przyjętych ludziach i wypędzają światło z ich dusz! Niestety, ich ciała są zbyt słabe i wypalone, aby przetrwać bez umysłu ula i padły martwe, ale wolne. 
+
+Gniazdo samo płonie, jakby światło nie wytrzymało twojego zwycięstwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Przynoszący światło, chodź, zobacz nas. Pewnego dnia dołączysz. Na razie dziękujemy za pomoc.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]32
+[STORY]
+Zbliża się grupa nosicieli jasności, ale nagle po prostu zapadają się. Zadziałało zniszczenie bestii świetlnych.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

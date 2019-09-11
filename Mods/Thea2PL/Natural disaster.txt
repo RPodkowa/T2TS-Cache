@@ -1,0 +1,1251 @@
+-- [EVENT] --Natural disaster1(0)
++[NODE]2
+[STORY]
+Niebo ciemnieje, ptaki lecą nisko, a wokół ciebie jest powietrze oczekiwania.
+[/STORY]
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Avalanche(1)
++[NODE]2
+[STORY]
+Głośne łomotanie, a potem drżenie, łapie cię w górach. Prawdopodobnie nastąpi lawina.
+[/STORY]
+[OUT][Krasnolud] Góry są twoją domeną. Szukaj osłony.
+[OUT][Krasnolud] Góry są twoją domeną. Szukaj osłony.
+[OUT][Vily lub viatroviec] Jak wiatr jest twoim przyjacielem, lataj bezpiecznie z krewnymi.
+[OUT][Vily lub viatroviec] Jak wiatr jest twoim przyjacielem, lataj bezpiecznie z krewnymi.
+[OUT]Spróbuj go wyprzedzić.
+[OUT]Spróbuj go wyprzedzić.
+[OUT]Spróbuj go wyprzedzić.
+[OUT]Poszukaj bezpiecznego miejsca do ukrycia się.
+[OUT]Poszukaj bezpiecznego miejsca do ukrycia się.
+[OUT][Ork] Góry są twoją domeną. Szukaj osłony.
+[OUT][Ork] Góry są twoją domeną. Szukaj osłony.
+[/NODE]
+
++[NODE]3
+[STORY]
+Twoim fachowym okiem znajdziesz idealne miejsce do przeczekania nadchodzącej lawiny. 
+
+Potem możesz zebrać kilka dobrych minerałów z gruzu. 
+
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+Lecisz w bezpieczne miejsce, zanim lawina cię dopadnie, a gdy opadnie, dostrzeżesz grupę martwych podróżników, którzy nie mieli tyle szczęścia. 
+
+[/STORY]
+[OUT]Daj im szybki pogrzeb i zbierz swoje rzeczy.
+[/NODE]
+
++[NODE]5
+[STORY]
+Dzięki swojemu doświadczonemu oku i intuicji znajdziesz jaskinię, która przeczeka nadchodzącą lawinę. 
+
+Niestety, wejście nie było tak silne, jak sądziłeś, i zapada się pod ciężarem lawiny. Teraz musisz wykopać swoje wyjście.
+[/STORY]
+[OUT]Wykop.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wykopujesz drogę, a nawet odnajdziesz po drodze dobre minerały.
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]13
+[STORY]
+W końcu wykopujesz się, ale to męcząca próba. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Skórą twoich zębów udaje ci się zrobić bezpieczną ucieczkę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Lawina uderza mocno i szybko, grożąc połknięciem cię w całości. Udaje ci się znaleźć schronienie w ostatniej chwili, ale teraz musisz wykopać drogę spod gruzów.
+[/STORY]
+[OUT]Wykop.
+[/NODE]
+
++[NODE]28
+[STORY]
+Lawina uderza mocno i szybko, grożąc połknięciem cię w całości. 
+
+Udaje ci się uciec, ale nie bez utraty cięższego sprzętu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Znajdujesz jaskinię, aby przeczekać nadchodzącą lawinę. 
+
+Niestety, wejście nie było tak silne, jak sądziłeś, i zapada się pod ciężarem lawiny. Teraz musisz wykopać swoje wyjście.
+[/STORY]
+[OUT]Wykop.
+[/NODE]
+
++[NODE]34
+[STORY]
+Znajdziesz półkę, na której przeczekasz lawinę. Niestety, droga powrotna została uszkodzona, a znalezienie bezpiecznej ścieżki będzie bardzo trudne.
+[/STORY]
+[OUT]Zaplanuj bezpieczną trasę. 
+[/NODE]
+
++[NODE]37
+[STORY]
+Dokładnie planujesz każdy krok i robisz go bezpiecznym. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Starasz się starannie planować każdy krok i sprawić, by był bezpieczny. Ale niektóre z twoich kroków są źle wybrane, a część twojego sprzętu spada na górę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]49
+[STORY]
+Z twoim czystym instynktem znajdziesz idealne miejsce, aby przeczekać nadchodzącą lawinę. 
+
+Potem możesz zebrać kilka dobrych minerałów z gruzu. 
+
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]50
+[STORY]
+Próbujesz odlecieć przed uderzeniem lawiny, ale jesteś porywany przez podmuch wiatru, który następuje. 
+
+Uciekasz, ale nie bez zadrapań i siniaków. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Wykopujesz drogę, a nawet odnajdziesz po drodze dobre minerały.
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Thunder storm(2)
++[NODE]2
+[STORY]
+Nagła burza zaskakuje cię. Pioruny przecięte przez niebo i podmuchy wiatru zmiatają cię z nóg. 
+
+[/STORY]
+[OUT][Zamieszanie] W imię szalejącej potęgi zamieszania weź tę burzę i poproś o błogosławieństwo gromu!
+[OUT][Zamieszanie] W imię szalejącej potęgi zamieszania weź tę burzę i poproś o błogosławieństwo gromu!
+[OUT][Natura lub intelekt] Szanuj gniew natury i szukaj schronienia tak szybko, jak to możliwe. 
+[OUT]Ukryj się.
+[OUT]Spróbuj prześcignąć burzę.
+[OUT]Spróbuj prześcignąć burzę.
+[/NODE]
+
++[NODE]4
+[STORY]
+Dostrzegasz jaskinię, która cię ochroni, ale najpierw musisz do niej dotrzeć!
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]5
+[STORY]
+Biegasz jak wiatr i czujesz, że bogowie patrzą na ciebie życzliwie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Biegasz jak wiatr i czujesz, że bogowie patrzą na ciebie życzliwie. Jaskinia zapewnia ci bezpieczeństwo, a kiedy wychodzisz, odkrywasz kamień i szczątki mniej szczęśliwej duszy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Udajesz się do jaskini, ale zimny wiatr i przemaczający deszcz przenikają do tej zbyt płytkiej pokrywy. W końcu czujesz się źle. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Uderzenie pioruna w twoje stopy i zapach własnej spalonej skóry i włosów. A jednak czujesz przypływ mocy biegnący przez ciebie!
+[/STORY]
+[OUT]Chwal bogów i odejdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+Uderzenie pioruna w twoje stopy i wąchasz własną spaloną skórę i włosy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Gdy twoja domena prowadzi cię, wyostrz swoje umysły i szybko znajdź dobre schronienie, wiedząc, że takie burze mogą być zabójcze dla niemądrych. 
+
+[/STORY]
+[OUT]Chwal bogów i odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Flood(3)
++[NODE]2
+[STORY]
+Gdy obozujesz nad wodą, błyskawiczna powódź rośnie niespodziewanie!
+[/STORY]
+[OUT][Demon wody] Wyjedź z powodzi.
+[OUT][Demon wody] Wyjedź z powodzi.
+[OUT]Spróbuj znaleźć wyższy grunt. 
+[OUT]Spróbuj znaleźć wyższy grunt. 
+[OUT]Spróbuj znaleźć wyższy grunt. 
+[/NODE]
+
++[NODE]3
+[STORY]
+Jeździsz na gwałtownych falach, jakbyś był do tego stworzony. 
+
+Następnie znajdziesz zasoby, które zostały wyrzucone na brzeg.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Jeździsz na gwałtownych falach, jakbyś był do tego stworzony, ale natura pani jest dziś wściekła i trudno ci się trzymać.
+[/STORY]
+[OUT]Walcz z falami.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wody nie zostaną oswojone, a ty wiesz wystarczająco dobrze, aby nie próbować szczęścia dalej. 
+
+Znajdziesz schronienie, ale nie przed falami, które uderzą cię o surową głębię i twardy brzeg. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Znajdziesz stary, solidny dąb i wejdź na niego. 
+
+Niektóre użyteczne zasoby również umywają się na brzegu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Biegniesz w kierunku wzgórza, które cię ochroni, ale musisz upuścić kilka rzeczy, aby uciec przed powodzią. 
+
+Niektóre szczątki obmywają brzeg. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jesteś wystarczająco blisko wzgórza, aby dotrzeć na czas, chociaż jesteś przemoczony i zmęczony i prawdopodobnie złapiesz zimno. 
+
+Później niektóre szczątki zmywają się na brzegu. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozostajesz silny, a wody ustępują ci, zapewniając ci bezpieczeństwo i ożywienie. 
+
+Następnie znajdziesz zasoby, które zostały wyrzucone na brzeg.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Blizzard(4)
++[NODE]2
+[STORY]
+Nagła zamieć ogarnia cię w lodowych szponach!
+[/STORY]
+[OUT][Lodowy demon] Absorbuj lodowaty śnieg, aby nie mógł zrobić nic złego. 
+[OUT][Lodowy demon] Absorbuj lodowaty śnieg, aby nie mógł zrobić nic złego. 
+[OUT]Spróbuj go przepchnąć.
+[OUT]Wykorzystaj część zapasów drewna, aby szybko wzmocnić swoje schronienie.
+[OUT][Dziad mroz] Powiedz teraz, że zamieć ustała. 
+[/NODE]
+
++[NODE]3
+[STORY]
+Obejmujesz zamieć i wchłaniasz śnieg, który cię wzmacnia. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Obejmujesz śnieżycę i wchłaniasz śnieg, ale zimne ciosy są głębokie i może ci być trudno wytrzymać nacisk. 
+[/STORY]
+[OUT]Stań stabilnie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Pomimo niespodziewanej siły zamieci, wytrwacie i chronicie swoje otoczenie. 
+
+Odkrywasz ciało mniej szczęśliwej duszy, by ją splądrować.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+zamieć okazuje się zbyt silna. Dostajesz paskudnego odmrożenia i prawdopodobnie zachorujesz z zimna. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Wzmacniasz swój obóz drewnem i palisz ogień, aby cię ogrzać. 
+
+Zamieć odkryła również niewielką ilość minerałów. 
+
+[/STORY]
+[OUT]Zbierz minerały i wyjdź.
+[/NODE]
+
++[NODE]13
+[STORY]
+Zasilasz przez śnieg i lód i robisz to bezpiecznie. 
+
+Odkrywasz ciało mniej szczęśliwej duszy, by splądrować. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+zamieć jest posłuszna i odchodzi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+zamieć okazuje się zbyt silna. Dostajesz paskudnych odmrożeń i prawdopodobnie zachorujesz z zimna, ale na szczęście masz wystarczająco dużo ziół, aby zmniejszyć rozprzestrzenianie się i siłę choroby. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dirtstorm(5)
++[NODE]2
+[STORY]
+Nagły podmuch wiatru zapowiada nadejście burzy. 
+[/STORY]
+[OUT]Przepchnij się.
+[OUT]Spróbuj znaleźć schronienie i rozbij obóz, aby ukryć się przed burzą.
+[OUT][Scavengers] Twoi ludzie wędrują po równinach w poszukiwaniu następnej okazji. Szybko znajdź drogę do bezpieczeństwa.
+[OUT][Scavengers] Twoi ludzie wędrują po równinach w poszukiwaniu następnej okazji. Szybko znajdź drogę do bezpieczeństwa.
+[OUT][Ork] Twoi ludzie żyli na równinach przez dziesięciolecia, zanim osiedlili się w domenach wulkanicznych. Szukaj osłony tak szybko, jak to możliwe.
+[OUT][Ork] Twoi ludzie żyli na równinach przez dziesięciolecia, zanim osiedlili się w domenach wulkanicznych. Szukaj osłony tak szybko, jak to możliwe.
+[/NODE]
+
++[NODE]3
+[STORY]
+Szybko wyszukasz zagłębienie, w którym chcesz się położyć i poczekaj, aż brud się wydostanie. 
+
+Wygląda na to, że miejsce, na które się natknąłeś, jest cmentarzem bestii, więc możesz też znaleźć tutaj dobre kości. 
+[/STORY]
+[OUT]Zbierz kości i wyjdź.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wykopujesz się i odkrywasz więcej niż brud blokujący twoją ucieczkę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Tunel jest ciemny i wąski. Brud wnika jak woda, a ty kaszlesz i dławisz się. 
+
+W końcu wyjdziesz na zewnątrz, ale próba jest wyczerpująca.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Brud dostaje się wszędzie. Dławisz się i walczysz, ale wytrwasz i wyjdziesz z tego silniejszy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Znajdujesz dobre miejsce i tworzysz silny obóz, który wytrzymuje burzę piaskową. 
+
+Odkrywasz również, że wiatr rozwiał niektóre resztki, które możesz zdobyć. 
+[/STORY]
+[OUT]Zbierz rzeczy i wyjdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+Brud dostaje się wszędzie. Dławisz się i walczysz, a kiedy w końcu wychodzisz w bezpieczne miejsce, zdajesz sobie sprawę, że straciłeś kilka toreb podczas burzy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Znajdujesz schronienie w niektórych starych tunelach odkrytych w Shattering, ale burza jest tak ciężka, że musisz wykopać drogę powrotną.
+[/STORY]
+[OUT]Kopcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Znajdujesz schronienie w niektórych starych tunelach odkrytych w Shattering, ale burza jest tak ciężka, że musisz wykopać drogę powrotną.
+[/STORY]
+[OUT]Kopcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Szybko wyszukasz zagłębienie, w którym chcesz się położyć i poczekaj, aż brud się wydostanie. 
+
+Wygląda na to, że miejsce, na które się natknąłeś, jest cmentarzem bestii, więc możesz też znaleźć tutaj dobre kości. 
+[/STORY]
+[OUT]Zbierz kości i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Fire(6)
++[NODE]2
+[STORY]
+Czujesz zapach dymu i czujesz falę upałów idącą w twoją stronę. To ogień!
+[/STORY]
+[OUT][Natura lub harmonia] Wzywaj harmonii i natury, aby poprosić o deszcz, aby uspokoić ten pożar, zanim zginie życie. 
+[OUT][Demon lasu] Dowodz lasami, aby pomóc ci walczyć z ogniem. 
+[OUT][Demon lasu] Dowodz lasami, aby pomóc ci walczyć z ogniem. 
+[OUT][Elf] Zapytaj las, by pomógł ci w walce z tym ogniem.
+[OUT]Ucieczka!
+
+[OUT]Ucieczka!
+
+[OUT]Spróbuj ugasić ogień wodą z pobliskiego stawu i otaczającego go piasku. 
+[/NODE]
+
++[NODE]3
+[STORY]
+Niebo ciemnieje, chmury gromadzą się, a kojący deszcz spada na szalejący ogień. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Las budzi się i odsuwa od ścieżki płomienia, więc płomień stopniowo wygasa. 
+
+Na spalonych obszarach odkrywasz szczątki niektórych mniej szczęśliwych dusz. 
+[/STORY]
+[OUT]Daj im pochówek i zbierz ich dobytek.
+[/NODE]
+
++[NODE]5
+[STORY]
+Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten szalejący pożar. 
+
+[/STORY]
+[OUT]Wyłącz ogień.
+[/NODE]
+
++[NODE]8
+[STORY]
+Las jest zbawiony i czujesz, że jego wdzięczność spada na ciebie. Możesz teraz zebrać trochę drewna.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Pomimo twoich najlepszych wysiłków, płomień ogarnia las, a ty jesteś zmuszony do ucieczki, zanim również cię zabije. 
+
+Część twojego sprzętu jest spalona w płomieniach.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Uciekasz, a las płonie za tobą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Uciekasz na czas. Las płonie, aw popiołach znajdują się szczątki mniej szczęśliwych dusz.
+[/STORY]
+[OUT]Zbierz rzeczy i wyjdź.
+[/NODE]
+
++[NODE]26
+[STORY]
+Ledwo unikasz płonącego ognia, ale nie bez utraty niektórych toreb po drodze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]53
+[STORY]
+Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten szalejący pożar. 
+
+[/STORY]
+[OUT]Wyłącz ogień.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Qicksands(7)
++[NODE]2
+[STORY]
+Ścieżka, na której byłeś, wydawała się solidna i bezpieczna, ale zbyt późno zdajesz sobie sprawę, że wkroczyłeś w ruchome piaski.
+[/STORY]
+[OUT]Przejrzyj bezpieczną trasę przez ruchome piaski.
+[OUT]Przejrzyj bezpieczną trasę przez ruchome piaski.
+[OUT]Spróbuj szybko cofnąć się.
+[OUT]Spróbuj szybko cofnąć się.
+[/NODE]
+
++[NODE]4
+[STORY]
+Udaje ci się wrócić na stałe podłoże, ale po drodze tracisz niektóre torby. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Udaje ci się zawrócić na solidną ziemię, a walka przeciwko ruchomym piaskom wzmocniła cię.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Nie widzisz bezpiecznej ścieżki przez ruchome piaski - a przynajmniej nie takiej, która jest prosta. Ale widzisz wzór skał rozłożonych przed tobą. Niektóre z nich wydają się solidne i stabilne, a inne od czasu do czasu się zanurzają. 
+
+[/STORY]
+[OUT]Sprawdź prawidłową ścieżkę.
+[OUT]Zrób szybką ucieczkę.
+[/NODE]
+
++[NODE]14
+[STORY]
+Zrobiłeś to bezpiecznie na solidnym gruncie, a wzdłuż ścieżki odkrywasz szczątki mniej szczęśliwej duszy, być może wyplułeś ją z piasków. 
+
+[/STORY]
+[OUT]Zbierz ich rzeczy i wyjdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+Znajdujesz bezpieczną ścieżkę i podążasz nią bez incydentów. 
+
+Odkrywasz szczątki mniej szczęśliwej duszy, być może wyplułeś ją z piasków. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Udaje ci się przedostać na solidną ziemię, ale po drodze tracisz trochę toreb i czujesz się osłabiony przez gehennę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Pędzisz szybko ze skały na skałę i znowu na twardą ziemię. 
+
+Odkrywasz szczątki mniej szczęśliwej duszy, być może wyplułeś ją z piasków. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Udaje ci się wrócić na stałe podłoże, ale po drodze tracisz niektóre torby. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Lava pits(8)
++[NODE]2
+[STORY]
+Powietrze wokół ciebie robi się gorętsze, ziemia drży, a gejzery gorącej lawy strzelają dookoła ciebie!
+[/STORY]
+[OUT][Ork] Wykorzystaj swój instynkt, by poprowadzić drogę przez doły lawy.
+[OUT][Ork] Wykorzystaj swój instynkt, by poprowadzić drogę przez doły lawy.
+[OUT][Krasnolud] Zajmowałeś się dołami lawy w górach. Użyj swojej wiedzy, aby znaleźć bezpieczną ścieżkę.
+[OUT][Karzeł] Masz do czynienia z lawowymi dołami w górach. Widzisz ścieżkę przez jakąś solidną skałę, ale będzie ona wymagała skoku.
+[OUT][Lava rockers] Weź kąpiel w lawie, zanim przejdziesz dalej.
+[OUT]Biegnij jak najszybciej.
+[OUT]Biegnij jak najszybciej.
+[OUT]Biegnij jak najszybciej.
+[OUT]Staraj się to wytrzymać, gdy się poruszasz do przodu.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zręcznie unikasz wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Ledwo się przedostałeś, i zostałeś zmuszony do porzucenia niektórych worków, aby nie wpaść w roztopioną lawę. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Znajdujesz dobrą ścieżkę, ale prowadzi ona przez serię skał, na które musisz wskoczyć, nie wpadając do dołów.
+[/STORY]
+[OUT]Wybierz ścieżkę.
+[/NODE]
+
++[NODE]8
+[STORY]
+Zręcznie unikasz wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Zręcznie omijasz lawę, a nawet znajdziesz klejnoty na drodze do bezpieczeństwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Ledwo się przedostałeś, i zostałeś zmuszony do porzucenia niektórych worków, aby nie wpaść w roztopioną lawę. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Ścieżka, którą znalazłeś, jest niebezpieczna, ale dla ciebie jest to znak siły, by ją przepchnąć. Jesteś zmuszony poświęcić część swoich towarów, aby uniknąć wpadnięcia do dołów, ale tak jak podejrzewasz, znajdziesz żyłę kamieni ukrytych w dołach. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zręcznie unikasz wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Wdychasz lawę i daje ci siłę. Łowisz też dobre kamienie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Gorące powietrze i lawa spalają twoją skórę, ale przygotowujesz się i unikniesz najgorszych wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Hurricane(9)
++[NODE]2
+[STORY]
+Huragan ogarnia cię!
+[/STORY]
+[OUT][Stribog] Żądaj, żeby wiatr ustał, teraz!
+[OUT][Demoniczne wiatry] Radujcie się na wietrze. Wznieś się w przestworza i przekieruj huragan, aby nie zaszkodził twoim krewnym.
+[OUT][Demoniczne wiatry] Radujcie się na wietrze. Wznieś się w przestworza i przekieruj huragan, aby nie zaszkodził twoim krewnym.
+[OUT]Spróbuj szybko znaleźć schronienie.
+[OUT]Spróbuj szybko znaleźć schronienie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Lecisz z wiatrem i czujesz jego zimny, ale żywy uścisk. 
+
+Dowodzisz siłą natury, by odwrócić się od swojej ścieżki, i robi to dobrowolnie. Jesteś w stanie zbierać liście od tych, którzy nie wytrzymali mocy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Lecisz z wiatrem i czujesz jego zimny, ale żywy uścisk. 
+
+Dowodzisz siłą natury, aby odwrócić się od swojej ścieżki, ale nie jest ona w pełni posłuszna. Musisz się przygotować lub zostaniesz porwany. 
+[/STORY]
+[OUT]Stań stabilnie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Huragan wreszcie pochyla się do twojej woli i idzie dalej.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Znajdujesz pęknięcie na ziemi, gdzie możesz poczekać na huragan, ale to będzie wymagało wysiłku, aby utrzymać równowagę.
+[/STORY]
+[OUT]Bądź silny.
+[/NODE]
+
++[NODE]15
+[STORY]
+Znajdziesz pęknięcie na ziemi, gdzie możesz poczekać na huragan. 
+
+I masz szczęście, bo masz wystarczająco silnych ludzi, by biegać szybko, aby się tam dostać i utrzymać równowagę.  
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Udaje ci się pozostać na miejscu, a huragan mija, zostawiając za sobą resztki.
+[/STORY]
+[OUT]Zbierz śmieci i wyjdź.
+[OUT]Zbierz śmieci i wyjdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+Ledwo trzymasz się, jak wiatry cię drżą. Tracisz część swoich towarów, ale przynajmniej żyjesz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jako mistrz Striboga, podnosisz ramiona i nakazujesz wiatrowi być posłusznym swojemu mistrzowi. 
+
+Na początku zostajesz porwany i niesiony przez wiatry jak na śmierć, ale wtedy czujesz uścisk swojego boga, a huragan podporządkowuje się twojemu rozkazowi i całkowicie zanika. 
+
+Jesteś wzmocniony i wolny do zbierania śmieci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Natural disaster3(10)
++[NODE]2
+[STORY]
+Niebo ciemnieje, ptaki lecą nisko, a wokół ciebie jest powietrze oczekiwania.
+[/STORY]
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[OUT]Przygotuj się.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --WhispsMist1(11)
++[NODE]2
+[STORY]
+Gdy słońce wschodzi wysoko, czujecie jego delikatne ciepło na skórze i cieszycie się rosnącą siłą światła które dominuje nad ciemnością. 
+
+Mimo to czujecie się nieswojo. Ciepło staje się coraz mocniejsze, nieuniknione. W powietrzu wisi coś stęchłego i przytłaczającego.
+[/STORY]
+[OUT][Światło lub  Harmonia] Skup się na swojej domenie i spróbuj dowiedzieć się, co się tutaj dzieje.
+[OUT][Intelekt lub natura] Niezwykła jest więź w Theą, a zatem nie można wpadać w panikę. Spróbujcie odejść spokojnie.
+[OUT][Zamęt lub magia] To światło pali cię żywcem! Spróbuj znaleźć źródło, abyś mógł je pokonać.
+[/NODE]
+
++[NODE]3
+[STORY]
+Kiedy obserwujesz otaczający cię świat, wkrótce widzisz, że promienie słoneczne są pełne dziwnych stworzeń. Te lekkie kosmyki próbują przywiązać się do ciebie swoimi mackami, a ty wyczuwasz ich próbę spalenia przez twoje ciało i ducha. 
+
+Twoja domena nieco Cię chroni, ale wtedy też czujesz to ciepło, tak słodkie i obiecujące. 
+[/STORY]
+[OUT]Oprzyj się fizycznie i odejdź.
+[OUT]Użyj połączenia do swojej domeny i oprzyj się duchowo.
+[OUT]Twoja wola nie zostanie złamana. Twój umysł odeprze te diabły.
+[/NODE]
+
++[NODE]5
+[STORY]
+Pozostajesz silny, a próby stworzeń są daremne. Widząc ich porażkę, kosmyki migoczą w kierunku słońca i znikają. 
+
+Widzisz spalone zwłoki owadów i małych stworzeń wokół ciebie, ale dostrzegasz też małą paczkę dziwnie sparowanych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wywołanie światła okazuje się zbyt silne, aby się oprzeć. Przez chwilę puszczasz, otwierasz się na płonące ciepło i akceptujesz wolę apodyktycznej jasności, która wzywa cię, byś stał się jednym, puścił, po prostu był ... 
+
+Udaje ci się uwolnić, ale czujesz się wyczerpany, a niektórzy ze słabszych towarzyszy mogą nie mieć tyle szczęścia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Kiedy przygotowujesz się przed upałem, wkrótce widzisz, że promienie słoneczne są pełne dziwnych stworzeń. Te lekkie kosmyki próbują przywiązać się do ciebie swoimi mackami i płoną przez twoje ciało i ducha. 
+
+Ciemność, która towarzyszy zamieszaniu i magii, jest słaba wobec tego wroga, ale jeśli się opierasz, twoja ciemna moc może je zniszczyć.
+[/STORY]
+[OUT][Zamieszanie] Oprzyj się fizycznie i spróbuj je zniszczyć!
+[OUT][Magia] Użyj połączenia do swojej domeny i przeciwstaw się duchowo.
+[OUT]Twoja wola nie zostanie złamana. Twój umysł odeprze te diabły.
+[/NODE]
+
++[NODE]24
+[STORY]
+Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz, że twoje połączenie z bogami jest atakowane palącą dzikością, która usiłuje zgasić wszystkie pozostałości ciemności bez względu na życie gospodarza. 
+
+Udaje ci się uwolnić, ale czujesz swoją duszę naznaczoną tym doświadczeniem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Opierasz się atakowi, a twoja domena tryska ciemnością, która niszczy te piekielne istoty i zamienia je w obsydianowy popiół. 
+
+Nie wiecie, czym byli, ale ich moc była nienaturalna i wystarczająco silna, aby osiągnąć wasze boskie połączenie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Kiedy powoli się oddalacie dostrzegacie w promieniach słonecznych   kontury dziwnych stworzeń. Lekkie kosmyki światła próbują przywiązać się do Was swoimi mackami i przenikają przez Wasze ciała i drążą Waszego ducha. 
+
+Wasza domena pozostaje neutralna w stosunku do tego ataku, co pozwala na większą jasność umysłu, aby oprzeć się atakowi.
+[/STORY]
+[OUT]Oprzyj się fizycznie i odejdź.
+[OUT]Użyj połączenia do swojej domeny i oprzyj się duchowo.
+[OUT]Twoja wola nie zostanie złamana. Twój umysł odeprze te diabły.
+[/NODE]
+
++[NODE]38
+[STORY]
+Pozostajecie silni i zrównoważeni, nie angażujesz się ani w światło, ani w ciemność, więc kosmyki wydają się niezdolne do penetracji Waszego umysłu. Dziwne światło odczuwając swoją porażkę migocze w kierunku słońca i znikają. 
+
+Widzicie spalone zwłoki owadów i małych stworzeń wokół Was, ale dostrzegasz też kilka dziwnych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz, jak kosmyki płoną w twoim ciele, duszy i umyśle, starając się cię oczyścić, aby uczynić cię jednym ze światłem. 
+
+Udaje ci się uwolnić, a klarowność twojej naturalnej domeny sprawia, że jesteś w większości bez szwanku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__Avalanche(12)
++[NODE]2
+[STORY]
+Głośne łomotanie, a potem drżenie, łapie cię w górach. Prawdopodobnie nastąpi lawina.
+[/STORY]
+[OUT][Krasnolud] Góry są twoją domeną. Szukaj osłony.
+[OUT][Krasnolud] Góry są twoją domeną. Szukaj osłony.
+[OUT][Vily lub viatroviec] Jak wiatr jest twoim przyjacielem, lataj bezpiecznie z krewnymi.
+[OUT][Vily lub viatroviec] Jak wiatr jest twoim przyjacielem, lataj bezpiecznie z krewnymi.
+[OUT]Spróbuj go wyprzedzić.
+[OUT]Spróbuj go wyprzedzić.
+[OUT]Spróbuj go wyprzedzić.
+[OUT]Poszukaj bezpiecznego miejsca do ukrycia się.
+[OUT]Poszukaj bezpiecznego miejsca do ukrycia się.
+[OUT][Ork] Góry są twoją domeną. Szukaj osłony.
+[OUT][Ork] Góry są twoją domeną. Szukaj osłony.
+[/NODE]
+
++[NODE]3
+[STORY]
+Twoim fachowym okiem znajdziesz idealne miejsce do przeczekania nadchodzącej lawiny. 
+
+Potem możesz zebrać kilka dobrych minerałów z gruzu. 
+
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+Lecisz w bezpieczne miejsce, zanim lawina cię dopadnie, a gdy opadnie, dostrzeżesz grupę martwych podróżników, którzy nie mieli tyle szczęścia. 
+
+[/STORY]
+[OUT]Daj im szybki pogrzeb i zbierz swoje rzeczy.
+[/NODE]
+
++[NODE]5
+[STORY]
+Dzięki swojemu doświadczonemu oku i intuicji znajdziesz jaskinię, która przeczeka nadchodzącą lawinę. 
+
+Niestety, wejście nie było tak silne, jak sądziłeś, i zapada się pod ciężarem lawiny. Teraz musisz wykopać swoje wyjście.
+[/STORY]
+[OUT]Wykop.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wykopujesz drogę, a nawet odnajdziesz po drodze dobre minerały.
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]13
+[STORY]
+W końcu wykopujesz się, ale to męcząca próba. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Skórą twoich zębów udaje ci się zrobić bezpieczną ucieczkę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Lawina uderza mocno i szybko, grożąc połknięciem cię w całości. Udaje ci się znaleźć schronienie w ostatniej chwili, ale teraz musisz wykopać drogę spod gruzów.
+[/STORY]
+[OUT]Wykop.
+[/NODE]
+
++[NODE]28
+[STORY]
+Lawina uderza mocno i szybko, grożąc połknięciem cię w całości. 
+
+Udaje ci się uciec, ale nie bez utraty cięższego sprzętu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Znajdujesz jaskinię, aby przeczekać nadchodzącą lawinę. 
+
+Niestety, wejście nie było tak silne, jak sądziłeś, i zapada się pod ciężarem lawiny. Teraz musisz wykopać swoje wyjście.
+[/STORY]
+[OUT]Wykop.
+[/NODE]
+
++[NODE]34
+[STORY]
+Znajdziesz półkę, na której przeczekasz lawinę. Niestety, droga powrotna została uszkodzona, a znalezienie bezpiecznej ścieżki będzie bardzo trudne.
+[/STORY]
+[OUT]Zaplanuj bezpieczną trasę. 
+[/NODE]
+
++[NODE]37
+[STORY]
+Dokładnie planujesz każdy krok i robisz go bezpiecznym. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Starasz się starannie planować każdy krok i sprawić, by był bezpieczny. Ale niektóre z twoich kroków są źle wybrane, a część twojego sprzętu spada na górę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]49
+[STORY]
+Z twoim czystym instynktem znajdziesz idealne miejsce, aby przeczekać nadchodzącą lawinę. 
+
+Potem możesz zebrać kilka dobrych minerałów z gruzu. 
+
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]50
+[STORY]
+Próbujesz odlecieć przed uderzeniem lawiny, ale jesteś porywany przez podmuch wiatru, który następuje. 
+
+Uciekasz, ale nie bez zadrapań i siniaków. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Wykopujesz drogę, a nawet odnajdziesz po drodze dobre minerały.
+[/STORY]
+[OUT]Zbierz kamień i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__Fire(13)
++[NODE]2
+[STORY]
+Czujesz zapach dymu i czujesz falę upałów idącą w twoją stronę. To ogień!
+[/STORY]
+[OUT][Natura lub harmonia] Wzywaj harmonii i natury, aby poprosić o deszcz, aby uspokoić ten pożar, zanim zginie życie. 
+[OUT][Demon lasu] Dowodz lasami, aby pomóc ci walczyć z ogniem. 
+[OUT][Demon lasu] Dowodz lasami, aby pomóc ci walczyć z ogniem. 
+[OUT][Elf] Zapytaj las, by pomógł ci w walce z tym ogniem.
+[OUT]Ucieczka!
+
+[OUT]Ucieczka!
+
+[OUT]Spróbuj ugasić ogień wodą z pobliskiego stawu i otaczającego go piasku. 
+[/NODE]
+
++[NODE]3
+[STORY]
+Niebo ciemnieje, chmury gromadzą się, a kojący deszcz spada na szalejący ogień. 
+
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Las budzi się i odsuwa od ścieżki płomienia, więc płomień stopniowo wygasa. 
+
+Na spalonych obszarach odkrywasz szczątki niektórych mniej szczęśliwych dusz. 
+[/STORY]
+[OUT]Daj im pochówek i zbierz ich dobytek.
+[/NODE]
+
++[NODE]5
+[STORY]
+Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten szalejący pożar. 
+
+[/STORY]
+[OUT]Wyłącz ogień.
+[/NODE]
+
++[NODE]8
+[STORY]
+Las jest zbawiony i czujesz, że jego wdzięczność spada na ciebie. Możesz teraz zebrać trochę drewna.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Pomimo twoich najlepszych wysiłków, płomień ogarnia las, a ty jesteś zmuszony do ucieczki, zanim również cię zabije. 
+
+Część twojego sprzętu jest spalona w płomieniach.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Uciekasz, a las płonie za tobą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Uciekasz na czas. Las płonie, aw popiołach znajdują się szczątki mniej szczęśliwych dusz.
+[/STORY]
+[OUT]Zbierz rzeczy i wyjdź.
+[/NODE]
+
++[NODE]26
+[STORY]
+Ledwo unikasz płonącego ognia, ale nie bez utraty niektórych toreb po drodze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]53
+[STORY]
+Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten szalejący pożar. 
+
+[/STORY]
+[OUT]Wyłącz ogień.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__WhispsMist3(14)
++[NODE]2
+[STORY]
+Gdy słońce wschodzi wysoko, czujecie jego delikatne ciepło na skórze i cieszycie się rosnącą siłą światła które dominuje nad ciemnością. 
+
+Mimo to czujecie się nieswojo. Ciepło staje się coraz mocniejsze, nieuniknione. W powietrzu wisi coś stęchłego i przytłaczającego.
+[/STORY]
+[OUT][Światło lub  Harmonia] Skup się na swojej domenie i spróbuj dowiedzieć się, co się tutaj dzieje.
+[OUT][Intelekt lub natura] Niezwykła jest więź w Theą, a zatem nie można wpadać w panikę. Spróbujcie odejść spokojnie.
+[OUT][Zamęt lub magia] To światło pali cię żywcem! Spróbuj znaleźć źródło, abyś mógł je pokonać.
+[/NODE]
+
++[NODE]3
+[STORY]
+Kiedy obserwujesz otaczający cię świat, wkrótce widzisz, że promienie słoneczne są pełne dziwnych stworzeń. Te lekkie kosmyki próbują przywiązać się do ciebie swoimi mackami, a ty wyczuwasz ich próbę spalenia przez twoje ciało i ducha. 
+
+Twoja domena nieco Cię chroni, ale wtedy też czujesz to ciepło, tak słodkie i obiecujące. 
+[/STORY]
+[OUT]Oprzyj się fizycznie i odejdź.
+[OUT]Użyj połączenia do swojej domeny i oprzyj się duchowo.
+[OUT]Twoja wola nie zostanie złamana. Twój umysł odeprze te diabły.
+[/NODE]
+
++[NODE]5
+[STORY]
+Pozostajesz silny, a próby stworzeń są daremne. Widząc ich porażkę, kosmyki migoczą w kierunku słońca i znikają. 
+
+Widzisz spalone zwłoki owadów i małych stworzeń wokół ciebie, ale dostrzegasz też małą paczkę dziwnie sparowanych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Wywołanie światła okazuje się zbyt silne, aby się oprzeć. Przez chwilę puszczasz, otwierasz się na płonące ciepło i akceptujesz wolę apodyktycznej jasności, która wzywa cię, byś stał się jednym, puścił, po prostu był ... 
+
+Udaje ci się uwolnić, ale czujesz się wyczerpany, a niektórzy ze słabszych towarzyszy mogą nie mieć tyle szczęścia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Kiedy przygotowujesz się przed upałem, wkrótce widzisz, że promienie słoneczne są pełne dziwnych stworzeń. Te lekkie kosmyki próbują przywiązać się do ciebie swoimi mackami i płoną przez twoje ciało i ducha. 
+
+Ciemność, która towarzyszy zamieszaniu i magii, jest słaba wobec tego wroga, ale jeśli się opierasz, twoja ciemna moc może je zniszczyć.
+[/STORY]
+[OUT][Zamieszanie] Oprzyj się fizycznie i spróbuj je zniszczyć!
+[OUT][Magia] Użyj połączenia do swojej domeny i przeciwstaw się duchowo.
+[OUT]Twoja wola nie zostanie złamana. Twój umysł odeprze te diabły.
+[/NODE]
+
++[NODE]24
+[STORY]
+Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz, że twoje połączenie z bogami jest atakowane palącą dzikością, która usiłuje zgasić wszystkie pozostałości ciemności bez względu na życie gospodarza. 
+
+Udaje ci się uwolnić, ale czujesz swoją duszę naznaczoną tym doświadczeniem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Opierasz się atakowi, a twoja domena tryska ciemnością, która niszczy te piekielne istoty i zamienia je w obsydianowy popiół. 
+
+Nie wiecie, czym byli, ale ich moc była nienaturalna i wystarczająco silna, aby osiągnąć wasze boskie połączenie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Kiedy powoli się oddalacie dostrzegacie w promieniach słonecznych   kontury dziwnych stworzeń. Lekkie kosmyki światła próbują przywiązać się do Was swoimi mackami i przenikają przez Wasze ciała i drążą Waszego ducha. 
+
+Wasza domena pozostaje neutralna w stosunku do tego ataku, co pozwala na większą jasność umysłu, aby oprzeć się atakowi.
+[/STORY]
+[OUT]Oprzyj się fizycznie i odejdź.
+[OUT]Użyj połączenia do swojej domeny i oprzyj się duchowo.
+[OUT]Twoja wola nie zostanie złamana. Twój umysł odeprze te diabły.
+[/NODE]
+
++[NODE]38
+[STORY]
+Pozostajecie silni i zrównoważeni, nie angażujesz się ani w światło, ani w ciemność, więc kosmyki wydają się niezdolne do penetracji Waszego umysłu. Dziwne światło odczuwając swoją porażkę migocze w kierunku słońca i znikają. 
+
+Widzicie spalone zwłoki owadów i małych stworzeń wokół Was, ale dostrzegasz też kilka dziwnych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz, jak kosmyki płoną w twoim ciele, duszy i umyśle, starając się cię oczyścić, aby uczynić cię jednym ze światłem. 
+
+Udaje ci się uwolnić, a klarowność twojej naturalnej domeny sprawia, że jesteś w większości bez szwanku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

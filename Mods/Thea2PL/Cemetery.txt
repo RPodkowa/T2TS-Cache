@@ -1,0 +1,4829 @@
+-- [EVENT] --Cemetery gob ghost(0)
++[NODE]2
+[STORY]
+Miejsce pochówku jest niesamowite i spokojne. Zdajesz sobie sprawę, że nie ma zwierząt, a nawet wiatr nadal tu jest. 
+
+Jeden z grobów wygląda szczególnie dziwnie.
+[/STORY]
+[OUT][Goblin] To jest goblińska ziemia; goblin powinien zbadać sprawę.
+[OUT][Duch] Duchy mogą się nawzajem wyczuwać. Gdzieś jest duch.
+[OUT]Twoje pobożne połączenie z domeną magicznych dreszczy. Nici szarego świata, skąd utrzymują się duchy. Użyj rytuału, aby wezwać zagubione dusze.
+[OUT]Zbadaj grób.
+[OUT]Wątki szarego świata, skąd utrzymują się duchy. Użyj rytuału, aby wezwać zagubione dusze.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Chodzisz i czujesz, że jest tu uwięziony duch. Widzi cię i mówi: 
+
+'Pomoc, przyjacielu.'
+[/STORY]
+[OUT][Gobliński szaman] Zapytaj, czy jest duchem szarego świata, a nie tylko zagubioną duszą.
+[OUT]Powinieneś słuchać więcej szamanów. Zapytaj, czy jest duchem, czy czymś innym.
+[/NODE]
+
++[NODE]4
+[STORY]
+Skupiasz się i natychmiast wiesz, że jest duchowa obecność. Mówi do ciebie: 
+
+'Pomóż mi, eteryczny przyjacielu. Chociaż nie jesteśmy tacy sami, na pewno usłyszysz moją prośbę?'
+[/STORY]
+[OUT]Powiedz mu, że wydaje się inny od ciebie, jak gdyby nigdy nie był żywą istotą.
+[/NODE]
+
++[NODE]8
+[STORY]
+Pojawia się duch i mówi do ciebie: 
+
+'Pomóż mi ...'
+[/STORY]
+[OUT]Zapytaj, dlaczego potrzebują pomocy.
+[OUT]Wzruszaj ramionami i pytaj, dlaczego masz się tym przejmować.
+[OUT]Zaatakuj ducha!
+[/NODE]
+
++[NODE]10
+[STORY]
+Powietrze jest stęchłe i zimne, a ty zdajesz sobie sprawę, że wszystko wokół ciebie powoli osusza kolor, zmieniając kolor na szary. 
+
+Widzisz migotanie upiornej postaci z wyciągniętymi ramionami i otwartymi ustami w cichym krzyku.
+[/STORY]
+[OUT]Zaatakuj ducha!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]14
+[STORY]
+Duch przestał istnieć, więc twoja broń okazała się bezużyteczna. 
+
+Czujesz, że życie ci się wyczerpało, ale kiedy wychodzisz poza granice miejsca grobu, aby uciec, zdajesz sobie sprawę, że gniewna dusza nie może się ścigać.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Tak, duchowy spacerowiczu, że jestem. Łagodziłam przejście dla jednego z twoich, ale promień światła spłynął po tej ziemi i zamarzł cały czas i przestrzeń. Jestem tu uwięziony na wieczność!'
+[/STORY]
+[OUT]Zapytaj, co go tu zastawia.
+[OUT]Zapytaj o świat szarości. Powiedz duchowi, że trening szamański był krótkotrwały, kiedy zostałeś powołany, by służyć kosmicznemu panteonowi.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Nie jestem duchem - to nie jest dusza żyjącego niegdyś, ale duch ze świata szarych. Łagodziłam przejście dla jednego z twoich, ale promień światła spłynął po tej ziemi i zamarzł cały czas i przestrzeń. Jestem tu uwięziony na wieczność!'
+[/STORY]
+[OUT]Dziękuję im za odpowiedź i wróć do sprawy.
+[OUT]Zapytaj o świat szarości.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Nie mam czasu na lekcje. Śmiertelnicy mylą świat szarości ze swoim życiem pozagrobowym. Duchowi wędrowcy nazywają to między innymi, a inni mówią, że odzwierciedlają twoją rzeczywistość, odcisk twoich emocji i doświadczeń.'
+
+
+[/STORY]
+[OUT]Więc jaka jest właściwa odpowiedź?
+[OUT]Dziękuję im za odpowiedź i wróć do sprawy.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Nie jestem starym duchem. Nie znam odpowiedzi. Świat, w którym mieszkam. Wasze dusze czasami podróżują przez nasz świat, tak, a niektóre nawet zostają, jeśli im na to pozwolimy. Inni idą dalej. To wszystko co wiem.'
+[/STORY]
+[OUT]Dziękuję im za wyjaśnienie.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Jak powiedziałem wcześniej, jestem uwięziony przez duszną siłę malarzy światła - ich palące dusze zostaną potępione. To tak, jakby sam czas ustąpił miejsca ich stagnacji. 
+
+Jedyne, co mogę myśleć, to wybuch ciemności, aby mnie uwolnić. I wyczuwam w pobliżu niektóre nieżyjące dusze. Wystarczy ich nienaturalne wiązanie z życiem, ale najpierw musisz je zabić dla mnie. Proszę.'
+[/STORY]
+[OUT]Zaoferuj złapanie esencji ducha i zanieś ją do pobliskiego miejsca mocy, gdzie możesz próbować naprawdę uwolnić ich. Ale wiesz, że to może zniszczyć ducha, jeśli pójdzie źle.
+[OUT][Gobliński szaman] To wiązanie jest zrobione z ciemności. Dobrze to wyczuwasz. Zgódź się na rytuał, ale ostrzegaj ducha, że chaos to chaos, a efekty mogą się różnić.
+[OUT]Wyczuwasz drżenie w powietrzu. Zgódź się na rytuał, ale ostrzegaj ducha, że chaos to chaos, a efekty mogą się różnić.
+[OUT]Wyczuwasz drżenie w powietrzu. Zgódź się na rytuał, ale ostrzegaj ducha, że chaos to chaos, a efekty mogą się różnić.
+[OUT]Walcz z życiem bez życia.
+[OUT]Nie, to zbyt ryzykowne. Pozostawiać.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Nie jestem duchem - to nie jest dusza żyjącego niegdyś, ale duch ze świata szarych. Łagodziłam przejście dla jednego z twoich, ale promień światła spłynął po tej ziemi i zamarzł cały czas i przestrzeń. Jestem tu uwięziony na wieczność!'
+[/STORY]
+[OUT]Zapytaj, co można zrobić.
+[OUT]Zapytaj o świat szarości.
+[/NODE]
+
++[NODE]25
+[STORY]
+„Chyba… nie wiem. Nie mogę nawet powiedzieć, że byłbym zainteresowany, gdyby sytuacja się odwróciła. 
+
+Mimo to błagam o pomoc. Jeśli ci się uda, nagrodzę cię, obiecuję!'
+[/STORY]
+[OUT]Powiedz im, aby byli bardziej konkretni: jaka nagroda? I dlaczego miałbyś ufać, że go zdobędziesz?
+[OUT]Kiwnij głową i zapytaj, jaka pomoc jest tutaj potrzebna.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Znowu nie mam odpowiedzi. Moja nagroda zależeć będzie od tego, jak sobie poradzę z tą próbą. Moje moce mogą zostać zmniejszone, ale przynajmniej obdarzę was błogosławieństwem.'
+[/STORY]
+[OUT]Kiwnij głową i zapytaj, jaka pomoc jest tutaj potrzebna.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Ryzyko niech będzie potępione, moi przyjaciele. Chodźmy do tego waszego miejsca mocy!'
+[/STORY]
+[OUT]Uchwyć esencję ducha i zabierz ją ze sobą.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Ryzyko niech będzie potępione, moi przyjaciele. Proszę zrób to.'
+[/STORY]
+[OUT]Wykonaj rytuał i wezwij zamieszanie. 
+[OUT]Spadek - to zbyt ryzykowne.
+[/NODE]
+
++[NODE]35
+[STORY]
+Esencja zamieszania przenika przez ciebie i dotyka ducha, wyrywając go z teraz widocznego pasma dusznego światła. Ale to nie koniec. Przekręca upiorną postać, zamieniając ją w zwierzę. 
+
+Stwór patrzy na ciebie z przerażeniem.
+[/STORY]
+[OUT]Powiedz, że ostrzegłeś ich przed skutkami ubocznymi. Zaoferuj, by zwierzę przyszło z tobą. 
+[/NODE]
+
++[NODE]38
+[STORY]
+Esencja zamieszania przenika przez ciebie i dotyka ducha, uwalniając go od teraz widocznego pasma dusznego światła. 
+
+'Dziękuję, duchowa piechurko. Twój rodzaj jest na zawsze naszym krewnym. Spotkajmy się ponownie w greypaths.'
+[/STORY]
+[OUT]Duch dodaje, że od teraz możesz go wzywać w potrzebie. Kiwnij głową i wyjdź.
+[OUT]Kiwnij głową, wykop towary i wyjdź.
+[/NODE]
+
++[NODE]43
+[STORY]
+Domeny zamieszania i magii, czyli czysta siła tych, którzy znają tajemnicze tajemnice, mogą przywołać moc ciemności i przeciwdziałać światłu, które wciąż utrzymuje ducha. 
+
+Duch kiwa głową.
+[/STORY]
+[OUT]Rozpocznij rytuał.
+[OUT]Spadek - to zbyt ryzykowne.
+[/NODE]
+
++[NODE]45
+[STORY]
+Esencja ciemności przenika przez ciebie i dotyka ducha, wyrywając go z teraz widocznego pasma dusznego światła. 
+
+'Zrobiłeś to! Dziękuję bardzo. Tutaj kopcie w tym miejscu, bo wiem, że jest skarb, który można znaleźć.'
+[/STORY]
+[OUT]Duch dodaje, że od teraz możesz go wzywać w potrzebie. Kiwnij głową i wyjdź.
+[OUT]Kiwnij głową, wykop towary i wyjdź.
+[/NODE]
+
++[NODE]46
+[STORY]
+Pokonujesz nieżyjącego i duch wysysa pewną siłę z ich zwyciężonych zwłok. Wydaje się, że odzyskuje bardziej fizyczną lub przynajmniej silniejszą formę: 
+
+'Zrobiłeś to! Dziękuję bardzo. Od teraz możesz zadzwonić po moją pomoc.'
+[/STORY]
+[OUT]Kiwnij głową i wyjdź.
+[/NODE]
+
++[NODE]48
+[STORY]
+Pokonujesz upiory świetlne, a duch krasnoludzki wydaje się odzyskiwać bardziej fizyczną lub przynajmniej silniejszą formę: 
+
+'Zrobiłeś to! Dziękuję bardzo. Tutaj kopcie w tym miejscu, bo wiem, że jest skarb, który można znaleźć.'
+[/STORY]
+[OUT]Kiwnij głową, wykop towary i wyjdź.
+[/NODE]
+
++[NODE]51
+[STORY]
+Nie udało ci się. Duch rozpuszcza się i nic więcej nie możesz zrobić.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery basediff3(1)
+[/EVENT]
+
+-- [EVENT] --Cemetery goblin D3(2)
++[NODE]3
+[STORY]
+Odkrywasz cmentarz goblinów.
+[/STORY]
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery skeletons(3)
++[NODE]2
+[STORY]
+Gdy wchodzisz na teren pochówku, czujesz, jak ziemia się zmienia i zauważysz, że kościste ręce wychodzą z ziemi!
+[/STORY]
+[OUT]Poczuj sploty magii w tym obszarze.
+[OUT][Natura] Te nieożywione przeciwstawiają się tradycji natury. Znajdź sposób na ich zniszczenie.
+[OUT][Odrodzenie] Porozmawiaj ze swoimi krewnymi. Być może oni też się budzą, a nie tylko marionetki mrocznej magii.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]12
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Czujesz, że te szkieletowe formy są kontrolowane przez ciemne zaklęcie, ale takie, które nie jest świeże. Może być możliwe złamanie go, ale tylko jeśli masz silną magię po swojej stronie. 
+[/STORY]
+[OUT]Spróbuj uwolnić szkielety z ich mrocznej magicznej niewoli.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[OUT]Może pójść w sprzeczności z prawami domeny natury, ale związać szkielety z własną służbą!
+[/NODE]
+
++[NODE]18
+[STORY]
+Ta nieżyjąca obrzydliwość kpi z praw natury. Powinieneś spróbować uwolnić ich wieczne cierpienie.
+[/STORY]
+[OUT]Użyj rytuału, aby przełamać mroczną magię wiążącą te biedne ciała do niewoli.
+[OUT]Może pójść w sprzeczności z prawami domeny natury, ale związać szkielety z własną służbą!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]21
+[STORY]
+Domeny natury i harmonii stoją przed zniewoleniem martwego ciała do woli. 
+
+Twój rytuał rozpuszcza się, a kości zapadają w spokoju. Czujesz na sobie chorobę. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Rytuał działa, a ty zyskujesz sługę nieożywionego diabła. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Wydaje się, że rytuał wiązania działa, ale wtedy wybuch niekontrolowanej energii niszczy nieożywione.
+
+Jednak widmo rodzi się z mocy i teraz podąża za tobą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Rytuały nie działają, a ty ledwo unikasz życia. 
+
+[/STORY]
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]27
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Ty, przyjacielu. Przyjdź, nie łziemy ciała.'
+
+Nieżyjący odwraca się i odchodzi, ale jeden z nich zostawia swoją broń dla ciebie i widzisz przebłysk przebudzenia w jego oczach.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Ty, przyjacielu. Przyjdź, nie łziemy ciała.'
+
+Szkielety oddalają się, ale jeden zostaje z tyłu:' Ty, nie służysz więcej. Ja, ja ci służę.'
+
+To może nie być przebudzenie, na które miałeś nadzieję, ale to pierwszy krok. Szkielet służy teraz tobie.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]35
+[STORY]
+Szkielety nadal przychodzą do ciebie bezmyślnie, a niektóre strzały lecą w twoją stronę. 
+
+[/STORY]
+[OUT]Po prostu opuść to miejsce.
+[OUT]Zaatakuj ich!
+[/NODE]
+
++[NODE]42
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]47
+[STORY]
+Szkielety pobiły cię i ledwo uciec.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery loot(4)
++[NODE]2
+[STORY]
+Cmentarz jest cichy i pusty. Widzisz niezagrzebione ciało na ziemi, trzymające zapas towarów.
+[/STORY]
+[OUT]Chwyć schowek.
+[OUT]Weź schowek i pogrzeb ciało.
+[OUT]Weź schowek i pogrzeb ciało.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Gdy chwycisz za skrytkę, rozkładająca się ręka, która ją trzymała, chwyta cię i kopie głęboko, zanim znów opadnie bez życia. Czujesz, że dotknęła cię obrzydliwa siła.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Próbujesz pochować ciało, ale najwyraźniej obraziłeś jego ducha. Czujesz, że jego gniew dochodzi z zewnątrz i przeklina cię!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cem goblin trinketDiff3(5)
++[NODE]2
+[STORY]
+Widzisz dziwny świecidełko w jednym z miejsc pochówku.
+[/STORY]
+[OUT][Goblin] Spróbuj wypracować odpowiednią kombinację dla tego bibelotu.
+[OUT]Błyskotka zdaje się zawierać zagadkę. Przyjrzyj się bliżej.
+[OUT]Błyskotka zdaje się zawierać zagadkę. Przyjrzyj się bliżej.
+[OUT][Ork] Nie masz pojęcia, co to jest, ale spróbuj to zrobić.
+[OUT]Nie masz pojęcia, co to jest, ale spróbuj to zrobić.
+[OUT]Cokolwiek to jest, spróbuj je otworzyć.
+[OUT]Po prostu zostaw to.
+[/NODE]
+
++[NODE]3
+[STORY]
+Kizikony [R3] to stara tradycja goblinów sięgająca dawnego kraju - legendarne miejsce pochodzenia twojego rodzaju. Mistrz bibelotów lub szaman, jak ich teraz nazywacie, pozostawi taki obiekt jako znak spuścizny. Ten nie wygląda zbyt skomplikowany, ale może być pułapką.
+[/STORY]
+[OUT]Spróbuj go otworzyć.
+[OUT]Nie, to zbyt niebezpieczne. Pozostawiać. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Rzecz wybucha, gdy go uderzysz! Cierpisz na oparzenia, ale możesz jeszcze odzyskać pewne dobra.
+[/STORY]
+[OUT]Zbierz to, co jest nienaruszone, i wyjdź.
+[OUT]Zbierz to, co jest nienaruszone, i wyjdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+Byłeś tak blisko, ale przekręciłeś niewłaściwą dźwignię i cała rzecz eksploduje w twoich rękach!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Czytałeś o starych zwyczajach goblinów, gdzie szamani zostawiali przedmioty za sobą, by oszukać dowolnych grabieżców. Czy może przekazać część ich dziedzictwa? W obu przypadkach, niezależnie od tego, co obiekt może pomieścić, jest prawdopodobnie zabezpieczony przed manipulacją.
+[/STORY]
+[OUT]Spróbuj go otworzyć.
+[OUT]Otwórz to mocno.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Zawodzisz, a wiadomość w dymie wypływa: 
+
+'Ha! Głupi ork.'
+
+Następnie urządzenie eksploduje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery gob ghost2(6)
++[NODE]2
+[STORY]
+Miejsce pochówku jest niesamowite i spokojne. Zdajesz sobie sprawę, że nie ma zwierząt, a nawet wiatr nadal tu jest. 
+
+Jeden z grobów wygląda szczególnie dziwnie.
+[/STORY]
+[OUT][Goblin] To jest goblińska ziemia; goblin powinien zbadać sprawę.
+[OUT][Duch] Duchy mogą się nawzajem wyczuwać. Gdzieś jest duch.
+[OUT]Śmiertelna cisza nie może być dobra. Przygotuj rytuał strażniczy i zbadaj.
+[OUT]Zbadaj grób.
+[/NODE]
+
++[NODE]3
+[STORY]
+Chodzisz i czujesz, że w miejscu pochówku krąży duch goblinów. Co dziwne, czuje się uwięziony - gobliny zazwyczaj zamieniają się w formę duchową i stają się częścią szarego świata i jako takie nie trafiają do ludzkich podziemi.
+[/STORY]
+[OUT]Narysuj podstawowe duchowe runy, aby przywołać ducha i porozmawiać z nim. Zapytaj, dlaczego jego dusza wciąż tu jest.
+[OUT]Po prostu ich zaatakujcie!
+[OUT]Wykonaj rytuał oczyszczający, aby pozbyć się mrocznej magii.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Czujesz, że utknęła tu dusza goblinów, co jest dziwne, ponieważ gobliny mają tendencję do przemieniania się w formy duchowe i żyją w szarej strefie. 
+
+Co gorsza, zaczynasz czuć mroczne zaklęcie nekromantyczne, które trzyma każdą duszę, która tu przychodzi. Na szczęście jesteś obudzony i wzmocniony przez twojego boga, ale nadal będzie trudno wyjechać.
+[/STORY]
+[OUT]Użyj magii, aby wykonać rytuał oczyszczania i uwolnić wszystkie uwięzione dusze.
+[OUT]Przekonaj dusze uwięzione tutaj, aby dołączyły do ciebie i dały ci moc, by przejść i uciec.
+[OUT]Zostaw, kiedy możesz.
+[OUT]Atakuj duchy. Ich zniszczenie może pozwolić ci złamać to przekleństwo.
+[/NODE]
+
++[NODE]5
+[STORY]
+W tym miejscu wyczuwasz sploty nekromantycznej magii. Prawdopodobnie trzymają wszystkie dusze uwięzione, a może nawet w niewoli. 
+
+[/STORY]
+[OUT]Rytuał oczyszczający.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Ty, szamanie? Powiedz mi, dlaczego tak się dzieje!'
+
+Duch zawodzi z bólu. 
+
+Czujesz, że całe to miejsce pochówku jest skażone nekromantyczną magią, która blokuje im dotarcie do szarego świata lub nawet w pełni przekształci się w formy duchowe. 
+
+[/STORY]
+[OUT]Wykonaj rytuał oczyszczający, aby pozbyć się mrocznej magii.
+[OUT]Mroczna magia jest bardzo silna. Zaoferuj popchnięcie jednej duszy przez zasłonę.
+[OUT]Twoja magia nie jest wystarczająco silna, by zaryzykować. Walcz z duchami, aby przynajmniej osłabić ich obecność tutaj.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Oczyszczanie unosi ciężką zasłonę ciemnej energii z tego miejsca pochówku, a ty czujesz, że dusze goblinów powoli przechodzą w świat szarości, jak powinny. 
+
+Czujesz, jak rośnie twoja wiara, a jeden ze zmienionych duchów postanawia zostać twoim sprzymierzeńcem.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Oczyszczanie unosi ciężką zasłonę ciemnej energii z tego miejsca pochówku, a ty czujesz, że dusze goblinów powoli przechodzą w świat szarości, jak powinny. 
+
+Czujesz, jak rośnie twoja wiara. 
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]14
+[STORY]
+Przepychasz się przez nekromantyczną barierę i pchasz duszę w świat szarości. Dostrzegasz, jak dusza zmienia się w ducha, tak jak powinna, i czujesz jej błogosławieństwo.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+Przekonujesz inne dusze, by połączyły się z tobą i razem przepchniesz się przez mroczne zaklęcie. 
+
+Jedna z dusz, teraz zmieniona w prawowitą formę duchową, postanawia zostać twoim sprzymierzeńcem.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+Przekonujesz inne dusze, by połączyły się z tobą i razem przepchniesz się przez mroczne zaklęcie. 
+
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]23
+[STORY]
+Pokonujesz zagubione dusze, a jeden z nich przywiązuje się do ciebie w niewoli. 
+
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+To miejsce wydaje się dziwne i nieprzyjemne. Duchy pojawiają się przed tobą, płaczą i wyciągają ręce, aby cię dosięgnąć. Musisz próbować oprzeć się ich pociągnięciu lub mogą posiadać twoją duszę.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Staraj się opierać duchem.
+[OUT]Staraj się opierać duchem.
+[OUT]Staraj się opierać duchem.
+[OUT]Oprzyj się mocy twojego umysłu.
+[OUT]Oprzyj się mocy twojego umysłu.
+[OUT]Oprzyj się mocy twojego umysłu.
+[/NODE]
+
++[NODE]28
+[STORY]
+Twój duch jest silny, a upiorni napastnicy nie mogą go złamać. Czujesz się wzmocniony przez tę próbę.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]29
+[STORY]
+Twój duch jest silny, a upiorni napastnicy nie mogą go złamać. Czujesz się wzmocniony przez tę próbę.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]30
+[STORY]
+Udaje ci się uciec duchom, ale twoja dusza czuje się skażona.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Twój umysł jest silny i nie można go złamać, zwłaszcza gdy kieruje nim twoja boska domena.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Twój umysł jest silny i nie można go złamać. Duchy się poddają.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]35
+[STORY]
+Pokonany, jesteś zmuszony do ucieczki z tego miejsca.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Udaje ci się uciec duchom, ale twoja dusza czuje się skażona.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery dwarf(7)
++[NODE]3
+[STORY]
+Odkrywasz cmentarz krasnoludów.
+[/STORY]
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cem dwarf guard(8)
++[NODE]2
+[STORY]
+Wchodzisz do starej jaskini i widzisz posągi krasnoludów, ale pośród nich stoi kilku strażników.
+[/STORY]
+[OUT][Krasnolud] Witaj swoich krewnych.
+[OUT][Światło] Przywitajcie się w imię światła.
+[OUT][Harmony] Pozdrówcie krasnoludzkich strażników słowami pokoju.
+[OUT]Do ataku!
+[OUT]Przekonaj strażników, by cię wpuścili.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Kamienne serce i żelazni bracia duszy, czego tu szukacie?'
+[/STORY]
+[OUT]Powiedz, że jesteś tutaj, aby oddać hołd poległym.
+[OUT]Powiedz im, że szukasz zasobów, aby wzmocnić swoje serce.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Możesz wejść i szukać chwały kamienia i żelaza. Jeśli jesteś godny, zostaniesz nagrodzony.'
+
+Pokazują ci kamienny pierścień. Wiesz, że musisz wejść i zostać osądzonym przez ducha kamienia i żelaza.
+[/STORY]
+[OUT]Wejdź na ring.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Poproś o handel ze swoimi braćmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Gdybyś był outsiderem, nasze młoty przemawiałyby do takiej prośby. Ale wy jesteście kamiennymi i żelaznymi braćmi, więc możecie podjąć wyzwanie i zostać osądzeni przez starszych. Jeśli to uznają, zyskasz nagrody.'
+
+Pokazują ci kamienny pierścień. Wiesz, że musisz wejść i zostać osądzonym przez ducha kamienia i żelaza.
+[/STORY]
+[OUT]Wejdź na ring.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Poproś o handel ze swoimi braćmi.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Nie jesteście kamiennymi i żelaznymi braćmi, ale światło kuźni oświetla waszą drogę. Możesz wejść. Czego tu szukasz?'
+[/STORY]
+[OUT]Powiedz, że jesteś tutaj, aby oddać hołd poległym.
+[OUT]Przyznaj, że szukasz zasobów.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Nie jesteście braćmi kamiennymi i żelaznymi, ale droga harmonii prowadzi was, a my nie będziemy w stanie jej pokojowo walczyć z wojną. Możesz wejść. Czego tu szukasz?'
+[/STORY]
+[OUT]Powiedz, że jesteś tutaj, aby oddać hołd poległym.
+[OUT]Przyznaj, że szukasz zasobów.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Nie jesteście braćmi z kamienia ani żelaza, a my nie czujemy pokrewieństwa z waszym błaganiem, a mimo to mówiliście dobrze. Możesz wejść. Czego szukasz?'
+[/STORY]
+[OUT]Powiedz, że jesteś tutaj, aby oddać hołd poległym.
+[OUT]Przyznaj, że szukasz zasobów.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Nie jesteście braćmi z kamienia lub żelaza, i nie czujemy pokrewieństwa z waszymi prośbami. Opuść to miejsce albo umrzyj!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„To nie jest miejsce na bezczynną wędrówkę i miejsce dla obcych. Ale czasy są na nowo, więc może stare duchy mogą cię czcić. Możesz wejść, ale staniesz przed sądem, a jeśli ci się nie uda, kara będzie szybka. ”
+
+Pokazują ci kamienny pierścień. Wiesz, że musisz wejść i zostać osądzonym przez ducha kamienia i żelaza.
+[/STORY]
+[OUT]Wejdź na ring.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Do ataku!
+[OUT]Zamiast tego zaoferuj handel.
+[/NODE]
+
++[NODE]24
+[STORY]
+„To są nowe dni, a nasz cel jest stary. Twoje słowa brzmią prawdziwie i odważnie było nam o nich mówić. Pozwolimy ci wejść i stanąć przed próbą, jakbyś był jednym z naszych. Więcej nie możemy zrobić. Strzeż się, bo jeśli ci się nie uda ...'
+
+Pokazują ci kamienny pierścień. Wiesz, że musisz wejść i zostać osądzonym przez ducha kamienia i żelaza.
+[/STORY]
+[OUT]Wejdź na ring.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Do ataku!
+[OUT]Zamiast tego zaoferuj handel.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Ha, ha! Co? To nie było tak, że mówiłeś? Odejdź teraz, zanim skosztujesz naszego kamienia i żelaza!'
+[/STORY]
+[OUT]Dobrze, odejdź.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]29
+[STORY]
+Nie zostałeś uznany za godnego i jesteś osłabiony. 
+
+'Ach, nie martw się, bo niewielu przechodzi próby. Kamień i żelazo będą z tobą po drodze.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Pokazują ci kamienny pierścień. Wiesz, że musisz wejść i zostać osądzonym przez ducha kamienia i żelaza.
+[/STORY]
+[OUT]Wejdź na ring.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]34
+[STORY]
+Pokonujesz strażników. W podziemnej strukturze znajduje się kamienny pierścień - pusty, cichy. 
+
+
+[/STORY]
+[OUT]Wejdź i zbierz trochę kamienia.
+[OUT]Lepiej już odejdź.
+[/NODE]
+
++[NODE]39
+[STORY]
+„Zawsze dobrze handlować z uczciwymi krewnymi. Czy teraz zmierzysz się z kamieniem i żelazem w środku?'
+
+Pokazują ci kamienny pierścień. Wiesz, że musisz wejść i zostać osądzonym przez ducha kamienia i żelaza.
+[/STORY]
+[OUT]Wejdź na ring.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Starożytny duch na ziemi ocenia cię jako godnego jego obfitości. Zyskasz błogosławieństwo i mały prezent.
+[/STORY]
+[OUT]Dziękuję i odejdź.
+[/NODE]
+
++[NODE]44
+[STORY]
+Nie zostałeś uznany za godnego i jesteś osłabiony. 
+
+'Bah. Dla nieznajomego zawsze był to długi strzał. Połóż na nim zioła - może ci pomóc. Teraz wyjdź.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]45
+[STORY]
+„Dobry handel z tobą. Teraz wyłącz.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]46
+[STORY]
+Jesteś bity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery  dwrockers(9)
++[NODE]3
+[STORY]
+Wchodzisz do starej podziemnej komory, udostępnianej, gdy ziemia się poruszyła, i widzisz, co musiał być krasnoludzki cmentarz. Teraz stoi w ruinie. Co gorsza, cokolwiek pozostaje, jest energicznie zjadane przez paczkę małych kamiennych stworzeń, prawdopodobnie bujaków! 
+
+[/STORY]
+[OUT][Krasnolud] Zwolennicy świętej ziemi. Atak!
+[OUT][Krasnolud] Rozkazuj kamienne stworzenia, aby były posłuszne.
+[OUT]Do ataku!
+[OUT]Spróbuj rozmawiać ze stworzeniami.
+[OUT][Domena] Pozwól swojej domenie poprowadzić cię i dowiedzieć się, dlaczego stworzenia są tak wzburzone.
+[OUT]Lepiej nie zadzieraj z krasnoludzkimi grobami lub bujakami. Pozostawiać.
+[/NODE]
+
++[NODE]10
+[STORY]
+Niszczysz bujaki i czujesz duchy starszych patrzących na ciebie dzięki. Chociaż były to stworzenia z kamienia, były wyraźnie szalone, aby zaatakować świętą ziemię. 
+
+Jedna z posągów przedstawia ci broń w nagrodę!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Niszczysz bujaki i czujesz duchy starszych patrzących na ciebie dzięki. Chociaż były to stworzenia kamienne, były wyraźnie szalone, aby zaatakować świętą ziemię. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Jest ich zbyt wiele - och, wstyd! Twoja krasnoludzka duma cierpi, ale były stworzeniami z kamienia, więc może tak miało być.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Rockers cię słyszą i wyglądają na przerażonych. Jeden z nich przewraca się do ciebie i płacze: 
+'Ty, mały kamienny ludu, pomagasz? Chcę z powrotem taty i mammy. Jemy i jemy, ale nie możemy jeść ...'
+
+Bujak krzyczy kamyki, a inni się przyłączają.
+[/STORY]
+[OUT]Rozejrzyj się i spróbuj im pomóc.
+[OUT]Po prostu je gonić!
+[/NODE]
+
++[NODE]16
+[STORY]
+Rockerzy tak bardzo się ciebie boją, że toczą się bez żadnego oporu. Jest tu dużo kamienia, który możesz ocalić, nie lekceważąc grobów.
+[/STORY]
+[OUT]Zbierz kamienie, oddaj hołd starszym i odejdź.
+[/NODE]
+
++[NODE]17
+[STORY]
+Widzisz duże metalowe bramy na ziemi. Tutaj maluchy myślą, że ich rodzice są. Ponieważ nie potrafią jeszcze przeżuwać metalu, próbowali jeść dookoła. 
+
+Bramy w rzeczywistości nie są takie trudne do otwarcia, ale ci rockowcy są wyraźnie zbyt młodzi, by myśleć dużo.
+[/STORY]
+[OUT]Otwórz im bramy. 
+[OUT]Otwórz im bramy. 
+[/NODE]
+
++[NODE]18
+[STORY]
+Przesuwasz jedno z drzwi bramy i widzisz tylko ziemię i skały, ale maluchy się ekscytują. Rzucają się w skały iw ciągu kilku minut znikają w głębi. Być może przez lata kopania można było ich śledzić, ale potem powiedzieli, że rodzice trolli czekają na nich. 
+
+Jest mnóstwo kamienia, który możesz zebrać, nie lekceważąc starszyzny, więc być może najlepiej zostawić to.
+[/STORY]
+[OUT]Zbierz kamienie, oddaj hołd starszym i odejdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+Próbujesz podnieść jedno z drzwi bramy, a bujaki rozlewają się pod nim, gdy tylko przeniesiesz go z ziemi. Niestety, brama jest zbyt ciężka, a ściany zbyt niestabilne. Cała rzecz zawala się, miażdżąc małe stworzenia i raniąc cię w procesie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Wydaje się, że rockerzy próbują pożerać się pod powalonymi metalowymi bramami. Bramy byłyby łatwe do poruszenia lub otwarcia, a stworzenia wyglądały na zajęte, ale mogło być pewne ryzyko. Możesz też oderwać kamień od bujaków, nie zakłócając dalej miejsca pochówku.
+[/STORY]
+[OUT]Otwórz im bramy. 
+[OUT]Otwórz im bramy. 
+[OUT]Po prostu zbierz kamień i wyjdź.
+[/NODE]
+
++[NODE]22
+[STORY]
+Nie masz pojęcia, dlaczego rockowcy są w takim szaleństwie. Ale jest wiele potencjalnych łupów do zebrania tutaj.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Lepiej po prostu wyjdź. 
+[/NODE]
+
++[NODE]24
+[STORY]
+Rockers cię słyszą i wyglądają na przerażonych. Jeden z nich przewraca się do ciebie i płacze: 
+'Ty, mały kamienny ludu, pomagasz? Chcę z powrotem taty i mammy. Jemy i jemy, ale nie możemy jeść ...'
+
+Bujak krzyczy kamyki, a inni się przyłączają.
+[/STORY]
+[OUT]Rozejrzyj się i spróbuj im pomóc.
+[OUT]Po prostu je gonić!
+[/NODE]
+
++[NODE]25
+[STORY]
+Rockers staje się jeszcze bardziej poruszony i gwałtowny, ale nie reaguje na ciebie. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Lepiej opuść to miejsce, nawet jeśli przodkowie mogą się złościć.
+[/NODE]
+
++[NODE]27
+[STORY]
+Rockers staje się jeszcze bardziej poruszony i gwałtowny, ale nie reaguje na ciebie. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Lepiej po prostu odejdź.
+[/NODE]
+
++[NODE]34
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery graverob(10)
++[NODE]2
+[STORY]
+Pomimo pierwszego pojawienia się, wydaje się, że jest to stary krasnoludzki cmentarzysko - niezwykłe znalezisko. Dostrzegasz surową grupę złodziei grobów, którzy przybyli tu przed tobą!
+[/STORY]
+[OUT][Krasnolud] Zaatakuj odrażających świętą ziemię!
+[OUT]Do ataku!
+[OUT]Spróbuj z nimi porozmawiać. Może możesz podzielić się łupami.
+[OUT]Poczekaj, aż wyjdą.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Grobowi rabusie niszczą znaczną część miejsca pochówku, a potem nagle łapią ich rzeczy i odsuwają się w pośpiechu.
+[/STORY]
+[OUT][Zerca lub krasnolud] Przeprowadź właściwe rytuały pogrzebowe, aby uspokoić tutaj wzburzone duchy.
+[OUT]Spróbuj naprawić cmentarzysko, aby uczcić zmarłych.
+[OUT]Spróbuj naprawić cmentarzysko, aby uczcić zmarłych.
+[OUT]Zobacz, czy nie zostawili niczego do łupu.
+[OUT]Zobacz, czy nie zostawili niczego do łupu.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wykonujesz odpowiednie rytuały i ponownie uświęcasz ziemię. Czujesz, że duchy, które się zatrzymują, wciąż są wściekłe, ale nie na ciebie.
+[/STORY]
+[OUT]Zbierz trochę kamienia, który został luźny, i wyjdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Próbujesz naprawić miejsce pochówku, ale czujesz, że duchy, które się zatrzymują, są wściekłe i atakują cię!
+[/STORY]
+[OUT]Spróbuj wykonać rytuał, aby uspokoić duchy.
+[OUT]Po prostu opuść to miejsce.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]11
+[STORY]
+Wykonujesz odpowiednie rytuały i ponownie uświęcasz ziemię. Czujesz, że duchy, które się zatrzymują, wciąż są wściekłe, ale nie na ciebie.
+[/STORY]
+[OUT]Zbierz trochę kamienia, który został luźny, i wyjdź.
+[/NODE]
+
++[NODE]17
+[STORY]
+Wykonujesz odpowiednie rytuały i ponownie uświęcasz ziemię. Czujesz, że duchy, które się zatrzymują, wciąż są wściekłe, ale nie na ciebie.
+[/STORY]
+[OUT]Zbierz trochę kamienia, który został luźny, i wyjdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+Rozzłoszczone duchy opuszczają cię, ale nie idą za tobą, gdy uciekasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Zdajesz sobie sprawę z tego, że rabusie grobów odeszli, ponieważ wściekłe duchy powstały, a teraz są gotowe do ataku!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]23
+[STORY]
+Przegrałeś, a rabusie cię okradają! 
+
+Odzyskiwanie rzeczy z powrotem w tyłku nie będzie łatwe. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Co? Masz na myśli, zamiast trzymać się, pozwól mi wziąć rzeczy?'
+[/STORY]
+[OUT][Harmonia] Jak harmonia jest twoją ścieżką, powiedz, że szukasz pokoju, a nie przemocy.
+[OUT]Potwierdź.
+[OUT][Krasnolud] Potrząśnij nimi pięścią i powiedz, że nie, masz na myśli, że nie zabijesz ich, jeśli odejdą teraz!
+[/NODE]
+
++[NODE]30
+[STORY]
+Zbierasz łup, ale wkrótce zdajesz sobie sprawę, że cokolwiek duchy tych złodziei grobu nie rozwiążą, są równie nieporuszeni z tobą. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Niszczysz złodziei grobów i odkładasz groby tak, jak powinny. 
+
+Czujesz, że duchy metalu i kamienia sprzyjają tobie.
+[/STORY]
+[OUT]Pokłon duchom dzięki.
+[OUT]Pokłon duchom dzięki.
+[/NODE]
+
++[NODE]35
+[STORY]
+Po odejściu złodziei grobów odkładasz groby tak, jak powinny. 
+
+Czujesz, że duchy metalu i kamienia sprzyjają tobie.
+[/STORY]
+[OUT]Pokłon duchom dzięki.
+[OUT]Pokłon duchom dzięki.
+[/NODE]
+
++[NODE]39
+[STORY]
+„Mówisz i rozmawiasz, ale nie jesteśmy gadatliwi, więc po prostu zostaw nas bądź zmiażdżyć zęby!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Wydaje mi się, że jest tu dużo lootowania”. Idziemy tą drogą, idziesz tam.'
+[/STORY]
+[OUT]Zgadzam się i zrabuj swój teren.
+[OUT]Zgadzam się i zrabuj swój teren.
+[/NODE]
+
++[NODE]48
+[STORY]
+„W porządku, dobrze, panie krasnoludzie, pójdziemy. Przepraszam...'
+[/STORY]
+[OUT]Pozwól im odejść. Przebuduj miejsce pochówku. 
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cem dwarf ghost(11)
++[NODE]2
+[STORY]
+To złowrogie miejsce pochówku musiało zostać odsłonięte, gdy ziemia się poruszyła. Kamienne i metalowe posągi upadłych krasnoludów stoją wysoko i dumnie, pomimo wszelkich szkód. 
+
+A jednak, oprócz spodziewanych obrażeń, widzicie, że niektóre groby zostały wyraźnie okradzione! Powietrze tutaj jest zimne i groźne.
+[/STORY]
+[OUT][Krasnolud] Ta hańba wymaga krwi! Pośpiesz się i zobacz, kto jest odpowiedzialny.
+[OUT][Duch] Duchy mogą się nawzajem wyczuwać. Gdzieś jest duch.
+[OUT]Zbadaj grób.
+[OUT]Czujesz tutaj sploty magii - być może obecność duchową. Wykonaj rytuał, aby wezwać tę obecność.
+[OUT][Gobliński szaman] Jest tu duchowa obecność - dziwna, ale niewątpliwa. Spróbuj z nim porozmawiać.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz i czujesz, że coś cię obserwuje. Z jednej z posągów wypowiada się głos: „Kto tam idzie? Przyjaciel czy wróg? Mów szybko!'
+[/STORY]
+[OUT][Runemaster] Kamienny duch! Powiedz, że jesteście pokrewnymi duszami.
+[OUT]Powiedz, że jesteś przyjacielem.
+[/NODE]
+
++[NODE]4
+[STORY]
+Skupiasz się i natychmiast wiesz, że jest duchowa obecność. Mówi do ciebie: 
+
+'Pomóż mi, eteryczny przyjacielu. Chociaż nie jesteśmy tacy sami, na pewno usłyszysz moją prośbę?'
+[/STORY]
+[OUT]Zapytaj, jak się od ciebie różnią.
+[OUT]Zapytaj, jak możesz pomóc.
+[/NODE]
+
++[NODE]8
+[STORY]
+Pojawia się duch i mówi do ciebie: 
+
+'Pomóż mi ...'
+[/STORY]
+[OUT]Zapytaj, jakiej pomocy potrzebują.
+[OUT]Dlaczego masz się tym przejmować?
+[OUT]Zaatakuj ducha!
+[/NODE]
+
++[NODE]10
+[STORY]
+Powietrze jest stęchłe i zimne, a ty zdajesz sobie sprawę, że wszystko wokół ciebie powoli osusza kolor, zmieniając kolor na szary. 
+
+Widzisz migotanie upiornej postaci z wyciągniętymi ramionami i otwartymi ustami w cichym krzyku.
+[/STORY]
+[OUT]Zaatakuj ducha!
+[OUT][Mistycyzm] Czujesz tutaj sploty magii - być może obecność duchową. Wykonaj rytuał, aby wezwać tę obecność.
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]14
+[STORY]
+Duch przestał istnieć, więc twoja broń okazała się bezużyteczna. 
+
+Czujesz, że życie ci się wyczerpało, ale kiedy wychodzisz poza granice miejsca grobu, aby uciec, zdajesz sobie sprawę, że gniewna dusza nie może się ścigać.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Kamienny i żelazny syn, dobrze!'
+
+Kamienna statua staje się animowana i zwraca się do ciebie. 
+
+- Runesmith, nie mniej! Czy możesz wykuć mi nowy kamień śmierci, abym mógł być wolny? Nie, chyba za mało czasu.'
+[/STORY]
+[OUT]Zapytaj, kto tu trzyma ducha.
+[OUT]Zapytaj o kamienie śmierci.
+[OUT]Powiedz, że nigdy wcześniej nie spotkałeś ducha kamiennego, słyszał tylko o nich.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Kamienny i żelazny syn, dobrze! Możesz pomóc. Możesz zabić tych bezbożnych robali, którzy mnie tu trzymają!'
+[/STORY]
+[OUT]Zapytaj, kto tu trzyma ducha.
+[OUT]Zapytaj, kim on jest.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Aye, aye, deathstone. Tylko runowie z dawna dobrze je znają. Krótko mówiąc, to kamień runiczny wiąże mnie w mojej formie, czyni mnie strażnikiem. Powinno być złożone tam, gdzie było moje serce, ale jak widzisz, zniknęło, więc moja moc zanika.'
+[/STORY]
+[OUT]Powiedz, że nigdy wcześniej nie spotkałeś ducha kamiennego, słyszał tylko o nich.
+[OUT]Zapytaj, kto tu trzyma ducha.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Jestem słaby, a ty nie jesteś moim krewnym ... proszę pomóż ...'
+[/STORY]
+[OUT]Co można zrobić?
+[/NODE]
+
++[NODE]22
+[STORY]
+„Brzydcy rabusie przyjechali i splugawili naszych przodków. Szczęśliwi drani wzięli kamień śmierci, zanim zdołałem się w pełni obudzić. Teraz są uwięzieni w grobie, ale trzymają mój kamień śmierci. Jesteśmy w impasie.'
+[/STORY]
+[OUT][Ork witch] Zaoferuj zamiast tego rytuał. To da duchowi wystarczającą moc, aby samemu to uporządkować.
+[OUT]Zaoferuj zamiast tego rytuał. To da duchowi wystarczającą moc, aby samemu to uporządkować.
+[OUT]Zgadzam się wejść i walczyć z grobowcami.
+[OUT]Powiedz, że jest ci przykro, ale nie ryzykujesz. Pozostawiać.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Mój kamień śmierci, moje serce ... skradzione ... zniknęło ... '
+[/STORY]
+[OUT]Co można zrobić?
+[OUT]Kamień śmierci?
+[/NODE]
+
++[NODE]25
+[STORY]
+Duch milczy, jego obecność migocze i skupia się. Czujesz nagromadzenie ciemnych energii.
+[/STORY]
+[OUT]Zapytaj, jakiej pomocy potrzebują.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Duch kamienia jest jednym imieniem, które otrzymałem i dobrym, mówię. Z tego, co zbieram i wiem, nie była moją siłą, byłem niegdyś upadłym wojownikiem, moja dusza tak silna, że chciała pozostać i służyć, tak wielcy kowale wykuli mi kamienne serce - kamień śmierci - iw ten sposób uczynił mnie strażnikiem tego miejsca pochówku. 
+
+[/STORY]
+[OUT]Zapytaj, kto tu trzyma ducha.
+[OUT]Zapytaj o kamienie śmierci.
+[/NODE]
+
++[NODE]30
+[STORY]
+„Tak! Ryzyko jest dobre. Źle, że opuszczę swoje miejsce służby, ale jeśli nam się uda, znów wrócę silny!'
+[/STORY]
+[OUT]Uchwyć chętną esencję.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Bah, brudna orcza magia, by wtrącać się w moją duszę. Ech!'
+[/STORY]
+[OUT]Wciągnij coś obraźliwego na temat ich kamiennego mózgu, ale wykonaj rytuał.
+[OUT]„Kogo nazywacie brudem, ty kamiennym mózgiem gruzów?- Zamiast tego zaatakuj ducha.
+[/NODE]
+
++[NODE]35
+[STORY]
+Skaczesz, by zaatakować krasnoludzkiego ducha, ale zdaj sobie sprawę, że masz do czynienia z grobowymi złodziejami, których potrzebował, by kogoś pozbyć. Cholerny rockbrain cię oszukał.
+[/STORY]
+[OUT]Walka!
+[/NODE]
+
++[NODE]36
+[STORY]
+Pojawia się duch i mówi do ciebie: 
+
+'Pomóż mi ...'
+[/STORY]
+[OUT]Zapytaj, jakiej pomocy potrzebują.
+[OUT]Zapytaj, jaka jest obecność duchowa.
+[OUT]Zaatakuj ducha!
+[/NODE]
+
++[NODE]38
+[STORY]
+Pokonujesz duchy, które cię zaatakowały. Trzęsienia ziemi i cmentarz z posągami i podziemnymi komnatami zawalają się. Słyszysz krzyki umierających ludzi z jednej z takich komnat ... ale przynajmniej jest dodatkowy łup do zebrania.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Złodzieje grobów leżą martwi, a ty znajdujesz kamień pokryty runami - kamień śmierci. Duch stróża woła do ciebie: 
+
+'Masz to? Szybko włóż to do mojej piersi.'
+[/STORY]
+[OUT]Włóż kamień śmierci do skrzyni posągu krasnoludów.
+[OUT]Zniszcz kamień śmierci.
+[/NODE]
+
++[NODE]41
+[STORY]
+„Dziękuję”, duch szepcze, gdy kamień pochłania jego serce, a statua cichnie. 
+
+Zmielone trzęsie, a spod kamienia przychodzi prezent dla ciebie.
+[/STORY]
+[OUT]Kiwnij głową i wyjdź.
+[/NODE]
+
++[NODE]42
+[STORY]
+Ziemia trzęsie się pod twoimi stopami, gdy kamień się rozpada. Widzisz uwolnionego ducha, ale jest on rozgniewany. 
+
+Cmentarz popada w ruinę - nic oprócz gruzu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Jesteś pokonany i zmuszony do ucieczki. Gdy biegniesz, widzisz, jak posąg strażnika rozpada się na gruzy i słyszy, jak duch krzyczy w rozpaczy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+Rytuał zadziałał. Wzywaliście wasze boskie ogniwo i utkaliście wokół siebie magię, aby wzmocnić kamiennego ducha. 
+
+Widzisz posąg poruszający się szybciej niż jakikolwiek kamień. Wpada do pobliskich katakumb i słyszysz krzyki umierających złodziei grobów. 
+
+[/STORY]
+[OUT]Czekaj.
+[/NODE]
+
++[NODE]49
+[STORY]
+Statua wraca na swoje miejsce i widzisz, że skrzynia ma teraz kamień runiczny. 
+
+'Dziękuję Ci. Teraz będę spać. Nie odważ się obrabować tego miejsca, ale zamiast tego weź wszystko, co pozostało, i ten dar jako moje podziękowania.'
+[/STORY]
+[OUT]Kiwnij głową, zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]51
+[STORY]
+Rytuał zawiódł i zamiast tego spowodował krzywdę duchową. Trzęsienie ziemi, upadek katakumb i krzyki umierających złodziei grobów docierają do ciebie, gdy uciekasz. Widzisz, jak posąg strażnika rozpada się na gruzy i słyszy, jak duch krzyczy w rozpaczy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --smith ghost(12)
++[NODE]2
+[STORY]
+To, co uważałeś za cmentarz, to znacznie więcej. Wchodzisz do starożytnych ruin krasnoludzkiego miasta, teraz odkrytego i wystawionego na powierzchnię. Upadłe posągi, rozsypane i opuszczone, ale wciąż imponujące, patrzą na ciebie, wędrując po cichych ulicach. 
+
+[/STORY]
+[OUT][Krasnolud] Dobrze znasz układ. Poznaj ruiny.
+[OUT]Przeszukaj ruiny, by zdobyć łup lub coś interesującego.
+[OUT]Przeszukaj ruiny, by zdobyć łup lub coś interesującego.
+[OUT]Przeszukaj ruiny, by zdobyć łup lub coś interesującego.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wkrótce zdajesz sobie sprawę, że jest to tylko niewielka część większego miasta wyraźnie wypchnięta przez Rozbicie. Widzisz również, że był już wielokrotnie ograbiany. 
+
+Mimo to myślisz, że to była dzielnica rzemieślników, więc wiesz, gdzie szukać wielkiej kuźni, warsztatu rzemieślniczego i gabinetu mistrzów run.
+[/STORY]
+[OUT]Idź do kuźni.
+[OUT]Idź do warsztatu.
+[OUT]Idź do badania.
+[/NODE]
+
++[NODE]5
+[STORY]
+Znajdujesz wielką kuźnię głównie w ruinie, ale wiesz, że prawdziwa kuźnia byłaby ukryta głęboko w środku, więc możesz spróbować znaleźć wejście. 
+[/STORY]
+[OUT][Smith] Wiesz dokładnie, gdzie go znaleźć. Wejść.
+[OUT]Szukaj wejścia.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wśród gruzu i pyłu upadłego głównego holu, za pozostałościami olbrzymiego kowadła, znajdziesz przejście prowadzące głębiej do miasta, gdzie odkrywasz kuźnię mistrza kowala. 
+
+Miejsce jest opuszczone, nie usuwane przez szabrowników, ale prawdopodobnie przez właściciela, chociaż dostrzegasz kilka narzędzi i zasobów, które możesz jeszcze uratować. 
+
+Gdy zaczniesz zbierać łup, usłyszysz cichy, głuchy łomot, który staje się coraz bardziej regularny.
+[/STORY]
+[OUT]Zbadajcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Jesteś teraz pewien, że słyszysz dźwięki działającej kuźni, wytapiania metalu i bębnienia młota. Czujesz nawet gorące węgle. 
+
+Mrugasz i nagle znajdujesz się w tej kuźni! Kowal pracuje na czymś z plecami do ciebie.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Grzecznie zapytaj kowala, co to za miejsce i jak się tu dostałeś.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Ach, to długa historia, chłopcze.'
+
+Gdy kowal odwraca się do ciebie, widzisz krasnoludzkie zwłoki, które zostały częściowo zjedzone przez robaki, a oczodoły puste i ciemne, szczęka zwisająca z nici, zgniłe ciało spadające.
+[/STORY]
+[OUT]Wykrzyknij oburzenie na los twojego brata.
+[OUT]Powiedz, że był tu wyraźnie, być może zbyt poważnie traktował swoje obowiązki.
+[OUT]Zignoruj jego wygląd i zapytaj, jak się tu dostałeś, kiedy tylko chwilę stałeś w starych ruinach.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Bracie ... Nie miałem nadziei, że znów będę tak nazywany. Tak jak powiedziałem, to długa opowieść, a ty żyjesz i chcesz być na swojej drodze. Więc mogę ci to powiedzieć, jeśli chcesz?'
+[/STORY]
+[OUT]Powiedz, że masz czas, aby usłyszeć całą historię.
+[OUT]Tak, powiedz, że chciałbyś wersję krótką.
+[/NODE]
+
++[NODE]11
+[STORY]
+„To miasto było kiedyś cudem podwładnych, a ja byłem młodym i ambitnym uczniem mistrza. Jasne, byłem dobry, ale byłem w większości zarozumiały i uważałem się za wzruszonego przez wielkich kowali.'
+[/STORY]
+[OUT]Powiedz, że to często sposób na młodość.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Tak jak powiedziałem, to długa opowieść, a ty żyjesz i chcesz być na swojej drodze. Więc mogę ci to powiedzieć, jeśli chcesz?'
+[/STORY]
+[OUT]Powiedz, że masz czas, aby usłyszeć całą historię.
+[OUT]Tak, powiedz, że chciałbyś wersję krótką.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Heh, no cóż, będę z tobą szczery, chłopcze, pociągnąłem cię tutaj, bo jestem samolubny. 
+
+Tak jak powiedziałem, to długa opowieść, a ty żyjesz i chcesz być na swojej drodze. Więc mogę ci to powiedzieć, jeśli chcesz?'
+[/STORY]
+[OUT]Powiedz, że masz czas, aby usłyszeć całą historię.
+[OUT]Tak, powiedz, że chciałbyś wersję krótką.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Tak, masz rację. Pochwaliłem się swoimi umiejętnościami i wspiąłem po drabinie, och, tak, chłopaki. Z czasem mój pan był tak chory na mnie, że wysłał mnie na powierzchnię, aby się nauczyć i udowodnić moją wartość.'
+[/STORY]
+[OUT]Więc mieszkałeś na górze, u nas?
+[/NODE]
+
++[NODE]15
+[STORY]
+„Tak zrobiłem. Przeżyłem mroczne czasy, a z czasem zapomniałem o podziemiach, a przynajmniej nie czułem już tego wezwania. Stawałem się coraz bardziej ambitny i dumny. Nazywać siebie mistrzem kowala wszechczasów, przechwalając się, jak byłem najlepszy.
+[/STORY]
+[OUT]Kontynuuj.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Zostałem ... uwikłany w jakieś, dobrze, osobiste rzeczy i aby skrócić tę opowieść, demon nazywający siebie skarbnikiem nazwał mój blef.'
+[/STORY]
+[OUT]Bluff? Więc w końcu nie byłeś taki wspaniały?
+[/NODE]
+
++[NODE]17
+[STORY]
+„Bah, byłem. Nadal jestem! Ale ... cóż, on mnie zagrał, dobrze? Zlecił mi wykonanie klatki runicznej z mithrilu. Miało to być delikatne, skomplikowane i lekkie, a jednocześnie wystarczająco mocne, by pomieścić nawet smoka! To miało być arcydzieło?'
+[/STORY]
+[OUT]„Imponujące.„Poczekaj, aż będzie kontynuował.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Ach, mój chłopcze, to było, jest rzeczą piękna i umiejętności! Ale oto szkopuł. Stworzenie mnie nie zleciło.'
+[/STORY]
+[OUT]Hm?
+[/NODE]
+
++[NODE]19
+[STORY]
+„Zrobił mi zakład. Powiedziałem, że jeśli zrobię to za trzy miesiące, dostanę bogactwa i uznanie ponad moje marzenia. Jeśli jednak stracę, na zawsze będę służyć jako jego kowal.'
+
+[/STORY]
+[OUT]Więc przegrałeś?
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, ten przeklęty oszust. Gdy miałem już skończyć, ukradł niezbędny kamień runiczny, który był potrzebny do ukończenia klatki. Bez niego nie mógłbym dokończyć, bo klatka nigdy nie będzie trzymać smoka.'
+[/STORY]
+[OUT]Czy to nie oszustwo?
+[/NODE]
+
++[NODE]21
+[STORY]
+„Powiedz to cholernemu demonowi! Zasady nigdy nie mówiły, że nie może się wtrącać. Albo, jak to ujął: „Powinieneś lepiej oglądać swoje materiały, stary!- Och, ten diabeł!'
+[/STORY]
+[OUT]Więc dlaczego tu jesteś?
+[/NODE]
+
++[NODE]22
+[STORY]
+„Wiem, gdzie mieszka diabeł, ale oczywiście nie mogę iść. Jeśli pójdziesz i zabijesz, będę wolny! I oczywiście wdzięczny. Moja kuźnia umrze z moim duchem, ale jeśli wykonasz czyn, znajdziesz ode mnie obfite dary! 
+
+A tu, jako zachęta.'
+
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odrzuć, zrabuj to miejsce i wyjdź.
+[/NODE]
+
++[NODE]23
+[STORY]
+„W młodości byłem mistrzem kowala, a przynajmniej tak mi się wydawało. Pochwaliłem się i chwaliłem, a szukając więcej wiedzy, nawet odważyłem się wyjść poza podziemia.'
+
+[/STORY]
+[OUT]Więc mieszkałeś na górze, u nas?
+[/NODE]
+
++[NODE]24
+[STORY]
+„Tak, zrobiłam. Przeżyłem mroczne czasy i miałem dobre życie, ale potem przyszedł demon z jego sztuczkami.'
+[/STORY]
+[OUT]Racja, jak zwykle są demony?
+[/NODE]
+
++[NODE]25
+[STORY]
+„Postawił mnie za cel - uczyń go cudownym światłem w klatce jako piórkiem, ładnym jak elf i wystarczająco silnym, by pomieścić smoka. Zrób to w trzy miesiące, a sława i bogactwo będą moje!'
+[/STORY]
+[OUT]Więc naturalnie wzięłaś przynętę?
+[/NODE]
+
++[NODE]26
+[STORY]
+„Znowu jesteś. Mały drań ukradł ważną część nocy, zanim skończyłem. I tak jestem zobowiązany służyć mu na wieczność.'
+[/STORY]
+[OUT]Więc dlaczego tu jesteś?
+[/NODE]
+
++[NODE]27
+[STORY]
+Wśród gruzu i pyłu upadłego głównego holu, za pozostałościami olbrzymiego kowadła, znajdziesz przejście prowadzące głębiej do miasta, gdzie odkrywasz kuźnię mistrza kowala. 
+
+Miejsce jest opuszczone, nie usuwane przez szabrowników, ale prawdopodobnie przez właściciela, chociaż dostrzegasz kilka narzędzi i zasobów, które możesz jeszcze uratować. 
+
+Gdy zaczniesz zbierać łup, usłyszysz cichy, głuchy łomot, który staje się coraz bardziej regularny.
+[/STORY]
+[OUT]Zbadajcie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Wśród gruzu i pyłu upadłego głównego holu, za pozostałościami olbrzymiego kowadła, znajdziesz przejście prowadzące głębiej do miasta, gdzie odkrywasz kuźnię mistrza kowala. 
+
+Miejsce jest opuszczone, nie usuwane przez szabrowników, ale prawdopodobnie przez właściciela, chociaż dostrzegasz kilka narzędzi i zasobów, które możesz jeszcze uratować. 
+
+Słyszysz dziwne szperanie w kącie i zdajesz sobie sprawę, że obserwujesz, jak nie żyje!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]30
+[STORY]
+Kości są zmiażdżone i martwe, tak jak powinny być. Możesz teraz łupić kuźnię.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Jesteś pokonany i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Przychodzisz do miejsca, gdzie kiedyś musiało stać jakieś stanowisko rzemieślnicze. Ozdobne stoły zawierają resztki dziwnych narzędzi i bibelotów. Wiele wspaniałych rzeźb z kamienia i metalu nadal tu stoi. 
+[/STORY]
+[OUT][Krasnolud] Warsztat rzemieślniczy. Weź tylko to, co zostało w pobliżu. Nie dotykaj posągów.
+[OUT]Zbierz wszystko, co możesz odzyskać tutaj.
+[/NODE]
+
++[NODE]35
+[STORY]
+Zbierasz to, co możesz, ale kiedy skradasz posągi, ożywa mechanizm, który zamyka cię w komnacie!
+[/STORY]
+[OUT][Smith] Znajdź uchwyt otwierający i wyjdź.
+[OUT]Spróbuj dowiedzieć się, jak go otworzyć.
+[OUT]Rozwal to.
+[/NODE]
+
++[NODE]36
+[STORY]
+Bez względu na to, jak mocno uderzysz, kamień pozostaje nieruchomy.
+[/STORY]
+[OUT]Spróbuj dowiedzieć się, jak go otworzyć.
+[/NODE]
+
++[NODE]38
+[STORY]
+Po wielu godzinach w końcu otwierasz drzwi i opuszczasz nieszczęsne miejsce. 
+
+Reszta ruin została już oczyszczona.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Potrzeba było dni, aby dowiedzieć się o sekwencji otwarcia. Zanim drzwi się otworzą, jesteś wyczerpany, głodny i chory. Co gorsza, kiedy przygotowujesz się do wyjścia, widzisz, że drzwi zaczynają się ponownie zamykać, więc uciekasz, porzucając większość tego, co zrabowałeś. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Dochodzisz do zamkniętych metalowych drzwi. Na kamieniach w ścianie widać wiele run wyrzeźbionych głęboko w powierzchni.
+[/STORY]
+[OUT][Runemaster] Wypowiedz hasło i wejdź do warsztatu kowalskiego.
+[OUT]Spróbuj złamać magię zamykającą drzwi.
+[OUT]Nie masz wystarczającego ludu w mistycyzmie. Pozostawiać.
+[/NODE]
+
++[NODE]46
+[STORY]
+W komnacie widzisz szeroką, pustą przestrzeń. Cokolwiek tu było, zostało splądrowane lub zabrane przez właściciela. 
+
+Co dziwne, znajdziesz jednak kamienny manekin w szatach i trzymający broń krasnoludów. Jest uwaga: „Wszedłeś, więc pomóż sobie.'
+[/STORY]
+[OUT]Weź prezent i wyjdź.
+[/NODE]
+
++[NODE]49
+[STORY]
+Nie możesz wejść, a runy wysysają z ciebie jakąś siłę życiową, zmuszając cię do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Niestety, niczego nie znajdziesz. Być może został zniszczony lub myliłeś się. Zmęczony, opuszczasz ruiny.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Krasnolud wzdycha, a potem znika. Kuźnia jest pusta.
+[/STORY]
+[OUT]Zrób łup i odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery Human D3(13)
++[NODE]3
+[STORY]
+Odkrywasz ruiny ludzkiego cmentarza pochodzącego z zamierzchłych czasów, gdzie pochówek był już wyraźnie zwyczajem. Widać nagrobki z wyblakłymi oznaczeniami, a nawet duże kamienne krypty. 
+[/STORY]
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery hum ghost(14)
++[NODE]2
+[STORY]
+Między nagrobkami, które opowiadają o dawnych czasach, znajduje się miejsce, w którym jest jedna płyta z piaskowca z bardzo słabymi i nieczytelnymi oznaczeniami. To coś co przyciąga uwagę.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Umieszczenie kamienia i wyblakłych oznaczeń wygląda na ciebie jak jakiś symbol osłony, sugerując, że ktokolwiek został tutaj pochowany, był niepożądany, ale też się obawiał. Czy osłony miały chronić kogokolwiek, kto tu jest, czy na odwrót? Niestety, jest to niejasne. 
+[/STORY]
+[OUT]Szukajcie czegoś użytecznego.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wydaje się, że jest to miejsce pochówku dla wyrzutków, przestępców, lub tych, którzy byli niechciani we wspólnocie, możliwe też, że tych zbyt biednych, aby stać ich było na właściwy pochówek. Gdy się zbliżacie, czujecie ulotne poczucie niepokoju - może tu być ciemna magia ...
+[/STORY]
+[OUT]Szukajcie czegoś użytecznego.
+[/NODE]
+
++[NODE]5
+[STORY]
+Wydaje się, że jest to miejsce pochówku dla wyrzutków, przestępców, lub tych, którzy byli niechciani we wspólnocie, możliwe też, że tych zbyt biednych, aby stać ich było na właściwy pochówek. 
+[/STORY]
+[OUT]Szukajcie czegoś użytecznego.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Wy... Wy tam, żyjący! Chodźcie tu. Potrzebuję przysługi, a Wy wydajecie się, że zechcecie mnie wysłuchać.'
+
+Zdajecie sobie sprawę, że dźwięk pochodzi z kamiennej płyty. Gdy się zwracacie ku niej, widzicie zarysy upiornej postaci.
+[/STORY]
+[OUT][Duch] Powiedz mu, aby mówił wyraźnie, bez dramatu. Zapytaj go, dlaczego tu jest.
+[OUT][Gobliński szaman] Czujesz, że ten duch jest związany z nagrobkiem. Zapytaj go, dlaczego.
+[OUT]Zapytajcie go, na czym polega jego problem.
+[OUT]Do ataku!
+[OUT]Pozostawcie go swojemu losowi.
+[/NODE]
+
++[NODE]8
+[STORY]
+„No cóż, wiecie, cmentarze, martwi ludzie, po tym, jak bramy podziemi zostały zamknięte na wieki, a potem ten wasz bóg, Veles, zniknął, jesteśmy tutaj dość przeludnieni.” 
+
+Ale powiedz, duchu do ducha, pomożesz mi?'
+[/STORY]
+[OUT]Powiedz, że widzisz, że utknął tutaj i zapytaj dlaczego.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Specjalista, świetny. Tak, utknąłem tutaj, ponieważ jakiś mściwy darń uwięził w tym miejscu mojego biednego ducha. Ciemna magia, kiepski smak, wybierasz ...'
+[/STORY]
+[OUT]Powiedzcie mu, że wiecie o jego kłamstwie. Niech powie Wam prawdę.
+[OUT]Do ataku!
+[OUT]Pozostawcie go swojemu losowi.
+[OUT]Zgódźcie się spróbować rytuału, aby go uwolnić.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[/NODE]
+
++[NODE]11
+[STORY]
+Uwalniacie ducha od jego więzów, a gdy staje się wolny, dostrzegacie w jego oku zło. Pojawia się kilka innych duchów podobnych do upiora po czym dołączają do ich dawno utraconego mistrza. 
+
+Powietrze gęstnieje i podąża za duchem, gdy ten znika, pozostawiając Wam jedynie przekleństwo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Nie udaje ci się wykonać rytuału i duch zmienia się w gniewne upiory. „Bezużyteczne kawałki mięsa!'
+
+Czujesz się osłabiony, ale może dobrze, że duch pozostał uwięziony.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Och, dobrze, dobrze - tak, byłem nędzną duszą. Morderczy złoczyńca, do którego zostałem wezwany, przeklęty do wieczności przykuty do tego kamienia. Czy możesz sobie wyobrazić nudę? Pozwól mi odejść, a nagrodzę cię - obiecuję.'
+[/STORY]
+[OUT]Zgódźcie się spróbować rytuału, aby go uwolnić.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[OUT]Wzmocnij rytuał, aby upewnić się, że zostanie tam, gdzie jest. 
+[OUT]Do ataku!
+[OUT]Pozostawcie go swojemu losowi.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[/NODE]
+
++[NODE]14
+[STORY]
+Wzmacniasz tutaj rytuał wiążący ducha. Odsuwa się w cień, nie mogąc nic zrobić, aby cię zatrzymać. Czujesz, że spada na ciebie fala dobrej energii - myślisz, że jest to efekt pierwotnego zaklęcia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Nie udaje ci się wzmocnić rytuału i czujesz się wyczerpany po próbie. 
+
+Duch jest rozgniewany i wymachuje na ciebie, zmuszając cię do wyjścia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Wiesz, w dawnych czasach rzuciłbym na ciebie klątwę i zebrałby moje ciemne sługi, aby zbierać śmierć i zniszczenie na ziemiach. Ale cały mój czas w samotności nauczył mnie lekcji. Zamiast tego będę ci służył.'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz ducha, ale podejrzewasz, że w końcu tu wróci. Jednak na razie zniknęło.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Duch cię pokonuje i zostawia cię przeklętego, gdy uciekasz z jego zasięgu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Rozbijasz nagrobek na kawałki, ale duch pozostaje związany z tym miejscem. Oczywiście brutalna siła nie złamie tego przekleństwa. 
+
+Duch odsuwa się, przeklinając na ciebie i widzisz przebłysk złośliwości w jego martwych oczach. Czujesz, że twój duch jest zmęczony wysiłkiem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Uwalniacie ducha od jego więzów, a gdy staje się wolny, dostrzegacie w jego oku zło. Pojawia się kilka innych duchów podobnych do upiora po czym dołączają do ich dawno utraconego mistrza. 
+
+Powietrze gęstnieje i podąża za duchem, gdy ten znika, pozostawiając Wam jedynie przekleństwo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Wydaje mi się, że moje kłopoty można nazwać typowym zjawiskiem duchowym, eh, no mam problem. Tak .. Mam na myśli, że utknąłem tutaj, ponieważ jakiś mściwy darń uwięził w tym miejscu mojego biednego ducha.'
+[/STORY]
+[OUT]Powiedzcie mu, że wiecie o jego kłamstwie. Niech powie Wam prawdę.
+[OUT]Do ataku!
+[OUT]Pozostawcie go swojemu losowi.
+[OUT]Zgódźcie się spróbować rytuału, aby go uwolnić.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Specjalista, świetny. Tak, utknąłem tutaj, ponieważ jakiś mściwy darń uwięził w tym miejscu mojego biednego ducha. Ciemna magia, kiepski smak, wybierasz ...'
+[/STORY]
+[OUT]Powiedzcie mu, że wiecie o jego kłamstwie. Niech powie Wam prawdę.
+[OUT]Do ataku!
+[OUT]Pozostawcie go swojemu losowi.
+[OUT]Zgódźcie się spróbować rytuału, aby go uwolnić.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[OUT]Zgódźcie się rozbić nagrobek i zobaczcie, czy to go uwolni.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery hum mix(15)
++[NODE]2
+[STORY]
+Wchodzisz na starożytny cmentarz ludzki. Tutaj czujesz obecność istot nieziemskich pozostających w ciemnych zakamarkach, ale nie reagują na ciebie w żaden sposób.
+[/STORY]
+[OUT]Dobrze. Szukaj przydatnych zasobów, nie przeszkadzając zmarłym.
+[OUT]Dobrze. Szukaj przydatnych zasobów, nie przeszkadzając zmarłym.
+[OUT]Dobrze. Szukaj przydatnych zasobów, nie przeszkadzając zmarłym.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Cmentarz wygląda, jakby był wielokrotnie ograbiany. Jest trochę gruzu i brudu. 
+
+Znalazłeś jednak wyblakły pentagram i martwe ciało, które nie zostało zakopane. Wśród zgniłych rzeczy znajdziesz mapę narysowaną na kawałku skóry.
+[/STORY]
+[OUT]Weź mapę i wyjdź. 
+[OUT]Weź mapę i wyjdź.
+[/NODE]
+
++[NODE]6
+[STORY]
+Cmentarz wygląda, jakby był wielokrotnie ograbiany. Jest trochę gruzu i brudu. 
+
+Znajdujesz jedną dużą kryptę, która wciąż może kryć w sobie pewne tajemnice, ale musisz się przesunąć dużą płytę kamienną, aby się tam dostać.
+[/STORY]
+[OUT]Jesteś wystarczająco silny, aby przenieść płytę bez większego wysiłku.
+[OUT]Spróbuj przenieść płytę.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Przesuwasz płytę i wchodzisz do ciemnej krypty. 
+
+Kiedy wchodzisz do środka, świece zapalają się wzdłuż twojej ścieżki, a wewnątrz znajdziesz kamienną trumnę. Wokół niego, w różnych wnękach, widać posągi w biżuterii, przedmiotach ozdobnych, a nawet ceremonialnej broni.  Niektóre z nich są prawdopodobnie zbyt stare, aby je wykorzystać, ale niektóre mogą zostać uratowane. 
+
+[/STORY]
+[OUT]Wkradnij się i szybko zrabuj miejsce.
+[OUT]Wkradnij się i szybko zrabuj miejsce.
+[OUT]Wkradnij się i szybko zrabuj miejsce.
+[OUT]Zaatakuj wszystko, co leży w trumnie.
+[OUT]Zaatakuj wszystko, co leży w trumnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Krypta pozostaje nietknięta, a wysiłek pozostawia cię wyczerpanym.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Czujesz, jak powietrze napina się wokół ciebie, a po twoim kręgosłupie lęka się strach, ale wślizgujesz się i łapiesz jak najwięcej, zanim cokolwiek się stanie. 
+[/STORY]
+[OUT]Dobrze, weź rzeczy i wyjdź.
+[OUT]Dobrze, weź rzeczy i wyjdź.
+[/NODE]
+
++[NODE]16
+[STORY]
+Czujesz, jak powietrze napina cię wokół i kręgosłup spływa na ciebie. Nic nie widzisz, ale czujesz ciemną klątwę atakującą cię!
+[/STORY]
+[OUT]Brońcie się.
+[/NODE]
+
++[NODE]18
+[STORY]
+Czujesz, jak powietrze napina się wokół ciebie, a po twoim kręgosłupie lęka się strach, ale wślizgujesz się i łapiesz jak najwięcej, zanim cokolwiek się stanie. 
+[/STORY]
+[OUT]Dobrze, weź rzeczy i wyjdź.
+[OUT]Dobrze, weź rzeczy i wyjdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+Cokolwiek ciemna siła próbowała cię złamać, zawodzi i wycofuje się, skąd przyszła. 
+
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Otwierasz kryptę i dźgasz wszystko, co było w środku. Wygląda jak bardzo martwe ciało, a teraz jest, er, martwy.
+[/STORY]
+[OUT]Dobrze. Zrabuj miejsce i wyjdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+Striga, która leżała wewnątrz, spełniła swoją prawdziwą śmierć. Grobowiec jest otwarty na grabieże.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Źle cię pobito, twoja krew została pobita, twoje dusze osłabione, ale udaje ci się uciec przed śmiercią.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Cmentarz wygląda, jakby był wielokrotnie ograbiany. Jest trochę gruzu i brudu. 
+
+Pod jednym z nagrobków zauważysz także stwora. 
+
+[/STORY]
+[OUT]Przyjrzyj się bliżej, aby spróbować go zidentyfikować.
+[OUT]Do ataku!
+[OUT]Zostawcie to.
+[OUT][Unliving] Czujesz się tutaj słabszą formą życia. Spróbuj zdominować go w poddaństwo.
+[/NODE]
+
++[NODE]28
+[STORY]
+To są nieożywione robactwo!
+[/STORY]
+[OUT]Zabij ich!
+[OUT]Odciągnij ich trochę jedzenia i trochę krwi. Następnie zrabuj grób, który kopali.
+[OUT]Odchodzicie.
+[OUT][Unliving] Czujesz się tutaj słabszą formą życia. Spróbuj zdominować go w poddaństwo.
+[/NODE]
+
++[NODE]35
+[STORY]
+Szczury cię pokonały i jesteś zmuszony do ucieczki. Niektórzy z was są zarażeni nieożywionym robactwem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Ciemna, złowroga siła ściska wasze dusze, niszcząc je od wewnątrz. Czujesz się brudny, pogwałcony. 
+
+Udaje ci się wydostać z tego miejsca, ale nie bez blizn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Przesuwasz płytę i wchodzisz do ciemnej krypty. 
+
+Kiedy wchodzisz do środka, świece zapalają się wzdłuż twojej ścieżki, a wewnątrz znajdziesz kamienną trumnę. Wokół niego, w różnych wnękach, widać posągi w biżuterii, przedmiotach ozdobnych, a nawet ceremonialnej broni.  Niektóre z nich są prawdopodobnie zbyt stare, aby je wykorzystać, ale niektóre mogą zostać uratowane. 
+
+[/STORY]
+[OUT]Wkradnij się i szybko zrabuj miejsce.
+[OUT]Wkradnij się i szybko zrabuj miejsce.
+[OUT]Wkradnij się i szybko zrabuj miejsce.
+[OUT]Zaatakuj wszystko, co leży w trumnie.
+[OUT]Zaatakuj wszystko, co leży w trumnie.
+[/NODE]
+
++[NODE]46
+[STORY]
+Niestety, dla jednego z was rany były zabójcze - a przynajmniej tak się wydawało, dopóki nie powstałeś jako nocny spacerowicz, strzyga. Na szczęście twoje połączenie z kosmicznym panteonem pozostaje silne, więc możesz swobodnie podążać własną ścieżką.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Twój plan działa, ale rzeczy, które zdobędziesz, są zainfekowane jakąś paskudną chorobą szczura.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Dominujesz nad nieożywionymi szczurami roi się od grobu, ale są zbyt przerażeni, by służyć. Po prostu uciekają w cienie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery hum striga(16)
++[NODE]2
+[STORY]
+Wchodzisz do starożytnego grobu, dawno zapomnianego przez ludzkość. Wśród starych, zgrzybiałych nagrobków znajduje się duża krypta, zmiażdżona przez zwalone drzewo. Wejście stoi uchylone, a zimna ciemność unosi się w ...
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Nie ma czasu na zwiedzanie. Po prostu wyjdź.
+[/NODE]
+
++[NODE]3
+[STORY]
+W krypcie znajduje się pojedyncza kamienna trumna. Komora jest ciemna i pokryta kurzem, próchnicą i pajęczynami, ale zauważyłeś wyryty w podłodze pentagram i gruby srebrny łańcuch, który utrzymuje trumnę w bezpiecznym miejscu. 
+
+[/STORY]
+[OUT]Rozważ uważnie tę konfigurację.
+[OUT]Rozważ uważnie tę konfigurację.
+[OUT][Striga] Wyczuwasz coś znajomego. Podejdź bliżej, żeby się przyjrzeć.
+[OUT]Weź srebrny łańcuszek i odejdź szybko, zanim cokolwiek wyjdzie.
+[OUT]Otwórz kryptę i zobacz, co się stanie. Bądź gotowy na walkę.
+[/NODE]
+
++[NODE]4
+[STORY]
+Niektóre symbole użyte na pentagramie i łańcuch wskazują na nieżywego diabła, który jest tutaj położony, najprawdopodobniej na strigę. 
+
+[/STORY]
+[OUT]Użyj własnego magicznego rytuału, aby wzmocnić magię pentagramu, pozostawiając ci wolny łańcuch srebrny.
+[OUT]Stwórz ochronny krąg ognia i weź srebrny łańcuch, a następnie otwórz trumnę, aby zobaczyć, co znajduje się w środku.
+[/NODE]
+
++[NODE]5
+[STORY]
+Studiujesz pentagram i odkrywasz, że był on nasycony mocą światła, aby pomieścić w sobie coś z wielkiej ciemności. 
+
+Biorąc pod uwagę obecność srebrnego łańcucha, wierzysz, że nieżyjące stworzenie może leżeć w środku. 
+[/STORY]
+[OUT]Użyj własnego magicznego rytuału, aby wzmocnić magię pentagramu, pozostawiając ci wolny łańcuch srebrny.
+[OUT]Lepiej zostaw to.
+[OUT]Spróbuj dowiedzieć się, jak zabezpieczyć trumnę bez łańcucha - w końcu to dobre srebro.
+[OUT]Otwórz trumnę i zabij wszystko, co jest w środku. W każdym razie musi zostać osłabiony!
+[OUT]Użyj rytuału, aby się chronić, a następnie zaatakuj diabła!
+[OUT]Otwórz kryptę i zobacz, co się stanie. Bądź gotowy na walkę.
+[/NODE]
+
++[NODE]12
+[STORY]
+Ustalasz, że kolumny nośne w tej krypcie ledwo stoją, a przy odrobinie wysiłku możesz zawalić to miejsce w drodze na zewnątrz. W ten sposób wszystko, co jest w środku, powinno zostać zabite, a ty będziesz miał srebro. 
+
+W teorii...
+[/STORY]
+[OUT]Zróbcie to. 
+[OUT]Zróbcie to.
+[/NODE]
+
++[NODE]15
+[STORY]
+Wydaje się, że nie ma sposobu na bezpieczne zdobycie srebrnego łańcucha. 
+[/STORY]
+[OUT]Po prostu wyjdź.
+[OUT]Otwórz trumnę i zabij wszystko, co jest w środku!
+[OUT]Użyj rytuału, aby się chronić, a następnie zaatakuj diabła!
+[OUT]Otwórz kryptę i zobacz, co się stanie. Bądź gotowy na walkę.
+[OUT]Otwórz trumnę i zabij wszystko, co jest w środku!
+[/NODE]
+
++[NODE]16
+[STORY]
+Tworzysz pierścień ognia, trzymasz łańcuch i otwieracie kryptę. Wewnątrz jest wysuszonym mistrzem striga, jego oczy są czerwone z głodu i wściekłości, a żelazne i srebrne łańcuchy trzymają go złamane. Nie masz więcej niż kilka oddechów, zanim on rzuci się na ciebie!
+[/STORY]
+[OUT]Zamknij pokrywę i załóż łańcuch!
+[OUT]Zabij strigę!
+[OUT]Weź łańcuch i uciekaj!
+[OUT]Weź łańcuch i uciekaj!
+[/NODE]
+
++[NODE]18
+[STORY]
+Drżysz z bólu, kiedy zbliżasz się do ochronnych run. Nie ma wątpliwości - w środku jest uwięziona inna striga, prawdopodobnie nadal prowadzona przez żądzę krwi. 
+[/STORY]
+[OUT]Dzikie strigas są niebezpieczne. Lepiej wyrzucić to z jego nędzy. Zabij go, gdy jest osłabiony.
+[OUT]Otwórz trumnę i porozmawiaj ze strigą. 
+[OUT]Spróbuj dowiedzieć się, jak zabezpieczyć trumnę bez łańcucha - w końcu to dobre srebro.
+[/NODE]
+
++[NODE]19
+[STORY]
+Podczas gdy twój przyjaciel striga odsuwa się, demontujesz ochronę i uwalniasz to, co śpi wewnątrz. 
+
+Wyłania się spragniony krwiopijca, sycząc: „Krew, krew!'
+
+Trudno będzie rozmawiać ze strigą w tym stanie. 
+[/STORY]
+[OUT]Jesteś najwyższy. Zdominuj go!
+[OUT]Przekonaj go, że jesteś przyjacielem.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]25
+[STORY]
+„Tak, och, wielki, służę waszej wyższej woli.'
+
+Pomimo tych słów wiesz, że striga długo nie będzie posłuszna. 
+
+Jednak pozostawia ci cały swój sprzęt jako znak honoru.
+[/STORY]
+[OUT]Złóż to, aby zostawić cię na służbie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Stwór cię nie atakuje, ale ucieka w dal. 
+
+Możesz wziąć łup.
+[/STORY]
+[OUT]Dobrze, teraz opuść to miejsce.
+[/NODE]
+
++[NODE]31
+[STORY]
+Oczy strzygi stają się czerwone, jej postawa rośnie, a ty czujesz obecność wielkości i mocy. Klękasz przed swoim przełożonym i pozwalasz mu posmakować krwi jako hołdu. 
+
+Kiedy odzyskasz siłę woli, mistrz zniknie i poczujesz, że twoja krew jest zepsuta. 
+
+[/STORY]
+[OUT]Opuść to miejsce.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Nigdy więcej, och wielki, nie więcej. Żyję, aby służyć.'
+
+Striga zamienia się w formę nietoperza i pozostaje ci służyć.
+[/STORY]
+[OUT]Dobrze, weź łup i wyjdź.
+[/NODE]
+
++[NODE]36
+[STORY]
+„Nigdy więcej, och wielki, nie więcej. Żyję, aby służyć.'
+
+Pokonałeś strigę i wysłałeś jej usługi.
+[/STORY]
+[OUT]Dobrze, weź łup i wyjdź.
+[/NODE]
+
++[NODE]37
+[STORY]
+Na początku wydaje się, że trumna nie ma nic poza wyschniętym ciałem striga, ale zanim się zorientujesz, usłyszysz głos w swojej głowie: „Uklęknij przede mną, robactwo! Słuchajcie moich apetytów!'
+
+[/STORY]
+[OUT]Spróbuj oprzeć się tej mocy!
+[OUT]Twoja wiara jest silna i nie łatwo ci się złamać. Zaatakuj to!
+[OUT]Twoja wiara jest silna i nie łatwo ci się złamać. Uciec!
+[OUT]Przestrzegaj wezwania.
+[/NODE]
+
++[NODE]42
+[STORY]
+Byłeś zbyt powolny i niezgrabny, a kiedy byłeś zajęty grabieżem łańcucha, potężna striga uciekła, wysysając część twojej krwi na drodze!
+[/STORY]
+[OUT]Cholera. Pozostawiać.
+[/NODE]
+
++[NODE]52
+[STORY]
+Oczy strzygi stają się czerwone, jej postawa rośnie, a ty czujesz obecność wielkości i mocy. Klękasz przed swoim przełożonym i pozwalasz mu posmakować krwi jako hołdu. 
+
+Kiedy odzyskasz siłę woli, mistrz zniknie i poczujesz, że twoja krew jest zepsuta. 
+
+[/STORY]
+[OUT]Opuść to miejsce.
+[/NODE]
+
++[NODE]53
+[STORY]
+Opierasz się, a bestia ucieka ze strachu, pozostawiając ci swobodę ograbienia krypty.
+[/STORY]
+[OUT]Dobrze, weź łup i wyjdź.
+[OUT]Dobrze, weź łup i wyjdź.
+[/NODE]
+
++[NODE]54
+[STORY]
+Myślałeś, że jesteś bezpieczny, ale twój rytuał wyraźnie zawiódł, ponieważ striga wspina się z krypty i wysysa twoją krew przed ucieczką!
+[/STORY]
+[OUT]Cholera. Pozostawiać.
+[/NODE]
+
++[NODE]56
+[STORY]
+Striga prawie cię dopada, ale na szczęście może cię kilka razy ciąć, zanim wybierzesz się z cmentarza. Z jakiegoś powodu nie może nastąpić.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]64
+[STORY]
+Otwierasz pokrywę i stawiasz czoła mistrzowi striga, jego oczy są czerwone z głodu, pazury gotowe rozerwać twoje ciało. 
+
+Kilkakrotnie dźgniesz nim, zanim będzie w stanie się całkowicie podnieść, ale podjął walkę i zostawiłeś cię krwawiącą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery hum unliv(17)
++[NODE]2
+[STORY]
+Jak tylko wejdziesz do grobu, czujesz, że coś jest nie w porządku. Wiele nagrobków jest zmiażdżonych, a ziemia pod nimi została przeniesiona. 
+
+To może być grabieżca, ale może to być coś więcej ...
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Podchodzisz bliżej i zauważasz postać siedzącą na nagrobku, płaczącą. Postać przesuwa swój kształt z czarnego kota na mysz na upiorne oblicze kobiety iz powrotem. 
+[/STORY]
+[OUT][Demon lub zerca] Spróbuj dowiedzieć się, jakie to może być stworzenie.
+[OUT][Magiczni użytkownicy] Czujesz tutaj trochę magii. Przyjrzyj się bliżej.
+[OUT][Harmonia] Twoje połączenie z boskimi mrowieniami. Czas zbadać.
+[OUT][Natura] Czujesz coś nienaturalnego. Zbadać.
+[OUT]Czarne koty i myszy są często oznakami czarów. Najlepsze podejście z ostrożnością.
+[OUT]Czarne koty i myszy są często oznakami czarownicy. Zabij stwora!
+[/NODE]
+
++[NODE]5
+[STORY]
+Dostrzegasz kilka nieżyjących trupów wchodzących i wychodzących z krypty. W środku może być więcej, ponieważ widzisz wiele ścieżek wokół tego miejsca.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Nieżyjący] Wydaje się, że są przebudzeni, tak jak ty, lub przynajmniej działają bardziej celowo niż zwykle. Wejdź, żeby z nimi porozmawiać. 
+[OUT]Lepiej po prostu odejdź.
+[/NODE]
+
++[NODE]7
+[STORY]
+Korzystając ze swojej wyjątkowej wiedzy, rozpoznajesz, co się dzieje. Te formy razem sugerują, że może to być demon dola. Zazwyczaj są opiekunami, szczególnie lubiącymi chronić młodych i przynoszącymi szczęście tym, których wybierają. Dziwne jest znalezienie tutaj jednego.
+[/STORY]
+[OUT]Zapytaj, co tutaj robi dola.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]9
+[STORY]
+„Ty żyjesz ... dobrze ... czy nie? Nie, źle ... będą żywić się tobą! O nie!'
+
+Słyszysz ruch, któremu towarzyszą nienaturalne jęki. Wkrótce zobaczysz pierwsze martwe ciała majaczące za kryptą. Jeszcze cię nie zauważyli. 
+
+[/STORY]
+[OUT]Znajdź sposób, aby obudzić dolę i przypomnieć jej o obowiązku ochrony.
+[OUT]Wiązanie tych nieożywionych jest bardzo słabe i świeże. Użyj rytuału oczyszczania, aby zerwać więź, a tym samym je zniszczyć.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]10
+[STORY]
+Koty i myszy są często chowańcami czarownic lub demonów. Bardziej niepokojąco wyczuwasz narastający splot magii zbliżający się do ciebie. 
+
+Sądząc po tym ustawieniu, podejrzewasz, że unliving wędruje po tych terenach! 
+
+[/STORY]
+[OUT]Mów, aby zobaczyć, czy ktoś tu się ukrywa.
+[OUT]Zaatakuj stwora i cokolwiek, co może mieć.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wyczuwasz przytłaczającą siłę harmonii, pokręconą i nienaturalną. Coś tu jest nie tak; prawa harmonii i natury są łamane! 
+
+Postać cię widzi i mówi: „Ty żyjesz ... dobrze ... czy nie? Nie, źle ... będą żywić się tobą! O nie!'
+
+[/STORY]
+[OUT]Wykonaj taniec natury i harmonii, aby spróbować przywrócić tę istotę z jej udręki.
+[OUT]Do ataku!
+[OUT]Opuść to miejsce nienaturalnego zamieszania.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Dola, dola ... tak. Och, nie, co się tu stało? Ja po prostu chciałem, żeby mój ładunek był bezpieczny, żyjący, ale nie był. Był tutaj, tak zimno, więc spróbowałem, ale oni wszyscy wyszli źle!'
+[/STORY]
+[OUT]Więc sprawiła, że nie żyje?
+[/NODE]
+
++[NODE]16
+[STORY]
+„Po prostu, dałem im moje światło ... ale poszło źle, sprawiło, że ożyli, ale wszyscy się mylili ... a ja próbowałem i próbowałem ... 
+
+Uderz mnie. Powinien je też wziąć. Nie widzę innej drogi.'
+
+[/STORY]
+[OUT]Zgadzam się na jej prośbę. Uderz ją.
+[OUT]Znasz prosty rytuał wypędzania dola bez zabijania go, ale wiadomo, że magia czasami się odwraca. Mimo to warto podjąć ryzyko.
+[OUT]Znasz prosty rytuał wypędzania dola bez zabijania go, ale wiadomo, że magia czasami się odwraca. Mimo to warto podjąć ryzyko.
+[OUT]Znasz prosty rytuał wypędzania dola bez zabijania go, ale wiadomo, że magia czasami się odwraca. Mimo to warto podjąć ryzyko.
+[OUT]Zabij tylko nieżyjących. Powiedz dola, żeby stąd wyszedł i nigdy więcej tego nie rób.
+[/NODE]
+
++[NODE]17
+[STORY]
+Dola umiera cicho, a wraz z nią, martwe ciała, które zbliżają się do ciebie, zawalają się. 
+
+Pozostałe światło dola pozostawia ci błogosławieństwo. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Rytuał wypędził dolę, ale nie zniszczył życia. Mała grupa pozostaje oszalała i żądna krwi. Na szczęście uciekają w dal.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Rytuał działa i dola powoli rozpuszcza się w energię świetlną. Nieżyjące zwłoki rozpadają się na ziemi. Przed zniknięciem dola pozostawia ci błogosławieństwo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Rytuał zdaje się działać, gdy nieżyjąca zapaść na ziemi i dola zaczyna zanikać, ale widzisz, jak jej forma skręca się i zamienia w cichą agonię! 
+
+Czujesz na sobie przekleństwo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Dola nagle wygląda na bardziej złożoną, łzy w oczach. Mówi: „Po prostu dałem im moje światło ... ale to poszło źle. Sprawiło, że ożyli, ale wszyscy się mylili ... i próbowałem ... 
+
+Uderz mnie. Powinien je też wziąć. Nie widzę innej drogi.'
+
+[/STORY]
+[OUT]Jeśli to jedyny sposób, musimy to zrobić. Zabij dolę.
+[OUT]Znasz prosty rytuał wypędzania dola bez zabijania go, ale wiadomo, że magia czasami się odwraca. Mimo to warto podjąć ryzyko.
+[OUT]Znasz prosty rytuał wypędzania dola bez zabijania go, ale wiadomo, że magia czasami się odwraca. Mimo to warto podjąć ryzyko.
+[OUT]Znasz prosty rytuał wypędzania dola bez zabijania go, ale wiadomo, że magia czasami się odwraca. Mimo to warto podjąć ryzyko.
+[/NODE]
+
++[NODE]25
+[STORY]
+„A dola ... Nie pamiętam, co to znaczy. Moje oskarżenia, moje ładunki znów chodzą, a teraz muszą karmić. Lepiej odejdź ...'
+
+Zauważysz, że postacie poruszają się w cieniu, powoli, ale pewnie zbliżają się do ciebie.
+[/STORY]
+[OUT]Ucieczka!
+
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]27
+[STORY]
+Rytuał działa i nieżywa zapaść się tam, gdzie stoją. Stworzenie, które je wezwało, woła jak gdyby z bólu. 
+
+„Nie! Moje zarzuty, martwe. Zawiodłem ... znowu ... martw się nie moi drodzy, dam ci znowu rację ...'
+
+[/STORY]
+[OUT]Zabij demona, zanim wezwie więcej życia. 
+[OUT]Zwiąż demona ze służbą za pomocą magii. Jest to ryzykowne i może skończyć się przekleństwem, ale może zadziałać.
+[OUT]Zwiąż demona ze służbą za pomocą magii. Jest to ryzykowne i może skończyć się przekleństwem, ale może zadziałać.
+[OUT]Po prostu opuść to miejsce. 
+[/NODE]
+
++[NODE]34
+[STORY]
+Rytuał zawodzi i nieżyjące zwłoki poruszają się ku tobie. Demon, który wydaje się je kontrolować, płacze, ale nie robi nic, by je powstrzymać. 
+[/STORY]
+[OUT]Ucieczka!
+
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz życie i znajdujesz wyglądające na ludzkie dziecko płaczące: „Nieee, mamo, tato, bracia!'
+
+Kiedy próbujesz porozmawiać z dzieckiem, nie wie, co się stało, tylko że jego rodzina odeszła.
+[/STORY]
+[OUT]Pociesz dziecko i zabierz je ze sobą.
+[OUT]Podchodzisz do dziecka, ale syczy cię i ucieka do małego tunelu. Pozostawiać.
+[OUT]Pociesz dziecko i zabierz je ze sobą.
+[/NODE]
+
++[NODE]47
+[STORY]
+Oprócz dwóch zwłok, które widziałeś, dostrzegasz jeszcze trzy, które wyglądają jak nastolatki. Niewidzialni wykonują różne prace wokół krypty - ogrodnictwo, wnoszenie drewna opałowego i zamiatanie. 
+
+Dostrzegasz także kogoś siedzącego w krypcie, bawiącego się lalkami na podłodze. To dziewczyna nie większa niż pięć. 
+[/STORY]
+[OUT]Do ataku!
+[OUT]Pozdrówcie waszego towarzysza, który nie żyje i zapytajcie, dlaczego mają ze sobą żywe dziecko.
+[/NODE]
+
++[NODE]49
+[STORY]
+Próbujesz pocieszyć dziecko, ale jest ono niepocieszone. Ku waszemu przerażeniu, następnego wieczoru okazuje się, że zmarł we śnie, a jego ciało wygląda tak, jak gdyby miało to być dekady. 
+
+Ale czujesz, że spada na ciebie błogosławieństwo z nieznanego źródła.
+[/STORY]
+[OUT]Cholera. Zakop dziecko i kontynuuj dalej. 
+[/NODE]
+
++[NODE]53
+[STORY]
+Jedno z nieżywych zatrzymuje się i zwraca się do ciebie. Uśmiecha się i mówi szorstkim, gardłowym głosem: 
+
+'Rodzina, tak. Nasze dziecko przywiodło nas z powrotem, teraz jesteśmy rodziną na zawsze i na wieki, i każdego dnia, i na zawsze możemy grać ... 
+
+Pomoc ... proszę ... na zawsze jak to ...'
+
+[/STORY]
+[OUT]Zapytaj, jak możesz pomóc.
+[/NODE]
+
++[NODE]54
+[STORY]
+Mała dziewczynka wyskakuje z krypty i marszczy brwi, kiedy cię widzi, mówiąc: 
+
+'Jesteś obcy! Odejdź, bo będę miał mojego tatusia i braci, którzy cię zjedzą!'
+
+Oczy dziewczyny są szare i puste, ale widzisz lalkę, którą nosi, ma ludzkie oczy błyszczące jasnym światłem.
+[/STORY]
+[OUT]Słuchajcie dalej.
+[OUT]Zabij dziewczynę.
+[/NODE]
+
++[NODE]55
+[STORY]
+„Ziemia zatrzęsła się i zadrżała, a mumia i tata i moi bracia zostali wstrząśnięci na śmierć. Płakałam, płakałam i przyszła dama, z której trzęsła się ziemia. Dała mi wózek i powiedziała, że mogę odzyskać moją rodzinę! Teraz wrócili i gramy wiecznie i dzień!'
+[/STORY]
+[OUT]Zabij życie.
+[OUT]Zabij dziewczynę.
+[OUT]Opuść dziwną rodzinę. To nie do ciebie oceniać.
+[OUT]Przekonaj dziecko do zniszczenia lalki.
+[OUT]Przekonaj dziecko do zniszczenia lalki.
+[/NODE]
+
++[NODE]56
+[STORY]
+Zabijasz nieżyjących i dola krzyczy z bólu, ale ona też znika, szepcząc tylko: „Być może to jest najlepsze ...'
+[/STORY]
+[OUT]Akt przemocy nie pasuje do harmonii. Przyjmij pokutę i wyjdź.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]59
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Akt przemocy nie pasuje do harmonii. Zaakceptuj porażkę i wyjdź.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]67
+[STORY]
+„Więc wóz jest zły? Czy mumia i tata są chorzy? W porządku...'
+
+Ona podaje ci lalkę. Niszczysz to i nieżyjące upadki, ich nienaturalne życie opuszcza je. Ojciec kiwa na ciebie głową dzięki. 
+
+Dziewczyna wybucha niekontrolowanym płaczem.
+[/STORY]
+[OUT]Pociesz dziecko i zabierz je ze sobą.
+[OUT]Podchodzisz do dziecka, ale syczy na ciebie i ucieka do małego tunelu.
+[OUT]Pociesz dziecko i zabierz je ze sobą.
+[/NODE]
+
++[NODE]68
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]69
+[STORY]
+„Nie, nie, nie! Teraz odejdź!'
+
+Rzuca napad złości i niepokój wywołuje niepokój. Chrząkają i podchodzą do ciebie agresywnie.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]70
+[STORY]
+Raz machasz bronią i tniesz dziewczynę czystym machnięciem. 
+
+Niewidzialne stoją na chwilę, wpatrując się w ciebie z niedowierzaniem. Matka upada na podłogę za swoim dzieckiem. Dziewczyna wtedy wstaje - nie żyje. Masz poczucie, że rodzina może nadal mieć mieszane uczucia wobec ciebie.
+[/STORY]
+[OUT]Zostaw, zanim zdecydują się zaatakować.
+[OUT]Żądaj zapłaty za uwolnienie ich od dziwnego panowania małej dziewczynki. 
+[OUT]Żądaj zapłaty za uwolnienie ich od dziwnego panowania małej dziewczynki. 
+[/NODE]
+
++[NODE]72
+[STORY]
+Ojciec mówi: „Zraniłeś moją małą dziewczynkę ... ale teraz czujemy się ... hmm ... wolni od czegoś, zdolni do ponownego myślenia. Więc tak, dziękuję. Ale proszę, idź teraz, moja żona może nie widzieć tego tak jak ja ...'
+[/STORY]
+[OUT]Kiwnijcie głowami i odejdźcie.
+[/NODE]
+
++[NODE]73
+[STORY]
+Nieżyjący ładunek na ciebie!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]76
+[STORY]
+Powiązanie kończy się niepowodzeniem. Odchodzisz, ale kiedy to robisz, słyszysz jeszcze raz krzyk dola, potem zmienia się jej głos i widzisz gniewne upiory włóczące się po ziemi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf(18)
++[NODE]2
+[STORY]
+Odkrywasz elfią świętą ziemię, oddaną pamięci zmarłych.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf guard(19)
++[NODE]2
+[STORY]
+Podchodzisz bliżej i słyszysz cichy szelest liści. Patrzysz w górę i widzisz łuki wycelowane w ciebie. 
+
+'Czego szukasz w tym świętym miejscu?'
+
+[/STORY]
+[OUT][Forest folk] Państwo przybyliście po błogosławieństwa drzewa pamięci, tak jak macie prawo.
+[OUT][Harmonia, Natura lub Światło] Ukłoń się w szacunku i powiedz, że przyszedłeś szukać mądrości od elfów.
+[OUT][Ork lub zamieszanie] Czujesz się dziwnie osłabiony, stojąc w obecności drzewa. Powiedz, że przychodzisz w pokoju.
+[OUT]Atakuj elfy i rabuj drzewo.
+[OUT]Powiedz, że jesteś tu tylko z ciekawości.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+„Wybacz naszą ostrożność. Niektórzy z naszych krewnych oddalili się od światła i nie pamiętają naszych dróg. Przyjdź więc do drzewa pamięci i poproś o błogosławieństwo.'
+[/STORY]
+[OUT]Dziękuję im.
+[OUT]Dziękuję im.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Ponieważ jesteś tutaj, mamy dobrodziejstwo do zadawania pytań. 
+
+Zepsuty duch atakuje to święte miejsce i nie jesteśmy zmuszeni do opuszczenia tego drzewa. 
+
+Duch mieszka niedaleko i można się nim zająć tylko tam. Pomożesz? Wszystko, co musisz zrobić, to przenieść tę gałąź w to miejsce. Zatrzyma złego ducha i powstrzyma go przed nękaniem drzewa pamięci.'
+[/STORY]
+[OUT]Zgódź się pomóc. Powiedz im, żeby wskazali ci, gdzie leży duch.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Zapytaj, dlaczego jeszcze tego nie zrobili.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Podążasz właściwą ścieżką. Możesz kontynuować.'
+
+Stoisz przy drzewie pamięci i medytujesz. Słyszysz słabą, ale poruszającą piosenkę w głowie, a słowa wydają się pochodzić z każdego kryształu, który wisi przed tobą.
+[/STORY]
+[OUT]Łuk dzięki za błogosławieństwo.
+[/NODE]
+
++[NODE]10
+[STORY]
+Stoisz przy drzewie pamięci i medytujesz. Słyszysz słabą, ale poruszającą piosenkę w głowie, a słowa wydają się pochodzić z każdego kryształu, który wisi przed tobą.
+[/STORY]
+[OUT]Łuk dzięki za błogosławieństwo.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Możemy poradzić sobie z tą sprawą przy następnej zmianie strażnika, ale to nie będzie jeszcze za kilka cykli. To irytacja; widzieliśmy więc możliwość pozbycia się go.'
+[/STORY]
+[OUT]Zgódź się pomóc.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Przychodzisz na miejsce i widzisz duchową formę splecioną z młodym drzewkiem. Nie czujesz od niego mrocznej magii, ale odczuwasz wiele gniewu i strachu. 
+
+To najwyraźniej duch leśny zbłądzony, a nie zagubiona dusza. Być może dlatego elfy chciały go schwytać, a nie zabić.
+[/STORY]
+[OUT][Gobliński szaman] Duch jest w lotnej formie. Możesz użyć rytuału, aby spróbować powiązać go ze swoją usługą.
+[OUT]Użyj oddziału elfa.
+[OUT]Zamiast tego zabij ducha.
+[OUT][Demon lasu] Daj trochę swojego ducha, aby pomóc uleczyć to leśne stworzenie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Duch lasu skręca się w agonii z twojego rytuału i przemienia się w upiór, ale teraz będzie ci służyć. 
+
+Jest złowieszczy szelest liści i czujesz, że spada na ciebie klątwa, prawdopodobnie za złamanie słowa.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Duch lasu odpowiada na twoje rozkazy. Przekształca się w swoją demoniczną formę i teraz będzie ci służyć. 
+
+Jest złowieszczy szelest liści i myślisz, że lepiej opuść las, zanim elfi strażnicy zdecydują, że złamałeś słowo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Związujesz ducha i oddajesz go strażnikom. Dziękują ci i zostawiają ci prezenty z drzewa pamięci.
+[/STORY]
+[OUT]Dziękuję i odejdź.
+[/NODE]
+
++[NODE]26
+[STORY]
+Zabijasz ducha lasu, a raczej duchy, które okazały się pinekonetami. 
+
+Czujesz rosnące, ciężkie spojrzenie samego lasu na ciebie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Nie udaje ci się zabić ducha i czujesz rosnące, ciężkie spojrzenie samego lasu na ciebie. 
+
+Masz poczucie, że masz szczęście, że strażnicy elfów nie mogą opuścić swojego stanowiska.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Dziwne słowa pochodzące od ciebie. Podążasz ścieżką zgiełku i podżegania. To nie jest mile widziane w tym miejscu. 
+
+Jeśli chcesz zostać, możesz zostać osądzony przez wspomnienia i zaryzykować ducha, ale pozwolimy ci dotknąć drzewa, jeśli chcesz.'
+[/STORY]
+[OUT]Zgadzam się na test.
+[OUT]Zgadzam się na test.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Zamiast tego atakuj!
+[/NODE]
+
++[NODE]29
+[STORY]
+Sięgasz po drzewo i czujesz, że jego energia sięga. Jest pełen światła i spokoju, spokoju ... tępy, duszny, duszący, szarpiący w tobie włókno zamieszania w tobie! 
+
+Udaje ci się cofnąć, ale czujesz głębokie palenie wewnątrz. 
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]30
+[STORY]
+Sięgasz po drzewo i czujesz, że jego energia sięga. Jest pełen światła i spokoju, spokoju. 
+
+Jeden z kryształów unosi się w twoim kierunku i dzieli się z tobą swoją mądrością.
+[/STORY]
+[OUT]Świetnie. Płaćcie szacunek i odejdźcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Zabijasz strażników i próbujesz ograbić drzewo z jego kryształów, ale większość po prostu obraca się w pył, gdy ich dotykasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Zabijasz strażników i próbujesz ograbić drzewo z jego kryształów, ale każdy, którego dotkniesz, zamieni się w pył, a ty poczujesz, że choroba cię nawiedzi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Przegrywasz i chociaż elfy pozwalają ci odejść, czujesz na sobie ciężkie przekleństwo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Zabijasz strażników i próbujesz ograbić drzewo z jego kryształów, ale każdy, którego dotkniesz, po prostu zamienia się w pył. 
+
+Z każdym znikającym kryształem czujesz plamę na swojej elfiej duszy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+Rytuał zawodzi, a stworzenie umiera z wielką udręką. Las blisko niego także więdnie. 
+
+Masz poczucie, że masz szczęście, że strażnicy elfów nie mogą opuścić swojego stanowiska.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+Coś poszło nie tak. Gałąź skręciła się w wyschnięty kawałek węgla, a duch wydaje się być bardziej niesforny. Kiedy się zgłosisz, strażnicy skiną uroczyście: 
+
+- Zrobiłeś, co mógłeś. Nie powinniśmy prosić o to nieznajomego. Dobrze cię, podróżniku. Musimy teraz skupić się na ochronie drzewa pamięci, dopóki nie zmieni się strażnik.'
+[/STORY]
+[OUT]Łuk i wyjdź.
+[/NODE]
+
++[NODE]56
+[STORY]
+„Jesteś tu nieznajomy. Mimo to drzewo pamięci jest miejscem kontemplacji dla wszystkich. 
+
+Jeśli chcesz zostać, możesz zostać osądzony przez wspomnienia i zaryzykować ducha, ale pozwolimy ci dotknąć drzewa, jeśli chcesz.'
+[/STORY]
+[OUT]Zgadzam się na test.
+[OUT]Zgadzam się na test.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Sięgasz po drzewo i czujesz, że jego energia sięga. Jest pełen światła i spokoju, spokoju ... tępy, duszny, duszący, szarpiący w tobie włókno zamieszania w tobie! 
+
+Udaje ci się cofnąć, ale czujesz głębokie palenie wewnątrz. 
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]60
+[STORY]
+Poświęcasz własnego ducha, a leśne stworzenie powoli odzyskuje kontrolę. 
+[/STORY]
+[OUT]Dziękuję i odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf ghost(20)
++[NODE]2
+[STORY]
+Podchodzisz bliżej drzewa i patrzysz na różne kryształy promieniujące wśród liści. 
+
+Słyszysz słabą piosenkę, jakby szeptała z samego drzewa. 
+[/STORY]
+[OUT]Posłuchaj piosenki, ale bądź czujny.
+[OUT]Posłuchaj pięknej piosenki.
+[/NODE]
+
++[NODE]3
+[STORY]
+Melodia jest zachwycająca, ale wiesz, że może to być niebezpieczne. Skupiasz się i widzisz upiorną postać siedzącą na gałęzi i patrząc na ciebie z przyjemnym uśmiechem: 
+
+'Więc twoja wola nie jest zabawką. Dobry. Co cię tu szuka, nieznajomy?'
+[/STORY]
+[OUT][Elf] Witaj leśnego krewnego jako jednego z twoich. 
+[OUT]Powiedz, że przyszedłeś podziwiać piękno tego miejsca.
+[OUT]Powiedz, że te kryształy wyglądały na opuszczone, więc chciałeś je mieć.
+[OUT]Zaatakuj zjawy!
+[OUT]Zaatakuj zjawy!
+[/NODE]
+
++[NODE]4
+[STORY]
+Gubisz się w piosence i nawet nie zdajesz sobie sprawy, że nie widzisz już drzewa. W rzeczywistości jakie drzewo? 
+
+Słyszysz ostatni szept w głowie. 
+
+„Zmęczeni podróżnicy, usłysz moją pieśń i niech twój duch pozostanie zawsze silny.'
+
+Czujesz się osłabiony i zdezorientowany, ale także czujesz się pozytywnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Ach, oczywiście, przepraszam. Zmysły fizyczne w tej formie są dla mnie wciąż tajemnicą. Czego szukacie, bracia? Przyszedłeś na wieczny sen?'
+[/STORY]
+[OUT]Powiedz, że nie jesteś jeszcze gotowy opuścić plan fizyczny, tylko tutaj, aby oddać swój szacunek.
+[OUT]Powiedz im, że jesteś młody i nie pamiętasz wiecznego snu.
+[OUT]Przypomnij im, że jesteś leśnym krewnym, ale nie elfem. Zapytaj o to, że zawsze śpisz.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Przyszedłem na wieczny sen, ale moja dusza była skażona ciemnością. Jako taki nie mógł połączyć się w świetle. Zamiast tego utknąłem tutaj, pilnując drzewa pamięci, dopóki nie zostanie oczyszczony.'
+[/STORY]
+[OUT]Zapytaj, czy potrzebują pomocy.
+[OUT]Tak, słyszałeś o swoich krewnych przeklętych przez ciemność, cienie krewnych. Życzę im szczęścia w oczyszczaniu ich skazy i pytamy, czy można uzyskać błogosławieństwo z drzewa pamięci.
+[OUT]Przeproś za twoją ignorancję, ale zapytaj, czym jest drzewo pamięci.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Dziękuję wam, bracia, ale ja nie. Oczyszczenie musi przebiegać bez pomocy, aby było prawdziwe. Ale czuję, że podążasz ścieżką śmiertelnych bogów zamiast naszych. Jak dziwne.'
+
+[/STORY]
+[OUT]Potwierdź, że podążasz ścieżką kosmicznego panteonu, ponieważ są strażnikami równowagi. Potwierdź, że to wciąż cel wszystkich elfów.
+[/NODE]
+
++[NODE]8
+[STORY]
+„To prawda, że jesteś elfem, nawet jeśli jest to trochę błędne, i dlatego mogę ci zaoferować dobrodziejstwo. Wybierz jeden z kryształów pamięci i zabierz ze sobą jego błogosławieństwa. 
+
+Pozwolę ci także sięgnąć po te, które mają większe błogosławieństwa, ale musisz stawić im czoła.'
+[/STORY]
+[OUT]Przyjmij kryształ pamięci i powiedz, że tego dnia nie staniesz przed wyzwaniem. Dziękuję mu i odejdź.
+[OUT]Dziękuję mu za ofertę i zmierzyć się z wyzwaniem.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Jesteś elfem, a mówisz wyraźnie ze mną, a więc mogę ci ofiarować dobrodziejstwo. Wybierz jeden z kryształów pamięci i zabierz ze sobą jego błogosławieństwa. 
+
+Pozwolę ci także sięgnąć po te, które mają większe błogosławieństwa, ale musisz stawić im czoła.'
+[/STORY]
+[OUT]Przyjmij kryształ pamięci i powiedz, że tego dnia nie staniesz przed wyzwaniem. Dziękuję mu i odejdź.
+[OUT]Dziękuję mu za ofertę i zmierzyć się z wyzwaniem.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Takie pragnienia mogą cię sprowadzić na manowce, młody. Uważaj na nich. 
+
+Jednak nie wyczuwam złości w waszych intencjach, więc pozwolę wam zmierzyć się z wyzwaniem waszych sprytu lub duchów. Jeśli mi się uda, dam ci dobrodziejstwo z drzewa pamięci.'
+[/STORY]
+[OUT]Co to za drzewo pamięci?
+[OUT]Zgódź się stawić czoła wyzwaniu duchowemu.
+[OUT]Zgódź się stawić czoła psychicznemu wyzwaniu.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Drzewo pamięci jest miejscem pamięci dla elfich dusz, które wybrały wieczny sen. Przed przyłączeniem się do światła, płaczą pojedynczą łzą dla życia materialnego, w którym żyli, i pozostawiają te łzy w pamięci. Oto co tutaj widzisz. 
+
+Łzy mogą dawać dobrodziejstwa, jeśli zostaną dobrowolnie podane przez opiekuna.'
+[/STORY]
+[OUT]Zgódź się stawić czoła wyzwaniu duchowemu.
+[OUT]Zgódź się stawić czoła psychicznemu wyzwaniu.
+[OUT]Zaatakuj zjawy!
+[OUT]Zaatakuj zjawy!
+[/NODE]
+
++[NODE]16
+[STORY]
+„Poszukiwanie wiedzy nie jest kwestią przebaczenia, ale podziwem. 
+
+Drzewo pamięci jest miejscem pamięci dla tych elfich dusz, które wybrały wieczny sen. Przed przyłączeniem się do światła, płaczą pojedynczą łzą dla życia materialnego, w którym żyli, i pozostawiają te łzy w pamięci. Oto co tutaj widzisz. 
+
+Łzy mogą dawać dobrodziejstwa, jeśli zostaną dobrowolnie podane przez opiekuna.'
+[/STORY]
+[OUT]Zapytaj, czy potrzebują pomocy w ich oczyszczeniu.
+[OUT]Życzę im szczęścia w oczyszczaniu ich skazy i pytamy, czy można uzyskać błogosławieństwo z drzewa pamięci.
+[/NODE]
+
++[NODE]17
+[STORY]
+„To konsekwencja naśladowania tych śmiertelnych bogów, moi młodzi bracia. Bądź ostrożny na swojej ścieżce. 
+
+Wieczny sen jest wtedy, gdy decydujemy się zrzucić nasze materialne powłoki i ponownie dołączyć do światła, z którego przyszliśmy.'
+[/STORY]
+[OUT]Powiedz, że nie jesteś jeszcze gotowy opuścić plan fizyczny, tylko tutaj, aby oddać swój szacunek.
+[/NODE]
+
++[NODE]18
+[STORY]
+Atakujesz upiorną postać, ale wszystko, co słyszysz, to śmiech. Zamiast ducha las ożywa i uderza w ciebie!
+[/STORY]
+[OUT]Walka!
+[/NODE]
+
++[NODE]20
+[STORY]
+Atakujesz upiorną postać bezskutecznie i czujesz się atakowani przez silną magię!
+[/STORY]
+[OUT]Brońcie się!
+[/NODE]
+
++[NODE]25
+[STORY]
+„Rzeczywiście śmiałe twierdzenie, nieznajomy! I módlcie się, dlaczego miałbym pozwolić na taki czyn? To nie są błyskotki, ale łzy tych, którzy zasnęli. Czy zbezcześcisz ich pamięć?'
+[/STORY]
+[OUT]Przyznaj, że szukałeś zasobów.
+[OUT]Zaatakuj zjawy!
+[OUT]Zaatakuj zjawy!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Nie. Wasza śmiałość zbliżyła się do mojej duszy. Próbujesz przeżyć, a ja współczuję. Pozwolę ci podjąć wyzwanie duchowe, trudne. Jeśli zdasz, możesz otrzymać dobrodziejstwo. W przeciwnym razie wyjdź tutaj teraz.'
+[/STORY]
+[OUT]Zgadzam się na test.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„To konsekwencja naśladowania tych śmiertelnych bogów, moi młodzi bracia. Bądź ostrożny na swojej ścieżce. 
+
+Wieczny sen jest wtedy, gdy decydujemy się zrzucić nasze materialne powłoki i ponownie dołączyć do światła, z którego przyszliśmy.'
+[/STORY]
+[OUT]Powiedz, że nie jesteś jeszcze gotowy opuścić plan fizyczny, tylko tutaj, aby oddać swój szacunek.
+[/NODE]
+
++[NODE]35
+[STORY]
+Drzewo pamięci uważa cię za niegodnego, a twoja dusza czuje się zraniona wskutek odrzucenia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Pokonałeś strażników, którzy wstali, by z tobą walczyć. Drzewo pamięci stoi niestrzeżone.
+[/STORY]
+[OUT]Jesteś zadowolony ze swojej wygranej. Czas wyjść.
+[OUT]Weź kryształy z drzewa. Mogą być coś warte.
+[OUT]Weź kryształy i posiekaj drzewo.
+[/NODE]
+
++[NODE]42
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki. Czujesz na sobie gniew lasu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery elf statue(21)
++[NODE]2
+[STORY]
+Podchodzisz bliżej drzewa i zdajesz sobie sprawę, że z jednego z korzeni rośnie postać elfa - drewniana statua, realistyczna, ale wyraźnie statyczna. Ma kilka ozdób wykonanych z kamieni szlachetnych i metali, w tym tiarę, niektóre pierścienie i ozdobny element na piersi. 
+[/STORY]
+[OUT]Czujesz, że twoje boskie połączenie przyciąga cię do posągu. Dotknij tego. 
+[OUT][Elf] Zaśpiewaj wiecznie śpiącą pieśń, aby uspokoić twoich elfich braci w ich podróży.
+[OUT]Wyczuwasz słabe pozostałości życia w stolarce - być może duch przeszedł? Medytujcie w szacunku dla tej duszy.
+[OUT][Krasnolud] Gdy posągi idą, ta nie została wykonana przez śmiertelne ręce. Zbadaj statek.
+[OUT]Wyjmij cenne rzeczy.
+[OUT]Wyjmij cenne rzeczy.
+[OUT]Oddaj swój szacunek i odejdź.
+[/NODE]
+
++[NODE]3
+[STORY]
+Kiedy dotykasz posągu, czujesz, że szarpie twoją więź z bogami. 
+
+W śpiącym elfie jest pustka, a twoja domena wydaje się odpowiadać temu, czego brakuje. Czujesz, że byłbyś w stanie nakarmić tę pustkę, ale może to być ryzykowne. 
+[/STORY]
+[OUT]Daj trochę swego ducha, aby dusza ta przeszła w pokoju.
+[OUT]Rabunek towarów z posągu.
+[OUT]Rabunek towarów z posągu.
+[OUT]Nie oferuj swojego ducha, ale z szacunkiem przed wyjazdem.
+[/NODE]
+
++[NODE]4
+[STORY]
+Rzeźba jest zbyt delikatna, projekt zbyt niedoskonały w swojej absolutnej doskonałości. To musi uświęcać święte elfy. Jak niektórzy z twoich starożytnych krewnych, którzy upadli na kamień po śmierci, mówi się, że elfy wybierają czas śmierci i zamieniają się w posągi, zanim ich formy duchowe odpłyną.
+
+[/STORY]
+[OUT]Stwórz małą kamienną rzeźbę i dodaj ją do tego posągu na cześć mijającej duszy.
+[OUT]Rabunek towarów z posągu.
+[OUT]Rabunek towarów z posągu.
+[/NODE]
+
++[NODE]5
+[STORY]
+Próbujesz rozebrać posąg, ale jego oczy są otwarte i promień dusznego, jasnego światła pochłania cię w płonącym ogniu.
+[/STORY]
+[OUT]Spróbuj się oprzeć.
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]9
+[STORY]
+Znasz ten posąg jako elfa, który wszedł w wieczny sen, ale nie zrzucił całkowicie swojej fizycznej powłoki. Elficcy krewni mogą pozostawać przez stulecia w tym stanie, wciąż świadomi tego, co dzieje się wokół nich i zdolni do przebudzenia, jeśli to konieczne, ale odpoczywania i kontemplacji jednocześnie. 
+
+Piosenka o wiecznym śnie koi takich śpiących i mówi im o własnej ścieżce życia. 
+[/STORY]
+[OUT]Kontynuuj piosenkę przed wyjściem.
+[OUT]Bracia, czy nie, mają drogocenne kamienie. Łup śpiącego elfa.
+[OUT]Bracia, czy nie, mają drogocenne kamienie. Łup śpiącego elfa.
+[/NODE]
+
++[NODE]12
+[STORY]
+Niszczysz śpiącego elfa i widzisz, jak ich twarz pogrąża się w smutku. Wasz duch pogrąża się w waszych uczynkach, ale dostajecie drogocenne kamienie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Czujesz energię próbującą uciec z tego samolotu, ale wyczuwasz także duszną siłę, która trzyma ją nienaturalnie w pułapce. 
+
+Możesz spróbować rytuału, aby pomóc uwolnić tę duszę, ale jeśli ci się nie uda, może ci to zaszkodzić.
+[/STORY]
+[OUT]Spróbuj rytuału.
+[OUT]Oddaj swój szacunek i odejdź.
+[OUT]Rabunek towarów z posągu.
+[OUT]Rabunek towarów z posągu.
+[/NODE]
+
++[NODE]19
+[STORY]
+Kiedy dotykasz kamienia, aby go zbezcześcić, postać otwiera oczy, sapie i zamienia się w srebrny popiół. 
+
+Wasze elfie dusze są zranione brakiem szacunku, który pokazaliście, ale gromadzicie trochę srebra ...
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Niszczysz śpiącego elfa i widzisz, jak ich twarz pogrąża się w smutku. Wasz duch pogrąża się w waszych uczynkach, ale dostajecie drogocenne kamienie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Światło spala twoją duszę i zostawia ją pokaleczoną. Jesteś zmuszony uciekać, zanim zatracisz się w płomieniach.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Kiedy dotykasz kamienia, aby go zbezcześcić, postać otwiera oczy, sapie i zamienia się w srebrny popiół. 
+
+Wszelkie elfie dusze są zranione brakiem szacunku, który pokazałeś, ale zbierasz trochę srebra ...
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Otwierasz ducha, a dzięki połączeniu boskości siła wpada do śpiącej elfiej duszy. Posąg patrzy na pokój, a potem powoli, na twoich oczach, zamienia się w srebrny popiół. 
+
+Czujesz, że możesz wziąć wszystko, co dusza ci zostawiła, bez szacunku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+Twój rytuał zakłóca wszystko, co trzyma duszę tutaj. Posąg patrzy na pokój, a potem powoli, na twoich oczach, zamienia się w srebrny popiół. 
+
+Czujesz, że możesz wziąć wszystko, co dusza ci zostawiła, bez szacunku.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Twoje rytualne ognie i widzisz blask jasnego światła przypalającego posąg. Jego przelotna dusza sapie w niemym krzyku, zanim zniknie na zawsze. 
+
+Każdy, kto zna elfie kultury, jest dotknięty ostatecznością tej śmierci.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery orc D5(22)
++[NODE]3
+[STORY]
+Odkrywasz orkowe cmentarzysko. Konfiguracja jest prosta i pragmatyczna. Są stosy pogrzebowe i znaki uczty. Niektóre stosy mają ornamenty, a nawet podstawowe uzbrojenie, ale są wyraźnie ozdobne, a nie dobre.
+[/STORY]
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery orc witch(23)
++[NODE]2
+[STORY]
+Podchodzisz bliżej. Wygląda na to, że jeden z stosów pogrzebowych może być świeży, ponieważ wciąż utrzymuje się ciemny dym. 
+
+[/STORY]
+[OUT][Światło lub harmonia] Domena twojego boga jest tutaj osłabiona, jakby świat wirował z zamętu i ciemności! Skoncentruj się na swojej domenie, aby to zbadać. 
+[OUT][Zamęt lub magia] Twoja domena jest tu silna i czujesz pociąg do ciemnego dymu, ale wiesz, że może być niebezpieczny. Otwórz się i spróbuj wyczuć, z czym masz do czynienia.
+[OUT][Ork witch] Stos pogrzebowy ma ozdoby wiedźmy, a dym wcale nie jest dymem. Przygotuj rytuał, aby bezpiecznie do niego podejść. 
+[OUT][Ork] Stos pogrzebowy ma ozdoby na pochówek czarownic - lepiej podejdź ostrożnie.
+[OUT][Magiczny użytkownik] Jest tu określone poczucie magii - mroczna, chaotyczna, niepokojąca magia. Przygotuj oddziały, zanim podejdziesz bliżej.
+[OUT]Podejdź bliżej.
+[OUT]Wydaje się niebezpieczne - lepiej odejdź. 
+[/NODE]
+
++[NODE]5
+[STORY]
+Jesteś teraz pewien, że dym jest manifestacją ciemności w jej czystej, nienaturalnej formie. Będzie dążyć do zepsucia lub zniszczenia wszystkiego, czego dotknie, i dociera do ciebie! 
+
+Ponieważ moc twojej domeny jest bezpośrednio przeciwna tej sile, możesz spróbować ją całkowicie zniszczyć, ale będzie to trudne.
+[/STORY]
+[OUT]Nienaturalnej ciemności takiej jak ta nie można pozostawić do ucieczki. Przygotuj rytuał światła i harmonii, aby go zamknąć!
+[OUT]Ta walka jest na razie zbyt wielka. Opuść to miejsce. 
+[/NODE]
+
++[NODE]7
+[STORY]
+Dym jest wyraźnie ciemnością samą w sobie i wibruje z zamętu i mrocznej magii, starając się zostać uwolnionym lub pożreć wszystko, co się pojawi. 
+
+Ta manifestacja jest nienaturalnie silna i może być bardzo niebezpieczna, ale ponieważ jesteś do niej dostrojony, możesz spróbować ją bezpiecznie wykorzystać. To nie będzie łatwe.
+[/STORY]
+[OUT]Tak, spróbuj wykorzystać energię. 
+[OUT]Nie, będzie bezpieczniej i łatwiej go zamknąć.
+[OUT]Na razie zadanie jest zbyt wielkie. Opuść to miejsce.
+[/NODE]
+
++[NODE]10
+[STORY]
+Odepchnąłeś ciemną siłę i bezpiecznie ją zamknąłeś. 
+
+Znajdziesz obiekt władzy, który spowodował to zepsucie. Jest teraz oczyszczony i związany z twoją usługą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Odepchnąłeś ciemną siłę i bezpiecznie ją zamknąłeś. 
+
+Teraz oczyszczony stos pogrzebowy na sekundę świeci słabym zielonym światłem, a ty czujesz, że ktokolwiek został tu położony, pobłogosławił cię prezentem. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Nie udało ci się oswoić tej dzikiej mocy i to cię atakuje! Udaje ci się uciec, ale czujesz skazę na swojej duszy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Twoje rytuały sprawdziły się dobrze, uchwyciwszy nieuczciwą ciemność i wykorzystując swoją burzliwą siłę dla siebie. Bezpiecznie wypędzasz resztę w zapomnienie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Twoje rytuały sprawdziły się dobrze, uchwyciwszy nieuczciwą ciemność i wykorzystując swoją burzliwą siłę dla siebie. Bezpiecznie wypędzasz resztę w zapomnienie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Pozostała czarownica spoczywała tutaj, ale jej magia wyraźnie nie była zabezpieczona. Być może z powodu gwałtownej śmierci lub przekleństwa rywala - bez względu na przyczynę czai się tutaj ciężka, ociężała, głodna ciemność. 
+
+Ale jego moc można wykorzystać i wykorzystać z większą równowagą. To nie będzie łatwe, ale można to zrobić. 
+[/STORY]
+[OUT]Tak, spróbuj wykorzystać energię. 
+[OUT]Nie, będzie bezpieczniej i łatwiej go zamknąć.
+[OUT]Na razie zadanie jest zbyt wielkie. Opuść to miejsce.
+[/NODE]
+
++[NODE]20
+[STORY]
+Czujesz silną koncentrację ciemności i wiesz, że dym wcale nie jest dymem. 
+
+Możesz spróbować wykonać magiczny rytuał, aby wypędzić ciemność z tego miejsca. 
+[/STORY]
+[OUT]Tak, spróbuj wygnać ciemność. Nie można pozostawić do uruchomienia amoku.
+[OUT]Nie, to zadanie jest na razie za trudne. Pozostawiać.
+[/NODE]
+
++[NODE]22
+[STORY]
+Podchodzisz bliżej, ale wkrótce zdajesz sobie sprawę, że jesteś otoczony rosnącą, nienaturalną ciemnością! 
+
+Strach napełnia twoje dusze, a terror podąża za nimi.
+[/STORY]
+[OUT]Staraj się zostać i walczyć!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]24
+[STORY]
+Udaje ci się pozostać bezpiecznym i zdrowym, a niektórzy z was nawet czują, że twoja wola wzmocniła się z tej próby.
+[/STORY]
+[OUT]Zbierz jakikolwiek łup i wyjdź.
+[/NODE]
+
++[NODE]33
+[STORY]
+Z oznaczeń wynika, że orcza czarownica została położona tutaj. Każdy ork wie, że przylgnięcie czarownicy do płomienia może być zabójcze. 
+
+Wiesz, która z umieszczonych tutaj broni jest właściwa i które są zwykłymi symbolami honoru. Chwytasz je tak, jak twój klan.
+[/STORY]
+[OUT]Przeprowadź ostatnią rytuał podróży szybko, aby oddać swój szacunek, a następnie wyjdź.
+[/NODE]
+
++[NODE]40
+[STORY]
+Twoje rytuały sprawdziły się dobrze, uchwyciwszy nieuczciwą ciemność i wykorzystując swoją burzliwą siłę dla siebie. Bezpiecznie wypędzasz resztę w zapomnienie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery orc ghost(24)
++[NODE]2
+[STORY]
+Kiedy badasz stosy pogrzebowe, zdajesz sobie sprawę, że są bardzo stare i nie mają nic do wykorzystania, ale widzisz postać zgarbioną przez jednego z nich. 
+
+Postać zwraca się do ciebie. To jest duch. 
+
+'Och, żywe, chcesz zagrać w grę?'
+[/STORY]
+[OUT][Ork] Odpowiedz z oburzeniem, że jest to orc ground, a jedynymi grami byłyby gry krwi!
+[OUT]Zapytaj, co oznaczają gra.
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Duch wzrusza ramionami - przynajmniej próbuje, ale jego eteryczne ciało tylko trochę migocze. 
+
+'Och, orkowie. Myślę, że powinienem się skupić na „Arghu, trzymaj się z dala od naszego miejsca pochówku, argh ...” 
+
+Chcesz zagrać w grę, czy nie?'
+[/STORY]
+[OUT]Nalegaj, że to zepsucie twojej kultury.
+[OUT]Zapytaj, co oznaczają gra.
+[OUT]Atakuj obrzydliwość!
+[/NODE]
+
++[NODE]4
+[STORY]
+Duch rzuca w ciebie pustymi oczodołami. 
+
+„Jestem duchem, dusza uwięziona tutaj, przywiązana do tego miejsca przez moce, które są bezforemne, znudzone i bardzo świadome daremności trzymania się mojego starego ja. Zdziwiłbyś się, jak filozoficzny dostaje się, gdy utknie kontemplując życie w martwej formie na wieczność.'
+
+[/STORY]
+[OUT]A granie w gry to ich głęboka filozoficzna odpowiedź?
+[OUT]Atakuj obrzydliwość!
+[/NODE]
+
++[NODE]8
+[STORY]
+„Masz dąb, stary i wysoki, i potrzebujesz drewna na swój ogień. Co zrobisz, żeby to obniżyć?
+[/STORY]
+[OUT]Topór.
+[OUT]Topór.
+[OUT]Czarownica.
+[OUT]Czarownica.
+[OUT]Przyjaciel.
+[OUT]Przyjaciel.
+[OUT]Wszystkie trzy.
+[OUT]Wszystkie trzy.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Prostota jest często kluczem do sukcesu. Siekiera zmiażdży demony lub spiczaste uszy i pokroi drewno.'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]10
+[STORY]
+„Tak, to było to. Możesz odejść.'
+[/STORY]
+[OUT]Opuść to miejsce.
+[OUT]Ale to było głupie. Jaka była lekcja?
+[/NODE]
+
++[NODE]11
+[STORY]
+„Najbardziej oczywisty wybór - jak rozczarowujące.'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]12
+[STORY]
+„Ach, tak, przynosisz ze sobą mądrość, dobrze.'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]13
+[STORY]
+„A co, zamierzasz z nią posiekać? Słyszałem, że czarownice są raczej tępe. Głupi.'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]14
+[STORY]
+„Ach, tak, mądre trybiki, twój przyjaciel może być drwalem, nie?'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]15
+[STORY]
+„Tak niejasne, mało inspirujące ...'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]16
+[STORY]
+„Ach, tak, bezpieczna odpowiedź, ale mądra, bo topór przecina drewno, czarownica będzie cię chronić przed magią lasu, a przyjaciel jest zawsze dobry.'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]17
+[STORY]
+„Tak bezpiecznie, tak z pozoru sprytny ... jak nudny.'
+[/STORY]
+[OUT]Czy to jest to? Gra?
+[/NODE]
+
++[NODE]23
+[STORY]
+„Dlaczego, myślisz, że wszystko w życiu musi mieć logikę lub znaczenie?'
+[/STORY]
+[OUT]I to wszystko?
+[/NODE]
+
++[NODE]24
+[STORY]
+„To jest.'
+[/STORY]
+[OUT]Zapytaj, co oznaczają gra.
+[OUT]Atakuj obrzydliwość!
+[/NODE]
+
++[NODE]25
+[STORY]
+„Zadaję pytanie i tym samym przekazuję wiedzę zdobytą przez dziesięciolecia w tym nieożywionym stanie. Bez sztuczek, nie jestem demonem, tylko gra. 
+
+Może cię nauczyć dobrych lub złych rzeczy na temat życia.'
+[/STORY]
+[OUT]Zapytaj, co oznaczają gra.
+[OUT]Zabijć to coś!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Poddajesz się mojej mocy, dobrze!” 
+
+Teraz zostaw mnie, nie jestem w nastroju do twoich wybryków.„Duch znika.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Zbliżasz się do stosów i widzisz szkielet orka siedzący przy kamiennej płycie, rzucający kośćmi. Kości są wykonane z kości i bursztynu, a kubek wygląda jak skóra orka. 
+
+[/STORY]
+[OUT]Atakuj go!
+[OUT][Szkielet] Pozdrów swojego przyjaciela szkieletu i zapytaj, co gra.
+[OUT][Ork] Zapytaj tego diabła, dlaczego siedzi na świętych terenach.
+[OUT][Demon] Z demonem po twojej stronie, oszustwo nie stanowi problemu. Grać.
+[OUT]Zgadzam się na grę.
+[OUT]Wydaje się stratą czasu. Pozostawiać.
+[/NODE]
+
++[NODE]38
+[STORY]
+„Fiend? Kogo nazywasz diabłem, brudem? 
+
+Siedzę tutaj, pilnując tego miejsca, nawet jeśli mógłbym się wygłupiać i robić różne rzeczy, a mój własny krew rzuca na mnie brud!'
+[/STORY]
+[OUT]Jak śmiesz cię obrażać? Atak!
+[OUT]Kiwnij głową, aby potwierdzić, że ma rację. Zapytaj, dlaczego nie atakuje.
+[OUT]Odchodzicie.
+[OUT]Zapytaj, dlaczego tu siedzi.
+[/NODE]
+
++[NODE]39
+[STORY]
+„Dlaczego? Czy powinienem? Czy zamierzasz łupić stosy lub sikać na kości czy coś takiego? Nie? Zagrajmy w grę w kości, bo się nudzę.'
+[/STORY]
+[OUT][Intelekt] Gra w kości jest po prostu kwestią prawdopodobieństw, a przypadek nie jest obcy dla domeny twojego boga. Grać.
+[OUT][Demon] Z demonem po twojej stronie, oszustwo nie stanowi problemu. Grać.
+[OUT]Graj.
+[OUT]Tak, chciałbyś łupić. Atak!
+[/NODE]
+
++[NODE]40
+[STORY]
+Logika i intelekt są twoją bronią, więc przy każdym rzucie przepowiadasz następny ruch. 
+
+Ale szkielet nie wydaje się mieć nic przeciwko tej boskiej interwencji. 
+
+Rzucasz wieloma turami, aż do ostatecznego rzutu, który zadecyduje o zwycięzcy.
+[/STORY]
+[OUT]Pomimo twojego ostrego umysłu, szansa ma swoją drogę. Tracisz i zbyt późno zdajesz sobie sprawę, że część twoich rzeczy zniknęła. Kiedy odwrócisz się do szkieletu, nigdzie go nie znajdziesz. Pozostawiać.
+[OUT]Chance ma z tobą swoją drogę przez jakiś czas, ale potem zmieniasz stoły i wygrywasz. Szkielet po prostu kiwa głową i po doświadczeniu czujesz się inaczej. Pozostawiać.
+[OUT]Twoja gra jest bez zarzutu. Wygrywasz, a szkielet wygląda na pod wrażeniem. Wręcza ci kości w nagrodę i dodaje kolejny prezent. Kiwnij głową i odejdź.
+[OUT]Gra to remis. Szkielet przytakuje dzięki za dobrze spędzony czas, a następnie cię ignoruje. Pozostawiać.
+[/NODE]
+
++[NODE]41
+[STORY]
+Granie przeciwko demonom jest pewnym sposobem na utratę duszy, ale szkielet wydaje się być poza takimi obawami. Rozpoczyna się gra. 
+
+Rzucasz wieloma turami, aż do ostatecznego rzutu, który zadecyduje o zwycięzcy.
+[/STORY]
+[OUT]Oszukasz drogę do zwycięstwa, a szkielet wygląda na pod wrażeniem. Wręcza ci kostkę jako nagrodę, a potem odchodzi. Kiwnij głową i odejdź.
+[OUT]Pomimo twojego ostrego umysłu, szansa ma swoją drogę. Tracisz i zbyt późno zdajesz sobie sprawę, że część twoich rzeczy zniknęła. Kiedy odwrócisz się do szkieletu, nigdzie go nie znajdziesz. Pozostawiać.
+[OUT]Gra to remis. Szkielet przytakuje dzięki za dobrze spędzony czas, a następnie cię ignoruje. Pozostawiać.
+[/NODE]
+
++[NODE]42
+[STORY]
+Rzucasz wieloma turami, aż do ostatecznego rzutu, który zadecyduje o zwycięzcy.
+[/STORY]
+[OUT]Pomimo twojego ostrego umysłu, szansa ma swoją drogę. Tracisz i zbyt późno zdajesz sobie sprawę, że część twoich rzeczy zniknęła. Kiedy odwrócisz się do szkieletu, nigdzie go nie znajdziesz. Pozostawiać.
+[OUT]Chance ma z tobą swoją drogę przez jakiś czas, ale potem zmieniasz stoły i wygrywasz. Szkielet po prostu kiwa głową i po doświadczeniu czujesz się inaczej. Pozostawiać.
+[OUT]Twoja gra jest bez zarzutu. Wygrywasz, a szkielet wygląda na pod wrażeniem. Wręcza ci kostkę jako nagrodę, a potem odchodzi. Pozostawiać.
+[OUT]Gra to remis. Szkielet przytakuje dzięki za dobrze spędzony czas, a następnie cię ignoruje. Pozostawiać.
+[/NODE]
+
++[NODE]48
+[STORY]
+„Kolega obudził człowieka z kości! Miło cię poznać. 
+
+Chcesz zagrać w kości? Mam nadzieję, że nie przeszkadzają ci jaskrawe materiały - obawiam się, że mam ciemne poczucie humoru.'
+
+Potrząsa filiżanką ze skóry orkowej, która trzyma kości kostne. 
+[/STORY]
+[OUT]Obrzydliwe. Atak!
+[OUT]Zgadzam się na grę.
+[OUT]Zapytaj, dlaczego tu siedzi.
+[/NODE]
+
++[NODE]49
+[STORY]
+„Obudziłem się na stosie, żywy - albo, cóż, wiesz o co mi chodzi. Zdecydowałem więc, że moim obowiązkiem będzie siedzieć tutaj i strzec tego miejsca. Byłam jedną z córek matriarch i jej prochy leżą tutaj, więc będę ją strzegł. 
+
+Ale to nudne, więc lubię grać w gry.'
+[/STORY]
+[OUT]Zgadzam się na grę.
+[OUT]Odmówcie i odejdźcie.
+[OUT]Jak nie-orczy. Atak!
+[/NODE]
+
++[NODE]53
+[STORY]
+„Dobrze, dobrze. Zabawmy się. Rzuć kostkę.'
+[/STORY]
+[OUT][Intelekt] Gra w kości jest po prostu kwestią prawdopodobieństw, a przypadek nie jest obcy dla domeny twojego boga. Grać.
+[OUT][Demon] Z demonem po twojej stronie, oszustwo nie stanowi problemu. Grać.
+[OUT]Graj.
+[/NODE]
+
++[NODE]69
+[STORY]
+Kiedy wstajesz, aby wyjść, nagle zdajesz sobie sprawę, że minęło więcej czasu niż myślałeś i widzisz ślady na ciele, których wcześniej nie było. 
+
+Zastanawiasz się, co stwór mógł ci zrobić. Szkielet orka jednak zniknął.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]70
+[STORY]
+„Żałosne. Nazywasz mnie złym orkiem, ha! Będę żywił się twoim duchem, ale pozwolę ci odejść, słabe.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --place of power spaw(25)
++[NODE]2
+[STORY]
+Dochodzisz do pozornie skromnego miejsca, gdzie jedno krzywe drzewo stoi nad małym stawem. 
+
+Istnieje przytłaczające poczucie spokoju, im bliżej stawu, a ci, którzy są wrażliwi na sploty magii, wiedzą, że to stare miejsce mocy. 
+
+Jeśli jesteś magicznym użytkownikiem, możesz tutaj wykonać kilka rytuałów.
+[/STORY]
+[OUT]Czym dokładnie jest miejsce władzy?
+[OUT]Weź duchową esencję krasnoluda i spróbuj uwolnić go tutaj.
+[OUT]Ignoruj los krasnoludów, odejdź.
+[/NODE]
+
++[NODE]3
+[STORY]
+Miejsca mocy to miejsca, w których niezwykła duchowa lub magiczna obecność pozostawiła trwały ślad. Mogą przybierać różne formy.
+[/STORY]
+[OUT]Jak co?
+[OUT]Weź duchową esencję krasnoluda i spróbuj uwolnić go tutaj.
+[/NODE]
+
++[NODE]4
+[STORY]
+Mogą to być miejsca, w których połączenie ze światem szarości - królestwo duchów - jest silne, lub gdzie duch postanowił zamieszkać i pomóc żyjącym. 
+
+Mogą to być również miejsca, w których miały miejsce ekstremalne zdarzenia, tworząc emocjonalne ślady, a może wielkie magiczne czyny, które pozostawiły ślady. Mogą być miejscami, w których mieszkali wielcy magowie, pozwalając, by ich magia przenikała do samej ziemi. 
+
+I tak dalej.
+[/STORY]
+[OUT]Weź duchową esencję krasnoluda i spróbuj uwolnić go tutaj.
+[/NODE]
+
++[NODE]5
+[STORY]
+Bierzesz ducha krasnoludzkiego i umieszczasz go ostrożnie w małym stawie przy drzewie. Czujesz, że wody są pobłogosławione przez starszego ducha i mogą rzeczywiście uwolnić krasnoluda. 
+
+Ale jeśli zostanie to zrobione niewłaściwie, rytuał może kosztować cię własną wiarę. 
+
+Czujesz, że możesz również spróbować związać ducha z tobą, zamiast go uwolnić.
+[/STORY]
+[OUT]Uwolnij ducha.
+[OUT]Zwiąż ducha.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]8
+[STORY]
+Powiązanie ducha z jego wolą jest brudnym biznesem. Udaje ci się, ale czujesz, że twoja dusza jest osłabiona przez czyn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Twój rytuał się udaje, ale duch okazuje się zbyt silny, by go związać. Czujesz jednak, że wiele nauczyłeś się od rytuału.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Rytuał działa, ale mocne wiązanie niechętnego krasnoludzkiego ducha jest przerażająco haniebne. 
+
+Krasnoludy w twojej drużynie odczuwają ciężar wstydu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Duch krasnoludzki jest teraz związany z niewolą.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]17
+[STORY]
+Rytuał działa, a starożytny duch ze stawu uwalnia więzy, które trzymały krasnoludzką duszę w niewoli. Uwolniony krasnolud wali rękę w pierś: 
+
+'Zachowałeś słowo i uważam, że jesteś wart moich usług. Cmentarz przez jakiś czas będzie w porządku.'
+[/STORY]
+[OUT]Świetnie. Teraz odejdźcie razem.
+[/NODE]
+
++[NODE]18
+[STORY]
+Rytuał działa, a starożytny duch ze stawu uwalnia więzy, które trzymały krasnoludzką duszę w niewoli. Uwolniony krasnolud uderza dłoń w jego pierś: 
+
+'Trzymałeś słowo, a teraz muszę wrócić do swoich obowiązków. Niech kamień i żelazo będą z tobą!'
+[/STORY]
+[OUT]Świetnie. Pozostawiać.
+[/NODE]
+
++[NODE]27
+[STORY]
+Przychodzisz do miejsca mocy. Jest zawsze obecny i jasny, ale niestety nie jesteś tym, który nosi esencję ducha, więc nie możesz nic tutaj zrobić.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Twoje wysiłki zawodzą, a rytuał wiele z ciebie wysysa. 
+
+Krasnoludy w twojej drużynie odczuwają ciężar wstydu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dwarf demon spwn(26)
++[NODE]2
+[STORY]
+Przychodzisz do małej budy, gdzie powiedziano ci, że demon, który zniewolił krasnoluda, mieszka. 
+
+W miarę zbliżania się czujesz w sobie koncentrację ciemności. 
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Zignoruj prośbę krasnoludów i odejdź.
+[/NODE]
+
++[NODE]5
+[STORY]
+Wewnątrz dom jest opuszczony, rozkładający się i ciemny - tak ciemny, że nie oświetla go żaden sposób światła. 
+
+Głos rechocze: „Nie wyczuwam dla mnie żadnego pożytku, więc zostaw mnie, albo pożreję cię dla zabawy!'
+[/STORY]
+[OUT]Zamęt i magia mogą przeciąć ciemność. Użyj swojej domeny, aby zobaczyć prawdę tutaj.
+[OUT]Natura i intelekt nie schylają się łatwo do oszustwa, a ty wyczuwasz ukrytą prawdę. Spróbuj to przejrzeć.
+[OUT]Harmonia i światło nie radzą sobie dobrze pod presją ciemności. Jednak tutaj nie czujesz się osłabiony. Spróbuj przejrzeć oszustwo.
+[/NODE]
+
++[NODE]7
+[STORY]
+Ciemna zasłona spada, a za nią siedzi tylko demon karakandza.  Patrzy na ciebie ze strachem: 
+
+'Ehmmm, nie byłem przygotowany do walki. Czy możemy zawrzeć umowę?'
+[/STORY]
+[OUT]Brak ofert. Zabij to.
+[OUT]Co za sprawa?
+[/NODE]
+
++[NODE]8
+[STORY]
+„Dam ci trochę dóbr, które krasnoludzki kowal dla mnie robił. Wrzucę nawet coś ekstra-dobra i wszystko ...'
+
+[/STORY]
+[OUT]Zgadzam się tylko, jeśli uwolni krasnoluda.
+[OUT]Zgadzam się na układ, ignorując los krasnoluda.
+[OUT]Brak ofert. Zabij to.
+[/NODE]
+
++[NODE]9
+[STORY]
+„Transakcja jest zapieczętowana.'
+
+Demon klaszcze w dłonie i znika, zostawiając ci obiecane dobra - i masz nadzieję, że nic więcej ...
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Możesz albo uwolnić krasnoluda, albo mieć moje dobra, a zanim zmarnujesz czas na groźby śmierci, to wszystko, co mogę zaoferować.'
+[/STORY]
+[OUT]Rozwiąż wolność krasnoluda.
+[OUT]Zgadzam się na układ, ignorując los krasnoluda.
+[OUT]Brak ofert. Zabij to.
+[/NODE]
+
++[NODE]12
+[STORY]
+Stwór wygląda na wściekłego, ale kiwa głową i klaszcze w dłonie. Następnie znika. 
+
+Kiedy wrócisz do krasnoluda, kuźnia zawali się w gruzy, a wszystko, co znajdziesz, to bardzo stary kamienny szkielet. Ale, zgodnie z obietnicą, szkielet ma na ciebie dobry łup.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Stworzenie rozpuszcza się w zieloną mazię, gdy go uderzysz. Prawdopodobnie nie żyje. 
+
+Kiedy wrócisz do krasnoluda, kuźnia zawali się w gruzy, a wszystko, co znajdziesz, to bardzo stary kamienny szkielet. Ale, zgodnie z obietnicą, szkielet ma na ciebie dobry łup.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Zanim zdołasz to rozgryźć, czujesz przytłaczającą obecność prawdziwej ciemności. Ktokolwiek próbował cię oszukać, prawdopodobnie wezwał prawdziwą rzecz.
+[/STORY]
+[OUT]Wyjdź!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery beasts orc(27)
++[NODE]2
+[STORY]
+Zdajesz sobie sprawę, że nie są to ruiny, ale miejsce pochówku klanu orków. 
+
+Widzisz kilka starych stosów i jeden nowy. Dostrzegasz też stado wilków krążących.
+[/STORY]
+[OUT][Ork] Przyjrzyj się bliżej paczce, aby sprawdzić, czy mają znak skrobiserów.
+[OUT][Ork] Przyjrzyj się bliżej paczce, aby sprawdzić, czy mają znak skrobiserów.
+[OUT]Masz umiejętności radzenia sobie ze złymi bestiami. Obserwuj pakiet, aby znaleźć sposób na to.
+[OUT]Atakuj wilki!
+[OUT]W imię Horza, pokłońcie się!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Te wilki są rzeczywiście skrępaczami, lojalnymi towarzyszami tropicieli krwi, wyraźnie strzegącymi miejsca spoczynku swoich panów. 
+
+Ich przywódca musi zostać położony tutaj. Najlepiej pozostawić je, ale jeśli chcesz łupić stosy (co jest twoim prawem), musisz stawić czoła wilkom. 
+
+[/STORY]
+[OUT]Unikaj stosu należącego do dawnych mistrzów wilków i rabuj innych, jak masz prawo.
+[OUT]Zabij wilki. Nie mają sensu, gdy ich pan zniknie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Te wilki są rzeczywiście krochmalami, lojalnymi towarzyszami tropicieli krwi. 
+
+Zostały bez lidera paczki. To twoja szansa na zdobycie lojalności, ale uważaj, może się to stać krwawe!
+[/STORY]
+[OUT]Jako tropiciel krwi pokaż tym wilkom swoją surową wolę i uczyń je piętami!
+[OUT]Jako matriarcha, zdominuj te wilki swoją mocą!
+[OUT]Unikaj stosu należącego do dawnych mistrzów wilków i rabuj innych, jak masz prawo.
+[OUT]Unikaj stosu należącego do dawnych mistrzów wilków i rabuj innych, jak masz prawo.
+[/NODE]
+
++[NODE]11
+[STORY]
+Wilki są bite i poddawane twojej szarży. 
+
+Jeden z wilków decyduje, że jesteś jego nowym panem.
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]12
+[STORY]
+Wilki są bite i poddawane twojej szarży. Ten pakiet będzie nadal wędrował, ale będziesz mógł wezwać jego pomoc. 
+
+
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]13
+[STORY]
+Wilki nie poddają się, a ty ledwo unikasz ich gniewu.
+[/STORY]
+[OUT]Zmykać się z nimi! Zamiast tego atakuj!
+[OUT]Biegnij dalej.
+[/NODE]
+
++[NODE]16
+[STORY]
+Zdajesz sobie sprawę, że te wilki są dzikie, gniewne i głodujące - niebezpieczne połączenie. 
+
+Będą reagować tylko na brutalną siłę lub dominację.
+[/STORY]
+[OUT]Jako demon nocny zastrasz zwierzęta. 
+[OUT]Wykorzystaj swoją wiedzę o wilkach, aby zdominować stado!
+[OUT][Natura] Spróbuj dotrzeć do wewnętrznego ducha wilków, aby uspokoić ich w imię natury. 
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Pokonujesz wilki i możesz splądrować stosy pogrzebowe. 
+
+Jeden z wilków decyduje, że jesteś nową alfą, więc teraz możesz wezwać jego pomoc. 
+
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+Zabijasz wilki i możesz je splądrować.
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]29
+[STORY]
+Wilki są bite i poddawane twojej szarży. 
+
+Jeden z wilków decyduje, że jesteś jego nowym panem.
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]30
+[STORY]
+Wilki są bite i poddają się twojej szarży. 
+
+Ten pakiet będzie nadal wędrował, ale możesz być w stanie wezwać jego pomoc. 
+
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]31
+[STORY]
+Wilki poddają się twojej szarży. 
+
+Ta paczka będzie nadal wędrować, ale możesz splądrować stosy. 
+
+[/STORY]
+[OUT]Dobrze. Zbierz łup i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Witch house(28)
++[NODE]2
+[STORY]
+Natrafiacie na starą chatę w lesie. Z początku wydaje się ona w dość kiepskim stanie, ale z komina unosi się dym.
+[/STORY]
+[OUT]Zapukajcie i sprawdźcie, czy ktoś jest w domu.
+[OUT]Zapukajcie i sprawdźcie, czy ktoś jest w domu.
+[OUT]Podkradnijcie się i sprawdźcie.
+[OUT]Podkradnijcie się i sprawdźcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Gdy zbliżacie sie do domu nagle słychać dzwonki. Brzmią jakby były wykonane ze srebra. 
+
+'Ha! Przeklęte, nocne demony trzymajcie sie z dala od mego domu! Słyszycie!'
+[/STORY]
+[OUT][Wiedźma] Pochwalcie właściciela domu za dobre uroki obronne.
+[OUT]Uważacie, że srebrne dzwoneczki i uroki Was osłabią. Nadal możecie wejść jeśli chcecie. Nie życzycie nikomu przecież krzywdy, a jedynie chcecie porozmawiać.
+[OUT]Wpadnijcie do środka i zabijcie wszystko co się rusza!
+[/NODE]
+
++[NODE]5
+[STORY]
+Wewnątrz chaty widzicie starą kobietę zgarbioną nad paleniskiem. Z sufitu zwisają suszone pęki ziół, wokół pełno dziwnych płynów w fiolkach, drobnych kostek, kurzych nóżek i wszelkiego rodzaju podobnych składników.
+[/STORY]
+[OUT]To wiedźma, zabić ją!
+[OUT]To wiedźma, zabić ją!
+[OUT][Wiedźma] Podejdźcie porozmawiać z nią, ale ostrzeżcie, żeby nie próbowała żadnych sztuczek.
+[OUT]Zapukajcie do drzwi.
+[/NODE]
+
++[NODE]6
+[STORY]
+Stara zakapturzona kobieta odbiera drzwi i gesty, abyś wszedł. 
+
+Potem wraca, siada na bujanym fotelu i dzwoni do ciebie. - Wejdź, wejdź, nieznajomi. Czy mogę zaoferować ci gorące jedzenie? Słodycze? A może jakiś handel?'
+
+[/STORY]
+[OUT]To wiedźma, zabić ją!
+[OUT]To wiedźma, zabić ją!
+[OUT]Wejdźcie i porozmawiajcie z nią.
+[OUT][Wiedźma] Podejdźcie porozmawiać z nią, ale ostrzeżcie, żeby nie próbowała żadnych sztuczek.
+[/NODE]
+
++[NODE]10
+[STORY]
+Zaskakujecie starą wiedźmę i szybko ją zabijacie. Niestety gdy kona, przeklina Was!
+
+[/STORY]
+[OUT]Splądrujcie dom i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Zaskakujecie starą wiedźmę i szybko ja zabijacie. Próbuje Was jeszcze przekląć, ale jeden z Was jest wystarczająco szybki, by ją powstrzymać. 
+
+[/STORY]
+[OUT]Splądrujcie dom i odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+'Jeśli chcecie mogę zrobić napar który daje niezłego kopa. Oczywiście nie za darmo.'
+[/STORY]
+[OUT]Poproście o błogosławieństwo ciała. [w zamian za 5 sztuk kwarcu]
+[OUT]Poproście o błogosławieństwo umysłu. [w zamian za 5 sztuk topazu]
+[OUT]Poproście o błogosławieństwo duszy. [w zamian za 5 sztuk kości cienia]
+[OUT]Podaj swoją domenę magii lub powinowactwo do sztuk mistycznych i zapytaj, czy byłaby na tyle uprzejma, by cię nauczyć. 
+[OUT]Zaoferujcie jej część żywności w zamian za jej mądrość.
+[OUT]Zapytajcie czy zechce z Wami handlować.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Stara wiedźma mówi Wam wiele mądrych rzeczy. Kończy chrapliwym głosem:
+
+'... i jeśli kiedykolwiek zobaczycie piękna dziewczynę przy wodzie, albo usłyszycie cudowną pieśń na morzu, módlcie się i wspomnijcie na me słowa. Trzy razy uszczypnijcie się w policzek, zanim pójdziecie zrobić coś głupiego z jednym z tych uwodzicielskich demonów.'
+[/STORY]
+[OUT]Podziękujcie jej za radę i odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Oddajecie jej zapasy, a wiedźma szybkim ruchem kłuje jedno z Was zakrzywionym sztyletem. 
+
+Następnie pluje na zakrwawione ostrze, zdrapuje jedną z brodawek i rozgniata ją, po czym rozciera razem pozostałymi składnikami. Patrzycie z obrzydzeniem jak zlizuje ze sztyletu śluzowatą miksturę 
+
+Rzuca sie gwałtownie na Was wypowiadając słowa jakby w obcym języku. Jesteście całkowicie chorzy, ale równocześnie dają się odczuć skutki obiecanego błogosławieństwa
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Oddajecie jej zapasy, a wiedźma szybkim ruchem kłuje jedno z Was zakrzywionym sztyletem. 
+
+Rozmazuje zakrwawione ostrze krwią martwego królika, i potem spod własnej pachy. Pluje trzy razy na swoje prawe ramie wyciera w ślinę sztylet. 
+
+Potem kilka razy uderza Was tusza królika. Co bardzo zaskakujące zaczynacie odczuwać pożądany efekt.
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Oddajecie jej zapasy, a wiedźma szybkim ruchem kłuje jedno z Was zakrzywionym sztyletem. 
+
+Czekacie na resztę rytuału, ale ona śmieje sie szczerząc resztki zębów:
+
+'Co? Myślicie, że zrobię cos paskudnego? Wszystko gotowe. Krew załatwiła sprawę. Do następnego razu.'
+[/STORY]
+[OUT]Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Stara wiedźma opowiada Wam wiele zabawnych opowieści. Kończy mówiąc:
+
+'...wiec teraz już wiecie, w życiu najcenniejsze są gorąca woda, zdrowe zęby i miękka poduszka na której Twój stary tyłek może usiąść.'
+
+Jakoś, nikt z Was nie czuje, żeby zmądrzał.
+
+[/STORY]
+[OUT]Podziękujcie jej za radę i odejdźcie.
+[OUT]Zabić ją!
+[OUT]Zabić ją!
+[/NODE]
+
++[NODE]24
+[STORY]
+'Hmm, w dawnych czasach podążałam za mistrzem Velesem, zatem dziś wieczór będę chwalić te wspaniałe dni. 
+
+Siadajcie, pijcie i słuchajcie.'
+
+Stara wiedźma opowiada Wam wiele historii. W końcu mówi zmęczona, że nadszedł czas by iść.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+'Ha! Dobre! Poznaję Cię siostro. Z nieznajomymi mogę pogrywać i oszukiwać ich. 
+
+Wam jednak oferuje uczciwą wymianę jak miedzy siostrami. Mogę nauczyć Was pewnych rytuałów i dać Wam kilka ziół, ale potrzebuje trochę energii duchowej w zamian.
+[/STORY]
+[OUT]Handel.
+[OUT]Nauczcie się rytuałów.
+[OUT]Podziękujcie jej na razie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Jeden z Was nacina rękę i unosi zaciśniętą pięść. Krople krwi spadają na oczyszczoną wcześniej podłogę. Rzucasz trzy kości z lewej reki nienarodzonego dziecka.
+
+Ale kości nie układają się w żaden wzór, a głos z zaświatów śmieje sie z Was:
+'Tanie sztuczki nie robią na mnie wrażenia. Odejdźcie!'
+
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Wpadnijcie do środka i zabijcie wszystko co się rusza!
+[/NODE]
+
++[NODE]39
+[STORY]
+'Odczep się. Nie ma tu czego szukać'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Wpadnijcie do środka i zabijcie wszystko co się rusza!
+[/NODE]
+
++[NODE]43
+[STORY]
+'Jeśli jesteś tym, za kogo sie podajesz, udowodnij to.'
+[/STORY]
+[OUT]Wykonanie prostego rytuału czytania kości.
+[/NODE]
+
++[NODE]44
+[STORY]
+Jeden z Was nacina rękę i unosi ją z zaciśniętą pięścią do góry. Krew spływa na oczyszczony kawałek ziemi. Rzucone zostają trzy kości z lewej reki nienarodzonego dziecka. 
+
+Kości tworzą wzór.
+[/STORY]
+[OUT]Powiedzcie kobiecie, że już wkrótce z cienia wyjdzie jej przystojny nieznajomy.
+[/NODE]
+
++[NODE]48
+[STORY]
+Zostajecie pokonani przez wiedźmę, która rzuca na wasze dusze klątwę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+'No cóż, trochę pohandlowaliśmy. Teraz pora już iść.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+'Dobrze robić z Tobą interesy, Tymczasem....'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Underground(29)
++[NODE]2
+[STORY]
+Ruiny dawno porzucono i zrabowano wiele razy. Tak jak już się poddasz, odkrywasz ukryte wejście do podziemnej komnaty, chronionej przez ogromną, ciężką płytę z kamienia, która kiedyś mogła być bramą. 
+[/STORY]
+[OUT]Masz jakieś narzędzia rzemieślnicze. Użyj ich, aby spróbować otworzyć to wejście.
+[OUT]Ponieważ wiedza jest twoim przewodnikiem, zastanów się, jak użyć dźwigni i otworzyć tę rzecz.
+[OUT]Ponieważ wiedza jest twoim przewodnikiem, zastanów się, jak użyć dźwigni i otworzyć tę rzecz.
+[OUT]Użyj swojego mięśnia, by się przebić.
+[OUT]Użyj swojego mięśnia, by się przebić.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Z narzędziami w ręku udaje ci się znaleźć zawiasy i podważyć starą kamienną płytę. 
+
+Widzisz ciemny korytarz prowadzący głębiej w dół. Powietrze jest przestarzałe, a ciemność zdaje się patrzeć na ciebie. 
+
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Właściwie wygląda to zbyt przerażająco. Po prostu wyjdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+Znajdziesz sposób, aby otworzyć płytę za pomocą mózgów nad brawnami. 
+
+Widzisz ciemny korytarz prowadzący głębiej w dół. Powietrze jest przestarzałe, a ciemność zdaje się patrzeć na ciebie.
+[/STORY]
+[OUT]Wejdźcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Kamienna płyta pęka pod naciskiem twojej brawury, ale rozpada się tak bardzo, że spadasz z gruzem na korytarz. 
+
+Widzisz ciemny korytarz prowadzący głębiej w dół. Powietrze jest przestarzałe, a ciemność zdaje się patrzeć na ciebie.
+[/STORY]
+[OUT]Wejdź głębiej.
+[/NODE]
+
++[NODE]10
+[STORY]
+Kamień pęka pod twoim atakiem, a droga jest czysta. 
+
+Widzisz ciemny korytarz prowadzący głębiej w dół. Powietrze jest przestarzałe, a ciemność zdaje się patrzeć na ciebie.
+[/STORY]
+[OUT]Wejdźcie.
+[OUT]Właściwie wygląda to zbyt przerażająco. Po prostu wyjdź.
+[/NODE]
+
++[NODE]12
+[STORY]
+Schodzisz krętym korytarzem, aż dotrzesz do komory z sześcioma kamiennymi kolumnami. Pomiędzy nimi są wnęki z granitowymi skrzyniami i wazami.
+
+[/STORY]
+[OUT]Przeszukaj komnatę.
+[OUT]Przeszukaj komnatę.
+[OUT]Właściwie wygląda to zbyt przerażająco. Po prostu wyjdź.
+[/NODE]
+
++[NODE]15
+[STORY]
+Dostrzegasz sylwetki humanoidalnych stworzeń zwisających z sufitu przy kolumnach. 
+
+Oni również cię zauważyli ...
+[/STORY]
+[OUT]Użyj swojej wiedzy o wiedzy demonów, aby zidentyfikować te stworzenia.
+[OUT]Skup się na swojej boskiej domenie, aby to rozgryźć.
+[OUT]Te stworzenia są wyraźnie niektórymi z twoich demonicznych krewnych. Zastanów się, jak rozwiązać sytuację.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]16
+[STORY]
+Kiedy wchodzisz do komnaty, zostajesz zaatakowany przez stworzenia, które spadają z sufitu na ciebie!
+[/STORY]
+[OUT]Skup się na swojej boskiej domenie, aby to rozgryźć.
+[OUT]Walka!
+[OUT]Biegnij, chociaż możesz odnieść pewne obrażenia.
+[/NODE]
+
++[NODE]17
+[STORY]
+Striga to nieżyjące istoty znane z tego, że nie tylko piją krew żywych, ale także pożerają ich wnętrzności! 
+
+[/STORY]
+[OUT]Zaatakuj ich za pomocą światła lub harmonii!
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[OUT][Bezkrwawe istoty] Ponieważ strzygi są po krwi, bezkrwawe stworzenia powinny być w stanie wkraść się i wyjść bez problemów.
+[/NODE]
+
++[NODE]18
+[STORY]
+Czujesz, że te stworzenia są nocy, skażone ciemnością. Jako taki możesz wezwać swoją domenę, aby dać ci siłę do walki z nimi.
+[/STORY]
+[OUT]Zaatakuj ich za pomocą światła lub harmonii!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]19
+[STORY]
+Striga to przeklęte dusze, które muszą żywić się krwią żywych, aby przeżyć. Byli wyraźnie zamknięci tutaj przez długi czas i teraz głodują. 
+
+Jeśli dasz im krew, pozwolą ci splądrować w spokoju.  
+[/STORY]
+[OUT]Daj im trochę swojej krwi. 
+[OUT]Daj im trochę swojej krwi. 
+[OUT]Zaatakuj ich za pomocą światła lub harmonii!
+[OUT]Do ataku!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]20
+[STORY]
+Mówisz do swoich krewnych i oddajesz im trochę swojej krwi. 
+
+Strigas honorują umowę. Możesz splądrować w spokoju. 
+[/STORY]
+[OUT]Świetnie. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]21
+[STORY]
+Mówisz do swoich krewnych i dajesz im trochę swojej krwi, ale ten akt jest nienaturalny i sprzeczny z jedną z twoich boskich domen. 
+
+Czujesz się osłabiony duchem, ale striga honoruje umowę. Możesz splądrować w spokoju. 
+
+[/STORY]
+[OUT]Zbierzcie łupy i odejdźcie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Striga jest martwa, a komnata twoja, aby ją skusić. 
+[/STORY]
+[OUT]Świetnie. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]39
+[STORY]
+Znajdziesz sposób, aby otworzyć płytę za pomocą mózgów nad brawnami. 
+
+Widzisz ciemny korytarz prowadzący głębiej w dół. Powietrze jest przestarzałe, a ciemność zdaje się patrzeć na ciebie.
+[/STORY]
+[OUT]Wejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Bez względu na to, ile spróbujesz, stara kamienna płyta nie poruszy się.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]41
+[STORY]
+Ostrożnie się wślizgujesz. Strigas mieszają się, a ich czerwone oczy podążają za tobą, ale nie atakują. 
+[/STORY]
+[OUT]Świetnie. Zbierz łup i wyjdź.
+[/NODE]
+
++[NODE]42
+[STORY]
+Strzygi rozdzierają twoje ciało i ucztują twoją krwią, nawet gdy uciekasz dla swojego życia. 
+
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cemetery basediff6(30)
+[/EVENT]
+
+-- [EVENT] --Cemetery skeletons2(31)
++[NODE]2
+[STORY]
+Gdy wchodzisz na teren pochówku, czujesz, jak ziemia się zmienia i zauważysz, że kościste ręce wychodzą z ziemi!
+[/STORY]
+[OUT]Poczuj sploty magii w tym obszarze.
+[OUT][Natura] Te nieożywione przeciwstawiają się tradycji natury. Znajdź sposób na ich zniszczenie.
+[OUT][Odrodzenie] Porozmawiaj ze swoimi krewnymi. Być może oni też się budzą, a nie tylko marionetki mrocznej magii.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]12
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Czujesz, że te szkieletowe formy są kontrolowane przez ciemne zaklęcie, ale takie, które nie jest świeże. Może być możliwe złamanie go, ale tylko jeśli masz silną magię po swojej stronie. 
+[/STORY]
+[OUT]Spróbuj uwolnić szkielety z ich mrocznej magicznej niewoli.
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[OUT]Może pójść w sprzeczności z prawami domeny natury, ale związać szkielety ze służbą!
+[/NODE]
+
++[NODE]18
+[STORY]
+Te nieżyjące obrzydliwości kpią z praw natury. Powinieneś się im przeciwstawić.
+[/STORY]
+[OUT]Użyj rytuału, aby przełamać mroczną magię wiążącą te biedne ciała do niewoli.
+[OUT]Może pójść w sprzeczności z prawami domeny natury, ale związać szkielety ze służbą!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]21
+[STORY]
+Domeny natury i harmonii stoją przed zniewoleniem zmarłych do woli. 
+
+Twój rytuał rozpuszcza się, a kości zapadają w spokoju. Czujesz na sobie chorobę. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Rytuał działa, a ty zyskujesz służalczość nieożywionego diabła. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Wydaje się, że rytuał wiązania działa, ale wtedy wybuch niekontrolowanej energii niszczy nieożywione.
+
+Jednak widmo rodzi się z mocy i teraz podąża za tobą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Rytuał nie działa i ledwo uciec od nieożywionego. 
+
+[/STORY]
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]27
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Ty, przyjacielu. Przyjdź, nie łziemy ciała.'
+
+Niezniszczalny skręć i odejdź. Jeden z nich zostawia ci broń i widzisz przebłysk przebudzenia w jego oczach ...
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]34
+[STORY]
+„Ty, przyjacielu. Przyjdź, nie łziemy ciała.'
+
+Szkielety oddalają się, ale jeden zostaje z tyłu: 
+' Ty, nie służysz więcej. Ja, ja ci służę.'
+
+To może nie być przebudzenie, na które miałeś nadzieję, ale to pierwszy krok. Szkielet służy teraz tobie.
+[/STORY]
+[OUT]Dobrze, odejdź.
+[/NODE]
+
++[NODE]35
+[STORY]
+Szkielety idą do ciebie bezmyślnie, a niektóre strzały lecą w twoją stronę. 
+
+[/STORY]
+[OUT]Po prostu opuść to miejsce.
+[OUT]Zaatakuj ich!
+[/NODE]
+
++[NODE]42
+[STORY]
+Kości kładzie się do ostatniego spoczynku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]47
+[STORY]
+Szkielety pobiły cię i ledwo uciec.
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --CemeteryGraverob6(32)
++[NODE]2
+[STORY]
+Pomimo pierwszego pojawienia się, wydaje się, że jest to stary krasnoludzki cmentarzysko - niezwykłe znalezisko. Dostrzegasz surową grupę złodziei grobów, którzy przybyli tu przed tobą!
+[/STORY]
+[OUT][Krasnolud] Zaatakuj odrażających świętą ziemię!
+[OUT]Do ataku!
+[OUT]Spróbuj z nimi porozmawiać. Może możesz podzielić się łupami.
+[OUT]Poczekaj, aż wyjdą.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Grobowi rabusie niszczą znaczną część miejsca pochówku, a potem nagle łapią ich rzeczy i odsuwają się w pośpiechu.
+[/STORY]
+[OUT][Zerca lub krasnolud] Przeprowadź właściwe rytuały pogrzebowe, aby uspokoić tutaj wzburzone duchy.
+[OUT]Spróbuj naprawić cmentarzysko, aby uczcić zmarłych.
+[OUT]Spróbuj naprawić cmentarzysko, aby uczcić zmarłych.
+[OUT]Zobacz, czy nie zostawili niczego do łupu.
+[OUT]Zobacz, czy nie zostawili niczego do łupu.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wykonujesz odpowiednie rytuały i ponownie uświęcasz ziemię. Czujesz, że duchy, które się zatrzymują, wciąż są wściekłe, ale nie na ciebie.
+[/STORY]
+[OUT]Zbierz trochę kamienia, który został luźny, i wyjdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Próbujesz naprawić miejsce pochówku, ale czujesz, że duchy, które się zatrzymują, są wściekłe i atakują cię!
+[/STORY]
+[OUT][Magiczny użytkownik] Spróbuj wykonać rytuał, aby uspokoić duchy.
+[OUT]Po prostu opuść to miejsce.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]11
+[STORY]
+Wykonujesz odpowiednie rytuały i ponownie uświęcasz ziemię. Czujesz, że duchy, które się zatrzymują, wciąż są wściekłe, ale nie na ciebie.
+[/STORY]
+[OUT]Zbierz trochę kamienia, który został luźny, i wyjdź.
+[/NODE]
+
++[NODE]17
+[STORY]
+Wykonujesz odpowiednie rytuały i ponownie uświęcasz ziemię. Czujesz, że duchy, które się zatrzymują, wciąż są wściekłe, ale nie na ciebie.
+[/STORY]
+[OUT]Zbierz trochę kamienia, który został luźny, i wyjdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+Rozgniewane upiory opuszczają cię, ale nie podążają za tobą, gdy uciekasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Zdajesz sobie sprawę z tego, że rabusie grobów odeszli, ponieważ wściekłe duchy powstały, a teraz są gotowe do ataku!
+[/STORY]
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]23
+[STORY]
+Przegrałeś, a rabusie cię okradają! 
+
+Odzyskiwanie rzeczy z powrotem w tyłku nie będzie łatwe. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+„Co? Masz na myśli, zamiast trzymać się, pozwól mi wziąć rzeczy?'
+[/STORY]
+[OUT][Harmonia] Jak harmonia jest twoją ścieżką, powiedz, że szukasz pokoju, a nie przemocy.
+[OUT]Potwierdź.
+[OUT][Krasnolud] Potrząśnij nimi pięścią i powiedz, że nie, masz na myśli, że nie zabijesz ich, jeśli odejdą teraz!
+[/NODE]
+
++[NODE]30
+[STORY]
+Zbierasz łup, ale wkrótce zdajesz sobie sprawę, że cokolwiek duchy tych złodziei grobu nie rozwiążą, są równie nieporuszeni z tobą. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]33
+[STORY]
+Niszczysz złodziei grobów i odkładasz groby tak, jak powinny. 
+
+Czujesz, że duchy metalu i kamienia sprzyjają tobie.
+[/STORY]
+[OUT]Pokłon duchom dzięki.
+[OUT]Pokłon duchom dzięki.
+[/NODE]
+
++[NODE]35
+[STORY]
+Po odejściu złodziei grobów odkładasz groby tak, jak powinny. 
+
+Czujesz, że duchy metalu i kamienia sprzyjają tobie.
+[/STORY]
+[OUT]Pokłon duchom dzięki.
+[OUT]Pokłon duchom dzięki.
+[/NODE]
+
++[NODE]39
+[STORY]
+„Mówisz i rozmawiasz, ale nie jesteśmy gadatliwi, więc po prostu zostaw nas bądź zmiażdżyć zęby!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]44
+[STORY]
+„Wydaje mi się, że jest tu dużo lootowania”. Idziemy tą drogą, idziesz tam.'
+[/STORY]
+[OUT]Zgadzam się i zrabuj swój teren.
+[OUT]Zgadzam się i zrabuj swój teren.
+[/NODE]
+
++[NODE]48
+[STORY]
+„W porządku, dobrze, panie krasnoludzie, pójdziemy. Przepraszam...'
+[/STORY]
+[OUT]Pozwól im odejść. Przebuduj miejsce pochówku. 
+[/NODE]
+
++[NODE]60
+[STORY]
+Pokonujesz upiory, a twój duch zostaje podniesiony przez czyn.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --CemGoblinTrinketDiff4(33)
++[NODE]2
+[STORY]
+Widzisz dziwny świecidełko w jednym z miejsc pochówku.
+[/STORY]
+[OUT][Goblin] Spróbuj wypracować odpowiednią kombinację dla tego bibelotu.
+[OUT]Błyskotka zdaje się zawierać zagadkę. Przyjrzyj się bliżej.
+[OUT]Błyskotka zdaje się zawierać zagadkę. Przyjrzyj się bliżej.
+[OUT][Ork] Nie masz pojęcia, co to jest, ale spróbuj to zrobić.
+[OUT]Nie masz pojęcia, co to jest, ale spróbuj to zrobić.
+[OUT]Cokolwiek to jest, spróbuj je otworzyć.
+[OUT]Po prostu zostaw to.
+[/NODE]
+
++[NODE]3
+[STORY]
+Kizikony to stara tradycja goblinów, wywodząca się ze starego kraju - legendarne miejsce twojego pochodzenia. Mistrz bibelotów lub szaman, jak ich teraz nazywacie, pozostawi taki obiekt jako znak spuścizny. Ten nie wygląda zbyt skomplikowany, ale może być pułapką.
+[/STORY]
+[OUT]Spróbuj go otworzyć.
+[OUT]Nie, to zbyt niebezpieczne. Pozostawiać. 
+[/NODE]
+
++[NODE]6
+[STORY]
+Rzecz wybucha, gdy go uderzysz! Cierpisz na oparzenia, ale możesz jeszcze odzyskać pewne dobra.
+[/STORY]
+[OUT]Zbierz to, co jest nienaruszone, i wyjdź.
+[OUT]Zbierz to, co jest nienaruszone, i wyjdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+Byłeś tak blisko, ale przekręciłeś niewłaściwą dźwignię i cała rzecz eksploduje w twoich rękach!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Czytałeś o starych zwyczajach goblinów, gdzie szamani zostawiali przedmioty za sobą, by oszukać dowolnych grabieżców. Czy może przekazać część ich dziedzictwa? W obu przypadkach, niezależnie od tego, co obiekt może pomieścić, jest prawdopodobnie zabezpieczony przed manipulacją.
+[/STORY]
+[OUT]Spróbuj go otworzyć.
+[OUT]Otwórz to mocno.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Zawodzisz, a wiadomość w dymie wypływa: 
+
+'Ha! Głupi ork.'
+
+Następnie urządzenie eksploduje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery lootOrc(34)
++[NODE]2
+[STORY]
+Cmentarz jest cichy i pusty. Widzisz niezagrzebione ciało na ziemi, trzymające zapas towarów.
+[/STORY]
+[OUT]Chwyć schowek.
+[OUT][Ork] Umieść ciało na stosie i zawołaj duszę wojownika, aby zmierzył się z ostatnią bitwą na cześć. Przyjmij zapasy towarów, zmarli tego nie potrzebują.
+[OUT]Weź schowek i pogrzeb ciało.
+[OUT]Weź schowek i pogrzeb ciało.
+[/NODE]
+
++[NODE]5
+[STORY]
+Gdy chwycisz za skrytkę, rozkładająca się ręka, która ją trzymała, chwyta cię i kopie głęboko, zanim znów opadnie bez życia. Czujesz, że dotknęła cię obrzydliwa siła.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Próbujesz pochować ciało, ale najwyraźniej obraziłeś jego ducha. Czujesz, że jego gniew dochodzi z zewnątrz i przeklina cię!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery loot Gob(35)
++[NODE]2
+[STORY]
+Cmentarz jest cichy i pusty. Widzisz niezagrzebione ciało na ziemi, trzymające zapas towarów.
+[/STORY]
+[OUT]Chwyć schowek.
+[OUT][Szaman] Uspokój ducha poległych, zanim weźmiesz ich łup.
+[OUT]Weź schowek i pogrzeb ciało.
+[OUT]Weź schowek i pogrzeb ciało.
+[/NODE]
+
++[NODE]5
+[STORY]
+Gdy chwycisz za skrytkę, rozkładająca się ręka, która ją trzymała, chwyta cię i kopie głęboko, zanim znów opadnie bez życia. Czujesz, że dotknęła cię obrzydliwa siła.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Próbujesz pochować ciało, ale najwyraźniej obraziłeś jego ducha. Czujesz, że jego gniew dochodzi z zewnątrz i przeklina cię!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Hum Cem Diff1(36)
++[NODE]2
+[STORY]
+Odkrywasz ruiny ludzkiego cmentarza pochodzącego z zamierzchłych czasów, gdzie pochówek był już wyraźnie zwyczajem. Widać nagrobki z wyblakłymi oznaczeniami, a nawet duże kamienne krypty. 
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Zostajesz napadnięty przez niechlujnego padlinożercę: 
+
+'Oi, ty, to jest moje, umrzyj!'
+[/STORY]
+[OUT]Obroń się!
+[/NODE]
+
++[NODE]7
+[STORY]
+Pokonujesz wroga i przeszukasz resztę tego miejsca w spokoju.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Wpadłeś w zasadzkę na bagnie, które ma tutaj swoje legowisko! 
+
+[/STORY]
+[OUT]Obroń się!
+[/NODE]
+
++[NODE]14
+[STORY]
+Stwory cię bili i ledwo uciec. Co gorsza, to miejsce było wyraźnie toksyczne, ponieważ później czujesz się źle.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Wpadłeś w zasadzkę na bagnie, które ma tutaj swoje legowisko, a jeszcze gorzej, atakuje cię swoim duchem! 
+
+[/STORY]
+[OUT]Obroń się!
+[/NODE]
+
++[NODE]19
+[STORY]
+Wpadłeś w zasadzkę samotnego befuddlera, który wydaje się tutaj bardzo nie na miejscu, ale zły i wyraźnie zdeterminowany, by go na ciebie zabrać!
+
+[/STORY]
+[OUT]Obroń się!
+[OUT]Spróbuj przemówić do niego!
+[/NODE]
+
++[NODE]23
+[STORY]
+„Och, przepraszam. Byłem po prostu ... zagubiony. Twoje piękne oblicze wyrwało mnie z tego nędznego transu. Dziękuję, że mnie uspokoiłeś. Muszę teraz poszukać mojego stawu. Oto prezent dla twojego miłego czynu.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Cemetery loot Dw(37)
++[NODE]2
+[STORY]
+Cmentarz jest cichy i pusty. Widzisz niezagrzebione ciało na ziemi, trzymające zapas towarów.
+[/STORY]
+[OUT]Chwyć schowek.
+[OUT][Krasnolud] Przykryj kości kamieniem, aby mogły powrócić na ziemię.
+[OUT]Weź schowek i pogrzeb ciało.
+[OUT]Weź schowek i pogrzeb ciało.
+[/NODE]
+
++[NODE]5
+[STORY]
+Gdy chwycisz za skrytkę, rozkładająca się ręka, która ją trzymała, chwyta cię i kopie głęboko, zanim znów opadnie bez życia. Czujesz, że dotknęła cię obrzydliwa siła.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+Próbujesz pochować ciało, ale najwyraźniej obraziłeś jego ducha. Czujesz, że jego gniew dochodzi z zewnątrz i przeklina cię!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --__Cemetery dwarf(38)
++[NODE]3
+[STORY]
+Odkrywasz cmentarz krasnoludów.
+[/STORY]
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[OUT]Przyjrzyjcie się bliżej.
+[/NODE]
+
+[/EVENT]
+

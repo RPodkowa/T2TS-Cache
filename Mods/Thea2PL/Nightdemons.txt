@@ -1,0 +1,526 @@
+-- [EVENT] --NightdemonsTradeadv(0)
++[NODE]2
+[STORY]
+Stoiska handlowca są otwarte dla ciebie 
+
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Nie jesteście naszymi przyjaciółmi, więc zapłacicie dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Marnujesz nasz czas, idź.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --NightdemonsVillage(1)
++[NODE]2
+[STORY]
+Wchodzisz na terytorium zadeklarowane przez nocne demony. Widzisz wilkołaki i strigas skulone w cieniu, obserwujące cię z głodnymi oczami: 
+
+- Przyszedłeś zaoferować swoją smaczną krew, czy może ciało?'
+[/STORY]
+[OUT][Horz lub Zorya] Jako mistrzowie księżyca i gwiazd, żądajcie swojego pokrewieństwa z dziećmi nocy.
+[OUT]Zapytaj, czy możesz wejść i zbadać?
+[OUT]Odchodzicie.
+[OUT][Przyjaciel lub nocny demon] Powiedz, że akceptujesz wszelkie niebezpieczeństwa, które mogą cię spotkać tutaj i chciałbyś wejść niezależnie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Wchodzisz na terytorium zadeklarowane przez nocne demony. Czujesz na sobie wiele oczu i wita cię głęboki warkot: 
+
+'Przyszedłeś nakarmić naszą żądzę krwi, wroga nocy?'
+
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Mieszkańcy tego miejsca zaczynają krążyć wokół ciebie i czujesz się strasznie narażony na ich głód. 
+
+„Nosisz dużo srebra, mithrilu lub innego materiału, który został wydany z powodu złych metali, które nas boli i tu przychodzą.  Pozostawiać.'
+[/STORY]
+[OUT]Lepsze wyjście.
+[OUT]Do ataku!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]7
+[STORY]
+„Na razie jesteście przyjaciółmi. Więc możesz wejść na własne ryzyko.'
+[/STORY]
+[OUT]Zapytaj o coś interesującego.
+[OUT]Zapytaj, czy będą z tobą handlować?
+[OUT]Jest kilka wilkołaków na ringu, idź do nich.
+[OUT]Odwiedź domy rozrywki.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Przyjmuję twoją ofiarę i wezwę niewolników do twojej służby.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Dotychczas udowodniłeś nam, że jesteście przyjaciółmi, tak, będziemy z wami handlować.'
+[/STORY]
+[OUT]Handel.
+[/NODE]
+
++[NODE]15
+[STORY]
+Nocne bestie walczą, by udowodnić swoją wartość. Zapraszamy do przyłączenia się, jeśli się odważysz. 
+
+W pobliżu mistrz striga prezentuje swoje mistyczne moce.
+[/STORY]
+[OUT][Tylko raz] Przetestuj swoją awanturę przeciwko wilkołakowi. Dwóch twoich najsilniejszych walczy.
+[OUT][Tylko raz] Przetestuj swoją awanturę przeciwko wilkołakowi.  Jeden z twoich najsilniejszych walczy.
+[OUT]Albo wyczerpałeś swoje szanse na wyzwanie, albo to nie jest twój czas. Wróć.
+[OUT][Tylko raz] Rzuć wyzwanie mistrzowi striga, jeden na jednego.
+[/NODE]
+
++[NODE]16
+[STORY]
+„To twój szczęśliwy dzień, możesz wejść na własne ryzyko.'
+[/STORY]
+[OUT]Zapytaj, czy będą z tobą handlować?
+[OUT]Odwiedź domy rozrywki.
+[OUT]Dom rekreacyjny jest zajęty, wróć później.
+[/NODE]
+
++[NODE]18
+[STORY]
+Wchodzisz do ciemnych pomieszczeń domu przyjemności i egzotycznego tancerza, który wydaje się być częścią duchowej części ciała. 
+
+Twój błysk jest przywrócony, ale czujesz, że część twojej krwi została spuszczona, a to sprawiło, że poczułeś się źle.
+[/STORY]
+[OUT]Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Upiłeś się w nocnym domu rozrywki dla demonów, kiedy się budzisz, jesteś pokryty wilczym futrem i raczej szorstkimi „ukąszeniami miłości”… ale czujesz się odnowiony. 
+[/STORY]
+[OUT]Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Upiłeś się w nocnym domu rozrywki dla demonów, kiedy się budzisz, jesteś pokryty wilczym futrem i raczej szorstkimi „ukąszeniami miłości” ... Nie czujesz się zbyt dobrze, ale z pewnością była to noc do zapamiętania, czy nie?
+[/STORY]
+[OUT]Zostaw ...
+[/NODE]
+
++[NODE]21
+[STORY]
+Upiłeś się w nocnym domu rozrywki dla demonów, kiedy się budzisz, jesteś pokryty wilczym futrem i raczej szorstkimi „ukąszeniami miłości” ... I wydaje się, że jeden wilk myśli, że jesteś jego tatusiem.
+[/STORY]
+[OUT]Zostaw ...
+[/NODE]
+
++[NODE]22
+[STORY]
+Upiłeś się w nocnym domu rozrywki dla demonów, kiedy się budzisz, jesteś pokryty wilczym futrem i raczej szorstkimi „ukąszeniami miłości”… a kiedy spojrzysz na siebie z góry - jesteś strigą!
+[/STORY]
+[OUT]Zostaw ...
+[/NODE]
+
++[NODE]28
+[STORY]
+Nocne demony są zabijane i słyszysz straszne wycie w oddali ... 
+
+Ale z drugiej strony, jesteś wybrany z Horza, alfa księżyca. masz prawo domagać się tych bestii, jeśli sobie tego życzysz, i znasz tych, którzy byli tego świadkami, że będą cię szanować.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Nocne bestie pokonują cię i żądają ceny krwi za twój atak.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]36
+[STORY]
+„Nie, odejdź. Wróć z tymi, którzy są przyjaciółmi nocy, być może wtedy będziemy słuchać.'
+[/STORY]
+[OUT]Lepsze wyjście.
+[OUT]Do ataku!
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]37
+[STORY]
+„To twój szczęśliwy dzień, nazywasz naturę swoim panem i szanujemy to. Możesz wejść na własne ryzyko.'
+[/STORY]
+[OUT]Zapytaj, czy będą z tobą handlować?
+[OUT]Odwiedź domy rozrywki.
+[/NODE]
+
++[NODE]38
+[STORY]
+Z cienia rozmawiają z tobą: 
+
+'Wybrałeś noc. Chcemy być w twojej paczce.'
+[/STORY]
+[OUT]Zaakceptuj tego, kto chce dołączyć.
+[OUT]Odmów grzecznie.
+[/NODE]
+
++[NODE]44
+[STORY]
+Nocne demony są zabijane i słyszysz straszne wycie w oddali ...
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+Wilkołak poddaje się twojej sile i daje ci trofea jako nagrodę za twoje zwycięstwo. 
+
+Jego paczka wyje na twój honor.
+[/STORY]
+[OUT]Zaoferuj picie ze swoim przeciwnikiem, aby walczyć dobrze.
+[OUT]Poproś jednego z was, aby stał się dzieckiem księżyca, takim jak on!
+[OUT]Poproś jednego z was, aby stał się dzieckiem księżyca, takim jak on!
+[/NODE]
+
++[NODE]49
+[STORY]
+Nocne demony zbierają się i kłaniają przed twoim wyzwaniem. Wilkołak wchodzi na ring i obnaża ostre jak brzytwa zęby w zaproszeniu.
+[/STORY]
+[OUT]Rozpocznij.
+[/NODE]
+
++[NODE]50
+[STORY]
+Jesteś pokonany i musisz kłaniać się zwycięzcy. 
+
+'Dobrze walczyłeś, ale wciąż jesteś prawdziwym dzieckiem nocnym. Teraz, jeśli nadal stoisz, napijmy się razem!'
+[/STORY]
+[OUT]Pij, jeśli nadal możesz ...
+[/NODE]
+
++[NODE]52
+[STORY]
+Jeden z rywali budzi się z następną pełnią księżyca jako dziecko nocy!
+[/STORY]
+[OUT]Chwała Horz. 
+[/NODE]
+
++[NODE]56
+[STORY]
+„Zgoda, zasługujesz na dołączenie do naszych szeregów, na Horza!'
+
+Jeden z rywali budzi się z pełnią księżyca jako dziecko nocy!
+[/STORY]
+[OUT]Chwała Horz. 
+[/NODE]
+
++[NODE]57
+[STORY]
+„Poddajesz się? Tchórz. Zacznij od mojego wzroku.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Nocne demony zbierają się i kłaniają przed twoim wyzwaniem. Wilkołak wchodzi na ring i obnaża ostre jak brzytwa zęby w zaproszeniu.
+[/STORY]
+[OUT]Rozpocznij.
+[/NODE]
+
++[NODE]60
+[STORY]
+Jesteś pokonany i musisz kłaniać się zwycięzcy. 
+
+'Dobrze walczyłeś, ale wciąż jesteś prawdziwym dzieckiem nocnym. Teraz, jeśli nadal stoisz, napijmy się razem!'
+[/STORY]
+[OUT]Pij, jeśli nadal możesz ...
+[/NODE]
+
++[NODE]62
+[STORY]
+Jeden z rywali budzi się z następną pełnią księżyca jako dziecko nocy!
+[/STORY]
+[OUT]Chwała Horz. 
+[/NODE]
+
++[NODE]63
+[STORY]
+Wilkołak poddaje się twojej sile i daje ci trofea jako nagrodę za twoje zwycięstwo. 
+
+Jego paczka wyje na twój honor.
+[/STORY]
+[OUT]Zaoferuj picie ze swoim przeciwnikiem, aby walczyć dobrze.
+[OUT]Poproś, abyś stał się dzieckiem księżyca, takim jak on!
+[/NODE]
+
++[NODE]64
+[STORY]
+„Zgoda, zasługujesz na dołączenie do naszych szeregów, na Horza!'
+
+Jeden z rywali budzi się z pełnią księżyca jako dziecko nocy!
+[/STORY]
+[OUT]Chwała Horz. 
+[/NODE]
+
++[NODE]65
+[STORY]
+W osadzie przebywa nekromanta. Mogą zaoferować ci swojego własnego nieożywionego towarzysza za cenę.
+[/STORY]
+[OUT]Zaoferuj niektóre zwierzęta jako płatność (musisz mieć 15).
+[OUT]Zaoferuj dziecku.
+[OUT]Zaoferuj członka drużyny, w tym dorosłych.
+[/NODE]
+
++[NODE]68
+[STORY]
+„Hmm, nie moja typowa cena, ale zaakceptuję to, raz.'
+[/STORY]
+[OUT]Zapłać.
+[/NODE]
+
++[NODE]70
+[STORY]
+„Zaczarowałeś moje serce mistrzowskimi umiejętnościami. Kłaniam się twojej najwyższej mocy i twojemu zadziwiającemu pięknu. 
+
+Czy zgodzisz się ze mną, kochanie nocy? Jeden słodki kęs i twój świat zmieni się na zawsze!'
+[/STORY]
+[OUT][Elf] Niestety, elfy nie mogą przyjąć takich ciemnych darów. Tak samo mu dziękuję.
+[OUT]Zaakceptuj ofertę.
+[OUT]Odrzuć grzecznie i odejdź.
+[OUT]Zaakceptuj ofertę.
+[/NODE]
+
++[NODE]71
+[STORY]
+„Rzuć mi wyzwanie? Jak wspaniale. Zatańczmy kochanie.'
+[/STORY]
+[OUT]Rozpocznij.
+[/NODE]
+
++[NODE]72
+[STORY]
+„Ach, tak, dzieci światła. Tak wstyd. Jestem zakochany, więc podaruję ci sługę, aby ci przypomnieli o mnie. Od teraz będziesz mógł przywołać mutt wilkołaka, a on będzie twoim dowódcą. Teraz ciesz się dobrze, kochanie!'
+[/STORY]
+[OUT]Dziękuję mu i odejdź, robi się to niezręcznie. 
+[/NODE]
+
++[NODE]74
+[STORY]
+Stajesz się kochanką nocy. Mistrz striga jest wyczerpany rytuałem, więc jest dobry moment, aby iść.
+[/STORY]
+[OUT]Wyjdź, ale obiecaj odwiedzić ...
+[/NODE]
+
++[NODE]75
+[STORY]
+„Cudownie, tak, twoja moc jest świetna i jestem pod wrażeniem. Kłaniam się twojej wyższości, przyjacielu. Oto nagroda za wyzwanie.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[OUT]Poproś o zmianę w mistrza striga!
+[OUT]Poproś o przekształcenie w zwykłą strigę.
+[/NODE]
+
++[NODE]76
+[STORY]
+„Tak, staniesz się moim bratem. Zgoda.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]77
+[STORY]
+„Tak, staniesz się moim dzieckiem. Zgoda.'
+[/STORY]
+[OUT]Dziękuję mu i odejdź.
+[/NODE]
+
++[NODE]78
+[STORY]
+„A więc kłaniasz się mojej najwyższej władzy, dobrej ...
+[/STORY]
+[OUT]Zaakceptuj swoją porażkę. 
+[OUT]Zaakceptuj swoją porażkę. 
+[OUT]Zaakceptuj swoją porażkę. 
+[/NODE]
+
++[NODE]79
+[STORY]
+„Pomimo twojej porażki, oczarowałaś moje serce swoją zadziwiającą pięknością. Będziesz moją kochanką nocy. Jeden słodki kęs i twój świat zmieni się na zawsze!'
+
+Stajesz się kochanką nocy. Mistrz striga jest wyczerpany rytuałem, więc jest dobry moment, aby iść.
+[/STORY]
+[OUT]Wydaje się, że nie masz zbyt dużego wyboru. Ukłon.
+[/NODE]
+
++[NODE]81
+[STORY]
+„Staniesz się moim dzieckiem i będziesz służył nocy.'
+[/STORY]
+[OUT]Wydaje się, że nie masz zbyt dużego wyboru. Ukłon.
+[/NODE]
+
++[NODE]82
+[STORY]
+Upiłeś się w nocnym domu rozrywki dla demonów, kiedy się budzisz, jesteś pokryty wilczym futrem i raczej szorstkimi „ukąszeniami miłości”… a kiedy spojrzysz na siebie - jesteś wilkołakiem!
+[/STORY]
+[OUT]Zostaw ...
+[/NODE]
+
++[NODE]83
+[STORY]
+Upiłeś się w nocnym domu rozrywki dla demonów, kiedy się budzisz, jesteś pokryty wilczym futrem i raczej szorstkimi „ukąszeniami miłości”.
+[/STORY]
+[OUT]Zostaw ...
+[/NODE]
+
++[NODE]84
+[STORY]
+„Dotychczas okazaliście się nam przyjaźni, tak, będziemy handlować z wami.'
+[/STORY]
+[OUT]Handel.
+[/NODE]
+
++[NODE]85
+[STORY]
+„Tak, nocni koledzy, związani na zawsze, a ty nazywasz jednego z nich swoim alfą, dobrze. Wejdź, ciesz się nocą!'
+[/STORY]
+[OUT]Zapytaj o coś interesującego.
+[OUT]Zapytaj, czy będą z tobą handlować?
+[OUT]Jest kilka wilkołaków na ringu, idź do nich.
+[OUT]Odwiedź domy rozrywki.
+[OUT]Kilkoro dzieci w nocy nadal cię obserwuje. Podejdź do nich.
+[/NODE]
+
++[NODE]87
+[STORY]
+„Nie ma sprawy, czas odejść?'
+[/STORY]
+[OUT]Lepsze wyjście.
+[OUT]Odwiedź domy rozrywki.
+[OUT]Jest kilka wilkołaków na ringu, idź do nich.
+[OUT]Zapytaj, czy będą z tobą handlować?
+[/NODE]
+
++[NODE]90
+[STORY]
+Ktoś, kogo kiedyś zgubiłeś, demony, wrócił do ciebie, choć zmienił się.
+[/STORY]
+[OUT]Zabierz je ze sobą i wyjdź.
+[/NODE]
+
++[NODE]92
+[STORY]
+„Ach, wygląda na to, że byłeś w stanie zostać mniejszym dzieckiem nocy, ale jesteśmy już związani!'
+[/STORY]
+[OUT]Wyjdź, ale obiecaj odwiedzić ...
+[/NODE]
+
++[NODE]93
+[STORY]
+„Zgoda, zasługujesz na dołączenie do naszych szeregów, na Horza!'
+
+Jeden z rywali budzi się z pełnią księżyca jako dziecko nocy!
+[/STORY]
+[OUT]Chwała Horz. 
+[/NODE]
+
++[NODE]95
+[STORY]
+„Zgoda.'
+[/STORY]
+[OUT]Handel.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyNightDemon_(2)
++[NODE]2
+[STORY]
+Bestie nocy prześladują cię!
+[/STORY]
+[OUT]Pozdrówcie swoich sojuszników. 
+[OUT]Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT]Użyj srebra lub lepszego metalu, aby zastraszyć ich do wycofania się!
+[OUT]Walka!
+[OUT]Usuńcie się.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Przepraszam, przyjaciele. Nie poznaliśmy cię. Pozdrowienia i życzenia.'
+[/STORY]
+[OUT]Zapytajcie, czy chcą pohandlować.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Użyj srebra lub lepszego metalu, aby zastraszyć ich do wycofania się!
+[OUT]Walka!
+[OUT]Zmierz się z nocnymi bestiami z duchem, aby zyskać ich szacunek.
+[/NODE]
+
++[NODE]17
+[STORY]
+Pokonujesz nocne bestie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Nocne rytmy pokonują cię i ucztują twoją krwią i esencją życia, zanim uda ci się uciec.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]25
+[STORY]
+Nocne demony kulą się przed tobą i wracają do cieni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Pokonujesz nocne bestie i są pod wrażeniem twojego zrozumienia mistycznych sposobów. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

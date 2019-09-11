@@ -1,0 +1,690 @@
+-- [EVENT] --CampEvents(0)
+[/EVENT]
+
+-- [EVENT] --NightMares(1)
++[NODE]2
+[STORY]
+Kiedy zasypiasz na swoim kempingu, twoje sny stają się ciężkie i niepokojące. Kiedy rzucasz i odwracasz się, czujesz się coraz bardziej zaniepokojony, gdy twoje najgłębsze, najciemniejsze lęki stają się rzeczywiste i trzymają cię w pułapce koszmaru.
+[/STORY]
+[OUT]Spróbuj się obudzić.
+[/NODE]
+
++[NODE]4
+[STORY]
+Powoli się budzisz iw stanie przebudzenia widzisz klacze siedzące na twoich piersiach, wysysające twoje duchy. 
+
+Gdy tylko odzyskasz pełną świadomość, demony znikną, ale nadal czujesz głęboki chłód biegnący po twoich kręgosłupach.
+[/STORY]
+[OUT]Zbierz to i ruszaj dalej.
+[/NODE]
+
++[NODE]5
+[STORY]
+Próbujesz się obudzić iw stanie przebudzenia widzisz klacze siedzące na twoich piersiach, wysysające twoje duchy. 
+
+Nagły przypływ paniki karmi demony, a ty wracasz do udręczonego snu, wiedząc, że będą miały swoją drogę. 
+
+Kiedy nadejdzie poranek, zostaniesz uwolniony, ale jesteś rozbity i wyczerpany.
+[/STORY]
+[OUT]Zbierz to i ruszaj dalej.
+[/NODE]
+
++[NODE]11
+[STORY]
+Próbujesz się obudzić iw stanie przebudzenia widzisz klacze siedzące na twoich piersiach, wysysające twoje duchy. 
+
+Nagły przypływ paniki karmi demony, a ty wracasz do udręczonego snu, wiedząc, że będą miały swoją drogę. 
+
+Dla jednego z was ta noc będzie ostatnią w królestwie śmiertelnego ciała.
+[/STORY]
+[OUT]Zbierz to i ruszaj dalej.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Ignis fatuus(2)
++[NODE]2
+[STORY]
+Gdy siedzisz przy ognisku, niektóre iskry z płomienia zaczynają tańczyć w powietrzu. Odsuwają się od ogniska i zamieniają w noc. 
+
+Wygląda na to, że chcą cię gdzieś śledzić.
+[/STORY]
+[OUT]Śledź ślady.
+[OUT]Śledź ślady.
+[OUT]Śledź ślady.
+[OUT]Pozostań na miejscu.
+[/NODE]
+
++[NODE]3
+[STORY]
+Przez krótki czas śledzisz przebłyski i niespodziewanie utknąłeś w bagnie! 
+
+Światła okazały się migotać, złośliwe małe robale zawsze szukały okazji, by sprowadzić ludzi na manowce. 
+
+Wychodzisz, ale jesteś zmęczony i przeziębisz się.
+[/STORY]
+[OUT]Wracaj do obozu.
+[/NODE]
+
++[NODE]4
+[STORY]
+Błyski prowadzą do starej krypty.
+[/STORY]
+[OUT]Powiedz modlitwę do Nyia, bogini śmierci, aby dusze odpoczywały. Następnie wyszukaj to miejsce.
+[OUT]Powiedz modlitwę do Nyia, bogini śmierci, aby dusze odpoczywały. Następnie wyszukaj to miejsce.
+[OUT]Powiedz modlitwę do Nyia, bogini śmierci, aby dusze odpoczywały. Następnie wyszukaj to miejsce.
+[/NODE]
+
++[NODE]5
+[STORY]
+Błyski prowadzą do ścieżki, która jest nie tylko bogata w owoce, ale także może okazać się użytecznym skrótem w podróży. 
+
+[/STORY]
+[OUT]Wracaj do obozu.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wasza modlitwa nie zadowala rozgniewanych duchów, które tu mieszkają. 
+
+Upiory powoli materializują się przed tobą, starając się zabrać twoje dusze.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Goblin Shaman or Wraith] Przekonaj upiory, aby pozwoliły ci uwolnić je.
+[OUT][Magiczni użytkownicy] Walcz z upiorami swoim duchem.
+[OUT]Wracaj do obozu - wydaje się to zbyt niebezpieczne.
+[/NODE]
+
++[NODE]11
+[STORY]
+Pokonujesz upiory i rozpadają się w nicość. Kilka osób, które pozostały, może nawet zostać z tobą, ale teraz nie stanowią zagrożenia. 
+
+Możesz swobodnie przeszukiwać tę stronę w spokoju.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Jesteś pokonany i czujesz, że twój duch słabnie, gdy jesteś zmuszony do ucieczki.
+[/STORY]
+[OUT]Wracaj do swojego obozu.
+[/NODE]
+
++[NODE]18
+[STORY]
+Wasza modlitwa wyraźnie uspokoiła duchy tutaj, kiedy czujecie, że powietrze rozjaśnia i odczuwa przemijanie uwięzionych dusz. Jest szansa, że jedna taka dusza może do ciebie dołączyć. 
+
+Możesz teraz przeszukiwać tę stronę.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Wasza modlitwa wyraźnie uspokoiła duchy tutaj, kiedy czujecie, że powietrze rozjaśnia i odczuwa przemijanie uwięzionych dusz. Jest szansa, że jedna taka dusza może do ciebie dołączyć. 
+
+Możesz teraz przeszukiwać tę stronę.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Upiory zatrzymują się i przytakują w porozumieniu. Ponownie wykonujesz modlitwę do Nyii i tym razem moc bogini przepływa przez ciebie i pochłania duchy w jego ciemnym, pustym uścisku. 
+
+Kilka osób, które się zatrzymają, a niektóre mogą zostać z tobą, ale teraz nie stanowią żadnego zagrożenia.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --StrangeChest(3)
++[NODE]2
+[STORY]
+Kiedy opróżniasz ziemię, by stworzyć lepszy kemping, odkrywasz ciężką klatkę piersiową, prawdopodobnie odkrytą tutaj przez Roztrzaskanie. Jest on związany łańcuchami i ma na sobie dziwne symbole obce.
+[/STORY]
+[OUT][Runemaster] To nie są symbole, są starożytnymi runami - nie krasnoludzkimi, ale z pewnością próbującymi naśladować rzemiosło twojego rodu. Spróbuj rozszyfrować te runy.
+[OUT][Wraith] Wyczuwasz innego upiora uwięzionego w tym obiekcie. Przyjrzyj się bliżej. 
+[OUT][Magiczny użytkownik lub magia] W tym obiekcie przebywa silna magia. Jeśli chcesz założyć tutaj obóz, lepiej sobie z tym poradzić. Przyjrzyj się bliżej.
+[OUT][Mądrość] Spróbuj dowiedzieć się, co może oznaczać to pismo.
+[OUT]Otwórz skrzynię.
+[OUT]Zostaw to i ustaw obóz nieco dalej.
+[/NODE]
+
++[NODE]4
+[STORY]
+Usuwasz łańcuchy, ale skrzynia pozostaje zamknięta. Słyszysz powolny, złośliwy syk. 
+[/STORY]
+[OUT]Spróbuj starannie wyodrębnić to, co jest w środku, bez dalszego uszkadzania klatki piersiowej i miejmy nadzieję, zanim syczenie się pogorszy.
+[OUT]Spróbuj starannie wyodrębnić to, co jest w środku, bez dalszego uszkadzania klatki piersiowej i miejmy nadzieję, zanim syczenie się pogorszy.
+[OUT]Spróbuj rozbić go szybko i chwycić to, co możesz, zanim cokolwiek syczy, przyjdzie ci po drodze.
+[OUT]Spróbuj rozbić go szybko i chwycić to, co możesz, zanim cokolwiek syczy, przyjdzie ci po drodze.
+[/NODE]
+
++[NODE]6
+[STORY]
+Te runy mają służyć jako ochrona wszystkiego, co leży w skrzyni. Wiążą runy, więc otwarcie skrzyni uwolni strażników - najprawdopodobniej upiory. 
+
+Łańcuchy działają jak spust. Po zerwaniu zaczną proces uwalniania upiorów.
+[/STORY]
+[OUT]Pomimo magicznej ochrony, skrzynia jest bardzo stara i ma wiele słabych punktów. Spróbuj otworzyć skrzynię bez zrywania łańcuchów.
+[OUT]Pomimo magicznej ochrony, skrzynia jest bardzo stara i ma wiele słabych punktów. Spróbuj otworzyć skrzynię bez zrywania łańcuchów.
+[OUT]Teraz, kiedy już wiesz, co to jest, spróbuj wykonać rytuał oczyszczania, aby uwolnić upiory, dzięki czemu otwarcie klatki jest bezpieczne.
+[OUT][Upiór] Usuń łańcuchy i przemów do swego rodzaju, aby je uspokoić. Przekonaj ich, że nie muszą tu podążać za żadną siłą. Zamiast tego mogą być darmowe!
+[/NODE]
+
++[NODE]7
+[STORY]
+Ostrożnie odgarniasz bok klatki piersiowej i tworzysz otwór bez dotykania łańcuchów lub łamania run. 
+
+[/STORY]
+[OUT]Chwyć co możesz i wyjdź. 
+[/NODE]
+
++[NODE]8
+[STORY]
+Ostrożnie odłupujesz bok klatki piersiowej i tworzysz otwór. Niestety, przypadkowo łamiesz jedną z run, a łańcuchy pękają, nawet jeśli ich nie dotykasz. 
+
+Widma pojawiają się i schodzą na ciebie! 
+
+[/STORY]
+[OUT]Walka!
+[OUT][Upiór] Porozmawiaj ze swoim rodzajem, aby ich uspokoić. Przekonaj ich, że nie muszą tu podążać za żadną siłą. Zamiast tego mogą być darmowe!
+[OUT]Porzuć skrzynię i spróbuj uciec.
+[OUT]Porzuć skrzynię i spróbuj uciec.
+[/NODE]
+
++[NODE]10
+[STORY]
+Rozbijasz skrzynię, a przed tobą pojawia się stado rozgniewanych upiorów i atakuje!
+[/STORY]
+[OUT]Walka!
+[OUT]Zaatakuj ich siłą woli.
+[OUT]Chwyć co możesz i uciekaj. 
+[/NODE]
+
++[NODE]17
+[STORY]
+Upiory już nie istnieją, a teraz możesz bezpiecznie łupić skrzynię.
+[/STORY]
+[OUT]Zbierz to, co jest w środku i wyjdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+Próbujesz starannie wyodrębnić wszystko, co jest w skrzyni, nie czyniąc dalszych obrażeń, ale ci się nie udaje. Rzecz rozpada się w twoich rękach, uwalniając przed tobą paczkę rozgniewanych upiorów!
+[/STORY]
+[OUT]Walka!
+[OUT]Zaatakuj ich siłą woli.
+[OUT]Chwyć co możesz i uciekaj. 
+[/NODE]
+
++[NODE]20
+[STORY]
+Rozbijasz skrzynię i szybko łapiesz łup. 
+
+Ale widzisz przed sobą paczkę rozgniewanych upiorów.
+[/STORY]
+[OUT]Walka!
+[OUT]Zaatakuj ich siłą woli.
+[OUT]Chwyć co możesz i uciekaj. 
+[OUT]Chwyć co możesz i uciekaj. 
+[/NODE]
+
++[NODE]21
+[STORY]
+Ostrożnie odrywasz bok skrzyni, nie powodując dalszych obrażeń, i łapiesz niektóre rzeczy od środka. 
+
+Syczenie staje się jednak głośniejsze i widzisz przed sobą upiory. 
+
+[/STORY]
+[OUT]Walka!
+[OUT]Zaatakuj ich siłą woli.
+[OUT]Chwyć co możesz i uciekaj. 
+[OUT]Chwyć co możesz i uciekaj. 
+[/NODE]
+
++[NODE]26
+[STORY]
+Starożytne zaklęcie ochronne okazało się dla ciebie zbyt potężne. Upiory atakują twojego ducha i zmuszają cię do ucieczki, zanim całkowicie się zgubisz.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]30
+[STORY]
+Te runy mają służyć jako ochrona wszystkiego, co leży w skrzyni. Wiążą runy, więc otwarcie skrzyni uwolni strażników - najprawdopodobniej upiory. 
+
+Łańcuchy działają jak spust. Po zerwaniu zaczną proces uwalniania upiorów. 
+
+Na szczęście wiesz, jak bezpiecznie złamać ochronę.
+[/STORY]
+[OUT]Otwórz skrzynię i weź co jest w środku.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Tak, dziękuję! Jesteśmy teraz wolni ... a może możemy cię śledzić?'
+
+Rozgrywa się między upiorami. Większość znika, ale niektórzy mogą zostać z tobą. 
+
+Możesz teraz bezpiecznie łupić skrzynię.
+[/STORY]
+[OUT]Zbierz to, co jest w środku i wyjdź.
+[/NODE]
+
++[NODE]35
+[STORY]
+Widma słuchają. Niektórzy wyglądają na zainteresowanych, ale inni są już za daleko, źli i oszołomieni wiekami niewoli. Obie grupy walczą między sobą. Czujesz, że twój własny duch został zaatakowany i jesteś zmuszony do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Rytuał zadziałał, a upiory są wolne od więzi. Skrzynia jest teraz bezpieczna do grabieży. 
+
+[/STORY]
+[OUT]Zbierz to, co jest w środku i wyjdź.
+[/NODE]
+
++[NODE]45
+[STORY]
+Te runy mają służyć jako ochrona wszystkiego, co leży w skrzyni. Wiążą runy, więc otwarcie skrzyni uwolni strażników - najprawdopodobniej upiory. 
+
+Łańcuchy działają jak spust. Po zerwaniu zaczną proces uwalniania upiorów.
+[/STORY]
+[OUT]Pomimo magicznej ochrony, skrzynia jest bardzo stara i ma wiele słabych punktów. Spróbuj otworzyć skrzynię bez zrywania łańcuchów.
+[OUT]Pomimo magicznej ochrony, skrzynia jest bardzo stara i ma wiele słabych punktów. Spróbuj otworzyć skrzynię bez zrywania łańcuchów.
+[OUT]Teraz, kiedy już wiesz, co to jest, spróbuj wykonać rytuał oczyszczania, aby uwolnić upiory, dzięki czemu otwarcie klatki jest bezpieczne.
+[OUT][Upiór] Usuń łańcuchy i przemów do swego rodzaju, aby je uspokoić. Przekonaj ich, że nie muszą tu podążać za żadną siłą. Zamiast tego mogą być darmowe!
+[/NODE]
+
++[NODE]46
+[STORY]
+Te runy mają służyć jako ochrona wszystkiego, co leży w skrzyni. Wiążą runy, więc otwarcie skrzyni uwolni strażników - najprawdopodobniej upiory. 
+
+Łańcuchy działają jak spust. Po zerwaniu zaczną proces uwalniania upiorów.
+[/STORY]
+[OUT]Pomimo magicznej ochrony, skrzynia jest bardzo stara i ma wiele słabych punktów. Spróbuj otworzyć skrzynię bez zrywania łańcuchów.
+[OUT]Pomimo magicznej ochrony, skrzynia jest bardzo stara i ma wiele słabych punktów. Spróbuj otworzyć skrzynię bez zrywania łańcuchów.
+[OUT]Teraz, kiedy już wiesz, co to jest, spróbuj wykonać rytuał oczyszczania, aby uwolnić upiory, dzięki czemu otwarcie klatki jest bezpieczne.
+[OUT][Upiór] Usuń łańcuchy i przemów do swego rodzaju, aby je uspokoić. Przekonaj ich, że nie muszą tu podążać za żadną siłą. Zamiast tego mogą być darmowe!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Night attack(4)
++[NODE]2
+[STORY]
+Budzi cię niegrzeczny tłum ludu, powoli schodzący na twój kemping. Na początku wyglądają jak zwykli bandyci, ale widzisz, że ich oczy są przekrwione, twarze wykrzywione w gniewnym grymasie, a ich usta pienią się. 
+[/STORY]
+[OUT]Do ataku!
+[OUT][Scavenger] Przyjrzyj się bliżej.
+[OUT][Harmonia i intelekt] Wydają się chory, a jednak wciąż ludzcy. Być może istnieje sposób, aby im pomóc, a nie zabić. Spróbuj złapać je żywcem.
+[OUT]Podejmij ryzyko i znajdź inny sposób radzenia sobie z nimi.
+[OUT]Łapcie cokolwiek możecie w pośpiechu i uciekajcie.
+[OUT]Łapcie cokolwiek możecie w pośpiechu i uciekajcie.
+[OUT]Łapcie cokolwiek możecie w pośpiechu i uciekajcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Zabijasz wszystkich padlinożerców. Ich ciała pokryte są czyrakami i sączy się dziwnym zielonym odciekiem. 
+
+[/STORY]
+[OUT]Zdobądź to, co możesz z nich bezpiecznie i odejdź.
+[OUT]Zbadaj ciała.
+[OUT]Pochowaj ciała i wyjdź.
+[/NODE]
+
++[NODE]8
+[STORY]
+Śmiertelnicy cię przytłaczają i zmuszają do ucieczki, porzucając niektóre swoje dobra. 
+
+Potem też jesteś chory. Musieli cię czymś zarazić.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+padlinożercy nie żyją. Miałeś szczęście, że nie zaraziłeś się ich dziwną chorobą. 
+
+Kilka ich zwierząt domowych może chcieć przyłączyć się do ciebie, ale mogą zostać zainfekowane.
+[/STORY]
+[OUT]Zabierz zwierzęta.
+[OUT]Zabij zwierzęta, aby były bezpieczne.
+[/NODE]
+
++[NODE]11
+[STORY]
+Strupy i czyraki są tak złe, że ci ludzie powinni umrzeć na długo przedtem. Podejrzewasz nienaturalną chorobę, a zatem wiesz, że ciała muszą zostać pozbawione głowy, ręce i stopy związane, a następnie spalone, aby upewnić się, że pozostają martwe.
+[/STORY]
+[OUT]Wykonaj specjalny rytuał i wyjdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+Są twoimi krewnymi, ale daleko od mrocznej choroby, pozostałości epoki ciemności. Jeśli udałoby ci się ich złapać, być może mogliby zostać wyleczeni, tak jak przez podążanie za bogami. 
+
+Ale uwaga - ich szaleństwo jest więcej niż mentalne, ponieważ rozprzestrzeniają też toksyny i choroby.
+[/STORY]
+[OUT]Spróbuj je złapać.
+[OUT]Zwab ich w pułapkę.
+[/NODE]
+
++[NODE]27
+[STORY]
+Wydają się chory, a jednak wciąż ludzcy. Być może istnieje sposób, aby im pomóc, a nie zabić.
+[/STORY]
+[OUT]Spróbuj złapać je siłą.
+[OUT]Zwab ich w pułapkę.
+[/NODE]
+
++[NODE]29
+[STORY]
+Łapiesz padlinożerców bezpiecznie i rzeczywiście są rozgorączkowani i chorzy. 
+
+[/STORY]
+[OUT][Medyk] Użyj lekarstwa, aby im pomóc.
+[OUT][Magiczny użytkownik] Ta choroba cuchnie ciemnością. Przygotuj rytuał, aby spróbować oczyścić umysły.
+[OUT][Światło] Twoja domena może złagodzić ich ból.
+[OUT][Elf] Byłeś świadkiem tej ciemnej skazy także na swoim rodzaju. Użyj ducha i połączenia ze światłem, aby im pomóc.
+[OUT]Staraj się pomóc. Użyj połączenia z bogami, aby spróbować oświetlić ich ciemną ścieżkę.
+[/NODE]
+
++[NODE]30
+[STORY]
+Nie wszystkie umysły i ciała są wystarczająco silne, aby przetrwać tę skażenie, a nawet z twoją pomocą niektóre ofiary przemijają. 
+
+Ale inni wykazują oznaki ożywienia, a przynajmniej poprawy. Odzyskują pozory umysłu i są wdzięczni za pomoc. 
+
+Być może niektórzy zdecydują się zostać z tobą. Nawet jeśli tego nie zrobią, zostawią to, co mogą, dzięki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Światło przepływa przez chore ciała i zniszczone dusze, a ty czujesz, że powoli się goją. 
+
+Dla niektórych podróż może jeszcze okazać się zbyt duża. Ale dałeś im szansę. Śmieciarze odzyskują pozory umysłu i są wdzięczni za pomoc. 
+
+Być może niektórzy zdecydują się zostać z tobą. Nawet jeśli tego nie zrobią, zostawią to, co mogą, dzięki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Niektóre choroby rozprzestrzeniają się na ciebie, ale nic nie zagraża życiu. 
+
+Robisz co w twojej mocy, aby pomóc, ale większość ofiar jest za daleko i umiera. Nieliczni, którzy przeżyją, wykazują oznaki ożywienia lub przynajmniej poprawy. Odzyskują pozory umysłu i są wdzięczni za pomoc. 
+
+Być może niektórzy zdecydują się zostać z tobą. Nawet jeśli tego nie zrobią, zostawią to, co mogą, dzięki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+Niektóre choroby rozprzestrzeniają się na ciebie, ale nic nie zagraża życiu. Robisz co w twojej mocy, aby pomóc, ale ofiary są za daleko i umierają. Wiesz, że uczyniłeś ich śmierć bardziej spokojną, a do tego czujesz ulgę.  
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Niektóre choroby rozprzestrzeniają się na ciebie i nie udaje ci się odpowiednio złapać padlinożerców. Wielu ucieka, a ci, których złapiesz, są za daleko, by ci pomóc, i umierają. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Wydają się chory, a jednak wciąż ludzcy. Być może istnieje sposób, aby im pomóc, a nie zabić.
+[/STORY]
+[OUT]Spróbuj złapać je siłą.
+[OUT]Zwab ich w pułapkę.
+[/NODE]
+
++[NODE]48
+[STORY]
+Nie wszystkie umysły i ciała są wystarczająco silne, aby przetrwać tę skażenie, a nawet z twoją pomocą niektóre ofiary przemijają. 
+
+Ale inni wykazują oznaki ożywienia, a przynajmniej poprawy. Odzyskują pozory umysłu i są wdzięczni za pomoc. 
+
+Być może niektórzy zdecydują się zostać z tobą. Nawet jeśli tego nie zrobią, zostawią to, co mogą, dzięki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Werwolf attack(5)
++[NODE]2
+[STORY]
+Kiedy rozbijasz obóz w nocy, słyszysz wycie wilków wokół ciebie. Niektóre z nich są niepokojąco gardłowe, prawie ludzkie.
+[/STORY]
+[OUT][Nocny demon] Woła w noc.
+[OUT][Horz] Żądaj posłuszeństwa od tych nocnych łowców w imię samego władcy księżyca.
+[OUT][Hunter] Posłuchaj wycia; wydaje się, że dzieje się tu więcej niż atak.
+[OUT][Mądrość] Masz trochę srebra. Użyj go, aby utworzyć krąg ochronny.
+[OUT]Zbierz swoje rzeczy szybko i spróbuj uciekać.
+[OUT]Stój mocno i walcz!
+[/NODE]
+
++[NODE]4
+[STORY]
+Paczka pochyla się w stosunku do nocnego władcy. Jeden z mniejszych wilków rozważa pozostanie z tobą. 
+
+Pojawia się samotny wilkołak. Trzyma go za bok i widzisz w nim srebrny sztylet. Upada przed tobą. 
+
+[/STORY]
+[OUT]Wyciągnij sztylet i spróbuj mu pomóc.
+[OUT]Pozwól mu umrzeć i złup ciało. 
+[/NODE]
+
++[NODE]7
+[STORY]
+Zabijasz zwierzęta, a ich ciała zmieniają się w ludzką formę. Bezpański wilk, teraz bez paczki, zostaje, by za tobą podążać.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Wilkołaki są poruszone przez twoje wysiłki i szarżę!
+[/STORY]
+[OUT]Obroń.
+[OUT]Jeden z nas pozostanie w tyle i poświęci swoje życie, aby ocalić resztę!
+[OUT]Zostaw jedno dziecko za sobą, a może pozwolą nam odejść!
+[/NODE]
+
++[NODE]19
+[STORY]
+Pakiet wycofuje się, pozostawiając ci pomoc rannemu wilkołakowi. 
+
+Ma srebrne ostrze osadzone na boku, a rana ropieje z dziwnym skażeniem. 
+[/STORY]
+[OUT]Pomóż wilkołakowi.
+[OUT]Zostaw to, by umarł.
+[/NODE]
+
++[NODE]24
+[STORY]
+Odważna dusza ładuje stado wilkołaków. Stworzenia szanują honor wojownika i nie ścigają reszty z was.
+[/STORY]
+[OUT]Biegnij dalej.
+[OUT]Biegnij dalej.
+[/NODE]
+
++[NODE]25
+[STORY]
+Opuszczasz płaczące dziecko i biegniesz.
+[/STORY]
+[OUT]Biegnij dalej.
+[OUT]Biegnij dalej.
+[OUT]Biegnij dalej.
+[OUT]Biegnij dalej.
+[/NODE]
+
++[NODE]28
+[STORY]
+Twój dzielny przyjaciel wraca do ciebie, zmieniony, ale zawsze lojalny!
+[/STORY]
+[OUT]Świetnie, witajcie ich.
+[/NODE]
+
++[NODE]29
+[STORY]
+Wilkołaki wydają się jeszcze bardziej rozwścieczone twoimi barbarzyńskimi sposobami i atakują zaciekle, warcząc: 
+
+'Brudne bestie, poświęcając własne młode!'
+
+Biegasz, ale nie bez bycia źle poturbowanym.
+[/STORY]
+[OUT]Biegnij dalej.
+[/NODE]
+
++[NODE]32
+[STORY]
+Uciekasz, ale później wiele księżyców, wilk - jedno z dzieci - wraca do swojego domu i pomimo twojego porzucenia, chce zostać z tobą.
+[/STORY]
+[OUT]Świetnie, witajcie ich.
+[/NODE]
+
++[NODE]33
+[STORY]
+Widok wycie i samotny wilkołak. Trzyma go za bok i widzisz w nim srebrny sztylet. Upada przed tobą.
+[/STORY]
+[OUT]Wyciągnij sztylet i spróbuj mu pomóc.
+[OUT]Pozwól mu umrzeć i złup ciało. 
+[/NODE]
+
++[NODE]34
+[STORY]
+Słyszysz, jak krążą wokół ciebie wilki, ale nie atakują. 
+
+Pakiet jest wyraźnie rozgniewany, ale także zdesperowany. Jak zauważysz, zauważysz wśród nich wilkołaka, rannego, być może umierającego, ale wciąż nieufnego wobec twojej obecności.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Pozostań bezpieczny w srebrnym kole i poczekaj, aż odejdą.
+[OUT][Zwierzęce pokrewieństwo] Spróbuj pokazać, że chcesz pomóc rannej bestii. 
+[/NODE]
+
++[NODE]35
+[STORY]
+Słyszysz, jak krążą wokół ciebie wilki, ale nie atakują. 
+
+Pakiet jest wyraźnie rozgniewany, ale także zdesperowany. Jak zauważysz, zauważysz wśród nich wilkołaka, rannego, być może umierającego, ale wciąż nieufnego wobec twojej obecności.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Mądrość] Masz trochę srebra. Użyj go, aby utworzyć krąg ochronny.
+[OUT][Zwierzęce pokrewieństwo] Spróbuj pokazać, że chcesz pomóc rannej bestii. 
+[OUT]To nie są zwykłe zwierzęta, ale nadal kierują się instynktem. Wilkołak jest ranny, a stado szuka pomocy. Spróbuj przekonać ich, że nie masz nic złego na myśli i spróbujesz im pomóc, wyrzucając trochę srebra - gest dobrej woli.
+[/NODE]
+
++[NODE]36
+[STORY]
+Pozostajesz w kręgu, a ostatecznie paczka odsuwa się w ciemność. To była niespokojna noc, ale twoja determinacja się umacnia.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Stado wilkołaków szanuje, że poddajesz się ich mocy, i zostawiają cię bez dalszej krzywdy. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Sztylet okazuje się czymś więcej niż tylko srebrem. Był wyraźnie przeklęty, gdy zamienia się w popiół. Uderza cię resztka zaklęcia, ale nie ma na ciebie klątwy. 
+
+Twój uzdrowiciel ma skłonności do ran. Wilkołak powinien szybko odzyskać siły.
+[/STORY]
+[OUT]Dobrze. Zostaw go, by mógł się wycofać.
+[/NODE]
+
++[NODE]44
+[STORY]
+Pakiet dzwoni w podziękowaniu, a ty znajdujesz dla ciebie zapas w nagrodę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Sztylet okazuje się czymś więcej niż tylko srebrem. Był wyraźnie przeklęty, gdy zamienia się w popiół. Uderzyły cię resztki zaklęcia, a na ciebie też klątwa. 
+
+Robisz, co w twojej mocy, z ranami stworzenia. Wilkołak powinien odzyskać siły na czas.
+[/STORY]
+[OUT]Dobrze. Zostaw go, by mógł się wycofać.
+[/NODE]
+
++[NODE]46
+[STORY]
+Sztylet okazuje się czymś więcej niż tylko srebrem. Był wyraźnie przeklęty, gdy zamienia się w popiół. Uderza cię resztka zaklęcia, ale nie ma na ciebie klątwy. 
+
+Robisz, co w twojej mocy, z ranami stworzenia. Wilkołak powinien odzyskać siły na czas.
+[/STORY]
+[OUT]Dobrze. Zostaw go, by mógł się wycofać.
+[/NODE]
+
++[NODE]48
+[STORY]
+Poczekaj, aż wilkołak umrze. Stado wrzeszczy w ciemności z rozpaczy, ale z jakiegoś powodu nie atakują cię. 
+
+Wkrótce odkryjesz, że sztylet, który został złożony po stronie wilkołaka, był w rzeczywistości przeklęty, a niektóre z jego złych skutków mogą do ciebie dotrzeć.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Paczka warczy i krąży wokół ciebie, nie chcąc zaufać obcemu. 
+
+Jednak masz teraz okno do ucieczki.
+[/STORY]
+[OUT]Ucieczka.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]55
+[STORY]
+Jesteś silny i zwinny, więc prześcigasz wilki, chociaż jest to wyczerpujące.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Przekraczasz wilki, chociaż jest to wyczerpujące.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Przekraczasz wilki, chociaż jest to wyczerpujące, i musisz porzucić kilka toreb po drodze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]61
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki, a kiedy wschodzi następny księżyc w pełni, zdajesz sobie sprawę, że zostałeś przeklęty, aby chodzić jako stworzenie nocy!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+

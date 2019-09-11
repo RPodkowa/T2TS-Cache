@@ -1,0 +1,559 @@
+-- [EVENT] --Animal attack2(0)
++[NODE]2
+[STORY]
+Twoja podróż została przerwana.
+[/STORY]
+[OUT]Zobacz, co się dzieje.
+[OUT]Zobacz, co się dzieje.
+[OUT]Zobacz, co się dzieje.
+[OUT]Zobacz, co się dzieje.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Spiders everywhere(1)
++[NODE]2
+[STORY]
+Przechodząc przez las w poszukiwaniu dobrych zasobów, zauważasz, że drzewa są pokryte grubymi pajęczynami.
+[/STORY]
+[OUT][Zamieszanie] Ogarnij los i zacznij szarżować.
+[OUT][Natura] Ufaj w cokolwiek, co zdecyduje się rzucić na twoją ścieżkę.
+[OUT]Po co czekać? Załaduj i odszukaj pająki, aby je zabić!
+[OUT][Hunter] Znajdź bezpieczną ścieżkę.
+[OUT]Znajdź alternatywną ścieżkę.
+[OUT]Znajdź alternatywną ścieżkę.
+[OUT]Zostaw całkowicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Królowa pająków stoi ci na drodze, czy to przez przypadek, czy przez los - obie leżą w zasięgu twojej domeny. 
+
+[/STORY]
+[OUT]Bądź wierny swojej ścieżce i atakuj!
+[OUT]Właściwie nie. Pozostawiać.
+[/NODE]
+
++[NODE]6
+[STORY]
+Natura tym razem była miła i chociaż zauważyłeś kilka gigantycznych pająków, nie zaatakowały, wyczuwając, że nie chcesz im szkodzić. 
+
+Możesz zbierać towary za darmo.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Znajdujesz bezpieczną ścieżkę między sieciami i docierasz do gaju, którego szukałeś, by zebrać trochę drewna i zapasów. 
+
+Dostrzegasz także gniazdo pająka.
+[/STORY]
+[OUT]Idź zabić pająki!
+[OUT][Hunter] Ustaw pułapkę.
+[OUT]Zbierz to, po co przyszedłeś i odejdź.
+[/NODE]
+
++[NODE]9
+[STORY]
+Walczysz przez pajęczyny i znajdujesz martwe ciała tych, którzy nie mieli tyle szczęścia. W końcu docierasz do gaju, w którym szukasz zasobów. 
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Pająki są martwe. Znajdziesz szczątki nieszczęśliwych dusz zabranych przez zwierzęta.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Pająki pobiły cię i zmusiły do ucieczki. Paskudne ukąszenia pająków utrzymują się podczas biegu.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Królowa pająków leży u twoich stóp jako trofeum i znak twojej sprawności. Czujesz się upoważniony przez swoją domenę. 
+
+Następnie docierasz do gaju, w którym szukasz zasobów. 
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+Znajdujesz inną ścieżkę, ale niektóre pająki wciąż cię ścigają. Bierzesz kilka paskudnych ugryzień, zanim uciekniesz. 
+
+Udajesz się jednak dotrzeć do gaju i zebrać trochę drewna.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]31
+[STORY]
+Pułapka działa dobrze. Niektóre pająki leżą martwe, a inne uciekają. Znajdziesz szczątki nieszczęśliwych dusz zabranych przez zwierzęta.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Wolves(2)
++[NODE]2
+[STORY]
+Gdy zapada noc, słyszysz wycie wilków, które prawdopodobnie są na polowaniu.
+[/STORY]
+[OUT][Nocny demon] Rozkazuj tym wilkom, by słuchały twojego wycie alfa!
+[OUT][Wilk] Wyć z powrotem i zasygnalizować, że twoja sfora nie jest tutaj, by ich wyzwać.
+[OUT]Stój mocno i walcz!
+[OUT][Hunter] Ustaw pułapkę wilka.
+[OUT]Ucieczka!
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]3
+[STORY]
+Twoja obecność krzyczy o dominacji w noc, a wilki przechodzą do twojej woli. 
+
+Porzucają też zdobycz, którą już złapali. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Wycie, a druga paczka odpowiada w naturze. 
+
+Krążą wokół ciebie, ale nie atakują. Możesz albo spróbować je zdominować, albo opuścić tereny łowieckie.
+[/STORY]
+[OUT]Dominacja.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]5
+[STORY]
+Łowca staje się myśliwym, gdy cicho śledzisz stado wilków. Wybierasz kilku maruderów, więc paczka powinna być teraz łatwiejsza do rozwiązania.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Poprowadź wilki w pułapkę.
+[/NODE]
+
++[NODE]7
+[STORY]
+Wilki zyskują na tobie, więc jesteś zmuszony opuścić część swojego jedzenia, aby uciec.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]15
+[STORY]
+Wilki pobiły cię i zmusiły do ucieczki. Niektóre z twoich ran zostają zainfekowane.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Twoja obecność krzyczy o dominacji w noc, a wilki przechodzą do twojej woli. 
+
+Porzucają też zdobycz, którą już złapali. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Nie zdołasz zdominować stada, a oni ścigają cię ze swojego polowania, ranni, ale nie martwi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Wild boars(3)
++[NODE]2
+[STORY]
+Przechodząc przez las, natkniesz się na dzikie prosięta. 
+[/STORY]
+[OUT]Gdzie są prosięta, w pobliżu jest z pewnością nadopiekuńcza matka. Ostrożnie obserwuj obszar.
+[OUT][Beastmaster] Dzikie prosięta doskonale nadają się do oswajania, ale najpierw musisz zwabić je bez alarmowania matki.
+[OUT][Hunter] Dziki mama jest na pewno w pobliżu. Ustaw pułapkę, aby oddzielić paczkę i polować tylko na mniejszą partię.
+[OUT]Podejdź bliżej, aby spróbować schwytać prosięta.
+[OUT]Podejdź bliżej, aby spróbować schwytać prosięta.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Rzeczywiście, wkrótce zauważysz małą paczkę starszych knurów grzebiących w liściach. 
+[/STORY]
+[OUT]To jest szkodliwe dla stada, aby zabić prosięta lub matkę. Zamiast tego odseparuj słabszych mężczyzn, aby ich polowali.
+[OUT]Lepiej nie ryzykować krzywdzenia młodych. Okrąż paczkę i wyjdź.
+[OUT]To jest szkodliwe dla stada, aby zabić prosięta lub matkę. Zamiast tego odseparuj słabszych mężczyzn, aby ich polowali.
+[/NODE]
+
++[NODE]5
+[STORY]
+Zwabisz silnego prosiaka i wyszkolisz go, by stał się twoim własnym dzikiem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Próbujesz złapać prosięta, ale zamiast tego paczka wściekłych dzików zarzuca cię. 
+
+Na szczęście jesteś w stanie z nimi walczyć.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Dziki bardzo cię biją i zmuszają do ucieczki.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Próbujesz oddzielić paczkę, ale ci się nie udaje i jesteś zmuszony zabić matkę i młodych. 
+
+To nie jest droga natury, ale dostajesz więcej mięsa i skóry.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Bez względu na to, jak bardzo się starasz, te małe prosięta są zdecydowane trzymać się blisko swojej matki. Jesteś zużyty, gdy słyszysz pomruki starego dzika i jesteś zmuszony do wycofania się.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+Zabijanie prosiąt lub matki jest szkodliwe dla stada, więc odczuwasz ciężar swojego braku szacunku dla natury.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Lightbirds(4)
++[NODE]2
+[STORY]
+Widzisz ciemną chmurę zbliżającą się z dziwną prędkością.
+[/STORY]
+[OUT]Zwiadowca przed nami.
+[OUT]Zwiadowca przed nami.
+[OUT]Przygotuj się na cokolwiek to jest.
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]4
+[STORY]
+Zauważasz, że jest to stado wron zmierzających w twoją stronę, ale nie zachowują się naturalnie. 
+
+Nie podążają za prądami wiatru, zamiast poruszać się po niebie jak brzydki młot, ani nie komunikują się ze sobą, zamiast tego latają w niesamowitej ciszy. Ich typowo paciorkowe czarne oczy emitują matową białą poświatę. 
+[/STORY]
+[OUT]Atakuj te obrzydliwości!
+[OUT][Zamieszanie i magia] Jest to perwersja światła i jako taka twoja domena cierpi z powodu napięcia. Ale masz również głębokie wyczucie źródła i możesz próbować walczyć z nim swoim duchem.
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]5
+[STORY]
+Stado wron spada na ciebie, ale nie zachowują się naturalnie. 
+
+Nie podążają za prądami wiatru, zamiast poruszać się po niebie jak brzydki młot, ani nie komunikują się ze sobą, zamiast tego latają w niesamowitej ciszy. Ich typowo paciorkowe czarne oczy emitują matową białą poświatę. 
+
+Czujesz klątwę, którą zabierasz, zanim jeszcze zaatakują.
+[/STORY]
+[OUT]Walka!
+[/NODE]
+
++[NODE]11
+[STORY]
+Ptaki biją cię mocno i zmuszają cię do ucieczki, ale, co dziwne, również ranią twojego ducha. Ciężkie białe światło splątuje twoje dusze i nie odpuszcza łatwo.
+[/STORY]
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]16
+[STORY]
+Jakakolwiek moc utrzymuje te ptaki jest silna i nieubłagana. Pali się głęboko w twojej duszy, starając się oczyścić cię ze wszystkiego, czym jesteś. 
+
+Uciekasz, ale twój duch cierpi. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Usuwasz każdą siłę, która trzyma te wrony. Niektóre ptaki padają martwe u twoich stóp, podczas gdy inne odlatują, zmieszane. A niektóre mogą chcieć zostać z tobą.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pokonujesz dziwne ptaki, a gdy ich ciała spadają, niektóre z nich wypalają się od wewnątrz, podczas gdy inne, które przetrwały, wyglądają na zmieszanych i oszołomionych. A niektórzy mogą chcieć zostać z tobą. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Pokonujesz dziwne ptaki, a gdy ich ciała spadają, niektóre z nich wypalają się od wewnątrz, podczas gdy inne, które przetrwały, wyglądają na zmieszanych i oszołomionych. A niektórzy mogą chcieć zostać z tobą. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Zauważasz, że jest to stado wron zmierzających w twoją stronę, ale nie zachowują się naturalnie. 
+
+Nie podążają za prądami wiatru, zamiast poruszać się po niebie jak brzydki młot, ani nie komunikują się ze sobą, zamiast tego latają w niesamowitej ciszy. Ich typowo paciorkowe czarne oczy emitują matową białą poświatę. Czujesz dziwne uczucie pieczenia w swojej domenie, nienaturalne przyciąganie ku światłu.
+[/STORY]
+[OUT]Atakuj te obrzydliwości!
+[OUT][Światło] To jest perwersja twojej domeny. Spróbuj to zwalczyć siłą woli.
+[OUT][Zamieszanie i magia] Jest to perwersja światła i jako taka twoja domena cierpi z powodu napięcia. Ale masz również głębokie wyczucie źródła i możesz próbować walczyć z nim swoim duchem.
+[OUT]Ucieczka!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rat nest(5)
++[NODE]2
+[STORY]
+Wpadasz do podziemnego tunelu i zdajesz sobie sprawę, że to gniazdo pełne kości, odchodów i szczurów, mnóstwo szczurów.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Wyślij koty i psy, aby poradziły sobie z tą uciążliwością. 
+[OUT][Mądrość] Znasz sztuczkę lub dwie, jeśli chodzi o szczury. Gonią ich.
+[OUT][Szczur] Powiedz swojemu koledze robactwo, że jesteś tu tylko po to, by się przywitać i zostawić je.
+[OUT]Spróbuj szybko się wspiąć.
+[/NODE]
+
++[NODE]8
+[STORY]
+Bez względu na to, czy używasz fletu grającego właściwą melodię, czy cichego szeptu zwierzęcego języka, gonisz robactwo. 
+
+Znajdziesz też szczątki samotnego poszukiwacza przygód trzymającego flet. Najwyraźniej nie znał swoich szczurzych melodii.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]12
+[STORY]
+Wyczyść to gniazdo i znajdź szczątki samotnego poszukiwacza przygód trzymającego flet. Najwyraźniej nie znał swoich szczurzych melodii.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Szczury roi się od ciebie i zmusza cię do ucieczki.  Po drodze masz kilka zainfekowanych ukąszeń.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Zauważyłeś, że młody szczur został w pobliżu i unosi się w pobliżu. Być może można go wyszkolić, ale może to być także wściekłość, a ty zachorujesz.
+[/STORY]
+[OUT]Spróbuj go trenować.
+[OUT]Spróbuj go trenować.
+[OUT]Zabij go i wyjdź.
+[/NODE]
+
++[NODE]22
+[STORY]
+Szczury kiwają głową i pozwalają ci odejść bez problemów. Dostajesz nawet od nich prezent. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+Twoje zwierzęta wchodzą i robią swoje interesy, oczyszczając gniazdo robactwa. 
+[/STORY]
+[OUT]Zbierzcie co możecie i trzeba wspinać się z powrotem.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Sweet honey(6)
++[NODE]2
+[STORY]
+Kiedy przechodzisz przez równiny, dostrzegasz zatłoczony ul pełen miodu i nektaru. Może być bardzo pożywny, może nawet leczyć niektóre rany. 
+[/STORY]
+[OUT][Pszczoła] Żądaj, żeby mi dano ci teraz.
+[OUT][Druid] Zapytaj pszczoły o przyjemność ich miodu. 
+[OUT]Do ataku!
+[OUT][Łowcy i zbieracze] Wiesz, jak wypalić te żądła, abyś mógł ograbić ul.
+[OUT]Idź dookoła ula i wyjdź.
+[/NODE]
+
++[NODE]3
+[STORY]
+Pszczoły wycofują się i pozwalają ci wziąć udział w łupach. 
+
+Inna młodsza pszczoła, być może królowa, obserwuje cię z iskrą wyzwania w oczach.
+[/STORY]
+[OUT]Zaakceptuj jej wyzwanie, pszczoła, pszczoła. [Tylko królowa pszczół]
+[OUT]Wypij nektar i miód. 
+[OUT]Wypij nektar i miód. 
+[/NODE]
+
++[NODE]4
+[STORY]
+Pszczoły brzęczą wokół ciebie, jak gdyby oceniając szczerość twoich słów, i niektóre żądły. Ale kiedy widzą, że zachowujesz spokój, pozwalają ci wypróbować swoje towary.
+[/STORY]
+[OUT]Wypij nektar i miód. 
+[OUT]Wypij nektar i miód. 
+[OUT]Gdy pszczoły opuszczają straż, możesz wykonać rytuał, który oszołomi żądłami i pozwoli ci odpowiednio obrabować ich rój.
+[/NODE]
+
++[NODE]8
+[STORY]
+Ustawiłeś pułapkę i rozpaliłeś ogień, aby stworzyć dym. Teraz musisz tylko ustalić właściwy kierunek wiatru i czas, aby wytrącić pułapkę.
+[/STORY]
+[OUT]Ustaw pułapkę.
+[OUT]Właściwie po prostu zaatakuj!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Jako druid czujesz się brudny za zdradzenie swojej natury. 
+
+Mimo to to właśnie dostajesz za powiązanie z czarownicą. Teraz ula jest otwarta na grabieże i odkrywasz, że pszczoły zgromadziły tu bursztyn. 
+[/STORY]
+[OUT]Wypij nektar i miód. 
+[/NODE]
+
++[NODE]29
+[STORY]
+Pomimo tego, że jest to niesprawiedliwy pojedynek, wiesz, że droga twoich krewnych jest taka. Wygrałeś, więc honorują cię i dają ci prezenty.
+[/STORY]
+[OUT]Zaakceptuj i odejdź.
+[/NODE]
+
++[NODE]33
+[STORY]
+Teraz ul jest otwarty do grabieży. Nektar miodowy leczy twoje rany, a ty odkrywasz, że pszczoły zgromadziły tu bursztyn. 
+[/STORY]
+[OUT]Wypij nektar i miód. 
+[/NODE]
+
++[NODE]35
+[STORY]
+Pszczoły wpadają w szał i bardzo cię żądlą. Ciężka choroba utrzymuje się, gdy uciekasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Night bat atack(7)
++[NODE]2
+[STORY]
+Rój nietoperzy spada na ciebie znikąd!
+[/STORY]
+[OUT][Zamieszanie] Nagły przypływ podniecenia zasila Twoją domenę i sprawia, że twoje serce bije szybciej. Atak!
+[OUT][Nocny demon] Żądaj posłuszeństwa od latających gryzoni!
+[OUT][Postrzeganie] Nie ruszaj się i pozwól im latać obok siebie, nawet jeśli oznacza to wykonanie kilku zadrapań. Spróbuj dostrzec dokładnie skąd pochodzą.
+[OUT]Walka!
+[OUT]Ucieczka!
+
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]7
+[STORY]
+Nietoperze roiją się i żywią się twoją krwią, pozostawiając niektórych z was chorych. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Zabijasz nietoperze bez większych problemów.
+[/STORY]
+[OUT][Postrzeganie] Badasz miejsce, z którego pochodzą nietoperze.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Nietoperze przelatują obok ciebie, zostawiając kilka zadrapań, a ty widzisz małe, ukryte wejście do jaskini.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+Ostrożnie wślizgujesz się i odkrywasz wściekłego niedźwiedzia szalejącego w środku. Przylegająca broń jest umieszczona w jej boku, ale rana jest stara i prawdopodobnie nie spowolni jej ataku.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+Znajdujesz jaskinię pustą, chociaż są oznaki czegoś wielkiego przechodzącego przez nią - prawdopodobnie to, co przeraziło nietoperze. 
+
+Znajdujesz zapas dobrego kamienia.
+[/STORY]
+[OUT]Zbieracie co możecie i wychodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+Niedźwiedź jest martwy, a ty możesz odebrać broń złożoną po jego stronie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+Widzisz małe, ukryte wejście do jaskini.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Zbadajcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Nietoperze są posłuszne twojemu nocnemu wezwaniu i oddalają się.
+[/STORY]
+[OUT][Postrzeganie] Badasz miejsce, z którego pochodzą nietoperze.
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Animal attack1(8)
++[NODE]2
+[STORY]
+Twoja podróż została przerwana.
+[/STORY]
+[OUT]Zobacz, co się dzieje.
+[OUT]Zobacz, co się dzieje.
+[OUT]Zobacz, co się dzieje.
+[/NODE]
+
+[/EVENT]
+

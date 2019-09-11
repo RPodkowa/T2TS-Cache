@@ -1,0 +1,3638 @@
+-- [EVENT] --EarthboundTradesmall(0)
++[NODE]2
+[STORY]
+Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako zapłaty. Najpierw jednak będziecie musieli zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z tobą. Niech wasze ognie nigdy nie umrą.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --EarthboundTrademedium(1)
++[NODE]2
+[STORY]
+Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako zapłaty. Najpierw jednak będziecie musieli zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z tobą. Niech wasze ognie nigdy nie umrą.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --EarthboundTradeadv(2)
++[NODE]2
+[STORY]
+Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+‘Nie jesteście naszymi przyjaciółmi, więc nie będziemy przyjmować żywności jako zapłaty. Najpierw jednak będziecie musieli zapłacić nam dodatkowo.'
+[/STORY]
+[OUT]Handel.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Dobry handel z tobą. Niech wasze ognie nigdy nie umrą.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --EarthboundVillageSmall(3)
++[NODE]2
+[STORY]
+„Witaj, czego szukasz, chłopaki?'
+
+Niektóre aktywności w wiosce będą dostępne tylko wtedy, gdy przyjaźnisz się z jej ludźmi, a niektóre są ograniczone do szansy, więc powrót od czasu do czasu może być tego wart. 
+
+Ta wioska jest mała, jako taka nie oferuje rekrutacji i może mieć inne ograniczone możliwości. 
+
+[/STORY]
+[OUT]Zapytajcie, czy możecie w czymś pomóc.
+[OUT]Powiedzcie, że przybyliście tylko w odwiedziny i odpocząć, być może też uleczyć rany.
+[OUT]Zapytaj, czy możesz kupić od nich wyszkolonych niedźwiedzi.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Zapytaj, czy możesz odwiedzić starożytną kuźnię, którą mają tutaj.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+„Nie jesteście naszymi przyjaciółmi, więc najlepiej ruszajcie, bo będziecie smakować nasze ostrza, kolego.'
+
+Widzisz zbrojne krasnoludy.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, że nie masz na myśli krzywdy. Chcesz tylko porozmawiać i odwiedzić.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a łupy są Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Powiedzmy, że mamy mały problem, tak. Nasi ludzie idą do tej jednej skały i nigdy nie wracają. Wysłałem już kilka patroli, ale żaden nie wrócił. Jesteśmy mali, więc nie mamy więcej do stracenia. Proszę, możesz iść sprawdzić?'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Jasne, chodź, siadaj i pij bimber bimber. 
+
+Jeśli masz szczęście, uzdrowiciel może spojrzeć na twoje rany.'
+[/STORY]
+[OUT]Zapłaćcie, aby wyleczyć fizyczne rany. 
+[OUT]Zapłaćcie, aby wyleczyć rany umysłu. 
+[OUT]Zapłaćcie, aby wyleczyć truciznę.
+[OUT]Zapytaj, czy jest mistrz runów, który może uleczyć duchowe dolegliwości.
+[OUT]Stary krasnolud siedzi i dzieli krasnoludzki bimber z kimkolwiek, kto chce słuchać jego wysokich opowieści. Dołącz do niego.
+[OUT]Wróćcie następnego dnia.
+[OUT]Zapytaj, czy obecny jest inny mistrz runów, aby pomóc ci w leczeniu ran duchowych.
+[OUT]Zapłaćcie, aby wyleczyć rany umysłu. 
+[/NODE]
+
++[NODE]19
+[STORY]
+„Tak, chcesz udowodnić nam swój płaszcz, co? Cóż, zauważyliśmy, że zespół orków wędruje niezbyt daleko stąd. Nie jesteśmy pewni, co zamierzają, ale wolelibyśmy, żeby byli gdzieś indziej. Masz moje znaczenie?'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Pomoc, co? Jasne, czemu nie.'
+[/STORY]
+[OUT]Zapytaj, czy są jakieś problemy w okolicy, w których potrzebują pomocy.
+[OUT]Dźwigacie sporo drewna. Zapytajcie, czy potrzebują trochę.
+[OUT]Podejrzewasz, że potrzebują kamieni szlachetnych. Powiedz, że chcesz rozdać swoje.
+[OUT]Na razie nie ma tu nic do roboty. Wróćcie następnego dnia.
+[OUT]Zapytaj, czy są jakieś problemy w okolicy, w których potrzebują pomocy.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Cholerni bandyci znowu niepokoją naszych ludzi. Jesteśmy mali, więc nie mam mężczyzn do stracenia. Chcesz być z nami przyjazny, idź z nimi!'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„My, krasnoludy, nie bawimy się dobrze magią. Nasi mistrzowie runów są rzadcy i mogą leczyć tylko ducha naszego rodzaju.'
+[/STORY]
+[OUT][Krasnolud] Poproś o uzdrowienie.
+[OUT]Kiwnij głową ze zrozumieniem.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Tak, twój pobożny lud, to jasne. Nasze podziękowania dla ciebie, przyjacielu. 
+
+Nie możemy wiele dać, ale tutaj, mamy to, co możemy oszczędzić.'
+[/STORY]
+[OUT]Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Tak, mamy kilka dobrych zwierząt, które możesz kupić, ale nie są tanie.' 
+[/STORY]
+[OUT]Kup niedźwiedzia. 
+[/NODE]
+
++[NODE]47
+[STORY]
+„Mamy dla ciebie proste zadanie, jeśli naprawdę jesteś uczciwy”, zaprzyjaźnij się z nami. Brakuje nam siły roboczej i potrzebujemy kogoś, kto wyczyści nam tunel. Idź tam i upewnij się, że moi ludzie mogą wejść i kopać bezpiecznie.' 
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+„Bah, mówisz dobrą rozmowę. Wejdź, ale oglądamy cię!'
+[/STORY]
+[OUT]Zapytajcie o możliwość handlu.
+[OUT]Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[OUT]Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Pokonaj, albo pożałujesz, że w ten sposób wejdziesz!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]71
+[STORY]
+Mistrz runów wychodzi z książką związaną z ciężkim metalem i wieloma fiolkami. Wskazuje na krzesło: 
+
+'Usiądź, bracie. Oczyszczę twojego kamiennego ducha z wszelkich nieczystości, czy to będą przekleństwo, czy dolegliwość.'
+
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]76
+[STORY]
+„Możesz to zobaczyć, ale stary mistrz kuźni jest typem kapryśnym, więc najlepiej bądź czujny i zachowuj się. Nie każdy znak szacunku zostaje przyjęty.'
+[/STORY]
+[OUT][Natura] Natura i ogień nie mieszają się zbyt dobrze. Czujesz się ograniczony w tych gorących, zakurzonych ścianach. Niemniej jednak oferują błogosławieństwo dzikiej przyrody.
+[OUT][Harmony] Harmonia nie ma żadnego związku z żarem bitwy ani sztuką kowalstwa. W rzeczywistości jest to miejsce, gdzie produkuje się broń. Mimo to, daj błogosławieństwo.
+[OUT][Światło] Przywołaj moc światła, aby oddać hołd temu miejscu kultu.
+[OUT][Intelekt] Wiadomo, że mistrzowie kuźni i właściciele runy mają ostre umysły. Bow na cześć ich ogromnej wiedzy.
+[OUT][Magiczne] Krasnoludy nie są dostrojone do splotów magii, jednak ich mistrzowie runów znaleźli sposób na wykucie mistycznej siły w kamieniu i metalu. Medytuj i pozostaw błogosławieństwo swojej domeny dla swojego mistrza run.
+[OUT][Zamieszanie] Tu powstają prawdziwe ostrza. Wywołaj zamieszanie w okrzyku bojowym, aby uhonorować to święte miejsce!
+[OUT]Zachowaj dystans i podziwiaj miejsce z daleka przed wyjazdem.
+[/NODE]
+
++[NODE]77
+[STORY]
+„Albo nie mamy dla ciebie żadnej pracy, albo ty lub twoi krewni już jesteście wyznaczeni na ścieżkę, aby nam pomóc, więc zakończ to zanim poprosisz o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]86
+[STORY]
+„Ach, jak wiecie, bracie, my, krasnoludy, nie bawimy się dobrze magią, a nasz handel jako mistrzowie runów jest rzadki. Możemy tylko uleczyć ducha naszego rodzaju. 
+
+Ale skoro tu jesteś, to będzie łatwe.'
+[/STORY]
+[OUT][Krasnolud] Poproś o uzdrowienie.
+[OUT]Kiwnij głową ze zrozumieniem.
+[/NODE]
+
++[NODE]87
+[STORY]
+„Nie mamy żadnego z tych mądrych osłów, żeby z tobą porozmawiać, spraw, żebyś czuł się dobrze w środku. Ale mamy dobre duchy, ciepłe jedzenie i opowieści o dobrych czasach. 
+
+Żadnych gwarancji, ale też nie chcemy tego robić.'
+[/STORY]
+[OUT]Daj sobie spokój.
+[/NODE]
+
++[NODE]88
+[STORY]
+Twój umysł jest trochę wypoczęty, ale jedzenie i picie sprawiały, że też chorowałeś.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]93
+[STORY]
+„Najlepiej biegnij, zanim wszyscy cię zabijemy!'
+
+Krasnoludy biorą twoje towary i patrzą, jak uciekasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]94
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Co robisz !? Moja kuźnia nie jest miejscem dla ludowych, rozkosznych słów o puszystości. Idź stąd!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]95
+[STORY]
+Głos mistrza wykuwa się na ciebie: 
+
+'Co robisz !? Moja kuźnia nie jest miejscem spokojnych, ludowych słów o puszystości. Idź stąd!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]97
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Ach, dzieci światła, dobrze. Twoje błogosławieństwo jest dobrze przyjęte. Niech ogień nigdy nie umrze za ciebie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]98
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Ach, dzieci zamieszania, dobrze. Twoje błogosławieństwo jest dobrze przyjęte. Niech ogień nigdy nie umrze za ciebie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]99
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Ścieżka mądrości - rzadko kiedy ludzie widzą to w mojej pracy. Dziękuję Niech ogień nigdy nie umrze za ciebie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]100
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Trzymasz swoją magię z dala od mojej kuźni, słyszysz? Ale żadnych przekleństw, prawda? Po prostu wyjdź.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]104
+[STORY]
+„Nie mamy żadnego z tych mądrych osłów, żeby z tobą porozmawiać, spraw, żebyś czuł się dobrze w środku. Ale mamy dobre duchy, ciepłe jedzenie i opowieści o dobrych czasach. 
+
+Żadnych gwarancji, ale też nie chcemy tego robić.'
+[/STORY]
+[OUT]Daj sobie spokój.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --EarthboundVillageMed(4)
++[NODE]2
+[STORY]
+„Witaj, czego szukasz, chłopaki?'
+
+Niektóre aktywności w wiosce będą dostępne tylko wtedy, gdy przyjaźnisz się z jej ludźmi, a niektóre są ograniczone do szansy, więc powrót od czasu do czasu może być tego wart. 
+
+Gdy staniesz się przyjaciółmi, otrzymasz szansę na rekrutację.
+[/STORY]
+[OUT]Zapytajcie, czy możecie w czymś pomóc.
+[OUT]Powiedzcie, że przybyliście tylko w odwiedziny i odpocząć, być może też uleczyć rany.
+[OUT]Zapytaj, czy możesz kupić od nich wyszkolonych niedźwiedzi.
+[OUT]Handel.
+[OUT]Odchodzicie.
+[OUT]Zapytaj, czy możesz odwiedzić starożytną kuźnię, którą mają tutaj.
+[OUT]Sprawdź, czy możesz rekrutować kogoś.
+[OUT]Do ataku!
+[OUT]Sprawdź, czy możesz rekrutować kogoś.
+[OUT]Widzicie znajomą twarz, podejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+„Nie masz naszych przyjaciół, więc najlepiej ruszaj się, bo będziesz smakował nasze ostrza, panienki.'
+
+Widzisz zbrojne krasnoludy.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[OUT]Powiedz, że nie masz na myśli krzywdy. Chcesz tylko porozmawiać i odwiedzić.
+[/NODE]
+
++[NODE]6
+[STORY]
+Wioska jest zniszczona, a łupy są Wasze.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+„Tak, mamy mały problem. Niektóre niedźwiedzie opancerzone uciekły przed naszymi przewodnikami. Są paskudne bestie. Nie myślimy o ich odzyskaniu, przynajmniej nie łatwo, ale zobacz, czy możesz coś o nich zrobić, co?'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Jasne, chodź, siadaj i pij bimber bimber. 
+
+Jeśli masz szczęście, uzdrowiciel może spojrzeć na twoje rany.'
+[/STORY]
+[OUT]Zapłaćcie, aby wyleczyć fizyczne rany. 
+[OUT]Zapłaćcie, aby wyleczyć rany umysłu. 
+[OUT]Zapłaćcie, aby wyleczyć truciznę.
+[OUT]Zapytaj, czy jest mistrz runów, który może uleczyć duchowe dolegliwości.
+[OUT]Stary krasnolud siedzi i dzieli krasnoludzki bimber z kimkolwiek, kto chce słuchać jego wysokich opowieści. Dołącz do niego.
+[OUT]Wróćcie następnego dnia.
+[OUT]Zapytaj, czy obecny jest inny mistrz runów, aby pomóc ci w leczeniu ran duchowych.
+[OUT]Zapłaćcie, aby wyleczyć rany umysłu. 
+[/NODE]
+
++[NODE]19
+[STORY]
+„Tak, chcesz udowodnić nam swój płaszcz, co? Cóż, zauważyliśmy, że zespół orków wędruje niezbyt daleko stąd. Nie jesteśmy pewni, co zamierzają, ale wolelibyśmy, żeby byli gdzieś indziej. Masz moje znaczenie?'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Pomoc, co? Jasne, czemu nie.'
+[/STORY]
+[OUT]Zapytaj, czy są jakieś problemy w okolicy, w których potrzebują pomocy.
+[OUT]Dźwigacie sporo drewna. Zapytajcie, czy potrzebują trochę.
+[OUT]Widzisz, że potrzebują kamieni szlachetnych. Powiedz, że chcesz rozdać swoje.
+[OUT]Na razie nie ma tu nic do roboty. Wróćcie następnego dnia.
+[OUT]Zapytaj, czy w okolicy jest coś powodującego kłopoty?
+[OUT]Zapytajcie, czy są w pobliżu jakieś interesujące miejsca.
+[/NODE]
+
++[NODE]22
+[STORY]
+„Teraz możesz być tylko damami, których potrzebujemy. Istnieje starożytna kuźnia, która należy do nas, ale coś ją utrzymywało i chroniło przed krasnoludzkim rodzajem, więc teraz nie możemy wejść. Cholerny policzek! Idź i dowiedz się, kto to zrobił i zabij robala!'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„My, krasnoludy, nie bawimy się dobrze magią. Nasi mistrzowie runów są rzadcy i mogą leczyć tylko ducha naszego rodzaju.'
+[/STORY]
+[OUT][Krasnolud] Poproś o uzdrowienie.
+[OUT]Kiwnij głową ze zrozumieniem.
+[/NODE]
+
++[NODE]37
+[STORY]
+„Tak, twój pobożny lud, to jasne. Nasze podziękowania dla ciebie, przyjacielu. 
+
+Nie możemy wiele dać, ale tutaj, mamy to, co możemy oszczędzić.'
+[/STORY]
+[OUT]Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+„Tak, mamy kilka dobrych zwierząt, które możesz kupić, ale nie są tanie.' 
+[/STORY]
+[OUT]Kup niedźwiedzia. 
+[/NODE]
+
++[NODE]47
+[STORY]
+„Mamy dla ciebie proste zadanie, jeśli naprawdę jesteś uczciwy”, zaprzyjaźnij się z nami. Brakuje nam siły roboczej i potrzebujemy kogoś, kto wyczyści nam tunel. Idź tam i upewnij się, że moi ludzie mogą wejść i kopać bezpiecznie.' 
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+„Bah, mówisz dobrą rozmowę. Wejdź, ale oglądamy cię!'
+[/STORY]
+[OUT]Zapytajcie o możliwość handlu.
+[OUT]Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[OUT]Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[/NODE]
+
++[NODE]53
+[STORY]
+„Pokonaj, albo pożałujesz, że w ten sposób wejdziesz!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]71
+[STORY]
+Mistrz runów wychodzi z książką związaną z ciężkim metalem i wieloma fiolkami. Wskazuje na krzesło: 
+
+'Usiądź, bracie. Oczyszczę twojego kamiennego ducha z wszelkich nieczystości, czy to będą przekleństwo, czy dolegliwość.'
+
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]77
+[STORY]
+„Albo nie mamy dla ciebie żadnej pracy, albo ty lub twoi krewni już jesteście wyznaczeni na ścieżkę, aby nam pomóc, więc zakończ to zanim poprosisz o nowe zadania.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]87
+[STORY]
+„Zazwyczaj nie lubimy obcych obijających się po naszej ziemi. Ale chyba masz rację. 
+
+Jest mnóstwo starych ruin i miejsc, w których nie mieliśmy szans zwiadu, więc wybij się.'
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]91
+[STORY]
+„My i rockowe trolle, mamy skomplikowany związek. Często jesteśmy przyjaźni, ale wiesz, nie zawsze. Kilku wielkich drani rozbiło obóz w ruinie, którą chcemy zbadać, i zakrwawili nasz patrol! Teraz zobaczymy, dlaczego tak się zachowują, ale nie mamy siły roboczej. Sprawdzasz nas, co?'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]92
+[STORY]
+„Zabiliśmy kilka orków jakiś czas temu - to będzie prawie sto lat, teraz. Ostatnio te robale wracają do życia i niepokoją nasze patrole. Nie mamy czasu zabić tego samego wroga dwa razy. Chcesz być naszymi kumplami, zrób to.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]95
+[STORY]
+„Ach, jak wiecie, bracie, my, krasnoludy, nie bawimy się dobrze magią, a nasz handel jako mistrzowie runów jest rzadki. Możemy tylko uleczyć ducha naszego rodzaju. 
+
+Ale skoro tu jesteś, to będzie łatwe.'
+[/STORY]
+[OUT][Krasnolud] Poproś o uzdrowienie.
+[OUT]Kiwnij głową ze zrozumieniem.
+[/NODE]
+
++[NODE]96
+[STORY]
+Nie mamy żadnego z tych mądrych osłów, które z tobą porozmawiają, spraw, żebyś czuł się dobrze w środku. Ale mamy dobre duchy, ciepłe jedzenie i opowieści o dobrych czasach. 
+
+Żadnych gwarancji, ale też nie chcemy tego robić.'
+[/STORY]
+[OUT]Daj sobie spokój.
+[/NODE]
+
++[NODE]97
+[STORY]
+Twój umysł jest trochę wypoczęty, ale jedzenie i picie sprawiały, że też chorowałeś.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]99
+[STORY]
+Nie mamy żadnego z tych mądrych osłów, które z tobą porozmawiają, spraw, żebyś czuł się dobrze w środku. Ale mamy dobre duchy, ciepłe jedzenie i opowieści o dobrych czasach. 
+
+Żadnych gwarancji, ale też nie chcemy tego robić.'
+[/STORY]
+[OUT]Daj sobie spokój.
+[/NODE]
+
++[NODE]100
+[STORY]
+„Najlepiej biegnij, zanim wszyscy cię zabijemy!'
+
+Krasnoludy biorą twoje towary i patrzą, jak uciekasz.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]102
+[STORY]
+„Możesz to zobaczyć, ale stary mistrz kuźni jest typem kapryśnym, więc najlepiej bądź czujny i zachowuj się. Nie każdy znak szacunku zostaje przyjęty.'
+[/STORY]
+[OUT][Natura] Natura i ogień nie mieszają się zbyt dobrze. Czujesz się ograniczony w tych gorących, zakurzonych ścianach. Niemniej jednak oferują błogosławieństwo dzikiej przyrody.
+[OUT][Harmony] Harmonia nie ma żadnego związku z żarem bitwy ani sztuką kowalstwa. W rzeczywistości jest to miejsce, gdzie produkuje się broń. Mimo to, daj błogosławieństwo.
+[OUT][Światło] Przywołaj moc światła, aby oddać hołd temu miejscu kultu.
+[OUT][Intelekt] Wiadomo, że mistrzowie kuźni i właściciele runy mają ostre umysły. Bow na cześć ich ogromnej wiedzy.
+[OUT][Magiczne] Krasnoludy nie są dostrojone do splotów magii, jednak ich mistrzowie runów znaleźli sposób na wykucie mistycznej siły w kamieniu i metalu. Medytuj i pozostaw błogosławieństwo swojej domeny dla swojego mistrza run.
+[OUT][Zamieszanie] Tu powstają prawdziwe ostrza. Wywołaj zamieszanie w okrzyku bojowym, aby uhonorować to święte miejsce!
+[OUT]Zachowaj dystans i podziwiaj miejsce z daleka przed wyjazdem.
+[/NODE]
+
++[NODE]103
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Co robisz !? Moja kuźnia nie jest miejscem dla ludowych, rozkosznych słów o puszystości. Idź stąd!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]104
+[STORY]
+Głos mistrza wykuwa się na ciebie: 
+
+'Co robisz !? Moja kuźnia nie jest miejscem spokojnych, ludowych słów o puszystości. Idź stąd!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]105
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Ach, dzieci światła, dobrze. Twoje błogosławieństwo jest dobrze przyjęte. Niech ogień nigdy nie umrze za ciebie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]106
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Ach, dzieci zamieszania, dobrze. Twoje błogosławieństwo jest dobrze przyjęte. Niech ogień nigdy nie umrze za ciebie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]108
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Ścieżka mądrości - rzadko kiedy ludzie widzą to w mojej pracy. Dziękuję Niech ogień nigdy nie umrze za ciebie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]109
+[STORY]
+Głos mistrza kuźni uderza w ciebie: 
+
+'Trzymasz swoją magię z dala od mojej kuźni, słyszysz? Ale żadnych przekleństw, prawda? Po prostu wyjdź.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillsmallSyrin(5)
++[NODE]2
+[STORY]
+Znajdziesz samotną skałę, na której zagnieżdżono syrynę. Nawet z daleka słyszysz ich słodką pieśń i tak jak powiedziały krasnoludy, trudno się oprzeć. 
+[/STORY]
+[OUT][Demon] Te sztuczki demonów nie działają na ciebie. Podejdź do syryny.
+[OUT][Kobieta] Syryna przyciąga samców, ale twoje zmysły pozostają silne. Skradnij się bliżej, aby lepiej przyjrzeć się syrynie.
+[OUT][Rusałka] Ach, te syryny są znane ze swoich skrzeczących głosów, ale i ty. Zaśpiewaj swoją własną melodię i zobacz, kto jest lepszy.
+[OUT]Podejdź ostrożnie.
+[OUT]Podejdź ostrożnie.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz do skały i widzisz syrynę, demonę podobną do ptaka, uśmiechając się do ciebie: 
+
+'Och, demoniczny, jak puchnący. Przyjdź usłyszeć moją piosenkę? Moja zwykła publiczność stała się głucha. . .'
+
+Wskazuje na kilka kamiennych krasnoludzkich posągów stojących w pobliżu, uwielbiających syrynę. Dostrzegasz również ruch w cieniach. Może tu być więcej niż jedna syryna.
+[/STORY]
+[OUT]Zapytaj, czy to są zaginione krasnoludy. Co im zrobiła?
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Idziesz zdecydowany pozostać czujny, ale pieśń jest tak słodko smutna. . .
+[/STORY]
+[OUT]Walcz!
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przez krótki czas utwór jest całkowicie zachwycający i osusza twojego ducha, ale go pokonujesz. 
+[/STORY]
+[OUT]Bądź skupiony i podejdź do syryny.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]16
+[STORY]
+Jesteś zachwycony, a niektóre krasnoludzkie kobiety muszą przyjść cię uratować ze szponów syryny. Twoja pomoc nie robi na nich wrażenia.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Tak, może masz rację. Być może cena za naszą stratę została zapłacona przez tych, którzy tu stoją. Ich kamienne twarze oddadzą hołd naszej upadłej siostrze-matce. Wyjedziemy teraz.' 
+[/STORY]
+[OUT]Zgłoś się do krasnoludów. 
+[/NODE]
+
++[NODE]20
+[STORY]
+Twoja bolesna pieśń niesie na wzgórzach i górach, a wkrótce wiele krasnoludów, nawet tych odległych, obraca się w kamień. 
+
+Kiedy twój smutek zostanie zaspokojony, ty i twoje siostry rozstajecie się.
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]23
+[STORY]
+Syrin jest niewzruszony, a ich śpiew staje się coraz głośniejszy, grożąc, że wkrótce dotrze do krasnoludzkiej wioski.
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+„Czy? Nic jako takiego. Krasnoludy są zbudowane z kamienia na sercu. Moja pieśń złamała im serce, a tym samym kamieniem obrócili się w smutku. Ledwie moja wina.'
+[/STORY]
+[OUT]Poproś ją, aby przestała śpiewać. Dość krasnoludy straciły życie.
+[OUT]Do ataku!
+[OUT][Syrin lub alkhonost] Zapytaj siostry, dlaczego śpiewają tutaj żałobną pieśń.
+[OUT][Demon] Demony są związane prawami losu. Wywołaj prawa demonów, aby zagrać w grę losową. Jeśli przegrają, muszą odejść. Jeśli wygrają, płacisz własnym duchem.
+[/NODE]
+
++[NODE]36
+[STORY]
+Krasnoludy są rozwścieczone twoją hańbą w zmianie stron i zabijaniu ich braci. Tracisz wiele ze swojego szacunku. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Krasnoludy doceniają, że pozbyłeś się syryny, ale woleliby pomścić swoich poległych braci, więc twoja przyjaźń rośnie tylko trochę. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Krasnoludy doceniają, że pozbyłeś się syryny i chociaż woleliby pomścić swoich braci, uznają, że to wygrana. 
+
+Pozostawiają nagrodę za twoje dobre uczynki i oferują jedzenie i piwo, aby świętować.
+[/STORY]
+[OUT]Dziękuję im, bierzcie udział w piciu i odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy poinformujesz krasnoludy o swojej porażce, są rozczarowani twoimi wysiłkami. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Pokonujesz syrynę i ich przeklętą piosenkę. 
+
+Krasnoludy cieszą się, że pomściłeś śmierć ich braci. Pozostawiają nagrodę za twoje dobre uczynki i oferują jedzenie i piwo, aby świętować.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Straciliśmy naszą siostrzaną matkę. Zmarła, uderzona młotem krasnoludów. Oni tego nie chcieli. Była chora i zaatakowała ich. Jednak nasz smutek pozostaje i muszą zapłacić.'
+[/STORY]
+[OUT]Zgódź się i dołącz do sióstr syrin w pieśni żałobnej, ponieważ utrata siostrzanej matki jest najpoważniejszą stratą dla twojego rodzaju.
+[OUT]Poproś ją, aby przestała śpiewać. Dość krasnoludy straciły życie.
+[/NODE]
+
++[NODE]53
+[STORY]
+Podchodzisz do skały i widzisz syrynę, demoniczną ptakę, uśmiechając się do ciebie: 
+
+'Ach, sprawiedliwszy seks. Przypuszczam, że przynajmniej z tobą mogę mówić - nie tak jak oni.'
+
+Wskazuje na kilka kamiennych krasnoludzkich posągów stojących w pobliżu, uwielbiających syrynę. Dostrzegasz również ruch w cieniach. Może tu być więcej niż jedna syryna.
+[/STORY]
+[OUT]Zapytaj, czy to są zaginione krasnoludy. Co im zrobiła?
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]55
+[STORY]
+Szansa ci nie sprzyjała. Syrin wygrywa i zabiera ducha. Pozostają także, by drwić z krasnoludów.
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]56
+[STORY]
+Krasnoludy doceniają, że pozbyłeś się syryny i chociaż woleliby pomścić swoich braci, uznają, że to wygrana. 
+
+Pozostawiają nagrodę za twoje dobre uczynki i oferują jedzenie i piwo, aby świętować.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]57
+[STORY]
+Krasnoludy doceniają, że pozbyłeś się syryny, ale woleliby pomścić swoich poległych braci, więc twoja przyjaźń rośnie tylko trochę. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]60
+[STORY]
+Syryna leci ze skały i dołącza do ciebie w twojej piosence: 
+
+'Brawo, siostry, brawo! Nasza melodia była w żałobie po naszej siostrzanej matce, zabitej przez krasnoludy. Ale wasza dzielna melodia odrzuca naszą melancholię. Opuścimy to miejsce. Niech bogowie pieśni pozostaną z tobą.'
+[/STORY]
+[OUT]Dziękuję im i zgłoś swój sukces krasnoludom.
+[/NODE]
+
++[NODE]63
+[STORY]
+Podchodzisz do skały i widzisz syrynę, demoniczną ptakę, uśmiechając się do ciebie: 
+
+- Lubię cię. Słyszysz moją piosenkę, ale pozostajesz silny - nie taki jak oni.'
+
+Wskazuje na kilka kamiennych krasnoludzkich posągów stojących w pobliżu, uwielbiających syrynę. Dostrzegasz również ruch w cieniach. Może tu być więcej niż jedna syryna.
+[/STORY]
+[OUT]Zapytaj, czy to są zaginione krasnoludy. Co im zrobiła?
+[/NODE]
+
++[NODE]65
+[STORY]
+Pokonujesz syrynę i ich przeklętą piosenkę, a oni odlatują w panice. 
+
+Krasnoludy cieszą się, że w jakiś sposób pomściłeś śmierć ich braci. Pozostawiają nagrodę za twoje dobre uczynki i oferują jedzenie i piwo, aby świętować.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillsmallBandits(6)
++[NODE]2
+[STORY]
+Natkniesz się na miejsce, w którym bandyci zostali zauważeni w przeszłości. 
+Widzisz pewne oznaki humanoidalnej obecności, ale wszystkie znaki są stare.
+[/STORY]
+[OUT][Łowca lub percepcja] Śledź bandytów.
+[OUT]Szukaj bandytów.
+[OUT]Szukaj bandytów.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zakradacie się do bandytów i widzicie, że są różnorodną grupą. Świętują swoją najnowszą pracę. To może być dobry moment, aby się ich pozbyć.
+[/STORY]
+[OUT]Otocz ich i poznaj swoją obecność.
+[OUT]Macie przewagę. Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Bandyci wpadają w zasadzkę!
+[/STORY]
+[OUT]Walka!
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz miejsce i wreszcie dostrzegasz bandytów. Niestety, oni też cię zauważają, więc nie masz zbyt wiele czasu, aby zdecydować, co robić.
+[/STORY]
+[OUT]Zatrzymaj się, podnieś ręce i powiedz, że nie chcesz walczyć, tylko po to, aby przynieść wiadomość, którą muszą opuścić, ponieważ krasnoludy nie chcą ich tutaj.
+[OUT]Spróbuj zastraszyć się i powiedz im, żeby go pokonali!
+[OUT]Do ataku!
+[OUT][Bandyta] Powiedz im, że krasnoludy szykują się do ciężkiej walki. Powiedz, że zapłacisz im trochę, a w ten sposób mogą odejść, zachowując honor złodzieja.
+[OUT][Atrakcyjny] Obnosicie się z łupem i mówcie, że z pewnością można zawrzeć umowę, aby mogli odejść.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jesteś bardzo pobity, a krasnoludy muszą przyjść ci z pomocą. Twoja pomoc nie robi na nich wrażenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Cóż, myślę, że możemy być przekonani, ale jeśli zapłacisz mniejszą opłatę, możemy pójść, a nawet zrobić trochę handlu. Co mówisz?'
+[/STORY]
+[OUT]Zgadzamy się na handel.
+[OUT]Do ataku!
+[OUT]Zostawcie ich.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Bla, bla, bla. Bogowie, zmiłuj się nad nami, jeśli jesteś ich osobą. Zostaw nas, a my cię nie pobijemy. Udać się.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[OUT]Zaproponuj zapłatę 40 kredytów na wyjazd.
+[/NODE]
+
++[NODE]26
+[STORY]
+Bandyci wstają i chwytają broń: 
+
+'Czego tu chcesz? Potrzebujesz nas, żebyśmy złapali twój tyłek czy coś?'
+[/STORY]
+[OUT]Zagrażaj bandytom i powiedz, że nawet jeśli cię pobiją, krasnoludy pojawią się tuż obok, a oni wytrącą z nich życie!
+[OUT]Do ataku!
+[OUT][Bandyta] Powiedz im, że krasnoludy szykują się do ciężkiej walki. Powiedz, że zapłacisz im trochę, a w ten sposób mogą odejść, zachowując honor złodzieja.
+[OUT][Atrakcyjny] Obnosicie się z łupem i mówcie, że z pewnością można zawrzeć umowę, aby mogli odejść.
+[/NODE]
+
++[NODE]39
+[STORY]
+Krasnoludy są niezadowolone, że pozwoliłeś przestępcom uwolnić się. Muszą je teraz znaleźć i nie o to prosili. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Krasnoludy są pod wrażeniem tego, jak szybko pozbyłeś się wichrzycieli, chociaż nie są do końca zadowoleni z tego, że przestępcy wysiedli bez szwanku. 
+
+Mimo to twoja przyjaźń rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy poinformujesz krasnoludy o swojej porażce, są rozczarowani twoją niekompetencją. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz wszystkich bandytów. 
+
+Krasnoludy są zadowolone z twojej pomocy i oferują małą nagrodę.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Bah, czemu nie. Ich krasnoludy nie są łatwe, kiedy naprawdę się gniewają. Czas by iść naprzód.'
+
+[/STORY]
+[OUT]Handluj z nimi i odejdź.
+[/NODE]
+
++[NODE]54
+[STORY]
+„Co, bez handlu”? W takim razie zostajemy.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[OUT]Zaproponuj zapłatę 400 kredytów na wyjazd.
+[/NODE]
+
++[NODE]55
+[STORY]
+Bandyci dotrzymują słowa i wyprowadzają się. 
+[/STORY]
+[OUT]Zgłoś swój sukces.
+[/NODE]
+
++[NODE]60
+[STORY]
+Bandyci wstają i chwytają broń: 
+
+'O czym ty krzyczysz? Myślisz, że tylko dlatego, że jesteśmy bandytami, zawsze idziemy na ładne twarze? Pokonaj!'
+
+Słyszysz słabe szepty:' Cieszę się, że kapitana tu nie ma, inaczej ich sztuczka zadziałałaby.'
+[/STORY]
+[OUT]Zagrażaj bandytom i powiedz, że nawet jeśli cię pobiją, krasnoludy pojawią się tuż obok, a oni wytrącą z nich życie!
+[OUT]Do ataku!
+[OUT][Bandyta] Powiedz im, że krasnoludy szykują się do ciężkiej walki. Powiedz, że zapłacisz im trochę, a w ten sposób mogą odejść, zachowując honor złodzieja.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillsmallOrc(7)
++[NODE]2
+[STORY]
+Znajdziesz miejsce, do którego wysłały cię krasnoludy, aby pozbyć się niektórych orków.
+[/STORY]
+[OUT][Łowca lub percepcja] Śledź orki.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Widzisz, jak orki liżą rany po bitwie z trollem skalnym, który teraz leży martwy u ich stóp. 
+
+Na szczęście dla ciebie wydaje się, że jest tylko kilka z bronią w pogotowiu.
+[/STORY]
+[OUT]Otocz orki i ujawnij swoją obecność.
+[OUT]Macie przewagę. Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Orki wpadają w zasadzkę!
+[/STORY]
+[OUT]Walka!
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz miejsce i wreszcie dostrzegasz niektórych orków. Niestety, oni też cię zauważają, więc nie masz zbyt wiele czasu, aby zdecydować, co robić.
+[/STORY]
+[OUT]Zatrzymaj się, podnieś ręce i powiedz, że nie chcesz walczyć, tylko po to, by powiedzieć im, że muszą odejść, ponieważ krasnoludy nie chcą, by powodowały kłopoty.
+[OUT]Orki szanują siłę. Pokaż swoją moc i przekonaj ich, aby opuścili to miejsce, zanim przyjdą krasnoludy.
+[OUT]Do ataku!
+[OUT][Ork] Chwal klan za zwycięstwo nad trollem. Powiedzmy, że małe krasnoludy postrzegają je jako zagrożenie, więc wysłali cię, aby wykonali swoją pracę.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jesteś bardzo pobity, a krasnoludy muszą przyjść ci z pomocą. Twoja pomoc nie robi na nich wrażenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Ha! Oczywiście widzą w nas zagrożenie, i tak powinni, głupcy. Z niecierpliwością czekam na dzień, w którym możemy spotkać się w honorowej bitwie. 
+
+Mimo to nie jesteśmy grupą rajdową. Jesteśmy tropicielami krwi, żeby zdobyć trofeum, a my je dostaliśmy. Musimy się wyleczyć i odpocząć. Potem się wyprowadzamy. Daję mój honor - słowo, że nie zawracamy sobie głowy kamiennym miastem.'
+[/STORY]
+[OUT][Uzdrowiciel lub cmuch] Zaoferuj im pomoc w uzdrowieniu.
+[OUT]Kiwnij głową i powiedz, że przyniesiesz wiadomość krasnoludom. Życzę im dobrych wrogów i ostrych ostrzy w drodze do domu.
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[/NODE]
+
++[NODE]20
+[STORY]
+Pozostajesz przez jakiś czas i pomagasz orkom leczyć. 
+
+'Zorza uśmiechnie się do ciebie i sprawi, że twoje ostrza będą ostre, przyjaciele. Idziemy teraz. Mówisz, że te krótkie są bezpieczne, ha ha!'
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Zraniliśmy wojowników, więc się nie ruszamy. Stajesz przed nami z mieczami, albo idziesz!'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Matriarcha stoi wysoko i mówi: 
+'Halt! Nie zbliżaj się ani nie spotkaj losu tego trolla. Możemy wyglądać na poobijanych, ale jesteśmy orkami i będziemy walczyć do śmierci!'
+[/STORY]
+[OUT]Przyznaj, że zostałeś wysłany przez krasnoludy, które są zaniepokojone działalnością orków tak blisko osady.
+[OUT]Do ataku!
+[OUT][Ork] Chwal klan za zwycięstwo nad trollem. Powiedzmy, że małe krasnoludy postrzegają je jako zagrożenie, więc wysłali cię, aby wykonali swoją pracę.
+[/NODE]
+
++[NODE]35
+[STORY]
+„Więc to znaczy moje słowo dla ciebie i tych krótkich, co? Możesz być bezwartościową szumowiną, ale jestem kobietą mojego słowa. Powiedziałem, że nie przyjechaliśmy tu, aby mieć kłopoty z krasnoludami, i miałem na myśli to. Idziemy. Ale najlepiej miej nadzieję, że się nie spotkamy, szumowiny.'
+[/STORY]
+[OUT]Zgłoś się do krasnoludów.
+[/NODE]
+
++[NODE]36
+[STORY]
+Krasnoludy podziwiają twoje legalne sposoby: 
+
+'Tak, panie, dobrze na tobie. Orki nie tylko zostały ranne, ale także dały swoje słowo, więc mądrze było dać im pomoc. Nawet jeśli są śmierdzącymi psami.'
+
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Pozostajesz na chwilę, aby pomóc, a potem zostaw raport. 
+
+- Zorza uśmiechnij się do ciebie i spraw, by twoje ostrza były ostre, przyjaciele. Idziemy teraz. Mówisz, że te krótkie są bezpieczne, ha ha!'
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]39
+[STORY]
+Krasnoludy wyglądają na wściekłe: 
+
+- Dała jej słowo honoru, a ty ją goniłeś? Z rannymi wojownikami, którzy właśnie walczyli z trollem? Gdzie jest twój honor, lassie?'
+
+Twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Krasnoludy wyglądają na wściekłe: 
+
+- Dała jej słowo honoru, a ty ją goniłeś? Z rannymi wojownikami, którzy właśnie walczyli z trollem? Gdzie jest twój honor, lassie?'
+
+Twoja przyjaźń nie rośnie, ale płacą ci za pracę, zgodnie z ustaleniami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy poinformujesz krasnoludy o swojej porażce, są rozczarowani twoimi wysiłkami. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz wszystkich orków. 
+
+Krasnoludy są zadowolone z twojej pomocy i oferują małą nagrodę.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Ha! Oczywiście widzą w nas zagrożenie, i tak powinni, głupcy. Z niecierpliwością czekam na dzień, w którym możemy spotkać się w honorowej bitwie. 
+
+Mimo to nie jesteśmy grupą rajdową. Jesteśmy tropicielami krwi, żeby zdobyć trofeum, a my je dostaliśmy. Musimy się wyleczyć i odpocząć. Potem się wyprowadzamy. Daję mój honor - słowo, że nie zawracamy sobie głowy kamiennym miastem.'
+[/STORY]
+[OUT][Uzdrowiciel lub cmuch] Zaoferuj im pomoc w uzdrowieniu.
+[OUT]Kiwnij głową i powiedz, że przyniesiesz wiadomość krasnoludom. Życzę im dobrych wrogów i ostrych ostrzy w drodze do domu.
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[/NODE]
+
++[NODE]53
+[STORY]
+„Więc to znaczy moje słowo dla ciebie i tych majtek, co? Możesz być bezwartościową szumowiną, ale jestem kobietą mojego słowa. Powiedziałem, że nie przyjechaliśmy tu, aby mieć kłopoty z krasnoludami, i miałem na myśli to. Więc albo walczysz z nami w bitwie, albo zostaniemy uzdrowieni!'
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zostawcie ich.
+[/NODE]
+
++[NODE]54
+[STORY]
+„Co, ci głupcy nie potrafią teraz poradzić sobie z własnym gównem? A może mają na myśli brak szacunku dla nas, wysyłając ci dużo?'
+[/STORY]
+[OUT][Krasnolud] Jak śmiesz oskarżać swoich krewnych o takie drobne gry? Wyraźnie oświadcz, że to jest to, co mówisz: uprzejma prośba o odejście z tej ziemi.
+[OUT]Powiedz, że krasnoludy nie są znane z grania w takie gry. Chcą tylko, aby orki zniknęły z ich terytorium.
+[OUT][Ork] Chwal klan za zwycięstwo nad trollem. Powiedzmy, że małe krasnoludy postrzegają je jako zagrożenie, więc wysłali cię, aby wykonali swoją pracę.
+[/NODE]
+
++[NODE]56
+[STORY]
+Krasnoludy wyglądają na wściekłe: 
+
+- Dała jej słowo honoru, a ty ją goniłeś? Z rannymi wojownikami, którzy właśnie walczyli z trollem? Gdzie jest twój honor, lassie?'
+
+Twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Zabij wszystkich orków i zgłoś się. Ale krasnoludy są bardzo wściekłe! 
+
+„Dali ci swoje honorowe słowo, zostali zranieni i zabiłeś ich w naszym imieniu! Nie macie dumy. Najlepiej zostaw nas teraz.'
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillMedBear(8)
++[NODE]2
+[STORY]
+Zbliżasz się do obszaru, gdzie stado opancerzonych niedźwiedzi, które straciły krasnoludy, wędruje teraz swobodnie i sieje spustoszenie. 
+[/STORY]
+[OUT]Wiesz, jak obchodzić się z niedźwiedziami. Spróbuj to rozgryźć.
+[OUT][Hunter] Śledź niedźwiedzie.
+[OUT][Natura lub intelekt] Użyj swojej zdolności umysłowej, aby dowiedzieć się, co robić. 
+[OUT][Niedźwiedź] Zdominuj niedźwiedzie.
+[OUT]Znajdźcie je i zaatakuj!
+[OUT]Użyj własnego jedzenia, aby zwabić te zwierzęta z terytorium i mieć nadzieję, że nie wrócą.
+[OUT]Wróćcie później.
+[OUT][Ork] Czas na zapasy!
+[OUT][Ork] Czas na zapasy!
+[/NODE]
+
++[NODE]3
+[STORY]
+Podchodzisz bliżej i obserwujesz gniewnie kilka opancerzonych niedźwiedzi wędrujących po miejscu.
+[/STORY]
+[OUT][Krasnolud] Twoi krewni stracili nad nimi kontrolę, ale twoi ludzie szkolili niedźwiedzie na życie. Spróbuj poprowadzić ich z powrotem do krasnoludów.
+[OUT]Masz tych, którzy mogą komunikować się z niedźwiedziami. Spraw, by bestie były posłuszne.
+[OUT]Nosi szacunek dla terytorium. Spróbuj wymyślić sposób na oznaczenie tej ziemi krasnoludom, dzięki czemu niedźwiedzie odejdą.
+[OUT][Łowca] Ustaw pułapkę na paczkę i atakuj, gdy są osłabieni.
+[OUT][Łowca] Ustaw pułapkę na paczkę i atakuj, gdy są osłabieni.
+[/NODE]
+
++[NODE]4
+[STORY]
+Prześladuj niedźwiedzie i odbieraj je jeden po drugim, dzięki czemu reszta ucieknie. 
+
+[/STORY]
+[OUT]Tak, zróbcie to.
+[/NODE]
+
++[NODE]7
+[STORY]
+Walczysz z niedźwiedziem alfa i łamiesz jego szyję gołymi rękami, a inni poddają się twojej dominacji. 
+
+Niedźwiedzie wracają nawet do krasnoludów, którzy są pod wrażeniem twoich umiejętności. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+Jeden z rannych niedźwiedzi uderza cię w umierającym szaleństwie. 
+
+[/STORY]
+[OUT]Odłóż je.
+[/NODE]
+
++[NODE]17
+[STORY]
+Zaznaczasz terytorium i nękasz paczkę, dopóki się nie ruszają. 
+
+Pozbyłeś się problemu, tak jak zostałeś poproszony, więc krasnoludy są wdzięczne. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+Pozbyłeś się problemu i krasnoludy są zadowolone. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Oddałeś jedzenie i poprowadziłeś zwierzęta w inne miejsce. 
+[/STORY]
+[OUT]Dobrze.
+[OUT]Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Bah, karmisz zwierzęta, lassie, przyjdą po więcej. Głupi.'
+
+Krasnoludy nie są pod wrażeniem.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Pozbyłeś się niedźwiedzi, a krasnoludy są zadowolone z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Pozbyłeś się problemu, tak jak zostałeś poproszony, a twoja przyjaźń z pewnością wzrośnie. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+Jesteś pokonany i ostatecznie lud, który poprosił cię o pomoc, sam poradzi sobie z problemem, więc nie zyskasz żadnej przyjaźni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Jesteś nieprzekonujący, a zwierzęta zostają.
+[/STORY]
+[OUT]Poddajcie się.
+[OUT]Użyj własnego jedzenia, aby zwabić te zwierzęta z terytorium i mieć nadzieję, że nie wrócą.
+[OUT]Po prostu ich zaatakujcie!
+[/NODE]
+
++[NODE]33
+[STORY]
+Twoje intrygi zawodzą, a ty jesteś atakowany przez niedźwiedzie. 
+
+Krasnoludy słyszą twoje krzyki i przychodzą z pomocą. Muszą sami zabijać niedźwiedzie i gniewać się na konieczność oszczędzania czasu. Nie zyskujesz żadnej przyjaźni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Niedźwiedzie kłaniają się twojej dominacji i zgadzają się wrócić do krasnoludów. Być może nawet zdecydujesz się zostać z tobą. 
+
+Krasnoludy są bardzo zadowolone z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Krasnoludy nie są pod wrażeniem twojej porażki. Muszą sami zabijać niedźwiedzie i gniewać się na konieczność oszczędzania czasu. Nie zyskujesz żadnej przyjaźni.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Zapasy niedźwiedzi idą źle, a krasnoludy śmieją się ze swoich porażek. Zostawiają ci biżuterię, mówiąc, że lasy dobrze wyglądają w błyskotkach. 
+
+Zyskasz przyjaźń tylko dzięki swojemu wstydowi. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Niedźwiedzie kłaniają się twojej dominacji i zgadzają się wrócić do krasnoludów. Być może nawet zdecydujesz się zostać z tobą. 
+
+Krasnoludy są bardzo zadowolone z twojej pracy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]51
+[STORY]
+Zbliżasz się do niedźwiedzi i pozostajesz tak spokojny jak kamień, gdy wsiadasz na jednego z nich i wylatujesz z jego wściekłości. Inni kłaniają się twojej dominacji i wszyscy wracają do krasnoludów. 
+
+Przywiązani do ziemi są bardzo zadowoleni z twojej pracy i za to nagradzają. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillMedTrolls(9)
++[NODE]2
+[STORY]
+Znajdujesz jaskinię, w której krasnoludy poprosiły cię o sprawdzenie niektórych trollów rockowych.
+[/STORY]
+[OUT][Łowca lub percepcja] Śledź trolle.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Widzisz jednego lub więcej trolli i kilku rockerów skupionych nad czymś i kłócących się: 
+
+'Jak długo jeszcze?'
+' Loong, cicho.'
+'Idziemy teraz? Idziemy?'
+'Nie!'
+
+[/STORY]
+[OUT]Podejdź do trolla i zapytaj, o co chodzi w tym zamieszaniu.
+[OUT]Macie przewagę. Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Jesteście zaatakowani przez trolle!
+[/STORY]
+[OUT]Walka!
+[OUT]Spróbujcie uciec.
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz miejsce i wreszcie dostrzegasz kilka trolli. Niestety, oni też cię zauważają, więc nie masz zbyt wiele czasu, aby zdecydować, co robić.
+[/STORY]
+[OUT]Zatrzymaj się, podnieś ręce i powiedz, że nie chcesz walczyć, tylko po to, by powiedzieć im, że muszą odejść, ponieważ krasnoludy nie chcą ich tutaj.
+[OUT]Do ataku!
+[OUT][Krasnolud] Przebudzenie małych! Powiedz trolrom, że jesteś zaszczycony, że możesz tu być i być świadkiem.
+[OUT]Spróbujcie uciec.
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jesteś bardzo pobity, a krasnoludy muszą przyjść ci z pomocą. Twoja pomoc nie robi na nich wrażenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Nie idziemy, mamy młodych, którzy czekają na przebudzenie. Jeśli pójdziemy teraz, umrą. Dlaczego słuchasz małych kamiennych ludzi? Dlaczego chcą, żebyśmy poszli? Jedziemy je tylko te, które przychodzą i nas szturchają!'
+[/STORY]
+[OUT][Magiczny użytkownik] Zaoferuj, aby pomóc obudzić ich młodych rytuałem, a potem mogą odejść bez dalszej zwłoki.
+[OUT]Powiedz, że nie muszą wychodzić. Wyjaśnisz ich sytuację krasnoludom.
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[OUT]Zaoferuj im dużo jedzenia. Słyszałeś, że pomaga trollowi rosnąć, więc może pomoże to maluchom.
+[/NODE]
+
++[NODE]20
+[STORY]
+Pozostajesz przez jakiś czas i pomagasz troliom w rytuale obudzić rockerów. 
+
+Kiedy nadejdzie czas, trolle trzymają cię na dystans, więc nadal nie wiesz dokładnie, jak wylęgają się małe trolle, tyle że wymaga to magii i obecności dorosłych. 
+
+Biorą młodych, zostawiają ci nagrodę i powoli odchodzą.
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Wy, młodzi ludzie, idźcie, mówicie małym kamiennym ludziom, że idziemy, kiedy chcemy iść.'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Odwracają się do ciebie i zauważysz, że w środku wszystkich skał siedzi cichy skaczak. Poppa troll mówi: 
+
+'Czego tu chcesz, maleńka? Przychodzisz pomóc?'
+[/STORY]
+[OUT][Natura] Gdy trolle są stworzeniami woli natury, ogłaszaj, że jest to twoja domena i dlatego muszą odejść.
+[OUT]Do ataku!
+[OUT][Krasnolud] Przebudzenie małych! Powiedz trolrom, że jesteś zaszczycony, że możesz tu być i być świadkiem.
+[OUT]Powiedz, że krasnoludy słyszały dziwne odgłosy i kazały ludziom zniknąć tutaj, więc poprosili cię o pozbycie się trolli.
+[/NODE]
+
++[NODE]35
+[STORY]
+„Wrażliwy czas, nie potrzebujemy dręczącego nas małego ludu kamiennego, więc idziemy. Ale nie jesteśmy szczęśliwi, mówisz im to.'
+[/STORY]
+[OUT]Zgłoś się do krasnoludów.
+[/NODE]
+
++[NODE]36
+[STORY]
+Krasnoludy mówią, że budzenie się bujaków jest radosnym wydarzeniem i cieszą się, że pomogliście. Twoja przyjaźń rośnie.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Trolle patrzą na ciebie i kiwają głową: 
+
+'Tak, mali ludzie, idźcie, mówcie małym kamiennym ludziom, że idziemy, kiedy chcemy iść.„
+
+Krasnoludy twierdzą, że budzenie się bujaków jest radosnym wydarzeniem i cieszą się, że nie przeszkadzaliście. Twoja przyjaźń rośnie.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Krasnoludy są wściekłe, że przerwałeś święty rytuał trolli: 
+
+- Pech, panienki, pech dla nas wszystkich!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Krasnoludy są wściekłe, że przerwałeś święty rytuał trolli: 
+
+- Pech, panienki, pech dla nas wszystkich! Ale może powinniśmy powiedzieć ci, tak. Najlepiej idź teraz.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy poinformujesz krasnoludy o swojej porażce, są rozczarowani twoimi wysiłkami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz trolle, a krasnoludy chwalą cię za odwagę: 
+
+'Trolle skalne są zrobione z tej samej formy co my, więc są ciężkimi bryłkami do złamania. Brawo, tak! Te były czymś dziwnym i nie mieliśmy czasu się tym zająć.'
+
+Pozostawiają ci nagrodę.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Mali kamienni ludzie dobrze nas znają. Możesz zostać, milczysz. Teraz łatwo je złamać.'
+[/STORY]
+[OUT][Magiczny użytkownik] Zaoferuj, aby pomóc obudzić ich młodych rytuałem, a potem mogą odejść bez dalszej zwłoki.
+[OUT]Powiedz, że nie muszą wychodzić. Wyjaśnisz ich sytuację krasnoludom.
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[OUT][Krasnoludzka kobieta] Zaoferuj śpiewać pieśń ziemi, kołysankę, którą śpiewałbyś swoim własnym młodym kamieniom.
+[/NODE]
+
++[NODE]53
+[STORY]
+Jesteś szybki na nogach i masz dobry rozum, więc odskocz i uciekaj w bezpieczne miejsce.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]55
+[STORY]
+„Powiedz, jeśli nie walczysz z nami, daj nam jedzenie, a my odejdziemy!'
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zgadzam się, aby dać im jedzenie.
+[OUT][Natura] Gdy trolle są stworzeniami woli natury, ogłaszaj, że jest to twoja domena i dlatego muszą odejść.
+[OUT]Spróbujcie uciec.
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]59
+[STORY]
+Dajesz potrawom trolli. Zabierają ją i ponownie skupiają nad swoimi małymi kamieniami, nie pozwalając ci nic zobaczyć. 
+
+Wkrótce usłyszysz małe głosy. Trolle zabierają młodych i powoli odchodzą.
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]60
+[STORY]
+Zostajesz i śpiewasz rockową pieśń ziemi, a wkrótce czujesz, że ich życie powoli się budzi. 
+
+Kiedy nadejdzie czas, trolle trzymają cię na dystans, więc nadal nie wiesz dokładnie, jak wylęgają się małe trolle, ale to musi być bardzo podobne do twoich młodych. 
+
+Biorą młodych, zostawiają ci nagrodę i powoli odchodzą.
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]61
+[STORY]
+Kiedy poinformujesz krasnoludy o swojej porażce, są zrozpaczeni, że próbowałeś przeszkadzać w przebudzeniu rockera. 
+
+Twoja przyjaźń za to cierpi.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]63
+[STORY]
+Zabijasz trolle, ale kiedy zdajesz raport krasnoludom, są zrozpaczeni, że przeszkadzałeś w przebudzeniu, mówiąc, że był to święty rytuał. 
+
+'Wstydź się, wstyd, panienki!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]65
+[STORY]
+Oddajesz swoje jedzenie, ale trolle tylko udają, że odchodzą. W rzeczywistości osiedlają się jeszcze bliżej krasnoludów i powodują wiele kłopotów. 
+
+Ziemskie krasnoludy nie są pod wrażeniem waszych wysiłków, mówiąc, że nigdy nie powinniście karmić trolli, ponieważ po prostu wracają po więcej!
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]66
+[STORY]
+Ziemskie krasnoludy nie są pod wrażeniem waszych wysiłków, mówiąc, że nigdy nie powinniście karmić trolli, ponieważ po prostu wracają po więcej. Ale przyznają, że tym razem trolle zdają się na razie znikać. Więc zapłacą ci za twoje wysiłki.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Army(10)
++[NODE]2
+[STORY]
+Uzbrojona grupa krasnoludów stoi przed tobą.
+[/STORY]
+[OUT]Pozdrówcie swoich sojuszników. 
+[OUT]Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT]Walka!
+[OUT]Zastraszcie ich!
+[OUT]Usuńcie się.
+[OUT]Spróbuj przekonać ich, że jesteś przyjazny.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Ach, dzień dobry, przyjaciele, dobrze Was widzieć.'
+[/STORY]
+[OUT]Zapytajcie, czy chcą pohandlować.
+[OUT]Napijcie się wspólnie miodu.
+[/NODE]
+
++[NODE]11
+[STORY]
+„Nie jesteś naszym wrogiem, ale nie jesteś naszym przyjacielem. Idź do naszej wioski, jeśli chcesz się zaprzyjaźnić. Teraz odejdź.'
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Walka!
+[OUT]Zastraszcie ich!
+[OUT]Spróbuj przekonać ich, że jesteś przyjazny.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Dobrze, dobrze, tutaj, bierzesz swoją nagrodę, my się wycofujemy. Nie ma potrzeby walki i żadnych twardych uczuć, co?'
+[/STORY]
+[OUT]Weźcie ich rzeczy i odejdźcie
+[/NODE]
+
++[NODE]19
+[STORY]
+Twoje słowa nie działają. Jesteś bity i goniony.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Być może nie jesteś wrogiem. Płacisz nam, dobrze się dogadujemy z naszymi krewnymi.'
+[/STORY]
+[OUT]Zgadzacie się zapłacić.
+[OUT]Powiedz, że nie potrzebujesz ich dobrego słowa, pożegnaj się z nimi.
+[/NODE]
+
++[NODE]31
+[STORY]
+„Mówiłeś dobrze, więc zacznij.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki, co traci trochę szacunku ze strony wroga.
+[/STORY]
+[OUT]Ucieczka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfsmallTunnel(11)
++[NODE]2
+[STORY]
+Znajdujesz starą jaskinię, którą krasnoludy poprosiły, byś dla nich oczyścił.
+[/STORY]
+[OUT]Zacznij czyścić tunele zachodnie.
+[OUT]Rozpocznij od południowych tuneli.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zachodnie tunele są w większości niezamieszkane, więc tutaj nie ma żadnych zagrożeń. Ale jest dużo gruzu, który wymaga oczyszczenia, zanim krasnoludy mogą rozpocząć jakąkolwiek prawdziwą pracę.
+[/STORY]
+[OUT][Krasnolud] Wiele razy robiłeś to jako młodzieniec, więc znasz najbezpieczniejszy i najszybszy sposób wykonania zadania. Zrób to.
+[OUT][Rzemiosło i narzędzia] Najpierw skonstruuj jakiś sprzęt, aby zwiększyć swoją wydajność.
+[OUT][Karakandza] Robisz kopiące tunele, więc powiedz innym, aby odsunęli się na bok i oczyścili to miejsce samodzielnie.
+[OUT][Elf] Naprawdę kopie gruz? Nie. 
+[OUT]Kopcie.
+[/NODE]
+
++[NODE]6
+[STORY]
+Kierujesz swoją demoniczną naturą, a w ciągu kilku godzin tunel jest czysty. 
+
+Krasnoludy są naprawdę pod wrażeniem twojej pracy.
+[/STORY]
+[OUT]Zgłoś się do krasnoludów. 
+[/NODE]
+
++[NODE]8
+[STORY]
+Krasnoludy odnajdują złotą żyłę, gdy kopią głębiej w tunelu, więc są bardzo wdzięczni za ciężką pracę. 
+
+Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Kopiesz, kopiesz i kopiesz, aż myślisz, że to nigdy się nie kończy. Jest to nużące i nęka twoje morale, a kończy się niebezpiecznym zawaleniem łuku, który prawie cię zabija. 
+
+Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Krasnoludy znajdują mithrilową żyłę, kiedy kopią głębiej w tunelu, więc są bardzo wdzięczne za ciężką pracę. 
+
+Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Krasnoludy znajdują mithrilową żyłę, kiedy kopią głębiej w tunelu, więc są bardzo wdzięczne za ciężką pracę. 
+
+Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Kopiesz, kopiesz i kopiesz, aż myślisz, że nigdy się nie kończy. Ale w końcu tunele są czyste. 
+
+Wszystkie inne tunele okażą się ślepymi zaułkami. To jest nużące i nosi na morale. 
+[/STORY]
+[OUT]Zgłoś się do krasnoludów. 
+[/NODE]
+
++[NODE]21
+[STORY]
+„Och, wy aroganccy, spiczaste uszy! Wszyscy jesteście kochankami, oto czym jesteście. Zagraj w lesie. ”
+
+Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Południowe tunele prowadzą głęboko pod ziemię, a wkrótce dochodzisz do komnaty, w której widzisz mistrza striga stojącego nieruchomo jak kamień, ale niepokojąco obserwującego każdy twój ruch. 
+[/STORY]
+[OUT]Do ataku!
+[OUT][Magiczny użytkownik] Przygotuj rytuał i staw czoła mistrzowi w świecie dusz.
+[OUT][mistrz Strigi lub pani] Żądaj, aby opuścili to miejsce teraz!
+[OUT]Porzuć tunele.
+[/NODE]
+
++[NODE]24
+[STORY]
+Mistrz striga upada i możesz usunąć resztę jaskini bez dalszych niebezpieczeństw. 
+
+Krasnoludy są zadowolone z twoich wyników i dobrze cię wynagradzają.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Mistrz striga żywi się tobą, zanim uda ci się uciec. Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Jeden z was budzi się następnej nocy jako istota księżyca!
+[/STORY]
+[OUT]Cholera.
+[/NODE]
+
++[NODE]33
+[STORY]
+Krasnoludy są wdzięczne za szybką interwencję. Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Opuszczasz tunele i relacjonujesz. Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfMedTunnel(12)
++[NODE]2
+[STORY]
+Znajdujesz starą jaskinię, którą krasnoludy poprosiły, byś dla nich oczyścił.
+[/STORY]
+[OUT]Zacznij czyścić tunele zachodnie.
+[OUT]Rozpocznij od południowych tuneli.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Zachodnie tunele są w większości niezamieszkane, więc tutaj nie ma żadnych zagrożeń. Ale jest dużo gruzu, który wymaga oczyszczenia, zanim krasnoludy mogą rozpocząć jakąkolwiek prawdziwą pracę.
+[/STORY]
+[OUT][Krasnolud] Wiele razy robiłeś to jako młodzieniec, więc znasz najbezpieczniejszy i najszybszy sposób wykonania zadania. Zrób to.
+[OUT][Rzemiosło i narzędzia] Najpierw skonstruuj jakiś sprzęt, aby zwiększyć swoją wydajność.
+[OUT][Karakandza] Robisz kopiące tunele, więc powiedz innym, aby odsunęli się na bok i oczyścili to miejsce samodzielnie.
+[OUT][Elf] Naprawdę kopie gruz? Nie. 
+[OUT]Kopcie.
+[/NODE]
+
++[NODE]6
+[STORY]
+Kierujesz swoją demoniczną naturą, a w ciągu kilku godzin tunel jest czysty. 
+
+Krasnoludy są naprawdę pod wrażeniem twojej pracy.
+[/STORY]
+[OUT]Zgłoś się do krasnoludów. 
+[/NODE]
+
++[NODE]8
+[STORY]
+Krasnoludy odnajdują złotą żyłę, gdy kopią głębiej w tunelu, więc są bardzo wdzięczni za ciężką pracę. 
+
+Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+Kopiesz, kopiesz i kopiesz, aż myślisz, że to nigdy się nie kończy. Jest to nużące i nęka twoje morale, a kończy się niebezpiecznym zawaleniem łuku, który prawie cię zabija. 
+
+Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]10
+[STORY]
+Krasnoludy znajdują mithrilową żyłę, kiedy kopią głębiej w tunelu, więc są bardzo wdzięczne za ciężką pracę. 
+
+Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+Krasnoludy znajdują mithrilową żyłę, kiedy kopią głębiej w tunelu, więc są bardzo wdzięczne za ciężką pracę. 
+
+Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+Kopiesz, kopiesz i kopiesz, aż myślisz, że nigdy się nie kończy. Ale w końcu tunele są czyste. 
+
+Wszystkie inne tunele okażą się ślepymi zaułkami. To jest nużące i nosi na morale. 
+[/STORY]
+[OUT]Zgłoś się do krasnoludów. 
+[/NODE]
+
++[NODE]21
+[STORY]
+„Och, wy aroganccy, spiczaste uszy! Wszyscy jesteście kochankami, oto czym jesteście. Zagraj w lesie. ”
+
+Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+Południowe tunele prowadzą głęboko pod ziemię, a wkrótce dochodzisz do komnaty, w której widzisz starego śpiącego wilkołaka. Podejrzewasz, że nie jest tu sam. 
+
+Śpi w alkowie i widzisz, że może to być możliwe, ale musisz znaleźć dokładne miejsca, w których osłabisz strukturę, albo też upadnie na ciebie.
+[/STORY]
+[OUT]Do ataku!
+[OUT]Spróbuj go zwinąć, aby pozbyć się wilkołaków.
+[OUT][Wilkołak] Zdominuj tę paczkę!
+[OUT]Porzuć tunele.
+[/NODE]
+
++[NODE]24
+[STORY]
+Wilkołaki zniknęły i możesz usunąć resztę jaskini bez dalszych niebezpieczeństw. 
+
+Krasnoludy są zadowolone z twoich wyników i dobrze cię wynagradzają.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+Wilkołaki wdzierają się w ciebie i ich wściekłość jest przerażająca. Udaje ci się uciec tylko dlatego, że z jakiegoś powodu paczka nie mogła cię śledzić. Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Jeden z was budzi się następnej nocy jako istota księżyca!
+[/STORY]
+[OUT]Cholera.
+[/NODE]
+
++[NODE]33
+[STORY]
+Paczka odchodzi, kłaniając się twojej wyższości. Krasnoludy są wdzięczne za szybką interwencję. Nagradzają cię dobrze, a twoja przyjaźń rośnie. 
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+Opuszczasz tunele i relacjonujesz. Krasnoludy nie są pod wrażeniem twojej niekompetencji.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfMedMroki(13)
++[NODE]2
+[STORY]
+Dostrzegasz ruiny starej kuźni, a nawet z daleka widać gęstą, ciemną mgłę wiszącą nisko nad ziemią, wciąż jak śmierć.
+[/STORY]
+[OUT]Podejdź ostrożnie.
+[OUT][Krasnolud] Wyczuwasz barierę, o której mówili twoi bracia i wiesz, że nie będziesz mógł wejść. Jeśli nie masz ze sobą towarzyszy, na razie opuść to miejsce.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Gdy zbliżasz się, słyszysz dźwięk pracującej kuźni z zrujnowanych kamieni. Czujesz nawet ciepło pożarów na swojej skórze. 
+[/STORY]
+[OUT][Światło] Wezwij swoją domenę, aby ochronić cię przed ciemnością i zaprowadzić do światła wewnątrz. 
+[OUT][Zamieszanie] Wzywaj do ciemności, że wokół ciebie czujesz pulsowanie. Domagaj się, abyś się z tobą zmierzył.
+[OUT][Shadow elf] Wyczuwasz obecność mroki, innego stworzenia o ciemnych cieniach. Porozmawiaj z nim.
+[OUT]Wezwanie do każdego, kto mieszka w środku.
+[OUT]Idź w płonącą broń!
+[/NODE]
+
++[NODE]6
+[STORY]
+Wzywasz światło i ono prowadzi cię, mijając wiele osłon. 
+
+W kuźni widzisz płonący piec, kowadło i wszystkie pułapki, jakich można się spodziewać, ale za młotem stoi stworzenie ciemności - mroki. Patrzy na ciebie, jego puste oczy nie ujawniają żadnych emocji: 
+
+'Czujesz zapach światła. Jesteś tu, by mnie uderzyć?'
+[/STORY]
+[OUT]Powiedz, że krasnoludy poprosiły cię o odzyskanie ich starożytnej kuźni. Jest dla nich ważne, więc nie pozwolą jej odejść.
+[OUT]Tak, zabij go w imię światła!
+[/NODE]
+
++[NODE]7
+[STORY]
+Wzywasz światło i prowadzi cię, mijając wiele okręgów. 
+
+W kuźni widzisz płonący piec, kowadło i wszystkie pułapki, jakich można się spodziewać, ale za młotem stoi stworzenie ciemności - mroki. Patrzy na ciebie, jego puste oczy nie ujawniają żadnych emocji: 
+
+'Czujesz zapach ciemności zamieszania. Czy przyszedłeś po broń, czy chcesz ze mną walczyć? Nigdy nie wiadomo z wami typów chaotycznych.'
+[/STORY]
+[OUT]Powiedz, że krasnoludy poprosiły cię o odzyskanie ich starożytnej kuźni. Jest dla nich ważne, więc nie pozwolą jej odejść.
+[/NODE]
+
++[NODE]8
+[STORY]
+Wzywasz ciemność, która słucha cię i prowadzi, mijając wiele osłon. 
+
+W kuźni widzisz płonący piec, kowadło i wszystkie pułapki, jakich można się spodziewać, ale za młotem stoi stworzenie ciemności - mroki. Patrzy na ciebie, jego puste oczy nie ujawniają żadnych emocji: 
+
+'Mroczny przyjacielu, witaj. Jak mogę ci pomóc?'
+[/STORY]
+[OUT]Powiedz, że krasnoludy poprosiły cię o odzyskanie ich starożytnej kuźni. Jest dla nich ważne, więc nie pozwolą jej odejść.
+[/NODE]
+
++[NODE]9
+[STORY]
+Ciemna mgła unosi się teraz do pasa i pojawia się ogromny cień i mówi do ciebie: 
+
+'Co?'
+[/STORY]
+[OUT]Powiedz, że krasnoludy chcą odzyskać swoją kuźnię. 
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]10
+[STORY]
+„Twierdziłem, że to miejsce i chroniłem je przed uciążliwością, jaką są kamienne ludy. Teraz cię wysyłają.'
+[/STORY]
+[OUT][Inteligencja] Zapytaj, kim jest i dlaczego wziął kuźnię.
+[OUT]Nalegaj, aby kuźnia należała do krasnoludów i są uparci. Z pewnością będą go tutaj nękać. 
+[/NODE]
+
++[NODE]12
+[STORY]
+„Jestem mroki, istota ciemności jest tym, co o mnie wiesz. Czy to ma znaczenie? Czuję pokrewieństwo z kamieniem i metalem, poruszenie starych żywotów jest wezwaniem ognia, kto wie? Jestem tu, by wykuć.'
+[/STORY]
+[OUT]Nalegaj, aby kuźnia należała do krasnoludów i są uparci. Z pewnością będą go tutaj nękać. 
+[OUT][Mądrość] Powiedz, że krasnoludy wielce szanują swoich przodków i poległych bohaterów. Wygląda na to, że mroki ma przynajmniej echo takiego krasnoluda w środku, więc powiesz o tym krasnoludom i być może oboje dojdą do porozumienia.
+[/NODE]
+
++[NODE]13
+[STORY]
+„Chroniłem się przed nimi, ponieważ oni przychodzili walczyć. Jeśli przyjdą porozmawiać, będę słuchać.'
+
+Mroki wręcza ci mały prezent i wraca do pracy.
+[/STORY]
+[OUT]Dziękuję mu i powiedz krasnoludom.
+[/NODE]
+
++[NODE]15
+[STORY]
+„Mroki ze wspomnieniami krasnoludzkiego kowala, co? Niech mnie diabli, jeśli nie warto tego widzieć. Dobrze się spisałeś, chłopcze. Tak trzymaj, a wkrótce będziemy kumplami.'
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Brudna istota ciemności twierdzi, że ma ducha krasnoludzkiego kowala? Śmieszny! Lepiej, żebyśmy całkowicie zniszczyli kuźnię, niż pozwolili, by wypluła ten nonsens. Odejdź teraz, lassie!'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Dla ciebie mroki jest istotą ciemności, a my tak właśnie jest, ale jak do tego dojść? Nie znam odpowiedzi, ale czuję w sobie wiele umysłów. Może ci, którzy zginęli w ciemności? Czy tylko mroczne myśli tych, którzy napotkali zamieszanie w najczystszej formie? W każdym razie umysł krasnoludów mówi do mnie głośno, więc przyjechałem tu, by sfałszować broń. To wszystko.'
+[/STORY]
+[OUT]Powiedz, że gdy współczujesz, krasnoludy są bardzo zaborcze w swoich kuźniach, więc mroki muszą odejść.
+[OUT][Mądrość] Powiedz, że krasnoludy wielce szanują swoich przodków i poległych bohaterów. Wygląda na to, że mroki ma przynajmniej echo takiego krasnoluda w środku, więc powiesz o tym krasnoludom i być może oboje dojdą do porozumienia.
+[/NODE]
+
++[NODE]20
+[STORY]
+„Tak, tak, że my - lub oni - jesteśmy. Pójdę, bo głos w moim umyśle nie chce rozlać krasnoludzkiej krwi. Dobrze mówiłeś. Tutaj możesz lepiej to wykorzystać niż ja.'
+
+Mroki wręcza ci prezent, a następnie rozpuszcza się w cieniu i czujesz, że czarna mgła z nim wychodzi. 
+[/STORY]
+[OUT]Zgłoś się do krasnoludów.
+[/NODE]
+
++[NODE]21
+[STORY]
+„Mroki ze wspomnieniami krasnoludzkiego kowala, co? Niech mnie diabli. Nie jestem pewien, czy to bluźnierstwo czy mądrość. Mimo to kuźnia jest nasza. Dziękujemy za usługę, chłopcze.'
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Nie! Twierdziłem, że ta kuźnia jest moja, a dzieci kamienne mogą czekać na swoją kolej. Pozostawiać!'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Poddajcie się.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Wstyd, lassie, wstyd. W końcu nie jesteś taki przydatny, co?'
+
+Krasnoludy muszą sobie poradzić z problemem, więc twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Kuźnia została odzyskana, a brudne mroki zniszczone. Dobry. Dziękujemy za usługę, chłopcze.'
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+Jesteś ciężko pobity i zmuszony do ucieczki. 
+
+Krasnoludy muszą sobie poradzić z problemem, więc twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]30
+[STORY]
+„Dla ciebie mroki jest istotą ciemności, a my tak właśnie jest, ale jak do tego doszło? Nie znam odpowiedzi, ale czuję w sobie wiele umysłów. Może ci, którzy zginęli w ciemności? Czy tylko mroczne myśli tych, którzy napotkali zamieszanie w najczystszej formie? W każdym razie umysł krasnoludów mówi do mnie głośno, więc przyjechałem tu, by sfałszować broń. To wszystko.'
+[/STORY]
+[OUT]Nalegaj, aby kuźnia należała do krasnoludów i są uparci. Z pewnością będą go tutaj nękać. 
+[OUT][Mądrość] Powiedz, że krasnoludy wielce szanują swoich przodków i poległych bohaterów. Wygląda na to, że mroki ma przynajmniej echo takiego krasnoluda w środku, więc powiesz o tym krasnoludom i być może oboje dojdą do porozumienia.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Wiesz, że mroki to stworzenia stworzone z ciemności i cienia. Ty też słyszysz wiele głosów. Czuję w sobie wiele umysłów. Może ci, którzy zginęli w ciemności? Czy tylko mroczne myśli tych, którzy napotkali zamieszanie w najczystszej formie? W każdym razie umysł krasnoludów mówi do mnie głośno, więc przyjechałem tu, by sfałszować broń. To wszystko. Ale jeśli zapytasz, odejdę.'
+[/STORY]
+[OUT]Powiedz mu, że krasnoludy są upartymi osiołkami i musisz być z nimi w dobrych stosunkach, więc tak, poproś swojego przyjaciela cienia, aby odszedł.
+[OUT][Mądrość] Powiedz, że krasnoludy wielce szanują swoich przodków i poległych bohaterów. Wygląda na to, że mroki ma przynajmniej echo takiego krasnoluda w środku, więc powiesz o tym krasnoludom i być może oboje dojdą do porozumienia.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Tak. Pójdę, bo głos w moim umyśle nie chce rozlać krasnoludzkiej krwi. Dobrze mówiłeś. Tutaj możesz lepiej to wykorzystać niż ja.'
+
+Mroki wręcza ci prezent, a następnie rozpuszcza się w cieniu i czujesz, że czarna mgła z nim wychodzi. 
+[/STORY]
+[OUT]Zgłoś się do krasnoludów.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillsMedOrc(14)
++[NODE]2
+[STORY]
+Znajdziesz miejsce, do którego wysłały cię krasnoludy, aby pozbyć się niektórych orków.
+[/STORY]
+[OUT][Łowca lub percepcja] Śledź orki.
+[OUT]Przeszukajcie miejsce.
+[OUT]Przeszukajcie miejsce.
+[OUT]Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+Widzisz, jak orki liżą rany po bitwie z trollem skalnym, który teraz leży martwy u ich stóp. 
+
+Na szczęście dla ciebie wydaje się, że jest tylko kilka z bronią w pogotowiu.
+[/STORY]
+[OUT]Otocz orki i ujawnij swoją obecność.
+[OUT]Macie przewagę. Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+Orki wpadają w zasadzkę!
+[/STORY]
+[OUT]Walka!
+[OUT]Spróbujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+Przeszukujesz miejsce i wreszcie dostrzegasz niektórych orków. Niestety, oni też cię zauważają, więc nie masz zbyt wiele czasu, aby zdecydować, co robić.
+[/STORY]
+[OUT]Zatrzymaj się, podnieś ręce i powiedz, że nie chcesz walczyć, tylko po to, by powiedzieć im, że muszą odejść, ponieważ krasnoludy nie chcą, by powodowały kłopoty.
+[OUT]Orki szanują siłę. Pokaż swoją moc i przekonaj ich, aby opuścili to miejsce, zanim przyjdą krasnoludy.
+[OUT]Do ataku!
+[OUT][Ork] Chwal klan za zwycięstwo nad trollem. Powiedzmy, że małe krasnoludy postrzegają je jako zagrożenie, więc wysłali cię, aby wykonali swoją pracę.
+[/NODE]
+
++[NODE]16
+[STORY]
+Jesteś bardzo pobity, a krasnoludy muszą przyjść ci z pomocą. Twoja pomoc nie robi na nich wrażenia.'
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+„Ha! Oczywiście widzą w nas zagrożenie, i tak powinni, głupcy. Z niecierpliwością czekam na dzień, w którym możemy spotkać się w honorowej bitwie. 
+
+Mimo to nie jesteśmy grupą rajdową. Jesteśmy tropicielami krwi, żeby zdobyć trofeum, a my je dostaliśmy. Musimy się wyleczyć i odpocząć. Potem się wyprowadzamy. Daję mój honor - słowo, że nie zawracamy sobie głowy kamiennym miastem.'
+[/STORY]
+[OUT][Uzdrowiciel lub cmuch] Zaoferuj im pomoc w uzdrowieniu.
+[OUT]Kiwnij głową i powiedz, że przyniesiesz wiadomość krasnoludom. Życzę im dobrych wrogów i ostrych ostrzy w drodze do domu.
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[/NODE]
+
++[NODE]20
+[STORY]
+Pozostajesz przez jakiś czas i pomagasz orkom leczyć. 
+
+'Zorza uśmiechnie się do ciebie i sprawi, że twoje ostrza będą ostre, przyjaciele. Idziemy teraz. Mówisz, że te krótkie są bezpieczne, ha ha!'
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Zraniliśmy wojowników, więc się nie ruszamy. Stajesz przed nami z mieczami, albo idziesz!'
+[/STORY]
+[OUT]Zostawcie ich.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+Matriarcha stoi wysoko i mówi: 
+'Halt! Nie zbliżaj się ani nie spotkaj losu tego trolla. Możemy wyglądać na poobijanych, ale jesteśmy orkami i będziemy walczyć do śmierci!'
+[/STORY]
+[OUT]Przyznaj, że zostałeś wysłany przez krasnoludy, które są zaniepokojone działalnością orków tak blisko osady.
+[OUT]Do ataku!
+[OUT][Ork] Chwal klan za zwycięstwo nad trollem. Powiedzmy, że małe krasnoludy postrzegają je jako zagrożenie, więc wysłali cię, aby wykonali swoją pracę.
+[/NODE]
+
++[NODE]35
+[STORY]
+„Więc to znaczy moje słowo dla ciebie i tych krótkich, co? Możesz być bezwartościową szumowiną, ale jestem kobietą mojego słowa. Powiedziałem, że nie przyjechaliśmy tu, aby mieć kłopoty z krasnoludami, i miałem na myśli to. Idziemy. Ale najlepiej miej nadzieję, że się nie spotkamy, szumowiny.'
+[/STORY]
+[OUT]Zgłoś się do krasnoludów.
+[/NODE]
+
++[NODE]36
+[STORY]
+Krasnoludy podziwiają twoje legalne sposoby: 
+
+'Tak, panie, dobrze na tobie. Orki nie tylko zostały ranne, ale także dały swoje słowo, więc mądrze było dać im pomoc. Nawet jeśli są śmierdzącymi psami.'
+
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+Pozostajesz na chwilę, aby pomóc, a potem zostaw raport. 
+
+- Zorza uśmiechnij się do ciebie i spraw, by twoje ostrza były ostre, przyjaciele. Idziemy teraz. Mówisz, że te krótkie są bezpieczne, ha ha!'
+[/STORY]
+[OUT]Pokłońcie się i życzcie dobrej drogi.
+[/NODE]
+
++[NODE]39
+[STORY]
+Krasnoludy wyglądają na wściekłe: 
+
+- Dała jej słowo honoru, a ty ją goniłeś? Z rannymi wojownikami, którzy właśnie walczyli z trollem? Gdzie jest twój honor, lassie?'
+
+Twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]40
+[STORY]
+Krasnoludy wyglądają na wściekłe: 
+
+- Dała jej słowo honoru, a ty ją goniłeś? Z rannymi wojownikami, którzy właśnie walczyli z trollem? Gdzie jest twój honor, lassie?'
+
+Twoja przyjaźń nie rośnie, ale płacą ci za pracę, zgodnie z ustaleniami.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]42
+[STORY]
+Kiedy poinformujesz krasnoludy o swojej porażce, są rozczarowani twoimi wysiłkami. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+Zabijasz wszystkich orków. 
+
+Krasnoludy są zadowolone z twojej pomocy i oferują małą nagrodę.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Ha! Oczywiście widzą w nas zagrożenie, i tak powinni, głupcy. Z niecierpliwością czekam na dzień, w którym możemy spotkać się w honorowej bitwie. 
+
+Mimo to nie jesteśmy grupą rajdową. Jesteśmy tropicielami krwi, żeby zdobyć trofeum, a my je dostaliśmy. Musimy się wyleczyć i odpocząć. Potem się wyprowadzamy. Daję mój honor - słowo, że nie zawracamy sobie głowy kamiennym miastem.'
+[/STORY]
+[OUT][Uzdrowiciel lub cmuch] Zaoferuj im pomoc w uzdrowieniu.
+[OUT]Kiwnij głową i powiedz, że przyniesiesz wiadomość krasnoludom. Życzę im dobrych wrogów i ostrych ostrzy w drodze do domu.
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[OUT]Domagaj się, aby odeszli w ciągu jednego dnia. 
+[/NODE]
+
++[NODE]53
+[STORY]
+„Więc to znaczy moje słowo dla ciebie i tych majtek, co? Możesz być bezwartościową szumowiną, ale jestem kobietą mojego słowa. Powiedziałem, że nie przyjechaliśmy tu, aby mieć kłopoty z krasnoludami, i miałem na myśli to. Więc albo walczysz z nami w bitwie, albo zostaniemy uzdrowieni!'
+
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zostawcie ich.
+[/NODE]
+
++[NODE]54
+[STORY]
+„Co, ci głupcy nie potrafią teraz poradzić sobie z własnym gównem? A może mają na myśli brak szacunku dla nas, wysyłając ci dużo?'
+[/STORY]
+[OUT][Krasnolud] Jak śmiesz oskarżać swoich krewnych o takie drobne gry? Wyraźnie oświadcz, że to jest to, co mówisz: uprzejma prośba o odejście z tej ziemi.
+[OUT]Powiedz, że krasnoludy nie są znane z grania w takie gry. Chcą tylko, aby orki zniknęły z ich terytorium.
+[OUT][Ork] Chwal klan za zwycięstwo nad trollem. Powiedzmy, że małe krasnoludy postrzegają je jako zagrożenie, więc wysłali cię, aby wykonali swoją pracę.
+[/NODE]
+
++[NODE]56
+[STORY]
+Krasnoludy wyglądają na wściekłe: 
+
+- Dała jej słowo honoru, a ty ją goniłeś? Z rannymi wojownikami, którzy właśnie walczyli z trollem? Gdzie jest twój honor, lassie?'
+
+Twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Zabij wszystkich orków i zgłoś się. Ale krasnoludy są bardzo wściekłe! 
+
+„Dali ci swoje honorowe słowo, zostali zranieni i zabiłeś ich w naszym imieniu! Nie macie dumy. Najlepiej zostaw nas teraz.'
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfKillMEdOrcSkel(15)
++[NODE]2
+[STORY]
+Zbliżasz się do cmentarza, gdzie ziemskie krasnoludy wysłały cię, byś poradził sobie z niektórymi szkieletami.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Mądrość i łowca] Szkielety orków wydają się być związane z konkretnym miejscem. Ułóż kilka stosów z  ogniem i spal te nieżyjące orki na proch.
+[OUT][Magiczny użytkownik] Wiesz, jak sobie poradzić z nieżyjącą plagą. Przygotuj rytuał.
+[OUT][Unliving] Nie musisz zabijać. Powiedz swoim nieżyjącym braciom, aby porzucili pola bitwy.
+[OUT][Zamieszanie] To stare pole bitwy. Mocno wyczuwalny jest niepokój jakim głęboko przesiąknęła ta ziemia. Uczcijcie poległych w bitwie!
+[OUT]Zbadajcie to miejsce.
+[OUT][Szkielet] Idź sam i przekonaj tych którzy podobni są do Ciebie, by odeszli.
+[OUT][Szkielet] Idź sam i przekonaj tych którzy podobni są do Ciebie, by odeszli.
+[OUT][Szkielet] Idź sam i przekonaj tych którzy podobni są do Ciebie, by odeszli.
+[OUT]Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+Przygotowujesz rytuał, by zakłócić czarną magię, która ożywia te kości. To znacznie ułatwi ich zniszczenie. Teraz, kiedy są osłabieni, możesz stawić im czoła w królestwie duchów i całkowicie zniszczyć mroczną magię. 
+
+[/STORY]
+[OUT]Zabijcie te, które pozostały w nienaruszonym stanie. Atak!
+[OUT]Zniszczcie źródło ciemności.
+[OUT]To wyzwanie Was przerasta. Porzućcie je.
+[OUT][Unliving] Nie musisz zabijać. Powiedz swoim nieżyjącym braciom, aby porzucili pola bitwy.
+[/NODE]
+
++[NODE]9
+[STORY]
+Rozmawiasz ze swoim szkieletowym krewnym, a oni słuchają i czerpią siłę z twojego boskiego wpływu, mimo że ich siła życiowa jest trzymana przez mroczną magię, która je ożywia. 
+
+Nie budzą się jak ty, ale twoje słowa sprawiają, że chcą się uwolnić. Widzisz, jak walczą w wewnętrznej bitwie i ostatecznie wygrywają - upadają na podłogę, są martwi i znów wolni.
+[/STORY]
+[OUT]Poinformuj orków.
+[/NODE]
+
++[NODE]10
+[STORY]
+Wchodzisz i rozmawiasz z nieożywionymi orkami, ale nie budzą się jak ty. Podążają za mroczną ścieżką jakiegoś mistrza i agresywnie zbliżają się do Was.
+[/STORY]
+[OUT]Spróbujcie uciec.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]11
+[STORY]
+Rozmawiasz ze swoimi szkieletowymi krewnymi, a oni słuchają i czerpią siłę z twojego boskiego wpływu, mimo że ich siła życiowa jest trzymana przez mroczną magię, która je ożywia. 
+
+Twoi bracia błagają cię, abyś przyszedł z nimi, aby odprowadził ich z ciemności na lepszą ścieżkę. Nie są gotowi do dołączenia do innych i potrzebują odejścia z nimi.
+[/STORY]
+[OUT]Zgadzacie się by Wasz przyjaciel wzią na siebie tę odpowiedzialność. [Tracicie szkielet]
+[OUT]Nie pozwól swojemu przyjacielowi odejść! 
+[/NODE]
+
++[NODE]18
+[STORY]
+Ustawiasz pułapki i szkielety orków palą się na popiół. 
+
+Krasnoludy dziękują za pozbycie się uciążliwości i pozostawiają nagrodę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+Szkielety i ich mroczny mistrz leżą martwi. Ciało mistrza rozpuszcza się w gęstym dymie, zanim będzie można je jeszcze sprawdzić. 
+
+Z dymu wyłania się także upiór, prawdopodobnie produkt wszelkich ciemnych sztuk, które tu wykonano. Może zechce zostać z Wami.
+[/STORY]
+[OUT]Przygarnij upiora.
+[OUT]Zabijcie widmo, ponieważ jest ono wyraźnie narzędziem zła!
+[/NODE]
+
++[NODE]28
+[STORY]
+Szkielety orków pokonują twoje wysiłki i roi się od ciebie. Krasnoludy muszą przyjść ci z pomocą i nie jesteś pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]39
+[STORY]
+Jesteś zrozpaczony decyzją, ale słuchasz w tym swoich przyjaciół i żegnasz się ze szkieletami. 
+
+Wyjeżdżają, ale niektórzy już narzekają, że stary sposób jest lepszy i że powinni znaleźć nekromantę, któremu będą służyć.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]49
+[STORY]
+Te nieżyjące kości musiały być daleko od swego pana przez długi czas. Słuchają twoich rozkazów tak, jakby tęskniły za kimś, kto by je dał. 
+
+Odchodzą, ale krasnoludy są rozgniewane, że nie zabiłeś plagi.
+[/STORY]
+[OUT]Dostrzegasz także upiór uwięziony tutaj i chce się do ciebie przywiązać.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]50
+[STORY]
+Te nieżyjące kości musiały być daleko od swego pana przez długi czas. Słuchają twoich rozkazów tak, jakby tęskniły za kimś, kto by je dał. 
+
+Odchodzą, ale krasnoludy są rozgniewane, że nie zabiłeś plagi. Jako znak honoru, płacą ci za pracę, ale twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Dostrzegasz także upiór uwięziony tutaj i chce się do ciebie przywiązać.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]52
+[STORY]
+Kiedy podchodzisz bliżej, widzisz ruiny starej areny, a wewnątrz walczy kilka nieżyjących trupów. Postać odziana w czarne szaty stoi nad nimi i patrzy intensywnie z jedną ręką uniesioną wysoko nad głową.
+[/STORY]
+[OUT][Magiczny użytkownik lub magia] Podejdź do tej dziwnej menażerii i spróbuj wyczuć, jaka magia tu działa.
+[OUT]Do ataku!
+[OUT][Ork or Turmil] Coś tu śmierdzi. Podejdź bliżej.
+[OUT]Porzuć to zadanie.
+[/NODE]
+
++[NODE]56
+[STORY]
+Nieożywione orki pobiły cię i zmusiły do ucieczki. Krasnoludy muszą przyjść ci z pomocą i nie jesteś pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]58
+[STORY]
+Krasnoludy są zakłopotane tym, czym był ten nekromanta, ale słyszały o męskich dzieciach orków, które używają magii do zabijania, ponieważ stają się złe, więc może to prawda.
+
+Dziękuję za pozbycie się plagi i pozostawienie nagrody.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]62
+[STORY]
+Ani człowiek na arenie, ani szkielety orków nie reagują na ciebie. Cokolwiek to jest, są całkowicie zafascynowani. 
+
+Czujesz tutaj silną magię zamieszania i myślisz, że cokolwiek to jest, to jest wyraźnie nekromancja!
+[/STORY]
+[OUT]Atakuj teraz, gdy jest zajęty.
+[OUT][Ork witch lub matriarch] To nie jest zwykły człowiek - to orczy mężczyzna, śmiały praktykować nekromancję! Ładuj go.
+[OUT][Ork witch lub matriarch] To nie jest zwykły człowiek - to orczy mężczyzna, śmiały praktykować nekromancję! Ładuj go.
+[OUT]Przygotuj rytuał, aby stawić czoła tym potworom w świecie duchów!
+[/NODE]
+
++[NODE]64
+[STORY]
+Niszczysz zaklęcie wiążące i nieżyjące orki zapadają się w stos kości. 
+
+Krasnoludy dziękują za pozbycie się uciążliwości i pozostawiają nagrodę.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]68
+[STORY]
+Niszczysz szkielety i spalasz szczątki, aby nie powstały ponownie. 
+
+Krasnoludy dziękują za pozbycie się uciążliwości i pozostawiają nagrodę.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]74
+[STORY]
+Widmo nie mówi, ale gestykuluje, że teraz będzie ci służyć.
+[/STORY]
+[OUT]Weź widmo i wyjdź.
+[/NODE]
+
++[NODE]78
+[STORY]
+„Nie!„Nekromanta odwraca się w ostatniej chwili, wykrzykuje słowo mocy i znika, zabrany przez ciemne wąsy w cienie. 
+
+Szkielety rozpadają się, uwolnione z jego domeny, więc spalasz je, aby upewnić się, że nie będzie mógł ponownie przejąć kontroli.
+[/STORY]
+[OUT]Przeszukajcie miejsce.
+[/NODE]
+
++[NODE]79
+[STORY]
+Ork zwraca się do ciebie i próbuje rzucić zaklęcie, by uciec, ale najpierw do niego trafisz.
+[/STORY]
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]82
+[STORY]
+Ani człowiek na arenie, ani szkielety orków nie reagują na ciebie. Cokolwiek to jest, są całkowicie zafascynowani. 
+
+Czujesz tutaj silną magię zamieszania i myślisz, że cokolwiek to jest, to kontroluje te szkielety.
+[/STORY]
+[OUT]Atakuj teraz, gdy jest zajęty.
+[OUT][Ork witch lub matriarch] To nie jest zwykły człowiek - to orczy mężczyzna, śmiały praktykować nekromancję! Ładuj go.
+[OUT][Ork witch lub matriarch] To nie jest zwykły człowiek - to orczy mężczyzna, śmiały praktykować nekromancję! Ładuj go.
+[/NODE]
+
++[NODE]84
+[STORY]
+Odkrywasz pozostałości rytuału i odczuwasz niespokojną energię w powietrzu, powodując, że jesteś chory. 
+
+Znajdziesz tu także widmo, prawdopodobnie produkt wszelkich ciemnych sztuk, które zostały tu wykonane. Wydaje się, że chce zostać z tobą.
+[/STORY]
+[OUT]Przygarnij upiora.
+[OUT]Zabijcie widmo, ponieważ jest ono wyraźnie narzędziem zła!
+[/NODE]
+
++[NODE]86
+[STORY]
+Odchodzą, ale krasnoludy są wściekłe, że nie zabiłeś plagi. Jako znak honoru, płacą ci za pracę, ale twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Dostrzegasz także upiór uwięziony tutaj i chce się do ciebie przywiązać.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]88
+[STORY]
+Rozmawiasz ze swoimi szkieletowymi krewnymi, a oni słuchają i czerpią siłę z twojego boskiego wpływu, mimo że ich siła życiowa jest trzymana przez mroczną magię, która je ożywia. 
+
+Twoi bracia błagają cię, abyś przyszedł z nimi, aby odprowadził ich z ciemności na lepszą ścieżkę. Nie są gotowi do dołączenia do innych i potrzebują odejścia z nimi.
+[/STORY]
+[OUT]Zgadzacie się by Wasz przyjaciel wzią na siebie tę odpowiedzialność. [Tracicie szkielet]
+[OUT]Nie pozwól swojemu przyjacielowi odejść! 
+[/NODE]
+
++[NODE]90
+[STORY]
+Krasnoludy są wściekłe, że nie zabiłeś plagi. Jako znak honoru, płacą ci za pracę, ale twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT]Dostrzegasz także upiór uwięziony tutaj i chce się do ciebie przywiązać.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]91
+[STORY]
+Znajdziesz szczątki szkieletów. 
+
+Znajdziesz także upiór, prawdopodobnie produkt wszelkich ciemnych sztuk, które tu wykonano. Może chcesz zostać z tobą.
+[/STORY]
+[OUT]Przygarnij upiora.
+[OUT]Zabijcie widmo, ponieważ jest ono wyraźnie narzędziem zła!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Smithy Temple(16)
++[NODE]2
+[STORY]
+Wśród gruzów i kamieni znajdziesz kilka podziemnych kieszeni, w których niegdyś leżało krasnoludzkie miasto. 
+
+Z jednego takiego wejścia widzisz światło i słyszysz dudnienie młota o kowadło. 
+[/STORY]
+[OUT][Krasnolud] Idź naprzód, ale sprawdź ukryte pułapki i kamienie runiczne. Żaden krasnoludzki kowal nie pracuje niestrzeżony. 
+[OUT]Wchodzicie ale ostrożnie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+Wchodzisz do dużej kamiennej komnaty z piecami i kowadłami rozłożonymi na niej, niektóre popadły w ruinę, niektóre wciąż nienaruszone. Jeden piec płonie gorąco z krasnoludzkim kowalem przy kowadle, ciężko pracującym. 
+
+Kiwa głową po przybyciu, ale nie mówi. 
+[/STORY]
+[OUT][Krasnolud] Pozdrów kowala według zwyczaju.
+[OUT]Porozmawiaj z krasnoludem. Zapytaj go, co on tutaj robi.
+[OUT]Zabij kowala!
+[OUT]Zabij kowala!
+[OUT]Zabij kowala!
+[/NODE]
+
++[NODE]4
+[STORY]
+Uderzasz krasnoludzkiego kowala i, co zaskakujące, zamienia się w gruz z jednym trafieniem. 
+
+Dzieci kamienia i metalu, lub czciciele Svaroga [R9], oboje odczuwają ciężkie brzemię tego mrocznego czynu. 
+
+Gdy kowal zamienia się w gruz, robi to wszystko wokół ciebie i jesteś zmuszony uciekać, zanim zostaniesz tutaj pochowany. 
+
+[/STORY]
+[OUT]Weź kamień, który możesz ocalić i odejść.
+[/NODE]
+
++[NODE]6
+[STORY]
+Uderzasz krasnoludzkiego kowala i, co zaskakujące, zamienia się w gruz z jednym trafieniem. 
+
+Wasze dusze odczuwają ciężar czynu, który koliduje z jedną z waszych boskich domen. Gdy kowal zamienia się w gruz, robi to wszystko wokół ciebie i jesteś zmuszony uciekać, zanim zostaniesz tutaj pochowany. 
+
+[/STORY]
+[OUT]Weź kamień, który możesz ocalić i odejść.
+[OUT]Weź kamień, który możesz ocalić i odejść.
+[/NODE]
+
++[NODE]7
+[STORY]
+Uderzasz krasnoludzkiego kowala i, co zaskakujące, zamienia się w gruz z jednym uderzeniem. 
+
+Gdy kowal zamienia się w gruz, robi to wszystko wokół ciebie i jesteś zmuszony uciekać, zanim zostaniesz tutaj pochowany. 
+
+[/STORY]
+[OUT]Weź kamień, który możesz ocalić i odejść.
+[OUT]Weź kamień, który możesz ocalić i odejść.
+[/NODE]
+
++[NODE]12
+[STORY]
+„Na mój własny, mówisz? Hmm. To jest nasza świątynia lub tak blisko, jak dla twojego zrozumienia. Jestem kowalem i mam to miejsce. 
+
+Lepiej nie mieszkaj tu zbyt długo, panie, albo starzy bracia mogą się obrazić na twoją obecność.'
+[/STORY]
+[OUT]Wzywaj światło i Svarog, aby pochwalili to święte miejsce. 
+[OUT]Jeśli jest to święte miejsce, zapytaj, czy możesz oddać swój szacunek.
+[OUT]Zabij kowala!
+[OUT]Zabij kowala!
+[OUT]Zabij kowala!
+[/NODE]
+
++[NODE]13
+[STORY]
+„To jest widok na bolące oczy, tak. Dzień dobry tobie, mój kolego, dzień dobry. 
+
+Ofiarowałbym ci piwo i baraninę, ale będąc kowalem pełniącym służbę w tej świątyni, będę musiał trzymać ogniska w goręciu, a kowadło będzie zajęte.'
+[/STORY]
+[OUT]Kiwnij głową w zrozumieniu starego krasnoludzkiego zwyczaju i dołącz do swoich krewnych w jego pracy. 
+[OUT]Kiwnij głową w zrozumieniu starego krasnoludzkiego zwyczaju i dołącz do swoich krewnych w jego pracy. 
+[/NODE]
+
++[NODE]15
+[STORY]
+„Ach, młody kowal ludzki i jego krewni - dobry uczeń, jakim był, dobra obietnica dla kogoś, kto nie jest z kamienia i metalu. 
+
+Chodź, dołącz do mnie w mojej pracy. Będziemy czcić metal i myślę, że również twoi bogowie. Dlaczego nie?'
+[/STORY]
+[OUT]Pracuj z krasnoludzkim kowalem.
+[OUT]Pracuj z krasnoludzkim kowalem.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Cóż, mówię, niewielu nieznajomych mnie o to pyta. 
+
+Jasne, czemu nie, chodź ze mną pracować. Jeśli starzy bracia uznają twoją pracę za odpowiednią, możesz otrzymać błogosławieństwo.'
+[/STORY]
+[OUT]Pracuj z krasnoludzkim kowalem.
+[OUT]Pracuj z krasnoludzkim kowalem.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Ojciec i starsi bracia naprawdę lubią twoją pracę. To właśnie nazywam dobrym metalem! Dobrze na ciebie. 
+
+Tutaj, nieść to z dumą. Dobre podróże. Kamień i metal będą z tobą.'
+
+[/STORY]
+[OUT]Weźcie kutą broń, dziękujcie przodkowi i starym braciom i pozostawcie kowalowi do pracy.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Ojciec i starsi bracia lubią twoją pracę wystarczająco dobrze. Dobrze na ciebie. 
+
+Tutaj, nieść to z dumą. Dobre podróże. Kamień i metal będą z tobą.'
+
+[/STORY]
+[OUT]Weźcie kutą broń, dziękujcie przodkowi i starym braciom i pozostawcie kowalowi do pracy.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Próbowałeś, tak zrobiłeś. Dobrze na ciebie. Kamień i metal są z tobą, panienki.'
+
+[/STORY]
+[OUT]Dziękuję kowalowi i odejdź.
+[OUT]Zabij kowala!
+[OUT]Zabij kowala!
+[OUT]Zabij kowala!
+[/NODE]
+
++[NODE]28
+[STORY]
+Ostrożnie ruszasz się do przodu i odkrywasz kilka ochronnych run, ale nie zapalają się. Albo są nieaktywne, albo zostałeś już zauważony, a gospodarz pozwala ci przejść. 
+[/STORY]
+[OUT]Idź naprzód. 
+[/NODE]
+
++[NODE]31
+[STORY]
+„Ojciec i starsi bracia naprawdę lubią twoją pracę. To właśnie nazywam dobrym metalem! Dobrze na ciebie. 
+
+Tutaj, nieść to z dumą. Dobre podróże. Kamień i metal będą z tobą.'
+
+[/STORY]
+[OUT]Weźcie kutą broń, dziękujcie przodkowi i starym braciom i pozostawcie kowalowi do pracy.
+[/NODE]
+
++[NODE]32
+[STORY]
+„Ojciec i starsi bracia naprawdę lubią twoją pracę. To właśnie nazywam dobrym metalem! Dobrze na ciebie. 
+
+Tutaj, nieść to z dumą. Dobre podróże. Kamień i metal będą z tobą.'
+
+[/STORY]
+[OUT]Weźcie kutą broń, dziękujcie przodkowi i starym braciom i pozostawcie kowalowi do pracy.
+[/NODE]
+
++[NODE]33
+[STORY]
+„Ojciec i starsi bracia lubią twoją pracę wystarczająco dobrze. Dobrze na ciebie. 
+
+Tutaj, nieść to z dumą. Dobre podróże. Kamień i metal będą z tobą.'
+
+[/STORY]
+[OUT]Weźcie kutą broń, dziękujcie przodkowi i starym braciom i pozostawcie kowalowi do pracy.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dragon dwarf(17)
++[NODE]2
+[STORY]
+Poprzez wielką łzę w ziemi, zapuszczasz się do ruin krasnoludzkiego miasta. 
+
+Został zniszczony, pełen gruzu i gruzu, ze szczątkami szkieletów tych, którzy zginęli tu gwałtownie. Widzisz też, co ich zabiło: 
+
+W centrum niegdyś wspaniałego miejsca, widzisz szkieletowe szczątki smoka i olbrzyma splecione w bitwie.
+[/STORY]
+[OUT]Zbadajcie.
+[OUT]Weź od tych tytanów, co możesz ocalić. 
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Oi, tak! Pokonaj to, to nasze znalezisko!'
+
+Kilku krzepkich krasnoludzkich wojowników stoi ci na drodze, broń w pogotowiu.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Krasnolud] Poproś ich, aby się uspokoili. Z pewnością możesz dzielić się tymi łupami, tak jak powinni to robić krewni. 
+[OUT][Światło] Wezwij światło i zapewnij, że nie ma potrzeby rozlewać krwi wśród podobnie myślących ludzi.
+[OUT][Intelekt i harmonia] Mów do ich zdrowego rozsądku. Powiedz, że to miejsce jest rozległe i że wystarczy, aby wszyscy zyskali bez potrzeby przemocy. 
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Tak, bracia, tak, nie ma potrzeby brawlin”. Powiedz, co, wychodzisz w tym celu, robimy to, a kto ratuje, jest zwycięzcą, co? Udać się!'
+
+Krasnoludy biegną na ich stronę i zaczynają grzebać i kopać.
+[/STORY]
+[OUT]Idź szybko i szybko!
+[/NODE]
+
++[NODE]9
+[STORY]
+„Ach, twoi„ bogowie ”, tak, to twoje światło wydaje się być honorową ścieżką. 
+
+Nie jesteśmy tak sparaliżowani, żeby kopnąć twoje tyłki, więc możesz poczekać, aż skończymy, a potem wziąć to, co zostało.
+[/STORY]
+[OUT][Krasnolud] Poproś ich, aby się uspokoili. Z pewnością możesz dzielić się tymi łupami, tak jak powinni to robić krewni. 
+[OUT]Zgoda.
+[OUT]Spróbuj przekonać ich do równomiernego podziału łupów.
+[/NODE]
+
++[NODE]11
+[STORY]
+Zabijasz krasnoludy i teraz możesz splądrować witrynę w spokoju.
+[/STORY]
+[OUT]Weź odzysk i wyjdź.
+[/NODE]
+
++[NODE]14
+[STORY]
+Krasnoludy cię biją, ale pozwalają ci uciekać, wyraźnie bardziej zainteresowani ocaleniem niż kopaniem w tyłki.
+[/STORY]
+[OUT]Ucieczka!
+[/NODE]
+
++[NODE]16
+[STORY]
+„Ach, dranie są dobre! Dobra robota. Tutaj znaleźliśmy ten kawałek metalu. Metal i kamień są z tobą, panie!'
+
+Krasnoludy zbierają swój mniejszy stos ratunku i odjeżdżają, śpiewając brudne piosenki i wiwatując na dobry dzień pracy.
+[/STORY]
+[OUT]Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Ha! Pokonaliśmy cię uczciwie, ale to był dobry konkurs. Metal i kamień wzmacniają twoje panie!'
+
+Krasnoludy zbierają znacznie większą stertę uratowanych i odejdą, śpiewając brudne piosenki i wiwatując na dobry dzień pracy.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]18
+[STORY]
+„Jaki rodzaj slivering babes jesteś? Poddać się? Wstyd, wstyd, panie.'
+
+Krasnoludy zbierają swój znacznie większy stos ratunku i odchodzą, kręcąc głowami. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+„Bah, masz jeden z tych srebrnych języków, tak! Robimy nasz koniec i robisz swoje. Kto wie, kto dostanie lepszy wybór, ale wydaje się sprawiedliwy. Metal i kamień są z tobą, panie!'
+
+Krasnoludy odchodzą, by ocalić swoją część.
+[/STORY]
+[OUT]Świetnie. Przeszukaj swoją część i wyjdź.
+[OUT]Świetnie. Przeszukaj swoją część i wyjdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+„Dostajesz się po mojej nerwowej stronie. Lepiej odejdź teraz.'
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Kilku krzepkich krasnoludzkich wojowników stoi w ruinach zbierając łup i rozglądając się z wściekłymi grymasami.
+[/STORY]
+[OUT][Krasnolud] Pozdrów swoich krewnych i spytaj, czy możesz oboje uczestniczyć w przeszukiwaniu tego miejsca.
+[OUT][Światło] Wezwij światło i zapewnij, że nie ma potrzeby rozlewać krwi wśród podobnie myślących ludzi.
+[OUT][Intelekt i harmonia] Mów do ich zdrowego rozsądku. Powiedz, że to miejsce jest rozległe i że wystarczy, aby wszyscy zyskali bez potrzeby przemocy. 
+[OUT]Spróbuj przekonać ich do równomiernego podziału łupów.
+[OUT]Poczekaj, aż krasnoludy odejdą i zbierz to, co zostało.
+[OUT]Poczekaj, aż krasnoludy odejdą i zbierz to, co zostało.
+[OUT]Przekradnij się przez krasnoludy i łup za ich plecami. 
+[OUT]Zasadzka na nich. Masz przewagę.
+[/NODE]
+
++[NODE]31
+[STORY]
+Czekasz, aż krasnoludy odejdą, ale nie zostawiają zbyt wiele. 
+
+Twój zwiadowca poprawił jednak swoje umiejętności.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]32
+[STORY]
+Poczekaj, aż krasnoludy odejdą i zbierz to, co pozostało do uratowania. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]48
+[STORY]
+Znajdujesz miejsce z dala od krasnoludów i chociaż z pewnością będzie ono mniejsze niż główny obszar, możesz bezpiecznie zabrać swój łup. 
+[/STORY]
+[OUT]Zbierz łupy i wyjdź.
+[OUT]Zbierz łupy i wyjdź.
+[/NODE]
+
++[NODE]53
+[STORY]
+Krasnoludy cię zauważają i szarżują!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dwarf loot(18)
++[NODE]2
+[STORY]
+Znajdujesz ogromny wgłębienie i wewnątrz widzisz gruz starego miasta. 
+
+Co ważniejsze, jest skrzynia nienaruszona.
+[/STORY]
+[OUT]Weź to.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DragonCave(19)
++[NODE]2
+[STORY]
+Natkniesz się na jaskinię. Wygląda na to, że kiedyś był zamieszkany, ale wejście jest teraz zarośnięte i ciemne. 
+[/STORY]
+[OUT]Najpierw zajrzyj do jaskini.
+[OUT]Wejdźcie.
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]4
+[STORY]
+Rozpoznajesz jaskinię i szybko zdajesz sobie sprawę, że musi tu zamieszkać duża bestia. Na ścianach są ogromne ślady pazurów, a znajdziesz kilka starych, odrzuconych łusek, najprawdopodobniej od smoka.
+[/STORY]
+[OUT]Do ataku!
+[OUT][Magia lub magiczny użytkownik] Silna magia emanuje z wnętrza jaskini. Jeśli smok tu mieszka, prawdopodobnie jest chroniony przez zaklęcie, gdy śpi. Zachowaj bezpieczną odległość, ale wejdź i przyjrzyj się bliżej. 
+[OUT]Przekradnij się, by zebrać wszystkie użyteczne łupy w jaskini.
+[OUT]Przekradnij się, by zebrać wszystkie użyteczne łupy w jaskini.
+[/NODE]
+
++[NODE]5
+[STORY]
+Wchodzisz i zdajesz sobie sprawę, że stoisz przed smokiem! 
+
+Właśnie się obudził, ale wygląda na to, że cię pożre.
+[/STORY]
+[OUT]Walka.
+[OUT]Ucieczka!
+
+[OUT]Zrzuć kilka toreb, próbując odwrócić uwagę kaczora, a następnie uciekaj.
+[/NODE]
+
++[NODE]8
+[STORY]
+Smok bardzo cię bije i zmusza do ucieczki, porzucając niektóre ze swoich towarów, aby uratować życie.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+Zabijasz smoka i możesz go splądrować.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+„Och, rozumiem. Cóż, mówię dobrze, kochanie. Jestem raczej zmęczony, a magia musi być słaba, jeśli dotrzesz tak daleko. 
+
+Tutaj niewielka opłata za świadczone usługi. Teraz bądź tak uprzejmy, aby spokojnie wykonywać swoją pracę. Wolałbym nie pożerać tak użytecznego crittera jak siebie samego.'
+[/STORY]
+[OUT]Wykonaj rytuał, który wyemituje magię, aby smok myślał, że wykonałeś swoją pracę.
+[OUT]Wykonaj rytuał, który wyemituje magię, aby smok myślał, że wykonałeś swoją pracę.
+[OUT]Módl się do swojej domeny i poproś o interwencję, inaczej bestia może przejrzeć twoje kłamstwa.
+[/NODE]
+
++[NODE]18
+[STORY]
+Podchodzisz trochę bliżej i wkrótce widzisz śpiącego smoka, zwiniętego na szczycie starego gruzu, który prawdopodobnie ukrywa skarby. 
+
+Blask potężnej magii uderza cię teraz mocno. Jeśli pójdziesz dalej, obudzi bestię.
+[/STORY]
+[OUT]Spróbuj rozmawiać ze smokiem.
+[OUT]Do ataku!
+[OUT]Przekradnij się, by zebrać wszystkie użyteczne łupy w jaskini.
+[OUT]Spróbuj osłonić się przed zaklęciem, a następnie ukraść niektóre skarby, zanim smok się obudzi.
+[OUT]Przekradnij się, by zebrać wszystkie użyteczne łupy w jaskini.
+[/NODE]
+
++[NODE]19
+[STORY]
+Smok powoli unosi głowę, gdy się budzi: 
+
+'Dlaczego zakłócasz mój sen?'
+
+[/STORY]
+[OUT]Spróbuj przekonać smoka, że tylko sprawdzasz siłę zaklęcia i że jeśli ci zapłaci, upewnisz się, że może spać dobrze przez wiele lat.
+[OUT]Powiedz, że po prostu chciałeś rozmawiać ze smokiem.
+[/NODE]
+
++[NODE]21
+[STORY]
+Twoja osłona działa i jesteś w stanie zabrać trochę łupów, zanim bestia się obudzi. 
+[/STORY]
+[OUT]Kontynuuj czyszczenie jaskini.
+[/NODE]
+
++[NODE]23
+[STORY]
+Przekradasz się przez smoka i zbierasz zasoby. Nie możesz za dużo chwycić, aby nie ryzykować przebudzenia bestii, ale dostajesz skrzynię i klejnoty.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+Wykonujesz rytuał i bestia wydaje się nie mądrzejsza. Możesz wyjść z łupem. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+Wykonujesz rytuał i wydaje się, że na początku działa, ale potem bestia kręci się i narzeka na ciebie: 
+
+- mówię! Jestem starą bestią wyplataną z samej magii. Używając wspólnych sztuczek, na mnie!'
+
+Wznosi się i lepiej biegnij szybko, zanim się w pełni obudzi. 
+
+[/STORY]
+[OUT]Spróbuj uciekać.
+[OUT]Zrzuć kilka toreb, próbując odwrócić uwagę kaczora, a następnie uciekaj.
+[/NODE]
+
++[NODE]31
+[STORY]
+Wykonujesz modlitwę i smok wydaje się zadowolony. W rzeczywistości czujesz, że część jego magii jest ci podarowana.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]43
+[STORY]
+„Jak orzeźwiające jest spotkanie z ludźmi o nastawieniu biznesowym. Teraz, proszę, odejdź, ponieważ jestem miłym starym facetem, ale tylko do pewnego stopnia.'
+
+Smok bierze swoją nagrodę i pokazuje zęby, by zachęcić cię do szybkiego odwrotu. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]45
+[STORY]
+Smok pięknie mówi; jego głos rozbrzmiewa starożytną mądrością i charyzmą, a jego naturalna aura jest zachwycająca. 
+
+Tak bardzo, że nie dostrzegasz wystarczająco szybko tego, co robi. Chwyta piękny przedmiot swojej uwagi i odlatuje! 
+
+[/STORY]
+[OUT]Wybierz uwolnienie ludzkiego ducha.
+[/NODE]
+
++[NODE]46
+[STORY]
+Smok pięknie mówi; jego głos rozbrzmiewa starożytną mądrością i charyzmą, a jego naturalna aura jest zachwycająca. 
+
+Kiedy odchodzisz, czujesz się mądrzejszy. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]47
+[STORY]
+„Och, jesteś ładna. Przypuszczam, że mogę poświęcić trochę czasu na taką twarz. Pozwólcie, że opowiem wam historię bohaterskich czynów, dzielnych przygód i, oczywiście, początkującego romansu.'
+
+[/STORY]
+[OUT]Słuchajcie.
+[/NODE]
+
++[NODE]51
+[STORY]
+„Cóż, nabieram lekkiego głupstwa. Jeśli mnie nakarmisz, dam ci skarby. 
+
+Przyjmę kilka zwierząt domowych, smacznego młodego lub świeżo wyglądającą dziewicę - lub, cóż, kogoś, kto może przejść jako jeden. Nauczyłem się dawno temu, aby porzucić to oczekiwanie. Albo przypuszczam, że wezmę mięso, ale nie dam ci za to tak dobrej nagrody.'
+
+[/STORY]
+[OUT]Nakarm mu trzy zwierzęta.
+[OUT]Daj mu jedno dziecko.
+[OUT]Poświęć jedną piękną osobę.
+[OUT]Daj mu mięso.
+[/NODE]
+
++[NODE]52
+[STORY]
+Wtrącasz się w zaklęcie i obraca się. Co gorsza, smok porusza się i odwraca!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Ucieczka!
+
+[/NODE]
+
++[NODE]56
+[STORY]
+Wślizgujesz się i zaczynasz zbierać jakieś towary, ale potężne zaklęcie wypycha cię i słyszysz budzącą się wściekłą bestię!
+[/STORY]
+[OUT]Odchodzicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]63
+[STORY]
+„Cóż, to jest potężny z was cywilizowany. Czy jednak mogę wskazać na błąd takiego życzenia? Nie chwalić się, ale jestem raczej kompetentny w pożeraniu stworzeń takich jak ty, a prawdę mówiąc, czasami nie mogę nic poradzić, ale zrobić to ...'
+[/STORY]
+[OUT][Piękny] Zaangażuj kaczora, aby poświęcił ci trochę czasu, ponieważ jest tak przystojną bestią i na pewno ma wiele historii do opowiedzenia.
+[OUT]Zapytaj smoka, czy byłby skłonny wymienić się z tobą na niektóre dobra, które z pewnością posiada.
+[OUT]Powiedz, że dobrze zdajesz sobie sprawę z jego wielkości i jako taki znasz go jako honorowe stworzenie. Powiedz mu, że jego nieskończona mądrość i piękno to zbyt wiele, by oprzeć się tak prostym ludziom jak ty.
+[/NODE]
+
++[NODE]66
+[STORY]
+Uciekasz i czujesz się przez to wzmocniony. Na szczęście dla ciebie smok wydaje się niezainteresowany gonieniem cię poza swoją jaskinią.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]76
+[STORY]
+„Jak orzeźwiające jest spotkanie z ludźmi o nastawieniu biznesowym. Teraz, proszę, odejdź, ponieważ jestem miłym starym facetem, ale tylko do pewnego stopnia.'
+
+Smok bierze swoją nagrodę i pokazuje zęby, by zachęcić cię do szybkiego odwrotu. 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]80
+[STORY]
+„Cóż, mówię, wiesz, co jest dla ciebie dobre, to na pewno. 
+
+Przypuszczam, że mogę poświęcić trochę czasu, by opowiedzieć ci moje opowieści. Dlaczego nie? Pozwólcie, że opowiem wam historię bohaterskich czynów, dzielnych przygód i, oczywiście, początkującego romansu.'
+[/STORY]
+[OUT]Słuchajcie.
+[/NODE]
+
++[NODE]83
+[STORY]
+Smok pięknie mówi; jego głos rozbrzmiewa starożytną mądrością i charyzmą, a jego naturalna aura jest zachwycająca. 
+
+A kiedy skończy, zdajesz sobie sprawę, że zostałeś okradziony, gdy widzisz, jak kaczor odlatuje z połową twoich towarów! 
+
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DragonLootSpwn(20)
++[NODE]2
+[STORY]
+Dostrzegasz smoka - tego, który cię ukradł!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zmierz się ze smokiem w bitwie duchów!
+[OUT]Na razie nic nie rób i odejdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+Smok leży zabity, a ty odzyskujesz to, co twoje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Kaczor pokonuje cię i odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DragonTakenSpwn(21)
++[NODE]2
+[STORY]
+Dostrzegasz smoka - tego, który cię ukradł!
+[/STORY]
+[OUT]Do ataku!
+[OUT]Zmierz się ze smokiem w bitwie duchów!
+[OUT]Na razie nic nie rób i odejdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+Smok leży zabity, a ty odzyskujesz to, co twoje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+Kaczor pokonuje cię i odlatuje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfPOI(22)
+[/EVENT]
+
+-- [EVENT] --Dwarftown(23)
++[NODE]2
+[STORY]
+Kiedy wchodzisz w osadę krasnoludów, zdajesz sobie sprawę, że to nic innego jak gruz i zgięty, stopiony metal. 
+
+Gdy przyjrzysz się bliżej, zobaczysz części ciała, twarze z kamienia lub żelaza, roztrzaskane na kawałki i rozproszone. 
+
+Miasto nie żyje.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DwarfMain(24)
++[NODE]2
+[STORY]
+Zostajesz doprowadzony do ratusza, ciężkiego, zbudowanego z kamienia pomnika krasnoludzkiej doskonałości. Tam spotyka się rada starszych, w tym krasnoludzka kobieta, która siedzi z tyłu i od czasu do czasu kiwa głową, gdy inni na nią patrzą.
+[/STORY]
+[OUT]Powiedz im o swoim odkryciu czerwonej jaskini, a Alchemik, który twierdzi, że jest odpowiedzią na Rozbicie.
+[/NODE]
+
++[NODE]3
+[STORY]
+„Tak, od dawna szukamy czerwonej jaskini, jak ją nazywasz. Rozbicie zakłóciło nasze tunele i miasta na dole, a odkrycie wszystkiego, co straciliśmy, zajmie nam dziesięciolecia i nawet wtedy to nie wszystko. Starając się utrzymać nasze młode bezpieczne, krasnoludzkie żony - to był nasz priorytet, ale może się myliliśmy.'
+[/STORY]
+[OUT]Więc przyznają, że Roztrzaskanie ma z nimi coś wspólnego?
+[OUT]Czy wiedzą, jak to wszystko rozwiązać? Nie masz czasu na rozmowę. [Pomiń historię]
+[/NODE]
+
++[NODE]4
+[STORY]
+„Tak, to prawda. Coś, wszystko. Serce ziemi jest rdzeniem, które łączyło się z kosmicznym drzewem. Tylko razem mogą stworzyć równowagę. 
+
+Nasz dziadek, wielki stary olbrzym, jeden z pierwszych śpiewaków ziemskich, oddał swoje serce, aby tak się stało.'
+[/STORY]
+[OUT]Dlaczego? Jak było przed sercem?
+[OUT]Więc dlaczego ziemia się rozpada?
+[/NODE]
+
++[NODE]5
+[STORY]
+„Przed sercem był czas pierwotny, jeden z gigantów i demonów natury. Dziecko światła i jego rodzeństwo ciemności zawsze tańczyły swoją niszczycielską melodię. Nie jesteśmy wystarczająco starzy, by wiedzieć więcej, ale to jest to, co zostało wyryte w kamieniu. 
+
+Kiedy my i elficcy krewni zostaliśmy sprowadzeni ze światła, powiedziano nam, że musimy pomóc oswoić dzieci.'
+[/STORY]
+[OUT]Z kosmicznym drzewem?
+[OUT]Więc dlaczego ziemia się rozpada?
+[/NODE]
+
++[NODE]6
+[STORY]
+„Tak, pod pewnymi względami. Widzicie, z drzewem i innymi podobnymi do całego Thea, twoi bogowie również się urodzili. Były pomiotem światła i ciemności, ale także królestwa śmiertelników. Tak przynajmniej uczy nasza historia. Myślę, że inni mówią, że narodzili się z wiary, potrzeby, krzyku twoich krewnych - głupców. Zostały wyrzeźbione, tak jak my, w celu, który mógł przewyższyć, ale taki był ich projekt.'
+[/STORY]
+[OUT]Ale kosmiczne drzewo jest strzeżone przez bogów, więc dlaczego nie było serca?
+[/NODE]
+
++[NODE]7
+[STORY]
+„Serce było trzymane w tajemnicy przed wszystkimi. I to jest miejsce, w którym nasz obowiązek zawiódł. Wszystko, co się stało, stało się z powodu naszej głupoty.'
+[/STORY]
+[OUT]Jak to?
+[/NODE]
+
++[NODE]8
+[STORY]
+„Kiedy twoi bogowie przybyli i stali się silniejsi, elfi krewni postanowili całkowicie pozwolić im być szafarzami drzewa, a niektórzy z naszej młodzieży uważali, że powinniśmy to zrobić. Głupie, szorstkie kamienie, którymi byli! 
+
+Kiedy drzewo spłonęło, poszli i powiedzieli bogom, że jest nadzieja, że rdzeń jest dobry, więc drzewo odrodzi się bez względu na to, co zrobią wyżej.'
+[/STORY]
+[OUT]Więc myślą, że to wasi bogowie zdradzili serce?
+[/NODE]
+
++[NODE]9
+[STORY]
+„Sekret po zepsuciu gnije i rozprzestrzenia się. Powiedzieliśmy tym młodym głupcom. Wygnaliśmy ich. My. . . uciszył tych, którzy wiedzieli, gdzie szukać ziemskiego serca. 
+
+A potem, kiedy sprawcy znaleźli się w komnacie serca, nie byliśmy już przygotowani, ponieważ wierzyliśmy w stare zabezpieczenia i nie mieliśmy arcymistrzów, którzy mogliby nam powiedzieć, jak to zmienić.'
+[/STORY]
+[OUT]Co z arcymistrzem trzymanym przez trolle w więzieniu? Alchemik powiedział, że zna jedną.
+[OUT]Uciszony?
+[OUT]Czy oni wiedzą, kto zniszczył serce i jak?
+[/NODE]
+
++[NODE]10
+[STORY]
+„To nikczemne stworzenie nie jest arcymistrzem! On jest chory. On jest okrutny. I nigdy więcej nie będzie miał głosu w naszym losie. Zostaw go. Zostaw go, by zgnił. I nigdy nie ufaj jego mrocznym słowom!'
+[/STORY]
+[OUT]Czy oni wiedzą, kto zniszczył serce i jak?
+[/NODE]
+
++[NODE]11
+[STORY]
+„To nie ma znaczenia. To był jakiś kult. Podejrzewamy, że kryje się za tym większy umysł. Dbamy o to. 
+
+Wiemy, że potrzebujemy nowego serca, a ponieważ tak źle zawiedliśmy wcześniej, pomożemy ci przywrócić rzeczy. Nasz czas mija i musimy to zaakceptować.'
+[/STORY]
+[OUT]Czy mogą wykuć inne serce?
+[OUT]Ale teraz, kiedy znalazłeś jaskinię, czy oni nie chcą być tymi, którzy się nią zajmą?
+[/NODE]
+
++[NODE]12
+[STORY]
+„Szukaliśmy jaskini, ale także przygotowywaliśmy się do tego pytania. Z pewnością moglibyśmy wykuć kamienne serce. Ale bez giganta - i wszyscy znowu śpią - byłoby zbyt słabo. 
+
+Idź do lodowych krain, szukaj starej dziad mroz.'
+
+[/STORY]
+[OUT]Po co? Zabij go i weź jego serce?
+[/NODE]
+
++[NODE]13
+[STORY]
+„Pomożemy. Ale, jak już powiedziałem, rozbicie rozdarło nasz świat w sposób, którego nie potrafię wyjaśnić. 
+
+Odbudowujemy lub przetrwamy. Ale nie możemy i nie zagrozimy temu, co uratowaliśmy, nawet dla ziemskiego serca. Być może dowiedzieliśmy się od was śmiertelników, ale nasza rodzina przychodzi przed innymi obowiązkami.'
+[/STORY]
+[OUT][Krasnolud] Bow w zrozumieniu i dziękuje im za robienie tego, co mogą dla rodzaju krasnoludów. Nawet jeśli jesteś zbyt młody, aby poznać tajemnice, dobrze wiesz, że bezpieczeństwo młodych i krasnoludzkich żon musi być najważniejsze.
+[/NODE]
+
++[NODE]14
+[STORY]
+„Tak, cieszę się, że twój czas z bogami nie zapomniał.'
+[/STORY]
+[OUT]Czy mogą wykuć inne serce?
+[/NODE]
+
++[NODE]15
+[STORY]
+„Ziemia się rozpada, ponieważ bicie serca olbrzyma nadało jej naturalny rytm. Co więcej, jest to dziecko światła próbujące uciec z podziemnych granic, tak jak przed wiekami ciemność. Pomyśl o tym w ten sposób - była wtyczka, która trzymała rzeczy razem, a teraz jest dziura, ale mała, zbyt mała dla ogromnej mocy, która szuka wyjścia. Robi więc własne pęknięcia. Potrzebujesz nowej wtyczki, w przeciwnym razie będzie działać.'
+[/STORY]
+[OUT]Jak to było przed sercem?
+[/NODE]
+
++[NODE]16
+[STORY]
+„Co? Nie, jesteś szalony, chłopcze? Dziad mroz nie ma serca. To jest jego cel. 
+
+Potrzebujemy wszystkiego, co mu daje życie - substytutu. Próbowaliśmy go zapytać, próbowaliśmy go pobić. Nic nie działa. Być może będziesz miał więcej szczęścia. Los wydaje się sprzyjać twojemu losowi.'
+[/STORY]
+[OUT]Co się stało, gdy dostałeś ten sekret?
+[/NODE]
+
++[NODE]17
+[STORY]
+„Nie udało nam się strzec pierwszego serca - jednego od giganta. Potem straciliśmy wejście do czerwonej jaskini i wydaje się, że przeznaczenie bardziej cię lubi. Rozbicie zniszczyło nasze domy pod nami i musimy pozostać na miejscu. Więc nie możemy go rozwiązać samodzielnie, ale pomożemy. 
+
+Idź po mroz dziad w lodowych krainach.'
+[/STORY]
+[OUT]Po co? Zabij go i weź jego serce?
+[/NODE]
+
++[NODE]20
+[STORY]
+„Wyślemy ludzi do waszego Alchemika, do czerwonej jaskini. Znajdziemy drogę do komory serca i przygotujemy nową runę serca, która będzie potrzebować dostrojenia się do mocy, którą, miejmy nadzieję, przyniesiesz dla nas. 
+
+A jeśli możemy, wyślemy ludziom, którzy pomogą ci po drodze, i pomożemy przy końcu bestii świetlnej. Teraz idź. Znajdź dziad mroz.'
+[/STORY]
+[OUT]Idź więc szukać dziad mroz. Pozostawiać.
+[/NODE]
+
++[NODE]21
+[STORY]
+”. . .'
+[/STORY]
+[OUT]Co z arcymistrzem trzymanym przez trolle w więzieniu? Alchemik powiedział, że zna jedną.
+[OUT]Czy oni wiedzą, kto zniszczył serce i jak?
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DziadMroz(25)
++[NODE]2
+[STORY]
+Znajdziesz dziad mroz, który wysłały ci krasnoludy, abyś szukał. Stoi w ciszy. Ale podchodzi do ciebie młoda dziewczyna z lodu: 
+
+„Szukasz dziadka? Czemu?'
+[/STORY]
+[OUT]Wyjaśnij, co krasnoludy ci powiedziały. Poproś o ich pomoc, aby powstrzymać Rozbicie.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]3
+[STORY]
+Dziad mroz pozostaje nieruchomy, a dziewczyna odpowiada po przerwie: 
+
+'Tak. Tak powiedzieli, wiele razy. Nie dzielimy się naszymi sekretami - coś, czego krasnoludy powinny były się nauczyć, nie? Odejdź, zanim moje siostry zdecydują się na zabawę z tobą.'
+[/STORY]
+[OUT][Demon] Dziad mroz to starożytny demon, ale wciąż demon i związany twoimi prawami. Rzuć wyzwanie do gry sprytu.
+[OUT][Harmonia lub Intelekt] Wzywaj swojej domeny do inspiracji. Wszystkie demony są utkane z ciemności. Kiedy to światło całkowicie się rozpadnie, nawet te lodowe równiny nie pozostaną nietknięte. Powiedz dziadowi, że jego lodowe wnuczki z pewnością rozpłyną się pod płonącym spojrzeniem łowców światła.
+[OUT][Magiczny użytkownik lub magia] Demony, zwłaszcza te starożytne, są rządzone przez mistyczne moce i prawa demonów. Rzuć wyzwanie demonowi na duchową grę. 
+[OUT]Wszystkie demony są utkane z ciemności. Kiedy to światło całkowicie się rozpadnie, nawet te lodowe równiny nie pozostaną nietknięte. Powiedz dziadowi, że jego lodowe wnuczki z pewnością rozpłyną się pod płonącym spojrzeniem łowców światła.
+[OUT]Do ataku!
+[/NODE]
+
++[NODE]5
+[STORY]
+Zabijasz dziad mroz. Ale jego serce po prostu topnieje, a martwe demony nie dają ci odpowiedzi.
+[/STORY]
+[OUT]Wyjdź.
+[/NODE]
+
++[NODE]6
+[STORY]
+„Tak. Opanowałeś moją naturę.- Stary, głęboki głos przemawia teraz przez młodą dziewczynę. 
+
+„Zagadka, której długo się obawiałem. Związany z natury tak jak ja, tak jak my wszyscy, muszę teraz zdradzić to, co jest dla mnie najcenniejsze.'
+[/STORY]
+[OUT]Powiedz, że nie troszczysz się o jego moralne problemy. Potrzebujesz tych informacji.
+[OUT]Obiecaj, że nie ujawnisz tego sekretu ponad to, co jest potrzebne do powstrzymania Rozpadu.
+[/NODE]
+
++[NODE]7
+[STORY]
+„Przebiłeś mnie w wyzwanie, więc muszę teraz mówić prawdę. 
+
+To kłamstwo, w którym żyję bez serca - po prostu oddałem to dawno temu. A potem, znacznie później, znalazłem sposób, aby moje zamrożone serce pozwoliło mojej miłości na życie, którego zawsze pragnęła. Jeśli dam ci ten sekret, będzie musiała znowu cierpieć.'
+[/STORY]
+[OUT]Ona?
+[/NODE]
+
++[NODE]8
+[STORY]
+„Była niegdyś damą zimy, ale także kochanką odrodzenia - kręgu życia i śmierci. W każdy wiosenny dzień musiała umrzeć, aby krąg mógł trwać. 
+
+Więc znalazłem sposób. Sam stałem się zimą, opuszczając całą wiosnę, porzucając moje serce - a moje serce przypominało wiosnę, nadzieję. Więc tak, możesz go użyć, ponieważ ma wielką moc.'
+[/STORY]
+[OUT]A ta twoja miłość będzie musiała powrócić do swojej roli?
+[/NODE]
+
++[NODE]9
+[STORY]
+„Tak, znów będzie musiała za nas umrzeć. A ja stanę się jeszcze bardziej lodowym stworzeniem. 
+
+Ale widzisz, powiedziała mi to, kiedy zrobiłem to, co zrobiłem. Roześmiała się i powiedziała, że koło obróci się niezależnie od tego, co zrobię. Podziękowała mi za krótką chwilę wytchnienia, którą jej dałem i odeszła, wolna. Do teraz.'
+[/STORY]
+[OUT]Jak się nazywa?
+[/NODE]
+
++[NODE]10
+[STORY]
+„Ten sekret zachowam. Teraz, kiedy weźmiesz moje serce, nie poznam cię, więc kiedy się spotkamy, mój zimny gniew będzie się głęboko biegł. Staraj się trzymać z daleka. Widzisz mnie tutaj jako jednego, ale jestem wodą. Nie umieram Wracam ponownie Przychodzę tylu. 
+
+A kiedy moje serce utrzymuje to więzienie i moja Pani jest zmuszona ponownie cierpieć, zima może trwać przez jakiś czas, może zmienić twój świat.'
+[/STORY]
+[OUT]Słuchajcie dalej.
+[/NODE]
+
++[NODE]11
+[STORY]
+Dziad mroz wskazuje na sopel lodu i odchodzi. Kiedy do niej dojdziesz, zobaczysz w środku pojedynczą przebiśnieg. 
+
+Jeden z was sięga po sopel lodu, a mróz chłodzi je do kości. 
+[/STORY]
+[OUT]Trzymaj się lodowego serca.
+[/NODE]
+
++[NODE]13
+[STORY]
+Lód sięga tak głęboko w twoją duszę, że nigdy nie puszcza. Budzisz się jak sniezynka, twoje serce jest zamrożone, twój umysł zimny. Tylko przez twoją wiarę zachowujesz poczucie siebie, pomimo zniechęcającego, zawsze obecnego wezwania dziadka zimy. 
+
+Trzymasz zamrożoną śnieżyczkę i możesz teraz zabrać ją do czerwonej jaskini dla krasnoludów.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+Lód sięga tak głęboko w twoją duszę, że czuje się, jakby nigdy nie odpuścił. Ale w końcu twoje boskie powiązania zmuszają lód i znów czujesz się sobą. Tylko twój duch i umysł czują się osłabione. 
+
+Trzymasz zamrożoną śnieżyczkę i możesz teraz zabrać ją do czerwonej jaskini dla krasnoludów.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+„Nie. Jestem związany wieczną obietnicą, że nigdy nie porzucę tego, czego szukasz. Szukaj gdzie indziej. Zabij mnie. Ale ci się nie uda.'
+[/STORY]
+[OUT]Poddajcie się.
+[OUT]Zabij go!
+[/NODE]
+
++[NODE]17
+[STORY]
+Krasnolud, który cię tu przysłał, zbliża się: 
+
+'Ai, to zawsze był strzał w dziesiątkę. Najlepiej teraz szukajcie odpowiedzi u innych, moi krewni utknęli w swoich drogach, będą musieli wiecznie dyskutować na ten temat i wymyślić nowy plan. Szczęście tobie, laddie, żelazo i kamień.'
+
+[/STORY]
+[OUT]Wyjdź. 
+[/NODE]
+
++[NODE]19
+[STORY]
+Krasnolud, który cię tu przysłał, zbliża się: 
+
+'Ai, to zawsze był strzał w dziesiątkę. Najlepiej teraz szukajcie odpowiedzi u innych, moi krewni utknęli w swoich drogach, będą musieli wiecznie dyskutować na ten temat i wymyślić nowy plan. Szczęście tobie, laddie, żelazo i kamień.'
+
+[/STORY]
+[OUT]Wyjdź. 
+[/NODE]
+
++[NODE]21
+[STORY]
+Jesteś pokonany i jeden z was jest zamrożony na śmierć.
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
++[NODE]24
+[STORY]
+„Tak. Dobrze mówisz.- Stary, głęboki głos przemawia teraz przez młodą dziewczynę. 
+
+„Zagadka, której długo się obawiałem. Związany z natury tak jak ja, tak jak my wszyscy, muszę teraz zdradzić to, co jest dla mnie najcenniejsze.'
+[/STORY]
+[OUT]Powiedz, że nie troszczysz się o jego moralne problemy. Potrzebujesz tych informacji.
+[OUT]Obiecaj, że nie ujawnisz tego sekretu ponad to, co jest potrzebne do powstrzymania Rozpadu.
+[/NODE]
+
++[NODE]26
+[STORY]
+„Ja… nie wiem, jak ci za to podziękować. Zawsze będziesz dla mnie przyjacielem. Jedna z moich wnuczek będzie ci towarzyszyć, abyś mógł spełnić swoje zadanie, nie raniąc mojej miłości. Dobrze cię, Boże, Boże.'
+[/STORY]
+[OUT]Dobrze mu też życzę.
+[/NODE]
+
++[NODE]28
+[STORY]
+„Istnieje ostateczna cena. Jeden z was musi odzyskać moje serce, a kiedy to zrobią, mogą wyjść na zawsze zmienione.'
+[/STORY]
+[OUT]Zaakceptuj warunki.
+[OUT]Powiedz, że będziesz szukał innych sposobów. Ten wydaje się okrutny.
+[/NODE]
+
++[NODE]29
+[STORY]
+Krasnolud, który cię tu przysłał, zbliża się: 
+
+'Ai, to zawsze był strzał w dziesiątkę. Najlepiej teraz szukajcie odpowiedzi u innych, moi krewni utknęli w swoich drogach, będą musieli wiecznie dyskutować na ten temat i wymyślić nowy plan. Szczęście tobie, laddie, żelazo i kamień.'
+
+[/STORY]
+[OUT]Wyjdź. 
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dwarf Apprentice(26)
++[NODE]2
+[STORY]
+Krasnoludzki kowal macha cię: 
+
+'Udowodniłeś nam swoją kamienną wolę i metalowe ramię, niektórzy z naszych młodzieńców są zainteresowani. Daliśmy im pozwolenie na dołączenie do ciebie, jeśli chcą.'
+
+[Możesz rekrutować się w tej frakcji tylko raz, z małą szansą na sekundę, kiedy twoja populacja jest bardzo niska] 
+
+[/STORY]
+[OUT]Idź zapytać, czy są jacyś kowale, którzy chcą dołączyć?
+[OUT]Idź zapytać, czy są zainteresowani robotnicy?
+[OUT]Niektóre dzieci patrzą na ciebie, idź do nich.
+[OUT]Nie wydaje się, aby ktokolwiek był zainteresowany przyłączeniem się do ciebie teraz.
+[/NODE]
+
++[NODE]8
+[STORY]
+Młody kowal patrzy w twoją stronę. Ale proszą, abyś zapłacił za ich usługi.
+[/STORY]
+[OUT]Zapłać młodemu kowalowi.
+[OUT]Nie, odejdź.
+[OUT]Zapłać kowala.
+[/NODE]
+
++[NODE]9
+[STORY]
+Robotnik patrzy w twoją stronę. Ale proszą, abyś zapłacił za ich usługi.
+[/STORY]
+[OUT]Płać im.
+[OUT]Nie, odejdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+Krasnoludzkie dziecko może przyłączyć się do twojej wioski, aby naprawdę poznać twoje zwyczaje. Będziesz musiał zapłacić zgodnie ze zwyczajem, aby upewnić się, że klan krasnoludów otrzyma rekompensatę za stratę.
+[/STORY]
+[OUT]Witajcie ich.
+[/NODE]
+
++[NODE]13
+[STORY]
+Młody kowal patrzy w twoją stronę. Ale proszą, abyś zapłacił za ich usługi.
+[/STORY]
+[OUT]Płać im.
+[OUT]Nie, odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Mental Return(27)
++[NODE]2
+[STORY]
+Jeden z twoich ludzi, którzy wcześniej stracili wiarę w ciebie, zamieszkał w mieście. Teraz, kiedy mieli czas na odpoczynek i refleksję, chcieliby ponownie dołączyć do ciebie.
+[/STORY]
+[OUT]Akceptuj je.
+[OUT]Odrzuć, nie potrzebujesz słabeuszy!
+[/NODE]
+
++[NODE]3
+[STORY]
+Są szczęśliwi, mogąc ponownie być częścią rodziny. 
+[/STORY]
+[OUT]Odchodzicie.
+[/NODE]
+
+[/EVENT]
+
