@@ -69510,7 +69510,12 @@
       <Output>„Przykład”</Output>
     </Texts>
   </Element>
-  <Element ID="4421" Key="UI_GREET_PLAYER" Flag="0">
+  <Element ID="4421" Key="UI_GREET_PLAYER" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:03:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GREET</Group>
@@ -69521,7 +69526,12 @@
       <Output>Pozdrowienia {SCRIPT:UIS_GetCurentPlayerName}!</Output>
     </Texts>
   </Element>
-  <Element ID="4422" Key="UI_YOU_ARE_ABOUT_TO_DELETE_PROFILE" Flag="0">
+  <Element ID="4422" Key="UI_YOU_ARE_ABOUT_TO_DELETE_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:04:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_YOU</Group>
@@ -69533,10 +69543,15 @@
     </Groups>
     <Texts>
       <Input>You are about to delete player profile: {SCRIPT:UIS_GetProfileToDelete}!</Input>
-      <Output>Zamierzasz usunąć profil gracza: {SCRIPT:UIS_GetProfileToDelete}!</Output>
+      <Output>Za chwilę usuniesz profil gracza: {SCRIPT:UIS_GetProfileToDelete}!</Output>
     </Texts>
   </Element>
-  <Element ID="4423" Key="UI_SELECT_TARGETS" Flag="0">
+  <Element ID="4423" Key="UI_SELECT_TARGETS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:04:19</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -69547,7 +69562,12 @@
       <Output>Wybierz cele dla umiejętności {SCRIPT:UIS_TargetSelectionCount}</Output>
     </Texts>
   </Element>
-  <Element ID="4424" Key="UI_SELECT_TARGETS_INVALID" Flag="0">
+  <Element ID="4424" Key="UI_SELECT_TARGETS_INVALID" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:04:52</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -69556,10 +69576,15 @@
     </Groups>
     <Texts>
       <Input>Select targets for skill {SCRIPT:UIS_TargetSelectionCount} \nInvalid targets, skill will not be executed!</Input>
-      <Output>Wybierz cele dla umiejętności {SCRIPT:UIS_TargetSelectionCount}\nNieprawidłowe cele, umiejętność nie zostanie wykonana!</Output>
+      <Output>Wybierz cele dla umiejętności {SCRIPT:UIS_TargetSelectionCount}\nNieprawidłowe cele, akcja nie zostanie wykonana!</Output>
     </Texts>
   </Element>
-  <Element ID="4425" Key="UI_EXPORTED_MODULE" Flag="0">
+  <Element ID="4425" Key="UI_EXPORTED_MODULE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:05:00</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EXPORTED</Group>
@@ -69567,7 +69592,7 @@
     </Groups>
     <Texts>
       <Input>Exported Module '{SCRIPT:UIS_GlobalVar,ModuleSaveID}' to:\n{SCRIPT:UIS_GlobalVar,ModuleSaveDir}</Input>
-      <Output>Wyeksportowany moduł '{SCRIPT:UIS_GlobalVar,ModuleSaveID}' do: \n{SCRIPT:UIS_GlobalVar,ModuleSaveDir}</Output>
+      <Output>Wyeksportowano moduł '{SCRIPT:UIS_GlobalVar,ModuleSaveID}' do: \n{SCRIPT:UIS_GlobalVar,ModuleSaveDir}</Output>
     </Texts>
   </Element>
   <Element ID="4426" Key="UI_IMPORT_ERROR" Flag="0">
@@ -69581,7 +69606,12 @@
       <Output>Błąd importu: {SCRIPT:UIS_GlobalVar,ErrorID}z modułu: \n{SCRIPT:UIS_GlobalVar,ErrorAtModule}, zdarzenie: {SCRIPT:UIS_GlobalVar,ErrorAtEvent}, węzeł: {SCRIPT:UIS_GlobalVar,ErrorAtNode}</Output>
     </Texts>
   </Element>
-  <Element ID="4427" Key="UI_NONE" Flag="0">
+  <Element ID="4427" Key="UI_NONE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:05:41</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NONE</Group>
@@ -69675,7 +69705,12 @@
       <Output>Węzeł handlowy</Output>
     </Texts>
   </Element>
-  <Element ID="4435" Key="UI_MAKE_PUBLIC" Flag="0">
+  <Element ID="4435" Key="UI_MAKE_PUBLIC" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:05:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MAKE</Group>
@@ -69702,7 +69737,12 @@
       <Output>Tura przeciwnika</Output>
     </Texts>
   </Element>
-  <Element ID="4437" Key="UI_FRIENDLY_TURN" Flag="0">
+  <Element ID="4437" Key="UI_FRIENDLY_TURN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FRIENDLY</Group>
@@ -69710,10 +69750,15 @@
     </Groups>
     <Texts>
       <Input>Friendly Turn</Input>
-      <Output>Przyjazna tura</Output>
+      <Output>Tura sprzymierzonych</Output>
     </Texts>
   </Element>
-  <Element ID="4438" Key="UI_AT_DELAY" Flag="0">
+  <Element ID="4438" Key="UI_AT_DELAY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_AT</Group>
@@ -69724,7 +69769,12 @@
       <Output>Opóźnienie</Output>
     </Texts>
   </Element>
-  <Element ID="4439" Key="UI_BATTLE_RESOLVE" Flag="0">
+  <Element ID="4439" Key="UI_BATTLE_RESOLVE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:30</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BATTLE</Group>
@@ -69735,7 +69785,12 @@
       <Output>Rozstrzyganie bitwy (1/2)</Output>
     </Texts>
   </Element>
-  <Element ID="4440" Key="UI_BATTLE_RESOLVE_2" Flag="0">
+  <Element ID="4440" Key="UI_BATTLE_RESOLVE_2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BATTLE</Group>
@@ -69747,7 +69802,12 @@
       <Output>Rozstrzyganie bitwy (2/2)</Output>
     </Texts>
   </Element>
-  <Element ID="4441" Key="UI_NOT_A_FREE_SLOT" Flag="0">
+  <Element ID="4441" Key="UI_NOT_A_FREE_SLOT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NOT</Group>
@@ -69757,10 +69817,15 @@
     </Groups>
     <Texts>
       <Input>This slot is not free!</Input>
-      <Output>To gniazdo nie jest bezpłatne!</Output>
+      <Output>To slot nie jest wolny!</Output>
     </Texts>
   </Element>
-  <Element ID="4442" Key="UI_ANOTHER_PLAYER_TARGETTING" Flag="0">
+  <Element ID="4442" Key="UI_ANOTHER_PLAYER_TARGETTING" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ANOTHER</Group>
@@ -69772,7 +69837,12 @@
       <Output>Proszę czekać, inny gracz dokonuje wyboru ...</Output>
     </Texts>
   </Element>
-  <Element ID="4443" Key="UI_WARNING" Flag="0">
+  <Element ID="4443" Key="UI_WARNING" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:06:51</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WARNING</Group>
@@ -69782,7 +69852,12 @@
       <Output>Ostrzeżenie</Output>
     </Texts>
   </Element>
-  <Element ID="4444" Key="UI_SAVE_OR_DISCARD" Flag="0">
+  <Element ID="4444" Key="UI_SAVE_OR_DISCARD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:11</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SAVE</Group>
@@ -69791,10 +69866,15 @@
     </Groups>
     <Texts>
       <Input>Save or Discard Changes?</Input>
-      <Output>Zapisz lub odrzuć zmiany?</Output>
+      <Output>Zapisać lub odrzuć zmiany?</Output>
     </Texts>
   </Element>
-  <Element ID="4445" Key="UI_CONFIRM_AND_EXIT" Flag="0">
+  <Element ID="4445" Key="UI_CONFIRM_AND_EXIT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:13</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONFIRM</Group>
@@ -69806,7 +69886,12 @@
       <Output>Zapisz i wyjdź</Output>
     </Texts>
   </Element>
-  <Element ID="4446" Key="UI_DISCARD_AND_EXIT" Flag="0">
+  <Element ID="4446" Key="UI_DISCARD_AND_EXIT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DISCARD</Group>
@@ -69818,7 +69903,12 @@
       <Output>Odrzuć i wyjdź</Output>
     </Texts>
   </Element>
-  <Element ID="4447" Key="UI_DONT_LEAVE" Flag="0">
+  <Element ID="4447" Key="UI_DONT_LEAVE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:20</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DONT</Group>
@@ -69844,7 +69934,12 @@
       <Output>OK</Output>
     </Texts>
   </Element>
-  <Element ID="4449" Key="UI_ERROR" Flag="0">
+  <Element ID="4449" Key="UI_ERROR" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:22</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ERROR</Group>
@@ -69854,7 +69949,12 @@
       <Output>Błąd</Output>
     </Texts>
   </Element>
-  <Element ID="4450" Key="UI_EXPORT_ERROR" Flag="0">
+  <Element ID="4450" Key="UI_EXPORT_ERROR" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:26</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EXPORT</Group>
@@ -69865,7 +69965,12 @@
       <Output>Wystąpił błąd, dane nie zostały wyeksportowane.</Output>
     </Texts>
   </Element>
-  <Element ID="4451" Key="UI_IMPORTED_MODULE" Flag="0">
+  <Element ID="4451" Key="UI_IMPORTED_MODULE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_IMPORTED</Group>
@@ -69876,7 +69981,12 @@
       <Output>Moduł został pomyślnie zaimportowany.</Output>
     </Texts>
   </Element>
-  <Element ID="4452" Key="UI_SET_SERVER_NAME" Flag="0">
+  <Element ID="4452" Key="UI_SET_SERVER_NAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:31</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SET</Group>
@@ -69888,7 +69998,12 @@
       <Output>Ustaw nazwę serwera</Output>
     </Texts>
   </Element>
-  <Element ID="4453" Key="UI_CONFIRM" Flag="0">
+  <Element ID="4453" Key="UI_CONFIRM" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:33</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONFIRM</Group>
@@ -69898,7 +70013,12 @@
       <Output>Potwierdź</Output>
     </Texts>
   </Element>
-  <Element ID="4454" Key="UI_CANCEL" Flag="0">
+  <Element ID="4454" Key="UI_CANCEL" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:38</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CANCEL</Group>
@@ -69908,7 +70028,12 @@
       <Output>Anuluj</Output>
     </Texts>
   </Element>
-  <Element ID="4455" Key="UI_NAME_CANNOT_BE_EMPTY" Flag="0">
+  <Element ID="4455" Key="UI_NAME_CANNOT_BE_EMPTY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:46</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NAME</Group>
@@ -69921,7 +70046,12 @@
       <Output>Nazwa nie może być pusta.</Output>
     </Texts>
   </Element>
-  <Element ID="4456" Key="UI_GOD_POINTS" Flag="0">
+  <Element ID="4456" Key="UI_GOD_POINTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:48</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GOD</Group>
@@ -69963,7 +70093,12 @@
       <Output>Multiplayer</Output>
     </Texts>
   </Element>
-  <Element ID="4459" Key="UI_EVENTS_EDITOR" Flag="0">
+  <Element ID="4459" Key="UI_EVENTS_EDITOR" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:52</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EVENTS</Group>
@@ -69974,7 +70109,12 @@
       <Output>Edytor zdarzeń</Output>
     </Texts>
   </Element>
-  <Element ID="4460" Key="UI_SETTINGS" Flag="0">
+  <Element ID="4460" Key="UI_SETTINGS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:53</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SETTINGS</Group>
@@ -69984,7 +70124,12 @@
       <Output>Ustawienia</Output>
     </Texts>
   </Element>
-  <Element ID="4461" Key="UI_QUIT" Flag="0">
+  <Element ID="4461" Key="UI_QUIT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_QUIT</Group>
@@ -69994,7 +70139,12 @@
       <Output>Zakończ</Output>
     </Texts>
   </Element>
-  <Element ID="4462" Key="UI_CONTINUE" Flag="0">
+  <Element ID="4462" Key="UI_CONTINUE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:07:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONTINUE</Group>
@@ -70004,7 +70154,12 @@
       <Output>Kontynuuj</Output>
     </Texts>
   </Element>
-  <Element ID="4463" Key="UI_NEW_GAME" Flag="0">
+  <Element ID="4463" Key="UI_NEW_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:00</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NEW</Group>
@@ -70015,7 +70170,12 @@
       <Output>Nowa gra</Output>
     </Texts>
   </Element>
-  <Element ID="4464" Key="UI_LOAD_GAME" Flag="0">
+  <Element ID="4464" Key="UI_LOAD_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOAD</Group>
@@ -70026,7 +70186,12 @@
       <Output>Załaduj grę</Output>
     </Texts>
   </Element>
-  <Element ID="4465" Key="UI_BACK" Flag="0">
+  <Element ID="4465" Key="UI_BACK" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:04</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BACK</Group>
@@ -70036,7 +70201,12 @@
       <Output>Powrót</Output>
     </Texts>
   </Element>
-  <Element ID="4466" Key="UI_HOST_NEW_GAME" Flag="0">
+  <Element ID="4466" Key="UI_HOST_NEW_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_HOST</Group>
@@ -70048,7 +70218,12 @@
       <Output>Host - Nowa gra</Output>
     </Texts>
   </Element>
-  <Element ID="4467" Key="UI_HOST_LOAD" Flag="0">
+  <Element ID="4467" Key="UI_HOST_LOAD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:09</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_HOST</Group>
@@ -70056,10 +70231,15 @@
     </Groups>
     <Texts>
       <Input>Host - Load</Input>
-      <Output>Host - Ładuj</Output>
+      <Output>Host - Załaduj grę</Output>
     </Texts>
   </Element>
-  <Element ID="4468" Key="UI_JOIN" Flag="0">
+  <Element ID="4468" Key="UI_JOIN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:23</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_JOIN</Group>
@@ -70069,7 +70249,12 @@
       <Output>Dołącz</Output>
     </Texts>
   </Element>
-  <Element ID="4469" Key="UI_PICK_A_PROFILE" Flag="0">
+  <Element ID="4469" Key="UI_PICK_A_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:24</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PICK</Group>
@@ -70081,7 +70266,12 @@
       <Output>Wybierz profil</Output>
     </Texts>
   </Element>
-  <Element ID="4470" Key="UI_NEW_PROFILE" Flag="0">
+  <Element ID="4470" Key="UI_NEW_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:26</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NEW</Group>
@@ -70092,7 +70282,12 @@
       <Output>Nowy profil</Output>
     </Texts>
   </Element>
-  <Element ID="4471" Key="UI_RENAME_PROFILE" Flag="0">
+  <Element ID="4471" Key="UI_RENAME_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:31</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RENAME</Group>
@@ -70103,7 +70298,12 @@
       <Output>Zmień nazwę profilu</Output>
     </Texts>
   </Element>
-  <Element ID="4472" Key="UI_DELETE_PROFILE" Flag="0">
+  <Element ID="4472" Key="UI_DELETE_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:30</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DELETE</Group>
@@ -70114,7 +70314,12 @@
       <Output>Usuń profil</Output>
     </Texts>
   </Element>
-  <Element ID="4473" Key="UI_SELECT" Flag="0">
+  <Element ID="4473" Key="UI_SELECT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -70124,7 +70329,12 @@
       <Output>Wybierz</Output>
     </Texts>
   </Element>
-  <Element ID="4474" Key="UI_DOMAINS" Flag="0">
+  <Element ID="4474" Key="UI_DOMAINS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:36</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMAINS</Group>
@@ -70134,7 +70344,12 @@
       <Output>Domeny</Output>
     </Texts>
   </Element>
-  <Element ID="4475" Key="UI_GOD_CARD_SLOTS" Flag="0">
+  <Element ID="4475" Key="UI_GOD_CARD_SLOTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:53</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GOD</Group>
@@ -70143,10 +70358,15 @@
     </Groups>
     <Texts>
       <Input>God Card Slots</Input>
-      <Output>God Card Slots</Output>
+      <Output>Sloty kart boskich. </Output>
     </Texts>
   </Element>
-  <Element ID="4476" Key="UI_SPELL" Flag="0">
+  <Element ID="4476" Key="UI_SPELL" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:08:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SPELL</Group>
@@ -70156,7 +70376,12 @@
       <Output>Zaklęcie</Output>
     </Texts>
   </Element>
-  <Element ID="4477" Key="UI_NEXT" Flag="0">
+  <Element ID="4477" Key="UI_NEXT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:00</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NEXT</Group>
@@ -70166,7 +70391,12 @@
       <Output>Dalej</Output>
     </Texts>
   </Element>
-  <Element ID="4478" Key="UI_SELECT_YOUR_GOD" Flag="0">
+  <Element ID="4478" Key="UI_SELECT_YOUR_GOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -70206,7 +70436,12 @@
       <Output>Zakończ turę</Output>
     </Texts>
   </Element>
-  <Element ID="4481" Key="UI_SELECT_MODULE_TO_CLONE_TO" Flag="0">
+  <Element ID="4481" Key="UI_SELECT_MODULE_TO_CLONE_TO" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:13</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -70217,10 +70452,15 @@
     </Groups>
     <Texts>
       <Input>Select a Module to Clone to:</Input>
-      <Output>Wybierz moduł do sklonowania:</Output>
+      <Output>Wybierz moduł do skopiowania:</Output>
     </Texts>
   </Element>
-  <Element ID="4482" Key="UI_EVENTS" Flag="0">
+  <Element ID="4482" Key="UI_EVENTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:21</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EVENTS</Group>
@@ -70240,7 +70480,12 @@
       <Output>z</Output>
     </Texts>
   </Element>
-  <Element ID="4484" Key="UI_BACK_TO_MODULES" Flag="0">
+  <Element ID="4484" Key="UI_BACK_TO_MODULES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:26</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BACK</Group>
@@ -70249,10 +70494,15 @@
     </Groups>
     <Texts>
       <Input>Back to Modules</Input>
-      <Output>Powrót do modułów</Output>
+      <Output>Powrót do Modułów</Output>
     </Texts>
   </Element>
-  <Element ID="4485" Key="UI_EDIT_EVENT" Flag="0">
+  <Element ID="4485" Key="UI_EDIT_EVENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:34</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EDIT</Group>
@@ -70260,10 +70510,15 @@
     </Groups>
     <Texts>
       <Input>Edit Event</Input>
-      <Output>Edytuj wydarzenie</Output>
+      <Output>Edytuj Wydarzenie</Output>
     </Texts>
   </Element>
-  <Element ID="4486" Key="UI_MAKE_A_SELECTION" Flag="0">
+  <Element ID="4486" Key="UI_MAKE_A_SELECTION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:42</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MAKE</Group>
@@ -70275,7 +70530,12 @@
       <Output>Dokonaj wyboru…</Output>
     </Texts>
   </Element>
-  <Element ID="4487" Key="UI_BACK_TO_EVENTS" Flag="0">
+  <Element ID="4487" Key="UI_BACK_TO_EVENTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:50</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BACK</Group>
@@ -70284,7 +70544,7 @@
     </Groups>
     <Texts>
       <Input>Back to Events</Input>
-      <Output>Powrót do wydarzeń</Output>
+      <Output>Powrót do Wydarzeń</Output>
     </Texts>
   </Element>
   <Element ID="4488" Key="UI_ADD_A_NODE" Flag="0">
@@ -70299,7 +70559,12 @@
       <Output>Dodaj węzeł</Output>
     </Texts>
   </Element>
-  <Element ID="4489" Key="UI_ADVENTURE" Flag="0">
+  <Element ID="4489" Key="UI_ADVENTURE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVENTURE</Group>
@@ -70309,7 +70574,12 @@
       <Output>Przygoda</Output>
     </Texts>
   </Element>
-  <Element ID="4490" Key="UI_CHALLENGE" Flag="0">
+  <Element ID="4490" Key="UI_CHALLENGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:09:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CHALLENGE</Group>
@@ -70319,7 +70589,12 @@
       <Output>Wyzwanie</Output>
     </Texts>
   </Element>
-  <Element ID="4491" Key="UI_SPAWN_ON_MAP" Flag="0">
+  <Element ID="4491" Key="UI_SPAWN_ON_MAP" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:15</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SPAWN</Group>
@@ -70328,7 +70603,7 @@
     </Groups>
     <Texts>
       <Input>Spawn on Map</Input>
-      <Output>Pomiot na mapie</Output>
+      <Output>Wygneruj na mapie</Output>
     </Texts>
   </Element>
   <Element ID="4492" Key="UI_PRODUCE_DROP" Flag="0">
@@ -70355,7 +70630,12 @@
       <Output>Spadek produkcji</Output>
     </Texts>
   </Element>
-  <Element ID="4494" Key="UI_TRADE" Flag="0">
+  <Element ID="4494" Key="UI_TRADE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:20</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TRADE</Group>
@@ -70365,7 +70645,12 @@
       <Output>Handel</Output>
     </Texts>
   </Element>
-  <Element ID="4495" Key="UI_DEAL_DAMAGE" Flag="0">
+  <Element ID="4495" Key="UI_DEAL_DAMAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:21</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DEAL</Group>
@@ -70376,7 +70661,12 @@
       <Output>Zadaj obrażenia</Output>
     </Texts>
   </Element>
-  <Element ID="4496" Key="UI_ADVENTURE_END" Flag="0">
+  <Element ID="4496" Key="UI_ADVENTURE_END" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVENTURE</Group>
@@ -70387,7 +70677,12 @@
       <Output>Koniec przygody</Output>
     </Texts>
   </Element>
-  <Element ID="4497" Key="UI_SEARCH" Flag="0">
+  <Element ID="4497" Key="UI_SEARCH" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SEARCH</Group>
@@ -70397,7 +70692,12 @@
       <Output>Wyszukaj…</Output>
     </Texts>
   </Element>
-  <Element ID="4498" Key="UI_SELECT_AN_IMAGE" Flag="0">
+  <Element ID="4498" Key="UI_SELECT_AN_IMAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -70409,7 +70709,12 @@
       <Output>Wybierz obraz</Output>
     </Texts>
   </Element>
-  <Element ID="4499" Key="UI_IMAGE_SIZE" Flag="0">
+  <Element ID="4499" Key="UI_IMAGE_SIZE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:38</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_IMAGE</Group>
@@ -70420,7 +70725,12 @@
       <Output>Rozmiar obrazu:</Output>
     </Texts>
   </Element>
-  <Element ID="4500" Key="UI_IMAGE_SIZE_NOTES" Flag="0">
+  <Element ID="4500" Key="UI_IMAGE_SIZE_NOTES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_IMAGE</Group>
@@ -70443,7 +70753,12 @@
       <Output>Edytor logiki</Output>
     </Texts>
   </Element>
-  <Element ID="4502" Key="UI_FILTERS" Flag="0">
+  <Element ID="4502" Key="UI_FILTERS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:54</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FILTERS</Group>
@@ -70453,7 +70768,12 @@
       <Output>Filtry</Output>
     </Texts>
   </Element>
-  <Element ID="4503" Key="UI_PROCESSING" Flag="0">
+  <Element ID="4503" Key="UI_PROCESSING" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PROCESSING</Group>
@@ -70463,7 +70783,12 @@
       <Output>Przetwarzanie</Output>
     </Texts>
   </Element>
-  <Element ID="4504" Key="UI_RESULTS" Flag="0">
+  <Element ID="4504" Key="UI_RESULTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:10:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RESULTS</Group>
@@ -70484,7 +70809,12 @@
       <Output>Wyjdź z logiki</Output>
     </Texts>
   </Element>
-  <Element ID="4506" Key="UI_SELECT_A_MODULE" Flag="0">
+  <Element ID="4506" Key="UI_SELECT_A_MODULE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -70496,7 +70826,12 @@
       <Output>Edytor zdarzeń - wybierz moduł</Output>
     </Texts>
   </Element>
-  <Element ID="4507" Key="UI_MODULES" Flag="0">
+  <Element ID="4507" Key="UI_MODULES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:04</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MODULES</Group>
@@ -70506,7 +70841,12 @@
       <Output>Moduły</Output>
     </Texts>
   </Element>
-  <Element ID="4508" Key="UI_EXIT_AND_SAVE" Flag="0">
+  <Element ID="4508" Key="UI_EXIT_AND_SAVE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EXIT</Group>
@@ -70518,7 +70858,12 @@
       <Output>Wyjdź i zapisz</Output>
     </Texts>
   </Element>
-  <Element ID="4509" Key="UI_EDIT_MODULE" Flag="0">
+  <Element ID="4509" Key="UI_EDIT_MODULE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:09</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EDIT</Group>
@@ -70529,7 +70874,12 @@
       <Output>Edytuj moduł</Output>
     </Texts>
   </Element>
-  <Element ID="4510" Key="UI_ENTER_QUEST_NAME" Flag="0">
+  <Element ID="4510" Key="UI_ENTER_QUEST_NAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:22</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -70541,7 +70891,12 @@
       <Output>Nazwa misji (Loc String)</Output>
     </Texts>
   </Element>
-  <Element ID="4511" Key="UI_ENTER_QUEST_DESCRIPTION" Flag="0">
+  <Element ID="4511" Key="UI_ENTER_QUEST_DESCRIPTION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:24</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -70553,7 +70908,12 @@
       <Output>Opis zadania (Loc String)</Output>
     </Texts>
   </Element>
-  <Element ID="4512" Key="UI_SHOW_IN_LOGBOOK" Flag="0">
+  <Element ID="4512" Key="UI_SHOW_IN_LOGBOOK" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SHOW</Group>
@@ -70565,7 +70925,12 @@
       <Output>Pokaż w dzienniku</Output>
     </Texts>
   </Element>
-  <Element ID="4513" Key="UI_PICK_A_TAG" Flag="0">
+  <Element ID="4513" Key="UI_PICK_A_TAG" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:30</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PICK</Group>
@@ -70607,17 +70972,27 @@
       <Output>Tura</Output>
     </Texts>
   </Element>
-  <Element ID="4516" Key="UI_INVENTORY" Flag="0">
+  <Element ID="4516" Key="UI_INVENTORY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INVENTORY</Group>
     </Groups>
     <Texts>
       <Input>Inventory</Input>
-      <Output>Inwentaryzacja</Output>
+      <Output>Wyposażenie</Output>
     </Texts>
   </Element>
-  <Element ID="4517" Key="UI_FILTER" Flag="0">
+  <Element ID="4517" Key="UI_FILTER" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:37</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FILTER</Group>
@@ -70627,7 +71002,12 @@
       <Output>Filtruj…</Output>
     </Texts>
   </Element>
-  <Element ID="4518" Key="UI_SORT" Flag="0">
+  <Element ID="4518" Key="UI_SORT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:11:46</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SORT</Group>
@@ -70637,14 +71017,19 @@
       <Output>Sortuj…</Output>
     </Texts>
   </Element>
-  <Element ID="4519" Key="UI_SUPPLIES" Flag="0">
+  <Element ID="4519" Key="UI_SUPPLIES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:14</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SUPPLIES</Group>
     </Groups>
     <Texts>
       <Input>Supplies</Input>
-      <Output>Dostawy</Output>
+      <Output>Towary</Output>
     </Texts>
   </Element>
   <Element ID="4520" Key="UI_TRANSFER" Flag="1">
@@ -70662,7 +71047,12 @@
       <Output>Transfer</Output>
     </Texts>
   </Element>
-  <Element ID="4521" Key="UI_TRANSFER_FOOD" Flag="0">
+  <Element ID="4521" Key="UI_TRANSFER_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TRANSFER</Group>
@@ -70670,10 +71060,15 @@
     </Groups>
     <Texts>
       <Input>Transfer Food</Input>
-      <Output>Transfer żywności</Output>
+      <Output>Przekazanie żywności</Output>
     </Texts>
   </Element>
-  <Element ID="4522" Key="UI_VARIETIES_FOR" Flag="0">
+  <Element ID="4522" Key="UI_VARIETIES_FOR" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_VARIETIES</Group>
@@ -70684,7 +71079,12 @@
       <Output>odmiany dla</Output>
     </Texts>
   </Element>
-  <Element ID="4523" Key="UI_DAYS" Flag="0">
+  <Element ID="4523" Key="UI_DAYS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:34</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DAYS</Group>
@@ -70694,7 +71094,12 @@
       <Output>dni</Output>
     </Texts>
   </Element>
-  <Element ID="4524" Key="UI_PERCENT_OF_ALL_AVAILABLE_FOOD" Flag="0">
+  <Element ID="4524" Key="UI_PERCENT_OF_ALL_AVAILABLE_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:41</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PERCENT</Group>
@@ -70708,7 +71113,12 @@
       <Output>% całej dostępnej żywności</Output>
     </Texts>
   </Element>
-  <Element ID="4525" Key="UI_RAW_FOOD" Flag="0">
+  <Element ID="4525" Key="UI_RAW_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RAW</Group>
@@ -70719,7 +71129,12 @@
       <Output>Surowe jedzenie</Output>
     </Texts>
   </Element>
-  <Element ID="4526" Key="UI_COOKED_FOOD" Flag="0">
+  <Element ID="4526" Key="UI_COOKED_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:46</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_COOKED</Group>
@@ -70730,7 +71145,12 @@
       <Output>Gotowane jedzenie</Output>
     </Texts>
   </Element>
-  <Element ID="4527" Key="UI_JOIN_A_MULTIPLAYER_GAME" Flag="0">
+  <Element ID="4527" Key="UI_JOIN_A_MULTIPLAYER_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:51</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_JOIN</Group>
@@ -70743,7 +71163,12 @@
       <Output>Dołącz do gry wieloosobowej</Output>
     </Texts>
   </Element>
-  <Element ID="4528" Key="UI_REPORT_A_BUG" Flag="0">
+  <Element ID="4528" Key="UI_REPORT_A_BUG" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:12:52</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REPORT</Group>
@@ -70755,7 +71180,12 @@
       <Output>Zgłoś błąd</Output>
     </Texts>
   </Element>
-  <Element ID="4529" Key="UI_REPORT_A_BUG1" Flag="0">
+  <Element ID="4529" Key="UI_REPORT_A_BUG1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:13:03</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REPORT</Group>
@@ -70767,7 +71197,12 @@
       <Output>Użyj tego formularza, aby zgłosić problem z grą. Zrzut ekranu gry i pliku dziennika zostanie dołączony do tego raportu wraz z komentarzem i wysłany do naszego narzędzia do śledzenia błędów. Nie gromadzimy żadnych danych osobowych.</Output>
     </Texts>
   </Element>
-  <Element ID="4530" Key="UI_REPORT_A_BUG2" Flag="0">
+  <Element ID="4530" Key="UI_REPORT_A_BUG2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:13:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REPORT</Group>
@@ -70776,10 +71211,15 @@
     </Groups>
     <Texts>
       <Input>Please describe your problem with as much detail as you can in the field below. If possible, include steps to reproduce, these greatly improve the chance of fixing the problem for us.</Input>
-      <Output>Proszę opisać swój problem z jak największą ilością szczegółów w poniższym polu. Jeśli to możliwe, uwzględnij kroki do odtworzenia, które znacznie zwiększają szansę naprawienia problemu dla nas.</Output>
+      <Output>Proszę opisać swój problem z jak największą ilością szczegółów w poniższym polu. Jeśli to możliwe, opisz jak można odtworzyć błąd, dzięki czemu znacznie łatwiej będzie naprawić problem.</Output>
     </Texts>
   </Element>
-  <Element ID="4531" Key="UI_REPORT_A_BUG3" Flag="0">
+  <Element ID="4531" Key="UI_REPORT_A_BUG3" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:13</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REPORT</Group>
@@ -70788,10 +71228,15 @@
     </Groups>
     <Texts>
       <Input>Thank you for taking the time to write this report!</Input>
-      <Output>Dziękujemy za poświęcenie czasu na napisanie tego raportu!</Output>
+      <Output>Dziękujemy za czas poświęcony na napisanie tego raportu!</Output>
     </Texts>
   </Element>
-  <Element ID="4532" Key="UI_REPORT_A_BUG4" Flag="0">
+  <Element ID="4532" Key="UI_REPORT_A_BUG4" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:24</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REPORT</Group>
@@ -70800,10 +71245,15 @@
     </Groups>
     <Texts>
       <Input>- Love, MuHa Games team</Input>
-      <Output>- Miłość, zespół MuHa Games</Output>
+      <Output>- Kochamy, zespół MuHa Games</Output>
     </Texts>
   </Element>
-  <Element ID="4533" Key="UI_TITLE" Flag="0">
+  <Element ID="4533" Key="UI_TITLE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TITLE</Group>
@@ -70813,7 +71263,12 @@
       <Output>Tytuł</Output>
     </Texts>
   </Element>
-  <Element ID="4534" Key="UI_BUG_DESC_HERE" Flag="0">
+  <Element ID="4534" Key="UI_BUG_DESC_HERE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BUG</Group>
@@ -70825,7 +71280,12 @@
       <Output>Opis błędu tutaj.</Output>
     </Texts>
   </Element>
-  <Element ID="4535" Key="UI_SEND" Flag="0">
+  <Element ID="4535" Key="UI_SEND" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SEND</Group>
@@ -70835,7 +71295,12 @@
       <Output>Wyślij</Output>
     </Texts>
   </Element>
-  <Element ID="4536" Key="UI_IGNORE" Flag="0">
+  <Element ID="4536" Key="UI_IGNORE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:31</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_IGNORE</Group>
@@ -70845,7 +71310,12 @@
       <Output>Ignoruj</Output>
     </Texts>
   </Element>
-  <Element ID="4537" Key="UI_CONNECTION_OPTIONS" Flag="0">
+  <Element ID="4537" Key="UI_CONNECTION_OPTIONS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:33</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONNECTION</Group>
@@ -70856,7 +71326,12 @@
       <Output>Opcje połączenia</Output>
     </Texts>
   </Element>
-  <Element ID="4538" Key="UI_CONNECTION_TYPE" Flag="0">
+  <Element ID="4538" Key="UI_CONNECTION_TYPE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:37</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONNECTION</Group>
@@ -70867,7 +71342,12 @@
       <Output>Typ połączenia:</Output>
     </Texts>
   </Element>
-  <Element ID="4539" Key="UI_CONNECTION_PORT" Flag="0">
+  <Element ID="4539" Key="UI_CONNECTION_PORT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:39</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONNECTION</Group>
@@ -70878,7 +71358,12 @@
       <Output>Port połączenia:</Output>
     </Texts>
   </Element>
-  <Element ID="4540" Key="UI_SELECT_CONNECTION_TYPE" Flag="0">
+  <Element ID="4540" Key="UI_SELECT_CONNECTION_TYPE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:41</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -70890,7 +71375,12 @@
       <Output>Wybierz typ połączenia…</Output>
     </Texts>
   </Element>
-  <Element ID="4541" Key="UI_IP_AND_PORT" Flag="0">
+  <Element ID="4541" Key="UI_IP_AND_PORT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_IP</Group>
@@ -70902,7 +71392,12 @@
       <Output>Adres IP i port:</Output>
     </Texts>
   </Element>
-  <Element ID="4542" Key="UI_PORT_EXAMPLE" Flag="0">
+  <Element ID="4542" Key="UI_PORT_EXAMPLE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:14:58</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PORT</Group>
@@ -70913,7 +71408,12 @@
       <Output>tj. 9999</Output>
     </Texts>
   </Element>
-  <Element ID="4543" Key="UI_IP_AND_PORT_EXAMPLE" Flag="0">
+  <Element ID="4543" Key="UI_IP_AND_PORT_EXAMPLE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:06</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_IP</Group>
@@ -70926,7 +71426,12 @@
       <Output>tj. 192.168.0.1:9999</Output>
     </Texts>
   </Element>
-  <Element ID="4544" Key="UI_SERVER_NAME" Flag="0">
+  <Element ID="4544" Key="UI_SERVER_NAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:09</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SERVER</Group>
@@ -70937,7 +71442,12 @@
       <Output>Nazwa serwera:</Output>
     </Texts>
   </Element>
-  <Element ID="4545" Key="UI_ENTER_NAME" Flag="0">
+  <Element ID="4545" Key="UI_ENTER_NAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:11</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -70948,7 +71458,12 @@
       <Output>Wprowadź nazwę…</Output>
     </Texts>
   </Element>
-  <Element ID="4546" Key="UI_ENTER_NEW_NAME" Flag="0">
+  <Element ID="4546" Key="UI_ENTER_NEW_NAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:12</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -70960,7 +71475,12 @@
       <Output>Wprowadź nazwę…</Output>
     </Texts>
   </Element>
-  <Element ID="4547" Key="UI_ENTER_NEW_NAME_INFO" Flag="0">
+  <Element ID="4547" Key="UI_ENTER_NEW_NAME_INFO" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:15</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -70973,7 +71493,12 @@
       <Output>Wprowadź nazwę w polu poniżej.</Output>
     </Texts>
   </Element>
-  <Element ID="4548" Key="UI_PASSWORD" Flag="0">
+  <Element ID="4548" Key="UI_PASSWORD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PASSWORD</Group>
@@ -70983,7 +71508,12 @@
       <Output>Hasło (opcjonalnie):</Output>
     </Texts>
   </Element>
-  <Element ID="4549" Key="UI_ENTER_PASSWORD" Flag="0">
+  <Element ID="4549" Key="UI_ENTER_PASSWORD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:18</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -70994,7 +71524,12 @@
       <Output>Wprowadź hasło ...</Output>
     </Texts>
   </Element>
-  <Element ID="4550" Key="UI_REGION_PREFERENCE" Flag="0">
+  <Element ID="4550" Key="UI_REGION_PREFERENCE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:20</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REGION</Group>
@@ -71005,7 +71540,12 @@
       <Output>Preferencja regionu: \n(brak dla automatycznego)</Output>
     </Texts>
   </Element>
-  <Element ID="4551" Key="UI_SELECT_REGION" Flag="0">
+  <Element ID="4551" Key="UI_SELECT_REGION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:22</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -71016,7 +71556,12 @@
       <Output>Wybierz region ...</Output>
     </Texts>
   </Element>
-  <Element ID="4552" Key="UI_CONNECTION_STATUS" Flag="0">
+  <Element ID="4552" Key="UI_CONNECTION_STATUS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CONNECTION</Group>
@@ -71027,7 +71572,12 @@
       <Output>Status połączenia:</Output>
     </Texts>
   </Element>
-  <Element ID="4553" Key="UI_LOADING" Flag="0">
+  <Element ID="4553" Key="UI_LOADING" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOADING</Group>
@@ -71037,7 +71587,12 @@
       <Output>Ładowanie ...</Output>
     </Texts>
   </Element>
-  <Element ID="4554" Key="UI_DZIEVANNA" Flag="0">
+  <Element ID="4554" Key="UI_DZIEVANNA" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:15:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DZIEVANNA</Group>
@@ -71047,17 +71602,27 @@
       <Output>Dziewanna</Output>
     </Texts>
   </Element>
-  <Element ID="4555" Key="UI_DZIEVANNA_DES" Flag="0">
+  <Element ID="4555" Key="UI_DZIEVANNA_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:21:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DZIEVANNA</Group>
     </Groups>
     <Texts>
       <Input>I walk in the watchful shadow of the old mother earth who lies silent. I listen to her whispers and sing her songs. Mistress of the forests, spirit of nature, lady of the earth - those are the names mortals call me. But do not be fooled by the beauty of my domain, by the desire to uphold life and treasure balance above all.\n\nNature is not your calmly mother. Cross my path in defiance of the eternal laws and you will learn the fury of the forests. For I am also the huntress. Silent and vigilant, true to my cause and unwavering in my resolve. Defile my domain at your own peril and taste the whisper of the forest at your shoulder before death comes for you!\n\nWalk with me amongst the trees if you dare.</Input>
-      <Output>Idę w czujnym cieniu starej matki ziemi, która milczy. Słucham jej szeptów i śpiewam jej piosenki. Pani lasów, duch natury, pani ziemi - tak nazywają mnie śmiertelnicy. Ale nie dajcie się zwieść pięknu mojej domeny, pragnieniu utrzymania równowagi życia i skarbu ponad wszystko. \n\nNatura nie jest twoją spokojną matką. Przekrocz moją ścieżkę, sprzeciwiając się odwiecznym prawom i poznasz furię lasów. Bo ja też jestem łowczynią. Cichy i czujny, wierny mojej sprawie i niezachwiany w moim postanowieniu. Zniszcz moją domenę na własne ryzyko i poczuj szept lasu na twoim ramieniu, zanim śmierć przyjdzie po ciebie! \n\nChodź ze mną wśród drzew, jeśli się odważysz.</Output>
+      <Output>Idę czujnie w cieniu starej matki ziemi, która milczy. Słucham jej szeptów i śpiewam jej piosenki. Pani lasów, duch natury, pani ziemi - tak nazywają mnie śmiertelnicy. Ale nie daj się zwieść pięknu mojej domeny i jej chęci utrzymania życia i równowagi ponad wszystko. \n\nNatura nie jest twoją spokojną i wybaczającą matką. Spróbuj tylko zejść z mojej drogi, sprzeciwiając się odwiecznym prawom, a poznasz co to furia lasów. Bo ja też jestem łowczynią. Cichą, czujną i wierną mojej sprawie. Niezachwianą w swoim postanowieniu. Zbrukaj moją domenę, a poczujesz szept lasu na twoim ramieniu, a tuż za nim śmierć! \n\nWyrusz ze mną w podróż pośród drzew, jeśli się odważysz.</Output>
     </Texts>
   </Element>
-  <Element ID="4556" Key="UI_HORZ" Flag="0">
+  <Element ID="4556" Key="UI_HORZ" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:21:40</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_HORZ</Group>
@@ -71067,17 +71632,27 @@
       <Output>Chors</Output>
     </Texts>
   </Element>
-  <Element ID="4557" Key="UI_HORZ_DES" Flag="0">
+  <Element ID="4557" Key="UI_HORZ_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:29:43</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_HORZ</Group>
     </Groups>
     <Texts>
       <Input>From the shadows of the night and the terrors of darkness ever lurking in the corners, I rise! Reborn anew in the weaves of the moon's magic, I stand as the master of the night and keeper of the moon. Monsters and beasts, demons and fiends they all roam my domain. It is up to me to keep them in check to rule, dominate and destroy those who disobey!\n\nI am a shadow stalker, a howler in the night. I run with the wolves and dance with the stars. I rule the dark to make sure the light does not conquer all. It is a task unloving, lonesome and cruel, but it is a path I will walk for as long as the moon hangs in the skies.\n\nDo not fear the darkness, master it!</Input>
-      <Output>Z cienia nocy i przerażenia ciemności, które zawsze czai się w rogach, wstaję! Odradzając się na nowo w splotach magii księżyca, stoję jako mistrz nocy i strażnik księżyca. Potwory, bestie, demony i diabły, które przemierzają moją domenę. Ode mnie zależy, czy będą je kontrolować, aby rządzić, dominować i niszczyć tych, którzy nie przestrzegają! \n\nJestem prześladowcą cieni, wyjec w nocy. Biegam z wilkami i tańczę z gwiazdami. Rządzę ciemnością, aby upewnić się, że światło nie zwycięży wszystkich. Jest to zadanie niekochające, samotne i okrutne, ale jest to ścieżka, którą będę kroczyć tak długo, jak księżyc będzie wisiał na niebie. \n\nNie bój się ciemności, opanuj to!</Output>
+      <Output>Pochodzę z cienia nocy i przerażenia ciemności, czających się w ciemnych kątach. Odradzając się na nowo, w splotach magii księżyca, stoję jako mistrz nocy i strażnik księżyca. Potwory, bestie, demony i diabły, panują w mojej domenie. To ja nimi rządzę i to na mój rozkaz niszczą tych, którzy mi się sprzeciwiają!\n\nJestem prześladowcą wśród cieni, mój głos słyszysz w nocy. Biegam z wilkami i tańczę z gwiazdami. Rządzę ciemnością, aby jasność nie zwyciężyła wszystkich. Podążam tą drogą samotnie, opierając się samotności i okrucieństwu, ale będę kroczyć tak długo, jak księżyc będzie wisiał na niebie. \n\nNie bój się ciemności, zawładnij nią!</Output>
     </Texts>
   </Element>
-  <Element ID="4558" Key="UI_LADA" Flag="0">
+  <Element ID="4558" Key="UI_LADA" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:29:46</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LADA</Group>
@@ -71087,17 +71662,27 @@
       <Output>Łada</Output>
     </Texts>
   </Element>
-  <Element ID="4559" Key="UI_LADA_DES" Flag="0">
+  <Element ID="4559" Key="UI_LADA_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:37:51</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LADA</Group>
     </Groups>
     <Texts>
       <Input>I was born in the darkest hour of our land, from the seed of hope held in the hearts of our people. The long night sought to diminish all light and love from our hearts, but it could not do so. In the absence of the father who once led us and the mother who was our keeper, I now stand at the head of our pantheon, so that hope remains in the times of the ever-persistent turmoil.\n\nMistake me not for a fragile flower seeking only the fertile ground to spawn its seeds. Beauty and hope can yet turn their blossoming petals into shards of steel and thunder when the time is right. The path of peace is rarely peaceful.\n\nBut if your heart beats strong and your will is made of iron, join me on the road to harmony.</Input>
-      <Output>Urodziłem się w najciemniejszej godzinie naszej ziemi, z ziarna nadziei w sercach naszych ludzi. Długa noc miała na celu zmniejszenie wszelkiego światła i miłości z naszych serc, ale nie mogła tego zrobić. Pod nieobecność ojca, który kiedyś nas prowadził, i matki, która była naszym opiekunem, teraz stoję na czele naszego panteonu, tak że nadzieja pozostaje w czasach nieustającego zawirowania. \n\nNie myl mnie z tym, że delikatny kwiat szuka tylko żyznej ziemi, by wyrosnąć na nim nasiona. Piękno i nadzieja mogą jeszcze zamienić ich kwitnące płatki w odłamki stali i grzmoty, gdy nadejdzie odpowiedni czas. Droga pokoju rzadko jest spokojna. \n\nAle jeśli twoje serce bije mocno, a twoja wola jest z żelaza, dołącz do mnie na drodze do harmonii.</Output>
+      <Output>Urodziłam się w najciemniejszej godzinie naszej ziemi, z ziarna nadziei, w sercach naszych ludzi. Wieczna noc chciała usunąć wszelkie światło i miłość z naszych serce, ale nie udało jej się. , Teraz ja stoję na czele naszego panteonu. Pod nieobecność ojca, który kiedyś nas prowadził, i matki, która była naszym opiekunem. Dzięki mnie, nadzieja cały czas istnieje w tych ciężkich czasach wiecznego zawirowania. \n\nNie patrz jednak na mnie jak na delikatny kwiat szukający żyznej ziemi. Piękno i nadzieja kwitnących płatków zamienią się w odłamki stali i grzmoty, gdy właściwy czas nadejdzie. Droga pokoju rzadko jest spokojna. \n\nAle jeśli twoje serce bije mocno, a twoja wola jest z żelaza, dołącz do mnie na drodze do harmonii.</Output>
     </Texts>
   </Element>
-  <Element ID="4560" Key="UI_MAROVIT" Flag="0">
+  <Element ID="4560" Key="UI_MAROVIT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:37:53</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MAROVIT</Group>
@@ -71107,17 +71692,27 @@
       <Output>Marowit</Output>
     </Texts>
   </Element>
-  <Element ID="4561" Key="UI_MAROVIT_DES" Flag="0">
+  <Element ID="4561" Key="UI_MAROVIT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:44:17</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MAROVIT</Group>
     </Groups>
     <Texts>
       <Input>Wisdom and knowledge flow in unsteady currents through our world, and I am their student. I seek no dominance, nor claim to hold the reins of such rivers, no. The mind and the soul will forever remain mysteries and we, be it mortals or eternals, we can only gaze upon the surface of the great oceans of understanding.\n\nSpirit walker, sage, keeper of the keys of knowledge and mysticism - those are the names childishly attached to my domains. I am but a mere servant of the wills of the ocean, a lone sailor seeking to enlighten others. Mortals forget that they are not the masters of our lands, they forget or reject it, but I am here to remind them all of the power of the otherworlds.\n\nSeek wisdom, fear not the unknown, wield the weaves of magic as your sword.</Input>
-      <Output>Mądrość i wiedza płyną w niestabilnych prądach przez nasz świat, a ja jestem ich uczniem. Nie szukam dominacji ani nie twierdzę, że trzymam lejce takich rzek, nie. Umysł i dusza na zawsze pozostaną tajemnicami, a my, czy to śmiertelnicy czy wieczni, możemy tylko patrzeć na powierzchnię wielkich oceanów zrozumienia. \n\nDuchowy piechur, mędrzec, strażnik kluczy wiedzy i mistycyzmu - to imiona dziecinnie związane z moimi domenami. Jestem jedynie sługą woli oceanu, samotnym marynarzem, który stara się oświecić innych. Śmiertelnicy zapominają, że nie są mistrzami naszych ziem, zapominają o nich lub je odrzucają, ale ja jestem tutaj, aby przypomnieć im całą moc innych światów. \n\nSzukaj mądrości, nie lękaj się nieznanego, dzierź sploty magii jako swój miecz.</Output>
+      <Output>Mądrość i wiedza płyną w niestabilnych nurtach przez nasz świat, a ja jestem ich uczniem. Nie szukam władzy, ani nie twierdzę, że kieruję prądem rzek, nie. Umysł i dusza na zawsze pozostaną tajemnicami, a my, czy to śmiertelnicy czy wieczni, możemy tylko patrzeć na wielkie oceany mądrości. \n\nDuchowy piechur, mędrzec, strażnik kluczy wiedzy i mistycyzmu - to błahe imiona związane z moimi domenami. A ja jestem jedynie sługą woli oceanów, samotnym marynarzem, który stara się oświecić innych. Śmiertelnicy zapominają, że nie są władcami naszych ziem, zapominają o nich lub je odrzucają, ale ja jestem tutaj, aby przypomnieć im z całą mocą o innych światach. \n\nSzukaj mądrości, nie lękaj się nieznanego, trzymaj strumienie magii jako swój miecz.</Output>
     </Texts>
   </Element>
-  <Element ID="4562" Key="UI_NYIA" Flag="0">
+  <Element ID="4562" Key="UI_NYIA" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:44:19</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NYIA</Group>
@@ -71127,17 +71722,27 @@
       <Output>Nyja</Output>
     </Texts>
   </Element>
-  <Element ID="4563" Key="UI_NYIA_DES" Flag="0">
+  <Element ID="4563" Key="UI_NYIA_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:50:43</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NYIA</Group>
     </Groups>
     <Texts>
       <Input>Forgotten, abandoned, diminished, alone... For centuries I was but a mere memory... Nay not even that. But the lady of winter is no more, the master of the underworlds is gone. And finally, I take my place once more. Mistress of death, bringer of sorrow, keeper of solace and demise.\n\nOnly I can traverse the lands of the dead - the navyas, only I can carry the souls of the faithful to their homes and peace. Yet it is not a service well received. I do not mourn for the dead, I do not weep for the dying, it is all as it should be, as it was made to be - and sometimes, when the laws are broken, death will be served by my hand. I have suffered in the darkness. Now I bring suffering and its end, infinitely.\n\nJoin me? Why would you, fool?</Input>
-      <Output>Zapomniany, opuszczony, pomniejszony, sam ... Przez wieki byłem tylko zwykłym wspomnieniem ... Nie nawet tego. Ale pani zimy już nie ma, mistrza podziemi już nie ma. I wreszcie znów zajmuję swoje miejsce. Mistrzyni śmierci, zwiastunka smutku, opiekunka pocieszenia i śmierci. \n\nTylko ja mogę przemierzać ziemie umarłych - navy, tylko ja mogę nieść dusze wiernych do ich domów i pokoju. Jednak nie jest to usługa dobrze przyjęta. Nie opłakuję zmarłych, nie płaczę nad umierającymi, wszystko jest tak, jak powinno być, tak jak zostało stworzone - a czasami, kiedy prawa są łamane, śmierć będzie obsługiwana przez moją rękę. Cierpiałem w ciemności. Teraz nieskończenie przynoszę cierpienie i jego koniec. \n\nDołącz do mnie? Dlaczego, głupcze?</Output>
+      <Output>Zapomniana, opuszczona, lekceważona, samotna ... Przez wieki byłam tylko zwykłym wspomnieniem ... Nawet nie tym. Ale pani zimy już nie ma, tak jak i mistrza podziemi. Wreszcie, znów mogę zająć swoje miejsce. Mistrzyni śmierci, zwiastunka smutku, opiekunka pocieszenia i śmierci. \n\nTylko ja mogę przemierzać ziemie umarłych - Nawy, tylko ja mogę zanieść dusze wiernych do ich domów i miejsca wiecznego odpoczynku. Niezbyt mnie jednak ludzie za to lubią. Nie opłakuję zmarłych, nie płaczę nad umierającymi. Wszystko jest tak, jak powinno być, tak jak zostało stworzone. A jeśli ktoś łamie prawa? Moja ręka za dotykiem śmierci wszystko naprawi. Kiedyś cierpiałam w ciemności, a teraz przynoszę cierpienie i jego koniec. \n\nChcesz dołączyć do mnie? Dlaczego, głupcze?</Output>
     </Texts>
   </Element>
-  <Element ID="4564" Key="UI_STRIBOG" Flag="0">
+  <Element ID="4564" Key="UI_STRIBOG" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 11:50:46</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_STRIBOG</Group>
@@ -71147,17 +71752,27 @@
       <Output>Strzybóg</Output>
     </Texts>
   </Element>
-  <Element ID="4565" Key="UI_STRIBOG_DES" Flag="0">
+  <Element ID="4565" Key="UI_STRIBOG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:02:17</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_STRIBOG</Group>
     </Groups>
     <Texts>
       <Input>The world has shattered, earth has moved and oceans flooded our homes. No longer can we stay in one place, we must move, conquer, explore! From the winds of the north I bear the ice will to fight. From the winds of the west I will bless your travels with swiftness. From the currents of the east I will whisper wisdom and from the warm embrace of the southern breeze I will give comfort on your journey forwards.\n\nI was once a spirit of the winds, free, wild and untamed - but I heard the call of the cosmic tree as the earth crumbled beneath it. I was called by my brothers and sisters, I was called by my people who raised their hands to the skies and asked for good winds. I am now the god of the journey, a pathfinder, a path giver and guide.\n\nCome with me into the winds and know true freedom.</Input>
-      <Output>Świat się rozpadł, ziemia się poruszyła, a oceany zalały nasze domy. Nie możemy już zostać w jednym miejscu, musimy się ruszyć, podbić, zbadać! Z wiatrów północy noszę lodową wolę walki. Z wiatrów zachodnich będę błogosławił twoje podróże z szybkością. Z prądów wschodnich będę szeptać mądrość, a dzięki ciepłemu uścisku południowego wiatru zapewniam komfort podczas podróży. \n\nByłem kiedyś duchem wiatrów, wolnym, dzikim i nieokiełznanym - ale usłyszałem wołanie kosmicznego drzewa, gdy ziemia się pod nim rozsypała. Zostałem wezwany przez moich braci i siostry, zostałem wezwany przez mój lud, który podniósł ręce do nieba i poprosił o dobre wiatry. Jestem teraz bogiem podróży, tropicielem, dawcą ścieżki i przewodnikiem. \n\nChodź ze mną na wiatry i poznaj prawdziwą wolność.</Output>
+      <Output>Świat się rozpadł, ziemia zadrżała, a oceany zalały nasze domy. Nie możemy już mieszkać w jednym miejscu, musimy się ruszyć żeby podbijać i odkrywać nieznane! Północne wiatry dadzą nam chłodną wolę walki. Zachodnie pasaty pokierują nasze łodzie ku nieznanemu. Prądy wschodne zabrzmią w naszych uszach szeptem mądrości, a ciepły uścisk południowego wiatru zapewni wygodę podczas podróży. \n\nByłem kiedyś duchem wiatrów, wolnym, dzikim i nieokiełznanym - ale usłyszałem wołanie kosmicznego drzewa, gdy ziemia się pod nim rozsypywała. Moi bracia i siostry mnie przywołali, podnieśli w górę ręce i poprosili o pomyślne wiatry. Jestem teraz bogiem podróży, tropicielem, drogowskazem i przewodnikiem. \n\nChodź ze mną i poznaj prawdziwą wolność.</Output>
     </Texts>
   </Element>
-  <Element ID="4566" Key="UI_SVAROG" Flag="0">
+  <Element ID="4566" Key="UI_SVAROG" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:02:21</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SVAROG</Group>
@@ -71167,17 +71782,27 @@
       <Output>Swaróg</Output>
     </Texts>
   </Element>
-  <Element ID="4567" Key="UI_SVAROG_DES" Flag="0">
+  <Element ID="4567" Key="UI_SVAROG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:09:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SVAROG</Group>
     </Groups>
     <Texts>
       <Input>From the flames of the sky and the ashes of darkness past, I rise to my duty! Sun god and master of heavenly fires - that is my honour to bear. But as I once wielded a warrior's garb I now know the true power of light and fire, the simple hearth that lights the homes and hearts of my flock.\n\nIt is not the power of the gods that will save our lands, but the power we can grant to our faithful. In the scorching flames of my domain rise the tools and weapons of true heroes, mortals and immortals alike, sworn to uphold my iron will.\n\nProtect those in need, never back down, never give in and never again allow darkness to rule over light!</Input>
-      <Output>Z płomieni nieba i popiołów z przeszłości ciemności wstaję do mego obowiązku! Bóg słońca i mistrz niebiańskich pożarów - to mój zaszczyt znieść. Ale kiedy kiedyś dzierżyłem strój wojownika, teraz znam prawdziwą moc światła i ognia, proste ognisko, które oświetla domy i serca mojej trzody. \n\nTo nie moc bogów uratuje nasze ziemie, ale moc, którą możemy dać naszym wiernym. W palących płomieniach mojej domeny powstają narzędzia i broń prawdziwych bohaterów, śmiertelników i nieśmiertelnych, przysięgających podtrzymać moją żelazną wolę. \n\nChroń tych, którzy są w potrzebie, nigdy się nie wycofuj, nigdy się nie poddawaj i nigdy więcej nie pozwól ciemności rządzić światłem!</Output>
+      <Output>Powstaję z płomieni nieba i popiołów mrocznej przeszłości! Bóg słońca i mistrz niebiańskich ogni. Kiedyś nosiłem strój wojownika, więc znam prawdziwą moc światła i ognia. Znam też wartość ogniska domowego, które oświetla domy i serca mojej trzody. \n\nTo nie bogowie uratują nasze ziemie, ale nasza moc, którą możemy dać wyznawcom. W palących płomieniach mojej domeny powstają narzędzia i broń prawdziwych bohaterów, śmiertelników i nieśmiertelnych, przysięgłych podtrzymać moją żelazną wolę. \n\nOchroń tych, którzy są w potrzebie. Nigdy się nie wycofuj i nie poddawaj. Nie pozwól ciemności rządzić światłem!</Output>
     </Texts>
   </Element>
-  <Element ID="4568" Key="UI_TRIGLAV" Flag="0">
+  <Element ID="4568" Key="UI_TRIGLAV" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:09:38</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TRIGLAV</Group>
@@ -71187,17 +71812,27 @@
       <Output>Trzygłów</Output>
     </Texts>
   </Element>
-  <Element ID="4569" Key="UI_TRIGLAV_DES" Flag="0">
+  <Element ID="4569" Key="UI_TRIGLAV_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:24:47</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TRIGLAV</Group>
     </Groups>
     <Texts>
       <Input>Argh! From the scorching lava seeping out of the ashes of our land, I was forged! Veins of wrath pulsate throughout my body with rage and purpose. My stone hearts beat in unison, my minds meld into one vision, my fists are driven trifold. I do not know who raised me from the darkness. I do not know why our hearts melt with anger, but I am ready to stand and fight against any who will dare to oppose us!\n\nA new force rises to devour Thea once again and I will stand in its way. This is why I have risen from fire. Walk with me into war, burn our enemies to the ground, melt away those who seek to wound us, crush whoever stands in the path of divine justice and wrath.\n\nAnd you? You are to bow before me and obey!</Input>
-      <Output>Argh! Z palącej się lawy, wysypującej się z popiołów naszej ziemi, zostałem wykuty! Żyły gniewu pulsują w moim ciele z wściekłością i celem. Moje kamienne serca biły unisono, moje umysły łączą się w jedną wizję, moje pięści są napędzane potrójnie. Nie wiem, kto mnie wychował z ciemności. Nie wiem, dlaczego nasze serca rozpływają się w gniewie, ale jestem gotów stanąć i walczyć z każdym, kto ośmieli się sprzeciwić nam! \n\nNowa siła wznosi się, by ponownie pożreć Theę i stanę na jej drodze. Dlatego powstałem z ognia. Idź ze mną na wojnę, spal naszych wrogów na ziemię, rozpuść tych, którzy chcą nas zranić, zmiażdżyć każdego, kto stanie na drodze boskiej sprawiedliwości i gniewu. \n\nA ty? Masz się ukłonić przede mną i być posłusznym!</Output>
+      <Output>Ach! Z palącej lawy, wypływającej z popiołów naszej ziemi, wykuty zostałem! Żyły gniewu pulsują we mnie z wściekłością. Moje kamienne serca biją jednocześnie, moje umysły łączą się w jedną wizję. Moje pięści są potrójnie rozwścieczone. Nie wiem, kto przyzwał mnie z ciemności. Nie wiem, dlaczego moje serca rozpływają się w gniewie, ale jestem gotów stanąć i walczyć z każdym, kto ośmieli się nam sprzeciwić! \n\nNowa siła rośnie, by ponownie pożreć Theę, a ja stanę na jej drodze. Powstałem z ognia. Chodź ze mną na wojnę, spal naszych wrogów na popiół. Rozpuść tych, którzy chcą nas zranić i zmiażdż każdego, kto stanie na drodze boskiego gniewu i sprawiedliwości. \n\nA ty? Pokłoń się i bądź posłusznym!</Output>
     </Texts>
   </Element>
-  <Element ID="4570" Key="UI_ZORYA" Flag="0">
+  <Element ID="4570" Key="UI_ZORYA" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:25:12</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ZORYA</Group>
@@ -71207,17 +71842,27 @@
       <Output>Zoria</Output>
     </Texts>
   </Element>
-  <Element ID="4571" Key="UI_ZORYA_DES" Flag="0">
+  <Element ID="4571" Key="UI_ZORYA_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:40</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ZORYA</Group>
     </Groups>
     <Texts>
       <Input>My father claims the right to be master of light and the sun, but it is we who ride the night skies in their infinity! The morning star rises far and faded, it is subtle and ever watchful of her enemies. The noon star hangs low and heavy, ready to rush into combat and devour its enemies. The evening star lights up the skies and readies for war! Zorya, Zorza, the Auroras, all names given to us by those brave enough to follow!\n\nI am the bright blade of the night and the shining gauntlet of the day. I hold the beast that would devour our world in my palm and I laugh in the face of the enemy. Be bold, be brutal and swift.\n\nEnemies of balance grow in strength once more, I will tear them apart and devour their entrails! Join me!</Input>
-      <Output>Mój ojciec twierdzi, że ma prawo być mistrzem światła i słońca, ale to my jedziemy na niebie w nieskończoność! Gwiazda poranna wznosi się daleko i wyblakła, jest subtelna i zawsze czujna wobec swoich wrogów. Gwiazda południa wisi nisko i ciężko, gotowa do walki i pożerania wrogów. Wieczorna gwiazda rozświetla niebo i przygotowuje się na wojnę! Zorya, Zorza, Auroras, wszystkie imiona nadane nam przez tych, którzy są na tyle odważni, by ich śledzić! \n\nJestem jasnym ostrzem nocy i lśniącą rękawicą dnia. Trzymam bestię, która pożre nasz świat w mojej dłoni i śmieję się w obliczu wroga. Bądź odważny, brutalny i szybki. \n\nWrogowie równowagi znów rosną w siłę, rozerwę ich na strzępy i pochłonę ich wnętrzności! Dołącz do mnie!</Output>
+      <Output>Mój ojciec twierdzi, że ma prawo być panem światła i słońca, ale to my rządzimy na na nocnym niebie! Wyblakła Gwiazda Poranna wznosi się daleko. Jest subtelna i zawsze czujna wobec swoich wrogów. Gwiazda Południa wisi nisko i złowieszczo, gotowa walczyć i pożerać wrogów. Wieczorna gwiazda rozświetla niebo i gotuje się na wojnę! Zorya, Zorza, Auroras, wszystkie imiona nadane nam przez tych, którzy są na tyle odważni, by nas śledzić! \n\nJestem jasnym ostrzem nocy i lśniącą rękawicą dnia. W dłoni noszę bestię, która pożarłaby nasz świat, a gdy widzę wroga, śmieję się w niebogłosy. Masz być odważny, brutalny i szybki. \n\nWrogowie równowagi znów rosną w siłę. Rozerwę ich na strzępy i pochłonę ich wnętrzności! Dołącz do mnie!</Output>
     </Texts>
   </Element>
-  <Element ID="4572" Key="UI_LOAD_A_SAVED_GAME" Flag="0">
+  <Element ID="4572" Key="UI_LOAD_A_SAVED_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:43</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOAD</Group>
@@ -71230,7 +71875,12 @@
       <Output>Załaduj zapisaną grę</Output>
     </Texts>
   </Element>
-  <Element ID="4573" Key="UI_SAVED_GAMES" Flag="0">
+  <Element ID="4573" Key="UI_SAVED_GAMES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SAVED</Group>
@@ -71241,7 +71891,12 @@
       <Output>Zapisane gry</Output>
     </Texts>
   </Element>
-  <Element ID="4574" Key="UI_GAME_SETTINGS" Flag="0">
+  <Element ID="4574" Key="UI_GAME_SETTINGS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:48</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GAME</Group>
@@ -71252,7 +71907,12 @@
       <Output>Ustawienia gry</Output>
     </Texts>
   </Element>
-  <Element ID="4575" Key="UI_GAME_VERSION" Flag="0">
+  <Element ID="4575" Key="UI_GAME_VERSION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:51</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GAME</Group>
@@ -71263,7 +71923,12 @@
       <Output>Wersja gry:</Output>
     </Texts>
   </Element>
-  <Element ID="4576" Key="UI_LOAD" Flag="0">
+  <Element ID="4576" Key="UI_LOAD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:53</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOAD</Group>
@@ -71273,7 +71938,12 @@
       <Output>Załaduj</Output>
     </Texts>
   </Element>
-  <Element ID="4577" Key="UI_MULTIPLAYER_LOBBY" Flag="0">
+  <Element ID="4577" Key="UI_MULTIPLAYER_LOBBY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MULTIPLAYER</Group>
@@ -71299,7 +71969,12 @@
       <Output>Gracze</Output>
     </Texts>
   </Element>
-  <Element ID="4579" Key="UI_ENTER_MESSAGE" Flag="0">
+  <Element ID="4579" Key="UI_ENTER_MESSAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:31:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -71355,7 +72030,12 @@
       <Output>Zapisz</Output>
     </Texts>
   </Element>
-  <Element ID="4583" Key="UI_ENTER_SAVE_NAME" Flag="0">
+  <Element ID="4583" Key="UI_ENTER_SAVE_NAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:17</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -71364,10 +72044,15 @@
     </Groups>
     <Texts>
       <Input>Enter Save Name…</Input>
-      <Output>Wpisz Zapisz nazwę…</Output>
+      <Output>Wpisz nazwę zapisu gry…</Output>
     </Texts>
   </Element>
-  <Element ID="4584" Key="UI_SAVE_GAME" Flag="0">
+  <Element ID="4584" Key="UI_SAVE_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SAVE</Group>
@@ -71378,7 +72063,12 @@
       <Output>Zapisz grę</Output>
     </Texts>
   </Element>
-  <Element ID="4585" Key="UI_WORLD_SETTINGS" Flag="0">
+  <Element ID="4585" Key="UI_WORLD_SETTINGS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:27</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WORLD</Group>
@@ -71389,7 +72079,12 @@
       <Output>Ustawienia świata</Output>
     </Texts>
   </Element>
-  <Element ID="4586" Key="UI_DIFFICULTY_SETTINGS" Flag="0">
+  <Element ID="4586" Key="UI_DIFFICULTY_SETTINGS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DIFFICULTY</Group>
@@ -71400,7 +72095,12 @@
       <Output>Ustawienia trudności</Output>
     </Texts>
   </Element>
-  <Element ID="4587" Key="UI_BONUSES" Flag="0">
+  <Element ID="4587" Key="UI_BONUSES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:31</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BONUSES</Group>
@@ -71410,7 +72110,12 @@
       <Output>Premie</Output>
     </Texts>
   </Element>
-  <Element ID="4588" Key="UI_BUILDINGS" Flag="0">
+  <Element ID="4588" Key="UI_BUILDINGS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:37</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BUILDINGS</Group>
@@ -71430,7 +72135,12 @@
       <Output>Zadania</Output>
     </Texts>
   </Element>
-  <Element ID="4590" Key="UI_CLOSE" Flag="0">
+  <Element ID="4590" Key="UI_CLOSE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:41</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CLOSE</Group>
@@ -71440,7 +72150,12 @@
       <Output>Zamknij</Output>
     </Texts>
   </Element>
-  <Element ID="4591" Key="UI_MANAGE_EQUIPMENT" Flag="0">
+  <Element ID="4591" Key="UI_MANAGE_EQUIPMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:50</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MANAGE</Group>
@@ -71448,10 +72163,15 @@
     </Groups>
     <Texts>
       <Input>Manage Equipment</Input>
-      <Output>Zarządzaj sprzętem</Output>
+      <Output>Zarządzaj ekwipunkiem</Output>
     </Texts>
   </Element>
-  <Element ID="4592" Key="UI_ATTRIBUTES" Flag="0">
+  <Element ID="4592" Key="UI_ATTRIBUTES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:52</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ATTRIBUTES</Group>
@@ -71461,7 +72181,12 @@
       <Output>Atrybuty</Output>
     </Texts>
   </Element>
-  <Element ID="4593" Key="UI_SKILLS" Flag="0">
+  <Element ID="4593" Key="UI_SKILLS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:32:54</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SKILLS</Group>
@@ -71471,27 +72196,42 @@
       <Output>Umiejętności</Output>
     </Texts>
   </Element>
-  <Element ID="4594" Key="UI_SUBSKILLS" Flag="0">
+  <Element ID="4594" Key="UI_SUBSKILLS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:11</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SUBSKILLS</Group>
     </Groups>
     <Texts>
       <Input>Sub-skills</Input>
-      <Output>Podkwalifikacje</Output>
+      <Output>Umiejętności dodatkowe</Output>
     </Texts>
   </Element>
-  <Element ID="4595" Key="UI_INNATE" Flag="0">
+  <Element ID="4595" Key="UI_INNATE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:20</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INNATE</Group>
     </Groups>
     <Texts>
       <Input>Innate</Input>
-      <Output>Wrodzona</Output>
+      <Output>Wrodzone</Output>
     </Texts>
   </Element>
-  <Element ID="4596" Key="UI_FROM_EQUIPMENT" Flag="0">
+  <Element ID="4596" Key="UI_FROM_EQUIPMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:26</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FROM</Group>
@@ -71499,10 +72239,15 @@
     </Groups>
     <Texts>
       <Input>From Equipment</Input>
-      <Output>Od sprzętu</Output>
+      <Output>Z ekwipunku</Output>
     </Texts>
   </Element>
-  <Element ID="4597" Key="UI_PASSIVE_EFFECTS" Flag="0">
+  <Element ID="4597" Key="UI_PASSIVE_EFFECTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PASSIVE</Group>
@@ -71513,7 +72258,12 @@
       <Output>Efekty</Output>
     </Texts>
   </Element>
-  <Element ID="4598" Key="UI_NOTES" Flag="0">
+  <Element ID="4598" Key="UI_NOTES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:30</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NOTES</Group>
@@ -71523,7 +72273,12 @@
       <Output>Uwagi</Output>
     </Texts>
   </Element>
-  <Element ID="4599" Key="UI_RESOURCES_RECOVERED" Flag="0">
+  <Element ID="4599" Key="UI_RESOURCES_RECOVERED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:38</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RESOURCES</Group>
@@ -71531,10 +72286,15 @@
     </Groups>
     <Texts>
       <Input>Resources recovered:</Input>
-      <Output>Odzyskane zasoby:</Output>
+      <Output>Odzyskane surowce:</Output>
     </Texts>
   </Element>
-  <Element ID="4600" Key="UI_ITEM_RECYCLED" Flag="0">
+  <Element ID="4600" Key="UI_ITEM_RECYCLED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:33:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ITEM</Group>
@@ -71545,7 +72305,12 @@
       <Output>Przedmiot poddany recyklingowi!</Output>
     </Texts>
   </Element>
-  <Element ID="4601" Key="UI_WAITING_FOR_SERVER" Flag="0">
+  <Element ID="4601" Key="UI_WAITING_FOR_SERVER" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:34:36</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WAITING</Group>
@@ -71557,7 +72322,12 @@
       <Output>Oczekiwanie na serwer ...</Output>
     </Texts>
   </Element>
-  <Element ID="4602" Key="UI_SCRIPT" Flag="0">
+  <Element ID="4602" Key="UI_SCRIPT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:04</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SCRIPT</Group>
@@ -71567,7 +72337,12 @@
       <Output>Skrypt</Output>
     </Texts>
   </Element>
-  <Element ID="4603" Key="UI_PARAMETER1" Flag="0">
+  <Element ID="4603" Key="UI_PARAMETER1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:05</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PARAMETER</Group>
@@ -71577,7 +72352,12 @@
       <Output>Parametr 1</Output>
     </Texts>
   </Element>
-  <Element ID="4604" Key="UI_PARAMETER2" Flag="0">
+  <Element ID="4604" Key="UI_PARAMETER2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PARAMETER</Group>
@@ -71587,7 +72367,12 @@
       <Output>Parametr 2</Output>
     </Texts>
   </Element>
-  <Element ID="4605" Key="UI_ENTER_A_NUMBER" Flag="0">
+  <Element ID="4605" Key="UI_ENTER_A_NUMBER" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:11</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -71596,10 +72381,15 @@
     </Groups>
     <Texts>
       <Input>Enter a number...</Input>
-      <Output>Wprowadź numer ...</Output>
+      <Output>Wprowadź ilosć...</Output>
     </Texts>
   </Element>
-  <Element ID="4606" Key="UI_AZ_SORT" Flag="0">
+  <Element ID="4606" Key="UI_AZ_SORT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_AZ</Group>
@@ -71739,7 +72529,12 @@
       <Output>Filtruj według</Output>
     </Texts>
   </Element>
-  <Element ID="4615" Key="UI_DIFFICULTY_HINT" Flag="0">
+  <Element ID="4615" Key="UI_DIFFICULTY_HINT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:45</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DIFFICULTY</Group>
@@ -71747,10 +72542,15 @@
     </Groups>
     <Texts>
       <Input>Difficulty Hint</Input>
-      <Output>Trudność Wskazówka</Output>
+      <Output>Wskazówka dotycząca trudności</Output>
     </Texts>
   </Element>
-  <Element ID="4616" Key="UI_DIALOGUE_GROUP" Flag="0">
+  <Element ID="4616" Key="UI_DIALOGUE_GROUP" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:53</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DIALOGUE</Group>
@@ -71758,10 +72558,15 @@
     </Groups>
     <Texts>
       <Input>Dialogue Group</Input>
-      <Output>Grupa dialogu</Output>
+      <Output>Grupa dialogowa</Output>
     </Texts>
   </Element>
-  <Element ID="4617" Key="UI_ASSIGN_TRAITS" Flag="0">
+  <Element ID="4617" Key="UI_ASSIGN_TRAITS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:35:54</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ASSIGN</Group>
@@ -71772,7 +72577,12 @@
       <Output>Przypisz cechy</Output>
     </Texts>
   </Element>
-  <Element ID="4618" Key="UI_BENEFITS_COST_LESS" Flag="0">
+  <Element ID="4618" Key="UI_BENEFITS_COST_LESS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:36:23</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BENEFITS</Group>
@@ -71781,10 +72591,15 @@
     </Groups>
     <Texts>
       <Input>Benefits from your god's domains cost less.</Input>
-      <Output>Korzyści z domen twojego boga kosztują mniej.</Output>
+      <Output>Bonusy z domen twojego bóstwa kosztują mniej.</Output>
     </Texts>
   </Element>
-  <Element ID="4619" Key="UI_START_GAME" Flag="0">
+  <Element ID="4619" Key="UI_START_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:36:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_START</Group>
@@ -71795,7 +72610,12 @@
       <Output>Rozpocznij grę</Output>
     </Texts>
   </Element>
-  <Element ID="4620" Key="UI_POWER_POINTS_LEFT" Flag="0">
+  <Element ID="4620" Key="UI_POWER_POINTS_LEFT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:36:33</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_POWER</Group>
@@ -71807,7 +72627,12 @@
       <Output>Pozostało punktów mocy: {SCRIPT:UIS_GlobalVar,GodPowerPointsLeft}</Output>
     </Texts>
   </Element>
-  <Element ID="4621" Key="UI_HOST_A_MULTIPLAYER_GAME" Flag="0">
+  <Element ID="4621" Key="UI_HOST_A_MULTIPLAYER_GAME" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:36:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_HOST</Group>
@@ -71855,7 +72680,12 @@
       <Output>Odbierz tekst ...</Output>
     </Texts>
   </Element>
-  <Element ID="4625" Key="UI_SET_IMAGE" Flag="0">
+  <Element ID="4625" Key="UI_SET_IMAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:36:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SET</Group>
@@ -71938,7 +72768,12 @@
       <Output>PB dla wszystkich graczy:</Output>
     </Texts>
   </Element>
-  <Element ID="4630" Key="UI_NAVIGATE_TO_ADVENTURE" Flag="0">
+  <Element ID="4630" Key="UI_NAVIGATE_TO_ADVENTURE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:36:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NAVIGATE</Group>
@@ -71947,10 +72782,15 @@
     </Groups>
     <Texts>
       <Input>Navigate to Adventure:</Input>
-      <Output>Nawiguj do przygody:</Output>
+      <Output>Przejdź do przygody:</Output>
     </Texts>
   </Element>
-  <Element ID="4631" Key="UI_CHALLENGE_TYPE" Flag="0">
+  <Element ID="4631" Key="UI_CHALLENGE_TYPE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CHALLENGE</Group>
@@ -71961,7 +72801,12 @@
       <Output>Typ wyzwania:</Output>
     </Texts>
   </Element>
-  <Element ID="4632" Key="UI_AUTOSCALE_BY_ENEMY" Flag="0">
+  <Element ID="4632" Key="UI_AUTOSCALE_BY_ENEMY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:05</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_AUTOSCALE</Group>
@@ -72064,7 +72909,12 @@
       <Output>Lista wyzwań:</Output>
     </Texts>
   </Element>
-  <Element ID="4641" Key="UI_CARGO_PERCENTAGE" Flag="0">
+  <Element ID="4641" Key="UI_CARGO_PERCENTAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:24</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CARGO</Group>
@@ -72075,7 +72925,12 @@
       <Output>Procent spadku ładunku:</Output>
     </Texts>
   </Element>
-  <Element ID="4642" Key="UI_DROP_CARGO_PERCENTAGE" Flag="0">
+  <Element ID="4642" Key="UI_DROP_CARGO_PERCENTAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:40</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DROP</Group>
@@ -72084,10 +72939,15 @@
     </Groups>
     <Texts>
       <Input>Body Drop Percentage:</Input>
-      <Output>Procent upuszczenia ciała:</Output>
+      <Output>Procent obniżenia zdrowia:</Output>
     </Texts>
   </Element>
-  <Element ID="4643" Key="UI_TARGET_GROUP" Flag="0">
+  <Element ID="4643" Key="UI_TARGET_GROUP" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:42</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TARGET</Group>
@@ -72134,7 +72994,12 @@
       <Output>Destroy Event Owner:</Output>
     </Texts>
   </Element>
-  <Element ID="4647" Key="UI_MIN_RADIUS" Flag="0">
+  <Element ID="4647" Key="UI_MIN_RADIUS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:46</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MIN</Group>
@@ -72160,7 +73025,12 @@
       <Output>Biom:</Output>
     </Texts>
   </Element>
-  <Element ID="4649" Key="UI_LINKED_EVENT" Flag="0">
+  <Element ID="4649" Key="UI_LINKED_EVENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:48</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LINKED</Group>
@@ -72168,10 +73038,15 @@
     </Groups>
     <Texts>
       <Input>Linked Event:</Input>
-      <Output>Powiązane wydarzenie:</Output>
+      <Output>Powiązane zdarzenie:</Output>
     </Texts>
   </Element>
-  <Element ID="4650" Key="UI_EVENT_TYPE" Flag="0">
+  <Element ID="4650" Key="UI_EVENT_TYPE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:50</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EVENT</Group>
@@ -72182,7 +73057,12 @@
       <Output>Typ zdarzenia:</Output>
     </Texts>
   </Element>
-  <Element ID="4651" Key="UI_INTERRUPT" Flag="0">
+  <Element ID="4651" Key="UI_INTERRUPT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:37:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INTERRUPT</Group>
@@ -72213,7 +73093,12 @@
       <Output>Generic grupy</Output>
     </Texts>
   </Element>
-  <Element ID="4654" Key="UI_EXPEDITION" Flag="0">
+  <Element ID="4654" Key="UI_EXPEDITION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:04</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EXPEDITION</Group>
@@ -72294,7 +73179,12 @@
       <Output>Legenda</Output>
     </Texts>
   </Element>
-  <Element ID="4660" Key="UI_MOUSE_ZOOM_OUT" Flag="0">
+  <Element ID="4660" Key="UI_MOUSE_ZOOM_OUT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:09</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MOUSE</Group>
@@ -72306,7 +73196,12 @@
       <Output>Środkowy przycisk myszy - pomniejszenie</Output>
     </Texts>
   </Element>
-  <Element ID="4661" Key="UI_DONT_SHOW_AGAIN" Flag="0">
+  <Element ID="4661" Key="UI_DONT_SHOW_AGAIN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:14</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DONT</Group>
@@ -72318,7 +73213,12 @@
       <Output>Nie pokazuj więcej</Output>
     </Texts>
   </Element>
-  <Element ID="4662" Key="UI_UNSPENT_AP" Flag="0">
+  <Element ID="4662" Key="UI_UNSPENT_AP" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:18</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNSPENT</Group>
@@ -72329,7 +73229,12 @@
       <Output>Niewykorzystane punkty akcji</Output>
     </Texts>
   </Element>
-  <Element ID="4663" Key="UI_UNSPENT_AP1" Flag="0">
+  <Element ID="4663" Key="UI_UNSPENT_AP1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:21</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNSPENT</Group>
@@ -72340,7 +73245,12 @@
       <Output>Czy na pewno chcesz zakończyć swoją turę? \nNadal masz kilka punktów akcji!</Output>
     </Texts>
   </Element>
-  <Element ID="4664" Key="UI_UNSPENT_AP2" Flag="0">
+  <Element ID="4664" Key="UI_UNSPENT_AP2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNSPENT</Group>
@@ -72351,7 +73261,12 @@
       <Output>Niewykorzystane punkty akcji zostaną przeniesione do następnej fazy przygotowawczej.</Output>
     </Texts>
   </Element>
-  <Element ID="4665" Key="UI_ASSIGN" Flag="0">
+  <Element ID="4665" Key="UI_ASSIGN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:38:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ASSIGN</Group>
@@ -72361,7 +73276,12 @@
       <Output>Przypisz</Output>
     </Texts>
   </Element>
-  <Element ID="4666" Key="UI_COOKING_AND_COMPOSITES" Flag="0">
+  <Element ID="4666" Key="UI_COOKING_AND_COMPOSITES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:39:27</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_COOKING</Group>
@@ -72370,10 +73290,15 @@
     </Groups>
     <Texts>
       <Input>Cooking and Composites</Input>
-      <Output>Gotowanie i kompozyty</Output>
+      <Output>Gotowanie i komponenty</Output>
     </Texts>
   </Element>
-  <Element ID="4667" Key="UI_CRAFTING" Flag="0">
+  <Element ID="4667" Key="UI_CRAFTING" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:39:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CRAFTING</Group>
@@ -72383,14 +73308,19 @@
       <Output>Rzemiosło</Output>
     </Texts>
   </Element>
-  <Element ID="4668" Key="UI_EXPLORING" Flag="0">
+  <Element ID="4668" Key="UI_EXPLORING" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:39:31</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EXPLORING</Group>
     </Groups>
     <Texts>
       <Input>Exploring</Input>
-      <Output>Eksplorowanie</Output>
+      <Output>Eksploracja</Output>
     </Texts>
   </Element>
   <Element ID="4669" Key="UI_AVAILABLE_WORKERS" Flag="1">
@@ -72409,7 +73339,12 @@
       <Output>Dostępni pracownicy</Output>
     </Texts>
   </Element>
-  <Element ID="4670" Key="UI_FAVOURITES" Flag="0">
+  <Element ID="4670" Key="UI_FAVOURITES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:39:42</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FAVOURITES</Group>
@@ -72419,7 +73354,12 @@
       <Output>Ulubione</Output>
     </Texts>
   </Element>
-  <Element ID="4671" Key="UI_COOKING_MODE" Flag="0">
+  <Element ID="4671" Key="UI_COOKING_MODE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:39:44</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_COOKING</Group>
@@ -72446,7 +73386,12 @@
       <Output>Nowe zadanie</Output>
     </Texts>
   </Element>
-  <Element ID="4673" Key="UI_ASSIGN_WORKERS" Flag="0">
+  <Element ID="4673" Key="UI_ASSIGN_WORKERS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:39:47</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ASSIGN</Group>
@@ -72474,7 +73419,12 @@
       <Output>Utwórz nowy element</Output>
     </Texts>
   </Element>
-  <Element ID="4675" Key="UI_COMPATIBLE_RESOURCES" Flag="0">
+  <Element ID="4675" Key="UI_COMPATIBLE_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:06</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_COMPATIBLE</Group>
@@ -72482,10 +73432,15 @@
     </Groups>
     <Texts>
       <Input>Compatible Resources</Input>
-      <Output>Kompatybilne zasoby</Output>
+      <Output>Kompatybilne surowce</Output>
     </Texts>
   </Element>
-  <Element ID="4676" Key="UI_PRIMARY_MATERIAL" Flag="0">
+  <Element ID="4676" Key="UI_PRIMARY_MATERIAL" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:09</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PRIMARY</Group>
@@ -72496,7 +73451,12 @@
       <Output>Materiał podstawowy</Output>
     </Texts>
   </Element>
-  <Element ID="4677" Key="UI_SECONDARY_MATERIAL" Flag="0">
+  <Element ID="4677" Key="UI_SECONDARY_MATERIAL" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:11</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SECONDARY</Group>
@@ -72507,7 +73467,12 @@
       <Output>Materiał pomocniczy</Output>
     </Texts>
   </Element>
-  <Element ID="4678" Key="UI_ASSIGN_A_SKILL" Flag="0">
+  <Element ID="4678" Key="UI_ASSIGN_A_SKILL" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:14</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ASSIGN</Group>
@@ -72519,7 +73484,12 @@
       <Output>Przypisz umiejętność</Output>
     </Texts>
   </Element>
-  <Element ID="4679" Key="UI_INVITE_OTHER_PLAYERS_TO_EVENT" Flag="0">
+  <Element ID="4679" Key="UI_INVITE_OTHER_PLAYERS_TO_EVENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INVITE</Group>
@@ -72530,7 +73500,7 @@
     </Groups>
     <Texts>
       <Input>Invite other players to this event?</Input>
-      <Output>Zaproś innych graczy na to wydarzenie?</Output>
+      <Output>Zaprosić innych graczy na to wydarzenie?</Output>
     </Texts>
   </Element>
   <Element ID="4680" Key="UI_INVITE" Flag="1">
@@ -72621,7 +73591,12 @@
       <Output>Udział w wydarzeniu:</Output>
     </Texts>
   </Element>
-  <Element ID="4686" Key="UI_JOINING_IS_FORCED" Flag="0">
+  <Element ID="4686" Key="UI_JOINING_IS_FORCED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:30</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_JOINING</Group>
@@ -72650,7 +73625,12 @@
       <Output>Wszyscy gracze</Output>
     </Texts>
   </Element>
-  <Element ID="4688" Key="UI_INCLUDE_NEARBY_ALLY_GROUPS" Flag="0">
+  <Element ID="4688" Key="UI_INCLUDE_NEARBY_ALLY_GROUPS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:33</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INCLUDE</Group>
@@ -72663,7 +73643,12 @@
       <Output>Pobliskie grupy sojuszników</Output>
     </Texts>
   </Element>
-  <Element ID="4689" Key="UI_INCLUDE_NEARBY_OWN_GROUPS" Flag="0">
+  <Element ID="4689" Key="UI_INCLUDE_NEARBY_OWN_GROUPS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:40:42</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INCLUDE</Group>
@@ -72673,10 +73658,15 @@
     </Groups>
     <Texts>
       <Input>Nearby own groups</Input>
-      <Output>W pobliżu własne grupy</Output>
+      <Output>Pobliskie własne grupy</Output>
     </Texts>
   </Element>
-  <Element ID="4690" Key="UI_JOINING_RANGE" Flag="0">
+  <Element ID="4690" Key="UI_JOINING_RANGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:41:19</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_JOINING</Group>
@@ -72684,10 +73674,15 @@
     </Groups>
     <Texts>
       <Input>Joining range</Input>
-      <Output>Zakres łączenia</Output>
+      <Output>Obszar do łączenia się</Output>
     </Texts>
   </Element>
-  <Element ID="4691" Key="UI_JOINING_TYPE" Flag="0">
+  <Element ID="4691" Key="UI_JOINING_TYPE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:41:29</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_JOINING</Group>
@@ -72695,10 +73690,15 @@
     </Groups>
     <Texts>
       <Input>Joining group type</Input>
-      <Output>Typ grupy łączenia</Output>
+      <Output>Rodzaj przyłączającej się grupy</Output>
     </Texts>
   </Element>
-  <Element ID="4692" Key="UI_EVENT_ID" Flag="0">
+  <Element ID="4692" Key="UI_EVENT_ID" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:41:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EVENT</Group>
@@ -72720,7 +73720,12 @@
       <Output>Wyszukiwanie węzła ...</Output>
     </Texts>
   </Element>
-  <Element ID="4694" Key="UI_TRADER_PROFILE" Flag="0">
+  <Element ID="4694" Key="UI_TRADER_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:41:47</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TRADER</Group>
@@ -72728,10 +73733,15 @@
     </Groups>
     <Texts>
       <Input>Trader Profile:</Input>
-      <Output>Profil inwestora:</Output>
+      <Output>Profil sprzedawcy:</Output>
     </Texts>
   </Element>
-  <Element ID="4695" Key="UI_SELLING_LIST" Flag="0">
+  <Element ID="4695" Key="UI_SELLING_LIST" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:41:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELLING</Group>
@@ -72742,7 +73752,12 @@
       <Output>Lista sprzedaży:</Output>
     </Texts>
   </Element>
-  <Element ID="4696" Key="UI_STARTING_BALANCE" Flag="0">
+  <Element ID="4696" Key="UI_STARTING_BALANCE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:41:52</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_STARTING</Group>
@@ -72816,7 +73831,12 @@
       <Output>Dodatkowy</Output>
     </Texts>
   </Element>
-  <Element ID="4701" Key="UI_REFINED" Flag="0">
+  <Element ID="4701" Key="UI_REFINED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:42:03</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REFINED</Group>
@@ -72837,7 +73857,12 @@
       <Output>{COLOR:#42C100}Kliknij przycisk POTWIERDŹ, aby odblokować.</Output>
     </Texts>
   </Element>
-  <Element ID="4703" Key="UI_UNLOCK_RESOURCE_CONFIRMATION" Flag="0">
+  <Element ID="4703" Key="UI_UNLOCK_RESOURCE_CONFIRMATION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:42:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72846,10 +73871,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this resource will allow your people to gather it. Your Chosen will also receive 10 units of this resource.</Input>
-      <Output>Odblokowanie tego zasobu pozwoli Twoim ludziom go zebrać. Twój Wybrany otrzyma również 10 jednostek tego zasobu.</Output>
+      <Output>Odblokowanie tego zasobu pozwoli wam na jego zbieranie. Twój Wybraniec otrzyma również 10 jednostek tego zasobu.</Output>
     </Texts>
   </Element>
-  <Element ID="4704" Key="UI_UNLOCK_ITEM_CONFIRMATION1" Flag="0">
+  <Element ID="4704" Key="UI_UNLOCK_ITEM_CONFIRMATION1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:44:45</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72858,10 +73888,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this recipe will allow your people to craft the following item(s):</Input>
-      <Output>Odblokowanie tego przepisu pozwoli Twojemu ludowi wykonać następujące przedmioty:</Output>
+      <Output>Odblokowanie tej formuły pozwoli twoim ludziom wykonać następujące przedmioty:</Output>
     </Texts>
   </Element>
-  <Element ID="4705" Key="UI_UNLOCK_ITEM_CONFIRMATION2" Flag="0">
+  <Element ID="4705" Key="UI_UNLOCK_ITEM_CONFIRMATION2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:45:25</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72870,10 +73905,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this recipe will allow your people to craft the following item(s) and provide a 5% essence bonus:</Input>
-      <Output>Odblokowanie tego przepisu pozwoli twoim ludziom na wykonanie następujących przedmiotów i zapewnienie premii za 5% esencji:</Output>
+      <Output>Odblokowanie tej formuły pozwoli twoim ludziom na wykonanie następujących przedmiotów i zapewnienie premii 5% esencji:</Output>
     </Texts>
   </Element>
-  <Element ID="4706" Key="UI_UNLOCK_ITEM_CONFIRMATION3" Flag="0">
+  <Element ID="4706" Key="UI_UNLOCK_ITEM_CONFIRMATION3" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:45:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72882,10 +73922,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this recipe will further refine the item's design, adding 20% to any essence used in its crafting.</Input>
-      <Output>Odblokowanie tego przepisu jeszcze bardziej uszczegółowi projekt przedmiotu, dodając 20% do każdej esencji użytej w jego tworzeniu.</Output>
+      <Output>Odblokowanie tej formuły jeszcze bardziej udoskonali projekt przedmiotu, dodając 20% do każdej esencji użytej w jego tworzeniu.</Output>
     </Texts>
   </Element>
-  <Element ID="4707" Key="UI_UNLOCK_ITEM_CONFIRMATION4" Flag="0">
+  <Element ID="4707" Key="UI_UNLOCK_ITEM_CONFIRMATION4" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:46:40</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72897,7 +73942,12 @@
       <Output>Odblokowanie da ci umiejętności pokazane poniżej. Mogą być przypisane do przedmiotu, gdy zostanie on wytworzony.</Output>
     </Texts>
   </Element>
-  <Element ID="4708" Key="UI_UNLOCK_ITEM_CONFIRMATION5" Flag="0">
+  <Element ID="4708" Key="UI_UNLOCK_ITEM_CONFIRMATION5" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:47:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72906,10 +73956,15 @@
     </Groups>
     <Texts>
       <Input>It will also unlock the skills shown below, which can be assigned to the item when it is crafted.</Input>
-      <Output>Odblokuje również umiejętności pokazane poniżej, które można przypisać do przedmiotu, gdy zostanie wykonany.</Output>
+      <Output>Odblokuje również umiejętności pokazane poniżej. Można je przypisać do przedmiotu, gdy zostanie wykonany.</Output>
     </Texts>
   </Element>
-  <Element ID="4709" Key="UI_ESSENCE_BONUS1" Flag="0">
+  <Element ID="4709" Key="UI_ESSENCE_BONUS1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:47:43</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ESSENCE</Group>
@@ -72917,10 +73972,15 @@
     </Groups>
     <Texts>
       <Input>Essence bonus: 5%</Input>
-      <Output>Bonus Essence: 5%</Output>
+      <Output>Premia esencji: 5%</Output>
     </Texts>
   </Element>
-  <Element ID="4710" Key="UI_UNLOCK_BUILDING_CONFIRMATION1" Flag="0">
+  <Element ID="4710" Key="UI_UNLOCK_BUILDING_CONFIRMATION1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:48:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72929,10 +73989,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this structure will allow your people to construct it using the following material types:</Input>
-      <Output>Odblokowanie tej struktury pozwoli Twoim ludziom skonstruować ją przy użyciu następujących typów materiałów:</Output>
+      <Output>Odblokowanie tej budowli pozwoli twoim ludziom skonstruować ją przy użyciu następujących typów materiałów:</Output>
     </Texts>
   </Element>
-  <Element ID="4711" Key="UI_UNLOCK_RITUAL_CONFIRMATION1" Flag="0">
+  <Element ID="4711" Key="UI_UNLOCK_RITUAL_CONFIRMATION1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:48:12</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72941,10 +74006,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this ritual will allow your people to perform it using the following material types:</Input>
-      <Output>Odblokowanie tego rytuału pozwoli twoim ludziom wykonać go przy użyciu następujących rodzajów materiałów:</Output>
+      <Output>Odblokowanie tego rytuału pozwoli twoim ludziom wykonać go przy użyciu następujących składników:</Output>
     </Texts>
   </Element>
-  <Element ID="4712" Key="UI_UNLOCK_FOOD_CONFIRMATION" Flag="0">
+  <Element ID="4712" Key="UI_UNLOCK_FOOD_CONFIRMATION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:48:48</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCK</Group>
@@ -72953,10 +74023,15 @@
     </Groups>
     <Texts>
       <Input>Unlocking this food recipe will allow your people to cook dishes using the following raw food types:</Input>
-      <Output>Odblokowanie tego przepisu żywnościowego pozwoli twoim ludziom gotować potrawy przy użyciu następujących surowych rodzajów żywności:</Output>
+      <Output>Odblokowanie tego przepisu pozwoli twoim ludziom gotować potrawy przy użyciu następujących składników:</Output>
     </Texts>
   </Element>
-  <Element ID="4713" Key="UI_ADVANCEMENT_RESOURCES" Flag="0">
+  <Element ID="4713" Key="UI_ADVANCEMENT_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:48:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVANCEMENT</Group>
@@ -72967,7 +74042,12 @@
       <Output>Awansowanie - zasoby</Output>
     </Texts>
   </Element>
-  <Element ID="4714" Key="UI_ADVANCEMENT_EQUIPMENT" Flag="0">
+  <Element ID="4714" Key="UI_ADVANCEMENT_EQUIPMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:01</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVANCEMENT</Group>
@@ -72978,7 +74058,12 @@
       <Output>Awansowanie - wyposażenie</Output>
     </Texts>
   </Element>
-  <Element ID="4715" Key="UI_ADVANCEMENT_FOOD" Flag="0">
+  <Element ID="4715" Key="UI_ADVANCEMENT_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:04</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVANCEMENT</Group>
@@ -72989,7 +74074,12 @@
       <Output>Postęp - Żywność</Output>
     </Texts>
   </Element>
-  <Element ID="4716" Key="UI_ADVANCEMENT_BUILDINGS_AND_RITUALS" Flag="0">
+  <Element ID="4716" Key="UI_ADVANCEMENT_BUILDINGS_AND_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:06</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVANCEMENT</Group>
@@ -73002,7 +74092,12 @@
       <Output>Awans - Budynki i rytuały</Output>
     </Texts>
   </Element>
-  <Element ID="4717" Key="UI_ADVANCEMENT_SKILLS" Flag="0">
+  <Element ID="4717" Key="UI_ADVANCEMENT_SKILLS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:08</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVANCEMENT</Group>
@@ -73028,7 +74123,12 @@
       <Output>Koszt: </Output>
     </Texts>
   </Element>
-  <Element ID="4719" Key="UI_UNLOCKED_SKILLS" Flag="0">
+  <Element ID="4719" Key="UI_UNLOCKED_SKILLS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:10</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_UNLOCKED</Group>
@@ -73039,7 +74139,12 @@
       <Output>Odblokowane umiejętności</Output>
     </Texts>
   </Element>
-  <Element ID="4720" Key="UI_ADVANCEMENT_POINTS" Flag="0">
+  <Element ID="4720" Key="UI_ADVANCEMENT_POINTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:15</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVANCEMENT</Group>
@@ -73050,7 +74155,12 @@
       <Output>Punkty awansu</Output>
     </Texts>
   </Element>
-  <Element ID="4721" Key="UI_REROLL_SETS" Flag="0">
+  <Element ID="4721" Key="UI_REROLL_SETS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:36</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_REROLL</Group>
@@ -73058,10 +74168,15 @@
     </Groups>
     <Texts>
       <Input>Re-roll Sets</Input>
-      <Output>Ponownie rzutuj zestawy</Output>
+      <Output>Ponownie losuj zestawy</Output>
     </Texts>
   </Element>
-  <Element ID="4722" Key="UI_NOT_ENOUGH_RP" Flag="0">
+  <Element ID="4722" Key="UI_NOT_ENOUGH_RP" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:49:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NOT</Group>
@@ -73086,14 +74201,19 @@
       <Output>{COLOR:#C80000}Musisz najpierw odblokować wszystkie postępy rodzica.</Output>
     </Texts>
   </Element>
-  <Element ID="4724" Key="UI_WORKBENCH" Flag="0">
+  <Element ID="4724" Key="UI_WORKBENCH" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:28</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WORKBENCH</Group>
     </Groups>
     <Texts>
       <Input>Workbench</Input>
-      <Output>Stół warsztatowy</Output>
+      <Output>Warsztat</Output>
     </Texts>
   </Element>
   <Element ID="4725" Key="UI_DESIGN" Flag="1">
@@ -73111,7 +74231,12 @@
       <Output>Projektowanie</Output>
     </Texts>
   </Element>
-  <Element ID="4726" Key="UI_DESIGN_MODE" Flag="0">
+  <Element ID="4726" Key="UI_DESIGN_MODE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:30</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DESIGN</Group>
@@ -73122,7 +74247,12 @@
       <Output>Tryb projektowania</Output>
     </Texts>
   </Element>
-  <Element ID="4727" Key="UI_DESIGN_MODE_ON" Flag="0">
+  <Element ID="4727" Key="UI_DESIGN_MODE_ON" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:32</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DESIGN</Group>
@@ -73134,7 +74264,12 @@
       <Output>Tryb projektowania włączony</Output>
     </Texts>
   </Element>
-  <Element ID="4728" Key="UI_RESEARCH_AND_RITUALS" Flag="0">
+  <Element ID="4728" Key="UI_RESEARCH_AND_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:38</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RESEARCH</Group>
@@ -73146,7 +74281,12 @@
       <Output>Badania i rytuały</Output>
     </Texts>
   </Element>
-  <Element ID="4729" Key="UI_RESEARCH" Flag="0">
+  <Element ID="4729" Key="UI_RESEARCH" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:39</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RESEARCH</Group>
@@ -73156,7 +74296,12 @@
       <Output>Badania</Output>
     </Texts>
   </Element>
-  <Element ID="4730" Key="UI_RITUALS" Flag="0">
+  <Element ID="4730" Key="UI_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:42</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_RITUALS</Group>
@@ -73166,7 +74311,12 @@
       <Output>Rytuały</Output>
     </Texts>
   </Element>
-  <Element ID="4731" Key="UI_SPEND_POINTS" Flag="0">
+  <Element ID="4731" Key="UI_SPEND_POINTS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:45</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SPEND</Group>
@@ -73177,7 +74327,12 @@
       <Output>Wydaj punkty</Output>
     </Texts>
   </Element>
-  <Element ID="4732" Key="UI_ALREADY_UNLOCKED" Flag="0">
+  <Element ID="4732" Key="UI_ALREADY_UNLOCKED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:56</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ALREADY</Group>
@@ -73185,10 +74340,15 @@
     </Groups>
     <Texts>
       <Input>{COLOR:#5B80FF}You have already unlocked this advancement!</Input>
-      <Output>{COLOR:#5B80FF}Już odblokowałeś ten awans!</Output>
+      <Output>{COLOR:#5B80FF}Już odblokowałeś to ulepszenie!</Output>
     </Texts>
   </Element>
-  <Element ID="4733" Key="UI_NEARBY_RESOURCES" Flag="0">
+  <Element ID="4733" Key="UI_NEARBY_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:51:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NEARBY</Group>
@@ -73214,7 +74374,12 @@
       <Output>Zbieranie</Output>
     </Texts>
   </Element>
-  <Element ID="4735" Key="UI_BUILD_VER" Flag="0">
+  <Element ID="4735" Key="UI_BUILD_VER" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BUILD</Group>
@@ -73225,7 +74390,12 @@
       <Output>Kompilacja v. </Output>
     </Texts>
   </Element>
-  <Element ID="4736" Key="UI_BUILD_VERSION" Flag="0">
+  <Element ID="4736" Key="UI_BUILD_VERSION" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BUILD</Group>
@@ -73236,7 +74406,12 @@
       <Output>Kompilacja v. </Output>
     </Texts>
   </Element>
-  <Element ID="4737" Key="UI_FOOD_MANAGEMENT" Flag="0">
+  <Element ID="4737" Key="UI_FOOD_MANAGEMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:18</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FOOD</Group>
@@ -73244,10 +74419,15 @@
     </Groups>
     <Texts>
       <Input>Food Management</Input>
-      <Output>Zarządzanie żywnością</Output>
+      <Output>Zarządzanie jedzeniem</Output>
     </Texts>
   </Element>
-  <Element ID="4738" Key="UI_FUEL_MANAGEMENT" Flag="0">
+  <Element ID="4738" Key="UI_FUEL_MANAGEMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:40</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FUEL</Group>
@@ -73255,10 +74435,15 @@
     </Groups>
     <Texts>
       <Input>Fuel Management</Input>
-      <Output>Zarządzanie paliwem</Output>
+      <Output>Zarządzanie opałem</Output>
     </Texts>
   </Element>
-  <Element ID="4739" Key="UI_FOOD_BONUSES" Flag="0">
+  <Element ID="4739" Key="UI_FOOD_BONUSES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:43</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FOOD</Group>
@@ -73301,7 +74486,12 @@
       <Output>Wybierz Przepis</Output>
     </Texts>
   </Element>
-  <Element ID="4742" Key="UI_BASE_VALUE" Flag="0">
+  <Element ID="4742" Key="UI_BASE_VALUE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:45</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BASE</Group>
@@ -73312,7 +74502,12 @@
       <Output>Wartość bazowa:</Output>
     </Texts>
   </Element>
-  <Element ID="4743" Key="UI_BONUSES_LOSES" Flag="0">
+  <Element ID="4743" Key="UI_BONUSES_LOSES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:48</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BONUSES</Group>
@@ -73453,7 +74648,12 @@
       <Output>Kwota:</Output>
     </Texts>
   </Element>
-  <Element ID="4753" Key="UI_MIN_DMG" Flag="0">
+  <Element ID="4753" Key="UI_MIN_DMG" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MIN</Group>
@@ -73464,7 +74664,12 @@
       <Output>Minimalne obrażenia:</Output>
     </Texts>
   </Element>
-  <Element ID="4754" Key="UI_MAX_DMG" Flag="0">
+  <Element ID="4754" Key="UI_MAX_DMG" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:52:58</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MAX</Group>
@@ -73484,10 +74689,15 @@
     </Groups>
     <Texts>
       <Input>Damage as percent</Input>
-      <Output>Uszkodzenie jako procent</Output>
+      <Output>Obrażenia procentowo</Output>
     </Texts>
   </Element>
-  <Element ID="4756" Key="UI_LEFT_CLICK_DISMANTLE" Flag="0">
+  <Element ID="4756" Key="UI_LEFT_CLICK_DISMANTLE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:53:33</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LEFT</Group>
@@ -73496,7 +74706,7 @@
     </Groups>
     <Texts>
       <Input>(Left Click - Dismantle)</Input>
-      <Output>(Lewy przycisk - Demontaż)</Output>
+      <Output>(Lewy przycisk - Rozbierz)</Output>
     </Texts>
   </Element>
   <Element ID="4757" Key="UI_YOUR_GROUP" Flag="1">
@@ -73531,14 +74741,19 @@
       <Output>Grupa przeciwników:</Output>
     </Texts>
   </Element>
-  <Element ID="4759" Key="UI_VERSUS" Flag="0">
+  <Element ID="4759" Key="UI_VERSUS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:53:42</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_VERSUS</Group>
     </Groups>
     <Texts>
       <Input>VS.</Input>
-      <Output>VS.</Output>
+      <Output>Przeciwko</Output>
     </Texts>
   </Element>
   <Element ID="4760" Key="UI_AUTO_RESOLVE" Flag="1">
@@ -73572,7 +74787,12 @@
       <Output>Zacznij!</Output>
     </Texts>
   </Element>
-  <Element ID="4762" Key="UI_PHYSICAL_CHALLENGE" Flag="0">
+  <Element ID="4762" Key="UI_PHYSICAL_CHALLENGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:53:51</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PHYSICAL</Group>
@@ -73583,7 +74803,12 @@
       <Output>Wyzwanie fizyczne</Output>
     </Texts>
   </Element>
-  <Element ID="4763" Key="UI_MENTAL_CHALLENGE" Flag="0">
+  <Element ID="4763" Key="UI_MENTAL_CHALLENGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:53:58</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MENTAL</Group>
@@ -73594,7 +74819,12 @@
       <Output>Wyzwanie mentalne</Output>
     </Texts>
   </Element>
-  <Element ID="4764" Key="UI_SPIRITUAL_CHALLENGE" Flag="0">
+  <Element ID="4764" Key="UI_SPIRITUAL_CHALLENGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:53:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SPIRITUAL</Group>
@@ -73605,7 +74835,12 @@
       <Output>Wyzwanie duchowe</Output>
     </Texts>
   </Element>
-  <Element ID="4765" Key="UI_PASSIVE_BONUSES" Flag="0">
+  <Element ID="4765" Key="UI_PASSIVE_BONUSES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PASSIVE</Group>
@@ -73627,7 +74862,12 @@
       <Output>Koncepcja VS</Output>
     </Texts>
   </Element>
-  <Element ID="4767" Key="UI_SELECT_RECIPE" Flag="0">
+  <Element ID="4767" Key="UI_SELECT_RECIPE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:14</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -73635,10 +74875,15 @@
     </Groups>
     <Texts>
       <Input>Select recipe</Input>
-      <Output>Wybierz przepis</Output>
+      <Output>Wybierz formułę</Output>
     </Texts>
   </Element>
-  <Element ID="4768" Key="UI_PICK_ONE" Flag="0">
+  <Element ID="4768" Key="UI_PICK_ONE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PICK</Group>
@@ -73649,7 +74894,12 @@
       <Output>Wybierz jeden atrybut dla każdej postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="4769" Key="UI_LEVEL_UP" Flag="0">
+  <Element ID="4769" Key="UI_LEVEL_UP" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:33</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LEVEL</Group>
@@ -73657,10 +74907,15 @@
     </Groups>
     <Texts>
       <Input>Level Up</Input>
-      <Output>Poziom wyżej</Output>
+      <Output>Kolejny poziom</Output>
     </Texts>
   </Element>
-  <Element ID="4770" Key="UI_NEW" Flag="0">
+  <Element ID="4770" Key="UI_NEW" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_NEW</Group>
@@ -73670,7 +74925,12 @@
       <Output>Nowość!</Output>
     </Texts>
   </Element>
-  <Element ID="4771" Key="UI_PAUSE_MENU" Flag="0">
+  <Element ID="4771" Key="UI_PAUSE_MENU" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:39</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PAUSE</Group>
@@ -73728,7 +74988,12 @@
       <Output>Odblokuj</Output>
     </Texts>
   </Element>
-  <Element ID="4775" Key="UI_DRAG_AND_DROP_TRAIT" Flag="0">
+  <Element ID="4775" Key="UI_DRAG_AND_DROP_TRAIT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:54:47</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DRAG</Group>
@@ -73741,7 +75006,12 @@
       <Output>Przeciągnij i upuść tutaj Cechę, aby ją wybrać</Output>
     </Texts>
   </Element>
-  <Element ID="4776" Key="UI_ALLOW_NEW_FOOD" Flag="0">
+  <Element ID="4776" Key="UI_ALLOW_NEW_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:55:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ALLOW</Group>
@@ -73750,10 +75020,15 @@
     </Groups>
     <Texts>
       <Input>Allow use of new food items</Input>
-      <Output>Zezwalaj na używanie nowych produktów spożywczych</Output>
+      <Output>Zezwalaj na korzystanie z nowego jedzenia</Output>
     </Texts>
   </Element>
-  <Element ID="4777" Key="UI_ALLOW_NEW_FUEL" Flag="0">
+  <Element ID="4777" Key="UI_ALLOW_NEW_FUEL" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:55:35</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ALLOW</Group>
@@ -73762,7 +75037,7 @@
     </Groups>
     <Texts>
       <Input>Allow use of new fuel items</Input>
-      <Output>Zezwalaj na używanie nowych elementów paliwowych</Output>
+      <Output>Zezwalaj na korzystanie z nowego opału</Output>
     </Texts>
   </Element>
   <Element ID="4778" Key="UI_USE_RAW_FOOD" Flag="1">
@@ -73848,7 +75123,12 @@
       <Output>Frakcje i Lojalność</Output>
     </Texts>
   </Element>
-  <Element ID="4783" Key="UI_GODS_CHOSEN" Flag="0">
+  <Element ID="4783" Key="UI_GODS_CHOSEN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:55:53</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GODS</Group>
@@ -73856,10 +75136,15 @@
     </Groups>
     <Texts>
       <Input>God's Chosen</Input>
-      <Output>Wybrany przez Boga</Output>
+      <Output>Wybraniec Boga</Output>
     </Texts>
   </Element>
-  <Element ID="4784" Key="UI_CHARACTER_CLASS" Flag="0">
+  <Element ID="4784" Key="UI_CHARACTER_CLASS" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:55:55</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CHARACTER</Group>
@@ -73870,7 +75155,12 @@
       <Output>Klasa postaci</Output>
     </Texts>
   </Element>
-  <Element ID="4785" Key="UI_MORE" Flag="0">
+  <Element ID="4785" Key="UI_MORE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:55:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MORE</Group>
@@ -73880,7 +75170,12 @@
       <Output>Więcej</Output>
     </Texts>
   </Element>
-  <Element ID="4786" Key="UI_MORE2" Flag="0">
+  <Element ID="4786" Key="UI_MORE2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:56:02</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MORE</Group>
@@ -73890,7 +75185,12 @@
       <Output>więcej</Output>
     </Texts>
   </Element>
-  <Element ID="4787" Key="UI_TUTORIAL_CAST1" Flag="0">
+  <Element ID="4787" Key="UI_TUTORIAL_CAST1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:56:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73901,7 +75201,12 @@
       <Output>Granie kartą</Output>
     </Texts>
   </Element>
-  <Element ID="4788" Key="UI_TUTORIAL_CAST2" Flag="0">
+  <Element ID="4788" Key="UI_TUTORIAL_CAST2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:57:54</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73909,7 +75214,7 @@
     </Groups>
     <Texts>
       <Input>Start with playing cards from your {COLOR:yellow}Hand{END_COLOR} to the {COLOR:yellow}Battlefield{END_COLOR}. Here's how you do it:</Input>
-      <Output>Zacznij od grania w karty z {COLOR:yellow}}na {END_COLOR}Battlefield {COLOR:yellow}. Oto jak to zrobić:</Output>
+      <Output>Zacznij od zagrania karty z twojej {COLOR:yellow}Ręki{END_COLOR}na {COLOR:yellow}Polę bitwy{END_COLOR}. Oto jak to zrobić:</Output>
     </Texts>
   </Element>
   <Element ID="4789" Key="UI_TUTORIAL_CAST3" Flag="1">
@@ -73944,7 +75249,12 @@
       <Output>2. Wybierz umiejętność.</Output>
     </Texts>
   </Element>
-  <Element ID="4791" Key="UI_TUTORIAL_CAST5" Flag="0">
+  <Element ID="4791" Key="UI_TUTORIAL_CAST5" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:58:16</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73952,10 +75262,15 @@
     </Groups>
     <Texts>
       <Input>3. Select a slot to cast into.</Input>
-      <Output>3. Wybierz gniazdo, w które chcesz rzucić.</Output>
+      <Output>3. Wybierz slot, na który chcesz rzucić.</Output>
     </Texts>
   </Element>
-  <Element ID="4792" Key="UI_TUTORIAL_DESIGN_MODE1" Flag="0">
+  <Element ID="4792" Key="UI_TUTORIAL_DESIGN_MODE1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:58:45</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73964,10 +75279,15 @@
     </Groups>
     <Texts>
       <Input>Design Mode allows you to try any recipe you have researched and save it as a favourite for later use.\n\nYour Inventory now shows all crafting materials present in the game, even those you do not have.\n\nFeel free to experiment!</Input>
-      <Output>Tryb projektowania pozwala wypróbować dowolną badaną recepturę i zapisać ją jako ulubioną do późniejszego użycia. \n\nTwój ekwipunek pokazuje teraz wszystkie materiały rzemieślnicze obecne w grze, nawet te, których nie masz. \n\nZapraszam do eksperymentowania!</Output>
+      <Output>Tryb projektowania pozwala wypróbować dowolną badaną recepturę i zapisać ją jako ulubioną do późniejszego użycia. \n\nTwój ekwipunek pokazuje teraz wszystkie materiały rzemieślnicze obecne w grze, nawet te, których nie masz. \n\nEksperymentuj do woli!</Output>
     </Texts>
   </Element>
-  <Element ID="4793" Key="UI_TUTORIAL_DESIGN_MODE2" Flag="0">
+  <Element ID="4793" Key="UI_TUTORIAL_DESIGN_MODE2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:58:57</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73979,7 +75299,12 @@
       <Output>Możesz dodać przepis do listy zadań rzemieślniczych, naciskając Potwierdź. \n\nPrace nad nim można rozpocząć tylko wtedy, gdy masz {COLOR:yellow}wymagane materiały {END_COLOR}w ekwipunku.</Output>
     </Texts>
   </Element>
-  <Element ID="4794" Key="UI_TUTORIAL_MOVE1" Flag="0">
+  <Element ID="4794" Key="UI_TUTORIAL_MOVE1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 12:58:59</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73990,7 +75315,12 @@
       <Output>Poruszanie się</Output>
     </Texts>
   </Element>
-  <Element ID="4795" Key="UI_TUTORIAL_MOVE2" Flag="0">
+  <Element ID="4795" Key="UI_TUTORIAL_MOVE2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:02:00</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -73998,10 +75328,15 @@
     </Groups>
     <Texts>
       <Input>To move your group from one tile to another:\n\n1. Left click on the group to select it,\n2. Press and hold RMB over another tile.\n\nTravelling uses up {COLOR:yellow}Movement Points{END_COLOR} ({ICON:MPIcon}) depending on terrain type.</Input>
-      <Output>Aby przenieść swoją grupę z jednej płytki na drugą: \n\n1. Kliknij lewym przyciskiem myszy grupę, aby ją wybrać, \n2. Naciśnij i przytrzymaj RMB nad innym kafelkiem. \n\nPodróżowanie zużywa {COLOR:yellow}punkty ruchu {END_COLOR}({ICON:MPIcon}) w zależności od rodzaju terenu.</Output>
+      <Output>Aby przenieść swoją drużynę z jednego hexa na drugi: \n\n1. Kliknij lewym przyciskiem myszy grupę, aby ją wybrać, \n2. Naciśnij i przytrzymaj RMB nad innym hexem. \n\nPodróżowanie zużywa {COLOR:yellow}punkty ruchu {END_COLOR}({ICON:MPIcon}) w zależności od rodzaju terenu.</Output>
     </Texts>
   </Element>
-  <Element ID="4796" Key="UI_TUTORIAL_CAMERA1" Flag="0">
+  <Element ID="4796" Key="UI_TUTORIAL_CAMERA1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:02:09</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74009,10 +75344,15 @@
     </Groups>
     <Texts>
       <Input>Camera Control</Input>
-      <Output>Sterowanie kamerą</Output>
+      <Output>Sterowanie widokiem</Output>
     </Texts>
   </Element>
-  <Element ID="4797" Key="UI_TUTORIAL_CAMERA2" Flag="0">
+  <Element ID="4797" Key="UI_TUTORIAL_CAMERA2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:02:22</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74020,7 +75360,7 @@
     </Groups>
     <Texts>
       <Input>You can move the camera using keyboard {COLOR:yellow}(WASD or Arrow Keys){END_COLOR} or by pressing the {COLOR:yellow}middle mouse button{END_COLOR}.</Input>
-      <Output>Możesz przesuwać kamerę za pomocą klawiatury {COLOR:yellow}(WASD lub klawiszy strzałek) {END_COLOR}lub naciskając {COLOR:yellow}środkowy przycisk myszy {END_COLOR}.</Output>
+      <Output>Możesz przesuwać obraz za pomocą klawiatury {COLOR:yellow}(WASD lub klawiszy strzałek) {END_COLOR}lub naciskając {COLOR:yellow}środkowy przycisk myszy {END_COLOR}.</Output>
     </Texts>
   </Element>
   <Element ID="4798" Key="UI_CHECK_EQUIPMENT1" Flag="0">
@@ -74034,7 +75374,12 @@
       <Output>Sprawdź wyposażenie</Output>
     </Texts>
   </Element>
-  <Element ID="4799" Key="UI_CHECK_EQUIPMENT2" Flag="0">
+  <Element ID="4799" Key="UI_CHECK_EQUIPMENT2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:03:37</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CHECK</Group>
@@ -74042,10 +75387,15 @@
     </Groups>
     <Texts>
       <Input>Before you venture into the dangers of Thea, take a look at your {COLOR:yellow}Equipment{END_COLOR} and assign to your characters any unused items they may carry.\n\nClick on the group to open the {COLOR:yellow}radial menu{END_COLOR} and press the Equip button.</Input>
-      <Output>Zanim podejdziesz do niebezpieczeństw Thea, spójrz na swój {COLOR:yellow}Sprzęt {END_COLOR}i przypisz swoim postaciom niewykorzystane przedmioty, które mogą nosić. \n\nKliknij grupę, aby otworzyć menu promieniowe {COLOR:yellow}i naciśnij przycisk Equip.</Output>
+      <Output>Zanim weźmiesz się za niebezpieczeństwa w Thea, przejrzyj swój {COLOR:yellow}Ekwipunek{END_COLOR}i załóż swoim postaciom niewykorzystane przedmioty. \n\nKliknij grupę, aby otworzyć menu {COLOR:yellow}i naciśnij przycisk Wyposaż.</Output>
     </Texts>
   </Element>
-  <Element ID="4800" Key="UI_TUTORIAL_END_TURN1" Flag="0">
+  <Element ID="4800" Key="UI_TUTORIAL_END_TURN1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:03:54</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74057,7 +75407,12 @@
       <Output>Kończenie swojej tury</Output>
     </Texts>
   </Element>
-  <Element ID="4801" Key="UI_TUTORIAL_END_TURN2" Flag="0">
+  <Element ID="4801" Key="UI_TUTORIAL_END_TURN2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:04:08</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74066,10 +75421,15 @@
     </Groups>
     <Texts>
       <Input>When you have finished your actions, press the {COLOR:yellow}End Turn{END_COLOR} button located in the bottom right corner of the screen.</Input>
-      <Output>Po zakończeniu działań naciśnij przycisk {COLOR:yellow}Koniec zakrętu {END_COLOR}znajdujący się w prawym dolnym rogu ekranu.</Output>
+      <Output>Po zakończeniu działań naciśnij przycisk {COLOR:yellow}Koniec tury{END_COLOR}znajdujący się w prawym dolnym rogu ekranu.</Output>
     </Texts>
   </Element>
-  <Element ID="4802" Key="UI_TUTORIAL_END_TURN3" Flag="0">
+  <Element ID="4802" Key="UI_TUTORIAL_END_TURN3" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:05:07</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74078,7 +75438,7 @@
     </Groups>
     <Texts>
       <Input>Many things happen in-between your turns:\n\n- computer-controlled groups do their actions,\n- various tasks are progressed,\n- some adventure events occur,\n- wounded characters recover health etc.</Input>
-      <Output>Wiele rzeczy dzieje się pomiędzy twoimi turami: \n\n- grupy kontrolowane przez komputer wykonują swoje działania, \n- różne zadania są rozwijane, \n- zdarzają się pewne wydarzenia przygodowe, \n- ranne postacie odzyskują zdrowie itp</Output>
+      <Output>Wiele rzeczy dzieje się pomiędzy twoimi turami: \n\n- grupy kontrolowane przez komputer wykonują swoje akcje, \n- różne zadania są rozwijane, \n- przytrafiają się pewne przygody, \n- ranne postacie odzyskują zdrowie itp</Output>
     </Texts>
   </Element>
   <Element ID="4803" Key="UI_RESOURCES" Flag="1">
@@ -74096,7 +75456,12 @@
       <Output>Zasoby</Output>
     </Texts>
   </Element>
-  <Element ID="4804" Key="UI_TUTORIAL_CAMP1" Flag="0">
+  <Element ID="4804" Key="UI_TUTORIAL_CAMP1" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:05:26</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74104,10 +75469,15 @@
     </Groups>
     <Texts>
       <Input>There are different types of {COLOR:yellow}resources{END_COLOR} in the world. They can be used as {COLOR:yellow}crafting materials, food or fuel{END_COLOR}, but before your people can use them - they need to collect them.</Input>
-      <Output>Istnieją różne typy {COLOR:yellow}zasobów {END_COLOR}na świecie. Mogą być użyte jako {COLOR:yellow}materiały rzemieślnicze, żywność lub paliwo {END_COLOR}, ale zanim twoi ludzie będą mogli z nich korzystać - muszą je zebrać.</Output>
+      <Output>Istnieją różne typy {COLOR:yellow}zasobów {END_COLOR}na świecie. Mogą być użyte jako {COLOR:yellow}materiały rzemieślnicze, żywność lub opał{END_COLOR}, ale zanim twoi ludzie będą mogli z nich korzystać - muszą je zebrać.</Output>
     </Texts>
   </Element>
-  <Element ID="4805" Key="UI_TUTORIAL_CAMP2" Flag="0">
+  <Element ID="4805" Key="UI_TUTORIAL_CAMP2" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:05:31</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74118,7 +75488,12 @@
       <Output>Zasoby są wyświetlane na mapie świata jako specjalne obiekty, takie jak rośliny, zwierzęta, kości itp.</Output>
     </Texts>
   </Element>
-  <Element ID="4806" Key="UI_TUTORIAL_CAMP3" Flag="0">
+  <Element ID="4806" Key="UI_TUTORIAL_CAMP3" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:05:49</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74129,7 +75504,12 @@
       <Output>Przesuń swoją grupę w pobliżu płytki z zasobem znajdującym się nie dalej niż jeden heks dalej. \n\nAby przypisać swoich pracowników do zbierania zasobów, twoja grupa musi być w trybie obozu {COLOR:yellow}</Output>
     </Texts>
   </Element>
-  <Element ID="4807" Key="UI_TUTORIAL_CAMP4" Flag="0">
+  <Element ID="4807" Key="UI_TUTORIAL_CAMP4" Flag="1">
+    <Confirmation>
+      <Time>2019-09-15 13:05:51</Time>
+      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
+      <User>kiszony</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -74137,7 +75517,7 @@
     </Groups>
     <Texts>
       <Input>Setting Up a Camp</Input>
-      <Output>Ustawianie obozu</Output>
+      <Output>Zakładanie obozu</Output>
     </Texts>
   </Element>
   <Element ID="4808" Key="UI_TUTORIAL_CAMP5" Flag="0">
