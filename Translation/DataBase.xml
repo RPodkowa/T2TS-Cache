@@ -1442,7 +1442,7 @@
     </Groups>
     <Texts>
       <Input>Targets the casting character.</Input>
-      <Output>Celuje w postać rzucającą.</Output>
+      <Output>Celem jest posiadacz umiejętności.</Output>
     </Texts>
   </Element>
   <Element ID="87" Key="DES_TAG_TARGET_EMPTY_ALLY_SLOT" Flag="1">
@@ -1480,7 +1480,7 @@
     </Groups>
     <Texts>
       <Input>Targets an empty card spot in either ally melee or ally ranged row.</Input>
-      <Output>Celuje w puste miejsce w sojuszniczym rzędzie zwarcia lub dystansowym.</Output>
+      <Output>Celem jest puste miejsce w sojuszniczym rzędzie zwarcia lub dystansowym.</Output>
     </Texts>
   </Element>
   <Element ID="89" Key="DES_TAG_TARGET_EMPTY_ALLY_MELEE_SLOT" Flag="1">
@@ -1520,7 +1520,7 @@
     </Groups>
     <Texts>
       <Input>Targets an empty card spot in ally melee row.</Input>
-      <Output>Celuje w puste miejsce w sojuszniczym rzędzie zwarcia.</Output>
+      <Output>Celem jest puste miejsce w sojuszniczym rzędzie zwarcia.</Output>
     </Texts>
   </Element>
   <Element ID="91" Key="DES_TAG_TARGET_EMPTY_ALLY_RANGED_SLOT" Flag="1">
@@ -1560,10 +1560,15 @@
     </Groups>
     <Texts>
       <Input>Targets an empty card spot in ally ranged row.</Input>
-      <Output>Celuje w puste miejsce w sojuszniczym rzędzie dystansowym.</Output>
+      <Output>Celem jest puste miejsce w sojuszniczym rzędzie dystansowym.</Output>
     </Texts>
   </Element>
-  <Element ID="93" Key="DES_TAG_TARGET_SINGLE_MELEE" Flag="0">
+  <Element ID="93" Key="DES_TAG_TARGET_SINGLE_MELEE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:32:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1573,10 +1578,15 @@
     </Groups>
     <Texts>
       <Input>Target - Single Melee</Input>
-      <Output>Cel - pojedyńczy walczący wręcz</Output>
+      <Output>Cel - Pojedyńczy w Zwarciu</Output>
     </Texts>
   </Element>
-  <Element ID="94" Key="DES_TAG_TARGET_SINGLE_MELEE_DES" Flag="0">
+  <Element ID="94" Key="DES_TAG_TARGET_SINGLE_MELEE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:33:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1586,10 +1596,15 @@
     </Groups>
     <Texts>
       <Input>Targets 1 closest enemy.</Input>
-      <Output>Celuje w 1 najbliższego wroga.</Output>
+      <Output>Celem jest najbliższy wróg.</Output>
     </Texts>
   </Element>
-  <Element ID="95" Key="DES_TAG_TARGET_RANGED_ON_MELEE" Flag="0">
+  <Element ID="95" Key="DES_TAG_TARGET_RANGED_ON_MELEE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:32:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1600,7 +1615,7 @@
     </Groups>
     <Texts>
       <Input>Target - Single Melee</Input>
-      <Output>Cel - pojedyncza walka wręcz</Output>
+      <Output>Cel - Pojedyńczy w Zwarciu</Output>
     </Texts>
   </Element>
   <Element ID="96" Key="DES_TAG_TARGET_RANGED_ON_MELEE_DES" Flag="1">
@@ -1622,7 +1637,12 @@
       <Output>DEPRECATED</Output>
     </Texts>
   </Element>
-  <Element ID="97" Key="DES_TAG_TARGET_RANGED_ENEMY" Flag="0">
+  <Element ID="97" Key="DES_TAG_TARGET_RANGED_ENEMY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:35:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1632,10 +1652,15 @@
     </Groups>
     <Texts>
       <Input>Target - Single Ranged</Input>
-      <Output>Cel - pojedynczy zasięg</Output>
+      <Output>Cel - Pojedyńczy Dystansowy</Output>
     </Texts>
   </Element>
-  <Element ID="98" Key="DES_TAG_TARGET_RANGED_ENEMY_DES" Flag="0">
+  <Element ID="98" Key="DES_TAG_TARGET_RANGED_ENEMY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:36:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1645,10 +1670,15 @@
     </Groups>
     <Texts>
       <Input>Targets 1 enemy in melee row in front of the character. If there is none, any enemy on the battlefield can be targeted.</Input>
-      <Output>Celuje w jednego wroga w rzędzie walczącym przed postacią. Jeśli go nie ma, można zaatakować dowolnego wroga na polu bitwy.</Output>
+      <Output>Celem jest jeden wróg w rzędzie zwarcia przed postacią. Jeśli go nie ma, można zaatakować dowolnego wroga na polu bitwy.</Output>
     </Texts>
   </Element>
-  <Element ID="99" Key="DES_TAG_TARGET_RANGED_ENEMIES" Flag="0">
+  <Element ID="99" Key="DES_TAG_TARGET_RANGED_ENEMIES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:37:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1658,10 +1688,15 @@
     </Groups>
     <Texts>
       <Input>Target - Multiple Ranged</Input>
-      <Output>Cel - wielokrotny zasięg</Output>
+      <Output>Cel - Wielokrotny Dystansowy</Output>
     </Texts>
   </Element>
-  <Element ID="100" Key="DES_TAG_TARGET_RANGED_ENEMIES_DES" Flag="0">
+  <Element ID="100" Key="DES_TAG_TARGET_RANGED_ENEMIES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:39:43</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -1671,7 +1706,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 or more enemy in melee row in front of the character. If there is none, any enemy on the battlefield can be targeted.</Input>
-      <Output>Celuje w jednego lub więcej wrogów w rzędzie walczącym przed postacią. Jeśli go nie ma, można zaatakować dowolnego wroga na polu bitwy.</Output>
+      <Output>Celem jest jeden lub więcej wrogów w rzędzie zwarcia przed postacią. Jeśli go nie ma, można zaatakować dowolnego wroga na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="101" Key="DES_TAG_TARGET_HORIZONTAL_MELEE_ENEMY" Flag="1">
@@ -1709,7 +1744,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 closest enemy and up to 2 enemies standing to their left and right.</Input>
-      <Output>Celuje w 1 najbliższego wroga i maksymalnie 2 wrogów stojących po jego lewej i prawej stronie.</Output>
+      <Output>Celem jest najbliższy wróg i maksymalnie 2 wrogów stojących po jego lewej i prawej stronie.</Output>
     </Texts>
   </Element>
   <Element ID="103" Key="DES_TAG_TARGET_VERICAL_MELEE_ENEMY" Flag="1">
@@ -1747,7 +1782,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 closest enemy. If the attacker stands in melee row, the attack will splash onto another enemy standing behind the main target.</Input>
-      <Output>Celuje w 1 najbliższego wroga. Jeśli atakujący stoi w rzędzie zwarcia, atak przejdzie na kolejnego wroga stojącego za głównym celem.</Output>
+      <Output>Celem jest najbliższy wróg. Jeśli atakujący stoi w rzędzie zwarcia, atak przejdzie na kolejnego wroga stojącego za głównym celem.</Output>
     </Texts>
   </Element>
   <Element ID="105" Key="DES_TAG_TARGET_T_SPLASH_ENEMY" Flag="1">
@@ -1785,7 +1820,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 closest enemy and up to 3 enemies standing right next to them.</Input>
-      <Output>Celuje w 1 najbliższego wroga i maksymalnie 3 wrogów stojących tuż obok niego.</Output>
+      <Output>Celem jest najbliższy wróg i maksymalnie 3 wrogów stojących tuż obok niego.</Output>
     </Texts>
   </Element>
   <Element ID="107" Key="DES_TAG_TARGET_O_SPLASH_ENEMY" Flag="1">
@@ -1823,7 +1858,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 closest enemy and all enemies around the target.</Input>
-      <Output>Celuje w 1 najbliższego wroga i wszystkich wrogów wokół niego.</Output>
+      <Output>Celem jest najbliższy wróg i wszystkich wrogów wokół niego.</Output>
     </Texts>
   </Element>
   <Element ID="109" Key="DES_TAG_TARGET_SELECTED_ENEMY" Flag="1">
@@ -1859,7 +1894,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 enemy standing anywhere on the battlefield.</Input>
-      <Output>Celuje 1 wroga stojącego w dowolnym miejscu na polu bitwy.</Output>
+      <Output>Celem jest wróg stojący w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="111" Key="DES_TAG_TARGET_SELECTED_ENEMIES" Flag="1">
@@ -1895,7 +1930,7 @@
     </Groups>
     <Texts>
       <Input>Targets 2 or more selected enemies standing anywhere on the battlefield.</Input>
-      <Output>Celuje w 2 lub więcej wybranych wrogów stojących w dowolnym miejscu na polu bitwy.</Output>
+      <Output>Celem jest 2 lub więcej wybranych wrogów stojących w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="113" Key="DES_TAG_TARGET_ALL_PLAYED_ENEMY" Flag="1">
@@ -1933,7 +1968,7 @@
     </Groups>
     <Texts>
       <Input>Targets all enemies standing anywhere on the battlefield.</Input>
-      <Output>Celuje wszystkich wrogów stojących w dowolnym miejscu na polu bitwy.</Output>
+      <Output>Celem są wszyscy wrogowie stojąc w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="115" Key="DES_TAG_TARGET_RANDOM_ENEMIES1" Flag="1">
@@ -1969,7 +2004,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 enemy chosen at random.</Input>
-      <Output>Celuje w 1 wroga wybranego losowo.</Output>
+      <Output>Celem jest 1 wróg wybrany losowo.</Output>
     </Texts>
   </Element>
   <Element ID="117" Key="DES_TAG_TARGET_RANDOM_ENEMIES2" Flag="1">
@@ -2005,7 +2040,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 2 enemies chosen at random.</Input>
-      <Output>Celuje w 1 do 2 wrogów wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 2 wrogów wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="119" Key="DES_TAG_TARGET_RANDOM_ENEMIES3" Flag="1">
@@ -2041,7 +2076,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 3 enemies chosen at random.</Input>
-      <Output>Celuje od 1 do 3 wrogów wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 3 wrogów wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="121" Key="DES_TAG_TARGET_RANDOM_ENEMIES4" Flag="1">
@@ -2077,7 +2112,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 4 enemies chosen at random.</Input>
-      <Output>Celuje od 1 do 4 wrogów wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 4 wrogów wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="123" Key="DES_TAG_TARGET_RANDOM_ENEMIES5" Flag="1">
@@ -2113,7 +2148,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 5 enemies chosen at random.</Input>
-      <Output>Celuje od 1 do 5 wrogów wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 5 wrogów wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="125" Key="DES_TAG_TARGET_RANDOM_ENEMIES6" Flag="1">
@@ -2149,7 +2184,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 6 enemies chosen at random.</Input>
-      <Output>Celuje w 1 do 6 wrogów wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 6 wrogów wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="127" Key="DES_TAG_TARGET_RANDOM_ALLIES1" Flag="1">
@@ -2185,7 +2220,7 @@
     </Groups>
     <Texts>
       <Input>Target 1 ally chosen at random.</Input>
-      <Output>Cel 1 sojusznik wybrany losowo.</Output>
+      <Output>Celem jest 1 sojusznik wybrany losowo.</Output>
     </Texts>
   </Element>
   <Element ID="129" Key="DES_TAG_TARGET_RANDOM_ALLIES2" Flag="1">
@@ -2221,7 +2256,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 2 allies chosen at random.</Input>
-      <Output>Celuje od 1 do 2 sojuszników wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 2 sojuszników wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="131" Key="DES_TAG_TARGET_RANDOM_ALLIES3" Flag="1">
@@ -2257,7 +2292,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 3 allies chosen at random.</Input>
-      <Output>Celuje od 1 do 3 sojuszników wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 3 sojuszników wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="133" Key="DES_TAG_TARGET_RANDOM_ALLIES4" Flag="1">
@@ -2293,7 +2328,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 4 allies chosen at random.</Input>
-      <Output>Celuje od 1 do 4 sojuszników wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 4 sojuszników wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="135" Key="DES_TAG_TARGET_RANDOM_ALLIES5" Flag="1">
@@ -2329,7 +2364,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 5 allies chosen at random.</Input>
-      <Output>Celuje od 1 do 5 sojuszników wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 5 sojuszników wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="137" Key="DES_TAG_TARGET_RANDOM_ALLIES6" Flag="1">
@@ -2365,7 +2400,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 to 6 allies chosen at random.</Input>
-      <Output>Celuje od 1 do 6 sojuszników wybranych losowo.</Output>
+      <Output>Celem jest od 1 do 6 sojuszników wybranych losowo.</Output>
     </Texts>
   </Element>
   <Element ID="139" Key="DES_TAG_TARGET_SELECTED_ALLY" Flag="1">
@@ -2401,7 +2436,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 selected ally standing anywhere on the battlefield.</Input>
-      <Output>Celuje w 1 wybranego sojusznika stojącego w dowolnym miejscu na polu bitwy.</Output>
+      <Output>Celem jest 1 wybrany sojusznik stojący w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="141" Key="DES_TAG_TARGET_SELECTED_ALLIES" Flag="1">
@@ -2437,7 +2472,7 @@
     </Groups>
     <Texts>
       <Input>Targets 2 or more selected allies standing anywhere on the battlefield.</Input>
-      <Output>Celuje w 2 lub więcej wybranych sojuszników stojących gdziekolwiek na polu bitwy.</Output>
+      <Output>Celem jest 2 lub więcej wybranych sojuszników stojących w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="143" Key="DES_TAG_TARGET_ALL_ALLIES" Flag="1">
@@ -2473,7 +2508,7 @@
     </Groups>
     <Texts>
       <Input>Targets all allies standing anywhere on the battlefield.</Input>
-      <Output>Celuje wszystkich sojuszników stojących gdziekolwiek na polu bitwy.</Output>
+      <Output>Celem są wszyscy sojusznicy stojący w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="145" Key="DES_TAG_TARGET_SELECTED_AND_HORIZONTAL_ALLIES" Flag="1">
@@ -2496,7 +2531,12 @@
       <Output>Cel - Wybrany Sojusznik z Rozpryskiem</Output>
     </Texts>
   </Element>
-  <Element ID="146" Key="DES_TAG_TARGET_SELECTED_AND_HORIZONTAL_ALLIES_DES" Flag="0">
+  <Element ID="146" Key="DES_TAG_TARGET_SELECTED_AND_HORIZONTAL_ALLIES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:49:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -2508,7 +2548,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 or more selected allies standing anywhere on the battlefield and affects allies standing immediately to the left and right to them.</Input>
-      <Output>Celuje w jednego lub więcej wybranych sojuszników stojących w dowolnym miejscu na polu bitwy i wpływa na sojuszników stojących bezpośrednio po lewej i na prawo od nich.</Output>
+      <Output>Celem jest jeden lub więcej wybranych sojuszników stojących w dowolnym miejscu na polu bitwy oraz wszyscy sojusznicy stojących bezpośrednio po ich lewej i prawej stronie.</Output>
     </Texts>
   </Element>
   <Element ID="147" Key="DES_TAG_TARGET_SELECTED_AND_HORIZONTAL_ENEMIES" Flag="1">
@@ -2531,7 +2571,12 @@
       <Output>Cel - Wybrany Wróg z Rozpryskiem</Output>
     </Texts>
   </Element>
-  <Element ID="148" Key="DES_TAG_TARGET_SELECTED_AND_HORIZONTAL_ENEMIES_DES" Flag="0">
+  <Element ID="148" Key="DES_TAG_TARGET_SELECTED_AND_HORIZONTAL_ENEMIES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:49:47</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -2543,7 +2588,7 @@
     </Groups>
     <Texts>
       <Input>Targets 1 or more selected enemies standing anywhere on the battlefield and affects enemies standing immediately to the left and right to them.</Input>
-      <Output>Celuje w jednego lub więcej wybranych wrogów stojących w dowolnym miejscu na polu bitwy i wpływa na wrogów stojących bezpośrednio po lewej i na prawo od nich.</Output>
+      <Output>Celem jest jeden lub więcej wybranych wrogów stojących w dowolnym miejscu na polu bitwy oraz wszyscy sojusznicy stojących bezpośrednio po ich lewej i prawej stronie.</Output>
     </Texts>
   </Element>
   <Element ID="149" Key="DES_TAG_TARGET_ATTACKER" Flag="1">
@@ -2563,7 +2608,12 @@
       <Output>Cel - Atakujący</Output>
     </Texts>
   </Element>
-  <Element ID="150" Key="DES_TAG_TARGET_ATTACKER_DES" Flag="0">
+  <Element ID="150" Key="DES_TAG_TARGET_ATTACKER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:50:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -2572,7 +2622,7 @@
     </Groups>
     <Texts>
       <Input>Targets the attacker.</Input>
-      <Output>Celuje w atakującego.</Output>
+      <Output>Celem jest napastnik.</Output>
     </Texts>
   </Element>
   <Element ID="151" Key="DES_TAG_TARGET_RANDOM_ATTACKERS" Flag="1">
@@ -2593,7 +2643,12 @@
       <Output>Cel - Losowy Atakujący</Output>
     </Texts>
   </Element>
-  <Element ID="152" Key="DES_TAG_TARGET_RANDOM_ATTACKERS_DES" Flag="0">
+  <Element ID="152" Key="DES_TAG_TARGET_RANDOM_ATTACKERS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:50:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -2603,7 +2658,7 @@
     </Groups>
     <Texts>
       <Input>Targets a random attacker.</Input>
-      <Output>Celuje w przypadkowego napastnika.</Output>
+      <Output>Celem jest losowy napastnik.</Output>
     </Texts>
   </Element>
   <Element ID="153" Key="DES_TAG_TARGET_BATTLEFIELD_WITHOUT_CASTER" Flag="1">
@@ -2641,7 +2696,7 @@
     </Groups>
     <Texts>
       <Input>Targets all enemies and allies except the caster.</Input>
-      <Output>Celuje we wszystkich wrogów i sojuszników z wyjątkiem rzucającego.</Output>
+      <Output>Celem są wszyscy wrogowie i sojusznicy z wyjątkiem rzucającego.</Output>
     </Texts>
   </Element>
   <Element ID="155" Key="DES_TAG_TARGET_SELF_GROUP" Flag="1">
@@ -2677,7 +2732,7 @@
     </Groups>
     <Texts>
       <Input>Targets the group in possession of this item or a character knowing this skill.</Input>
-      <Output>Celuje w grupę posiadającą ten przedmiot lub postać znającą tę umiejętność.</Output>
+      <Output>Celem jest grupa posiadająca przedmiot lub postać z tą umiejętnością.</Output>
     </Texts>
   </Element>
   <Element ID="157" Key="DES_TAG_TARGET_DIRECTLY_OPPOSITE" Flag="1">
@@ -2713,7 +2768,7 @@
     </Groups>
     <Texts>
       <Input>Targets only the enemy card located directly opposite in melee or ranged row.</Input>
-      <Output>Celuje tylko wrogą znajdującego się naprzeciwko w rzędzie zwarcia lub dystansowym.</Output>
+      <Output>Celem jest tylko wróg znajdująccy się naprzeciwko w rzędzie zwarcia lub dystansowym.</Output>
     </Texts>
   </Element>
   <Element ID="159" Key="DES_TAG_DAMAGE_NORMAL" Flag="1">
@@ -2834,7 +2889,7 @@
     </Groups>
     <Texts>
       <Input>Summon Creature</Input>
-      <Output>Przywołaj Stwora</Output>
+      <Output>Przywołanie</Output>
     </Texts>
   </Element>
   <Element ID="166" Key="DES_TAG_DAMAGE_SUMMON_DES" Flag="1">
@@ -6609,7 +6664,12 @@
       <Output>Zmniejszono atrybuty postaci dzięki wyposażeniu określonego typu przedmiotu.</Output>
     </Texts>
   </Element>
-  <Element ID="391" Key="DES_TAG_TRIGGER_NONE" Flag="0">
+  <Element ID="391" Key="DES_TAG_TRIGGER_NONE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:04:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6618,10 +6678,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - None</Input>
-      <Output>Wyzwalacz - brak</Output>
+      <Output>Aktywacja - Brak</Output>
     </Texts>
   </Element>
-  <Element ID="392" Key="DES_TAG_TRIGGER_NONE_DES" Flag="0">
+  <Element ID="392" Key="DES_TAG_TRIGGER_NONE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:16:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6630,10 +6695,15 @@
     </Groups>
     <Texts>
       <Input>This subskill's trigger is the same as its parent's trigger.</Input>
-      <Output>Ten wyzwalacz podrzędny jest taki sam jak wyzwalacz rodzica.</Output>
+      <Output>Akcja ma taki sam rodzaj aktywacji jak akcja nadrzędna.</Output>
     </Texts>
   </Element>
-  <Element ID="393" Key="DES_TAG_TRIGGER_PASSIVE" Flag="0">
+  <Element ID="393" Key="DES_TAG_TRIGGER_PASSIVE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:04:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6642,10 +6712,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Passive</Input>
-      <Output>Wyzwalacz - pasywny</Output>
+      <Output>Aktywacja - Pasywna</Output>
     </Texts>
   </Element>
-  <Element ID="394" Key="DES_TAG_TRIGGER_PASSIVE_DES" Flag="0">
+  <Element ID="394" Key="DES_TAG_TRIGGER_PASSIVE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:12:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6654,10 +6729,15 @@
     </Groups>
     <Texts>
       <Input>Passively changes the character's attributes.</Input>
-      <Output>Pasywnie zmienia atrybuty postaci.</Output>
+      <Output>Pasywnie wpływa na atrybuty postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="395" Key="DES_TAG_TRIGGER_DO_ATTACK" Flag="0">
+  <Element ID="395" Key="DES_TAG_TRIGGER_DO_ATTACK" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:04:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6667,10 +6747,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Attack</Input>
-      <Output>Wyzwalacz - atak</Output>
+      <Output>Aktywacja - Atak</Output>
     </Texts>
   </Element>
-  <Element ID="396" Key="DES_TAG_TRIGGER_DO_ATTACK_DES" Flag="0">
+  <Element ID="396" Key="DES_TAG_TRIGGER_DO_ATTACK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:15:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6680,10 +6765,15 @@
     </Groups>
     <Texts>
       <Input>Places the character on the battlefield in Melee or Ranged row. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Umieszcza postać na polu bitwy w rzędzie walczącym wręcz lub dystansowym. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Umieszcza postać na polu bitwy w rzędzie zwarcia lub dystansowym. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="397" Key="DES_TAG_TRIGGER_DO_ATTACK_MELEE" Flag="0">
+  <Element ID="397" Key="DES_TAG_TRIGGER_DO_ATTACK_MELEE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:04:21</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6694,10 +6784,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Attack Melee</Input>
-      <Output>Wyzwalacz - walka wręcz</Output>
+      <Output>Aktywacja - Atak w Zwarciu</Output>
     </Texts>
   </Element>
-  <Element ID="398" Key="DES_TAG_TRIGGER_DO_ATTACK_MELEE_DES" Flag="0">
+  <Element ID="398" Key="DES_TAG_TRIGGER_DO_ATTACK_MELEE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:15:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6708,10 +6803,15 @@
     </Groups>
     <Texts>
       <Input>Places the character on the battlefield in Melee row. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Umieszcza postać na polu bitwy w rzędzie wręcz. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Umieszcza postać na polu bitwy w rzędzie zwarcia. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="399" Key="DES_TAG_TRIGGER_DO_ATTACK_RANGED" Flag="0">
+  <Element ID="399" Key="DES_TAG_TRIGGER_DO_ATTACK_RANGED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:05:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6722,10 +6822,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Attack Ranged</Input>
-      <Output>Wyzwalacz - zasięg ataku</Output>
+      <Output>Aktywacja - Atak Dystansowy</Output>
     </Texts>
   </Element>
-  <Element ID="400" Key="DES_TAG_TRIGGER_DO_ATTACK_RANGED_DES" Flag="0">
+  <Element ID="400" Key="DES_TAG_TRIGGER_DO_ATTACK_RANGED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:15:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6736,10 +6841,15 @@
     </Groups>
     <Texts>
       <Input>Places the character on the battlefield in Ranged row. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Umieszcza postać na polu bitwy w rzędzie dystansowym. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Umieszcza postać na polu bitwy w rzędzie dystansowym. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="401" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK" Flag="0">
+  <Element ID="401" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:07:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6750,10 +6860,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Alt. Attack</Input>
-      <Output>Wyzwalacz - Alt. Atak</Output>
+      <Output>Aktywacja - Alt. Atak</Output>
     </Texts>
   </Element>
-  <Element ID="402" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_DES" Flag="0">
+  <Element ID="402" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:15:21</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6764,10 +6879,15 @@
     </Groups>
     <Texts>
       <Input>Places the character on the battlefield in Melee or Ranged row. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Umieszcza postać na polu bitwy w rzędzie walczącym wręcz lub dystansowym. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Umieszcza postać na polu bitwy w rzędzie zwarcia lub dystansowym. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="403" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_MELEE" Flag="0">
+  <Element ID="403" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_MELEE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:07:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6779,10 +6899,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Alt. Attack Melee</Input>
-      <Output>Wyzwalacz - Alt. Walka wręcz</Output>
+      <Output>Aktywacja - Alt. Atak w Zwarciu</Output>
     </Texts>
   </Element>
-  <Element ID="404" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_MELEE_DES" Flag="0">
+  <Element ID="404" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_MELEE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:15:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6794,10 +6919,15 @@
     </Groups>
     <Texts>
       <Input>Places the character on the battlefield in Melee row. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Umieszcza postać na polu bitwy w rzędzie walki wręcz. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Umieszcza postać na polu bitwy w rzędzie zwarcia. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="405" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_RANGED" Flag="0">
+  <Element ID="405" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_RANGED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:07:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6809,10 +6939,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Alt. Attack Ranged</Input>
-      <Output>Wyzwalacz - Alt. Dystans ataku</Output>
+      <Output>Aktywacja - Alt. Atak Dystansowy</Output>
     </Texts>
   </Element>
-  <Element ID="406" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_RANGED_DES" Flag="0">
+  <Element ID="406" Key="DES_TAG_TRIGGER_DO_ALTERNATE_ATTACK_RANGED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:15:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6824,10 +6959,15 @@
     </Groups>
     <Texts>
       <Input>Places the character on the battlefield in Ranged row. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Umieszcza postać na polu bitwy w rzędzie dystansowym. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Umieszcza postać na polu bitwy w rzędzie dystansowym. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="407" Key="DES_TAG_TRIGGER_DO_CAST" Flag="0">
+  <Element ID="407" Key="DES_TAG_TRIGGER_DO_CAST" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:08:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6837,10 +6977,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Cast</Input>
-      <Output>Wyzwalacz - rzut</Output>
+      <Output>Aktywacja - Czar</Output>
     </Texts>
   </Element>
-  <Element ID="408" Key="DES_TAG_TRIGGER_DO_CAST_DES" Flag="0">
+  <Element ID="408" Key="DES_TAG_TRIGGER_DO_CAST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:17:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6850,10 +6995,15 @@
     </Groups>
     <Texts>
       <Input>Does not place the character on the battlefield but queues its effect. Subskill effects will activate in Fight Phase according to Fight Order queue.</Input>
-      <Output>Nie umieszcza postaci na polu bitwy, ale ustawia się w kolejce. Efekty Subskill uaktywnią się w fazie walki zgodnie z kolejką rozkazu walki.</Output>
+      <Output>Nie umieszcza postaci na polu bitwy, ale ustawia się w kolejce. Efekty aktywują się w fazie walki zgodnie z kolejką ataku.</Output>
     </Texts>
   </Element>
-  <Element ID="409" Key="DES_TAG_TRIGGER_DO_CAST_INSTANT" Flag="0">
+  <Element ID="409" Key="DES_TAG_TRIGGER_DO_CAST_INSTANT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:19:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6864,10 +7014,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Instant</Input>
-      <Output>Wyzwalacz - Instant</Output>
+      <Output>Aktywacja - Natychmiast</Output>
     </Texts>
   </Element>
-  <Element ID="410" Key="DES_TAG_TRIGGER_DO_CAST_INSTANT_DES" Flag="0">
+  <Element ID="410" Key="DES_TAG_TRIGGER_DO_CAST_INSTANT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:17:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6878,10 +7033,15 @@
     </Groups>
     <Texts>
       <Input>Does not place the character on the battlefield and immediately triggers its subskill effects.</Input>
-      <Output>Nie umieszcza postaci na polu bitwy i natychmiast uruchamia efekty podporządkowania.</Output>
+      <Output>Nie umieszcza postaci na polu bitwy i natychmiast aktywuje efekt.</Output>
     </Texts>
   </Element>
-  <Element ID="411" Key="DES_TAG_TRIGGER_ON_ATTACK" Flag="0">
+  <Element ID="411" Key="DES_TAG_TRIGGER_ON_ATTACK" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:38:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6891,10 +7051,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Primary Attack</Input>
-      <Output>Trigger - On Primary Attack</Output>
+      <Output>Aktywacja - Podczas Ataku</Output>
     </Texts>
   </Element>
-  <Element ID="412" Key="DES_TAG_TRIGGER_ON_ATTACK_DES" Flag="0">
+  <Element ID="412" Key="DES_TAG_TRIGGER_ON_ATTACK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:20:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6904,10 +7069,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when a character activates any (non-Alternative) Attack subskill.</Input>
-      <Output>Efekty podporządkowania są wyzwalane, gdy postać aktywuje jakąkolwiek (nietradycyjną) umiejętność ataku.</Output>
+      <Output>Efekty aktywuje się, gdy postać użyje jakikolwiek (niealternatywny) atak.</Output>
     </Texts>
   </Element>
-  <Element ID="413" Key="DES_TAG_TRIGGER_ON_ALTERNATE_ATTACK" Flag="0">
+  <Element ID="413" Key="DES_TAG_TRIGGER_ON_ALTERNATE_ATTACK" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:39:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6918,10 +7088,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Secondary Attack</Input>
-      <Output>Trigger - On Secondary Attack</Output>
+      <Output>Aktywacja - Podczas Alt. Ataku</Output>
     </Texts>
   </Element>
-  <Element ID="414" Key="DES_TAG_TRIGGER_ON_ALTERNATE_ATTACK_DES" Flag="0">
+  <Element ID="414" Key="DES_TAG_TRIGGER_ON_ALTERNATE_ATTACK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:21:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6932,10 +7107,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when a character activates any Alternative Attack subskill.</Input>
-      <Output>Efekty podrzędności są wyzwalane, gdy postać aktywuje jakąś podrzędną umiejętność ataku alternatywnego.</Output>
+      <Output>Efekty aktywuje się, gdy postać użyje jakikolwiek alternatywny atak.</Output>
     </Texts>
   </Element>
-  <Element ID="415" Key="DES_TAG_TRIGGER_ON_CAST" Flag="0">
+  <Element ID="415" Key="DES_TAG_TRIGGER_ON_CAST" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:08:50</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6945,10 +7125,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Cast</Input>
-      <Output>Trigger - On Cast</Output>
+      <Output>Aktywacja - Podczas Czarowaniu</Output>
     </Texts>
   </Element>
-  <Element ID="416" Key="DES_TAG_TRIGGER_ON_CAST_DES" Flag="0">
+  <Element ID="416" Key="DES_TAG_TRIGGER_ON_CAST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:22:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6958,10 +7143,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when a character activates any Cast subskill.</Input>
-      <Output>Efekty podrzędności są wyzwalane, gdy postać aktywuje jakąś podrzędną obsadę.</Output>
+      <Output>Efekty aktywuje się, gdy postać użyje jakikolwiek czar.</Output>
     </Texts>
   </Element>
-  <Element ID="417" Key="DES_TAG_TRIGGER_ON_CAST_INSTANT" Flag="0">
+  <Element ID="417" Key="DES_TAG_TRIGGER_ON_CAST_INSTANT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:09:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6972,10 +7162,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Instant</Input>
-      <Output>Trigger - On Instant</Output>
+      <Output>Aktywacja - Podczas Akcji Natychmiastowej</Output>
     </Texts>
   </Element>
-  <Element ID="418" Key="DES_TAG_TRIGGER_ON_CAST_INSTANT_DES" Flag="0">
+  <Element ID="418" Key="DES_TAG_TRIGGER_ON_CAST_INSTANT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:23:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -6986,10 +7181,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when a character activates any Instant subskill.</Input>
-      <Output>Efekty podrzędności są wyzwalane, gdy postać aktywuje jakąkolwiek natychmiastową umiejętność podrzędną.</Output>
+      <Output>Efekty aktywuje się, gdy postać użyje jakąkolwiek akcję natychmiastową.</Output>
     </Texts>
   </Element>
-  <Element ID="419" Key="DES_TAG_TRIGGER_ON_START_CHALLENGE" Flag="0">
+  <Element ID="419" Key="DES_TAG_TRIGGER_ON_START_CHALLENGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:10:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7000,10 +7200,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Challenge Start</Input>
-      <Output>Wyzwalacz - na starcie wyzwania</Output>
+      <Output>Aktywacja - Początek Wyzwania</Output>
     </Texts>
   </Element>
-  <Element ID="420" Key="DES_TAG_TRIGGER_ON_START_CHALLENGE_DES" Flag="0">
+  <Element ID="420" Key="DES_TAG_TRIGGER_ON_START_CHALLENGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:24:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7014,10 +7219,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered upon starting a challenge.</Input>
-      <Output>Efekty subskill są wyzwalane po rozpoczęciu wyzwania.</Output>
+      <Output>Efekty aktywuje się, gdy rozpoczyna się wyzwania.</Output>
     </Texts>
   </Element>
-  <Element ID="421" Key="DES_TAG_TRIGGER_ON_END_CHALLENGE" Flag="0">
+  <Element ID="421" Key="DES_TAG_TRIGGER_ON_END_CHALLENGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:10:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7028,10 +7238,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Challenge End</Input>
-      <Output>Trigger - On Challenge End</Output>
+      <Output>Aktywacja - Koniec Wyzwania</Output>
     </Texts>
   </Element>
-  <Element ID="422" Key="DES_TAG_TRIGGER_ON_END_CHALLENGE_DES" Flag="0">
+  <Element ID="422" Key="DES_TAG_TRIGGER_ON_END_CHALLENGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:25:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7042,10 +7257,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when a challenge is ending, regardless of results.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy wyzwanie się kończy, niezależnie od wyników.</Output>
+      <Output>Efekty aktywuje się, gdy wyzwanie się kończy, niezależnie od wyników.</Output>
     </Texts>
   </Element>
-  <Element ID="423" Key="DES_TAG_TRIGGER_ON_CARD_PLAY" Flag="0">
+  <Element ID="423" Key="DES_TAG_TRIGGER_ON_CARD_PLAY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:33:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7056,10 +7276,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Card Play</Input>
-      <Output>Trigger - On Card Play</Output>
+      <Output>Aktywacja - Zagranie Karty</Output>
     </Texts>
   </Element>
-  <Element ID="424" Key="DES_TAG_TRIGGER_ON_CARD_PLAY_DES" Flag="0">
+  <Element ID="424" Key="DES_TAG_TRIGGER_ON_CARD_PLAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:25:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7070,10 +7295,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when another card is played.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy zagrywana jest inna karta.</Output>
+      <Output>Efekty aktywuje się, gdy zagrywana jest inna karta.</Output>
     </Texts>
   </Element>
-  <Element ID="425" Key="DES_TAG_TRIGGER_ON_CARD_SELF_PLAY" Flag="0">
+  <Element ID="425" Key="DES_TAG_TRIGGER_ON_CARD_SELF_PLAY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:26:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7085,10 +7315,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Self Card Play</Input>
-      <Output>Trigger - On Self Card Play</Output>
+      <Output>Aktywacja - Zagranie Tej Karty</Output>
     </Texts>
   </Element>
-  <Element ID="426" Key="DES_TAG_TRIGGER_ON_CARD_SELF_PLAY_DES" Flag="0">
+  <Element ID="426" Key="DES_TAG_TRIGGER_ON_CARD_SELF_PLAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:26:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7100,10 +7335,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when this card is played.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy karta zostanie zagrana.</Output>
+      <Output>Efekty aktywuje się, gdy zagrywana jest ta karta.</Output>
     </Texts>
   </Element>
-  <Element ID="427" Key="DES_TAG_TRIGGER_ON_CARD_ALLY_PLAY" Flag="0">
+  <Element ID="427" Key="DES_TAG_TRIGGER_ON_CARD_ALLY_PLAY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:30:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7115,10 +7355,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Ally Card Play</Input>
-      <Output>Trigger - On Ally Card Play</Output>
+      <Output>Aktywacja - Zagranie Karty Sojusznika</Output>
     </Texts>
   </Element>
-  <Element ID="428" Key="DES_TAG_TRIGGER_ON_CARD_ALLY_PLAY_DES" Flag="0">
+  <Element ID="428" Key="DES_TAG_TRIGGER_ON_CARD_ALLY_PLAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:26:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7130,10 +7375,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when another allied card is played.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy zagrana zostanie inna sojusznicza karta.</Output>
+      <Output>Efekty aktywuje się, gdy zagrywana jest inna sojusznicza karta.</Output>
     </Texts>
   </Element>
-  <Element ID="429" Key="DES_TAG_TRIGGER_ON_CARD_ENEMY_PLAY" Flag="0">
+  <Element ID="429" Key="DES_TAG_TRIGGER_ON_CARD_ENEMY_PLAY" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:30:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7145,10 +7395,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Enemy Card Play</Input>
-      <Output>Trigger - On Enemy Card Play</Output>
+      <Output>Aktywacja - Zagranie Karty Wroga</Output>
     </Texts>
   </Element>
-  <Element ID="430" Key="DES_TAG_TRIGGER_ON_CARD_ENEMY_PLAY_DES" Flag="0">
+  <Element ID="430" Key="DES_TAG_TRIGGER_ON_CARD_ENEMY_PLAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:26:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7160,10 +7415,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when an enemy card is played.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy zagrywana jest karta wroga.</Output>
+      <Output>Efekty aktywuje się, gdy zagrywana jest inna wroga karta.</Output>
     </Texts>
   </Element>
-  <Element ID="431" Key="DES_TAG_TRIGGER_ON_DAMAGE" Flag="0">
+  <Element ID="431" Key="DES_TAG_TRIGGER_ON_DAMAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:15:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7173,10 +7433,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Damage</Input>
-      <Output>Trigger - On Damage</Output>
+      <Output>Aktywacja - Otrzymanie Obrażeń</Output>
     </Texts>
   </Element>
-  <Element ID="432" Key="DES_TAG_TRIGGER_ON_DAMAGE_DES" Flag="0">
+  <Element ID="432" Key="DES_TAG_TRIGGER_ON_DAMAGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:27:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7186,10 +7451,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when a character is dealt damage.</Input>
-      <Output>Efekty podrzędności są wyzwalane, gdy postać otrzymuje obrażenia.</Output>
+      <Output>Efekty aktywuje się, gdy postać otrzymuje obrażenia.</Output>
     </Texts>
   </Element>
-  <Element ID="433" Key="DES_TAG_TRIGGER_ON_ENEMY_KILLED" Flag="0">
+  <Element ID="433" Key="DES_TAG_TRIGGER_ON_ENEMY_KILLED" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:28:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7200,10 +7470,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - On Enemy Killed</Input>
-      <Output>Trigger - On Enemy Killed</Output>
+      <Output>Aktywacja - Zabicie Wroga</Output>
     </Texts>
   </Element>
-  <Element ID="434" Key="DES_TAG_TRIGGER_ON_ENEMY_KILLED_DES" Flag="0">
+  <Element ID="434" Key="DES_TAG_TRIGGER_ON_ENEMY_KILLED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:27:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7214,10 +7489,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when an enemy is killed by a character using this skill.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy wróg zostanie zabity przez postać używającą tej umiejętności.</Output>
+      <Output>Efekty aktywuje się, gdy wróg zostanie zabity przez postać używającą tej umiejętności.</Output>
     </Texts>
   </Element>
-  <Element ID="435" Key="DES_TAG_TRIGGER_GROUP_PASSIVE" Flag="0">
+  <Element ID="435" Key="DES_TAG_TRIGGER_GROUP_PASSIVE" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:11:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7227,10 +7507,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Group Passive</Input>
-      <Output>Wyzwalacz - Grupa pasywna</Output>
+      <Output>Aktywacja - Grupa: Pasywna</Output>
     </Texts>
   </Element>
-  <Element ID="436" Key="DES_TAG_TRIGGER_GROUP_PASSIVE_DES" Flag="0">
+  <Element ID="436" Key="DES_TAG_TRIGGER_GROUP_PASSIVE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:27:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7240,10 +7525,15 @@
     </Groups>
     <Texts>
       <Input>Passively changes the attributes of each member of affected group.</Input>
-      <Output>Pasywnie zmienia atrybuty każdego członka grupy, której dotyczy problem.</Output>
+      <Output>Pasywnie zmienia atrybuty każdego członka grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="437" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_START_TURN" Flag="0">
+  <Element ID="437" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_START_TURN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:14:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7256,10 +7546,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Group On Start Turn</Input>
-      <Output>Wyzwalacz - obrót grupy przy starcie</Output>
+      <Output>Aktywacja - Grupa: Rozpoczęcie Tury</Output>
     </Texts>
   </Element>
-  <Element ID="438" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_START_TURN_DES" Flag="0">
+  <Element ID="438" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_START_TURN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:27:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7272,10 +7567,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when turn starts.</Input>
-      <Output>Efekty podporządkowania są wyzwalane po rozpoczęciu tury.</Output>
+      <Output>Efekty aktywuje się, gdy tura się rozpoczyna.</Output>
     </Texts>
   </Element>
-  <Element ID="439" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_END_TURN" Flag="0">
+  <Element ID="439" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_END_TURN" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 17:14:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7288,10 +7588,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Group On End Turn</Input>
-      <Output>Trigger - Group On End Turn</Output>
+      <Output>Aktywacja - Grupa: Zakończenie Tury</Output>
     </Texts>
   </Element>
-  <Element ID="440" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_END_TURN_DES" Flag="0">
+  <Element ID="440" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_END_TURN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:28:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7304,10 +7609,15 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when turn ends.</Input>
-      <Output>Efekty Subskill są wyzwalane, gdy tura się kończy.</Output>
+      <Output>Efekty aktywuje się, gdy tura się kończy.</Output>
     </Texts>
   </Element>
-  <Element ID="441" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_MOVEMENT" Flag="0">
+  <Element ID="441" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_MOVEMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:11:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7319,10 +7629,15 @@
     </Groups>
     <Texts>
       <Input>Trigger - Group On Movement</Input>
-      <Output>Trigger - Group On Movement</Output>
+      <Output>Aktywacja - Grupa: Ruch</Output>
     </Texts>
   </Element>
-  <Element ID="442" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_MOVEMENT_DES" Flag="0">
+  <Element ID="442" Key="DES_TAG_TRIGGER_TRIGGER_GROUP_ON_MOVEMENT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-09-24 18:28:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TAG</Group>
@@ -7334,7 +7649,7 @@
     </Groups>
     <Texts>
       <Input>Subskill effects are triggered when the group moves.</Input>
-      <Output>Efekty podrzędności są wyzwalane, gdy grupa się porusza.</Output>
+      <Output>Efekty aktywuje się, gdy grupa się porusza.</Output>
     </Texts>
   </Element>
   <Element ID="443" Key="DES_TAG_ESSENCE_GRAY" Flag="1">
