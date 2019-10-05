@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Slavyan" lastEventIndex="57" allowToUse="true" uniqueModuleID="-461441224">
   <Adventure name="SlavyanTradesmall" uniqueID="1" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="12" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="579" image="Event006">
@@ -2348,7 +2348,7 @@ You see armed folk gathering.</nodes>
 We also have a healer in the village. If they're not busy, they're good with the body and the mind.'</nodes>
     <nodes xsi:type="NodeTrade" ID="12" positionX="1085.22278" positionY="-1572.70459" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-500">
       <outputs name="Confirm" ownerID="12" targetID="13" fromX="1515" fromY="-1901" />
-      <outputs name="Cancel" ownerID="12" targetID="11" fromX="1515" fromY="-1981" />
+      <outputs name="Cancel" ownerID="12" targetID="11" fromX="1072" fromY="-1981" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="1578.57556" positionY="-1597.28" width="350" height="530" linkedEventUniqueID="0">
       <logic>
@@ -2505,19 +2505,19 @@ Together, you remove any curses you had.
           <LogicProcessing name="c3" list1="ppl">
             <scriptCallWithTag scriptName="FLP_CharactersWithSkill" tag="SKILL-CURSE_S" />
           </LogicProcessing>
-          <LogicResultAction list="c1">
+          <LogicResultAction list="c1" resultGroup="G1">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
-          <LogicResultAction list="c2">
+          <LogicResultAction list="c2" resultGroup="G1">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
-          <LogicResultAction list="c3">
+          <LogicResultAction list="c3" resultGroup="G1">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
         </FilterBlock>
       </logic>
       <outputs name="Confirm" ownerID="31" targetID="30" fromX="2933" fromY="-3128" />
-      <outputs name="Cancel" ownerID="31" targetID="11" fromX="2933" fromY="-3208" />
+      <outputs name="Cancel" ownerID="31" targetID="11" fromX="2489" fromY="-3208" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="3565.65015" positionY="-2706.82983" width="350" height="530" linkedEventUniqueID="0">
       <logic>
@@ -2592,7 +2592,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Confirm" ownerID="38" targetID="37" fromX="2870" fromY="-1199" />
-      <outputs name="Cancel" ownerID="38" targetID="21" fromX="2870" fromY="-1279" />
+      <outputs name="Cancel" ownerID="38" targetID="21" fromX="2426" fromY="-1279" />
     </nodes>
     <nodes xsi:type="NodeTrade" ID="39" positionX="2449" positionY="-1362" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="wood1" startingBalance="-45">
       <logic>
@@ -2614,7 +2614,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Confirm" ownerID="39" targetID="37" fromX="2879" fromY="-1690" />
-      <outputs name="Cancel" ownerID="39" targetID="21" fromX="2879" fromY="-1770" />
+      <outputs name="Cancel" ownerID="39" targetID="21" fromX="2435" fromY="-1770" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="40" positionX="-481" positionY="-798" width="350" height="725">
       <logic>
@@ -2758,7 +2758,7 @@ Come in, but we're watching you!'</nodes>
     </nodes>
     <nodes xsi:type="NodeTrade" ID="55" positionX="1974" positionY="-3156" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-800">
       <outputs name="Confirm" ownerID="55" targetID="56" fromX="2404" fromY="-3484" />
-      <outputs name="Cancel" ownerID="55" targetID="11" fromX="2404" fromY="-3564" />
+      <outputs name="Cancel" ownerID="55" targetID="11" fromX="1960" fromY="-3564" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="56" positionX="2590" positionY="-3375" width="350" height="530" linkedEventUniqueID="0">
       <logic>
@@ -10264,8 +10264,8 @@ You drink everyone under the table and impress the locals greatly.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="Food trader" uniqueID="54" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="704" image="Event006">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-656" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event006">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="491" positionY="-130" width="350" height="805">
       <logic>
@@ -10296,7 +10296,7 @@ You drink everyone under the table and impress the locals greatly.</nodes>
       <outputs name="Confirm" ownerID="5" targetID="6" fromX="1952" fromY="-911" />
       <outputs name="Cancel" ownerID="5" targetID="2" fromX="1952" fromY="-991" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="2276" positionY="-302" width="350" height="455" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="2276" positionY="-302" width="350" height="530" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="__SlavKillsmallScav" uniqueID="55" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="50" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event016">

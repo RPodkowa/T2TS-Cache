@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Earthbound" lastEventIndex="85" allowToUse="true" uniqueModuleID="-144450658">
   <Adventure name="EarthboundTradesmall" uniqueID="29" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="13" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="579" image="Event216">
@@ -8545,9 +8545,9 @@ You hold the frozen snowdrop and can now take it to the red cave for the dwarves
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" allowOnce="true" ID="13" positionX="440" positionY="743" width="350" height="805">
-      <outputs name="Pay them." ownerID="13" targetID="3" fromX="765" fromY="251" />
-      <outputs name="No, leave." ownerID="13" targetID="5" fromX="765" fromY="171" />A young smith looks your way. But they ask that you pay for their services.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="362" positionY="696" width="350" height="805">
+      <outputs name="Pay them." ownerID="13" targetID="3" fromX="688" fromY="205" />
+      <outputs name="No, leave." ownerID="13" targetID="5" fromX="688" fromY="124" />A young smith looks your way. But they ask that you pay for their services.</nodes>
     <nodes xsi:type="NodeTrade" ID="14" positionX="1420" positionY="175" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="nofood" startingBalance="-35000">
       <logic>
         <FilterBlock>

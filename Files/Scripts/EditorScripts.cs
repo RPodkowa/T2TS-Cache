@@ -996,9 +996,7 @@ namespace GameScript
         }        
         static public AdvList FLP_AminusB(AdventureEventData advData, LogicProcessing processingData, AdvNode node)
         {
-#if UNITY_EDITOR
-            float t = Time.realtimeSinceStartup;
-#endif
+
             AdvList listA = GetList(processingData.list1, advData, node);
             if (listA == null) return null;
 
@@ -1009,9 +1007,6 @@ namespace GameScript
             AdvList list = listA.Clone(processingData.name);
             list.Remove(listB);
 
-#if UNITY_EDITOR
-            Debug.Log("AminusB" + (Time.realtimeSinceStartup - t));
-#endif
 
             return list;
         }        
@@ -1442,7 +1437,7 @@ namespace GameScript
                             Debug.LogError("[ERROR]Trying to filter item which is already taken or destroyed!!");
                             continue;
                         }
-                        Vector3i pos = g.position;
+                        Vector3i pos = g.Position;
                         DataCell dc = World.GetInstance().GetHexAt(pos);
 
                         if (dc == null)
@@ -1489,7 +1484,7 @@ namespace GameScript
                             Debug.LogError("[ERROR]Trying to filter item which is already taken or destroyed!!");
                             continue;
                         }
-                        Vector3i pos = g.position;
+                        Vector3i pos = g.Position;
                         DataCell dc = World.GetInstance().GetHexAt(pos);
                                          
                         if (value > FInt.ZERO)
@@ -3032,7 +3027,7 @@ namespace GameScript
                 value = FMOUtil_Convert(s);
             }
 
-            var area = HexNeighbors.GetRange(v.position, value.ToInt());
+            var area = HexNeighbors.GetRange(v.Position, value.ToInt());
             area.Shuffle();
             
             foreach(var a in area)
@@ -3087,7 +3082,7 @@ namespace GameScript
                 value = FMOUtil_Convert(s);
             }
 
-            var area = HexNeighbors.GetRange(v.position, value.ToInt());
+            var area = HexNeighbors.GetRange(v.Position, value.ToInt());
             area.Shuffle();
             
             foreach (var a in area)

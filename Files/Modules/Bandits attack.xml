@@ -2698,7 +2698,7 @@ So how about you let us have some blood, and perhaps some meat, if you have any?
       <outputs name="Surrender" ownerID="3" targetID="13" fromX="3311" fromY="-1331" />
       <outputs name="Win" ownerID="3" targetID="47" group="G1" fromX="3311" fromY="-1412" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="1556.709" positionY="-53.1996346" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="1263" positionY="126" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicResultAction list="bandit">
@@ -2717,7 +2717,7 @@ So how about you let us have some blood, and perhaps some meat, if you have any?
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Trade." ownerID="4" targetID="15" fromX="1882" fromY="-544" />'Heh, I guess it won't do us no harm, so why not?'</nodes>
+      <outputs name="Trade." ownerID="4" targetID="15" fromX="1588" fromY="-364" />'Heh, I guess it won't do us no harm, so why not?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="856" positionY="-391" width="350" height="885">
       <logic>
         <FilterBlock>
@@ -2823,9 +2823,9 @@ They plead with you to take them back, saying the bandits made them stay.</nodes
       </logic>
       <outputs name="Leave." ownerID="13" targetID="14" fromX="5058" fromY="-2935" />You are beaten badly and forced to flee to tend to your poisoned wounds. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="5227.00146" positionY="-2713.43848" width="350" height="455" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeTrade" ID="15" positionX="2000.28235" positionY="32.4801979" width="460" height="479" traderProfile="TRADER-SLAVYAN" playerInventory="stuff" startingBalance="-30">
-      <outputs name="Confirm" ownerID="15" targetID="18" fromX="2430" fromY="-295" />
-      <outputs name="Cancel" ownerID="15" targetID="17" fromX="2430" fromY="-376" />
+    <nodes xsi:type="NodeTrade" ID="15" positionX="1675" positionY="162" width="460" height="479" traderProfile="TRADER-SLAVYAN" playerInventory="stuff" startingBalance="-30">
+      <outputs name="Confirm" ownerID="15" targetID="18" fromX="2105" fromY="-166" />
+      <outputs name="Cancel" ownerID="15" targetID="17" fromX="2105" fromY="-246" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="16" positionX="2941.27222" positionY="85.94542" width="350" height="530" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>

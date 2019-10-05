@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Alphaclan" lastEventIndex="80" allowToUse="true" uniqueModuleID="1862270847">
   <Adventure name="OrcKillDwarf" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="57" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="825" image="Event016">
@@ -5033,7 +5033,7 @@ Your brethren beg you to come with them, to guide them away from the dark and on
 
 You also find a wraith, likely the product of whatever dark arts were performed here. It may want to stay with you.</nodes>
   </Adventure>
-  <Adventure name="OrcKillsmallElves" uniqueID="56" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="65" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+  <Adventure name="OrcKillsmallElves" uniqueID="56" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="66" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event035">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
@@ -5372,7 +5372,7 @@ They bow and begin preparations to leave. The orcs are sad that you did not kill
 They bow and begin preparations to leave.
 
 The orcs are happy that you got rid of them and reward you.</nodes>
-    <nodes xsi:type="NodeTrade" ID="43" positionX="992" positionY="642" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="diamond" startingBalance="-5">
+    <nodes xsi:type="NodeTrade" ID="43" positionX="974" positionY="582" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="diamond" startingBalance="-5">
       <logic>
         <FilterBlock>
           <LogicFilter name="diamond">
@@ -5383,8 +5383,8 @@ The orcs are happy that you got rid of them and reward you.</nodes>
           </LogicProcessing>
         </FilterBlock>
       </logic>
-      <outputs name="Confirm" ownerID="43" targetID="44" fromX="1422" fromY="313" />
-      <outputs name="Cancel" ownerID="43" targetID="3" fromX="1422" fromY="233" />
+      <outputs name="Confirm" ownerID="43" targetID="44" fromX="1404" fromY="253" />
+      <outputs name="Cancel" ownerID="43" targetID="66" fromX="1404" fromY="173" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="44" positionX="1769" positionY="851" width="350" height="725">
       <logic>
@@ -5404,7 +5404,7 @@ The orcs are happy that you got rid of them and reward you.</nodes>
 
 The orcs are sad that you did not kill the elves, but you did get rid of them, so you gain some friendship.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="45" positionX="-233" positionY="820" width="350" height="805">
+    <nodes xsi:type="NodeAdventure" ID="45" positionX="-231" positionY="740" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicFilter name="diamond">
@@ -5418,8 +5418,8 @@ The orcs are sad that you did not kill the elves, but you did get rid of them, s
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Agree." ownerID="45" targetID="43" fromX="92" fromY="328" />
-      <outputs name="Refuse." ownerID="45" targetID="3" fromX="92" fromY="248" />'It is not our way to be bought, yet we sense that you possess something we need. If you trade us five of your diamonds, we will be able to perform a ritual and thus leave this place in haste, just as you wish.'</nodes>
+      <outputs name="Agree." ownerID="45" targetID="43" fromX="37" fromY="268" />
+      <outputs name="Refuse." ownerID="45" targetID="3" fromX="37" fromY="188" />'It is not our way to be bought, yet we sense that you possess something we need. If you trade us five of your diamonds, we will be able to perform a ritual and thus leave this place in haste, just as you wish.'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="46" positionX="4354.608" positionY="-2269.19" width="350" height="408" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
@@ -5587,6 +5587,19 @@ The orcs go to deal with the elves themselves, and your friendship with them suf
     <nodes xsi:type="NodeDealDamage" ID="65" positionX="1387" positionY="1692" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="20" maxDamage="40" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="65" targetID="32" fromX="1816" fromY="1303" />
     </nodes>
+    <nodes xsi:type="NodeAdventure" ID="66" positionX="-798" positionY="1025" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="diamond">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsResources" parameter="1" tag="TAG-DIAMOND" />
+          </LogicFilter>
+          <LogicResultAction list="diamond">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="5" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Agree." ownerID="66" targetID="43" fromX="-473" fromY="532" />
+      <outputs name="Refuse." ownerID="66" targetID="3" fromX="-473" fromY="452" />'It is not our way to be bought, yet we sense that you possess something we need. If you trade us five of your diamonds, we will be able to perform a ritual and thus leave this place in haste, just as you wish.'</nodes>
   </Adventure>
   <Adventure name="OrcKillKarakandza" uniqueID="57" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="55" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-451.314148" positionY="-29.9478874" width="347" height="825" image="Event016">

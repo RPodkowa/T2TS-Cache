@@ -185,8 +185,16 @@ namespace GameScript
             if (entities == null) return null;
             Tag eq1 = DBHelpers.GetDBInstance<Tag>(TAG.COOKED_FOOD);
             Tag eq2 = DBHelpers.GetDBInstance<Tag>(TAG.FOOD);
-            return entities.FindAll(o => o.GetReconstructedAttributes().ContainsKey(eq2) && 
+            return entities.FindAll(o => o.GetReconstructedAttributes().ContainsKey(eq2) &&
                                         !o.GetReconstructedAttributes().ContainsKey(eq1));
+        }
+        static public object UIF_CraftingResourcesFilter(List<ClientEntity> entities, object data)
+        {
+            if (entities == null) return null;
+            Tag eq1 = DBHelpers.GetDBInstance<Tag>(TAG.RESOURCE);
+            Tag eq2 = DBHelpers.GetDBInstance<Tag>(TAG.FOOD);
+            return entities.FindAll(o => o.GetReconstructedAttributes().ContainsKey(eq1) && 
+                                        !o.GetReconstructedAttributes().ContainsKey(eq2));
         }
         static public object UIF_FuelFilter(List<ClientEntity> entities, object data)
         {

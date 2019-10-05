@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="VOLH DLC" lastEventIndex="41" allowToUse="true" uniqueModuleID="-1610678347">
   <Adventure name="Dark Volh" uniqueID="6" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="22" eventTag="TAG-LOGVOLH" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="13" positionY="112" width="347" height="661" image="Event011">
@@ -671,14 +671,14 @@ He snaps his fingers and the dragon and all other unliving collapse in a pile of
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="62" positionX="-3134" positionY="-2521" width="350" height="805">
       <outputs name="Fight." ownerID="62" targetID="51" fromX="-2808" fromY="-3012" />
-      <outputs name="Run away!&#xD;&#xA;" ownerID="62" targetID="63" fromX="-2808" fromY="-3092" />'Ha ha, how dare you try to threaten me, fools! Time to die!'</nodes>
+      <outputs name="Run away!&#xD;" ownerID="62" targetID="63" fromX="-2808" fromY="-3092" />'Ha ha, how dare you try to threaten me, fools! Time to die!'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="63" positionX="-3807" positionY="-3081" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="70" maxDamage="90" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="63" targetID="64" fromX="-3377" fromY="-3469" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="64" positionX="-4356" positionY="-3127" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="64" targetID="65" fromX="-3907" fromY="-3559" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="65" positionX="-4872" positionY="-3131" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_V_DARKV_THREE2" linkedEventUniqueID="0" endOfQuest="true">
+    <nodes xsi:type="NodeAdventureEnd" ID="65" positionX="-4872" positionY="-3131" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_V_DARKV_THREE2" logBookDescription="QUEST_V_DARKV_THREE2_DES4" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -5338,7 +5338,7 @@ The boy's spirit has turned into a wraith and now attaches itself to your servic
       <logic>
         <ModifierBlock>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_ROBE" />
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_PET_WRAITH" />
           </LogicModifiers>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_WAND" />
@@ -6358,7 +6358,7 @@ You do, however, spot a chest stashed in a hole deep within the cave.</nodes>
       </logic>
       <outputs name="Take the treasure and leave." ownerID="59" targetID="44" fromX="3054" fromY="-4046" />You kill the bears and are free to take the chest in peace.</nodes>
   </Adventure>
-  <Adventure name="swamps" uniqueID="36" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="45" eventTag="TAG-LOG_CARAVAN" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+  <Adventure name="swamps" uniqueID="36" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="48" eventTag="TAG-LOG_CARAVAN" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event004">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
@@ -6414,12 +6414,12 @@ You do, however, spot a chest stashed in a hole deep within the cave.</nodes>
       <outputs name="Attack the gobbos!" ownerID="6" targetID="8" fromX="2145" fromY="-782" />
       <outputs name="Show them your map and convince them of your ownership of this treasure." ownerID="6" targetID="9" fromX="2145" fromY="-862" />
       <outputs name="[Goblin friend]Say that you should share, as friends do." ownerID="6" targetID="10" fromX="2145" fromY="-942" />
-      <outputs name="Leave." ownerID="6" targetID="11" fromX="2145" fromY="-1022" />You find a spot of dry land with a mound of unnaturally placed stones -- likely the hiding spot for the treasure. 
+      <outputs name="Leave." ownerID="6" targetID="47" fromX="2145" fromY="-1022" />You find a spot of dry land with a mound of unnaturally placed stones - likely the hiding spot for the treasure. 
 Unfortunately, a group of goblins circles it. One of them spots you and shouts:
 'Beat it! We got here first and we not in the mood for fightin'!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1320.24646" positionY="-917.7389" width="350" height="805">
       <outputs name="Kill the swampers quickly, before their parents return." ownerID="7" targetID="28" fromX="1645" fromY="-1408" />
-      <outputs name="Too risky -- leave." ownerID="7" targetID="11" fromX="1645" fromY="-1489" />You spot the treasure chest you are looking for, but it seems there is a pack of swampers playing with it right now.</nodes>
+      <outputs name="Too risky -- leave." ownerID="7" targetID="47" fromX="1645" fromY="-1489" />You spot the treasure chest you are looking for, but it seems there is a pack of swampers playing with it right now.</nodes>
     <nodes xsi:type="NodeChallenge" ID="8" positionX="2345" positionY="-144" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-LOTS_GOBS_4P_4M_5S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="8" targetID="17" fromX="2786" fromY="-639" />
       <outputs name="Lose" ownerID="8" targetID="22" fromX="2786" fromY="-719" />
@@ -6461,18 +6461,8 @@ Unfortunately, a group of goblins circles it. One of them spots you and shouts:
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Thank them and leave." ownerID="10" targetID="11" fromX="2776" fromY="-2253" />'Ah, yeah, sure. Come help us out and we both get goodies.'
+      <outputs name="Thank them and leave." ownerID="10" targetID="47" fromX="2776" fromY="-2253" />'Ah, yeah, sure. Come help us out and we both get goodies.'
 You dig the treasure out and split it evenly.</nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="11" positionX="1820.15991" positionY="-1743.28027" width="480" height="503" radius="0" groupID="GROUP-HORD_GOBS" destroyOwner="true" linkedEventUniqueID="0">
-      <logic>
-        <ModifierBlock>
-          <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-QUESTSHELL1" />
-          </LogicModifiers>
-        </ModifierBlock>
-      </logic>
-      <outputs ownerID="11" targetID="12" fromX="2268" fromY="-2175" />
-    </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="12" positionX="1822" positionY="-2265" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_V_CARAVAN2" logBookDescription="QUEST_V_CARAVAN2_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventure" ID="13" positionX="3218" positionY="-1081" width="350" height="805">
       <logic>
@@ -6512,18 +6502,7 @@ You dig the treasure out and split it evenly.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Take what you can and leave." ownerID="17" targetID="21" fromX="3303" fromY="-432" />You kill the goblins and are free to loot the treasure in peace. </nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="21" positionX="3423" positionY="201" width="480" height="583" radius="0" groupID="GROUP-HORD_GOBS" destroyOwner="true" linkedEventUniqueID="0">
-      <logic>
-        <ModifierBlock>
-          <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-QUESTSHELL1" />
-          </LogicModifiers>
-        </ModifierBlock>
-      </logic>
-      <outputs ownerID="21" targetID="36" fromX="3871" fromY="-231" />
-      <outputs ownerID="21" targetID="37" fromX="3871" fromY="-311" />
-    </nodes>
+      <outputs name="Take what you can and leave." ownerID="17" targetID="46" fromX="3303" fromY="-432" />You kill the goblins and are free to loot the treasure in peace. </nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="4008.11743" positionY="-667.602051" width="350" height="725">
       <outputs name="Leave." ownerID="22" targetID="24" fromX="4333" fromY="-1158" />You are badly beaten and forced to flee.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="23" positionX="5200.15869" positionY="-841.808044" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_V_CARAVAN2" logBookDescription="QUEST_V_CARAVAN2_DES" linkedEventUniqueID="0" endOfQuest="true" />
@@ -6538,23 +6517,13 @@ You dig the treasure out and split it evenly.</nodes>
       <outputs ownerID="24" targetID="23" fromX="4991" fromY="-1314" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="3753.66016" positionY="-2300.05054" width="350" height="805">
-      <outputs name="Leave." ownerID="25" targetID="26" fromX="4079" fromY="-2791" />
+      <outputs name="Leave." ownerID="25" targetID="48" fromX="4079" fromY="-2791" />
       <outputs name="Attack!" ownerID="25" targetID="8" fromX="4079" fromY="-2871" />'No, you leave or you die.'</nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="26" positionX="4519.804" positionY="-2633.85" width="480" height="503" radius="4" groupID="GROUP-HORD_GOBS" destroyOwner="true" linkedEventUniqueID="0">
-      <logic>
-        <ModifierBlock>
-          <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-QUESTSHELL1" />
-          </LogicModifiers>
-        </ModifierBlock>
-      </logic>
-      <outputs ownerID="26" targetID="27" group="G1" fromX="4968" fromY="-3065" />
-    </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="5295.34961" positionY="-2826.34277" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_V_CARAVAN2" logBookDescription="QUEST_V_CARAVAN2_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeChallenge" ID="28" positionX="520" positionY="-1229" width="500" height="807" challengeType="TypePhysical" versusGroup="GROUP-LOTS_SWAMPER_2P_4M_3S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="28" targetID="42" group="G1" fromX="961" fromY="-1724" />
-      <outputs name="Lose" ownerID="28" targetID="11" fromX="961" fromY="-1804" />
-      <outputs name="Surrender" ownerID="28" targetID="11" fromX="961" fromY="-1884" />
+      <outputs name="Lose" ownerID="28" targetID="47" fromX="961" fromY="-1804" />
+      <outputs name="Surrender" ownerID="28" targetID="47" fromX="961" fromY="-1884" />
       <outputs name="Win" ownerID="28" targetID="43" group="G1" fromX="961" fromY="-1965" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="30" positionX="1060" positionY="-2113" width="480" height="583" radius="0" destroyOwner="true" linkedEventUniqueID="0">
@@ -6713,6 +6682,37 @@ You dig the treasure out and split it evenly.</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Run!&#xD;&#xA;" ownerID="45" targetID="30" fromX="403" fromY="-2986" />You kill the little swampers, but just as you grab the chest and turn to leave, you see a couple of very angry swamp trolls running and spitting toxic swamp at you!</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="46" positionX="3453" positionY="315" width="480" height="583" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-QUESTSHELL1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="46" targetID="36" group="G1" fromX="3901" fromY="-117" />
+      <outputs ownerID="46" targetID="37" group="G1" fromX="3901" fromY="-197" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="47" positionX="1814" positionY="-1565" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-QUESTSHELL1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="47" targetID="12" fromX="2262" fromY="-1997" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="48" positionX="4378" positionY="-2671" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-QUESTSHELL1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="48" targetID="27" fromX="4826" fromY="-3103" />
+    </nodes>
   </Adventure>
   <Adventure name="Chosen advancement" uniqueID="37" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="40" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-47" positionY="153" width="347" height="783" image="Event122">

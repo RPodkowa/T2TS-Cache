@@ -359,33 +359,60 @@ namespace GameScript
         }
         static public object Rit_MoonBridge(Thea2.Server.Group target, RitualsTask sourceTask)
         {
+            if(target.settlement)
+                return null;
+
             List<Thea2.Server.Group> groups = GameInstance.Get().GetValidPlayerGroups();
-            Vector3i v3iTarget = target.position;
-            Vector3i vectorG;
-            Vector3i position = new Vector3i();
-            int distance = 0;
+            List<Thea2.Server.Group> visibleGroups = new List<Thea2.Server.Group>(groups);
+            //visibleGroups.AddRange(groups);
+            visibleGroups.AddRange(GameInstance.Get().GetEnemyGroups());
+
+            List<Vector3i> groupsPos = new List<Vector3i>();
+            List<Vector3i> range = new List<Vector3i>();
 
             foreach (var g in groups)
             {
-                // check if testing group is different than target group
-                if(g != target)
+                //check if testing group is different than target group and if group owner is equal to target owner 
+                if (g != target && g.ownerID == target.ownerID)
                 {
-                    vectorG = g.position;
-                    int distanceToG = HexCoordinates.HexDistance(v3iTarget, vectorG);
-                    
-                    if(distance == 0 || distanceToG < distance)
-                    {
-                        distance = distanceToG;
-                        position = vectorG;
-                    }
+                    groupsPos.Add(g.Position);
                 }
             }
 
-            if(distance != 0)
+            //sort groups positions from nearest to farthest position
+            groupsPos.Sort(delegate (Vector3i a, Vector3i b)
             {
-                GameInstance.Get().AddToTeleport(target.ID, position);
-            }
+                int distA = HexCoordinates.HexDistance(target.Position, a);
+                int distB = HexCoordinates.HexDistance(target.Position, b);
+                return distA.CompareTo(distB);
+            });
 
+            //find proper group to teleport to
+            foreach (Vector3i v in groupsPos)
+            {
+                //teleport is possible in range up to 5 hexes from available group, check from nearest to farthest hexes
+                //find hexes in range 
+                //can't teleport on water
+                //check if hex is occupied by enemy group, settlement or camping
+                for (int i = 0; i <= 5; i++)
+                {
+                    range = HexNeighbors.GetRange(v, i);
+                    foreach(var hex in range)
+                    {
+                        if (World.IsLand(hex) && !GameInstance.Get().GetGroupsToTeleport().ContainsValue(hex))
+                        {
+                            List<Thea2.Server.Group> obstacles = visibleGroups.FindAll(o => o.Position == hex && (o.ownerID < 0 || o.settlement || o.camping));
+                            if (obstacles.Count > 0)
+                            {
+                                continue;
+                            }
+                            GameInstance.Get().AddToTeleport(target.ID, hex);
+                            return null;
+                        }
+                    }
+                }
+            }
+            
             return null;
         }
         #endregion

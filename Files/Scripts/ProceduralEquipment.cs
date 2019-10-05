@@ -352,7 +352,7 @@ namespace GameScript
             else if (ir == (ItemRecipe)ITEM_REC.ROBES)
             {
                 sw = ESkillWeight.Robes;
-                ss = GenerateSubskill_Shield(sr, ra.damageStars * 1.5f, marker, flags, sss.Count + 1);
+                ss = GenerateSubskill_Shield_UpgradedGray(sr, ra.damageStars * 1.5f, marker, flags, sss.Count + 1);
                 ss.descriptionInfo = GenerateSubSkillShieldsDIBlock(sr, ra.iconPrefix, ss.dbName);
                 FinishPassiveShieldSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
             }
@@ -390,12 +390,11 @@ namespace GameScript
                     skillSpace -= 2;
                 }
             }
-
-            if (sr != ESkillRank.Gray)
+            bool armour = ir == (ItemRecipe)ITEM_REC.ROBES ||
+                        ir == (ItemRecipe)ITEM_REC.MEDIUM_ARMOUR ||
+                        ir == (ItemRecipe)ITEM_REC.HEAVY_ARMOUR;
+            if (sr != ESkillRank.Gray)           
             {
-                bool armour = ir == (ItemRecipe)ITEM_REC.ROBES ||
-                              ir == (ItemRecipe)ITEM_REC.MEDIUM_ARMOUR ||
-                              ir == (ItemRecipe)ITEM_REC.HEAVY_ARMOUR;
                 bool shield = ir == (ItemRecipe)ITEM_REC.SHIELD;
 
                 if (armour)
@@ -405,11 +404,12 @@ namespace GameScript
                     {
                         attScale *= 0.6f;
                     }
+                    bool robes = ir == (ItemRecipe)ITEM_REC.ROBES;
 
-                    float fromAdd = 5f * attScale;
-                    float toAdd = 20f * attScale;
-                    float fromMp = 15f * attScale;
-                    float toMp = 35f * attScale;
+                    float fromAdd = 10f * attScale * (robes ? 1 : 2);
+                    float toAdd = 25f * attScale * (robes ? 1 : 2);
+                    float fromMp = 15f * attScale * (robes ? 1 : 1.5f);
+                    float toMp = 35f * attScale * (robes ? 1 : 1.5f);
 
                     if (HaveFlag(flags, EActivatorBlocks.TrueDamage))
                     {
@@ -448,15 +448,43 @@ namespace GameScript
                         FinishAttributeSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
                     }
                 }
-                if (sr == ESkillRank.Ancient && (armour || shield))
+                if ((ir == (ItemRecipe)ITEM_REC.ROBES) ||
+                    (sr == ESkillRank.Ancient && (armour || shield)))
                 {
-                    ss = GenerateSubskill_MPAddon(sr, 1, marker, flags, sss.Count, (Tag)TAG.MOVEMENT_RANGE);
+                    if (shield)
+                    {
+                        ss = GenerateSubskill_AttAddon(sr, 2.0f, 2.0f, marker, flags, sss.Count, (Tag)TAG.MOVEMENT_RANGE);
+                    }
+                    else
+                    {
+                        ss = GenerateSubskill_AttAddon(sr, 1.0f, 1.0f, marker, flags, sss.Count, (Tag)TAG.MOVEMENT_RANGE);
+                    }
+                    
                     ss.descriptionInfo = GenerateSubSkillAttributeDIBlock(sr, ra.iconPrefix, ss.dbName);
                     FinishAttributeSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
                 }
-            }
+                if (sr == ESkillRank.Ancient && ir == (ItemRecipe)ITEM_REC.ROBES)
+                {
+                    ss = GenerateSubskill_AttAddon(sr, 3.0f, 6.0f, marker, flags, sss.Count, (Tag)TAG.WITS);
+                    ss.descriptionInfo = GenerateSubSkillAttributeDIBlock(sr, ra.iconPrefix, ss.dbName);
+                    FinishAttributeSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
+                }
+                else if (sr == ESkillRank.Ancient && armour)
+                {
+                    ss = GenerateSubskill_AttMultiplier(sr, 5.0f, 20.0f, marker, flags, sss.Count, (Tag)TAG.SHIELDING_PHYSICAL);
+                    ss.descriptionInfo = GenerateSubSkillAttributeDIBlock(sr, ra.iconPrefix, ss.dbName);
+                    FinishAttributeSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
+                    ss = GenerateSubskill_AttMultiplier(sr, 5.0f, 20.0f, marker, flags, sss.Count, (Tag)TAG.SHIELDING_MENTAL);
+                    ss.descriptionInfo = GenerateSubSkillAttributeDIBlock(sr, ra.iconPrefix, ss.dbName);
+                    FinishAttributeSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
+                    ss = GenerateSubskill_AttMultiplier(sr, 5.0f, 20.0f, marker, flags, sss.Count, (Tag)TAG.SHIELDING_SPIRIT);
+                    ss.descriptionInfo = GenerateSubSkillAttributeDIBlock(sr, ra.iconPrefix, ss.dbName);
+                    FinishAttributeSkills(s, ss, sss, sr, ra, essence1, essence2, ir);
+                }
 
-            //KHASH: TODO smarter way of applying predesigned skills 
+            }            
+
+            //KHASH: TODO? smarter way of applying predesigned skills 
             if (ra.additionalSubskillsCount > 0)
             {
                 if (ra.subskillCollection != null && ra.subskillCollection.Length > 0)
@@ -1356,10 +1384,47 @@ namespace GameScript
             ss.targets = null;
             if (sr == ESkillRank.Gray)
             {
-                float min = 2.5f * defenseScale * 2;
-                float max = 15f * defenseScale * 2;
+                float min = 3f * defenseScale * 2;
+                float max = 18f * defenseScale * 2;
                 ss.shortInfo = GenerateSIBlock(ss, flags, (Tag)TAG.SHIELDING_PHYSICAL, (Tag)TAG.TARGET_SELF, (Tag)TAG.TRIGGER_PASSIVE);
                 ss.subskillAttributesOnLevels = GenerateLeveLinearAttributesBlock(sr, true, min, max, (Tag)TAG.SHIELDING_PHYSICAL);
+            }
+            else if (sr == ESkillRank.Essence)
+            {
+                float min = 3.5f * defenseScale;
+                float max = 20f * defenseScale;
+
+                ss.shortInfo = GenerateSIBlock(ss, flags, (Tag)TAG.DAMAGE_SHIELD, (Tag)TAG.TARGET_SELF, (Tag)TAG.TRIGGER_PASSIVE);
+                ss.subskillAttributesOnLevels = GenerateLeveLinearAttributesBlock(sr, true, min, max, (Tag)TAG.CA_SHIELD);
+            }
+            else if (sr == ESkillRank.Ancient)
+            {
+                float min = 3.0f * defenseScale * 0.66f;
+                float max = 28f * defenseScale * 0.66f;
+
+                ss.shortInfo = GenerateSIBlock(ss, flags, (Tag)TAG.DAMAGE_SHIELD, (Tag)TAG.TARGET_SELF, (Tag)TAG.TRIGGER_PASSIVE);
+                ss.subskillAttributesOnLevels = GenerateLeveLinearAttributesBlock(sr, true, min, max, (Tag)TAG.CA_SHIELD);
+            }
+            return ss;
+        }
+        static Subskill GenerateSubskill_Shield_UpgradedGray(ESkillRank sr, float defenseScale, string skillMarker, int flags, int subskilIndex)
+        {
+            Subskill ss = new Subskill();
+            string ssMarker = subskilIndex + skillMarker;
+            ss.dbName = ssMarker;
+            ss.animation = null;
+            ss.challengeTypes = null;
+            ss.childEffect = null;
+
+            ss.sound = "";
+            ss.trigger = GenerateTriggerPassiveBlock();
+            ss.targets = null;
+            if (sr == ESkillRank.Gray)
+            {
+                float min = 3f * defenseScale * 2;
+                float max = 18f * defenseScale * 2;
+                ss.shortInfo = GenerateSIBlock(ss, flags, (Tag)TAG.DAMAGE_SHIELD, (Tag)TAG.TARGET_SELF, (Tag)TAG.TRIGGER_PASSIVE);
+                ss.subskillAttributesOnLevels = GenerateLeveLinearAttributesBlock(sr, true, min, max, (Tag)TAG.CA_SHIELD);
             }
             else if (sr == ESkillRank.Essence)
             {

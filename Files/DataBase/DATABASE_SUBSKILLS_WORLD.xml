@@ -5572,6 +5572,99 @@
 			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="10"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-MULTI_SUB_MAX_HEALTH_S>
+	<SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_P Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_SUB_MAX_HEALTH" Description="DES_SUBSKILL_SUB_MAX_HEALTH_DES" IconName="SubskillSubAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SUB_MAX_HEALTH_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_P>
+	<SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_M Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_SUB_MAX_MENTAL" Description="DES_SUBSKILL_SUB_MAX_MENTAL_DES" IconName="SubskillSubAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SUB_MAX_HEALTH_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_M>
+	<SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_S Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_SUB_MAX_SPIRIT" Description="DES_SUBSKILL_SUB_MAX_SPIRIT_DES" IconName="SubskillSubAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SUB_MAX_HEALTH_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="20"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_S>
 	<SUBSKILL-MULTI_SUB_STRENGTH Delay="0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_SUB_STRENGTH" Description="DES_SUBSKILL_SUB_STRENGTH_DES" IconName="SubskillSubAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SUB_STRENGTH" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>

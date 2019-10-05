@@ -7,7 +7,7 @@ using Thea2.Server;
 namespace GameScript
 {
     public class TraitScript : ScriptBase
-	{
+    {
         static public void Tra_LongTravel(SPlayer player)
         {
             player.attributes.AddToBase((Tag)TAG.SEA_MOVEMENT_RANGE, new FInt(2));
@@ -189,7 +189,7 @@ namespace GameScript
         static public void Tra_CrafterFlock(SPlayer player)
         {
             var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
-            FInt extraCrafting = (FInt)5/2;
+            FInt extraCrafting = (FInt)5 / 2;
 
             foreach (var v in sPlayerGroups)
             {
@@ -231,7 +231,7 @@ namespace GameScript
             List<ItemTech> its = Globals.GetTypeFromDB<ItemTech>();
             its = its.FindAll(o => o.dbName.StartsWith("ITEM_TECH-COOKING") && !player.unlockedTechs.Contains(o.dbName));
 
-            foreach(var v in its)
+            foreach (var v in its)
             {
                 foreach (var y in v.unlockRecipes)
                 {
@@ -240,6 +240,26 @@ namespace GameScript
                     {
                         cr = CraftingRecipe.FactoryFrom(y.itemRecipe);
                         cr.SetUnlockLevel(2);
+                        player.unlockedRecipes.Add(cr);
+                    }
+                }
+                player.unlockedTechs.Add(v.dbName);
+            }
+        }
+        static public void Tra_MoonBridge(SPlayer player)
+        {
+            List<BuildingTech> its = Globals.GetTypeFromDB<BuildingTech>();
+            its = its.FindAll(o => o.dbName.Equals("BUILDING_TECH-MOON_BRIDGE") && !player.unlockedTechs.Contains(o.dbName));
+
+            foreach (var v in its)
+            {
+                foreach (var y in v.unlockRecipes)
+                {
+                    CraftingRecipe cr = player.unlockedRecipes.Find(o => o.recipeSource == y.ritualRecipe.dbName);
+                    if (cr == null)
+                    {
+                        cr = CraftingRecipe.FactoryFrom(y.ritualRecipe);
+                        cr.SetUnlockLevel(5);
                         player.unlockedRecipes.Add(cr);
                     }
                 }

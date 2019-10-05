@@ -57,6 +57,14 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-NATURAL_KRAKEN>
+	<SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-BITE"/>
+        <GuarantedSkill Value="SKILL-SHOWING_OFF"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR>
 	
 	
 	<!-- CLASS_SKILL_PACK-->
@@ -76,7 +84,7 @@
     </SKILL_PACK-CLASS_BLOOD_BEE>
 	<SKILL_PACK-CLASS_DRAGON_BEE>
         <RarityRange MinimumCount="0" MaximumCount="50"/>
-        <GuarantedSkill Value="SKILL-HORN_IMPALE"/>
+        <GuarantedSkill Value="SKILL-BEE_STING"/>
 		<SkillGroupFilters>
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
@@ -373,7 +381,7 @@
 		<SkillGroupFilters>
 			<SkillGroupSingleFilter Name="Poison" Requirement="OptionalType"/>
 			<SkillGroupSingleFilter Name="Swarm" Requirement="OptionalType"/>
-			<SkillGroupSingleFilter Name="Horn" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="DragonBeeSting" Requirement="OptionalType"/>
 		</SkillGroupFilters>
 		<SkillGroupFilters>
 			<SkillGroupSingleFilter Name="BoiledBlood" Requirement="NecessaryType"/>
@@ -724,6 +732,14 @@
 			<SkillGroupSingleFilter Name="Claw" Requirement="OptionalType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-BEAR>
+	<SKILL_PACK-WOOD_BEAR>
+        <RarityRange MinimumCount="0" MaximumCount="70"/>
+        <GuarantedSkill Value="SKILL-BITE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassLargeAnimal" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="Claw" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-WOOD_BEAR>
 	<SKILL_PACK-DEMON_KARAKANDZA>
         <RarityRange MinimumCount="0" MaximumCount="70"/>
 		<SkillGroupFilters>
@@ -1339,6 +1355,13 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-PET_CHICKEN>
+	<SKILL_PACK-PET_PUMPKIN>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PET_PUMPKIN"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PET_PUMPKIN>
 	
 	<!-- OTHER-->
 	<SKILL_PACK-RACE_SPIDER>
@@ -2506,6 +2529,14 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-SUMMON_DARK_TOTEM>
+	<SKILL_PACK-SUMMON_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
+        <SkillGroupFilters>
+            <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+        </SkillGroupFilters>
+    </SKILL_PACK-SUMMON_PUMPKIN>
 	
 	
 	<!--MORALE BONUS -->

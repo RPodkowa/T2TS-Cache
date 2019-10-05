@@ -44,7 +44,7 @@ namespace GameScript
             ClientEntityCharacter character = dInfo.t2;
             var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-            if (dataInWorld.attributes != null && dataInWorld.attributes.Keys.Count > 0)
+            if (dataInWorld.attributes != null && dataInWorld.attributes.Count > 0)
             {
                 string st = null;
                 FInt value = dataInWorld.GetFInt("TAG-CA_SHIELD");
@@ -112,7 +112,7 @@ namespace GameScript
             ClientEntityCharacter character = dInfo.t2;
             var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-            if (dataInWorld.attributes != null && dataInWorld.attributes.Keys.Count > 0)
+            if (dataInWorld.attributes != null && dataInWorld.attributes.Count > 0)
             {
                 FInt extra = FInt.ZERO;                
 

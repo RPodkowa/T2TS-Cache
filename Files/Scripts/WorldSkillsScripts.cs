@@ -256,7 +256,7 @@ namespace GameScript
             if (p != null)
             {
                 //Apply bonus only for the group which contains building
-                if (target != source.item.Get().GetGroup()) return null;
+                if (source == null || target != source.item.Get().GetGroup()) return null;
 
                 foreach (var v in skillAttributes.attributes)
                 {
@@ -272,7 +272,7 @@ namespace GameScript
         static public object GAct_GroupWaterCarry(CountEntityBase source, InterpolatedSkillAttributes skillAttributes, Thea2.Server.Group target)
         {            
             //Apply bonus only for the group which contains building
-            if (target != source.item.Get().GetGroup()) return null;
+            if (source == null || target != source.item.Get().GetGroup()) return null;
 
             foreach (var v in skillAttributes.attributes)
             {
@@ -861,7 +861,7 @@ namespace GameScript
             FInt value = FInt.ZERO;
 
             //Apply bonus only for the group which contains building
-            if (target != source.item.Get().GetGroup()) return null;
+            if (source == null || target != source.item.Get().GetGroup()) return null;
 
             foreach (var v in skillAttributes.attributes)
             {
@@ -888,7 +888,7 @@ namespace GameScript
             if (p != null)
             {
                 //Apply bonus only for the group which contains building
-                if (target != source.item.Get().GetGroup()) return null;
+                if (source == null || target != source.item.Get().GetGroup()) return null;
 
                 foreach (var v in skillAttributes.attributes)
                 {
@@ -1030,7 +1030,7 @@ namespace GameScript
         static public object GActA_AddItemCargoWithChance(CountEntityBase source, InterpolatedSkillAttributes skillAttributes, Thea2.Server.Group target)
         {
             //Apply bonus only for the group which contains building
-            if (target != source.item.Get().GetGroup()) return null;
+            if (source == null || target != source.item.Get().GetGroup()) return null;
             
             if (skillAttributes.attributes != null && target != null)
             {
@@ -1046,7 +1046,7 @@ namespace GameScript
         static public object GActA_AddItemCargo(CountEntityBase source, InterpolatedSkillAttributes skillAttributes, Thea2.Server.Group target)
         {
             //Apply bonus only for the group which contains building
-            if (target != source.item.Get().GetGroup()) return null;
+            if (source == null || target != source.item.Get().GetGroup()) return null;
 
             if (skillAttributes.attributes != null && target != null)
             {

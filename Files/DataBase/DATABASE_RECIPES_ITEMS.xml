@@ -1270,6 +1270,24 @@
 		</RecipeBase>
 		<Skills Value="SKILL_PACK-PET_CHICKEN"/>
 	</ITEM_REC-CHICKEN>
+	<ITEM_REC-PUMPKIN ItemsAmount="0" WeightMultiplier="0.0">
+		<InventorySlot Value="Companion"/>
+		<RecipeBase ResearchCost="-2">
+			<DescriptionInfo Name="DES_PET_PUMPKIN" Description="DES_PET_PUMPKIN_DES" IconName="Placeholder"/>
+			<CountedTag Tag="TAG-PET_PUMPKIN" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="12">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-VEGGIES"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+		<Skills Value="SKILL_PACK-PET_PUMPKIN"/>
+	</ITEM_REC-PUMPKIN>
 	
 	<!-- SPECIAL ITEMS -->
 	<ITEM_REC-COSMIC_RING ItemsAmount="1" WeightMultiplier="0.1">

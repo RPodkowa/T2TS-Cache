@@ -327,7 +327,7 @@
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_POWER" Val="Night Power"/>
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_POWER_DES" Val="Increases Wits, Strength, Perception, Intelligence, Wisdom, Mysticism and Destiny during night turns."/>
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS" Val="Night Mental Weakness"/>
-		<Entry Key="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS_DES" Val="Decrease Sanity during day turns."/>
+		<Entry Key="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS_DES" Val="Decrease Sanity during night turns."/>
 		<Entry Key="DES_TAG_DAMAGE_OVERWHELM" Val="Overwhelm"/>
 		<Entry Key="DES_TAG_DAMAGE_OVERWHELM_DES" Val="Lowers Combat Attributes and increases Delay of the target on the Battlefield."/>
 		<Entry Key="DES_TAG_DAMAGE_SUB_CA_1" Val="Decrease Primary Attribute"/>
@@ -2083,6 +2083,8 @@
 		<Entry Key="DES_PET_TURTLE_DES" Val="Although commonly known as the iron frog, wise ones know this creature to be called a turtle. It is extremely rare in Slavya, but they are as old as the elves and thus grant one's keeper their knowledge when you rub their shell three times, anti-clockwise."/>
 		<Entry Key="DES_PET_CHICKEN" Val="Slavyan Cock"/>
 		<Entry Key="DES_PET_CHICKEN_DES" Val="Your Slavyan Cock is the envy of all your neighbours."/>
+		<Entry Key="DES_PET_PUMPKIN" Val="Pumpkin"/>
+		<Entry Key="DES_PET_PUMPKIN_DES" Val="."/>
 
 		<!-- BUILDINGS -->
 		<Entry Key="DES_IDOL" Val="Idol"/>
@@ -2382,8 +2384,7 @@
 		<Entry Key="DES_SKILL_STRONG_GATHERING_TOOL_DES" Val="Provides a bonus to Gathering and Personal Carry attributes when equipped."/>		
 		<Entry Key="DES_SKILL_WEAK_MULTI_CRAFTING_TOOL" Val="Craftsman's Aid "/> 
 		<Entry Key="DES_SKILL_WEAK_ADD_CRAFTING_TOOL" Val="Worker's Aid "/> 
-		<Entry Key="DES_SKILL_WEAK_CRAFTING_TOOL_DES" Val="Provides a bonus to Crafting attribute when equipped."/>		
-		<Entry Key="DES_SKILL_WEAK_ADD_CRAFTING_TOOL" Val="Artisan's Aid"/>		
+		<Entry Key="DES_SKILL_WEAK_CRAFTING_TOOL_DES" Val="Provides a bonus to Crafting attribute when equipped."/>			
 		<Entry Key="DES_SKILL_WEAK_ADD_CRAFTING_TOOL_DES" Val="Provides a bonus to Crafting attribute when equipped."/>		
 		<Entry Key="DES_SKILL_CRAFTING_TOOL" Val="Inventor's Aid"/>
 		<Entry Key="DES_SKILL_CRAFTING_TOOL_DES" Val="Provides a bonus to Crafting and Research attributes when equipped. Also increases Sanity regeneration."/>
@@ -2447,6 +2448,8 @@
 		<Entry Key="DES_SKILL_LUCK_DES" Val="This character has a knack for Luck."/>
 		<Entry Key="DES_SKILL_HORN_IMPALE" Val="Horn Impale"/>
 		<Entry Key="DES_SKILL_HORN_IMPALE_DES" Val="No armour can protect your opponent from this attack."/>
+		<Entry Key="DES_SKILL_BEE_STING" Val="Bee Sting"/>
+		<Entry Key="DES_SKILL_BEE_STING_DES" Val="Sharp and deadly, this sting can easily bypass any armour."/>
 		<Entry Key="DES_SKILL_BOILED_BLOOD" Val="Boiled Blood"/>
 		<Entry Key="DES_SKILL_BOILED_BLOOD_DES" Val="You blood turns into a weapon against your enemies. Using blood from wounds to burn the attackers."/>
 		<Entry Key="DES_SKILL_HEADBUTT" Val="Headbutt"/>
@@ -2479,6 +2482,8 @@
 		<Entry Key="DES_SKILL_ICE_SPIKE_DES" Val="The air freezes and creates a sharp spike, thrown at your enemies."/>
 		<Entry Key="DES_SKILL_COUNTER_ATTACK" Val="Counter-attack"/>
 		<Entry Key="DES_SKILL_COUNTER_ATTACK_DES" Val="Each enemy that deals damage to you will also receive damage."/>
+		<Entry Key="DES_SKILL_FEINT" Val="Faint"/>
+		<Entry Key="DES_SKILL_FEINT_DES" Val="Each enemy that deals damage to you will also receive damage."/>
 		<Entry Key="DES_SKILL_POISON_SPIT" Val="Poison Spit"/>
 		<Entry Key="DES_SKILL_POISON_SPIT_DES" Val="Spit poison at your enemies."/>
 		<Entry Key="DES_SKILL_DIVE_ATTACK" Val="Dive Attack"/>
@@ -2535,6 +2540,8 @@
 		<Entry Key="DES_SKILL_CHAIN_WHIP_DES" Val="The chains not only hit like a whip but can also steal life from the enemies."/>
 		<Entry Key="DES_SKILL_SEEDS_GROW" Val="Grow Seeds"/>
 		<Entry Key="DES_SKILL_SEEDS_GROW_DES" Val="Pineconettes grow fast near Nai-Ysir..."/>
+		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE" Val="Pumpkin Hellfire"/>
+		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE_DES" Val="Your pumpkin is fragile, like glass bottle. And in it there is hellfire hided. So don't brake it!"/>
 		<Entry Key="DES_SKILL_VIGOUR_DRAIN" Val="Drain Vigour"/>
 		<Entry Key="DES_SKILL_VIGOUR_DRAIN_DES" Val="Attack that damages your target's combat attributes and makes yours stronger."/>
 		<Entry Key="DES_SKILL_OVERENCUMBERED" Val="Over Encumbered"/>
@@ -2745,6 +2752,8 @@
 		<Entry Key="DES_SKILL_PET_TURTLE_DES" Val="Pet Turtle"/>
 		<Entry Key="DES_SKILL_PET_CHICKEN" Val="Pet Chicken"/>
 		<Entry Key="DES_SKILL_PET_CHICKEN_DES" Val="Pet Chicken"/>
+		<Entry Key="DES_SKILL_PET_PUMPKIN" Val="Pet Pumpkin"/>
+		<Entry Key="DES_SKILL_PET_PUMPKIN_DES" Val="Pet Pumpkin"/>
 		<Entry Key="DES_SKILL_PET_SUMMON_DES" Val="Summon Pet"/>
 		
 		<Entry Key="DES_SKILL_IDOL" Val="Idol"/>
@@ -2863,6 +2872,12 @@
 		<Entry Key="DES_SKILL_SHOULDERS_POWER_DES" Val="The burden on your shoulders feels lighter. Everything is easier to carry and easier to pick up."/>
 		<Entry Key="DES_SKILL_KNOWLEDGE_ARMOR" Val="Knowledge Armor"/>
 		<Entry Key="DES_SKILL_KNOWLEDGE_ARMOR_DES" Val="You see the blow before it falls. You cannot prevent it but you can focus your mind to lessen the pain."/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_MELEE" Val="Concept - Melee"/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_MELEE_DES" Val="This concept card will prefer melee spots of the battlefield."/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE" Val="Concept - Ranged"/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE_DES" Val="This concept card will prefer ranged spots of the battlefield."/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE_HEAVY" Val="Concept - Ranged Heavy"/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE_HEAVY_DES" Val="This concept card will prefer ranged spots of the battlefield."/>
 			
 		<Entry Key="DES_SUBSKILL_INCREASE_ATTRIBUTE" Val="Increase Attribute"/>
 		<Entry Key="DES_SUBSKILL_INCREASE_ATTRIBUTE_DES" Val="Provides a bonus to a certain attribute when equipped."/>
@@ -2927,7 +2942,7 @@
 		<Entry Key="DES_SUBSKILL_LIGHTNING" Val="Lightning Strike"/>
 		<Entry Key="DES_SUBSKILL_LIGHTNING_DES" Val="Damages a single opponent selected at random."/>
 		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE" Val="Sacrificial Blood"/>
-		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Val="Sacrifice a % of the caster's health and deal True Damage equal to the amount of health lost, multiplied by skill power."/>
+		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Val="The caster deals Essence True Damage to themselves and then applies that damage, multiplied by the skill power, as an attack."/>
 		<Entry Key="DES_SUBSKILL_EXPLODING_DEAD" Val="Exploding Dead"/>
 		<Entry Key="DES_SUBSKILL_EXPLODING_DEAD_DES" Val="An opponent killed with this ability explodes, dealing a massive amount of damage to anyone stading next to them."/>
 		<Entry Key="DES_SUBSKILL_BITE" Val="Bite"/>
@@ -3031,6 +3046,8 @@
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_BEAR" Val="Summon Bear"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_BOAR" Val="Summon Boar"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_SPIDER_SPITTING" Val="Summon Spitting Spider"/>
+		<Entry Key="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Val="Summon Pumpkin"/>
+		<Entry Key="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Pumpkin to any spot."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_ANIMAL_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon your pet animal into a free melee spot."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_ANIMAL_RANGED_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon your pet animal into a free ranged spot."/>
 		<Entry Key="DES_SUBSKILL_ADD_HEALTH_P_REGENERATION" Val="Increase Health Regeneration."/>
@@ -3171,17 +3188,23 @@
 		<Entry Key="DES_SUBSKILL_DAY_BLINDNESS" Val="Day Blindness"/>
 		<Entry Key="DES_SUBSKILL_DAY_BLINDNESS_DES" Val="Decrease the character's attributes during day turns."/>
 		<Entry Key="DES_SUBSKILL_CHILD_GROW_UP" Val="Child growing up process"/>
-		<Entry Key="DES_SUBSKILL_CHILD_GROW_UP_DES" Val="The counter shows the number of turns left before the child will turn into and adult."/>
+		<Entry Key="DES_SUBSKILL_CHILD_GROW_UP_DES" Val="The counter shows the number of turns left before the child will turn into an adult."/>
 		<Entry Key="DES_SUBSKILL_REDUCE_PERSONAL_CARRY_LIMIT" Val="Reduced Carry"/>
 		<Entry Key="DES_SUBSKILL_REDUCE_PERSONAL_CARRY_LIMIT_DES" Val="This character has reduced Personal Carry limit."/>
 		<Entry Key="DES_SUBSKILL_HORN_IMPALE" Val="Horn Impale"/>
-		<Entry Key="DES_SUBSKILL_HORN_IMPALE_DES" Val="True Damage attack a single target."/>
+		<Entry Key="DES_SUBSKILL_HORN_IMPALE_DES" Val="True Damage attack on a single target."/>
+		<Entry Key="DES_SUBSKILL_BEE_STING" Val="Bee Sting"/>
+		<Entry Key="DES_SUBSKILL_BEE_STING_DES" Val="True Damage attack on a single target."/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_STR" Val="Retaliation"/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_STR_DES" Val="Each attacker that hits this character receives damage based on the character's Strength."/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_PER" Val="Retaliation"/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_PER_DES" Val="Each attacker that hits this character with a normal attack, receives damage based on the character's Perception."/>
+		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_INT" Val="Retaliation"/>
+		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_INT_DES" Val="Each attacker that hits this character with a normal attack, receives damage based on the character's Inteligence."/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_MIST" Val="Retaliation"/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_MIST_DES" Val="Each attacker that hits this character with a normal attack, receives damage based on the character's Mysticism."/>
+		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_DEST" Val="Retaliation"/>
+		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_DEST_DES" Val="Each attacker that hits this character with a normal attack, receives damage based on the character's Destiny."/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG" Val="Retaliation"/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_DES" Val="Each attacker that hits this character receives damage based on the character's Primary Combat Attributes."/>
 		<Entry Key="DES_SUBSKILL_HEAL_ON_DMG" Val="Brush It Off"/>
@@ -3439,7 +3462,7 @@
 		<Entry Key="DES_SUBSKILL_GROUP_ADD_RESEARCH" Val="Research Bonus"/>
 		<Entry Key="DES_SUBSKILL_GROUP_ADD_RESEARCH_DES" Val="This character receives a bonus to Research attribute from a nearby building."/>
 		<Entry Key="DES_SUBSKILL_GROUP_MEDICINE" Val="Healing Bonus"/>
-		<Entry Key="DES_SUBSKILL_GROUP_MEDICINE" Val="This character receives a bonus to Healing attribute from a nearby building."/>
+		<Entry Key="DES_SUBSKILL_GROUP_MEDICINE_DES" Val="This character receives a bonus to Healing attribute from a nearby building."/>
 		<Entry Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE" Val="Lower Death Chance Bonus"/>
 		<Entry Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE_DES" Val="This character's chance to die from serious wounds is reduced by a nearby building."/>
 		<Entry Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT" Val="Main Attribute Bonus"/>
@@ -3541,7 +3564,7 @@
 		<Entry Key="DES_TRAIT_NIGHT_AFFINITY" Val="Nocturnal Predator"/>
 		<Entry Key="DES_TRAIT_NIGHT_AFFINITY_DES" Val="Your characters have an increased visibility range , Wits, Perception and Destiny at night, but decreased during  the day. The Chosen can also summon a werewolf into battle and the beast's power will depend on the chosen's Perception attribute."/>
 		<Entry Key="DES_TRAIT_NIGHTMARE_GIFT" Val="Unshaken Faith"/>
-		<Entry Key="DES_TRAIT_NIGHTMARE_GIFT_DES" Val="Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute and +4 Spiritual Shielding."/>
+		<Entry Key="DES_TRAIT_NIGHTMARE_GIFT_DES" Val="Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute, +4 Spiritual Shielding and you get access to the Moon Bridge ritual."/>
 		<Entry Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL" Val="Many Hammers, One Anvil"/>
 		<Entry Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL_DES" Val="Each character gets 20% bonus to Crafting attribute, +4 Health and Sanity, but Gathering attribute is decreased by 10%."/>
 		<Entry Key="DES_TRAIT_DIVINE_COMMANDER" Val="Divine Commander"/>
@@ -3606,8 +3629,6 @@
 		<Entry Key="DES_TRAIT_START_LOYALTY_DEMONS_DES" Val="Starting faction loyalty for all demon factions raises to 10."/>
 		<Entry Key="DES_TRAIT_FAMILIAR_AREA" Val="Familiar Area"/>
 		<Entry Key="DES_TRAIT_FAMILIAR_AREA_DES" Val="Camping gives an extra gathering distance."/>
-		<Entry Key="DES_TRAIT_SMARTER_EVERY_DAY" Val="New Day, New Adventure"/>
-		<Entry Key="DES_TRAIT_SMARTER_EVERY_DAY_DES" Val="Every day each character gets 1 XP."/>
 		<Entry Key="DES_TRAIT_LOGIC_WALL" Val="Logic Wall"/>
 		<!--<Entry Key="DES_TRAIT_LOGIC_WALL_DES" Val="All your characters will share an additional pool of 20 Mental Hit Points, divided equally between them."/>-->
 		<Entry Key="DES_TRAIT_LOGIC_WALL_DES" Val="All your followers get +4 mental and spiritual shielding."/>
@@ -3974,6 +3995,16 @@
 		<Entry Key="DES_TOOLTIP_MORALE_DES" Val="The amount of Morale gained from food each turn. Each character gets +1 Morale per turn for each type of food present in the group's inventory."/>
 		<Entry Key="DES_TOOLTIP_VILLAGE_INFO" Val="Village Information (V)"/>
 		<Entry Key="DES_TOOLTIP_VILLAGE_INFO_DES" Val="Opens the Village Info screen where you can see all production tasks at a glance, along with any buildings and ships in your settlement."/>
+		<Entry Key="DES_TOOLTIP_ISLANDS" Val="Islands"/>
+		<Entry Key="DES_TOOLTIP_ISLANDS_DES" Val="The world will consist of a set of islands. Each island will be a single biome and creatures from more difficult areas will not cross over."/>
+		<Entry Key="DES_TOOLTIP_PANGEA" Val="Pangea"/>
+		<Entry Key="DES_TOOLTIP_PANGEA_DES" Val="Most of the landmass will be located on a single island, but other, smaller islands are likely. One island can have more than one biome and you may be able to encounter more difficult enemies there.\n\n{COLOR:yellow}This option is recommended only for experienced players.{END_COLOR}"/>
+		<Entry Key="DES_TOOLTIP_SMALL" Val="Small"/>
+		<Entry Key="DES_TOOLTIP_SMALL_DES" Val="World Size - Small"/>
+		<Entry Key="DES_TOOLTIP_MEDIUM" Val="Medium"/>
+		<Entry Key="DES_TOOLTIP_MEDIUM_DES" Val="World Size - Medium"/>
+		<Entry Key="DES_TOOLTIP_LARGE" Val="Large"/>
+		<Entry Key="DES_TOOLTIP_LARGE_DES" Val="World Size - Large"/>
 		
 		
 		<!-- LOCATIONS AND GROUPS -->

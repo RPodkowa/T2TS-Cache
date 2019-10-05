@@ -399,7 +399,7 @@ namespace GameScript
 
         static public object UpdateGroupAttributes(Thea2.Server.Group targetGroup, GameInstance gameInstance)
         {
-            targetGroup.mp                  = FInt.ZERO;
+            //targetGroup.mp                  = FInt.ZERO;
             targetGroup.maxMp               = FInt.ZERO;
             targetGroup.viewRadius          = new FInt(-20);
             targetGroup.detectDangerRadius  = FInt.ZERO;
@@ -425,12 +425,61 @@ namespace GameScript
                     {
                         if (k.trigger.triggerGroup == ETriggerGroupType.GroupPassive)
                         {
-                            Globals.CallFunction(k.activation.scriptName, v, si.GetCurrentSkillAttributes()[k], targetGroup);
+                            for (int i = 0; i < v.count; i++)
+                            {
+                                Globals.CallFunction(k.activation.scriptName, v, si.GetCurrentSkillAttributes()[k], targetGroup);
+                            }
                         }
                     }
+                }                
+            }
+            foreach (var v in targetGroup.characters)
+            {
+                var c = v.Get();
+                if (c != null)
+                {
+                    if (c.learnedSkills != null)
+                    {
+                        foreach (var si in c.learnedSkills)
+                        {
+                            foreach (var k in si.source.Get().skillSubskills)
+                            {
+                                if (k.trigger.triggerGroup == ETriggerGroupType.GroupPassive)
+                                {
+                                    Globals.CallFunction(k.activation.scriptName, null, si.GetCurrentSkillAttributes()[k], targetGroup);
+                                }
+                            }
+                        }
+                    }
+                    if (c.effects != null)
+                    {
+                        foreach (var si in c.effects)
+                        {
+                            foreach (var k in si.source.Get().skillSubskills)
+                            {
+                                if (k.trigger.triggerGroup == ETriggerGroupType.GroupPassive)
+                                {
+                                    Globals.CallFunction(k.activation.scriptName, null, si.GetCurrentSkillAttributes()[k], targetGroup);
+                                }
+                            }
+                        }
+                    }
+                    if (c.equipmentEffects != null)
+                    {
+                        foreach (var si in c.equipmentEffects)
+                        {
+                            foreach (var k in si.source.Get().skillSubskills)
+                            {
+                                if (k.trigger.triggerGroup == ETriggerGroupType.GroupPassive)
+                                {
+                                    Globals.CallFunction(k.activation.scriptName, null, si.GetCurrentSkillAttributes()[k], targetGroup);
+                                }
+                            }
+                        }
+                    }                    
                 }
             }
-            if(targetGroup.seaMaxMP < FInt.ONE)
+            if (targetGroup.seaMaxMP < FInt.ONE)
             {
                 targetGroup.seaMaxMP = FInt.ONE;
             }
@@ -448,7 +497,7 @@ namespace GameScript
                 targetGroup.seaCarryLimit = new FInt( targetGroup.characters.Count * 40);
             }
 
-            bool isLand = World.IsLand(targetGroup.position);
+            bool isLand = World.IsLand(targetGroup.Position);
 
             if (targetGroup.characters != null)
             {
@@ -493,10 +542,82 @@ namespace GameScript
                     }
                 }
             }
-            
+            else
+            {
+                //zero MP only if this is group with no characters. 
+                //only land mp are updated from characters, 
+                //sea mp will not be updated leaving narrow margin for exploits, 
+                //but making it way cleaner for regular players
+                targetGroup.mp = FInt.ZERO;
+            }
             targetGroup.attributesDirty = false;
 
             return null;
+        }
+
+        static public List<string> GroupGetModels(Thea2.Server.Group targetGroup)
+        {
+            if (targetGroup.settlement)
+            {
+                return new List<string>() { targetGroup.settlementModel };
+            }
+
+            List<string> actors = new List<string>();
+            if (!World.IsLand(targetGroup.Position))
+            {
+                if (targetGroup.items != null)
+                {
+                    var tag = TAG.SHIP;
+                    var ship = targetGroup.items.Find(o => o.GetItem().attributes.Contains(tag));
+
+                    string graphic;
+                    if (ship == null)
+                    {
+                        graphic = "Raft";
+                    }
+                    else
+                    {
+                        graphic = ship.GetItem().GetDescriptionInfo().iconName;
+                    }
+
+                    actors.Add(graphic);
+                    return actors;
+                }
+            }
+
+            if (targetGroup.characters == null || targetGroup.characters.Count < 1)
+            {
+                actors.Add("GroundCargo");
+            }
+            else
+            {
+                List<EntityReference<Character>> sortedChars = new List<EntityReference<Character>>();
+                sortedChars = new List<EntityReference<Character>>(targetGroup.characters);
+
+                sortedChars.Sort(delegate (EntityReference<Character> a, EntityReference<Character> b)
+                {
+                    return a.Get().level.CompareTo(b.Get().level);
+                });
+
+                for (int i = 0; i < 3; i++)
+                {
+                    if (sortedChars.Count > i)
+                    {
+                        string s = sortedChars[i].Get().model;
+                        if (s != null)
+                        {
+                            actors.Add(s);
+                        }
+                        else
+                        {
+                            actors.Add("");
+                            Debug.LogError("[ERROR]Missing name for character model " + sortedChars[i].Get().subrace.dbName);
+                        }
+                    }
+                }
+            }
+
+            return actors;
         }
     }
 }

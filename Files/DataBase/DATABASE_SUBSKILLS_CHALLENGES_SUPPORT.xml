@@ -1277,7 +1277,7 @@
 	</SUBSKILL-HUNTERS_MARK>
 	<SUBSKILL-BLOODY_SACRIFICE Delay="6.0" Animation="BloodyHit2" Sound="SubskillBloodySacrifice">
 		<DescriptionInfo Name="DES_SUBSKILL_BLOODY_SACRIFICE" Description="DES_SUBSKILL_BLOODY_SACRIFICE_DES" IconName="SubskillBloodySacrifice"/>
-		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_TRUE" TargetIcon="TAG-TARGET_SELECTED_ENEMY" AttackInfo="{SCRIPT:SI_BloodySacrifice}"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_TRUE_ESSENCE" TargetIcon="TAG-TARGET_SELECTED_ENEMY" AttackInfo="{SCRIPT:SI_BloodySacrifice}"/>
 		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
 			<TriggerGroup Value="DoCastInstant"/>
 			<TriggerScript ScriptName=""/>
@@ -1784,6 +1784,72 @@
 			<MainAtt Amount="1.4" Tag="TAG-PERCEPTION"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-RETALIATION_DMG_PER>
+	<SUBSKILL-RETALIATION_DMG_INT Delay="0.0" Animation="Hit1" Sound="SubskillRetaliationCA1">
+		<DescriptionInfo Name="DES_SUBSKILL_RETALIATION_DMG_INT" Description="DES_SUBSKILL_RETALIATION_DMG_INT_DES" IconName="SubskillRetaliationCA1"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_DAMAGE" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_ATTACKER" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnDamage"/>
+			<TriggerScript ScriptName="Tri_OnAttackDamageRetaliation"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName=""/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_Damage"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeSpirit"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<MainAtt Amount="0.5" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<MainAtt Amount="0.6" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<MainAtt Amount="0.8" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<MainAtt Amount="1.1" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<MainAtt Amount="1.4" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-RETALIATION_DMG_INT>
+	<SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST Delay="0.0" Animation="Hit1" Sound="SubskillRetaliationCA1">
+		<DescriptionInfo Name="DES_SUBSKILL_RETALIATION_DMG_DEST" Description="DES_SUBSKILL_RETALIATION_DMG_DEST_DES" IconName="SubskillRetaliationCA1"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_DAMAGE" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_ATTACKER" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnDamage"/>
+			<TriggerScript ScriptName="Tri_OnAttackDamageRetaliation"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName=""/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_Damage"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeSpirit"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<MainAtt Amount="2.5" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<MainAtt Amount="2.7" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<MainAtt Amount="3.0" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<MainAtt Amount="3.4" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<MainAtt Amount="4.0" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST>
 	
 
 	<!-- CHALLENGE PHYSICAL-->
@@ -3463,5 +3529,56 @@
 			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-SUMMON_PET_SPIDER_SPITTING>
+	<SUBSKILL-SUMMON_PET_PUMPKIN Delay="0.0" Animation="Spell2" Sound="Placeholder">
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="Placeholder"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_SUMMON_ONCE" TargetIcon="TAG-TARGET_EMPTY_ALLY_SLOT" AttackInfo="{SCRIPT:SI_SummonX1}"/>
+		<Trigger Priority="20" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="DoCastInstant"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_OwnFreePositionsSummonOnBF"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen"/>
+		</Targets>
+		<Activation ScriptName="Act_Summon"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeSpirit"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VWEAK"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.4"/> <!--hp 0 dmg 0-->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.4"/> <!--hp 0 dmg 0-->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VWEAK"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.9"/> <!--hp 7 dmg 3+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.9"/> <!--hp 7 dmg 3+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_WEAK"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.9"/> <!--hp 8 dmg 3+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.9"/> <!--hp 8 dmg 3+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.0"/> <!--hp 9 dmg 3+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.0"/> <!--hp 9 dmg 3+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_STRONG"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.0"/> <!--hp 9 dmg 4+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.0"/> <!--hp 9 dmg 4+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VSTRONG"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SUMMON_PET_PUMPKIN>
 
 </SUBSKILLS_CHALLENGES>

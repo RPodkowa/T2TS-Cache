@@ -44,6 +44,12 @@
 		<SkillSubskill Value="SUBSKILL-HORN_IMPALE"/>
 		<SkillGroupFilter Value="Horn"/>
 	</SKILL-HORN_IMPALE>
+	<SKILL-BEE_STING Rarity="30">
+		<DescriptionInfo Name="DES_SKILL_BEE_STING" Description="DES_SKILL_BEE_STING_DES" IconName="SkillBeeSting"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-BEE_STING"/>
+		<SkillGroupFilter Value="DragonBeeSting"/>
+	</SKILL-BEE_STING>
 	<SKILL-DIVE_ATTACK Rarity="0">
 		<DescriptionInfo Name="DES_SKILL_DIVE_ATTACK" Description="DES_SKILL_DIVE_ATTACK_DES" IconName="SkillDiveAttack"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
@@ -100,23 +106,32 @@
 		<SkillSubskill Value="SUBSKILL-SUMMON_ON_NAIYSIR"/>
 		<SkillGroupFilter Value="ClassNaiysir"/>
 	</SKILL-SEEDS_GROW>
+	<SKILL-PUMPKIN_HELLFIRE Rarity="20">
+		<DescriptionInfo Name="DES_SKILL_PUMPKIN_HELLFIRE" Description="DES_SKILL_PUMPKIN_HELLFIRE_DES" IconName="Placeholder"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_P"/>
+		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_S"/>
+		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_M"/>
+		<SkillSubskill Value="SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST"/>
+		<SkillGroupFilter Value="PetPumpkin"/>
+	</SKILL-PUMPKIN_HELLFIRE>
 
 
 	<!--CONCEPT -->
 	<SKILL-CON_DEFAULT_MELEE Rarity="0">
-		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER" IconName="SkillConceptDefaultMelee"/>
+		<DescriptionInfo Name="DES_SKILL_CON_DEFAULT_MELEE" Description="DES_SKILL_CON_DEFAULT_MELEE_DES" IconName="SkillConceptDefaultMelee"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-CON_DEFAULT_MELEE"/>
 		<SkillGroupFilter Value="ConMelee"/>
 	</SKILL-CON_DEFAULT_MELEE>
 	<SKILL-CON_DEFAULT_RANGE Rarity="0">
-		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER" IconName="SkillConceptDefaultRange"/>
+		<DescriptionInfo Name="DES_SKILL_CON_DEFAULT_RANGE" Description="DES_SKILL_CON_DEFAULT_RANGE_DES" IconName="SkillConceptDefaultRange"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-CON_DEFAULT_RANGE"/>
 		<SkillGroupFilter Value="ConRange"/>
 	</SKILL-CON_DEFAULT_RANGE>
 	<SKILL-CON_DEFAULT_RANGE_HEAVY Rarity="0">
-		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER" IconName="SkillConceptDefaultRangeHeavy"/>
+		<DescriptionInfo Name="DES_SKILL_CON_DEFAULT_RANGE_HEAVY" Description="DES_SKILL_CON_DEFAULT_RANGE_HEAVY_DES" IconName="SkillConceptDefaultRangeHeavy"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-CON_DEFAULT_RANGE_HEAVY"/>
 		<SkillGroupFilter Value="ConRangeHeavy"/>

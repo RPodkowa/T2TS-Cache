@@ -1951,7 +1951,7 @@ You see a stream from which they are taking water. You could poison it. In this 
       <outputs ownerID="12" targetID="9" group="G1" fromX="2183" fromY="-443" />
       <outputs ownerID="12" targetID="13" group="G1" fromX="2183" fromY="-523" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="13" positionX="2733" positionY="-506" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="2733" positionY="-506" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicProcessing name="1" list1="ppl">
@@ -1962,7 +1962,7 @@ You see a stream from which they are taking water. You could poison it. In this 
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Damned goblin. Take what you can from them." ownerID="13" targetID="58" fromX="3058" fromY="-953" />The gobbos die horribly from the poison, but before the last one falls, he shakes his shaman staff and curses your honourless souls!</nodes>
+      <outputs name="Damned goblin. Take what you can from them." ownerID="13" targetID="58" fromX="3058" fromY="-997" />The gobbos die horribly from the poison, but before the last one falls, he shakes his shaman staff and curses your honourless souls!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="2045.21411" positionY="-2396.92188" width="350" height="408" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeTrade" ID="15" positionX="-470" positionY="-1426" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="sell" startingBalance="-200">
       <logic>
@@ -1986,7 +1986,7 @@ You see a stream from which they are taking water. You could poison it. In this 
       <outputs name="Confirm" ownerID="15" targetID="20" fromX="-39" fromY="-1754" />
       <outputs name="Cancel" ownerID="15" targetID="2" fromX="-39" fromY="-1834" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="16" positionX="1076.74683" positionY="-1041.93164" width="500" height="689" challengeType="TypeMental" versusGroup="GROUP-GOBS_3P_2M_2S" challengeScale="101" challengedList="ppl">
+    <nodes xsi:type="NodeChallenge" ID="16" positionX="1076.74683" positionY="-1041.93164" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-GOBS_3P_2M_2S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
           <LogicResultAction resultGroup="G1">
@@ -1997,29 +1997,29 @@ You see a stream from which they are taking water. You could poison it. In this 
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="16" targetID="17" fromX="1517" fromY="-1500" />
-      <outputs name="Lose" ownerID="16" targetID="48" fromX="1517" fromY="-1580" />
-      <outputs name="Surrender" ownerID="16" targetID="62" fromX="1517" fromY="-1660" />
+      <outputs name="Win" ownerID="16" targetID="17" fromX="1517" fromY="-1537" />
+      <outputs name="Lose" ownerID="16" targetID="48" fromX="1517" fromY="-1617" />
+      <outputs name="Surrender" ownerID="16" targetID="62" fromX="1517" fromY="-1697" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="17" positionX="1747.67444" positionY="-1175.60327" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="17" positionX="1747.67444" positionY="-1175.60327" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="2" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="2" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
           </LogicModifiers>
           <LogicModifiers list="ppl">
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-ADV_ONE_JEWELLERY" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Thank them and leave." ownerID="17" targetID="36" fromX="2073" fromY="-1622" />'I see, yes. You speak well, friend, and those gods of yours understand the mind and the spirit. We leave and give you this token of our friendship. Spirits be with you.'</nodes>
+      <outputs name="Thank them and leave." ownerID="17" targetID="36" fromX="2073" fromY="-1666" />'I see, yes. You speak well, friend, and those gods of yours understand the mind and the spirit. We leave and give you this token of our friendship. Spirits be with you.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="2872" positionY="1011" width="350" height="681">
       <outputs name="Leave." ownerID="18" targetID="52" fromX="3197" fromY="563" />You got rid of the problem as you were asked, and your friendship will surely grow. 
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="249" positionY="-1488" width="350" height="761">
       <outputs name="Good." ownerID="20" targetID="21" group="G1" fromX="574" fromY="-1935" />
       <outputs name="Good." ownerID="20" targetID="22" group="G1" fromX="574" fromY="-2015" />'Yeah, all right, deal's a deal, times are hard and stuff is good, so we move out.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="21" positionX="758" positionY="-1845" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="758" positionY="-1845" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2032,7 +2032,7 @@ You see a stream from which they are taking water. You could poison it. In this 
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="21" targetID="23" fromX="1083" fromY="-2292" />You are about to report your success when you realise that the goblins have no honour -- they have returned.
+      <outputs name="Leave." ownerID="21" targetID="23" fromX="1083" fromY="-2336" />You are about to report your success when you realise that the goblins have no honour -- they have returned.
 
 They are eventually beaten by the scavengers without your help, and your friendship suffers for it.</nodes>
     <nodes xsi:type="NodeAdventure" ID="22" positionX="120" positionY="-2332" width="350" height="681">
@@ -2053,8 +2053,8 @@ They are eventually beaten by the scavengers without your help, and your friends
       <outputs name="Lose" ownerID="24" targetID="26" fromX="2620" fromY="-1273" />
       <outputs name="Surrender" ownerID="24" targetID="61" fromX="2620" fromY="-1353" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="26" positionX="2894" positionY="-1548" width="350" height="681">
-      <outputs name="Leave." ownerID="26" targetID="27" fromX="3219" fromY="-1995" />You are defeated and eventually the scavengers deal with the problem themselves, so you do not gain any friendship.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="2894" positionY="-1548" width="350" height="725">
+      <outputs name="Leave." ownerID="26" targetID="27" fromX="3219" fromY="-2039" />You are defeated and eventually the scavengers deal with the problem themselves, so you do not gain any friendship.</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="27" positionX="3525.87378" positionY="-1816.28223" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="27" targetID="46" fromX="3974" fromY="-2248" />
     </nodes>

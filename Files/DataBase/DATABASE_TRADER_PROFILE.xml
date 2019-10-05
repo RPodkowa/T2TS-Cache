@@ -22,6 +22,20 @@
 		<TradeableItems Value="ITEM_CARGO-BASIC_FEW_EQUIPMENT"/>
 	</TRADER-DEFAULT_FRIENDLY>
 	
+	<TRADER-HERBS>
+		<CancelLock Value="FALSE"/>
+        <BuingValueModify ScriptName="Tbv_TradeDefaultBuying"/>
+		<SellingValueModify ScriptName="Tsv_Trade2XSelling"/>
+		<TradeableItems Value="ITEM_CARGO-FEW_SPICES"/>
+		<TradeableItems Value="ITEM_CARGO-FEW_SPICES"/>
+		<TradeableItems Value="ITEM_CARGO-FEW_SPICES"/>
+		<TradeableItems Value="ITEM_CARGO-FEW_SPICES"/>
+		<TradeableItems Value="ITEM_CARGO-FEW_SPICES"/>
+		<TradeableItems Value="ITEM_CARGO-FEW_SPICES"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_HERBS"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_HERBS"/>
+	</TRADER-HERBS>
+	
 	<TRADER-COOKER>
 		<CancelLock Value="FALSE"/>
         <BuingValueModify ScriptName="Tbv_TradeDefaultBuying"/>

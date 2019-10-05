@@ -323,8 +323,8 @@ Dreadful sickness spreads throughout the land over the next few days, killing hu
 
 You strike at them, and with every blow you only feel the dread more. </nodes>
   </Adventure>
-  <Adventure name="Bandits near villag" uniqueID="3" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="5" nodeIdMax="39" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-254.3678" positionY="8.67816" width="347" height="661" image="Event003">
+  <Adventure name="Bandits near villag" uniqueID="3" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="5" nodeIdMax="42" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-254.3678" positionY="8.67816" width="347" height="821" image="Event003">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl">
@@ -350,7 +350,9 @@ You strike at them, and with every blow you only feel the dread more. </nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" fromX="70" fromY="-594" />
+      <outputs ownerID="1" targetID="42" group="G1" fromX="70" fromY="-594" />
+      <outputs ownerID="1" targetID="40" group="G1" fromX="70" fromY="-675" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="70" fromY="-755" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="215.016022" positionY="3.63694477" width="350" height="1126">
       <logic>
@@ -456,9 +458,9 @@ You strike at them, and with every blow you only feel the dread more. </nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Get back to work." ownerID="9" targetID="12" fromX="743" fromY="-2460" />You seek out the bandits and offer them the payment. Luckily for you, they agree that bloodshed is more risky than free goods. They take the loot and leave you be.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="11" positionX="315.139832" positionY="-1107.11914" width="350" height="805">
-      <outputs name="Stand firm and try to change their mind." ownerID="11" targetID="15" fromX="640" fromY="-1598" />
-      <outputs name="Fight!" ownerID="11" targetID="6" fromX="640" fromY="-1678" />You seek out the bandits and offer the bribe. They take it, but then they laugh in your faces and say they will now take all!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="319" positionY="-1183" width="350" height="805">
+      <outputs name="Stand firm and try to change their mind." ownerID="11" targetID="15" fromX="644" fromY="-1674" />
+      <outputs name="Fight!" ownerID="11" targetID="6" fromX="644" fromY="-1754" />You seek out the bandits and offer the bribe. They take it, but then they laugh in your faces and say they will now take all!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="12" positionX="1372.261" positionY="-1736.56287" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="13" positionX="808.038" positionY="158.218811" width="350" height="885">
       <logic>
@@ -505,6 +507,9 @@ You strike at them, and with every blow you only feel the dread more. </nodes>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="10;30" tag="ITEM_CARGO-BASIC_FEW_SUPPLIES" />
           </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-QUEST81" />
+          </LogicModifiers>
         </ModifierBlock>
       </logic>
       <outputs name="Take what they carried and get rid of the bodies." ownerID="19" targetID="25" group="G1" fromX="4479" fromY="106" />You beat the bandits and send them packing. This should keep them at bay for a time.</nodes>
@@ -525,7 +530,7 @@ They back away.</nodes>
     <nodes xsi:type="NodeProduceDrop" ID="23" positionX="3973.44287" positionY="-1159.51172" width="460" height="429" sourceGroup="GROUP-BANDITS_LEADER_4P_4M_2S" cargoPercentage="80">
       <outputs ownerID="23" targetID="25" fromX="4403" fromY="-1517" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="2023.4541" positionY="-2475.3396" width="350" height="408" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="2023.4541" positionY="-2475.3396" width="350" height="530" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="27" positionX="2485.78955" positionY="-1836.94214" width="350" height="805">
       <logic>
         <ModifierBlock>
@@ -593,7 +598,7 @@ They back away.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="35" positionX="1411" positionY="-816" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-BANDITS_3P_3M_1S" challengeScale="101" challengedList="ppl">
+    <nodes xsi:type="NodeChallenge" ID="35" positionX="1350" positionY="-716" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-BANDITS_3P_3M_1S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
           <LogicFilter name="attr">
@@ -607,9 +612,9 @@ They back away.</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="35" targetID="32" fromX="1852" fromY="-1311" />
-      <outputs name="Lose" ownerID="35" targetID="27" fromX="1852" fromY="-1391" />
-      <outputs name="Surrender" ownerID="35" targetID="27" fromX="1852" fromY="-1471" />
+      <outputs name="Win" ownerID="35" targetID="32" fromX="1791" fromY="-1211" />
+      <outputs name="Lose" ownerID="35" targetID="27" fromX="1791" fromY="-1291" />
+      <outputs name="Surrender" ownerID="35" targetID="27" fromX="1791" fromY="-1371" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="36" positionX="805.526" positionY="-874.701965" width="350" height="885">
       <logic>
@@ -623,7 +628,7 @@ They back away.</nodes>
       <outputs name="[Harmony or attractive]Perhaps harmony is your way, or your looks make your tongue sweeter. Either way, the bandits seem willing to listen. Parley with them." ownerID="36" targetID="35" group="G1" fromX="1131" fromY="-1446" />
       <outputs name="Try to parley with them." ownerID="36" targetID="30" group="G1" fromX="1131" fromY="-1526" />Just as you suspected, the bandits arrive within a few days, armed and ready to fight. They are not discouraged by your fortifications.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="37" positionX="2918" positionY="909" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="37" positionX="2972" positionY="836" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicProcessing name="unstuff" makePublic="true" list1="stuff">
@@ -637,10 +642,46 @@ They back away.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Stay down and let them leave." ownerID="37" targetID="38" fromX="3243" fromY="417" />The bandits beat you badly and take what they can carry when they leave, including a child if they found one!</nodes>
+      <outputs name="Stay down and let them leave." ownerID="37" targetID="38" fromX="3297" fromY="344" />The bandits beat you badly and take what they can carry when they leave, including a child if they found one!</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="38" positionX="3393" positionY="1122" width="480" height="503" radius="7" groupID="GROUP-BANDITS_4P_3M_1S" destroyOwner="false" linkedEventUniqueID="24">
       <outputs ownerID="38" targetID="14" fromX="3841" fromY="689" />
     </nodes>
+    <nodes xsi:type="NodeAdventure" ID="40" positionX="-1040" positionY="-321" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="guard">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsBuildings" parameter="1" tag="TAG-BUILDING_GUARD_TOWER" />
+          </LogicFilter>
+          <LogicResultAction list="guard">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="70" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Attack!" ownerID="40" targetID="6" fromX="-714" fromY="-812" />
+      <outputs name="Chase them away!" ownerID="40" targetID="41" fromX="-714" fromY="-892" />From your guard tower, you spot bandits approach, so you are prepared for them.
+
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="41" positionX="-1444" positionY="-581" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="42" positionX="-624" positionY="-880" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="3" tag="TAG-QUEST81" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Attack!" ownerID="42" targetID="6" fromX="-298" fromY="-1371" />
+      <outputs name="Watch them go." ownerID="42" targetID="41" fromX="-298" fromY="-1451" />Bandits approach your village, but one of them suddenly bursts out:
+
+'No, jus no, boss! I mean, I know we're bandits, we're supposed to do banditry, but come on, three times! They whooped us good, three times!'
+
+The others nod and they start running away.
+
+
+</nodes>
   </Adventure>
   <Adventure name="Lataviec village" uniqueID="4" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="4" nodeIdMax="37" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event098">
@@ -4628,7 +4669,7 @@ It does, however, retain its wits, and it stays with you.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="2515.92578" positionY="594.460449" width="350" height="530" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1527" positionY="121" width="350" height="725">
-      <outputs name="Leave." ownerID="7" targetID="10" fromX="1853" fromY="-370" />You are badly beaten and forced to flee. You can't hope to reclaim what was lost now.</nodes>
+      <outputs name="Leave." ownerID="7" targetID="10" fromX="1852" fromY="-370" />You are badly beaten and forced to flee. You can't hope to reclaim what was lost now.</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="8" positionX="2657.312" positionY="160.797058" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="8" targetID="9" fromX="3105" fromY="-271" />
     </nodes>
@@ -4658,6 +4699,9 @@ It does, however, retain its wits, and it stays with you.</nodes>
           </LogicModifiers>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="bandittaken" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-QUEST81" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -4764,11 +4808,11 @@ It does, however, retain its wits, and it stays with you.</nodes>
         </FilterBlock>
       </logic>
       <outputs name="Try to convince them to trade for food." ownerID="23" targetID="15" fromX="666" fromY="-1547" />
-      <outputs name="[Hunter]Attack, but sneak up on them and set a trap to make the fight easier." ownerID="23" targetID="20" fromX="666" fromY="-1627" />
-      <outputs name="You do not have enough food to make deals. Attack!" ownerID="23" targetID="3" fromX="666" fromY="-1708" />
-      <outputs name="[Harmony]Speak to them, as peace is always preferable." ownerID="23" targetID="11" fromX="666" fromY="-1788" />
-      <outputs name="Come back later." ownerID="23" targetID="21" fromX="666" fromY="-1868" />
-      <outputs name="[Bandit]Approach them as a friend and offer to trade food for the child." ownerID="23" targetID="22" fromX="666" fromY="-1948" />You watch their camp, note their patterns, and notice they are looking rather worse for wear when it comes to food and drink. They might be open to trading.</nodes>
+      <outputs name="[Hunter]Attack, but sneak up on them and set a trap to make the fight easier." ownerID="23" targetID="20" fromX="322" fromY="-1627" />
+      <outputs name="You do not have enough food to make deals. Attack!" ownerID="23" targetID="3" fromX="322" fromY="-1627" />
+      <outputs name="[Harmony]Speak to them, as peace is always preferable." ownerID="23" targetID="11" fromX="322" fromY="-1627" />
+      <outputs name="Come back later." ownerID="23" targetID="21" fromX="322" fromY="-1627" />
+      <outputs name="[Bandit]Approach them as a friend and offer to trade food for the child." ownerID="23" targetID="22" fromX="322" fromY="-1627" />You watch their camp, note their patterns, and notice they are looking rather worse for wear when it comes to food and drink. They might be open to trading.</nodes>
     <nodes xsi:type="NodeChallenge" ID="24" positionX="-663.937561" positionY="1549.64648" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-BANDITS_4P_3M_1S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>

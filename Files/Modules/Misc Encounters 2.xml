@@ -182,7 +182,7 @@ Now, typically, our gods do not care. But the culprit was a chosen, like you. Th
     <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="3546" positionY="-881" width="350" height="530" allPlayersXP="2" allPlayersRP="1" logBookName="QUEST_THEO_TUTORIAL" logBookDescription="QUEST_THEO_TUTORIAL_DES" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="SlavyanVillageSmall" uniqueID="21" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="72" eventTag="TAG-GENDER_MALE" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="47" positionY="233" width="347" height="821" image="Event024">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="89" positionY="284" width="347" height="821" image="Event024">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -190,9 +190,9 @@ Now, typically, our gods do not care. But the culprit was a chosen, like you. Th
           </LogicFilter>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="61" group="G1" fromX="371" fromY="-370" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="371" fromY="-450" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="371" fromY="-530" />
+      <outputs ownerID="1" targetID="61" group="G1" fromX="414" fromY="-319" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="414" fromY="-399" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="414" fromY="-479" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="403" positionY="-620" width="350" height="1367">
       <logic>
@@ -231,8 +231,8 @@ Now, typically, our gods do not care. But the culprit was a chosen, like you. Th
         </FilterBlock>
       </logic>
       <outputs name="Attack!" ownerID="5" targetID="7" fromX="795" fromY="-34" />
-      <outputs name="Leave." ownerID="5" targetID="3" fromX="798" fromY="-114" />
-      <outputs name="Say that you mean them no harm -- all you want is to talk and visit." ownerID="5" targetID="49" fromX="798" fromY="-194" />'You best move along. You're no friends of ours.'
+      <outputs name="Leave." ownerID="5" targetID="3" fromX="795" fromY="-114" />
+      <outputs name="Say that you mean them no harm -- all you want is to talk and visit." ownerID="5" targetID="49" fromX="795" fromY="-194" />'You best move along. You're no friends of ours.'
 
 You see armed folk gathering.</nodes>
     <nodes xsi:type="NodeAdventure" ID="6" positionX="1467" positionY="785" width="350" height="725">

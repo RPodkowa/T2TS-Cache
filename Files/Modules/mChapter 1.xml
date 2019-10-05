@@ -2549,6 +2549,9 @@ You manage to break free, and the clarity of your natural domain keeps you mostl
           <LogicResultAction>
             <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-QUEST68" />
           </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-QUEST82" />
+          </LogicResultAction>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers>
@@ -2565,6 +2568,11 @@ You manage to break free, and the clarity of your natural domain keeps you mostl
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
           </LogicFilter>
         </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST82" />
+          </LogicModifiers>
+        </ModifierBlock>
       </logic>
       <outputs name="Go speak to him." ownerID="2" targetID="4" fromX="750" fromY="-437" />
       <outputs name="Attack!" ownerID="2" targetID="3" fromX="750" fromY="-517" />As you recover from yet another nasty tremor and look around in the debris for useful resources, you spot an odd-looking man sitting behind a table, surrounded by all sorts of strange contraptions, scrolls, vials, and tools.</nodes>
@@ -15145,6 +15153,9 @@ You are chosen, you WILL do as the gods will it and soon, once you are settled, 
           <LogicResultAction>
             <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-QUEST68" />
           </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-QUEST82" />
+          </LogicResultAction>
         </FilterBlock>
       </logic>
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
@@ -15156,6 +15167,11 @@ You are chosen, you WILL do as the gods will it and soon, once you are settled, 
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
           </LogicFilter>
         </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST82" />
+          </LogicModifiers>
+        </ModifierBlock>
       </logic>
       <outputs name="Go speak to him." ownerID="2" targetID="4" fromX="750" fromY="-437" />
       <outputs name="Attack!" ownerID="2" targetID="3" fromX="750" fromY="-517" />As you recover from yet another nasty tremor and look around in the debris for useful resources, you spot an odd-looking man sitting behind a table, surrounded by all sorts of strange contraptions, scrolls, vials, and tools.</nodes>

@@ -203,6 +203,7 @@ namespace GameScript
                     FInt pow = data.t0.GetSkillCastingStrength(data.t1);
                     inspirePower = inspirePower * pow;
                     inspirePower *= 0.1f;
+                    inspirePower.CutToInt();
                 }
                 string inspireMod = "<sprite name=DamageInspire>" + inspirePower;
 
@@ -231,9 +232,13 @@ namespace GameScript
                 {
                     pow = GameplayUtils.GetDamageMultiplierFInt(character.GetAttribute(mainAtt));
                 }
+                FInt baseValue = inspirePower * modifier;
+                baseValue.CutToInt();
+                FInt finalValue = (modifier * inspirePower * pow) * 0.1f;
+                finalValue.CutToInt();
 
                 return SI_DefaultAttributeTrioChange(info) 
-                    + "<sprite name=DamageInspire>" + inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")";
+                    + "<sprite name=DamageInspire>" + baseValue + "(" + finalValue + ")";
             }
         }
 
@@ -251,10 +256,10 @@ namespace GameScript
             ClientEntityCharacter character = dInfo.t2;
             var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-            if (dataInWorld.attributes != null && dataInWorld.attributes.Keys.Count > 0)
+            if (dataInWorld.attributes != null && dataInWorld.attributes.Count > 0)
             {
                 string answer = "";
-                string name = dataInWorld.attributes.Keys[0];
+                string name = dataInWorld.attributes.GetKey(0);
 
                 //                 Tag t = Globals.GetInstanceFromDB<Tag>(name);
                 //                 if(t != null && t.visible)
@@ -263,12 +268,12 @@ namespace GameScript
                 //                 }
 
                 bool multiplier = false;
-                if (dataInWorld.attributes.Values[0].t0 == "*")
+                if (dataInWorld.attributes.GetValue(0).t0 == "*")
                 {
                     answer += "x";
                     multiplier = true;
                 }
-                answer += dataInWorld.attributes.Values[0].t1.ToString();
+                answer += dataInWorld.attributes.GetValue(0).t1.ToString();
 
                 if (multiplier)
                 {
@@ -345,7 +350,7 @@ namespace GameScript
 
                 if(!string.IsNullOrEmpty(answer))
                 {
-                    if (dataInWorld.attributes.Values[0].t0 == "*")
+                    if (dataInWorld.attributes.GetValue(0).t0 == "*")
                     {
                         answer += "%";
                     }
@@ -369,11 +374,11 @@ namespace GameScript
             ClientEntityCharacter character = dInfo.t2;
             var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-            if (dataInWorld.attributes != null && dataInWorld.attributes.Keys.Count > 0)
+            if (dataInWorld.attributes != null && dataInWorld.attributes.Count > 0)
             {
-                if(dataInWorld.attributes.Keys[0] == "TAG-DEATH_CHANCE_MODIFIER")
+                if(dataInWorld.attributes.GetKey(0) == "TAG-DEATH_CHANCE_MODIFIER")
                 {
-                    var value = System.Math.Abs(dataInWorld.attributes.Values[0].t1.ToInt());
+                    var value = System.Math.Abs(dataInWorld.attributes.GetValue(0).t1.ToInt());
                     return value.ToString() + "%";
                 }
             }
@@ -396,9 +401,9 @@ namespace GameScript
 
             var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-            if (dataInWorld.attributes != null && dataInWorld.attributes.Keys.Count > 0)
+            if (dataInWorld.attributes != null && dataInWorld.attributes.Count > 0)
             {
-                string answer = dataInWorld.attributes.Values[0].t1.ToString();
+                string answer = dataInWorld.attributes.GetValue(0).t1.ToString();
 
                 if (character == null)
                 {
@@ -433,7 +438,7 @@ namespace GameScript
             Subskill ss = dInfo.t1;
             var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-            return dataInWorld.attributes.Keys.Count.ToString();
+            return dataInWorld.attributes.Count.ToString();
         }
         static public string SI_AddItemCargo(object info)
         {
@@ -476,7 +481,7 @@ namespace GameScript
                 {
                     int min = (t as ItemCargo).numberOfItems.minimumCount;
                     int max = (t as ItemCargo).numberOfItems.maximumCount;
-                    return dataInWorld.attributes.Values[0].t1.ToString() + "%";
+                    return dataInWorld.attributes.GetValue(0).t1.ToString() + "%";
                     if (min == max)
                         return min.ToString();
 
@@ -546,6 +551,7 @@ namespace GameScript
                     FInt pow = data.t0.GetSkillCastingStrength(data.t1);
                     inspirePower = inspirePower * pow;
                     inspirePower *= 0.1f;
+                    inspirePower.CutToInt();
                 }
                 return inspirePower + "<sprite name=DelayIcon>" + inspireSpeed;
             }
@@ -577,8 +583,11 @@ namespace GameScript
                         pow = GameplayUtils.GetDamageMultiplierFInt(character.GetAttribute(mainAtt));
                     }
                 }
-
-                return inspirePower * modifier + "("+((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed;
+                FInt baseValue = inspirePower * modifier;
+                baseValue.CutToInt();
+                FInt finalValue = (modifier * inspirePower * pow) * 0.1f;
+                finalValue.CutToInt();
+                return baseValue + "("+ finalValue + ")<sprite name=DelayIcon>" + inspireSpeed;
             }
         }
 
@@ -635,6 +644,7 @@ namespace GameScript
                     FInt pow = data.t0.GetSkillCastingStrength(data.t1);
                     inspirePower = inspirePower * pow;
                     inspirePower *= 0.1f;
+                    inspirePower.CutToInt();
                 }
                 return inspirePower  + "<sprite name=DelayIcon>" + "+" + inspireSpeed;
             }
@@ -667,7 +677,11 @@ namespace GameScript
                     }
                 }
 
-                return inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed;
+                FInt baseValue = inspirePower * modifier;
+                baseValue.CutToInt();
+                FInt finalValue = (modifier * inspirePower * pow) * 0.1f;
+                finalValue.CutToInt();
+                return baseValue + "(" + finalValue + ")<sprite name=DelayIcon>" + inspireSpeed;
             }
         }
         static public string SI_BloodySacrifice(object info)
@@ -679,7 +693,8 @@ namespace GameScript
                 NetSkill ns = data.t1;
                 FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
                 FInt multipier = ns.GetFloatAttribute("DmgMulti");
-                FInt sacrificeHp = nc.GetCA_HEALTH() * sacrifice;
+                FInt sacrificeHp = (nc.GetCA_HEALTH() + nc.GetCA_SHIELD()) * sacrifice;
+                sacrificeHp.CutToInt();
                 FInt damage = sacrificeHp * multipier;
                 return damage + " <sprite name=HealthPhysicalIcon>" + "-" + sacrificeHp;
             }
@@ -691,14 +706,17 @@ namespace GameScript
                 ClientEntityCharacter character = dInfo.t2;
                 var dataInWorld = si.GetCurrentSkillAttributes()[ss];
 
-                if (dataInWorld.attributes != null && dataInWorld.attributes.Keys.Count > 0)
+                if (dataInWorld.attributes != null && dataInWorld.attributes.Count > 0)
                 {
                     FInt sacrifice = dataInWorld.GetFInt("HealthSacrifice");
                     FInt multipier = dataInWorld.GetFInt("DmgMulti");
 
                     if(character != null)
                     {
-                        FInt sacrificeHp = character.GetPHYSICAL_HP() * sacrifice;
+                        FInt shield = character.GetAttribute((Tag)TAG.SHIELDING_PHYSICAL);
+                        shield.CutToInt();
+                        FInt sacrificeHp = (character.GetPHYSICAL_HP() + shield) * sacrifice;
+                        sacrificeHp.CutToInt();
                         FInt damage = sacrificeHp * multipier;
                         return damage + " <sprite name=HealthPhysicalIcon>" + "-" + sacrificeHp;
                     }
@@ -732,8 +750,8 @@ namespace GameScript
             Subskill ss = dInfo.t1;
 
             var skillAttributes = si.GetCurrentSkillAttributes()[ss];
-            string sign = skillAttributes.attributes.Values[0].t0;
-            int modifier = skillAttributes.attributes.Values[0].t1.ToInt(); 
+            string sign = skillAttributes.attributes.GetValue(0).t0;
+            int modifier = skillAttributes.attributes.GetValue(0).t1.ToInt(); 
             string st = sign + modifier.ToString();
 
             return st;
@@ -745,8 +763,8 @@ namespace GameScript
             Subskill ss = dInfo.t1;
 
             var skillAttributes = si.GetCurrentSkillAttributes()[ss];
-            string sign = skillAttributes.attributes.Values[0].t0;
-            int modifier = skillAttributes.attributes.Values[0].t1.ToInt();
+            string sign = skillAttributes.attributes.GetValue(0).t0;
+            int modifier = skillAttributes.attributes.GetValue(0).t1.ToInt();
             string st = sign + modifier.ToString();
 
             return st;
@@ -758,8 +776,8 @@ namespace GameScript
             Subskill ss = dInfo.t1;
 
             var skillAttributes = si.GetCurrentSkillAttributes()[ss];
-            string sign = skillAttributes.attributes.Values[0].t0;
-            FInt modifier = skillAttributes.attributes.Values[0].t1;
+            string sign = skillAttributes.attributes.GetValue(0).t0;
+            FInt modifier = skillAttributes.attributes.GetValue(0).t1;
             string st = sign + modifier.ToString();
 
             return st;
@@ -780,7 +798,7 @@ namespace GameScript
             Subskill charSubskill = newSkill.skillSubskills[0];
 
             var charSSAttributes = charSi.GetCurrentSkillAttributes()[charSubskill];
-            string bonusTag = charSSAttributes.attributes.Keys[0];
+            string bonusTag = charSSAttributes.attributes.GetKey(0);
             FInt bonusValue = charSSAttributes.GetFInt(bonusTag);
             string st = bonusValue.ToString();
 
@@ -805,7 +823,7 @@ namespace GameScript
             Subskill charSubskill = newSkill.skillSubskills[0];
 
             var charSSAttributes = charSi.GetCurrentSkillAttributes()[charSubskill];
-            string bonusTag = charSSAttributes.attributes.Keys[0];
+            string bonusTag = charSSAttributes.attributes.GetKey(0);
             FInt bonusValue = charSSAttributes.GetFInt(bonusTag);
             string st = (bonusValue).ToString() + "%";
 
@@ -2508,6 +2526,7 @@ namespace GameScript
                 FInt pow = owner.GetSkillCastingStrength(ns);
                 inspirePower = inspirePower * pow;
                 inspirePower *= 0.1f;
+                inspirePower.CutToInt();
             }
 
             NetCard target = null;
@@ -2566,6 +2585,7 @@ namespace GameScript
                 FInt pow = owner.GetSkillCastingStrength(ns);
                 inspirePower = inspirePower * pow;
                 inspirePower *= 0.1f;
+                inspirePower.CutToInt();
             }
 
             NetCard target = null;
@@ -2703,7 +2723,9 @@ namespace GameScript
             if (!NetTypeAtomic.IsValid(q.Targets)) return null;
 
             NetCard owner = bf.GetCardByID(ns.OwnerCardID);
-            owner.SetCA_HEALTH(owner.GetCA_HEALTH() * 0.8f);
+            FInt newHp = owner.GetCA_HEALTH() * 0.8f;
+            newHp.CutToInt();
+            owner.SetCA_HEALTH(newHp);
 
             Act_AddShielding(bf, q, stack, previousItems, random);
 
@@ -2761,6 +2783,7 @@ namespace GameScript
             if (NetType.IsNullOrEmpty(q.Targets)) return null;
 
             FInt healPower = owner.GetSkillCastingStrength(ns);
+
             foreach (var v in q.Targets.value)
             {
                 NetCard target = bf.ConvertPositionIDToCard(v);
@@ -3184,7 +3207,6 @@ namespace GameScript
             NetCard owner = bf.GetCardByID(ns.OwnerCardID);
 
             NetCard target = null;
-            FInt damage = owner.GetSkillCastingStrength(ns);
 
             if (NetTypeAtomic.IsNullOrEmpty(q.Targets)) return null;
 
@@ -3216,6 +3238,7 @@ namespace GameScript
                 FInt pow = owner.GetSkillCastingStrength(ns);
                 inspirePower = inspirePower * pow;
                 inspirePower *= 0.1f;
+                inspirePower.CutToInt();
             }
 
             NetCard target = null;
@@ -3268,6 +3291,7 @@ namespace GameScript
             NetSkill ns = q.GetNetSkill(bf);
             NetCard target = null;
             FInt shieldDestroy = ns.GetFloatAttribute("ShieldDestroy");
+            shieldDestroy.CutToInt();
             FInt shield = FInt.ZERO;
 
             if (NetTypeAtomic.IsNullOrEmpty(q.Targets) || shieldDestroy == FInt.ZERO) return null;
@@ -3321,11 +3345,12 @@ namespace GameScript
 
             FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
             FInt multipier = ns.GetFloatAttribute("DmgMulti");
-            FInt sacrificeHp = owner.GetCA_HEALTH() * sacrifice;
+            FInt sacrificeHp = (owner.GetCA_HEALTH() + owner.GetCA_SHIELD()) * sacrifice;
+            sacrificeHp.CutToInt();
             FInt damage = sacrificeHp * multipier;
 
             // sacrifice health
-            owner.SetCA_HEALTH(owner.GetCA_HEALTH() - sacrificeHp);
+            owner.ReciveTrueDamageEssence(sacrificeHp, bf, q, -1);
 
             // do damage
             foreach (var v in q.Targets.value)
@@ -3333,7 +3358,7 @@ namespace GameScript
                 target = bf.ConvertPositionIDToCard(v);
                 if (target != null)
                 {
-                    target.ReciveDamageBypassShield(damage, bf, q, v);
+                    target.ReciveTrueDamageEssence(damage, bf, q, v);
                 }
             }
 
@@ -3346,7 +3371,7 @@ namespace GameScript
                 target = bf.ConvertPositionIDToCard(v);
                 if (target != null)
                 {
-                    target.ReciveDamageBypassShield(damage, bf, q, v);
+                    target.ReciveTrueDamageEssence(damage, bf, q, v);
                 }
             }
 

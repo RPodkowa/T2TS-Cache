@@ -2,10 +2,15 @@
 	<SKILL-COUNTER_ATTACK Rarity="40">
 		<DescriptionInfo Name="DES_SKILL_COUNTER_ATTACK" Description="DES_SKILL_COUNTER_ATTACK_DES" IconName="SkillCounterAttack"/>
 		<BaseEssence Amount="20" Tag="TAG-ESSENCE_GRAY"/>
-		<SkillSubskill Value="SUBSKILL-RETALIATION_DMG_PER"/>
+		<SkillSubskill Value="SUBSKILL-RETALIATION_DMG_INT"/>
 		<SkillGroupFilter Value="AdvFighter"/>
-		<SkillGroupFilter Value="AdvAssassin"/>
 	</SKILL-COUNTER_ATTACK>
+	<SKILL-FEINT Rarity="40">
+		<DescriptionInfo Name="DES_SKILL_FEINT" Description="DES_SKILL_FEINT_DES" IconName="SkillCounterAttack"/>
+		<BaseEssence Amount="20" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-RETALIATION_DMG_PER"/>
+		<SkillGroupFilter Value="AdvAssassin"/>
+	</SKILL-FEINT>
 	<SKILL-SNEAK_ATTACK Rarity="51">
 		<DescriptionInfo Name="DES_SKILL_SNEAK_ATTACK" Description="DES_SKILL_SNEAK_ATTACK_DES" IconName="SkillSneakAttack"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>

@@ -1610,6 +1610,38 @@
 			<MainAtt Amount="3.0" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-HORN_IMPALE>
+	<SUBSKILL-BEE_STING Delay="6.5" Animation="BloodyHit4" Sound="SubskillBeeSting">
+		<DescriptionInfo Name="DES_SUBSKILL_BEE_STING" Description="DES_SUBSKILL_BEE_STING_DES" IconName="SubskillBeeSting"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ATTACK_MELEE" DamageIcon="TAG-DAMAGE_TRUE_ESSENCE" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="DoAttack"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_MeleeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_TrueDamageEssence"/>
+		<ChallengeType Value="TypePhysical"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-CA_1"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+			<MainAtt Amount="1.1" Tag="TAG-CA_1"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+			<MainAtt Amount="1.5" Tag="TAG-CA_1"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+			<MainAtt Amount="1.8" Tag="TAG-CA_1"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+			<MainAtt Amount="2.2" Tag="TAG-CA_1"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+			<MainAtt Amount="2.7" Tag="TAG-CA_1"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-BEE_STING>
 	<SUBSKILL-FAST_MULTI_THROW_2 Delay="0.7" Animation="Hit3" Sound="SubskillFastMultiThrow">
 		<DescriptionInfo Name="DES_SUBSKILL_FAST_MULTI_THROW_2" Description="DES_SUBSKILL_FAST_MULTI_THROW_2_DES" IconName="SubskillFastMultiThrow"/>
 		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_RANGED_ENEMIES" AttackInfo="{SCRIPT:SI_Damage}"/>
