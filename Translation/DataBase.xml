@@ -5709,7 +5709,7 @@
       <Group>DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS</Group>
     </Groups>
     <Texts>
-      <Input>Decrease Sanity during day turns.</Input>
+      <Input>Decrease Sanity during night turns.</Input>
       <Output>Zmniejsz poczytalność w ciągu nocnych tur.</Output>
     </Texts>
   </Element>
@@ -6275,7 +6275,7 @@
     </Groups>
     <Texts>
       <Input>Decrease Group Carry</Input>
-      <Output>Decrease Group Carry</Output>
+      <Output>Zmniejsz przenoszenie grupy</Output>
     </Texts>
   </Element>
   <Element ID="358" Key="DES_TAG_DAMAGE_SUB_GROUP_CARRY_DES" Flag="0">
@@ -6411,7 +6411,7 @@
     </Groups>
     <Texts>
       <Input>Inspire</Input>
-      <Output>Inspire</Output>
+      <Output>Inspiruj</Output>
     </Texts>
   </Element>
   <Element ID="368" Key="DES_TAG_DAMAGE_INSPIRE_DES" Flag="0">
@@ -6595,7 +6595,7 @@
     </Groups>
     <Texts>
       <Input>Over Encumbered</Input>
-      <Output>Over Encumbered</Output>
+      <Output>Nadmiernie obciążony</Output>
     </Texts>
   </Element>
   <Element ID="382" Key="DES_TAG_DAMAGE_OVERENCUMBERED_DES" Flag="0">
@@ -6698,7 +6698,7 @@
     </Groups>
     <Texts>
       <Input>Item Dislike</Input>
-      <Output>Item Dislike</Output>
+      <Output>Nie lubisz przedmiotów</Output>
     </Texts>
   </Element>
   <Element ID="390" Key="DES_TAG_DAMAGE_ITEM_RESTRICTION_DES" Flag="0">
@@ -14751,7 +14751,7 @@
     </Groups>
     <Texts>
       <Input>Light-Sick Befuddler</Input>
-      <Output>Light-Sick Befuddler</Output>
+      <Output>Lekko chory Befuddler</Output>
     </Texts>
   </Element>
   <Element ID="855" Key="DES_SUBRACE_WATER_BEFUDDLER_DES" Flag="0">
@@ -14820,7 +14820,7 @@
     </Groups>
     <Texts>
       <Input>Sniezynki</Input>
-      <Output>Sniezynki</Output>
+      <Output>Śnieżzynki</Output>
     </Texts>
   </Element>
   <Element ID="860" Key="DES_SUBRACE_ICE_SNIEZYNKI_DES" Flag="0">
@@ -14948,7 +14948,7 @@
     </Groups>
     <Texts>
       <Input>Light-sick Human Warrior</Input>
-      <Output>Light-sick Human Warrior</Output>
+      <Output>Lekki ludzki wojownik</Output>
     </Texts>
   </Element>
   <Element ID="869" Key="DES_SUBRACE_LIGHT_ENLIGHTENED_HUM_WARRIOR_DES" Flag="0">
@@ -14976,7 +14976,7 @@
     </Groups>
     <Texts>
       <Input>Light-sick Dwarf Smith</Input>
-      <Output>Light-sick Dwarf Smith</Output>
+      <Output>Lekko chory krasnolud Smith</Output>
     </Texts>
   </Element>
   <Element ID="871" Key="DES_SUBRACE_LIGHT_ELDER_ENLIGHTENED_DWARF_SMITH" Flag="0">
@@ -15019,7 +15019,7 @@
     </Groups>
     <Texts>
       <Input>Light-sick Spider Queen</Input>
-      <Output>Light-sick Spider Queen</Output>
+      <Output>Chora na światło Pająk Królowa</Output>
     </Texts>
   </Element>
   <Element ID="874" Key="DES_SUBRACE_LIGHT_ENLIGHTENED_SPIDER_QUEEN_DES" Flag="0">
@@ -15071,7 +15071,7 @@
     </Groups>
     <Texts>
       <Input>Unliving Corpse</Input>
-      <Output>Unliving Corpse</Output>
+      <Output>Nieżywe zwłoki</Output>
     </Texts>
   </Element>
   <Element ID="878" Key="DES_SUBRACE_UNLI_CORPSE_DES" Flag="0">
@@ -15819,7 +15819,7 @@
     </Groups>
     <Texts>
       <Input>Cradle Possum</Input>
-      <Output>Cradle Possum</Output>
+      <Output>Kołyska Possum</Output>
     </Texts>
   </Element>
   <Element ID="933" Key="DES_SUBRACE_CRADLE_YOUNG_POSSUM" Flag="0">
@@ -15857,7 +15857,7 @@
     </Groups>
     <Texts>
       <Input>Light-Sick Roggnyr</Input>
-      <Output>Light-Sick Roggnyr</Output>
+      <Output>Chorobliwy Roggnyr</Output>
     </Texts>
   </Element>
   <Element ID="936" Key="DES_SUBRACE_LIGHT_SICK_ROGGNYR_DES" Flag="0">
@@ -16040,7 +16040,7 @@
     </Groups>
     <Texts>
       <Input>Forest Fairy</Input>
-      <Output>Forest Fairy</Output>
+      <Output>Leśna wróżka</Output>
     </Texts>
   </Element>
   <Element ID="952" Key="DES_SUBRACE_FOREST_FAIRY_DES" Flag="0">
@@ -39127,8 +39127,8 @@
       <Group>DES_SKILL_WEAK_ADD_CRAFTING_TOOL</Group>
     </Groups>
     <Texts>
-      <Input>Artisan's Aid</Input>
-      <Output>Pomoc rzemieślnika</Output>
+      <Input>Worker's Aid </Input>
+      <Output>Pomoc dla pracowników</Output>
     </Texts>
   </Element>
   <Element ID="2311" Key="DES_SKILL_WEAK_CRAFTING_TOOL_DES" Flag="0">
@@ -46226,12 +46226,7 @@
       <Output>Krew ofiarna</Output>
     </Texts>
   </Element>
-  <Element ID="2820" Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Flag="1">
-    <Confirmation>
-      <Time>2019-08-14 13:43:48</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
-    </Confirmation>
+  <Element ID="2820" Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Flag="0">
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -46239,8 +46234,8 @@
       <Group>DES_SUBSKILL_BLOODY_SACRIFICE</Group>
     </Groups>
     <Texts>
-      <Input>Sacrifice a % of the caster's health and deal True Damage equal to the amount of health lost, multiplied by skill power.</Input>
-      <Output>Poświęca % zdrowia rzucającego i zadaje Prawdziwe Obrażenia równe ilości utraconego zdrowia, pomnożonej przez moc umiejętności.</Output>
+      <Input>The caster deals Essence True Damage to themselves and then applies that damage, multiplied by the skill power, as an attack.</Input>
+      <Output>The caster deals Essence True Damage to themselves and then applies that damage, multiplied by the skill power, as an attack.</Output>
     </Texts>
   </Element>
   <Element ID="2821" Key="DES_SUBSKILL_EXPLODING_DEAD" Flag="1">
@@ -50429,7 +50424,7 @@
       <Group>DES_SUBSKILL_CHILD_GROW_UP</Group>
     </Groups>
     <Texts>
-      <Input>The counter shows the number of turns left before the child will turn into and adult.</Input>
+      <Input>The counter shows the number of turns left before the child will turn into an adult.</Input>
       <Output>Licznik pokazuje liczbę tur, które pozostały, zanim dziecko zamieni się w dorosłego.</Output>
     </Texts>
   </Element>
@@ -50488,12 +50483,7 @@
       <Output>Przebicie Rogami</Output>
     </Texts>
   </Element>
-  <Element ID="3062" Key="DES_SUBSKILL_HORN_IMPALE_DES" Flag="1">
-    <Confirmation>
-      <Time>2019-08-20 21:36:33</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
-    </Confirmation>
+  <Element ID="3062" Key="DES_SUBSKILL_HORN_IMPALE_DES" Flag="0">
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -50501,8 +50491,8 @@
       <Group>DES_SUBSKILL_HORN_IMPALE</Group>
     </Groups>
     <Texts>
-      <Input>True Damage attack a single target.</Input>
-      <Output>Zadaje Prawdziwe Obrażenia pojedyńczemu celowi.</Output>
+      <Input>True Damage attack on a single target.</Input>
+      <Output>True Damage attack on a single target.</Output>
     </Texts>
   </Element>
   <Element ID="3063" Key="DES_SUBSKILL_RETALIATION_DMG_STR" Flag="1">
@@ -54366,8 +54356,8 @@
       <Group>DES_SUBSKILL_GROUP_MEDICINE</Group>
     </Groups>
     <Texts>
-      <Input>This character receives a bonus to Healing attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu leczenia z pobliskiego budynku.</Output>
+      <Input>Healing Bonus</Input>
+      <Output>Bonus do leczenia</Output>
     </Texts>
   </Element>
   <Element ID="3313" Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE" Flag="0">
@@ -55344,8 +55334,8 @@
       <Group>DES_TRAIT_NIGHTMARE_GIFT</Group>
     </Groups>
     <Texts>
-      <Input>Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute and +4 Spiritual Shielding.</Input>
-      <Output>Twoje postacie otrzymują +1 duchowej regeneracji, 10% premii do atrybutu rytuałów i +4 duchowej osłony.</Output>
+      <Input>Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute, +4 Spiritual Shielding and you get access to the Moon Bridge ritual.</Input>
+      <Output>Twoje postacie otrzymują +1 do regeneracji duchowej, 10% bonusu do atrybutu Rytuały, +4 do duchowej osłony i masz dostęp do rytuału Księżycowego Mostu.</Output>
     </Texts>
   </Element>
   <Element ID="3385" Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL" Flag="0">
@@ -56941,7 +56931,7 @@
     </Groups>
     <Texts>
       <Input>Better Off Alone</Input>
-      <Output>Better Off Alone</Output>
+      <Output>Lepiej sam</Output>
     </Texts>
   </Element>
   <Element ID="3486" Key="DES_TRAIT_BETTER_OFF_ALONE_DES" Flag="0">
@@ -60324,7 +60314,7 @@
     </Groups>
     <Texts>
       <Input>Trash Quality Chance</Input>
-      <Output>Trash Quality Chance</Output>
+      <Output>Szansa na jakość śmieci</Output>
     </Texts>
   </Element>
   <Element ID="3768" Key="DES_TOOLTIP_TRASH_QUALITY_CHANCE_DES" Flag="0">
@@ -60942,7 +60932,7 @@
     </Groups>
     <Texts>
       <Input>Cradle Possums</Input>
-      <Output>Cradle Possums</Output>
+      <Output>Kołyska Opos</Output>
     </Texts>
   </Element>
   <Element ID="3820" Key="DES_GROUP_SNAKES" Flag="0">
@@ -62240,7 +62230,7 @@
     </Groups>
     <Texts>
       <Input>Water Demons' Mere</Input>
-      <Output>Water Demons 'Mere</Output>
+      <Output>Woda demonów wodnych</Output>
     </Texts>
   </Element>
   <Element ID="3929" Key="DES_SET_ICE_DEMONS_VILLAGE" Flag="0">
@@ -73342,7 +73332,7 @@
     </Groups>
     <Texts>
       <Input>Versus Event Owner:</Input>
-      <Output>Versus Event Owner:</Output>
+      <Output>Właściciel wydarzenia kontra:</Output>
     </Texts>
   </Element>
   <Element ID="4634" Key="UI_VS_GROUP" Flag="0">
@@ -73509,7 +73499,7 @@
     </Groups>
     <Texts>
       <Input>Spawn Source Settlement:</Input>
-      <Output>Spawn Source Settlement:</Output>
+      <Output>Rozliczenie źródła:</Output>
     </Texts>
   </Element>
   <Element ID="4646" Key="UI_DESTROY_EVENT_OWNER" Flag="0">
@@ -73521,7 +73511,7 @@
     </Groups>
     <Texts>
       <Input>Destroy Event Owner:</Input>
-      <Output>Destroy Event Owner:</Output>
+      <Output>Zniszcz właściciela zdarzenia:</Output>
     </Texts>
   </Element>
   <Element ID="4647" Key="UI_MIN_RADIUS" Flag="1">
@@ -73681,7 +73671,7 @@
     </Groups>
     <Texts>
       <Input>Subskill Info</Input>
-      <Output>Subskill Info</Output>
+      <Output>Informacje o umiejętnościach podrzędnych</Output>
     </Texts>
   </Element>
   <Element ID="4658" Key="UI_LEVEL" Flag="1">
@@ -77618,7 +77608,7 @@
     </Groups>
     <Texts>
       <Input>Self Hosted Server</Input>
-      <Output>Self Hosted Server</Output>
+      <Output>Serwer hostowany samodzielnie</Output>
     </Texts>
   </Element>
   <Element ID="4903" Key="UI_CHANGE_PROFILE" Flag="1">
@@ -80369,7 +80359,7 @@
     </Groups>
     <Texts>
       <Input>Log Selected Group Debug</Input>
-      <Output>Log Selected Group Debug</Output>
+      <Output>Zaloguj się do wybranej grupy debugowania</Output>
     </Texts>
   </Element>
   <Element ID="5070" Key="UI_DEV_ADD_MP" Flag="1">
@@ -81473,7 +81463,7 @@
     </Groups>
     <Texts>
       <Input>Dismantle Resource Recovery</Input>
-      <Output>Dismantle Resource Recovery</Output>
+      <Output>Demontaż odzyskiwania zasobów</Output>
     </Texts>
   </Element>
   <Element ID="5139" Key="UI_ROGUE_SPAWN" Flag="1">
@@ -82699,8 +82689,8 @@
       <Group>UI_TUTORIAL_EVENTS</Group>
     </Groups>
     <Texts>
-      <Input>If an event is triggered by a group located on land, {COLOR:yellow}other groups within 6 tiles range join as well.{END_COLOR}</Input>
-      <Output>Jeśli wydarzenie jest wyzwalane przez grupę znajdującą się na lądzie, dołączają również {COLOR:yellow}inne grupy w zasięgu 6 pól. {END_COLOR}</Output>
+      <Input>If an event is triggered by a group located on land, {COLOR:yellow}other groups within 6 tiles range join as well (this depends on your difficulty setting).{END_COLOR}</Input>
+      <Output>Jeśli wydarzenie zostanie wywołane przez grupę znajdującą się na lądzie, {COLOR:yellow}dołączą także inne grupy w zasięgu 6 pól (zależy to od twojego poziomu trudności). {END_COLOR}</Output>
     </Texts>
   </Element>
   <Element ID="5219" Key="UI_TUTORIAL_EVENTS3" Flag="0">
@@ -84397,7 +84387,7 @@
     </Groups>
     <Texts>
       <Input>Delay Swap and Shield</Input>
-      <Output>Delay Swap and Shield</Output>
+      <Output>Opóźnij zamianę i tarczę</Output>
     </Texts>
   </Element>
   <Element ID="5340" Key="DES_TAG_DAMAGE_SHIFT_DELAY_SHIELD_DES" Flag="0">
@@ -84424,7 +84414,7 @@
     </Groups>
     <Texts>
       <Input>Soak Damage</Input>
-      <Output>Soak Damage</Output>
+      <Output>Nasiąknięcie obrażeń</Output>
     </Texts>
   </Element>
   <Element ID="5342" Key="DES_TAG_DAMAGE_SOAK_DAMAGE_DES" Flag="0">
@@ -84450,7 +84440,7 @@
     </Groups>
     <Texts>
       <Input>Resist Poison</Input>
-      <Output>Resist Poison</Output>
+      <Output>Odporność na truciznę</Output>
     </Texts>
   </Element>
   <Element ID="5344" Key="DES_TAG_DAMAGE_RESIST_POISON_DES" Flag="0">
@@ -85034,7 +85024,7 @@
     </Groups>
     <Texts>
       <Input>Dark Claw Hit</Input>
-      <Output>Dark Claw Hit</Output>
+      <Output>Uderzenie Mrocznego Pazura</Output>
     </Texts>
   </Element>
   <Element ID="5388" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL" Flag="0">
@@ -85156,7 +85146,7 @@
     </Groups>
     <Texts>
       <Input>Pain Duty</Input>
-      <Output>Pain Duty</Output>
+      <Output>Obowiązek bólu</Output>
     </Texts>
   </Element>
   <Element ID="5397" Key="DES_SUBSKILL_PAIN_COMMISSION_DES" Flag="0">
@@ -85327,7 +85317,7 @@
     </Groups>
     <Texts>
       <Input>Catch Pet</Input>
-      <Output>Catch Pet</Output>
+      <Output>Złap zwierzaka</Output>
     </Texts>
   </Element>
   <Element ID="5411" Key="DES_RITUAL_CATCH_DOMESTIC_PET_DES" Flag="0">
@@ -86251,12 +86241,7 @@
       <Output>Pokonujesz go i powstrzymujesz jego sługusów przed zabijaniem ludzi.</Output>
     </Texts>
   </Element>
-  <Element ID="5475" Key="QUEST_V_DARKV_THREE2_DES3" Flag="1">
-    <Confirmation>
-      <Time>2019-09-05 16:51:14</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
-    </Confirmation>
+  <Element ID="5475" Key="QUEST_V_DARKV_THREE2_DES3" Flag="0">
     <Groups>
       <Group>QUEST</Group>
       <Group>QUEST_V</Group>
@@ -86265,8 +86250,8 @@
       <Group>QUEST_V_DARKV_THREE_DES</Group>
     </Groups>
     <Texts>
-      <Input>You failed to reason with Ivan and was forced to run for your lives.</Input>
-      <Output>Nie udało wam się przemówić do Iwana. Teraz musicie uciekać.</Output>
+      <Input>You intimidated Ivan into submission and told him he will serve you and the gods now to repent. He agreed and joined you.</Input>
+      <Output>You intimidated Ivan into submission and told him he will serve you and the gods now to repent. He agreed and joined you.</Output>
     </Texts>
   </Element>
   <Element ID="5476" Key="QUEST_LOG_CARAVAN" Flag="1">
@@ -86643,6 +86628,616 @@
     <Texts>
       <Input>Forfeit</Input>
       <Output>Rezygnacja</Output>
+    </Texts>
+  </Element>
+  <Element ID="5499" Key="DES_PET_PUMPKIN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_PET</Group>
+      <Group>DES_PET_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Pumpkin</Input>
+      <Output>Dynia</Output>
+    </Texts>
+  </Element>
+  <Element ID="5500" Key="DES_PET_PUMPKIN_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_PET</Group>
+      <Group>DES_PET_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>.</Input>
+      <Output>.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5501" Key="DES_SKILL_BEE_STING" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_BEE</Group>
+      <Group>DES_SKILL_BEE_STING</Group>
+    </Groups>
+    <Texts>
+      <Input>Bee Sting</Input>
+      <Output>Żądło pszczoły</Output>
+    </Texts>
+  </Element>
+  <Element ID="5502" Key="DES_SKILL_BEE_STING_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_BEE</Group>
+      <Group>DES_SKILL_BEE_STING</Group>
+    </Groups>
+    <Texts>
+      <Input>Sharp and deadly, this sting can easily bypass any armour.</Input>
+      <Output>Ostry i zabójczy, żądło może z łatwością ominąć każdą zbroję.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5503" Key="DES_SKILL_FEINT" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_FEINT</Group>
+    </Groups>
+    <Texts>
+      <Input>Faint</Input>
+      <Output>Słaby</Output>
+    </Texts>
+  </Element>
+  <Element ID="5504" Key="DES_SKILL_FEINT_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_FEINT</Group>
+    </Groups>
+    <Texts>
+      <Input>Each enemy that deals damage to you will also receive damage.</Input>
+      <Output>Każdy wróg, który zadaje ci obrażenia, również otrzyma obrażenia.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5505" Key="DES_SKILL_PUMPKIN_HELLFIRE" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_PUMPKIN</Group>
+      <Group>DES_SKILL_PUMPKIN_HELLFIRE</Group>
+    </Groups>
+    <Texts>
+      <Input>Pumpkin Hellfire</Input>
+      <Output>Pumpkin Hellfire</Output>
+    </Texts>
+  </Element>
+  <Element ID="5506" Key="DES_SKILL_PUMPKIN_HELLFIRE_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_PUMPKIN</Group>
+      <Group>DES_SKILL_PUMPKIN_HELLFIRE</Group>
+    </Groups>
+    <Texts>
+      <Input>Your pumpkin is fragile, like glass bottle. And in it there is hellfire hided. So don't brake it!</Input>
+      <Output>Twoja dynia jest delikatna jak szklana butelka. I w nim ukryty jest ogień piekielny. Więc nie hamuj!</Output>
+    </Texts>
+  </Element>
+  <Element ID="5507" Key="DES_SKILL_PET_PUMPKIN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_PET</Group>
+      <Group>DES_SKILL_PET_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Pet Pumpkin</Input>
+      <Output>Pet Pumpkin</Output>
+    </Texts>
+  </Element>
+  <Element ID="5508" Key="DES_SKILL_PET_PUMPKIN_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_PET</Group>
+      <Group>DES_SKILL_PET_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Pet Pumpkin</Input>
+      <Output>Pet Pumpkin</Output>
+    </Texts>
+  </Element>
+  <Element ID="5509" Key="DES_SKILL_CON_DEFAULT_MELEE" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_CON</Group>
+      <Group>DES_SKILL_CON_DEFAULT</Group>
+      <Group>DES_SKILL_CON_DEFAULT_MELEE</Group>
+    </Groups>
+    <Texts>
+      <Input>Concept - Melee</Input>
+      <Output>Koncepcja - walka w zwarciu</Output>
+    </Texts>
+  </Element>
+  <Element ID="5510" Key="DES_SKILL_CON_DEFAULT_MELEE_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_CON</Group>
+      <Group>DES_SKILL_CON_DEFAULT</Group>
+      <Group>DES_SKILL_CON_DEFAULT_MELEE</Group>
+    </Groups>
+    <Texts>
+      <Input>This concept card will prefer melee spots of the battlefield.</Input>
+      <Output>Ta karta koncepcji będzie preferowała miejsca do walki na polu walki.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5511" Key="DES_SKILL_CON_DEFAULT_RANGE" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_CON</Group>
+      <Group>DES_SKILL_CON_DEFAULT</Group>
+      <Group>DES_SKILL_CON_DEFAULT_RANGE</Group>
+    </Groups>
+    <Texts>
+      <Input>Concept - Ranged</Input>
+      <Output>Koncepcja - dystansowa</Output>
+    </Texts>
+  </Element>
+  <Element ID="5512" Key="DES_SKILL_CON_DEFAULT_RANGE_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_CON</Group>
+      <Group>DES_SKILL_CON_DEFAULT</Group>
+      <Group>DES_SKILL_CON_DEFAULT_RANGE</Group>
+    </Groups>
+    <Texts>
+      <Input>This concept card will prefer ranged spots of the battlefield.</Input>
+      <Output>Ta karta koncepcji będzie preferowała dystansowe pola bitwy.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5513" Key="DES_SKILL_CON_DEFAULT_RANGE_HEAVY" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_CON</Group>
+      <Group>DES_SKILL_CON_DEFAULT</Group>
+      <Group>DES_SKILL_CON_DEFAULT_RANGE</Group>
+      <Group>DES_SKILL_CON_DEFAULT_RANGE_HEAVY</Group>
+    </Groups>
+    <Texts>
+      <Input>Concept - Ranged Heavy</Input>
+      <Output>Koncepcja - ciężki dystans</Output>
+    </Texts>
+  </Element>
+  <Element ID="5514" Key="DES_SKILL_CON_DEFAULT_RANGE_HEAVY_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_CON</Group>
+      <Group>DES_SKILL_CON_DEFAULT</Group>
+      <Group>DES_SKILL_CON_DEFAULT_RANGE</Group>
+      <Group>DES_SKILL_CON_DEFAULT_RANGE_HEAVY</Group>
+    </Groups>
+    <Texts>
+      <Input>This concept card will prefer ranged spots of the battlefield.</Input>
+      <Output>Ta karta koncepcji będzie preferowała dystansowe pola bitwy.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5515" Key="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_SUMMON</Group>
+      <Group>DES_SUBSKILL_SUMMON_PET</Group>
+      <Group>DES_SUBSKILL_SUMMON_PET_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Summon Pumpkin</Input>
+      <Output>Przywołanie Dyni</Output>
+    </Texts>
+  </Element>
+  <Element ID="5516" Key="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_SUMMON</Group>
+      <Group>DES_SUBSKILL_SUMMON_PET</Group>
+      <Group>DES_SUBSKILL_SUMMON_PET_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Pumpkin to any spot.</Input>
+      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołaj Dyni w dowolne miejsce.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5517" Key="DES_SUBSKILL_BEE_STING" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_BEE</Group>
+      <Group>DES_SUBSKILL_BEE_STING</Group>
+    </Groups>
+    <Texts>
+      <Input>Bee Sting</Input>
+      <Output>Żądło pszczoły</Output>
+    </Texts>
+  </Element>
+  <Element ID="5518" Key="DES_SUBSKILL_BEE_STING_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_BEE</Group>
+      <Group>DES_SUBSKILL_BEE_STING</Group>
+    </Groups>
+    <Texts>
+      <Input>True Damage attack on a single target.</Input>
+      <Output>Atak prawdziwych obrażeń na pojedynczy cel.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5519" Key="DES_SUBSKILL_RETALIATION_DMG_INT" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_RETALIATION</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG_INT</Group>
+    </Groups>
+    <Texts>
+      <Input>Retaliation</Input>
+      <Output>Odwet</Output>
+    </Texts>
+  </Element>
+  <Element ID="5520" Key="DES_SUBSKILL_RETALIATION_DMG_INT_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_RETALIATION</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG_INT</Group>
+    </Groups>
+    <Texts>
+      <Input>Each attacker that hits this character with a normal attack, receives damage based on the character's Inteligence.</Input>
+      <Output>Każdy atakujący, który trafi tą postać normalnym atakiem, otrzymuje obrażenia na podstawie Inteligencji postaci.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5521" Key="DES_SUBSKILL_RETALIATION_DMG_DEST" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_RETALIATION</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG_DEST</Group>
+    </Groups>
+    <Texts>
+      <Input>Retaliation</Input>
+      <Output>Odwet</Output>
+    </Texts>
+  </Element>
+  <Element ID="5522" Key="DES_SUBSKILL_RETALIATION_DMG_DEST_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_RETALIATION</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG</Group>
+      <Group>DES_SUBSKILL_RETALIATION_DMG_DEST</Group>
+    </Groups>
+    <Texts>
+      <Input>Each attacker that hits this character with a normal attack, receives damage based on the character's Destiny.</Input>
+      <Output>Każdy atakujący, który trafi tą postać normalnym atakiem, otrzymuje obrażenia zależne od Przeznaczenia postaci.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5523" Key="DES_SUBSKILL_GROUP_MEDICINE_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_GROUP</Group>
+      <Group>DES_SUBSKILL_GROUP_MEDICINE</Group>
+    </Groups>
+    <Texts>
+      <Input>This character receives a bonus to Healing attribute from a nearby building.</Input>
+      <Output>Ta postać otrzymuje bonus do atrybutu Leczenie z pobliskiego budynku.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5524" Key="DES_TOOLTIP_ISLANDS" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_ISLANDS</Group>
+    </Groups>
+    <Texts>
+      <Input>Islands</Input>
+      <Output>Wyspy</Output>
+    </Texts>
+  </Element>
+  <Element ID="5525" Key="DES_TOOLTIP_ISLANDS_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_ISLANDS</Group>
+    </Groups>
+    <Texts>
+      <Input>The world will consist of a set of islands. Each island will be a single biome and creatures from more difficult areas will not cross over.</Input>
+      <Output>Świat będzie się składał z zestawu wysp. Każda wyspa będzie pojedynczym biomem, a stworzenia z trudniejszych obszarów nie będą się krzyżować.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5526" Key="DES_TOOLTIP_PANGEA" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_PANGEA</Group>
+    </Groups>
+    <Texts>
+      <Input>Pangea</Input>
+      <Output>Pangea</Output>
+    </Texts>
+  </Element>
+  <Element ID="5527" Key="DES_TOOLTIP_PANGEA_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_PANGEA</Group>
+    </Groups>
+    <Texts>
+      <Input>Most of the landmass will be located on a single island, but other, smaller islands are likely. One island can have more than one biome and you may be able to encounter more difficult enemies there.\n\n{COLOR:yellow}This option is recommended only for experienced players.{END_COLOR}</Input>
+      <Output>Większość lądu będzie zlokalizowana na jednej wyspie, ale inne mniejsze wyspy są prawdopodobne. Jedna wyspa może mieć więcej niż jeden biom i możesz tam spotkać trudniejszych wrogów. \n\n{COLOR:yellow}Ta opcja jest zalecana tylko dla doświadczonych graczy. {END_COLOR}</Output>
+    </Texts>
+  </Element>
+  <Element ID="5528" Key="DES_TOOLTIP_SMALL" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_SMALL</Group>
+    </Groups>
+    <Texts>
+      <Input>Small</Input>
+      <Output>Mały</Output>
+    </Texts>
+  </Element>
+  <Element ID="5529" Key="DES_TOOLTIP_SMALL_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_SMALL</Group>
+    </Groups>
+    <Texts>
+      <Input>World Size - Small</Input>
+      <Output>Światowy rozmiar - mały</Output>
+    </Texts>
+  </Element>
+  <Element ID="5530" Key="DES_TOOLTIP_MEDIUM" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_MEDIUM</Group>
+    </Groups>
+    <Texts>
+      <Input>Medium</Input>
+      <Output>średni</Output>
+    </Texts>
+  </Element>
+  <Element ID="5531" Key="DES_TOOLTIP_MEDIUM_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_MEDIUM</Group>
+    </Groups>
+    <Texts>
+      <Input>World Size - Medium</Input>
+      <Output>Światowy rozmiar - średni</Output>
+    </Texts>
+  </Element>
+  <Element ID="5532" Key="DES_TOOLTIP_LARGE" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_LARGE</Group>
+    </Groups>
+    <Texts>
+      <Input>Large</Input>
+      <Output>Duży</Output>
+    </Texts>
+  </Element>
+  <Element ID="5533" Key="DES_TOOLTIP_LARGE_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_LARGE</Group>
+    </Groups>
+    <Texts>
+      <Input>World Size - Large</Input>
+      <Output>Rozmiar światowy - duży</Output>
+    </Texts>
+  </Element>
+  <Element ID="5534" Key="QUEST_V_DARKV_THREE2_DES4" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_V</Group>
+      <Group>QUEST_V_DARKV</Group>
+      <Group>QUEST_V_DARKV_THREE</Group>
+      <Group>QUEST_V_DARKV_THREE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You failed to reason with Ivan and was forced to run for your lives.</Input>
+      <Output>Nie udało ci się dojść do porozumienia z Ivanem i musiałeś uciekać za swoje życie.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5535" Key="QUEST_LOG_HALOWEEN" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_LOG</Group>
+      <Group>QUEST_LOG_HALOWEEN</Group>
+    </Groups>
+    <Texts>
+      <Input>The Bear Village</Input>
+      <Output>Wioska niedźwiedzi</Output>
+    </Texts>
+  </Element>
+  <Element ID="5536" Key="QUEST_HALLOW" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+    </Groups>
+    <Texts>
+      <Input>You arrived at Bear Village</Input>
+      <Output>Przybyłeś do Bear Village</Output>
+    </Texts>
+  </Element>
+  <Element ID="5537" Key="QUEST_HALLOW_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+    </Groups>
+    <Texts>
+      <Input>You were invited to take part in festivities and visit sites around the village.</Input>
+      <Output>Zostałeś zaproszony do wzięcia udziału w uroczystościach i odwiedzenia miejsc w wiosce.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5538" Key="QUEST_HALLOW_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Some pets were killed in odd circumstances, perhaps youi can ask around to see if anyone knows more.</Input>
+      <Output>Niektóre zwierzęta zostały zabite w dziwnych okolicznościach, być może możesz zapytać, czy ktoś wie więcej.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5539" Key="QUEST_HALLOW_DES2" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Some folk went missing int he night, the Boss aske dyou to look for them if you can.</Input>
+      <Output>Niektórzy ludzie zaginęli w nocy, szef poprosił cię, żebyś ich szukał, jeśli możesz.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5540" Key="QUEST_HALLOW_DES3" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Bogslava admitted that she and Gurtek the beastmaster plotted to kill the pets and mess with people, so that the Haloween is ruined. Go tell the boss or confront the beastmaster.</Input>
+      <Output>Bogslava przyznała, że ​​ona i Gurtek, bestia, planowali zabić zwierzęta i zadzierać z ludźmi, aby Haloween został zniszczony. Idź powiedz szefowi lub zmierz się z bestią.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5541" Key="QUEST_HALLOW_DES4" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Bogslava claims Gurtek, the beastmaser, can't control his dogs and so he made these killings look odd to protect his pups. Go tell the boss or confront the beastmaster.</Input>
+      <Output>Bogslava twierdzi, że Gurtek, bestiarz, nie może kontrolować swoich psów, więc sprawił, że te zabójstwa wyglądały dziwnie, by chronić swoje szczenięta. Idź powiedz szefowi lub zmierz się z bestią.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5542" Key="QUEST_HALLOW_HUT" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_HUT</Group>
+    </Groups>
+    <Texts>
+      <Input>You visited Bogslava's hut.</Input>
+      <Output>Odwiedziłeś chatę Bogslavy.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5543" Key="QUEST_HALLOW_DES5" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You agreed to go sort out some trouble Bogslava is having with caravans driving by her hut all the time.</Input>
+      <Output>Zgodziłeś się rozwiązać jakieś kłopoty Bogslava z przyczepami kempingowymi, które cały czas jeżdżą obok jej chaty.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5544" Key="QUEST_HALLOW_CAR" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_CAR</Group>
+    </Groups>
+    <Texts>
+      <Input>You found the caravan bothering Bogslava.</Input>
+      <Output>Znalazłeś karawanę, która przeszkadza Bogsławie.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5545" Key="QUEST_HALLOW_CAR_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_CAR</Group>
+      <Group>QUEST_HALLOW_CAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>But you left them for now.</Input>
+      <Output>Ale na razie ich zostawiłeś.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5546" Key="QUEST_HALLOW_CAR_DES2" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_CAR</Group>
+      <Group>QUEST_HALLOW_CAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You dealt with the matter, you can report back to the wise woman now.</Input>
+      <Output>Zajmowałeś się tą sprawą, możesz teraz zgłosić się do mądrej kobiety.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5547" Key="QUEST_HALLOW_CAR_DES3" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_CAR</Group>
+      <Group>QUEST_HALLOW_CAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You failed to deal with them, Bogslava will have to endure. Best not mention it to her gain.</Input>
+      <Output>Nie poradziłeś sobie z nimi, Bogslava będzie musiała znieść. Najlepiej nie wspominaj jej o tym.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5548" Key="UI_WORD_SHAPE" Flag="0">
+    <Groups>
+      <Group>UI</Group>
+      <Group>UI_WORD</Group>
+      <Group>UI_WORD_SHAPE</Group>
+    </Groups>
+    <Texts>
+      <Input>World Shape</Input>
+      <Output>Kształt świata</Output>
+    </Texts>
+  </Element>
+  <Element ID="5549" Key="UI_WORD_SIZE" Flag="0">
+    <Groups>
+      <Group>UI</Group>
+      <Group>UI_WORD</Group>
+      <Group>UI_WORD_SIZE</Group>
+    </Groups>
+    <Texts>
+      <Input>World Size</Input>
+      <Output>Światowy rozmiar</Output>
+    </Texts>
+  </Element>
+  <Element ID="5550" Key="UI_ABUNDANT_CHARACTERS" Flag="0">
+    <Groups>
+      <Group>UI</Group>
+      <Group>UI_ABUNDANT</Group>
+      <Group>UI_ABUNDANT_CHARACTERS</Group>
+    </Groups>
+    <Texts>
+      <Input>8, +2 Free Characters</Input>
+      <Output>8, +2 wolne postacie</Output>
     </Texts>
   </Element>
 </Database>
