@@ -537,6 +537,11 @@ namespace GameScript
             return "x1-4";
         }
 
+        static public object SI_SummonX5(object info)
+        {
+            return "x1-5";
+        }
+
         static public string SI_Inspire(object info)
         {
             Multitype<NetCard, NetSkill, NetBattlefield> data = info as Multitype<NetCard, NetSkill, NetBattlefield>;

@@ -2172,8 +2172,8 @@ Your unliving friend got really friendly with someone, and the stork decided to 
           <LogicFilter name="human">
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-HUMAN" />
           </LogicFilter>
-          <LogicFilter name="child">
-            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          <LogicFilter name="nochild" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="0" tag="TAG-CHILD" />
           </LogicFilter>
           <LogicFilter name="allchildren">
             <scriptCallWithTag scriptName="FwT_UnSafe_ThisPlayerAllGroupsCharacters" parameter="1" tag="TAG-CHILD_HUM" />
@@ -2184,13 +2184,7 @@ Your unliving friend got really friendly with someone, and the stork decided to 
           <LogicFilter name="allppl">
             <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" />
           </LogicFilter>
-          <LogicProcessing name="nochild" list1="all" list2="child">
-            <scriptCallWithTag scriptName="FLP_AminusB" />
-          </LogicProcessing>
-          <LogicProcessing name="nohuman" makePublic="true" list1="nochild" list2="human">
-            <scriptCallWithTag scriptName="FLP_AminusB" />
-          </LogicProcessing>
-          <LogicResultAction list="nohuman">
+          <LogicResultAction list="nochild">
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="2" />
           </LogicResultAction>
           <LogicResultAction>
@@ -2206,10 +2200,10 @@ Your unliving friend got really friendly with someone, and the stork decided to 
     <nodes xsi:type="NodeAdventure" ID="2" positionX="418" positionY="-123" width="350" height="725">
       <logic>
         <FilterBlock>
-          <LogicProcessing name="1" list1="nohuman">
+          <LogicProcessing name="1" list1="nochild">
             <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
           </LogicProcessing>
-          <LogicProcessing name="second" list1="nohuman" list2="1">
+          <LogicProcessing name="second" list1="nochild" list2="1">
             <scriptCallWithTag scriptName="FLP_AminusB" parameter="1" />
           </LogicProcessing>
           <LogicProcessing name="2" list1="second">

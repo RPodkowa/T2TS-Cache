@@ -1,0 +1,1322 @@
+<HALLOWEEN>
+
+	<TAG-PET_PUMPKIN Visible="TRUE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="ItemType"/>
+		<Parent Value="TAG-PET"/>
+	</TAG-PET_PUMPKIN>
+	
+	<SET-HUM_VILLAGE_HALLOWEEN_ Rarity="100">
+		<DescriptionInfo Name="DES_HUM_VILLAGE_HALLOWEEN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<TerrainModel Value="HumanVillage1_halloween"/>
+		<EventsCollection Value="EVENTC-ABANDONED_HOUSE"/>
+	</SET-HUM_VILLAGE_HALLOWEEN_>
+
+	<SUBRACE-PET_PUMPKIN_VWEAK>
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-SUMMON_PUMPKIN"/>
+		<GraphicMale Value="Pumpkin"/>
+		<GraphicFemale Value="Pumpkin"/>
+	</SUBRACE-PET_PUMPKIN_VWEAK>
+	<SUBRACE-PET_PUMPKIN_WEAK>
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-SUMMON_PUMPKIN"/>
+		<GraphicMale Value="Pumpkin"/>
+		<GraphicFemale Value="Pumpkin"/>
+	</SUBRACE-PET_PUMPKIN_WEAK>
+	<SUBRACE-PET_PUMPKIN>
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="8" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="9" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="9" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-SUMMON_PUMPKIN"/>
+		<GraphicMale Value="Pumpkin"/>
+		<GraphicFemale Value="Pumpkin"/>
+	</SUBRACE-PET_PUMPKIN>
+	<SUBRACE-PET_PUMPKIN_STRONG>
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="9" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="11" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="11" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-SUMMON_PUMPKIN"/>
+		<GraphicMale Value="Pumpkin"/>
+		<GraphicFemale Value="Pumpkin"/>
+	</SUBRACE-PET_PUMPKIN_STRONG>
+	<SUBRACE-PET_PUMPKIN_VSTRONG>
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="10" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-SUMMON_PUMPKIN"/>
+		<GraphicMale Value="Pumpkin"/>
+		<GraphicFemale Value="Pumpkin"/>
+	</SUBRACE-PET_PUMPKIN_VSTRONG>
+	
+	<!-- challenge level 0,5p 3m 2s Rituals + Luck?-->
+	<SUBRACE-PLAYER_POSSESSED_PUMPKIN>
+		<DescriptionInfo Name="DES_SUBRACE_POSSESSED_PUMPKIN" Description="DES_SUBRACE_POSSESSED_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="8" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="8" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="8" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_YOUNG_PUMPKIN"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_YOUNG_PUMPKIN"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_YOUNG_PUMPKIN"/>
+		<GraphicMale Value="PumpkinPossessed1"/>
+		<GraphicMale Value="PumpkinPossessed2"/>
+		<GraphicFemale Value="PumpkinPossessed1"/>
+		<GraphicFemale Value="PumpkinPossessed2"/>
+		<!-- DefaultCargo -->
+		<!-- BodyCargo -->
+		<BodyCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_HERBS"/>
+		<BodyCargo Chance="30" ItemCargo="ITEM_CARGO-FEW_LOW_RANDOM_WOOD"/>
+		<BodyCargo Chance="1" ItemCargo="ITEM_CARGO-ONE_ANCIENT_WOOD"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+	</SUBRACE-PLAYER_POSSESSED_PUMPKIN>	
+	<!-- challenge level 0,5p 3m 2s Rituals + Luck?-->
+	<SUBRACE-POSSESSED_PUMPKIN>
+		<DescriptionInfo Name="DES_SUBRACE_POSSESSED_PUMPKIN" Description="DES_SUBRACE_POSSESSED_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_YOUNG_PUMPKIN"/>
+		<ClassSkills Value="SKILL_PACK-YOUNG_PUMPKIN"/>
+		<AdvancementSkills Value="SKILL_PACK-YOUNG_PUMPKIN"/>
+		<GraphicMale Value="PumpkinPossessed1"/>
+		<GraphicMale Value="PumpkinPossessed2"/>
+		<GraphicFemale Value="PumpkinPossessed1"/>
+		<GraphicFemale Value="PumpkinPossessed2"/>
+		<!-- DefaultCargo -->
+		<!-- BodyCargo -->
+		<BodyCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_HERBS"/>
+		<BodyCargo Chance="30" ItemCargo="ITEM_CARGO-FEW_LOW_RANDOM_WOOD"/>
+		<BodyCargo Chance="1" ItemCargo="ITEM_CARGO-ONE_ANCIENT_WOOD"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+	</SUBRACE-POSSESSED_PUMPKIN>
+	<!-- challenge level 4p 4m 4s Rituals + Luck?-->
+	<SUBRACE-POSSESSED_ELDER_PUMPKIN>
+		<DescriptionInfo Name="DES_SUBRACE_POSSESSED_ELDER_PUMPKIN" Description="DES_SUBRACE_POSSESSED_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-FOREST_DEMON"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_ELDER_PUMPKIN"/>
+		<ClassSkills Value="SKILL_PACK-ELDER_PUMPKIN"/>
+		<AdvancementSkills Value="SKILL_PACK-ELDER_PUMPKIN"/>
+		<GraphicMale Value="PumpkinPossessed1"/>
+		<GraphicMale Value="PumpkinPossessed2"/>
+		<GraphicFemale Value="PumpkinPossessed1"/>
+		<GraphicFemale Value="PumpkinPossessed2"/>
+		<!-- DefaultCargo -->
+		<!-- BodyCargo -->
+		<BodyCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_HERBS"/>
+		<BodyCargo Chance="30" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_WOOD"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-FEW_ANCIENT_WOOD"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+	</SUBRACE-POSSESSED_ELDER_PUMPKIN>
+	<!-- challenge level 4p 4m 4s Rituals + Luck?-->
+	<SUBRACE-POSSESSED_ANCIENT_PUMPKIN>
+		<DescriptionInfo Name="DES_SUBRACE_POSSESSED_ANCIENT_PUMPKIN" Description="DES_SUBRACE_POSSESSED_PUMPKIN_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-FOREST_DEMON"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="16" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="14" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="50" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="15" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="50" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_ELDER_PUMPKIN"/>
+		<ClassSkills Value="SKILL_PACK-ELDER_PUMPKIN"/>
+		<AdvancementSkills Value="SKILL_PACK-ELDER_PUMPKIN"/>
+		<GraphicMale Value="PumpkinPossessed1"/>
+		<GraphicMale Value="PumpkinPossessed2"/>
+		<GraphicFemale Value="PumpkinPossessed1"/>
+		<GraphicFemale Value="PumpkinPossessed2"/>
+		<!-- DefaultCargo -->
+		<!-- BodyCargo -->
+		<BodyCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_HERBS"/>
+		<BodyCargo Chance="30" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_WOOD"/>
+		<BodyCargo Chance="30" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_WOOD"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-FEW_ANCIENT_WOOD"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-FEW_ANCIENT_WOOD"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_VEGGIES"/>
+	</SUBRACE-POSSESSED_ANCIENT_PUMPKIN>
+		
+	<!-- challenge level 6p 6m 6s -->
+	<SUBRACE-WOOD_BEAR>
+		<DescriptionInfo Name="DES_SUBRACE_WOOD_BEAR" Description="DES_SUBRACE_WOOD_BEAR_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-BEAST"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="20" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="33" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-DESTINY"/>
+		<MainSubraceAttributes Amount="25" Tag="TAG-MYSTICISM"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-SHIELDING_MENTAL"/>
+		<SecondSubraceAttributes Amount="100" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="130" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="110" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="250" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="3">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="3">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="3">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="5" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="2" Tag="TAG-WITS"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="60">
+			<CountedTag Amount="2" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="2" Tag="TAG-PERCEPTION"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_WOOD_BEAR"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_WOOD_BEAR"/>
+		<GraphicMale Value="BearWood"/>
+		<GraphicFemale Value="BearWood"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ADV_ONE_ARMOUR"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-STRONG_ONE_AXE_1H"/>
+		<!-- BodyCargo -->
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-PACK_HIGH_RANDOM_WOOD"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-PACK_HIGH_RANDOM_WOOD"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-PACK_HIGH_RANDOM_WOOD"/>
+	</SUBRACE-WOOD_BEAR>
+	<!-- challenge level 5p 5m 5s Rituals + Luck?-->
+	<SUBRACE-HELL_HOUNDS>
+		<DescriptionInfo Name="DES_SUBRACE_DEMON_HELL_HOUNDS" Description="DES_SUBRACE_DEMON_HELL_HOUNDS_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-COMMON_DEMON"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="22" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="12" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="60" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="80" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="80" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="6" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-WITS"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-MYSTICISM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_DEMON"/>
+		<ClassSkills Value="SKILL_PACK-DEMON_BIES"/>
+		<AdvancementSkills Value="SKILL_PACK-DEMON_BIES"/>
+		<GraphicMale Value="Hellhound"/>
+		<GraphicFemale Value="Hellhound"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-STRONG_ONE_JEWELLERY"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_MEAT"/>
+		<!-- BodyCargo -->
+		<BodyCargo Chance="70" ItemCargo="ITEM_CARGO-FEW_BLOOD_BONE"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_BONE"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_BONE"/>
+		<BodyCargo Chance="70" ItemCargo="ITEM_CARGO-FEW_SCALED_LEATHER"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_LEATHER"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_LEATHER"/>
+	</SUBRACE-HELL_HOUNDS>
+	<!-- challenge level 5p 5m 5s Rituals + Luck?-->
+	<SUBRACE-HELL_HOUNDS_ZEB>
+		<DescriptionInfo Name="DES_SUBRACE_DEMON_TWO_HELL_HOUNDS" Description="DES_SUBRACE_DEMON_TWO_HELL_HOUNDS_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-COMMON_DEMON"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="22" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="12" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="60" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="80" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="80" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="6" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-WITS"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-MYSTICISM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_DEMON"/>
+		<ClassSkills Value="SKILL_PACK-DEMON_BIES"/>
+		<AdvancementSkills Value="SKILL_PACK-DEMON_BIES"/>
+		<GraphicMale Value="Hellhound"/>
+		<GraphicFemale Value="Hellhound"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-STRONG_ONE_JEWELLERY"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_MEAT"/>
+		<!-- BodyCargo -->
+		<BodyCargo Chance="70" ItemCargo="ITEM_CARGO-FEW_BLOOD_BONE"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_BONE"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_BONE"/>
+		<BodyCargo Chance="70" ItemCargo="ITEM_CARGO-FEW_SCALED_LEATHER"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_LEATHER"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_LEATHER"/>
+	</SUBRACE-HELL_HOUNDS_ZEB>
+	<!-- challenge level 5p 5m 5s Rituals + Luck?-->
+	<SUBRACE-HELL_HOUNDS_BAEL>
+		<DescriptionInfo Name="DES_SUBRACE_DEMON_TWO_HELL_HOUNDS" Description="DES_SUBRACE_DEMON_TWO_HELL_HOUNDS_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-COMMON_DEMON"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="22" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="12" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="60" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="80" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="80" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="6" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="170" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-WITS"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="45">
+			<CountedTag Amount="3" Tag="TAG-MYSTICISM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_DEMON"/>
+		<ClassSkills Value="SKILL_PACK-DEMON_BIES"/>
+		<AdvancementSkills Value="SKILL_PACK-DEMON_BIES"/>
+		<GraphicMale Value="Hellhound"/>
+		<GraphicFemale Value="Hellhound"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-STRONG_ONE_JEWELLERY"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ONE_TO3_MEAT"/>
+		<!-- BodyCargo -->
+		<BodyCargo Chance="70" ItemCargo="ITEM_CARGO-FEW_BLOOD_BONE"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_BONE"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_BONE"/>
+		<BodyCargo Chance="70" ItemCargo="ITEM_CARGO-FEW_SCALED_LEATHER"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_LEATHER"/>
+		<BodyCargo Chance="25" ItemCargo="ITEM_CARGO-FEW_HIGH_RANDOM_LEATHER"/>
+	</SUBRACE-HELL_HOUNDS_BAEL>
+	<!-- challenge level Xp 5-6m Xs Rituals + Research -->
+	<SUBRACE-TREASURE_DEMON>
+		<DescriptionInfo Name="DES_SUBRACE_DEMON_TREASURE" Description="DES_SUBRACE_DEMON_TREASURE_DES" IconName="ClassDemon"/>
+		<Race Value="RACE-DEMON"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-COMMON_DEMON"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="30" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="22" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="6" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="50" Tag="TAG-SHIELDING_MENTAL"/>
+		<SecondSubraceAttributes Amount="18" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="100" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="3">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="10">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="3">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WITS"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="60">
+			<CountedTag Amount="2" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="1" Tag="TAG-DESTINY"/>
+		</CommonSubraceAttributes>
+		<BlockedItemSlot Value="TAG-BLOCKED_COMPANION"/>
+		<BlockedItemSlot Value="TAG-BLOCKED_RIGHT_HAND"/>
+		<BlockedItemSlot Value="TAG-BLOCKED_ARMOUR"/>
+		<NaturalSkills Value="SKILL_PACK-RACE_TREASURE_DEMON"/>
+		<ClassSkills Value="SKILL_PACK-TREASURE_DEMON"/> 
+		<AdvancementSkills Value="SKILL_PACK-TREASURE_DEMON"/>
+		<GraphicMale Value="Treasurer"/>
+		<GraphicFemale Value="Treasurer"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_CLUB_1H"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_FEW_SUPPLIES"/>
+		<!-- BodyCargo -->
+		<BodyCargo Chance="60" ItemCargo="ITEM_CARGO-FEW_HIGH_RESOURCE"/>
+		<BodyCargo Chance="60" ItemCargo="ITEM_CARGO-FEW_HIGH_RESOURCE"/>
+		<BodyCargo Chance="60" ItemCargo="ITEM_CARGO-FEW_HIGH_RESOURCE"/>
+		<BodyCargo Chance="60" ItemCargo="ITEM_CARGO-FEW_HIGH_RESOURCE"/>
+	</SUBRACE-TREASURE_DEMON>
+	<!-- challenge level 12p 12m 12s ??? Podstawa skopiowania zmeya-->
+	<SUBRACE-FOREFATHER_SPIRITS>
+		<DescriptionInfo Name="DES_SUBRACE_FOREFATHER_SPIRITS" Description="DES_SUBRACE_FOREFATHER_SPIRITS_DES" IconName="ClassMythical"/>
+		<Race Value="RACE-MYTHICAL"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-DEMON"/>
+		<MainSubraceAttributes Amount="15" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="45" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="53" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="62" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="50" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="53" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="75" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="125" Tag="TAG-SHIELDING_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="125" Tag="TAG-SHIELDING_MENTAL"/>
+		<SecondSubraceAttributes Amount="125" Tag="TAG-SHIELDING_SPIRIT"/>
+		<SecondSubraceAttributes Amount="75" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="75" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="75" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="600" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_OTHER"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="15">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<BlockedItemSlot Value="TAG-BLOCKED_LEFT_HAND"/>
+		<BlockedItemSlot Value="TAG-BLOCKED_RIGHT_HAND"/>
+		<BlockedItemSlot Value="TAG-BLOCKED_ARMOUR"/>
+		<NaturalSkills Value="SKILL_PACK-NATURAL_FOREFATHER_SPIRITS"/>
+		<ClassSkills Value="SKILL_PACK-FOREFATHER_SPIRITS"/>
+		<AdvancementSkills Value="SKILL_PACK-FOREFATHER_SPIRITS"/>
+		<GraphicMale Value="ForefatherSpirits"/>
+		<GraphicFemale Value="ForefatherSpirits"/>
+		<!-- DefaultCargo -->
+		<!-- BodyCargo -->
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-ANCIENT_HORDE_MATERIALS"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_HORDE_MATERIALS"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_FEW_ARMOUR"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_FEW_SHIELD"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_FEW_WEAPON"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-PACK_RANDOM_UNIQUE"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-PACK_RANDOM_UNIQUE"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-PACK_RANDOM_UNIQUE"/>
+		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-PACK_RANDOM_UNIQUE"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-FEW_RANDOM_COMPOSIT"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-FEW_RANDOM_COMPOSIT"/>
+		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-FEW_RANDOM_COMPOSIT"/>
+	</SUBRACE-FOREFATHER_SPIRITS>
+	<!-- challenge level 1p 3m 2s Rituals+Research-->
+	<SUBRACE-HUM_BOGSLAVA>
+		<DescriptionInfo Name="DES_SUBRACE_HUM_ZERCA" Description="DES_SUBRACE_HUM_ZERCA_DES" IconName="ClassMage"/>
+		<Race Value="RACE-HUMAN"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-ZERCA"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="10" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="8" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="15" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="20" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="28" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+        <SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="200" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="1" Tag="TAG-GENDER_FEMALE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="15">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="4" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="60">
+			<CountedTag Amount="6" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="8" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="6" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="70">
+			<CountedTag Amount="3" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="70">
+			<CountedTag Amount="2" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="2" Tag="TAG-DESTINY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="2" Tag="TAG-MYSTICISM"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_HUM_ZERCA"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_YOUNG_ZERCA"/>
+		<AdvancementSkills Value="SKILL_PACK-ZERCA"/>
+		<GraphicMale Value="HumanCraftsmanF06"/>
+		<GraphicFemale Value="HumanCraftsmanF06"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_HERBS"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_ARTIFACT_2H"/>
+		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-BASIC_LOTS_SUPPLIES"/>
+		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-ADV_FEW_MATERIALS"/>
+		<!-- BodyCargo -->
+	</SUBRACE-HUM_BOGSLAVA>
+	<!-- challenge level 1p 2m 1s -->
+	<SUBRACE-HUM_CRAFTSMAN_MILOSZ>
+		<DescriptionInfo Name="DES_SUBRACE_HUM_CRAFTSMAN" Description="DES_SUBRACE_HUM_CRAFTSMAN_DES" IconName="ClassCraftsman"/>
+		<Race Value="RACE-HUMAN"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-CRAFTSMAN"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="13" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="13" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="19" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="13" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+        <SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="200" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="15">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_ELVES_MILOSZ"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_CRAFTSMAN"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_CRAFTSMAN"/>
+		<GraphicMale Value="HumanGuslaM02"/>
+		<GraphicFemale Value="HumanGuslaM02"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_FEW_FOOD"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_ARTIFACT_1H"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_MEDIUM_ARMOUR"/>
+		<DefaultCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_MATERIALS"/>
+		<!-- BodyCargo -->
+	</SUBRACE-HUM_CRAFTSMAN_MILOSZ>
+	
+	<SUBSKILL-SUMMON_PET_PUMPKIN Delay="0.0" Animation="Spell2" Sound="SubskillSummonPetPumpkin">
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="SubskillSummonPetPumpkin"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_SUMMON_ONCE" TargetIcon="TAG-TARGET_EMPTY_ALLY_SLOT" AttackInfo="{SCRIPT:SI_SummonX1}"/>
+		<Trigger Priority="20" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="DoCastInstant"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_OwnFreePositionsSummonOnBF"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen"/>
+		</Targets>
+		<Activation ScriptName="Act_Summon"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeSpirit"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VWEAK"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.4"/> <!--hp 0 dmg 0-->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.4"/> <!--hp 0 dmg 0-->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VWEAK"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.9"/> <!--hp 7 dmg 3+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.9"/> <!--hp 7 dmg 3+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_WEAK"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.9"/> <!--hp 8 dmg 3+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.9"/> <!--hp 8 dmg 3+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.0"/> <!--hp 9 dmg 3+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.0"/> <!--hp 9 dmg 3+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_STRONG"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.0"/> <!--hp 9 dmg 4+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.0"/> <!--hp 9 dmg 4+ -->
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VSTRONG"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SUMMON_PET_PUMPKIN>
+	
+	
+	
+	
+	<GROUP-POSSESSED_PUMPKINS_2P_1M_2S>
+		<ChallengeLvl Physical="2" Mental="1" Spirit="2"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-POSSESSED_PUMPKIN"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-POSSESSED_PUMPKINS_2P_1M_2S>
+	<GROUP-POSSESSED_PUMPKINS_4P_2M_4S>
+		<ChallengeLvl Physical="4" Mental="2" Spirit="4"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-POSSESSED_PUMPKIN"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-POSSESSED_ELDER_PUMPKIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-POSSESSED_PUMPKINS_4P_2M_4S>
+	<GROUP-POSSESSED_PUMPKINS_6P_4M_6S>
+		<ChallengeLvl Physical="6" Mental="4" Spirit="6"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-POSSESSED_PUMPKIN"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-POSSESSED_ELDER_PUMPKIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-POSSESSED_ANCIENT_PUMPKIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-POSSESSED_PUMPKINS_6P_4M_6S>
+	
+	
+	<GROUP-Q_WOOD_BEAR_6P_6M_6S>
+		<ChallengeLvl Physical="6" Mental="6" Spirit="6"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WOOD_BEAR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_WOOD_BEAR_6P_6M_6S>
+	<GROUP-Q_TWO_HELL_HOUNDS_5P_5M_5S>
+		<ChallengeLvl Physical="5" Mental="5" Spirit="5"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HELL_HOUNDS_ZEB"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HELL_HOUNDS_BAEL"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_TWO_HELL_HOUNDS_5P_5M_5S>
+	<GROUP-Q_TREASURE_DEMON_6P_6M_6S>
+		<ChallengeLvl Physical="6" Mental="6" Spirit="6"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TREASURE_DEMON"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_TREASURE_DEMON_6P_6M_6S>
+	<GROUP-Q_FOREFATHER_SPIRITS_12P_12M_12S>
+		<ChallengeLvl Physical="12" Mental="12" Spirit="12"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-FOREFATHER_SPIRITS"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_FOREFATHER_SPIRITS_12P_12M_12S>
+	<GROUP-Q_BEAST_MASTER_DOGS_5P_5M_5S>
+		<ChallengeLvl Physical="5" Mental="5" Spirit="5"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HELL_HOUNDS"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-GOB_BEAST_MASTER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_BEAST_MASTER_DOGS_5P_5M_5S>
+	<GROUP-Q_BOGSLAVA_3P_3M_3S>
+		<ChallengeLvl Physical="3" Mental="3" Spirit="3"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HUM_HEALER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HUM_BOGSLAVA"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HUM_CRAFTSMAN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_BOGSLAVA_3P_3M_3S>
+	
+
+	
+	
+	<SKILL-FOREFATHER_ANGER Rarity="30">
+		<DescriptionInfo Name="DES_SKILL_FOREFATHER_ANGER" Description="DES_SKILL_FOREFATHER_ANGER_DES" IconName="SkillForefatherAnger"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-MIGHTY_ROAR"/>
+		<SkillSubskill Value="SUBSKILL-ANCESTOR_VOICE"/>
+		<SkillSubskill Value="SUBSKILL-DARK_CLAW_HIT"/>
+		<SkillSubskill Value="SUBSKILL-SUMMON_UNLI_ANCESTOR_WRAITHS_HORD"/>
+		<SkillGroupFilter Value="ClassForefatherAnger"/>
+	</SKILL-FOREFATHER_ANGER>
+	<SKILL-ANIMATED_WOOD Rarity="30">
+		<DescriptionInfo Name="DES_SKILL_ANIMATED_WOOD" Description="DES_SKILL_ANIMATED_WOOD_DES" IconName="SkillAnimatedWood"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ESSENCE_TRUE_DMG_BITE"/>
+		<SkillGroupFilter Value="ClassWoodBear"/>
+	</SKILL-ANIMATED_WOOD>
+	
+	<SKILL-PUMPKIN_HELLFIRE Rarity="20">
+		<DescriptionInfo Name="DES_SKILL_PUMPKIN_HELLFIRE" Description="DES_SKILL_PUMPKIN_HELLFIRE_DES" IconName="SkillPumpkinHellfire"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_P"/>
+		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_S"/>
+		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_M"/>
+		<SkillSubskill Value="SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST"/>
+		<SkillGroupFilter Value="PetPumpkin"/>
+	</SKILL-PUMPKIN_HELLFIRE>
+	
+	
+	
+	<SKILL_PACK-PET_PUMPKIN>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PET_PUMPKIN"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PET_PUMPKIN>
+	
+	<SKILL-PET_PUMPKIN Rarity="1">
+		<DescriptionInfo Name="DES_SKILL_PET_PUMPKIN" Description="DES_SKILL_PET_PUMPKIN_DES" IconName="SkillPumpkin"/>
+		<BaseEssence Amount="6" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-SUMMON_PET_PUMPKIN"/>
+		<SkillGroupFilter Value="Pet"/>
+		<SkillGroupFilter Value="PetPumpkin"/>
+	</SKILL-PET_PUMPKIN>
+	
+	<SKILL_PACK-SUMMON_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
+        <SkillGroupFilters>
+            <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+        </SkillGroupFilters>
+    </SKILL_PACK-SUMMON_PUMPKIN>
+	<SKILL_PACK-RACE_YOUNG_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
+        <SkillGroupFilters>
+            <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+        </SkillGroupFilters>
+    </SKILL_PACK-RACE_YOUNG_PUMPKIN>
+	<SKILL_PACK-RACE_ELDER_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <SkillGroupFilters>
+            <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+        </SkillGroupFilters>
+    </SKILL_PACK-RACE_ELDER_PUMPKIN>
+	
+	<SKILL_PACK-CLASS_YOUNG_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
+    </SKILL_PACK-CLASS_YOUNG_PUMPKIN>
+	<SKILL_PACK-ADV_YOUNG_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
+        <GuarantedSkill Value="SKILL-LUCK"/>
+        <GuarantedSkill Value="SKILL-GATHERER"/>
+        <GuarantedSkill Value="SKILL-EVADE_ORDERS"/>
+    </SKILL_PACK-ADV_YOUNG_PUMPKIN>
+	<SKILL_PACK-YOUNG_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
+    </SKILL_PACK-YOUNG_PUMPKIN>
+	<SKILL_PACK-ELDER_PUMPKIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
+    </SKILL_PACK-ELDER_PUMPKIN>
+	<SKILL_PACK-CLASS_WOOD_BEAR>
+        <RarityRange MinimumCount="0" MaximumCount="70"/>
+        <GuarantedSkill Value="SKILL-ANIMATED_WOOD"/>
+    </SKILL_PACK-CLASS_WOOD_BEAR>
+	<SKILL_PACK-ADV_WOOD_BEAR>
+        <RarityRange MinimumCount="0" MaximumCount="70"/>
+        <GuarantedSkill Value="SKILL-ANIMATED_WOOD"/>
+        <GuarantedSkill Value="SKILL-HYPNOSIS"/>
+        <GuarantedSkill Value="SKILL-LINE_CHARGE"/>
+        <GuarantedSkill Value="SKILL-TOUGHNESS"/>
+        <GuarantedSkill Value="SKILL-CRAFTSMAN"/>
+    </SKILL_PACK-ADV_WOOD_BEAR>
+	<SKILL_PACK-RACE_TREASURE_DEMON>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_DEMON"/>
+        <GuarantedSkill Value="SKILL-ICE_SPIKE"/>
+        <GuarantedSkill Value="SKILL-CORRUPTION"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_TREASURE_DEMON>
+	<SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-HYPNOSIS"/>
+        <GuarantedSkill Value="SKILL-LINE_CHARGE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR>
+	<SKILL_PACK-TREASURE_DEMON>
+        <RarityRange MinimumCount="0" MaximumCount="70"/>
+        <GuarantedSkill Value="SKILL-ICE_SPIKE"/>
+        <GuarantedSkill Value="SKILL-CORRUPTION"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TREASURE_DEMON>
+	<SKILL_PACK-NATURAL_FOREFATHER_SPIRITS>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-FOREFATHER_ANGER"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_FOREFATHER_SPIRITS>
+	<SKILL_PACK-FOREFATHER_SPIRITS>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-FOREFATHER_ANGER"/>
+    </SKILL_PACK-FOREFATHER_SPIRITS>
+	
+	
+	
+	<ITEM_CARGO-WEAK_ONE_PET_PUMPKIN TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="1" MaximumCount="1"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PUMPKIN"/>
+	</ITEM_CARGO-WEAK_ONE_PET_PUMPKIN>
+	<ITEM_CARGO-ADV_ONE_PET_PUMPKIN TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="11" MaximumCount="51"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="2" MaximumCount="2"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PUMPKIN"/>
+	</ITEM_CARGO-ADV_ONE_PET_PUMPKIN>
+	<ITEM_CARGO-STRONG_ONE_PET_PUMPKIN TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="51" MaximumCount="61"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="3" MaximumCount="3"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PUMPKIN"/>
+	</ITEM_CARGO-STRONG_ONE_PET_PUMPKIN>
+	<ITEM_CARGO-RARE_ONE_PET_PUMPKIN TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="70" MaximumCount="81"/>
+		<SkillRarityRange MinimumCount="50" MaximumCount="100"/>
+		<LevelRange MinimumCount="4" MaximumCount="4"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PUMPKIN"/>
+	</ITEM_CARGO-RARE_ONE_PET_PUMPKIN>
+	<ITEM_CARGO-ANCIENT_ONE_PET_PUMPKIN TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="81" MaximumCount="96"/>
+		<SkillRarityRange MinimumCount="50" MaximumCount="100"/>
+		<LevelRange MinimumCount="5" MaximumCount="5"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PUMPKIN"/>
+	</ITEM_CARGO-ANCIENT_ONE_PET_PUMPKIN>
+	
+	
+	<ITEM_REC-PUMPKIN ItemsAmount="0" WeightMultiplier="0.0">
+		<InventorySlot Value="Companion"/>
+		<RecipeBase ResearchCost="-2">
+			<DescriptionInfo Name="DES_PET_PUMPKIN" Description="DES_PET_PUMPKIN_DES" IconName="PetPumpkin"/>
+			<CountedTag Tag="TAG-PET_PUMPKIN" Amount="1.0"/>
+			<CountedTag Tag="TAG-UNIQUE" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="12">
+					<Resource Value="RES-AMBER"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-VEGGIES"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+		<Skills Value="SKILL_PACK-PET_PUMPKIN"/>
+	</ITEM_REC-PUMPKIN>
+	
+	
+	
+	<NAME_COLLECTION-HUM_BOGSLAVA>
+		<Race Value="RACE-HUMAN"/>
+		<Subrace Value="SUBRACE-HUM_BOGSLAVA"/>
+		<CharacterMale Value="Bogslava"/>
+	</NAME_COLLECTION-HUM_BOGSLAVA>
+	<NAME_COLLECTION-HUM_CRAFTSMAN_MILOSZ>
+		<Race Value="RACE-HUMAN"/>
+		<Subrace Value="SUBRACE-HUM_CRAFTSMAN_MILOSZ"/>
+		<CharacterMale Value="Milosz"/>
+	</NAME_COLLECTION-HUM_CRAFTSMAN_MILOSZ>
+	<NAME_COLLECTION-HELL_HOUNDS_ZEB>
+		<Race Value="RACE-DEMON"/>
+		<Subrace Value="SUBRACE-HELL_HOUNDS_ZEB"/>
+		<CharacterMale Value="Zeb"/>
+		<CharacterFemale Value="Zeb"/>
+	</NAME_COLLECTION-HELL_HOUNDS_ZEB>	
+	<NAME_COLLECTION-HELL_HOUNDS_BAEL>
+		<Race Value="RACE-DEMON"/>
+		<Subrace Value="SUBRACE-HELL_HOUNDS_BAEL"/>
+		<CharacterMale Value="Beal"/>
+		<CharacterFemale Value="Beal"/>
+	</NAME_COLLECTION-HELL_HOUNDS_BAEL>	
+	<NAME_COLLECTION-TREASURE_DEMON>
+		<Race Value="RACE-DEMON"/>
+		<Subrace Value="SUBRACE-TREASURE_DEMON"/>
+		<CharacterMale Value="Tomislav"/>
+		<CharacterFemale Value="Tomislav"/>
+	</NAME_COLLECTION-TREASURE_DEMON>
+	<NAME_COLLECTION-FOREFATHER_SPIRITS>
+		<Race Value="RACE-MYTHICAL"/>
+		<Subrace Value="SUBRACE-FOREFATHER_SPIRITS"/>
+		<CharacterMale Value="Forefather Spirits"/>
+		<CharacterFemale Value="Forefather Spirits"/>
+	</NAME_COLLECTION-FOREFATHER_SPIRITS>
+	<NAME_COLLECTION-POSSESSED_PUMPKIN>
+		<Race Value="RACE-DEMON"/>
+		<Subrace Value="SUBRACE-POSSESSED_PUMPKIN"/>
+		<CharacterMale Value="Possessed Pumpkin"/>
+	</NAME_COLLECTION-POSSESSED_PUMPKIN>
+	<NAME_COLLECTION-POSSESSED_ELDER_PUMPKIN>
+		<Race Value="RACE-DEMON"/>
+		<Subrace Value="SUBRACE-POSSESSED_ELDER_PUMPKIN"/>
+		<CharacterMale Value="Possessed Elder Pumpkin"/>
+	</NAME_COLLECTION-POSSESSED_ELDER_PUMPKIN>
+	<NAME_COLLECTION-POSSESSED_ANCIENT_PUMPKIN>
+		<Race Value="RACE-DEMON"/>
+		<Subrace Value="SUBRACE-POSSESSED_ANCIENT_PUMPKIN"/>
+		<CharacterMale Value="Possessed Ancient Pumpkin"/>
+	</NAME_COLLECTION-POSSESSED_ANCIENT_PUMPKIN>
+	<NAME_COLLECTION-WOOD_BEAR>
+		<Race Value="RACE-BEAST"/>
+		<Subrace Value="SUBRACE-WOOD_BEAR"/>
+		<CharacterMale Value="Crazy Bear"/>
+		<CharacterFemale Value="Crazy Bear"/>
+	</NAME_COLLECTION-WOOD_BEAR>
+	
+	
+	
+	
+	
+</HALLOWEEN>

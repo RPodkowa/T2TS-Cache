@@ -267,7 +267,7 @@ The boy whimpers.</nodes>
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="5" tag="TAG-MAX_HEALTH_SPIRIT" />
           </LogicModifiers>
           <LogicModifiers list="gusla">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_VOLH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_VOLH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -2597,7 +2597,7 @@ What will likely happen now is that the afflicted person will change their gende
             <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
           </LogicProcessing>
           <LogicModifiers list="1">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" parameter="1" tag="SUBRACE-HUM_CRAFTSMAN_MALE" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" parameter="" tag="SUBRACE-HUM_CRAFTSMAN_MALE" />
           </LogicModifiers>
           <LogicModifiers list="1">
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="3" tag="TAG-STRENGTH" />
@@ -6715,7 +6715,7 @@ You dig the treasure out and split it evenly.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="Chosen advancement" uniqueID="37" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="40" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-47" positionY="153" width="347" height="783" image="Event122">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-47" positionY="153" width="347" height="661" image="Event122">
       <logic>
         <FilterBlock>
           <LogicFilter name="ch">
@@ -6735,7 +6735,7 @@ You dig the treasure out and split it evenly.</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" fromX="277" fromY="-572" />
+      <outputs ownerID="1" targetID="2" fromX="277" fromY="-450" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="417" positionY="-183" width="350" height="2730">
       <logic>
@@ -6848,7 +6848,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="mystic">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-ELF_DRUID" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-ELF_DRUID" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6862,7 +6862,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chosenelf">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-ELF_GUARDIAN" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-ELF_GUARDIAN" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6882,7 +6882,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="malech">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-DWARF_WARMASTER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-DWARF_WARMASTER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6899,7 +6899,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="malech">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-DWARF_YOUNG_SMITH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-DWARF_YOUNG_SMITH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6916,7 +6916,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="fmale">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-DWARF_YOUNG_F_SMITH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-DWARF_YOUNG_F_SMITH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6939,7 +6939,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="mystic">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-ORC_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-ORC_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6956,7 +6956,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="malech">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-ORC_SLUGGER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-ORC_SLUGGER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6970,7 +6970,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chgob">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-GOB_BOAR_RIDER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-GOB_BOAR_RIDER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -6990,7 +6990,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="myst">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-GOB_SHAMAN" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-GOB_SHAMAN" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7010,7 +7010,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="zerch">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_ZERCA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_ZERCA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7024,7 +7024,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chhuman">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_HEALER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_HEALER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7044,7 +7044,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="zerch">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7076,7 +7076,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="malemag">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" parameter="" tag="SUBRACE-HUM_GUSLA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" parameter="" tag="SUBRACE-HUM_GUSLA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7096,7 +7096,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="zerch">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" parameter="" tag="SUBRACE-HUM_VOLH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" parameter="" tag="SUBRACE-HUM_VOLH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7116,7 +7116,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="zerch">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_BANDIT_LEADER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_BANDIT_LEADER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7148,7 +7148,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="femalemag">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" parameter="" tag="SUBRACE-HUM_YOUNG_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" parameter="" tag="SUBRACE-HUM_YOUNG_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7168,7 +7168,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="zerch">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_YOUNG_ZERCA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_YOUNG_ZERCA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7191,7 +7191,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="malemag">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" parameter="" tag="SUBRACE-HUM_GUSLA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" parameter="" tag="SUBRACE-HUM_GUSLA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7212,7 +7212,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chsn">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-SNAKE_ROYAL" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-SNAKE_ROYAL" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7232,7 +7232,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chanimal">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-SPIDER_QUEEN" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-SPIDER_QUEEN" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7252,7 +7252,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chanimal">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-CRADLE_POSSUM" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-CRADLE_POSSUM" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7272,7 +7272,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chanimal">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-FOREST_ELDERCONE" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-FOREST_ELDERCONE" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7292,7 +7292,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chanimal">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-FOREST_VILY" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-FOREST_VILY" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7312,7 +7312,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chanimal">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-DEMON_CMUCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-DEMON_CMUCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7346,7 +7346,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chbeast">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-WATER_LIGHT_SICK_RUSALKA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-WATER_LIGHT_SICK_RUSALKA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7360,7 +7360,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chbeast">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-FOREST_ELDERCONE" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-FOREST_ELDERCONE" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7369,7 +7369,7 @@ You dig the treasure out and split it evenly.</nodes>
       <logic>
         <ModifierBlock>
           <LogicModifiers list="chbeast">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-FOREST_VILY" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-FOREST_VILY" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7383,7 +7383,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chbeast">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7397,7 +7397,7 @@ You dig the treasure out and split it evenly.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="chbeast">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_GATHERER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_GATHERER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7528,7 +7528,7 @@ Others nod. You hear them mention curses, bad omens, and evil spirits. The witch
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_JEWELLERY" />
           </LogicModifiers>
           <LogicModifiers list="cursed">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7593,7 +7593,7 @@ And only now, you realise that the voice is that of the witch who cursed you int
       <logic>
         <ModifierBlock>
           <LogicModifiers list="cursed">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7630,7 +7630,7 @@ And only now, you realise that the voice is that of the witch who cursed you int
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="cursed">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7705,7 +7705,7 @@ She follows your instructions to the letter and even aids you in preparing the p
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="cursedmale">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_GUSLA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_GUSLA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7716,7 +7716,7 @@ The witch has taken this opportunity to sneak away, but you are rat no more.</no
       <logic>
         <ModifierBlock>
           <LogicModifiers list="cursed">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7819,7 +7819,7 @@ She disappears and you are left feeling ill, but oddly strengthened too.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="cursed">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7867,7 +7867,7 @@ She disappears and you are left feeling ill, but oddly strengthened too.</nodes>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7923,7 +7923,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="malerat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_GUSLA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_GUSLA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7933,7 +7933,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
       <logic>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7969,7 +7969,7 @@ The elf looks pale and sickly. They turn away from you, ashamed, and you know it
       <logic>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -8031,7 +8031,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-SNAKE_ROYAL" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-SNAKE_ROYAL" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -8044,7 +8044,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
       <logic>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -8158,7 +8158,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="male">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_GUSLA" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_GUSLA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -8172,7 +8172,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_YOUNG_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -8181,7 +8181,7 @@ The elf kneels down to reach the rat, licks their fur, and begins to suck away t
       <logic>
         <ModifierBlock>
           <LogicModifiers list="cursedrat">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceNoLevelReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_SCAVENGER_WITCH" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>

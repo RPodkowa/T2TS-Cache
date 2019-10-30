@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SpiritTalkers" lastEventIndex="75" allowToUse="true" uniqueModuleID="1987895295">
   <Adventure name="SpiritKillShelf" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="63" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event016">
@@ -1498,7 +1498,7 @@ It is easy to destroy but may wound your spirit and most likely will destroy the
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="7" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="7" tag="TAG-LOYALTY_SPIRIT_TALKERS" />
           </LogicModifiers>
           <LogicModifiers list="wraith">
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="4" tag="SKILL_PACK-BLESS_M" />
@@ -1550,9 +1550,9 @@ The goblins are impressed with your work and thank you.
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="16" targetID="52" fromX="1294" fromY="-1330" />
-      <outputs name="Lose" ownerID="16" targetID="57" fromX="1294" fromY="-1410" />
-      <outputs name="Surrender" ownerID="16" targetID="57" fromX="1294" fromY="-1490" />
+      <outputs name="Win" ownerID="16" targetID="52" fromX="1295" fromY="-1330" />
+      <outputs name="Lose" ownerID="16" targetID="57" fromX="1295" fromY="-1410" />
+      <outputs name="Surrender" ownerID="16" targetID="57" fromX="1295" fromY="-1490" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="2766" positionY="136" width="350" height="725">
       <outputs name="Leave." ownerID="18" targetID="10" fromX="3091" fromY="-355" />The wraiths are destroyed in a shattering flash of pain and anguish. 
@@ -8521,7 +8521,7 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
       <outputs name="Cancel" ownerID="44" targetID="8" fromX="1681" fromY="-1580" />
     </nodes>
   </Adventure>
-  <Adventure name="Beastmaster" uniqueID="73" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="31" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="Beastmaster" uniqueID="73" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="34" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event157">
       <outputs ownerID="1" targetID="3" fromX="334" fromY="-613" />
     </nodes>
@@ -8669,7 +8669,7 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
         </ModifierBlock>
       </logic>
       <outputs name="Thank the trainer and leave." ownerID="22" targetID="10" fromX="3606" fromY="-1779" />Your pet returns after a while and seems much better behaved.</nodes>
-    <nodes xsi:type="NodeTrade" ID="23" positionX="813" positionY="-1448" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-60">
+    <nodes xsi:type="NodeTrade" ID="23" positionX="766" positionY="-1445" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-60">
       <logic>
         <FilterBlock>
           <LogicResultAction list="bear">
@@ -8677,16 +8677,16 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Confirm" ownerID="23" targetID="24" fromX="1243" fromY="-1776" />
-      <outputs name="Cancel" ownerID="23" targetID="3" fromX="1243" fromY="-1856" />
+      <outputs name="Confirm" ownerID="23" targetID="33" fromX="1196" fromY="-1773" />
+      <outputs name="Cancel" ownerID="23" targetID="3" fromX="1196" fromY="-1853" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="24" positionX="1356" positionY="-1652" width="350" height="725">
-      <outputs name="Hand over the pet." ownerID="24" targetID="25" fromX="1681" fromY="-2143" />'Fee paid, good, now hand me that pet for training.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="25" positionX="1779" positionY="-1698" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="turt" startingBalance="-1">
-      <outputs name="Confirm" ownerID="25" targetID="26" fromX="2209" fromY="-2026" />
-      <outputs name="Cancel" ownerID="25" targetID="3" fromX="2209" fromY="-2106" />
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="1309" positionY="-1671" width="350" height="725">
+      <outputs name="Hand over the pet." ownerID="24" targetID="25" fromX="1635" fromY="-2162" />'Fee paid, good, now hand me that pet for training.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="25" positionX="1699" positionY="-1620" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="turt" startingBalance="-1">
+      <outputs name="Confirm" ownerID="25" targetID="26" fromX="2129" fromY="-1949" />
+      <outputs name="Cancel" ownerID="25" targetID="3" fromX="2129" fromY="-2029" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="26" positionX="2794" positionY="-2003" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="3211" positionY="-2096" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -8694,8 +8694,8 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Thank the trainer and leave." ownerID="26" targetID="10" fromX="3119" fromY="-2494" />Your pet returns after a while and seems much better behaved.</nodes>
-    <nodes xsi:type="NodeTrade" ID="27" positionX="41" positionY="-1577" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-60">
+      <outputs name="Thank the trainer and leave." ownerID="26" targetID="10" fromX="3547" fromY="-2581" />Your pet returns after a while and seems much better behaved.</nodes>
+    <nodes xsi:type="NodeTrade" ID="27" positionX="-17" positionY="-1589" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-60">
       <logic>
         <FilterBlock>
           <LogicResultAction list="turt">
@@ -8703,8 +8703,8 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Confirm" ownerID="27" targetID="24" fromX="471" fromY="-1905" />
-      <outputs name="Cancel" ownerID="27" targetID="3" fromX="471" fromY="-1985" />
+      <outputs name="Confirm" ownerID="27" targetID="24" fromX="413" fromY="-1916" />
+      <outputs name="Cancel" ownerID="27" targetID="3" fromX="413" fromY="-1997" />
     </nodes>
     <nodes xsi:type="NodeTrade" ID="28" positionX="510" positionY="-2084" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-60">
       <logic>
@@ -8720,11 +8720,11 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
       <outputs name="Confirm" ownerID="28" targetID="29" fromX="940" fromY="-2412" />
       <outputs name="Cancel" ownerID="28" targetID="3" fromX="940" fromY="-2492" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="29" positionX="1412" positionY="-2515" width="350" height="725">
-      <outputs name="Hand over the pet." ownerID="29" targetID="30" fromX="1737" fromY="-3006" />'Fee paid, good. Now hand me that pet for training.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="30" positionX="1977" positionY="-2578" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="turtle" startingBalance="-1">
-      <outputs name="Confirm" ownerID="30" targetID="31" fromX="2407" fromY="-2906" />
-      <outputs name="Cancel" ownerID="30" targetID="3" fromX="2407" fromY="-2986" />
+    <nodes xsi:type="NodeAdventure" ID="29" positionX="1123" positionY="-2518" width="350" height="725">
+      <outputs name="Hand over the pet." ownerID="29" targetID="30" fromX="1448" fromY="-3009" />'Fee paid, good. Now hand me that pet for training.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="30" positionX="2098" positionY="-2867" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="turtle" startingBalance="-1">
+      <outputs name="Confirm" ownerID="30" targetID="31" fromX="2528" fromY="-3195" />
+      <outputs name="Cancel" ownerID="30" targetID="3" fromX="2528" fromY="-3275" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="31" positionX="2539" positionY="-2764" width="350" height="725">
       <logic>
@@ -8735,6 +8735,21 @@ You inhale and ride the wave of spirit visions, and impress the locals greatly.
         </ModifierBlock>
       </logic>
       <outputs name="Thank the trainer and leave." ownerID="31" targetID="10" fromX="2864" fromY="-3255" />Your pet returns after a while and seems much better behaved.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="2710" positionY="-1995" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-STRONG_ONE_PET_BEAR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Thank the trainer and leave." ownerID="32" targetID="10" fromX="3035" fromY="-2486" />Your pet returns after a while and seems much better behaved.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="1697" positionY="-2146" width="350" height="725">
+      <outputs name="Hand over the pet." ownerID="33" targetID="34" fromX="2022" fromY="-2637" />'Fee paid, good, now hand me that pet for training.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="34" positionX="2070" positionY="-2265" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="bear" startingBalance="-1">
+      <outputs name="Confirm" ownerID="34" targetID="32" fromX="2500" fromY="-2593" />
+      <outputs name="Cancel" ownerID="34" targetID="3" fromX="2500" fromY="-2673" />
+    </nodes>
   </Adventure>
   <Adventure name="Ghost training goblin" uniqueID="74" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="26" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event161">

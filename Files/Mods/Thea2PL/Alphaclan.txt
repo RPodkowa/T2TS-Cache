@@ -1892,6 +1892,14 @@ Orki idą sami poradzić sobie z elfami, a Wasza przyjaźń z nimi bardzo ucierp
 [OUT]Odchodzicie.
 [/NODE]
 
++[NODE]66
+[STORY]
+„To nie jest nasz sposób by nas przekupić, ale czujemy, że macie coś, czego potrzebujemy. Jeśli oddasz nam pięć swoich diamentów, będziemy mogli wykonać rytuał i tym samym opuścić to miejsce w pośpiechu, jeśli zechcecie.'
+[/STORY]
+[OUT]Zgoda.
+[OUT]Odmówcie.
+[/NODE]
+
 [/EVENT]
 
 -- [EVENT] --OrcKillKarakandza(12)
@@ -3932,7 +3940,7 @@ Zaskakujecie starą wiedźmę i szybko ja zabijacie. Próbuje Was jeszcze przekl
 [OUT]Poproście o błogosławieństwo ciała. [w zamian za 5 sztuk kwarcu]
 [OUT]Poproście o błogosławieństwo umysłu. [w zamian za 5 sztuk topazu]
 [OUT]Poproście o błogosławieństwo duszy. [w zamian za 5 sztuk kości cienia]
-[OUT]Podaj swoją domenę magii lub powinowactwo do sztuk mistycznych i zapytaj, czy byłaby na tyle uprzejma, by cię nauczyć. 
+[OUT]Podajcie swoją domenę magii lub powiązanie ze sztukami mistycznymi i zapytajcie, czy byłaby na tyle uprzejma, by Was czegoś nauczyć. 
 [OUT]Zaoferujcie jej część żywności w zamian za jej mądrość.
 [OUT]Zapytajcie czy zechce z Wami handlować.
 [OUT]Odchodzicie.
@@ -3996,7 +4004,7 @@ Jakoś, nikt z Was nie czuje, żeby zmądrzał.
 
 +[NODE]24
 [STORY]
-'Hmm, w dawnych czasach podążałam za mistrzem Velesem, zatem dziś wieczór będę chwalić te wspaniałe dni. 
+'Hmm, w dawnych czasach podążałam za mistrzem Welesem, zatem dziś wieczór będę chwalić te wspaniałe dni. 
 
 Siadajcie, pijcie i słuchajcie.'
 
@@ -4079,61 +4087,61 @@ Zostajecie pokonani przez wiedźmę, która rzuca na wasze dusze klątwę.
 -- [EVENT] --OrcMain(27)
 +[NODE]2
 [STORY]
-Zostałeś wysłany, aby porozmawiać z orczą czarownicą. Jej imię - Eater of Souls - budzi strach i szacunek w sercach tych, z którymi rozmawiasz. Gdy się do ciebie zbliża, inni się oddalają: 
+Zostaliście wysłani, aby porozmawiać z orczą czarownicą. Jej imię - Pożeraczka Dusz - budzi strach i pokorę w sercach tych, z którymi rozmawia. Gdy się do Ciebie zbliża, inni się oddalają: 
 
-- Przyszliście zapytać o wielkie światło, tak? Te obrzydliwe świeczniki, które zabijają tak wielu naszych krewnych orków. Ale dlaczego miałbym powiedzieć coś takiego jak ty? Jakie są dla mnie bogowie?'
+- Przyszliście zapytać o wielkie światło, tak? Te obrzydliwe świeczniki, które zabijają tak wielu naszych krewnych orków. Ale dlaczego miałbym powiedzieć komuś takiemu jak ty? Kim są dla mnie Wasi bogowie?'
 [/STORY]
-[OUT][Zorya] Jest wolą Zoryi lub Zorzy, że to musi zostać rozwiązane!
-[OUT]Spośród wszystkich ludów Slavy, to właśnie orkowie najczęściej dzielą panteon z ludźmi, tylko w różnych hierarchiach. Z pewnością twój bóg może zobaczyć na to oko?
+[OUT][Zoria] Jest wolą Zorii lub Zorzy jak ją zwiecie, ta sprawa musi zostać rozwiązana!
+[OUT]Spośród wszystkich ludów Słowian, to właśnie orkowie najczęściej dzielą panteon boski z ludźmi, tylko w różnych hierarchiach. Z pewnością twój bóg może patrzyć również okiem mego boga?
 [/NODE]
 
 +[NODE]3
 [STORY]
-„Bah, tak! Masz rację - walczymy o tę samą kochankę, więc nie będę bić w krzakach. Prawdę mówiąc, miałem wizje nadchodzącego mistrza i służę jak ty. Nawet jeśli oznacza to mówienie o niewygodnej przeszłości.'
+„Ach, tak! Masz rację Wybrańcu - walczymy o tę samą sprawę, więc nie będę bić piany. Prawdę mówiąc, miałam wizje nadchodzącego mistrza i służę jako i Ty. Nawet jeśli oznacza to mówienie o niewygodnej przeszłości.'
 [/STORY]
-[OUT]Więc ta przeszłość może pomóc?
+[OUT]Zatem ta przeszłość może pomóc?
 [/NODE]
 
 +[NODE]4
 [STORY]
-„Być może. Widzicie, nie uczymy się jak twoi uczeni, ani nie jesteśmy długowieczni jak spiczaste uszy i ludzie z kamienia, i nie obcujemy z duchami, jak również z zielonymi karłami. 
+„Być może. Widzicie, nie uczymy się jak Wasi uczeni, ani nie jesteśmy długowieczni jak spiczaste uszy i ludzie z kamienia. Nie obcujemy też z duchami, jak również z zielonymi karłami. 
 
-Ale rodzimy się z ciemności i chaosu. Wyczuwamy to, mówi do nas. I mówi nam, że to światło próbuje nas spalić do kości.'
+Ale rodzimy się z ciemności chaosu. Wyczuwamy to, mówi do nas. I mówi nam, że to światło próbuje nas spalić i obrócić w popiół'
 [/STORY]
-[OUT]Ale czy oni wiedzą, jak ponownie złapać światło i przywrócić to ziemskie serce?
+[OUT]Ale czy wiecie, jak ponownie złapać światło i przywrócić to ziemskie serce?
 [/NODE]
 
 +[NODE]5
 [STORY]
 „Nie. Ja nie. I choć słuchamy szeptów, nasza krew wrze i staramy się walczyć. 
 
-Ale żeby walczyć, potrzebujemy broni. Tak jak spiczaste uszy były przeklęte przez ciemność przed Przebudzeniem, teraz jesteśmy osłabieni przez to światło.'
+Ale żeby walczyć, potrzebujemy broni. Tak jak spiczaste uszy były przeklęte przez ciemność przed Przebudzeniem, teraz my jesteśmy osłabieni przez to światło.'
 [/STORY]
 [OUT]Czy ona wie o takiej broni?
 [/NODE]
 
 +[NODE]6
 [STORY]
-„Wiem o kimś, kto kroczy mroczną ścieżką poza moje zrozumienie. Powinienem wiedzieć - on jest moim szczeniakiem. 
+„Wiem o kimś, kto kroczy mroczną ścieżką poza moje zrozumienie. Powinnam wiedzieć - on jest moją spuścizną. 
 
-Wtrąca się w siły śmierci i życia, i zagłębia się w ciemności tak głęboko. Głupia, głupia młodzież. Ale próbował ze mną rozmawiać. Próbowałem mi powiedzieć. Nie zniosę hańby mojej alfa i porozmawiam z Shame Bringer, ale powinieneś. '
+Wtrąca się w siły śmierci i życia, i zagłębia się w ciemności tak bardzo głęboko. Głupia, głupia młodzież. Próbował ze mną rozmawiać a ja chciałam mu wytłumaczyć, że nie zniosę hańby klanu alfa. Obiecałam, że porozmawiam z Kroczącym we Wstydzie, ale chyba Ty powinieneś. '
 [/STORY]
 [OUT][Ork] Mężczyzna, który dzierży magię? Dlaczego on żyje?
-[OUT]Dziękuję za informacje i odejdź.
+[OUT]Podziękujcie za informacje i odejdźcie.
 [/NODE]
 
 +[NODE]7
 [STORY]
-„Argh! Nie zakładaj, że mnie kwestionujesz. Zostawiłem go samego na płonących równinach. Miał umrzeć, ale tego nie zrobił. Może być haniebny, ale zarobił na życie, a każdy, kto mi mówi inaczej, skosztuje mojego ostrza!'
+„Agrrr! Nie zakładaj, że możesz mnie oceniać. Zostawiłam go samego na płonących równinach. Miał umrzeć, ale tego nie zrobił. Może być potępiony, ale zasłużył na życie, a każdy, kto mówi inaczej, skosztuje mojego ostrza!'
 [/STORY]
-[OUT]Dziękuję za informacje i odejdź.
+[OUT]Podziękujcie za informacje i odejdźcie.
 [/NODE]
 
 +[NODE]10
 [STORY]
-„Tak, możesz niesłusznie nie rozpoznać Zorzy jako swojej bogini alfa, ale szanujesz ją i władcę polowań wystarczająco dobrze. Prawdę mówiąc, miałem wizje nadchodzącego mistrza i służę jak ty. Nawet jeśli oznacza to mówienie o niewygodnej przeszłości.'
+„Tak, możesz nie rozpoznać Zorzy jako swojej bogini, ale szanujesz ją oraz władcę polowań wystarczająco dobrze. Prawdę mówiąc, miałam wizje nadchodzącego mistrza i służę jak jak i ty. Nawet jeśli oznacza to mówienie o niewygodnej przeszłości.'
 [/STORY]
-[OUT]Więc ta przeszłość może pomóc?
+[OUT]Zatem ta przeszłość może pomóc?
 [/NODE]
 
 [/EVENT]
@@ -4141,42 +4149,42 @@ Wtrąca się w siły śmierci i życia, i zagłębia się w ciemności tak głę
 -- [EVENT] --Necromancer(28)
 +[NODE]2
 [STORY]
-Zbliżasz się do wieży Shame Bringer, orka, który podobno ma sposób na pokonanie tego rosnącego światła. 
+Zbliżacie się do wieży Niosącego Hańbę, orka, który podobno ma sposób na pokonanie tego rosnącego światła. 
 
-To miejsce jest niczym niezwykłym - pojedyncza kamienna wieża. Jedynym dziwactwem jest brak widocznego wejścia. 
+To miejsce nie jest niczym niezwykłym - pojedyncza kamienna wieża. Jedynym dziwactwem jest brak widocznego wejścia. 
 [/STORY]
-[OUT]Podejdź do wieży i powiedz orkowi, że zostałeś tu wysłany przez Eatera Dusz, jego matkę.
-[OUT]Podejdź do wieży i powiedz orkowi, że zostałeś wysłany przez szamanów goblinów.
+[OUT]Podejdźcie do wieży i powiedzcie orkowi, że zostałeś tu wysłany przez Pożeraczkę Dusz, jego matkę.
+[OUT]Podejdźcie do wieży i powiedzcie orkowi, że zostaliście wysłani przez goblińskich szamanów.
 [/NODE]
 
 +[NODE]3
 [STORY]
-Mężczyzna orków wychodzi z wieży, jakby właśnie przeszedł przez kamień. 
+Mężczyzna orków wychodzi z wieży, przechodząc przez kamień. 
 
-„Szamani? Ciekawy. Nie liczyłem na taki wynik, chociaż teraz, kiedy o tym wspomniałeś, ma to sens. Oni także są stworzeniami utkanymi z chaosu, magii i ciemności bardziej niż światło i harmonia.'
+„Szamani? Ciekawe. Nie liczyłem na taki obrót spraw, chociaż teraz, kiedy o tym wspomniałeś, ma to sens. Oni także są stworzeniami utkanymi z chaosu, magii i ciemności bardziej niż z światła i harmonii.'
 [/STORY]
 [OUT]Czy on wie, jak zatrzymać światło?
-[OUT]Zapytaj go, jaka jest jego historia. Męscy orkowie, którzy używają magii, nie są powszechni.
-[OUT]Zastosuj orka, aby powiedzieć ci, jak pokonać światło w najprostszy możliwy sposób. Nie masz czasu na opowieści i nie dbasz o jego motywy.
+[OUT]Zapytajcie go, jaka jest jego historia. Męscy orkowie, którzy używają magii, nie są powszechni.
+[OUT]Błagajcie tego orka, aby powiedział Wam, jak pokonać światło w najprostszy możliwy sposób. Nie macie czasu na opowieści i nie dbacie o jego motywy.
 [/NODE]
 
 +[NODE]4
 [STORY]
-„Nie, nie jesteśmy. Kiedy talent do mistycznego przedstawienia u mężczyzny, matka ma zabić dziecko. 
+„Nie, nie jesteśmy. Kiedy talent do mistycznych praktyk u mężczyzny okazują orkowie, matka ma prawo by zabić dziecko. 
 
-Mój jest najlepszą czarownicą alfa. Otrzymała pozwolenie na pozostawienie mojego losu w rękach przypadkowych. Wydaje się, że przypadek mi sprzyjał. Zostałem porzucony, by umrzeć na płonących równinach, ale przeżyłem. Wezwałem do śmierci, żeby mnie odebrać. Zamiast tego pozwolił mi żyć.'
+Moja jest najlepszą czarownicą alfa. Otrzymała pozwolenie na pozostawienie mojego losu w rękach przypadku. Wydaje się, że przypadek mi sprzyjał. Zostałem porzucony, by umrzeć na płonących równinach, ale przeżyłem. Wzywałem śmierć, żeby mnie zabrała. Zamiast tego pozwoliła mi żyć.'
 [/STORY]
 [OUT][Nyia] Śmierć odpowiedziała? Jak to?
-[OUT]Więc co on robi? 
+[OUT]Więc co teraz? 
 [/NODE]
 
 +[NODE]5
 [STORY]
-„To nie była twoja kochanka, jeśli o to pytasz. To była dama odziana w ciemne pióra. Śmierć i zima towarzyszyły jej na każdym kroku. Smutek i mądrość owinęły jej szyję. 
+„To nie była twoja kochanka, jeśli o to pytasz. To była dama odziana w ciemne pióra. Śmierć i zima towarzyszyły jej na każdym kroku. Smutek i mądrość spowijały jej szyję. 
 
-Powiedziała, że muszę użyć sprytu, aby przeżyć, i tylko wtedy królestwo śmierci posłucha mojego polecenia. Utonęłam w ciemności i jej głos poprowadził mnie z powrotem.'
+Powiedziała, że muszę użyć sprytu, aby przeżyć, i tylko wtedy królestwo śmierci posłucha mojego wołania. Utonąłem w ciemności, a jej głos poprowadził mnie z powrotem.'
 [/STORY]
-[OUT]Więc co on robi? 
+[OUT]Więc co teraz? 
 [/NODE]
 
 +[NODE]6
@@ -4186,42 +4194,42 @@ Powiedziała, że muszę użyć sprytu, aby przeżyć, i tylko wtedy królestwo 
 Zagłębiam się w królestwa śmierci. Patrzę w twarz ciemności i chodzę po wielu ścieżkach chaosu.'
 [/STORY]
 [OUT][Nyia] Twierdzi, że został ocalony przez damę śmierci, ale nekromancja jest obrazą dla naturalnego kręgu!
-[OUT]W jaki sposób nekromancja może pomóc powstrzymać rozpad?
+[OUT]W jaki sposób nekromancja może pomóc powstrzymać Strzaskanie?
 [/NODE]
 
 +[NODE]7
 [STORY]
-„Tak. I ona też to wiedziała, kiedy uratowała mi życie. Mogła postawić mnie na wybranej ścieżce, ale nie zrobiła tego, twierdząc, że muszę dokonać własnego losu. 
+„Tak. I ona też to wiedziała, kiedy uratowała mi życie. Mogła postawić mnie na wybranej ścieżce, ale nie zrobiła tego, twierdząc, że muszę dokonać własnego wyboru. 
 
-Nigdy więcej mi się nie ukazała, ale wierzę, że moja ścieżka jest tak samo częścią kręgu życia jak wszystko. A teraz jesteśmy tutaj, ja trzymam ciemne odpowiedzi, ty ich szukasz.'
+Nigdy więcej mi się nie ukazała, ale wierzę, że moja ścieżka jest tak samo częścią kręgu życia jak wszystko inne. A teraz jesteśmy tutaj, ja trzymam ciemne odpowiedzi, ty ich szukasz.'
 [/STORY]
-[OUT]W jaki sposób nekromancja może pomóc powstrzymać rozpad?
+[OUT]W jaki sposób nekromancja może pomóc powstrzymać Strzaskanie?
 [/NODE]
 
 +[NODE]8
 [STORY]
-„Moja sztuka nekromancji nie może pomóc bezpośrednio, ale mogę. Nauczyłem się prawdy. Tylko ciemność może pokonać to światło. Pomyśl o tym. 
+„Moja sztuka nekromancji nie może pomóc bezpośrednio, ale mogę. Nauczyłem się prawdy. Tylko ciemność może pokonać to światło. Pomyślcie o tym. 
 
-Po Przebudzeniu mieliśmy spokój w szarych czasach, gdzie ani światło, ani ciemność nie przytłoczyły - rozejm. I tak, obecność czarnej mgły często powoduje chaos, ale była dobra.'
+Po Przebudzeniu mieliśmy spokój gdy nastały szare czasy, gdzie ani światło, ani ciemność nie przeważały. I tak, jak obecność czarnej mgły często powoduje chaos, tak równowaga była dobra.'
 [/STORY]
 [OUT]O czym on mówi?
 [/NODE]
 
 +[NODE]9
 [STORY]
-„Kosmiczne drzewo nie zostało ani ocalone, ani spalone. Pozostał w stanie stagnacji. I to zadziałało - dopóki nie pojawili się świetlicy. Ktoś nie lubił nowego rozejmu. Więc uwolnili światło. 
+„Kosmiczne drzewo nie zostało ani ocalone, ani spalone. Pozostało w stanie stagnacji. I to działało - dopóki nie pojawili się świetlicy. Ktoś nie lubił tamtej równowagi. Więc uwolnili światło. 
 
-Mogę ci powiedzieć, jak zrobić serce ciemności. Posadź go w jaskini ziemskiej i zniszcz bestię światła na dobre.'
+Mogę Wam powiedzieć, jak zrobić serce ciemności. Osadzić je w jaskini ziemskiej i zniszczyć bestię światła na dobre.'
 [/STORY]
 [OUT]Na dobre?
 [/NODE]
 
 +[NODE]10
 [STORY]
-„Tak, serce nie tylko zabije ciało gospodarza, ale także całkowicie zepsuje światło. Niektórzy przetrwają, ale nie na tyle, by powodować kłopoty. Ciemność, która wciąż utrzymuje się na tym świecie, wystarczy, by utrzymać ją w ryzach, może nawet pokonać ją na czas.'
+„Tak, serce nie tylko zabije ciało gospodarza, ale także całkowicie zepsuje światło. Niektórzy przetrwają oczywiście, ale nie na tyle, by sprawiali oni kłopoty. Ciemność, która wciąż utrzymuje się na tym świecie, wystarczy, by utrzymać taki stan w ryzach, a może nawet pokonać ją w odpowiednim czasie.'
 [/STORY]
-[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobów?
-[OUT]I rozbicie?
+[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
+[OUT]I Strzaskanie?
 [/NODE]
 
 +[NODE]11
@@ -4230,73 +4238,73 @@ Mogę ci powiedzieć, jak zrobić serce ciemności. Posadź go w jaskini ziemski
 [/STORY]
 [OUT]Czy to nie przywróci wieku ciemności?
 [OUT]Jak można stworzyć serce ciemności?
-[OUT]Ten cały plan jest niebezpieczny i nie można mu pozwolić na sukces. Zaatakuj nekromantę!
+[OUT]Ten cały plan jest niebezpieczny i nie można mu pozwolić na jego realizację. Zaatakujcie nekromantę!
 [/NODE]
 
 +[NODE]12
 [STORY]
-„Nie do końca, nie. Kosmiczne drzewo żyje z tego, co zbieram, nie? Znaczy się, służysz bogom i oni na tym polegają. 
+„Nie, nie do końca. Kosmiczne drzewo żyje z tego, co zbieram, prawda? Znaczy się, służycie bogom i oni na Was polegają. 
 
-Więc rdzeń ciemności pozostanie w zatoce. Wzmocni się tylko to, co pozostanie z nami. To będzie zmiana. W rzeczywistości może to wpływać na spiczaste uszy.'
+Więc rdzeń ciemności pozostanie w zalążku. Wzmocni się tylko to, co pozostanie z nami. To będzie przemiana. W rzeczywistości może to wpływać jedynie na spiczaste uszy.'
 [/STORY]
 [OUT]Jak?
 [/NODE]
 
 +[NODE]13
 [STORY]
-„Narodzili się ze światła, tak jak my z ciemności. Prawdopodobnie poniosą klątwę ponownie. Ale przeżyli raz, więc jestem pewien, że mogą to zrobić ponownie.'
+„Narodzili się ze światła, tak jak my z ciemności. Prawdopodobnie poniosą klęskę sromotną Ale przeżyli raz, więc jestem pewien, że mogą to zrobić ponownie.'
 [/STORY]
 [OUT]Jak można stworzyć serce ciemności?
 [/NODE]
 
 +[NODE]14
 [STORY]
-„Krótko mówiąc, uczyń serce ciemności, które zepsuje światło i zniszczy wiele z nich. Ciemność będzie w stanie odeprzeć resztę, a rozpad powinien ustać, ponieważ jest spowodowany ucieczkami światła z rdzenia Ziemi.'
+„Krótko mówiąc, sprawcie serce ciemności, które zepsuje światło i zniszczy wiele świetlistych istot. Ciemność będzie w stanie odeprzeć resztę, a Strzaskanie powinno ustać, ponieważ jest spowodowane ucieczką światła z rdzenia Ziemi.'
 [/STORY]
-[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobów?
+[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
 [/NODE]
 
 +[NODE]15
 [STORY]
-„Ziemia rozpada się, gdy świetlicy uciekają z rdzenia i wychodzą na górę. Gdy światło jest uszkodzone, wstrząsy powinny się zatrzymać na czas.'
+„Ziemia rozpada się, gdy świetlicy uciekają z rdzenia i wychodzą na górę. Gdy światło zostanie nadszarpnięte, wstrząsy powinny się zatrzymać na czas.'
 [/STORY]
-[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobów?
-[OUT]Dlaczego on chce ci pomóc?
+[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
+[OUT]Dlaczego on chce Wam pomóc?
 [/NODE]
 
 +[NODE]16
 [STORY]
-„Mroki były kiedyś gigantami, wiesz? Zostały zmienione przez ciemność iz czasem stały się czymś zupełnie nowym. Ale ich serca, wypełnione moją magią, oszukają mechanizm w żywej jaskini, by myśleć, że to serce olbrzyma. 
+„Mroki były kiedyś gigantami, wiedzieliście? Zostały zmienione przez ciemność i z czasem stały się czymś zupełnie nowym. Ale ich serca, wypełnione moją magią, oszukają mechanizm w  jaskini życia, by udawać serce olbrzyma. 
 
-Oczywiście będziesz musiał pokonać bestię światła, która teraz strzeże komnaty. Ale jeśli się zgodzisz, pomogę ci. I pamiętajcie, nie każde mroki będzie miało serce, więc może zabrać trochę polowania.'
+Oczywiście będziecie musieli pokonać bestię światła, która teraz strzeże komnaty. Ale jeśli się zgodzicie, pomogę Wam. Pamiętajcie, nie każde mroki będzie miało serce, więc takie może być groźne.'
 [/STORY]
-[OUT]Zgadzam się i poluj na mroki. Można je znaleźć w ciemności, w biomach wulkanicznych.
-[OUT]Odmów i wyjdź.
+[OUT]Zgadzamy się polować na mroki. Można je znaleźć zapewne w ciemności, na terenach wulkanicznych.
+[OUT]Odmówcie i odejdźcie.
 [/NODE]
 
 +[NODE]20
 [STORY]
-„Duma? Chcesz zaimponować mojej bezdusznej matce? Albo może czyste przetrwanie. W końcu jestem mistrzem ciemności - dominacja światła, a nawet czysta równowaga nie są moimi przyjaciółmi. Jeśli pójdziesz moją drogą, będę oczywiście silniejszy.'
+„Duma? Chcę zaimponować mojej bezdusznej matce? A może może czyste przetrwanie. W końcu jestem mistrzem ciemności - dominacja światła, a nawet czysta równowaga nie są moimi przyjaciółmi. Jeśli pójdziesz moją drogą, będę oczywiście silniejszy.'
 [/STORY]
-[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych sposobów?
+[OUT]Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
 [/NODE]
 
 +[NODE]21
 [STORY]
-Mężczyzna orków wychodzi z wieży, jakby właśnie przeszedł przez kamień. 
+Orczy mężczyzna wychodzi z wieży, przenikając przez kamień. 
 
-„Więc słuchała, ale była zbyt tchórzliwa, by przyjść! Czy też jest to znak jej blasku, który również tkwi we mnie, że powinna użyć czempionów innych bogów, aby wykonać jej rozkaz? To nie ma znaczenia, bo jesteś tutaj, chętny do słuchania.'
+„Więc słuchała, ale była zbyt tchórzliwa, by przyjść sama! Czy też jest to znak jej błyskotliwego umysłu, który również tkwi we mnie, że wysłużyła się czempionami innych bogów? To nie ma znaczenia, bo jesteście tutaj, chętni do słuchania.'
 [/STORY]
 [OUT]Czy on wie, jak zatrzymać światło?
-[OUT]Zapytaj go, jaka jest jego historia. Męscy orkowie, którzy używają magii, nie są powszechni.
-[OUT]Zastosuj orka, aby powiedzieć ci, jak pokonać światło w najprostszy możliwy sposób. Nie masz czasu na opowieści i nie dbasz o jego motywy.
+[OUT]Zapytajcie go, jaka jest jego historia. Męscy orkowie, którzy używają magii, nie są powszechni.
+[OUT]Błagajcie tego orka, aby powiedział Wam, jak pokonać światło w najprostszy możliwy sposób. Nie macie czasu na opowieści i nie dbacie o jego motywy.
 [/NODE]
 
 +[NODE]23
 [STORY]
-Ciało nekromanty zamienia się w ciemną mgłę i rozpuszcza się. Musisz znaleźć inne sposoby na powstrzymanie Rozpadu. 
+Ciało nekromanty zamienia się w ciemną mgłę i rozpuszcza się. Musicie znaleźć inne sposoby na powstrzymanie Strzaskania. 
 
-Może uda ci się wrócić do czerwonej jaskini i znów porozmawiać z Alchemikiem, uratować krasnoluda z więzienia lub szukać pomocy u elfów lub krasnoludów. 
+Może uda się wrócić do czerwonej jaskini i znów porozmawiać z Alchemikiem, uratować krasnoluda z więzienia lub szukać pomocy u elfów lub krasnoludów. 
 
 [/STORY]
 [OUT]Odchodzicie.
@@ -4306,9 +4314,9 @@ Może uda ci się wrócić do czerwonej jaskini i znów porozmawiać z Alchemiki
 [STORY]
 „Głupcy, ślepi głupcy!'
 
-Nekromanta pokonuje cię i przeklina twoje imiona. Następnie znika wraz ze swoją wieżą. Musisz znaleźć inne sposoby na powstrzymanie Rozpadu. 
+Nekromanta pokonuje Was i przeklina Wasze imiona. Następnie znika wraz ze swoją wieżą. Musicie znaleźć inne sposoby na powstrzymanie Strzaskania. 
 
-Być może wrócisz do czerwonej jaskini i znowu porozmawiasz z Alchemikiem.
+Być może wrócicie do czerwonej jaskini i znowu porozmawiacie z Alchemikiem.
 [/STORY]
 [OUT]Odchodzicie.
 [/NODE]
@@ -4317,16 +4325,16 @@ Być może wrócisz do czerwonej jaskini i znowu porozmawiasz z Alchemikiem.
 [STORY]
 „Głupcy, ślepi głupcy!'
 
-Nekromanta znika wraz ze swoją wieżą. Musisz znaleźć inne sposoby na powstrzymanie Rozpadu. 
+Nekromanta pokonuje Was i przeklina Wasze imiona. Następnie znika wraz ze swoją wieżą. Musicie znaleźć inne sposoby na powstrzymanie Strzaskania. 
 
-Może uda ci się wrócić do czerwonej jaskini i znów porozmawiać z Alchemikiem, uratować krasnoluda z więzienia lub szukać pomocy u elfów lub krasnoludów.
+Być może wrócicie do czerwonej jaskini i znowu porozmawiacie z Alchemikiem.
 [/STORY]
 [OUT]Odchodzicie.
 [/NODE]
 
 +[NODE]31
 [STORY]
-Znajdujesz wieżę, wewnątrz są kości i oznaki zajęcia, ale ktokolwiek tu mieszkał, już dawno zniknął.
+Znajdujecie wieżę. Wewnątrz są kości i oznaki mieszkania, ale ktokolwiek tu mieszkał, już dawno zniknął.
 [/STORY]
 [OUT]Odchodzicie.
 [/NODE]
@@ -4336,9 +4344,9 @@ Znajdujesz wieżę, wewnątrz są kości i oznaki zajęcia, ale ktokolwiek tu mi
 -- [EVENT] --OrcTown(29)
 +[NODE]2
 [STORY]
-Obóz orków jest pełen popiołu i kości poległych. Wygląda na to, że mędrcy przyjechali tu po zwiększeniu ich mocy. 
+Obóz orków jest pełen popiołu i kości poległych. Wygląda na to, że mędrcy przyjechali tu po tym jak ich moc została zwiększona. 
 
-Miejsce jest martwe.
+Miejsce to jest martwe.
 [/STORY]
 [OUT]Odchodzicie.
 [/NODE]
@@ -4348,71 +4356,71 @@ Miejsce jest martwe.
 -- [EVENT] --Orc Fighting Pits(30)
 +[NODE]2
 [STORY]
-„Jako przyjaciel klanów alfa, jesteś zaproszony do wzięcia udziału w boksach bojowych - jako widz. 
+„Jako przyjaciele klanów alfa, jesteście proszeni do wzięcia udziału w walkach bokserskich - jako widzowie. 
 
-Przegrani takich walk będą zhańbieni i żyją ze wstydu, więc niektórzy z nich przychodzą do ciebie po tym i proszą o przyjęcie do twojego „klanu”. Trzeba by zapłacić cenę klanu alfa, aby zapewnić zachowanie niektórych strzępów honoru.'
+Przegrani takich walk będą zhańbieni i żyją we wstydzie, więc niektórzy z nich przychodzą do Was po takiej walce i proszą o przyjęcie do Waszego „klanu”. Trzeba by zapłacić oczywiście, aby okazać choćby pozory swego honoru.'
 
-[Możesz rekrutować się w tej frakcji tylko raz, z małą szansą na drugie, kiedy twoja populacja jest bardzo niska]
+[Możecie rekrutować w tej frakcji tylko raz, z małą szansą na drugą rekrutację, ale tylko gdy Wasza populacja jest bardzo niska]
 [/STORY]
-[OUT]Zgódź się zapłacić cenę klanu za wojownika.
-[OUT]Zapytaj, czy nie jest to typ niewolnictwa i czy orkowie nie byli brutalnie przeciwni niewolnictwu z powodu ich przeszłości?
+[OUT]Zgódźcie się zapłacić za osobnika z kasty wojowników.
+[OUT]Zapytajcie, czy nie jest to typ niewolnictwa i czy orkowie przypadkiem nie buntowali się brutalnie przeciwko niewolnictwu w przeszłości?
 [OUT]Odchodzicie.
-[OUT]Zgadzam się zapłacić za pracownika.
+[OUT]Zgódźcie się zapłacić za pracownika.
 [/NODE]
 
 +[NODE]4
 [STORY]
-„Dobrze. Niosą największą cenę klanu, ponieważ są silne, ale mogą umrzeć z powodu ran. Idź, zobacz, kto chce dołączyć do twojego klanu.'
+„Dobrze. Mają największą cenę, ponieważ są silni, ale mogą umrzeć z powodu ran po walce. Idź, zobacz, kto chce dołączyć do Waszego klanu.'
 
-[Możesz rekrutować się w tej frakcji tylko raz, z małą szansą na sekundę, kiedy twoja populacja jest bardzo niska]
+[Możecie rekrutować w tej frakcji tylko raz, z małą szansą na drugą rekrutację, ale tylko gdy Wasza populacja jest bardzo niska]
 [/STORY]
-[OUT]Zapłać honorową cenę za wojownika.
-[OUT][Ork, Dwarf lub Turmoil] Powiedz, że będziesz walczył zamiast płacić, to jest honorowy sposób.
-[OUT]Zapłać honorową cenę za tropiciela krwi.
-[OUT]Zapłać honorową cenę dla orkowego dziecka, które nie zdało egzaminów bojowych.
+[OUT]Zapłaćcie honorową cenę za wojownika.
+[OUT][Ork, Krasnolud lub Zamieszanie] Powiedz, że będziesz walczył zamiast płacić, to jest bardziej honorowy sposób.
+[OUT]Zapłaćcie honorową cenę za tropiciela krwi.
+[OUT]Zapłaćcie honorową cenę za orkowe dziecko, które nie zdało egzaminów bojowych.
 [OUT]Dzieci mogą tu także stracić swój honor?
-[OUT]Nie ma nikogo, kto chce teraz dołączyć, lub nie jest to odpowiedni czas dla ciebie. Pozostawiać.
+[OUT]Nie ma nikogo, kto chce teraz dołączyć, lub nie jest to odpowiedni czas dla Was. Odejdźcie.
 [/NODE]
 
 +[NODE]5
 [STORY]
-„Dobra walka, jesteś godny bycia alfą dla naszych krewnych. Niech ogień w twoim sercu nigdy nie umrze!'
+„Wspaniała walka, jesteście godni bycia alfą dla naszych krewnych. Niech ogień w Waszych sercach nigdy nie umrze!'
 [/STORY]
-[OUT]Przyjmij honor i powitaj nowego towarzysza.
+[OUT]Przyjmijcie honory i powitajcie nowego towarzysza.
 [/NODE]
 
 +[NODE]6
 [STORY]
-„Jak śmiesz! Jesteś przyjacielem, więc cię nie zabiję. Są wolnymi kobietami i mężczyznami. Mogą iść z tobą w każdej chwili bez płacenia ceny klanu. Stracą swój honor i oczywiście staną się bezklanowi. Dlatego proszą cię o zapłatę. W ten sposób stajesz się ich alfą i możemy to uszanować. 
+„Jak śmiesz! Jesteście przyjaciółmi, więc Was nie zabijemy. Są wolnymi kobietami i mężczyznami. Mogą iść z Wami w każdej chwili bez zapłaty. Stracą swój honor i oczywiście staną się bezklanowi. Dlatego proszą Was o zapłatę. W ten sposób stajecie się ich alfą a my to uszanujemy. 
 
-Możesz oczywiście walczyć o zaszczyt stania się ich alfą?'
+Możecie oczywiście walczyć o zaszczyt stania się ich alfą?'
 [/STORY]
-[OUT]Dziękuję im za wyjaśnienie. Powiedzmy, że wtedy rozważysz tę honorową cenę dla wojownika.
-[OUT]Powiedz, że będziesz walczyć zamiast płacić, to jest honorowy sposób.
+[OUT]Podziękujcie im za wyjaśnienie. Powiedzmy, że wtedy rozważycie tę honorową cenę za wojownika.
+[OUT]Powiedzcie, że będziecie walczyć zamiast płacić, to jest honorowy sposób.
 [/NODE]
 
 +[NODE]11
 [STORY]
-„Tak. Każde orkowe dziecko musi przejść pierwszy proces bojowy, gdy tylko będzie wystarczająco wysoki, by trzymać nóż. 
+„Tak. Każde orkowe dziecko musi przejść pierwszy proces bojowy, gdy tylko będzie wystarczająco wysokie, by trzymać nóż. 
 
-Ci, którzy zawodzą, mają szansę odzyskać honor później, ale jest to mało prawdopodobne. Wiele matek woli uwolnić takie dziecko do innego klanu, dając im nowy początek.'
+Ci, którzy zawodzą, mają szansę odzyskać honor później, ale jest to mało prawdopodobne. Wiele matek woli odesłać takie dziecko do innego klanu, dając im nowy początek.'
 [/STORY]
-[OUT]Zgódź się zapłacić cenę klanu za wojownika. 
+[OUT]Zgódźcie się zapłacić cenę za wojownika. 
 [/NODE]
 
 +[NODE]17
 [STORY]
-„Jesteś słaby, nasi krewni nie radzą sobie dobrze w twoim klanie. Wróć tylko wtedy, gdy twój ogień płonie.'
+„Jesteście słabi, nasi krewni nie widzą przyszłości w Waszym klanie. Wróćcie tylko wtedy, gdy Wasz ogień zapłonie.'
 [/STORY]
 [OUT]Odchodzicie.
 [/NODE]
 
 +[NODE]24
 [STORY]
-„Niosą mniejszą cenę honoru, ponieważ byli już zhańbieni w przeszłości i była to ich druga szansa, by stać się bardziej. Prawdopodobnie ich morale będzie bardzo niskie.'
+„Kosztują mniej, ponieważ byli już zhańbieni w przeszłości i była to ich druga szansa, by stać się lepszymi. Prawdopodobnie ich morale będzie bardzo niskie.'
 [/STORY]
-[OUT]Płać honorową cenę za rzemieślnika.
-[OUT]Płać honorową cenę za zbieracza.
+[OUT]Zapłaćcie honorową cenę za rzemieślnika.
+[OUT]Zapłaćcie honorową cenę za zbieracza.
 [/NODE]
 
 [/EVENT]

@@ -215,7 +215,7 @@
     <Entry Key="UI_NAVIGATE_TO_ADVENTURE" Val="Przejdź do przygody:" />
     <Entry Key="UI_CHALLENGE_TYPE" Val="Typ wyzwania:" />
     <Entry Key="UI_AUTOSCALE_BY_ENEMY" Val="Autoskalowanie przez wroga:" />
-    <Entry Key="UI_VS_EVENT_OWNER" Val="Versus Event Owner:" />
+    <Entry Key="UI_VS_EVENT_OWNER" Val="Właściciel wydarzenia kontra:" />
     <Entry Key="UI_VS_GROUP" Val="Versus Group:" />
     <Entry Key="UI_CHALLENGE_SCALE" Val="Skala wyzwania:" />
     <Entry Key="UI_CHALLENGE_LIST" Val="Lista wyzwań:" />
@@ -227,8 +227,8 @@
     <Entry Key="UI_DROP_CARGO_PERCENTAGE" Val="Procent obniżenia zdrowia:" />
     <Entry Key="UI_TARGET_GROUP" Val="Grupa docelowa:" />
     <Entry Key="UI_SPAWN_SOURCE_GROUP" Val="Spawn Source Group:" />
-    <Entry Key="UI_SPAWN_SOURCE_SETTLEMENT" Val="Spawn Source Settlement:" />
-    <Entry Key="UI_DESTROY_EVENT_OWNER" Val="Destroy Event Owner:" />
+    <Entry Key="UI_SPAWN_SOURCE_SETTLEMENT" Val="Rozliczenie źródła:" />
+    <Entry Key="UI_DESTROY_EVENT_OWNER" Val="Zniszcz właściciela zdarzenia:" />
     <Entry Key="UI_MIN_RADIUS" Val="Minimalny promień:" />
     <Entry Key="UI_BIOME" Val="Biom:" />
     <Entry Key="UI_LINKED_EVENT" Val="Powiązane zdarzenie:" />
@@ -239,7 +239,7 @@
     <Entry Key="UI_EXPEDITION" Val="Ekspedycja" />
     <Entry Key="UI_VILLAGE" Val="Osada" />
     <Entry Key="UI_DIFFICULTY" Val="Trudność:" />
-    <Entry Key="UI_SUBSKILL_INFO" Val="Subskill Info" />
+    <Entry Key="UI_SUBSKILL_INFO" Val="Informacje o umiejętnościach podrzędnych" />
     <Entry Key="UI_LEVEL" Val="Poziom" />
     <Entry Key="UI_LEGEND" Val="Legenda" />
     <Entry Key="UI_MOUSE_ZOOM_OUT" Val="Środkowy przycisk myszy - pomniejszenie" />
@@ -492,7 +492,7 @@
     <Entry Key="UI_TUTORIAL3" Val="Samouczek 3" />
     <Entry Key="UI_NO_SAVE_FILES_FOUND" Val="Nie znaleziono plików zapisu." />
     <Entry Key="UI_MUHA_PHOTON_CLOUD" Val="MuHa Photon Cloud" />
-    <Entry Key="UI_SELF_HOSTED_SERVER" Val="Self Hosted Server" />
+    <Entry Key="UI_SELF_HOSTED_SERVER" Val="Serwer hostowany samodzielnie" />
     <Entry Key="UI_CHANGE_PROFILE" Val="Zmień Profil" />
     <Entry Key="UI_GAMEPLAY" Val="Rozgrywka" />
     <Entry Key="UI_AUDIO" Val="Audio" />
@@ -660,7 +660,7 @@
     <Entry Key="UI_DEV_TOXINE_GROUP" Val="Zastosuj Toxine do grupy" />
     <Entry Key="UI_DEV_COMBO_ADD" Val="Dodaj ładunek towaru" />
     <Entry Key="UI_DEV_EXPORT_GROUP_POWERS" Val="Eksportuj moce grupy" />
-    <Entry Key="UI_DEV_LOG_SELECTED_GROUP_DEBUG" Val="Log Selected Group Debug" />
+    <Entry Key="UI_DEV_LOG_SELECTED_GROUP_DEBUG" Val="Zaloguj się do wybranej grupy debugowania" />
     <Entry Key="UI_DEV_ADD_MP" Val="Dodaj MP" />
     <Entry Key="UI_DEV_ADD_XP" Val="Dodaj XP" />
     <Entry Key="UI_CLIENT_CONNECTION_LOST" Val="Straciłeś połączenie z serwerem." />
@@ -729,7 +729,7 @@
     <Entry Key="UI_WORLD_PROGRESSION" Val="Światowy postęp" />
     <Entry Key="UI_TRUE" Val="Prawda" />
     <Entry Key="UI_FALSE" Val="Fałsz" />
-    <Entry Key="UI_DISMANTLE_DIFFICULTY" Val="Dismantle Resource Recovery" />
+    <Entry Key="UI_DISMANTLE_DIFFICULTY" Val="Demontaż odzyskiwania zasobów" />
     <Entry Key="UI_ROGUE_SPAWN" Val="Tempo pojawiania się wrogich grup" />
     <Entry Key="UI_WORLD_SIZE" Val="Rozmiar Świata" />
     <Entry Key="UI_RESOURCE_AVAILABILITY" Val="Dostępność zasobów" />
@@ -809,7 +809,7 @@
     <Entry Key="UI_ALL_SEASONS_EFFECTS" Val="Wszystkie sezonowe efekty" />
     <Entry Key="UI_PARTICIPATING_GROUPS" Val="Grupy uczestniczące" />
     <Entry Key="UI_TUTORIAL_EVENTS1" Val="Spotkałeś się z wydarzeniem. Większość zdarzeń ma miejsce losowo na końcu tury lub podczas poruszania się po mapie." />
-    <Entry Key="UI_TUTORIAL_EVENTS2" Val="Jeśli wydarzenie jest wyzwalane przez grupę znajdującą się na lądzie, dołączają również {COLOR:yellow}inne grupy w zasięgu 6 pól. {END_COLOR}" />
+    <Entry Key="UI_TUTORIAL_EVENTS2" Val="Jeśli wydarzenie zostanie wywołane przez grupę znajdującą się na lądzie, {COLOR:yellow}dołączą także inne grupy w zasięgu 6 pól (zależy to od twojego poziomu trudności). {END_COLOR}" />
     <Entry Key="UI_TUTORIAL_EVENTS3" Val="Kliknij przycisk Wyświetl grupę, aby zobaczyć, które grupy biorą udział w wydarzeniu." />
     <Entry Key="UI_TUTORIAL_EVENTS4" Val="Pod każdą częścią opowieści zobaczysz jedną lub więcej możliwych odpowiedzi." />
     <Entry Key="UI_TUTORIAL_EVENTS5" Val="Niektóre odpowiedzi są widoczne tylko wtedy, gdy grupa spełnia określony warunek, tj. Zawiera określony typ znaku." />
@@ -923,5 +923,9 @@
     <Entry Key="UI_3_HEX" Val="3 Heksy" />
     <Entry Key="UI_SAME_SPOT" Val="Tylko ten sam szesnastkowy" />
     <Entry Key="UI_FORFEIT" Val="Rezygnacja" />
+    <Entry Key="UI_DIFFICULTY" Val="Trudność:" />
+    <Entry Key="UI_WORD_SHAPE" Val="Kształt świata" />
+    <Entry Key="UI_WORD_SIZE" Val="Światowy rozmiar" />
+    <Entry Key="UI_ABUNDANT_CHARACTERS" Val="8, +2 wolne postacie" />
   </LOC_LIBRARY-UI>
 </DATABASE_UI_LOCALIZATION-NO_HSH>

@@ -424,7 +424,7 @@
     <nodes xsi:type="NodeAdventure" ID="19" positionX="1579.68909" positionY="-1842.37109" width="350" height="725">
       <outputs name="Run." ownerID="19" targetID="14" fromX="1905" fromY="-2333" />You fail. You are beaten and chased away.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="20" positionX="1021.27332" positionY="-1870.886" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="40" maxDamage="80" useCountInPercent="true" targetGroup="ppl">
-      <outputs ownerID="20" targetID="19" fromX="1450" fromY="-1852" />
+      <outputs ownerID="20" targetID="19" fromX="1450" fromY="-2259" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="21" positionX="1635.53076" positionY="-274.05426" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="21" targetID="13" fromX="2084" fromY="-706" />
@@ -435,16 +435,16 @@
     <nodes xsi:type="NodeProduceDrop" ID="24" positionX="1517" positionY="-1289" width="460" height="429" fromEventOwner="true" cargoPercentage="50" dropPercentage="50">
       <outputs ownerID="24" targetID="28" fromX="1947" fromY="-1647" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="-138.3316" positionY="-1209.104" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="-301" positionY="-1235" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
-          <LogicModifiers list="beast">
+          <LogicModifiers list="troll">
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-BLESS_P" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="26" positionX="263" positionY="-1228" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeSpawnOnMap" ID="26" positionX="385" positionY="-1233" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicFilter name="troll" makePublic="true">
@@ -461,7 +461,7 @@
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="26" targetID="25" fromX="711" fromY="-1660" />
+      <outputs ownerID="26" targetID="25" fromX="834" fromY="-1665" />
     </nodes>
     <nodes xsi:type="NodeTrade" ID="27" positionX="83" positionY="-1787" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="food" startingBalance="-200">
       <logic>
@@ -763,7 +763,7 @@
       <outputs ownerID="28" targetID="22" fromX="1371" fromY="-2742" />
     </nodes>
     <nodes xsi:type="NodeDealDamage" ID="29" positionX="1612" positionY="-731" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="30" maxDamage="60" useCountInPercent="true" targetGroup="ppl">
-      <outputs ownerID="29" targetID="14" fromX="2042" fromY="-1122" />
+      <outputs ownerID="29" targetID="14" fromX="2041" fromY="-1119" />
     </nodes>
   </Adventure>
   <Adventure name="GroupUnliving" uniqueID="9" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="27" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
@@ -5846,7 +5846,7 @@ But they are just as loyal to you and your gods as before.</nodes>
             <scriptCallWithTag scriptName="FMO_RandomizeAndAddTag" />
           </LogicModifiers>
           <LogicModifiers list="1child">
-            <scriptCallWithTag scriptName="FMO_AddTags" parameter="10" tag="TAG-HEALTH_PHYSICAL" />
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="10" tag="TAG-MAX_HEALTH_PHYSICAL" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>

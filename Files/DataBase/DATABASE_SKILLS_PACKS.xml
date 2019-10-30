@@ -57,14 +57,6 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-NATURAL_KRAKEN>
-	<SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR>
-        <RarityRange MinimumCount="0" MaximumCount="100"/>
-        <GuarantedSkill Value="SKILL-BITE"/>
-        <GuarantedSkill Value="SKILL-SHOWING_OFF"/>
-		<SkillGroupFilters>
-			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
-		</SkillGroupFilters>
-    </SKILL_PACK-NATURAL_ANIMAL_WOOD_BEAR>
 	
 	
 	<!-- CLASS_SKILL_PACK-->
@@ -732,14 +724,6 @@
 			<SkillGroupSingleFilter Name="Claw" Requirement="OptionalType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-BEAR>
-	<SKILL_PACK-WOOD_BEAR>
-        <RarityRange MinimumCount="0" MaximumCount="70"/>
-        <GuarantedSkill Value="SKILL-BITE"/>
-		<SkillGroupFilters>
-			<SkillGroupSingleFilter Name="ClassLargeAnimal" Requirement="OptionalType"/>
-			<SkillGroupSingleFilter Name="Claw" Requirement="OptionalType"/>
-		</SkillGroupFilters>
-    </SKILL_PACK-WOOD_BEAR>
 	<SKILL_PACK-DEMON_KARAKANDZA>
         <RarityRange MinimumCount="0" MaximumCount="70"/>
 		<SkillGroupFilters>
@@ -1355,13 +1339,6 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-PET_CHICKEN>
-	<SKILL_PACK-PET_PUMPKIN>
-		<RarityRange MinimumCount="0" MaximumCount="100"/>
-        <GuarantedSkill Value="SKILL-PET_PUMPKIN"/>
-		<SkillGroupFilters>
-			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
-		</SkillGroupFilters>
-	</SKILL_PACK-PET_PUMPKIN>
 	
 	<!-- OTHER-->
 	<SKILL_PACK-RACE_SPIDER>
@@ -1963,6 +1940,14 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-RACE_ELDER_DARKNESS_MROKI>
+	<SKILL_PACK-RACE_ELVES_MILOSZ>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_ELVES"/>
+        <GuarantedSkill Value="SKILL-MASTER_CRAFTSMAN"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_ELVES_MILOSZ>
 	
 	<SKILL_PACK-CRATED_NATURAL_ANIMAL_BITE>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
@@ -2529,14 +2514,6 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-SUMMON_DARK_TOTEM>
-	<SKILL_PACK-SUMMON_PUMPKIN>
-        <RarityRange MinimumCount="0" MaximumCount="100"/>
-        <GuarantedSkill Value="SKILL-DRAGON_BREATH"/>
-        <GuarantedSkill Value="SKILL-PUMPKIN_HELLFIRE"/>
-        <SkillGroupFilters>
-            <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
-        </SkillGroupFilters>
-    </SKILL_PACK-SUMMON_PUMPKIN>
 	
 	
 	<!--MORALE BONUS -->
@@ -2689,6 +2666,13 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-Q_ONLY_ZERCA_SKILL>
+	<SKILL_PACK-Q_NIGHT_POWER>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-NIGHT_POWER"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-Q_NIGHT_POWER>
 	
 
 	

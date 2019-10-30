@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Alphaclan" lastEventIndex="80" allowToUse="true" uniqueModuleID="1862270847">
   <Adventure name="OrcKillDwarf" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="57" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="825" image="Event016">
@@ -2974,14 +2974,14 @@ A huge orc woman approaches you with an iron rod.</nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="100" positionX="904" positionY="-1501" width="350" height="805">
+    <nodes xsi:type="NodeAdventure" ID="100" positionX="885" positionY="-1492" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction>
             <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="50" tag="TAG-LOYALTY_ALPHA_CLANS" />
           </LogicResultAction>
           <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_TurnBelowTag" tag="TAG-PET_ORC1" />
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualTag" tag="TAG-PET_ORC1" />
           </LogicResultAction>
         </FilterBlock>
         <ModifierBlock>
@@ -2990,10 +2990,10 @@ A huge orc woman approaches you with an iron rod.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="See the bloodtrackers, they train with wolves and more." ownerID="100" targetID="101" fromX="1229" fromY="-1992" />
-      <outputs name="Go see a witch to train familiars." ownerID="100" targetID="102" fromX="1229" fromY="-2072" />You go searching for pet trainers.</nodes>
+      <outputs name="See the bloodtrackers, they train with wolves and more." ownerID="100" targetID="101" fromX="1210" fromY="-1983" />
+      <outputs name="Go see a witch to train familiars." ownerID="100" targetID="102" fromX="1210" fromY="-2063" />You go searching for pet trainers.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="101" positionX="1313" positionY="-1559" width="350" height="530" linkedEventUniqueID="78" />
-    <nodes xsi:type="NodeAdventureEnd" ID="102" positionX="1336" positionY="-2123" width="350" height="530" linkedEventUniqueID="79" />
+    <nodes xsi:type="NodeAdventureEnd" ID="102" positionX="1343" positionY="-2128" width="350" height="530" linkedEventUniqueID="79" />
     <nodes xsi:type="NodeDealDamage" ID="103" positionX="-975" positionY="-3672" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="30" useCountInPercent="true" targetGroup="chosen">
       <outputs ownerID="103" targetID="91" fromX="-545" fromY="-4060" />
     </nodes>

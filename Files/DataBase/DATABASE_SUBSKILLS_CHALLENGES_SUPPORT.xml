@@ -1817,7 +1817,7 @@
 			<MainAtt Amount="1.4" Tag="TAG-INTELLIGENCE"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-RETALIATION_DMG_INT>
-	<SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST Delay="0.0" Animation="Hit1" Sound="SubskillRetaliationCA1">
+	<SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST Delay="0.0" Animation="Explosion1" Sound="SubskillRetaliationCA1">
 		<DescriptionInfo Name="DES_SUBSKILL_RETALIATION_DMG_DEST" Description="DES_SUBSKILL_RETALIATION_DMG_DEST_DES" IconName="SubskillRetaliationCA1"/>
 		<ShortInfo TriggerIcon="TAG-TRIGGER_ON_DAMAGE" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_ATTACKER" AttackInfo="{SCRIPT:SI_Damage}"/>
 		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
@@ -1830,6 +1830,7 @@
 		</Targets>
 		<Activation ScriptName="Act_Damage"/>
 		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeMental"/>
 		<ChallengeType Value="TypeSpirit"/>
 		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
 			<MainAtt Amount="0.0" Tag="TAG-DESTINY"/>
@@ -2443,6 +2444,76 @@
 			<MainAtt Amount="1.6" Tag="TAG-MYSTICISM"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-SUMMON_WRAITH>
+	<SUBSKILL-SUMMON_UNLI_ANCESTOR_WRAITHS_HORD Delay="0.0" Animation="Spell2" Sound="SubskillSummonDemon">
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_SUMMON_ONCE" TargetIcon="TAG-TARGET_EMPTY_ALLY_MELEE_SLOT" AttackInfo="{SCRIPT:SI_SummonX5}"/>
+		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_ANCESTOR_WRAITH" Description="DES_SUBSKILL_SUMMON_PET_WRAITH_DES" IconName="SubskillSummonDemon"/>
+		<Trigger Priority="20" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="OnCardPlay"/>
+			<TriggerScript ScriptName="Tri_OnOwnEffectDefault"/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_OwnFreeMeleePositionsSummonNotOnBF"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="5" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_Summon"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeMental"/>
+		<ChallengeType Value="TypeSpirit"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-SUMMON_UNLI_ANCESTOR_WRAITH"/>
+			<SubskillAttribute Identifier="SummonLevel" AttributeFloatValue="1"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.9"/> <!--hp 12/10 dmg 5-->
+			<SubskillAttribute Identifier="TypeMental" AttributeFloatValue="1.8"/> <!--hp 13 dmg 5 -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.6"/> <!--hp 8/16 dmg 11 -->
+			<MainAtt Amount="0.4" Tag="TAG-MYSTICISM"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-SUMMON_UNLI_ANCESTOR_WRAITH"/>
+			<SubskillAttribute Identifier="SummonLevel" AttributeFloatValue="1"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="2.8"/> <!--hp 12/10 dmg 5-->
+			<SubskillAttribute Identifier="TypeMental" AttributeFloatValue="2.5"/> <!--hp 13 dmg 5 -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="3.6"/> <!--hp 8/16 dmg 11 -->
+			<MainAtt Amount="0.5" Tag="TAG-MYSTICISM"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-SUMMON_UNLI_ANCESTOR_WRAITH"/>
+			<SubskillAttribute Identifier="SummonLevel" AttributeFloatValue="1"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="2.8"/> <!--hp 16/13 dmg 7-->
+			<SubskillAttribute Identifier="TypeMental" AttributeFloatValue="2.4"/> <!--hp 17 dmg 7 -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="3.5"/> <!--hp 10/21 dmg 14 -->
+			<MainAtt Amount="0.6" Tag="TAG-MYSTICISM"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-SUMMON_UNLI_ANCESTOR_WRAITH"/>
+			<SubskillAttribute Identifier="SummonLevel" AttributeFloatValue="1"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="2.7"/> <!--hp 19/16 dmg 8-->
+			<SubskillAttribute Identifier="TypeMental" AttributeFloatValue="2.4"/> <!--hp 21 dmg 8 -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="3.7"/> <!--hp 12/26 dmg 17 -->
+			<MainAtt Amount="0.7" Tag="TAG-MYSTICISM"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-SUMMON_UNLI_ANCESTOR_WRAITH"/>
+			<SubskillAttribute Identifier="SummonLevel" AttributeFloatValue="1"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="2.6"/> <!--hp 22/18 dmg 9-->
+			<SubskillAttribute Identifier="TypeMental" AttributeFloatValue="2.3"/> <!--hp 23 dmg 9 -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="3.5"/> <!--hp 14/29 dmg 19 -->
+			<MainAtt Amount="0.8" Tag="TAG-MYSTICISM"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-SUMMON_UNLI_ANCESTOR_WRAITH"/>
+			<SubskillAttribute Identifier="SummonLevel" AttributeFloatValue="1"/>
+			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
+			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="2.5"/> <!--hp 25/20 dmg 11-->
+			<SubskillAttribute Identifier="TypeMental" AttributeFloatValue="2.4"/> <!--hp 27 dmg 11 -->
+			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="3.4"/> <!--hp 16/33 dmg 22 -->
+			<MainAtt Amount="0.9" Tag="TAG-MYSTICISM"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SUMMON_UNLI_ANCESTOR_WRAITHS_HORD>
 	<SUBSKILL-SUMMON_UNLIVING Delay="0.0" Animation="Spell2" Sound="SubskillSummonUnliving">
 		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_UNLIVING" Description="DES_SUBSKILL_SUMMON_UNLIVING_DES" IconName="SubskillSummonUnliving"/>
 		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_SUMMON_ONCE" TargetIcon="TAG-TARGET_EMPTY_ALLY_MELEE_SLOT" AttackInfo="{SCRIPT:SI_SummonX2}"/>
@@ -3529,56 +3600,5 @@
 			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-SUMMON_PET_SPIDER_SPITTING>
-	<SUBSKILL-SUMMON_PET_PUMPKIN Delay="0.0" Animation="Spell2" Sound="Placeholder">
-		<DescriptionInfo Name="DES_SUBSKILL_SUMMON_PET_PUMPKIN" Description="DES_SUBSKILL_SUMMON_PET_PUMPKIN_DES" IconName="Placeholder"/>
-		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_SUMMON_ONCE" TargetIcon="TAG-TARGET_EMPTY_ALLY_SLOT" AttackInfo="{SCRIPT:SI_SummonX1}"/>
-		<Trigger Priority="20" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
-			<TriggerGroup Value="DoCastInstant"/>
-			<TriggerScript ScriptName=""/>
-		</Trigger>
-		<Targets>
-			<TargetScript ScriptName="Trg_OwnFreePositionsSummonOnBF"/>
-			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen"/>
-		</Targets>
-		<Activation ScriptName="Act_Summon"/>
-		<ChallengeType Value="TypePhysical"/>
-		<ChallengeType Value="TypeSpirit"/>
-		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
-			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VWEAK"/>
-			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
-			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.4"/> <!--hp 0 dmg 0-->
-			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.4"/> <!--hp 0 dmg 0-->
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
-			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VWEAK"/>
-			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
-			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.9"/> <!--hp 7 dmg 3+ -->
-			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.9"/> <!--hp 7 dmg 3+ -->
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
-			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_WEAK"/>
-			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
-			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="0.9"/> <!--hp 8 dmg 3+ -->
-			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="0.9"/> <!--hp 8 dmg 3+ -->
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
-			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN"/>
-			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
-			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.0"/> <!--hp 9 dmg 3+ -->
-			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.0"/> <!--hp 9 dmg 3+ -->
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
-			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_STRONG"/>
-			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
-			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.0"/> <!--hp 9 dmg 4+ -->
-			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.0"/> <!--hp 9 dmg 4+ -->
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
-			<SubskillAttribute Identifier="Summon" AttributeStringValue="SUBRACE-PET_PUMPKIN_VSTRONG"/>
-			<SubskillAttribute Identifier="SummonEquipment" AttributeFloatValue="0"/>
-			<SubskillAttribute Identifier="TypePhysical" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
-			<SubskillAttribute Identifier="TypeSpirit" AttributeFloatValue="1.1"/> <!--hp 10 dmg 5+ -->
-		</SubskillAttributesOnLevel>
-	</SUBSKILL-SUMMON_PET_PUMPKIN>
 
 </SUBSKILLS_CHALLENGES>

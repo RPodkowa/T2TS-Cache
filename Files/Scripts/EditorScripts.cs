@@ -2989,6 +2989,11 @@ namespace GameScript
         {
             ChangeSubrace(advData, modificationData, node, true);
         }
+        [ScriptAttribute(typeof(Subrace))]
+        static public void FMO_UpgradeToSubraceHalfReset(NOAdventureStatus status, AdventureEventData advData, LogicModifier modificationData, AdvNode node)
+        {
+            ChangeSubrace(advData, modificationData, node, true, true);
+        }
         static public void FMO_SetGlobalVariable(NOAdventureStatus status, AdventureEventData advData, LogicModifier modificationData, AdvNode node)
         {
 
@@ -3166,7 +3171,7 @@ namespace GameScript
 
             return list;
         }
-        static public void ChangeSubrace(AdventureEventData advData, LogicModifier modificationData, AdvNode node, bool keepLevel)
+        static public void ChangeSubrace(AdventureEventData advData, LogicModifier modificationData, AdvNode node, bool keepLevel, bool halfReset = false)
         {
 
             DBClass t = Globals.GetInstanceFromDB(modificationData.scriptCallWithTag.tag);
@@ -3195,7 +3200,7 @@ namespace GameScript
                         c.attributes.SetBaseTo(growUp, FInt.ZERO);
 
                         // change subrace
-                        c.UpgradeSubraceTo(t as Subrace, keepLevel);
+                        c.UpgradeSubraceTo(t as Subrace, keepLevel, halfReset);
 
                         AdventureEventDataChange a = new AdventureEventDataChange();
                         a.GatherReferenceInfo(c);

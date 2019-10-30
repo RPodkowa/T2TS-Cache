@@ -795,7 +795,7 @@
 	<!-- PHYSICAL SPIRIT -->
 	<SUBSKILL-GROUND_SHAKING Delay="9.5" Animation="Explosion3" Sound="SubskillGroundShaking">
 		<DescriptionInfo Name="DES_SUBSKILL_GROUND_SHAKING" Description="DES_SUBSKILL_GROUND_SHAKING_DES" IconName="SubskillGroundShaking"/>
-		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ATTACK_RANGED" DamageIcon="TAG-DAMAGE_NORMAL_STUN" TargetIcon="TAG-TARGET_ALL_PLAYED_ENEMY" AttackInfo="{SCRIPT:SI_StunDamage}"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ALTERNATE_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL_STUN" TargetIcon="TAG-TARGET_ALL_PLAYED_ENEMY" AttackInfo="{SCRIPT:SI_StunDamage}"/>
 		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="TRUE">
 			<TriggerGroup Value="DoAlternateAttack"/>
 			<TriggerScript ScriptName=""/>
@@ -1065,46 +1065,6 @@
 			<MainAtt Amount="5.5" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-ESSENCE_TRUE_DMG_BITE>
-	<SUBSKILL-MIGHTY_ROAR Delay="5.0" Animation="AncestorsVoice" Sound="SubskillMightyRoar">
-		<DescriptionInfo Name="DES_SUBSKILL_MIGHTY_ROAR" Description="DES_SUBSKILL_MIGHTY_ROAR_DES" IconName="SubskillMightyRoar"/>
-			<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ALTERNATE_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL_STUN" TargetIcon="TAG-TARGET_BATTLEFIELD_WITHOUT_CASTER" AttackInfo="{SCRIPT:SI_StunDamage}"/>
-		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
-			<TriggerGroup Value="DoAlternateAttack"/>
-			<TriggerScript ScriptName=""/>
-		</Trigger>
-		<Targets>
-			<TargetScript ScriptName="Trg_AllBattlefieldPositionsExceptCaster"/>
-			<TargetCountRange MinimumCount="1" MaximumCount="99" TargetIndication="Random"/>
-		</Targets>
-		<Activation ScriptName="Act_DamageAndStun"/>
-		<ChallengeType Value="TypePhysical"/>
-		<ChallengeType Value="TypeMental"/>
-		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
-			<MainAtt Amount="0.0" Tag="TAG-CA_1"/>
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="0.0"/>
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
-			<MainAtt Amount="1.2" Tag="TAG-CA_1"/>
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="4.0"/>
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
-			<MainAtt Amount="1.5" Tag="TAG-CA_1"/>
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="6.0"/>
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
-			<MainAtt Amount="1.9" Tag="TAG-CA_1"/>
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="8.0"/>
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
-			<MainAtt Amount="2.4" Tag="TAG-CA_1"/>
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="10.0"/>
-		</SubskillAttributesOnLevel>
-		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
-			<MainAtt Amount="2.9" Tag="TAG-CA_1"/>
-			<SubskillAttribute Identifier="Stun" AttributeFloatValue="13.0"/>
-		</SubskillAttributesOnLevel>
-	</SUBSKILL-MIGHTY_ROAR>
-
 	
 	<!-- PHYSICAL MENTAL -->
 	<SUBSKILL-POISON_THROWING_DAGGER Delay="0.5" Animation="Hit6" Sound="SubskillPoisonThrowingDagger">
@@ -1284,7 +1244,7 @@
 			<MainAtt Amount="3.4" Tag="TAG-DESTINY"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-FROGS_RAIN>
-	<SUBSKILL-ILUSION_BITE Delay="4.0" Animation="BloodyHit1" Sound="SubskillBite">
+	<SUBSKILL-ILLUSION_BITE Delay="4.0" Animation="BloodyHit1" Sound="SubskillBite">
 		<DescriptionInfo Name="DES_SUBSKILL_ILLUSION_BITE" Description="DES_SUBSKILL_ILLUSION_BITE_DES" IconName="SubskillBite"/>
 		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ATTACK_MELEE" DamageIcon="TAG-DAMAGE_TRUE_ESSENCE" TargetIcon="TAG-TARGET_SINGLE_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Damage}"/>
 		<Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
@@ -1316,7 +1276,47 @@
 		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
 			<MainAtt Amount="3.2" Tag="TAG-WISDOM"/>
 		</SubskillAttributesOnLevel>
-	</SUBSKILL-ILUSION_BITE>
+	</SUBSKILL-ILLUSION_BITE>
+	<SUBSKILL-MIGHTY_ROAR Delay="5.0" Animation="AncestorsVoice" Sound="SubskillMightyRoar">
+		<DescriptionInfo Name="DES_SUBSKILL_MIGHTY_ROAR" Description="DES_SUBSKILL_MIGHTY_ROAR_DES" IconName="SubskillMightyRoar"/>
+			<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ALTERNATE_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL_STUN" TargetIcon="TAG-TARGET_BATTLEFIELD_WITHOUT_CASTER" AttackInfo="{SCRIPT:SI_StunDamage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="DoAlternateAttack"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_AllBattlefieldPositionsExceptCaster"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="99" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="Act_DamageAndStun"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeMental"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-CA_1"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+			<MainAtt Amount="1.2" Tag="TAG-CA_1"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="4.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+			<MainAtt Amount="1.5" Tag="TAG-CA_1"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+			<MainAtt Amount="1.9" Tag="TAG-CA_1"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+			<MainAtt Amount="2.4" Tag="TAG-CA_1"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="10.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+			<MainAtt Amount="2.9" Tag="TAG-CA_1"/>
+			<SubskillAttribute Identifier="Stun" AttributeFloatValue="13.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-MIGHTY_ROAR>
+
 	
 	<!-- PHYSICAL -->
 	<SUBSKILL-THROW Delay="7.5" Animation="Explosion3" Sound="SubskillThrow">

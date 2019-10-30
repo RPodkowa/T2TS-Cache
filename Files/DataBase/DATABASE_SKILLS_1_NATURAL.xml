@@ -106,15 +106,6 @@
 		<SkillSubskill Value="SUBSKILL-SUMMON_ON_NAIYSIR"/>
 		<SkillGroupFilter Value="ClassNaiysir"/>
 	</SKILL-SEEDS_GROW>
-	<SKILL-PUMPKIN_HELLFIRE Rarity="20">
-		<DescriptionInfo Name="DES_SKILL_PUMPKIN_HELLFIRE" Description="DES_SKILL_PUMPKIN_HELLFIRE_DES" IconName="Placeholder"/>
-		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
-		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_P"/>
-		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_S"/>
-		<SkillSubskill Value="SUBSKILL-CONST_VVSTRONG_MULTI_SUB_MAX_HEALTH_M"/>
-		<SkillSubskill Value="SUBSKILL-HELLFIRE_RETALIATION_DMG_DEST"/>
-		<SkillGroupFilter Value="PetPumpkin"/>
-	</SKILL-PUMPKIN_HELLFIRE>
 
 
 	<!--CONCEPT -->
@@ -186,8 +177,7 @@
 		<SkillSubskill Value="SUBSKILL-MULTI_STRONG_ADD_WITS"/>
 		<SkillSubskill Value="SUBSKILL-MULTI_WEAK_ADD_PERCEPTION"/>
 		<SkillSubskill Value="SUBSKILL-HEAL_ON_DMG"/>
-		<SkillSubskill Value="SUBSKILL-CONST_WEAK_SUB_PERSONAL_CARRY"/>
-		<SkillSubskill Value="SUBSKILL-REDUCE_PERSONAL_CARRY_LIMIT"/>
+		<SkillSubskill Value="SUBSKILL-REDUCE_ELF_CHILD_PERSONAL_CARRY_LIMIT"/>
 		<SkillGroupFilter Value="Race"/>
 		<SkillGroupFilter Value="RaceElves"/>
 	</SKILL-RACE_ELVES_CHILD>
@@ -195,12 +185,11 @@
 		<DescriptionInfo Name="DES_SKILL_RACE_ELVES_WEAK" Description="DES_SKILL_RACE_ELVES_DES" IconName="SkillRaceElves"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_MOVEMENT"/>
-		<SkillSubskill Value="SUBSKILL-MULTI_STRONG_ADD_WITS"/>
-		<SkillSubskill Value="SUBSKILL-MULTI_WEAK_ADD_PERCEPTION"/>
+		<SkillSubskill Value="SUBSKILL-MULTI_ADD_WITS"/>
+		<SkillSubskill Value="SUBSKILL-MULTI_VWEAK_ADD_PERCEPTION"/>
 		<SkillSubskill Value="SUBSKILL-HEAL_ON_DMG"/>
 		<SkillSubskill Value="SUBSKILL-CONST_WEAK_SUB_PERSONAL_CARRY"/>
 		<SkillSubskill Value="SUBSKILL-ANCESTOR_VOICE"/>
-		<SkillSubskill Value="SUBSKILL-REDUCE_PERSONAL_CARRY_LIMIT"/>
 		<SkillGroupFilter Value="Race"/>
 		<SkillGroupFilter Value="RaceElves"/>
 	</SKILL-RACE_ELVES_WEAK>
@@ -386,4 +375,6 @@
 		<SkillGroupFilter Value="Race"/>
 		<SkillGroupFilter Value="RaceDarknessChildren"/>
 	</SKILL-RACE_DARKNESS_CHILDREN_MENAVCA>
+	
+
 </SKILLS_1_NATURAL>

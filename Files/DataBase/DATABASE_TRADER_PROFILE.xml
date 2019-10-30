@@ -40,29 +40,57 @@
 		<CancelLock Value="FALSE"/>
         <BuingValueModify ScriptName="Tbv_TradeDefaultBuying"/>
 		<SellingValueModify ScriptName="Tsv_Trade2XSelling"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_FOOD"/>
 		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
 		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
 		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_PACK_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_HORDE_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_HORDE_FOOD"/>
 	</TRADER-COOKER>
 	
 	<TRADER-COOKER_FRIENDLY>
 		<CancelLock Value="FALSE"/>
         <BuingValueModify ScriptName="Tbv_TradeFriendlyBuying"/>
 		<SellingValueModify ScriptName="Tsv_Trade2XSelling"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_HORDE_FOOD"/>
 		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
 		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
 		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_PACK_FOOD"/>
-		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_PACK_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_HORDE_FOOD"/>
+		<TradeableItems Value="ITEM_CARGO-BASIC_COOKED_HORDE_FOOD"/>
 	</TRADER-COOKER_FRIENDLY>
+	
+	<TRADER-DOG>
+		<CancelLock Value="FALSE"/>
+        <BuingValueModify ScriptName="Tbv_TradeDefaultBuying"/>
+		<SellingValueModify ScriptName="Tsv_Trade2XSelling"/>
+		<TradeableItems Value="ITEM_CARGO-ADV_ONE_PET_DOG"/>
+		<TradeableItems Value="ITEM_CARGO-STRONG_ONE_PET_DOG"/>
+		<TradeableItems Value="ITEM_CARGO-RARE_ONE_PET_HORSE"/>
+		<TradeableItems Value="ITEM_CARGO-ADV_ONE_PET_HORSE"/>
+		<TradeableItems Value="ITEM_CARGO-STRONG_ONE_PET_HORSE"/>
+		<TradeableItems Value="ITEM_CARGO-RARE_ONE_PET_DOG"/>
+	</TRADER-DOG>
+	
+	<TRADER-WOOD>
+		<CancelLock Value="FALSE"/>
+        <BuingValueModify ScriptName="Tbv_TradeDefaultBuying"/>
+		<SellingValueModify ScriptName="Tsv_Trade2XSelling"/>
+		<TradeableItems Value="ITEM_CARGO-HORDE_ADV_WOOD"/>
+		<TradeableItems Value="ITEM_CARGO-HORDE_ADV_WOOD"/>
+		<TradeableItems Value="ITEM_CARGO-HORDE_ADV_WOOD"/>
+		<TradeableItems Value="ITEM_CARGO-HORDE_ADV_WOOD"/>
+		<TradeableItems Value="ITEM_CARGO-HORDE_ADV_WOOD"/>
+		<TradeableItems Value="ITEM_CARGO-HORDE_ADV_WOOD"/>
+		<TradeableItems Value="ITEM_CARGO-ADV_ONE_AXE_1H"/>
+		<TradeableItems Value="ITEM_CARGO-STRONG_ONE_AXE_1H"/>
+		<TradeableItems Value="ITEM_CARGO-ADV_ONE_AXE_2H"/>
+		<TradeableItems Value="ITEM_CARGO-STRONG_ONE_AXE_2H"/>
+	</TRADER-WOOD>
 	
 	
 	<TRADER-BANDIT>
