@@ -1,0 +1,3393 @@
+-- [EVENT] --SpiritKillShelf(0)
++[NODE]2
+[STORY]
+[10524] Znajdziesz miejsce, w którym osiedlili się intruzi. Jest to mały, ale gęsty gaj. 
+
+Widzisz pewne oznaki obecności humanoidów.
+[/STORY]
+[OUT][10525] [Łowca lub percepcja] Śledź intruzów.
+[OUT][216] Przeszukajcie miejsce.
+[OUT][216] Przeszukajcie miejsce.
+[OUT][217] Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10526] Śledzisz intruzów w małej jaskini. W tobie dostrzegasz jakiś ruch i tylko z czasem zdajesz sobie sprawę, że są elfami cieni, które nerwowo podchodzą do siebie. 
+
+Na szczęście dla ciebie wydaje się, że jest tylko kilka z bronią w pogotowiu.
+[/STORY]
+[OUT][10527] Otaczaj cienie i poznaj swoją obecność.
+[OUT][220] Macie przewagę. Do ataku!
+[/NODE]
+
++[NODE]4
+[STORY]
+[10528] Jesteś zasadzka przez elfy cienia!
+[/STORY]
+[OUT][183] Walka!
+[OUT][222] Spróbujcie uciec.
+[/NODE]
+
++[NODE]5
+[STORY]
+[10529] Przeszukujesz miejsce i wreszcie dostrzegasz niektóre elfy cienia. Niestety, oni też cię zauważają, więc nie masz zbyt wiele czasu, aby zdecydować, co robić.
+[/STORY]
+[OUT][10530] Zatrzymaj się, podnieś ręce i powiedz, że nie chcesz walczyć, po prostu powiedz im, że muszą odejść, ponieważ gobliny nie chcą ich tutaj.
+[OUT][10531] [Siła] Spróbuj zastraszyć się i powiedz im, żeby go pokonali!
+[OUT][10] Atak!
+[OUT][10532] [Cień elf] Zapytaj swojego krewnego, dlaczego tu są, gdzie nie są pożądani.
+[/NODE]
+
++[NODE]16
+[STORY]
+[10533] Jesteś ciężko pobity, a gobliny muszą przyjść ci z pomocą. Twoja pomoc nie robi na nich wrażenia.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[10534] „Odwiedzaliśmy jedynie miejsca mocy, w których jeszcze ciemność mieszka. Gobliny są naturalnie odporne na to, więc często osiedlają się w tych dziwnych ciemnych plamach wypełnionych mistyczną energią. 
+
+Nie jesteśmy tutaj, aby dyskutować z małymi ludźmi. W każdym razie chcemy zebrać tylko część siły. Wkrótce się ruszymy.' 
+[/STORY]
+[OUT][10535] [Magiczny użytkownik lub magia] Zapytaj, czy możesz oglądać ich rytuały, a może nawet pomagać sobie nawzajem.
+[OUT][10536] Zgódź się, aby pozwolić im pozostać i dokończyć rytuały, jeśli obiecują, że gobliny nie przyniosą żadnej szkody.
+[OUT][10537] Nalegaj, aby odeszli w ciągu jednego dnia, niezależnie od tego. To nie jest ich ziemia. 
+[OUT][10538] [Goblin] Kim oni nazywają małego ludu ?!
+[/NODE]
+
++[NODE]20
+[STORY]
+[10539] „Tak, możesz.'
+
+Dołączasz do elfów cienia, wykonując rytualny taniec wielu cieni. Gdy poruszają się w całkowitej ciszy, ich ciała stają się jednością z ciemnością, a ty czujesz, że energia i mistyczne siły ciemności płyną swobodnie, ale pod kontrolą. 
+
+Cienie w końcu znikają, ale ty również czujesz, że ich rytuał dotyka cię.
+[/STORY]
+[OUT][316] Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+[10540] „Przybyliśmy tutaj z zadaniem, a my nie wyjdziemy. Przepadnij.'
+[/STORY]
+[OUT][235] Zostawcie ich.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]26
+[STORY]
+[10541] Elfy cienia zatrzymują się na swoich ścieżkach i zamrażają, wpatrując się w ciebie. Wiesz, że większość z nich jest gotowa do walki, ale mówi się: 
+
+'Nie chcemy walczyć. Po prostu przechodzimy.'
+[/STORY]
+[OUT][10] Atak!
+[OUT][10532] [Cień elf] Zapytaj swojego krewnego, dlaczego tu są, gdzie nie są pożądani.
+[OUT][10542] [Elf] Żądaj, aby teraz odeszli. Są plagą twoich krewnych i przynoszą ciemność do owczarni.
+[OUT][10543] Powiedz im, że lud leśny nie chce, aby byli sąsiadami, i poproś ich, aby się przenieśli, teraz!
+[/NODE]
+
++[NODE]35
+[STORY]
+[10544] Elfy cienia odchodzą zgodnie z obietnicą. Gobliny są zadowolone z twojej rozdzielczości, a nawet zostawią ci prezent.
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[10545] Gobliny są zadowolone z twojej pomocy, a przynajmniej nie pokazują inaczej, i oferują niewielką nagrodę.
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[10546] Kiedy poinformujesz gobliny o swojej porażce, są rozczarowani twoimi wysiłkami. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]43
+[STORY]
+[10547] Zabijasz elfy cienia. 
+
+Gobliny są zadowolone, że ich problemy zniknęły. Zostawiają ci nagrodę.
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+[10534] „Odwiedzaliśmy jedynie miejsca mocy, w których jeszcze ciemność mieszka. Gobliny są naturalnie odporne na to, więc często osiedlają się w tych dziwnych ciemnych plamach wypełnionych mistyczną energią. 
+
+Nie jesteśmy tutaj, aby dyskutować z małymi ludźmi. W każdym razie chcemy zebrać tylko część siły. Wkrótce się ruszymy.' 
+[/STORY]
+[OUT][10535] [Magiczny użytkownik lub magia] Zapytaj, czy możesz oglądać ich rytuały, a może nawet pomagać sobie nawzajem.
+[OUT][10536] Zgódź się, aby pozwolić im pozostać i dokończyć rytuały, jeśli obiecują, że gobliny nie przyniosą żadnej szkody.
+[OUT][10537] Nalegaj, aby odeszli w ciągu jednego dnia, niezależnie od tego. To nie jest ich ziemia. 
+[OUT][10538] [Goblin] Kim oni nazywają małego ludu ?!
+[/NODE]
+
++[NODE]54
+[STORY]
+[10548] „Nie miałem na myśli obrazy, przeprosiny. W każdym razie chcemy zebrać tylko część siły. Wkrótce się ruszymy.'
+[/STORY]
+[OUT][10549] [Elf lub goblin] Wkrótce dla elfa, a wkrótce dla zwykłego ludu?
+[/NODE]
+
++[NODE]55
+[STORY]
+[10550] „Nie możemy w pełni spełnić takiej obietnicy, ponieważ nasze przejęcie władzy może przeszkadzać twoim przyjaciołom, ale nie powinno im to zaszkodzić.'
+[/STORY]
+[OUT][10551] Pozwól im kontynuować.
+[OUT][10537] Nalegaj, aby odeszli w ciągu jednego dnia, niezależnie od tego. To nie jest ich ziemia. 
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]56
+[STORY]
+[10552] Elfy cienia pozostają i wykonują swoje mroczne rytuały. Niestety, gobliny są wściekłe, ponieważ duchy w okolicy są źle skrzywdzone, podobnie jak niektórzy szamani!
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]57
+[STORY]
+[10553] „Wkrótce.'
+[/STORY]
+[OUT][10535] [Magiczny użytkownik lub magia] Zapytaj, czy możesz oglądać ich rytuały, a może nawet pomagać sobie nawzajem.
+[OUT][10536] Zgódź się, aby pozwolić im pozostać i dokończyć rytuały, jeśli obiecują, że gobliny nie przyniosą żadnej szkody.
+[OUT][10537] Nalegaj, aby odeszli w ciągu jednego dnia, niezależnie od tego. To nie jest ich ziemia. 
+[/NODE]
+
++[NODE]58
+[STORY]
+[10554] „Po prostu idź? Bo pytasz. . . Zrobimy to, jeśli pozwolisz nam osuszyć trochę twojego ducha. Nie zajmiemy dużo, ale jesteśmy osłabieni, więc musimy wziąć trochę.'
+[/STORY]
+[OUT][1644] Zgadzacie się. 
+[OUT][10536] Zgódź się, aby pozwolić im pozostać i dokończyć rytuały, jeśli obiecują, że gobliny nie przyniosą żadnej szkody.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]63
+[STORY]
+[10555] „Jesteś mały i jesteś ludźmi - to dokładny opis, nie? W każdym razie, jak powiedziałem, nie mamy na myśli kłopotów.'
+[/STORY]
+[OUT][10535] [Magiczny użytkownik lub magia] Zapytaj, czy możesz oglądać ich rytuały, a może nawet pomagać sobie nawzajem.
+[OUT][10536] Zgódź się, aby pozwolić im pozostać i dokończyć rytuały, jeśli obiecują, że gobliny nie przyniosą żadnej szkody.
+[OUT][10537] Nalegaj, aby odeszli w ciągu jednego dnia, niezależnie od tego. To nie jest ich ziemia. 
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritKillsmallGhost(1)
++[NODE]2
+[STORY]
+[10556] Znajdujesz nawiedzone drzewo i odkrywasz niektóre wędrujące duchy rzucające się ze złością. 
+
+Na razie wydają się związani z drzewem, ale czujesz, że ich energia wylewa się z tej granicy.
+[/STORY]
+[OUT][10] Atak!
+[OUT][10557] [Magiczny użytkownik] Wykonaj rytuał, aby zniszczyć te duchy.
+[OUT][10558] [Lasowy lud lub przyroda] Dobrze znasz las. Medytuj i daj siłę drzewu, aby mogło pożreć te duchy. 
+[OUT][10559] [Szaman lub duch] Porozmawiaj z duchami i przekonaj ich, aby się uspokoili i znaleźli sposób, by odejść w spokoju.
+[OUT][10560] [Szaman] Stań twarzą w twarz z duchami w walce o duch i spróbuj wysłać ich bezpiecznie do świata szarych.
+[OUT][10561] [Postrzeganie] Zbadaj dalej to miejsce.
+[OUT][10562] [Duch] Wejdź sam i porozmawiaj z krewnymi.
+[OUT][10562] [Duch] Wejdź sam i porozmawiaj z krewnymi.
+[OUT][10562] [Duch] Wejdź sam i porozmawiaj z krewnymi.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10563] Tworzysz okrąg i łączysz swojego ducha z duchem drzewa. 
+
+Las może teraz zniszczyć te duchy, chociaż nie będzie to łatwe dla duchów. 
+
+Będziesz musiał oddać trochę własnego ducha, aby ukończyć rytuał. 
+
+[/STORY]
+[OUT][470] Zabijcie te, które pozostały w nienaruszonym stanie. Atak!
+[OUT][10564] Nadal pomagaj drzewu i daj swojemu duchowi zdrowie.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]9
+[STORY]
+[10565] Podchodzisz do swoich krewnych i kwestionujesz ich niesforne sposoby. Mówisz o niebezpieczeństwie niewłaściwego zachowania tak blisko goblińskich szamanów, którzy mogą zniszczyć duchy, jeśli chcą. 
+
+Duchy wyjaśniają, że ciemny przedmiot trzyma je tutaj i rozgniewa. Jako przebudzony duch zabierasz obiekt i twoi krewni mogą teraz spokojnie odejść.
+[/STORY]
+[OUT][3665] Zgłoś swój sukces.
+[/NODE]
+
++[NODE]10
+[STORY]
+[10566] Podchodzisz do swoich krewnych i kwestionujesz ich niesforne sposoby. Mówisz o niebezpieczeństwie niewłaściwego zachowania tak blisko goblińskich szamanów, którzy mogą zniszczyć duchy, jeśli chcą. 
+
+Ale duchy są wzburzone i ledwo mogą z tobą rozmawiać. Zamieniają się w upiory. Warkają na ciebie i grożą atakiem.
+[/STORY]
+[OUT][6868] Spróbuj odejść spokojnie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10567] Podchodzisz do swoich krewnych i kwestionujesz ich niesforne sposoby. Mówisz o niebezpieczeństwie niewłaściwego zachowania tak blisko goblińskich szamanów, którzy mogą zniszczyć duchy, jeśli chcą. 
+
+Duchy błagają cię, abyś został z nimi i pokazał im właściwą drogę.
+[/STORY]
+[OUT][10568] Zgadzam się wziąć na siebie odpowiedzialność. [Stracić jednego ducha]
+[OUT][10569] Nie pozwól swojemu przyjacielowi odejść!
+[/NODE]
+
++[NODE]18
+[STORY]
+[10570] Twój rytuał działa, a duchy zostają zniszczone. 
+
+Ale kiedy zgłosicie się do ludu goblinów, są niezadowoleni z waszych prymitywnych sposobów, twierdząc, że okazywanie takiego braku szacunku wobec duchów będzie im przysparzało kłopotów. 
+[/STORY]
+[OUT][10571] Pojedynczy duch przeżył twoją czystkę i wydaje się zainteresowany tobą, ale nie agresywny. Podejdź do niego. 
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[10572] Samotny duch jest pod wrażeniem twojej mocy i chce do ciebie dołączyć. 
+[/STORY]
+[OUT][5783] Weź to i odejdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+[10573] Przeszukujesz gruzy i odkrywasz, że żyje jeszcze kilka pineconette. Większość rozprasza się w las, ale wydaje się, że chce zostać z tobą. 
+
+Jego oczy wydają się częściowo dotknięte dziwnym światłem - czy to tylko twój umysł, który gra sztuczki?
+[/STORY]
+[OUT][10574] Weź ze sobą pineconette.
+[OUT][10575] Światło jest nienaturalne, a demon z pewnością obawia się zarażenia. Zabij to szybko.
+[/NODE]
+
++[NODE]27
+[STORY]
+[10576] Ustawiasz pułapki i zabijasz większość pinekonów, które zamieniają się w biały popiół. Inni uciekają. 
+
+Na początku elfy są zrozpaczone twoją przemocą, ale kiedy badają zwłoki, zgadzają się, że może to był jedyny sposób.
+[/STORY]
+[OUT][6880] Wyszukaj miejsce dla ocalałych.
+[/NODE]
+
++[NODE]28
+[STORY]
+[10577] Duchy są wyzwalane i roi się od ciebie bez powodu. Gobliny muszą przyjść ci z pomocą i nie jesteś pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]39
+[STORY]
+[10578] Twój przyjaciel jest przygnębiony twoją decyzją i duchy znów się pobudzają.
+[/STORY]
+[OUT][6261] Spróbujcie wyjść.
+[/NODE]
+
++[NODE]49
+[STORY]
+[10579] Duchy uspokajają się i wyjaśniają, że ciemny przedmiot trzyma je tutaj i rozgniewa. Zabierasz przedmiot i teraz twoi krewni są w stanie spokojnie odejść. 
+
+Twoja domena jest zadowolona z pokojowego rozwiązania. 
+
+Gobliny dziękują i zostawiają nagrodę.
+[/STORY]
+[OUT][10571] Pojedynczy duch przeżył twoją czystkę i wydaje się zainteresowany tobą, ale nie agresywny. Podejdź do niego. 
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+[10580] Duchy uspokajają się i wyjaśniają, że ciemny przedmiot trzyma je tutaj i rozgniewa. Zabierasz przedmiot i teraz twoi krewni są w stanie spokojnie odejść. 
+
+Gobliny dziękują i zostawiają nagrodę.
+[/STORY]
+[OUT][10571] Pojedynczy duch przeżył twoją czystkę i wydaje się zainteresowany tobą, ale nie agresywny. Podejdź do niego. 
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]52
+[STORY]
+[10581] Podchodzisz bliżej i zauważasz, że pineconettes zachowują się dziwnie. Gdzie myślałeś, że po prostu są destrukcyjni, teraz widzisz, że ścigali jednego z nich i rozdzierają go!
+[/STORY]
+[OUT][10582] [Łowca] Spróbuj wkraść się i założyć pułapki, aby pozbyć się chorych demonów leśnych.
+[OUT][10583] [Lasowy lud] Wykorzystaj swoje powinowactwo do lasu, aby zawołać demony. Poproś las o pomoc!
+[OUT][10584] Atakuj pineconettes!
+[/NODE]
+
++[NODE]53
+[STORY]
+[10585] Gobliny są zadowolone i zostawiają niektóre prezenty dla twoich wysiłków.
+[/STORY]
+[OUT][10586] Jeden z duchów ociąga się. Podejdź do niego.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]56
+[STORY]
+[10587] Duchy cię biją i zmuszają do ucieczki. Gobliny muszą przyjść ci z pomocą i nie jesteś pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]57
+[STORY]
+[10588] Duchy są zniszczone, ale gobliny wydają się mniej niż szczęśliwe, ponieważ mówią, że to tylko tymczasowe rozwiązanie, jeśli chodzi o duchy. 
+
+Mimo to rozpoznają twoje wysiłki i zyskujesz przysługę.
+[/STORY]
+[OUT][10571] Pojedynczy duch przeżył twoją czystkę i wydaje się zainteresowany tobą, ale nie agresywny. Podejdź do niego. 
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]58
+[STORY]
+[10589] Elfy zostawiają niektóre prezenty dla twoich wysiłków.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]61
+[STORY]
+[10590] Niszczysz szalone pineconettes i zamieniają się w biały popiół. 
+
+Początkowo elfy są zrozpaczone twoją przemocą, ale kiedy widzą szczątki, zgadzają się, że być może to był jedyny sposób. 
+
+[/STORY]
+[OUT][6880] Wyszukaj miejsce dla ocalałych.
+[/NODE]
+
++[NODE]62
+[STORY]
+[10591] Widzisz, jak oczy szalejących paletek płoną jasnym światłem, światłem, które także pochłania ich delikatne ciała, a mimo to wciąż wściekają się, goniąc swoich braci, którzy wydają się normalni i nie chcą zaakceptować tego dziwnego światła. 
+
+[/STORY]
+[OUT][10592] Ciągle dzwoń do lasu.
+[/NODE]
+
++[NODE]65
+[STORY]
+[10593] Twój rytuał działa, a duchy zostają zniszczone. 
+
+Ale kiedy zgłosicie się do ludu goblinów, są niezadowoleni z waszych prymitywnych sposobów, twierdząc, że okazywanie takiego braku szacunku wobec duchów będzie im przysparzało wielu kłopotów. 
+
+Mimo to uznają twoje wysiłki i zyskujesz niewielką przysługę.
+[/STORY]
+[OUT][10571] Pojedynczy duch przeżył twoją czystkę i wydaje się zainteresowany tobą, ale nie agresywny. Podejdź do niego. 
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]66
+[STORY]
+[10594] Kiedy dzwonisz do lasu, odpowiada, a dziwne pineconettes w końcu przepalają się, zostawiając za sobą wdzięcznych ocalałych. 
+
+Kiedy pytasz ich, co się tutaj stało, nie wiedzą, tylko że światło próbowało je zabrać. 
+
+[/STORY]
+[OUT][10595] Pomóż im dołączyć do elfów we wsi.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritKillVily_(2)
++[NODE]2
+[STORY]
+[10596] Zbliżasz się do obszaru, gdzie mieszkają niegodziwi strażnicy lasu. 
+
+Widzisz ciemny, zamknięty gaj i wyczuwasz wiele obserwujących cię oczu.
+[/STORY]
+[OUT][10597] [Wood folk] Podejdź ostrożnie i spróbuj porozmawiać z leśnymi strażnikami.
+[OUT][10598] [Goblin Shaman] Poproś leśne duchy, aby powiedziały ci, co tu jest nie tak.
+[OUT][10599] [Harmonia] Przywołaj moc Harmonii, aby zaspokoić gniew tego starego ducha.
+[OUT][10600] [Natura] Zawołaj do swojej domeny, aby pokazać demonom leśnym, że jesteś po ich stronie.
+[OUT][10] Atak!
+[OUT][10601] Zaoferuj swoją własną energię duchową, aby uspokoić to stare stworzenie i zostawić je w spokoju. [Weź obrażenia duchowe]
+[OUT][217] Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10602] Z pewnością jest tu duch leśny. Mówi: 
+
+'Twierdzę, że to łatka lasu, więc najlepiej zaczynaj!'
+[/STORY]
+[OUT][10603] [Demon lasu] Wzywaj swoich braci i przypominaj im, że gobliny są także leśnymi przyjaciółmi i nie należy ich atakować bez powodu!
+[OUT][10603] [Demon lasu] Wzywaj swoich braci i przypominaj im, że gobliny są także leśnymi przyjaciółmi i nie należy ich atakować bez powodu!
+[OUT][10604] Zaangażuj strażników leśnych, by słuchali rozumu. Z pewnością gobliny nie zrobiły nic, by zasłużyć na atak.
+[OUT][10605] [Magiczny użytkownik] Ten strażnik leśny wydaje się nieco roztrzepany. Wejdź do królestwa duchów i walcz z nimi, abyś mógł wnieść sens do starego drewna.
+[OUT][10606] [Ork] Te leśne demony wymknęły się spod kontroli. Otocz je, posadź stosy w odpowiednich miejscach i spal je! Wyzwaniem będzie zrobić to wystarczająco szybko, ale wiesz, jak palić lasy.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]4
+[STORY]
+[10607] Duchy mówią ci, że vily są skażone dziwnym, płonącym światłem. To czyni je bardziej agresywnymi i niestabilnymi. 
+
+Duchy proponują uwięzić dusze Vily w królestwie duchów, ale będzie to oznaczać dla nich powolną i bolesną śmierć.
+[/STORY]
+[OUT][10608] Tak, zrób to. Nieuczciwy strażnik jest niebezpieczny dla lasu i zamieszkujących go duchów.
+[OUT][10597] [Wood folk] Podejdź ostrożnie i spróbuj porozmawiać z leśnymi strażnikami.
+[OUT][10609] Daj spokój. Poinformuj o tym gobliny. 
+[OUT][10] Atak!
+[OUT][10610] [Harmonia] Przywołaj moc Harmonii, aby zaspokoić gniew tego starego ducha.
+[OUT][10601] Zaoferuj swoją własną energię duchową, aby uspokoić to stare stworzenie i zostawić je w spokoju. [Weź obrażenia duchowe]
+[/NODE]
+
++[NODE]7
+[STORY]
+[10611] Strażnicy leśni słuchają i przyznają, że są zbyt ochraniający. Dziękuję ci za przypomnienie. 
+
+Gobliny są również wdzięczne za pokojowe rozwiązanie i zostawią ci prezent. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]13
+[STORY]
+[10612] Vily walczą z tobą i biją, gdy ich dusze są wciągane w pułapkę. 
+
+[/STORY]
+[OUT][2886] Idź dalej.
+[/NODE]
+
++[NODE]17
+[STORY]
+[10613] Stajesz twarzą w twarz w królestwie duchów i odkrywasz, że ich aury są skażone płonącym światłem, które pomagasz oczyścić. Strażnicy lasu dziękują i obiecują, że już więcej nie przeszkadzają goblinom. 
+
+Gobliny są bardzo wdzięczne za pokojowe rozwiązanie i zostawiają ci prezent. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10614] Gobliny są zafascynowane tym, co tu się działo, chociaż obawiają się brutalności twojego aktu i jego długofalowych skutków dla duchowego świata w tym obszarze. 
+
+Twoja przyjaźń nie rośnie tak bardzo, jak się spodziewałeś, ale wciąż jesteś nagradzany. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[10615] Dałeś swojego ducha strażnikom leśnym i oni odchodzą.
+[/STORY]
+[OUT][264] Dobrze.
+[OUT][264] Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+[10616] Niestety, tak jak zamierzasz zgłosić swoją udaną misję, dowiadujesz się, że vily powrócili na swoje miejsce i nadal nękali osadników. Muszą sobie radzić z samym sobą, więc twoja przyjaźń nie rośnie. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10617] Gobliny są wdzięczne za twoją ofiarę i pomoc. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]25
+[STORY]
+[10618] Niszczysz vily. Ale kiedy zgłosisz się do goblinów, nie są tak szczęśliwe, jak się spodziewałeś, mówiąc, że strażnicy leśni są najlepiej zachowani. Mimo to wykonałeś swoją pracę, a twoja przyjaźń trochę się powiększa. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10619] Jesteś pokonany. Gobliny słyszą twoje krzyki i przychodzą z pomocą. Muszą sami zabijać strażników leśnych i są źli, że muszą to robić.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[10620] Jesteś nieprzekonujący, a vily stay zostaje, postanowiony walczyć z goblinami.
+[/STORY]
+[OUT][270] Poddajcie się.
+[OUT][10601] Zaoferuj swoją własną energię duchową, aby uspokoić to stare stworzenie i zostawić je w spokoju. [Weź obrażenia duchowe]
+[OUT][10606] [Ork] Te leśne demony wymknęły się spod kontroli. Otocz je, posadź stosy w odpowiednich miejscach i spal je! Wyzwaniem będzie zrobić to wystarczająco szybko, ale wiesz, jak palić lasy.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]33
+[STORY]
+[10621] Zawodzisz, a gobliny słyszą twoje krzyki i przychodzą ci z pomocą. Muszą sami zabijać strażników leśnych i są źli, że muszą to robić.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[10622] Gobliny nie są zadowolone, że przekazujesz pracę. 
+
+Dziękuję za próbę, ale czujesz, że ich słowa są mniej niż szczere.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[10623] „Gobliny są cielesnym ludem, ty też im służysz, więc zapłacisz za cały lasowy ból!'
+
+Strażnicy lasu atakują cię, a gobliny muszą przyjść ci z pomocą. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]52
+[STORY]
+[10624] Vily słuchaj twoich słów i przytakuj w zgodzie. Obiecują, że nie sprawią kłopotów, jeśli gobliny pozostaną wierne lasom. 
+
+Gobliny są bardzo wdzięczne za pokojowe rozwiązanie i zostawiają ci prezent. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]55
+[STORY]
+[10625] Twój plan działa, a strażnicy leśni są zbyt wolni, by uciec przed płomieniami. 
+
+Jednak gobliny są przerażone zniszczeniem ich ziemi. Szepczą coś o orkowych bestiach robiących swoje typowe rzeczy. Twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]57
+[STORY]
+[10626] Duchy leśne wstydzą się siebie i nie mówią, po prostu odejdź spokojnie. 
+
+Gobliny są bardzo wdzięczne za pokojowe rozwiązanie i zostawiają ci prezent. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritKilladvWraith(3)
++[NODE]2
+[STORY]
+[10627] Znajdziesz mały cmentarz, na którym gobliny ostrzegały przed kłopotami duchowymi.
+[/STORY]
+[OUT][10628] [Magiczny użytkownik lub Magia] Niektóre ciemne magie mogą tu działać. Zbadać.
+[OUT][10629] Masz lud, który wie o nieżyjącym. Przyjrzyj się bliżej.
+[OUT][10630] [Natura lub Światło] Poprzez Naturę i Światło oczyść to miejsce z plugawej siły, która narusza prawa twoich bogów.
+[OUT][10] Atak!
+[OUT][10631] [Zerca] Te upiory są tu związane i zdajesz sobie sprawę, przez jaki rytuał. Wszystko, co musisz zrobić, to pogrzebać trochę srebra w ziemi i poświęcić jednego zwierzęcia, a upiory nie będą już więcej niepokoić goblinów. Zrób to.
+[OUT][217] Wróćcie później.
+[OUT][10632] [Gobliński szaman] Wejdź w świat szarości i stań tam twarzą w twarz z widmami, aby uwolnić ich od tego cierpienia.
+[OUT][10633] [Goblin lub duch] Upiory są tylko zagubionymi duszami, przywiązanymi do emocji, miejsca lub osoby. Szukajcie wszystkiego, co mogłoby ich tu trzymać.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10634] Widzisz kilka widm kroczących wokół nagrobka.
+[/STORY]
+[OUT][10635] [Wraith] Poproś ich, aby ruszyli lub opuścili wioskę.
+[OUT][10635] [Wraith] Poproś ich, aby ruszyli lub opuścili wioskę.
+[OUT][10636] [Magiczny użytkownik] Wykonaj rytuał, który zatrzyma tutaj nieżyjące życie. To jest mroczna magia i może cię kosztować, ale powinna działać.
+[OUT][10637] Dostałeś je z zaskoczenia, atak!
+[OUT][10632] [Gobliński szaman] Wejdź w świat szarości i stań tam twarzą w twarz z widmami, aby uwolnić ich od tego cierpienia.
+[OUT][10633] [Goblin lub duch] Upiory są tylko zagubionymi duszami, przywiązanymi do emocji, miejsca lub osoby. Szukajcie wszystkiego, co mogłoby ich tu trzymać.
+[/NODE]
+
++[NODE]4
+[STORY]
+[10638] Smród mrocznej magii uderza w twoje zmysły i odkrywasz, że przeklęta figurka na szczycie jednego z nagrobków spowodowała, że dusze zmarłych zwlekały i zmieniały się w upiory. 
+
+Łatwo jest zniszczyć, ale może zranić ducha i najprawdopodobniej zniszczy upiory w bolesny sposób.
+[/STORY]
+[OUT][10406] Zniszcz obiekt.
+[OUT][10629] Masz lud, który wie o nieżyjącym. Przyjrzyj się bliżej.
+[OUT][259] Po prostu, w staromodny sposób zabijcie je.
+[OUT][10633] [Goblin lub duch] Upiory są tylko zagubionymi duszami, przywiązanymi do emocji, miejsca lub osoby. Szukajcie wszystkiego, co mogłoby ich tu trzymać.
+[OUT][10639] [Natura lub Światło] Poprzez naturę i światło, oczyść to miejsce plugawej siły, która narusza prawa twoich bogów.
+[OUT][10632] [Gobliński szaman] Wejdź w świat szarości i stań tam twarzą w twarz z widmami, aby uwolnić ich od tego cierpienia.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10640] Okazuje się, że upiory zostały tu wywołane przez przeklęty obiekt, ale twoje słowa są w stanie wyrwać je z transu. Są wdzięczni i robią, co chcesz. 
+
+Gobliny są pod wrażeniem twojej pracy i dziękuję. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10641] Upiory są niszczone w niszczącym błysku bólu i udręki. 
+
+Goblińscy mówcy duchowi usłyszeli krzyki dusz i byli zasmuceni taką brutalną rezolucją. Twoja przyjaźń cierpi. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[10642] Zakopujesz cenny metal i poświęcasz esencję życia jednego zwierzaka. Upiory powinny teraz pozostać uwięzione w duchowym świecie.
+[/STORY]
+[OUT][264] Dobrze.
+[OUT][264] Dobrze.
+[/NODE]
+
++[NODE]21
+[STORY]
+[10643] Zamierzasz zgłosić swój sukces, gdy zdasz sobie sprawę, że być może twoja wiedza nie była do końca dokładna. Upiory pozostają, a niektóre złośliwe demony zostały przyciągnięte przez wolny metal i teraz kradną gobliny. 
+
+W końcu zostają pobici przez duchowych rozmówców bez twojej pomocy, a twoja przyjaźń cierpi z tego powodu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10644] Gobliny są mile zaskoczone, choć trochę zaskoczone twoimi metodami. Proszą cię, abyś został, opowiedział im więcej i podzielił się swoimi ziołami i grzybami, abyś mógł cieszyć się mądrością duchowych wizji.
+
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]25
+[STORY]
+[10645] Niszczysz upiory, a gobliny dziękują za twoje wysiłki, ale mruczą coś o twoim braku wiedzy i finezji - i ewentualny powrót upiorów.
+
+Twoja przyjaźń rośnie. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10646] Gobliny słyszą o twojej porażce i przychodzą ci z pomocą. Muszą sami zabijać upiory i gniewać się na konieczność oszczędzania czasu. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[10647] Twoje wysiłki zawodzą i upiory zwracają uwagę na ciebie.
+[/STORY]
+[OUT][270] Poddajcie się.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]34
+[STORY]
+[10648] Związujesz upiory z tym grobem i jeśli ktoś celowo nie złamie twojej pracy, pozostaną tutaj. 
+
+Gobliny lubią twoją rozdzielczość. Kupiłeś im trochę czasu, aby później mogli rozwiązać ten problem prawidłowo. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[10646] Gobliny słyszą o twojej porażce i przychodzą ci z pomocą. Muszą sami zabijać upiory i gniewać się na konieczność oszczędzania czasu. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[10649] Okazuje się, że upiory zostały tutaj wywołane przez przeklęty obiekt. Twoja więź z bogami chroni cię trochę, ale kiedy próbujesz uwolnić swoich krewnych, są oni rozdzierani z wielkim bólem. 
+
+Gobliny są zasmucone obrotem wydarzeń, ale widząc, że jesteś duchem, doceniają twoje wysiłki. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]52
+[STORY]
+[10650] Twoje modlitwy działają. Jeden z nagrobków rozpada się na pył, a wraz z nim upiory są uwalniane z ich wiązania i znikają spokojnie. 
+
+Gobliny są pod wrażeniem twojej pracy i wychwalają „tych bogów bogów”.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]59
+[STORY]
+[10651] Twój duch okazuje się wystarczająco silny, by poprowadzić gniewne dusze ku równowadze i ewentualnemu pokojowi. 
+
+Gobliny doceniają Twoją profesjonalną interwencję i pozostawiają płatność. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]61
+[STORY]
+[10652] Znajdujesz przedmiot - nagrobek - i rozmawiasz z widmami. Mówią ci, że to miejsce spoczynku ich ciemiężcy. Zgadzasz się skalać nagrobek, a to uspokaja widma na tyle, by mogły odejść. Trzy razy rozsypujesz sól i rzucasz makiem na lewe ramię, aby upewnić się, że nowe upiory się nie podniosą. 
+
+Gobliny są pod wrażeniem twojej pracy i wychwalają „tych bogów bogów”.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritTalkersVillSmall(4)
++[NODE]2
+[STORY]
+[10653] „Witamy cię, tak, ale dlaczego przychodzisz?'
+
+Niektóre aktywności w wiosce będą dostępne tylko wtedy, gdy przyjaźnisz się z jej ludźmi, a niektóre są ograniczone do szansy, więc powrót od czasu do czasu może być tego wart. 
+
+Ta wioska jest mała, jako taka nie oferuje rekrutacji i może mieć inne opcje ograniczone.
+[/STORY]
+[OUT][285] Zapytajcie, czy możecie w czymś pomóc.
+[OUT][10654] Powiedz, że właśnie przyszedłeś odpocząć i odwiedzić. Może zobaczysz uzdrowicieli.
+[OUT][10655] Zapytaj, czy możesz spróbować zaprzyjaźnić się z niektórymi duchami, które tu mieszkają.
+[OUT][149] Handel.
+[OUT][5] Odejdźcie.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]5
+[STORY]
+[10656] „Źle śmierdzisz, nie jesteście przyjaciółmi, odejdźcie!'
+
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[OUT][3552] Powiedz, że nie masz na myśli krzywdy. Chcesz tylko porozmawiać i odwiedzić.
+[/NODE]
+
++[NODE]6
+[STORY]
+[290] Wioska jest zniszczona, a łupy są Wasze.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[10657] „Pomoc, co? Jasne, czemu nie. Jesteśmy mali, więc nie możemy zrobić wszystkiego. Mamy tu bezpańskiego ducha niedaleko stąd. Zobacz, czy możesz sobie z tym poradzić.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10658] „Przychodzisz, odpoczywasz, palisz z nami. Szamani też mają dobre grzyby, leczą wiele rzeczy - czasami sprawiają też, że jesteś chory, ale głównie leczą.'
+[/STORY]
+[OUT][295] Zapłaćcie, aby wyleczyć fizyczne rany. 
+[OUT][296] Zapłaćcie, aby wyleczyć rany umysłu. 
+[OUT][297] Zapłaćcie, aby wyleczyć truciznę.
+[OUT][10659] Poproś szamanów, aby wyleczyli twojego ducha, jeśli mogą.
+[OUT][10660] [Mistycyzm] Szaman oferuje podróż do szarego świata. Jeśli mieszkasz, możesz nauczyć się mistycznych sposobów.
+[OUT][300] Wróćcie następnego dnia.
+[OUT][10659] Poproś szamanów, aby wyleczyli twojego ducha, jeśli mogą.
+[OUT][297] Zapłaćcie, aby wyleczyć truciznę.
+[/NODE]
+
++[NODE]19
+[STORY]
+[10661] „Pomoc, co? Jasne, czemu nie. Sądzimy, że niektóre dziwaczne leśne wróżki za bardzo zajmują się wróżką. Kilku dobrych ludzi zaginęło, wielu traci zęby w nocy, nieproszeni. Proszę, idź i pobij dla nas tych robali!'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[10662] „Chcesz pomóc za darmo? Tak, możesz to zrobić, dlaczego nie?'
+[/STORY]
+[OUT][10663] Zapytaj, czy mają jakieś problemy.
+[OUT][10664] Masz dużo dobrych metali. Zapytaj, czy czegoś potrzebują.
+[OUT][10665] Masz kilka kamieni. Zapytaj, czy czegoś potrzebują.
+[OUT][306] Na razie nie ma tu nic do roboty. Wróćcie następnego dnia.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10666] „Tak, ciemność jest częścią naszego świata. Ale za dużo, nie dobrze, nie. Jesteśmy za mali, żeby iść, ale idziesz. Sprawiasz, że czarna mgła się wycofuje - nie niszcz jej, pamiętaj! Po prostu spraw, żeby stało się mniej.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10667] „Tak, tak, twój duch jest brudny jak tyłek szczenięcia, czuję to. Teraz, jeśli masz klątwy na tobie, to kosztuje więcej, tak. Więc płacisz, daję ci pić i palić, a ty nie narzekasz, jeśli trochę zachorujesz, tak?'
+[/STORY]
+[OUT][10668] [Goblin] Powiedz mu, żeby przestał bełkotać o cenach i dać ci odpowiednie pieczarki, a nie rzeczy turystyczne. 
+[OUT][10669] [Magiczni użytkownicy] Powiedz, że wiesz, jak zrobić część oczyszczania, ale potrzebujesz ich pomocy, aby zrobić to poprawnie.
+[OUT][10670] Zgódź się zapłacić cenę za usunięcie klątwy. [20 szlachetnych klejnotów]
+[OUT][311] Proście o uzdrowienie ran duchowych.
+[OUT][10671] Powiedz, że nie masz płatności.
+[/NODE]
+
++[NODE]29
+[STORY]
+[10672] „Gah, jestem stary, moje oczy są pochmurne, ty gej, czekaj, by to powiedzieć teraz, spraw, żebym wyglądał głupio. Siedzisz, jesz i bądź zdrowy. 
+
+Twoi przyjaciele też mają dobre rzeczy, ale płacą.'
+
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[OUT][10669] [Magiczni użytkownicy] Powiedz, że wiesz, jak zrobić część oczyszczania, ale potrzebujesz ich pomocy, aby zrobić to poprawnie.
+[OUT][310] Zgódźcie się zapłacić cenę za usunięcie klątwy.
+[OUT][311] Proście o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]37
+[STORY]
+[10673] „Dajesz nam darmowe towary, jesteś dziwny. Staramy się też dać ci coś mało, nie lubimy długów.'
+[/STORY]
+[OUT][316] Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+[10674] „Robię dla ciebie duchową rozmowę, może jakaś dusza chce się do ciebie przyłączyć, może nie. Płacisz cenę, bądź miły, wciąż jesteśmy przyjaciółmi.'
+[/STORY]
+[OUT][10675] Spróbuj zaprzyjaźnić się z duchem.
+[/NODE]
+
++[NODE]47
+[STORY]
+[10676] „Mamy kilku intruzów. Rozbili obóz niezbyt daleko, a teraz życzymy im odejścia.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+[10677] „Zgoda, na razie możesz wejść.'
+[/STORY]
+[OUT][321] Zapytajcie o możliwość handlu.
+[OUT][322] Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[OUT][322] Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[/NODE]
+
++[NODE]53
+[STORY]
+[10678] „Wyjdź!'
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]58
+[STORY]
+[10679] Duch interesuje się tobą i dołączy do ciebie, jeśli dasz mu trochę swojego ducha.
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]60
+[STORY]
+[10680] To upiory, a nie zwykłe duchy, odpowiadają na twoje wezwanie, ale ich cena za zniewolenie jest częścią twojej krwi.
+[/STORY]
+[OUT][1644] Zgadzacie się. 
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]61
+[STORY]
+[10681] Niestety, tym razem żaden duch nie chciał dołączyć do twoich szeregów.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]64
+[STORY]
+[10682] „Ach, czemu nie powiedzieć tego wcześniej? Daję ci dobre rzeczy, żadnych bzdur turystycznych. Pomagasz w rytuale, więc nie płacisz mi. Może gdy mój duch jest zły, robisz to samo. Usiądź, zjedz, zrelaksuj się.'
+
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]67
+[STORY]
+[3581] „Albo nie mamy dla ciebie żadnej pracy, albo ty lub twoi krewni już jesteście wyznaczeni na ścieżkę, aby nam pomóc, więc zakończ to zanim poprosisz o nowe zadania.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]90
+[STORY]
+[10683] Świat grecki nie jest miejscem dla żyjących, zwłaszcza tych, którzy nie są duchowymi rozmówcami. Wasze ciało jest wyrwane z waszego ciała, wasza dusza wykrzywiona i pokaleczona. 
+
+Wracasz zmieniony, zły i przegrany. Jednak twoja więź z boskością pozwala ci trwać na swojej drodze.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]91
+[STORY]
+[10667] „Tak, tak, twój duch jest brudny jak tyłek szczenięcia, czuję to. Teraz, jeśli masz klątwy na tobie, to kosztuje więcej, tak. Więc płacisz, daję ci pić i palić, a ty nie narzekasz, jeśli trochę zachorujesz, tak?'
+[/STORY]
+[OUT][10668] [Goblin] Powiedz mu, żeby przestał bełkotać o cenach i dać ci odpowiednie pieczarki, a nie rzeczy turystyczne. 
+[OUT][10669] [Magiczni użytkownicy] Powiedz, że wiesz, jak zrobić część oczyszczania, ale potrzebujesz ich pomocy, aby zrobić to poprawnie.
+[OUT][10670] Zgódź się zapłacić cenę za usunięcie klątwy. [20 szlachetnych klejnotów]
+[OUT][311] Proście o uzdrowienie ran duchowych.
+[OUT][10671] Powiedz, że nie masz płatności.
+[/NODE]
+
++[NODE]92
+[STORY]
+[10684] „Ach tak, ból serca, co? Ciemny świat sprawia, że płaczesz. My goblimy, palimy to, znów się cieszymy - czasami zbyt szczęśliwi. Nie jesteś goblinem, może ci się nie podobać, ale płacisz i pozwalam ci spróbować, tak?'
+[/STORY]
+[OUT][10685] [Goblin lub lojalność] Powiedz mu, że już za dużo pali, widząc, że już nie widzi swoich krewnych. Weź fajkę i podziel się nią bezpiecznie ze znajomymi.
+[OUT][1644] Zgadzacie się. 
+[OUT][9812] Zmień zdanie i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritKillFairy(5)
++[NODE]2
+[STORY]
+[10686] Podchodzisz do obszaru, gdzie wędruje stado niesfornych leśnych wróżek, o które poproszono cię.
+[/STORY]
+[OUT][10687] Wiesz, jak postępować z leśnymi duszkami. Spróbuj to rozgryźć.
+[OUT][10688] [Hunter] Stalk te wróżki.
+[OUT][10689] [Leshy] Dominuj wróżki i wzywaj posłuszeństwa!
+[OUT][10] Atak!
+[OUT][217] Wróćcie później.
+[OUT][10690] Spróbuj przemówić do wróżek. Z pewnością nie jest to sposób na demony leśne.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10691] Zbliżasz się i obserwujesz. Wróżki leśne są skulone razem, szepczą. Pod nimi leży mały pagórek zębów, wiele zakrwawionych i pokrzywionych. 
+
+Dostrzegasz także ciało goblina, jego zęby są brutalnie wyciągnięte, ręce i stopy związane.
+[/STORY]
+[OUT][10692] [Lasowa wróżka] Podejdź do swoich ludzi i powiedz im, że zdecydowanie zabierają pracę wróżki ząb za daleko. 
+[OUT][10692] [Lasowa wróżka] Podejdź do swoich ludzi i powiedz im, że zdecydowanie zabierają pracę wróżki ząb za daleko. 
+[OUT][10693] Porozmawiaj z nimi i wezwij ich obowiązki wobec lasu i demona.
+[OUT][10689] [Leshy] Dominuj wróżki i wzywaj posłuszeństwa!
+[OUT][10694] [Magiczny użytkownik] Czujesz tutaj jakąś mistyczną siłę. Może dlatego tak się zachowują? Spróbuj rytuału oczyszczania.
+[OUT][10695] [Dziecko] To na pewno wróżki! Zaoferuj im swoje zęby dziecka i poproś o zapłatę, tak jak powinny!
+[OUT][2083] Zabij ich!
+[/NODE]
+
++[NODE]4
+[STORY]
+[10696] Chodzisz po wróżkach i obserwujesz, jak gromadzą się wokół kopca wyrwanych zębów i martwego, związanego ciała goblinów. 
+
+Twoja obserwacja ułatwi ci ich ciche zabijanie, jeden po drugim. 
+
+[/STORY]
+[OUT][10697] Zabij ich.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10698] Wróżki wydają się wzburzone, a niektóre mają dziwne, ogniste spojrzenie w oczach. Ale są bardzo ciekawi twojego boskiego związku i zgadzają się opuścić tę murawę w zamian za jakieś opowieści o bogach. 
+
+Kiedy gobliny dowiedzą się o tym, z pewnością będą zadowolone z twojej rezolucji.
+[/STORY]
+[OUT][10699] Powiedz im wiele opowieści i patrz, jak odchodzą.
+[/NODE]
+
++[NODE]13
+[STORY]
+[10700] Niektóre wróżki walczą i ranią cię. 
+
+[/STORY]
+[OUT][3711] Odłóż je.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10701] Gobliny są pod wrażeniem twojej szybkiej i cichej rozdzielczości. Teraz uważają cię za czarodziejskiego prześladowcę. Nie jesteś pewien, czy to zaszczyt, czy żart, ale wydają się zadowoleni z twojej pracy. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10702] Wróżki cię pobiły, a gobliny muszą przyjść i cię uratować. Nie są pod wrażeniem, więc nie zyskujesz przyjaźni.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[10703] Nie przekonujesz, więc wróżki kontynuują swoje dziwne zachowanie.
+[/STORY]
+[OUT][270] Poddajcie się.
+[OUT][10694] [Magiczny użytkownik] Czujesz tutaj jakąś mistyczną siłę. Może dlatego tak się zachowują? Spróbuj rytuału oczyszczania.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]33
+[STORY]
+[10704] Twoje intrygi zawodzą i jesteś atakowany przez wróżki. 
+
+Gobliny słyszą twoje krzyki i przychodzą z pomocą. Muszą sami zabijać wróżki i są wściekli na konieczność oszczędzania czasu. Nie zyskujesz żadnej przyjaźni.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[10705] „Bah, ty podstępny, wielki ludu, ty. Głupie prawa, głupie zasady. Wrócimy!'
+
+Wróżki odlatują, a gobliny są wdzięczne za twoją pomoc. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[10706] Gobliny doceniają twoją szczerość, więc mimo porażki zyskujesz przyjaźń.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[10707] Idziesz mówić do nich sensownie, ale zamiast tego mówią o uzależniającej radości posiadania coraz większej ilości zębów. . . Zanim się zorientujesz, próbujesz wyciągnąć zęby swoich przyjaciół. 
+
+Wróżki się śmieją i ostatecznie gobliny muszą przyjść i poradzić sobie z tym problemem. Nie są pod wrażeniem twojej pomocy.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+[10708] Wróżki słyszą twój płacz lasu i zatrzymują się w ich śladzie. Cokolwiek doprowadziło ich do tego szaleństwa, pękło i pokłonili się twojej woli z przeprosinami. Obiecują naprawić wszelkie szkody. 
+
+Gobliny są zadowolone z twoich wysiłków. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]51
+[STORY]
+[10709] Okazuje się, że nie było żadnej mistycznej siły, która sprawiałaby, że wróżki źle się zachowują, ale rozproszyliście jakąś moc, której mogli użyć, by złapać ich ofiary. 
+
+- Ty, podstępny, wielki ludu, ty. Głupie prawa, głupie zasady, głupie rytuały. Wrócimy!'
+
+Wróżki odlatują, a gobliny są wdzięczne za twoją pomoc. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]55
+[STORY]
+[10710] Zabijasz wróżki, a gobliny dziękują za rozwiązanie problemu, chociaż życzą sobie, abyś zrobił to cicho - złość demonów leśnych nigdy nie jest dobra. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]56
+[STORY]
+[10711] Wróżki zatrzymują się i patrzą na ciebie. Rozmawiają, a potem skiną głową w uroczystym porozumieniu: 
+
+'Wystarczająco dobrze. Nie tak wiele dzieci w tych mrocznych dniach, bardziej lubimy legalne zęby niż te. Sprawa. Ale to boli!'
+[/STORY]
+[OUT][10712] Czy nie powinni czekać, aż zęby wypadną i to wszystko?
+[OUT][10713] Kontynuuj transakcję.
+[OUT][10714] Zapytaj, czy to wróżki z zębów, czy leśne wróżki.
+[/NODE]
+
++[NODE]57
+[STORY]
+[10715] „Nie, stare rzeczy. Zasady się zmieniają, zdarzają się luki, nadzorcy nie zawsze są w pobliżu. . . wszystko to.'
+[/STORY]
+[OUT][10713] Kontynuuj transakcję.
+[OUT][10714] Zapytaj, czy to wróżki z zębów, czy leśne wróżki.
+[/NODE]
+
++[NODE]58
+[STORY]
+[10716] „Obaj, wyraźnie. Mamy ochotę. Urodziliśmy się z lasów, potem lud zaczął się osiedlać, pojawiły się nowe miejsca pracy. Trzymaliśmy oba, w przeciwieństwie do tych demonów domowych - wszystkie są skupione i wszystkie.'
+[/STORY]
+[OUT][10712] Czy nie powinni czekać, aż zęby wypadną i to wszystko?
+[OUT][10713] Kontynuuj transakcję.
+[/NODE]
+
++[NODE]60
+[STORY]
+[10717] Zabierają ci zęby i uciekają z radości. Gobliny są bardzo wdzięczne za sprytne rozwiązanie. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritKillBats(6)
++[NODE]2
+[STORY]
+[10718] Zbliżasz się do jaskini nietoperzy, którą gobliny kazały ci oczyścić.
+[/STORY]
+[OUT][10719] Wiesz, jak obchodzić się ze zwierzętami. Przyjrzyj się bliżej.
+[OUT][10720] [Hunter] Śledź nietoperze.
+[OUT][10721] [Intelekt] Użyj swojej zdolności umysłowej, aby dowiedzieć się, co robić. 
+[OUT][10722] [Czarownica] Nietoperze są twoimi sługami, dominuj nad nimi!
+[OUT][568] Znajdźcie je i zaatakujcie!
+[OUT][3701] Użyj własnego jedzenia, aby zwabić te zwierzęta z terytorium i mieć nadzieję, że nie wrócą.
+[OUT][10723] [Nocny demon] Nakazuj nietoperzom słuchać wezwania nocy!
+[OUT][10723] [Nocny demon] Nakazuj nietoperzom słuchać wezwania nocy!
+[OUT][217] Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10724] W jaskini widać nietoperze roi się w tunelach. Wydają się bardziej poruszeni, niż można by się spodziewać, a na ziemi leży martwy goblin, pozbawiony krwi.
+[/STORY]
+[OUT][10725] [Zwierzęcy krewny] Uważnie obserwuj nietoperze i spróbuj ocenić, co powoduje to zachowanie. Być może możesz im pomóc.
+[OUT][10726] [Natura lub Intelekt] Szukaj boskiej inspiracji, aby dowiedzieć się, co przeszkadzało tym zwierzętom.
+[OUT][10727] [Hunter] Stalk the nietoperze cicho.
+[OUT][10728] [Hunter] Ustaw pułapki, aby łatwiej zabijać nietoperze.
+[OUT][10] Atak!
+[OUT][3701] Użyj własnego jedzenia, aby zwabić te zwierzęta z terytorium i mieć nadzieję, że nie wrócą.
+[/NODE]
+
++[NODE]4
+[STORY]
+[10729] Obserwujesz nietoperze i widzisz, że niektórzy już umierają z powodu tej samej choroby. To wydaje się być agresywnym napięciem. Jesteś w dobrej pozycji, aby je odebrać jeden po drugim, ale niektóre mogą odgryźć się i tym samym ryzykować samemu zarażenie się chorobą. 
+
+[/STORY]
+[OUT][10730] Zrób to - zabij ich jeden po drugim.
+[OUT][10728] [Hunter] Ustaw pułapki, aby łatwiej zabijać nietoperze.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]7
+[STORY]
+[10731] Nietoperze słuchają twojego wezwania i spadają w kolejce. Odkrywasz, że niektóre z nich są ciężko chore, dlatego reszta popadła w szał. Razem eliminujesz słabych, a inni znów zachowują się naturalnie. 
+
+Gobliny są pod wrażeniem twoich wysiłków. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]13
+[STORY]
+[10732] Jak się spodziewałeś, niektóre nietoperze cię zauważają i próbują walczyć. 
+
+[/STORY]
+[OUT][2886] Idź dalej.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10733] Ostatecznie pozbędziesz się wszystkich chorych nietoperzy. 
+
+Gobliny są zadowolone z twoich wysiłków. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[10734] Oddajesz jedzenie i doprowadzasz zwierzęta do innego miejsca. 
+
+Jednak są to wściekłe zwierzęta i nie tylko w końcu wracają, ale gobliny nie są pod wrażeniem, że pozwalasz chorobie rozprzestrzenić się na ich ziemi. 
+
+Twoja przyjaźń cierpi za to.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]25
+[STORY]
+[10735] Nietoperze są martwe, a gobliny są zadowolone z twojej pracy. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10736] Nietoperze cię pobiły, a niektórzy z was zachorują. Gobliny muszą przyjść ci z pomocą i poradzić sobie z problemem. 
+
+Nie są pod wrażeniem twojej pomocy.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[10737] Obserwujesz nietoperze, ale nie wiesz, co jest z nimi nie tak. Być może są po prostu dotknięci ciemnością. 
+
+Niektórzy z was zachorują na kontakt.
+[/STORY]
+[OUT][270] Poddajcie się.
+[OUT][3701] Użyj własnego jedzenia, aby zwabić te zwierzęta z terytorium i mieć nadzieję, że nie wrócą.
+[OUT][10728] [Hunter] Ustaw pułapki, aby łatwiej zabijać nietoperze.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]34
+[STORY]
+[10738] Rozumiesz źródło szalonego zachowania nietoperzy - chorobę spowodowaną zatrutą wiosną w jaskini. 
+
+Masz odpowiednie zioła, aby oczyścić wodę, a nietoperze wkrótce powrócą do normy. 
+
+Niektórzy z was zachorują, ale gobliny są pod wrażeniem twojej pracy. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[10739] Nietoperze są wyraźnie brane przez jakąś nienaturalną siłę, ponieważ ignorują twoje wezwanie i atakują cię, rozprzestrzeniając ich podłą chorobę. Gobliny muszą przyjść i ci pomóc. 
+
+Nie są pod wrażeniem twojej pomocy.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+[10740] Nietoperze słyszą twój głos i czują dotyk twojego czaru. Szybko się rozpraszają. 
+
+Gobliny są zadowolone z twojej pracy i pozwalają ci ograbić jaskinię, zanim wejdą głębiej. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]53
+[STORY]
+[10729] Obserwujesz nietoperze i widzisz, że niektórzy już umierają z powodu tej samej choroby. To wydaje się być agresywnym napięciem. Jesteś w dobrej pozycji, aby je odebrać jeden po drugim, ale niektóre mogą odgryźć się i tym samym ryzykować samemu zarażenie się chorobą. 
+
+[/STORY]
+[OUT][10730] Zrób to - zabij ich jeden po drugim.
+[OUT][10741] [Hunter] Ustaw pułapki, by szybko zabić wściekłe nietoperze. Jest to najbezpieczniejszy sposób na powstrzymanie ich przed rozprzestrzenianiem się.
+[OUT][10] Atak!
+[OUT][10742] Porzuć i zgłoś się do goblinów.
+[/NODE]
+
++[NODE]54
+[STORY]
+[10743] Gobliny doceniają twoją szczerość, więc mimo porażki nie tracisz żadnej przyjaźni.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmySpiritTalkers(7)
++[NODE]2
+[STORY]
+[10744] Przed tobą stoi uzbrojona grupa zielonoskórych mówców duchowych. 
+
+
+[/STORY]
+[OUT][629] Pozdrówcie swoich sojuszników. 
+[OUT][630] Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT][183] Walka!
+[OUT][631] Zastraszcie ich!
+[OUT][632] Usuńcie się.
+[OUT][10745] Gobliny szanują przede wszystkim świat duchów, stań tam przed nimi, aby pokazać, że jesteś godnym przyjacielem.
+[/NODE]
+
++[NODE]3
+[STORY]
+[3762] „Ach, dzień dobry, przyjaciele, dobrze Was widzieć.'
+[/STORY]
+[OUT][634] Zapytajcie, czy chcą pohandlować.
+[OUT][10746] Razem wdychaj kilka grzybów.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10747] „Nie jesteś czarnym charakterem, ale nie jesteś naszym przyjacielem. Idziesz do naszego plemienia, zaprzyjaźniasz się. Czas dać nam swoje towary lub umrzeć!'
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][183] Walka!
+[OUT][631] Zastraszcie ich!
+[OUT][10745] Gobliny szanują przede wszystkim świat duchów, stań tam przed nimi, aby pokazać, że jesteś godnym przyjacielem.
+[OUT][10748] Daj im trochę swoich rzeczy.
+[/NODE]
+
++[NODE]17
+[STORY]
+[10749] „Oi, tak, tak, ty wielki, straszny, zostawiamy nasze rzeczy, idziemy. PA.'
+[/STORY]
+[OUT][638] Weźcie ich rzeczy i odejdźcie
+[/NODE]
+
++[NODE]19
+[STORY]
+[639] Wasze groźby nie działają. Jesteście bici i gonieni.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
++[NODE]26
+[STORY]
+[10750] „Oi, dobrze znasz duchy i wydaje się, że cię faworyzują. Może jednak jesteśmy przyjaciółmi. Na razie rozstajemy się w dobrej wierze.'
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+[10751] Duchy nie faworyzowały twoich prób, a gobliny marszczą brwi na twój brak umiejętności. Ale oni pozwalają ci odejść.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]31
+[STORY]
+[4211] Zostajecie ciężko pobici i zmuszeni do ucieczki.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpirittalkersTradesmall(8)
++[NODE]2
+[STORY]
+[279] Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[283] Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4388] „Dobry handel z tobą. Duchy są z tobą.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpirittalkersTrademedium(9)
++[NODE]2
+[STORY]
+[279] Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[283] Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4388] „Dobry handel z tobą. Duchy są z tobą.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpirittalkersTradeadv(10)
++[NODE]2
+[STORY]
+[279] Stoiska handlowe są dla Was otwarte. 
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[283] Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4388] „Dobry handel z tobą. Duchy są z tobą.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --RemnantsOfDark(11)
++[NODE]2
+[STORY]
+[10752] Znajdujesz stare ruiny, w których gobliny mówią, że ciemność utrzymuje się i cicho rośnie w siłę. 
+
+Możesz wyczuć intensywne spojrzenie chaosu i rozpaczy, próbujące cię pożreć.
+[/STORY]
+[OUT][10753] [Światło lub harmonia] Wezwij swoją domenę, aby całkowicie oczyścić to miejsce ciemności. Gobliny mogą chcieć opuścić niektóre, ale twoim obowiązkiem jest pozbyć się tego wszystkiego!
+[OUT][10754] [Shadow elf] Zostań jednym z ciemną mgłą i przekieruj go z tego miejsca. To powinno rozszerzyć siłę i tym samym zatrzymać ten rzekomy wzrost.
+[OUT][10755] [Magiczni użytkownicy lub magia] Wykonaj rytuał osłabienia, który nie zniszczy, ale tylko zmniejszy koncentrację ciemności tutaj.
+[OUT][10756] [Mądrość] Uważnie rozważ swoje opcje.
+[OUT][10757] Spróbuj zaatakować mgłę.
+[OUT][10758] Wróć z większą mądrością lub tymi, którzy wiedzą o rzeczach mistycznych.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10759] Czarna mgła jest siłą, która żywi się duchem. A jednak, jeśli ktoś jest w stanie oprzeć się jego atakowi wystarczająco długo, znacznie zmniejszy jego moc. Oczywiście jest to bardzo ryzykowne.
+[/STORY]
+[OUT][10760] Wejdź w mgłę i spróbuj się jej oprzeć dzięki czystej sile umysłu.
+[OUT][10753] [Światło lub harmonia] Wezwij swoją domenę, aby całkowicie oczyścić to miejsce ciemności. Gobliny mogą chcieć opuścić niektóre, ale twoim obowiązkiem jest pozbyć się tego wszystkiego!
+[OUT][10754] [Shadow elf] Zostań jednym z ciemną mgłą i przekieruj go z tego miejsca. To powinno rozszerzyć siłę i tym samym zatrzymać ten rzekomy wzrost.
+[OUT][10755] [Magiczni użytkownicy lub magia] Wykonaj rytuał osłabienia, który nie zniszczy, ale tylko zmniejszy koncentrację ciemności tutaj.
+[/NODE]
+
++[NODE]6
+[STORY]
+[10761] Wytrwałeś i rzeczywiście czarna mgła zmniejsza intensywność i wycofuje się głębiej w ruiny. 
+
+Windy powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10762] Czarna mgła podąża za twoim tropem, więc jego moc nad tym kawałkiem ziemi zmniejsza się. 
+
+Podnośniki powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[10763] Rytuał działa i rzeczywiście czarna mgła zmniejsza intensywność i wycofuje się głębiej w ruiny. 
+
+Windy powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[10764] Gobliński szaman wyciąga cię z czarnej mgły: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Spróbuj, dobrze zrobione. Na razie.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10765] Rytuał działa, a czarna mgła jest zniszczona przez twoje boskie słowo. 
+
+Podnośniki powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Co ?! Potrzebujemy ciemności. Nie tak bardzo, nie. Ale niektóre tak. Ty pobożny ludu, zawsze to robisz. Idź idź.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10766] Szarżujesz we mgle i pochłania cię czysta rozpacz. Twoje stopy się trzęsą, szczęka napina, a koszmary krążą wokół ciebie i szepczą najciemniejsze myśli. 
+
+A jednak, pomimo wszelkich przeciwności, brutalna siła wytrwa. Rzucasz się i czarna mgła się wycofuje.
+[/STORY]
+[OUT][5966] Odpocznij.
+[/NODE]
+
++[NODE]23
+[STORY]
+[10767] Podnośniki powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Z pewnością nie tak! Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]24
+[STORY]
+[10768] Atakujesz mgłę i pochłania cię czysta rozpacz. Twoje stopy się trzęsą, szczęka napina, a koszmary krążą wokół ciebie i szepczą najciemniejsze myśli. 
+
+[/STORY]
+[OUT][10769] Spróbuj się wydostać!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SpiritTalkersVillMed(12)
++[NODE]2
+[STORY]
+[10770] „Witamy cię, tak, ale dlaczego przychodzisz?'
+
+Niektóre aktywności w wiosce będą dostępne tylko wtedy, gdy przyjaźnisz się z jej ludźmi, a niektóre są ograniczone do szansy, więc powrót od czasu do czasu może być tego wart. 
+
+Gdy staniesz się przyjaciółmi, otrzymasz szansę na rekrutację.
+[/STORY]
+[OUT][285] Zapytajcie, czy możecie w czymś pomóc.
+[OUT][10654] Powiedz, że właśnie przyszedłeś odpocząć i odwiedzić. Może zobaczysz uzdrowicieli.
+[OUT][10655] Zapytaj, czy możesz spróbować zaprzyjaźnić się z niektórymi duchami, które tu mieszkają.
+[OUT][149] Handel.
+[OUT][5] Odejdźcie.
+[OUT][10771] Zapytaj, czy mogą pokazać ci świat szarości, ziemie duchów.
+[OUT][10421] Odwiedźcie karczmę, aby zagrać, napić się lub rekrutować ale tylko gdy jesteście w przyjaźni. 
+[OUT][10772] Sprawdź, czy możesz tu trenować swoje zwierzęta.
+[OUT][10] Atak!
+[OUT][332] Widzicie znajomą twarz, podejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[10656] „Źle śmierdzisz, nie jesteście przyjaciółmi, odejdźcie!'
+
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[OUT][3552] Powiedz, że nie masz na myśli krzywdy. Chcesz tylko porozmawiać i odwiedzić.
+[/NODE]
+
++[NODE]6
+[STORY]
+[290] Wioska jest zniszczona, a łupy są Wasze.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[10773] „Pomoc, co? Jasne, czemu nie. Niektóre vily demony oszalały na nas, atakując nasze domy bez powodu. Idź, zobacz co się z nimi dzieje.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10774] „Przychodzisz, odpoczywasz, palisz z nami. Szamani też mają dobre grzyby, leczą wiele rzeczy - czasami sprawiają też, że jesteś chory, ale głównie leczą.'
+[/STORY]
+[OUT][295] Zapłaćcie, aby wyleczyć fizyczne rany. 
+[OUT][296] Zapłaćcie, aby wyleczyć rany umysłu. 
+[OUT][297] Zapłaćcie, aby wyleczyć truciznę.
+[OUT][10659] Poproś szamanów, aby wyleczyli twojego ducha, jeśli mogą.
+[OUT][10660] [Mistycyzm] Szaman oferuje podróż do szarego świata. Jeśli mieszkasz, możesz nauczyć się mistycznych sposobów.
+[OUT][300] Wróćcie następnego dnia.
+[OUT][10659] Poproś szamanów, aby wyleczyli twojego ducha, jeśli mogą.
+[OUT][297] Zapłaćcie, aby wyleczyć truciznę.
+[/NODE]
+
++[NODE]19
+[STORY]
+[10775] „Pomoc, co? Jasne, czemu nie. Zwykle mamy do czynienia z duchowymi rzeczami na swój sposób, ale prawdę mówiąc, mieliśmy poważne kłopoty na cmentarzu i nie mamy szamanów, którzy wkrótce wyślą drogę. Idź, załatw to, na pewno będziemy przyjaciółmi.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[10776] „Chcesz pomóc, co? Dlaczego nie.'
+[/STORY]
+[OUT][10663] Zapytaj, czy mają jakieś problemy.
+[OUT][10664] Masz dużo dobrych metali. Zapytaj, czy czegoś potrzebują.
+[OUT][10665] Masz kilka kamieni. Zapytaj, czy czegoś potrzebują.
+[OUT][306] Na razie nie ma tu nic do roboty. Wróćcie następnego dnia.
+[OUT][10777] Zapytaj, czy są tu interesujące miejsca.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10778] „Jest jaskinia, którą chcemy zobaczyć, ale przeklęte nietoperze stały się ostatnio prawdziwym gównem. Zabił niektórych naszych ludzi, spowodował, że inni zachorowali. Dziwne rzeczy. Rozpraw się z nimi dużo i na pewno będziemy przyjaciółmi.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10667] „Tak, tak, twój duch jest brudny jak tyłek szczenięcia, czuję to. Teraz, jeśli masz klątwy na tobie, to kosztuje więcej, tak. Więc płacisz, daję ci pić i palić, a ty nie narzekasz, jeśli trochę zachorujesz, tak?'
+[/STORY]
+[OUT][10668] [Goblin] Powiedz mu, żeby przestał bełkotać o cenach i dać ci odpowiednie pieczarki, a nie rzeczy turystyczne. 
+[OUT][10669] [Magiczni użytkownicy] Powiedz, że wiesz, jak zrobić część oczyszczania, ale potrzebujesz ich pomocy, aby zrobić to poprawnie.
+[OUT][10670] Zgódź się zapłacić cenę za usunięcie klątwy. [20 szlachetnych klejnotów]
+[OUT][311] Proście o uzdrowienie ran duchowych.
+[OUT][10671] Powiedz, że nie masz płatności.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+[10672] „Gah, jestem stary, moje oczy są pochmurne, ty gej, czekaj, by to powiedzieć teraz, spraw, żebym wyglądał głupio. Siedzisz, jesz i bądź zdrowy. 
+
+Twoi przyjaciele też mają dobre rzeczy, ale płacą.'
+
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[OUT][10669] [Magiczni użytkownicy] Powiedz, że wiesz, jak zrobić część oczyszczania, ale potrzebujesz ich pomocy, aby zrobić to poprawnie.
+[OUT][310] Zgódźcie się zapłacić cenę za usunięcie klątwy.
+[OUT][311] Proście o uzdrowienie ran duchowych.
+[/NODE]
+
++[NODE]37
+[STORY]
+[10673] „Dajesz nam darmowe towary, jesteś dziwny. Staramy się też dać ci coś mało, nie lubimy długów.'
+[/STORY]
+[OUT][316] Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+[10674] „Robię dla ciebie duchową rozmowę, może jakaś dusza chce się do ciebie przyłączyć, może nie. Płacisz cenę, bądź miły, wciąż jesteśmy przyjaciółmi.'
+[/STORY]
+[OUT][10675] Spróbuj zaprzyjaźnić się z duchem.
+[/NODE]
+
++[NODE]47
+[STORY]
+[10666] „Tak, ciemność jest częścią naszego świata. Ale za dużo, nie dobrze, nie. Jesteśmy za mali, żeby iść, ale idziesz. Sprawiasz, że czarna mgła się wycofuje - nie niszcz jej, pamiętaj! Po prostu spraw, żeby stało się mniej.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+[10677] „Zgoda, na razie możesz wejść.'
+[/STORY]
+[OUT][321] Zapytajcie o możliwość handlu.
+[OUT][322] Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[OUT][322] Zaoferujcie, że zrobicie coś dla nich, aby udowodnić swoją przychylność.
+[/NODE]
+
++[NODE]53
+[STORY]
+[10678] „Wyjdź!'
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]58
+[STORY]
+[10679] Duch interesuje się tobą i dołączy do ciebie, jeśli dasz mu trochę swojego ducha.
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]60
+[STORY]
+[10680] To upiory, a nie zwykłe duchy, odpowiadają na twoje wezwanie, ale ich cena za zniewolenie jest częścią twojej krwi.
+[/STORY]
+[OUT][1644] Zgadzacie się. 
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]61
+[STORY]
+[10681] Niestety, tym razem żaden duch nie chciał dołączyć do twoich szeregów.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]64
+[STORY]
+[10682] „Ach, czemu nie powiedzieć tego wcześniej? Daję ci dobre rzeczy, żadnych bzdur turystycznych. Pomagasz w rytuale, więc nie płacisz mi. Może gdy mój duch jest zły, robisz to samo. Usiądź, zjedz, zrelaksuj się.'
+
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]67
+[STORY]
+[3581] „Albo nie mamy dla ciebie żadnej pracy, albo ty lub twoi krewni już jesteście wyznaczeni na ścieżkę, aby nam pomóc, więc zakończ to zanim poprosisz o nowe zadania.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]70
+[STORY]
+[10780] „Dużo pytasz, nawet dla przyjaciela. To dla ciebie bardzo niebezpieczne. Ale mówię tak, jeśli nadal chcesz?'
+
+Kilku szamanów zbiera się w namiocie wypełnionym silnymi ziołowymi aromatami i gorącą parą. Jesteś zaproszony.
+[/STORY]
+[OUT][10781] Powiedz im, że ponownie rozważyłeś i oddasz swój szacunek rytuałowi z daleka.
+[OUT][10782] Idź do namiotu potu, aby dołączyć do szamanów podczas rytuału.
+[/NODE]
+
++[NODE]88
+[STORY]
+[10783] „Mamy kłopoty z naszymi młodymi ludźmi. Wszyscy nas zboczyli. Wziąłem wiele twardych ziół i grzybów, rozbiłem obóz, a teraz robią tam dziwne rytuały. 
+
+Czujemy wstrząśnięty świat szarości, bardzo zły na duchy. Ale oni nas nie słuchają, a my nie możemy oszczędzać ludzi, aby ich sprowadzili. Jeśli pójdziesz, może zrobisz to szybciej. Lepiej dla tego wszystkiego.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]91
+[STORY]
+[10784] „Zgadnij, tak. Zajmujemy się wieloma problemami duchowymi, więc nie chodzimy wszędzie. Ale słyszałem o niektórych zrujnowanych mieszkaniach niedaleko, może dobre rzeczy dla ciebie tam? Kto wie.'
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]94
+[STORY]
+[10785] „Ach tak, ból serca, co? Ciemny świat sprawia, że płaczesz. My goblimy, palimy to, znów się cieszymy - czasami zbyt szczęśliwi. Nie jesteś goblinem, może ci się nie podobać, ale płacisz i pozwalam ci spróbować, tak?'
+[/STORY]
+[OUT][10685] [Goblin lub lojalność] Powiedz mu, że już za dużo pali, widząc, że już nie widzi swoich krewnych. Weź fajkę i podziel się nią bezpiecznie ze znajomymi.
+[OUT][1644] Zgadzacie się. 
+[OUT][9812] Zmień zdanie i wyjdź.
+[/NODE]
+
++[NODE]96
+[STORY]
+[10683] Świat grecki nie jest miejscem dla żyjących, zwłaszcza tych, którzy nie są duchowymi rozmówcami. Wasze ciało jest wyrwane z waszego ciała, wasza dusza wykrzywiona i pokaleczona. 
+
+Wracasz zmieniony, zły i przegrany. Jednak twoja więź z boskością pozwala ci trwać na swojej drodze.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]102
+[STORY]
+[10667] „Tak, tak, twój duch jest brudny jak tyłek szczenięcia, czuję to. Teraz, jeśli masz klątwy na tobie, to kosztuje więcej, tak. Więc płacisz, daję ci pić i palić, a ty nie narzekasz, jeśli trochę zachorujesz, tak?'
+[/STORY]
+[OUT][10668] [Goblin] Powiedz mu, żeby przestał bełkotać o cenach i dać ci odpowiednie pieczarki, a nie rzeczy turystyczne. 
+[OUT][10669] [Magiczni użytkownicy] Powiedz, że wiesz, jak zrobić część oczyszczania, ale potrzebujesz ich pomocy, aby zrobić to poprawnie.
+[OUT][10670] Zgódź się zapłacić cenę za usunięcie klątwy. [20 szlachetnych klejnotów]
+[OUT][311] Proście o uzdrowienie ran duchowych.
+[OUT][10671] Powiedz, że nie masz płatności.
+[/NODE]
+
++[NODE]104
+[STORY]
+[10786] Wchodzisz do namiotu, palisz fajkę i pijesz wino goblinów. Szamani intonują i tańczą. Twój umysł powoli przechodzi w stan błogości. 
+
+Przez dziwną błyskotkę, szklankę umieszczoną na szczycie wyschniętej dłoni hochlick'a, dostrzegasz przebłyski innego świata - odległego, zimnego, dziwnego. 
+[/STORY]
+[OUT][10787] [Natura] Wezwij naturę, by uhonorowała więzi między ludem goblinów a starymi lasami.
+[OUT][10788] [Harmonia] Szamani wydają się być nieobliczalni i szczęśliwi z tego powodu, więc nie jesteś pewien, jak bardzo zaakceptują twoją domenę. Mimo to poproś Harmony, aby ten rytuał był bardziej spokojny.
+[OUT][10789] [Światło] Światło nie czuje się jak naturalne dopasowanie do tego rytuału, ponieważ świat szarości nie sugeruje upodobania do twojej ścieżki. Mimo to wezwij swoją domenę, aby pobłogosławić to zgromadzenie.
+[OUT][10790] [Intelekt] Pozostańcie w cichej kontemplacji, aby okazać swój szacunek i zrozumienie dla antycznych obrządków.
+[OUT][10791] [Magia] Wzywaj splotów magii, aby dołączyć do szamanów w tej duchowej podróży.
+[OUT][10792] [Zamieszanie] Dołącz do szamanów w namiocie i ciesz się tym nowym doświadczeniem z pełnym entuzjazmem swojej domeny.
+[/NODE]
+
++[NODE]108
+[STORY]
+[350] Poszukujecie trenerów zwierząt.
+[/STORY]
+[OUT][10793] Zobacz mistrza bestii.
+[OUT][10794] Porozmawiaj z twoim szamanem.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --RemnantsOfDark2(13)
++[NODE]2
+[STORY]
+[10752] Znajdujesz stare ruiny, w których gobliny mówią, że ciemność utrzymuje się i cicho rośnie w siłę. 
+
+Możesz wyczuć intensywne spojrzenie chaosu i rozpaczy, próbujące cię pożreć.
+[/STORY]
+[OUT][10753] [Światło lub harmonia] Wezwij swoją domenę, aby całkowicie oczyścić to miejsce ciemności. Gobliny mogą chcieć opuścić niektóre, ale twoim obowiązkiem jest pozbyć się tego wszystkiego!
+[OUT][10754] [Shadow elf] Zostań jednym z ciemną mgłą i przekieruj go z tego miejsca. To powinno rozszerzyć siłę i tym samym zatrzymać ten rzekomy wzrost.
+[OUT][10755] [Magiczni użytkownicy lub magia] Wykonaj rytuał osłabienia, który nie zniszczy, ale tylko zmniejszy koncentrację ciemności tutaj.
+[OUT][10756] [Mądrość] Uważnie rozważ swoje opcje.
+[OUT][10757] Spróbuj zaatakować mgłę.
+[OUT][10758] Wróć z większą mądrością lub tymi, którzy wiedzą o rzeczach mistycznych.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10759] Czarna mgła jest siłą, która żywi się duchem. A jednak, jeśli ktoś jest w stanie oprzeć się jego atakowi wystarczająco długo, znacznie zmniejszy jego moc. Oczywiście jest to bardzo ryzykowne.
+[/STORY]
+[OUT][10760] Wejdź w mgłę i spróbuj się jej oprzeć dzięki czystej sile umysłu.
+[OUT][10753] [Światło lub harmonia] Wezwij swoją domenę, aby całkowicie oczyścić to miejsce ciemności. Gobliny mogą chcieć opuścić niektóre, ale twoim obowiązkiem jest pozbyć się tego wszystkiego!
+[OUT][10754] [Shadow elf] Zostań jednym z ciemną mgłą i przekieruj go z tego miejsca. To powinno rozszerzyć siłę i tym samym zatrzymać ten rzekomy wzrost.
+[OUT][10755] [Magiczni użytkownicy lub magia] Wykonaj rytuał osłabienia, który nie zniszczy, ale tylko zmniejszy koncentrację ciemności tutaj.
+[/NODE]
+
++[NODE]6
+[STORY]
+[10795] Wytrwajcie i rzeczywiście czarna mgła zmniejsza się w intensywności i wycofuje głębiej w ruiny. 
+
+Windy powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10762] Czarna mgła podąża za twoim tropem, więc jego moc nad tym kawałkiem ziemi zmniejsza się. 
+
+Podnośniki powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[10763] Rytuał działa i rzeczywiście czarna mgła zmniejsza intensywność i wycofuje się głębiej w ruiny. 
+
+Windy powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[10764] Gobliński szaman wyciąga cię z czarnej mgły: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Spróbuj, dobrze zrobione. Na razie.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10765] Rytuał działa, a czarna mgła jest zniszczona przez twoje boskie słowo. 
+
+Podnośniki powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Co ?! Potrzebujemy ciemności. Nie tak bardzo, nie. Ale niektóre tak. Ty pobożny ludu, zawsze to robisz. Idź idź.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10766] Szarżujesz we mgle i pochłania cię czysta rozpacz. Twoje stopy się trzęsą, szczęka napina, a koszmary krążą wokół ciebie i szepczą najciemniejsze myśli. 
+
+A jednak, pomimo wszelkich przeciwności, brutalna siła wytrwa. Rzucasz się i czarna mgła się wycofuje.
+[/STORY]
+[OUT][5966] Odpocznij.
+[/NODE]
+
++[NODE]23
+[STORY]
+[10767] Podnośniki powietrzne i gobliński szaman podchodzą do ciebie: 
+
+'Heh, nigdy nie sądziłem, że to zrobisz. Z pewnością nie tak! Dobrze dobrze. Potrzebujemy ciemności, ale nie tak, nie. Dziękujemy, tutaj - masz miłe wizje ode mnie. PA.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]24
+[STORY]
+[10768] Atakujesz mgłę i pochłania cię czysta rozpacz. Twoje stopy się trzęsą, szczęka napina, a koszmary krążą wokół ciebie i szepczą najciemniejsze myśli. 
+
+[/STORY]
+[OUT][10769] Spróbuj się wydostać!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --GobYoungsters(14)
++[NODE]2
+[STORY]
+[10796] Przychodzisz do obozowiska goblinów, gdzie mówi się, że młodzi szamani przesadzają z grzybami i szaleją z duchami. 
+
+Zostałeś poproszony o przyniesienie ich z powrotem do plemienia duchowych rozmówców. 
+[/STORY]
+[OUT][10797] [Ork] Pokonaj gówno małych zielonoskórych. To powinno nauczyć ich dyscypliny!
+[OUT][6404] Podejdźcie do nich, aby porozmawiać.
+[OUT][10798] Prześledź ich trochę.
+[OUT][2083] Zabij ich!
+[OUT][217] Wróćcie później.
+[/NODE]
+
++[NODE]4
+[STORY]
+[10799] „Oi, oi, przychodzisz na imprezę z nami? Jeśli nie, pokonaj go, odkryjemy prawdę o tym świecie, te stare cechy mogą nas zostawić!'
+
+Widzisz, oczy goblina są szkliste i szeroko otwarte, jego ręce drgają, zimny pot pokrywa jego zielone czoło.
+[/STORY]
+[OUT][10800] Zapytaj ich, jak dokładnie osiągają te tajemnice świata.
+[OUT][10801] [Goblin] Powiedz im, że przesadzili z chwastami i grzybami, i rozrywają dziurę w świecie szarości swoją imprezą.'
+[OUT][10802] Powiedzmy, że kazano im zatrzymać wszystko, co robią, i wrócić do domu, inaczej!
+[/NODE]
+
++[NODE]5
+[STORY]
+[10803] „Ach, starzy pierdzi powiedzieli ci, że mamy kłopoty, tak? Powiedzieliśmy, że zbytnio wchodzimy w świat szarości, łamiemy zasady. Pfft. A co jeśli zrobimy? Znajdujemy tu wiele tajemnic. Jeśli pozwolisz nam zostać, podzielimy się z Tobą.'
+[/STORY]
+[OUT][10804] Dlaczego nie? Zgadzam się na pobyt i imprezę. Co mogłoby pójść źle?
+[OUT][10805] Nie. Powiedz im, że muszą wrócić, ponieważ starsi powiedzieli, że to, co tutaj robią, rani duchy.
+[/NODE]
+
++[NODE]6
+[STORY]
+[10806] „Och, daj spokój, z pewnością łamiemy pewne zasady. Ale to działa, chodź, dołącz do nas!'
+[/STORY]
+[OUT][10807] [Gobliński szaman] Potrząśnij szamanem i przeklnij ich duchowych ojców. Ostrzegaj młodzież, że przyniesiesz na nich gniew przodków, jeśli teraz nie wrócą do domu!
+[OUT][10804] Dlaczego nie? Zgadzam się na pobyt i imprezę. Co mogłoby pójść źle?
+[OUT][10808] [Goblin] Powiedz, że duchowi ojcowie będą na to bardzo źli i muszą się teraz zatrzymać.
+[/NODE]
+
++[NODE]8
+[STORY]
+[10809] „Mamy dobre grzyby, lepsze chwasty i pomoc przyjaciół duchów. Czy kiedykolwiek paliłeś ducha? Spróbuj!'
+[/STORY]
+[OUT][10802] Powiedzmy, że kazano im zatrzymać wszystko, co robią, i wrócić do domu, inaczej!
+[OUT][10804] Dlaczego nie? Zgadzam się na pobyt i imprezę. Co mogłoby pójść źle?
+[OUT][10801] [Goblin] Powiedz im, że przesadzili z chwastami i grzybami, i rozrywają dziurę w świecie szarości swoją imprezą.'
+[OUT][10810] [Goblin lub duch] Palący ducha?
+[/NODE]
+
++[NODE]10
+[STORY]
+[10811] „Och, całkowicie zgodna, przysięgam!'
+
+Goblin wygląda teraz trochę bardziej nerwowo.
+[/STORY]
+[OUT][10812] [Goblin lub duch] Żądaj, aby natychmiast powstrzymali to szaleństwo, albo sprowadzisz na nich gniew przodków.
+[OUT][10798] Prześledź ich trochę.
+[OUT][10807] [Gobliński szaman] Potrząśnij szamanem i przeklnij ich duchowych ojców. Ostrzegaj młodzież, że przyniesiesz na nich gniew przodków, jeśli teraz nie wrócą do domu!
+[OUT][2083] Zabij ich!
+[/NODE]
+
++[NODE]11
+[STORY]
+[10813] „Oi, przestań z przekleństwami, człowieku! Idziemy, idziemy, nie będziemy już gniewać duchów przodków.'
+
+Młodzież wraca do domu, a starsi duchowi wdzięczni są za twoją pomoc.
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]13
+[STORY]
+[10814] Pobiłeś gówno młodych goblinów i błagają cię, żebyś przestał: 
+
+'Oi, oi, dobrze, wracamy, wracamy!'
+[/STORY]
+[OUT][4119] Zabij ich.
+[OUT][10815] Niech idą pod warunkiem, że wrócą prosto do starszych i nigdy więcej nie zbłądzą!
+[/NODE]
+
++[NODE]15
+[STORY]
+[10816] Zabijasz gobliny, a powietrze wypełnia śmiertelna cisza. Tutaj możesz wyczuć obecność duchów, a one nie są szczęśliwe. 
+
+Kiedy mówcy duchowi dowiedzą się, jak rozwiązałeś ten problem, są wściekli i każą ci trzymać się z daleka.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[10817] Gobliny cię biją i śmieją: 
+
+'Ha, potężni wojownicy, których jesteś, pobity przez ukamienowanych gobbosów, co? Pokonaj go, idź do starych pierdółków, powiedz im, że zostajemy i bawimy się dobrze!'
+
+Mówcy duchowi słyszą o twojej porażce i są rozczarowani, że próbowałeś skrzywdzić ich młodzież. Twoja przyjaźń nie rośnie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[10818] Nieobliczalne gobliny wracają do starszych. Mówcy duchowi mają wątpliwości co do twoich metod, ale nie mogą kłócić się z wynikami. 
+
+Wasza przyjaźń trochę wzrasta i dają wam obiecaną nagrodę. 
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10819] Zaczyna się tak, jak robią to strony, z jedzeniem, piciem, paleniem i tańcem. Ale z każdym zaciągnięciem dziwnie eterycznych rur czujesz, jak opuszczasz ten samolot i wkraczasz do świata duchów - szarego świata. 
+
+Dla tych, którzy nie są wyszkoleni, jest to niebezpieczne, ale w twoim stanie szczęścia, kogo to obchodzi? 
+[/STORY]
+[OUT][10820] Duchy? Greyworld, taki lekki, taki fajny, czujący się szczęśliwy, smutny, podniecony, tak. Idź dalej, jeszcze jedno zaciągnięcie się. . .
+[/NODE]
+
++[NODE]25
+[STORY]
+[10821] Dla tych, którzy nie kroczą ścieżką goblinów, partia kończy się dużo duchowym bólem, a nawet fizyczną chorobą. 
+
+Nawet dla goblinów, to była jazda duchowa, jak żadna inna. Tylko szamani uważają, że korzyści przewyższają szkody. 
+
+[/STORY]
+[OUT][10822] Spróbujcie się zebrać.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10823] Goblińscy nowicjusze przenieśli swój obóz, zanim obudzisz się z transu. Zostawili ci prezent. 
+
+Starsi mówcy duchowi słyszą o twojej lekkomyślności i nie są szczęśliwi.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+[10819] Zaczyna się tak, jak robią to strony, z jedzeniem, piciem, paleniem i tańcem. Ale z każdym zaciągnięciem dziwnie eterycznych rur czujesz, jak opuszczasz ten samolot i wkraczasz do świata duchów - szarego świata. 
+
+Dla tych, którzy nie są wyszkoleni, jest to niebezpieczne, ale w twoim stanie szczęścia, kogo to obchodzi? 
+[/STORY]
+[OUT][10820] Duchy? Greyworld, taki lekki, taki fajny, czujący się szczęśliwy, smutny, podniecony, tak. Idź dalej, jeszcze jedno zaciągnięcie się. . .
+[/NODE]
+
++[NODE]30
+[STORY]
+[10824] „Oi, przestań z przekleństwami, człowieku! Idziemy, idziemy, nie będziemy już gniewać duchów przodków.'
+
+Młodzież udaje, że słucha twoich słów, ale w rzeczywistości po prostu poruszają obóz, żeby go nie znaleźć. 
+
+Starsi mówcy duchowi doceniają wasze wysiłki, ale nie uzyskano tutaj żadnej przyjaźni. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[10825] „Dobrze, dobrze, wracamy.'
+
+Młodzież wraca do domu, a starsi duchowi wdzięczni są za twoją pomoc. Pozostawiają ci jakieś prezenty jako podziękowania.
+[/STORY]
+[OUT][239] Podziękujcie im i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --GoblinMain(15)
++[NODE]2
+[STORY]
+[10826] Wysłano cię, abyś porozmawiał z trzema szamanami i znalazł ich w kręgu luminescencyjnych pieczarek: 
+
+- Mówisz o wielkim świetle, tak? O czasie też. Twoi bogowie są zawsze tak powolni, aby podnieść kawałki.'
+[/STORY]
+[OUT][10827] Być może, ale co zrobiły z tym duchy goblinów?
+[OUT][10828] Powiedz im, aby nie mówili źle o bogach, którym służysz!
+[/NODE]
+
++[NODE]3
+[STORY]
+[10829] „Ha ha, prawda, prawda. Duchy są jeszcze mniej skłonne do wtrącania się. Zadowolony z pobytu w świecie szarości i obserwowania, jak niszczymy tę stronę. Ale my, lubimy nasze fizyczne powłoki, tak. Tak więc odpowiedzi, których szukasz, są trudne do znalezienia.'
+[/STORY]
+[OUT][10830] Czy mogą to zapewnić?
+[/NODE]
+
++[NODE]4
+[STORY]
+[10831] „To, co powiemy, może nie być lubiane. Nie mamy odpowiedzi na przeszłość. Duchy mówią nam tylko, że światło było trzymane pod spodem, tak jak ciemność była utrzymywana powyżej. Starożytne umowy, pakty zawierane między istotami dawno minione.'
+[/STORY]
+[OUT][880] Ale czy wiecie, jak ponownie złapać światło i przywrócić to ziemskie serce?
+[/NODE]
+
++[NODE]5
+[STORY]
+[10832] „Nie. Te odpowiedzi nie trzymamy. Ale inni mamy. Jeśli światło przytłacza, pali nas wszystkich. Ludzie są bardziej zmianami niż stabilnością, a ty też będziesz cierpiał. Tylko elfy i być może krasnoludy mogą znaleźć swoje miejsce w świetle. Nasz świat zostanie spalony.'
+[/STORY]
+[OUT][10833] Czy mają alternatywę?
+[/NODE]
+
++[NODE]6
+[STORY]
+[10834] „Nie, nie. Nie odważymy się tego mówić. Ale tak jest. Idź do niego. On jest sam. On jest inny. I tak myśli poza typowymi granicami. Takie myśli są teraz potrzebne. 
+
+Tutaj duchy mówią, że mieszka. Strzeżcie się, bo on nie jest miły, nie jest bezpieczny i nie jest podobny do boskości, więc bądźcie dla niego mili, jeśli chcecie czegoś. Shame Bringer to jego imię.'
+[/STORY]
+[OUT][10835] [Ork] To nazwa orka, a nie dobra.
+[OUT][10836] Dziękuję im za informacje i odejdź.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10837] „Tak, on jest wyrzutkiem twoich klanów. Jak ty? Nie? Może nie tak jak ty. W przeciwieństwie do innych, na pewno. Niebezpieczny, pełen nienawiści.'
+[/STORY]
+[OUT][10836] Dziękuję im za informacje i odejdź.
+[/NODE]
+
++[NODE]10
+[STORY]
+[10838] „Ha ha, taki wrażliwy. Nie martw się, lubimy twoich bogów. W końcu ten Marovit jest jednym z nas. Teraz trudno znaleźć odpowiedzi, których szukasz.'
+[/STORY]
+[OUT][10830] Czy mogą to zapewnić?
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --GoblinTown(16)
++[NODE]2
+[STORY]
+[10839] Wioska goblinów jest pełna popiołu i kości poległych. Wygląda na to, że mędrcy przyjechali tu po zwiększeniu ich mocy. 
+
+Miejsce jest martwe.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Old tavern(17)
++[NODE]2
+[STORY]
+[10840] Gdy podejdziesz bliżej, zobaczysz solidną starą tawernę zbudowaną z kamienia. Z zarośniętej zieleni, nieużywanego podwórka i połamanych drewnianych drzwi zakłada się, że jest opuszczony. 
+[/STORY]
+[OUT][4] Wejdźcie.
+[OUT][4] Wejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[6] Stara karczma śmierdzi zgnilizną i pleśnią. W podłodze dostrzegacie ukrytą klapę prowadzącą do piwnicy.
+[/STORY]
+[OUT][7] Użyjcie narzędzi do otwarcia klapy w podłodze.
+[OUT][8] Wyłamcie drzwi.
+[OUT][5] Odejdźcie.
+[OUT][8] Wyłamcie drzwi.
+[/NODE]
+
++[NODE]10
+[STORY]
+[9] Wyważacie drzwi, ale uderzenie spowodowało, że zapadły się one razem z kawałkiem podłogi. Spadacie w dół wprost w ciemną piwnicę
+
+Wasz upadek złagodził rój wijących sie wściekłych żmij!
+[/STORY]
+[OUT][10] Atak!
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]13
+[STORY]
+[12] Umiejętnie otwieracie drzwi w podłodze. Słychać dziwny syk. Po chwili dostrzec można poniżej kłębowisko żmij, które rozpełzły sie po piwnicy. Tuż poniżej wejścia znajduje się skrzynia.
+[/STORY]
+[OUT][13] Spróbujcie wydobyć skrzynię za pomocą lin i narzędzi.
+[OUT][14] Wrzućcie kilka pochodni aby utrzymać węże z dala, a następnie spróbujcie wydobyć skrzynie zanim żmije zaatakują.
+[OUT][35] Korzystając z mocy własnego intelektu wymyślcie jak oszukać węże.
+[OUT][16] Po prostu wskoczcie i zabijcie węże.
+[/NODE]
+
++[NODE]15
+[STORY]
+[10841] Szczury [R12] leżą martwe, a ty możesz wziąć zapas.
+[/STORY]
+[OUT][18] Zbierzcie łupy i odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[19] Flet uspokaja węże na tyle, by nie zwracały na Was uwagi. Dzięki temu można wziąć skrzynię.
+[/STORY]
+[OUT][20] Zabierzcie skrzynię i wyjdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[21] Zabijacie wszystkie żmije. Teraz możecie wziąć skrzynię ukrytę w piwnicy.
+[/STORY]
+[OUT][20] Zabierzcie skrzynię i wyjdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[22] Ostrożnie umieszczacie kilka płonących pochodni tak, aby węże pochowały się po kątach. Kiedy znajdą się z dala od skrzyni łatwiej będzie ją zabrać.
+[/STORY]
+[OUT][20] Zabierzcie skrzynię i wyjdźcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+[23] Próbujecie przestraszyć węże ogniem, ale są na tyle wściekłe, że wcale się tym nie przejmują. Rój rzuca się na Was jak szalony i zmusza do odwrotu!
+[/STORY]
+[OUT][24] Ucieczka!
+[/NODE]
+
++[NODE]24
+[STORY]
+[25] Węże okazują się wyjątkowo złośliwe. Cały rój rzuca się na Was jak szalony i zmusza do odwrotu!
+
+[/STORY]
+[OUT][24] Ucieczka!
+[/NODE]
+
++[NODE]29
+[STORY]
+[26] Większość tej starej karczmy to ruina. Rozglądacie sie dookoła i za piecem kuchennym dostrzegacie tajemniczą dziurę która pewnie służy jako kryjówka.
+
+Widać coś ukrytego w środku, ale otoczone jest przez stado śpiących szczurów.
+
+[/STORY]
+[OUT][27] Dobrze wiecie jak postępować ze szczurami. Flet na pewno je oczaruje.
+[OUT][10] Atak!
+[OUT][28] Dowiedzcie się, gdzie najlepiej podłożyć pułapki na szczury.
+[OUT][29] [Wiedźma] Wyjmij kilka suchych pachnących ziół i podpal je. Czarami zmuś szczury do niewoli.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[30] Wyciągacie skrzynię całą i zdrową.
+[/STORY]
+[OUT][31] Weźcie towary i wyjdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[32] Zeskakujecie i próbujecie chwycić skrzynie. Okazuje się, że jest ona przegniła i rozpada na drobne części. Odkrywacie, że w środku jest tylko kurz. 
+
+Wściekłe węże rzucają się na Was kiedy próbujecie wyjść. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[30] Wyciągacie skrzynię całą i zdrową.
+[/STORY]
+[OUT][31] Weźcie towary i wyjdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[33] Otwieracie drzwi i widzicie ciemną piwnicę. Zdajecie sobie sprawę, że wewnątrz pełza rój wściekłych żmij. 
+
+Zauważacie skrzynię schowaną w rogu.
+[/STORY]
+[OUT][34] Dobrze wiecie jak poradzić sobie z wężami. Wyjmijcie flet i grając oczarujcie żmije.
+[OUT][10] Atak!
+[OUT][35] Korzystając z mocy własnego intelektu wymyślcie jak oszukać węże.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]43
+[STORY]
+[36] Oczarowujecie szczury, a jeden z nich chce zostać z Wami!
+
+Otrzymujecie także część zapasów.
+[/STORY]
+[OUT][18] Zbierzcie łupy i odejdźcie.
+[/NODE]
+
++[NODE]45
+[STORY]
+[37] Oczarowujecie szczury, które teraz trzymają sie od Was z daleka.
+[/STORY]
+[OUT][18] Zbierzcie łupy i odejdźcie.
+[/NODE]
+
++[NODE]46
+[STORY]
+[38] Szczury oszalały! Dodatkowo z tunelu wybiega kolejna grupa. Ta sytuacja zmusza Was do ucieczki.
+[/STORY]
+[OUT][24] Ucieczka!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Haunted house(18)
++[NODE]2
+[STORY]
+[40] Natrafiacie na starą zaciszną chatę, która swoje najlepsze dni ma już dawno za sobą. 
+
+Drzwi są uchylone i kołyszą sie lekko na wietrze. Pajęczyny i drobne roślinki pokrywają większość ścian.
+[/STORY]
+[OUT][41] Wewnątrz domu wyczuwalna jest czyjaś obecność. Obserwujcie uważnie, może zauważycie coś szczególnego.
+[OUT][4] Wejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[42] Obecność jest słaba i ulotna, ale daje się wyczuć niepokojący gniew i dezorientację. 
+
+Prawdopodobnie macie do czynienia z duchem.
+[/STORY]
+[OUT][43] Wejdźcie do środka.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[44] Gdy tylko wchodzicie do środka, drzwi i okiennice zatrzaskują się z hukiem pozostawiając Was w ciemnościach. 
+
+Z góry słychać skrzypiący hałas.
+
+Kiedy zapalacie pochodnie dostrzegacie drabinę prowadzącą na półpiętro.
+[/STORY]
+[OUT][45] Zastanówcie sie z jakiego typu obecnością macie do czynienia.
+[OUT][46] Spróbujcie się stąd wydostać.
+[OUT][46] Spróbujcie się stąd wydostać.
+[/NODE]
+
++[NODE]6
+[STORY]
+[47] Ten dom jest wyraźnie nawiedzony. Możecie spróbować oczyścić go stawiając czoła duchom tu przebywającym, ale ten rytuał może być niebezpieczny.
+
+Możecie także spróbować znaleźć wszystko, co wiąże ducha z ty miejscem i zniszczyć to. Oczywiście możecie też spróbować utorować sobie drogę do wyjścia.
+[/STORY]
+[OUT][48] [Gobliński szaman lub Duch] Wkrocz w świat równoległy i pokonaj rozgniewanego ducha.
+[OUT][49] Odprawcie rytuał i stawcie czoła duchom.
+[OUT][50] Poszukajcie tego, co trzyma ducha w tym domu.
+[OUT][51] Spróbujcie wyrwać się stąd siłą.
+[/NODE]
+
++[NODE]7
+[STORY]
+[52] Kiedy próbujecie znaleźć wyjście, odkrywacie piwnicę do której wbiegacie mając nadzieje na znalezienie wyjścia. Zamiast tego trafiacie na osobliwość duchową która migocze lekko błękitną poświatą. Słychać skrzeczące głosy:
+
+'Zostańcie! Zostańcie z nami, bądźcie przy nas... jesteśmy samotni...'
+[/STORY]
+[OUT][10] Atak!
+[OUT][53] Biegnijcie z powrotem próbując znaleźć wyjście!
+[/NODE]
+
++[NODE]12
+[STORY]
+[54] Próbujecie wyłamać drzwi, a potem okiennice. Te jednak wydają się być niezniszczalne. Przy każdym ciosie dom trzeszczy coraz głośniej, a przedmioty martwe zaczynają lewitować i uderzając w Was!
+
+Garnki, patelnie, krzesła i kości zmarłych tu istot lecą na Was jak szalone!
+
+W końcu dostrzegacie pęknięcie w drewnianej konstrukcji.
+[/STORY]
+[OUT][55] Uderzajcie dalej!
+[/NODE]
+
++[NODE]16
+[STORY]
+[56] Zaczynacie poszukiwania. Z każdym krokiem skrzypienie staje się coraz głośniejsze i bardziej złowrogie. Odgłos zaczyna przypominać fotel bujany. 
+
+Kilka razy ktoś z grupy potwierdza, że widział postać odzianą w czarną sukienkę. 
+
+Na dole przy drzwiach i przy okiennicach znajdujecie szczątki biedaków, którzy próbowali się stad wydostać. 
+
+[/STORY]
+[OUT][57] Wejdźcie po drabinie.
+[OUT][51] Spróbujcie wyrwać się stąd siłą.
+[/NODE]
+
++[NODE]23
+[STORY]
+[54] Próbujecie wyłamać drzwi, a potem okiennice. Te jednak wydają się być niezniszczalne. Przy każdym ciosie dom trzeszczy coraz głośniej, a przedmioty martwe zaczynają lewitować i uderzając w Was!
+
+Garnki, patelnie, krzesła i kości zmarłych tu istot lecą na Was jak szalone!
+
+W końcu dostrzegacie pęknięcie w drewnianej konstrukcji.
+[/STORY]
+[OUT][55] Uderzajcie dalej!
+[/NODE]
+
++[NODE]26
+[STORY]
+[58] Ciemny duch zostaje pokonany, a dom staje się kolejną starą, pustą ruiną.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]28
+[STORY]
+[60] Wasze wysiłki by pokonać ten przeklęty dom, okazały się całkowicie daremne. Cokolwiek próbowaliście, zawodziło. Towarzyszyło Wam uczucie jakbyście utknęli tutaj na wiele tygodni. Cały ten czas cos atakuje zaciekle Wasze dusze. Wreszcie z niepokojem stwierdzacie, że czuć dym! Zaczynacie się dusić i widzicie, że dom sie pali! Słychać :
+
+'Spalic! Spalic ten przeklęty dom!'
+
+Ktokolwiek podłożył ogień, wybawił Wasze ciała od śmierci, a dusze od potępienia. Nie podziękujecie mu jednak, bo strach nie pozwolił mu tu zostać dłużej.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+[61] W końcu rozbijacie okiennice i wybiegacie na zewnątrz. Niektóre latające przedmioty lecą za Wami i uderzają Was mocno. Co gorsza styczność z duchem pozostawia głęboki ślad w Waszej psychice.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+[62] Przeciskacie się przez zgęstniałą atmosferę, po czym docieracie do bujanego fotela, który podpalacie. 
+
+Słychać jęki i porażający skowyt, a kiedy fotel plonie na dobre, dom jakby nabierał głębokiego oddechu świeżego powietrza. Drzwi i okiennice otwierają się.
+
+Kiedy sie rozjaśnia dostrzegacie jeszcze kilka ciał nieszczęśników, którzy tu zginęli.
+[/STORY]
+[OUT][63] Pochowajcie ciała tych biedaków i zbierzcie ich rzeczy.
+[/NODE]
+
++[NODE]37
+[STORY]
+[64] W końcu wyłamujecie okiennice i wyskakujecie na zewnątrz. Latające przedmioty wypadają za Wami, jednak po chwili zwalają się na ziemię 
+
+[/STORY]
+[OUT][65] Zbierzcie przedmioty i opuśćcie to miejsce.
+[/NODE]
+
++[NODE]50
+[STORY]
+[66] W przyćmionym świetle pochodni widać drewniany, bujany fotel poruszający się samoistnie. 
+
+Powietrze tutaj jest zimne i ciężkie. 
+
+Wyczuwalny w całym domu byt, który tutaj jest najsilniejszy, odpycha Was od krzesła.
+[/STORY]
+[OUT][67] Zaprzyjcie się mocno i spróbujcie zniszczyć krzesło!
+[OUT][67] Zaprzyjcie się mocno i spróbujcie zniszczyć krzesło!
+[OUT][51] Spróbujcie wyrwać się stąd siłą.
+[/NODE]
+
++[NODE]53
+[STORY]
+[68] Niszczycie duchy i odkrywacie drogę przez piwnicę.
+
+Znajdujecie zapasy porzucone przez kogoś, kto również próbował tędy uciekać. Po zaschniętych kałużach krwi można wywnioskować, że mu sie to nie udało.
+
+[/STORY]
+[OUT][69] Zbierzcie sprzęt i opuśćcie to miejsce.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Witch house(19)
++[NODE]2
+[STORY]
+[116] Natrafiacie na starą chatę w lesie. Z początku wydaje się ona w dość kiepskim stanie, ale z komina unosi się dym.
+[/STORY]
+[OUT][117] Zapukajcie i sprawdźcie, czy ktoś jest w domu.
+[OUT][117] Zapukajcie i sprawdźcie, czy ktoś jest w domu.
+[OUT][118] Podkradnijcie się i sprawdźcie.
+[OUT][118] Podkradnijcie się i sprawdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[119] Gdy zbliżacie sie do domu nagle słychać dzwonki. Brzmią jakby były wykonane ze srebra. 
+
+'Ha! Przeklęte, nocne demony trzymajcie sie z dala od mego domu! Słyszycie!'
+[/STORY]
+[OUT][120] [Wiedźma] Pochwalcie właściciela domu za dobre uroki obronne.
+[OUT][121] Uważacie, że srebrne dzwoneczki i uroki Was osłabią. Nadal możecie wejść jeśli chcecie. Nie życzycie nikomu przecież krzywdy, a jedynie chcecie porozmawiać.
+[OUT][122] Wpadnijcie do środka i zabijcie wszystko co się rusza!
+[/NODE]
+
++[NODE]5
+[STORY]
+[123] Wewnątrz chaty widzicie starą kobietę zgarbioną nad paleniskiem. Z sufitu zwisają suszone pęki ziół, wokół pełno dziwnych płynów w fiolkach, drobnych kostek, kurzych nóżek i wszelkiego rodzaju podobnych składników.
+[/STORY]
+[OUT][124] To wiedźma, zabić ją!
+[OUT][124] To wiedźma, zabić ją!
+[OUT][125] [Wiedźma] Podejdźcie porozmawiać z nią, ale ostrzeżcie, żeby nie próbowała żadnych sztuczek.
+[OUT][126] Zapukajcie do drzwi.
+[/NODE]
+
++[NODE]6
+[STORY]
+[127] Stara zakapturzona kobieta otwiera drzwi i czyni gest zapraszając Was do środka. Potem siada w swoim bujanym fotelu i mówi:
+
+'Zapraszam nieznajomi. Co mogę Wam zaoferować? Ciepły posiłek, słodycze, a może pohandlujemy?'
+
+[/STORY]
+[OUT][124] To wiedźma, zabić ją!
+[OUT][124] To wiedźma, zabić ją!
+[OUT][128] Wejdźcie i porozmawiajcie z nią.
+[OUT][125] [Wiedźma] Podejdźcie porozmawiać z nią, ale ostrzeżcie, żeby nie próbowała żadnych sztuczek.
+[/NODE]
+
++[NODE]10
+[STORY]
+[129] Zaskakujecie starą wiedźmę i szybko ją zabijacie. Niestety gdy kona, przeklina Was!
+
+[/STORY]
+[OUT][130] Splądrujcie dom i odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[131] Zaskakujecie starą wiedźmę i szybko ja zabijacie. Próbuje Was jeszcze przekląć, ale jeden z Was jest wystarczająco szybki, by ją powstrzymać. 
+
+[/STORY]
+[OUT][130] Splądrujcie dom i odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+[132] 'Jeśli chcecie mogę zrobić napar który daje niezłego kopa. Oczywiście nie za darmo.'
+[/STORY]
+[OUT][161] Poproście o błogosławieństwo ciała. [w zamian za 5 sztuk kwarcu]
+[OUT][162] Poproście o błogosławieństwo umysłu. [w zamian za 5 sztuk topazu]
+[OUT][163] Poproście o błogosławieństwo duszy. [w zamian za 5 sztuk kości cienia]
+[OUT][873] Podajcie swoją domenę magii lub powiązanie ze sztukami mistycznymi i zapytajcie, czy byłaby na tyle uprzejma, by Was czegoś nauczyć. 
+[OUT][137] Zaoferujcie jej część żywności w zamian za jej mądrość.
+[OUT][138] Zapytajcie czy zechce z Wami handlować.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[139] Stara wiedźma mówi Wam wiele mądrych rzeczy. Kończy chrapliwym głosem:
+
+'... i jeśli kiedykolwiek zobaczycie piękna dziewczynę przy wodzie, albo usłyszycie cudowną pieśń na morzu, módlcie się i wspomnijcie na me słowa. Trzy razy uszczypnijcie się w policzek, zanim pójdziecie zrobić coś głupiego z jednym z tych uwodzicielskich demonów.'
+[/STORY]
+[OUT][140] Podziękujcie jej za radę i odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[141] Oddajecie jej zapasy, a wiedźma szybkim ruchem kłuje jedno z Was zakrzywionym sztyletem. 
+
+Następnie pluje na zakrwawione ostrze, zdrapuje jedną z brodawek i rozgniata ją, po czym rozciera razem pozostałymi składnikami. Patrzycie z obrzydzeniem jak zlizuje ze sztyletu śluzowatą miksturę 
+
+Rzuca sie gwałtownie na Was wypowiadając słowa jakby w obcym języku. Jesteście całkowicie chorzy, ale równocześnie dają się odczuć skutki obiecanego błogosławieństwa
+[/STORY]
+[OUT][142] Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[143] Oddajecie jej zapasy, a wiedźma szybkim ruchem kłuje jedno z Was zakrzywionym sztyletem. 
+
+Rozmazuje zakrwawione ostrze krwią martwego królika, i potem spod własnej pachy. Pluje trzy razy na swoje prawe ramie wyciera w ślinę sztylet. 
+
+Potem kilka razy uderza Was tusza królika. Co bardzo zaskakujące zaczynacie odczuwać pożądany efekt.
+[/STORY]
+[OUT][142] Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[144] Oddajecie jej zapasy, a wiedźma szybkim ruchem kłuje jedno z Was zakrzywionym sztyletem. 
+
+Czekacie na resztę rytuału, ale ona śmieje sie szczerząc resztki zębów:
+
+'Co? Myślicie, że zrobię cos paskudnego? Wszystko gotowe. Krew załatwiła sprawę. Do następnego razu.'
+[/STORY]
+[OUT][142] Podziękujcie jej i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[145] Stara wiedźma opowiada Wam wiele zabawnych opowieści. Kończy mówiąc:
+
+'...wiec teraz już wiecie, w życiu najcenniejsze są gorąca woda, zdrowe zęby i miękka poduszka na której Twój stary tyłek może usiąść.'
+
+Jakoś, nikt z Was nie czuje, żeby zmądrzał.
+
+[/STORY]
+[OUT][140] Podziękujcie jej za radę i odejdźcie.
+[OUT][146] Zabić ją!
+[OUT][146] Zabić ją!
+[/NODE]
+
++[NODE]24
+[STORY]
+[147] 'Hmm, w dawnych czasach podążałam za mistrzem Welesem, zatem dziś wieczór będę chwalić te wspaniałe dni. 
+
+Siadajcie, pijcie i słuchajcie.'
+
+Stara wiedźma opowiada Wam wiele historii. W końcu mówi zmęczona, że nadszedł czas by iść.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]28
+[STORY]
+[148] 'Ha! Dobre! Poznaję Cię siostro. Z nieznajomymi mogę pogrywać i oszukiwać ich. 
+
+Wam jednak oferuje uczciwą wymianę jak miedzy siostrami. Mogę nauczyć Was pewnych rytuałów i dać Wam kilka ziół, ale potrzebuje trochę energii duchowej w zamian.
+[/STORY]
+[OUT][149] Handel.
+[OUT][150] Nauczcie się rytuałów.
+[OUT][151] Podziękujcie jej na razie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[152] Jeden z Was nacina rękę i unosi zaciśniętą pięść. Krople krwi spadają na oczyszczoną wcześniej podłogę. Rzucasz trzy kości z lewej reki nienarodzonego dziecka.
+
+Ale kości nie układają się w żaden wzór, a głos z zaświatów śmieje sie z Was:
+'Tanie sztuczki nie robią na mnie wrażenia. Odejdźcie!'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][122] Wpadnijcie do środka i zabijcie wszystko co się rusza!
+[/NODE]
+
++[NODE]39
+[STORY]
+[153] 'Odczep się. Nie ma tu czego szukać'
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][122] Wpadnijcie do środka i zabijcie wszystko co się rusza!
+[/NODE]
+
++[NODE]43
+[STORY]
+[154] 'Jeśli jesteś tym, za kogo sie podajesz, udowodnij to.'
+[/STORY]
+[OUT][155] Wykonanie prostego rytuału czytania kości.
+[/NODE]
+
++[NODE]44
+[STORY]
+[156] Jeden z Was nacina rękę i unosi ją z zaciśniętą pięścią do góry. Krew spływa na oczyszczony kawałek ziemi. Rzucone zostają trzy kości z lewej reki nienarodzonego dziecka. 
+
+Kości tworzą wzór.
+[/STORY]
+[OUT][157] Powiedzcie kobiecie, że już wkrótce z cienia wyjdzie jej przystojny nieznajomy.
+[/NODE]
+
++[NODE]48
+[STORY]
+[158] Zostajecie pokonani przez wiedźmę, która rzuca na wasze dusze klątwę.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]50
+[STORY]
+[159] 'No cóż, trochę pohandlowaliśmy. Teraz pora już iść.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]51
+[STORY]
+[160] 'Dobrze robić z Tobą interesy, Tymczasem....'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Hidden stash house(20)
++[NODE]2
+[STORY]
+[204] Znajdujecie mały opuszczony dom. Całość to zapadająca się ruina. 
+
+Widać jakby ktoś próbował uprzątnąć gruz z pewnych miejsc tak, jakby czegoś szukał. Chyba jednak bez powodzenia.
+[/STORY]
+[OUT][205] Przekopcie gruz.
+[OUT][205] Przekopcie gruz.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[206] Udaje się przesunąć nieco gruzu pod którym widać wejście do starej piwnicy. Wygląda na to, że w środku coś jest. 
+
+Spora część skarbów została zabrana ale niektóre rzeczy mogą się przydać.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[207] Przy przesuwaniu gruzu odkrywacie kilka martwych ciał. Sądząc po uzbrojeniu i ubiorze byli to bandyci.
+
+Większość sprzętu jest niekompletna ale niektóre z nich można jeszcze uratować.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[208] Udaje sie Wam przesunąć nieco gruzu i odnaleźć starą piwnicę. Macie już pewność, że jest to domek myśliwski, ponieważ piwnica jest pełna trofeów i skór.
+
+Większość sprzętu jest bezużyteczna, ale część może się przydać.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[209] Gruzu jest dużo i jest bardzo ciężki. Cokolwiek pod nim się znajduje pewnie jest zniszczone i nie warte wysiłku.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][210] Nie poddajcie się. Wytężcie siły, by oczyścić teren!
+[/NODE]
+
++[NODE]16
+[STORY]
+[211] Jesteście potwornie przemęczeni, spoceni i brudni, a na dodatek burczy Wam w brzuchach. W końcu oczyszczacie teren z całego gruzu 
+
+Jedne co udało się wykopać to kilka martwych ciał.
+[/STORY]
+[OUT][212] Wyprawcie im pochówek i zabierzcie ich rzeczy.
+[/NODE]
+
++[NODE]17
+[STORY]
+[213] Jesteście potwornie przemęczeni, spoceni i brudni, a na dodatek burczy Wam w brzuchach. W końcu oczyszczacie teren z całego gruzu. 
+
+Nie znajdujecie absolutnie niczego, jednie udało sie odzyskać nieco drewna.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --cem goblin trinket(21)
++[NODE]2
+[STORY]
+[10842] Dom, w którym się znalazłeś, okazał się pusty, ale za nim odkrywasz cmentarz. Widzisz dziwny świecidełko w jednym z miejsc pochówku.
+[/STORY]
+[OUT][1778] [Goblin] Spróbuj wypracować odpowiednią kombinację dla tego bibelotu.
+[OUT][10843] [Intelekt i inteligencja] Błyskotka wydaje się zawierać zagadkę. Przyjrzyj się bliżej.
+[OUT][10844] [Inteligencja] Błyskotka zdaje się zawierać puzzle. Przyjrzyj się bliżej.
+[OUT][1780] [Ork] Nie masz pojęcia, co to jest, ale spróbuj to zrobić.
+[OUT][1781] Nie masz pojęcia, co to jest, ale spróbuj to zrobić.
+[OUT][1782] Cokolwiek to jest, spróbuj je otworzyć.
+[OUT][1783] Po prostu zostaw to.
+[/NODE]
+
++[NODE]3
+[STORY]
+[2501] Kizikony to stara tradycja goblinów, wywodząca się ze starego kraju - legendarne miejsce twojego pochodzenia. Mistrz bibelotów lub szaman, jak ich teraz nazywacie, pozostawi taki obiekt jako znak spuścizny. Ten nie wygląda zbyt skomplikowany, ale może być pułapką.
+[/STORY]
+[OUT][1785] Spróbuj go otworzyć.
+[OUT][1786] Nie, to zbyt niebezpieczne. Pozostawiać. 
+[/NODE]
+
++[NODE]6
+[STORY]
+[1787] Rzecz wybucha, gdy go uderzysz! Cierpisz na oparzenia, ale możesz jeszcze odzyskać pewne dobra.
+[/STORY]
+[OUT][1788] Zbierz to, co jest nienaruszone, i wyjdź.
+[OUT][1788] Zbierz to, co jest nienaruszone, i wyjdź.
+[/NODE]
+
++[NODE]18
+[STORY]
+[1789] Byłeś tak blisko, ale przekręciłeś niewłaściwą dźwignię i cała rzecz eksploduje w twoich rękach!
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[1790] Czytałeś o starych zwyczajach goblinów, gdzie szamani zostawiali przedmioty za sobą, by oszukać dowolnych grabieżców. Czy może przekazać część ich dziedzictwa? W obu przypadkach, niezależnie od tego, co obiekt może pomieścić, jest prawdopodobnie zabezpieczony przed manipulacją.
+[/STORY]
+[OUT][1785] Spróbuj go otworzyć.
+[OUT][1791] Otwórz to mocno.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]23
+[STORY]
+[1792] Zawodzisz, a wiadomość w dymie wypływa: 
+
+'Ha! Głupi ork.'
+
+Następnie urządzenie eksploduje.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --OldHouseSpwn(22)
+[/EVENT]
+
+-- [EVENT] --Necromancer(23)
++[NODE]2
+[STORY]
+[10845] Zbliżasz się do wieży Shame Bringer, orka, który podobno ma sposób na pokonanie tego rosnącego światła. 
+
+To miejsce jest niczym niezwykłym - pojedyncza kamienna wieża. Jedynym dziwactwem jest brak widocznego wejścia. 
+[/STORY]
+[OUT][889] Podejdźcie do wieży i powiedzcie orkowi, że zostałeś tu wysłany przez Pożeraczkę Dusz, jego matkę.
+[OUT][890] Podejdźcie do wieży i powiedzcie orkowi, że zostaliście wysłani przez goblińskich szamanów.
+[/NODE]
+
++[NODE]3
+[STORY]
+[891] Mężczyzna orków wychodzi z wieży, przechodząc przez kamień. 
+
+„Szamani? Ciekawe. Nie liczyłem na taki obrót spraw, chociaż teraz, kiedy o tym wspomniałeś, ma to sens. Oni także są stworzeniami utkanymi z chaosu, magii i ciemności bardziej niż z światła i harmonii.'
+[/STORY]
+[OUT][892] Czy on wie, jak zatrzymać światło?
+[OUT][893] Zapytajcie go, jaka jest jego historia. Męscy orkowie, którzy używają magii, nie są powszechni.
+[OUT][894] Błagajcie tego orka, aby powiedział Wam, jak pokonać światło w najprostszy możliwy sposób. Nie macie czasu na opowieści i nie dbacie o jego motywy.
+[/NODE]
+
++[NODE]4
+[STORY]
+[895] „Nie, nie jesteśmy. Kiedy talent do mistycznych praktyk u mężczyzny okazują orkowie, matka ma prawo by zabić dziecko. 
+
+Moja jest najlepszą czarownicą alfa. Otrzymała pozwolenie na pozostawienie mojego losu w rękach przypadku. Wydaje się, że przypadek mi sprzyjał. Zostałem porzucony, by umrzeć na płonących równinach, ale przeżyłem. Wzywałem śmierć, żeby mnie zabrała. Zamiast tego pozwoliła mi żyć.'
+[/STORY]
+[OUT][896] [Nyia] Śmierć odpowiedziała? Jak to?
+[OUT][897] Więc co teraz? 
+[/NODE]
+
++[NODE]5
+[STORY]
+[898] „To nie była twoja kochanka, jeśli o to pytasz. To była dama odziana w ciemne pióra. Śmierć i zima towarzyszyły jej na każdym kroku. Smutek i mądrość spowijały jej szyję. 
+
+Powiedziała, że muszę użyć sprytu, aby przeżyć, i tylko wtedy królestwo śmierci posłucha mojego wołania. Utonąłem w ciemności, a jej głos poprowadził mnie z powrotem.'
+[/STORY]
+[OUT][897] Więc co teraz? 
+[/NODE]
+
++[NODE]6
+[STORY]
+[899] „Jestem tym, co inni nazywają nekromantą. Surowe słowo, ale wystarczy. Opanowałem sztukę nieumarłych. Moje stworzenia chodzą po tej ziemi i wypełniają moje polecenia, ale jest ich znacznie więcej. 
+
+Zagłębiam się w królestwa śmierci. Patrzę w twarz ciemności i chodzę po wielu ścieżkach chaosu.'
+[/STORY]
+[OUT][900] [Nyia] Twierdzi, że został ocalony przez damę śmierci, ale nekromancja jest obrazą dla naturalnego kręgu!
+[OUT][901] W jaki sposób nekromancja może pomóc powstrzymać Strzaskanie?
+[/NODE]
+
++[NODE]7
+[STORY]
+[902] „Tak. I ona też to wiedziała, kiedy uratowała mi życie. Mogła postawić mnie na wybranej ścieżce, ale nie zrobiła tego, twierdząc, że muszę dokonać własnego wyboru. 
+
+Nigdy więcej mi się nie ukazała, ale wierzę, że moja ścieżka jest tak samo częścią kręgu życia jak wszystko inne. A teraz jesteśmy tutaj, ja trzymam ciemne odpowiedzi, ty ich szukasz.'
+[/STORY]
+[OUT][901] W jaki sposób nekromancja może pomóc powstrzymać Strzaskanie?
+[/NODE]
+
++[NODE]8
+[STORY]
+[10846] „Moja sztuka nekromancji nie może pomóc bezpośrednio, ale mogę. Nauczyłem się prawdy. Tylko ciemność może pokonać to światło. Pomyśl o tym. 
+
+Po Przebudzeniu mieliśmy spokój w szarych czasach, gdzie ani światło, ani ciemność nie przytłoczyły - rozejm. I tak, obecność czarnej mgły często powoduje chaos, ale była dobra.'
+[/STORY]
+[OUT][904] O czym on mówi?
+[/NODE]
+
++[NODE]9
+[STORY]
+[10847] „Kosmiczne drzewo nie zostało ani ocalone, ani spalone. Pozostał w stanie stagnacji. I to zadziałało - dopóki nie pojawili się świetlicy. Ktoś nie lubił nowego rozejmu. Więc uwolnili światło. 
+
+Mogę ci powiedzieć, jak zrobić serce ciemności. Posadź go w jaskini ziemskiej i zniszcz bestię światła na dobre.'
+[/STORY]
+[OUT][906] Na dobre?
+[/NODE]
+
++[NODE]10
+[STORY]
+[907] „Tak, serce nie tylko zabije ciało gospodarza, ale także całkowicie zepsuje światło. Niektórzy przetrwają oczywiście, ale nie na tyle, by sprawiali oni kłopoty. Ciemność, która wciąż utrzymuje się na tym świecie, wystarczy, by utrzymać taki stan w ryzach, a może nawet pokonać ją w odpowiednim czasie.'
+[/STORY]
+[OUT][908] Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
+[OUT][909] I Strzaskanie?
+[/NODE]
+
++[NODE]11
+[STORY]
+[910] „Tak.'
+[/STORY]
+[OUT][911] Czy to nie przywróci wieku ciemności?
+[OUT][912] Jak można stworzyć serce ciemności?
+[OUT][913] Ten cały plan jest niebezpieczny i nie można mu pozwolić na jego realizację. Zaatakujcie nekromantę!
+[/NODE]
+
++[NODE]12
+[STORY]
+[914] „Nie, nie do końca. Kosmiczne drzewo żyje z tego, co zbieram, prawda? Znaczy się, służycie bogom i oni na Was polegają. 
+
+Więc rdzeń ciemności pozostanie w zalążku. Wzmocni się tylko to, co pozostanie z nami. To będzie przemiana. W rzeczywistości może to wpływać jedynie na spiczaste uszy.'
+[/STORY]
+[OUT][915] Jak?
+[/NODE]
+
++[NODE]13
+[STORY]
+[916] „Narodzili się ze światła, tak jak my z ciemności. Prawdopodobnie poniosą klęskę sromotną Ale przeżyli raz, więc jestem pewien, że mogą to zrobić ponownie.'
+[/STORY]
+[OUT][912] Jak można stworzyć serce ciemności?
+[/NODE]
+
++[NODE]14
+[STORY]
+[917] „Krótko mówiąc, sprawcie serce ciemności, które zepsuje światło i zniszczy wiele świetlistych istot. Ciemność będzie w stanie odeprzeć resztę, a Strzaskanie powinno ustać, ponieważ jest spowodowane ucieczką światła z rdzenia Ziemi.'
+[/STORY]
+[OUT][908] Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
+[/NODE]
+
++[NODE]15
+[STORY]
+[918] „Ziemia rozpada się, gdy świetlicy uciekają z rdzenia i wychodzą na górę. Gdy światło zostanie nadszarpnięte, wstrząsy powinny się zatrzymać na czas.'
+[/STORY]
+[OUT][908] Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
+[OUT][919] Dlaczego on chce Wam pomóc?
+[/NODE]
+
++[NODE]16
+[STORY]
+[920] „Mroki były kiedyś gigantami, wiedzieliście? Zostały zmienione przez ciemność i z czasem stały się czymś zupełnie nowym. Ale ich serca, wypełnione moją magią, oszukają mechanizm w  jaskini życia, by udawać serce olbrzyma. 
+
+Oczywiście będziecie musieli pokonać bestię światła, która teraz strzeże komnaty. Ale jeśli się zgodzicie, pomogę Wam. Pamiętajcie, nie każde mroki będzie miało serce, więc takie może być groźne.'
+[/STORY]
+[OUT][10848] Zgadzam się i poluj na mroki. Można je znaleźć w ciemności, w biomach wulkanicznych. 
+[OUT][922] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[10849] „Duma? Chcesz zaimponować mojej bezdusznej matce? Albo może czyste przetrwanie. W końcu jestem mistrzem ciemności - dominacja światła, a nawet czysta równowaga nie są moimi przyjaciółmi. Jeśli pójdziesz moją drogą, będę oczywiście silniejszy.'
+[/STORY]
+[OUT][908] Więc proponuje sabotaż? Sztuczne serce przeznaczone do niszczenia, a nie przywracania starych porządków?
+[/NODE]
+
++[NODE]21
+[STORY]
+[924] Orczy mężczyzna wychodzi z wieży, przenikając przez kamień. 
+
+„Więc słuchała, ale była zbyt tchórzliwa, by przyjść sama! Czy też jest to znak jej błyskotliwego umysłu, który również tkwi we mnie, że wysłużyła się czempionami innych bogów? To nie ma znaczenia, bo jesteście tutaj, chętni do słuchania.'
+[/STORY]
+[OUT][892] Czy on wie, jak zatrzymać światło?
+[OUT][893] Zapytajcie go, jaka jest jego historia. Męscy orkowie, którzy używają magii, nie są powszechni.
+[OUT][894] Błagajcie tego orka, aby powiedział Wam, jak pokonać światło w najprostszy możliwy sposób. Nie macie czasu na opowieści i nie dbacie o jego motywy.
+[/NODE]
+
++[NODE]23
+[STORY]
+[925] Ciało nekromanty zamienia się w ciemną mgłę i rozpuszcza się. Musicie znaleźć inne sposoby na powstrzymanie Strzaskania. 
+
+Może uda się wrócić do czerwonej jaskini i znów porozmawiać z Alchemikiem, uratować krasnoluda z więzienia lub szukać pomocy u elfów lub krasnoludów. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[926] „Głupcy, ślepi głupcy!'
+
+Nekromanta pokonuje Was i przeklina Wasze imiona. Następnie znika wraz ze swoją wieżą. Musicie znaleźć inne sposoby na powstrzymanie Strzaskania. 
+
+Być może wrócicie do czerwonej jaskini i znowu porozmawiacie z Alchemikiem.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[927] „Głupcy, ślepi głupcy!'
+
+Nekromanta pokonuje Was i przeklina Wasze imiona. Następnie znika wraz ze swoją wieżą. Musicie znaleźć inne sposoby na powstrzymanie Strzaskania. 
+
+Być może wrócicie do czerwonej jaskini i znowu porozmawiacie z Alchemikiem.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]31
+[STORY]
+[10850] „Znajdujesz wieżę, wewnątrz są kości i oznaki zajęcia, ale ktokolwiek tu mieszkał, już dawno zniknął.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --TavernGoblin(24)
++[NODE]2
+[STORY]
+[10851] Pożary są ciepłe, a piwo dobre. Tawerna tętni życiem i radością, z mnóstwem pieczarek i ziół do palenia. 
+[/STORY]
+[OUT][10852] Sprawdź, czy możesz rekrutować kogokolwiek. [Maksymalnie 2 gobliny mogą zostać zrekrutowane w jednej grze, z czasem odnowienia 200 tur po pierwszym sukcesie, więc wybierz mądrze.]
+[OUT][7434] [Demon] Zażyj nieco hazardu.
+[OUT][7435] Zażyjcie nieco hazardu.
+[OUT][10853] Pij, dym ma kilka pieczarek.
+[/NODE]
+
++[NODE]3
+[STORY]
+[7437] Są tutaj tacy ludzie, którzy mogą chcieć dołączyć do twojego zespołu, widząc, że jesteś wybranym i wszystkim.
+[/STORY]
+[OUT][10854] Podejdź do harcownika.
+[OUT][10855] Podejdź do zwierzaka.
+[OUT][10856] Podejdź do szamana.
+[OUT][10857] Podejdź do jeźdźca dzika.
+[OUT][7442] Ktoś prowadzi cię, by z nimi porozmawiać. Idź zobaczyć, czego chcą.
+[OUT][7443] Nie ma więcej osób, które chcą dołączyć tym razem. 
+[OUT][10858] Podejdź do pracownika.
+[/NODE]
+
++[NODE]8
+[STORY]
+[7444] Bez umowy. Więcej szczęścia następnym razem. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[7445] Wojownik jest dostępny, ale wymaga zapłaty.
+[/STORY]
+[OUT][7446] Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]12
+[STORY]
+[10859] Mistrz bestii jest dostępny, ale wymaga zapłaty.
+[/STORY]
+[OUT][7446] Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]14
+[STORY]
+[7449] Mówią, że wykonają pracę najemników za odpowiednią cenę.
+[/STORY]
+[OUT][7446] Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]17
+[STORY]
+[10860] Dziecko goblinów chce zostać zatrudnione. Są teraz małe, ale kto wie, mogą dorastać, by stać się kimś wielkim.
+[/STORY]
+[OUT][3991] Przywitajcie ich.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10861] Nigdy nie należy próbować uprawiać hazardu z demonami. W końcu zostałeś stworzony do oszustwa. 
+
+Wygrywasz, ale zdajesz sobie sprawę, że duchy cię obserwowały i bezpośrednio odczuwasz ich niezadowolenie.
+[/STORY]
+[OUT][7452] Czas iść.
+[/NODE]
+
++[NODE]27
+[STORY]
+[7453] Powodzenia pani znów się uśmiechnęła. Wygrałeś.
+[/STORY]
+[OUT][7452] Czas iść.
+[/NODE]
+
++[NODE]28
+[STORY]
+[7454] Kto potrzebuje szczęścia, gdy masz bogów po swojej stronie? Wygrałeś.
+[/STORY]
+[OUT][7452] Czas iść.
+[/NODE]
+
++[NODE]29
+[STORY]
+[7455] Niestety, szczęście nie było po twojej stronie. Przegrałeś.
+[/STORY]
+[OUT][7452] Czas iść.
+[/NODE]
+
++[NODE]30
+[STORY]
+[10862] Palisz jakieś rzeczy i nie wiesz, co się stało, ale kiedy odejdziesz, znajdziesz u siebie goblińskie dziecko. Czy to twoje? Być może, a raczej tak jest teraz!
+[/STORY]
+[OUT][7457] Dobrze?
+[/NODE]
+
++[NODE]33
+[STORY]
+[10863] Jako czarownica wchłonąłeś swój udział w dziwnościach, więc rzeczy goblinów nie są wyzwaniem. 
+
+Wdychasz i jeździsz falą duchowych wizji i imponujesz miejscowym. 
+
+[/STORY]
+[OUT][7459] Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]34
+[STORY]
+[10864] Gobliny nie są znane z silnych głów, a przecież jesteś Słowianinem. Pijesz i palisz z nimi w parze i są pod wrażeniem.
+[/STORY]
+[OUT][7459] Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]35
+[STORY]
+[10865] Ten goblin jest z pewnością dziwny. Nie pamiętasz wieczoru, ale odczuwasz jego skutki boleśnie?
+[/STORY]
+[OUT][7459] Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]36
+[STORY]
+[10866] Ten goblinowy materiał jest na pewno dziwny. Nie pamiętasz wieczoru, ale odczuwasz jego skutki boleśnie ...
+[/STORY]
+[OUT][7459] Świetnie. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]37
+[STORY]
+[10867] Za dużo piłeś i paliłeś. Najwyraźniej zacząłeś obrażać miejscowych za to, że są za krótkie, a potem próbowałeś dopasować je do torby, żeby to udowodnić. 
+
+
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]39
+[STORY]
+[10868] Szaman jest dostępny, ale wymaga zapłaty.
+[/STORY]
+[OUT][7446] Płać im, jeśli możesz.
+[/NODE]
+
++[NODE]41
+[STORY]
+[10869] Zbieracz i rzemieślnik są dostępni, ale wymagają zapłaty.
+[/STORY]
+[OUT][10870] Płać za rzemieślnika, jeśli możesz.
+[OUT][10871] Płać za zbieracza, jeśli możesz.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Beastmaster(25)
++[NODE]3
+[STORY]
+[10872] „Oi, chcesz, żeby twoje zwierzę tam było wyszkolone, prawda? Zrobię to za opłatą.'
+
+[Trening twojego zwierzaka podniesie go tylko do trzeciego stopnia, nie wyżej i będziesz mógł trenować tylko jedno zwierzę na raz]
+[/STORY]
+[OUT][10873] Tak, daj psa do wytrenowania.
+[OUT][953] Tak, daj kotowi przeszkolenie.
+[OUT][954] Tak, daj wilka do szkolenia.
+[OUT][10874] Tak, daj kozę, która ma zostać przeszkolona.
+[OUT][956] Tak, daj dzikowi przeszkolenie.
+[OUT][955] Tak, daj niedźwiedziowi przeszkolenie.
+[OUT][957] Nie, odejdźcie.
+[OUT][10875] Tak, daj żelazną żabę, aby została przeszkolona.
+[OUT][10876] Tak, daj jednemu kutasowi szkolenie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[959] „Jesteś szalony? Nie mogę trenować kotów! Czy wyglądam na czarodzieja? Dużo częściej drapią mi oczy niż słuchają.'
+[/STORY]
+[OUT][960] Zapytaj o inne zwierzęta.
+[/NODE]
+
++[NODE]7
+[STORY]
+[961] „Opłata zapłacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]12
+[STORY]
+[961] „Opłata zapłacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]14
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]15
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]17
+[STORY]
+[961] „Opłata zapłacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]20
+[STORY]
+[961] „Opłata zapłacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]22
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]24
+[STORY]
+[965] „Opłata zapłacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]26
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]29
+[STORY]
+[961] „Opłata zapłacona, dobra. Teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]31
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]32
+[STORY]
+[966] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]33
+[STORY]
+[965] „Opłata zapłacona, dobra, teraz podaj mi tego zwierzaka na trening.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Ghost training goblin(26)
++[NODE]3
+[STORY]
+[11887] „Oi. Podróżujesz z towarzyszami duchów. Za opłatą wchodzę w świat szarości i daję ci więcej ducha, co?'
+
+[Trening twojego zwierzaka podniesie go tylko do czwartej rangi, z niewielką szansą na wyższą i możesz trenować tylko jednego zwierzaka na raz]
+[/STORY]
+[OUT][10878] Tak, daj duchowi przeszkolenie.
+[OUT][10879] Tak, daj upiór do szkolenia.
+[OUT][957] Nie, odejdźcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10880] „Opłata zapłacona, dobra. Teraz idę z twoim duchem w świat szarości.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+[963] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]12
+[STORY]
+[10880] „Opłata zapłacona, dobra. Teraz idę z twoim duchem w świat szarości.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]14
+[STORY]
+[963] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Mental Return(27)
++[NODE]2
+[STORY]
+[973] Jeden z twoich ludzi, którzy wcześniej stracili wiarę w ciebie, zamieszkał w mieście. Teraz, kiedy mieli czas na odpoczynek i refleksję, chcieliby ponownie dołączyć do ciebie.
+[/STORY]
+[OUT][974] Akceptuj je.
+[OUT][975] Odrzuć, nie potrzebujesz słabeuszy!
+[/NODE]
+
++[NODE]3
+[STORY]
+[976] Są szczęśliwi, mogąc ponownie być częścią rodziny. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+

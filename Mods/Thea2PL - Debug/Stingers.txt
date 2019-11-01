@@ -1,0 +1,220 @@
+-- [EVENT] --StingersTradesmall(0)
++[NODE]2
+[STORY]
+[10881] The Stingers pokazują ci swój zapas do handlu.
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10882] „Nie jesteście naszymi przyjaciółmi, płacicie nam najpierw.'
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10883] „Dobry handel z tobą. Teraz się wyłącz.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --StingersTradeadv(1)
++[NODE]2
+[STORY]
+[10881] The Stingers pokazują ci swój zapas do handlu.
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[10884] „Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.'
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10883] „Dobry handel z tobą. Teraz się wyłącz.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Army Stingers(2)
++[NODE]2
+[STORY]
+[10885] Słyszysz niebezpieczny szum patrolu Stingera za tobą!
+[/STORY]
+[OUT][629] Pozdrówcie swoich sojuszników. 
+[OUT][630] Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT][10375] Spróbuj poradzić sobie z tym.
+[OUT][183] Walka!
+[OUT][632] Usuńcie się.
+[OUT][10886] Przekupcie Stingerów, aby pokazać, że jesteście przyjaciółmi.
+[/NODE]
+
++[NODE]3
+[STORY]
+[10887] „Ty, dobra, nie walczymy.'
+[/STORY]
+[OUT][634] Zapytajcie, czy chcą pohandlować.
+[OUT][10888] Wymień jedzenie i okazuj szacunek.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4191] Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][10375] Spróbuj poradzić sobie z tym.
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]17
+[STORY]
+[10889] Pokonujesz Stingerów. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[10890] Stingery pokonują cię i zarażają cię toksyną, zanim uda ci się uciec.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
++[NODE]25
+[STORY]
+[10891] Stingery oddalają się, a ty nawet zyskujesz od nich szacunek.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[10892] Stingery nie słuchają, w rzeczywistości używają twojego rozkojarzonego stanu, żeby cię ugryźć i zarazić cię toksyną, zanim uda ci się uciec.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Stingers Lair_(3)
++[NODE]3
+[STORY]
+[10893] Znajdujesz tętniące życiem centrum aktywności zwierząt. Wygląda to trochę jak duży ul, ale potem dostrzegasz także parę par podziemnych i różne inne gniazda, które są zorganizowane w jedną osadę. 
+
+Kilka pszczół zbliża się do ciebie i mówi: 
+'Ty, ty nie jesteś bestią. Chcesz walczyć, czy chcesz handlować?'
+
+[/STORY]
+[OUT][4467] Spróbuj z nimi porozmawiać.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]4
+[STORY]
+[10894] Lair tętni życiem, ale starają się trzymać z dala od ciebie. 
+
+Możesz handlować lub leczyć toksyny, a niektóre pająki mogą chcieć do ciebie dołączyć za opłatą. 
+
+Kiedy jesteście przyjaciółmi, możecie rekrutować niektóre pszczoły, pająki lub trenować swoje bestie, aby stały się silniejsze, zdrowsze lub mądrzejsze.
+[/STORY]
+[OUT][149] Handel.
+[OUT][5] Odejdźcie.
+[OUT][10] Atak!
+[OUT][10895] [Bestia] Idź zobaczyć trening bestii.
+[OUT][10896] Coś, co cię pociąga. Spójrz w dół.
+[OUT][10897] Płać z jedzeniem, aby węże usunęły toksyny.
+[OUT][10898] Płać za rzadkiego pająka domowego [Co 80 tur].
+[/NODE]
+
++[NODE]7
+[STORY]
+[10899] Znajdujesz tętniące życiem centrum aktywności zwierząt. Wygląda to trochę jak duży ul, ale potem dostrzegasz także parę par podziemnych i różne inne gniazda, które są zorganizowane w jedną osadę. 
+
+Ale nie jesteście przyjaciółmi kłuciarzy, więc atakują! 
+
+[/STORY]
+[OUT][2505] Brońcie się!
+[OUT][769] Ucieczka!
+[/NODE]
+
++[NODE]8
+[STORY]
+[10900] Legowisko żądłów jest zniszczone. Jego mieszkańcy nie żyją.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[10901] Trujący ukąszenie żądeł okazuje się zbyt silny i musisz uciekać.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[10902] Królowa cię bada: 
+
+'Ciemność nadeszła dawno temu i zmieniła nas. Wiemy, jak opanować nasze ciała i umysły. 
+
+Płać nam mięso, dużo! My też cię szkolimy, przyjacielu bestii.'
+
+
+[/STORY]
+[OUT][10903] Trenuj zwierzęta 
+[OUT][4478] Co za upadek godności.
+[/NODE]
+
++[NODE]22
+[STORY]
+[10902] Królowa cię bada: 
+
+'Ciemność nadeszła dawno temu i zmieniła nas. Wiemy, jak opanować nasze ciała i umysły. 
+
+Płać nam mięso, dużo! My też cię szkolimy, przyjacielu bestii.'
+
+
+[/STORY]
+[OUT][4477] Tak, zaakceptuj.
+[OUT][4478] Co za upadek godności.
+[/NODE]
+
++[NODE]26
+[STORY]
+[10904] Mały critter lubi cię i chce się przyłączyć, ale musisz zapłacić stingerom.
+[/STORY]
+[OUT][10905] Weź to.
+[OUT][10906] Nie, wróć do miasta.
+[/NODE]
+
++[NODE]33
+[STORY]
+[10904] Mały critter lubi cię i chce się przyłączyć, ale musisz zapłacić stingerom.
+[/STORY]
+[OUT][10905] Weź to.
+[OUT][10906] Nie, wróć do miasta.
+[/NODE]
+
+[/EVENT]
+

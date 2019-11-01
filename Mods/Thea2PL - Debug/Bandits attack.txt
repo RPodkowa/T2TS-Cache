@@ -1,0 +1,1685 @@
+-- [EVENT] --Orc bandits(0)
++[NODE]6
+[STORY]
+[1085] Bandyci wydają się zadowoleni z darmowego łupu. Nie dążą. 
+   
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[1086] Próbujesz biegać, ale szybko się na tobie zdobywają. 
+   
+[/STORY]
+[OUT][1087] Upuść niektóre torby i uciekaj. 
+[/NODE]
+
++[NODE]13
+[STORY]
+[1088] Orki nie żyją, a ich łup jest twój. 
+   
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[1089] Orki zabierają większość twoich rzeczy, ale zostawiają cię przy życiu. 
+   
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[1090] Matriarcha obserwuje cię z niewygodną intensywnością. 
+
+- Ty - jesteś taki paskudny. Lubię to.
+
+Połącz się ze mną, a nie pożałujesz.'
+   
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][1091] Odmówcie.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]24
+[STORY]
+[1092] Zostajesz napadnięty przez bandytów orków! 
+   
+[/STORY]
+[OUT][357] [Orcza matriarcha] Rozkaż im, by byli posłuszni, bo są pod Twoją władzą!
+[OUT][357] [Orcza matriarcha] Rozkaż im, by byli posłuszni, bo są pod Twoją władzą!
+[OUT][1093] [Ork] Warknij okrzyk bojowy i szarżuj!
+[OUT][183] Walka!
+[OUT][1094] [Zorya] W imieniu Zoryi żądaj szacunku!
+[OUT][1095] Spróbuj z nimi sparować.
+[OUT][1087] Upuść niektóre torby i uciekaj. 
+[OUT][11] Ucieczka!
+
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]25
+[STORY]
+[1096] „Jesteśmy wolni od twojej tyranii, matriarcho! Jesteśmy bezklanowi i już nigdy więcej się nie potkniemy!'
+
+Atakują z większą zaciekłością! 
+   
+[/STORY]
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]26
+[STORY]
+[1097] „Argh ... nawet tutaj, nawet jeśli nie mamy klanu, nadal mamy zaszczyt. Kłaniamy się twojej rangi, matriarcho.'
+
+Orkowie odchodzą, każdy zrzuca coś jako pokutę za swoją hańbę. 
+   
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[1098] Widzisz, jak orki wahają się, kiedy przywołujesz imię Zoryi. 
+
+Ale wiesz również, że twoja bogini to walka i waleczność, więc raczej nie zatrzymają się i nie porozmawiają na swoim koncie. 
+   
+[/STORY]
+[OUT][1099] W imię Zoryi zaatakuj ich!
+[OUT][1100] Użyj tej szansy, aby uciec.
+[/NODE]
+
++[NODE]31
+[STORY]
+[1101] „Dobry handel” z tobą. Ogień w swoich sercach!'
+
+Oni odchodzą. 
+   
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[1102] „Nie jesteśmy organizacją charytatywną, więc upuść trochę swojego gówna lub zostań pobity.'
+   
+[/STORY]
+[OUT][1103] Powiedz, że nie masz wystarczającej opłaty. [Stracić 10% wyposażenia]
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]37
+[STORY]
+[1104] „Twoje języki dobrze machają. Płać nam niewielką opłatę, a my możemy handlować z Tobą.'
+   
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][1103] Powiedz, że nie masz wystarczającej opłaty. [Stracić 10% wyposażenia]
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]38
+[STORY]
+[1105] Jesteś teraz boleśnie świadomy rytuałów krycia orków, ale jesteś także mile zaskoczony drapieżną sprawnością matriarchy. 
+
+Bandyci odchodzą. 
+   
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Slavers ambush(1)
++[NODE]2
+[STORY]
+[1106] Wpadasz w zasadzkę z powodu przerażających bandytów, którzy krążą wokół ciebie jak sępy: 
+
+'Więc co tu mamy? Zdrowo wyglądająca grupa. Przynieś nam dobrą cenę.'
+[/STORY]
+[OUT][1107] Spróbuj przełamać ich linie i uciec!
+[OUT][10] Atak!
+[OUT][1108] Spróbuj z nimi rozumować. 
+[OUT][1109] Spróbuj użyć na nich swojego uroku.
+[/NODE]
+
++[NODE]6
+[STORY]
+[1110] Uciekasz i zostawiasz łotrów za sobą.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[1111] Zabijasz niewolników i szukasz jeńców, ale okazuje się, że niektórzy ludzie musieli uciekać podczas walki. 
+
+Mimo to niektórzy mogą zdecydować się dołączyć do ciebie.
+[/STORY]
+[OUT][1112] Wyszukaj każdego, kto może tu jeszcze być, a następnie wyjdź.
+[OUT][1112] Wyszukaj każdego, kto może tu jeszcze być, a następnie wyjdź.
+[OUT][1112] Wyszukaj każdego, kto może tu jeszcze być, a następnie wyjdź.
+[OUT][1112] Wyszukaj każdego, kto może tu jeszcze być, a następnie wyjdź.
+[OUT][1112] Wyszukaj każdego, kto może tu jeszcze być, a następnie wyjdź.
+[/NODE]
+
++[NODE]13
+[STORY]
+[1113] Ledwo uciekasz, ale nie bez siniaków i musisz porzucić niektóre torby.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[1114] „Dorośli robią więcej kłopotów niż są warci. Nie ruszaj się i dziękuj bogom, że nie jesteśmy dziś w nastroju do zabijania.'
+[/STORY]
+[OUT][1115] Pozostań i poczekaj, aż odejdą.
+[/NODE]
+
++[NODE]19
+[STORY]
+[1116] „Oi, ten przyniesie dodatkową dobrą cenę. Tak, tak, pieprzyć młodych, weźmy to!'
+
+Zbliżają się.
+[/STORY]
+[OUT][1107] Spróbuj przełamać ich linie i uciec!
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]21
+[STORY]
+[1117] „Twój szczęśliwy dzień, ładna buzia. Idziesz z nami. Reszta z was, zostańcie na dole, albo my was wyszczuplimy.'
+
+[/STORY]
+[OUT][1115] Pozostań i poczekaj, aż odejdą.
+[/NODE]
+
++[NODE]27
+[STORY]
+[1118] „Domyślamy się, że robimy to uczciwie. A może sprzedasz nam dziecko, co? Zapłacimy dobre złoto i dodamy do tego podstępnego psa.'
+
+Wskazuje na wilka u jego boku.
+[/STORY]
+[OUT][1119] Zgadzam się. [Stracić jedno dziecko]
+[OUT][1120] Odrzuć i zaoferuj, że zapłacisz im za odejście.
+[OUT][1121] Wykorzystaj to rozproszenie jako okazję do ucieczki!
+[OUT][1121] Wykorzystaj to rozproszenie jako okazję do ucieczki!
+[OUT][1122] Teraz, kiedy się tego nie spodziewają, atakuj!
+[/NODE]
+
++[NODE]33
+[STORY]
+[1123] „Chyba byliśmy trochę przeciążeni. Powiedz co, a może zamiast tego stać się klientami? Płacisz nam, dajemy ci dziecko - zdrowe, posłuszne, dobre jak nowe.'
+
+[/STORY]
+[OUT][1124] Zgadzam się. Zapłać im najpierw, a potem otrzymasz dziecko.
+[OUT][1120] Odrzuć i zaoferuj, że zapłacisz im za odejście.
+[OUT][1121] Wykorzystaj to rozproszenie jako okazję do ucieczki!
+[OUT][1121] Wykorzystaj to rozproszenie jako okazję do ucieczki!
+[OUT][1122] Teraz, kiedy się tego nie spodziewają, atakuj!
+[/NODE]
+
++[NODE]39
+[STORY]
+[1125] Zabijasz niewolników, a ci, którzy przeżyli, uciekają. 
+
+Ich klatki wyglądają na puste, ale może wciąż możesz znaleźć i uwolnić ludzi.
+[/STORY]
+[OUT][1126] Przeszukaj je, zdobądź co możesz i odejdź.
+[/NODE]
+
++[NODE]45
+[STORY]
+[1118] „Domyślamy się, że robimy to uczciwie. A może sprzedasz nam dziecko, co? Zapłacimy dobre złoto i dodamy do tego podstępnego psa.'
+
+Wskazuje na wilka u jego boku.
+[/STORY]
+[OUT][1119] Zgadzam się. [Stracić jedno dziecko]
+[OUT][1120] Odrzuć i zaoferuj, że zapłacisz im za odejście.
+[OUT][1121] Wykorzystaj to rozproszenie jako okazję do ucieczki!
+[OUT][1121] Wykorzystaj to rozproszenie jako okazję do ucieczki!
+[OUT][1122] Teraz, kiedy się tego nie spodziewają, atakuj!
+[/NODE]
+
++[NODE]46
+[STORY]
+[1127] „I nie jesteśmy w dobrym nastroju. Zabierzemy cię pod skórę, będziemy ...„
+
+Niewolnicy stają się podnieceni podnieceniami, gdy ci grożą, a ty masz niewielką szansę na ucieczkę.
+[/STORY]
+[OUT][11] Ucieczka!
+
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Goblin bandits(2)
++[NODE]2
+[STORY]
+[1128] Wpadliście w zasadzkę goblińskich bandytów! 
+  
+[/STORY]
+[OUT][183] Walka!
+[OUT][1129] Zgadzacie się zrezygnować z kilku rzeczy.  
+[OUT][1130] [Goblin] Spróbuj postawić się bandytom.
+[OUT][1131] [Magia lub Intelekt] W imieniu Marowita i Waszej domeny zmuście ich, by zostawili Was w spokoju.
+[OUT][1132] Spróbujcie ich od tego odwieść.
+[/NODE]
+
++[NODE]6
+[STORY]
+[1133] „Ech, myślę, że nigdy nie jest dobrze gadać za wiele. Co możecie zaoferować?'
+  
+[/STORY]
+[OUT][1134] Rozproszyliście ich uwagę, zatem jest to okazja do ataku!
+[OUT][1135] Zaoferujcie, że zrobicie im imprezę z dobrym jedzeniem, piciem i odpoczynkiem, aby odwieść ich na chwilę od bandyckich praktyk.
+[OUT][1136] Przekonaj ich, że w oczach ich zmarłych przodków, życie bandytów jest nierozsądne.
+[/NODE]
+
++[NODE]8
+[STORY]
+[1137] „Och, czemu nie, goblin z chęcią przełamie z Wami chleb. Macie kilka ziół, aby impreza była lepsza.'
+  
+[/STORY]
+[OUT][1138] Imprezujcie z goblinami.
+[/NODE]
+
++[NODE]12
+[STORY]
+[1139] „Co? , dlaczego myślicie, że dbamy o Waszych bogów? Nawet jeśli są gobami, mamy to w dupie. 
+
+Teraz stawajcie albo będziecie gryźć ziemię!'
+  
+[/STORY]
+[OUT][1140] [Magiczny użytkownik] Porozmawiaj jeszcze raz o potędze Marowita, o jego władzy nad magią, o jego sile nad koszmarami i świecie duchów.
+[OUT][1141] [Ork] Warknij na nich i powiedz, że jeśli nie szanują Marowita, zmusisz ich do zjedzenia ich własnych zielonych bebechów.
+[OUT][1141] [Ork] Warknij na nich i powiedz, że jeśli nie szanują Marowita, zmusisz ich do zjedzenia ich własnych zielonych bebechów.
+[OUT][1142] Zgadzacie się zrezygnować z niektórych rzeczy. 
+[OUT][183] Walka!
+[OUT][1132] Spróbujcie ich od tego odwieść.
+[/NODE]
+
++[NODE]13
+[STORY]
+[1143] „Ach, macie rację, ludzie. Robimy to, ale nie jesteśmy szczęśliwi. 
+
+Zawstydzacie nas. Wracamy do naszego plemienia.'
+
+Zanim odejdą, zostawiają Wam część skradzionego łupu. 
+[/STORY]
+[OUT][1144] Poproś ich, aby zjedli i napili się przed odejściem.
+[OUT][1144] Poproś ich, aby zjedli i napili się przed odejściem.
+[OUT][1145] Poproście ich o wymianę handlową.
+[/NODE]
+
++[NODE]14
+[STORY]
+[1146] Gobliny kiwają głowami, słuchają, a potem znów kiwają głowami ... 
+
+„Tak, tak, jesteśmy źli, już odchodzimy.'
+
+Odjeżdzają. Zbyt późno zdajecie sobie sprawę, że Was okradli podczas rozmowy! 
+  
+[/STORY]
+[OUT][1147] Cholera.
+[/NODE]
+
++[NODE]16
+[STORY]
+[1148] Zabijacie bandytów i możecie zrabować ich ciała. 
+  
+[/STORY]
+[OUT][1149] Dzik postanawia zostać z Wami. 
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[1150] Gobliny pobiły Was i zabrały większość Waszych tobołków ze sprzętem. 
+  
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[1151] „Przypominacie nam o dobrych czasach, okazujecie nam mądrość. Nasz dzik pozostanie i będzie Wam służył. Bądźcie zdrowi i niech wasi ojcowie czuwają nad wami.'
+  
+[/STORY]
+[OUT][1152] Pożegnajcie ich.
+[/NODE]
+
++[NODE]24
+[STORY]
+[1153] „Ech, może macie rację. Tak.
+
+Po prostu pójdziemy ...'
+  
+[/STORY]
+[OUT][1154] Niech odejdą.
+[OUT][1134] Rozproszyliście ich uwagę, zatem jest to okazja do ataku!
+[/NODE]
+
++[NODE]25
+[STORY]
+[1153] „Ech, może macie rację. Tak.
+
+Po prostu pójdziemy ...'
+  
+[/STORY]
+[OUT][1154] Niech odejdą.
+[OUT][1134] Rozproszyliście ich uwagę, zatem jest to okazja do ataku!
+[/NODE]
+
++[NODE]26
+[STORY]
+[1155] „Pieprzone barbarzyńskie świnie! Zawsze nas prześladujecie. Gińcie!'
+  
+[/STORY]
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]27
+[STORY]
+[1156] „Cóż, tak, dobrze mówicie. Nasz kodeks bandytów nie pozwoli nam po prostu odejść, ale jeśli dacie nam trochę swojego jedzenia, lub rzeczy, które sami wybierzecie, pójdziemy i już Wam nie będziemy przeszkadzć.'
+
+Podzielcie się jedzeniem i piciem, aby przypieczętować ten rozejm.
+[/STORY]
+[OUT][1157] Zgadzacie się, aby zrezygnować z niektórych wybranych rzeczy.  
+[OUT][1158] Zgadzacie się stracić 10% żywności.
+[OUT][1134] Rozproszyliście ich uwagę, zatem jest to okazja do ataku!
+[/NODE]
+
++[NODE]31
+[STORY]
+[1159] „Co, zmieniłeś zdanie, hę? Po prostu weźmiemy sobie to, co nam się podoba!'
+  
+[/STORY]
+[OUT][1160] Tracicie trochę sprzętu.
+[OUT][1161] Wróćcie do handlu.
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]35
+[STORY]
+[1151] „Przypominacie nam o dobrych czasach, okazujecie nam mądrość. Nasz dzik pozostanie i będzie Wam służył. Bądźcie zdrowi i niech wasi ojcowie czuwają nad wami.'
+  
+[/STORY]
+[OUT][1152] Pożegnajcie ich.
+[/NODE]
+
++[NODE]41
+[STORY]
+[1159] „Co, zmieniłeś zdanie, hę? Po prostu weźmiemy sobie to, co nam się podoba!'
+  
+[/STORY]
+[OUT][1160] Tracicie trochę sprzętu.
+[OUT][1161] Wróćcie do handlu.
+[OUT][183] Walka!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Dwarven bandits(3)
++[NODE]2
+[STORY]
+[1162] Zespół krasnoludzkich bandytów stoi na twojej drodze: 
+
+'Zatrzymaj się! Ta droga jest tutaj, ale masz szczęście - wszystko, czego potrzebujemy, to twoje dzisiejsze jedzenie. 
+
+Upuść go i idź swobodnie.'
+[/STORY]
+[OUT][1163] [Krasnolud] Powiedz, że zrezygnujesz z jedzenia, jeśli wygrają konkurs picia.
+[OUT][1164] [Svarog] Potwierdź swoje pokrewieństwo z krasnoludami przez pana światła.
+[OUT][1164] [Svarog] Potwierdź swoje pokrewieństwo z krasnoludami przez pana światła.
+[OUT][1165] W imię światła i zamieszania atakujcie nieuczciwe krasnoludy.
+[OUT][10] Atak!
+[OUT][1166] Nie wydają się zbyt zaangażowani w to. Spróbuj z nich wyjść.
+[OUT][1167] [Bandyta] Zastanów się nad ich bandyckimi sposobami, jeśli biorą tylko jedzenie.
+[OUT][1168] Porzuć jedzenie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[1169] „Tak, widzę znak wielkiego kowala na tobie. Shite ląduje na mojej głowie, jeśli zależy mi na tym gównie. 
+
+Dajesz nam jedzenie, panienki lub dostajesz beatin, Svarog lub nie Svarog.'
+[/STORY]
+[OUT][10] Atak!
+[OUT][1167] [Bandyta] Zastanów się nad ich bandyckimi sposobami, jeśli biorą tylko jedzenie.
+[OUT][1168] Porzuć jedzenie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[1170] „Haugh… tak, jesteś jednym twardym synem kamienia!'
+
+Inni bandyci kiwają głową, zgadzają się, poklepują cię po plecach i pozwalają ci być w drodze. 
+
+„Tak, widzę znak wielkiego boga kowala na tobie. Shite. Wolelibyśmy jeść brud niż hańbę jednego boga-człowieka, który zna jego kowalstwo.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[1171] „Bah, pij dobrze, ale nie dość dobrze, co? Ha! 
+
+Deal to umowa, więc będziemy mieli trochę tego jedzenia, zanim będziesz w drodze, panie.'
+[/STORY]
+[OUT][1172] Zostaw jedzenie i idź.
+[/NODE]
+
++[NODE]15
+[STORY]
+[1173] Zabijasz bandytów i zabierasz ich łupy. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[1174] Bandyci źle cię biją i zabierają ci jedzenie i sprzęt, ale przynajmniej pozostawiają ci oddech.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[1175] „Tak, masz nas. Nie mamy zamiaru być ludźmi, bez powodu. Jesteśmy wygnani, ale nadal mamy zaszczyt. Dziękuję za przypomnienie. 
+
+Jeśli chcesz, wymienimy się z tobą, co?'
+
+Krasnoludy również dziękują za mały prezent.
+[/STORY]
+[OUT][1176] Zgadzacie się na handel.
+[OUT][1177] Rozmawiaj, pij i odchodź.
+[/NODE]
+
++[NODE]22
+[STORY]
+[1178] „Dosyć gadać” - teraz jemy!'
+[/STORY]
+[OUT][1168] Porzuć jedzenie.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]33
+[STORY]
+[1179] „Trzymaj się, chłopcze, co ze względu na brodatego mędrca daje ci prawo do osądzenia? Robimy nasze bandytyzacje, tak jak my cholernie dobrze!'
+[/STORY]
+[OUT][1180] Twierdzę, że z pewnością nie jest to właściwa droga i że w rzeczywistości można je szkolić za opłatą.
+[OUT][10] Atak!
+[OUT][1168] Porzuć jedzenie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[1181] „Tak, widzę znak wielkiego kowala na tobie. Shite. Wolimy jeść brud niż hańbę jednego człowieka, który zna jego kowalstwo.'
+
+[/STORY]
+[OUT][1182] Powiedz, że Svarog jest bogiem ognia i światła, a nie człowiekiem.
+[OUT][1183] Powiedz, że dasz im trochę jedzenia.
+[OUT][1184] Przytaknijcie i odejdźcie.
+[/NODE]
+
++[NODE]35
+[STORY]
+[1185] „Oi, nie daj się obrócić w zwrot, historia mówi, że był kiedyś człowiekiem, to wszystko, co mówię”.
+[/STORY]
+[OUT][1183] Powiedz, że dasz im trochę jedzenia.
+[OUT][1184] Przytaknijcie i odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[1186] „Ach, wstyd tego wszystkiego! Pluję na te przeklęte widma świetlne pięć razy za zabranie naszych domów i wtrącenie nas w takie życie.'
+
+Przyjmują twój dar z pokorą i w zamian zostawiają mały znak podziękowania.
+[/STORY]
+[OUT][1187] Zapytaj więcej o upiory świetlne.
+[OUT][1184] Przytaknijcie i odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[1188] „Nie mam pojęcia, panienki, nie mam pojęcia. Przyszło, gdy słońce świeciło jak zawsze i wypaliło naszą małą wioskę, tak jak oni. Wziąłem kilku naszych krewnych, rzuciłem na nich dziwny czar. Inni po prostu spalili się od środka i umarli, gdy dotknęły ich upiory. 
+
+Paskudny interes, mówię ci. Więc uciekliśmy, a teraz jesteśmy wygnani.'
+[/STORY]
+[OUT][1189] Zapytaj ich, gdzie była ich wioska. Może pewnego dnia zbadasz sprawę.
+[OUT][1184] Przytaknijcie i odejdźcie.
+[/NODE]
+
++[NODE]43
+[STORY]
+[1190] „Zarób tam cholernie dobry punkt, chłopcze. Nie przywykliśmy do tego. Byliśmy szczerym ludem, dopóki nasze domy nie spłonęły, no i teraz jesteśmy wygnani, a bandytyzm jest naszym losem. 
+
+Tutaj, weź tę płatność i naucz nas robić to dobrze!'
+[/STORY]
+[OUT][1191] Kiwnij głową i naucz ich sposobów asertywności, zastraszania i brutalności.
+[/NODE]
+
++[NODE]44
+[STORY]
+[1192] „Tak, tak, masz rację, zbyt miękki - tak właśnie byliśmy! 
+
+Jedzenie, teraz!'
+[/STORY]
+[OUT][1168] Porzuć jedzenie.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]47
+[STORY]
+[1193] „Nic z niego teraz nie zostało, ale bądź ostrożny - możesz spotkać te widmowe widma, jeśli pójdziesz tą drogą.'
+
+[/STORY]
+[OUT][1184] Przytaknijcie i odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Elven bandits(4)
++[NODE]2
+[STORY]
+[1194] Jesteś napadnięty przez elfich bandytów!
+[/STORY]
+[OUT][1195] [Elf] Przypomnij im o starożytnych elfich prawach, które zabraniają sobie krzywdzenia.
+[OUT][1196] [Leshy] Zadzwoń do elfów. Są dziećmi lasu i powinni ci się kłaniać!
+[OUT][1197] [Piękny] Rzucaj rzęsami jak szalony. 
+[OUT][1198] Porzuć niektóre pakiety i uciekaj.
+[OUT][1198] Porzuć niektóre pakiety i uciekaj.
+[OUT][1199] Spróbuj rozumować z bandytami.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]4
+[STORY]
+[1200] „Ten świat rozbił wiele starożytnych praw. Nasz las został zmatowiony przez ludzką zarazę, spalony, zebrany i pozostawiony w strzępach. 
+
+Teraz bierzemy to, czego pragniemy, od słabych. To jest ... odświeżające.'
+[/STORY]
+[OUT][1201] Nalegaj, aby nie była to droga harmonii ani ścieżka światła i natury, z których wszystkie powinny szanować!
+[OUT][1202] Pogardzaj nimi za utratę honoru i duszy za chciwość. 
+[OUT][1203] Zgadzam się dać im trochę jedzenia, ale nic więcej. 
+[OUT][1204] Skorzystaj z tej okazji, aby wypróbować w nich sens.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]7
+[STORY]
+[1205] Porzucasz paczki, ale elfy strzelają do ciebie kilkoma strzałami. 
+
+[/STORY]
+[OUT][656] Biegnijcie dalej.
+[/NODE]
+
++[NODE]8
+[STORY]
+[1206] Zabijasz elfy.
+[/STORY]
+[OUT][18] Zbierzcie łupy i odejdźcie.
+[OUT][18] Zbierzcie łupy i odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[1207] Elfi bandyci pobili cię i zabrali część twoich rzeczy. Na szczęście zostawiają cię przy życiu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[1208] „Może uda nam się dojść do bardziej przyjaznego układu. Być może jak dotąd zboczyliśmy z naszej ścieżki, ale nie ma powodu, aby porzucić wszelką uprzejmość. 
+
+Zapłacisz nam niewielką opłatę, aw zamian możesz handlować z nami.'
+[/STORY]
+[OUT][1209] Zgadzam się na opłatę i handel.
+[OUT][1210] Zmień swój umysł i atak!
+[/NODE]
+
++[NODE]21
+[STORY]
+[1211] „Oferta wygasła. Weźmiemy rozsądny okup, ale pozostawimy was nietkniętych. Radzę ci wziąć tę ofertę.'
+[/STORY]
+[OUT][1212] Zgadzam się i tracę niektóre przedmioty.
+[OUT][1210] Zmień swój umysł i atak!
+[/NODE]
+
++[NODE]23
+[STORY]
+[1213] „Twoje słowa są tak puste jak nasze dusze, a twoje zmysły równie nudne jak życie śmiertelnika.'
+
+Elfy znikają w lesie i zdajesz sobie sprawę, że okradli cię ślepo!
+[/STORY]
+[OUT][1147] Cholera.
+[OUT][1214] Spróbuj ich złapać!
+[/NODE]
+
++[NODE]24
+[STORY]
+[1215] „Zawstydzasz nas. Aby dziecięce bóstwa patrzyły na nas z taką prawą pogardą ... To bolesne. 
+
+Nie złamaliście naszych praw, nie wtargnęliście na naszą świętą ziemię, ale szukamy przemocy jak zwykli orkowie.'
+[/STORY]
+[OUT][1216] Powiedz im, że czas wrócić na właściwą ścieżkę.
+[OUT][1202] Pogardzaj nimi za utratę honoru i duszy za chciwość. 
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]26
+[STORY]
+[1217] Widzisz wielką rozpacz w ich oczach. Niektórzy po prostu rzucają broń na ziemię i odchodzą. 
+
+[/STORY]
+[OUT][1218] Zbierz to, co zostawili i odejdź.
+[/NODE]
+
++[NODE]29
+[STORY]
+[1219] „Dziękujemy ci, bracia, przywróciliście harmonię naszym zagubionym duszom. 
+
+Musimy teraz znaleźć drogę powrotną do światła. Niech łaska twojego panteonu spadnie na ciebie.'
+
+Elfy zostawiają ci prezent i odchodzą.
+[/STORY]
+[OUT][1220] Żegnajcie ich. 
+[OUT][1220] Żegnajcie ich. 
+[/NODE]
+
++[NODE]33
+[STORY]
+[1221] Elfi bandyci zachowują się gwałtownie. W porozumieniu kiwają głową. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[1222] Elfy są zahipnotyzowane twoją pięknością. 
+
+[/STORY]
+[OUT][1201] Nalegaj, aby nie była to droga harmonii ani ścieżka światła i natury, z których wszystkie powinny szanować!
+[OUT][1204] Skorzystaj z tej okazji, aby wypróbować w nich sens.
+[OUT][1223] Są rozproszeni - atak!
+[/NODE]
+
++[NODE]35
+[STORY]
+[1224] Elfy zatrzymują się na swoich śladach, zaskoczone twoimi silnymi słowami.
+[/STORY]
+[OUT][1201] Nalegaj, aby nie była to droga harmonii ani ścieżka światła i natury, z których wszystkie powinny szanować!
+[OUT][1204] Skorzystaj z tej okazji, aby wypróbować w nich sens.
+[OUT][1225] Są rozproszeni - atak!
+[/NODE]
+
++[NODE]36
+[STORY]
+[1226] „Twoje piękno uspokoiło nasze dusze i przypomniało nam o głupocie naszych dróg, bo to życie może być ulotne i zrodzone z rozpaczy, a jednak tak delikatne kwiaty przetrwają i zakwitną w ziemi. Dziękujemy'
+
+Elfy zostawiają ci prezent i odchodzą.
+[/STORY]
+[OUT][1220] Żegnajcie ich. 
+[OUT][1220] Żegnajcie ich. 
+[/NODE]
+
++[NODE]41
+[STORY]
+[1227] Zamiast inspirować zmiany, złamałeś ich ducha. Widzicie wielką rozpacz w ich oczach. Niektórzy po prostu rzucają broń na ziemię i odchodzą. 
+
+Czujesz, że ciężar ich rozpaczy spada na ciebie, a ta porażka cię głęboko w elfią duszę. 
+
+Ale zostawiają cię w spokoju. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Scavengers attack(5)
++[NODE]2
+[STORY]
+[1228] Jesteś napadnięty przez bandę oszalałych padlinożerców, wyraźnie zmuszonych do podejmowania większego ryzyka niż zwykle.
+[/STORY]
+[OUT][183] Walka!
+[OUT][222] Spróbujcie uciec.
+[OUT][1229] Stój mocno i zastrasz ich potężnymi mięśniami.
+[OUT][1230] Upuść trochę sprzętu i uciekaj.
+[/NODE]
+
++[NODE]6
+[STORY]
+[1231] Stawiasz im czoło, podnosisz broń i napinasz mięśnie. 
+
+Teraz padlinożercy wyglądają bardzo niepewnie. Niektórzy nawet wychodzą.
+[/STORY]
+[OUT][1232] Użyj tej szansy, aby ich zaatakować.
+[OUT][1233] Przekonaj ich, że najlepiej, jeśli odejdą.
+[/NODE]
+
++[NODE]17
+[STORY]
+[1234] padlinożercy pobili cię mocno i ledwo unikasz ich dzikości, gdy próbują zgrać wszystko, co masz z ciebie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[1235] „Dobrze, dobrze, dobrze, ty duży, duży, straszny, zostawiamy cię, zostawiamy cię, tak, spójrz, zostawiamy nasze rzeczy, bierz, idziesz, zostawiasz nas ...'
+
+Odsuwają się, a nawet upuszczają pewne rzeczy.
+[/STORY]
+[OUT][1236] Odejdźcie. 
+[OUT][1237] Użyj tej okazji, aby zaatakować mniejszą paczkę!
+[/NODE]
+
++[NODE]22
+[STORY]
+[1238] „Dajesz nam swoje rzeczy, oddajesz, dajesz, dajesz!'
+
+Podczas rozmowy używasz okazji do ucieczki przed szalonym pakietem, ale nie bez utraty kilku toreb. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[1239] Ledwo uciekłeś, nie bez siniaków i nie bez utraty kilku toreb. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[1240] Uciekasz bez problemów. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[1241] Pokonujesz padlinożerców.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Striga bandits(6)
++[NODE]2
+[STORY]
+[1242] Wasza grupa jest oblegana przez grupę humanoidów czających się w ciemności. 
+
+'Zachowajcie spokój a wszyscy dostaniemy to, czego chcemy dzisiejszego wieczu.'
+[/STORY]
+[OUT][10] Atak!
+[OUT][1243] Zachowajcie spokój i wysłuchajcie, co mają do powiedzenia.
+[OUT][1244] [Nocne demony] Powiedz strigom, aby wyszły z ciemności i przemówiły wyraźnie.
+[OUT][11] Ucieczka!
+
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]4
+[STORY]
+[1245] Nocne demony biorą Waszą krew, ale zgodnie z ustaleniami, nie tyle by komuś stała się większa krzywda. 
+
+Możecie cierpieć z tego powodu przez pewien czas. Demony Was opuszczają.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]6
+[STORY]
+[1246] Pomniejsze strzygi drżą i cofają się. Wysoki znowu przemówił z ciemności: 
+
+'Taka złośliwość z Waszej strony?. Jak mi smutno. Zostawiamy Was więc sługi światła ...'
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][1247] Przeproście za porywczość i zapytajcie, co miał na myśli wcześniej.
+[/NODE]
+
++[NODE]7
+[STORY]
+[1248] Uciekacie, ale poważnie ucierpieliście, tracąc sporo krwi. Stworzenia były szybkie i zwinne dzięki czemu nieźle ucztowały. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[1249] Zabijacie strzygi i rabujecie ich ciała.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]12
+[STORY]
+[1250] Strzygi atakują Was ze złością, kiedy nie chcecie spełnić ich żądań. 
+
+Słyszysz szepty „horda Chorsa” i, pomimo ich gróźb, nie wysuszą Was na śmierć.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+[1251] Jedna z postaci wchodzi w światło tylko na moment. Jest wysoki, czuć od niego coś złego i bestialsko nęcącego. 
+
+'Dacie nam trochę swojej krwi, a my Was nie skrzywdzimy. Oprzyjcie się nam, a my pożremy Was w całości.'
+
+Wraca w ciemność, a jego sługusy posuwają się naprzód, odsłaniając kły.
+[/STORY]
+[OUT][10] Atak!
+[OUT][1252] Zapewnijcie ich, że nie jesteście zwykłym podróżnikiem, ale sługą panteonu, którzy w końcu należą do Chorsa, więc powinni odejść.
+[OUT][1253] Zgadzacie się oddać nieco krwi.
+[/NODE]
+
++[NODE]15
+[STORY]
+[1254] Jedna z postaci wchodzi w światło tylko na moment. Jest wysoki, czuć od niego coś złego i bestialsko nęcącego 
+
+'Ach, inny nocny piechur. Hmm, może moblibyśmy uczynić tę wymianę jeszcze bardziej uprzejmą?'
+[/STORY]
+[OUT][1255] Zapytajcie, jaka to wymiana.
+[OUT][1256] Powiedzcie mu, żeby się wycofał lub umrze.
+[OUT][1257] [Światło] W imię Światła powiedzcie strzygom, aby odeszły.
+[/NODE]
+
++[NODE]16
+[STORY]
+[1258] „Doszedłem do wniosku, że moja trzoda jest wybiedzona. Pierwsza ciemność pogorszyła los wszystkich, a teraz to nieszczęsne roztrzaskanie swoimi widmowymi wcieleniami niszczy Wasze kruche społeczeństwa.'
+[/STORY]
+[OUT][1259] Skińcie głowami i słuchajcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[1260] „Dlatego zdecydowałem, że wyważone podejście jest bardziej właściwe. Wyszkoliłem swoją dziką paczkę, żeby byli posłuszni. 
+
+Zasadzamy się na ludu ciepłokrwisty, biorąc tylko krew, której potrzebujemy. Ucztujemy na ich ciele tylko wówczas, gdy się opierają - pozostawiając ich losowi, jeśli chcecie wiedzieć.'
+[/STORY]
+[OUT][1261] [Piękna kobieta] Pochwal ich praktyczne podejście i powiedz, że Twoje własne ścieżki prowadzą do tego by pomagać ludziom. Dzięki temu łatwiej będzie im przetrwać.
+[OUT][1262] Zakwestionujcie prawdziwość jego słów.
+[OUT][1263] [Chors] Potwierdźcie, że Chors byłby rad wiedząc o takiej wyważonej kontroli.
+[OUT][1264] [Nocny demon] Pochwal ich praktyczne podejście i oświadcz, że ścieżka którą kroczysz prowadzi do tego, aby pomóc  przetrwać ludziom.
+[/NODE]
+
++[NODE]18
+[STORY]
+[1265] „Tak, pachniecie ludzkimi bogami. Pan nocy jest oczywiście naszym mistrzem. 
+
+A co powiesz na to, żebyście dali nam trochę krwi, a może trochę mięsa? A my zaoferujemy handel.'
+[/STORY]
+[OUT][1266] Zgadzacie się ofiarować krew i handlować z nimi.
+[OUT][1267] Odrzućcie propozycję ofiarowania krwi, ale rozstańcie się na dobrych warunkach.
+[/NODE]
+
++[NODE]19
+[STORY]
+[1268] „Pomyśl, czego tak pragniesz. Z tego, co czuję, Ty również podążasz mniej dzikimi drogami, ponieważ służysz ludzkiemu panteonowi. 
+
+Pan nocy jest oczywiście naszym mistrzem. Przynajmniej możemy znaleźć wspólną płaszczyznę. 
+
+A co powiecie na to, żebyście dali nam trochę krwi, a może i trochę mięsa? My oferujemy handel.'
+[/STORY]
+[OUT][1266] Zgadzacie się ofiarować krew i handlować z nimi.
+[OUT][1267] Odrzućcie propozycję ofiarowania krwi, ale rozstańcie się na dobrych warunkach.
+[/NODE]
+
++[NODE]23
+[STORY]
+[1269] „Jak sobie życzycie. Niech księżyc Was wzmocni.'
+
+Strzygi znikają w nocy, a Wy czujesz błogosławieństwo nocnego pana.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]24
+[STORY]
+[1270] „Taka surowa, zwierzęca moc w Twych słowach, wybrańcu. Takie piękno w każdym Twym ruchu. 
+
+Będę pod Twoim dowództwem, jeśli pozwolisz mi skosztować, tylko raz ...' 
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][292] Zgoda.
+[OUT][1271] Odrzućcie propozycję i powiedzcie mu, by odszedł. 
+[/NODE]
+
++[NODE]25
+[STORY]
+[1272] „Smakujesz jak sam księżyc. Najwyraźniej służysz naszemu stwórcy. 
+
+Bywaj, dopóki się nie spotkamy ponownie, moja kochana ...'
+
+Czujesz się zmieniony przez uścisk mistrza strzyg. Od teraz czuć będziesz jego obecność przy każdej pełni księżyca.
+[/STORY]
+[OUT][1273] Pożegnajcie go i odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[1274] „Smakujesz jak sam księżyc. Najwyraźniej służysz naszemu stwórcy. 
+
+Podążę również tą ścieżką. Mój sługa będzie Cię strzegł, dopóki się nie spotkamy, moja miłości ...'
+[/STORY]
+[OUT][1273] Pożegnajcie go i odejdźcie.
+[OUT][1273] Pożegnajcie go i odejdźcie.
+[/NODE]
+
++[NODE]29
+[STORY]
+[1275] „Jak sobie życzysz ...'
+
+Strzyga znika, ale czujecie się obserwowani w trakcie każdej pełni księżyca.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[1276] Strzygi słuchają Waszych słów i cicho wycofują się w ciemność.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[1265] „Tak, pachniecie ludzkimi bogami. Pan nocy jest oczywiście naszym mistrzem. 
+
+A co powiesz na to, żebyście dali nam trochę krwi, a może trochę mięsa? A my zaoferujemy handel.'
+[/STORY]
+[OUT][1266] Zgadzacie się ofiarować krew i handlować z nimi.
+[OUT][1267] Odrzućcie propozycję ofiarowania krwi, ale rozstańcie się na dobrych warunkach.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Human bandits(7)
++[NODE]2
+[STORY]
+[1277] Wpadacie w zasadzkę bandytów: 
+
+'Wasze dobra lub Wasze życie!'
+[/STORY]
+[OUT][10] Atak!
+[OUT][1278] [Bandyta] Zamiast tego zaproponuj uczciwy handel, oferując nieco więcej - mniejsze ryzyko dla obu stron. 
+[OUT][1279] [Atrakcyjny] Podaruj kapitanowi swój najlepszy uśmiech.
+[OUT][1280] Spróbujcie z nimi pogadać. 
+[OUT][11] Ucieczka!
+
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]4
+[STORY]
+[1281] „Heh, myślę, że to nam nie zaszkodzi, więc czemu nie?'
+[/STORY]
+[OUT][149] Handel.
+[/NODE]
+
++[NODE]5
+[STORY]
+[1282] „Heh, tak, no cóż, wydaje mi się... jesteś słodyczą, więc co myślisz? To znaczy, jeśli masz ochotę spędzić trochę czasu ze mną, to moi ludzie odejdą, odeślę ich.'
+[/STORY]
+[OUT][1283] Zgódź się iść z kapitanem.
+[OUT][1284] Zagraj w nieszczęśnika, który nie chce ulec takim pierwotnym zachowaniom. 
+[OUT][1285] Powiedz, że być może pewnego dnia... ale na razie, możecie handlować zamiast rozlewać krew?
+[/NODE]
+
++[NODE]6
+[STORY]
+[1286] „Cóż, myślę, że mógłbym nieco nagiąć zasady i pozwolić Wam zapłacić mniejszą opłatę, a nawet możemy nieco pohandlować. To najlepsze, co mogę zrobić.'
+[/STORY]
+[OUT][1287] Zgadzacie się na handel.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]8
+[STORY]
+[1288] Udaje Wam się uciec, ale nie bez siniaków i paru zgubionych toreb.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[1289] Zabijacie bandytów i rabujecie ich ciała. Odkrywacie też, że nie tylko Wy przeżyliście. Wśród bandytów jest Wasze dziecko które zostało kiedyś utracone podczas próby. 
+
+Błaga Was, żebyście zabrali je, mówiąc, że było przetrzymywane u bandytów.
+[/STORY]
+[OUT][1290] Zabierzcie ze sobą młodzieńca.
+[/NODE]
+
++[NODE]11
+[STORY]
+[1291] Grzebiąc dalej znajdujecie mapę z oznaczonym skarbem.
+[/STORY]
+[OUT][1292] Weźcie to, co zostało.
+[/NODE]
+
++[NODE]13
+[STORY]
+[1293] Obijają Wam kości i zmuszają do ucieczki. Rany wściekle pieką, zatem możliwe, że zostaliście zatruci. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[1294] „Co, nie handlujemy”? W takim wypadku weźmiemy trochę tego, co nam się podoba i pozwolimy Wam odejść bez komplikacji?'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]20
+[STORY]
+[1295] „Och, tak, tak, mam na myśli... nie, nigdy bym nie! Cóż, tutaj jest to... dla ciebie i może... wiesz, może moglibyśmy się wkrótce spotkać, zjeść razem kolację?'
+[/STORY]
+[OUT][1296] Uśmiechnij się, przytakuj i odejdź.
+[/NODE]
+
++[NODE]21
+[STORY]
+[1297] „Och, tak, czy obiecasz, że znów się zobaczymy? 
+
+W każdym razie, ze względu na swoją profesję, nie mogę po prostu pozwolić Wam odejść. Mam na myśli moją reputację. 
+
+Ale jeśli zapłacisz nam dodatkowo, będziemy handlować. W ten sposób wszyscy jesteśmy szczęśliwi. Cóż, w pewnym sensie - byłbym szczęśliwszy, gdybyś mógł być z Tobą w odosobnieniu.'
+[/STORY]
+[OUT][1298] Uśmiechnij się i zgódź się na handel.
+[OUT][1283] Zgódź się iść z kapitanem.
+[OUT][1284] Zagraj w nieszczęśnika, który nie chce ulec takim pierwotnym zachowaniom. 
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]23
+[STORY]
+[1299] „Przepraszam, kochanie, ale musicie zapłacić, bo wiesz przecież czym się trudnimy. Weźmiemy trochę Waszych toreb i możesz iść, bo twoja ładna buzia ... sprawiła, że mój dzień pojaśniał a wspomnienie Twego uśmiechu zagościło w mej duszy.'
+
+Wygląda na lekko zawstydzonego, a jego ludzie podśmiechują się z niego. 
+[/STORY]
+[OUT][1300] Oddajcie rzeczy.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]26
+[STORY]
+[1301] Wchodzicie w jakieś wysokie zarośla, a kapitan pilnuje, by bandy nie było widać: 
+
+'Tak, słuchaj, mam ich szacunek, wiesz, w tych kręgach trzeba być twardym. Ale nie jestem pazerny ani niewyżyty. Więc jeśli chcesz, możemy po prostu tu usiąść, jęczeć trochę, udawać, że 'to' zrobiliśmy i rozejść się.
+[/STORY]
+[OUT][1302] Namiętnie pocałuj kapitana i baw się dobrze.
+[OUT][1303] Powiedz, że doceniasz szczerość. Graj udawaj tak, jak powiedział.
+[/NODE]
+
++[NODE]27
+[STORY]
+[1304] „Trochę niezręcznie, czyż nie ... powiedz.. chcesz pohandlować gdy tu tak siedzimy?'
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][1305] Odmów, odczekaj odpowiedni czas, aby podstęp zadziałał i odejdź.
+[/NODE]
+
++[NODE]29
+[STORY]
+[1306] Kapitan wraca do załogi, wyglądając na zadowolonego. Robią sobie sprośne dowcipy, ale odchodzą zgodnie z obietnicą.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]31
+[STORY]
+[1307] Kapitan jest mile zaskoczony Twoimi czułościami i chętnie pozwala Ci przejąć dowodzenie. Spędzacie namiętną godzinę razem, aż znudzeni bandyci zaczną głośno narzekać. 
+
+Kapitan zwraca się do Ciebie. 
+
+- Cóż, zgodnie z obietnicą, możecie iść ... i, może, wkrótce się spotkamy?'
+[/STORY]
+[OUT][1308] Powiedz, że to było miłe, ale to tylko jednorazowa przygoda.
+[OUT][1309] [Piękny] Powiedz, że masz taką nadzieję.
+[OUT][1310] Powiedz, że masz taką nadzieję.
+[OUT][1310] Powiedz, że masz taką nadzieję.
+[OUT][1310] Powiedz, że masz taką nadzieję.
+[/NODE]
+
++[NODE]32
+[STORY]
+[1311] Kapitan kiwa głową, jego twarz zasmuca się. 
+
+Bandyci odchodzą zgodnie z obietnicą, a Ty znajdujesz dla siebie mały prezent.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[1312] Masz zamiar się rozstać, gdy kapitan odwraca się do Ciebie: 
+
+'Nie mogę odejść. Ty jesteś jak promień słońca lśniący na szlachetnych klejnotach, czyniąc je jeszcze ładniejszymi, czyniąc wszystko lepszym! Zostanę przy Tobie, więc pomóż mi na bogów.'
+
+[/STORY]
+[OUT][1313] Odejdźcie razem.
+[/NODE]
+
++[NODE]35
+[STORY]
+[1314] „Masz dar przekonywania, dam ci to, ale nie kupuję tego, ślicznotko. Bulicie albo będzie bitka.
+[/STORY]
+[OUT][1315] Pozwólcie bandytom wziąć kilka Waszych rzeczy.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]36
+[STORY]
+[1316] Masz zamiar się rozstać z nim, gdy kapitan odwraca się do Ciebie: 
+
+- Po prostu nie mogę o Tobie zapomnieć, ślicznotko. Co powiesz, żeby do nas przystać? Nie mogę zaoferować zbyt wiele, ale będziemy mieli trochę czasu dla siebie. Ci tutaj zawsze chcieli robić coś innego, osiedlić się, więc jest okazja by coś zmienić. Piszesz się na to, co?'
+
+[/STORY]
+[OUT][1091] Odmówcie.
+[OUT][1317] Zgódź się na zmianę. Rzuć się w ramiona kapitana i idź w kierunku swojej nowej przygody.
+[/NODE]
+
++[NODE]37
+[STORY]
+[1318] Kapitan kiwa głową, jego twarz zasmuca się. 
+
+Bandyci odchodzą zgodnie z obietnicą, a Ty znajdujesz mały prezent dla siebie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][1236] Odejdźcie. 
+[/NODE]
+
++[NODE]41
+[STORY]
+[1319] „Przepraszam, koledzy, ale musicie zapłacić, albo muszę spełnić swój przykry obowiązek. Weźmiemy teraz trochę Waszych tobołków.'
+
+[/STORY]
+[OUT][1300] Oddajcie rzeczy.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]45
+[STORY]
+[1320] Nigdy więcej nie było Ci dane zobaczyć swojego kochanka, ale kilka miesięcy później, gdy Twoje dziecko przybywa na świat, zdajesz sobie sprawę, że nigdy nie zapomnisz tego łajdaka.
+[/STORY]
+[OUT][1321] Świętujcie.
+[/NODE]
+
++[NODE]47
+[STORY]
+[1322] Zabijacie bandytów i rabujecie ich ciała. 
+[/STORY]
+[OUT][1323] Zbierzcie to, co znajdziecie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Bandits attack(8)
+[/EVENT]
+
+-- [EVENT] --Orc bandit child(9)
++[NODE]2
+[STORY]
+[1324] Widzisz, że orka zbliża się z dzieckiem. 
+
+„Ach, wyznawcy boga. Pochodzę z wiadomością od mojej siostry, która kilka miesięcy temu spała z jednym z was.'
+  
+[/STORY]
+[OUT][1325] Powiedz, że nie ma tego, który kojarzył się z orkiem.
+[OUT][1326] Uznaj, że to byłeś ty.
+[/NODE]
+
++[NODE]3
+[STORY]
+[1327] „Nie obchodzi mnie to. Moja siostra wysłała mnie, bym pokazał ci szczenię. To jest zwyczaj, że ojciec lub jego krewni powinni go błogosławić.'
+   
+[/STORY]
+[OUT][1328] [Ork] Daj ojcu błogosławieństwo i zapytaj, jaka jest płeć dziecka.
+[OUT][1328] [Ork] Daj ojcu błogosławieństwo i zapytaj, jaka jest płeć dziecka.
+[OUT][292] Zgoda.
+[/NODE]
+
++[NODE]4
+[STORY]
+[1329] Ork pokazuje ci dziecko orków, wyrosło daleko poza to, czego można oczekiwać od jego wieku. 
+
+Wykonujesz gest błogosławieństwa, zgodnie z poleceniem kobiety. Kiwa głową: 
+
+'Dobrze.'
+   
+[/STORY]
+[OUT][1330] Zapytaj, co dzieje się teraz.
+[OUT][1330] Zapytaj, co dzieje się teraz.
+[/NODE]
+
++[NODE]5
+[STORY]
+[1331] „Teraz weź tego bachora i zrób z nim, jak chcesz. Jego kundlowa krew dobrze by się posłużyła, ale wygląda na zbyt ludzką i prawdopodobnie może okazać się męska. 
+
+Nie potrzebujemy takiego szczeniaka. 
+
+Ogień i stal!'
+   
+[/STORY]
+[OUT][1332] Ogień i stal.
+[OUT][1332] Ogień i stal.
+[/NODE]
+
++[NODE]6
+[STORY]
+[1333] „Może być kundelkiem, ale jest dziewczyną, więc będzie siostrą. Kto wie, może pewnego dnia udowodni twoją krew. 
+
+I za to przynosimy ci cenę ojca. To jest niestandardowe. Weź to.
+
+Ogień i stal!'
+   
+[/STORY]
+[OUT][1332] Ogień i stal.
+[OUT][1334] Przedmiot i walka o dziecko!
+[/NODE]
+
++[NODE]7
+[STORY]
+[1335] „Chociaż dziwnie jest nadal niejasno, kundel jest najprawdopodobniej chłopcem, więc weźmiesz go teraz.'
+
+Wręcza ci dziecko i odchodzi. 
+   
+[/STORY]
+[OUT][1336] Kiwnij w zgodzie, jak to jest w zwyczaju.
+[/NODE]
+
++[NODE]8
+[STORY]
+[1337] „To silna dziewczyna. Ona uczyni swoją matkę dumną i dlatego krew ojca przyniesie honor naszemu klanowi. 
+
+Weź tę cenę ojcowską jako oznakę dobrze wypełnionego obowiązku ojca. 
+
+Ogień i stal!'
+   
+[/STORY]
+[OUT][1332] Ogień i stal.
+[OUT][1334] Przedmiot i walka o dziecko!
+[/NODE]
+
++[NODE]10
+[STORY]
+[1338] „Zwyczaje muszą być przestrzegane. Zaryzykujesz życie dziecka w walce?'
+
+Wskazuje dziecku, które nosi, nie okazując żadnych oznak, że będzie go ścigać. 
+   
+[/STORY]
+[OUT][1339] Puść ją.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Unliving ruins spwn(10)
++[NODE]2
+[STORY]
+[665] Podczas sprawdzania tego miejsca zauważacie, humanoidalne szczątki rozrzucone po całym terenie. 
+
+Wyglądają na większe niż ludzkie, być może należą do orków. 
+[/STORY]
+[OUT][666] Zostawcie kości i kontynuujcie poszukiwania łupów. 
+[OUT][667] [Ork] Przygotujcie stosy pogrzebowe, aby zmarli mogli odejść z honorami.
+[OUT][667] [Ork] Przygotujcie stosy pogrzebowe, aby zmarli mogli odejść z honorami.
+[OUT][668] Najpierw z szacunkiem pochowajcie ciała. 
+[OUT][668] Najpierw z szacunkiem pochowajcie ciała. 
+[OUT][668] Najpierw z szacunkiem pochowajcie ciała. 
+[OUT][1340] [Magiczny i magiczny użytkownik] Nienaturalne siły wiążące te nieżyjące są wciąż słabe. Spróbuj przełamać tę więź, a tym samym uwolnić ich dusze.
+[OUT][666] Zostawcie kości i kontynuujcie poszukiwania łupów. 
+[OUT][670] Opuśćcie to miejsce.
+[/NODE]
+
++[NODE]4
+[STORY]
+[671] Rytuał działa, a wy uwalniacie dusze nieżyjących. 
+[/STORY]
+[OUT][672] Przeszukajcie ruiny.
+[OUT][672] Przeszukajcie ruiny.
+[/NODE]
+
++[NODE]5
+[STORY]
+[1341] stosy pogrzebowe palą się wysoko i wymawiasz gardłowy rozkaz ładowania, aby dusze poległych mogły wznieść się w ostatecznym wezwaniu do bitwy. 
+
+Twoje duchy są podniesione, gdy czujesz obecność poległych teraz w pokoju. 
+[/STORY]
+[OUT][674] Dobrze. Kontynuujcie sprawdzanie ruin i poszukajcie czegoś użytecznego.
+[OUT][674] Dobrze. Kontynuujcie sprawdzanie ruin i poszukajcie czegoś użytecznego.
+[/NODE]
+
++[NODE]7
+[STORY]
+[1342] stos pogrzebowy płonie wysoko, a ty wymawiasz gardłowy rozkaz ładowania, aby dusze poległych mogły wznieść się w ostatecznym wezwaniu do bitwy. 
+[/STORY]
+[OUT][674] Dobrze. Kontynuujcie sprawdzanie ruin i poszukajcie czegoś użytecznego.
+[OUT][674] Dobrze. Kontynuujcie sprawdzanie ruin i poszukajcie czegoś użytecznego.
+[/NODE]
+
++[NODE]8
+[STORY]
+[1343] Pogrzebacie ciała według waszego zwyczaju, ale niestety powietrze jest ciężkie z powodu niepokoju duchów, a wasze dusze czują się przez to obciążone. 
+
+[/STORY]
+[OUT][677] Kontynuujcie przeszukiwanie ruin. 
+[OUT][678] Kontynuujcie poszukiwania czegokolwiek przydatnego.
+[/NODE]
+
++[NODE]9
+[STORY]
+[1344] Pochowujesz ciała zgodnie z twoim zwyczajem, ale może upadli orkowie nie lubili tego, gdy wstają, aby cię zaatakować!
+[/STORY]
+[OUT][183] Walka!
+[OUT][11] Ucieczka!
+
+[OUT][1345] [Odrodzenie] Porozmawiaj ze swoimi nieżywymi krewnymi, aby uspokoić ich gniew i zaoferować pomoc.
+[OUT][1346] [Natura lub harmonia] Jak natura i harmonia kołyszą twoją duszę, użyj swojej domeny, aby osłabić te nieożywione, zanim zabijesz je na dobre!
+[/NODE]
+
++[NODE]10
+[STORY]
+[682] Dokonujecie pochówku ciał zgodnie z Waszym zwyczajem. Umarli nie powstaja z grobów, więc prawdopodobnie dobrze Wam poszło.
+[/STORY]
+[OUT][678] Kontynuujcie poszukiwania czegokolwiek przydatnego.
+[OUT][678] Kontynuujcie poszukiwania czegokolwiek przydatnego.
+[/NODE]
+
++[NODE]12
+[STORY]
+[683] „My… nie możemy spocząć w pokoju. Ciągnie nas w stronę ciemności, trzyma nas tutaj ... ogień, ogień do naszych kości!'
+
+Jeden z nieożywionych łączy się z twoim umysłem i nagle doświadczasz właściwego orczego sposobu na ich oczyszczenie.
+[/STORY]
+[OUT][684] Stwórzcie stos pogrzebowy i poprowadźcie ich do życia wiecznego, zgodnie z ich życzeniem.
+[OUT][1346] [Natura lub harmonia] Jak natura i harmonia kołyszą twoją duszę, użyj swojej domeny, aby osłabić te nieożywione, zanim zabijesz je na dobre!
+[OUT][1346] [Natura lub harmonia] Jak natura i harmonia kołyszą twoją duszę, użyj swojej domeny, aby osłabić te nieożywione, zanim zabijesz je na dobre!
+[OUT][685] Po prostu zabijcie ożywieńców.
+[/NODE]
+
++[NODE]14
+[STORY]
+[686] Pokonujesz nieumarłych po tym, jak zostali osłabieni przez interwencję Waszej domeny. Jednak zdajecie sobie sprawę, że mogliście rozwiązać to w bardziej pokojowy sposób. Tak ,aby Wasz duch nie ucierpiał z powodu tego aktu przemocy. 
+[/STORY]
+[OUT][687] Niech to szlag! Przeszukajcie ruiny w poszukiwaniu łupów.
+[OUT][687] Niech to szlag! Przeszukajcie ruiny w poszukiwaniu łupów.
+[/NODE]
+
++[NODE]15
+[STORY]
+[688] Wasze wysiłki są daremne, a nieżyjący atakują!
+[/STORY]
+[OUT][183] Walka!
+[OUT][24] Ucieczka!
+[/NODE]
+
++[NODE]18
+[STORY]
+[689] Leżą martwi, cóż, martwymi znów. Możecie teraz przeszukać ruiny w spokoju.
+[/STORY]
+[OUT][690] Zbierzcie co możecie i odejdźcie.
+[OUT][690] Zbierzcie co możecie i odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[691] Ożywieńcy są zbyt silni i zmuszają Was do ucieczki.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
++[NODE]21
+[STORY]
+[692] Gdy przekopaliście się przez stary gruz, słyszysz głos orczej kobiety: 
+
+- Z daleka byliśmy świadkami z Waszego honorowego czynu. Tak też oczekiwano. Tutaj znaleźliśmy łup, którego nie możemy zabrać, bo na długiej drodze jesteśmy. Weźcie to i dobrze służcie bogom!'
+[/STORY]
+[OUT][693] Podziękujcie za skrzynię i pożegnaj ich. Kończcie sprawdzanie ruin i odejdźcie stąd.
+[/NODE]
+
++[NODE]26
+[STORY]
+[694] Kiedy macie zamiar odejść, słyszycie ryk orczego wojownika: 
+
+- Okazałeś naszemu wojownikowi szacunek i nie pozwoliłeś tym zhańbionym ciałom chodzić jako nieżyjąca plaga. Oto nasze podziękowania.'
+[/STORY]
+[OUT][695] Podziękujcie i odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[694] Kiedy macie zamiar odejść, słyszycie ryk orczego wojownika: 
+
+- Okazałeś naszemu wojownikowi szacunek i nie pozwoliłeś tym zhańbionym ciałom chodzić jako nieżyjąca plaga. Oto nasze podziękowania.'
+[/STORY]
+[OUT][690] Zbierzcie co możecie i odejdźcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+[1347] Zanim zdążysz zabrać swój skarb, usłyszysz ryk orka-wojownika: 
+
+'Twierdzimy, że to ruina jest naszą murawą, tak jak to zaznaczyli nasi upadli krewni!'
+
+[/STORY]
+[OUT][697] Słuchajcie dalej. Najlepiej nie drażnić już wściekłego orka.
+[/NODE]
+
++[NODE]35
+[STORY]
+[698] Pomagacie wykopać ciała i dokonać odpowiednich rytuałów oraz ułożyć stosy pogrzebowe zgodnie z obyczajami orków.
+[/STORY]
+[OUT][699] Dobrze. Zabierzcie swój łup i odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[1348] Pomagasz wykopać ciała i wykonać stosy pogrzebowe zgodnie z obyczajami orków. 
+
+Orkowie doceniają twoją pomoc i dodają trochę metali jako nagrodę, zanim pożegnają cię. 
+
+[/STORY]
+[OUT][699] Dobrze. Zabierzcie swój łup i odejdźcie.
+[/NODE]
+
++[NODE]39
+[STORY]
+[701] Ork wojownik warczy, ostre, odsłonięte zęby błyszczą złowrogo, ale potem się śmieje: 
+
+'Ha! Macie serca wojowników i szanujecie naszych poległych. Możecie odejść i oby Wasza ścieżka wypełniona była godnymi wrogami i silnymi przyjaciółmi.'
+[/STORY]
+[OUT][702] Życzcie im także wszystkiego co dobre i odejdźcie.
+[/NODE]
+
++[NODE]40
+[STORY]
+[703] „Dobrze walczyliście o te słabe ciała. Macie jaja! Świetnie.
+
+Przez te wszystkie walki zgłodniałem. Zostawcie swoje jedzenie, dołóżcie coś jeszcze od siebie i możesz iść.'
+[/STORY]
+[OUT][704] Wychwalajcie ich honor a następnie odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]41
+[STORY]
+[705] Kimkolwiek byli ci którzy tu polegli, ich zabójcy odeszli stąd ze sporą ilością wszelkiego użytecznego sprzętu i materiałów. Nadal widzicie jakieś skromne zasoby i trochę rozrzuconej broni. Może sie to przydać.
+[/STORY]
+[OUT][706] Weźcie rzeczy i odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[1349] Zbierasz to, co zostało w ruinach, ale słyszysz kroki za sobą i widzisz, jak niektóre nieżyjące wzrastają!
+[/STORY]
+[OUT][183] Walka!
+[OUT][11] Ucieczka!
+
+[OUT][1345] [Odrodzenie] Porozmawiaj ze swoimi nieżywymi krewnymi, aby uspokoić ich gniew i zaoferować pomoc.
+[OUT][1346] [Natura lub harmonia] Jak natura i harmonia kołyszą twoją duszę, użyj swojej domeny, aby osłabić te nieożywione, zanim zabijesz je na dobre!
+[/NODE]
+
++[NODE]43
+[STORY]
+[708] „Ale mówię Wam, okazaliście szacunek zmarłym, mimo że je pochowaliście zamiast spalić ... Więc pomóżcie nam wykopać je a potem zrobić stosy pogrzebowe. Potem możesz zatrzymać połowę łupów.'
+[/STORY]
+[OUT][709] Zgódźcie się pomóc z ciałami. 
+[OUT][709] Zgódźcie się pomóc z ciałami. 
+[OUT][710] [Zamieszanie] Ponieważ zamieszanie jest Waszą ścieżką, stój mocno i powiedzcie mu, że nie ulegniecie jego żądaniom. Łup jest Wasz, a jeśli myślą inaczej, mogą z Wami walczyć.
+[OUT][710] [Zamieszanie] Ponieważ zamieszanie jest Waszą ścieżką, stój mocno i powiedzcie mu, że nie ulegniecie jego żądaniom. Łup jest Wasz, a jeśli myślą inaczej, mogą z Wami walczyć.
+[/NODE]
+
++[NODE]45
+[STORY]
+[711] „Więc poddajecie się ... słabe, tchórzliwe gnojki. Twierdzicie, że podążacie drogą zamieszania, prawda? Żałosne.'
+
+Wojownik pluje Wam w twarz, a pozostali wyrzucają Was z ruin, zabierając Wam łupy. Jednak, co zaskakujące, nie odbierają Wam sprzętu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]46
+[STORY]
+[712] „Ach, prawdziwi wojownicy, wyśmienicie! Zróbcie z nami, co zechcecie. Poddajemy się Waszej woli!'
+[/STORY]
+[OUT][713] Zabijcie ich wszystkich i zabierzcie ich rzeczy.
+[OUT][714] Weźcie tylko łupy, które znaleźliście w ruinach, i zostawcie orki w spokoju. 
+
+[/NODE]
+
++[NODE]55
+[STORY]
+[1341] stosy pogrzebowe palą się wysoko i wymawiasz gardłowy rozkaz ładowania, aby dusze poległych mogły wznieść się w ostatecznym wezwaniu do bitwy. 
+
+Twoje duchy są podniesione, gdy czujesz obecność poległych teraz w pokoju. 
+[/STORY]
+[OUT][674] Dobrze. Kontynuujcie sprawdzanie ruin i poszukajcie czegoś użytecznego.
+[OUT][674] Dobrze. Kontynuujcie sprawdzanie ruin i poszukajcie czegoś użytecznego.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --KidnappedSpwn(11)
++[NODE]2
+[STORY]
+[1351] Wyśledzisz łotrów, którzy uciekli z twoimi krewnymi!
+[/STORY]
+[OUT][1352] [Zamieszanie] Szarża!
+[OUT][1353] [Harmonia] Porozmawiaj z nimi, ponieważ pokój jest zawsze lepszy.
+[OUT][1354] [Intelekt] Obserwuj ich i znajdź przewagę.
+[OUT][1355] [Światło] W imię sprawiedliwości, uderz ich teraz!
+[OUT][1356] [Natura i magia] Poświęć czas na zbadanie. Być może znajdziesz tu kąt.
+[OUT][217] Wróćcie później.
+[/NODE]
+
++[NODE]4
+[STORY]
+[1357] Zabijasz szumowiny i ratujesz krewnych, wraz z wszelkimi innymi łupami, jakie mogli mieć.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[1358] Jesteś ciężko pobity i zmuszony do ucieczki. Twój porwany lud ginie na dobre.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]12
+[STORY]
+[1359] „Bah, przestań już krzyczeć o swoich cholernych bogach. Zostaw lub umrzyj!'
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]13
+[STORY]
+[1360] „Bah, przestań już krzyczeć o swoich cholernych bogach. Dobrze, miej ładną twarz z powrotem. Po prostu idź!'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+[1361] Oglądajcie ich obóz, zauważcie ich wzory i podsłuchujcie, że szukają metali, zwłaszcza złota. Mogą być otwarte na handel.
+[/STORY]
+[OUT][1362] Spróbuj przekonać ich do handlu.
+[OUT][1363] [Hunter] Attack, ale zakradnij się do nich i zastaw pułapkę, aby ułatwić walkę.
+[OUT][1364] Nie masz wystarczającej ilości złota do zawierania transakcji. Atak!
+[OUT][1353] [Harmonia] Porozmawiaj z nimi, ponieważ pokój jest zawsze lepszy.
+[OUT][217] Wróćcie później.
+[OUT][1365] [Bandyta] Podejdź do nich jak do przyjaciela i zaproponuj handel jedzeniem dla dziecka.
+[/NODE]
+
++[NODE]16
+[STORY]
+[1366] „Bah, jesteś sprytny, prawda? Dobrze, lubimy złoto i wolimy nie wpadać w złom, jeśli możemy tego uniknąć.'
+
+[/STORY]
+[OUT][1287] Zgadzacie się na handel.
+[OUT][1367] Zamiast tego atakuj!
+[/NODE]
+
++[NODE]19
+[STORY]
+[1368] Bandyci robią tak, jak obiecali i oddają krewnych. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[1366] „Bah, jesteś sprytny, prawda? Dobrze, lubimy złoto i wolimy nie wpadać w złom, jeśli możemy tego uniknąć.'
+
+[/STORY]
+[OUT][1287] Zgadzacie się na handel.
+[OUT][1367] Zamiast tego atakuj!
+[/NODE]
+
++[NODE]23
+[STORY]
+[1369] Oglądasz ich obóz, notujesz ich wzory i zauważasz, że wyglądają raczej gorzej, jeśli chodzi o jedzenie i picie. Mogą być otwarte na handel.
+[/STORY]
+[OUT][1370] Spróbuj handlować nimi z jedzeniem.
+[OUT][1363] [Hunter] Attack, ale zakradnij się do nich i zastaw pułapkę, aby ułatwić walkę.
+[OUT][1371] Nie masz wystarczającej ilości jedzenia, aby zawrzeć umowę. Atak!
+[OUT][1353] [Harmonia] Porozmawiaj z nimi, ponieważ pokój jest zawsze lepszy.
+[OUT][217] Wróćcie później.
+[OUT][1365] [Bandyta] Podejdź do nich jak do przyjaciela i zaproponuj handel jedzeniem dla dziecka.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --BanditsAttackDiff2(12)
+[/EVENT]
+
+-- [EVENT] --BanditsAttackDiff7(13)
+[/EVENT]
+

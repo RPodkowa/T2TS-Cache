@@ -1,0 +1,424 @@
+-- [EVENT] -- Nest spiders(0)
++[NODE]3
+[STORY]
+[9208] W pobliżu dostrzegacie gniazdo pająka. Wygląda zajęte i wydawało Wam się, że widzieliście stworzenia niosące w środku duże kokony.
+[/STORY]
+[OUT][10] Atak!
+[OUT][9209] [Królowa Pająków] Przejmij gniazdo.
+[OUT][9210] [Bestia] Spróbuj nawiązać kontakt.
+[OUT][9211] [Druid] Wciel się w bestię i negocjuj z pająkami.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[9212] Pająki są nieco drażliwe. Jednak dowiadujesz się, że najechali pobliską wioskę i przynieśli do gniazda wiele „soczystych” kąsków. 
+
+Ponieważ próbują wznieść tutaj swoją osadę jako coś więcej niż gniazdo, zgadzają się dać Wam łup w zamian za pozostawienie ich w spokoju. Oferują również handel. 
+
+[/STORY]
+[OUT][9213] Zaakceptujcie ich daninę i odejdźcie.
+[OUT][9214] Przyjmijcie ich daninę oraz ofertę handlu.
+[OUT][9215] Zabijcie całą tę zgraję. Atak!
+[/NODE]
+
++[NODE]43
+[STORY]
+[9216] Jako królowa pająków potwierdzasz swoją dominację nad tym  gniazdem. Rozkazujesz robotnikom porzucić tę część świata i nigdy nie wracać na Twoje terytorium. Są posłuszni. 
+
+W gnieździe znajdujecie nieszczęśników zawiniętych w kokony. 
+
+Jest mało prawdopodobne, aby którykolwiek z nich jeszcze żył, ale warto to sprawdzić. 
+[/STORY]
+[OUT][9217] Jeden z pająków postanawia pójść za Wami. Przygarnijcie go.
+[OUT][9218] Sprawdźcie kokony, zbierzcie co możecie i odejdźcie.
+[OUT][9218] Sprawdźcie kokony, zbierzcie co możecie i odejdźcie.
+[OUT][9218] Sprawdźcie kokony, zbierzcie co możecie i odejdźcie.
+[/NODE]
+
++[NODE]57
+[STORY]
+[9219] Niszczycie gniazdo a wewnątrz znajdujecie nieszczęśników owiniętych kokonami. 
+
+Jest mało prawdopodobne, aby którykolwiek z nich jeszcze żył, ale warto to sprawdzić. 
+[/STORY]
+[OUT][9218] Sprawdźcie kokony, zbierzcie co możecie i odejdźcie.
+[OUT][9218] Sprawdźcie kokony, zbierzcie co możecie i odejdźcie.
+[OUT][9218] Sprawdźcie kokony, zbierzcie co możecie i odejdźcie.
+[/NODE]
+
++[NODE]61
+[STORY]
+[9220] Nie udało się nawiązać komunikacji. Gniazdo jest wzburzone i gotowe do ataku.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]62
+[STORY]
+[9221] Pająki są nieco drażliwe. Jednak dowiadujesz się, że najechali pobliską wioskę i przynieśli do gniazda wiele „soczystych” kąsków.
+
+Ponieważ próbują wybudować tu swoją osadę i zostać nieco dłużej, oferują pewne towary i mówią, że jeden z nich przyłączy się do Was jako dobry początek Waszych wspólnych relacji. 
+
+[/STORY]
+[OUT][9222] Zaakceptujcie ich dobrą wolę i odejdźcie.
+[OUT][9215] Zabijcie całą tę zgraję. Atak!
+[/NODE]
+
++[NODE]67
+[STORY]
+[9212] Pająki są nieco drażliwe. Jednak dowiadujesz się, że najechali pobliską wioskę i przynieśli do gniazda wiele „soczystych” kąsków. 
+
+Ponieważ próbują wznieść tutaj swoją osadę jako coś więcej niż gniazdo, zgadzają się dać Wam łup w zamian za pozostawienie ich w spokoju. Oferują również handel. 
+
+[/STORY]
+[OUT][9213] Zaakceptujcie ich daninę i odejdźcie.
+[OUT][9214] Przyjmijcie ich daninę oraz ofertę handlu.
+[OUT][9215] Zabijcie całą tę zgraję. Atak!
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest rat(1)
++[NODE]2
+[STORY]
+[9223] Ziemia pod twoimi stopami zapada się i wpadasz do tunelu. Wkrótce zdajesz sobie sprawę, że podłoga się porusza. Roi się od robactwa!
+[/STORY]
+[OUT][10] Atak!
+[OUT][1045] Spróbuj szybko się wspiąć.
+[OUT][9224] Obserwuj szczury. Wydaje się dziwne, że cię nie atakują.
+[OUT][9225] [Bestia lub bestia] Staraj się dominować nad tym rojem, aby wykonać licytację!
+[/NODE]
+
++[NODE]6
+[STORY]
+[9226] Szczury spadają w kolejce lub uciekają, zważywszy na twoją pozycję. Wkrótce gniazdo leży puste, abyś mógł go łupić. 
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[9227] Szczury roi się od ciebie i gryzie ze złością, piszcząc, że już mają mistrza. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]12
+[STORY]
+[9228] Gniazdo szczurów to głównie kupa gnoju i gruzu, ale możesz być w stanie uratować niektóre towary.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]14
+[STORY]
+[9229] Wspinasz się, ale zdajesz sobie sprawę, że zostałeś ugryziony przez szczury, a rany są zainfekowane.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[9230] Szczury tego nie mają. Roi się od ciebie, a ty jesteś zmuszony upuścić ładunek podczas ucieczki.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[9231] Jesteś bardzo pobity i zmuszony do porzucenia niektórych rzeczy podczas ucieczki.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]31
+[STORY]
+[9232] Szczury wydają się mieć obsesję na punkcie noszenia przedmiotów głębiej w tunelu. Rzeczy takie jak gałęzie, kamienie, kawałki ciał, kości i sprzęt. Być może zauważyłeś też osobę, która została porwana przez rój. 
+
+Niektóre szczury zaczynają szarpać wasze stopy, jakby chciały was nieść, ale na razie oceniają to za trudne zadanie.
+[/STORY]
+[OUT][9233] [Szczur] Zatrzymaj grupę i wypytaj ich.
+[OUT][9234] Idź za szczurami. 
+[OUT][10] Atak!
+[OUT][9235] [Druid] Stań się jak szczur i porozmawiaj z nimi.
+[/NODE]
+
++[NODE]32
+[STORY]
+[9236] Dalej w tunelu widać otyłego szczura osuniętego na tronie z odchodów szczurów, kości i dziwnych kawałków. 
+
+Mniejsze szczury porastają siedzenie i dodają nowe warstwy.
+[/STORY]
+[OUT][10] Atak!
+[OUT][9235] [Druid] Stań się jak szczur i porozmawiaj z nimi.
+[OUT][9238] [Czarownica] Spróbuj zdominować szczura. Robactwo powinno być twoimi chowańcami, a nie siedzieć na tronach.
+[/NODE]
+
++[NODE]33
+[STORY]
+[9239] „Da szefie, człowieku, szefie jest głodny, da szefowi potrzebuje rzeczy na swoje błyszczące siedzenie, więc wszyscy jesteśmy silni i radzimy sobie z tobą z wielkim ludem ... tak, tak ... Ty szczurze, ty przyjacielu, nie mów szefowi, że pozwoliliśmy tunelom się zawalić, dajemy ci rzeczy, tak, tak?'
+
+[/STORY]
+[OUT][9240] Wpatruj się w nich groźnie.
+[OUT][3166] Odrzuć i atakuj!
+[OUT][292] Zgoda.
+[/NODE]
+
++[NODE]34
+[STORY]
+[9241] „Oyoyoy ... ty też jesteś wielkim szefem ... bierzesz nagrodę, wielki wróg, znaleźliśmy to, mamy to, masz to, idziesz, nie zabijasz nas, nie mówisz naszemu szefowi, tak , tak?'
+[/STORY]
+[OUT][292] Zgoda.
+[/NODE]
+
++[NODE]39
+[STORY]
+[9242] Szczury spadają w kolejce lub uciekają, zważywszy na twoją pozycję. Wkrótce gniazdo leży puste, abyś mógł go łupić. 
+
+Gruby szczur dowodzi twoją wyższością i podąży za tobą.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest(2)
++[NODE]2
+[STORY]
+[9243] Dostrzegasz interesujące miejsce.
+[/STORY]
+[OUT][2] Zbadajcie.
+[OUT][2] Zbadajcie.
+[OUT][2] Zbadajcie.
+[OUT][2] Zbadajcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Crow nest(3)
++[NODE]2
+[STORY]
+[9244] Po gwałtownej burzy wiele drzew spada. Widzisz rój wron okrążających jedno z takich drzew, a kiedy zbliżysz się, zdasz sobie sprawę, że ich gniazdo również upadło, a ptaki próbują przenieść to, co mogą, do innego drzewa.
+[/STORY]
+[OUT][9245] [Percepcja lub łowca] Wiesz, że gniazda gigantycznych wron mogą ukrywać wiele skarbów w środku. Podejdź bliżej, aby zbadać.
+[OUT][9246] [Leshy] Drzewo nie jest całkowicie zawalone. Zaśpiewajcie to i przywróćcie do dawnego siebie, oszczędzając w ten sposób także gniazdo.
+[OUT][9247] Z szacunku dla natury poczekaj, aż wrony uratują swoje młode, a następnie zbadaj.
+[OUT][9248] Przekonaj wrony, aby pomogły ci w ruchu - za cenę.
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]3
+[STORY]
+[9249] Podchodzisz bliżej i widzisz szczątki z upadłego gniazda. Istnieje kilka martwych piskląt, ale także wiele błyszczących bombek wplecionych w strukturę. 
+
+Drzewo jest również dobrej jakości. 
+
+Wrony nadal przewożą towary gdzieś wysoko.
+[/STORY]
+[OUT][10] Atak!
+[OUT][9250] Poczekaj, aż skończą i zbierz to, co zostało. 
+[OUT][9250] Poczekaj, aż skończą i zbierz to, co zostało. 
+[OUT][9251] Skradnij się między nimi, aby ukraść niektóre towary. 
+[OUT][9248] Przekonaj wrony, aby pomogły ci w ruchu - za cenę.
+[OUT][9246] [Leshy] Drzewo nie jest całkowicie zawalone. Zaśpiewajcie to i przywróćcie do dawnego siebie, oszczędzając w ten sposób także gniazdo.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[9252] Czekasz, aż pisklęta zostaną uratowane i odlecisz z silniejszymi wronami. Niewielka grupa maruderów pozostaje, by oczyścić gniazdo. Teraz jest to kwestia najsilniejszego zdobywania łupów. 
+[/STORY]
+[OUT][9253] Teraz atakuj słabsze wrony.
+[OUT][9250] Poczekaj, aż skończą i zbierz to, co zostało. 
+[OUT][9250] Poczekaj, aż skończą i zbierz to, co zostało. 
+[OUT][9248] Przekonaj wrony, aby pomogły ci w ruchu - za cenę.
+[/NODE]
+
++[NODE]18
+[STORY]
+[9254] Pozostało niewiele do zebrania, ale odkrywasz ranną wronę, a kiedy ją leczysz, ptak postanawia podążać twoją ścieżką.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[9255] Pokonujesz wrony i splądrujesz gniazdo w spokoju. 
+
+[/STORY]
+[OUT][1658] Weźcie co możecie i odejdźcie.
+[OUT][1658] Weźcie co możecie i odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[9256] Zakradasz się i udaje ci się wyrwać jakieś towary bez wiedzy wron. Po tym, jak odejdą na dobre, zbierasz również pozostałe drewno.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]31
+[STORY]
+[9254] Pozostało niewiele do zebrania, ale odkrywasz ranną wronę, a kiedy ją leczysz, ptak postanawia podążać twoją ścieżką.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+[9257] Wrony widziały, że przychodzisz i atakujesz, zmuszając cię do zrzucenia niektórych towarów.
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[9258] Szepczesz w starożytnym języku duchowym drzew, a stary dąb stoi na nowo. Z gniazdem wron w koronie, wrony zaczynają go odbudowywać. 
+
+Jeden z nich upuszcza prezent w podziękowaniu.
+[/STORY]
+[OUT][9259] Prezent okazuje się być wroną, aby ci służyć. Pozostawiać.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]39
+[STORY]
+[9260] Niestety, drzewo było zbyt słabe, by słuchać twojego wezwania. Pomimo twojej próby pomocy uschła. 
+
+Czujesz się bardzo zasmucony, ale wrony wydają się być na razie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[9261] Wrony zgadzają się na twoje warunki. Po tym, jak pomożesz im zabezpieczyć gniazdo, zostawiają ci prezenty w podziękowaniu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]43
+[STORY]
+[9262] Wściekłe morderstwo wron ściga cię, zmuszając do upuszczenia niektórych towarów, aby uratować życie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]45
+[STORY]
+[9263] Odkrywasz ranną wronę, a kiedy ją leczysz, ptak postanawia podążać twoją ścieżką. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Nest snakes(4)
++[NODE]2
+[STORY]
+[9264] Odkrywasz podziemne tunele.
+[/STORY]
+[OUT][9265] Najpierw wrzuć kilka pochodni, a następnie zbadaj.
+[OUT][9266] Wejdź i zbadaj.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[9267] Tunele były kiedyś używane do kryjówki, a może są pozostałością krasnoludzkiej placówki. Tak czy inaczej, tutaj jest wyraźnie kilka zasobów. 
+
+Jednak widzisz gniazdo żmij rozciągające się wewnątrz i oni cię widzą!
+[/STORY]
+[OUT][9268] [Druid] Spokojne te węże kończą zwiedzanie komory.
+[OUT][9268] [Druid] Spokojne te węże kończą zwiedzanie komory.
+[OUT][1045] Spróbuj szybko się wspiąć.
+[OUT][10] Atak!
+[OUT][9269] [Beastmaster] Wyjmij flet i zagraj.
+[/NODE]
+
++[NODE]5
+[STORY]
+[9270] Tunele były kiedyś używane do kryjówki, a może są pozostałością krasnoludzkiej placówki. Tak czy inaczej, tutaj jest wyraźnie kilka zasobów. 
+
+Jednak widzisz gniazdo żmij rozciągające się wewnątrz.
+[/STORY]
+[OUT][9271] Wykorzystaj przewagę zaskoczenia i ataku!
+[OUT][9268] [Druid] Spokojne te węże kończą zwiedzanie komory.
+[OUT][9268] [Druid] Spokojne te węże kończą zwiedzanie komory.
+[OUT][9272] Pomyśl o tym, jak przechytrzyć żmije.
+[OUT][9273] Odwrót.
+[/NODE]
+
++[NODE]6
+[STORY]
+[9274] Stajesz przed wężami i wyciągasz rękę, zaciskając pięść. Następnie powoli wyprostuj jeden palec i zacznij zaznaczać kręgi w powietrzu, szepcząc ślizgające się dźwięki mowy węża. 
+
+Węże są zahipnotyzowane, a ty możesz splądrować to miejsce. 
+
+[/STORY]
+[OUT][9275] Jeden z węży ślizga się za tobą. Zostawcie razem.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[9276] Stajesz przed wężami i wyciągasz rękę, zaciskając pięść. Następnie powoli wyprostuj jeden palec i zacznij zaznaczać kręgi w powietrzu, szepcząc ślizgające się dźwięki mowy węża. 
+
+Węże wydają się przez pewien czas zachwycone, ale jeden z nich przerywa koncentrację i trzaska na ciebie. Wkrótce pojawią się inni!
+[/STORY]
+[OUT][183] Walka!
+[OUT][1045] Spróbuj szybko się wspiąć.
+[/NODE]
+
++[NODE]18
+[STORY]
+[9277] Gdy węże zniknęły, możesz zrabować to miejsce.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[9278] Wspinasz się z powrotem, ale nie bez kilku ukąszeń węży.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[9279] Węże okazują się zbyt silne. Roi się od ciebie i zmusza cię do ucieczki. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[9280] Z odpowiednimi ziołami i roślinami oraz odrobiną pomysłowości, wypalasz węże z tunelu. Możesz nawet polować na niektórych, gdy próbują uciekać w panice.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]35
+[STORY]
+[9281] Próbujesz wypalić węże, ale to tylko ich rozwściecza. Roi się od ciebie i zmusza cię do odwrotu.
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]43
+[STORY]
+[9282] Stare tradycje goblinów łapiących szczury żyją w tobie mocno. Twój flet hipnotyzuje węże, a ty możesz go złupić.
+[/STORY]
+[OUT][9275] Jeden z węży ślizga się za tobą. Zostawcie razem.
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+

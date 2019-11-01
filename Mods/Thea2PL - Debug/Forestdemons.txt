@@ -1,0 +1,315 @@
+-- [EVENT] --ForestdemonsTradeadv(0)
++[NODE]2
+[STORY]
+[4155] Demony leśne wydobywają różne przedmioty, które „nabyli” od tych, którzy wkraczają na ich ziemię.
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]7
+[STORY]
+[4156] „Nie jesteście naszymi przyjaciółmi, nie lubimy tej wymiany, więc dacie więcej.'
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4157] „Teraz zacznij od naszej ziemi.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ForestDemonVillage(1)
++[NODE]2
+[STORY]
+[4158] Wchodzisz na terytorium zadeklarowane przez demony leśne. Czujesz na sobie wiele oczu. 
+
+- Co cię tu szuka, nieznajomy? Nie lubimy czających się tu osób z zewnątrz.'
+[/STORY]
+[OUT][4159] [Drewno, mądrość lub przyjaciel] Zaoferuj strażnikom leśnym daninę, aby złagodzić ich gniew.
+[OUT][11859] Zapytaj, czy możesz wejść i zbadać?
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]3
+[STORY]
+[4161] Wchodzisz na terytorium zadeklarowane przez demony leśne. Czujesz na sobie wiele oczu. 
+
+„Opuść naszą ziemię, zanim pożre cię gniew lasu, z zewnątrz! 
+
+
+[/STORY]
+[OUT][10] Atak!
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]4
+[STORY]
+[4162] Im dłużej tu będziesz, tym bardziej poczujesz ciężkie żniwo lasu na twoim morale. 
+
+„Przyjeżdżasz tutaj niosąc tyle starego drewna! Odważysz się prosić o naszą przysługę. Pozostawiać.'
+[/STORY]
+[OUT][4163] Lepsze wyjście.
+[OUT][10] Atak!
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]6
+[STORY]
+[4164] Im dłużej tu będziesz, tym bardziej poczujesz ciężkie żniwo lasu na twoim morale. 
+
+„Ty, ty i twój rodzaj, zawsze przychodzicie z brudnymi toporami, zawsze palcie i tniecie! Zacznijcie i niech wasze ciała gniją.'
+[/STORY]
+[OUT][4163] Lepsze wyjście.
+[OUT][10] Atak!
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]7
+[STORY]
+[4165] „Co zaoferujesz?'
+[/STORY]
+[OUT][4166] Ofiarowanie żywności, wykonane z własnych, gotowanych produktów. 
+[OUT][4167] Ofiarowanie zwierząt domowych, w zamian za jakąkolwiek zwierzynę, na którą polowałeś lub na którą polujesz.
+[OUT][4168] Osie, aby pokazać, że nie chcesz zbezcześcić lasu.
+[OUT][10] Atak!
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4169] „Akceptujemy Twoją ofertę. Możesz wejść i jeśli którykolwiek z moich duchów tego życzy, mogą obdarzyć cię błogosławieństwem.'
+[/STORY]
+[OUT][4170] Zapytaj, czy będą z tobą handlować?
+[OUT][4171] Oczekuj, czy duchy pobłogosławią cię w jakikolwiek sposób.
+[OUT][4172] Zapytaj, czy mogą wytrenować twoje zwierzęta-demony.
+[/NODE]
+
++[NODE]12
+[STORY]
+[4173] „Dotychczas udowodniłeś nam, że jesteście przyjaciółmi, tak, będziemy z wami handlować.'
+[/STORY]
+[OUT][149] Handel.
+[/NODE]
+
++[NODE]15
+[STORY]
+[4169] „Akceptujemy Twoją ofertę. Możesz wejść i jeśli którykolwiek z moich duchów tego życzy, mogą obdarzyć cię błogosławieństwem.'
+[/STORY]
+[OUT][4170] Zapytaj, czy będą z tobą handlować?
+[OUT][4171] Oczekuj, czy duchy pobłogosławią cię w jakikolwiek sposób.
+[OUT][4174] Głos cię wzywa, idź zobaczyć, czego chcą?
+[OUT][4172] Zapytaj, czy mogą wytrenować twoje zwierzęta-demony.
+[/NODE]
+
++[NODE]16
+[STORY]
+[4175] „Akceptujemy twoją obecność tutaj. Możesz wejść i jeśli którykolwiek z moich duchów tego życzy, mogą obdarzyć cię błogosławieństwem.'
+[/STORY]
+[OUT][4170] Zapytaj, czy będą z tobą handlować?
+[OUT][4171] Oczekuj, czy duchy pobłogosławią cię w jakikolwiek sposób.
+[/NODE]
+
++[NODE]18
+[STORY]
+[4176] „Twój duch jest chory, zabierzemy ci tę skazę.'
+[/STORY]
+[OUT][4177] Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[4178] „Twoje ciało jest chore, weźmiemy od ciebie tę skazę.'
+[/STORY]
+[OUT][4177] Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[4179] Siedzisz i oglądasz las, który tętni życiem i jest bardzo relaksujący. Las szepcze ci do ucha: 
+
+'Leshy, Borowy, nasz opiekun, może przybierać wiele form, niedźwiedzia jest tylko jedna. Ten będzie ci towarzyszył, może nauczy cię dróg leśnych, przyjacielu.' 
+[/STORY]
+[OUT][4177] Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[4180] Siedzisz i oglądasz las, który tętni życiem i jest bardzo relaksujący.
+[/STORY]
+[OUT][4177] Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[4180] Siedzisz i oglądasz las, który tętni życiem i jest bardzo relaksujący.
+[/STORY]
+[OUT][4177] Dziękuję im, odpocznijcie i odejdźcie.
+[/NODE]
+
++[NODE]28
+[STORY]
+[4181] Demony leśne są zabijane i słyszysz straszny szept lasu wokół ciebie ...
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]31
+[STORY]
+[4182] Las pokonuje cię i ledwo unikasz życia, gdy drzewa i stworzenia rozrywają twoje ciało.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[4183] Im dłużej tu będziesz, tym bardziej poczujesz ciężkie żniwo lasu na twoim morale. 
+
+'Nie odchodź. Wróć z tymi, którzy wiedzą o lesie, być może wtedy będziemy słuchać.'
+[/STORY]
+[OUT][4163] Lepsze wyjście.
+[OUT][10] Atak!
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]37
+[STORY]
+[4175] „Akceptujemy twoją obecność tutaj. Możesz wejść i jeśli którykolwiek z moich duchów tego życzy, mogą obdarzyć cię błogosławieństwem.'
+[/STORY]
+[OUT][4170] Zapytaj, czy będą z tobą handlować?
+[OUT][4171] Oczekuj, czy duchy pobłogosławią cię w jakikolwiek sposób.
+[/NODE]
+
++[NODE]38
+[STORY]
+[4184] Z wnętrza lasu rozmawiają z tobą: 
+
+'Twój panteon nazywa Dievanna ich córką, a natura jest jedną z twoich domen. Chcę dołączyć do waszej ścieżki i dowiedzieć się więcej o tych bogach, którzy uczynili was przyjaciółmi lasu.
+[/STORY]
+[OUT][4185] Zaakceptuj tego, kto chce dołączyć.
+[OUT][4186] Odmów grzecznie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyForestDemon(2)
++[NODE]2
+[STORY]
+[4187] Las porusza się ku tobie i nie wygląda na zbyt szczęśliwego, czujesz, że jego duch został przez nich zaatakowany.
+[/STORY]
+[OUT][629] Pozdrówcie swoich sojuszników. 
+[OUT][630] Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT][183] Walka!
+[OUT][4188] Broń swojego ducha!
+[OUT][632] Usuńcie się.
+[/NODE]
+
++[NODE]3
+[STORY]
+[4189] „Przepraszam, przyjaciele. Nie poznaliśmy cię. Pozdrowienia i życzenia.'
+[/STORY]
+[OUT][634] Zapytajcie, czy chcą pohandlować.
+[OUT][4190] Medytujcie razem.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4191] Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][183] Walka!
+[OUT][4188] Broń swojego ducha!
+[/NODE]
+
++[NODE]17
+[STORY]
+[4192] Niszczysz leśne demony i ich ciała pękają. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[4193] Las osusza twojego ducha, ale pozwala ci uciekać. Tracisz niektóre rzeczy po drodze.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
++[NODE]25
+[STORY]
+[4194] Pokonujesz leśne demony.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Demon Pet training(3)
++[NODE]3
+[STORY]
+[4195] „Masz demonicznych towarzyszy, ale ich pełny potencjał może nie zostać jeszcze odblokowany. Za opłatą umieść je na kamieniu i damy im moc.'
+
+[Trening twojego zwierzaka podniesie go tylko do czwartej rangi, nie wyżej]
+[/STORY]
+[OUT][4196] Tak, daj skaczkę, aby zostać przeszkolonym.
+[OUT][957] Nie, odejdźcie.
+[OUT][4197] Tak, daj cmuch, aby zostać przeszkolonym.
+[OUT][969] Płać swoim duchem, aby trenować kota.
+[OUT][4198] Płać swoim duchem, aby ćwiczyć cmuch.
+[/NODE]
+
++[NODE]7
+[STORY]
+[972] „Opłata zapłacona, dobra, teraz biorę twoich znajomych i uczę nowych sztuczek.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]9
+[STORY]
+[963] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]28
+[STORY]
+[972] „Opłata zapłacona, dobra, teraz biorę twoich znajomych i uczę nowych sztuczek.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]30
+[STORY]
+[963] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
++[NODE]34
+[STORY]
+[972] „Opłata zapłacona, dobra, teraz biorę twoich znajomych i uczę nowych sztuczek.'
+[/STORY]
+[OUT][962] Oddaj zwierzęciu.
+[/NODE]
+
++[NODE]36
+[STORY]
+[963] Twój zwierzak wraca po chwili i wydaje się, że lepiej się zachowuje.
+[/STORY]
+[OUT][964] Dziękuję trenerowi i odejdź.
+[/NODE]
+
+[/EVENT]
+

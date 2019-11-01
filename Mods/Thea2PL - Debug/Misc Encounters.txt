@@ -1,0 +1,4665 @@
+-- [EVENT] --DemonEncounterBase(0)
+[/EVENT]
+
+-- [EVENT] --goldfish_(1)
++[NODE]2
+[STORY]
+[7982] Gdy zatrzymasz się, aby uzupełnić zapasy wody, znajdziesz rybę ze złotym ogonem uwięzionym w płytkich wodach, rzucającą się wokół.
+[/STORY]
+[OUT][7983] Jeśli jest to złota rybka, wiadomo, że mają magiczne właściwości. Porozmawiaj z nim.
+[OUT][7984] Ignoruj rybę.
+[OUT][7984] Ignoruj rybę.
+[OUT][7985] Pomóż rybom wrócić do głębszej wody.
+[OUT][7985] Pomóż rybom wrócić do głębszej wody.
+[OUT][7985] Pomóż rybom wrócić do głębszej wody.
+[OUT][7986] Jedz ryby.
+[OUT][7986] Jedz ryby.
+[/NODE]
+
++[NODE]3
+[STORY]
+[7987] O ile można powiedzieć, ryba jest w rzeczywistości złotą rybką. Z wód wyskakuje kolejna ryba, wykrzykując: 
+
+„Moja siostra jest zbyt słaba i nie wytrzyma długo. Módlcie się, pomóżcie jej, szybko!'
+
+[/STORY]
+[OUT][7988] Najpierw poproś o tradycyjne życzenie.
+[OUT][7989] Rób, jak ryba cię licytuje. Uwolnij jej siostrę.
+[OUT][7990] Zapytaj, czy otrzymasz podwójne życzenia, ponieważ pomagasz obu rybom.
+[/NODE]
+
++[NODE]4
+[STORY]
+[7991] „Fishsticks and drafts! Nie złapałeś mnie; dlatego nie jestem zobowiązany do udzielenia ci życzenia, a ona jest zbyt słaba na targowanie się. Być może będzie, gdy zostanie uwolniona.'
+[/STORY]
+[OUT][7992] Upomnij rybę za próbę kłamstwa i zgięcia demona. 
+[OUT][7993] Uwolnij umierającą rybę.
+[OUT][7994] Odmów uwolnienia ryby, chyba że dostaniesz życzenie. 
+[/NODE]
+
++[NODE]5
+[STORY]
+[7995] „Och, dobrze, dobrze, jeśli jesteś taki mądry, dlaczego pytałeś? 
+
+Jest za słaba, więc kiedy ją uratujesz, zrobisz to bez umowy.'
+[/STORY]
+[OUT][7996] I tak uwolnij umierającą rybę.
+[OUT][7994] Odmów uwolnienia ryby, chyba że dostaniesz życzenie. 
+[/NODE]
+
++[NODE]6
+[STORY]
+[7997] Ryba odzyskuje swoją siłę niemal natychmiast po wypłynięciu. Skacze i rozmawia z tobą: 
+
+'Dziękuję, mili nieznajomi. Uwolniłeś mnie bez obietnicy nagrody, a to jest rzadkie. Jestem związany prawem i nie mogę spełnić twojego życzenia, ale mogę ci powiedzieć tajemnicę. Czy chcesz to usłyszeć?'
+
+[/STORY]
+[OUT][7998] Tak. Zapytaj o sekret.
+[OUT][7999] Nie. Odmów grzecznie i bądź na dobrej drodze.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8000] Uwięziona ryba umiera, a jej siostra cię naśmiewa: 
+
+'Nie mogę spełnić życzeń, ale mogę przeklinać tych, których sądzę za niegodnych, a ty dranie się kwalifikujesz. Mam nadzieję, że twoje kawałki odpadną!'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8001] „Widzisz to jezioro? Nazywa się Mokre, co oznacza mokre w starym języku. 
+
+Myślałbyś, że każde jezioro będzie mokre, tak?'
+[/STORY]
+[OUT][8002] Potwierdź i poczekaj, aż usłyszysz więcej historii.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8003] „Dokładnie. Teraz nie mogę ujawnić pełnych implikacji wspomnianej nazwy. Ale jeśli popłyniesz na środek jeziora, możesz znaleźć stare ruiny zamku lub nie. 
+
+Uważajcie, bo to Mokre Jezioro ...'
+[/STORY]
+[OUT][8004] Przekonaj rybę, aby była bardziej szczegółowa.
+[OUT][8005] Kiwnij głową i wyjdź, by znaleźć ruiny, o których mówił.
+[OUT][8006] Dziękuję rybie za bezużyteczny sekret i opuść to miejsce. 
+[/NODE]
+
++[NODE]13
+[STORY]
+[8007] „Och, cholernie, będę za to pochowany w papierkowej robocie, ale dobrze. 
+
+Jest stara ruina zamków rycerzy czarnego miecza, więc skarby są prawdopodobne. Ale kiedy tam płyniesz, usłyszysz płacz dziecka.'
+
+[/STORY]
+[OUT][8008] Poczekaj, aż usłyszysz więcej.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8009] „To duchowe dziecko umarło straszną śmiercią, jak można się spodziewać, a jego śmierć może być bardzo niesforna. 
+
+Ale kiedy mnie uratujesz, ujawnię to: śpiewaj kołysankę, gdy przepływasz obok, a uspokoisz jej płacz i bezpiecznie wejdziesz do ruin. Strzeż się jednak, bo w środku może być więcej przeciwników fizycznych!'
+[/STORY]
+[OUT][8010] Dziękuję rybie za informacje i odejdź.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8011] „Niestety, pomimo twoich złotych serc, jestem związany niezliczonymi klauzulami, które uniemożliwiają mi ujawnienie dalszych informacji na ten temat. 
+
+Na przykład, klauzula zabrania mi mówić o jakichkolwiek możliwych duchach dziecka, które mogą lub nie mogą strzec upadłych zamków wypełnionych skarbami. A teraz dobrze cię pożegnaj!'
+[/STORY]
+[OUT][8010] Dziękuję rybie za informacje i odejdź.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8012] Napełniasz swoją wodę i zostawiasz rybę na swój los. 
+
+Później tego dnia czujesz się chory. Czy to była ryba, czy po prostu pech? Kto wie?
+[/STORY]
+[OUT][2667] Cholera. 
+[/NODE]
+
++[NODE]18
+[STORY]
+[8013] Pomagasz rybom w wodzie i odpływa, strzepując na ciebie złoty ogon. 
+
+Odwracasz się, aby odejść i poczuć błogosławieństwo na tobie.
+[/STORY]
+[OUT][8014] W porządku, więc odejdź.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8015] Pomagasz rybom w wodzie i odpływa, strzepując na ciebie złoty ogon. 
+
+[/STORY]
+[OUT][8014] W porządku, więc odejdź.
+[/NODE]
+
++[NODE]20
+[STORY]
+[7997] Ryba odzyskuje swoją siłę niemal natychmiast po wypłynięciu. Skacze i rozmawia z tobą: 
+
+'Dziękuję, mili nieznajomi. Uwolniłeś mnie bez obietnicy nagrody, a to jest rzadkie. Jestem związany prawem i nie mogę spełnić twojego życzenia, ale mogę ci powiedzieć tajemnicę. Czy chcesz to usłyszeć?'
+
+[/STORY]
+[OUT][7998] Tak. Zapytaj o sekret.
+[OUT][7999] Nie. Odmów grzecznie i bądź na dobrej drodze.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8016] Jesz rybę i czujesz się okropnie chory później!
+[/STORY]
+[OUT][2667] Cholera. 
+[/NODE]
+
++[NODE]22
+[STORY]
+[8017] Jesz rybę i czujesz się świetnie. To było lepsze niż jakakolwiek ryba, którą kiedykolwiek próbowałeś.
+[/STORY]
+[OUT][8014] W porządku, więc odejdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8018] „Zasady będą potępione, życie mojej siostry znaczy więcej! Dam ci moją własną siłę życiową i rzucę w miejsce skarbu, o którym wiem. Sprawa?'
+[/STORY]
+[OUT][8019] Zaakceptuj i pomóż innym rybom.
+[OUT][8020] Odrzuć i zażądaj życzenia!
+[/NODE]
+
++[NODE]27
+[STORY]
+[8021] Natkniesz się na mały staw, są tu znaki, które mówią: „Upuść nam dar dobrego metalu lub dobrych klejnotów, a dama jeziora pobłogosławi cię.'
+[/STORY]
+[OUT][8022] Wrzuć prezent. Jeśli masz odpowiednie zasoby.
+[OUT][8023] [Demon wody] Nigdy nie słyszałeś o kobiecie z jeziora, brzmi obco. Zanurz się, by sprawdzić.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]35
+[STORY]
+[8024] Nurkujesz i przeszukasz jezioro. Dostrzegasz kobietę odzianą w zbroję, ale także w długą białą suknię i niosącą wielki miecz. 
+
+Ale za każdym razem, gdy się zbliżasz, znika jak za zasłoną. Czujesz, że ona jest tutaj, ale także gdzie indziej ... 
+
+[/STORY]
+[OUT][8025] Wrzuć prezent.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[8021] Natkniesz się na mały staw, są tu znaki, które mówią: „Upuść nam dar dobrego metalu lub dobrych klejnotów, a dama jeziora pobłogosławi cię.'
+[/STORY]
+[OUT][8022] Wrzuć prezent. Jeśli masz odpowiednie zasoby.
+[OUT][8023] [Demon wody] Nigdy nie słyszałeś o kobiecie z jeziora, brzmi obco. Zanurz się, by sprawdzić.
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --blackswords spwn(2)
++[NODE]2
+[STORY]
+[8026] Widzisz wśród nisko wiszących mgieł dwie wyspy na jeziorze. 
+
+Najprawdopodobniej tam możesz uzyskać dostęp do wszelkich ruin zamku, o których mówiła ryba. 
+
+O dziwo, na brzegu czeka na ciebie mała łódź. Jest zbudowany z rybich łusek i ma złoty ogon.
+[/STORY]
+[OUT][8027] Weź łódź na wyspy, ale bądź przygotowany na śpiew kołysanki dziecięcemu duchowi, tak jak ostrzegała cię ryba.
+[OUT][8028] Zapoznaj się z łodzią do centrum jeziora i poszukaj ruin zamku wspomnianych ryb.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8029] Gdy zbliżasz się do wysp, słyszysz słabe, ale wciąż rosnące szlochanie małego dziecka, przeplatające się z nienaturalnym zawodzeniem, które chłodzi twoje kości. 
+[/STORY]
+[OUT][8030] Zaśpiewaj kołysankę, aby uspokoić ducha dziecka.
+[OUT][8031] [Magiczny użytkownik] Zaśpiewaj kołysankę i połącz ją z własną wiedzą o duchach, aby przywołać wiążący rytuał.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8032] Gdy zbliżasz się do wysp, słyszysz słabe, ale wciąż rosnące szlochanie małego dziecka, przeplatające się z nienaturalnym zawodzeniem, które chłodzi twoje kości. 
+
+Gęsta mgła pochłania cię, a krzyki przechodzą w nieznośne wrzaski. 
+
+Widzisz upiorne formy we mgle.
+[/STORY]
+[OUT][8033] Atakuj duchy!
+[OUT][8034] [Magiczny użytkownik] Spróbuj użyć wiążącego rytuału, aby odrzucić te złe duchy.
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]7
+[STORY]
+[8035] Gdy cicho śpiewasz kołysankę, szloch ustaje i mgła w jeziorze rozprasza się. 
+
+Teraz widzisz, że jedna z wysp ma kamienne wejście do starożytnej ruiny. 
+
+Drugi trzyma resztki chaty małego rolnika. 
+[/STORY]
+[OUT][8036] Idź bezpośrednio do ruin zamku.
+[OUT][8037] Najpierw sprawdź chatę farmera.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8038] Wejście wygląda jak stare drzwi piwnicy lub inne przejście, ponieważ jest ono wypełnione pozostałościami trumien, plecionych koszy i pojemników łatwo psujących się towarów. 
+
+Zawartość, na pierwszy rzut oka zachowana w całości, wpada w pył po dotknięciu.
+[/STORY]
+[OUT][8039] Wejdź do ruin i idź dalej.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8040] W ruinach zamku większość korytarzy i pomieszczeń jest zanurzona w błocie. Ale jest jeszcze droga nietknięta i cudownie sucha. 
+[/STORY]
+[OUT][8041] Idź w dół wschodnią ścieżką.
+[OUT][8042] Idź w dół zachodnią ścieżką.
+[OUT][8043] Idź w dół południową ścieżką. 
+[/NODE]
+
++[NODE]10
+[STORY]
+[8044] Mały dom jest pusty i zimny, jego podłogi zakurzone, a powietrze ciężkie. 
+
+Na strzępach starej pościeli widzisz upiornego chłopca kołysającego się i nucącego melodię, którą go śpiewałeś. 
+
+Spogląda w górę i krew wylewa się z jego ust, gdy próbuje mówić. 
+
+[/STORY]
+[OUT][8045] Lepiej zostaw samego ducha. Idź do zamku.
+[OUT][8046] Komunij z duchem, tak jak twój dar. Zapytaj chłopca o jego nieszczęścia.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8047] „Ty możesz ze mną rozmawiać? Nikt nigdy nie może. Po prostu biegają i krzyczą, kiedy próbuję z nimi rozmawiać.'
+[/STORY]
+[OUT][8048] Wyjaśnij duchowi, że jego energia duchowa manifestuje się jako atak z powodu tego, ile ma gniewu lub smutku.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8049] „Och, rozumiem. Nie wiedziałem. Wszystko, czego chciałem, to poprosić ludzi o znalezienie mojej mamusi.'
+[/STORY]
+[OUT][8050] Zapytaj, czy możesz pomóc znaleźć swoją matkę.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8051] „To było tak dawno ... Byłem chłopcem, głodnym, przestraszonym. Moja mama umierała bez jedzenia, a rycerze zabrali wszystko i usiedli w swoim zamku. 
+
+Poszedłem zapytać ich o jedzenie, poszedłem na mostek, powiedziałem, że moja mama jest głodna, a potem bolał mnie brzuch, tak zimno, tak tępo ... 
+
+Potem byłem tutaj, sam i wszystko zniknęło.'
+[/STORY]
+[OUT][8052] Duch dziecka jest tu wyraźnie związany, ponieważ szuka swojej matki. Spróbuj znaleźć jej szczątki w domu.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8053] Twój rytuał związał ducha dziecka i pochylił go do twojej woli. Jego postać migocze od postaci młodego chłopca nie więcej niż sześć lat, bawiącego się radośnie z drewnianym koniem obok matki, do głodującego dziecka zaciskającego żołądek przy ledwie żyjącej kobiecie, a potem widzisz twarz rycerza w zbroi, śmiać się. 
+
+Kołowrotek emocji i wspomnień wciąż się powtarza.
+[/STORY]
+[OUT][8054] Kontynuuj zwiedzanie ruin zamku.
+[OUT][8055] Porozmawiaj z duchem.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8056] Duchy tego miejsca stają się coraz bardziej rozwścieczone! 
+
+Jesteś wyrzucony z tego miejsca, twój własny duch został zraniony. Wyspy znikają z twojego widoku na zawsze.
+[/STORY]
+[OUT][670] Opuśćcie to miejsce.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8057] Albo ryba skłamała, albo twoje umiejętności śpiewania są do dupy, ponieważ duchy tego miejsca są wściekłe i atakują cię! 
+
+Jesteś wyrzucony z tego miejsca, twój własny duch został zraniony. Wyspy znikają z twojego widoku na zawsze.
+[/STORY]
+[OUT][670] Opuśćcie to miejsce.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8058] Znajdujesz komnatę, która mogłaby być zbrojownią. Podobnie jak w przypadku wcześniejszych produktów, wszystko, czego dotkniesz, zamieni się w pył, z wyjątkiem pojedynczej dużej klatki piersiowej. Jego ciężki kamienny wzór i runy wyryte na zamku mówią, że zostały wykonane przez krasnoludy.
+[/STORY]
+[OUT][1400] Otwórz skrzynię.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8059] Kawałek pergaminu pachnącego polami cofa się od mechanizmu zamka z przestrzenią na dole i piórem, z którym możesz pisać. Najwyraźniej masz zamiar odpowiedzieć na zadaną zagadkę: 
+
+Czterech dandysów 
+Cztery patyczki 
+Dwóch oszustów 
+Dwóch obserwatorów 
+I peruka machać
+[/STORY]
+[OUT][8060] Wykorzystaj swoją wiedzę, aby rozszyfrować tę zagadkę.
+[OUT][8061] Mamuna - słabe dandysy brzmią jak jej wiszące smoczki.
+[OUT][8062] Zwierzę? - cztery patyczki brzmią jak cztery nogi, a wyglądający jak dwoje oczu.
+[OUT][8063] A bies? Szaleńcy mogą być zębami, a peruka może być ogonem.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8064] Jesteś w stanie rozszyfrować stary język dalej: 
+
+Czterech dandysów (smoczki na wymionach) 
+Cztery patyczki (nogi) 
+Dwóch oszustów (rogi) 
+Dwa spojrzenia (oczy) 
+I machnięcie peruką (ogon)
+[/STORY]
+[OUT][8065] Krowa?
+[OUT][8066] Pies?
+[OUT][8067] Dziwna suka? 
+[/NODE]
+
++[NODE]23
+[STORY]
+[8058] Znajdujesz komnatę, która mogłaby być zbrojownią. Podobnie jak w przypadku wcześniejszych produktów, wszystko, czego dotkniesz, zamieni się w pył, z wyjątkiem pojedynczej dużej klatki piersiowej. Jego ciężki kamienny wzór i runy wyryte na zamku mówią, że zostały wykonane przez krasnoludy.
+[/STORY]
+[OUT][1400] Otwórz skrzynię.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8068] Jestem sam, 
+Zraniony żelazną bronią i pokiereszowany mieczami. 
+Często widzę bitwę. 
+Jestem zmęczony walką. 
+Nie spodziewam się, że będę mógł odejść z wojny 
+Zanim będę całkowicie gotowy. 
+Na ścianie miasta jestem zapukany o 
+I znowu gryziony. 
+Twarde rzeczy wykonane przez młot kowala atakują mnie. 
+Za każdym razem, gdy czekam na coś gorszego. 
+Nigdy nie udało mi się znaleźć lekarza, który mógłby mnie ulepszyć 
+Lub dać mi lekarstwo z ziół. 
+Zamiast tego miecze miotają się wokół mnie, rosną w dzień iw nocy.
+[/STORY]
+[OUT][8069] Atrapa.
+[OUT][8070] Tarcza.
+[OUT][8071] Miecz.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8072] Kawałek pergaminu, gorący w dotyku, cofa się od mechanizmu zamka z przestrzenią na dole i piórem, z którym można pisać. Najwyraźniej masz zamiar odpowiedzieć na zadaną zagadkę.
+[/STORY]
+[OUT][8073] Przeczytaj zagadkę
+[/NODE]
+
++[NODE]28
+[STORY]
+[8074] Kawałek pergaminu, mokry w dotyku, cofa się od mechanizmu zamka z przestrzenią na dole i piórem do pisania. Najwyraźniej masz zamiar odpowiedzieć na zadaną zagadkę.
+[/STORY]
+[OUT][8073] Przeczytaj zagadkę
+[/NODE]
+
++[NODE]29
+[STORY]
+[8075] Litery na przesunięciu pergaminu: 
+
+'Tak, biedne panienki, głupie jak woły. Bądź już w drodze!'
+
+Pergamin pali się do popiołu, a skrzynia pozostaje zablokowana.
+[/STORY]
+[OUT][1769] Po prostu opuść to miejsce.
+[OUT][8076] Otwórz skrzynię!
+[OUT][8076] Otwórz skrzynię!
+[OUT][8076] Otwórz skrzynię!
+[/NODE]
+
++[NODE]30
+[STORY]
+[8077] Gdy tylko opuścisz to miejsce, nisko wisząca mgła gęstnieje i wiesz, że nie znajdziesz tu swojej drogi. 
+[/STORY]
+[OUT][8078] Kontynuuj podróż. 
+[/NODE]
+
++[NODE]32
+[STORY]
+[8079] Albo masz krasnoludzką wiedzę, albo jesteś tak silny, ale skrzynia leży szeroko otwarta na grabieże!
+[/STORY]
+[OUT][8080] Weź skarb i wyjdź.
+[/NODE]
+
++[NODE]33
+[STORY]
+[8081] Runy na klatce piersiowej świecą ze złością, ale twój dowcip i siła okazują się lepsze. Skrzynia leży szeroko otwarta do grabieży!
+[/STORY]
+[OUT][8080] Weź skarb i wyjdź.
+[/NODE]
+
++[NODE]34
+[STORY]
+[8082] Runy na klatce piersiowej świecą ze złością, a przy każdym trafieniu czujesz, że pokój staje się gorętszy! 
+
+Zdajesz sobie sprawę z tego, że wkrótce zostaniesz pożarty przez płomienie i uciekniesz do życia. 
+
+[/STORY]
+[OUT][656] Biegnijcie dalej.
+[/NODE]
+
++[NODE]35
+[STORY]
+[8083] Litery na przesunięciu pergaminu: 
+
+- Prawie to masz, panienki, prawie. Zrób sobie z nas presję.'
+
+Pergamin pali się do popiołu i otwiera się mała komora z sakiewką monet.
+[/STORY]
+[OUT][8084] Weź monety i wyjdź.
+[OUT][8076] Otwórz skrzynię!
+[OUT][8076] Otwórz skrzynię!
+[OUT][8076] Otwórz skrzynię!
+[/NODE]
+
++[NODE]36
+[STORY]
+[8085] Litery na przesunięciu pergaminu: 
+
+'Brawo, chłopaki! Oto twoje skarby, żelazo i kamień do ciebie!'
+
+Skrzynia otwiera się.
+[/STORY]
+[OUT][8080] Weź skarb i wyjdź.
+[/NODE]
+
++[NODE]37
+[STORY]
+[8086] Nie znajdziesz w domu żadnych ludzkich szczątków, ale odkrywasz doskonale zachowany drewniany koń i zdajesz sobie sprawę, że duchowe dziecko ma takie właśnie. 
+
+Oczy chłopca rozświetlają się i mówi: 
+'Mój horsie, znalazłeś to. Chodźmy i powiedz mamie!'
+
+Duch znika, ale pozostawia ślad, którym możesz podążać. 
+[/STORY]
+[OUT][8087] Opuść to miejsce, aby podążać szlakiem.
+[OUT][8088] Najpierw zwiedzaj ruiny zamku. 
+[/NODE]
+
++[NODE]38
+[STORY]
+[8089] Mój dom nie jest cichy, ale nie jestem głośny. 
+Pan kazał nam podróżować razem. 
+Jestem szybszy niż on, a czasami silniejszy, 
+Ale on idzie dalej. 
+Czasami odpoczywam, ale on biegnie dalej. 
+Dopóki żyję, żyję w nim. 
+Jeśli rozstaniemy się nawzajem 
+To ja umrę.
+[/STORY]
+[OUT][8090] Demon wiatrów, podobnie jak vily - bez swego pana, wiatru, nie może się rozwijać.
+[OUT][8091] Ryba w rzece - jej pan daje życie i płynie w sposób ciągły.
+[OUT][8092] Wybrany spośród bogów, jak ty, na pewno!
+[/NODE]
+
++[NODE]39
+[STORY]
+[8093] Próbujesz popłynąć na drugą wyspę, ale tak jak zniknęło duchowe dziecko, tak samo jak wyspa ...
+[/STORY]
+[OUT][8087] Opuść to miejsce, aby podążać szlakiem.
+[/NODE]
+
++[NODE]41
+[STORY]
+[8047] „Ty możesz ze mną rozmawiać? Nikt nigdy nie może. Po prostu biegają i krzyczą, kiedy próbuję z nimi rozmawiać.'
+[/STORY]
+[OUT][8048] Wyjaśnij duchowi, że jego energia duchowa manifestuje się jako atak z powodu tego, ile ma gniewu lub smutku.
+[/NODE]
+
++[NODE]42
+[STORY]
+[8094] Duchy zostają pokonane i wycofują się. Możesz swobodnie zwiedzać to miejsce. 
+[/STORY]
+[OUT][8054] Kontynuuj zwiedzanie ruin zamku.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --blackswords2 spwn(3)
++[NODE]2
+[STORY]
+[8095] Niedaleko przeklętego jeziora odkrywasz pozostałości tego, co mogło być małą wioską. 
+
+Pozostają tylko pokryte mchem gruzy, z wyjątkiem pojedynczej płyty kamiennej, otoczonej okręgiem wykonanym z ciemnych granitowych kamyków. 
+
+Duch dziecka siedzi przy kamieniu i płacze. 
+[/STORY]
+[OUT][4645] Podejdź bliżej.
+[OUT][8096] Zbierz granit. To dobry zasób.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8097] Kiedy się zbliżasz, duch spogląda w górę i widzisz przez jego oczy: 
+
+Na kamiennej płycie znajduje się kobieta przykuta łańcuchami, naga, ze śladami oparzeń i otwartymi ranami. Jest matką chłopca, którą widziałeś wcześniej. 
+
+Rycerze w czarnej zbroi z białymi krzyżami wyhaftowanymi na piersi stoją w kręgu, intonując. 
+
+Kobieta krzyczy jej ostatni w agonii. Wizja pęka. Nadal czujesz obecność tych czarnych rycerzy wokół ciebie. 
+[/STORY]
+[OUT][8098] Jest to wyraźnie miejsce mocy, w którym pozostają pozostałości starej magii. Użyj swojej wiedzy o magii, aby spróbować określić więcej.
+[OUT][8099] Cokolwiek to było, cuchnie złem. Zniszcz krąg i spal ziemię.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8100] Wizja przypomina ci stare rytuały, w których płoną czarownice, stosowane zwłaszcza przez lud zachodni. 
+
+Jak sobie przypominasz, często były używane przeciwko każdemu, kto sprzeciwiał się prawom rozkazów rycerskich. Mimo to czary są prawdziwym zagrożeniem w niewłaściwych rękach. 
+
+Duchy rzekomej czarownicy i jej strażników są tu wyraźnie związane. 
+[/STORY]
+[OUT][8101] Rozważ swoje opcje.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8102] Dwie grupy duchowe są sobie przeciwne. Uwolnienie jednej grupy będzie znacznie łatwiejsze. 
+
+[/STORY]
+[OUT][8103] Uwolnij czarownicę, a więc miejmy nadzieję, również jej biednego syna. 
+[OUT][8104] Uwolnij rycerzy. Przecież zazwyczaj służyli wyższej sprawie.
+[OUT][8105] Spróbuj uwolnić oba tak czy inaczej. Cokolwiek zrobili w życiu, z pewnością nadszedł czas, aby odpoczęli.
+[OUT][280] Wróć innym razem.
+[OUT][8099] Cokolwiek to było, cuchnie złem. Zniszcz krąg i spal ziemię.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8106] Niszczysz granitowy krąg i spalasz ziemię wokół kamiennej płyty, aby ją oczyścić. 
+
+Istnieje ogromne uwolnienie energii, które wytrąca cię na kilka minut. 
+[/STORY]
+[OUT][8107] Zbierz się i zobacz, co się stało.
+[OUT][8107] Zbierz się i zobacz, co się stało.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8108] Miejsce mocy zostaje zniszczone, ale duchy nie są mniej aktywne, tylko uwolnione z ich granic! 
+
+Słyszysz krzyki płonącej kobiety, zawodzenie dziecka i śmiech rycerzy, aż twoje uszy krwawią z bólu.
+[/STORY]
+[OUT][8109] Opuść to miejsce szybko.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8110] Miejsce mocy zostaje zniszczone. Słyszysz zawodzenie rycerzy, kiedy znikają, i radosne krzyki kobiety, która w końcu połączyła się z dzieckiem. 
+
+Jest w niej niepokojąca atmosfera mrocznej magii, ale ona jest ci wyraźnie wdzięczna i pozostawia nagrodę, zanim zniknie ze swoim chłopcem.
+[/STORY]
+[OUT][8111] Weź nagrodę i wyjdź. 
+[/NODE]
+
++[NODE]16
+[STORY]
+[8112] Bierzesz kamienie i czujesz na sobie zimny pośpiech. 
+
+Duchy budzą się i krążą w gniewie. Są odziani w czarną zbroję i intonują coś w języku, którego nie znasz.
+[/STORY]
+[OUT][1770] Zaatakujcie je!
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]18
+[STORY]
+[8113] Miejsce mocy zostaje zniszczone. Słyszysz zawodzenie rycerzy, gdy znikają, i radosne krzyki kobiety, która pojawia się obok ducha dziecka, który cię tu prowadził. 
+
+Jest w niej niepokojąca atmosfera mrocznej magii, ale ona jest ci wdzięczna i pozostawia nagrodę, zanim zniknie z chłopakiem.
+[/STORY]
+[OUT][8111] Weź nagrodę i wyjdź. 
+[/NODE]
+
++[NODE]19
+[STORY]
+[8114] Miejsce mocy zostaje zniszczone, ale duchy, które były tutaj związane, nie są mniej aktywne, tylko uwolnione od ich granic! 
+
+Słyszysz krzyki kobiety, zawodzenie dziecka i śmiech rycerzy, aż twoje uszy krwawią z bólu.
+[/STORY]
+[OUT][8109] Opuść to miejsce szybko.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8115] Kiedy oczyszczasz miejsce i wypędzasz duchy rycerzy w wieczną otchłań, stoisz ponownie przed płonącym wiedźmą. Tym razem twoja wizja wydaje się jaśniejsza, nieskażona kaprysami chłopca.
+[/STORY]
+[OUT][8116] Oglądaj scenę.
+[OUT][8117] Bez względu na przeszłość, nie ma teraz wartości. Po prostu odbierz nagrodę od duchów, którym pomogłeś i odejdź.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8118] Widzisz kobietę przykutą do kamienia. Co gorsza, cała wioska jest spalona i pełna ciał. 
+
+Ale widzisz także wielu rannych rycerzy, rozdartych przez szpony potworów. 
+
+Czujesz także obecność wielkiego zła w sercu kobiety. 
+
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8120] Widzisz, że jeden z rycerzy zanurza szponiastą rękawicę w jej piersi i wyjmuje jej poczerniałe serce, gdy wciąż bije: 
+
+'Begone, czarownica! Ty i twój zły spawn przestaniecie niszczyć tę ziemię.'
+
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8121] Kobieta krzyczy: 
+
+'Przeklinam cię i twój sadystyczny porządek. Za śmierć mojego ukochanego syna, za cierpienie moich krewnych, przeklinam was, abyście słyszeli krzyki mojego dziecka i utopili się w jego łzach na zawsze!'
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8122] Widzisz, że wioska popada w ruinę, a zamek tonie w Mokrym Jeziorze. Słyszysz płacz duchowego chłopca, który rozdziera uszy rycerzy, aż wszyscy zginą. 
+
+Scena zanika. Słyszysz prawe krzyki poległych rycerzy i wdzięczny śmiech wiedźmy i jej syna. 
+
+Duchy, które uwolniłeś, zostawiają ci dobrodziejstwo, zanim znikną. 
+[/STORY]
+[OUT][8123] Weź nagrodę i wyjdź.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8124] Widzisz kobietę przykutą do kamienia. Co gorsza, cała wioska jest spalona i wypełniona ciałami. Widzisz, jak dzieci uderzały mieczami, mężczyźni ścięli głowę, a kobiety piętrzyły się, nagie, splamione. 
+
+Chociaż wyczuwasz obecność zła od matki chłopca, nie odczuwasz tego samego od wszystkich, którzy leżą martwi przed tobą. 
+
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8125] Widzisz, że jeden z rycerzy zanurza rękawicę w szponiastym uśmiechu i wyjmuje poczerniałe serce, wciąż bijąc: 
+
+'Begone, czarownica! Ty i twój zły spawn przestaniecie niszczyć tę ziemię.'
+
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[8115] Kiedy oczyszczasz miejsce i wypędzasz duchy rycerzy w wieczną otchłań, stoisz ponownie przed płonącym wiedźmą. Tym razem twoja wizja wydaje się jaśniejsza, nieskażona kaprysami chłopca.
+[/STORY]
+[OUT][8116] Oglądaj scenę.
+[OUT][8117] Bez względu na przeszłość, nie ma teraz wartości. Po prostu odbierz nagrodę od duchów, którym pomogłeś i odejdź.
+[/NODE]
+
++[NODE]30
+[STORY]
+[8115] Kiedy oczyszczasz miejsce i wypędzasz duchy rycerzy w wieczną otchłań, stoisz ponownie przed płonącym wiedźmą. Tym razem twoja wizja wydaje się jaśniejsza, nieskażona kaprysami chłopca.
+[/STORY]
+[OUT][8116] Oglądaj scenę.
+[OUT][8117] Bez względu na przeszłość, nie ma teraz wartości. Po prostu odbierz nagrodę od duchów, którym pomogłeś i odejdź.
+[/NODE]
+
++[NODE]31
+[STORY]
+[8126] Widzisz kobietę przykutą do kamienia. Co gorsza, cała wioska jest spalona i pełna ciał. 
+
+Widzisz, jak dzieci uderzały mieczami, mężczyźni ścięli głowę, a kobiety piętrzyły się, nagie, splamione. 
+
+Ale wyczuwasz także wyraźną, namacalną obecność zła emanującego z matki chłopca. Widzicie, że wielu rycerzy nosi blizny po walce ze szponiastymi stworzeniami, a żaden z nich nie ma uśmiechu - tylko ciężki obowiązek. 
+
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]32
+[STORY]
+[8125] Widzisz, że jeden z rycerzy zanurza rękawicę w szponiastym uśmiechu i wyjmuje poczerniałe serce, wciąż bijąc: 
+
+'Begone, czarownica! Ty i twój zły spawn przestaniecie niszczyć tę ziemię.'
+
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]33
+[STORY]
+[8121] Kobieta krzyczy: 
+
+'Przeklinam cię i twój sadystyczny porządek. Za śmierć mojego ukochanego syna, za cierpienie moich krewnych, przeklinam was, abyście słyszeli krzyki mojego dziecka i utopili się w jego łzach na zawsze!'
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[8127] Widzisz, że wioska popada w ruinę, a zamek tonie w Mokrym Jeziorze. Słyszysz płacz duchowego chłopca, który rozdziera uszy rycerzy, aż wszyscy zginą. 
+
+Scena zanika. I teraz wyczuwasz spokojne przemijanie obu stron, nie zamknięte już w ich cyklu nienawiści. 
+
+Duchy, które uwolniłeś, zostawiają ci dobrodziejstwo, zanim znikną. 
+[/STORY]
+[OUT][8123] Weź nagrodę i wyjdź.
+[/NODE]
+
++[NODE]35
+[STORY]
+[8128] Widzisz, że wioska popada w ruinę, a zamek tonie w Mokrym Jeziorze. Słyszysz płacz duchowego chłopca, który rozdziera uszy rycerzy, aż wszyscy zginą. 
+
+Scena zanika. Słyszysz uroczyste śluby lojalności i lojalności od zakonu rycerza i rozpaczliwych krzyków wiedźmy i jej odrodzenia. Duchy, które uwolniłeś, zostawiają ci dobrodziejstwo, zanim znikną. 
+[/STORY]
+[OUT][8123] Weź nagrodę i wyjdź.
+[/NODE]
+
++[NODE]36
+[STORY]
+[8129] Wizja, wysłana przez tych, których wygnałeś do wiecznej otchłani, rozpada się i widzisz tylko jej ostateczny rezultat w prawdziwym świecie.
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]37
+[STORY]
+[8129] Wizja, wysłana przez tych, których wygnałeś do wiecznej otchłani, rozpada się i widzisz tylko jej ostateczny rezultat w prawdziwym świecie.
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]38
+[STORY]
+[8121] Kobieta krzyczy: 
+
+'Przeklinam cię i twój sadystyczny porządek. Za śmierć mojego ukochanego syna, za cierpienie moich krewnych, przeklinam was, abyście słyszeli krzyki mojego dziecka i utopili się w jego łzach na zawsze!'
+[/STORY]
+[OUT][8119] Kontynuuj oglądanie.
+[/NODE]
+
++[NODE]39
+[STORY]
+[8130] Twoje wysiłki zawodzą, a cokolwiek tu tkwi ciemna siła, rzuca cię na bok i ponownie zamyka to miejsce przed śmiertelnymi oczami. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Bear snake and cat(4)
++[NODE]2
+[STORY]
+[8131] Gdy podróżujesz przez las, słyszysz krzyki mężczyzny: 
+
+'Pomóż, proszę, ktoś, pomóż mi!'
+
+Są słabi, ale pochodzą z jakiegoś miejsca.
+[/STORY]
+[OUT][8132] Zapytaj go, gdzie jest i szukaj mężczyzny.
+[OUT][8133] Zignoruj krzyki i odejdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8134] „Upadłem do jaskini, proszę, mili ludzie, pomóżcie! Pochodzę z bogatego klanu. W nagrodę dam ci wiele towarów ...'
+
+Głos mężczyzny zanika. 
+
+Znajdziesz dziurę, w której mężczyzna musiał spaść i słyszysz go z dołu, ale jest zbyt ciemno i głęboko, aby cokolwiek zobaczyć, a nawet rzucenie pochodni nie pomaga.
+[/STORY]
+[OUT][8135] Wyciągnij liny i rzuć je człowiekowi.
+[OUT][8133] Zignoruj krzyki i odejdź.
+[OUT][8136] Zapytaj, dlaczego jest tutaj sam, jeśli pochodzi z bogatego klanu.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8137] „Jestem zwiadowcą, myśliwym. Miałem przeszukać ten obszar w poszukiwaniu zasobów ... mój kolega zmarł jesienią ... Nadal słyszę jego płacz ... och, proszę, wyciągnij mnie ...'
+
+Ostatnie słowa są ledwo słyszalne.
+[/STORY]
+[OUT][8135] Wyciągnij liny i rzuć je człowiekowi.
+[OUT][8133] Zignoruj krzyki i odejdź.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8138] Rzucasz linę w dół i czujesz ciężar mężczyzny. 
+
+[/STORY]
+[OUT][8139] Wyciągnij go.
+[OUT][8139] Wyciągnij go.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8140] Ciągniesz, wyciągasz i wyciągasz ogromny wąż owinięty wokół liny! 
+
+Syczy i wiruje, ale ześlizguje się w pustynię.
+[/STORY]
+[OUT][8141] Zawołaj mężczyznę.
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8143] Ciągniesz, wyciągasz i wyciągasz ogromny wąż owinięty wokół liny! 
+
+Syczy i wiruje i gryzie, zanim odsuniesz się!
+[/STORY]
+[OUT][8141] Zawołaj mężczyznę.
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8144] Głos mężczyzny jest napięty: 
+
+'Ja ... Nie widziałem liny, proszę ... proszę, ocal mnie ... '
+[/STORY]
+[OUT][8139] Wyciągnij go.
+[OUT][8139] Wyciągnij go.
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8145] Ciągniesz za linę i tym razem jest ciężki. Myślisz, że widzisz futrzany płaszcz mężczyzny, gdy go wyciągasz, ale to niedźwiedź i atakuje!
+[/STORY]
+[OUT][183] Walka!
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]12
+[STORY]
+[8146] Ciągniesz za linę i wydaje się to raczej lekkie. Czarny kot podskakuje i odskakuje od ciebie, sycząc!
+[/STORY]
+[OUT][8147] Wołaj do mężczyzny ze złością!
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8148] Niedźwiedź jest martwy, ale mężczyzna wciąż jest uwięziony w dziurze. Słyszysz jego skomlenie. 
+[/STORY]
+[OUT][8147] Wołaj do mężczyzny ze złością!
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8149] Niedźwiedź cię zmusza, a potem ucieka. 
+
+Ale mężczyzna wciąż jest uwięziony w dziurze. Słyszysz jego skomlenie. 
+[/STORY]
+[OUT][8147] Wołaj do mężczyzny ze złością!
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8150] „Nigdy nie dotarłem do twojej liny ... Nie wiem, czym były te zwierzęta ... pomóż mi, dam ci nagrody ponad miarę, przysięgam ...'
+[/STORY]
+[OUT][8151] Spróbuj wyciągnąć go ostatni raz, ostrożnie!
+[/NODE]
+
++[NODE]16
+[STORY]
+[8152] Tym razem jest to rzeczywiście starszy człowiek, brodaty, wyczerpany i obdarty. Jednak jego ubranie jest najwyższej jakości, a jego dłoń jest wyświęcona pierścionkami z kamieniami. 
+
+Obraca jeden z pierścieni i sięga ku księżycowi, po czym znika, nie mówiąc nawet dziękuję!
+[/STORY]
+[OUT][8153] Przysięgnij na niewdzięcznika i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --BearSnakeCat2spwn(5)
++[NODE]2
+[STORY]
+[8154] Natkniesz się na karawanę bogatych kupców. Podchodzą i proszą o rozmowę, ale rozpoznajesz jednego z nich jako człowieka, którego uratowałeś z dziury, który nigdy nawet nie podziękował!
+[/STORY]
+[OUT][8155] I tak rozmawiaj z handlowcami. Zobacz, co mężczyzna ma do powiedzenia. 
+[OUT][8156] Porozmawiaj z traderami i zażądaj nagród!
+[OUT][8157] Atakuj karawanę!
+[/NODE]
+
++[NODE]3
+[STORY]
+[8158] Człowiek, którego uratowałeś, nie mówi do ciebie. Chowa się w plecy, unikając wzroku. Ich przywódca podchodzi: 
+
+'Ach, podróżnicy, dobrze poznani! Obawiam się, że jesteśmy na drodze do uzupełnienia zapasów, ale nadal mamy kilka drobiazgów, jeśli chcesz z nami handlować.'
+[/STORY]
+[OUT][8159] Opowiedz im historię dziury, ale zrób to w sposób dyplomatyczny.
+[OUT][8160] Opowiedz historię i zażądaj kary i wyjaśnienia!
+[OUT][8161] Nie mów nic o przygodzie z dziurą i zwierzętami. Zapytaj, co mają do zaoferowania i handluj z nimi.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8162] Widzisz, że mężczyzna protestuje. „Kłamcy i braggarty! Jak śmiesz mnie zawstydzać!'
+
+Ale lider wygląda na nieporuszonego: 
+
+' To brzmi jak prawda. Odszedłeś na wiele dni, wróciłeś rozczochrany i zwietrzały, a twoja historia była pełna gówna. Zapłacę za życie mojego syna. Później zapłaci za swoją nieuczciwość.'
+
+[/STORY]
+[OUT][3978] Zaakceptuj warunki.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8163] Syn zostaje zabrany przez strażników, jego ramiona opadają ze wstydu. 
+
+Ojciec wzywa do przekazania skrzyni z towarami: 
+
+„Dziękuję ci za twój czyn. Mój syn jest kłopotliwy i ma skłonność do złego losu. Dlatego kupiłem dla niego pierścień księżyca, myśląc, że może uniknąć wszelkich kłopotów. Niestety, nawet z tym może zawieść.'
+[/STORY]
+[OUT][8164] Dziękuję mu za nagrodę.
+[OUT][8165] Zapytaj, czy nadal możesz handlować.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8166] Widzisz, że mężczyzna protestuje. „Kłamcy i braggarty! Jak śmiesz mnie zawstydzać!'
+
+Przywódca zwraca się do ciebie, zły: 
+' Przychodzimy do ciebie w dobrej wierze, a ty ośmielasz się obrazić mojego syna! Zacznij, zanim zaczniemy bić twoje osły!'
+[/STORY]
+[OUT][8167] Opuść tę niewdzięczną grupę.
+[OUT][1770] Zaatakujcie je!
+[/NODE]
+
++[NODE]14
+[STORY]
+[8168] Widzisz, że mężczyzna protestuje. „Kłamcy i braggarty! Jak śmiesz mnie zawstydzać!'
+
+Przywódca zatrzymuje go uniesioną ręką, a następnie mówi do ciebie: 
+
+' Jesteś wyraźnie rozgniewany przez tchórzostwo mojego syna, i od dźwięków tego, słusznie, . Nie chcę wrogów, więc weź tę skrzynię towarów i miej mój krnąbrny miecz syna jako nagrodę!'
+[/STORY]
+[OUT][8164] Dziękuję mu za nagrodę.
+[OUT][8165] Zapytaj, czy nadal możesz handlować.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8169] Zabijasz strażników, ale główne ciało karawany ucieka wraz z tchórzliwym draniem, którego kiedyś pomogłeś. Mimo to uciekli z niektórych towarów.
+[/STORY]
+[OUT][8170] Dobrze, weź łup i idź.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8171] Jesteście bici i obrabowani, ale przynajmniej zostawiają was żywych.
+[/STORY]
+[OUT][8172] Zostaw szybko, zanim zmienią zdanie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8173] „Dobry handel z tobą. Niech droga będzie bezpieczna, a ścieżka pozostanie czysta.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8174] Zbliża się karawana. Dzwonią do ciebie ze znużeniem: 
+
+'Dobra droga do ciebie, nieznajomy. Czy możemy narzucić Twój czas?'
+[/STORY]
+[OUT][8175] Kiwnij głową i słuchaj, co chcą powiedzieć.
+[OUT][293] Odmówcie i odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8176] „Szukaliśmy syna naszego wodza. Zgubił się z powrotem. Znaleźliśmy go martwego w dziurze. 
+
+Opowieści są dla nas ważne. Duch nie może naprawdę odpocząć, jeśli nie opowie się o jego śmierci. Nie przypuszczam, że wiesz coś o człowieku w dziurze?'
+[/STORY]
+[OUT][8177] Powiedz im, że spotkałeś takiego człowieka, a on był oszustem, więc zostawiłeś go do zgnilizny.
+[OUT][8178] Powiedz, że natknąłeś się na człowieka uwięzionego w dziurze, a byłeś świadkiem jego śmierci heroicznie walczącej z niedźwiedziem.
+[OUT][8179] Zaprzeczaj widzeniu takiego człowieka. 
+[/NODE]
+
++[NODE]24
+[STORY]
+[8180] „Właśnie wyszedłeś? Jakże okrutne. Z wielkim smutkiem musimy się teraz zemścić, za honor i za jego ducha, aby poznać pokój.'
+
+Rysują broń.
+[/STORY]
+[OUT][10] Atak!
+[OUT][222] Spróbujcie uciec.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8181] „Twoje słowa są prawdziwe i dziękujemy, ponieważ na razie historia może zostać ukończona. Oto nasz dowód podziękowania. Możemy również zaoferować dobry handel.'
+[/STORY]
+[OUT][8182] Zgadzam się i handluję z nimi.
+[/NODE]
+
++[NODE]28
+[STORY]
+[8183] „Rozumiem. Następuje smutek. Spróbujemy znaleźć spokój dla jego ducha poprzez inną podróż. 
+
+Czy chciałbyś handlować?'
+[/STORY]
+[OUT][8182] Zgadzam się i handluję z nimi.
+[/NODE]
+
++[NODE]30
+[STORY]
+[8184] „To nie brzmi jak człowiek, którego znałem. Był synem wodza, ale był łajdakiem i tchórzem. Prędzej spróbuje położyć niedźwiedzia niż walczyć z nim. Oznacza to, że miałeś rękę w jego śmierci i musimy teraz bronić jego honoru!'
+
+Rysują broń.
+[/STORY]
+[OUT][10] Atak!
+[OUT][222] Spróbujcie uciec.
+[/NODE]
+
++[NODE]32
+[STORY]
+[8173] „Dobry handel z tobą. Niech droga będzie bezpieczna, a ścieżka pozostanie czysta.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]35
+[STORY]
+[8185] Zabijasz koczowników, a ich karawana jest twoja. Odkrywasz, że byli tutaj na misji ratunkowej, a nie handlu, ale wciąż znajdziesz jakieś dobre produkty.
+[/STORY]
+[OUT][8186] Zbierz towary i wyjdź.
+[/NODE]
+
++[NODE]36
+[STORY]
+[8187] Źle cię biją i zmuszają do porzucenia niektórych towarów, aby uciec.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Czart and Mazur(6)
++[NODE]2
+[STORY]
+[8188] Straszna burza z gwałtownymi błyskami jasnego światła łapie cię na otwartej drodze. 
+
+Na szczęście widzisz ruiny starego dworu, a może nawet mały zamek w tamtych czasach. Jego ściany są wystarczająco mocne, aby zapewnić dobre schronienie. 
+[/STORY]
+[OUT][8189] Ukryj się!
+[OUT][8190] Pozostań na swojej drodze i spróbuj odważyć się na burzę. 
+[OUT][8190] Pozostań na swojej drodze i spróbuj odważyć się na burzę. 
+[/NODE]
+
++[NODE]4
+[STORY]
+[8191] Wytrzymujesz fizyczny atak bez większych kłopotów, ale jasne światło stara się oczyścić twojego ducha z całego zamieszania. Musisz się temu oprzeć!
+[/STORY]
+[OUT][8192] Bądź skupiony i walcz z nim.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8193] Fizyczny atak osłabia twoją determinację, a jasne światło stara się oczyścić twojego ducha z całego zamieszania. Musisz się temu oprzeć!
+[/STORY]
+[OUT][8192] Bądź skupiony i walcz z nim.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8194] Trwasz i czujesz się wzmocniony.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8195] Twój duch jest atakowany i osłabiany, ale burza mija.
+[/STORY]
+[OUT][8196] Cholera. Pozostawiać.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8197] Ukrywasz się w starych ruinach i burza szaleje na zewnątrz, ale nie wchodzi w to miejsce. 
+
+Jednak słyszysz silny, rykliwy głos: 
+
+'To jest MOJ dom! Jak śmiesz przeszkadzać!'
+
+[/STORY]
+[OUT][8198] Zapytaj, kto mówi. Nalegaj, abyś nie był zagrożeniem - chcesz tylko schronienia.
+[OUT][8199] Ignoruj głos i staraj się przeczekać burzę.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8200] „Jestem chort! Jestem tutaj mistrzem. Idź teraz, zanim poniesiesz mój gniew!'
+[/STORY]
+[OUT][8201] Zapytaj, czym jest porcja.
+[OUT][8202] Domagaj się, abyś został tutaj i ukrył się.
+[OUT][8203] Zaoferuj swoje towarzystwo, dobrą piosenkę, wysoką opowieść i śmiech!
+[OUT][8204] Zaatakuj tę porcję.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8205] „No cóż, czort, czart, czort, hmm - diabły niektórzy nazywają nas, albo do nas zadzwonią, nigdy nie wiem. 
+
+Jestem sobą.'
+[/STORY]
+[OUT][8206] Nalegaj, abyś został tutaj i ukrył się!
+[OUT][8203] Zaoferuj swoje towarzystwo, dobrą piosenkę, wysoką opowieść i śmiech!
+[OUT][8204] Zaatakuj tę porcję.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8207] „Bah, co mnie obchodzi w podziemiach. Zostać.
+
+Ale skoro tu jesteś, zagrasz ze mną w karty?'
+[/STORY]
+[OUT][2545] Tak.
+[OUT][2545] Tak.
+[OUT][2545] Tak.
+[OUT][2546] Nie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8208] Ponieważ jest demonem, wiesz, że ma on pewne sztuczki, więc używasz własnych, aby wygrać. Śmieje się i pociera swój czerwony brzuch: 
+
+'Ha! Dobra robota. Umowa to umowa to umowa.'
+
+Chort znika, zamek stoi pusty, a burza znika. Ale dostajesz nagrodę za swoją grę.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8209] Grasz w karty i mimo, że jesteś w tym dobry, tracisz każdą rękę. 
+
+Wygląda na to, że gra zajmuje godziny, dni ... czujesz się osłabiony, twój duch osłabł, jakby został wyczerpany. 
+
+Chort znika, zamek stoi pusty, a burza znika. 
+[/STORY]
+[OUT][8196] Cholera. Pozostawiać.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8210] Grasz w karty i pomimo poczucia, że chort nie gra według reguł, udaje ci się wygrać. Śmieje się i pociera swój czerwony brzuch: 
+
+'Ha! Dobra robota. Umowa to umowa to umowa.'
+
+Chort znika, zamek stoi pusty, a burza znika. Ale dostajesz nagrodę za swoją grę.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8211] Chort zgadza się pozwolić ci zostać, ale sprawia, że grasz w grę karcianą. 
+
+Wygląda na to, że gra zajmuje godziny, dni ... czujesz się osłabiony, twój duch osłabł, jakby został wyczerpany. 
+
+Chort znika, zamek stoi pusty, a burza znika. 
+[/STORY]
+[OUT][8196] Cholera. Pozostawiać.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8212] Chort jest oczarowany twoją piosenką i muzyką: 
+
+'Wspaniały, cudowny! Czy nie nauczysz mnie grać?'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][292] Zgoda.
+[OUT][382] Odmówcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8213] Uczysz chorta, jak grać muzykę, a on jest tym zafascynowany. Znika, ale zostawia cię z upominkami. 
+
+Burza na zewnątrz ustaje, a ty możesz iść. 
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8214] Siedzisz i czekasz, aż burza minie, i wszystko na początku wydaje się w porządku. Wtedy zauważysz dziwne wydarzenia. Rzeczy w twoim plecaku poruszają się, ściany starego dworku najwyraźniej zmieniają miejsca i słyszysz dźwięki ludzi rozmawiających za rogiem tylko po to, by znaleźć pustkę. 
+
+Próbujesz odejść, ale godziny minęły w tej otchłani, a twój duch jest osłabiony ...
+[/STORY]
+[OUT][8215] Cholera. opuszczać.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8216] Uczysz chorta, żeby grał muzykę, a on jest tym zafascynowany. Ale będąc kapryśnym demonem, oszukuje cię w grze. 
+
+Czujesz, że w tym miejscu minęły długie godziny, jeśli nie dni, a twój duch czuje się postrzępiony. Ale przynajmniej chort nagradza cię za opiekę! 
+
+Burza na zewnątrz osiada, a ty możesz iść. 
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8217] „Jak śmiesz! Jestem chorterem i wymagam poznania magii twojej melodii!'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][292] Zgoda.
+[OUT][8218] Nalegaj, abyś wykonał swoją część umowy i odejdziesz teraz.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8219] Drzazga marszczy brwi i znika w kłębie śmierdzącego zielonego dymu. 
+
+Czujesz mdłości z powodu oparów, ale burza minęła i możesz odejść.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]27
+[STORY]
+[8220] Stworzenie leży zabite u twoich stóp i widzisz, że burza również minęła. 
+
+Możesz kontynuować swoje podróże.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]29
+[STORY]
+[8221] Cierń rozkoszuje się swoim zwycięstwem i rykiem ciężkim, nieludzkim głosem: 
+
+'Teraz znasz moją moc i poznasz moje niezadowolenie.'
+
+Stwór znika w chmurze rozgrzanego do czerwoności dymu, który pali twoje płuca!
+[/STORY]
+[OUT][8196] Cholera. Pozostawiać.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Bociek(7)
++[NODE]2
+[STORY]
+[8222] Siadasz, aby odpocząć przy wysokim drzewie i zauważyć, że bocian dumnie stoi na jego szczycie. 
+
+Dziób ptaka jest obniżony i widzisz, że jego pióra są potargane.
+[/STORY]
+[OUT][8223] Przyjrzyj się bliżej. Być może ma kłopoty. Wiadomo, że bociany przynoszą szczęście.
+[OUT][8224] Przyjrzyj się bliżej ptakowi. Być może potrzebuje pomocy.
+[OUT][8225] Po prostu zignoruj ptaka i przejdź do innego drzewa, zanim na ciebie sypie.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8226] Ostrożnie wspinasz się na drzewo, żeby nie wystraszyć bociana i zbadać. 
+
+Stopa ptaka zostaje złapana w metalową pułapkę, a ta pułapka jest teraz zaplątana w gałęzie tego drzewa. 
+[/STORY]
+[OUT][8227] Wiesz, jak obchodzić się ze zwierzętami. Podejdź ostrożnie do bociana, porozmawiaj z nim i spróbuj usunąć pułapkę.
+[OUT][8228] Spróbuj uwolnić ptaka, mimo że prawdopodobnie wpadnie w panikę i zrani cię podczas próby.
+[OUT][8229] [Natura lub Intelekt] Wezwij swoją domenę, aby pomóc uspokoić ptaka, a następnie spróbuj pomóc.
+[OUT][957] Nie, odejdźcie.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8230] Ostrożnie wspinasz się na drzewo, żeby nie wystraszyć bociana i zbadać. 
+
+Stopa ptaka zostaje złapana w metalową pułapkę, a ta pułapka nie jest splątana w gałęziach tego drzewa. 
+[/STORY]
+[OUT][8227] Wiesz, jak obchodzić się ze zwierzętami. Podejdź ostrożnie do bociana, porozmawiaj z nim i spróbuj usunąć pułapkę.
+[OUT][8228] Spróbuj uwolnić ptaka, mimo że prawdopodobnie wpadnie w panikę i zrani cię podczas próby.
+[OUT][8231] Wyrzuć to z nędzy.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8232] Uwalniasz bociana i chociaż jego stopa jest nadal zraniona, przynajmniej jest wolna od pułapki. 
+
+Majestatyczny ptak okrąża cię trzy razy, zmienia kierunek i wykonuje kolejne trzy tury. 
+
+Czujesz, że błogosławieństwo bocianów jest nadawane twoim krewnym!
+[/STORY]
+[OUT][2563] Radujcie się.
+[OUT][2563] Radujcie się.
+[OUT][2563] Radujcie się.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8233] Nie udaje ci się uwolnić ptaka. Panika tak bardzo, że zostawia zadrapania i siniaki na ciele, gdy odrywa się od drzewa, pozostawiając stopę za sobą! 
+
+Słyszysz, jak wrzeszczy z bólu, gdy odlatuje, prawdopodobnie do zguby.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8234] Szybko zabijasz ptaka, kończąc jego walkę. Ale kiedy to robisz, czujesz atmosferę strachu. Być może bociany nie są zwykłymi ptakami. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Trapped skashck(8)
++[NODE]2
+[STORY]
+[8235] Gdy podróżujecie przez równiny, słyszycie skrzeczący dźwięk z pobliskiej kępy krzewów.
+[/STORY]
+[OUT][2] Zbadajcie.
+[OUT][2080] Zostawcie to.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8236] Podchodzicie bliżej i widzicie małe, futrzaste stworzenie o żółtych oczach i ostrych zębach, którego ciało jest poszarpane i uwięzione w pułapkach założonych przez orki.
+[/STORY]
+[OUT][8237] Najpierw zidentyfikuj to stworzenie.
+[OUT][8238] Pomóżcie temu małemu kudłaczowi wyjść. 
+[OUT][8239] Zostawcie to. Jeśli orkowie założyli pułapki, mogą się wściec jeśli je naruszycie.
+[OUT][8240] Zostawcie nędznika, i tak wygląda na rannego.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8241] Jest to najprawdopodobniej skrzat, demon domowy, czasem posłaniec boskości. 
+
+Pozostawienie go na pastwę losu może być niebezpiecznym posunięciem, zważywszy, że ich dobra natura może się odmienić, jeśli są źle traktowane.
+[/STORY]
+[OUT][8238] Pomóżcie temu małemu kudłaczowi wyjść. 
+[OUT][8239] Zostawcie to. Jeśli orkowie założyli pułapki, mogą się wściec jeśli je naruszycie.
+[OUT][8240] Zostawcie nędznika, i tak wygląda na rannego.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8242] Uwalniasz go z pułapki, ale jego rany są wyraźnie zainfekowane jakąś paskudną trucizną. 
+
+Toksyczne, zielone świństwo szybko się rozprzestrzenia, a stworzenie nawet nie płacze. 
+
+To może być zaraźliwe.
+[/STORY]
+[OUT][8243] Macie wykwalifikowanych medyków i mędrców. Spróbuj uleczyć to stworzenie.
+[OUT][8244] Postarajcie się pomóc temu stworzeniu.
+[OUT][8245] Nie możesz ryzykować tej trucizny. Zostaw stworzenie na pastwę losu.
+[OUT][8246] Zostawcie go tutaj. To nie Wasza sprawa, a przecież już pomogliście.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8247] Zostawiacie stworzenie na łaskę losu. Krzyki dochodzą długo, a z czasem cichnie nawet jego cichy jęk. 
+
+Nawet kilka dni później  usłyszycie to we śnie, gdy szarpie Waszymi sumieniami. Pozostał w duszach trwały ślad, który, obawiacie się, że nie przyniesie nic więcej, jak tylko utratę snu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8248] Gdy umiera, ciało istoty puchnie i pęka w obłoku zielonego dymu, który Was ogarnia! 
+
+Znika równie szybko, ale pozostaje ból gardła i kaszel. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8249] Udaje ci się wyleczyć truciznę i zaleczyć rany, a stwór w ciągu kilku minut podnosi się: 
+
+'Rany, było blisko! Dziękuję, kochani, bardzo wam dziękuję! Teraz tradycją jest zaoferowanie moich usług jako demon domowy, ponieważ jestem skrzakiem - ale niestety jestem już zajęty. 
+
+Mimo to, jestem Waszym dłużnikiem, więc tutaj - wskazówki do legowiska, w którym cenne prezenty czekają na Was w podzięce za pomoc. Teraz, do zobaczenia, przyjaciele!'
+
+Kilka susów i skrzak znika. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8248] Gdy umiera, ciało istoty puchnie i pęka w obłoku zielonego dymu, który Was ogarnia! 
+
+Znika równie szybko, ale pozostaje ból gardła i kaszel. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --SmeteksPrideSpw(9)
++[NODE]2
+[STORY]
+[8250] Potykasz się o stworzenie leżące na szczycie kamienia. 
+
+Z początku wydaje się, że odpoczywa, ale kiedy się zbliżasz, widzisz, że oddycha ciężko, a jego skóra tli się pod promieniami słońca. 
+
+Zdajesz sobie sprawę, że to Smetek, czort, którego kiedyś pomogłeś. 
+
+[/STORY]
+[OUT][8251] Spróbuj pomóc stworzeniu.
+[OUT][2080] Zostawcie to.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8252] Próbujesz poruszyć czort z kamienia, ale utknął tam niewidzialna siła. 
+
+On jęczy z bólu. 
+
+Pojawia się skshack i mówi do ciebie: 
+'Zostaw to. Kundel łamie zasady. To wiedza o demonach. Proszę odejdź.'
+[/STORY]
+[OUT][8253] Może to oznaczać, że demon złamał umowę. Zapytaj, czy tak jest.
+[OUT][8254] Zapytaj skoczka, co się tutaj dzieje.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8255] „Ten czort zawarł pakt, aby uratować własną skórę. Druga strona spłaciła swoje składki, ale ten diabeł próbował zrobić kłopoty. Widzicie, zraniona duma.'
+[/STORY]
+[OUT][8256] Zapytaj o pakt i jak czart chciał go złamać.
+[OUT][8257] Skash wyraźnie mówi o twojej transakcji. Po prostu pozostaw to stworzenie losowi, na jaki zasługuje.
+[OUT][8258] Umowa, którą zawarłeś? W takim przypadku zabij diabła!
+[/NODE]
+
++[NODE]5
+[STORY]
+[8259] „Wynajął służbę demona kolbuk, aby okradł tych, którzy w jego oczach lekceważyli go. 
+
+Ale kolbuk był lojalnym podmiotem, więc mogliśmy powstrzymać to naruszenie!'
+[/STORY]
+[OUT][8260] Dobrze, prawa demonów są święte. Pożegnaj się ze szpiegiem i zostaw czort na jego zasłużonym losie.
+[OUT][8261] Wywołaj prawo należnej partii i uratuj życie demona, gwarantując mu.
+[OUT][8262] Nic ci nie zaszkodziło, a to wydaje się okrutne. Żądaj uwolnienia demona!
+[/NODE]
+
++[NODE]6
+[STORY]
+[8263] „Hmm, przypuszczam, że masz prawo jako druga strona. 
+
+Bądź jednak ostrożny, bo jeśli czort złamie więcej przysięg, będzie na tobie.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][8264] Zmień zdanie i opuść czorta na zasłużony los.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8265] Skshack znika, a czort usiadł, nie będąc już dłużej zaklęciem. 
+
+Patrzy na ciebie z wyrzutami sumienia i nic nie mówi, tylko się kłania, a potem także znika. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8266] W nadchodzących dniach otrzymujesz raporty przenoszone przez ptaki lub inne stworzenia. Czytasz o wielu zepsutych przysięgach, o wielu oszustwach i szerzeniu psot. 
+
+Ostatni raport kończy się notatką końcową, która mówi „problem rozwiązany.'
+
+Ale zbrodnie, które twój dobry uczynek umożliwiły waszemu morale.
+[/STORY]
+[OUT][1147] Cholera.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8267] W nadchodzących dniach słyszysz szepty zreformowanego czorta, który ciężko pracuje, aby pomóc potrzebującym ludziom. 
+
+Czujesz, że twoje morale zostało zniesione, by usłyszeć o takich owocach twojego dobrego uczynku.
+[/STORY]
+[OUT][264] Dobrze.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8255] „Ten czort zawarł pakt, aby uratować własną skórę. Druga strona spłaciła swoje składki, ale ten diabeł próbował zrobić kłopoty. Widzicie, zraniona duma.'
+[/STORY]
+[OUT][8256] Zapytaj o pakt i jak czart chciał go złamać.
+[OUT][8257] Skash wyraźnie mówi o twojej transakcji. Po prostu pozostaw to stworzenie losowi, na jaki zasługuje.
+[OUT][8258] Umowa, którą zawarłeś? W takim przypadku zabij diabła!
+[/NODE]
+
++[NODE]13
+[STORY]
+[8268] Szkielet wzrusza ramionami i po prostu znika. Nadal nie możesz poruszyć czortu. 
+
+Jedynym sposobem, by go teraz uwolnić, byłoby złamanie tego, co go trzyma.
+[/STORY]
+[OUT][8269] Próba złamania magii.
+[OUT][8270] Nie masz wystarczającej wiedzy specjalistycznej w sprawach duchowych. Przykryj stworzenie słońcem, zostaw mu trochę wody i odejdź.
+[OUT][8271] Ofiaruj czortowi ostateczne miłosierdzie i zabij go.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8272] Skshack pojawia się ponownie i marszczy brwi na twoje zwycięstwo: 
+
+'Bądź ostrożny, bo jeśli kort złamie więcej przysięg, będzie na tobie.'
+[/STORY]
+[OUT][292] Zgoda.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8273] Nie możesz złamać zaklęcia i zanim skończysz próbować, czort wygasł, tli się w bólu, gdy słońce wypaliło jego wnętrze.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8274] Wykonujesz czort i widzisz promyk wdzięczności, gdy umiera z twojego ostrza, a nie powolna, tląca się śmierć, którą zamierzały demony. Szkielet wzrusza ramionami: 
+
+'Myślę, że to załatwia sprawę.„Potem szaszłyk znika. 
+
+Pomimo twojego morderczego zamiaru, ostateczny akt wdzięczności czorta podniósł na duchu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8275] Zajmujesz się zakładaniem obozu, kiedy zdajesz sobie sprawę, że brakuje twojego jedzenia. 
+
+W ciągu następnych kilku dni zauważysz brakujące elementy sprzętu - łyżkę tutaj, skarpetkę. 
+
+[/STORY]
+[OUT][8276] Ustaw przynętę i obserwuj. 
+[OUT][8276] Ustaw przynętę i obserwuj. 
+[/NODE]
+
++[NODE]22
+[STORY]
+[8277] Masz przenikliwe zmysły percepcji i dostrzegasz podobną do jaszczurki małą rzeczkę, która pochodzi spod ziemi i w mgnieniu oka wyciąga swoje skarby!
+[/STORY]
+[OUT][8278] Zaatakujcie stwora!
+[OUT][8279] Powód z diabłem. Być może można go zastraszyć, zwracając swoje rzeczy.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8280] Wielu próbowało złapać sprawcę w tym akcie, w tym czasie zajęło jeszcze więcej rzeczy! 
+
+Ale w końcu dostrzegłeś podobną do jaszczurki małą rzeczkę, która pochodzi z ziemi i w mgnieniu oka wyciąga swoje skarby!
+[/STORY]
+[OUT][8278] Zaatakujcie stwora!
+[OUT][8279] Powód z diabłem. Być może można go zastraszyć, zwracając swoje rzeczy.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8281] Po zaatakowaniu stworzenie wydaje się rozmnażać. Ale to nie pomaga małemu diabłu, kiedy go zabiłeś. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]28
+[STORY]
+[8282] Stworzenie nie jest w stanie lub nie chce z tobą rozmawiać, ale twoje słowa wyraźnie pozostawiły ślad. 
+
+Przekręca głowę i przez pewien czas cię pozdrawia, a potem wraca do dziury i powraca z niewielkim pakietem. 
+
+Nie oddaje ci jedzenia, ale wydaje się być zadowolony z handlu.
+[/STORY]
+[OUT][8283] Weź pakiet i zostaw stworzenie.
+[OUT][8284] Atakuj diabła!
+[/NODE]
+
++[NODE]29
+[STORY]
+[8285] Cokolwiek to jest stworzenie, nie jest zadowolone z uwagi i nie chce wchodzić w interakcje w żaden sposób. Wkopuje się w ziemię i nie wraca.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --The smith and Smetek(10)
++[NODE]2
+[STORY]
+[8286] Dzień jest jasny a niebo czyste. Nagle, zanim zdążycie się zorientować nadciąga sporej wielkości burzowa chmura. 
+
+Porusza się szybko, ale nie wygląda na to by miała przeciąć Wasze ścieżki.
+[/STORY]
+[OUT][8287] Wydaje się to interesujące. Zbadajcie sprawę z bezpiecznej odległości.
+[OUT][8288] Zostawcie to. 
+[/NODE]
+
++[NODE]4
+[STORY]
+[8289] Znajdujecie miejsce by bezpiecznie obserwować nisko sunącą czarną chmurę. Wkrótce widzicie owłosionego, dwurożnego, kopytnego stwora jadącego na małej, ale bardzo krzepkiej kozie i ciągnącego za sobą grzmiącą chmurę. 
+
+Stwór wydaje się zmartwiony i szuka czegoś. 
+
+[/STORY]
+[OUT][8290] To prawdopodobnie rodzaj czorta, przebiegłego demona. Porozmawiajcie z nim, ale zachowajcie ostrożność.
+[OUT][8291] Porozmawiajcie z istotą. Zapytajcie, co jest nie tak. 
+[OUT][2381] Atakuj go!
+[/NODE]
+
++[NODE]5
+[STORY]
+[8292] Czart odwraca się do Was, jego przekrwione oczy płoną złośliwością i migoczą co chwila, a potem zwracają się z bólem i błaga. 
+
+„Wyyyznaasiejakegos hoobaala?'
+[/STORY]
+[OUT][8293] [Rzemieślnik] Ten czort ma wyraźnie spuchnięty ząb. Widzieliście wystarczająco dużo, aby wiedzieć, że dobry kowal może wykonać taką robotę równie dobrze jak uzdrowiciel. Zaoferujcie pomoc demonowi oczywiście skoro to demon to nie możecie mu jej udzielić za darmo. Zwiążcie go przyrzeczeniem aby nie próbował Was oszukiwać.
+[OUT][8294] O co mu chodzi? Poproście by powtórzył.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8295] „Hoealr ... borber zrobi, jost pośpiescie!'
+[/STORY]
+[OUT][8296] Uzdrowiciel. Tak, to stworzenie wyraźnie bóli ząb, a Wy macie przecież uzdrowiciela. Zaoferuj pomoc po cenie demona, tak aby była związana i by nie mógł Was oszukiwać.
+[OUT][8297] Uzdrowiciel. Nikt z nas nie zna się na tej profesji. 
+[/NODE]
+
++[NODE]7
+[STORY]
+[8298] Stwór wygląda niepewnie, ale szybko i krótko kiwa głową natychmiast się zgadzając. 
+
+Wyciągacie narzedzia i sprawnie usuwacie zepsuty ząb trzymając stwora za łeb. 
+[/STORY]
+[OUT][8299] Świetnie. Teraz poproście o jego ofertę.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8300] „Ehh, pieprzony ząb, przez to muszę Wam coś dać, zwą mnie czortem Smętekiem, a umowa to umowa.'
+
+Stwór chwyta torbę z grzbietu kozy i rzuca ją w Waszym kierunku. Następnie po szybko się przygotowuje do odjazdu zawracając grzmiące chmury za kozą.
+[/STORY]
+[OUT][8301] Pożegnajcie go.
+[OUT][8302] Zapytajcie o te chmury.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8303] Demon kiwa głową, więc podchodzicie do niego i ostrożnie usuwacie obolały ząb. 
+
+[/STORY]
+[OUT][8304] Świetnie. Zapytajcie, czy jest teraz już w porządku.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8305] Czart odwraca się do Was, jego przekrwione oczy płoną złośliwością i migoczą co chwila, a potem zwracają się z bólem i błaga. 
+
+„Wyyyznaasiejakegos hoobaala?'
+[/STORY]
+[OUT][8306] [Rzemieślnik] Ten czort ma wyraźnie spuchnięty ząb. Widzieliście wystarczająco dużo, aby wiedzieć, że dobry kowal może wykonać taką robotę równie dobrze jak uzdrowiciel. Zaoferujcie pomoc po cenie demona.
+[OUT][8294] O co mu chodzi? Poproście by powtórzył.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8307] „Lepiej, o tak.'
+
+Jego oczy raz jeszcze migoczą złośliwie po czym dodaje: 
+
+' Jakież to uczucie kiedy mnie pomogliśta a ja to w dupie? Znajcie moje miłosierdzie.'
+
+[/STORY]
+[OUT][8308] Miłosierdzie? Przypomnijcie co dla niego zrobiliście!
+[OUT][8309] Pokaż pokrace, któremu usunęliście ząb pięści i machnijcie mu rzemieniami przed pyskiem, aby podkreślić kto tu jest miłosierny.
+[OUT][8278] Zaatakujcie stwora!
+[/NODE]
+
++[NODE]14
+[STORY]
+[8310] „Jesteśmy cholera czortami,nie? Mamy swoje sztuczki, ale to draństwo, to Strzępienie to mnie przeraża. Więc się ruszam i zasłaniam.'
+[/STORY]
+[OUT][8311] Zapytajcie, czy wie coś więcej o Strzaskaniu.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8312] „Nie. Tyle, że źle znoszą je moje zomki demony i cieleśni. Pochodzi z ziemi i rodzi to gówno.'
+
+Dreszcze przechodzą mu po grzbiecie, wskakuje na kozę i ściskając nogi kopie ją zmuszajac go gnania przed siebie.
+[/STORY]
+[OUT][8313] Dobra. Odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8298] Stwór wygląda niepewnie, ale szybko i krótko kiwa głową natychmiast się zgadzając. 
+
+Wyciągacie narzedzia i sprawnie usuwacie zepsuty ząb trzymając stwora za łeb. 
+[/STORY]
+[OUT][8304] Świetnie. Zapytajcie, czy jest teraz już w porządku.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8314] Stworzenie sapie i dyszy na Was z bólu podsycanego przez gniew. 
+
+Burzowe chmury nagle rosną z grozą i wydaje się, że Was pochłoną!
+[/STORY]
+[OUT][11] Ucieczka!
+
+[OUT][8278] Zaatakujcie stwora!
+[/NODE]
+
++[NODE]19
+[STORY]
+[8315] „Humph.'
+
+Stwór nie odzywa się, tylko wskakuje na kozę i szybko odjeżdża bez podziękowania!
+[/STORY]
+[OUT][8316] Cholerny demon. Odchodzicie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8317] Biesy wezwane przez czorta do walki w jego imieniu są martwe, ale sam stwór uciekł. 
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8318] Ci, których wezwał czort, pokonują Was i zmuszają do ucieczki. Czort śmieje się i woła: 
+
+'Wiejcie, wiejcie debile i kto się teraz śmieje!'
+
+Macie paskudne uczucie, że czort Was wykorzystał.
+[/STORY]
+[OUT][656] Biegnijcie dalej.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --PickingBlueberries(11)
++[NODE]2
+[STORY]
+[8319] Przechodzisz przez las i spotykasz młodego chłopca siedzącego na kłodzie i szlochającego.
+[/STORY]
+[OUT][8320] Podejdź do chłopca i zapytaj, co jest nie tak.
+[OUT][5389] Zostawcie go.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8321] Zaskoczony chłopiec podnosi wzrok. Chwyta wiklinowy kosz, który niesie, i wstaje defensywnie: 
+
+'Kim jesteś?'
+[/STORY]
+[OUT][8322] Powiedz mu, że właśnie przechodzisz i słyszałeś jego krzyki.
+[OUT][8323] Powiedz mu, że nie masz cierpliwości do rozmowy. Czy on chce pomocy, czy nie?
+[/NODE]
+
++[NODE]4
+[STORY]
+[8324] „Nie płakałem! Byłem tylko ... Uderzyłem w kostkę, tak. 
+
+Ale, ale ... wyglądasz na silnego i jeszcze mnie nie pobiłeś. Naprawdę chcesz pomóc?'
+[/STORY]
+[OUT][2545] Tak.
+[OUT][8325] Być może. Ale zapytaj, dlaczego jest tutaj sam. Z pewnością nie jest to bezpieczne?
+[/NODE]
+
++[NODE]5
+[STORY]
+[8326] Chłopiec myśli przez kilka sekund, a potem kiwa głową, 
+
+- Dobra, wygrywasz. Wyglądasz na silnego i odważnego. Potrzebuję jagód z tego lasu dla mojej ma, ona jest chora, a tylko one pomogą. 
+
+Ale tam są okropne rzeczy, więc boję się wejść.'
+[/STORY]
+[OUT][8327] Zgadzam się pomóc.
+[OUT][8328] Odmów pomocy i odejdź.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8329] „Ja… Uciekłem, dobrze? Masz to. Szczęśliwy?
+
+Ale umowa jest taka, że ona potrzebuje jagód z tego lasu. Ona jest, ehm ... ona jest chora i tylko te jagody pomogą. 
+
+Ale las jest przerażający. Boję się wejść.'
+[/STORY]
+[OUT][8330] Zapytaj, czego się boi, ponieważ już uciekł.
+[OUT][8327] Zgadzam się pomóc.
+[OUT][8328] Odmów pomocy i odejdź.
+[OUT][8331] Powiedz, że jesteś medykiem i zaoferuj pomoc matce bez tych rzekomych magicznych jagód.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8332] „Cóż, Gran powiedziała mi, że są tam armie! 
+
+Pająki z krzyżami na plecach, plecione liny, by mnie złapać, mrówki maszerujące pod moimi stopami, a nawet żołnierze motyli lecący nade mną, żądli moich oczu! 
+
+I tylko król jagód może mnie tam bezpiecznie zabrać, ale zadzwoniłem i zadzwoniłem, a go tu nie ma.'
+[/STORY]
+[OUT][8333] Ach, król jagód. Rodzaj pineconette, leśnik. Zaoferuj, aby spróbować przywołać go dla chłopca.
+[OUT][8334] Zgódź się walczyć z tymi stworzeniami, aby pomóc matce.
+[OUT][8335] Nie chodź do niebezpiecznego lasu na jagody i upomnij chłopca za zaryzykowanie życia, nawet jeśli jest to dla chorej matki. Gonić go z powrotem do domu i wyjść.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8336] „Naprawdę, zrobiłbyś to? Możesz porozmawiać z królem jagód? Łał!'
+[/STORY]
+[OUT][8337] Spróbuj prostego rytuału przywoływania, aby wezwać obecnych strażników leśnych.
+[OUT][8338] Twój duch nie jest tak silny. Rozważ inne opcje.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8339] „Och, ugh… cóż, kiedy powiedziałem, że jest chora… 
+
+Masz mnie. Nie jest chora, to tylko jej urodziny i chciałam zrobić coś miłego, a ona kocha je jagody.'
+[/STORY]
+[OUT][8340] Upomnij małego łobuza, ale zgódź się zapuścić w las.
+[OUT][8341] Upomnij małego łobuza i odmów mu. W rzeczywistości gonić go z powrotem do swojej wioski, zanim coś zje!
+[/NODE]
+
++[NODE]12
+[STORY]
+[8342] Kiedy przechodzisz przez las, zauważysz tętniące życiem życie wokół ciebie - mrówki maszerujące pod stopami, pszczoły brzęczące w gałęziach, ptaki ćwierkające i trzepoczące skrzydłami nad głową - ale nie czujesz jeszcze niebezpieczeństwa. 
+
+W końcu przychodzisz na polanę, gdzie widzisz obfitość jagód. 
+[/STORY]
+[OUT][8343] Zbierz jagody, ale zachowaj czujność.
+[OUT][8343] Zbierz jagody, ale zachowaj czujność.
+[OUT][8343] Zbierz jagody, ale zachowaj czujność.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8344] Kiedy zbierasz jagody, atakują cię pająki!
+[/STORY]
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]15
+[STORY]
+[8345] Gdy zbierasz jagody, atakują cię węże!
+[/STORY]
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]17
+[STORY]
+[8346] Zbierasz jagody, a oprócz niektórych użądleń pszczół i ugryzień mrówek nic cię nie atakuje. 
+
+Chłopiec klaszcze w dłonie z radości. „Dziękuję, życzliwi panowie, dziękuję!- Chwyta kosz i biegnie do domu. 
+
+[/STORY]
+[OUT][8347] Dobry uczynek zrobiony. Teraz wyjdź.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8348] Zostałeś przegoniony przez stwory! 
+
+Chłopiec płacze i ucieka do domu.
+[/STORY]
+[OUT][8349] Próbowałeś. Teraz wyjdź.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8350] Niewielkie stworzenie nie większe niż grzyb, z długą siwą brodą, spiczastym kapeluszem z liści i błękitem ust z sokiem jagodowym wyskakującym z lasu i siedzi na czerwonym kapeluszu chłopca. Chłopiec pozostaje nieruchomy w strachu i zdziwieniu, podczas gdy critter mówi: 
+
+'Dzwoniłeś? Przyszedłem. Miejmy nadzieję, że to nie będzie kulawe.'
+[/STORY]
+[OUT][8351] Zapytaj, czy naprawdę jest królem jagód.
+[OUT][8352] Poproś o pomoc w zbieraniu jagód dla chłopca.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8353] „Królu jagód jestem - świetny tytuł, nie? Od lat prowadzę ten koncert z jagodami. Więc masz interesy?'
+[/STORY]
+[OUT][8354] Zapytaj, czy pomoże chłopcu z jagodami dla swojej matki.
+[OUT][8355] Zapytaj, czy jagody są w jakiś sposób wyjątkowe, a jeśli tak, możesz je mieć.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8356] „Aby pomóc temu chłopcu, byłbym moją radością!'
+[/STORY]
+[OUT][8357] [Demon] Potwierdź, że nie spowoduje to ani ceny demona na ciebie, ani na chłopca.
+[OUT][8358] Dziękuję mu i powiedz chłopakowi dobrą nowinę.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8359] Chłopiec klaszcze w dłonie, chwyta kosz i biegnie do domu. 
+
+„Dziękuję, życzliwi panowie, dziękuję!'
+[/STORY]
+[OUT][8347] Dobry uczynek zrobiony. Teraz wyjdź.
+[/NODE]
+
++[NODE]27
+[STORY]
+[8360] „Jagody, które uprawiam i uroda, mogą nadawać. Ale uważajcie na ich niebieską krew płynącą, ponieważ może to również przynieść złe uczynki.'
+[/STORY]
+[OUT][8361] Poproś o jagody dla siebie i chłopca.
+[OUT][8362] Powiedz, że potrzebujesz tylko jagód dla chłopca.
+[OUT][8363] Miej jagody tylko dla siebie.
+[/NODE]
+
++[NODE]28
+[STORY]
+[8364] „Ach, przyjacielu demonu, tak, nic nie jest bez ceny, ale jestem skłonny pomagać potrzebującym dzieciom, jeśli będą uczciwe w swoich zamiarach. Więc to zależy od chłopca.'
+
+Paczka czerwonych wiewiórek przynosi jagody.
+[/STORY]
+[OUT][8365] Kiwnij głową i weź jagody do chłopca.
+[OUT][8366] Zapytaj chłopca, czy mówi prawdę. Powiedz, że demon zje go, jeśli kłamie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[8367] Chłopiec bierze jagody i ucieka bez podziękowania. Później dowiesz się, że mały bugger sprzedał borówki bogatemu kupcowi. 
+
+Niestety, wkrótce potem cała rodzina chłopca zamienia się w wiewiórki i ucieka do lasu, pozostawiając dziecko osierocone.
+[/STORY]
+[OUT][8368] Nigdy nie można kłamać demonom. Pozostawiać.
+[/NODE]
+
++[NODE]31
+[STORY]
+[8369] Chłopiec bierze jagody i ucieka bez podziękowania. Później dowiadujesz się, że jego matka znowu jest zdrowa, a ona przynosi ci pakiet prezentów jako podziękowania. 
+[/STORY]
+[OUT][8370] Powiedz jej, że to nie był problem. Pozostawiać.
+[/NODE]
+
++[NODE]33
+[STORY]
+[8371] Chłopiec znów wybucha płaczem. „O nie, nie, nie jedz mnie, kłamałem! Chciałem sprzedać jagody. Wszyscy wiedzą, że król jagód lubi dzieci.'
+
+Król borówki warczy i na chwilę zamienia się w dziką gigantyczną wiewiórkę. Chłopiec krzyczy i ucieka. 
+[/STORY]
+[OUT][8372] Potrząśnij pięścią w dziecko.
+[/NODE]
+
++[NODE]35
+[STORY]
+[8373] Król odwraca się w swoją małą formę i śmieje się: „Dobrze, moi przyjaciele. Nigdy nie sprawia mi radości bycie okrutnym wobec dziecka, ale kiedy łamią zasady, no cóż ... Oto kilka jagód - mogą cię dobrze wynagrodzić lub po prostu być smaczne. PA!'
+
+Znika.
+[/STORY]
+[OUT][8374] Weź jagody i wyjdź.
+[/NODE]
+
++[NODE]41
+[STORY]
+[8375] „Nie jestem kłamcą, uczciwym panem!'
+[/STORY]
+[OUT][8376] Daj mu jagody.
+[/NODE]
+
++[NODE]42
+[STORY]
+[8377] Nic się nie dzieje i dziecko ucieka, przerażone twoimi dziwnymi rytuałami.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]44
+[STORY]
+[8378] „Ach, spróbuj, jak tylko będę mógł, nie zrobię tego, mogę tylko pomóc tobie.'
+[/STORY]
+[OUT][8362] Powiedz, że potrzebujesz tylko jagód dla chłopca.
+[OUT][8363] Miej jagody tylko dla siebie.
+[/NODE]
+
++[NODE]45
+[STORY]
+[8379] „Wstydźcie się, zawstydzajcie się za taką chciwość. 
+
+Moje jagody będziesz miał nadal, ale zobaczymy, jak się poczujesz. Przepadnij.'
+
+Paczka czerwonych wiewiórek przynosi jagody.
+[/STORY]
+[OUT][8380] Weź jagody.
+[OUT][8381] Nie bierz jagód. Po prostu wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --FairyGodmothers(12)
++[NODE]2
+[STORY]
+[8382] Ukryci w zielonych zaroślach, pod zasłoną nocy rozświetlonej  przez gwiazdy, jesteście świadkiem zgromadzenia czterech stworzeń świata duchów.
+[/STORY]
+[OUT][8383] Obserwujcie dalej.
+[OUT][235] Zostawcie ich.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8384] Wszyscy skupieni wokół kałuży doskonale czystej wody. Wewnątrz widać odbicie malutkiego dziecka. 
+
+Stworzenia są niewielkie i wydają się mieć skrzydła. Wydaje się, że mają wiewiórcze ogony. Nie widać tego wyraźnie, ponieważ  zasłania Wam widok mgła która osnuła postacie.
+[/STORY]
+[OUT][8385] [Goblin] Ach, przecież goblińska wiedza dotyczy królestw duchów. Zastanów się, jakiego typu mogą być te stworzenia.
+[OUT][8386] Zastanówcie się, czy to nie są przypadkiem demony.
+[OUT][8387] Po prostu bądźcie cicho i obserwujcie. 
+[/NODE]
+
++[NODE]4
+[STORY]
+[8388] Są to wróżki, rodzaj chochlika - zmienne i ulotne, ale generalnie dobre w stosunku do tych, których uznają za wartościowych. 
+
+Niektórzy nazywali je goblinami w dawnych czasach, ponieważ wróżki są istotami zarówno świata duchów, jak i świata materialnego i jako takie były blisko kojarzone z goblinami. 
+
+Byliście pewni, że wyginęły podczas długich nocy ery ciemności.
+[/STORY]
+[OUT][5935] Porozmawiajcie z nimi.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8389] Wydają się podobne do niektórych demonów domowych, które znacie jak bożeta, kransnoludki - mały lud, który troszczył się o ludzi. Dziwne jest ich tu znaleźć, a skrzydła nie pasują. Może chochliki które lubią taką dziwną magię? 
+[/STORY]
+[OUT][5935] Porozmawiajcie z nimi.
+[OUT][8390] Zabijcie te małe szkodniki, cokolwiek to jest!
+[OUT][8387] Po prostu bądźcie cicho i obserwujcie. 
+[/NODE]
+
++[NODE]6
+[STORY]
+[8391] Stworzenia przemawiają w kierunku wody po kolei: 
+
+'Będę ci błogosławiła łaską młodej brzozy.'
+
+' Dam ci lśniące złoto z jądra ziemi.'
+
+' Obdarzę cię bezgranicznym pięknem wiosennego kwiatu.'
+
+' I sprawię, że twoje oczy będą migotać głębią i czystością oceanów.'
+
+Po chwili ostatnia istota znowu mówi: 
+
+' Uznam twoje serce za wypełnione dobrocią.'
+
+[/STORY]
+[OUT][8392] Nie ruszajcie się.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8393] Leśne stworzenia zaczynają kłótnię o to, kto był najlepszy, ale ostatni krzyknął na pozostałych: 
+
+'Cicho! Niech nieznajomi rozstrzygną. Co powiecie'
+
+Wiecie, że ona mówi do Was teraz, kiedy czujecie na sobie jej wzrok.
+[/STORY]
+[OUT][8394] Piękno? Z pewnością pomoże przyciągnąć odpowiedniego partnera.
+[OUT][8395] Łaska młodej brzozy. To, może okazać się bezcenne, aby być tak zwinnym, a jednocześnie silnym.
+[OUT][8396] Oczy - ich głębia z pewnością będzie oznaką mądrości.
+[OUT][8397] Błogoswawieństwo płynąca od pani Łady. Wówczas wszystkie inne prezenty będą za tym podążać!
+[OUT][8398] Dobroć, bo może rozjaśnić ciemne dni.
+[OUT][8399] Wszystkie są bezwartościowe. Świat jest okrutny i nie pomoże ani piękno, ani dobroć.
+[OUT][8400] Złoto, oczywiście! Handel i rzemiosło. To podniesie dziecko.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8401] „Być może w Waszych słowach jest trochę prawdy, ale dobroć serca jest najprawdziwszym darem. 
+
+Piękno człowieka lub kwiatu zwiędnie, brzozy są zwinne, ale pękają, jasne oczy oślepiają, a złoto może prowadzić do chciwości i rozpaczy.'
+
+[/STORY]
+[OUT][8402] Zapytajcie, dlaczego dobroć jest lepsza na tym świecie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8403] Gdyby słońce nie dawało nam ciepła i nadziei, byłoby tylko zwykłą kulą na niebie. Bez dobroci nic nie jest słuszne, piękno staje się niczym bezzapachowy kwiat, miłość staje się ogniem, który tylko płonie, i wzbogaca tylko drogę do samolubstwa i chciwości. 
+
+Dobroć przetrwa wszystko i może oświetlić drogę. 
+
+[/STORY]
+[OUT][8404] Ta istota jest wyraźnie przekonana w tym co mówi. Uśmiechnijcie się, przytakujcie a potem odejdźcie.
+[OUT][1644] Zgadzacie się. 
+[OUT][8405] Zabijcie je wszystkie, aby pokazać im, jak niewiele znaczy ich dobroć!
+[OUT][1644] Zgadzacie się. 
+[/NODE]
+
++[NODE]10
+[STORY]
+[8406] „Ach, tak, rozumiecie zatem! 
+
+Wasza pani jest ucieleśnieniem tego, co mówię i matką dla moich krewnych, bo kiedy nadeszła ciemność, złamała nas, ale z powodu jednego blasku, który był narodzinami Lady i tym samym naszego odrodzenia. Dobroć przetrwa wszystko i może oświetlić drogę. To dziecko będzie rosło i podążało za Waszą damą, a my upewnimy się, że godne będzie. Na razie Was zostawimy.'
+[/STORY]
+[OUT][8407] Pożegnajcie ich i życzcie powodzenia.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8408] „Tak, dobroć serca jest najprawdziwszym darem. Piękno człowieka lub kwiatu zwiędnie, brzozy są zwinne, ale pękają, jasne oczy oślepiają, a złoto może prowadzić do chciwości i rozpaczy.'
+
+Stworzenie przekazuje Wam prezent za właściwą odpowiedź. 
+
+[/STORY]
+[OUT][8409] Podziękujcie jej. Pożegnajcie towarzystwo i życzcie powodzenia.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8410] Odchodzicie, a stworzenia Was ignorują. 
+
+Pomimo Waszego pośpiesznego odwrotu, całe to spotkanie sprawia, że pozostajecie we wręcz nienaturalnie dobrych humorach.
+[/STORY]
+[OUT][8411] Idźcie dalej.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8412] Zgadzacie się z całego serca, więc zostajecie, śpiewacie piosenki i tańczycie. Dowiadujecie się, że dziecko jest małą księżniczką i czujecie, że powinniście również czymś ją obdarować. 
+
+Wielkodusznie oddajecie część swoich rzeczy  małej dziewczynce, a potem odchodzicie.
+[/STORY]
+[OUT][8413] Cóż, dobroć serca to naprawdę wielka rzecz! Radujecie się po czym odchodzicie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8414] Zgadzacie się z całego serca, więc zostajecie, śpiewacie piosenki i tańczycie. Dowiadujecie się, że dziecko jest małą księżniczką i czujecie, że powinniście również obdarować ją  prezentem. 
+
+Więc piszecie dla niej kilka piosenek oraz wierszy. Nigdy nawet nie wiedzieliście, że są wśród Was takie talenty! Całość sprawia, że czujecie się świetnie.
+[/STORY]
+[OUT][8413] Cóż, dobroć serca to naprawdę wielka rzecz! Radujecie się po czym odchodzicie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8415] Próbujecie zabić stwory, ale znikają one w kłębach mgły. Wszystko to sprawia, że nie czujecie się najlepiej. Macie poczucie, że zło zakiełkowało w Waszych sercach.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8416] „Och, wspaniale Was widzieć. Moje dzieci potrzebują lekcji. Czy weźmiecie udział w naszym błogosławieństwie narodzin tego małego?'
+
+[/STORY]
+[OUT][8417] Błogosławieństwo narodzin? Zapytajcie ją, czy są wróżkami.
+[OUT][8418] Poproście ich najpierw, aby powiedzieli Wam, kim są i czym dokładnie jest błogosławieństwo narodzin.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8419] „Jesteśmy, tak. A ty jesteś duchowym ludem! Jak wspaniale. 
+
+Zastanawiasz się, jakim cudem wciąż żyjemy?'
+[/STORY]
+[OUT][8420] Tak. Poproście o wyjaśnienie, gdyż zakładaliście, że wróżki zginęły w czasach najciemnych nocy.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8421] „Kiedy nadeszły, byłyśmy skazane na ciemność, ale trzymałyśmy się błysku światła, które się narodziło - pani Łady. 
+
+Ona jest naszą nową matką, ponieważ dała nam życie na nowo. 
+
+Otóż, podczas błogosławieństwa narodzin dziecka,  otrzyma ono dar, tak samo jak ja. Zobaczymy, czy pozna wartość swego daru'
+[/STORY]
+[OUT][8422] Wiecie, że wróżki są uczciwym ludem. Zgódźcie się.
+[OUT][8423] [Łada] Powiedzcie, że i Wy jesteście dziećmi Łady.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8424] „Jesteśmy wróżkami, chochlikami, leśnymi duchami, różnie nas nazywają. Jesteśmy tym, co nazywacie demonami, albo bardziej  włąściwie duchami. 
+
+Błogosławieństwo narodzin jest ceremonią rozdawania darów. Rodzice tego dziecka wierzą w nas, więc udzielimy błogosławieństwa. 
+
+Czy będziecie to obserwować?'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][8417] Błogosławieństwo narodzin? Zapytajcie ją, czy są wróżkami.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8425] „Jak wspaniale! Tak, powinnam była wiedzieć, naznaczona przez panią, kim naprawdę jesteście. Powiedzcie, w takim razie, czy mogę prosić Was o dobro?'
+[/STORY]
+[OUT][8426] Nie. Powiedzcie, że jesteście zbyt zajęci. Ale powiedzcie jej, że chcesz teraz obejrzeć jej rytuał.
+[OUT][2545] Tak.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8427] „Mała sprawa, ale zasmuca moje serce. Stary przyjaciel zachorował i nie mogę mu pomóc. To doprowadzi Was do niego. Nawet jeśli możecie dać mu ulgę w ostatniej jego godzinie, byłabym bardzo wdzięczna.'
+[/STORY]
+[OUT][8428] Kiwnijcie głowami i obiecajcie, że pójdziecie, kiedy będziecie mógli. Ale najpierw zostańcie i obserwujcie ich rytuał błogosławieństwa narodzin.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --GodmothersSpw(13)
++[NODE]2
+[STORY]
+[8429] Natkniesz się na stary, umierający dąb. To musi być przyjaciel, o którym mówiła vrozka.
+[/STORY]
+[OUT][8430] [Lasowy lud] Jesteście spokrewnieni z lasem. Spróbuj wyczuć, co dolega temu starożytnemu drzewu.
+[OUT][8431] [Natura] Twoje bóstwo ma naturę, więc użyj swojej domeny natury, aby wyczuć niebezpieczeństwo drzewa.
+[OUT][8432] Wygląda jak umierające drzewo. Sprawdź, czy nadal możesz go używać do drewna opałowego.
+[OUT][8433] Niewiele możesz zrobić, ale trzymaj kompanię drzew, dopóki nie umrze, jak obiecałeś.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8434] Zbadasz drzewo. Odnosi się wrażenie, że jakaś korupcja skręciła go od wewnątrz i spowodowała powolną, nieuniknioną śmierć. 
+
+Ale jesteś w stanie uwolnić ostatniego z jego leśnego ducha, a za to czujesz błogosławieństwo dla ciebie. 
+
+Wiesz również, że część pozostałego drewna zostanie zatruta, ale może być przydatna jako taka.
+[/STORY]
+[OUT][8435] Dobrze. Zbierz drewno.
+[OUT][8436] Zostaw dąb w spokoju. Wydaje się niewłaściwe, aby zmiatać ciało świętego drzewa.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8437] Niektóre części drzewa wydają się użyteczne, ale kiedy próbujesz zebrać drewno, czujesz ukłucie trucizny. 
+
+Jest jednak łatwy w obsłudze teraz, gdy o tym wiesz.
+[/STORY]
+[OUT][8438] Zbierz drewno, abyś mógł z niego skorzystać.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8439] Zbierasz zatrute drewno i pozostawiasz stary dąb w ostatnich dniach spokoju.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8440] Odchodzisz i chociaż nie ma namacalnego dobrodziejstwa, czujesz wdzięczność starego ducha.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8434] Zbadasz drzewo. Odnosi się wrażenie, że jakaś korupcja skręciła go od wewnątrz i spowodowała powolną, nieuniknioną śmierć. 
+
+Ale jesteś w stanie uwolnić ostatniego z jego leśnego ducha, a za to czujesz błogosławieństwo dla ciebie. 
+
+Wiesz również, że część pozostałego drewna zostanie zatruta, ale może być przydatna jako taka.
+[/STORY]
+[OUT][8435] Dobrze. Zbierz drewno.
+[OUT][8441] Użyj boskiej interwencji, aby spróbować uleczyć ten dąb.
+[OUT][8441] Użyj boskiej interwencji, aby spróbować uleczyć ten dąb.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8442] Zrobiłeś to! Dąb jest oczyszczony i chociaż uzdrowienie zajmie lata, teraz może znowu żyć. 
+
+Czujesz przyjemność swojego boga.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8443] Interwencja nie mogła uleczyć starożytnego dębu, ale dla twojej próby, czujesz na sobie przyjemność twojego boga. 
+
+Przynajmniej drzewo nie umarło samotnie, a teraz masz prawo odebrać drewno.
+[/STORY]
+[OUT][523] Dobrze. Odchodzicie.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8444] Siedzisz przy umierającym starożytnym drzewie i czujesz, że jego siła życia maleje, aż stanie się tylko łuską. 
+
+Czujesz na sobie łaskę swojej damy za dobry uczynek, a teraz możesz także zabrać drewno bez lekceważenia zasad lasu.
+[/STORY]
+[OUT][2806] Zbierz drewno i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DemonEncounterBase2(14)
+[/EVENT]
+
+-- [EVENT] --Babiniec(15)
++[NODE]2
+[STORY]
+[8445] Natkniesz się na pozostałości tego, co kiedyś musiało być zamożną wioską. 
+
+Stoi w pobliżu tętniącego życiem strumienia. Wiele domów wykonano z kamienia, a nawet droga przez centrum jest wybrukowana.
+[/STORY]
+[OUT][8446] Ostrożnie podejdź do centrum. 
+[OUT][1878] Lepiej po prostu odejdź.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8447] Gdy zbliżasz się do centralnego placu, widzisz dobrze zbudowaną kamienną studnię, dzwonnicę i coś, co wygląda jak doskonale zachowane krosno tkackie, wraz z pasmami na wpół wykończonego lnianego pajęczego jedwabiu, po prostu stojącego samotnie.
+[/STORY]
+[OUT][8448] Przeszukaj niektóre domy, ale bądź ostrożny.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8449] Widzisz wizję wioski Babiniec, tętniącej życiem i tętniącej życiem, jej sploty sprzedawane są kupcom z całej wyspy. 
+
+Siedzi przy krośnie wysoka, szczupła kobieta o srogiej, niepokojącej twarzy, nienaturalnie ukształtowanych długich ramionach i paciorkowych czarnych oczach.
+[/STORY]
+[OUT][8450] Pozwól tej wizji płynąć. 
+[OUT][8451] Skup się na tym, o czym Nyia chce wiedzieć. Nie masz czasu na wizje.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8452] Widzisz, że lud rośnie w dobrobycie. Widzicie też, jak niszczą ich dźwięki i porzucają modlitwy. Co gorsza, widzisz, jak prowadzą pogrzeb bez szacunku dla Nyii. 
+
+Zamiast tego zauważasz bożków obcych bóstw! Monety są umieszczane na oczach zmarłych, wnętrzności usunięte i zabalsamowane ... 
+
+[/STORY]
+[OUT][8453] Bluźnierstwo!
+[/NODE]
+
++[NODE]7
+[STORY]
+[8454] Wreszcie widzisz dziwną kobietę wciąż siedzącą przy krośnie. Na jej szyi wisi symbol Nyii. 
+
+Gdy tka z wściekłością przez siedem nocy, miasto jest zaplątane w srebrną sieć śmierci, która trzyma je w niewoli, gdy procesja klaczy przynosi plagę tej zgniłej ziemi. 
+
+Wizja zanika.
+[/STORY]
+[OUT][8455] Takie silne przekleństwo z samej Lady Death musi pozostać. Wyjdź z tej wioski.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8456] Ta wioska lekceważyła boginię i czciła obce bóstwa na jej ziemi. W tym celu ponieśli śmierć z rąk klaczy - nosicieli zarazy. 
+
+Czujesz, że możesz teraz uwolnić dusze, chociaż musiałbyś zaryzykować swój własny duch i być może gniew twojej bogini. 
+
+[/STORY]
+[OUT][8455] Takie silne przekleństwo z samej Lady Death musi pozostać. Wyjdź z tej wioski.
+[OUT][8457] Uwolnij biedne dusze, mimo że jest to sprzeczne z wolą twojej damy.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8458] Kiedy wychodzisz, widzisz postać starej kobiety wciąż tkwiącej w krosnach i znajdziesz w niej paczkę na pożegnanie. 
+[/STORY]
+[OUT][1236] Odejdźcie. 
+[/NODE]
+
++[NODE]10
+[STORY]
+[8459] Twój duch był zbyt słaby, aby zobaczyć prawdę o tym miejscu, ale czujesz, że Lady Death wzgardziła tą ziemią swoim przekleństwem. 
+
+Twój duch jest osłabiony przez tę plagę.
+[/STORY]
+[OUT][8455] Takie silne przekleństwo z samej Lady Death musi pozostać. Wyjdź z tej wioski.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8460] Wykonujesz rytuały pogrzebowe i czujesz silny przypływ energii wstrząsając ziemią. 
+
+Ciała spalone, czujesz, że ich dusze pozostają chore, ale z czasem niektóre z nich przejdą teraz do podziemi. 
+
+Dusze, które będą dla ciebie wolnym szeptem. 
+[/STORY]
+[OUT][8461] Jako wybrana Nyia otwórz swoją duszę w tym miejscu i dowiedz się, co ją spotkało.
+[OUT][1609] Posłuchajcie.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8462] W domach znajdziesz ciała wieśniaków wyschnięte i zamrożone w grymasie przerażenia. Ich ramiona i nogi związane są splotami pajęczej taśmy.
+[/STORY]
+[OUT][8463] [Zerca] Spal ciała i wykonaj właściwe obrzędy pogrzebowe. 
+[OUT][8464] Spal ciała z szacunku dla właściwych obrzędów pogrzebowych.
+[OUT][8465] Przeszukaj ciała w poszukiwaniu łupów.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8466] Ciała spalone, czujesz, że ich dusze pozostają chore i związane z tym przeklętym miejscem. Jakaś wielka siła wyraźnie dąży do ich dręczenia. 
+
+Możesz spróbować ofiarować modlitwę, aby ułatwić im przemijanie.
+[/STORY]
+[OUT][8461] Jako wybrana Nyia otwórz swoją duszę w tym miejscu i dowiedz się, co ją spotkało.
+[OUT][8467] Spróbuj.
+[OUT][8468] Nie, lepiej po prostu odejdź.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8469] Modlicie się i czujecie, jak potężny przypływ energii wstrząsa ziemią. 
+
+Ciała spalone, czujesz, że ich dusze pozostają chore, ale z czasem przejdą teraz do podziemi. 
+
+Gdy dusze są uwalniane, słyszysz ich szept.
+[/STORY]
+[OUT][8470] Słuchaj szeptów.
+[OUT][2110] Po prostu wyjdź.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8471] Mówią o zagładzie własnej, gniewu Lady Death, czcząc obcych bogów. Mówią o samotnej kobiecie, która przeżyła w swoim warsztacie tkania śmierci na cześć Nyii. 
+
+Zanim odejdziesz, widzisz kobietę pracującą przy krośnie, z zamkniętymi oczami i ustami, ale patrząc na ciebie!
+[/STORY]
+[OUT][8472] Czas opuścić to miejsce! Udać się.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8473] Wasze modlitwy poruszyły starożytną klątwę, a wasz duch jest osłabiony. Zanim odejdziesz, widzisz kobietę pracującą przy krośnie, z zamkniętymi oczami i ustami, ale wpatrującą się w ciebie! 
+
+Czujesz mdłości w żołądku i wiesz, że nadszedł czas na ucieczkę.
+[/STORY]
+[OUT][8472] Czas opuścić to miejsce! Udać się.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8474] Znajdziesz dużo dobrego pajęczego jedwabiu i trochę drobiazgów. 
+
+Ale, zajęci poszukiwaniami, nie zauważasz, jak wioska zostaje pochłonięta mgłą i postaciami nocnych klaczy - zwiastunami dżumy i przejazdu śmierci!
+[/STORY]
+[OUT][8475] Spróbuj je wyprzedzić!
+[OUT][8476] Spróbuj wstać i walczyć.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8477] Uciekasz, ale niektórzy z was odczuwają mdłości. Mimo to mogło być znacznie gorzej, ponieważ teraz wyczuwasz wyraźne dotknięcie samej Lady Death na tym miejscu. 
+
+[/STORY]
+[OUT][8472] Czas opuścić to miejsce! Udać się.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8478] Ledwo uciekasz i czujesz, że choroba uderza cię mocno. 
+
+Mimo to mogło być o wiele gorzej, gdy teraz wyczuwasz wyraźne dotknięcie samej Lady Death na tym miejscu. 
+
+[/STORY]
+[OUT][8472] Czas opuścić to miejsce! Udać się.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8479] Pokonujesz nocne klacze, ale czujesz strach w swoich kościach, kiedy wyczuwasz obecność samej Lady Death! 
+
+Niektórzy z was mogą stać się silniejsi z tego, ale dla innych, choroba pozostaje, nawet gdy odejdziecie triumfalnie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[8480] Dusze są uwalniane i czujesz, że nawet Nyia zgadza się z twoją łaską.
+[/STORY]
+[OUT][8481] Odejdź z tego miejsca.
+[/NODE]
+
++[NODE]31
+[STORY]
+[8482] Uwalniasz dusze, ale czujesz na sobie gniew Nyii. 
+
+Kiedy wychodzisz, widzisz postać starej kobiety wciąż tkwiącej w krośnie, z zamkniętą twarzą, z czarnymi koralikami pustki. Wskazuje na ciebie i czujesz ukłucie igły w twoich ciałach. 
+
+Potem znika. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Czort wiezbowy(16)
++[NODE]2
+[STORY]
+[8483] Napotykacie małą osadę, głównie ludzką. Kilka chatek skulonych razem, ot nic wielkiego. Zaskakujące, również jest tu mały tartak. 
+
+Miejsce jest ciche i ponure. Na drzwiach wiszą wieńce ziół, które mają chyba powstrzymać chorobę.
+[/STORY]
+[OUT][8484] [Uzdrowiciel] Wiesz, jak leczyć choroby. Idź do wioski i spróbuj pomóc tym ludziom.
+[OUT][8485] Bądźcie czujni i ostrożni, ale podejdźcie, aby zobaczyć, co się tutaj stało. 
+[OUT][8486] Możecie złapać tę chorobę. Lepiej po prostu odejdźcie.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8487] Wchodzicie do osady i odkrywacie, że ludzie stłoczyli się w największej chacie. Nieliczni wciąż wyglądający wystarczająco dobrze, by chodzić, pielęgnują pozostałych. 
+
+Dziewczyna patrzy na Was i kiwa głową jakby w podzięce za to, że próbujecie pomóc.
+[/STORY]
+[OUT][8488] Spróbujcie pomyśleć nad lekarstwem i zwróćcie się do ludzi. 
+[OUT][8486] Możecie złapać tę chorobę. Lepiej po prostu odejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8487] Wchodzicie do osady i odkrywacie, że ludzie stłoczyli się w największej chacie. Nieliczni wciąż wyglądający wystarczająco dobrze, by chodzić, pielęgnują pozostałych. 
+
+Dziewczyna patrzy na Was i kiwa głową jakby w podzięce za to, że próbujecie pomóc.
+[/STORY]
+[OUT][8488] Spróbujcie pomyśleć nad lekarstwem i zwróćcie się do ludzi. 
+[OUT][8486] Możecie złapać tę chorobę. Lepiej po prostu odejdźcie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8489] Stara kobieta, zgarbiona, kuśtyka ku Wam i spogląda w górę, jej oczy pełne mądrości. 
+„Dziękuję wam, nieznajomi, ale najlepiej jeśli będziecie poza tym. Czort trzyma nas tutaj, a Wy tylko możecie trochę opóźnić jego wpływ.'
+[/STORY]
+[OUT][8490] [Mądrość] Zapytaj, dlaczego uważa, że to czort. Masz, wiedzę o demonach, czort nie jest przecież znany z wywoływania chorób. 
+[OUT][8491] Zapytajcie, jaki typ czorta mógł to uczynić i jak można go zatrzymać.
+[OUT][8492] Zgódźcie się z kobietą. Powiedzcie dobre słowo na pożegnanie i odejdźcie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8493] Stara kobieta, zgarbiona, kuśtyka ku Wam i spogląda w górę, jej oczy pełne mądrości. 
+- Dziękuję, że próbowaliście, nieznajomi, ale najlepiej nie ruszajcie tego. Czort to uczunił i żadna zwykła medycyna tego nie naprawi.'
+
+Czujesz, że przez Was przechodzi chłód. Czegoś takiego nie można spodziewać się po naturalnej chorobie.
+[/STORY]
+[OUT][8490] [Mądrość] Zapytaj, dlaczego uważa, że to czort. Masz, wiedzę o demonach, czort nie jest przecież znany z wywoływania chorób. 
+[OUT][8491] Zapytajcie, jaki typ czorta mógł to uczynić i jak można go zatrzymać.
+[OUT][8492] Zgódźcie się z kobietą. Powiedzcie dobre słowo na pożegnanie i odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8494] Kobieta pluje: „Drogi czorta są przebiegłe. Wiem, że to jego robota! Widzisz tę wierzbę płaczącą tam, przy tartaku? 
+
+Nie było jej tam, kiedy księżyc się podniósł. Wiadomo, że czorty kochają wierzby, mówię wam!'
+[/STORY]
+[OUT][8495] Zapytajcie, czy można coś zrobić.
+[OUT][8496] Wypytajcie więcej o tego czorta.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8497] „Nikt nie podchodzi do wierzby, odkąd Janko tam poszedł i nigdy nie wrócił. Potem zaraza się pogłębiła i teraz ledwie możemy się ruszyć. 
+
+Może możecie tam iść. Wyglądacie solidnie.'
+[/STORY]
+[OUT][8498] Solidnie czy na głupich? Mimo to zgadzamy się pójść i sprawdzić tę wierzbę płaczącą.
+[OUT][8499] Odmówcie - zrobiliście wystarczająco dużo.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8494] Kobieta pluje: „Drogi czorta są przebiegłe. Wiem, że to jego robota! Widzisz tę wierzbę płaczącą tam, przy tartaku? 
+
+Nie było jej tam, kiedy księżyc się podniósł. Wiadomo, że czorty kochają wierzby, mówię wam!'
+[/STORY]
+[OUT][8495] Zapytajcie, czy można coś zrobić.
+[OUT][8496] Wypytajcie więcej o tego czorta.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8500] „Kiedy byłem jeszcze dziewczyną, mój dziadek opowiedział mi o Gniewie, odważnym drwalu, który oszukał czorta i przejął ten tartak. 
+
+Ale czorty nie lubią być pokonywanymi. To jest zemsta, mówię Wam.'
+[/STORY]
+[OUT][8501] Jak najlepiej poradzić sobie z czortem?
+[OUT][8502] Powiedzcie, że usłyszeliście wystarczająco dużo. Czy można coś zrobić ze stworzeniem?
+[/NODE]
+
++[NODE]15
+[STORY]
+[8503] „Gniewko ścinał drzewo dla wsi i trafił na takie gdzie siedział czerwony śmierdzący czort, płacząc i przeklinając. 
+
+Powiedział: „Przeklinam cię, człowieku, przeklnę Twój tyłek, byś miał brodawki na wieczność, jeśli mnie nie zabierzesz!'
+[/STORY]
+[OUT][2189] Słuchajcie dalej.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8504] Ale Gniewko był mądry i zapytał czorta, dlaczego nie może zejść. 
+
+Czort zawodził i zaklął, ale widząc, że mężczyzna się nie ruszy, prychnął: 
+'To jest lipowe drzewo, na którym siedzę, a jeśli sam wyjdę z jego korony, to drzewo spali mnie!'
+[/STORY]
+[OUT][8505] Drzewo lipy szkodzi czortom?
+[/NODE]
+
++[NODE]17
+[STORY]
+[8506] „Tak, więc Gniewko się dowiedział o słabości tego drania. Czort został wrzucony na drzewo przez innego demona. Więc Gniewko powiedział do czorta, - Znam wasze demoniczne,  sztuczki i chwyty. Jeśli cię ściągnę, spełnisz moje życzenie, a ja nigdy więcej nie zobaczę twojej parszywej gęby, słyszysz mnie?'
+[/STORY]
+[OUT][2189] Słuchajcie dalej.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8507] „Czort zgodził się i tak sie też stało, ale Gniewko nie był głupcem. Wiedząc to, co wiedział, ostatnią częścią jego życzenia było to, żeby lipy otoczyły jego wioskę i dały mu pomyślność, której pragnął.'
+
+[/STORY]
+[OUT][8508] Więc o co czort był zły?
+[/NODE]
+
++[NODE]19
+[STORY]
+[8509] „Czorts, widzicie, są nikczemni. Spełnią Wasze życzenie i uszanują co pierwotnie przyrzekli, ale potem wrócą, by się z zabawić. Nie zawsze, ale często. 
+
+Ale z lipami tutaj, łobuz nie mógł sobie poradzić, więc czekał dalej. Do teraz.'
+[/STORY]
+[OUT][8510] Dlaczego teraz? Jak dotarła tu ta wierzba?
+[/NODE]
+
++[NODE]20
+[STORY]
+[8511] „Tego nie wiem. Pojawiła się tam pewnego dnia i wtedy zaczęły się nasze nieszczęścia.'
+[/STORY]
+[OUT][8512] W porządku. Zgódźcie się im pomóc.
+[OUT][8513] Odmówcie - zrobiliście wystarczająco dużo.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8514] „Jedyne, co mogę podpowiedzieć, to tyle, żeby zabrać ze sobą trochę drewna lipowego. Weźcie i to, trochę wikliny. Możecie związać tego drania i wyrzucić go. 
+
+Powodzenia, przyjaciele. Niech bogowie pobłogosławią Was za pomoc nam, zwykłym ludziom.'
+[/STORY]
+[OUT][8515] Weźcie wiklinę i idźcie objerzeć wierzbę.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Czort wierzbowy2(17)
++[NODE]2
+[STORY]
+[8516] Zbliżacie się do wierzby płaczącej która na pierwszy rzut oka wygląda jak zwykłe drzewo. 
+
+Być może jedynym dziwactwem jest to, że wszystkie lipy, które kiedyś tu rosły, są teraz wyschniętymi kikutami.
+[/STORY]
+[OUT][8517] [Mistycyzm] Okrążcie drzewo trzy razy, rozrzucając kawałki drewna lipowego, które przynieśliście, tak aby stworzyć barierę ochronną.
+[OUT][8518] [Natura] Otwórzcie się na boską inspirację.
+[OUT][8519] [Demon] Jeśli jeden z twoich demonicznych krewnych mieszka tutaj, powinieneś o tym wiedzieć. Uderz do niego.
+[OUT][8520] Weźcie drewno lipowe i podejdźcie do drzewa, broń trzymajcie w pogotowiu.
+[OUT][217] Wróćcie później.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8521] Krążycie wokół wierzby płaczącej i przy każdym podejściu słychać syczący dźwięk. 
+
+Za którymś razem słychać krzyczący głos, 
+
+'Ajj! Cholera z Wami i Waszymi sztuczkami! Dźgacie mnie, ale ruszę się stąd!'
+[/STORY]
+[OUT][8522] Stwór pokazał swoją słabość. Teraz, gdy jesteście pewni, że lipa działa, wzmocnijcie rytuał i wykonajcie zaklęcie wypędzające.
+[OUT][8520] Weźcie drewno lipowe i podejdźcie do drzewa, broń trzymajcie w pogotowiu.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8523] Natura przemawia do Was. Czujecie, że wierzba płacząca jest spętana ciemnością od środka. Została tu przyniesiona przez magię, ale inny, pierwotny czar bardzo ją boli. 
+
+Pozostałe drzewa również cierpią, zginęły lub obumierają.
+[/STORY]
+[OUT][8517] [Mistycyzm] Okrążcie drzewo trzy razy, rozrzucając kawałki drewna lipowego, które przynieśliście, tak aby stworzyć barierę ochronną.
+[OUT][8520] Weźcie drewno lipowe i podejdźcie do drzewa, broń trzymajcie w pogotowiu.
+[OUT][8524] Skupcie się na samej wierzbie płaczącej. Wezwijcie naturę, by wypędzić magię demona. 
+[/NODE]
+
++[NODE]6
+[STORY]
+[8525] Drzewo wierzby poruszyło się i wyłoniła się owłosiona twarz. 
+
+„Czego chcesz, co? To miejsce zajęte!'
+[/STORY]
+[OUT][8526] Przypomnijcie demonowi, że złamał prawa, wprowadzając się tutaj pomimo umowy z Gniewkiem.
+[OUT][8527] Poproście demona, aby zrobił dla Was przysługę i odszedł. Bardzo krzywdzi tych ludzi.
+[OUT][8528] Zaoferujcie mu układ: nie spalicie drzewa razem z nim w środku, jeśli zaraz się wyniesie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8529] „Bah! Nic takiego nie zrobiłem, ha ha! Zawarłem umowę z tą wierzbą płaczącą i przyszła sobie tu żyć. Widzicie, moja oryginalna umowa mówi, że w wiosce nie mogą rosnąć żadne inne drzewa prócz lipy, a zwłaszcza wierzby. 
+
+Ale ta tutaj nie urosła. Ona sobie przyszła. Ha!'
+[/STORY]
+[OUT][8530] Zauważcie, że to rzeczywiście sprytne podejście.
+[OUT][8531] Powiedzcie mu że jego manipulacje warte są pogardy, że prawa  i umowy muszą być przestrzegane. Pobawił się już, zatem - czas odejść.
+[OUT][8532] Powiedz, że cokolwiek by się nie zdarzyło, zasady nie są ważne. Poproszono Was, abyście się go pozbyli, więc lepiej ruszy swój zad i spieprza stąd. Potrząśnijcie  lipowym drzewem.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8533] Budujecie ognisko i palicie lipę, pozwalając dymowi pochłonąć wierzbę płaczącą. 
+
+Czort - krótkie, kiczowate, rudowłose, kozopodobne stworzenie - wyskakuje i próbuje uciec, ale jest związane z wierzbą i nie może. 
+
+Wie, że się spali, zatem w końcu ustępuje i rezygnuje z tego miejsca. Jeśli chcecie, możecie kontynuować zaklęcie, aby go zabić.
+[/STORY]
+[OUT][8534] Kontynuujcie zaklęcie i patrzcie jak czort jest unicestwiany.
+[OUT][8535] Po przełamaniu czaru czort odchodzi. Pozwól mu.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8536] „Och, co za troska, prawda? Zyskałem za przyjaciół kilku mięśniaków nawet za przyzwoleniem ich bogów, co? 
+
+Co będę z tego mieć?'
+[/STORY]
+[OUT][8537] Zaoferujcie klejnot jako zapłatę. 
+[OUT][8528] Zaoferujcie mu układ: nie spalicie drzewa razem z nim w środku, jeśli zaraz się wyniesie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8538] „Och, Wy! Skąd wiedzieliście, że nie mogę opuścić tego drzewa? Cholerny zdrajca demonów. 
+
+Nie zrobilibyście tego, prawda?'
+
+[/STORY]
+[OUT][8539] Nie przyznawajcie się,niech uzna, że to było szczęście. Popatrzcie na niego groźnie.
+[OUT][8540] Wzruszcie ramionami i powiedzcie, że tylko zgadywaliście, ale teraz znacie jego słabość, więc lepiej niech stąd idzie!
+[/NODE]
+
++[NODE]11
+[STORY]
+[8541] „Hmm, czemu nie, nudziłem się tutaj. Do zobaczenia!'
+
+Po odejściu demona odkrywacie zapas dobrej jakości drewna.
+[/STORY]
+[OUT][8542] Świetnie, przekażcie wieśniakom dobrą nowinę i ruszajcie w dalszą drogę.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8543] „Dobra, w porządku, w porządku! Odchodzę. I tak się nudziłem!'
+
+Demon odchodzi i wygląda na to, że klątwa powoli przemija. Po odejściu demona zebrać można trochę dobrej jakości drewna.
+[/STORY]
+[OUT][8542] Świetnie, przekażcie wieśniakom dobrą nowinę i ruszajcie w dalszą drogę.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8544] Drzewo wierzby porusza się i wyłania się owłosiona twarz. 
+
+- Wynoście się stąd, szumowiny!'
+[/STORY]
+[OUT][8545] Spróbujcie przemówić do potwora. Powiedzcie, że zrobił wystarczająco dużo szkody a przy tym i już się pobawił, więc czas zmienić miejsce.
+[OUT][8546] Powiedzcie tej plugawej istocie, że niszczy drzewa! Zapłaci za to teraz - atak!
+[OUT][8547] Wydaje się, że to może być zbyt wielki problemem. Po prostu odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8548] „Wiem! Powiedz, skoro jesteście tacy mili. Leży tutaj trochę luźnego drewna, kiedy wymarły inne drzewa. Nie mogę sam dotknąć tego parszywstwa, więc równie dobrze możecie to zabrać.'
+[/STORY]
+[OUT][8549] Podziękujcie, weźcie łup i odejdźcie.
+[OUT][8550] Zauważcie, że poproszono was o zupełnie coś innego, a ci ludzie umierają. Czy nie może teraz odejść, skoro się już pobawił?
+[OUT][8550] Zauważcie, że poproszono was o zupełnie coś innego, a ci ludzie umierają. Czy nie może teraz odejść, skoro się już pobawił?
+[/NODE]
+
++[NODE]19
+[STORY]
+[8551] Czort wzrusza ramionami. 'Czemu nie. Jestem znudzony. Więc i tak weźcie to drewno. Do zobaczenia!'
+
+Demon odchodzi, a klątwa powoli mija. 
+[/STORY]
+[OUT][8552] Przekażcie mieszkańcom wioski dobre wieści i odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8553] „Nie skończyłem! Teraz mnie nudzicie. Odejdźcie albo poznacie  mój gniew!'
+[/STORY]
+[OUT][10] Atak!
+[OUT][8554] Po prostu odejdźcie. Nie warto sprawiać kłopotów.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8555] Zabijacie demona. Jego śmierć sprawia, że wierzba odzyskuje swoją naturalną siłę. 
+
+Prawdopodobnie zajmie to dużo czasu, zanim klątwa czorta całkowicie przeminie, ale w końcu się to i tak wydarzy. Gdy zawiał wiatr, słyszycie słabe 'Dziękuję.'
+
+Znajdujecie także zapas dobrego drewna pozostawionego przez demona.
+[/STORY]
+[OUT][8542] Świetnie, przekażcie wieśniakom dobrą nowinę i ruszajcie w dalszą drogę.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8556] Zawiedliście a czort nie jest szczęśliwy z powodu ataku. Gdy uciekacie, czujecie że dodatkowe nieszczęście dotyka mieszkańców wioski!
+[/STORY]
+[OUT][8557] Cholerny czort. Biegnijcie dalej.
+[/NODE]
+
++[NODE]28
+[STORY]
+[8558] Czort wrzeszczy z bólu, po czym wysycha jak suszona śliwka Resztki zamieniają się w przyzwoitej wielkości rubin. 
+
+Klątwa zostaje natychmiast zniesiona i teraz ludzie szybko odzyskają zdrowie. 
+
+Znajdujecie też zapas dobrego drewna pozostawionego przez demona.
+[/STORY]
+[OUT][8542] Świetnie, przekażcie wieśniakom dobrą nowinę i ruszajcie w dalszą drogę.
+[/NODE]
+
++[NODE]31
+[STORY]
+[8559] Czort wrzeszczy z bólu po czym znika w kłębie zielonego dymu. Dostaje się on do Waszych płuc. Jaki to może mieć wpływ, nie wiadomo. 
+
+Klątwa zostaje natychmiast zniesiona i teraz ludzie szybko odzyskają zdrowie. 
+
+Znajdujecie też zapas dobrego drewna pozostawionego przez demona.
+[/STORY]
+[OUT][8560] Przekażcie wieśniakom dobrą nowinę i ruszajcie w dalszą drogę.
+[/NODE]
+
++[NODE]34
+[STORY]
+[8561] Wierzba płacząca zaczyna się delikatnie kołysać, jej zielone włosy tańczą w takt niesłychanej melodii Waszej modlitwy. 
+
+Pień drzewa skręca się i kurczy w tańcu, a z wnętrza pnia słyszysz krzyki umierającego stworzenia. Krew spływa po korze drzewa, ale taniec trwa nadal. 
+
+Następnie wierzba wypluwa resztki czorta.
+[/STORY]
+[OUT][8562] Dobrze. Zbierzcie przedmioty, które miał i ruszajcie dalej.
+[/NODE]
+
++[NODE]36
+[STORY]
+[8563] Wasze modlitwy nie są wystarczająco silne, a może to natura nie chce się wtrącać. 
+
+Wasz duch zostaje osłabiony, a mroczna magia odpycha Was od tego miejsca.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]42
+[STORY]
+[8541] „Hmm, czemu nie, nudziłem się tutaj. Do zobaczenia!'
+
+Po odejściu demona odkrywacie zapas dobrej jakości drewna.
+[/STORY]
+[OUT][8542] Świetnie, przekażcie wieśniakom dobrą nowinę i ruszajcie w dalszą drogę.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --czort wierzbowy3(18)
++[NODE]2
+[STORY]
+[8564] Gdy wędrujesz po lesie, słyszysz coś grzebiącego w krzakach, a potem krótkie, kiczowate, czerwone futro jeżdżące na kozłach wbija się w ciebie. 
+
+- Cholera, patrz, gdzie idziesz!'
+[/STORY]
+[OUT][8565] Zwróć uwagę, że to ty jesteś tutaj atakowany.
+[OUT][8566] Wyjmij broń i warcz na stwora. Jak śmiesz przecinać twoją ścieżkę w ten sposób!
+[OUT][8567] Wzruszyć ramionami i odejść.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8568] „Cóż, mówię, policzek! Wy byliście wyraźnie w MOJEJ drodze. 
+
+Bah, kogo to obchodzi. Tutaj, dostałem ci prezent, twój niegdyś uratował moją skórę, a ja spłacam swoje długi.'
+[/STORY]
+[OUT][8569] Nie przyjmuj prezentu, pamiętając, że ten demon zaatakował wioskę, ponieważ nie podobało jej się, że został pokonany w umowie. 
+[OUT][8570] Nie robisz z nim żadnych transakcji, więc weź prezent.
+[OUT][8570] Nie robisz z nim żadnych transakcji, więc weź prezent.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8571] „Och, fiddlesticks! Dobrze, bądź taki.'
+
+Odsuwa się z hukiem. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8572] Bierzesz paczkę i znajdujesz w niej jakieś towary, ale czujesz też, że spotka cię klątwa. 
+
+Czort odstaje, śmiejąc się.
+[/STORY]
+[OUT][8573] Cholera czort! Pozostawiać.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8574] Być może czort docenił twoją dobroć. Bierzesz prezent i nic więcej się nie dzieje. 
+
+Czort znika, uśmiechając się.
+[/STORY]
+[OUT][8575] Świetnie, odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Hailk-gailki(19)
++[NODE]2
+[STORY]
+[8576] Wody morskie mieszają się i wirują przed tobą w nieregularnych kręgach i nagłych wybuchach. 
+
+[/STORY]
+[OUT][8577] Ponieważ domena natury jest twoim przewodnikiem, szukaj odpowiedzi od swojego bóstwa.
+[OUT][8578] [Mądrość] Twoja wiedza mistyczna to dźwięk. Spróbuj dowiedzieć się, co to może być.
+[OUT][8579] Zignoruj to, nie wydaje się niebezpieczne. 
+[OUT][8579] Zignoruj to, nie wydaje się niebezpieczne. 
+[OUT][8580] Zbliż się do zbadania.
+[OUT][8581] Opuść ten obszar.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8582] Wody te są z pewnością zakłócone, ale czujesz, że nie jest to nienaturalne. 
+
+Stworzenia morskie roi się od tego miejsca - demony hailki-gailki, które czasami są nazywane, i obietnica nowego życia tutaj. 
+
+Ale w tych trudnych czasach czujesz, że cykl tych stworzeń jest tłumiony przez silną obecność energii świetlnej.
+[/STORY]
+[OUT][8583] [Elf] Jako elficcy krewni jesteś dzieckiem światła. Spróbuj użyć ducha, aby pomóc tym stworzeniom. 
+[OUT][8584] [Ork] Silnie odczuwasz nacisk tego miejsca; światło płonie na końcu twojej duszy. Użyj swojej przeciwnej domeny, aby spróbować przerwać jej trzymanie, nawet jeśli jest to dla ciebie bardziej niebezpieczne.
+[OUT][8585] Ta koncentracja światła jest rzeczywiście nienaturalna. Spróbuj wykonać rytuał, aby oczyścić to miejsce.
+[OUT][8586] Nie przeszkadzaj w tym. Najlepiej zostaw ich i kontynuuj dalej na odległość.
+[OUT][8587] [Mądrość] Co jeszcze mógłbyś tutaj zrobić?
+[OUT][8588] Zostań i obserwuj.
+[OUT][8588] Zostań i obserwuj.
+[OUT][8589] Poluj na demony ryb.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8590] Są to prawdopodobnie demony hailki, rzadka rasa stworzeń wodnych, które są generalnie nieszkodliwe same w sobie, ale są zwiastunami nadchodzącego huraganu. 
+
+Dzięki rytuałom godowym wychodzą na powierzchnię tylko raz na dekadę. Mówi się jednak, że ich jajka są w rzeczywistości kamieniami szlachetnymi, więc niektórzy ludzie próbują ich za to polować. 
+[/STORY]
+[OUT][8591] W takim razie poluj na nich. 
+[OUT][8592] Zostaw ich. W rzeczywistości poczekaj chwilę, aby upewnić się, że inni nie przyjdą zniszczyć tych rzadkich stworzeń.
+[OUT][8592] Zostaw ich. W rzeczywistości poczekaj chwilę, aby upewnić się, że inni nie przyjdą zniszczyć tych rzadkich stworzeń.
+[OUT][8586] Nie przeszkadzaj w tym. Najlepiej zostaw ich i kontynuuj dalej na odległość.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8593] Zostajesz i obserwujesz, jak woda nadal wiruje i pęka. Z czasem zauważysz małe, podobne do węża stworzenia z wielobarwnymi łuskami i małymi demonicznymi rogami. 
+
+Zdajesz sobie sprawę, że huragan się kształtuje, ale stworzenia chronią cię przed nim dzięki za twoją dobroć. 
+
+Twoje duchy są bardzo podnoszone. 
+[/STORY]
+[OUT][8575] Świetnie, odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8594] Zostajesz i obserwujesz, jak woda nadal wiruje i pęka. Z czasem zauważysz małe, podobne do węża stworzenia z wielobarwnymi łuskami i małymi demonicznymi rogami. 
+
+Zauważysz grupę rybaków skradających się do stworzeń. Jeszcze cię nie widzieli.
+[/STORY]
+[OUT][8595] Atakuj rybaków!
+[OUT][8596] Przekonaj rybaków, aby nie zabijali hailki. 
+[OUT][8597] Zostaw to. Jest to zbyt duże ryzyko dla ryb. 
+[/NODE]
+
++[NODE]12
+[STORY]
+[8598] Intensywność wirów i wgłębień, a teraz zauważasz, że może tam być jakiś rodzaj podobnych do węża istot. 
+
+Zdajesz sobie sprawę, że morze i niebo stają się bardzo niespokojne. Burza nadchodzi tak szybko!
+[/STORY]
+[OUT][8599] A więc najlepiej zostaw tutaj szybko.
+[OUT][8600] Zostań i próbuj polować na te węże, nawet jeśli oznacza to branie siniaków z wiatru.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8601] Zawirowania i wgłębienia zwiększają intensywność, a ty zauważasz, że może tam być jakiś rodzaj wężowatych stworzeń. 
+
+Zanim zobaczysz więcej, ogarnie cię huragan, rzucając cię jak marionetkami, zanim wylądujesz na ziemi.
+[/STORY]
+[OUT][8602] Kontynuuj przechodzenie do bezpieczeństwa.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8603] Intensywność zawirowań i wgłębień zwiększa się, a ty zauważasz, że może tam być jakiś rodzaj wężowatych stworzeń. 
+
+Stwory emitują słabe światło i wkrótce wygląda na to, że pływają w tęczy. Kontynuujesz chodzenie, a twoje duchy są podniesione.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8604] Schwytałeś kilka demonów węża. Ich światło gaśnie, gdy wynurzają się z wody, a cała paczka zmienia kolor na szary i odsuwa się w milczeniu. 
+
+Światło węży utrzymuje się na twojej skórze i żądłach. Masz wrażenie, że przerwałeś coś ważnego. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8605] Otwierasz się tutaj na nienaturalną koncentrację światła i siła porusza się ku tobie, pozostawiając demony węża wolne. 
+
+Widzisz stwory tętniące życiem i energią, a woda zamienia się w tęczę z wyświetlacza światła odbitego od ich łusek.
+[/STORY]
+[OUT][7238] Poczekaj, aby zobaczyć, co się stanie dalej.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8606] Zostajesz i obserwujesz, jak woda nadal wiruje i pęka. Z czasem zauważysz małe, podobne do węża stworzenia z wielobarwnymi łuskami i małymi demonicznymi rogami. 
+
+[/STORY]
+[OUT][6763] Obserwuj.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8607] Wkrótce zdajesz sobie sprawę, że jest to rytuał godowy, ale wiesz również, że coś poszło nie tak. Jasne, duszne światło pochłania węże, a ich ruchliwy taniec zwalnia, wyraźnie zatrzymując wszystko, co miało się wydarzyć. 
+
+Węże odpływają, a twój duch jest ranny od światła, które wciąż trwa.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8608] Gdy odeszli rybacy, demony węży kontynuują swój dziwny taniec wodny w pokoju. 
+
+Nie masz czasu ich obserwować, ale czujesz ich błogosławieństwo.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8609] Rybacy cię bili i zmuszają do ucieczki.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]28
+[STORY]
+[8610] Kiedy rozmawiałeś, rybacy schwytali węże i zostawili cię stojącego tam patrząc głupio. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[8611] Nie udaje ci się złapać węży i czujesz, że ich demoniczna moc uderza w ciebie, zmuszając cię do ucieczki.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]33
+[STORY]
+[8612] Hailki-gailki kontynuują rytuał godowy, a nad twoimi głowami tworzy się huragan, a mimo to jesteś chroniony. 
+
+Światło, które nazwałeś swoją drogą, pochłania cię jednak i grozi spaleniem twojej duszy. Możesz wyssać z niego trochę energii, ale może cię to także zranić.
+[/STORY]
+[OUT][8613] Zostaw, zanim światło cię skrzywdzi.
+[OUT][8614] Zostań i spróbuj wyssać trochę energii.
+[/NODE]
+
++[NODE]38
+[STORY]
+[8615] Otwierasz się tutaj na nienaturalną koncentrację światła i siła porusza się w twoim kierunku z ogromną mocą. 
+Wężowe demony gotują się żywcem, gdy woda bąbelkuje gorącem, a ty czujesz, że twój duch został zaatakowany.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Black cat crossing(20)
++[NODE]2
+[STORY]
+[8616] Czarny kot przecina Waszą ścieżkę.
+[/STORY]
+[OUT][8617] Siedmiokrotnie plujcie przez lewe ramię, zanim zaczniecie podążać dalej. To powinno powstrzymać pecha. 
+[OUT][8618] Stójcie nieruchomo, dopóki inna żywa istota nie przekroczy ścieżki. To jedyny pewny sposób na uniknięcie pecha.
+[OUT][8619] Po prostu idźcie dalej. To tylko kot.
+[OUT][8619] Po prostu idźcie dalej. To tylko kot.
+[OUT][8620] [Magiczny użytkownik] Czarne koty są często chowańcami czarownic. Idźcie za kotem, aby zobaczyć, gdzie mieszka.
+[OUT][8621] To może być demon w formie kota. Umieść małą porcję żywności na drodze. Jeśli kot przyjdzie do Was, wówczas się Wam poszczęści. Jeśli pójdzie dalej, przyniesie nieszczęście.
+[OUT][8621] To może być demon w formie kota. Umieść małą porcję żywności na drodze. Jeśli kot przyjdzie do Was, wówczas się Wam poszczęści. Jeśli pójdzie dalej, przyniesie nieszczęście.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8622] Kot ignoruje Was i umyka. 
+
+O ile wiecie, powinniście być teraz bezpieczni, a może nawet przyniesie to nieco szczęścia.
+[/STORY]
+[OUT][8575] Świetnie, odejdźcie.
+[OUT][8575] Świetnie, odejdźcie.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8623] Kot kręci się po czym biegnie w stronę małego, dziwneg domu. Trudno powiedzieć, czy mieszka tam wiedźma.
+[/STORY]
+[OUT][8624] Przygotujcie broń.
+[OUT][8624] Przygotujcie broń.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8625] Stoisz przez chwilę na pustej drodze, dopóki ścieżką przebiegnie niczego nie podejrzewająca wiewiórka. 
+
+O ile wiecie, powinniście być teraz bezpieczni, a może nawet przyniesie to nieco szczęścia.
+[/STORY]
+[OUT][8575] Świetnie, odejdźcie.
+[OUT][8575] Świetnie, odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8626] Dom wygląda na opuszczony. Pokryty pajęczynami i kurzem, wydaje się, że można by tu poszperać w poszukiwaniu łupów. 
+
+Kot usiadł przy kościach zmarłego człowieka. Patrzy na Was, jakby błagalnym wzrokiem.
+[/STORY]
+[OUT][8627] Spalcie kości zgodnie ze zwyczajami czarownic.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8628] Kot patrzy, jak wykonujecie rytuał a w powietrzu daje się wyczuć dziwną energię. 
+
+Ten czyn karmi Wasze dusze tym co unosi się w pobliżu. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8629] Znajdujecie dom dotknięty plagą szczurów!
+[/STORY]
+[OUT][1770] Zaatakujcie je!
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]15
+[STORY]
+[8630] Między pokonanymi szczurami widzicie bardzo szczęśliwego kota uciekającego z kawałkiem mięsa. 
+
+Dom jest zgrzybiały i stary, nie nadaje się do grabieży.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8631] Kot podszedł do Was, więc spodziewacie się, że wkrótce przyniesie ci szczęście!
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8632] Kot odszedł, więc może nadejść pech!
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Black Cat Luck(21)
++[NODE]2
+[STORY]
+[8633] W nocy Wasze domostwo jest odwiedzane przez czarnego kota.  Jakoś czujecie, że spotkaliście go wcześniej. 
+
+Mruczy i łazi po w Waszym domu, unikając bezpośredniego kontaktu, ale obserwując Was nieustannie.
+[/STORY]
+[OUT][8634] Kot wydaje się kręcić wśród dzieci. Lepiej sprawdź czy wszystko z nimi w porządku.
+[OUT][8635] Obserwujcie kota, aby upewnić się, że nie robi nic złego.
+[OUT][8635] Obserwujcie kota, aby upewnić się, że nie robi nic złego.
+[OUT][8635] Obserwujcie kota, aby upewnić się, że nie robi nic złego.
+[OUT][8635] Obserwujcie kota, aby upewnić się, że nie robi nic złego.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8636] Kot łasi się do jednego z Waszych dzieci i zdajecie sobie sprawę, że nigdy nie był zwykłym kotem, ale demonem dolą, który próbuje znaleźć kogoś, komu może przekazać część swojego pomyślnego losu. 
+
+Dziecko z pewnością będzie miało szczęście, a całe gospodarstwo odczuje pozytywne efekty.
+[/STORY]
+[OUT][8637] Dajcie kotu trochę jedzenia w podziękowaniu.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8638] Kot wyraźnie wskazuje Wam jakieś miejsce, w którym odkrywacie ukrytą skrytkę ze skarbami. Potem odchodzi.
+[/STORY]
+[OUT][8637] Dajcie kotu trochę jedzenia w podziękowaniu.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8639] Kot siada przy chorym, a rano czuje się on o wiele lepiej.
+[/STORY]
+[OUT][8637] Dajcie kotu trochę jedzenia w podziękowaniu.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8640] Kot ucieka, ale zdajecie sobie sprawę, że włóczęga wprowadziła do Waszego domu różnego rodzaju paskudne choroby!
+[/STORY]
+[OUT][8641] Cholerny kocur.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8642] Za późno zdajecie sobie sprawę, że kot był wysłannikiem wiedźmy, a ta stara flądra użyła go, by wyssać część Waszego ducha potrzebnego do jej mrocznych sztuk! 
+
+[/STORY]
+[OUT][8641] Cholerny kocur.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Potoplenyk(22)
++[NODE]2
+[STORY]
+[8643] Księżyc w pełni wisi ciężko na spokojnych wodach. Ustawiłeś obóz na odpoczynek, robiąc wszystko tak jak zawsze - sprawdź obszar, ustaw zegarek, bądź czujny. 
+
+Niestety, jedno z waszych dzieci odchodzi, by rzucić kamieniami w wodę, i z nagłym pluskiem znikają pod powierzchnią krystalicznie czystego jeziora!
+[/STORY]
+[OUT][8644] Wbiegnij i spróbuj je wydostać!
+[/NODE]
+
++[NODE]3
+[STORY]
+[8645] Siedząc na pięknie wykonanej tratwie z muszelek i pereł, płazi wyglądający mężczyzna woła do księżyca: 
+
+'Tak wiele dałeś, tak dobrze mój los, oh, oh, dlaczego nie udzielisz mi tego jeszcze jednego, panie?'
+[/STORY]
+[OUT][8646] Grzecznie przeszkadzaj mu zapytać, czy widział twoje dziecko lub cokolwiek innego podejrzanego w ciągu ostatnich kilku minut.
+[OUT][8647] Krzycz na stworzenie i zapytaj, gdzie jest twoje dziecko.
+[OUT][8648] Atakuj go. Dziecko zniknęło, a ten diabeł może wiedzieć, co się stało, więc dobre bicie przyspieszy!
+[/NODE]
+
++[NODE]4
+[STORY]
+[8649] „Błagam cię o wybaczenie, podróżniku, po prostu wyrażałem swoje nieszczęścia na Księżycu, ponieważ dawał mi to wielki dobrodziejstwo, ale teraz trzyma mnie przeklętego.'
+
+[/STORY]
+[OUT][8650] Jeśli mówi o Horzu, nocnym władcy, powiedz, że jesteś także jednym z jego.
+[OUT][8651] Dziecko? 
+[OUT][8648] Atakuj go. Dziecko zniknęło, a ten diabeł może wiedzieć, co się stało, więc dobre bicie przyspieszy!
+[/NODE]
+
++[NODE]5
+[STORY]
+[8652] „Horz, stary Horos, tak. Mistrz księżyca przyszedł do mnie raz. Zrobiłem mu dobrodziejstwo iw zamian uwolnił mnie od mojego życia w vodniku i uczynił mnie potoplenikiem, mistrzem zamku wodnego!'
+[/STORY]
+[OUT][8653] Zapytaj, jak to jest, że bóg zmienił swoją istotę.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8654] „Och, zły, prawda? Chyba rozumiem. Gdybym mógł mieć moje dziecko, też bym się bronił. 
+
+Dziecko jest w moim zamku, głęboko w wodach, i nie dojdziesz do niego, jeśli umrę, na wypadek gdybyś myślał o mocnym akcie.'
+[/STORY]
+[OUT][8655] [Demon wody] Powiedz mu, żeby otarł uśmiech z twarzy i zaznacz, że nie jesteś obcy w wodzie!
+[OUT][8656] Zachowaj spokój. Zapytaj jeszcze raz, dlaczego zabrał twoje dziecko i poproś go, by mu to oddało.
+[OUT][8648] Atakuj go. Dziecko zniknęło, a ten diabeł może wiedzieć, co się stało, więc dobre bicie przyspieszy!
+[/NODE]
+
++[NODE]7
+[STORY]
+[8657] Wskakujesz w lodowate zimne wody i szukasz dziecka, ale nie znajdujesz nic, tylko ciemne, ciche głębie patrząc na ciebie. 
+
+A potem słyszysz dziwne skomlenie dalej w dół brzegu.
+[/STORY]
+[OUT][8658] Idź i zobacz, co to jest.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8659] „Ach, tak, kolejny wysiłek z twojej strony. Z pewnością zawiedzie, ale co mogę zrobić?'
+[/STORY]
+[OUT][8656] Zachowaj spokój. Zapytaj jeszcze raz, dlaczego zabrał twoje dziecko i poproś go, by mu to oddało.
+[OUT][8660] Zagrażaj stworzeniu i powiedz, że będziesz miał z powrotem swoje dziecko!
+[/NODE]
+
++[NODE]9
+[STORY]
+[8661] „Ach, mój zły ... Naprawdę cię tam nie widziałem, hmm, kuzynie. 
+
+Wszyscy macie swoją magię, swoje sposoby zdobywania dzieci. Próbowałem zrobić to samo, tylko moje utonęło i umarło i nigdy nie zamieniłem się w jednego ze mnie.'
+[/STORY]
+[OUT][8662] Powiedz, że nie jesteś tym rozbawiony i lepiej odda dziecko teraz!
+[OUT][8663] Powiedz mu, że nie potrzebujesz pomocy, aby odzyskać dziecko z podwodnego domu, więc teraz umrze. Atak!
+[/NODE]
+
++[NODE]10
+[STORY]
+[8664] „Zabrałem twoje dziecko, ponieważ nie mogę mieć własnego. Tym razem myślałem, że tym razem wody naprawdę sprawią, że będzie mój, ale to nie wygląda na prawdopodobne. 
+
+I pamiętajcie, jestem jedynym, który może przynieść go z mojego podwodnego legowiska.'
+[/STORY]
+[OUT][8655] [Demon wody] Powiedz mu, żeby otarł uśmiech z twarzy i zaznacz, że nie jesteś obcy w wodzie!
+[OUT][8648] Atakuj go. Dziecko zniknęło, a ten diabeł może wiedzieć, co się stało, więc dobre bicie przyspieszy!
+[OUT][8665] [Atrakcyjne] Ustanawiając swój najlepszy uśmiech, przekonaj go, że jeśli dziecko umrze, to nie może służyć nikomu, ale jeśli go uwolni, zrobisz co w twojej mocy, aby pomóc - i masz bogów po swojej stronie.
+[OUT][8666] Zapytaj, dlaczego to robi?
+[/NODE]
+
++[NODE]12
+[STORY]
+[8667] „Tak jak powiedziałem, zrobiłem Horzowi dobrodziejstwo i powiedział, że nie jestem już vodnikiem, że będę miał własny zamek, moją własną moc i nic wspólnego z moimi kuzynami, ich obowiązkami i hierarchiami i tak dalej.'
+[/STORY]
+[OUT][8668] W takim razie dziecko?
+[OUT][8669] Powiedz, że twoje dziecko będzie lepiej, albo pan Horz będzie miał na to swoją wagę!
+[OUT][8670] Zaatakuj teraz tego diabła. Powie ci, gdzie znaleźć swoje dziecko z mieczem w gardle!
+[/NODE]
+
++[NODE]13
+[STORY]
+[8671] „Cóż, jeśli musisz wiedzieć, władca księżyca zmienił mnie, tak jak on, więc jestem jedynym w swoim rodzaju! Albo przynajmniej nie znam innych, a zwykła reprodukcja demonów wodnych nie działa dla mnie!'
+[/STORY]
+[OUT][8672] Więc nie może zmienić dzieci w krewnych przez rytualne utonięcie? Nie może też zwabić samic i kazać im nosić swojego spawna?
+[OUT][8669] Powiedz, że twoje dziecko będzie lepiej, albo pan Horz będzie miał na to swoją wagę!
+[OUT][8673] Zapytaj, co on przez to rozumie.
+[OUT][8670] Zaatakuj teraz tego diabła. Powie ci, gdzie znaleźć swoje dziecko z mieczem w gardle!
+[/NODE]
+
++[NODE]14
+[STORY]
+[8674] Marszczy brwi: 
+'Cóż, nie dla pierwszego, wszyscy po prostu stają się wodniakami - puste, uroczyste rzeczy. 
+
+Ale do drugiej ... cóż, spójrz na mnie! Nie mam zamiaru zwabić tu kobiety, nieważne kopuluj ze mną.'
+[/STORY]
+[OUT][8669] Powiedz, że twoje dziecko będzie lepiej, albo pan Horz będzie miał na to swoją wagę!
+[OUT][8675] Zasugeruj, że jeśli bezpiecznie odda dziecko, możesz zwabić go tutaj.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8676] „Tak, wyczuwam boski dotyk na twoim sercu. Lepiej tam nie mieszać. 
+
+Odbierz dziecko, jeśli musisz.'
+
+Demon klika palcami, a paczka wodnego wroga wydobywa twoje dziecko zamknięte w ogromnej muszli. Jest żywy i zdrowy, śpiący i nieświadomy męki.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8677] „Zazwyczaj demony wodne topią lud, głównie dzieci, i wychodzą jak my - większość z nich. Ale moje nigdy tego nie robią.'
+[/STORY]
+[OUT][8669] Powiedz, że twoje dziecko będzie lepiej, albo pan Horz będzie miał na to swoją wagę!
+[OUT][8670] Zaatakuj teraz tego diabła. Powie ci, gdzie znaleźć swoje dziecko z mieczem w gardle!
+[/NODE]
+
++[NODE]19
+[STORY]
+[8678] „To umowa, kuzynie! Odeślij swoje dziecko i inne, które nadal żyją. 
+
+Ale zwab mnie kobietą, proszę!'
+
+Demon jest tak podekscytowany, że nie zwraca na ciebie uwagi, zamiast tego klaska w dłonie, szczotkuje włosy z wąsów i uśmiecha się głupio do wody.
+[/STORY]
+[OUT][8679] Zrób tak, jak obiecałeś i użyj demonicznych pałek, by zwabić tu kobietę.
+[OUT][8680] Zabij go - obrzydliwe stworzenie nie będzie miało drogi!
+[OUT][8681] Opuść i zignoruj swoją ofertę. To stworzenie nie zasługuje na twoją pomoc.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8682] Twoja umiejętność przyciągania ludu działa dobrze i wkrótce niewiedząca kobieta trafia do jeziora, gdzie czeka na niego demon. 
+
+Podrywa ją i oboje znikają pod wodą. Teraz rozumiesz, dlaczego ma problemy z reprodukcją, ponieważ jego koledzy prawdopodobnie toną.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8683] „Nie, nie, nie sądzę, że masz rację. Myślę, że to mój zamek, moje miejsce, moje zasady. Ale to mnie zawiodło wiele, wiele razy. 
+
+Więc zawrzyjmy umowę. Wyczułem trochę sierot niedaleko stąd, ale za daleko, by znaleźć się w takim miejscu jak ja. Przynieś mi te dzieci, a ja uwolnię twoje - łatwe, nie?'
+
+[/STORY]
+[OUT][8684] Niechętnie się zgadzam. Przynajmniej daje ci czas na opracowanie planu.
+[OUT][8685] Zgadzam się z całego serca.
+[OUT][8686] Zaatakuj tego stwora. Po pobiciu na miazgę będzie mówić!
+[/NODE]
+
++[NODE]23
+[STORY]
+[8687] „Tutaj zaznaczyłem miejsce na tej mapie. Do zobaczenia po powrocie. I nie martw się - na razie twoje dziecko śpi w muszli. Nigdy nie dotarłem do części utonięcia. Twoja obecność rozpraszała.'
+[/STORY]
+[OUT][8688] Zostaw, aby znaleźć dzieci.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8689] Stworzenie, które pomimo jego protestów wydaje się być kolejnym demonem vodników, który leży u twoich stóp. 
+
+„Przestań, przestań, proszę!'
+[/STORY]
+[OUT][8690] Żądaj teraz dziecka.
+[/NODE]
+
++[NODE]27
+[STORY]
+[8691] „Okej, dobrze, popłynę po to, żeby to zdobyć.'
+[/STORY]
+[OUT][8692] Śmiej się z jego słów i przyciśnij miecz do gardła. Żądaj, aby oddał dziecko teraz albo umarł.
+[OUT][8693] Powiedz, że jest w porządku, ale oczywiście będziesz mu towarzyszył.
+[/NODE]
+
++[NODE]28
+[STORY]
+[8694] „W porządku, w porządku, tutaj ...'
+
+Demon klika palcami, a paczka utopca wydobywa twoje dziecko zamknięte w ogromnej muszli. Jest żywy i zdrowy, śpiący i nieświadomy męki.
+[/STORY]
+[OUT][8695] Teraz zabij cholernego diabła, a następnie przeszukaj jego podwodny pałac!
+[OUT][8696] Pozwól demonowi odejść. Nie będziesz brudził rąk więcej niż potrzebujesz.
+[OUT][8697] Teraz zabij tego przeklętego diabła.
+[/NODE]
+
++[NODE]29
+[STORY]
+[8698] Zabijasz demona i nurkujesz pod wodą, by przeszukać zamek. 
+
+Zdajesz sobie sprawę, że struktura powoli tonie w dnie morskim - prawdopodobnie część magii demona. 
+
+Ale udaje ci się wymordować niektóre towary, zanim to nastąpi.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]30
+[STORY]
+[8699] Demon umiera, a wody mieszają się przez pewien czas, zamieniając się w mroczne. 
+
+Silny smród uderza w nozdrza i sprawia, że jesteś chory. Ale woda wypluwa także trochę szczątków. Być może coś tam znajdziesz.
+[/STORY]
+[OUT][8700] Przeszukaj wrak i wyjdź.
+[/NODE]
+
++[NODE]33
+[STORY]
+[8701] Stworzenie, które pomimo jego protestów wydaje się być kolejnym demonem vodników, kłamie pobity u twoich stóp. 
+
+Niestety, podejrzewasz, że twoje dziecko jest trzymane głęboko pod wodą i masz niewielkie szanse na dotarcie do niego na czas.
+[/STORY]
+[OUT][8702] Spróbuj zanurkować dla dziecka.
+[OUT][8702] Spróbuj zanurkować dla dziecka.
+[/NODE]
+
++[NODE]34
+[STORY]
+[8703] Nurkujesz głęboko i odkrywasz pozostałości podwodnego zamku. Niestety, wraz ze śmiercią demona mieszkanie zaczęło tonąć w dnie morskim. 
+
+Dostrzegasz dziecko i ogromną skrzynię ze skarbami, ale masz tylko czas na złapanie jednego ...
+[/STORY]
+[OUT][8704] Chwyć dziecko.
+[OUT][8705] Chwyć skarb. 
+[/NODE]
+
++[NODE]35
+[STORY]
+[8706] Nurkujesz głęboko i odkrywasz pozostałości podwodnego zamku. Niestety, wraz ze śmiercią demona mieszkanie zaczęło tonąć w dnie morskim. 
+
+Po drodze łapiesz mały łup, ale nigdzie nie widać dziecka.
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]38
+[STORY]
+[8707] Zabijasz demona i nurkujesz, by odzyskać swoje dziecko. Pozbawiona swego pana podwodna siedziba stwora toną szybko, ale jesteś szybszy i udaje ci się zdobyć trochę dodatkowych łupów. 
+[/STORY]
+[OUT][8708] Dobrze, teraz odejdź.
+[/NODE]
+
++[NODE]39
+[STORY]
+[8709] Demon jest zaciekły i pokonuje cię, ale cię nie zabija. Zamiast tego po prostu wskakuje do wody i znika bez śladu. 
+
+Niestety, nie zwraca twojego dziecka.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]49
+[STORY]
+[8710] Zabijasz vodnika, gdy jest rozproszony. Gdy umiera, wody zamieniają się w mroczne i szare, a straszny smród uderza w nozdrza i sprawia, że jesteś chory.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Potoplenyk2(23)
++[NODE]2
+[STORY]
+[8711] Tak jak powiedział demon wody, natrafiasz na splądrowaną karawanę z pustymi wozami i obnażonymi ciałami. Wśród gruzu siedzi samotne dziecko, a obok niego leżą dwaj martwi. 
+
+
+[/STORY]
+[OUT][8712] Zabierz dziecko ze sobą i wróć do vodnika, aby z nim walczyć!
+[OUT][8713] Weź dziecko i daj je vodnikowi, zgodnie z obietnicą.
+[OUT][8714] Weź dziecko i odejdź, nie oddaj go vodnikowi, który cię tu przysłał.  Nie ma sensu ryzykować konfrontacji z vodnikiem.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8715] Vodnik leży pobity u twoich stóp. 
+
+Niestety, podejrzewasz, że twoje dziecko jest trzymane głęboko pod wodą i masz niewielkie szanse na dotarcie do niego na czas.
+[/STORY]
+[OUT][8702] Spróbuj zanurkować dla dziecka.
+[OUT][8702] Spróbuj zanurkować dla dziecka.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8703] Nurkujesz głęboko i odkrywasz pozostałości podwodnego zamku. Niestety, wraz ze śmiercią demona mieszkanie zaczęło tonąć w dnie morskim. 
+
+Dostrzegasz dziecko i ogromną skrzynię ze skarbami, ale masz tylko czas na złapanie jednego ...
+[/STORY]
+[OUT][8704] Chwyć dziecko.
+[OUT][8705] Chwyć skarb. 
+[/NODE]
+
++[NODE]6
+[STORY]
+[8706] Nurkujesz głęboko i odkrywasz pozostałości podwodnego zamku. Niestety, wraz ze śmiercią demona mieszkanie zaczęło tonąć w dnie morskim. 
+
+Po drodze łapiesz mały łup, ale nigdzie nie widać dziecka.
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8717] Demon jest ostry i cię pokonuje. 
+
+Ale on cię nie zabije. Zamiast tego po prostu wskakuje do wody i znika bez śladu. 
+
+Niestety, nie zwraca twojego dziecka, a także porywa tego, którego uratowałeś wcześniej.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]12
+[STORY]
+[8718] „Ach, dobrze, dobrze. Oto twój młody, bezpieczny i zdrowy, a nawet z błogosławieństwem ode mnie. Bądź zdrowy, przyjaciele.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rabsik(24)
++[NODE]2
+[STORY]
+[8719] Wchodzicie do małej wioski i widzicie zebranych w jednym miejscu ludzi. Chyba są w trakcie wieszania kogoś, pewnie jakiegoś rabusia. 
+
+Słychać okrzyki „bandyta”, „łajdak” i „bękart”.
+[/STORY]
+[OUT][8720] Przyjrzyjcie się bliżej i zapytajcie kogoś, co się dzieje.
+[OUT][8721] Zostawcie ich, to nie Wasza sprawa.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8722] „Ach, to Rabsik, znany łotr. Przyłapaliśmy go na kradzieży monet. Nie jesteśmy bogatym ludem, a to złoto miało karmić nas przez miesiące. Więc teraz będzie wisiał sukinsyn!'
+[/STORY]
+[OUT][8723] Zapytajcie, czy są pewni, że mają właściwego mężczyznę. Czy został złapany na gorącym uczynku?
+[OUT][8724] Zaatakujcie tę rolniczą chołotę. Chętnie weźmiecie ich złoto!
+[OUT][8725] Cofnijcie się i pozwólcie, by sprawiedliwość zdała swój egzamin.
+[OUT][8726] [Harmonia] Błagajcie o życie tego człowieka. Powiedzcie, że są inne sposoby, by go ukarać, ale bogini Łada uczy nas miłosierdzia.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8727] „Tak, na gorącym uczynku, grzebał w naszym słoiku z ciasteczkami! A ta blizna, którą ma na policzku, to Rabsik, więc go znamy. W rzeczywistości orkowie hojnie zapłacą za jego głowę, więc my też dostaniemy trochę za niego!'
+
+Inny mężczyzna kopie chłopa w goleń, a inni kręcą głową w jego stronę. Uspokają się i tłum wraca pod szubienicę.
+[/STORY]
+[OUT][8728] Hojnie? W takim przypadku powiedzcie im, aby pozwolili zabrać tego mężczyznę, albo zabijecie ich wszystkich! [Zastraszenie]
+[OUT][8724] Zaatakujcie tę rolniczą chołotę. Chętnie weźmiecie ich złoto!
+[OUT][8725] Cofnijcie się i pozwólcie, by sprawiedliwość zdała swój egzamin.
+[OUT][8726] [Harmonia] Błagajcie o życie tego człowieka. Powiedzcie, że są inne sposoby, by go ukarać, ale bogini Łada uczy nas miłosierdzia.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8729] Rolnicy mamroczą ze złości, ale odchodzą, chowając się w chatach. 
+
+Zabieracie więźnia z szubienicy. 
+
+'Więc myślisz o sprzedaży mnie teraz orkom?'
+[/STORY]
+[OUT][8730] Potwierdź, że to jest Wasz zamiar.
+[OUT][8731] Powiedzcie, że możecie przemyśleć plan, jeśli ma coś do zaoferowania.
+[OUT][8732] Zaprzeczcie. Powiedzcie mu, że chcieliście tylko wymówki, żeby go uwolnić. Nikt nie powinien umierać za złoto.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8733] „Mogę Was zabrać do mojego magazynu, to wszystko co tam jest będzie Wasze. Jest trochę złota, trochę klejnotów - nie fortuna, ale to wszystko, co mam.'
+[/STORY]
+[OUT][292] Zgoda.
+[OUT][8734] Odmówcie i zabierzcie go do orków jako nagrodę.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8735] „Jakże to dziwne. Nie wiem, co z tym zrobić. Chciałem Wam zaoferować mój łup, a potem mój kumpel miał Was pożreć. Teraz to nie bardzo ma sens. 
+
+Przyniosę Wam moje rzeczy, na poważnie, żadnych sztuczek.'
+[/STORY]
+[OUT][8736] Chciał Was oszukać? Po prostu zabijcie tę łasicę.
+[OUT][8737] Potwerdźcie z satysfakcją, bo może Wasz dobry uczynek zmieni jego ciemne serce ... może. 
+[/NODE]
+
++[NODE]9
+[STORY]
+[8738] zabijasz mężczyznę, a umierający szept w starej mowie pozostaje na jego ustach: 
+
+„debie, debie, kto cie zrebie, 
+ten do smierci panem bedzie.” 
+
+(odnosi się do niektórych starych dąb, ten, kto go wycina, będzie bogaty aż do śmierci.) 
+
+słyszysz szmer drzew, cichy krzyk, gdy umiera bandyta. 
+
+być może uda ci się znaleźć dąb, o którym mówił, i znaleźć jego skrytkę.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8739] Spotykasz orczą drużynę szukającą bandytę. Płacą Wam nagrodę i zabierają swego więźnia.
+[/STORY]
+[OUT][8740] Dobrze. Czas iść dalej.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8741] Zgadzacie się by Was tam zaprowadził, ale gdy tylko wchodzi do lasu, znika z Waszych oczu. 
+
+Wciąż jednak słyszycie jego głos, za którym mozecie podążać, więc wciąż jest szansa znaleźć łup.
+[/STORY]
+[OUT][8742] Zaznaczcie miejsce skarbu na mapie.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8743] Ludowa sprawiedliwość puszczana jest w obieg i bandyta zostaje powieszony. Jego ciało pozostanie ostrzeżeniem dla wszystkich, którzy tędy przechodzą. Umierający zdążył wyszeptać w starej mowie zanim jego usta wyrzkywiły w agonii: 
+
+'Dębie, dębie, kto cię zrębie, 
+Ten do śmierci panem bedzie.'
+
+Nie wiadomo co ma oznaczać ten 'wierszyk' jednak wyraźnie wspomniał o jakimś bogactwie 
+
+Zrobiło się cichuteńko. Słyszycie, jak drzewa szeleszczą jakby chciały krzyczeć, gdy bandyta umiera. Być może uda Wam się znaleźć ten dąb, o którym mówił, a może nawet skarb.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8744] Niechętnie, tłum zgadza się na Wasze prośby. Słyszycie szepty: „Lepiej nie denerwujmy bogini, wygląda na to, że może mieć tu między nami swoich.'
+
+Rabsik, bandyta, wygląda na zaskoczonego, gdy go zdejmujecie z szafotu.
+[/STORY]
+[OUT][8745] Sprawdźcie, czy wszystko jest w porządku i powiedzcie mu, że lepiej będzie wybrać inną ścieżkę w przyszłości.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8746] Rolnicy skopali Wam dupska i uciekacie ratując żywot. 
+
+Zgniłe pomidory i koński nawóz latają za Wami.
+[/STORY]
+[OUT][8747] Biegnijcie dalej.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8748] Rolnicy nie żyją, a ich złoto jest Wasze. Możecie teraz również nieco zarobić na tym bandycie. 
+
+Uwolnijcie swojego więźnia z pętli kata. 
+
+'Więc myślicie o sprzedaży mnie teraz orkom?'
+[/STORY]
+[OUT][8730] Potwierdź, że to jest Wasz zamiar.
+[OUT][8731] Powiedzcie, że możecie przemyśleć plan, jeśli ma coś do zaoferowania.
+[OUT][8732] Zaprzeczcie. Powiedzcie mu, że chcieliście tylko wymówki, żeby go uwolnić. Nikt nie powinien umierać za złoto.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8749] „Uważajcie na swoje własne zadki! Teraz zostawcie nas.'
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8750] „Hmm, niedoczekanie. Cóż, jeśli myśleliście, że będę wdzięczny i dam Wam coś w zamian... cóż przepraszam, ale nie. Ale dziękuję, a może się czegoś jeszcze nauczę, co? PA.'
+
+Ucieka, ale czujecie, że i tak był to dobry uczynek.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rabsik 2(25)
++[NODE]2
+[STORY]
+[8751] Dochodzisz do starego dębu. Rabsik wskazuje na to. 
+
+„Oto jest. Moja skrzynia skarbów jest ukryta w korzeniach. Czy powinienem to wyciągnąć, czy ...?'
+[/STORY]
+[OUT][8752] Jesteś ludem leśnym, a to nie jest drzewo - to lenistwo wyraźnie obserwujące każdy twój ruch! Zadzwoń do nich.
+[OUT][8753] Powiedz, że Rabsik może zdjąć klatkę piersiową, ale ostrzegaj go przed nagłymi ruchami.
+[OUT][8754] Powiedz, że wyjmiesz skrzynię, ale powiedz mu, że lepiej nie być sztuczką.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8755] Leśność się uśmiecha, jego funkcje są teraz jasne, 
+
+'Ahhh, youuu broughttt sooome foorest kinn to mee. Tak, czyż nie, jak się okazało, tak?'
+
+Zabójstwo daje ci małą skrzynię z łupami. Bandyta wygląda na zdenerwowanego, ale nic nie mówi.
+[/STORY]
+[OUT][8756] Weź łup i wyjdź.
+[OUT][8757] Zapytaj, dlaczego choroba działa ze wspólnym przestępcą.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8758] Sięga do korzeni, a drzewo połyka go w całości. 
+
+Zanim zdążysz zareagować, zdasz sobie sprawę, że korzenie wystrzeliwują z ziemi pod tobą, próbując zaplątać stopy, a wiesz, że to drzewo jest atakiem, który cię atakuje!
+[/STORY]
+[OUT][7351] Obroń się.
+[OUT][1668] Spróbuj uciec!
+[/NODE]
+
++[NODE]7
+[STORY]
+[8759] Zabijasz lesbijek i bandytę i zabierasz łup. 
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8760] Udaje ci się uwolnić i uciekać, a słyszysz śmiech bandyty niesiony na wietrze.
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8761] Choroba przechwytuje cię i trzyma cię w swoich korzeniach przez co wydaje się godzinami. 
+
+Potem wypluwa cię i czujesz, że twój duch się wyczerpał.
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8762] Choroba nie odpowiada, ale Rabsik mówi. 
+
+„Wspólne cele, wzajemna współpraca - takie rzeczy. Mojemu przyjacielowi brakuje tu cóż, lokajów, więc robię dla niego różne rzeczy, aby pomóc lasowi, a on pomaga mi w ... handlu.'
+[/STORY]
+[OUT][8763] Powiedz lesbijce, że haniebne jest wspieranie rabunku w ten sposób, że domena natury powinna pozostać neutralna.
+[OUT][8764] Kiwnij głową i powiedz, że życzysz im szczęścia, ale lepiej nie okradać cię.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8765] Szelest liści lesbijek i podmuch wiatru prawie przewraca cię, wzdychając. 
+
+„Neutralne jest dziwne. Nie lubię gooldów. Nie obchodzi mnie nic złego, którzy ich schwytają. 
+
+Buut mówisz głosem natury. Będę się smucić.'
+
+Choroba spada i wiesz, że nie obudzi się już od wielu dziesięcioleci. 
+Bandyta krzyczy ze złości, ale ucieka.
+[/STORY]
+[OUT][8766] Dobrze. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]16
+[STORY]
+[8767] Sięga do korzeni, a drzewo połyka go w całości. 
+
+Ale zauważyłeś, że nie był najmniej zaskoczony, i zdajesz sobie sprawę, że drzewo jest niedolą, która prawdopodobnie teraz cię zaatakuje!
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8768] Sięgasz do korzeni, by wziąć skrzynię, ale dostrzegasz w samą porę, że to nie jest drzewo, ale lesbijek! 
+
+Demon lasu łapie cię, ale masz czas, by złapać bandytę i trzymać go przy sobie. 
+
+Bandyta wyciąga ramiona: 
+'Dobra, dobra, nie róbmy niczego pochopnego. Mój przyjaciel jest po prostu ochroną, nie zamierzał cię skrzywdzić.'
+[/STORY]
+[OUT][8769] Powiedz lesbijce, by pozwolił ci odejść i poddać skrzynię, albo zabijesz bandytę.
+[OUT][8770] Niech bandyta pójdzie w geście dobrej woli i powie, że to nie jest sposób na wzajemne traktowanie.
+[OUT][8771] Spróbuj się wyrwać z pomyłki, trzymając nadal swojego przyjaciela jako zakładnika.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]24
+[STORY]
+[8772] „Tak, zgadzam się. Pozwól Rabsikowi odejść i podciągnij pierś.'
+
+Drzewo produkuje drewnianą skrzynię i kładzie ją obok ciebie, a następnie zwalnia cię.
+[/STORY]
+[OUT][8773] Niech Rabsik odejdzie, jak uzgodniono.
+[OUT][8774] Odsuń się od lesbijek, następnie zabij Rabsika i uciekaj.
+[/NODE]
+
++[NODE]25
+[STORY]
+[8775] Sięgasz do korzeni drzewa, aby złapać ukrytą skrzynię, ale zamiast tego czujesz, jak drzewo chwyta twoje ramiona! 
+
+To pomyłka i atakuje!
+[/STORY]
+[OUT][7351] Obroń się.
+[OUT][1668] Spróbuj uciec!
+[/NODE]
+
++[NODE]26
+[STORY]
+[8776] Wykręcasz się z uchwytu lesbijek. Wygląda na złego, ale na szczęście dla ciebie, nie może się poruszyć. 
+
+Rabsik, bandyta, woła: 
+
+'Chodź, jesteś wolny, pozwól mi odejść!'
+[/STORY]
+[OUT][8777] Zabij niewdzięcznego darniaka.
+[OUT][8778] Kup teraz swój skarb.
+[OUT][8779] Puść go.
+[/NODE]
+
++[NODE]32
+[STORY]
+[8780] „Dobrze, dobrze, weź to, pierś dla mnie - uczciwa wymiana. Zrobimy to wszystko razem.'
+[/STORY]
+[OUT][8781] Zgadzam się, weź skrzynię i uwolnij bandytę.
+[OUT][8777] Zabij niewdzięcznego darniaka.
+[/NODE]
+
++[NODE]33
+[STORY]
+[8782] Bandyta wygląda na zaskoczonego, gdy ucieka i wspina się na przyjaciela. 
+
+'Tak, jesteś dziwny. Więc nie ma żadnych twardych uczuć. PA.'
+
+Znika wewnątrz lesbijek i demon pozostaje nieruchomy, obserwując cię.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]34
+[STORY]
+[8783] Choroba zaciska jego uścisk i osusza twojego ducha, ale na szczęście dla ciebie, odrzuca cię i pozwala ci uciec.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[8784] Zabójstwo zaciska na tobie. 
+
+„Nie! Yoou leet gom free, lub umrzesz!'
+[/STORY]
+[OUT][8785] Zamiast tego zaatakuj lesbijek!
+[OUT][8786] Zgódź się na jego warunki i pozwól bandytom odejść.
+[/NODE]
+
++[NODE]38
+[STORY]
+[8787] Pozwoliłeś Rabsikowi odejść, a lesbijek również cię uwalnia. Bandyta nie jest z tego zadowolony, ale demon upiera się, że umowa to umowa. 
+
+Rabsik zwraca się do ciebie: 
+'Nie ma żadnych twardych uczuć, po prostu się rozstańmy.'
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Rabsik 3(26)
++[NODE]2
+[STORY]
+[8788] Przychodzisz do starego dębu i myślisz, że właśnie tam Rabsik ukrył swój skarb.
+[/STORY]
+[OUT][8789] Jesteś ludem leśnym, a to nie jest drzewo - to lesbijek obserwujący każdy twój ruch! Zadzwoń do nich.
+[OUT][8790] Dokładnie zbadaj witrynę.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8791] Lęk się uśmiecha, jego funkcje są teraz jasne. 
+
+„Ahhh, youuu broughttt sooome foorest kinn to mee. Tak, czyż nie, jak się okazało, tak?'
+
+Zabójca wytwarza dla ciebie małą skrzynię łupów. 
+
+[/STORY]
+[OUT][8756] Weź łup i wyjdź.
+[OUT][8757] Zapytaj, dlaczego choroba działa ze wspólnym przestępcą.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8792] Gdy spacerujesz, szukając ukrytego łupu, czujesz ruch ziemi. 
+
+Zanim zdążysz zareagować, zdajesz sobie sprawę, że korzenie wystrzeliwują z ziemi pod tobą, próbując zaplątać stopy, a wiesz, że to drzewo jest atakiem, który cię atakuje!
+[/STORY]
+[OUT][7351] Obroń się.
+[OUT][1668] Spróbuj uciec!
+[/NODE]
+
++[NODE]7
+[STORY]
+[8793] Zabijasz lenistwo i zabierasz łup. 
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8794] Udaje ci się uwolnić i uciekać, i słyszysz śmiech lesbijek na wietrze.
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8761] Choroba przechwytuje cię i trzyma cię w swoich korzeniach przez co wydaje się godzinami. 
+
+Potem wypluwa cię i czujesz, że twój duch się wyczerpał.
+[/STORY]
+[OUT][7463] Czas wyjść.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8795] Lęk marszczy brwi i wzdycha: 
+
+- Potrzebuję go, on potrzebuje mnie. To jest dobre.'
+
+
+[/STORY]
+[OUT][8763] Powiedz lesbijce, że haniebne jest wspieranie rabunku w ten sposób, że domena natury powinna pozostać neutralna.
+[OUT][8796] Kiwnij głową i powiedz, że to nie twoja sprawa. Weź swoje złoto i wyjdź.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8797] Liście lesbijek szeleszczą, a podmuch wiatru prawie cię przewraca, gdy wzdycha: 
+
+'Neutralny jest dziwaczny. Nie lubię gooldów. Nie obchodzi mnie nic złego, którzy ich schwytają. Buut mówisz głosem natury. Będę się smucić.'
+
+On drzemie i wiesz, że nie obudzi się przez wiele dziesięcioleci. 
+
+[/STORY]
+[OUT][8766] Dobrze. Teraz czas na wyjazd.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8798] Kiedy zbliżasz się, drzewo otwiera oczy, patrzy na ciebie i pyta: 
+
+'Gdzie jest Rabsik?'
+
+[/STORY]
+[OUT][8799] Powiedz mu, że bandyta nie żyje, ale postępowałeś zgodnie z jego instrukcjami, żeby się tu dostać.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8800] „Instruuctioons, youu saay ... wątpić. Laast trick, miał na myśli. Głupiec. Shaame. Loonely timees coome again ...'
+
+[/STORY]
+[OUT][8801] Zapytaj, co on ma na myśli.
+[OUT][8802] Zapytaj o skarb.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8803] „Cuut mee down, oni mówią, a bogactwa są twoje aż do twojej śmierci.'
+[/STORY]
+[OUT][10] Atak!
+[OUT][8804] Przekonaj go, że taka przemoc nie jest potrzebna, ponieważ na pewno nie ma potrzeby rzeczy.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8805] „Zgadzam się. Haave it, haave to aalll.'
+
+Wypluwa ci skrzynię, a potem milczy.
+[/STORY]
+[OUT][8806] Weź łup i zostaw go.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8807] Lupa pozostaje cicha, a jego rysy stają się coraz bardziej treelike. 
+[/STORY]
+[OUT][10] Atak!
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Sadok (27)
++[NODE]2
+[STORY]
+[8808] Natkniesz się na małą wioskę ludzi. Gdy się zbliżasz, widzisz lud przygnębiony i zmęczony, chowający się za zamkniętymi drzwiami. 
+
+Zatrzymuje cię kilku uzbrojonych strażników: 
+'Kto tam idzie?'
+[/STORY]
+[OUT][8809] Powiedz im, że podróżujesz i nie masz nic przeciwko. 
+[OUT][8810] Oceń ich poziom zagrożenia. 
+[OUT][8811] To nie jest twoja sprawa, więc odejdź.
+[/NODE]
+
++[NODE]3
+[STORY]
+[8812] „Najlepiej więc idźcie dalej. Nasze domy są przeklęte i nie chcemy szerzyć naszych kłopotów na innych. 
+
+Chyba że - czy dobrze znasz takie rzeczy? Nasz mądry przeszedł trzy księżyce temu i nie mamy nikogo, kto by nas prowadził.'
+[/STORY]
+[OUT][8813] Powiedz im, że tak, jesteś dobrze zorientowany w sprawach mistycznych. Zapytaj dokładnie, co ich spotka.
+[OUT][8814] Powiedz, że jesteś na drodze bogów, więc nawet jeśli nie jesteś mądry, możesz pomóc. 
+[OUT][8815] Zapytaj, czy problem ma charakter fizyczny, ponieważ jesteś dobry w pracy z ostrzami.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8816] Sądząc po wielkości wioski i jakości broni strażników, musiałbyś zmierzyć się z pięcioma do ośmiu dobrych ludzi, zanim reszta zrezygnowałaby. 
+
+Zastanawiasz się, jak przetrwali tutaj sami. 
+[/STORY]
+[OUT][10] Atak!
+[OUT][8809] Powiedz im, że podróżujesz i nie masz nic przeciwko. 
+[/NODE]
+
++[NODE]6
+[STORY]
+[8817] „Dziękuję bogom! 
+
+Co trzecia noc, gdy słońce śpi, wśród nas pojawia się nieżyjące ciało. 
+
+Czasami chodzi tylko i płacze. 
+
+Zniszczył nasz chram i myślimy, że zabił również naszego mądrego.'
+[/STORY]
+[OUT][8818] Zapytaj, czy coś się wydarzyło, zanim się pojawiło.
+[OUT][8815] Zapytaj, czy problem ma charakter fizyczny, ponieważ jesteś dobry w pracy z ostrzami.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8819] „Trudno powiedzieć. Mieliśmy zły rok. 
+
+Poludnica spaliła naszych rolników, więc nasze uprawy były nieliczne. 
+
+Potem przyszedł mory i przyniósł nam chorobę. Wielu zmarło podczas ostatniego księżyca, a wielu zostało pochowanych. Potem nastąpiło nieżywe życie.'
+[/STORY]
+[OUT][8820] Powiedz człowiekowi, że widzisz, że historia ma coś więcej, więc lepiej powiedz resztę.
+[OUT][8821] Powiedz, że zostaniesz w wiosce przez trzy noce i będziesz obserwować tego diabła.
+[OUT][8822] Jeśli nie żyje, można go zakończyć dobrym ostrzem. Zapytaj, czy próbowali.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8823] „Tak, niektórzy z nas próbowali. Ale był szybki i silny, a wielu z naszych najlepszych umarło, gdy przyszła mora.'
+[/STORY]
+[OUT][8824] Powiedz im, że zostaniesz na trzy noce i zabijesz tego diabła.
+[OUT][8821] Powiedz, że zostaniesz w wiosce przez trzy noce i będziesz obserwować tego diabła.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8825] Mężczyzna przytakuje w milczeniu i usiadłeś. 
+
+Trzeciej nocy, tak jak powiedział, dostrzegasz martwe zwłoki gubiące się ślepo między domami. 
+
+Jego ciało migocze od fizycznej do duchowej formy i nie widzisz głowy na ramionach.
+[/STORY]
+[OUT][8826] Przygotowałeś rytuały wzywające umarłych. Użyj ich teraz, aby spróbować określić, co ta zjawa chce.
+[OUT][8827] [Magia] Nie jest jasne, czym jest to stworzenie, ale twoje połączenie z bogami może go przepędzić. Przygotuj rytuał modlitwy.
+[OUT][8828] Czymkolwiek jest to stworzenie, zaatakuj je teraz, zanim zaszkodzi więcej ludziom.
+[OUT][8829] Właściwie wygląda to zbyt niebezpiecznie. Zostawcie tych ludzi.
+[OUT][8830] [Elf] Przyjrzyj się bliżej temu duchowi, ponieważ czujesz do niego pewne powinowactwo.
+[OUT][8831] [Duchy] Spróbuj przemówić do swojego ducha, ponieważ wydaje się, że cierpi.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8832] „No… 
+
+Morał, poludnica wcześniej. Winiliśmy Agnę - cóż, dziewczynę ze wsi. 
+
+Więc, cóż ... my nie daliśmy jej lekarstwa, kiedy przyszła mora. Nadszedł czas, żeby odeszła. Pogrzebaliśmy ją jak głowę, między nogami, żeby pozostała martwa. 
+
+Tylko ona nie ...'
+[/STORY]
+[OUT][8833] Powiedz mu, że „głowa między nogami” działa tylko podczas krwawego księżyca na strigach, które urodziły się z dwoma rzędami zębów. To nie działa, jeśli nie była jedną. Zapytaj więcej o dziewczynie.
+[OUT][8834] Powiedz mu, że to było okrutne, a jeśli dziewczyna nie była strzygą, może teraz być mściwym duchem, a nie nieżyjącym. Powiedz, że zostaniesz i będziesz obserwować.
+[OUT][8835] Powiedz, że rozumiesz, dlaczego to zrobili, ale oczywiście to nie zadziałało. Zajmiesz się tym stworzeniem, jeśli możesz.
+[/NODE]
+
++[NODE]11
+[STORY]
+[8836] „Ona… To znaczy, nigdy nie wiedzieliśmy, czy ona jest nim, czy ona, jedna z nich. Ale ona była nasza, stara Yanna urodziła ją, chociaż ojciec nigdy nie był znany. 
+
+Ale kiedy całe zło spadło na nas, cóż, wiadomo, że upior, striga, żyją wśród nas i przynoszą pecha nawet w życiu ... więc każdy, kto pokazuje znaki ...'
+[/STORY]
+[OUT][8834] Powiedz mu, że to było okrutne, a jeśli dziewczyna nie była strzygą, może teraz być mściwym duchem, a nie nieżyjącym. Powiedz, że zostaniesz i będziesz obserwować.
+[OUT][8835] Powiedz, że rozumiesz, dlaczego to zrobili, ale oczywiście to nie zadziałało. Zajmiesz się tym stworzeniem, jeśli możesz.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8837] Rytuał wiąże istotę z twoim uściskiem. Nie może mówić, ale widzisz, że jest zagubiony, w bólu i gniewie. 
+
+Czujesz, że szuka miejsc bogów, rzucając się w swoją stronę, jak i ich mistrz, ale to z rozpaczy, nie zła.
+[/STORY]
+[OUT][8838] Wiesz, że po prostu wygnanie tej duszy może nie działać. Musisz udać się do jego grobu.
+[OUT][8839] Użyj swojego chwytu, aby zniszczyć stwora. Może nie pozostanie martwy na zawsze, ale na razie zadziała. 
+[/NODE]
+
++[NODE]16
+[STORY]
+[8840] Wieśniacy prowadzą cię do grobu. 
+
+Niechętnie kopią ciało. 
+
+Widzisz ciało spoczywające z głową odciętą i umieszczoną między nogami, a ręce związane czerwoną liną.
+[/STORY]
+[OUT][8841] Połóż to ciało, aby odpocząć z szacunkiem. Umieść głowę tam, gdzie powinna być, skierowaną na zachód i rozwiń ręce. Napisz imię dziewczyny na pergaminie i pochowaj ją razem z nią, aby duch mógł się tu znaleźć.
+[OUT][8842] Nie jest jasne, dlaczego pochówek striga nie zadziałał. Najlepiej wbić żelazny gwóźdź w głowę i rozprowadzić sól i mak w ziemi, a następnie odwrócić ciało na brzuchu. W ten sposób nie powinien się już wznosić, cokolwiek to jest.
+[/NODE]
+
++[NODE]17
+[STORY]
+[8843] Stworzenie rozpuszcza się, krzycząc i rzucając się na niewidzialny ładunek. 
+
+Osada powinna na razie pozostać bezpieczna. 
+
+Ludzie dziękują i dają ci to, co mogą w nagrodę.
+[/STORY]
+[OUT][316] Życzcie im dobrze i odejdźcie.
+[/NODE]
+
++[NODE]18
+[STORY]
+[8844] Stworzenie staje się bardziej solidne i pojawia się osoba o niejasnej płci. Na początku wygląda na zagubiony, a potem, widząc wieśniaków, skręca się ze złości i bólu.
+[/STORY]
+[OUT][8845] [Elf] Porozmawiaj z nim w języku elfów, aby złagodzić jego gniew.
+[OUT][8846] Ten duch jest wyraźnie elfem. Niestety, niewiele wiecie o elfich obrzędach pogrzebowych. Zaoferujcie trochę swojej własnej siły duchowej. To może pomóc uwolnić go z tego stanu.
+[OUT][8847] Niewiele wiesz o elfich obrzędach, więc połóż ciało na odpoczynek z szacunkiem i nadzieją, która pomoże.
+[/NODE]
+
++[NODE]19
+[STORY]
+[8848] Duch zdaje się uspokajać, a gdy kontynuujesz rytuały pogrzebowe, dusza staje się coraz mniej cielesna, aż w końcu rozpuści się w powietrzu. 
+
+Nie masz pewności, czy to naprawdę za darmo, ale na razie wydaje się, że jest spokojnie. 
+
+Wieśniacy też są wdzięczni za pomoc.
+[/STORY]
+[OUT][8849] Weź swoją płatność i wyjdź.
+[/NODE]
+
++[NODE]20
+[STORY]
+[8850] Teraz widzisz, że to młodzież z elfów. Oto dlaczego lud uważał je za dziwne i dlaczego pochówek striga uwięziłby tu tylko wiecznego ducha. Mówisz duchowi, że uwolnisz go teraz i patrzy na ciebie z nadzieją.
+[/STORY]
+[OUT][8851] Otwórz swoją własną duszę i poprowadź tego zagubionego ducha do elfiego światła.
+[OUT][8851] Otwórz swoją własną duszę i poprowadź tego zagubionego ducha do elfiego światła.
+[/NODE]
+
++[NODE]21
+[STORY]
+[8852] Porzucasz swojego własnego ducha, a istotnie elfia dusza wydaje się odżywiona. Jego gniew powoli ustępuje. Kłania się tobie i odchodzi. Czujesz błogosławieństwo, które cię spotka dzięki. 
+
+Również mieszkańcy wioski są wdzięczni za pomoc.
+[/STORY]
+[OUT][8849] Weź swoją płatność i wyjdź.
+[/NODE]
+
++[NODE]22
+[STORY]
+[8848] Duch zdaje się uspokajać, a gdy kontynuujesz rytuały pogrzebowe, dusza staje się coraz mniej cielesna, aż w końcu rozpuści się w powietrzu. 
+
+Nie masz pewności, czy to naprawdę za darmo, ale na razie wydaje się, że jest spokojnie. 
+
+Wieśniacy też są wdzięczni za pomoc.
+[/STORY]
+[OUT][8849] Weź swoją płatność i wyjdź.
+[/NODE]
+
++[NODE]23
+[STORY]
+[8853] Duch elfów splata się w ciepłych pasmach światła. Czujesz, że dusza uwolniona z tej cielesnej płaszczyzny, a jej prawdziwa esencja może teraz próbować dotrzeć do zachodnich brzegów w celu odrodzenia. 
+
+Niektóre kosmyki również cię dotykają i czujesz, że mądrość tego młodego ducha przechodzi do ciebie. 
+
+Wieśniacy też są wdzięczni za pomoc.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]24
+[STORY]
+[8854] Duch elfów splata się w ciepłych pasmach światła. Czujesz, jak dusza uwalnia się z cielesnych łańcuchów, a jednak zamiast kontynuować swoją podróż w kierunku odrodzenia, duch formuje się w byt światła i dołącza do ciebie! 
+
+Wieśniacy też są wdzięczni za pomoc.
+[/STORY]
+[OUT][1313] Odejdźcie razem.
+[/NODE]
+
++[NODE]26
+[STORY]
+[8855] „Bogowie, mówicie? Pochwała niech będzie Pani Szczęście. 
+
+Co trzecia noc, gdy słońce śpi, wśród nas pojawia się nieżyjące ciało. 
+
+Czasami chodzi tylko i płacze ... Zniszczył nasz chram i myślimy, że zabił również naszego mądrego.'
+[/STORY]
+[OUT][8818] Zapytaj, czy coś się wydarzyło, zanim się pojawiło.
+[OUT][8815] Zapytaj, czy problem ma charakter fizyczny, ponieważ jesteś dobry w pracy z ostrzami.
+[/NODE]
+
++[NODE]27
+[STORY]
+[8856] Modlitwa działa, a twoja domena wiąże istotę z twoim uściskiem. Nie może mówić, ale widzisz, że jest zagubiony, w bólu i gniewie. 
+
+Czujesz, że szuka miejsc bogów, rzucając się w swoją stronę, jak również ich mistrz, ale także czujesz, że to z rozpaczy, a nie zła.
+[/STORY]
+[OUT][8838] Wiesz, że po prostu wygnanie tej duszy może nie działać. Musisz udać się do jego grobu.
+[OUT][8839] Użyj swojego chwytu, aby zniszczyć stwora. Może nie pozostanie martwy na zawsze, ale na razie zadziała. 
+[/NODE]
+
++[NODE]28
+[STORY]
+[8857] Duch pozostaje nieuchwytny. Nie możesz tego powstrzymać i nie jesteś pewien, jaki to może być duch. 
+
+Wieśniacy wyglądają na zasmuconych, ale nie zaskoczonych, jakby zaakceptowali swój los.
+[/STORY]
+[OUT][8858] Atakuj ducha!
+[OUT][8859] Wyjaśnij, że próbowałeś najlepiej i odejdź.
+[/NODE]
+
++[NODE]31
+[STORY]
+[8860] Pokonujesz gniewnego ducha, a powietrze w wiosce staje się wyraźniejsze. 
+
+Myślisz, że opuszczona dusza może kiedyś wrócić, ale na razie zniknęła. 
+
+Wieśniacy są wdzięczni i oferują ci to, co mogą, jako zapłatę.
+[/STORY]
+[OUT][8861] Zaakceptuj ich prezenty i wyjdź.
+[/NODE]
+
++[NODE]34
+[STORY]
+[8862] Jesteś ciężko pobity i zmuszony do ucieczki. Gdy biegniesz, słyszysz krzyki wieśniaków, a gdy spojrzysz wstecz, osada jest pochłonięta ciemną mgłą.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]36
+[STORY]
+[8863] Pokonujesz wieśniaków, a wszyscy, którzy przeżyli, uciekają i ukrywają się. Łupisz wioskę, ale czujesz, że jest tu złowroga obecność, a jeśli zbyt długo zwlekasz, może to zaszkodzić.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]38
+[STORY]
+[8864] Jesteś ciężko pobity i zmuszony do ucieczki i opuszczenia niektórych rzeczy, aby uciec.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]39
+[STORY]
+[8865] „Cóż, przypuszczam, że tak może być, zobaczysz martwą dziewczynę przychodzącą i możesz spróbować zabić ją dla nas, to znaczy, uczynić ją ... bardziej martwą?'
+[/STORY]
+[OUT][1644] Zgadzacie się. 
+[/NODE]
+
++[NODE]40
+[STORY]
+[8866] Trzeciej nocy, tak jak powiedział, dostrzegasz martwe zwłoki, świdrujące na oślep między domami. 
+
+Jego ciało migocze od fizycznej do duchowej formy i nie widzisz głowy na ramionach.
+[/STORY]
+[OUT][10] Atak!
+[OUT][8829] Właściwie wygląda to zbyt niebezpiecznie. Zostawcie tych ludzi.
+[/NODE]
+
++[NODE]42
+[STORY]
+[8844] Stworzenie staje się bardziej solidne i pojawia się osoba o niejasnej płci. Na początku wygląda na zagubiony, a potem, widząc wieśniaków, skręca się ze złości i bólu.
+[/STORY]
+[OUT][8845] [Elf] Porozmawiaj z nim w języku elfów, aby złagodzić jego gniew.
+[/NODE]
+
++[NODE]46
+[STORY]
+[8867] Duch płacze z bólu i udręki. Wydaje się być związany łańcuchami do miejsca pochówku, rzucając się, ale niezdolny do ruchu. 
+
+Mieszkańcy wioski prawdopodobnie nie będą mieli tu zbyt wiele spokoju, ale powinni być bezpieczni i dziękują za to. 
+
+[/STORY]
+[OUT][8849] Weź swoją płatność i wyjdź.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --Hidden stash house_(28)
++[NODE]2
+[STORY]
+[204] Znajdujecie mały opuszczony dom. Całość to zapadająca się ruina. 
+
+Widać jakby ktoś próbował uprzątnąć gruz z pewnych miejsc tak, jakby czegoś szukał. Chyba jednak bez powodzenia.
+[/STORY]
+[OUT][205] Przekopcie gruz.
+[OUT][205] Przekopcie gruz.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]5
+[STORY]
+[206] Udaje się przesunąć nieco gruzu pod którym widać wejście do starej piwnicy. Wygląda na to, że w środku coś jest. 
+
+Spora część skarbów została zabrana ale niektóre rzeczy mogą się przydać.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]7
+[STORY]
+[207] Przy przesuwaniu gruzu odkrywacie kilka martwych ciał. Sądząc po uzbrojeniu i ubiorze byli to bandyci.
+
+Większość sprzętu jest niekompletna ale niektóre z nich można jeszcze uratować.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]8
+[STORY]
+[208] Udaje sie Wam przesunąć nieco gruzu i odnaleźć starą piwnicę. Macie już pewność, że jest to domek myśliwski, ponieważ piwnica jest pełna trofeów i skór.
+
+Większość sprzętu jest bezużyteczna, ale część może się przydać.
+[/STORY]
+[OUT][59] Zbieracie co możecie i odchodzicie.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8868] Zanieczyszczenia są zbyt ciężkie i jest prawdopodobne, że cokolwiek ukryje się pod nimi, i tak zostało zmiażdżone. 
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][210] Nie poddajcie się. Wytężcie siły, by oczyścić teren!
+[/NODE]
+
++[NODE]16
+[STORY]
+[211] Jesteście potwornie przemęczeni, spoceni i brudni, a na dodatek burczy Wam w brzuchach. W końcu oczyszczacie teren z całego gruzu 
+
+Jedne co udało się wykopać to kilka martwych ciał.
+[/STORY]
+[OUT][212] Wyprawcie im pochówek i zabierzcie ich rzeczy.
+[/NODE]
+
++[NODE]17
+[STORY]
+[213] Jesteście potwornie przemęczeni, spoceni i brudni, a na dodatek burczy Wam w brzuchach. W końcu oczyszczacie teren z całego gruzu. 
+
+Nie znajdujecie absolutnie niczego, jednie udało sie odzyskać nieco drewna.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --DemonEncounterBase3(29)
+[/EVENT]
+
+-- [EVENT] --__Bear snake and cat(30)
++[NODE]2
+[STORY]
+[8131] Gdy podróżujesz przez las, słyszysz krzyki mężczyzny: 
+
+'Pomóż, proszę, ktoś, pomóż mi!'
+
+Są słabi, ale pochodzą z jakiegoś miejsca.
+[/STORY]
+[OUT][8132] Zapytaj go, gdzie jest i szukaj mężczyzny.
+[OUT][8133] Zignoruj krzyki i odejdź.
+[/NODE]
+
++[NODE]4
+[STORY]
+[8134] „Upadłem do jaskini, proszę, mili ludzie, pomóżcie! Pochodzę z bogatego klanu. W nagrodę dam ci wiele towarów ...'
+
+Głos mężczyzny zanika. 
+
+Znajdziesz dziurę, w której mężczyzna musiał spaść i słyszysz go z dołu, ale jest zbyt ciemno i głęboko, aby cokolwiek zobaczyć, a nawet rzucenie pochodni nie pomaga.
+[/STORY]
+[OUT][8135] Wyciągnij liny i rzuć je człowiekowi.
+[OUT][8133] Zignoruj krzyki i odejdź.
+[OUT][8136] Zapytaj, dlaczego jest tutaj sam, jeśli pochodzi z bogatego klanu.
+[/NODE]
+
++[NODE]5
+[STORY]
+[8137] „Jestem zwiadowcą, myśliwym. Miałem przeszukać ten obszar w poszukiwaniu zasobów ... mój kolega zmarł jesienią ... Nadal słyszę jego płacz ... och, proszę, wyciągnij mnie ...'
+
+Ostatnie słowa są ledwo słyszalne.
+[/STORY]
+[OUT][8135] Wyciągnij liny i rzuć je człowiekowi.
+[OUT][8133] Zignoruj krzyki i odejdź.
+[/NODE]
+
++[NODE]6
+[STORY]
+[8138] Rzucasz linę w dół i czujesz ciężar mężczyzny. 
+
+[/STORY]
+[OUT][8139] Wyciągnij go.
+[OUT][8139] Wyciągnij go.
+[/NODE]
+
++[NODE]7
+[STORY]
+[8140] Ciągniesz, wyciągasz i wyciągasz ogromny wąż owinięty wokół liny! 
+
+Syczy i wiruje, ale ześlizguje się w pustynię.
+[/STORY]
+[OUT][8141] Zawołaj mężczyznę.
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]8
+[STORY]
+[8143] Ciągniesz, wyciągasz i wyciągasz ogromny wąż owinięty wokół liny! 
+
+Syczy i wiruje i gryzie, zanim odsuniesz się!
+[/STORY]
+[OUT][8141] Zawołaj mężczyznę.
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]9
+[STORY]
+[8144] Głos mężczyzny jest napięty: 
+
+'Ja ... Nie widziałem liny, proszę ... proszę, ocal mnie ... '
+[/STORY]
+[OUT][8139] Wyciągnij go.
+[OUT][8139] Wyciągnij go.
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]10
+[STORY]
+[8145] Ciągniesz za linę i tym razem jest ciężki. Myślisz, że widzisz futrzany płaszcz mężczyzny, gdy go wyciągasz, ale to niedźwiedź i atakuje!
+[/STORY]
+[OUT][183] Walka!
+[OUT][11] Ucieczka!
+
+[/NODE]
+
++[NODE]12
+[STORY]
+[8146] Ciągniesz za linę i wydaje się to raczej lekkie. Czarny kot podskakuje i odskakuje od ciebie, sycząc!
+[/STORY]
+[OUT][8147] Wołaj do mężczyzny ze złością!
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]13
+[STORY]
+[8148] Niedźwiedź jest martwy, ale mężczyzna wciąż jest uwięziony w dziurze. Słyszysz jego skomlenie. 
+[/STORY]
+[OUT][8147] Wołaj do mężczyzny ze złością!
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]14
+[STORY]
+[8149] Niedźwiedź cię zmusza, a potem ucieka. 
+
+Ale mężczyzna wciąż jest uwięziony w dziurze. Słyszysz jego skomlenie. 
+[/STORY]
+[OUT][8147] Wołaj do mężczyzny ze złością!
+[OUT][8142] Cholera tego człowieka i opuść to miejsce.
+[/NODE]
+
++[NODE]15
+[STORY]
+[8150] „Nigdy nie dotarłem do twojej liny ... Nie wiem, czym były te zwierzęta ... pomóż mi, dam ci nagrody ponad miarę, przysięgam ...'
+[/STORY]
+[OUT][8151] Spróbuj wyciągnąć go ostatni raz, ostrożnie!
+[/NODE]
+
++[NODE]16
+[STORY]
+[8152] Tym razem jest to rzeczywiście starszy człowiek, brodaty, wyczerpany i obdarty. Jednak jego ubranie jest najwyższej jakości, a jego dłoń jest wyświęcona pierścionkami z kamieniami. 
+
+Obraca jeden z pierścieni i sięga ku księżycowi, po czym znika, nie mówiąc nawet dziękuję!
+[/STORY]
+[OUT][8153] Przysięgnij na niewdzięcznika i wyjdź.
+[/NODE]
+
+[/EVENT]
+

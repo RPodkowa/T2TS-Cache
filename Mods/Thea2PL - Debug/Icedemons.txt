@@ -1,0 +1,227 @@
+-- [EVENT] --IcedemonsTradesmall(0)
++[NODE]2
+[STORY]
+[4461] Stoiska handlowca są otwarte dla ciebie, ale handlujemy kamieniem, chyba że masz dzieci, my też je akceptujemy. 
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[OUT][4462] Handluj dziećmi.
+[OUT][4462] Handluj dziećmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+[4463] „Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.'
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[OUT][4462] Handluj dziećmi.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4386] „Dobry handel z tobą. Bogowie niech będą z tobą.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --IcedemonsTrademedium(1)
++[NODE]2
+[STORY]
+[4461] Stoiska handlowca są otwarte dla ciebie, ale handlujemy kamieniem, chyba że masz dzieci, my też je akceptujemy. 
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[OUT][4462] Handluj dziećmi.
+[OUT][4462] Handluj dziećmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+[4463] „Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.'
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[OUT][4462] Handluj dziećmi.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4465] „Odejdź teraz.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --IcedemonsTradeadv(2)
++[NODE]2
+[STORY]
+[4461] Stoiska handlowca są otwarte dla ciebie, ale handlujemy kamieniem, chyba że masz dzieci, my też je akceptujemy. 
+
+[/STORY]
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[OUT][4462] Handluj dziećmi.
+[OUT][4462] Handluj dziećmi.
+[/NODE]
+
++[NODE]7
+[STORY]
+[4463] „Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dodatkowo.'
+[/STORY]
+[OUT][149] Handel.
+[OUT][280] Wróć innym razem.
+[OUT][4462] Handluj dziećmi.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4465] „Odejdź teraz.'
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --IceVillage(3)
++[NODE]3
+[STORY]
+[4466] Znajdujesz miejsce ukryte przed prostym widokiem, aw tobie spotykają się gromadzące się demony lodu. 
+
+Trudno nazwać to ugodą, ale prawdopodobnie tak blisko, jak tylko się do niej dojdą. 
+
+[/STORY]
+[OUT][4467] Spróbuj z nimi porozmawiać.
+[OUT][10] Atak!
+[/NODE]
+
++[NODE]7
+[STORY]
+[4468] Znajdujesz miejsce ukryte przed prostym wzrokiem, aw tobie spotykają się gromadzące się demony lodu. 
+
+Trudno nazwać to ugodą, ale prawdopodobnie jest tak blisko, jak do jednej. Dostrzegają cię i atakują! 
+
+[/STORY]
+[OUT][2505] Brońcie się!
+[OUT][769] Ucieczka!
+[/NODE]
+
++[NODE]8
+[STORY]
+[4469] Lodowe miasto jest zniszczone. Jego mieszkańcy rozpadają się na sople lodu.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4470] Lodowe demony pokonują cię i biorą życie jako zapłata za twój atak.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]16
+[STORY]
+[4471] Nie masz odpowiedzi, tylko kilka lodowych spojrzeń. 
+
+Kiedy zostaniesz przyjaciółmi, będziesz mógł rekrutować, handlować i leczyć wszystkie przekleństwa tutaj. 
+
+[/STORY]
+[OUT][4472] Jako przyjaciele poproś o wymianę.
+[OUT][5] Odejdźcie.
+[OUT][10] Atak!
+[OUT][4473] Otwiera się dla ciebie jeden z lodowych pomników. Wchodzić.
+[OUT][4474] Jeden z lodowych demonów oferuje oczyszczenie twoich klątw. Idź do nich.
+[OUT][4475] Sopel podąża za tobą wszędzie i myślisz, że to znaczy zostać z tobą, jeśli na to pozwolisz. Opuść miasto, aby zobaczyć, czy to z tobą pochodzi.
+[/NODE]
+
++[NODE]21
+[STORY]
+[4476] Dziad mroz siedzi pośrodku, jego ciało jest częściowo zanurzone w lodowej podłodze: 
+
+'Udowodniłeś, że jesteś silny. Jestem zainteresowany, aby dowiedzieć się więcej. Jeden z moich wnuków, sniezynka, dołączy do ciebie, a jeden z twoich stanie się lodem. W ten sposób możemy się oboje wzajemnie uczyć. Po prostu nie daj mi swojego wybranego, bo bogowie nie byliby ze mnie zadowoleni. Zgoda?'
+
+
+[/STORY]
+[OUT][4477] Tak, zaakceptuj.
+[OUT][4478] Co za upadek godności.
+[/NODE]
+
++[NODE]24
+[STORY]
+[4479] Dziad mroz siedzi pośrodku, jego ciało jest częściowo zanurzone w lodowej podłodze: 
+
+'Udowodniłeś, że jesteś silny. Jestem zainteresowany, aby dowiedzieć się więcej. Jeden z moich wnuków, sniezynka, dołączy do ciebie, a jeden z twoich stanie się lodem. W ten sposób możemy się oboje wzajemnie uczyć. Zgoda?'
+
+[/STORY]
+[OUT][4477] Tak, zaakceptuj.
+[OUT][4478] Co za upadek godności.
+[/NODE]
+
+[/EVENT]
+
+-- [EVENT] --ArmyIceDemon_(4)
++[NODE]2
+[STORY]
+[4480] Lodowe demony prześladują cię!
+[/STORY]
+[OUT][629] Pozdrówcie swoich sojuszników. 
+[OUT][630] Bądźcie ostrożni, ale porozmawiajcie z nimi.
+[OUT][4481] Walcz z duchem, szanują go najbardziej.
+[OUT][183] Walka!
+[OUT][632] Usuńcie się.
+[/NODE]
+
++[NODE]3
+[STORY]
+[4189] „Przepraszam, przyjaciele. Nie poznaliśmy cię. Pozdrowienia i życzenia.'
+[/STORY]
+[OUT][634] Zapytajcie, czy chcą pohandlować.
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]11
+[STORY]
+[4191] Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
+[/STORY]
+[OUT][5] Odejdźcie.
+[OUT][4482] Walcz z duchem.
+[OUT][183] Walka!
+[/NODE]
+
++[NODE]17
+[STORY]
+[4483] Pokonujesz lodowe demony. 
+
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
++[NODE]19
+[STORY]
+[4484] Lodowe demony pokonują cię i ucztują twoją krwią i esencją życia, zanim uda ci się uciec.
+[/STORY]
+[OUT][176] Ucieczka.
+
+[/NODE]
+
++[NODE]25
+[STORY]
+[4485] Twój duch był silniejszy. Demony giną.
+[/STORY]
+[OUT][5] Odejdźcie.
+[/NODE]
+
+[/EVENT]
+
