@@ -226,8 +226,8 @@ Oni się wycofują.
 [STORY]
 „Ach, przestań gadać. Dobrze, weźmiemy twoje gówno i pójdziemy, wydaje się łatwiejsze niż zmoczyć nasze ostrza. Jednak najlepiej uważaj na oferowanie darmowych rzeczy. Jeśli słowo się rozprzestrzeni, dostaniesz tu trochę ruchu ...'
 [/STORY]
-[OUT]Oddaj rzeczy.
-[OUT]Do ataku!
+[OUT]Oddajcie rzeczy.
+[OUT]Atak!
 [/NODE]
 
 +[NODE]36
@@ -245,6 +245,31 @@ Tak jak podejrzewasz, bandyci przybywają w ciągu kilku dni, uzbrojeni i gotowi
 Bandyci źle cię bili i biorą to, co mogą nosić, kiedy wychodzą, łącznie z dzieckiem, jeśli je znajdą!
 [/STORY]
 [OUT]Zostań i pozwól im odejść.
+[/NODE]
+
++[NODE]40
+[STORY]
+Z wieży strażniczej dostrzegasz zbliżanie się bandytów, więc jesteś na nie przygotowany.
+
+
+[/STORY]
+[OUT]Atak!
+[OUT]Ścigaj ich!
+[/NODE]
+
++[NODE]42
+[STORY]
+Bandyci zbliżają się do twojej wioski, ale jeden z nich nagle wybucha:
+
+„Nie, po prostu szefie! Wiem, że jesteśmy bandytami, mamy bandytyzm, ale daj spokój, trzy razy! Trzykrotnie nas zaskoczyli! ”
+
+Inni przytakują i zaczynają uciekać. 
+
+
+
+[/STORY]
+[OUT]Atak!
+[OUT]Obserwuj ich.
 [/NODE]
 
 [/EVENT]
@@ -306,7 +331,7 @@ Bogowie odpowiadają i następuje burza. Jakiekolwiek istoty przebywające w nie
 [STORY]
 Wkrótce twarze i ciała tworzą się na wietrze, a paczka upiorów schodzi. 
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT][Wraith] Zmuszaj swoich krewnych do opuszczenia cię. Twój własny smutek wystarczy i muszą znaleźć swój własny.
 [OUT][Gobliński szaman] Upiory, którymi możesz się zająć. Podnieś rytuał, aby złapać te krnąbrne dusze i, miejmy nadzieję, uwolnić je.
 [OUT]Ukryj i spróbuj przeczekać tę dziwną burzę.
@@ -396,7 +421,7 @@ Przeżywasz dziwną burzę w pomieszczeniach, ale pustoszy ona całą wioskę, p
 [STORY]
 Twój rytuał działa, a dusze są niezwiązane z ich wieczną wędrówką. Niektórzy mogą nawet zostać z tobą.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -507,7 +532,7 @@ Po ulewnym deszczu odkrywasz, że gniazdo żmij wślizgnęło się do twojej piw
 
 Te białe węże wydają się bardzo agresywne i szybko się rozmnażają. 
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT][Łowca] Prawidłowo zbadaj ich gniazdo.
 [OUT][Druid lub mistrz bestii] Spróbuj zahipnotyzować węże, aby odciągnąć je od swoich domów.
 [OUT]Zostaw ich i miej nadzieję, że uciekną tak szybko, jak się pojawią.
@@ -860,7 +885,7 @@ Królicza stopa przy pasku, zapach ziół, opuszki palców splamione miksturami 
 
 [/STORY]
 [OUT]Rzuć jej wyzwanie w duchu.
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Pozwól jej wejść, ale bądź czujny na oszustwa.
 [OUT]Pozwól jej wejść, ale bądź czujny na oszustwa.
 [OUT]Odeprzyj wioskę i powiedz jej, żeby trzymała się z daleka.
@@ -974,7 +999,7 @@ Odkrywasz, że niektóre z twoich dzieci zostały porwane przez czarownicę szcz
 [STORY]
 Twoja wioska jest oblegana przez grupę wściekłych zbirów. Niosą pochodnie i wydają się zamierzać zniszczyć twoje domy.
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Spróbuj z nimi rozmawiać. Błagaj ich w imię bogów, aby przestali.
 [/NODE]
 
@@ -1033,7 +1058,7 @@ Droga natury i zamieszania pozwala najsilniejszym rozkwitnąć, a słabym zginą
 [STORY]
 Wreszcie łapiesz czarownicę, która ukradła twoje dziecko!
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Zastrasz ją, by oddała dziecko teraz!
 [OUT][Czarownica] Byłeś na to przygotowany. Spal trochę wikliny, rzuć trzy kurze stopy na jej twarz, spluj siedem razy na ramię, a następnie zmierzyć się z duchem!
 [/NODE]
@@ -1049,7 +1074,7 @@ Zabijasz wiedźmę i znajdujesz kilka dzieci w worku, niektóre niestety już ni
 [STORY]
 Wiedźma cię pokonuje i ucieka ze skradzionym dzieckiem, nigdy więcej nie widzianym.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]10
@@ -1077,7 +1102,7 @@ Czy to efekt twoich wysiłków, czy własnego bezpieczeństwa, wiedźma zamienia
 [STORY]
 Wreszcie łapiesz szczury, które porwały twoje dziecko.
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT][Czarownica] Spróbuj zdominować robactwo pod uściskiem twojej złej siostry!
 [/NODE]
 
@@ -1094,7 +1119,7 @@ Uważasz również, że szczury ciągnęły ze sobą kilka na wpół martwych ko
 [STORY]
 Robactwo pokonuje cię i ucieka ze skradzionym dzieckiem, nigdy więcej nie widzisz.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]10
@@ -1113,7 +1138,7 @@ W torbie, którą nosili, znajdziesz inne dziwne trofea.
 [STORY]
 Wreszcie łapiesz szczury, które porwały twoje dziecko. Ale zdajesz sobie sprawę, że to nie są małe robactwo. Są to grube szczury, które wydają się gniewne i zdecydowane zakończyć swoje zadanie.
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT][Hunter] Te grube szczury są twardsze niż zwykłe robactwo, ale wcześniej je polowałeś. Zastawić pułapkę.
 [/NODE]
 
@@ -1130,7 +1155,7 @@ Jeden z rannych grubych szczurów wydaje się być pod wrażeniem twojej pracy. 
 [STORY]
 Robactwo cię pokonuje, rozsiewa paskudną chorobę i ucieka ze skradzionym dzieckiem, nigdy więcej nie widzianym.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]10
@@ -1217,7 +1242,7 @@ Widzisz esencję demona - szkieletowego, zdeformowanego stwora - związanego z g
 
 Zabijasz biesy i najprawdopodobniej wypędzisz szkieletowego demona.
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT][Uzdrowiciel lub Inteligencja] Właściwie masz dobrych medyków, więc po prostu wylecz ludzi i demon przejdzie dalej.
 [OUT]Możesz nie mieć dobrych lekarzy, ale nadal czujesz się bezpieczniej, próbując wyleczyć chorych i mieć nadzieję, że demon odejdzie.
 [OUT]Porozmawiaj z mgłą i złóż ofiarę, aby to powstrzymać!
@@ -1282,7 +1307,7 @@ Widzisz esencję demona febry - szkieletowego, zdeformowanego stwora - związane
 
 Zabijasz biesy i najprawdopodobniej wypędzisz febrę.
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT][Uzdrowiciel lub Inteligencja] Obie opcje wydają się bardzo trudne, ale masz dobrych medyków, więc po prostu wylecz ludzi i demon przejdzie dalej.
 [OUT]Możesz nie mieć dobrych lekarzy, ale nadal czujesz się bezpieczniej, próbując wyleczyć chorych i mieć nadzieję, że demon odejdzie.
 [OUT]Porozmawiaj z mgłą i złóż ofiarę, aby to powstrzymać!
@@ -1589,7 +1614,7 @@ Ale zanim zdążysz je zabrać, zobaczysz starą kobietę z kotem wpatrującym s
 
 'Rozpocznij, bo inaczej przemienię cię w ropuchy!'
 [/STORY]
-[OUT]Obroń się!
+[OUT]Brońcie się!
 [OUT]Ucieczka!
 
 [/NODE]
@@ -1678,7 +1703,7 @@ Czujesz na sobie przekleństwo.
 
 Powiedzmy, że skoro jesteśmy kumplami, chcesz kupić ode mnie demona? Jako zapłatę wezmę żywność, drewno lub skórę.'
 [/STORY]
-[OUT]Zgadzam się na handel.
+[OUT]Zgadzacie się na handel.
 [OUT]Powiedz jej, że nie masz nic do handlu. Poproś ją, żeby poszła teraz.
 [OUT]Powiedz jej, że nie masz nic do handlu. Poproś ją, żeby poszła teraz.
 [/NODE]
@@ -1702,15 +1727,15 @@ Czarownica odchodzi, ale jej kot zostaje z tyłu i wydaje się, że chce zostać
 [STORY]
 „Nie ma mowy! Opiekunowie Finders to jest. Wyjdź, albo zamienię cię w ropuchy!'
 [/STORY]
-[OUT]Odchodzicie.
-[OUT]Do ataku!
+[OUT]Odejdźcie.
+[OUT]Atak!
 [/NODE]
 
 +[NODE]31
 [STORY]
 Czarownica mocno cię bije i zmusza do ucieczki! Po tym czujesz się bardzo źle.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]32
@@ -1719,7 +1744,7 @@ Czarownica mocno cię bije i zmusza do ucieczki! Po tym czujesz się bardzo źle
 
 Powiedzmy, że skoro jesteśmy kumplami, chcesz kupić ode mnie demona? Jako zapłatę wezmę żywność, drewno lub skórę.'
 [/STORY]
-[OUT]Zgadzam się na handel.
+[OUT]Zgadzacie się na handel.
 [OUT]Powiedz jej, że nie masz nic do handlu. Poproś ją, żeby poszła teraz.
 [OUT]Powiedz jej, że nie masz nic do handlu. Poproś ją, żeby poszła teraz.
 [/NODE]
@@ -1786,7 +1811,7 @@ Zanim się zorientujesz, staniesz się tak samo ospały i leniwy, jak reszta mie
 
 W końcu demony odchodzą, ale czujesz się osłabiony przez ich szaleństwa.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]16
@@ -1937,22 +1962,22 @@ Wyśledzisz łotrów, którzy uciekli z twoimi towarami!
 [STORY]
 Zabijasz szumowiny i odzyskujesz swoje towary wraz z innymi łupami, jakie mogli mieć.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]7
 [STORY]
 Jesteś ciężko pobity i zmuszony do ucieczki. Nie możesz liczyć na odzyskanie tego, co zostało utracone teraz.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]12
 [STORY]
 „Bah, przestań już krzyczeć o swoich cholernych bogach. Zostaw lub umrzyj!'
 [/STORY]
-[OUT]Odchodzicie.
-[OUT]Do ataku!
+[OUT]Odejdźcie.
+[OUT]Atak!
 [/NODE]
 
 +[NODE]13
@@ -1960,7 +1985,7 @@ Jesteś ciężko pobity i zmuszony do ucieczki. Nie możesz liczyć na odzyskani
 „Bah, przestań już krzyczeć o swoich cholernych bogach. Dobrze, odzyskaj towar. Po prostu idź.'
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]14
@@ -1980,7 +2005,7 @@ Oglądasz ich obóz, notujesz ich wzory i zauważasz, że wyglądają raczej gor
 „Bah, jesteś sprytny, prawda? Dobra, tak, potrzebujemy jedzenia i wolimy nie wpadać w złom, jeśli możemy tego uniknąć.'
 
 [/STORY]
-[OUT]Zgadzam się na handel.
+[OUT]Zgadzacie się na handel.
 [OUT]Zamiast tego atakuj!
 [/NODE]
 
@@ -1989,7 +2014,7 @@ Oglądasz ich obóz, notujesz ich wzory i zauważasz, że wyglądają raczej gor
 Bandyci robią tak, jak obiecali i oddają twoje dziecko. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]22
@@ -1997,7 +2022,7 @@ Bandyci robią tak, jak obiecali i oddają twoje dziecko.
 „Bah, jesteś sprytny, prawda? Dobra, tak, potrzebujemy jedzenia i wolimy nie wpadać w złom, jeśli możemy tego uniknąć.'
 
 [/STORY]
-[OUT]Zgadzam się na handel.
+[OUT]Zgadzacie się na handel.
 [OUT]Zamiast tego atakuj!
 [/NODE]
 
@@ -2026,7 +2051,7 @@ Niewielka grupa zmęczonych krasnoludów pojawia się na progu twojego domu, pro
 [OUT]Zaproś ich.
 [OUT]Odmówcie.
 [OUT]Odmówcie.
-[OUT]Do ataku!
+[OUT]Atak!
 [/NODE]
 
 +[NODE]3
@@ -2045,14 +2070,14 @@ Twoja jasność umysłu dobrze pasuje do domeny intelektu.
 Czujesz się wzmocniony. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]10
 [STORY]
 Zabijasz krasnoludy i rabujesz ich dobra. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]11
@@ -2061,7 +2086,7 @@ Krasnoludy pobiły cię, ale przynajmniej zostawiają cię przy życiu.
 
 Biorą jednak większość żywności.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]23
@@ -2154,7 +2179,7 @@ Będziesz na tyle uprzejmy, żeby nas zostawić. Zapłaciliśmy za naszą deskę
 [STORY]
 Krasnoludy biorą jedzenie, zostawiają ci kamień i wychodzą po krótkim odpoczynku.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]34
@@ -2182,14 +2207,14 @@ Oto nasze akcje.'
 [STORY]
 „To była strata rozmowy. Kamień i metal będą z tobą.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]40
 [STORY]
 Krasnoludy ledwo słuchają twoich słów. Biorą jedzenie, które z tobą handlują i odchodzą. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]42
@@ -2222,14 +2247,14 @@ Powiedz co, nie robimy tego często z nieznajomymi, ale możemy handlować niekt
 
 Krasnoludy odchodzą po drodze.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]51
 [STORY]
 Krasnoludy pobiły cię, ale przynajmniej zostawiają cię przy życiu.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]52
@@ -2242,7 +2267,7 @@ Niewielka grupa zmęczonych krasnoludów pojawia się na progu twojego domu, pro
 [OUT]Zaproś ich.
 [OUT]Odmówcie.
 [OUT]Odmówcie.
-[OUT]Do ataku!
+[OUT]Atak!
 [/NODE]
 
 +[NODE]53
@@ -2287,7 +2312,7 @@ Jednak nie martw się - nigdy nie okradniemy naszych krewnych!'
 [/STORY]
 [OUT]Kiwnij głową i zgódź się dać jedzenie. [Lose 20% żywności]
 [OUT]Powiedz, że nie możesz oszczędzić jedzenia, ale zaoferuj miejsce do odpoczynku.
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Zapytaj, czy mają dobry łup do handlu.
 [/NODE]
 
@@ -2348,7 +2373,7 @@ Powiedz, co, daj nam trochę jedzenia, a zostaniemy na chwilę, może nauczę ci
 [STORY]
 Zabijasz bandytów i odzyskujesz swoje dobra.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]71
@@ -2357,14 +2382,14 @@ Bandyci biją cię i śmieją się w twarz za twoją porażkę.
 
 Nie biorą jednak więcej niż wcześniej. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]74
 [STORY]
 Zabijasz bandytów w uderzeniu wyprzedzającym. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]75
@@ -2373,7 +2398,7 @@ Bandyci cię biją i śmieją się w twarz za twoją porażkę.
 
 Zabierają część twojego sprzętu.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -2386,7 +2411,7 @@ Te krasnoludzkie ruiny wyglądają na starsze i ciemniejsze niż zwykle. Jest tu
 Kamień pozostaje opuszczony i opuszczony, ale w oddali dostrzegasz światło ognia.
 [/STORY]
 [OUT]Idź ostrożnie.
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]4
@@ -2415,8 +2440,8 @@ Widzicie krasnoludy przytłoczone przez nieżyjące życie, a teraz możecie sta
 
 [/STORY]
 [OUT]Zabij życie.
-[OUT]Odchodzicie.
-[OUT][Unliving] Spróbuj przemówić do swoich krewnych.
+[OUT]Odejdźcie.
+[OUT][Nieumarły] Spróbuj przemówić do swoich krewnych.
 [/NODE]
 
 +[NODE]12
@@ -2433,7 +2458,7 @@ Krasnoludy zatrzymują się i patrzą na twojego medyka:
 [STORY]
 „Więc stałeś tam jak grupa lalek, pocierając kamienie! Bah. Cóż, możesz być teraz pomocny, pomagając nam zabezpieczyć te ruiny przed nieożywionym brudem. To jest nasze dziedzictwo i mieliśmy obowiązek go strzec. Damy ci trochę rzeczy, które brud wpadł w zapłatę.'
 [/STORY]
-[OUT]Zgódź się pomóc.
+[OUT]Zgódźcie się pomóc.
 [OUT]Powiedz im, że jeszcze mniej krasnoludów skomle o konieczności walki. Powiedz, że pomożesz im pracować za opłatą. 
 [/NODE]
 
@@ -2441,15 +2466,15 @@ Krasnoludy zatrzymują się i patrzą na twojego medyka:
 [STORY]
 „Dobrze, możesz również ocalić te ruiny, ostrożnie!'
 [/STORY]
-[OUT]Zgadzam się. 
+[OUT]Zgadzacie się. 
 [/NODE]
 
 +[NODE]21
 [STORY]
 „Odsuń się, łajdaku! Teraz!'
 [/STORY]
-[OUT]Odchodzicie.
-[OUT]Zaatakuj ich!
+[OUT]Odejdźcie.
+[OUT]Zaatakujcie je!
 [/NODE]
 
 +[NODE]24
@@ -2467,7 +2492,7 @@ Tutaj również, jak dzięki. Teraz wyłącz! Mamy obowiązek pilnowania, aby wr
 [STORY]
 Zwyciężyłeś, a grabież jest twoja!
 [/STORY]
-[OUT]Dobrze. Pozostawiać.
+[OUT]Dobrze. Odchodzicie.
 [/NODE]
 
 +[NODE]41
@@ -2484,7 +2509,7 @@ Jesteśmy ranni i mamy zadanie do wykonania. Jeśli pomożesz nam zabezpieczyć 
 [STORY]
 Twoje słowa spadają na głuche uszy i jesteś goniony z ruin. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]51
@@ -2507,14 +2532,14 @@ Mamy teraz tylko jeden tunel do zablokowania.
 Powiedz, co, jeśli pomożesz, damy ci trochę więcej.'
 [/STORY]
 [OUT]Zgadzam się, aby pomóc. 
-[OUT]Zgódź się pomóc.
+[OUT]Zgódźcie się pomóc.
 [/NODE]
 
 +[NODE]58
 [STORY]
 Jesteś pokonany i zmuszony do ucieczki!
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]61
@@ -2527,7 +2552,7 @@ Widzisz, krasnoludy wygrywają i biegają ze złością na swój sposób.
 
 [/STORY]
 [OUT]Atakuj krasnoludy.
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [OUT]Spróbuj z nimi porozmawiać.
 [OUT][Krasnolud] Gratuluj swoim braciom walczącej walki.
 [/NODE]
@@ -2539,8 +2564,8 @@ Możesz zdobyć kilka ratowalnych zasobów podczas walki.
 Widzicie krasnoludy przytłoczone przez nieżyjące życie, a teraz możecie stawić czoła reminingowi, który ucieka wam po drodze.
 [/STORY]
 [OUT]Zabij życie.
-[OUT]Odchodzicie.
-[OUT][Unliving] Spróbuj przemówić do swoich krewnych.
+[OUT]Odejdźcie.
+[OUT][Nieumarły] Spróbuj przemówić do swoich krewnych.
 [/NODE]
 
 +[NODE]63
@@ -2550,7 +2575,7 @@ Możesz zdobyć kilka ratowalnych zasobów podczas walki.
 Widzisz, krasnoludy są zwycięskie i biegają ze złością na swój sposób.
 [/STORY]
 [OUT]Atakuj krasnoludy.
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [OUT]Spróbuj z nimi porozmawiać.
 [OUT]Zaoferuj pomoc medyczną i powiedz, że ingerencja nie byłaby honorowa.
 [OUT][Krasnolud] Gratuluj swoim braciom walczącej walki.
@@ -2576,8 +2601,8 @@ Krasnolud pluje.
 
 'Masz to, co będziemy chcieli dać, więc odwal się.'
 [/STORY]
-[OUT]Odchodzicie.
-[OUT]Zaatakuj ich!
+[OUT]Odejdźcie.
+[OUT]Zaatakujcie je!
 [/NODE]
 
 +[NODE]80
@@ -2602,7 +2627,7 @@ Tutaj, miej to jako zapłatę za twoją dobroć. Metal i kamień będą z tobą.
 [STORY]
 Widzisz grupę demonów wiatru, viatroviec, i widzisz, że mają niedawno ukradzione dziecko z twojej wioski!
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Zastrasz ich, by oddali dziecko teraz!
 [OUT][Vily lub viatroviec] Zaangażuj swojego wiatrowego krewnego, aby pozwolił dziecku odejść!
 [/NODE]
@@ -2618,7 +2643,7 @@ Zabijasz viatroviec i ratujesz swoje dziecko i wszystko, co te demony wzięły o
 [STORY]
 Viatroviec pokonuje cię i ucieka ze skradzionym dzieckiem, nigdy więcej nie widzianym.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]10
@@ -2656,7 +2681,7 @@ Nagła gradowa burza cię złapie.
 [STORY]
 Wiatr gromadzi się wokół ciebie i chroni cię przed gradem. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]7
@@ -2673,14 +2698,14 @@ Stajesz w obliczu burzy gradowej i wytrzymujesz nienaruszoną moc.
 Czujesz się wzmocniony. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]10
 [STORY]
 Wiatr zabiera cię i powala cię w straszliwej burzy gradowej. Posiniaczeni i pobici, w końcu wracasz.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]13
@@ -2695,28 +2720,28 @@ Szybko znajdziesz osłonę i próbujesz zabezpieczyć dom, ale gradobicie niszcz
 [STORY]
 Wzmacniasz swoje schronienie i chronisz towary. Niektórzy z was nawet uczą się czegoś lub dwóch.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]23
 [STORY]
 Burza gradowa jest dzika i bezlitosna. Pozostawia cię posiniaczonym, a ty nie chronisz swoich towarów przed atakiem.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]25
 [STORY]
 Zasłaniasz się na czas i na szczęście burza gradowa nie jest wystarczająco silna, by cokolwiek zniszczyć.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]30
 [STORY]
 Burza gradowa zostawia cię posiniaczoną, ale chroniłeś wszystkie swoje kosztowności. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -2792,7 +2817,7 @@ Twoja wioska została pozostawiona bez opieki i wydaje się, że niektórzy padl
 Kto wie, co znajdziesz, kiedy wrócisz? 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]

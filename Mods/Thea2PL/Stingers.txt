@@ -21,7 +21,7 @@ The Stingers pokazują ci swój zapas do handlu.
 [STORY]
 „Dobry handel z tobą. Teraz się wyłącz.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -49,7 +49,7 @@ The Stingers pokazują ci swój zapas do handlu.
 [STORY]
 „Dobry handel z tobą. Teraz się wyłącz.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -79,7 +79,7 @@ Słyszysz niebezpieczny szum patrolu Stingera za tobą!
 [STORY]
 Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [OUT]Spróbuj poradzić sobie z tym.
 [OUT]Walka!
 [/NODE]
@@ -89,28 +89,30 @@ Oni nie odpowiadają, oni ciągle przychodzą do ciebie.
 Pokonujesz Stingerów. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Stingery pokonują cię i zarażają cię toksyną, zanim uda ci się uciec.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 +[NODE]25
 [STORY]
 Stingery oddalają się, a ty nawet zyskujesz od nich szacunek.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]30
 [STORY]
 Stingery nie słuchają, w rzeczywistości używają twojego rozkojarzonego stanu, żeby cię ugryźć i zarazić cię toksyną, zanim uda ci się uciec.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 [/EVENT]
@@ -125,7 +127,7 @@ Kilka pszczół zbliża się do ciebie i mówi:
 
 [/STORY]
 [OUT]Spróbuj z nimi porozmawiać.
-[OUT]Do ataku!
+[OUT]Atak!
 [/NODE]
 
 +[NODE]4
@@ -137,8 +139,8 @@ Możesz handlować lub leczyć toksyny, a niektóre pająki mogą chcieć do cie
 Kiedy jesteście przyjaciółmi, możecie rekrutować niektóre pszczoły, pająki lub trenować swoje bestie, aby stały się silniejsze, zdrowsze lub mądrzejsze.
 [/STORY]
 [OUT]Handel.
-[OUT]Odchodzicie.
-[OUT]Do ataku!
+[OUT]Odejdźcie.
+[OUT]Atak!
 [OUT][Bestia] Idź zobaczyć trening bestii.
 [OUT]Coś, co cię pociąga. Spójrz w dół.
 [OUT]Płać z jedzeniem, aby węże usunęły toksyny.
@@ -152,22 +154,22 @@ Znajdujesz tętniące życiem centrum aktywności zwierząt. Wygląda to trochę
 Ale nie jesteście przyjaciółmi kłuciarzy, więc atakują! 
 
 [/STORY]
-[OUT]Obroń się!
-[OUT]Biegnij!
+[OUT]Brońcie się!
+[OUT]Ucieczka!
 [/NODE]
 
 +[NODE]8
 [STORY]
 Legowisko żądłów jest zniszczone. Jego mieszkańcy nie żyją.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]11
 [STORY]
 Trujący ukąszenie żądeł okazuje się zbyt silny i musisz uciekać.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]16
@@ -181,7 +183,7 @@ Płać nam mięso, dużo! My też cię szkolimy, przyjacielu bestii.'
 
 [/STORY]
 [OUT]Trenuj zwierzęta 
-[OUT]Upadek polityczny.
+[OUT]Co za upadek godności.
 [/NODE]
 
 +[NODE]22
@@ -195,7 +197,7 @@ Płać nam mięso, dużo! My też cię szkolimy, przyjacielu bestii.'
 
 [/STORY]
 [OUT]Tak, zaakceptuj.
-[OUT]Upadek polityczny.
+[OUT]Co za upadek godności.
 [/NODE]
 
 +[NODE]26

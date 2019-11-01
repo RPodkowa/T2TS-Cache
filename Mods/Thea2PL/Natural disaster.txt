@@ -67,14 +67,14 @@ Wykopujesz drogę, a nawet odnajdziesz po drodze dobre minerały.
 [STORY]
 W końcu wykopujesz się, ale to męcząca próba. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Skórą twoich zębów udaje ci się zrobić bezpieczną ucieczkę.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]21
@@ -90,7 +90,7 @@ Lawina uderza mocno i szybko, grożąc połknięciem cię w całości.
 
 Udaje ci się uciec, ale nie bez utraty cięższego sprzętu.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]32
@@ -113,14 +113,14 @@ Znajdziesz półkę, na której przeczekasz lawinę. Niestety, droga powrotna zo
 [STORY]
 Dokładnie planujesz każdy krok i robisz go bezpiecznym. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]45
 [STORY]
 Starasz się starannie planować każdy krok i sprawić, by był bezpieczny. Ale niektóre z twoich kroków są źle wybrane, a część twojego sprzętu spada na górę.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]49
@@ -140,7 +140,7 @@ Próbujesz odlecieć przed uderzeniem lawiny, ale jesteś porywany przez podmuch
 Uciekasz, ale nie bez zadrapań i siniaków. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]51
@@ -170,28 +170,29 @@ Nagła burza zaskakuje cię. Pioruny przecięte przez niebo i podmuchy wiatru zm
 [STORY]
 Dostrzegasz jaskinię, która cię ochroni, ale najpierw musisz do niej dotrzeć!
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 +[NODE]5
 [STORY]
 Biegasz jak wiatr i czujesz, że bogowie patrzą na ciebie życzliwie.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]9
 [STORY]
 Biegasz jak wiatr i czujesz, że bogowie patrzą na ciebie życzliwie. Jaskinia zapewnia ci bezpieczeństwo, a kiedy wychodzisz, odkrywasz kamień i szczątki mniej szczęśliwej duszy.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]11
 [STORY]
 Udajesz się do jaskini, ale zimny wiatr i przemaczający deszcz przenikają do tej zbyt płytkiej pokrywy. W końcu czujesz się źle. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]17
@@ -206,7 +207,7 @@ Uderzenie pioruna w twoje stopy i zapach własnej spalonej skóry i włosów. A 
 Uderzenie pioruna w twoje stopy i wąchasz własną spaloną skórę i włosy. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
@@ -222,75 +223,75 @@ Gdy twoja domena prowadzi cię, wyostrz swoje umysły i szybko znajdź dobre sch
 -- [EVENT] --Flood(3)
 +[NODE]2
 [STORY]
-Gdy obozujesz nad wodą, błyskawiczna powódź rośnie niespodziewanie!
+Gdy obozujecie nad wodą, poziom wody błyskawicznie wzrasta powodując powódź.
 [/STORY]
-[OUT][Demon wody] Wyjedź z powodzi.
-[OUT][Demon wody] Wyjedź z powodzi.
-[OUT]Spróbuj znaleźć wyższy grunt. 
-[OUT]Spróbuj znaleźć wyższy grunt. 
-[OUT]Spróbuj znaleźć wyższy grunt. 
+[OUT][Demon wody] Opanuj powódź.
+[OUT][Demon wody] Opanuj powódź.
+[OUT]Spróbujcie znaleźć wyższy grunt. 
+[OUT]Spróbujcie znaleźć wyższy grunt. 
+[OUT]Spróbujcie znaleźć wyższy grunt. 
 [/NODE]
 
 +[NODE]3
 [STORY]
 Jeździsz na gwałtownych falach, jakbyś był do tego stworzony. 
 
-Następnie znajdziesz zasoby, które zostały wyrzucone na brzeg.
+Następnie znajdujesz zasoby, które zostały wyrzucone na brzeg.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]4
 [STORY]
-Jeździsz na gwałtownych falach, jakbyś był do tego stworzony, ale natura pani jest dziś wściekła i trudno ci się trzymać.
+Jeździsz na gwałtownych falach, jakbyś był do tego stworzony, ale pani natura jest dziś wściekła i trudno Ci się utrzymać.
 [/STORY]
-[OUT]Walcz z falami.
+[OUT]Walczcie z falami.
 [/NODE]
 
 +[NODE]8
 [STORY]
-Wody nie zostaną oswojone, a ty wiesz wystarczająco dobrze, aby nie próbować szczęścia dalej. 
+Wody nie zostaną okiełznane, a Wy wiecie dobrze, aby nie próbować szczęścia ponownie. 
 
-Znajdziesz schronienie, ale nie przed falami, które uderzą cię o surową głębię i twardy brzeg. 
+Znajdujecie schronienie, ale nie przed falami, które rzucają Wami o twardy brzeg jałowej ziemi. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]12
 [STORY]
-Znajdziesz stary, solidny dąb i wejdź na niego. 
+Znajdujecie  stary, solidny dąb i wdrapujecie się na niego. 
 
-Niektóre użyteczne zasoby również umywają się na brzegu.
+Woda wyrzuca na brzeg jakieś szczątki.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]13
 [STORY]
-Biegniesz w kierunku wzgórza, które cię ochroni, ale musisz upuścić kilka rzeczy, aby uciec przed powodzią. 
+Biegniecie w kierunku wzgórza, które Was ochroni, ale musicie upuścić kilka rzeczy, aby uciec przed powodzią. 
 
-Niektóre szczątki obmywają brzeg. 
+Woda wyrzuciła na brzeg jakieś szczątki. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]16
 [STORY]
-Jesteś wystarczająco blisko wzgórza, aby dotrzeć na czas, chociaż jesteś przemoczony i zmęczony i prawdopodobnie złapiesz zimno. 
+Jesteście wystarczająco blisko wzgórza, aby uciec przed wodą. Jesteście przemoczeni i zmęczeni a dodatkowo jest zimno więc prawdopodobnie dorwie Was przeziębienie. 
 
-Później niektóre szczątki zmywają się na brzegu. 
+Później widzicie jak jakieś szczątki zostały wyrzucone na brzeg. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]25
 [STORY]
-Pozostajesz silny, a wody ustępują ci, zapewniając ci bezpieczeństwo i ożywienie. 
+Pozostajecie silny, a wody ustępują zapewniając Wam bezpieczeństwo i ożywienie. 
 
-Następnie znajdziesz zasoby, które zostały wyrzucone na brzeg.
+Znajdujecie też zasoby, które zostały wyrzucone na brzeg.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -311,7 +312,7 @@ Nagła zamieć ogarnia cię w lodowych szponach!
 [STORY]
 Obejmujesz zamieć i wchłaniasz śnieg, który cię wzmacnia. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]5
@@ -327,14 +328,14 @@ Pomimo niespodziewanej siły zamieci, wytrwacie i chronicie swoje otoczenie.
 
 Odkrywasz ciało mniej szczęśliwej duszy, by ją splądrować.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]8
 [STORY]
 zamieć okazuje się zbyt silna. Dostajesz paskudnego odmrożenia i prawdopodobnie zachorujesz z zimna. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]12
@@ -355,21 +356,21 @@ Odkrywasz ciało mniej szczęśliwej duszy, by splądrować.
 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]22
 [STORY]
 zamieć jest posłuszna i odchodzi.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]24
 [STORY]
 zamieć okazuje się zbyt silna. Dostajesz paskudnych odmrożeń i prawdopodobnie zachorujesz z zimna, ale na szczęście masz wystarczająco dużo ziół, aby zmniejszyć rozprzestrzenianie się i siłę choroby. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -400,7 +401,7 @@ Wygląda na to, że miejsce, na które się natknąłeś, jest cmentarzem bestii
 [STORY]
 Wykopujesz się i odkrywasz więcej niż brud blokujący twoją ucieczkę.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]8
@@ -409,14 +410,14 @@ Tunel jest ciemny i wąski. Brud wnika jak woda, a ty kaszlesz i dławisz się.
 
 W końcu wyjdziesz na zewnątrz, ale próba jest wyczerpująca.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]13
 [STORY]
 Brud dostaje się wszędzie. Dławisz się i walczysz, ale wytrwasz i wyjdziesz z tego silniejszy.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]16
@@ -433,7 +434,7 @@ Odkrywasz również, że wiatr rozwiał niektóre resztki, które możesz zdoby�
 Brud dostaje się wszędzie. Dławisz się i walczysz, a kiedy w końcu wychodzisz w bezpieczne miejsce, zdajesz sobie sprawę, że straciłeś kilka toreb podczas burzy. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]22
@@ -483,7 +484,7 @@ Niebo ciemnieje, chmury gromadzą się, a kojący deszcz spada na szalejący ogi
 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]4
@@ -507,7 +508,7 @@ Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten 
 [STORY]
 Las jest zbawiony i czujesz, że jego wdzięczność spada na ciebie. Możesz teraz zebrać trochę drewna.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]13
@@ -516,14 +517,14 @@ Pomimo twoich najlepszych wysiłków, płomień ogarnia las, a ty jesteś zmuszo
 
 Część twojego sprzętu jest spalona w płomieniach.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Uciekasz, a las płonie za tobą.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]24
@@ -537,7 +538,7 @@ Uciekasz na czas. Las płonie, aw popiołach znajdują się szczątki mniej szcz
 [STORY]
 Ledwo unikasz płonącego ognia, ale nie bez utraty niektórych toreb po drodze.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]53
@@ -566,14 +567,14 @@ Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten 
 Udaje ci się wrócić na stałe podłoże, ale po drodze tracisz niektóre torby. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]7
 [STORY]
 Udaje ci się zawrócić na solidną ziemię, a walka przeciwko ruchomym piaskom wzmocniła cię.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]13
@@ -600,14 +601,14 @@ Znajdujesz bezpieczną ścieżkę i podążasz nią bez incydentów.
 Odkrywasz szczątki mniej szczęśliwej duszy, być może wyplułeś ją z piasków. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Udaje ci się przedostać na solidną ziemię, ale po drodze tracisz trochę toreb i czujesz się osłabiony przez gehennę.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]20
@@ -617,7 +618,7 @@ Pędzisz szybko ze skały na skałę i znowu na twardą ziemię.
 Odkrywasz szczątki mniej szczęśliwej duszy, być może wyplułeś ją z piasków. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]24
@@ -625,7 +626,7 @@ Odkrywasz szczątki mniej szczęśliwej duszy, być może wyplułeś ją z piask
 Udaje ci się wrócić na stałe podłoże, ale po drodze tracisz niektóre torby. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -650,14 +651,14 @@ Powietrze wokół ciebie robi się gorętsze, ziemia drży, a gejzery gorącej l
 [STORY]
 Zręcznie unikasz wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]4
 [STORY]
 Ledwo się przedostałeś, i zostałeś zmuszony do porzucenia niektórych worków, aby nie wpaść w roztopioną lawę. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]5
@@ -671,42 +672,42 @@ Znajdujesz dobrą ścieżkę, ale prowadzi ona przez serię skał, na które mus
 [STORY]
 Zręcznie unikasz wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]14
 [STORY]
 Zręcznie omijasz lawę, a nawet znajdziesz klejnoty na drodze do bezpieczeństwa.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Ledwo się przedostałeś, i zostałeś zmuszony do porzucenia niektórych worków, aby nie wpaść w roztopioną lawę. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]20
 [STORY]
 Ścieżka, którą znalazłeś, jest niebezpieczna, ale dla ciebie jest to znak siły, by ją przepchnąć. Jesteś zmuszony poświęcić część swoich towarów, aby uniknąć wpadnięcia do dołów, ale tak jak podejrzewasz, znajdziesz żyłę kamieni ukrytych w dołach. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]21
 [STORY]
 Zręcznie unikasz wycieków lawy, a nawet znajdziesz jakiś dobry kamień na drodze do bezpieczeństwa.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]22
 [STORY]
 Wdychasz lawę i daje ci siłę. Łowisz też dobre kamienie.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]26
@@ -715,7 +716,7 @@ Gorące powietrze i lawa spalają twoją skórę, ale przygotowujesz się i unik
 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -738,7 +739,7 @@ Lecisz z wiatrem i czujesz jego zimny, ale żywy uścisk.
 
 Dowodzisz siłą natury, by odwrócić się od swojej ścieżki, i robi to dobrowolnie. Jesteś w stanie zbierać liście od tych, którzy nie wytrzymali mocy.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]5
@@ -754,7 +755,7 @@ Dowodzisz siłą natury, aby odwrócić się od swojej ścieżki, ale nie jest o
 [STORY]
 Huragan wreszcie pochyla się do twojej woli i idzie dalej.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]12
@@ -770,7 +771,7 @@ Znajdziesz pęknięcie na ziemi, gdzie możesz poczekać na huragan.
 
 I masz szczęście, bo masz wystarczająco silnych ludzi, by biegać szybko, aby się tam dostać i utrzymać równowagę.  
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]18
@@ -785,7 +786,7 @@ Udaje ci się pozostać na miejscu, a huragan mija, zostawiając za sobą resztk
 [STORY]
 Ledwo trzymasz się, jak wiatry cię drżą. Tracisz część swoich towarów, ale przynajmniej żyjesz.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]26
@@ -796,7 +797,7 @@ Na początku zostajesz porwany i niesiony przez wiatry jak na śmierć, ale wted
 
 Jesteś wzmocniony i wolny do zbierania śmieci.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -846,7 +847,7 @@ Pozostajesz silny, a próby stworzeń są daremne. Widząc ich porażkę, kosmyk
 
 Widzisz spalone zwłoki owadów i małych stworzeń wokół ciebie, ale dostrzegasz też małą paczkę dziwnie sparowanych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]9
@@ -855,7 +856,7 @@ Wywołanie światła okazuje się zbyt silne, aby się oprzeć. Przez chwilę pu
 
 Udaje ci się uwolnić, ale czujesz się wyczerpany, a niektórzy ze słabszych towarzyszy mogą nie mieć tyle szczęścia.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
@@ -875,7 +876,7 @@ Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz
 
 Udaje ci się uwolnić, ale czujesz swoją duszę naznaczoną tym doświadczeniem.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]26
@@ -884,7 +885,7 @@ Opierasz się atakowi, a twoja domena tryska ciemnością, która niszczy te pie
 
 Nie wiecie, czym byli, ale ich moc była nienaturalna i wystarczająco silna, aby osiągnąć wasze boskie połączenie.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]31
@@ -904,7 +905,7 @@ Pozostajecie silni i zrównoważeni, nie angażujesz się ani w światło, ani w
 
 Widzicie spalone zwłoki owadów i małych stworzeń wokół Was, ale dostrzegasz też kilka dziwnych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]44
@@ -913,7 +914,7 @@ Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz
 
 Udaje ci się uwolnić, a klarowność twojej naturalnej domeny sprawia, że jesteś w większości bez szwanku.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -974,14 +975,14 @@ Wykopujesz drogę, a nawet odnajdziesz po drodze dobre minerały.
 [STORY]
 W końcu wykopujesz się, ale to męcząca próba. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Skórą twoich zębów udaje ci się zrobić bezpieczną ucieczkę.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]21
@@ -997,7 +998,7 @@ Lawina uderza mocno i szybko, grożąc połknięciem cię w całości.
 
 Udaje ci się uciec, ale nie bez utraty cięższego sprzętu.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]32
@@ -1020,14 +1021,14 @@ Znajdziesz półkę, na której przeczekasz lawinę. Niestety, droga powrotna zo
 [STORY]
 Dokładnie planujesz każdy krok i robisz go bezpiecznym. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]45
 [STORY]
 Starasz się starannie planować każdy krok i sprawić, by był bezpieczny. Ale niektóre z twoich kroków są źle wybrane, a część twojego sprzętu spada na górę.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]49
@@ -1047,7 +1048,7 @@ Próbujesz odlecieć przed uderzeniem lawiny, ale jesteś porywany przez podmuch
 Uciekasz, ale nie bez zadrapań i siniaków. 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]51
@@ -1081,7 +1082,7 @@ Niebo ciemnieje, chmury gromadzą się, a kojący deszcz spada na szalejący ogi
 
 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]4
@@ -1105,7 +1106,7 @@ Las odpowiada. To ci pomoże, ale wciąż musisz walczyć, aby powstrzymać ten 
 [STORY]
 Las jest zbawiony i czujesz, że jego wdzięczność spada na ciebie. Możesz teraz zebrać trochę drewna.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]13
@@ -1114,14 +1115,14 @@ Pomimo twoich najlepszych wysiłków, płomień ogarnia las, a ty jesteś zmuszo
 
 Część twojego sprzętu jest spalona w płomieniach.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
 [STORY]
 Uciekasz, a las płonie za tobą.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]24
@@ -1135,7 +1136,7 @@ Uciekasz na czas. Las płonie, aw popiołach znajdują się szczątki mniej szcz
 [STORY]
 Ledwo unikasz płonącego ognia, ale nie bez utraty niektórych toreb po drodze.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]53
@@ -1177,7 +1178,7 @@ Pozostajesz silny, a próby stworzeń są daremne. Widząc ich porażkę, kosmyk
 
 Widzisz spalone zwłoki owadów i małych stworzeń wokół ciebie, ale dostrzegasz też małą paczkę dziwnie sparowanych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]9
@@ -1186,7 +1187,7 @@ Wywołanie światła okazuje się zbyt silne, aby się oprzeć. Przez chwilę pu
 
 Udaje ci się uwolnić, ale czujesz się wyczerpany, a niektórzy ze słabszych towarzyszy mogą nie mieć tyle szczęścia.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]19
@@ -1206,7 +1207,7 @@ Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz
 
 Udaje ci się uwolnić, ale czujesz swoją duszę naznaczoną tym doświadczeniem.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]26
@@ -1215,7 +1216,7 @@ Opierasz się atakowi, a twoja domena tryska ciemnością, która niszczy te pie
 
 Nie wiecie, czym byli, ale ich moc była nienaturalna i wystarczająco silna, aby osiągnąć wasze boskie połączenie.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]31
@@ -1235,7 +1236,7 @@ Pozostajecie silni i zrównoważeni, nie angażujesz się ani w światło, ani w
 
 Widzicie spalone zwłoki owadów i małych stworzeń wokół Was, ale dostrzegasz też kilka dziwnych istot, które poruszają się w zgodzie, jak gdyby próbowały podążać za kosmykami.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]44
@@ -1244,7 +1245,7 @@ Siła światła okazuje się zbyt silna, aby się oprzeć. Przez chwilę czujesz
 
 Udaje ci się uwolnić, a klarowność twojej naturalnej domeny sprawia, że jesteś w większości bez szwanku.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]

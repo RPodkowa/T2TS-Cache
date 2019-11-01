@@ -1,19 +1,20 @@
 -- [EVENT] --GroupHumanoid(0)
 +[NODE]2
 [STORY]
-Zbliża się grupa zbrojna.
+Zbliża się grupa zbrojnych.
 [/STORY]
 [OUT]Walka!
 [OUT]Zastraszcie ich!
 [OUT]Usuńcie się.
-[OUT]Przekonaj ich do handlu.
+[OUT]Przekonajcie ich do handlu.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Twoje słowa nie działają. Jesteś bity i goniony.
+Wasze słowa nie działają. Jesteście bici i gonieni.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 [/EVENT]
@@ -26,29 +27,30 @@ Zbliża się stado bestii.
 [OUT]Walka!
 [OUT]Zastraszcie ich!
 [OUT]Usuńcie się.
-[OUT][Bestia] Razem wyśpijcie się do księżyca, zadzwońcie do wspólnej melodii, albo po prostu biegnijcie razem z krewnymi przez jakiś czas, zanim poproszą ich, aby ruszyli dalej.
-[OUT][Łowca] Prześladuj zwierzęta i upoluj je!
+[OUT][Bestia] Razem możecie wyć do księżyca w takt wspólnej melodii, albo po prostu pobiegać razem z krewniakami przez jakiś czas, potem krótkie pożegnanie i drużyna rusza dalej.
+[OUT][Łowca] Wytropcie zwierzynę i urządźcie polowanie!
 [/NODE]
 
 +[NODE]19
 [STORY]
-Twoje zagrożenia nie działają. Jesteś bity i goniony.
+Wasze groźby nie działają. Jesteście bici i gonieni.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 +[NODE]28
 [STORY]
-Wygrałeś!
+Wygraliście!
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]32
 [STORY]
-Zawiodłeś i bestie cię gonią.
+Zawiedliście i bestie Was gonią.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -69,35 +71,36 @@ Mityczna istota przecina twoją ścieżkę!
 [STORY]
 Nie udaje ci się. Jesteś bity i goniony.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 +[NODE]30
 [STORY]
-Wygrałeś!
+Wygraliście!
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]31
 [STORY]
-Zostałeś ciężko pobity i zmuszony do ucieczki.
+Zostajecie ciężko pobici i zmuszeni do ucieczki.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]32
 [STORY]
 Przekonałeś stwora, żeby zostawił cię w spokoju!
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]33
 [STORY]
 Pokonałeś stwora i jego dusza rozpada się, podobnie jak jego ciało.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -118,14 +121,15 @@ Widzisz trolle!
 [STORY]
 Nie udaje ci się. Jesteś bity i goniony.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 +[NODE]28
 [STORY]
 Trolle opuszczają niektóre towary, gdy wychodzą. 
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -135,7 +139,7 @@ Trolle opuszczają niektóre towary, gdy wychodzą.
 [STORY]
 Czy to monolog o wielkim znaczeniu, piękna pieśń, czy uwodzicielski tekst, ktoś próbuje zwieść Was swoimi srebrnymi językami.
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Stawcie czoło ich urokom i spróbujcie ich zastraszyć!
 [OUT]Usuńcie się.
 [OUT][Demon] Słuchaj uważnie, przyznaj rację  i rozejdźcie się w przyjaźni.
@@ -144,9 +148,10 @@ Czy to monolog o wielkim znaczeniu, piękna pieśń, czy uwodzicielski tekst, kt
 
 +[NODE]19
 [STORY]
-Nie udało się Wam. Macie mętlik w głowach, a Wasz duch zostaje przeklęty.
+Nie udało się Wam. Macie mętlik w głowach i nabywacie przekleństwo ducha.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 [/EVENT]
@@ -156,18 +161,19 @@ Nie udało się Wam. Macie mętlik w głowach, a Wasz duch zostaje przeklęty.
 [STORY]
 Demon zbliża się do ciebie agresywnie.
 [/STORY]
-[OUT]Do ataku!
-[OUT]Spróbuj zastraszyć!
+[OUT]Atak!
+[OUT]Spróbujcie zastraszenia!
 [OUT]Usuńcie się.
 [OUT][Siła] Stój mocno i nie pozwól im wejść na twoje terytorium.
-[OUT][Magiczny użytkownik] Obroń się siłą swojego ducha.
+[OUT][Użytkownik Magii] Obroń się siłą swojego ducha.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Nie udało się Wam. Macie mętlik w głowach, a Wasz duch zostaje przeklęty.
+Nie udało się Wam. Macie mętlik w głowach i nabywacie przekleństwo ducha.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 [/EVENT]
@@ -175,19 +181,20 @@ Nie udało się Wam. Macie mętlik w głowach, a Wasz duch zostaje przeklęty.
 -- [EVENT] --GroupUnliving(6)
 +[NODE]2
 [STORY]
-Jesteś atakowany przez unliving!
+Jesteście atakowani przez nieumarłych!
 [/STORY]
 [OUT]Walka!
 [OUT]Zastraszcie ich!
 [OUT]Usuńcie się.
-[OUT][Nieżyjący] Rozłóż swoje nieżyjące ciało lub zapach na swoich sojusznikach, aby twoi krewni pomyśleli, że wszyscy jesteście przyjaciółmi.
+[OUT][Nieżyjący] Rozłóż kawałki swojego nieżyjącego ciała i zapach na swoich sojusznikach, aby twoi krewni pomyśleli, że wszyscy jesteście przyjaciółmi.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Twoje zagrożenia nie działają. Jesteś bity i goniony.
+Wasze groźby nie działają. Jesteście bici i gonieni.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 [/EVENT]
@@ -195,113 +202,113 @@ Twoje zagrożenia nie działają. Jesteś bity i goniony.
 -- [EVENT] --ElvenChildGrowingup(7)
 +[NODE]2
 [STORY]
-Twoje elfie dziecko nie będzie uważane za dorosłego wśród swoich elfich krewnych jeszcze przez wiele dziesięcioleci, ale osiągnęło czas wzrostu. 
+Wasze elfie dziecko nie będzie uważane za dorosłego wśród swoich elfich krewnych jeszcze przez wiele dziesięcioleci, ale osiągnęło już czas wzrostu. 
 
-Jako takie, przejdą uprawy: ceremonia dojrzewania. 
+Jako takie, przejdzie rytułał: ceremonię dojrzewania. 
 
-Ale ta ścieżka nigdy nie jest łatwa. Musisz wybrać, jaką podróż zabierze młody człowiek, jeśli bogowie chcą, mogą wrócić do ciebie jako dorosły. 
+Ale ta ścieżka nigdy nie jest łatwa. Musicie wybrać, w jaką podróż wyprawicie młodego człowieka, a jeśli bogowie zechcą, pomogą mu wrócić do Was jako dorosłemu. 
 
 
 
 [/STORY]
-[OUT][Magiczni użytkownicy lub lojalność i mistycyzm] Albo wiesz wystarczająco dużo o magii, aby spróbować nauczyć nawet elfiego dziecka, albo jesteś przyjacielem Woodlandkina, tak jak możesz poprosić o jego wskazówki, aby młodzież mogła zostać elfim magicznym użytkownikiem.
-[OUT][Percepcja i siła] Dziecko ma sprawność fizyczną, być może ścieżka wojownika jest ich przeznaczeniem.
-[OUT]Naucz elfiego dziecka dobrego starego handlu. 
-[OUT][Szansa] Elfy są na zawsze związane z lasem, pozwól dziecku przekształcić się w demona lasu, nawet jeśli wynik jest niepewny.
+[OUT][Magiczni użytkownicy lub lojalność i mistycyzm] Wiecie wystarczająco dużo o magii, aby spróbować nauczyć nawet elfiego dziecka, albo jesteście w przyjaźni z Ludem lasu, zatem możecie poprosić o ich wskazówki, aby młodzieniec mógł zostać elfim użytkownikiem magii.
+[OUT][Percepcja i siła] Dziecko jest sprawne fizycznie, być może ścieżka wojownika jest jego przeznaczeniem.
+[OUT]Nauczcie elfiego dziecka podstawowych profesji. 
+[OUT][Szansa] Elfy są na zawsze związane z lasem, pozwólcie dziecku przekształcić się w demona lasu, nawet jeśli wynik jest niepewny.
 [/NODE]
 
 +[NODE]3
 [STORY]
-Sploty magii są naturalne dla wszystkich elfów, ale ścieżka magicznego użytkownika jest dokonywana z mrocznymi niebezpieczeństwami, szczególnie dla elfiego dziecka wychowanego z własnego rodzaju.  Mogą nie wrócić do ciebie lub ich ścieżka może nie doprowadzić do tego, czego szukasz. 
+Tajniki magii są naturalne dla wszystkich elfów, ale ścieżka magicznego użytkownika jest pokonywana z udziałem mrocznych niebezpieczeństw, szczególnie dla elfiego dziecka wychowanego w ładzie i porządku.  Może nie wrócić do Was lub ich ścieżka może nie doprowadzić do tego, czego szuka. 
 
-[Aby realizować rzadkie klasy, dziecko często potrzebuje wysokiej statystyki w odpowiednim polu (dokładne liczby się różnią), takie jak siła dla wojowników itp., Jak również szansa. Poprawienie atrybutu szczęścia może również pomóc w tym.] 
+[Aby realizować rzadkie klasy, dziecko często potrzebuje wysokiej wartości odpowiedniego atrybutu (dokładne liczby się różnią), takie jak siła dla wojowników itp., Zwiększenie atrybutu szczęścia może również  pomóc w tym.] 
 
 [/STORY]
-[OUT]Rozpocznij próby dla maga.
+[OUT]Rozpocznijcie próby dla maga.
 [OUT]Rozpocznij próby dla druida.
-[OUT][Percepcja i siła] Dziecko ma sprawność fizyczną, być może ścieżka wojownika jest ich przeznaczeniem.
-[OUT]Naucz elfiego dziecka dobrego starego handlu. 
+[OUT][Percepcja i siła] Dziecko jest sprawne fizycznie, być może ścieżka wojownika jest jego przeznaczeniem.
+[OUT]Nauczcie elfiego dziecka podstawowych profesji. 
 [/NODE]
 
 +[NODE]4
 [STORY]
-Twoja elfia młodość była wyraźnie przeznaczona do kroczenia mistyczną ścieżką, kiedy wracają do ciebie jako mag. 
+Wasze elfiie dziecię było wyraźnie przeznaczone do kroczenia mistyczną ścieżką. Wracają do Was jako mag. 
 
-Próby były trudne i nie są tak silne jak pełnoprawny dorosły, ale z czasem staną się świetne!
+Próby były trudne i nie jest tak silny jak dorosły, ale z czasem stanie się świetny w swoim fachu!
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]5
 [STORY]
-Dziecko zwraca elfiego druida. I choć często są w sprzeczności z życiem na wsi, pozostają lojalni wobec bogów i ich wybranej rodziny.
+Dziecko zwraca jako elfi druid. I choć często jest w sprzeczności z życiem w grupie, pozostaje lojalne wobec bogów i jego wybranej rodziny.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]6
 [STORY]
-Twoja elfia młodość najwyraźniej nie miała zamiaru kroczyć ścieżką maga, przynajmniej jeszcze nie. Ale otrzymali pewne szkolenie i najprawdopodobniej nadal przewyższają większość nieelfickich użytkowników magii, lub tak ci mówią. 
+Wasze elfie dziecię najwyraźniej nie miało zamiaru kroczyć ścieżką maga, przynajmniej jeszcze nie teraz. Ale otrzymało pewne nauki i najprawdopodobniej nadal przewyższa większość nieelfickich użytkowników magii, lub tak Wam mówią. 
 
 
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]9
 [STORY]
-Dziecko weszło w próby, ale ciemność wynikająca z magii uczenia się okazała się zbyt silna. 
+Dziecko weszło w próby, ale ciemność wynikająca z magii  okazała się zbyt silna. 
 
-Młodzieniec upada, ich skóra robi się szara, ich żyły czarne, a wkrótce szaleństwo zabiera im umysł. 
+Młodzieniec upada, jego skóra robi się szara, a żyły czarne, a wkrótce szaleństwo zabiera mu umysł. 
 
 [/STORY]
-[OUT]Staraj się, aby ich ostatnie dni były wygodne. Nie ma nic więcej do roboty.
+[OUT]Starajcie się, aby jego ostatnie dni były wygodne. Nie można nic więcej zrobić.
 [/NODE]
 
 +[NODE]11
 [STORY]
-Tak jak myślałeś, że dziecko odeszło, wracają do ciebie, zmieniają się, ale już nie są rozdarte przez ciemność - elf cienia. 
+Kiedy myśleliście, że dziecko odeszło, wraca do Was, zmieniając się, rozdarte przez ciemność - jako elf cienia. 
 [/STORY]
-[OUT]Witamy ich z powrotem w zakładce!
+[OUT]Powitajcie je z powrotem w drużynie!
 [/NODE]
 
 +[NODE]14
 [STORY]
-Próby zostania pracownikiem są często najbezpieczniejsze, ale dla elfiego dziecka wezwanie własnych krewnych może okazać się silne, gdy powie się im wykonywanie przyziemnych zadań. 
+Próby zostania pracownikiem są często najbezpieczniejsze, ale dla elfiego dziecka głos własnych krewnych może okazać się silniejszy, gdy powierzy się im wykonywanie przyziemnych zadań. 
 
-Mimo to jest to podróż wartościowa i powinna być podejmowana z dumą.
+Mimo to jest to podróż ta jest wartościowa i powinna być podejmowana z dumą.
 [/STORY]
-[OUT]Rozpocznij próby dla zbieracza.
-[OUT]Rozpocznij próby dla rzemieślnika.
+[OUT]Rozpocznijcie próby dla zbieracza.
+[OUT]Rozpocznijcie próby dla rzemieślnika.
 [/NODE]
 
 +[NODE]15
 [STORY]
-Młodzież elfów posłusznie wyrusza na próbę, ale nigdy do ciebie nie wracają. 
+Młody elf posłusznie wyrusza na próbę, ale nigdy do Was nie wraca. 
 
-Wiele lat później otrzymujesz wiadomość, że ich podróż zabrała ich do odległych krajów i mają nadzieję, że wkrótce wrócą, ale w czasach elfów, więc może nie być w twoim życiu. 
+Wiele lat później otrzymujesz wiadomość, że jego ścieżki poprowadziły go do odległych krajów. Ma nadzieję, że kiedyś wróci, ale czas liczony według elfów dłuży się niemiłosiernie, więc może nie dojść do tego za Waszego życia. 
 
 [/STORY]
-[OUT]Radujcie się z ich dobrobytu, ale opłakujcie utratę ich pokrewieństwa.
+[OUT]Radujcie się z jego dobrobytu i szczęścia, ale mimo to opłakujecie stratę.
 [/NODE]
 
 +[NODE]17
 [STORY]
-Próby są udane i elfie dziecko wyrasta na młodość pod twoim czujnym okiem.
+Próby są udane i elfie dziecko wyrasta na dobrego elfa pod Waszym czujnym okiem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]18
 [STORY]
-Próby są udane i elfie dziecko wyrasta na młodość pod twoim czujnym okiem.
+Próby są udane i elfie dziecko wyrasta na dobrego elfa pod Waszym czujnym okiem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]20
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [/NODE]
@@ -310,90 +317,90 @@ Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płas
 [STORY]
 Próby wojownika okazały się zbyt trudne i dziecko zginęło.
 [/STORY]
-[OUT]Radujcie się z ich dobrobytu, ale opłakujcie utratę ich pokrewieństwa.
+[OUT]Radujcie się z jego dobrobytu i szczęścia, ale mimo to opłakujecie stratę.
 [/NODE]
 
 +[NODE]23
 [STORY]
-Próby są udane i elfie dziecko wyrasta na młodość pod twoim czujnym okiem.
+Próby są udane i elfie dziecko wyrasta na dobrego elfa pod Waszym czujnym okiem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]24
 [STORY]
-Dziecko nie radzi sobie dobrze w swoich próbach. Wracają do ciebie szorstcy i przygnębieni, szepczą krew i gwałt. 
+Dziecko nie radzi sobie dobrze w swoich próbach. Wraca do Was zasmucone i przygnębione, szepcząc coś o krwi i przemocy. 
 
-Byli wyraźnie wzmocnieni tym, co się wydarzyło, ale ich umysł i dusza pozostały bliznami. 
+Zostało wyraźnie wzmocnione tym, co się wydarzyło, ale w jego umyśle i na duszy pozostały rany. 
 [/STORY]
-[OUT]Radujcie się z ich bezpiecznego powrotu.
+[OUT]Radujcie się z bezpiecznego powrotu.
 [/NODE]
 
 +[NODE]25
 [STORY]
-Twoje elfie dziecko miało stać się dorosłe, przynajmniej dzięki twojej śmiertelnej liczebności, ale szybko stało się oczywiste, że nigdy nie były elfami, ale raczej leśnym stworzeniem przebranym przez zaklęcie. 
+Wasze elfie dziecko miało stać się dorosłe, przynajmniej tak to sobie wyobrażaliście, ale szybko stało się oczywiste, że nigdy nie było elfem, ale raczej leśnym stworzeniem przebranym z pomocą zaklęcia. 
 
 
 [/STORY]
-[OUT]Zobacz prawdziwą naturę dziecka.
+[OUT]Zobaczcie prawdziwą naturę dziecka.
 [/NODE]
 
 +[NODE]27
 [STORY]
-Dziecko usłyszało wołanie dzikich i zniknęło w lesie na jakiś czas, tylko po to, by zwrócić dzikiego.
+Dziecko usłyszało wołanie dzikich i zniknęło w lesie na jakiś czas, tylko po to, by zwrócić się ku naturze.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]28
 [STORY]
 Dziecko staje się leśną wróżką i wraca do domu, zmienione, ale zawsze lojalne.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]31
 [STORY]
-Dziecko staje się vily i wraca do domu, zmienione, ale zawsze lojalne.
+Dziecko staje się wiłem i wraca do domu, zmienione, ale zawsze lojalne.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]32
 [STORY]
 Dziecko staje się starszym człowiekiem i wraca do domu, zmienione, ale zawsze lojalne.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]34
 [STORY]
-Dziecko zwraca wygnanego elfiego druida. I choć często są w sprzeczności z życiem na wsi, pozostają lojalni wobec bogów i ich wybranej rodziny.
+Dziecko powraca jako wygnany elfi druid. I choć często jest w sprzeczności z życiem w grupie, pozostaje lojalne wobec bogów i jego przybranej rodziny.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]35
 [STORY]
-Twoja elfia młodość najwyraźniej nie miała zamiaru kroczyć ścieżką druida, przynajmniej jeszcze nie. Ale przeszli szkolenie i pozostają oddani życiu w społeczności z naturą. 
+Wasze elfie dziecię najwyraźniej nie miało zamiaru kroczyć ścieżką druida, przynajmniej jeszcze nie teraz. Ale przeszło szkolenie i pozostaje oddane życiu w zgodzie z naturą. 
 
 
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]36
 [STORY]
-Twoja elfia młodość była wyraźnie przeznaczona do kroczenia mistyczną ścieżką, kiedy wracają do ciebie jako mag. 
+Wasze elfiie dziecię było wyraźnie przeznaczone do kroczenia mistyczną ścieżką. Wracają do Was jako mag. 
 
-Próby były trudne i nie są tak silne jak pełnoprawny dorosły, ale z czasem staną się świetne!
+Próby były trudne i nie jest tak silny jak dorosły, ale z czasem stanie się świetny w swoim fachu!
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [/NODE]
@@ -411,7 +418,7 @@ Ale ścieżka nigdy nie jest łatwa. Musisz teraz wybrać drogę, którą weźmi
 
 [/STORY]
 [OUT][Krasnolud, lojalność i mężczyzna] Poprowadź swoje dziecko do rodziny i poproś o szkolenie. Istnieje ryzyko, że dziecko pozostanie w towarzystwie krasnoludzkich krewnych, ale jeśli zdecydują się wrócić do ciebie, z pewnością będą dla niego silniejsze.
-[OUT]Naucz dziecko dobrego starego handlu. 
+[OUT]Naucz dziecko starego dobrego rzemiosła. 
 [OUT][Szansa] Twoje dziecko wydaje się dziwne, pozwól szansie kierować swoim losem.
 [/NODE]
 
@@ -432,7 +439,7 @@ Przychodzisz do miasta krasnoludów, a twoja młoda zostaje wzięta na próby z 
 [STORY]
 Z woli kamienia i metalu, twoje krasnoludzkie dziecko okazało się cudownym dzieckiem i stało się jednym z najmłodszych pełnoprawnych kowali, zwłaszcza dla jednego wychowanego z krasnoludzkich miast.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]6
@@ -440,14 +447,14 @@ Z woli kamienia i metalu, twoje krasnoludzkie dziecko okazało się cudownym dzi
 Z woli kamienia i metalu twoje krasnoludzkie dziecko okazało się utalentowanym robotnikiem, znacznie przewyższającym swoich rówieśników. 
 
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]9
 [STORY]
 Dziecko postanowiło pozostać ze swoimi krewnymi. 
 [/STORY]
-[OUT]Zaakceptuj ich wybór.
+[OUT]Zaakceptujcie ten wybór.
 [/NODE]
 
 +[NODE]14
@@ -457,7 +464,7 @@ Próby zostania pracownikiem są często najbezpieczniejsze, ale dla krasnoludzk
 Mimo to jest to podróż wartościowa i powinna być podejmowana z dumą. 
 
 [/STORY]
-[OUT]Rozpocznij próby dla zbieracza.
+[OUT]Rozpocznijcie próby dla zbieracza.
 [OUT]Rozpocznij próby dla kowala.
 [/NODE]
 
@@ -465,26 +472,26 @@ Mimo to jest to podróż wartościowa i powinna być podejmowana z dumą.
 [STORY]
 Krasnoludzkie dziecko rzeczywiście wyrosło na mocną młodość, ale wołanie kamienia i metalu okazało się zbyt silne, by je zignorować, i zostawili cię, byś był z ich krasnoludzkimi krewnymi. 
 [/STORY]
-[OUT]Radujcie się z ich dobrobytu, ale opłakujcie utratę ich pokrewieństwa.
+[OUT]Radujcie się z jego dobrobytu i szczęścia, ale mimo to opłakujecie stratę.
 [/NODE]
 
 +[NODE]17
 [STORY]
 Próby są udane i krasnoludzkie dziecko staje się młodością pod twoim czujnym okiem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]18
 [STORY]
 Próby są udane i krasnoludzkie dziecko staje się młodością pod twoim czujnym okiem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]20
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [/NODE]
@@ -493,17 +500,17 @@ Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płas
 [STORY]
 Z woli kamienia i metalu twoje krasnoludzkie dziecko okazało się utalentowanym ciepłolubem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]24
 [STORY]
-Dziecko nie radzi sobie dobrze w swoich próbach. Wracają do ciebie obdarty i przygnębiony, szepcząc krew i gwałt. 
+Dziecko nie radzi sobie dobrze podczas swoich prób. Wraca do Was obdarty i przygnębiony, szepcząc coś o krwi i przemocy. 
 
-Stają się robotnikami, ale nawet w tym, że pozostają słabi. 
+Staje się robotnikiem, ale nawet w tym, pozostaje słabe. 
 
 [/STORY]
-[OUT]Radujcie się z ich bezpiecznego powrotu.
+[OUT]Radujcie się z bezpiecznego powrotu.
 [/NODE]
 
 +[NODE]25
@@ -511,7 +518,7 @@ Stają się robotnikami, ale nawet w tym, że pozostają słabi.
 Twoje krasnoludzkie dziecko miało stać się dorosłe, przynajmniej dzięki twojej śmiertelnej liczbie, ale szybko stało się oczywiste, że nigdy nie były krasnoludami, ale raczej stworzeniem z kamienia ukrytym przez zaklęcie! 
 
 [/STORY]
-[OUT]Zobacz prawdziwą naturę dziecka.
+[OUT]Zobaczcie prawdziwą naturę dziecka.
 [/NODE]
 
 +[NODE]27
@@ -521,7 +528,7 @@ Dziecko staje się bujakiem i wraca do domu, zmienione, ale zawsze lojalne.
 Za kilka dziesięcioleci stanie się rockowym trollem. 
 
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]28
@@ -531,42 +538,42 @@ Dziecko staje się rockowym bujakiem i wraca do domu, zmienione, ale zawsze loja
 W ciągu kilku dziesięcioleci stanie się trollem lawowym. 
 
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]31
 [STORY]
 Z woli kamienia i metalu twoje krasnoludzkie dziecko okazało się cudownym dzieckiem i stało się jednym z najmłodszych mistrzów runów, jakie kiedykolwiek zarejestrowano w pamięci krasnoludów.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]35
 [STORY]
 Próby okazały się zbyt wiele, być może ich więź z nie-krasnoludzkimi bogami zakłóciła święte obrzędy przejścia. Dziecko dojrzewa, ale ginie ze wstydu.
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 +[NODE]36
 [STORY]
 Dziecko postanowiło pozostać ze swoimi krewnymi. 
 [/STORY]
-[OUT]Zaakceptuj ich wybór.
+[OUT]Zaakceptujcie ten wybór.
 [/NODE]
 
 +[NODE]38
 [STORY]
 Z woli kamienia i metalu twoje krasnoludzkie dziecko okazało się cudownym dzieckiem i stało się jednym z najmłodszych kowali, zwłaszcza dla jednego wychowanego z krasnoludzkich miast.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
 Próby okazały się zbyt wiele, być może ich więź z nie-krasnoludzkimi bogami zakłóciła święte obrzędy przejścia. Dziecko dojrzewa, ale ginie ze wstydu.
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 [/EVENT]
@@ -576,18 +583,19 @@ Próby okazały się zbyt wiele, być może ich więź z nie-krasnoludzkimi boga
 [STORY]
 Nagle czujesz, że otaczają cię wiatry mistycznych mocy i wiesz, że jesteś złapany w jakiś rytuał!
 [/STORY]
-[OUT]Do ataku!
+[OUT]Atak!
 [OUT]Walcz w świecie duchów!
 [OUT]Usuńcie się.
 [OUT][Demon] Słuchaj uważnie, przyznaj rację  i rozejdźcie się w przyjaźni.
-[OUT][Magiczny użytkownik] Obroń się siłą swojego ducha.
+[OUT][Użytkownik Magii] Obroń się siłą swojego ducha.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Nie udało się Wam. Macie mętlik w głowach, a Wasz duch zostaje przeklęty.
+Nie udało się Wam. Macie mętlik w głowach i nabywacie przekleństwo ducha.
 [/STORY]
-[OUT]Ucieczka.
+[OUT]Ucieczka.
+
 [/NODE]
 
 [/EVENT]
@@ -595,185 +603,185 @@ Nie udało się Wam. Macie mętlik w głowach, a Wasz duch zostaje przeklęty.
 -- [EVENT] --OrcChildGrowingup(10)
 +[NODE]2
 [STORY]
-Twoje dziecko orków ma zamiar zostać dorosłym. W związku z tym przejdą uprawy: ceremonia dojrzewania. 
+Wasze orcze dziecko wkracza w dorosłość W związku z tym należy prześć odprawić ceremonię dojrzewania. 
 
-Ale ścieżka nigdy nie jest łatwa. Musisz teraz wybrać drogę, którą weźmie młody, zanim bogowie zechcą, mogą wrócić do ciebie jako dorosły. 
+Ścieżka ta nigdy nie jest łatwa. Musicie teraz wybrać drogę, którą kroczyć będzie jako dorosły, jeśli oczywiście bogowie poprą Waszą decyzję. 
 
 
 
 [/STORY]
-[OUT][Ork lub lojalność] Poprowadź swoje dziecko do rodziny i poproś o szkolenie. Istnieje ryzyko, że dziecko pozostanie w swoim klanie, ale jeśli zdecyduje się powrócić do ciebie, z pewnością będą dla niego silniejsze.
+[OUT][Ork lub lojalność] Zaprowadź swoje dziecko do orczej rodziny i poproś o szkolenie. Istnieje ryzyko, że dziecko pozostanie w innym klanie, ale jeśli zdecyduje się powrócić do Was, z pewnością dużo silniejsze.
 [OUT]Dziecko jest silne. Być może wyrośnie na wojownika.
-[OUT]Naucz dziecko dobrego starego handlu. 
-[OUT][Czarownica] Naucz dziecko mrocznej ścieżki czarów.
+[OUT]Naucz dziecko starego dobrego rzemiosła. 
+[OUT][Wiedźma] Naucz dziecko mrocznej ścieżki czarów.
 [/NODE]
 
 +[NODE]3
 [STORY]
 Klan orków przyjmuje dziecko na próby ognia. 
 
-[Aby realizować rzadkie klasy, dziecko często potrzebuje wysokiej statystyki w odpowiednim polu (dokładne liczby się różnią), takie jak siła dla wojowników itp., Jak również szansa. Poprawa atrybutu szczęścia może również pomóc w tym.] 
+[Aby mogło realizować rzadkie klasy, dziecko potrzebuje wysokich wartości odpowiednich atrybutów (dokładne liczby się różnią), takie jak siła dla wojowników itp., Szczęścia może również w tym pomóc.] 
 
 
 [/STORY]
-[OUT]Prawo do zostania matriarchą jest rzadkie i niesie ze sobą duże niebezpieczeństwo. Ale wyślij swoje dziecko do sprawdzenia.
-[OUT][Siła] Wyślij swoje dziecko, aby zostało przeszkolone jako slugger.
-[OUT][Postrzeganie] Niech twoja młodość spróbuje zostać bloodtrackerem.
-[OUT][Mistycyzm] Wyślij swoje dziecko na ciemną ścieżkę czarów.
-[OUT]Wy, dzieci, nie macie umiejętności wypróbowywania większych rzeczy lub wolicie grać bezpiecznie. Naucz dziecko dobrego starego handlu. 
+[OUT]Prawo do zostania wodzem jest rzadkie i niesie ze sobą duże niebezpieczeństwo. Ale pozwólcie dziecku iść tą drogą.
+[OUT][Siła] Wyślijcie swoje dziecko, aby zostało przeszkolone jako siepacz.
+[OUT][Postrzeganie] Niech Wasza latorośl spróbuje zostać tropicielem krwi.
+[OUT][Mistycyzm] Wyślijcie swoje dziecko ciemną ścieżką czarnoksięstwa.
+[OUT]Dziecko nie ma umiejętności pozwalających mu dokonać większych rzeczy lub wolicie grać bezpiecznie. Nauczcie dziecko dobrego starego handlu. 
 [/NODE]
 
 +[NODE]5
 [STORY]
-Dziecko jest bezwzględne i ukradkowe. Staje się bloodtrackerem.
+Dziecko jest skryte i zabójcze. Staje się tropicielm krwi.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]6
 [STORY]
-Orki uznają twoje dziecko za bezużyteczne, ale młodzież staje się wykwalifikowanym rzemieślnikiem. 
+Orki uznają Wasze dziecko za bezużyteczne, ale jako dorosły staje się wykwalifikowanym rzemieślnikiem. 
 
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]14
 [STORY]
-Próby zostania pracownikiem są często najbezpieczniejsze, ale dla dziecka orka może to nie być łatwa droga do zaakceptowania. 
+Próby zostania pracownikiem są często najbezpieczniejsze szczególnie dla orczego dziecka, może nie być to łatwa droga do zaakceptowania dla niego samego. 
 
 [/STORY]
-[OUT]Rozpocznij próby dla zbieracza.
-[OUT]Rozpocznij próby dla jednostki.
+[OUT]Rozpocznijcie próby dla zbieracza.
+[OUT]Rozpocznijcie próby dla rzemieślnika.
 [/NODE]
 
 +[NODE]15
 [STORY]
-Ork poczuł się urażony, że uczysz ich, by stali się zwykłymi robotnikami, wyjechali, by szukać klanów orków i prawdopodobnie zginęli, robiąc to.
+Ork poczuł się urażony, że chcecie uczyć go pracy zwykłego robotnika, Wyjechał, by szukać klanów orków i prawdopodobnie zaginął.
 [/STORY]
-[OUT]Zaakceptuj ich wybór.
+[OUT]Zaakceptujcie ten wybór.
 [/NODE]
 
 +[NODE]17
 [STORY]
-Dziecko orków uczy się zostać pracownikiem, ale zdaje się, że za to go obrażają.
+Dziecko orków uczy się jak zostać dobrym pracownikiem, ale zdaje się, że za wybór tej ścieżki musiało zapłacić swoją godnością.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]18
 [STORY]
-Dziecko orków uczy się zostać pracownikiem, ale zdaje się, że za to go obrażają.
+Dziecko orków uczy się zostać dobrym pracownikiem, ale zdaje się, że trzeba było zapłacić za to swoją godnością.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]20
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [/NODE]
 
 +[NODE]23
 [STORY]
-Dziecko orków udowadnia swoją wartość jako wojownik, ale ich droga była trudna i pozostawiła blizny.
+Dziecko orków udowadnia swoją wartość jako wojownik, ale droga była trudna i pozostawiła blizny.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]24
 [STORY]
-Dziecko nie radzi sobie dobrze w swoich próbach. Wracają do ciebie obdarty i przygnębiony, szepcząc krew i gwałt. 
+Dziecko nie radzi sobie dobrze podczas swoich prób. Wraca do Was obdarty i przygnębiony, szepcząc coś o krwi i przemocy. 
 
-Stają się robotnikami, ale nawet w tym, że pozostają słabi. 
+Staje się robotnikiem, ale nawet w tym, pozostaje słabe. 
 
 [/STORY]
-[OUT]Radujcie się z ich bezpiecznego powrotu.
+[OUT]Radujcie się z bezpiecznego powrotu.
 [/NODE]
 
 +[NODE]30
 [STORY]
-Surowe próby bojownika odebrały życie młodzieży!
+Surowe próby bojownika odebrały mu życie!
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 +[NODE]31
 [STORY]
-Twoje dziecko nie jest zwykłym orkiem, jest matriarchą! Ale pomimo tego honoru postanowiła wrócić na ścieżkę kosmicznego drzewa.
+Twoje dziecko nie jest zwykłym orkiem, jest Matką! Ale pomimo tego zaszczytu postanowiła wrócić na ścieżkę kosmicznego drzewa.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]33
 [STORY]
-Dziecko orków udowadnia swoją wartość jako tropiciel krwi, ale ich droga była trudna i pozostawiła blizny.
+Dziecko orków udowadnia swoją wartość jako tropiciel krwi, ale jego droga była trudna i pozostawiła blizny.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]34
 [STORY]
-Dziecko orków udowadnia swoją wartość jako czarownica.
+Dziecko orków udowadnia swoją wartość jako wiedźma.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]36
 [STORY]
-Ciemność ogarnęła duszę twojego dziecka, a młodzież wkrótce zginęła. 
+Ciemność ogarnęła duszę Waszego dziecka, nie powróci już do żywych. 
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 +[NODE]37
 [STORY]
-Ciemność ogarnęła duszę twojego dziecka i wracają do ciebie jako upiory.
+Ciemność ogarnęła duszę Waszego dziecka i powraca do Was jako upiór.
 [/STORY]
-[OUT]Radujcie się z ich powrotu.
+[OUT]Radujcie się z powrotu.
 [/NODE]
 
 +[NODE]38
 [STORY]
 Dziecko orków udowadnia swoją wartość jako wojownik.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
-Dziecko orków udowadnia swoją wartość jako bloodtracker.
+Dziecko orków udowadnia swoją wartość jako tropiciel krwi.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]40
 [STORY]
-Dziecko jest bezwzględne i potężne, staje się pogromcą.
+Dziecko okazuje się bezwzględne i potężne, staje się pogromcą.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]42
 [STORY]
 Dziewczyna nie udowodniła swojej wartości, a próby odebrały jej życie!
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 +[NODE]44
 [STORY]
-Dziecko zostaje przyjęte do klanu i nie wraca do twojego.
+Dziecko zostaje przyjęte do klanu i nie wraca do Was.
 [/STORY]
-[OUT]Zaakceptuj ich wybór.
+[OUT]Zaakceptujcie ten wybór.
 [/NODE]
 
 +[NODE]48
 [STORY]
 Dziecko orków udowadnia swoją wartość jako czarownica, ale jej podróż nie była łatwa i pozostawiła wiele blizn.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 [/EVENT]
@@ -781,26 +789,26 @@ Dziecko orków udowadnia swoją wartość jako czarownica, ale jej podróż nie 
 -- [EVENT] --Nest Generic All(11)
 +[NODE]2
 [STORY]
-Znajdujesz miejsce gniazdowania stworzeń wędrujących po tej ziemi. 
+Znajdujecie gniazdo stworzeń które wędrują po tej ziemi. 
 
 
 [/STORY]
-[OUT]Oczyść to gniazdo.
-[OUT]Odchodzicie.
+[OUT]Oczyśćcie to gniazdo.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]6
 [STORY]
-Gniazdo jest wyczyszczone, więc na razie powinieneś mieć trochę spokoju.
+Gniazdo zostaje usunięte, więc na razie powinniście mieć trochę spokoju.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]8
 [STORY]
-Zostałeś ciężko pobity i zmuszony do ucieczki.
+Zostajecie ciężko pobici i zmuszeni do ucieczki.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -814,28 +822,28 @@ Znajdziesz legowisko bestii.
 [/STORY]
 [OUT]Wyczyść to legowisko.
 [OUT][Zwierzęcy łowca lub myśliwy] Wiesz, jak obchodzić się ze zwierzętami, wypal je stąd. Może zostawić mniej łupów, ale znikną.
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]6
 [STORY]
-Gniazdo jest wyczyszczone, więc na razie powinieneś mieć trochę spokoju.
+Gniazdo zostaje usunięte, więc na razie powinniście mieć trochę spokoju.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]8
 [STORY]
-Zostałeś ciężko pobity i zmuszony do ucieczki.
+Zostajecie ciężko pobici i zmuszeni do ucieczki.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]11
 [STORY]
 Bestie porzucają swoje legowisko, więc powinieneś mieć trochę spokoju.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -848,21 +856,21 @@ Znajdziesz nawiedzoną kryjówkę, wypełnioną roamingiem, który nie żyje.
 [/STORY]
 [OUT]Wyczyść to legowisko.
 [OUT][Magiczny użytkownik] Atakuj ich duchowo.
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]6
 [STORY]
 Niewidzialni są niszczeni, więc na razie powinieneś mieć trochę spokoju.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]8
 [STORY]
-Zostałeś ciężko pobity i zmuszony do ucieczki.
+Zostajecie ciężko pobici i zmuszeni do ucieczki.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -876,28 +884,28 @@ Znajdujesz gniazdo demona, które samo w sobie jest dziwne. Najwyraźniej coś z
 [OUT]Wyczyść to legowisko.
 [OUT][Magiczny użytkownik] Atakuj ich duchowo.
 [OUT]Zapytaj ich, dlaczego tak się zachowują, demony nie zachowują się jak zwykłe zwierzęta?
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]6
 [STORY]
 Gniazdo jest zniszczone, więc na razie powinieneś mieć trochę spokoju.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]8
 [STORY]
-Zostałeś ciężko pobity i zmuszony do ucieczki.
+Zostajecie ciężko pobici i zmuszeni do ucieczki.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 +[NODE]14
 [STORY]
 Nie odpowiadają, jakby oczarowani jakimś zaklęciem. Ale twoje słowa dają im przerwę i porzucają to gniazdo w milczeniu.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -905,74 +913,74 @@ Nie odpowiadają, jakby oczarowani jakimś zaklęciem. Ale twoje słowa dają im
 -- [EVENT] --GoblinChildGrowingup(15)
 +[NODE]2
 [STORY]
-Twoje goblińskie dziecko wkrótce stanie się dorosłe, więc nadszedł czas, aby odkryć ich duchową ścieżkę. 
+Wasze goblińskie dziecko wkrótce stanie się dojrzałe, więc nadszedł czas, aby odkryć jego duchową ścieżkę. 
 
-Musisz teraz wybrać podróż, którą weźmie młody, jeśli bogowie chcą, mogą wrócić do ciebie jako dorosły. 
+Musicie teraz wybrać drogę, jaką obierze, a jeśli bogowie zechcą, mogą zwrócić je Wam jako dorosłego. 
 
 
 [/STORY]
-[OUT][Goblin lub Lojalność] Poprowadź swoje dziecko do rodziny i poproś o szkolenie. Ryzykuje to, że dziecko zostanie w klanie, ale jeśli zdecyduje się wrócić do ciebie, na pewno będzie mądrzejszy!
+[OUT][Goblin lub Lojalność] Zaprowadź Wasze dziecko do rodziny i poproś o szkolenie. Ryzykujecie tym, że zostanie ono w klanie, ale jeśli zdecyduje się wrócić do Was, na pewno będzie mądrzejsze!
 [OUT][Siła] Dziecko jest silne, być może wyrośnie na wojownika.
-[OUT]Naucz dziecko dobrego starego handlu, zgromadzenia lub rzemiosła.
-[OUT][Magiczny użytkownik, Mistycyzm i Szansa]] Gobliny mogą próbować iść ścieżką duchów, próbując poprowadzić ich do szamana.
+[OUT]Nauczcie dziecko dobrze znanych biegłości, zbieractwa lub rzemiosła.
+[OUT][Magiczny użytkownik, Mistycyzm i Szansa]] Gobliny mogą próbować podążać ścieżką duchów, spróbuj poprowadzić je by stało się szamanem.
 [/NODE]
 
 +[NODE]3
 [STORY]
-Plemię goblinów akceptuje ciebie i dziecko i zgadza się na duchowy spacer, aby ustanowić młodą prawdziwą ścieżkę. 
+Plemię goblinów przyjmuje Wasze i dziecko i zgadza się przeprowadzić jego duchowy spacer, aby obrało prawdziwą ścieżkę. 
 
-[Aby realizować rzadkie klasy, dziecko często potrzebuje wysokiej statystyki w odpowiednim polu (dokładne liczby się różnią), takie jak siła dla wojowników itp., Jak również szansa. Poprawa atrybutu szczęścia może również pomóc w tym.] 
+[Aby realizować rzadkie klasy, dziecko często potrzebuje wysokiej wartości jednej umiejętności (dokładne liczby się różnią), takie jak siła dla wojowników itp., Atrybutu szczęścia może również pomóc w tym zwiększając szansę przemiany.] 
 
 
 [/STORY]
-[OUT][Mistycyzm i przypadek] Rozpocznij próby szamana, pomimo wielkiego ryzyka.
-[OUT][Mądrość i percepcja] Wyślij swoje dziecko, by stało się mistrzem zwierząt.
-[OUT][Siła] Wyślij młodość na ścieżkę jeźdźca dzików.
-[OUT][Siła] Wytrenuj dziecko do walki jako harcownik.
-[OUT]Naucz dziecko dobrego starego handlu, zgromadzenia lub rzemiosła.
-[OUT][Szansa] Wyślij swoje dziecko do jaskini duchów, gdzie ich los zostanie pozostawiony kaprysom lub mądrości goblińskich przodków.
+[OUT][Mistycyzm i przypadek] Rozpocznijcie próby szamana, pomimo wielkiego ryzyka.
+[OUT][Mądrość i percepcja] Wyślijcie swoje dziecko, by stało się treserem zwierząt.
+[OUT][Siła] Wyślijcie je by opanowało ścieżkę jeźdźca dzików.
+[OUT][Siła] Wytrenujcie dziecko do walki by zostało harcownikiem.
+[OUT]Nauczcie dziecko dobrze znanych biegłości, zbieractwa lub rzemiosła.
+[OUT][Szansa] Wyślijcie swoje dziecko do jaskini duchów, gdzie jego los zostanie wystawiony kaprysom lub mądrości goblińskich przodków.
 [/NODE]
 
 +[NODE]5
 [STORY]
 Dziecko jest szkolone jako władca zwierząt.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]9
 [STORY]
-Dziecko zostaje przyjęte do plemienia goblinów i nie wraca do twojego.
+Dziecko zostaje przyjęte do plemienia goblinów i nie wraca już do Was.
 [/STORY]
-[OUT]Zaakceptuj ich wybór.
+[OUT]Zaakceptujcie ten wybór.
 [/NODE]
 
 +[NODE]14
 [STORY]
-Próby zostania pracownikiem są często najbezpieczniejsze, a gobliny mają pokrewieństwo z majsterkowaniem. 
+Próby zostania fachowcem są często najbezpieczniejsze, a gobliny mają smykałkę do majsterkowania. 
 
 [/STORY]
-[OUT]Rozpocznij próby dla zbieracza.
-[OUT]Rozpocznij próby dla rzemieślnika.
+[OUT]Rozpocznijcie próby dla zbieracza.
+[OUT]Rozpocznijcie próby dla rzemieślnika.
 [/NODE]
 
 +[NODE]17
 [STORY]
-Dziecko nie ma określonej zdolności, ich ścieżka leży w swobodnej wędrówce zbieracza.
+Dziecko nie zyskuje określonej zdolności, jego ścieżka to swobodna wędrówka zbieracza.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]18
 [STORY]
-Dziecko znajduje swój los w majsterkowaniu, nauczą się rzemiosła.
+Dziecko znajduje swoje zamiłowanie w majsterkowaniu, Zostaje rzemieślnikiem.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]20
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko goblinów musi udowodnić swój płaszcz i nauczyć się wykorzystywać jego rozmiar jako przewagę, a nie upośledzenie.
+Próby wojownika są trudne i niebezpieczne. Dziecko goblinów musi udowodnić swój kunszt władania bronią i nauczyć się wykorzystywać swój niewielki wzrost jako przewagę, a nie upośledzenie.
 [/STORY]
 [OUT]Rozpocznij próby.
 [/NODE]
@@ -981,135 +989,135 @@ Próby wojownika są trudne i niebezpieczne. Dziecko goblinów musi udowodnić s
 [STORY]
 Dziecko udowadnia swoją wartość jako harcownik.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]24
 [STORY]
-Dziecko nie radzi sobie dobrze w swoich próbach. Wracają do ciebie szorstcy i przygnębieni, szepczą krew i gwałt. 
+Dziecko nie radzi sobie dobrze w swoich próbach. Wraca do Was smutne i przygnębione, wspominając o krwi i przemocy. 
 
-Stają się harcownikami, ale nawet w tym, że pozostają słabi.
+Staje się harcownikiem, ale po tym co przeszło będzie słabe.
 [/STORY]
-[OUT]Radujcie się z ich bezpiecznego powrotu.
+[OUT]Radujcie się z bezpiecznego powrotu.
 [/NODE]
 
 +[NODE]30
 [STORY]
-Surowe próby bojownika odebrały życie młodzieży!
+Surowe próby bojownika odebrały mu życie!
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 +[NODE]33
 [STORY]
 Dziecko udowadnia swoją wartość jako mistrz bestii.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]34
 [STORY]
-Dziecko wchodzi do szarego świata, gdzie mieszkają duchy i wraca do ciebie szaman. Podróż nie była jednak pozbawiona niebezpieczeństw, a dusza młodzieży pozostaje skażona.
+Dziecko wchodzi do szarego świata, gdzie mieszkają duchy i wraca do Was jako szaman. Podróż nie była jednak pozbawiona niebezpieczeństw, a dusza młodzieńca pozostaje skażona.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]36
 [STORY]
-Ciemność ogarnęła duszę twojego dziecka, a młodzież wkrótce zginęła. 
+Ciemność ogarnęła duszę Waszego dziecka, nie powróci już do żywych. 
 [/STORY]
-[OUT]Opłakuj ich odejście.
+[OUT]Opłakujcie jej odejście.
 [/NODE]
 
 +[NODE]37
 [STORY]
-Świat duchów okazał się zbyt kuszący i wracają do ciebie jako widmo.
+Świat duchów okazał się zbyt kuszący, powraca zatem do Was jako widmo.
 [/STORY]
-[OUT]Radujcie się z ich powrotu.
+[OUT]Radujcie się z powrotu.
 [/NODE]
 
 +[NODE]38
 [STORY]
 Dziecko udowodni swoją wartość jako jeździec dzików.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
-Dziecko wchodzi do szarego świata, gdzie mieszkają duchy i chociaż podróż była trudna, wracają do ciebie szaman.
+Dziecko wchodzi do szarego świata, gdzie mieszkają duchy i chociaż podróż była trudna, wracają do Was jako szaman.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]44
 [STORY]
-Dziecko nie podąża ścieżką, którą dla nich wytyczyłeś, a zamiast tego staje się zbieraczem.
+Dziecko nie podąża ścieżką, którą dla niego wytyczyliście, a zamiast tego staje się zbieraczem.
 [/STORY]
-[OUT]Radujcie się, że znaleźli własną drogę.
+[OUT]Radujcie się, że odnalazło własną drogę.
 [/NODE]
 
 +[NODE]45
 [STORY]
 Dziecko jest szkolone jako jeździec dzików.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]46
 [STORY]
-Dziecko w rzeczywistości nie jest goblinem, jest orkiem i tylko nastolatkiem wciąż. To musiała być zielona skóra, która myliła rzeczy. Jaskinia duchowa wypluwa je, na szczęście bez szkody.
+Dziecko w rzeczywistości nie jest goblinem, a orkiem i nadal pozostaje nastolatkiem. To przez zieloną skórę, która myląco przypomina goblińską. Dziecko zostaje wyrzucone z jaskini duchów, na szczęście bez szkody.
 [/STORY]
-[OUT]Raduj się ...
+[OUT]Radujcie się ...
 [/NODE]
 
 +[NODE]47
 [STORY]
 Pradawni uznali kapryśny charakter dziecka i zmienili go w leśną wróżkę!
 [/STORY]
-[OUT]Zaakceptuj je z powrotem w zakładce.
+[OUT]Zaakceptujcie je z powrotem w grupie.
 [/NODE]
 
 +[NODE]48
 [STORY]
-Dziadkowie w jaskini duchowej uważali życie goblinów za swoje. 
+Przodkowie z jaskini duchowej uznali życie goblinów za swoje. 
 [/STORY]
-[OUT]Zaakceptuj ich duchowy los.
+[OUT]Zaakceptuj jego duchowy los.
 [/NODE]
 
 +[NODE]49
 [STORY]
-Pradawni uznali, że natura dziecka jest kapryśna i mroczna, i zmienili ich w bagna!
+Pradawni uznali, że natura dziecka jest kapryśna i mroczna. Przemienili je zatem w biesa!
 [/STORY]
-[OUT]Zaakceptuj je z powrotem w zakładce.
+[OUT]Zaakceptujcie je z powrotem w grupie.
 [/NODE]
 
 +[NODE]50
 [STORY]
-Pradawni uznali, że natura dziecka jest kapryśna i mroczna, i zmienili ich w czort!
+Pradawni uznali, że natura dziecka jest kapryśna i mroczna. Przemienili je w czorta!
 [/STORY]
-[OUT]Zaakceptuj je z powrotem w zakładce.
+[OUT]Zaakceptujcie je z powrotem w grupie.
 [/NODE]
 
 +[NODE]51
 [STORY]
-Pradawni uznali kapryśną naturę dziecka za zmienną i zmienili w hohlick!
+Pradawni uznali kapryśną naturę dziecka za zmienną i przemienili je w chochlika!
 [/STORY]
-[OUT]Zaakceptuj je z powrotem w zakładce.
+[OUT]Zaakceptujcie je z powrotem w grupie.
 [/NODE]
 
 +[NODE]53
 [STORY]
 Dziecko jest szkolone jako wojownik.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]54
 [STORY]
-Świat duchów okazał się zbyt kuszący i wracają do ciebie jako widmo.
+Świat duchów okazał się zbyt kuszący, powraca zatem do Was jako widmo.
 [/STORY]
-[OUT]Radujcie się z ich powrotu.
+[OUT]Radujcie się z powrotu.
 [/NODE]
 
 [/EVENT]
@@ -1117,10 +1125,10 @@ Dziecko jest szkolone jako wojownik.
 -- [EVENT] --TownTrader(16)
 +[NODE]2
 [STORY]
-Twój post handlowy przyciągnął twoich pierwszych gości.
+Wasz punkt handlowy przyciągnął pierwszych gości.
 [/STORY]
-[OUT]Zaproś kupców.
-[OUT]Powiedz kupcom, że tym razem cię to nie interesuje.
+[OUT]Zaproście kupców.
+[OUT]Powiedzcie kupcom, że tym razem handel Was nie interesuje.
 [/NODE]
 
 +[NODE]7
@@ -1139,7 +1147,7 @@ Krasnoludzki kupiec oferuje swoje towary.
 
 +[NODE]9
 [STORY]
-Przedsiębiorca orków oferuje swoje towary.
+Handlarz orków oferuje swoje towary.
 [/STORY]
 [OUT]Handel.
 [/NODE]
@@ -1153,7 +1161,7 @@ Handlarz goblinów oferuje swoje towary.
 
 +[NODE]11
 [STORY]
-Slavyański kupiec oferuje swoje towary.
+Kupiec ludu słowian oferuje swoje towary.
 [/STORY]
 [OUT]Handel.
 [/NODE]
@@ -1183,7 +1191,7 @@ Stoiska handlowe są dla Was otwarte.
 [STORY]
 „Dobry handel z tobą. Bogowie niech będą z tobą.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -1211,7 +1219,7 @@ Stoiska handlowe są dla Was otwarte.
 [STORY]
 ‘Dobrze pohandlować. Teraz odejdź i walcz z wrogami!'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -1239,7 +1247,7 @@ Stoiska handlowe są dla Was otwarte.
 [STORY]
 „Dobry handel z tobą. Niech wasze ognie nigdy nie umrą.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -1268,7 +1276,7 @@ Nie jesteście naszymi przyjaciółmi, więc najpierw musicie zapłacić nam dod
 [STORY]
 „Dobry handel z tobą. Duchy są z tobą.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -1296,7 +1304,7 @@ Stoiska handlowe są dla Was otwarte.
 [STORY]
 „Dobry handel z tobą. Niech natura was błogosławi.'
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
@@ -1306,8 +1314,8 @@ Stoiska handlowe są dla Was otwarte.
 [STORY]
 Twój post handlowy przyciągnął więcej odwiedzających.
 [/STORY]
-[OUT]Zaproś kupców.
-[OUT]Powiedz kupcom, że tym razem cię to nie interesuje.
+[OUT]Zaproście kupców.
+[OUT]Powiedzcie kupcom, że tym razem handel Was nie interesuje.
 [/NODE]
 
 +[NODE]7
@@ -1326,7 +1334,7 @@ Krasnoludzki kupiec oferuje swoje towary.
 
 +[NODE]9
 [STORY]
-Przedsiębiorca orków oferuje swoje towary.
+Handlarz orków oferuje swoje towary.
 [/STORY]
 [OUT]Handel.
 [/NODE]
@@ -1340,7 +1348,7 @@ Handlarz goblinów oferuje swoje towary.
 
 +[NODE]11
 [STORY]
-Slavyański kupiec oferuje swoje towary.
+Kupiec ludu słowian oferuje swoje towary.
 [/STORY]
 [OUT]Handel.
 [/NODE]
@@ -1350,39 +1358,39 @@ Slavyański kupiec oferuje swoje towary.
 -- [EVENT] --Childgrowingup__(23)
 +[NODE]2
 [STORY]
-Traumatyczne wydarzenia ostatnich kilku dni pokazały, że twoje dziecko nie jest już dzieckiem. Teraz stoją przed czasem plonów, rytuału przejścia do dorosłości. 
+Traumatyczne wydarzenia ostatnich kilku dni pokazały, że jedno z Waszych dzieci nie jest już dzieckiem. Teraz stoi przed radą która dokona wyboru podczas rytuału przejścia do dorosłości. 
 
-Ale ta ścieżka nigdy nie jest łatwa. Musisz teraz wybrać, jaką podróż zabierze młody, jeśli bogowie chcą, mogą powrócić do ciebie jako dorosły.
+Ale ta ścieżka nigdy nie jest łatwa. Musisz teraz wybrać, jaką podróż obierze młoda latorośl, a jeśli taka będzie boska wola, wówczas powróci do ciebie jako dorosły.
 [/STORY]
-[OUT][Siła lub szansa] Twoje dziecko jest silne, pójdą ścieżką wojownika.
-[OUT][Postrzeganie] Twoje dziecko jest spostrzegawcze, może zostać myśliwym.
-[OUT][Mądrość i szansa] Dziecko jest mądre poza swymi latami, mogą trenować, by stać się duchowym przywódcą twojej trzody, zerka.
-[OUT][Spryt i szansa] Życie bandytyzmu to nieortodoksyjna ścieżka wysłania dziecka, ale ten świat jest surowy, a ty potrzebujesz zatwardziałego ludu.
-[OUT]Dobre rzemiosło jest tym, czego chcesz uczyć swoje dziecko
+[OUT][Siła lub szansa] Twoje dziecko jest silne, pozwól podążyć mu ścieżką wojownika.
+[OUT][Postrzeganie] Wasze dziecko jest spostrzegawcze, może zostać myśliwym.
+[OUT][Mądrość i szansa] Dziecko jest mądre jak na swój wiek, może trenować, by stać się duchowym przywódcą Waszej trzódki, czyli Żercą.
+[OUT][Spryt i szansa] Życie bandyty to trudna i odmienna ścieżka dla dziecka, ale ten świat jest surowy, a Wy potrzebujecie zatwardziałego ludu.
+[OUT]Dobre rzemiosło jest tym, czego chcecie nauczyć swoje dziecko.
 [OUT]Zbieracze są zawsze potrzebni, a szkolenie jest mniej niebezpieczne. 
-[OUT][Chance] Twoje dziecko zawsze było inne. Pozwól losowi całkowicie pokierować swoją ścieżką.
+[OUT][Chance] Twoje dziecko zawsze było inne. Pozwól losowi całkowicie pokierować jego ścieżką.
 [OUT][Mistycyzm, przypadek i kobieta] Twoje dziecko urodziło się ze znakiem czarownicy. Ta ścieżka jest mroczna i niebezpieczna.
-[OUT][Inteligencja] Twoje dziecko się uczy, być może może zostać uzdrowicielem.
+[OUT][Inteligencja] Wasze dziecko się uczy, może zostać uzdrowicielem.
 [OUT][Mistycyzm, przypadek i kobieta] Twoje dziecko urodziło się ze znakiem czarownicy. Ta ścieżka jest mroczna i niebezpieczna.
-[OUT][Mądrość i szansa] Dziecko jest mądre poza swymi latami, mogą trenować, by stać się duchowym przywódcą twojej trzody, zerka.
-[OUT][Spryt i szansa] Życie bandytyzmu to nieortodoksyjna ścieżka wysłania dziecka, ale ten świat jest surowy, a ty potrzebujesz zatwardziałego ludu.
-[OUT][Ścieżka natury] Zdecydowałeś się wzmocnić swój związek z Naturą, a zatem twoje dziecko może zostać przekształcone w leśnego demona, jeśli losy są oczywiście oczywiście ...
-[OUT][Ścieżka Marovita] Pozwól swojemu boskiemu losowi przekształcić dziecko.
+[OUT][Mądrość i szansa] Dziecko jest mądre jak na swój wiek, może trenować, by stać się duchowym przywódcą Waszej trzódki, czyli Żercą.
+[OUT][Spryt i szansa] Życie bandyty to trudna i odmienna ścieżka dla dziecka, ale ten świat jest surowy, a Wy potrzebujecie zatwardziałego ludu.
+[OUT][Ścieżka natury] Zdecydowałeś się wzmocnić swój związek z Naturą, a zatem Wasze dziecko może zostać przekształcone w leśnego demona, jeśli oczywiście los temu sprzyja ...
+[OUT][Ścieżka Marowita] Pozwól swojemu boskiemu losowi poprowadzić dziecko.
 [OUT][Ścieżka Łady] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Svaroga] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Striboga] Pozwól swojemu boskiemu losowi przekształcić dziecko.
-[OUT][Ścieżka Zoryi] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Nyii] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Triglava] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Dzievanny] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Horza] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Swaroga] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Strzyboga] Pozwól swojemu boskiemu losowi przekształcić dziecko.
+[OUT][Ścieżka Zorii] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Nyji] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Trzygława] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Dziewanny] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Chorsa] Pozwól swojemu boskiemu losowi przemienić dziecko.
 [OUT][Mistycyzm, przypadek i mężczyzna] Twoje dziecko urodziło się ze znakiem mistycznym. Ta ścieżka jest mroczna i niebezpieczna.
 [OUT][Mistycyzm, przypadek i mężczyzna] Twoje dziecko urodziło się ze znakiem mistycznym. Ta ścieżka jest mroczna i niebezpieczna.
 [/NODE]
 
 +[NODE]3
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1391,14 +1399,14 @@ Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płas
 
 +[NODE]4
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów kasty wojowników. 
+Dziecko dorasta, dziś przyłącza się do dumnych szeregów kasty wojowników. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]6
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów kasty wojowników. 
+Dziecko dorasta, dziś przyłącza się do dumnych szeregów kasty wojowników. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -1407,8 +1415,8 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów 
 [STORY]
 Dziecko nie zdało egzaminu i grozi mu poważne niebezpieczeństwo.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]8
@@ -1422,21 +1430,21 @@ Podróż myśliwego jest ciemna i pełna niebezpieczeństw czających się na ka
 
 +[NODE]9
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliwych.
+Dziecko już małe, dziś dołącza do dumnych szeregów myśliwych.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]10
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliwych.
+Dziecko już małe, dziś dołącza do dumnych szeregów myśliwych.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]11
 [STORY]
-Ścieżka zera jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, ale szansa na sukces jest niewielka bez odpowiedniego szkolenia.
+Ścieżka Żercy jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, a szansa na sukces jest niewielka bez odpowiedniego szkolenia.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1446,14 +1454,14 @@ Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliw
 
 +[NODE]12
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]13
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -1462,19 +1470,19 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania
 [STORY]
 Dziecko zginęło.
 [/STORY]
-[OUT]Daj młodym obrzędy pogrzebowe.
+[OUT]Wykonajcie obrzędy pogrzebowe.
 [/NODE]
 
 +[NODE]15
 [STORY]
-Dziecko zaginęło na wiele miesięcy. Z czasem wracają do ciebie, zmienieni - chropowaci i chorzy na dolegliwości przeklętych padlinożerców. 
+Dziecko zaginęło na wiele miesięcy. Z czasem wracają do ciebie, odmienione - brudni, śmierdzący i chorzy, przeklęci padlinożercy. 
 [/STORY]
-[OUT]To musi być wola bogów, ciesz się z powrotu dziecka jako dorosłego.
+[OUT]To musi być wola bogów, cieszcie się z powrotu dziecka jako dorosłego.
 [/NODE]
 
 +[NODE]16
 [STORY]
-Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz wśród zbirów tego świata i znaleźć odwagę, aby powrócić do ciebie później.
+Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swoją pozycję wśród zbirów tego świata i znaleźć odwagę, aby powrócić do Was później.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1486,45 +1494,45 @@ Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszc
 [STORY]
 Dziecko nie zdało egzaminu i grozi mu poważne niebezpieczeństwo.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]18
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu.
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu ...
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów ...
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]20
 [STORY]
-Dziecko zaczęło trenować na bandytę, ale zginęło straszliwie z rąk zbirów.
+Dziecko zaczęło terning bandycki, ale zginęło z rąk zbirów.
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]21
 [STORY]
-Dziecko nie zdało egzaminów, a konsekwencje często mogą być tragiczne dla takiego młodego umysłu.
+Dziecko nie zdało egzaminów, a konsekwencje często mogą być tragiczne dla tak młodego umysłu.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]22
 [STORY]
-Młodzież była tak przygnębiona ich niepowodzeniem, że odeszli i nigdy nie wrócili. 
+Przygnębienie niepowodzeniem było tak ogromne, że młodzieniec odszedł i nigdy nie wróci. 
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]23
@@ -1536,11 +1544,11 @@ Dziecko nie mogło stać się tym, do czego było przeznaczone, ale zamiast tego
 
 +[NODE]24
 [STORY]
-Dziecko jest zawstydzone przez swoją porażkę i nigdy nie ma zbyt wiele w życiu. 
+Dziecko jest zawstydzone swoją porażką nigdy nie miało zbyt wiele od życia. 
 
-Oni jednak rozmnażają się z goblinem i zostawiają potomstwo dla twojej opieki.
+Jest potomkiem goblińskim które pozostało pod Waszą opieką.
 [/STORY]
-[OUT]Raduj się ...
+[OUT]Radujcie się ...
 [/NODE]
 
 +[NODE]25
@@ -1555,14 +1563,14 @@ Oni jednak rozmnażają się z goblinem i zostawiają potomstwo dla twojej opiek
 
 +[NODE]26
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła.
+Dziecko już nie jest młode, dziś dołącza do dumnego cechu rzemieślników.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]27
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła.
+Dziecko już nie jest młode, dziś dołącza do dumnego cechu rzemieślników.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -1571,9 +1579,9 @@ Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła
 [STORY]
 Dziecko zawiodło w próbach, a konsekwencje często mogą być tragiczne dla takiego młodego umysłu.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]30
@@ -1587,73 +1595,73 @@ Dziecko zawiodło w próbach, a konsekwencje często mogą być tragiczne dla ta
 
 +[NODE]31
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu zbieraczy.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu zbieraczy.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]32
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu zbieraczy.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu zbieraczy.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]34
 [STORY]
-Ścieżka losu zawsze wiruje w chaosie. Dziecko zostaje odesłane w ciemność i z niego wynurzą się na nowo.
+Ścieżka losu zawsze przeplatana jest chaosem. Dziecko zostaje odesłane w ciemność a potem wynurza sie z niej się na nowo.
 [/STORY]
-[OUT]Rozpocznij ich próby.
+[OUT]Rozpocznijcie próby.
 [/NODE]
 
 +[NODE]36
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem! 
+Wasze dziecko było w rzeczywistości uzurpatorem! 
 
-Teraz wyrósł na demona, ale oni są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Teraz wyrosło na demona, ale jest ono tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]37
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem! 
+Wasze dziecko było w rzeczywistości uzurpatorem! 
 
-Teraz wyrósł na demona, ale oni są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Teraz wyrosło na demona, ale jest ono tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem, a raczej przeklęte, by żyć pod fałszywą postacią. 
+Wasze dziecko było w rzeczywistości uzurpatorem, a raczej było przeklęte i żyło pod fałszywą postacią. 
 
-Na ścieżce losu powrócił ich prawdziwy obraz, ale zawsze są lojalni wobec twojej sprawy i krewnych.
+Na ścieżce losu wyłonił się prawdziwy obraz, ale zawsze będzie lojalne wobec Waszej sprawy i krewnych.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]40
 [STORY]
-Niestety, twoje dziecko kroczyło ścieżką losu, a los nie miał dobrych rzeczy w zapasie. 
+Niestety, Wasze dziecko skroczyło ścieżką losu, ale los nie był łaskawy dla niego. 
 
-Nie mówią o tym, co ich spotkało, ale wracają osłabieni i przygnębieni, ale także towarzyszy im przyjaciel szczura.
+Nie mówiąc o tym, co je spotkało, wraca osłabione i przygnębione, ale także towarzyszy mu szczurzy przyjaciel.
 [/STORY]
 [OUT]Radujcie się, że wrócili żywi.
 [/NODE]
 
 +[NODE]41
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem, a raczej przeklęte, by żyć pod fałszywą postacią. 
+Wasze dziecko było w rzeczywistości uzurpatorem, a raczej było przeklęte i żyło pod fałszywą postacią. 
 
-Na ścieżce losu powrócił ich prawdziwy obraz, ale zawsze są lojalni wobec twojej sprawy i krewnych.
+Na ścieżce losu wyłonił się prawdziwy obraz, ale zawsze będzie lojalne wobec Waszej sprawy i krewnych.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]49
 [STORY]
-Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczenia wewnątrz. 
+Młoda czarownica musi wejść w świat szarości i wewnątrz szukać swojego przeznaczenia. 
 [/STORY]
 [OUT][Magiczny użytkownik lub magiczna boska ścieżka] Poprowadź młodą czarownicę.
 [OUT]Rozpocznij próby.
@@ -1666,35 +1674,35 @@ Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczeni
 
 +[NODE]51
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]52
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]53
 [STORY]
-Dziecko odchodzi, a świat szarości pozbawia ich ciała, pozostawiając tylko gniewnego ducha. Mimo to wracają do ciebie. 
+Dziecko odchodzi, a świat szarości pozbawia je ciała, pozostawiając tylko gniewnego ducha. Mimo to wraca do Was. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]54
 [STORY]
-Dziecko nie jest już młodością, dziś przyłącza się do mrocznej ścieżki czarów, ale nie bez płacenia świetnej ceny za mroczną sztukę.
+Dziecko nie jest już młode, dziś przyłącza się do mrocznej ścieżki czarów, ale musiało zapłacić srogą cenę za mroczne sztuki.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]55
 [STORY]
-Ścieżka, której uzdrowiciel nie jest wyzwaniem fizycznym, ale niewielu ma mądrość lub wytrwałość, aby odnieść sukces.
+Ścieżka uzdrowicieli nie jest wyzwaniem fizycznym, ale niewielu ma mądrość lub wytrwałość, aby odnieść sukces.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1704,21 +1712,21 @@ Dziecko nie jest już młodością, dziś przyłącza się do mrocznej ścieżki
 
 +[NODE]56
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela i dzięki ścieżce Harmonii, los uśmiecha się do nich w tym dniu.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela i dzięki ścieżce Harmonii, los obdarza go swym uśmiechem.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]57
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]58
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go i przeklęła, by żyć jak szczur!
+Wasze dziecko było obdarzone magią, niestety, zazdrosna wiedźma odnalazła je i przeklęła, by wiodło życie jako szczur!
 [/STORY]
 [OUT]Witaj z powrotem.
 [OUT]Witaj z powrotem.
@@ -1726,49 +1734,49 @@ Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go 
 
 +[NODE]59
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]60
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]61
 [STORY]
-Dziecko zaczęło trenować, by zostać bandytą, ale nigdy nie wróciło do stada.
+Dziecko zaczęło trenować, by zostać bandytą, ale nigdy nie wróciło do Was.
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]64
 [STORY]
-Młodzież była tak przygnębiona ich niepowodzeniem, że odeszli i nigdy nie wrócili. 
+Przygnębienie niepowodzeniem było tak ogromne, że młodzieniec odszedł i nigdy nie wróci. 
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]66
 [STORY]
 Dziecko zginęło.
 [/STORY]
-[OUT]Daj młodym obrzędy pogrzebowe.
+[OUT]Wykonajcie obrzędy pogrzebowe.
 [/NODE]
 
 +[NODE]67
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu ...
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów ...
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]68
 [STORY]
-Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczenia wewnątrz. 
+Młoda czarownica musi wejść w świat szarości i wewnątrz szukać swojego przeznaczenia. 
 [/STORY]
 [OUT][Magiczny użytkownik] Poprowadź młodą czarownicę.
 [OUT]Rozpocznij próby.
@@ -1781,14 +1789,14 @@ Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczeni
 
 +[NODE]69
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]70
 [STORY]
-Ścieżka zera jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, ale szansa na sukces jest niewielka bez odpowiedniego szkolenia.
+Ścieżka Żercy jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, a szansa na sukces jest niewielka bez odpowiedniego szkolenia.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1798,7 +1806,7 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania
 
 +[NODE]71
 [STORY]
-Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz wśród zbirów tego świata i znaleźć odwagę, aby powrócić do ciebie później.
+Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swoją pozycję wśród zbirów tego świata i znaleźć odwagę, aby powrócić do Was później.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1808,64 +1816,64 @@ Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszc
 
 +[NODE]72
 [STORY]
-Ścieżka losu zawsze wiruje w chaosie. Dziecko zostaje odesłane do lasu iz niego wynurzą się na nowo.
+Ścieżka losu zawsze prowadzi przez chaos. Dziecko zostaje odesłane do lasu by wyjść z niego obierając nowe wcielenie.
 [/STORY]
-[OUT]Rozpocznij ich próby.
+[OUT]Rozpocznijcie próby.
 [/NODE]
 
 +[NODE]74
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]75
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]76
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]77
 [STORY]
-Natura nie przekształciła twojego dziecka w swojego demona, zamiast tego będą teraz kroczyć ścieżką bestii. 
+Natura nie przekształciła Wasze dziecko w swojego demona, zamiast tego będzie teraz kroczyć ścieżką bestii. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]78
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu rzemiosła, a ponieważ wybraliście ścieżkę Światła, są bardziej wykwalifikowani niż zwykle.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu rzemieślników, a ponieważ wybraliście ścieżkę Światła, jego kwalifikacje są wyższe niż zwykle.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]88
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go i przeklęła, by żyć jak pająk!
+Wasze dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła je i przeklęła, by wiodło żywot pająka!
 [/STORY]
 [OUT]Witaj z powrotem.
 [/NODE]
 
 +[NODE]92
 [STORY]
-Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać się pokusie władzy, jeśli ma powrócić jako krewny.
+Młody chłopak musi podążać w głębiny szarego świata  opierając się pokusie władzy, jeśli ma powrócić jako godny.
 [/STORY]
 [OUT][Magiczny użytkownik lub Magiczna boska ścieżka] Poprowadź młodego.
 [OUT]Rozpocznij próby.
@@ -1878,49 +1886,49 @@ Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać 
 
 +[NODE]94
 [STORY]
-Chłopiec nie jest już młodością, dziś dołączają do mrocznej ścieżki niesławnego volh.
+Chłopiec nie jest już młody, dziś dołącza do mrocznej ścieżki zniesławionych wołochów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]95
 [STORY]
-Chłopiec nie jest już młodością, dziś dołączają do mrocznej ścieżki niesławnego volh.
+Chłopiec nie jest już młody, dziś dołącza do mrocznej ścieżki zniesławionych wołochów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]96
 [STORY]
-Dziecko odchodzi, a świat szarości pozbawia ich ciała, pozostawiając tylko kości. Mimo to wracają do ciebie. 
+Dziecko odchodzi, a świat szarości pozbawia je ciała, pozostawiając tylko same kości. Mimo to wraca ono do Was. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]98
 [STORY]
-Chłopiec nie był wystarczająco silny, by stać się volhem, ale zamiast tego może służyć jako gusla.
+Chłopiec nie był wystarczająco silny, by stać się wołochem, ale zamiast tego może służyć jako guślarz.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]99
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma nie mogła zaakceptować powrotu volh i przeklęła ich, by żyli jak nietoperz!
+Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma nie mogła zaakceptować powrotu wołocha i przeklęła go, by żył jako nietoperz!
 [/STORY]
 [OUT]Witaj z powrotem.
 [/NODE]
 
 +[NODE]100
 [STORY]
-Chłopiec nie był wystarczająco silny, aby stać się volhem, a ich próby okazały się bardzo złe, ale zamiast tego mogą służyć jako gusla. 
+Chłopiec nie był wystarczająco silny, aby stać się wołochem, a próby okazały się bardzo koszmarne w skutkach, może Wam służyć jako guślarz. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]101
 [STORY]
-Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać się pokusie władzy, jeśli ma powrócić jako krewny.
+Młody chłopak musi podążać w głębiny szarego świata  opierając się pokusie władzy, jeśli ma powrócić jako godny.
 [/STORY]
 [OUT][Magiczny użytkownik lub Magiczna boska ścieżka] Poprowadź młodego.
 [OUT]Rozpocznij próby.
@@ -1936,37 +1944,37 @@ Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać 
 -- [EVENT] --Childgrowingup__Sea(24)
 +[NODE]2
 [STORY]
-Traumatyczne wydarzenia ostatnich kilku dni pokazały, że twoje dziecko nie jest już dzieckiem. Teraz stoją przed czasem plonów, rytuału przejścia do dorosłości. 
+Traumatyczne wydarzenia ostatnich kilku dni pokazały, że jedno z Waszych dzieci nie jest już dzieckiem. Teraz stoi przed radą która dokona wyboru podczas rytuału przejścia do dorosłości. 
 
-Ale ta ścieżka nigdy nie jest łatwa. Musisz teraz wybrać, jaką podróż zabierze młody, jeśli bogowie chcą, mogą powrócić do ciebie jako dorosły.
+Ale ta ścieżka nigdy nie jest łatwa. Musisz teraz wybrać, jaką podróż obierze młoda latorośl, a jeśli taka będzie boska wola, wówczas powróci do ciebie jako dorosły.
 [/STORY]
-[OUT][Siła lub szansa] Twoje dziecko jest silne, pójdą ścieżką wojownika.
-[OUT][Postrzeganie] Twoje dziecko jest spostrzegawcze, może zostać myśliwym.
-[OUT][Mądrość i szansa] Dziecko jest mądre poza swymi latami, mogą trenować, by stać się duchowym przywódcą twojej trzody, zerka.
-[OUT][Spryt i szansa] Życie bandytyzmu to nieortodoksyjna ścieżka wysłania dziecka, ale ten świat jest surowy, a ty potrzebujesz zatwardziałego ludu.
-[OUT]Dobre rzemiosło jest tym, czego chcesz uczyć swoje dziecko
+[OUT][Siła lub szansa] Twoje dziecko jest silne, pozwól podążyć mu ścieżką wojownika.
+[OUT][Postrzeganie] Wasze dziecko jest spostrzegawcze, może zostać myśliwym.
+[OUT][Mądrość i szansa] Dziecko jest mądre jak na swój wiek, może trenować, by stać się duchowym przywódcą Waszej trzódki, czyli Żercą.
+[OUT][Spryt i szansa] Życie bandyty to trudna i odmienna ścieżka dla dziecka, ale ten świat jest surowy, a Wy potrzebujecie zatwardziałego ludu.
+[OUT]Dobre rzemiosło jest tym, czego chcecie nauczyć swoje dziecko.
 [OUT]Zbieracze są zawsze potrzebni, a szkolenie jest mniej niebezpieczne. 
-[OUT][Chance] Twoje dziecko zawsze było inne. Pozwól losowi całkowicie pokierować swoją ścieżką.
+[OUT][Chance] Twoje dziecko zawsze było inne. Pozwól losowi całkowicie pokierować jego ścieżką.
 [OUT][Mistycyzm, przypadek i kobieta] Twoje dziecko urodziło się ze znakiem czarownicy. Ta ścieżka jest mroczna i niebezpieczna.
-[OUT][Inteligencja] Twoje dziecko się uczy, być może może zostać uzdrowicielem.
+[OUT][Inteligencja] Twoje dziecko się uczy, może zostać uzdrowicielem.
 [OUT][Mistycyzm, przypadek i kobieta] Twoje dziecko urodziło się ze znakiem czarownicy. Ta ścieżka jest mroczna i niebezpieczna.
-[OUT][Mądrość i szansa] Dziecko jest mądre poza swymi latami, mogą trenować, by stać się duchowym przywódcą twojej trzody, zerka.
-[OUT][Spryt i szansa] Życie bandytyzmu to nieortodoksyjna ścieżka wysłania dziecka, ale ten świat jest surowy, a ty potrzebujesz zatwardziałego ludu.
-[OUT][Ścieżka natury] Zdecydowałeś się wzmocnić swój związek z Naturą, a zatem twoje dziecko może zostać przekształcone w leśnego demona, jeśli losy są oczywiście oczywiście ...
-[OUT][Ścieżka Marovita] Pozwól swojemu boskiemu losowi przekształcić dziecko.
+[OUT][Mądrość i szansa] Dziecko jest mądre jak na swój wiek, może trenować, by stać się duchowym przywódcą Waszej trzódki, czyli Żercą.
+[OUT][Spryt i szansa] Życie bandyty to trudna i odmienna ścieżka dla dziecka, ale ten świat jest surowy, a Wy potrzebujecie zatwardziałego ludu.
+[OUT][Ścieżka natury] Zdecydowałeś się wzmocnić swój związek z Naturą, a zatem Wasze dziecko może zostać przekształcone w leśnego demona, jeśli oczywiście los temu sprzyja ...
+[OUT][Ścieżka Marowita] Pozwól swojemu boskiemu losowi poprowadzić dziecko.
 [OUT][Ścieżka Łady] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Svaroga] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Striboga] Pozwól swojemu boskiemu losowi przekształcić dziecko.
-[OUT][Ścieżka Zoryi] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Nyii] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Triglava] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Dzievanny] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Horza] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Swaroga] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Strzyboga] Pozwól swojemu boskiemu losowi przekształcić dziecko.
+[OUT][Ścieżka Zorii] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Nyji] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Trzygława] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Dziewanny] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Chorsa] Pozwól swojemu boskiemu losowi przemienić dziecko.
 [/NODE]
 
 +[NODE]3
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -1975,14 +1983,14 @@ Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płas
 
 +[NODE]4
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów kasty wojowników. 
+Dziecko dorasta, dziś przyłącza się do dumnych szeregów kasty wojowników. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]6
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów kasty wojowników. 
+Dziecko dorasta, dziś przyłącza się do dumnych szeregów kasty wojowników. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -1991,8 +1999,8 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów 
 [STORY]
 Dziecko nie zdało egzaminu i grozi mu poważne niebezpieczeństwo.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]8
@@ -2006,21 +2014,21 @@ Podróż myśliwego jest ciemna i pełna niebezpieczeństw czających się na ka
 
 +[NODE]9
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliwych.
+Dziecko już małe, dziś dołącza do dumnych szeregów myśliwych.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]10
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliwych.
+Dziecko już małe, dziś dołącza do dumnych szeregów myśliwych.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]11
 [STORY]
-Ścieżka zerka jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, ale szansa na sukces jest niewielka bez odpowiedniego szkolenia.
+Ścieżka Żercy jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, a szansa na sukces jest niewielka bez odpowiedniego szkolenia.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2030,14 +2038,14 @@ Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliw
 
 +[NODE]12
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]13
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -2046,19 +2054,19 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania
 [STORY]
 Dziecko zginęło.
 [/STORY]
-[OUT]Daj młodym obrzędy pogrzebowe.
+[OUT]Wykonajcie obrzędy pogrzebowe.
 [/NODE]
 
 +[NODE]15
 [STORY]
-Dziecko zaginęło na wiele miesięcy. Z czasem wracają do ciebie, zmienieni - chropowaci i chorzy na dolegliwości przeklętych padlinożerców. 
+Dziecko zaginęło na wiele miesięcy. Z czasem wracają do ciebie, odmienione - brudni, śmierdzący i chorzy, przeklęci padlinożercy. 
 [/STORY]
-[OUT]To musi być wola bogów, ciesz się z powrotu dziecka jako dorosłego.
+[OUT]To musi być wola bogów, cieszcie się z powrotu dziecka jako dorosłego.
 [/NODE]
 
 +[NODE]16
 [STORY]
-Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz wśród zbirów tego świata i znaleźć odwagę, aby powrócić do ciebie później.
+Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swoją pozycję wśród zbirów tego świata i znaleźć odwagę, aby powrócić do Was później.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2070,45 +2078,45 @@ Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszc
 [STORY]
 Dziecko nie zdało egzaminu i grozi mu poważne niebezpieczeństwo.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]18
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu.
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu ...
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów ...
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]20
 [STORY]
-Dziecko zaczęło trenować na bandytę, ale zginęło straszliwie z rąk zbirów.
+Dziecko zaczęło terning bandycki, ale zginęło z rąk zbirów.
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]21
 [STORY]
-Dziecko nie zdało egzaminów, a konsekwencje często mogą być tragiczne dla takiego młodego umysłu.
+Dziecko nie zdało egzaminów, a konsekwencje często mogą być tragiczne dla tak młodego umysłu.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]22
 [STORY]
-Młodzież była tak przygnębiona ich niepowodzeniem, że odeszli i nigdy nie wrócili. 
+Przygnębienie niepowodzeniem było tak ogromne, że młodzieniec odszedł i nigdy nie wróci. 
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]23
@@ -2120,11 +2128,11 @@ Dziecko nie mogło stać się tym, do czego było przeznaczone, ale zamiast tego
 
 +[NODE]24
 [STORY]
-Dziecko jest zawstydzone przez swoją porażkę i nigdy nie ma zbyt wiele w życiu. 
+Dziecko jest zawstydzone swoją porażką nigdy nie miało zbyt wiele od życia. 
 
-Oni jednak rozmnażają się z goblinem i zostawiają potomstwo dla twojej opieki.
+Jest potomkiem goblińskim które pozostało pod Waszą opieką.
 [/STORY]
-[OUT]Raduj się ...
+[OUT]Radujcie się ...
 [/NODE]
 
 +[NODE]25
@@ -2139,14 +2147,14 @@ Oni jednak rozmnażają się z goblinem i zostawiają potomstwo dla twojej opiek
 
 +[NODE]26
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła.
+Dziecko już nie jest młode, dziś dołącza do dumnego cechu rzemieślników.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]27
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła.
+Dziecko już nie jest młode, dziś dołącza do dumnego cechu rzemieślników.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -2155,9 +2163,9 @@ Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła
 [STORY]
 Dziecko zawiodło w próbach, a konsekwencje często mogą być tragiczne dla takiego młodego umysłu.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]30
@@ -2171,73 +2179,73 @@ Dziecko zawiodło w próbach, a konsekwencje często mogą być tragiczne dla ta
 
 +[NODE]31
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu zbieraczy.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu zbieraczy.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]32
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu zbieraczy.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu zbieraczy.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]34
 [STORY]
-Ścieżka losu zawsze wiruje w chaosie. Dziecko zostaje odesłane w ciemność i z niego wynurzą się na nowo.
+Ścieżka losu zawsze przeplatana jest chaosem. Dziecko zostaje odesłane w ciemność a potem wynurza sie z niej się na nowo.
 [/STORY]
-[OUT]Rozpocznij ich próby.
+[OUT]Rozpocznijcie próby.
 [/NODE]
 
 +[NODE]36
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem! 
+Wasze dziecko było w rzeczywistości uzurpatorem! 
 
-Teraz wyrósł na demona, ale oni są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Teraz wyrosło na demona, ale jest ono tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]37
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem! 
+Wasze dziecko było w rzeczywistości uzurpatorem! 
 
-Teraz wyrósł na demona, ale oni są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Teraz wyrosło na demona, ale jest ono tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem, a raczej przeklęte, by żyć pod fałszywą postacią. 
+Wasze dziecko było w rzeczywistości uzurpatorem, a raczej było przeklęte i żyło pod fałszywą postacią. 
 
-Na ścieżce losu powrócił ich prawdziwy obraz, ale zawsze są lojalni wobec twojej sprawy i krewnych.
+Na ścieżce losu wyłonił się prawdziwy obraz, ale zawsze będzie lojalne wobec Waszej sprawy i krewnych.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]40
 [STORY]
-Niestety, twoje dziecko kroczyło ścieżką losu, a los nie miał dobrych rzeczy w zapasie. 
+Niestety, Wasze dziecko skroczyło ścieżką losu, ale los nie był łaskawy dla niego. 
 
-Nie mówią o tym, co ich spotkało, ale wracają osłabieni i przygnębieni, ale także towarzyszy im przyjaciel szczura.
+Nie mówiąc o tym, co je spotkało, wraca osłabione i przygnębione, ale także towarzyszy mu szczurzy przyjaciel.
 [/STORY]
 [OUT]Radujcie się, że wrócili żywi.
 [/NODE]
 
 +[NODE]41
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem, a raczej przeklęte, by żyć pod fałszywą postacią. 
+Wasze dziecko było w rzeczywistości uzurpatorem, a raczej było przeklęte i żyło pod fałszywą postacią. 
 
-Na ścieżce losu powrócił ich prawdziwy obraz, ale zawsze są lojalni wobec twojej sprawy i krewnych.
+Na ścieżce losu wyłonił się prawdziwy obraz, ale zawsze będzie lojalne wobec Waszej sprawy i krewnych.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]49
 [STORY]
-Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczenia wewnątrz. 
+Młoda czarownica musi wejść w świat szarości i wewnątrz szukać swojego przeznaczenia. 
 [/STORY]
 [OUT][Magiczny użytkownik lub magiczna boska ścieżka] Poprowadź młodą czarownicę.
 [OUT]Rozpocznij próby.
@@ -2250,35 +2258,35 @@ Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczeni
 
 +[NODE]51
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]52
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]53
 [STORY]
-Dziecko odchodzi, a świat szarości pozbawia ich ciała, pozostawiając tylko gniewnego ducha. Mimo to wracają do ciebie. 
+Dziecko odchodzi, a świat szarości pozbawia je ciała, pozostawiając tylko gniewnego ducha. Mimo to wraca do Was. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]54
 [STORY]
-Dziecko nie jest już młodością, dziś przyłącza się do mrocznej ścieżki czarów, ale nie bez płacenia świetnej ceny za mroczną sztukę.
+Dziecko nie jest już młode, dziś przyłącza się do mrocznej ścieżki czarów, ale musiało zapłacić srogą cenę za mroczne sztuki.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]55
 [STORY]
-Ścieżka, której uzdrowiciel nie jest wyzwaniem fizycznym, ale niewielu ma mądrość lub wytrwałość, aby odnieść sukces.
+Ścieżka uzdrowicieli nie jest wyzwaniem fizycznym, ale niewielu ma mądrość lub wytrwałość, aby odnieść sukces.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2288,70 +2296,70 @@ Dziecko nie jest już młodością, dziś przyłącza się do mrocznej ścieżki
 
 +[NODE]56
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela i dzięki ścieżce Harmonii, los uśmiecha się do nich w tym dniu.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela i dzięki ścieżce Harmonii, los obdarza go swym uśmiechem.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]57
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]58
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go i przeklęła, by żyć jak szczur!
+Wasze dziecko było obdarzone magią, niestety, zazdrosna wiedźma odnalazła je i przeklęła, by wiodło życie jako szczur!
 [/STORY]
 [OUT]Witaj z powrotem.
 [/NODE]
 
 +[NODE]59
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]60
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]61
 [STORY]
-Dziecko zaczęło trenować, by zostać bandytą, ale nigdy nie wróciło do stada.
+Dziecko zaczęło trenować, by zostać bandytą, ale nigdy nie wróciło do Was.
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]64
 [STORY]
-Młodzież była tak przygnębiona ich niepowodzeniem, że odeszli i nigdy nie wrócili. 
+Przygnębienie niepowodzeniem było tak ogromne, że młodzieniec odszedł i nigdy nie wróci. 
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]66
 [STORY]
 Dziecko zginęło.
 [/STORY]
-[OUT]Daj młodym obrzędy pogrzebowe.
+[OUT]Wykonajcie obrzędy pogrzebowe.
 [/NODE]
 
 +[NODE]67
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu ...
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów ...
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]68
 [STORY]
-Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczenia wewnątrz. 
+Młoda czarownica musi wejść w świat szarości i wewnątrz szukać swojego przeznaczenia. 
 [/STORY]
 [OUT][Magiczny użytkownik] Poprowadź młodą czarownicę.
 [OUT]Rozpocznij próby.
@@ -2364,14 +2372,14 @@ Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczeni
 
 +[NODE]69
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]70
 [STORY]
-Ścieżka zerka jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, ale szansa na sukces jest niewielka bez odpowiedniego szkolenia.
+Ścieżka Żercy jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, a szansa na sukces jest niewielka bez odpowiedniego szkolenia.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2381,7 +2389,7 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania
 
 +[NODE]71
 [STORY]
-Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz wśród zbirów tego świata i znaleźć odwagę, aby powrócić do ciebie później.
+Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swoją pozycję wśród zbirów tego świata i znaleźć odwagę, aby powrócić do Was później.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2391,57 +2399,57 @@ Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszc
 
 +[NODE]72
 [STORY]
-Ścieżka losu zawsze wiruje w chaosie. Dziecko zostaje odesłane do lasu iz niego wynurzą się na nowo.
+Ścieżka losu zawsze prowadzi przez chaos. Dziecko zostaje odesłane do lasu by wyjść z niego obierając nowe wcielenie.
 [/STORY]
-[OUT]Rozpocznij ich próby.
+[OUT]Rozpocznijcie próby.
 [/NODE]
 
 +[NODE]74
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]75
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]76
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]77
 [STORY]
-Natura nie przekształciła twojego dziecka w swojego demona, zamiast tego będą teraz kroczyć ścieżką bestii. 
+Natura nie przekształciła Wasze dziecko w swojego demona, zamiast tego będzie teraz kroczyć ścieżką bestii. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]78
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu rzemiosła, a ponieważ wybraliście ścieżkę Światła, są bardziej wykwalifikowani niż zwykle.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu rzemieślników, a ponieważ wybraliście ścieżkę Światła, jego kwalifikacje są wyższe niż zwykle.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]88
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go i przeklęła, by żyć jak pająk!
+Wasze dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła je i przeklęła, by wiodło żywot pająka!
 [/STORY]
 [OUT]Witaj z powrotem.
 [/NODE]
@@ -2451,39 +2459,39 @@ Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go 
 -- [EVENT] --Childgrowingup Sea2(25)
 +[NODE]2
 [STORY]
-Traumatyczne wydarzenia ostatnich kilku dni pokazały, że twoje dziecko nie jest już dzieckiem. Teraz stoją przed czasem plonów, rytuału przejścia do dorosłości. 
+Traumatyczne wydarzenia ostatnich kilku dni pokazały, że jedno z Waszych dzieci nie jest już dzieckiem. Teraz stoi przed radą która dokona wyboru podczas rytuału przejścia do dorosłości. 
 
-Ale ta ścieżka nigdy nie jest łatwa. Musisz teraz wybrać, jaką podróż zabierze młody, jeśli bogowie chcą, mogą powrócić do ciebie jako dorosły.
+Ale ta ścieżka nigdy nie jest łatwa. Musisz teraz wybrać, jaką podróż obierze młoda latorośl, a jeśli taka będzie boska wola, wówczas powróci do ciebie jako dorosły.
 [/STORY]
-[OUT][Siła lub szansa] Twoje dziecko jest silne, pójdą ścieżką wojownika.
-[OUT][Postrzeganie] Twoje dziecko jest spostrzegawcze, może zostać myśliwym.
-[OUT][Mądrość i szansa] Dziecko jest mądre poza swymi latami, mogą trenować, by stać się duchowym przywódcą twojej trzody, zerka.
-[OUT][Spryt i szansa] Życie bandytyzmu to nieortodoksyjna ścieżka wysłania dziecka, ale ten świat jest surowy, a ty potrzebujesz zatwardziałego ludu.
-[OUT]Dobre rzemiosło jest tym, czego chcesz uczyć swoje dziecko
+[OUT][Siła lub szansa] Twoje dziecko jest silne, pozwól podążyć mu ścieżką wojownika.
+[OUT][Postrzeganie] Wasze dziecko jest spostrzegawcze, może zostać myśliwym.
+[OUT][Mądrość i szansa] Dziecko jest mądre jak na swój wiek, może trenować, by stać się duchowym przywódcą Waszej trzódki, czyli Żercą.
+[OUT][Spryt i szansa] Życie bandyty to trudna i odmienna ścieżka dla dziecka, ale ten świat jest surowy, a Wy potrzebujecie zatwardziałego ludu.
+[OUT]Dobre rzemiosło jest tym, czego chcecie nauczyć swoje dziecko.
 [OUT]Zbieracze są zawsze potrzebni, a szkolenie jest mniej niebezpieczne. 
-[OUT][Chance] Twoje dziecko zawsze było inne. Pozwól losowi całkowicie pokierować swoją ścieżką.
+[OUT][Chance] Twoje dziecko zawsze było inne. Pozwól losowi całkowicie pokierować jego ścieżką.
 [OUT][Mistycyzm, przypadek i kobieta] Twoje dziecko urodziło się ze znakiem czarownicy. Ta ścieżka jest mroczna i niebezpieczna.
-[OUT][Inteligencja] Twoje dziecko się uczy, być może może zostać uzdrowicielem.
+[OUT][Inteligencja] Wasze dziecko się uczy, może zostać uzdrowicielem.
 [OUT][Mistycyzm, przypadek i kobieta] Twoje dziecko urodziło się ze znakiem czarownicy. Ta ścieżka jest mroczna i niebezpieczna.
-[OUT][Mądrość i szansa] Dziecko jest mądre poza swymi latami, mogą trenować, by stać się duchowym przywódcą twojej trzody, zerka.
-[OUT][Spryt i szansa] Życie bandytyzmu to nieortodoksyjna ścieżka wysłania dziecka, ale ten świat jest surowy, a ty potrzebujesz zatwardziałego ludu.
-[OUT][Ścieżka natury] Zdecydowałeś się wzmocnić swój związek z Naturą, a zatem twoje dziecko może zostać przekształcone w leśnego demona, jeśli losy są oczywiście oczywiście ...
-[OUT][Ścieżka Marovita] Pozwól swojemu boskiemu losowi przekształcić dziecko.
+[OUT][Mądrość i szansa] Dziecko jest mądre jak na swój wiek, może trenować, by stać się duchowym przywódcą Waszej trzódki, czyli Żercą.
+[OUT][Spryt i szansa] Życie bandyty to trudna i odmienna ścieżka dla dziecka, ale ten świat jest surowy, a Wy potrzebujecie zatwardziałego ludu.
+[OUT][Ścieżka natury] Zdecydowałeś się wzmocnić swój związek z Naturą, a zatem Wasze dziecko może zostać przekształcone w leśnego demona, jeśli oczywiście los temu sprzyja ...
+[OUT][Ścieżka Marowita] Pozwól swojemu boskiemu losowi poprowadzić dziecko.
 [OUT][Ścieżka Łady] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Svaroga] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Striboga] Pozwól swojemu boskiemu losowi przekształcić dziecko.
-[OUT][Ścieżka Zoryi] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Nyii] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Triglava] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Dzievanny] Pozwól swojemu boskiemu losowi przemienić dziecko.
-[OUT][Ścieżka Horza] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Swaroga] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Strzyboga] Pozwól swojemu boskiemu losowi przekształcić dziecko.
+[OUT][Ścieżka Zorii] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Nyji] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Trzygława] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Dziewanny] Pozwól swojemu boskiemu losowi przemienić dziecko.
+[OUT][Ścieżka Chorsa] Pozwól swojemu boskiemu losowi przemienić dziecko.
 [OUT][Mistycyzm, przypadek i mężczyzna] Twoje dziecko urodziło się ze znakiem mistycznym. Ta ścieżka jest mroczna i niebezpieczna.
 [OUT][Mistycyzm, przypadek i mężczyzna] Twoje dziecko urodziło się ze znakiem mistycznym. Ta ścieżka jest mroczna i niebezpieczna.
 [/NODE]
 
 +[NODE]3
 [STORY]
-Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz na wolności i przeciwstawić się silniejszym przeciwnikom. 
+Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój kunszt władania bronią i przeciwstawić się silniejszym przeciwnikom. 
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2492,14 +2500,14 @@ Próby wojownika są trudne i niebezpieczne. Dziecko musi udowodnić swój płas
 
 +[NODE]4
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów kasty wojowników. 
+Dziecko dorasta, dziś przyłącza się do dumnych szeregów kasty wojowników. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]6
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów kasty wojowników. 
+Dziecko dorasta, dziś przyłącza się do dumnych szeregów kasty wojowników. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -2508,8 +2516,8 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnych szeregów 
 [STORY]
 Dziecko nie zdało egzaminu i grozi mu poważne niebezpieczeństwo.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]8
@@ -2523,21 +2531,21 @@ Podróż myśliwego jest ciemna i pełna niebezpieczeństw czających się na ka
 
 +[NODE]9
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliwych.
+Dziecko już małe, dziś dołącza do dumnych szeregów myśliwych.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]10
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliwych.
+Dziecko już małe, dziś dołącza do dumnych szeregów myśliwych.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]11
 [STORY]
-Ścieżka zerka jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, ale szansa na sukces jest niewielka bez odpowiedniego szkolenia.
+Ścieżka Żercy jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, a szansa na sukces jest niewielka bez odpowiedniego szkolenia.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2547,14 +2555,14 @@ Dziecko już nie jest młodością, dziś dołącza do dumnych szeregów myśliw
 
 +[NODE]12
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]13
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -2563,19 +2571,19 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania
 [STORY]
 Dziecko zginęło.
 [/STORY]
-[OUT]Daj młodym obrzędy pogrzebowe.
+[OUT]Wykonajcie obrzędy pogrzebowe.
 [/NODE]
 
 +[NODE]15
 [STORY]
-Dziecko zaginęło na wiele miesięcy. Z czasem wracają do ciebie, zmienieni - chropowaci i chorzy na dolegliwości przeklętych padlinożerców. 
+Dziecko zaginęło na wiele miesięcy. Z czasem wracają do ciebie, odmienione - brudni, śmierdzący i chorzy, przeklęci padlinożercy. 
 [/STORY]
-[OUT]To musi być wola bogów, ciesz się z powrotu dziecka jako dorosłego.
+[OUT]To musi być wola bogów, cieszcie się z powrotu dziecka jako dorosłego.
 [/NODE]
 
 +[NODE]16
 [STORY]
-Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz wśród zbirów tego świata i znaleźć odwagę, aby powrócić do ciebie później.
+Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swoją pozycję wśród zbirów tego świata i znaleźć odwagę, aby powrócić do Was później.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2587,45 +2595,45 @@ Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszc
 [STORY]
 Dziecko nie zdało egzaminu i grozi mu poważne niebezpieczeństwo.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]18
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu.
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]19
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu ...
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów ...
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]20
 [STORY]
-Dziecko zaczęło trenować na bandytę, ale zginęło straszliwie z rąk zbirów.
+Dziecko zaczęło terning bandycki, ale zginęło z rąk zbirów.
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]21
 [STORY]
-Dziecko nie zdało egzaminów, a konsekwencje często mogą być tragiczne dla takiego młodego umysłu.
+Dziecko nie zdało egzaminów, a konsekwencje często mogą być tragiczne dla tak młodego umysłu.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]22
 [STORY]
-Młodzież była tak przygnębiona ich niepowodzeniem, że odeszli i nigdy nie wrócili. 
+Przygnębienie niepowodzeniem było tak ogromne, że młodzieniec odszedł i nigdy nie wróci. 
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]23
@@ -2637,11 +2645,11 @@ Dziecko nie mogło stać się tym, do czego było przeznaczone, ale zamiast tego
 
 +[NODE]24
 [STORY]
-Dziecko jest zawstydzone przez swoją porażkę i nigdy nie ma zbyt wiele w życiu. 
+Dziecko jest zawstydzone swoją porażką nigdy nie miało zbyt wiele od życia. 
 
-Oni jednak rozmnażają się z goblinem i zostawiają potomstwo dla twojej opieki.
+Jest potomkiem goblińskim które pozostało pod Waszą opieką.
 [/STORY]
-[OUT]Raduj się ...
+[OUT]Radujcie się ...
 [/NODE]
 
 +[NODE]25
@@ -2656,14 +2664,14 @@ Oni jednak rozmnażają się z goblinem i zostawiają potomstwo dla twojej opiek
 
 +[NODE]26
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła.
+Dziecko już nie jest młode, dziś dołącza do dumnego cechu rzemieślników.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]27
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła.
+Dziecko już nie jest młode, dziś dołącza do dumnego cechu rzemieślników.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
@@ -2672,9 +2680,9 @@ Dziecko już nie jest młodością, dziś dołącza do dumnego zawodu rzemiosła
 [STORY]
 Dziecko zawiodło w próbach, a konsekwencje często mogą być tragiczne dla takiego młodego umysłu.
 [/STORY]
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
-[OUT]Oczekuj ich losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
+[OUT]Oczekujcie jego dalszego losu.
 [/NODE]
 
 +[NODE]30
@@ -2688,73 +2696,73 @@ Dziecko zawiodło w próbach, a konsekwencje często mogą być tragiczne dla ta
 
 +[NODE]31
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu zbieraczy.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu zbieraczy.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]32
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu zbieraczy.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu zbieraczy.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]34
 [STORY]
-Ścieżka losu zawsze wiruje w chaosie. Dziecko zostaje odesłane w ciemność i z niego wynurzą się na nowo.
+Ścieżka losu zawsze przeplatana jest chaosem. Dziecko zostaje odesłane w ciemność a potem wynurza sie z niej się na nowo.
 [/STORY]
-[OUT]Rozpocznij ich próby.
+[OUT]Rozpocznijcie próby.
 [/NODE]
 
 +[NODE]36
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem! 
+Wasze dziecko było w rzeczywistości uzurpatorem! 
 
-Teraz wyrósł na demona, ale oni są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Teraz wyrosło na demona, ale jest ono tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]37
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem! 
+Wasze dziecko było w rzeczywistości uzurpatorem! 
 
-Teraz wyrósł na demona, ale oni są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Teraz wyrosło na demona, ale jest ono tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]39
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem, a raczej przeklęte, by żyć pod fałszywą postacią. 
+Wasze dziecko było w rzeczywistości uzurpatorem, a raczej było przeklęte i żyło pod fałszywą postacią. 
 
-Na ścieżce losu powrócił ich prawdziwy obraz, ale zawsze są lojalni wobec twojej sprawy i krewnych.
+Na ścieżce losu wyłonił się prawdziwy obraz, ale zawsze będzie lojalne wobec Waszej sprawy i krewnych.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]40
 [STORY]
-Niestety, twoje dziecko kroczyło ścieżką losu, a los nie miał dobrych rzeczy w zapasie. 
+Niestety, Wasze dziecko skroczyło ścieżką losu, ale los nie był łaskawy dla niego. 
 
-Nie mówią o tym, co ich spotkało, ale wracają osłabieni i przygnębieni, ale także towarzyszy im przyjaciel szczura.
+Nie mówiąc o tym, co je spotkało, wraca osłabione i przygnębione, ale także towarzyszy mu szczurzy przyjaciel.
 [/STORY]
 [OUT]Radujcie się, że wrócili żywi.
 [/NODE]
 
 +[NODE]41
 [STORY]
-Twoje dziecko było w rzeczywistości uzurpatorem, a raczej przeklęte, by żyć pod fałszywą postacią. 
+Wasze dziecko było w rzeczywistości uzurpatorem, a raczej było przeklęte i żyło pod fałszywą postacią. 
 
-Na ścieżce losu powrócił ich prawdziwy obraz, ale zawsze są lojalni wobec twojej sprawy i krewnych.
+Na ścieżce losu wyłonił się prawdziwy obraz, ale zawsze będzie lojalne wobec Waszej sprawy i krewnych.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]49
 [STORY]
-Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczenia wewnątrz. 
+Młoda czarownica musi wejść w świat szarości i wewnątrz szukać swojego przeznaczenia. 
 [/STORY]
 [OUT][Magiczny użytkownik lub magiczna boska ścieżka] Poprowadź młodą czarownicę.
 [OUT]Rozpocznij próby.
@@ -2767,35 +2775,35 @@ Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczeni
 
 +[NODE]51
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]52
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]53
 [STORY]
-Dziecko odchodzi, a świat szarości pozbawia ich ciała, pozostawiając tylko gniewnego ducha. Mimo to wracają do ciebie. 
+Dziecko odchodzi, a świat szarości pozbawia je ciała, pozostawiając tylko gniewnego ducha. Mimo to wraca do Was. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]54
 [STORY]
-Dziecko nie jest już młodością, dziś przyłącza się do mrocznej ścieżki czarów, ale nie bez płacenia świetnej ceny za mroczną sztukę.
+Dziecko nie jest już młode, dziś przyłącza się do mrocznej ścieżki czarów, ale musiało zapłacić srogą cenę za mroczne sztuki.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]55
 [STORY]
-Ścieżka, której uzdrowiciel nie jest wyzwaniem fizycznym, ale niewielu ma mądrość lub wytrwałość, aby odnieść sukces.
+Ścieżka uzdrowicieli nie jest wyzwaniem fizycznym, ale niewielu ma mądrość lub wytrwałość, aby odnieść sukces.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2805,21 +2813,21 @@ Dziecko nie jest już młodością, dziś przyłącza się do mrocznej ścieżki
 
 +[NODE]56
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela i dzięki ścieżce Harmonii, los uśmiecha się do nich w tym dniu.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela i dzięki ścieżce Harmonii, los obdarza go swym uśmiechem.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]57
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]58
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go i przeklęła, by żyć jak szczur!
+Wasze dziecko było obdarzone magią, niestety, zazdrosna wiedźma odnalazła je i przeklęła, by wiodło życie jako szczur!
 [/STORY]
 [OUT]Witaj z powrotem.
 [OUT]Witaj z powrotem.
@@ -2827,49 +2835,49 @@ Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go 
 
 +[NODE]59
 [STORY]
-Dziecko już nie jest młodością, dziś dołącza do mrocznej ścieżki czarów.
+Dziecko już nie jest młode, dziś dołącza do mrocznej ścieżki czarów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]60
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania zerki.
+Dziecko już nie jest małe, dziś przyłącza się do dumnego powołania Żerców.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]61
 [STORY]
-Dziecko zaczęło trenować, by zostać bandytą, ale nigdy nie wróciło do stada.
+Dziecko zaczęło trenować, by zostać bandytą, ale nigdy nie wróciło do Was.
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]64
 [STORY]
-Młodzież była tak przygnębiona ich niepowodzeniem, że odeszli i nigdy nie wrócili. 
+Przygnębienie niepowodzeniem było tak ogromne, że młodzieniec odszedł i nigdy nie wróci. 
 [/STORY]
-[OUT]Opłakuj porażkę dziecka i ruszaj dalej.
+[OUT]Opłakujcie porażkę dziecka i ruszajcie dalej.
 [/NODE]
 
 +[NODE]66
 [STORY]
 Dziecko zginęło.
 [/STORY]
-[OUT]Daj młodym obrzędy pogrzebowe.
+[OUT]Wykonajcie obrzędy pogrzebowe.
 [/NODE]
 
 +[NODE]67
 [STORY]
-Dziecko nie jest już młodością, dziś dołącza do wątpliwych szeregów bandytyzmu ...
+Dziecko nie jest już małe, dziś dołącza do szemranych szeregów bandytów ...
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]68
 [STORY]
-Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczenia wewnątrz. 
+Młoda czarownica musi wejść w świat szarości i wewnątrz szukać swojego przeznaczenia. 
 [/STORY]
 [OUT][Magiczny użytkownik] Poprowadź młodą czarownicę.
 [OUT]Rozpocznij próby.
@@ -2882,14 +2890,14 @@ Młoda czarownica musi wejść w świat szarości i szukać swojego przeznaczeni
 
 +[NODE]69
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania uzdrowiciela.
+Dziecko już nie jest młode, dziś doświadcza dumnego powołania uzdrowiciela.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]70
 [STORY]
-Ścieżka zerka jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, ale szansa na sukces jest niewielka bez odpowiedniego szkolenia.
+Ścieżka Żercy jest ścieżką duchową. Istnieje kilka zagrożeń fizycznych, a szansa na sukces jest niewielka bez odpowiedniego szkolenia.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2899,7 +2907,7 @@ Dziecko już nie jest młodością, dziś przyłącza się do dumnego powołania
 
 +[NODE]71
 [STORY]
-Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszcz wśród zbirów tego świata i znaleźć odwagę, aby powrócić do ciebie później.
+Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swoją pozycję wśród zbirów tego świata i znaleźć odwagę, aby powrócić do Was później.
 [/STORY]
 [OUT]Rozpocznij próby.
 [OUT]Rozpocznij próby.
@@ -2909,64 +2917,64 @@ Próby bandyty są trudne i niebezpieczne. Dziecko musi udowodnić swój płaszc
 
 +[NODE]72
 [STORY]
-Ścieżka losu zawsze wiruje w chaosie. Dziecko zostaje odesłane do lasu iz niego wynurzą się na nowo.
+Ścieżka losu zawsze prowadzi przez chaos. Dziecko zostaje odesłane do lasu by wyjść z niego obierając nowe wcielenie.
 [/STORY]
-[OUT]Rozpocznij ich próby.
+[OUT]Rozpocznijcie próby.
 [/NODE]
 
 +[NODE]74
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]75
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]76
 [STORY]
-Natura przekształciła twoje dziecko w leśnego demona. 
+Natura przekształciła Wasze dziecko w leśnego demona. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]77
 [STORY]
-Natura nie przekształciła twojego dziecka w swojego demona, zamiast tego będą teraz kroczyć ścieżką bestii. 
+Natura nie przekształciła Wasze dziecko w swojego demona, zamiast tego będzie teraz kroczyć ścieżką bestii. 
 
-Ale są tak samo lojalni wobec ciebie i twoich bogów, jak wcześniej.
+Jest tak samo lojalne wobec Was i Waszych bogów, jak wcześniej.
 [/STORY]
-[OUT]Raduj się!
+[OUT]Radujcie się!
 [/NODE]
 
 +[NODE]78
 [STORY]
-Dziecko już nie jest młodością, dziś przyłącza się do dumnego zawodu rzemiosła, a ponieważ wybraliście ścieżkę Światła, są bardziej wykwalifikowani niż zwykle.
+Dziecko już nie jest młode, dziś przyłącza się do dumnego cechu rzemieślników, a ponieważ wybraliście ścieżkę Światła, jego kwalifikacje są wyższe niż zwykle.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]88
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła go i przeklęła, by żyć jak pająk!
+Wasze dziecko było obdarzone magią, niestety, zazdrosna wiedźma znalazła je i przeklęła, by wiodło żywot pająka!
 [/STORY]
 [OUT]Witaj z powrotem.
 [/NODE]
 
 +[NODE]92
 [STORY]
-Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać się pokusie władzy, jeśli ma powrócić jako krewny.
+Młody chłopak musi podążać w głębiny szarego świata  opierając się pokusie władzy, jeśli ma powrócić jako godny.
 [/STORY]
 [OUT][Magiczny użytkownik lub Magiczna boska ścieżka] Poprowadź młodego.
 [OUT]Rozpocznij próby.
@@ -2979,49 +2987,49 @@ Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać 
 
 +[NODE]94
 [STORY]
-Chłopiec nie jest już młodością, dziś dołączają do mrocznej ścieżki niesławnego volh.
+Chłopiec nie jest już młody, dziś dołącza do mrocznej ścieżki zniesławionych wołochów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]95
 [STORY]
-Chłopiec nie jest już młodością, dziś dołączają do mrocznej ścieżki niesławnego volh.
+Chłopiec nie jest już młody, dziś dołącza do mrocznej ścieżki zniesławionych wołochów.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]96
 [STORY]
-Dziecko odchodzi, a świat szarości pozbawia ich ciała, pozostawiając tylko kości. Mimo to wracają do ciebie. 
+Dziecko odchodzi, a świat szarości pozbawia je ciała, pozostawiając tylko same kości. Mimo to wraca ono do Was. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]98
 [STORY]
-Chłopiec nie był wystarczająco silny, by stać się volhem, ale zamiast tego może służyć jako gusla.
+Chłopiec nie był wystarczająco silny, by stać się wołochem, ale zamiast tego może służyć jako guślarz.
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]99
 [STORY]
-Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma nie mogła zaakceptować powrotu volh i przeklęła ich, by żyli jak nietoperz!
+Twoje dziecko było obdarzone magią, niestety, zazdrosna wiedźma nie mogła zaakceptować powrotu wołocha i przeklęła go, by żył jako nietoperz!
 [/STORY]
 [OUT]Witaj z powrotem.
 [/NODE]
 
 +[NODE]100
 [STORY]
-Chłopiec nie był wystarczająco silny, aby stać się volhem, a ich próby okazały się bardzo złe, ale zamiast tego mogą służyć jako gusla. 
+Chłopiec nie był wystarczająco silny, aby stać się wołochem, a próby okazały się bardzo koszmarne w skutkach, może Wam służyć jako guślarz. 
 [/STORY]
 [OUT]Radujcie się.
 [/NODE]
 
 +[NODE]101
 [STORY]
-Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać się pokusie władzy, jeśli ma powrócić jako krewny.
+Młody chłopak musi podążać w głębiny szarego świata  opierając się pokusie władzy, jeśli ma powrócić jako godny.
 [/STORY]
 [OUT][Magiczny użytkownik lub Magiczna boska ścieżka] Poprowadź młodego.
 [OUT]Rozpocznij próby.
@@ -3039,7 +3047,7 @@ Młody chłopak musi podążać za wolą w głębiny szarego świata i opierać 
 [STORY]
 Twój wezwany sojusznik wygasł.
 [/STORY]
-[OUT]Odchodzicie.
+[OUT]Odejdźcie.
 [/NODE]
 
 [/EVENT]
