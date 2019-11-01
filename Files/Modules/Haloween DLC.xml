@@ -2203,15 +2203,15 @@ There is a map attached.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1427" positionY="-433" width="350" height="530" logBookName="QUEST_HALLOWINV" logBookDescription="QUEST_HALLOWINV_DES" linkedEventUniqueID="0" />
   </Adventure>
-  <Adventure name="Bear village" uniqueID="13" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="79" eventTag="TAG-LOG_HALOWEEN" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="1142" image="Event323">
-      <outputs ownerID="1" targetID="69" group="G1" fromX="334" fromY="-613" />
-      <outputs ownerID="1" targetID="74" group="G1" fromX="334" fromY="-693" />
-      <outputs ownerID="1" targetID="75" group="G1" fromX="334" fromY="-773" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-854" />
-      <outputs ownerID="1" targetID="52" group="G1" fromX="334" fromY="-934" />
-      <outputs ownerID="1" targetID="79" group="G1" fromX="334" fromY="-1014" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-1094" />
+  <Adventure name="Bear village" uniqueID="13" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="79" eventTag="TAG-LOG_HALOWEEN" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="1264" image="Event323">
+      <outputs ownerID="1" targetID="69" group="G1" fromX="334" fromY="-735" />
+      <outputs ownerID="1" targetID="74" group="G1" fromX="334" fromY="-815" />
+      <outputs ownerID="1" targetID="75" group="G1" fromX="334" fromY="-895" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-975" />
+      <outputs ownerID="1" targetID="52" group="G1" fromX="334" fromY="-1056" />
+      <outputs ownerID="1" targetID="79" group="G1" fromX="334" fromY="-1136" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-1216" />
     </nodes>
     <nodes xsi:type="NodeAdventure" allowOnce="true" ID="2" positionX="415" positionY="-41" width="350" height="725">
       <logic>
@@ -3993,10 +3993,10 @@ He walks away with his son. Gurtek nods to you, acknowledging you just saved his
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="6069" positionY="-1047" width="350" height="530" logBookName="QUEST_HALLOW_WOOD" logBookDescription="QUEST_HALLOW_WOOD_DES1" linkedEventUniqueID="0" />
   </Adventure>
-  <Adventure name="Forefathers" uniqueID="19" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="65" eventTag="TAG-LOG_HALOWEEN" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event324">
-      <outputs ownerID="1" targetID="37" group="G1" fromX="334" fromY="-613" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-693" />
+  <Adventure name="Forefathers" uniqueID="19" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="65" eventTag="TAG-LOG_HALOWEEN" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="863" image="Event324">
+      <outputs ownerID="1" targetID="37" group="G1" fromX="334" fromY="-735" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-815" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="426" positionY="-201" width="350" height="805">
       <logic>
