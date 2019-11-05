@@ -18596,8 +18596,8 @@
       <Group>DES_RES_ALCHEMY_SKIN</Group>
     </Groups>
     <Texts>
-      <Input>Alchemy Skin - another secret form of the alchemists of the bygone era.\n\nThis composite fits into Leather and Metal material categories.\n\nImproved resource ({ICON:ImprovedResourceIcon}).</Input>
-      <Output>Kolejna tajemnica alchemików minionej epoki. \n\nTen kompozyt pasuje do kategorii materiałów skórzanych i metalowych. \n\nUlepszony zasób ({ICON:ImprovedResourceIcon}).</Output>
+      <Input>Alchemy Skin - another secret formula of the alchemists of the bygone era.\n\nThis composite fits into Leather and Metal material categories.\n\nImproved resource ({ICON:ImprovedResourceIcon}).</Input>
+      <Output>Kolejna tajemnica alchemików minionej epoki.\n\nTen kompozyt pasuje do kategorii materiałów skórzanych i metalowych.\n\nUlepszony zasób ({ICON:ImprovedResourceIcon}).</Output>
     </Texts>
   </Element>
   <Element ID="1059" Key="DES_RES_MORPH_MATERIAL" Flag="1">
@@ -19350,7 +19350,7 @@
       <Group>DES_RESEARCH_TERRAIN</Group>
     </Groups>
     <Texts>
-      <Input>Remember those blue crystals you've gather from the artefact on your last trip? Spend some time researching it and maybe you'll learn something.</Input>
+      <Input>Remember those blue crystals you've gathered from the artefact on your last trip? Spend some time researching it and maybe you'll learn something.</Input>
       <Output>Pamiętasz, te niebieskie kryształy, które zebrałeś podczas ostatniej podróży? Poświęć trochę czasu na badanie ich, a może nauczysz się czegoś nowego.</Output>
     </Texts>
   </Element>
@@ -42859,8 +42859,8 @@
       <Group>DES_SKILL_RACE_ORCS</Group>
     </Groups>
     <Texts>
-      <Input>The character is an orc. They are a warrior race that lives in a matriarchal clan structure. They are known for their strength, ferocity and despise of 1h weapons.</Input>
-      <Output>Postać jest orkiem. Są rasą wojowników, która żyje w matriarchalnej strukturze klanu. Są znani ze swojej siły, okrucieństwa i pogardy 1h broni.</Output>
+      <Input>The character is an orc. They are a warrior race that lives in a matriarchal clan structure. They are known for their strength, ferocity and disdain for 1h weapons.</Input>
+      <Output>Postać jest orkiem. Są rasą wojowników, która żyje w matriarchalnej strukturze klanu. Są znani ze swojej siły, okrucieństwa i pogardy dla broni przez 1 godzinę.</Output>
     </Texts>
   </Element>
   <Element ID="2522" Key="DES_SKILL_RACE_GOBLINS" Flag="1">
@@ -56569,8 +56569,8 @@
       <Group>DES_TRAIT_NIGHTMARE_GIFT</Group>
     </Groups>
     <Texts>
-      <Input>Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute, +4 Spiritual Shielding and you get access to the Moon Bridge ritual.</Input>
-      <Output>Twoje postacie otrzymują +1 do regeneracji duchowej, 10% bonusu do atrybutu Rytuały, +4 do duchowej osłony i masz dostęp do rytuału Księżycowego Mostu.</Output>
+      <Input>Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute, +4 Spiritual Shielding and you get immediate access to the Moon Bridge ritual.</Input>
+      <Output>Twoje postacie otrzymują +1 do regeneracji duchowej, 10% premii do atrybutu Rytuały, +4 do duchowej osłony oraz natychmiastowy dostęp do rytuału Mostu Księżycowego.</Output>
     </Texts>
   </Element>
   <Element ID="3385" Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL" Flag="0">
@@ -58502,8 +58502,8 @@
       <Group>DES_TRAIT_NEW_DAY</Group>
     </Groups>
     <Texts>
-      <Input>Each morning your characters get +10% Health also get 2 extra Movement Points for 3 turns. Rest of day characters have only Health bonus.</Input>
-      <Output>Każdego ranka twoje postacie otrzymują + 10% życia, dodatkowo otrzymują 2 dodatkowe punkty ruchu na 3 tury. Pozostałe postacie dnia mają tylko premię do zdrowia.</Output>
+      <Input>Each morning your characters get +10% Health also get 2 extra Movement Points for 3 turns. For the rest of day they have only Health bonus.</Input>
+      <Output>Każdego ranka twoje postacie otrzymują + 10% Zdrowia również otrzymują 2 dodatkowe Punkty Ruchu na 3 tury. Przez resztę dnia mają tylko premię do zdrowia.</Output>
     </Texts>
   </Element>
   <Element ID="3513" Key="DES_TRAIT_EAGLE_EYE" Flag="0">
@@ -61438,8 +61438,8 @@
       <Group>DES_TOOLTIP_DOMINATION_VICTORY</Group>
     </Groups>
     <Texts>
-      <Input>Domination Victory (V)</Input>
-      <Output>Zwycięstwo dominacji (V)</Output>
+      <Input>Domination Victory (X)</Input>
+      <Output>Zwycięstwo dominacji (X)</Output>
     </Texts>
   </Element>
   <Element ID="3758" Key="DES_TOOLTIP_DOMINATION_VICTORY_DES" Flag="0">
@@ -68977,21 +68977,14 @@
       <Output>Odkrywasz główną osadę klanów alfa.</Output>
     </Texts>
   </Element>
-  <Element ID="4266" Key="QUEST_ALPHACLANS_DES" Flag="1">
-    <Confirmation>
-      <Time>2019-08-28 17:11:02</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
-    </Confirmation>
+  <Element ID="4266" Key="QUEST_ALPHACLANS_DES" Flag="0">
     <Groups>
       <Group>QUEST</Group>
       <Group>QUEST_ALPHACLANS</Group>
     </Groups>
     <Texts>
-      <Input>The orcs are traditionally a nomadic clan-based society, ruled by clan matriarchs. The alpha matriarch oversees all the clans, and she holds power in the settled orc villages. Orcs despise cowardice, so think twice before you choose to surrender in their presence.
-             Orcs will not typically trade for bone or leather since they usually have those materials in abundance. When you become friends, you may be able to recruit an orc via the fighting pits. To gain friendship, you can try doing tasks for the alphas when they are available. </Input>
-      <Output>Orkowie są koczowniczym społeczeństwem opartym na klanowości i rządzonym przez matriarchat. Matka alfa nadzoruje wszystkie klany i ma władzę w wioskach orków. Orki gardzą tchórzami, więc pomyśl dwa razy, zanim zdecydujesz się poddać w ich obecności. 
-          Orki zazwyczaj nie handlują koścmi ani skórami, ponieważ mają ich na pęczki. Kiedy zostaniecie przyjaciółmi, udostępnią ci swoich wojowników, któych szkolą w orczych barakach. Aby się z nimi zaprzyjaźnić, wykonuj dla nich zadania, gdy są dostępne. </Output>
+      <Input>The orcs are traditionally a nomadic clan-based society, ruled by clan matriarchs. The alpha matriarch oversees all the clans, and she holds power in the settled orc villages. Orcs despise cowardice, so think twice before you choose to surrender in their presence.\n\nOrcs will not typically trade for bone or leather since they usually have those materials in abundance. When you become friends, you may be able to recruit an orc via the fighting pits. To gain friendship, you can try doing tasks for the alphas when they are available. </Input>
+      <Output>Orki są tradycyjnie koczowniczym społeczeństwem opartym na klanach, rządzonym przez matriarchów klanu. Matriarcha alfa nadzoruje wszystkie klany, a ona ma władzę w osiedlonych wioskach orków. Orki gardzą tchórzostwem, więc zastanów się dwa razy, zanim zdecydujesz się poddać w ich obecności. \n\nZazwyczaj orki nie będą wymieniać kości ani skóry, ponieważ zwykle mają te materiały w obfitości. Kiedy się zaprzyjaźnisz, możesz rekrutować orka za pośrednictwem walczących dołów. Aby zdobyć przyjaźń, możesz spróbować wykonywać zadania dla alf, gdy są one dostępne.</Output>
     </Texts>
   </Element>
   <Element ID="4267" Key="QUEST_ALPHACLANSARMY" Flag="1">
@@ -73075,8 +73068,8 @@
       <Group>UI_DAYS</Group>
     </Groups>
     <Texts>
-      <Input>days</Input>
-      <Output>dni</Output>
+      <Input>turns</Input>
+      <Output>tury</Output>
     </Texts>
   </Element>
   <Element ID="4524" Key="UI_PERCENT_OF_ALL_AVAILABLE_FOOD" Flag="1">
@@ -87866,7 +87859,7 @@
     </Groups>
     <Texts>
       <Input>You intimidated Ivan into submission and told him he will serve you and the gods now to repent. He agreed and joined you.</Input>
-      <Output>You intimidated Ivan into submission and told him he will serve you and the gods now to repent. He agreed and joined you.</Output>
+      <Output>Wystraszyłeś Iwana, aby się podporządkował i powiedziałeś mu, że będzie teraz służył tobie i bogom do pokuty. Zgodził się i dołączył do ciebie.</Output>
     </Texts>
   </Element>
   <Element ID="5476" Key="QUEST_LOG_CARAVAN" Flag="1">
@@ -88273,8 +88266,8 @@
       <Group>DES_PET_PUMPKIN</Group>
     </Groups>
     <Texts>
-      <Input>.</Input>
-      <Output>.</Output>
+      <Input>This little fella was carved to celebrate the All Hallows Eve, but through demon trickery or some other dark magic, it was awakened. It seems to like you very much, and follows you wherever you go - despite not having any legs. </Input>
+      <Output>Ten mały gość został wyrzeźbiony z okazji Wigilii Wszystkich Świętych, ale dzięki sztuczkom demonów lub innej czarnej magii został obudzony. Wydaje się, że bardzo cię lubię i podąża za tobą, dokądkolwiek się udajesz - pomimo braku nóg.</Output>
     </Texts>
   </Element>
   <Element ID="5501" Key="DES_SKILL_BEE_STING" Flag="0">
@@ -88308,8 +88301,8 @@
       <Group>DES_SKILL_FEINT</Group>
     </Groups>
     <Texts>
-      <Input>Faint</Input>
-      <Output>Słaby</Output>
+      <Input>Feint</Input>
+      <Output>Zwód</Output>
     </Texts>
   </Element>
   <Element ID="5504" Key="DES_SKILL_FEINT_DES" Flag="0">
@@ -88343,8 +88336,8 @@
       <Group>DES_SKILL_PUMPKIN_HELLFIRE</Group>
     </Groups>
     <Texts>
-      <Input>Your pumpkin is fragile, like glass bottle. And in it there is hellfire hided. So don't brake it!</Input>
-      <Output>Twoja dynia jest delikatna jak szklana butelka. I w nim ukryty jest ogień piekielny. Więc nie hamuj!</Output>
+      <Input>Your pumpkin is fragile like a glass bottle. But be warned that inside it there is hellfire hidden so you better not brake it!</Input>
+      <Output>Twoja dynia jest delikatna jak szklana butelka. Ale ostrzegaj, że w środku jest ukryty ogień piekielny, więc lepiej go nie hamować!</Output>
     </Texts>
   </Element>
   <Element ID="5507" Key="DES_SKILL_PET_PUMPKIN" Flag="1">
@@ -88483,8 +88476,8 @@
       <Group>DES_SUBSKILL_SUMMON_PET_PUMPKIN</Group>
     </Groups>
     <Texts>
-      <Input>{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Pumpkin to any spot.</Input>
-      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołaj Dyni w dowolne miejsce.</Output>
+      <Input>{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Pumpkin to any free spot.</Input>
+      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołaj Dyni do dowolnego wolnego miejsca.</Output>
     </Texts>
   </Element>
   <Element ID="5517" Key="DES_SUBSKILL_BEE_STING" Flag="0">
@@ -88806,7 +88799,7 @@
       <Group>QUEST_HALLOW_DES</Group>
     </Groups>
     <Texts>
-      <Input>Some pets were killed in odd circumstances, perhaps youi can ask around to see if anyone knows more.</Input>
+      <Input>Some pets were killed in odd circumstances, perhaps you can ask around to see if anyone knows more.</Input>
       <Output>Niektóre zwierzęta zostały zabite w dziwnych okolicznościach, być może możesz zapytać, czy ktoś wie więcej.</Output>
     </Texts>
   </Element>
@@ -88817,8 +88810,8 @@
       <Group>QUEST_HALLOW_DES</Group>
     </Groups>
     <Texts>
-      <Input>Some folk went missing int he night, the Boss aske dyou to look for them if you can.</Input>
-      <Output>Niektórzy ludzie zaginęli w nocy, szef poprosił cię, żebyś ich szukał, jeśli możesz.</Output>
+      <Input>Some folk went missing in the night, Tomislav asked you to look for them if you can.</Input>
+      <Output>Niektórzy ludzie zaginęli w nocy, Tomislav poprosił cię, abyś ich szukał, jeśli możesz.</Output>
     </Texts>
   </Element>
   <Element ID="5540" Key="QUEST_HALLOW_DES3" Flag="0">
@@ -88828,8 +88821,8 @@
       <Group>QUEST_HALLOW_DES</Group>
     </Groups>
     <Texts>
-      <Input>Bogslava admitted that she and Gurtek the beastmaster plotted to kill the pets and mess with people, so that the Haloween is ruined. Go tell the boss or confront the beastmaster.</Input>
-      <Output>Bogslava przyznała, że ​​ona i Gurtek, bestia, planowali zabić zwierzęta i zadzierać z ludźmi, aby Haloween został zniszczony. Idź powiedz szefowi lub zmierz się z bestią.</Output>
+      <Input>Bogslava admitted that she and Gurtek the beastmaster plotted to kill the pets and mess with people, so that the Halloween is ruined. Go tell the boss or confront the beastmaster.</Input>
+      <Output>Bogslava przyznała, że ​​ona i Gurtek, bestiarz, planowali zabić zwierzęta i zadzierać z ludźmi, aby Halloween zostało zrujnowane. Idź powiedz szefowi lub zmierz się z bestią.</Output>
     </Texts>
   </Element>
   <Element ID="5541" Key="QUEST_HALLOW_DES4" Flag="0">
@@ -88839,7 +88832,7 @@
       <Group>QUEST_HALLOW_DES</Group>
     </Groups>
     <Texts>
-      <Input>Bogslava claims Gurtek, the beastmaser, can't control his dogs and so he made these killings look odd to protect his pups. Go tell the boss or confront the beastmaster.</Input>
+      <Input>Bogslava claims Gurtek, the beastmaster, can't control his dogs and so he made these killings look odd to protect his pups. Go tell the boss or confront the beastmaster.</Input>
       <Output>Bogslava twierdzi, że Gurtek, bestiarz, nie może kontrolować swoich psów, więc sprawił, że te zabójstwa wyglądały dziwnie, by chronić swoje szczenięta. Idź powiedz szefowi lub zmierz się z bestią.</Output>
     </Texts>
   </Element>
@@ -88917,7 +88910,7 @@
       <Output>Nie poradziłeś sobie z nimi, Bogslava będzie musiała znieść. Najlepiej nie wspominaj jej o tym.</Output>
     </Texts>
   </Element>
-  <Element ID="5548" Key="UI_WORD_SHAPE" Flag="1">
+  <Element ID="5548" Key="UI_WORD_SHAPE" Flag="9">
     <Confirmation>
       <Time>2019-10-14 11:10:44</Time>
       <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
@@ -88933,7 +88926,7 @@
       <Output>Kształt Świata</Output>
     </Texts>
   </Element>
-  <Element ID="5549" Key="UI_WORD_SIZE" Flag="1">
+  <Element ID="5549" Key="UI_WORD_SIZE" Flag="9">
     <Confirmation>
       <Time>2019-10-14 11:10:36</Time>
       <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
@@ -88958,6 +88951,778 @@
     <Texts>
       <Input>8, +2 Free Characters</Input>
       <Output>8, +2 wolne postacie</Output>
+    </Texts>
+  </Element>
+  <Element ID="5551" Key="DES_SUBRACE_UNLI_ANCESTOR_WRAITH" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_UNLI</Group>
+      <Group>DES_SUBRACE_UNLI_ANCESTOR</Group>
+      <Group>DES_SUBRACE_UNLI_ANCESTOR_WRAITH</Group>
+    </Groups>
+    <Texts>
+      <Input>Ancestor Wraith</Input>
+      <Output>Upiorny przodek</Output>
+    </Texts>
+  </Element>
+  <Element ID="5552" Key="DES_SUBRACE_WOOD_BEAR" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_WOOD</Group>
+      <Group>DES_SUBRACE_WOOD_BEAR</Group>
+    </Groups>
+    <Texts>
+      <Input>Wooden Bear</Input>
+      <Output>Drewniany niedźwiedź</Output>
+    </Texts>
+  </Element>
+  <Element ID="5553" Key="DES_SUBRACE_WOOD_BEAR_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_WOOD</Group>
+      <Group>DES_SUBRACE_WOOD_BEAR</Group>
+    </Groups>
+    <Texts>
+      <Input>An animated wooden sculpture, beautifully carved to depict an axe-bearing wild bear. Bears are not known to be gentle even on a good day, but this one seems particularly hell-bent on murder.</Input>
+      <Output>Animowana drewniana rzeźba, pięknie rzeźbiona, przedstawiająca niedźwiedzia topornego. Niedźwiedzie nie są łagodne nawet w dobry dzień, ale ten wydaje się szczególnie uparty w morderstwie.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5554" Key="DES_SUBRACE_DEMON_HELL_HOUNDS" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_DEMON</Group>
+      <Group>DES_SUBRACE_DEMON_HELL</Group>
+      <Group>DES_SUBRACE_DEMON_HELL_HOUNDS</Group>
+    </Groups>
+    <Texts>
+      <Input>Hell Hounds</Input>
+      <Output>Hell Hounds</Output>
+    </Texts>
+  </Element>
+  <Element ID="5555" Key="DES_SUBRACE_DEMON_HELL_HOUNDS_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_DEMON</Group>
+      <Group>DES_SUBRACE_DEMON_HELL</Group>
+      <Group>DES_SUBRACE_DEMON_HELL_HOUNDS</Group>
+    </Groups>
+    <Texts>
+      <Input>Affectionately called hell hounds, although no one is quite sure what the ‘hell’ stands for. Some speculate a connection to the underworlds.</Input>
+      <Output>Czule nazywane piekielnymi psami, chociaż nikt nie jest całkiem pewien, co oznacza „piekło”. Niektórzy spekulują na temat powiązań ze światami podziemnymi.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5556" Key="DES_SUBRACE_DEMON_TWO_HELL_HOUNDS" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_DEMON</Group>
+      <Group>DES_SUBRACE_DEMON_TWO</Group>
+      <Group>DES_SUBRACE_DEMON_TWO_HELL</Group>
+      <Group>DES_SUBRACE_DEMON_TWO_HELL_HOUNDS</Group>
+    </Groups>
+    <Texts>
+      <Input>Two Hell Hounds</Input>
+      <Output>Dwa piekielne ogary</Output>
+    </Texts>
+  </Element>
+  <Element ID="5557" Key="DES_SUBRACE_DEMON_TWO_HELL_HOUNDS_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_DEMON</Group>
+      <Group>DES_SUBRACE_DEMON_TWO</Group>
+      <Group>DES_SUBRACE_DEMON_TWO_HELL</Group>
+      <Group>DES_SUBRACE_DEMON_TWO_HELL_HOUNDS</Group>
+    </Groups>
+    <Texts>
+      <Input>Two black dogs, affectionately called hell hounds by their master - although no one in Slavya knows what this hell refers to? These two pups used to be good dogs, attacking only undesirables and small critters, but something or someone made them crave more blood.</Input>
+      <Output>Dwa czarne psy, pieszczotliwie nazywane przez swojego mistrza piekielnymi psami piekielnymi - chociaż nikt w Slavya nie wie, o co chodzi w tym piekle? Te dwa szczenięta były kiedyś dobrymi psami, atakującymi tylko niepożądane i małe stworzenia, ale coś lub ktoś sprawił, że pragnęły więcej krwi.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5558" Key="DES_SUBRACE_DEMON_TREASURE" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_DEMON</Group>
+      <Group>DES_SUBRACE_DEMON_TREASURE</Group>
+    </Groups>
+    <Texts>
+      <Input>Tomislav - Treasure Demon</Input>
+      <Output>Tomislav - Treasure Demon</Output>
+    </Texts>
+  </Element>
+  <Element ID="5559" Key="DES_SUBRACE_DEMON_TREASURE_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_DEMON</Group>
+      <Group>DES_SUBRACE_DEMON_TREASURE</Group>
+    </Groups>
+    <Texts>
+      <Input>Tomislav is the leader of Bear Village, a self professed 'boss' who seems to care for his home a great deal. He is also a treasurer demon, who would typically be found in caves and dungeons, guarding some long lost jewels. This one has clearly found a new calling.</Input>
+      <Output>Tomislav jest przywódcą Bear Village, samozwańczym „szefem”, który wydaje się bardzo dbać o swój dom. Jest także demonem skarbnika, którego zwykle można znaleźć w jaskiniach i lochach, pilnując dawno utraconych klejnotów. Ten wyraźnie znalazł nowe powołanie.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5560" Key="DES_SUBRACE_FOREFATHER_SPIRITS" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_FOREFATHER</Group>
+      <Group>DES_SUBRACE_FOREFATHER_SPIRITS</Group>
+    </Groups>
+    <Texts>
+      <Input>Forefather Spirits</Input>
+      <Output>Duchy przodków</Output>
+    </Texts>
+  </Element>
+  <Element ID="5561" Key="DES_SUBRACE_FOREFATHER_SPIRITS_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_FOREFATHER</Group>
+      <Group>DES_SUBRACE_FOREFATHER_SPIRITS</Group>
+    </Groups>
+    <Texts>
+      <Input>The forefathers are the souls of the ancestors, also referred to as dziody. They are old souls, wise but proud and easy to anger. Folk of Slavya have long honoured the forefathers with all souls celebrations, asking for their wisdom and protection in exchange for the veneration.</Input>
+      <Output>Przodkowie to dusze przodków, zwane także dziodami. Są to stare dusze, mądre, ale dumne i łatwe do gniewu. Ludność słowiańska od dawna obchodziła przodków wszystkimi uroczystościami dusz, prosząc o ich mądrość i ochronę w zamian za cześć.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5562" Key="DES_SUBRACE_POSSESSED_PUMPKIN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_POSSESSED</Group>
+      <Group>DES_SUBRACE_POSSESSED_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Possessed Pumpkin</Input>
+      <Output>Opętana dynia</Output>
+    </Texts>
+  </Element>
+  <Element ID="5563" Key="DES_SUBRACE_POSSESSED_ELDER_PUMPKIN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_POSSESSED</Group>
+      <Group>DES_SUBRACE_POSSESSED_ELDER</Group>
+      <Group>DES_SUBRACE_POSSESSED_ELDER_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Possessed Elder Pumpkin</Input>
+      <Output>Opętana Starsza Dynia</Output>
+    </Texts>
+  </Element>
+  <Element ID="5564" Key="DES_SUBRACE_POSSESSED_ANCIENT_PUMPKIN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_POSSESSED</Group>
+      <Group>DES_SUBRACE_POSSESSED_ANCIENT</Group>
+      <Group>DES_SUBRACE_POSSESSED_ANCIENT_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Possessed Ancient Pumpkin</Input>
+      <Output>Opętana starożytna dynia</Output>
+    </Texts>
+  </Element>
+  <Element ID="5565" Key="DES_SUBRACE_POSSESSED_PUMPKIN_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBRACE</Group>
+      <Group>DES_SUBRACE_POSSESSED</Group>
+      <Group>DES_SUBRACE_POSSESSED_PUMPKIN</Group>
+    </Groups>
+    <Texts>
+      <Input>Nasty orange vegetables, mindlessly roaming the lands. They like sweets a lot and have been known to get violent when you don’t give them some.</Input>
+      <Output>Paskudne pomarańczowe warzywa, bezmyślnie wędrujące po ziemiach. Bardzo lubią słodycze i wiadomo, że stają się agresywne, jeśli im nie dasz.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5566" Key="DES_SKILL_NIGHT_POWER" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_NIGHT</Group>
+      <Group>DES_SKILL_NIGHT_POWER</Group>
+    </Groups>
+    <Texts>
+      <Input>Night Power</Input>
+      <Output>Nocna moc</Output>
+    </Texts>
+  </Element>
+  <Element ID="5567" Key="DES_SKILL_NIGHT_POWER_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_NIGHT</Group>
+      <Group>DES_SKILL_NIGHT_POWER</Group>
+    </Groups>
+    <Texts>
+      <Input>The character is blessed with the power of the night demons. During nights, they become more powerful.</Input>
+      <Output>Postać jest obdarzona mocą nocnych demonów. W nocy stają się silniejsze.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5568" Key="DES_SKILL_ANIMATED_WOOD" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_ANIMATED</Group>
+      <Group>DES_SKILL_ANIMATED_WOOD</Group>
+    </Groups>
+    <Texts>
+      <Input>Animated Wood</Input>
+      <Output>Animowane drewno</Output>
+    </Texts>
+  </Element>
+  <Element ID="5569" Key="DES_SKILL_ANIMATED_WOOD_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_ANIMATED</Group>
+      <Group>DES_SKILL_ANIMATED_WOOD</Group>
+    </Groups>
+    <Texts>
+      <Input>Magic forces give this wooden object special abilities. It now has properties of both wood and the avatar enchanted within.</Input>
+      <Output>Siły magiczne nadają temu drewnianemu obiektowi specjalne zdolności. Ma teraz właściwości zarówno drewna, jak i zaklętego awatara.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5570" Key="DES_SKILL_FOREFATHER_ANGER" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_FOREFATHER</Group>
+      <Group>DES_SKILL_FOREFATHER_ANGER</Group>
+    </Groups>
+    <Texts>
+      <Input>Forefathers' Anger</Input>
+      <Output>Gniew przodków</Output>
+    </Texts>
+  </Element>
+  <Element ID="5571" Key="DES_SKILL_FOREFATHER_ANGER_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SKILL</Group>
+      <Group>DES_SKILL_FOREFATHER</Group>
+      <Group>DES_SKILL_FOREFATHER_ANGER</Group>
+    </Groups>
+    <Texts>
+      <Input>When battle starts, your anger will call a forefather as an ally to fight on your side.</Input>
+      <Output>Kiedy rozpocznie się bitwa, twój gniew wezwie przodka jako sojusznika do walki po twojej stronie.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5572" Key="DES_SUBSKILL_SUMMON_ANCESTOR_WRAITH" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_SUBSKILL</Group>
+      <Group>DES_SUBSKILL_SUMMON</Group>
+      <Group>DES_SUBSKILL_SUMMON_ANCESTOR</Group>
+      <Group>DES_SUBSKILL_SUMMON_ANCESTOR_WRAITH</Group>
+    </Groups>
+    <Texts>
+      <Input>Summon Ancestor Wraith</Input>
+      <Output>Przywołanie upiornego przodka</Output>
+    </Texts>
+  </Element>
+  <Element ID="5573" Key="DES_TOOLTIP_CURRENT_TASK" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_CURRENT</Group>
+      <Group>DES_TOOLTIP_CURRENT_TASK</Group>
+    </Groups>
+    <Texts>
+      <Input>Current Task</Input>
+      <Output>Bieżące zadanie</Output>
+    </Texts>
+  </Element>
+  <Element ID="5574" Key="DES_TOOLTIP_CURRENT_TASK_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_CURRENT</Group>
+      <Group>DES_TOOLTIP_CURRENT_TASK</Group>
+    </Groups>
+    <Texts>
+      <Input>This character is currently assigned to a task.</Input>
+      <Output>Ta postać jest obecnie przypisana do zadania.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5575" Key="DES_TOOLTIP_CHARACTERS_LIST" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_CHARACTERS</Group>
+      <Group>DES_TOOLTIP_CHARACTERS_LIST</Group>
+    </Groups>
+    <Texts>
+      <Input>Characters List (`)</Input>
+      <Output>Lista znaków (`)</Output>
+    </Texts>
+  </Element>
+  <Element ID="5576" Key="DES_TOOLTIP_CHARACTERS_LIST_DES" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_TOOLTIP</Group>
+      <Group>DES_TOOLTIP_CHARACTERS</Group>
+      <Group>DES_TOOLTIP_CHARACTERS_LIST</Group>
+    </Groups>
+    <Texts>
+      <Input>A global list of characters with the most important information available at a glance. Can be opened from anywhere.</Input>
+      <Output>Globalna lista postaci z najważniejszymi informacjami dostępnymi na pierwszy rzut oka. Można otworzyć z dowolnego miejsca.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5577" Key="DES_HUM_VILLAGE_HALLOWEEN" Flag="0">
+    <Groups>
+      <Group>DES</Group>
+      <Group>DES_HUM</Group>
+      <Group>DES_HUM_VILLAGE</Group>
+      <Group>DES_HUM_VILLAGE_HALLOWEEN</Group>
+    </Groups>
+    <Texts>
+      <Input>Creapy Vilage</Input>
+      <Output>Creapy Vilage</Output>
+    </Texts>
+  </Element>
+  <Element ID="5578" Key="QUEST_HALLOW_KEN_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+    </Groups>
+    <Texts>
+      <Input>Gurtek admitted him and Bogslava plotted to get rid of Halloween. He said the missing folk are safely hiding in the woodcutters lodge. Go to the lodge and see if he told the truth.</Input>
+      <Output>Gurtek przyznał się do niego, a Bogslava planowała pozbyć się Halloween. Powiedział, że zaginiony lud bezpiecznie ukrywa się w leśniczówce drwali. Idź do loży i sprawdź, czy powiedział prawdę.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5579" Key="QUEST_HALLOW_KEN" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+    </Groups>
+    <Texts>
+      <Input>You visited Gurtek's kennels.</Input>
+      <Output>Odwiedziłeś budy Gurtka.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5580" Key="QUEST_HALLOW_KEN_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+      <Group>QUEST_HALLOW_KEN_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Gurtek admitted him and Bogslava plotted to get rid of Halloween. He said the missing folk are safely hiding in the woodcutters lodge. But you said you will not interfere. Go see how it all unfolds in the village.</Input>
+      <Output>Gurtek przyznał się do niego, a Bogslava planowała pozbyć się Halloween. Powiedział, że zaginiony lud bezpiecznie ukrywa się w leśniczówce drwali. Ale powiedziałeś, że nie będziesz wtrącał się. Zobacz, jak to wszystko się dzieje w wiosce.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5581" Key="QUEST_HALLOW_FORE" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+    </Groups>
+    <Texts>
+      <Input>You found the forefather spirits possessing the wooden sculptures.</Input>
+      <Output>Znalazłeś duchy przodków posiadające drewniane rzeźby.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5582" Key="QUEST_HALLOW_FORE_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+    </Groups>
+    <Texts>
+      <Input>You decided the forefathers have the right to judge Bear Village as they see fit so you left them to it.</Input>
+      <Output>Zdecydowałeś, że przodkowie mają prawo osądzać Bear Village według własnego uznania, więc im to zostawiłeś.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5583" Key="QUEST_HALLOW_FORE_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You were defeated by the forefathers and forced to flee. Remember you have limited time to try and kill them. </Input>
+      <Output>Zostałeś pokonany przez przodków i zmuszony do ucieczki. Pamiętaj, że masz ograniczony czas, aby spróbować je zabić.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5584" Key="QUEST_HALLOW_FORE_DES2" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You backed away for now, hoping you can return and deal with the forefathers before they enact their revenge on Bear Village. You do not know how much time you have, but they will not wait here forever...</Input>
+      <Output>Na razie się wycofałeś, mając nadzieję, że możesz wrócić i poradzić sobie z przodkami, zanim zemszczą się na Bear Village. Nie wiesz, ile masz czasu, ale nie będą tu czekać wiecznie ...</Output>
+    </Texts>
+  </Element>
+  <Element ID="5585" Key="QUEST_HALLOW_FORE_DES3" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You defeated the forefathers, and hope this will be the end of it, although you sense that some of their spirit may yet linger over Bear Village. Report back to Tomislav.</Input>
+      <Output>Pokonałeś przodków i masz nadzieję, że to będzie koniec, chociaż czujesz, że część ich ducha może jeszcze pozostać nad Bear Village. Zgłoś się do Tomislava.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5586" Key="QUEST_HALLOW_FORE_DES4" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You defeated the forefathers once and for all. They applauded your strength of spirit and promised to leave the village alone.</Input>
+      <Output>Pokonałeś przodków raz na zawsze. Oklaskowali twoją siłę ducha i obiecali opuścić wioskę w spokoju.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5587" Key="QUEST_HALLOW_FORE_DES5" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You convinced the forefathers that a smaller blood price will soothe their thirst for revenge. They will take only part of the village.</Input>
+      <Output>Przekonałeś przodków, że niższa cena krwi uspokoi ich pragnienie zemsty. Zajmą tylko część wioski.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5588" Key="QUEST_HALLOW_FORE_DES6" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You convinced the forefathers that a smaller blood price will soothe their thirst for revenge and so you sacrificed one of your own to save the villagers.</Input>
+      <Output>Przekonałeś przodków, że niższa cena krwi uspokoi ich pragnienie zemsty, więc poświęciłeś jednego z nich, by ocalić wieśniaków.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5589" Key="QUEST_HALLOW_WOOD" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_WOOD</Group>
+    </Groups>
+    <Texts>
+      <Input>You found the woodcutters lodge.</Input>
+      <Output>Znalazłeś leśniczówkę.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5590" Key="QUEST_HALLOW_WOOD_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_WOOD</Group>
+    </Groups>
+    <Texts>
+      <Input>When you arrived, you found bloodied sculptures and nothing else.</Input>
+      <Output>Kiedy przybyłeś, znalazłeś zakrwawione rzeźby i nic więcej.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5591" Key="QUEST_HALLOW_HUT_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_HUT</Group>
+    </Groups>
+    <Texts>
+      <Input>Bogslava is gone, she killed herself to avoid the forefather's judgement.</Input>
+      <Output>Bogslava odeszła, zabiła się, by uniknąć osądu przodka.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5592" Key="QUEST_HALLOW_KEN_DES2" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+      <Group>QUEST_HALLOW_KEN_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>The kennels were destroyed, but you found a group of villagers with Gurtek, they escaped the massacre thanks to Bael and Zeb who died fighting off the forefathers.</Input>
+      <Output>Budy zostały zniszczone, ale wraz z Gurtkiem znalazłeś grupę wieśniaków, uciekli przed masakrą dzięki Baelowi i Zebowi, którzy zginęli w walce z przodkami.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5593" Key="QUEST_HALLOW_KEN_DES3" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+      <Group>QUEST_HALLOW_KEN_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>The kennels were destroyed, Gurtek was nowhere to be seen, but this likely means he was taken by the forefathers.</Input>
+      <Output>Budy zostały zniszczone, nigdzie nie było widać Gurtka, ale prawdopodobnie oznacza to, że został zabrany przez przodków.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5594" Key="QUEST_HALLOW_DES6" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Bear Village is no more, there is only blood and silence left.</Input>
+      <Output>Wioski Niedźwiedzi już nie ma, pozostała tylko krew i cisza.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5595" Key="QUEST_HALLOW_KEN_DES4" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+      <Group>QUEST_HALLOW_KEN_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Gurtek believes angry forefather spirits are going to do something very bad if the villagers continue this Halloween celebration. You did sense some bad spirit energy, but it was too strong for you to investigate more. Best speak to Tomislav about this.</Input>
+      <Output>Gurtek uważa, że ​​zły duch przodków zrobi coś bardzo złego, jeśli wieśniacy będą kontynuować to Halloween. Wyczuwałeś trochę złej energii ducha, ale była ona zbyt silna, abyś mógł zbadać więcej. Najlepiej porozmawiaj o tym z Tomislavem.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5596" Key="QUEST_HALLOW_KEN_DES5" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+      <Group>QUEST_HALLOW_KEN_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>Gurtek believes Fredrick, the foreigner is responsible for the trouble in the village, but Gurtek's dogs remain prime suspects too. Best speak to Tomislav about this.</Input>
+      <Output>Gurtek uważa, że ​​Fredrick, cudzoziemiec jest odpowiedzialny za kłopoty w wiosce, ale psy Gurtka pozostają głównymi podejrzanymi. Najlepiej porozmawiaj o tym z Tomislavem.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5597" Key="QUEST_HALLOW_BEAR" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+    </Groups>
+    <Texts>
+      <Input>You were attacked by a wooden bear statue bearing an axe!</Input>
+      <Output>Zaatakował cię drewniany posąg niedźwiedzia z siekierą!</Output>
+    </Texts>
+  </Element>
+  <Element ID="5598" Key="QUEST_HALLOW_BEAR1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+    </Groups>
+    <Texts>
+      <Input>You tried to defeat the wooden bear statue again.</Input>
+      <Output>Próbowałeś ponownie pokonać posąg drewnianego niedźwiedzia.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5599" Key="QUEST_HALLOW_BEAR_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+    </Groups>
+    <Texts>
+      <Input>You were defeated, and Tomislav pleaded with you to try again when you can. [You have 200 turns to defeat the bear and whatever may come after it.] </Input>
+      <Output>Zostałeś pokonany, a Tomislav błagał cię, aby spróbować ponownie, kiedy będziesz mógł. [Masz 200 tur, aby pokonać niedźwiedzia i wszystko, co może po nim nastąpić.]</Output>
+    </Texts>
+  </Element>
+  <Element ID="5600" Key="QUEST_HALLOW_BEAR_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+      <Group>QUEST_HALLOW_BEAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You escaped but Tomislav has asked you to try and defeat this creature, for the sake of Bear Village. [You have 200 turns to defeat the bear and whatever may come after it.]</Input>
+      <Output>Uciekłeś, ale Tomislav poprosił cię, abyś spróbował pokonać to stworzenie ze względu na Bear Village. [Masz 200 tur, aby pokonać niedźwiedzia i wszystko, co może po nim nastąpić.]</Output>
+    </Texts>
+  </Element>
+  <Element ID="5601" Key="QUEST_HALLOW_BEAR_DES2" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+      <Group>QUEST_HALLOW_BEAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You defeated the wooden bear and both you and Tomislav hope this will help the village for now. However, the bear was possessed by the spirits of the forefathers and so you may want to seek them out to see if this is truly over. Beware, you have limited time to investigate this. [200 turns]</Input>
+      <Output>Pokonałeś drewnianego niedźwiedzia i zarówno ty, jak i Tomislav macie nadzieję, że pomoże to wiosce. Jednak niedźwiedź był opętany przez duchy przodków, więc możesz poszukać ich, aby zobaczyć, czy to naprawdę koniec. Uwaga, masz ograniczony czas na zbadanie tego. [200 obrotów]</Output>
+    </Texts>
+  </Element>
+  <Element ID="5602" Key="QUEST_HALLOW_BEAR_DES3" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+      <Group>QUEST_HALLOW_BEAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You defeated the wooden bear and both you and Tomislav hope this will help the village for now. Tomislav asked you to try and seek out the forefathers to see if this is truly over, but you decided this is none of your business.</Input>
+      <Output>Pokonałeś drewnianego niedźwiedzia i zarówno ty, jak i Tomislav macie nadzieję, że pomoże to wiosce. Tomislav poprosił cię, abyś poszukał przodków, aby sprawdzić, czy to naprawdę koniec, ale zdecydowałeś, że to nie twoja sprawa.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5603" Key="QUEST_HALLOW_BEAR_DES4" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_BEAR</Group>
+      <Group>QUEST_HALLOW_BEAR_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You were defeated, perhaps try again when you can. [You have 200 turns to defeat the bear and whatever may come after it.] </Input>
+      <Output>Zostałeś pokonany, być może spróbuj ponownie, kiedy będziesz mógł. [Masz 200 tur, aby pokonać niedźwiedzia i wszystko, co może po nim nastąpić.]</Output>
+    </Texts>
+  </Element>
+  <Element ID="5604" Key="QUEST_HALLOWINV" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOWINV</Group>
+    </Groups>
+    <Texts>
+      <Input>You were invited to visit Bear Village</Input>
+      <Output>Zostałeś zaproszony do odwiedzenia Wioski Niedźwiedzi</Output>
+    </Texts>
+  </Element>
+  <Element ID="5605" Key="QUEST_HALLOWINV_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOWINV</Group>
+    </Groups>
+    <Texts>
+      <Input>The location was marked on your map.</Input>
+      <Output>Lokalizacja została zaznaczona na twojej mapie.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5606" Key="QUEST_HALLOW_KEN_DES6" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_KEN</Group>
+      <Group>QUEST_HALLOW_KEN_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You discovered the spirits of the forefathers are indeed very angry with Bear Village and you fear they may have bloody intentions. Best go tell Tomislav about this.</Input>
+      <Output>Odkryłeś, że duchy przodków są naprawdę bardzo gniewne na Bear Village i boisz się, że mogą mieć krwawe zamiary. Najlepiej powiedz o tym Tomislavowi.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5607" Key="QUEST_HALLOW_TOM_DES" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_TOM</Group>
+    </Groups>
+    <Texts>
+      <Input>You spoke to Tomislav and he asked you to investigate the woodcutters lodge.</Input>
+      <Output>Rozmawiałeś z Tomislavem, który poprosił cię o zbadanie loży drwali.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5608" Key="QUEST_HALLOW_TOM_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_TOM</Group>
+      <Group>QUEST_HALLOW_TOM_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You spoke to Tomislav about the angry forefathers and he begged you to go see if you can appease them in any way. They should be found by the big oak tree nearby.</Input>
+      <Output>Rozmawiałeś z Tomislavem o gniewnych przodkach, a on błagał cię, abyś poszedł sprawdzić, czy możesz w jakiś sposób ich uspokoić. Powinny je znaleźć przy dużym dębie w pobliżu.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5609" Key="QUEST_HALLOW_TOM_DES2" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_TOM</Group>
+      <Group>QUEST_HALLOW_TOM_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You spoke to Tomislav about the angry forefathers and decided this is none of your business, you left.</Input>
+      <Output>Rozmawiałeś z Tomislavem o rozgniewanych przodkach i zdecydowałeś, że to nie twoja sprawa, odszedłeś.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5610" Key="QUEST_HALLOW_HUT_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_HUT</Group>
+      <Group>QUEST_HALLOW_HUT_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You completed the caravan task for Bogslava and she was very grateful.</Input>
+      <Output>Ukończyłeś zadanie karawany dla Bogslava i była bardzo wdzięczna.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5611" Key="QUEST_HALLOW_FORE_DES7" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_FORE</Group>
+      <Group>QUEST_HALLOW_FORE_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>The forefather sculptures stand still, silent. Their eyes are hallow but there are blood stains on the wood too.</Input>
+      <Output>Rzeźby przodków stoją w miejscu, milcząc. Ich oczy są święte, ale na drewnie są również plamy krwi.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5612" Key="QUEST_HALLOW_WOOD_DES1" Flag="0">
+    <Groups>
+      <Group>QUEST</Group>
+      <Group>QUEST_HALLOW</Group>
+      <Group>QUEST_HALLOW_WOOD</Group>
+      <Group>QUEST_HALLOW_WOOD_DES</Group>
+    </Groups>
+    <Texts>
+      <Input>You found the lodge and within it, a bloody massacre. Dark forces seem to be at work here, best speak to Tomislav back at the village again. </Input>
+      <Output>Znalazłeś lożę, aw niej krwawą masakrę. Wygląda na to, że działają tu ciemne siły, najlepiej porozmawiaj ponownie z Tomislavem w wiosce.</Output>
+    </Texts>
+  </Element>
+  <Element ID="5613" Key="UI_WORLD_SHAPE" Flag="0">
+    <Groups>
+      <Group>UI</Group>
+      <Group>UI_WORLD</Group>
+      <Group>UI_WORLD_SHAPE</Group>
+    </Groups>
+    <Texts>
+      <Input>World Shape</Input>
+      <Output>Kształt świata</Output>
+    </Texts>
+  </Element>
+  <Element ID="5614" Key="UI_CRAFTING_RESOURCES_FILTER" Flag="0">
+    <Groups>
+      <Group>UI</Group>
+      <Group>UI_CRAFTING</Group>
+      <Group>UI_CRAFTING_RESOURCES</Group>
+      <Group>UI_CRAFTING_RESOURCES_FILTER</Group>
+    </Groups>
+    <Texts>
+      <Input>Crafting Resources</Input>
+      <Output>Materiały rzemieślnicze</Output>
+    </Texts>
+  </Element>
+  <Element ID="5615" Key="UI_ACTIVE_QUESTS2" Flag="0">
+    <Groups>
+      <Group>UI</Group>
+      <Group>UI_ACTIVE</Group>
+      <Group>UI_ACTIVE_QUESTS</Group>
+    </Groups>
+    <Texts>
+      <Input>Active Quests:</Input>
+      <Output>Aktywne zadania:</Output>
     </Texts>
   </Element>
 </Database>
