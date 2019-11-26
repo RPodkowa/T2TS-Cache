@@ -9197,8 +9197,8 @@
   </Element>
   <Element ID="511" Key="DES_TAG_FUEL" Flag="1">
     <Confirmation>
-      <Time>2019-07-01 05:10:13</Time>
-      <GUID>BA7D7B90-7CE0-41DE-B8F6-9A9194FD8502</GUID>
+      <Time>2019-11-22 08:49:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
       <User>RPA</User>
     </Confirmation>
     <Groups>
@@ -9208,7 +9208,7 @@
     </Groups>
     <Texts>
       <Input>Fuel</Input>
-      <Output>Paliwo</Output>
+      <Output>Opał</Output>
     </Texts>
   </Element>
   <Element ID="512" Key="DES_TAG_FUEL_DES" Flag="1">
@@ -43498,7 +43498,12 @@
       <Output>Postać jest demonem nocy. Stworzenie utkane z magii, które daje im bonusy do wiary. Te nocne demony są znane ze swych srebrnych języków, pomimo ich strasznego wyglądu. Striga zabierze zdrowie swoich towarzyszy w każdej turze, aby się utrzymać.</Output>
     </Texts>
   </Element>
-  <Element ID="2530" Key="DES_SKILL_RACE_VILLAGE_DEMON" Flag="0">
+  <Element ID="2530" Key="DES_SKILL_RACE_VILLAGE_DEMON" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 16:33:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -43508,7 +43513,7 @@
     </Groups>
     <Texts>
       <Input>Guardian Demon</Input>
-      <Output>Demon strażnika</Output>
+      <Output>Demon Stróż</Output>
     </Texts>
   </Element>
   <Element ID="2531" Key="DES_SKILL_RACE_VILLAGE_DEMON_DES" Flag="0">
@@ -55423,7 +55428,12 @@
       <Output>Dodawaj wspólne kamienie do ekwipunku wioski w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3266" Key="DES_SUBSKILL_BUILDING_ADD_XP" Flag="0">
+  <Element ID="3266" Key="DES_SUBSKILL_BUILDING_ADD_XP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:29:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55433,7 +55443,7 @@
     </Groups>
     <Texts>
       <Input>Extra Experience Points</Input>
-      <Output>Dodatkowe punkty doświadczenia</Output>
+      <Output>Dodatkowe Punkty Doświadczenia</Output>
     </Texts>
   </Element>
   <Element ID="3267" Key="DES_SUBSKILL_BUILDING_ADD_XP_DES" Flag="0">
@@ -56430,7 +56440,12 @@
       <Output>Każdy członek grupy odzyska część swojej Wiary.</Output>
     </Texts>
   </Element>
-  <Element ID="3335" Key="DES_RITUAL_CURSE_REMOVAL" Flag="0">
+  <Element ID="3335" Key="DES_RITUAL_CURSE_REMOVAL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 16:29:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -56439,10 +56454,15 @@
     </Groups>
     <Texts>
       <Input>Curse Removal</Input>
-      <Output>Usuwanie klątwy</Output>
+      <Output>Usunięcie Klątwy</Output>
     </Texts>
   </Element>
-  <Element ID="3336" Key="DES_RITUAL_CURSE_REMOVAL_DES" Flag="0">
+  <Element ID="3336" Key="DES_RITUAL_CURSE_REMOVAL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 16:29:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -56454,7 +56474,12 @@
       <Output>Usuwa jeden poziom losowej klątwy ze wszystkich postaci w grupie.</Output>
     </Texts>
   </Element>
-  <Element ID="3337" Key="DES_RITUAL_UPGRADE_IDOL" Flag="0">
+  <Element ID="3337" Key="DES_RITUAL_UPGRADE_IDOL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 16:29:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -56463,10 +56488,15 @@
     </Groups>
     <Texts>
       <Input>Replace Idol</Input>
-      <Output>Zamień Idola</Output>
+      <Output>Zmiana Idola</Output>
     </Texts>
   </Element>
-  <Element ID="3338" Key="DES_RITUAL_UPGRADE_IDOL_DES" Flag="0">
+  <Element ID="3338" Key="DES_RITUAL_UPGRADE_IDOL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 17:00:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -56475,7 +56505,7 @@
     </Groups>
     <Texts>
       <Input>Allows you to change the village's Idol. Use better resources to get better results (consult Idol crafting recipe). Adds 1 revive token to Guardian Demon or revives it if it is dead.\n\nWarning - do not perform outside the village, it won't work and you will lose resources.</Input>
-      <Output>Pozwala zmienić Idola wioski. Użyj lepszych zasobów, aby uzyskać lepsze wyniki (zapoznaj się z przepisem na temat tworzenia Idola). Dodaje 1 żeton ożywienia do Demona Strażnika lub ożywia go, jeśli jest martwy. \n\nOstrzeżenie - nie występuj poza wioską, nie zadziała i stracisz zasoby.</Output>
+      <Output>Pozwala zmienić idola wioski. Użyj lepszych surowców, aby uzyskać lepsze wyniki (sprawdź receptury rzemieślnicze). Dodaje 1 punkt życia do Demona Stróża lub ożywia go, jeśli jest martwy. \n\nOstrzeżenie - rytuał nie działa poza wioską.</Output>
     </Texts>
   </Element>
   <Element ID="3339" Key="DES_HIGHER_EDUCATION" Flag="9">
@@ -58676,7 +58706,7 @@
     </Groups>
     <Texts>
       <Input>You start with 40 basic supplies - food, fuel or herbs.</Input>
-      <Output>Zaczynasz z 40 sztukami podstawowych materiałów - żywność, paliwo lub zióła.</Output>
+      <Output>Zaczynasz z 40 sztukami podstawowych materiałów - żywność, opał lub zioła.</Output>
     </Texts>
   </Element>
   <Element ID="3469" Key="DES_TRAIT_TRUE_HEROES" Flag="1">
@@ -59838,7 +59868,7 @@
     </Groups>
     <Texts>
       <Input>Penalty for forfeiting a challenge is halved.</Input>
-      <Output>Kara za poddanie się w tracie wyzwania jest zmniejszona o połowę.</Output>
+      <Output>Kara za poddanie wyzwania jest zmniejszona o połowę.</Output>
     </Texts>
   </Element>
   <Element ID="3535" Key="DES_TRAIT_MAGIC_SCROLL" Flag="1">
@@ -59875,7 +59905,12 @@
       <Output>Zaczynasz z dobrej jakości magicznym zwojem.</Output>
     </Texts>
   </Element>
-  <Element ID="3537" Key="DES_TOOLTIP_NO_FOOD" Flag="0">
+  <Element ID="3537" Key="DES_TOOLTIP_NO_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:43:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59884,10 +59919,15 @@
     </Groups>
     <Texts>
       <Input>No Food Alert</Input>
-      <Output>Brak ostrzeżenia o jedzeniu</Output>
+      <Output>Ostrzeżenie - Brak Żywności</Output>
     </Texts>
   </Element>
-  <Element ID="3538" Key="DES_TOOLTIP_NO_FOOD_DES" Flag="0">
+  <Element ID="3538" Key="DES_TOOLTIP_NO_FOOD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:44:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59896,10 +59936,15 @@
     </Groups>
     <Texts>
       <Input>One of your groups has run out of food, or only carry food they are not allowed to consume. Starving characters loose health points each turn.\n\nClick to open this group's inventory.</Input>
-      <Output>Jednej z twoich grup skończyła się żywność lub przewożą tylko żywność, której nie wolno im spożywać. Głodujące postacie tracą punkty życia w każdej turze. \n\nKliknij, aby otworzyć zasoby tej grupy.</Output>
+      <Output>Jednej z twoich grup skończyła się żywność lub posiada tylko żywność, której nie wolno jej spożywać. Głodujące postacie tracą punkty życia w każdej turze.\n\nKliknij, aby włączyć przegląd tej grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3539" Key="DES_TOOLTIP_LOW_FOOD" Flag="0">
+  <Element ID="3539" Key="DES_TOOLTIP_LOW_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:46:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59908,10 +59953,15 @@
     </Groups>
     <Texts>
       <Input>Low Food Alert</Input>
-      <Output>Ostrzeżenie o niskim poziomie żywności</Output>
+      <Output>Ostrzeżenie - Niski Poziom Żywności</Output>
     </Texts>
   </Element>
-  <Element ID="3540" Key="DES_TOOLTIP_LOW_FOOD_DES" Flag="0">
+  <Element ID="3540" Key="DES_TOOLTIP_LOW_FOOD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:46:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59920,10 +59970,15 @@
     </Groups>
     <Texts>
       <Input>One of your groups has 3 or less turns of food left. Gather some food quickly to avoid starvation.\n\nClick to open this group's inventory.</Input>
-      <Output>Jedna z twoich grup ma 3 lub mniej obrotów. Zbierz szybko jedzenie, aby uniknąć głodu. \n\nKliknij, aby otworzyć zasoby tej grupy.</Output>
+      <Output>Jednej z twoich grup pozostało żywności na mniej niż 3 tury. Zbierz szybko jedzenie, aby uniknąć głodu.\n\nKliknij, aby włączyć przegląd tej grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3541" Key="DES_TOOLTIP_NO_FUEL" Flag="0">
+  <Element ID="3541" Key="DES_TOOLTIP_NO_FUEL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:56:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59932,10 +59987,15 @@
     </Groups>
     <Texts>
       <Input>No Fuel Alert</Input>
-      <Output>Brak alarmu paliwa</Output>
+      <Output>Ostrzeżenie - Brak Opału</Output>
     </Texts>
   </Element>
-  <Element ID="3542" Key="DES_TOOLTIP_NO_FUEL_DES" Flag="0">
+  <Element ID="3542" Key="DES_TOOLTIP_NO_FUEL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:58:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59944,10 +60004,15 @@
     </Groups>
     <Texts>
       <Input>One of your groups has run out of fuel. Their health will not regenerate and any tasks are done at 50% speed.\n\nClick to open this group's inventory.</Input>
-      <Output>W jednej z twoich grup skończyło się paliwo. Ich zdrowie nie regeneruje się, a wszelkie zadania są wykonywane z prędkością 50%. \n\nKliknij, aby otworzyć zasoby tej grupy.</Output>
+      <Output>Jednej z twoich grup skończył się opał. Zdrowie jej członków nie regeneruje się, a wszelkie zadania są wykonywane z prędkością 50%. \n\nKliknij, aby włączyć przegląd tej grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3543" Key="DES_TOOLTIP_LOW_FUEL" Flag="0">
+  <Element ID="3543" Key="DES_TOOLTIP_LOW_FUEL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:56:21</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59956,10 +60021,15 @@
     </Groups>
     <Texts>
       <Input>Low Fuel Alert</Input>
-      <Output>Niski alarm paliwa</Output>
+      <Output>Ostrzeżenie - Niski Poziom Opału</Output>
     </Texts>
   </Element>
-  <Element ID="3544" Key="DES_TOOLTIP_LOW_FUEL_DES" Flag="0">
+  <Element ID="3544" Key="DES_TOOLTIP_LOW_FUEL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:58:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59968,10 +60038,15 @@
     </Groups>
     <Texts>
       <Input>One of your groups has 3 or less turns of fuel left.\n\nClick to open this group's inventory.</Input>
-      <Output>Jedna z twoich grup ma 3 lub mniej obrotów paliwa \n\nKliknij, aby otworzyć zasoby tej grupy.</Output>
+      <Output>Jednej z twoich grup pozostało opału na mniej niż 3 tury.\n\nKliknij, aby włączyć przegląd tej grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3545" Key="DES_TOOLTIP_LOW_HEALTH" Flag="0">
+  <Element ID="3545" Key="DES_TOOLTIP_LOW_HEALTH" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:59:32</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59980,10 +60055,15 @@
     </Groups>
     <Texts>
       <Input>Low Health Alert</Input>
-      <Output>Alert niskiego stanu zdrowia</Output>
+      <Output>Ostrzeżenie - Niski Poziom Zdrowia</Output>
     </Texts>
   </Element>
-  <Element ID="3546" Key="DES_TOOLTIP_LOW_HEALTH_DES" Flag="0">
+  <Element ID="3546" Key="DES_TOOLTIP_LOW_HEALTH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:00:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -59992,10 +60072,15 @@
     </Groups>
     <Texts>
       <Input>One or more characters has below 30% Health and may die. If the Health drops to 0, the character will not participate in any challenges. Set up a camp to speed up health recovery.\n\nClick to open the affected group's inventory.</Input>
-      <Output>Jedna lub więcej postaci ma poniżej 30% zdrowia i może umrzeć. Jeśli zdrowie spadnie do 0, postać nie będzie uczestniczyć w żadnych wyzwaniach. Załóż obóz, aby przyspieszyć regenerację zdrowia. \n\nKliknij, aby otworzyć ekwipunek grupy, której dotyczy problem.</Output>
+      <Output>Jedna lub więcej postaci ma poniżej 30% zdrowia i może umrzeć. Jeśli zdrowie spadnie do 0, postać nie będzie uczestniczyć w żadnych wyzwaniach. Załóż obóz, aby przyspieszyć regenerację zdrowia. \n\nKliknij, aby włączyć przegląd grupy, której dotyczy problem.</Output>
     </Texts>
   </Element>
-  <Element ID="3547" Key="DES_TOOLTIP_LOW_SANITY" Flag="0">
+  <Element ID="3547" Key="DES_TOOLTIP_LOW_SANITY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:01:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60004,10 +60089,15 @@
     </Groups>
     <Texts>
       <Input>Low Sanity Alert</Input>
-      <Output>Alert o niskim poziomie poczytalności</Output>
+      <Output>Ostrzeżenie - Niski Poziom Poczytalności</Output>
     </Texts>
   </Element>
-  <Element ID="3548" Key="DES_TOOLTIP_LOW_SANITY_DES" Flag="0">
+  <Element ID="3548" Key="DES_TOOLTIP_LOW_SANITY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:13:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60016,10 +60106,15 @@
     </Groups>
     <Texts>
       <Input>One or more characters has below 30% Sanity and their morale is decreased. Their damage is lowered and there's a chance they will leave your group.\n\nImprove their Morale by providing varied food.\n\nClick to open the affected group's inventory.</Input>
-      <Output>Jedna lub więcej postaci ma poniżej 30% poczytalności, a ich morale jest zmniejszone. Obrażenia są obniżone i istnieje szansa, że opuszczą twoją grupę. \n\nPopraw ich morale, dostarczając zróżnicowane jedzenie. \n\nKliknij, aby otworzyć ekwipunek grupy, której dotyczy problem.</Output>
+      <Output>Jedna lub więcej postaci ma poniżej 30% poczytalności, a jej morale jest zmniejszone. Obrażenia zadawane przez postać są obniżone i istnieje ryzyko, że opuści ona twoją grupę. \n\nPopraw morale, dostarczając zróżnicowaną żywność. \n\nKliknij, aby włączyć przegląd grupy, której dotyczy problem.</Output>
     </Texts>
   </Element>
-  <Element ID="3549" Key="DES_TOOLTIP_LOW_FAITH" Flag="0">
+  <Element ID="3549" Key="DES_TOOLTIP_LOW_FAITH" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:01:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60028,10 +60123,15 @@
     </Groups>
     <Texts>
       <Input>Low Faith Alert</Input>
-      <Output>Alarm niskiej wiary</Output>
+      <Output>Ostrzeżenie - Niski Poziom Wiary</Output>
     </Texts>
   </Element>
-  <Element ID="3550" Key="DES_TOOLTIP_LOW_FAITH_DES" Flag="0">
+  <Element ID="3550" Key="DES_TOOLTIP_LOW_FAITH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:16:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60040,10 +60140,15 @@
     </Groups>
     <Texts>
       <Input>One or more characters below 30% Faith and are poisoned by magic. They will receive damage equal to portion of their health each turn. If the Faith drops to 0, the character will not participate in any challenges. Perform the Spiritual Healing ritual and/or improve Morale to regenerate Faith.\n\nClick to open the affected group's inventory.</Input>
-      <Output>Jedna lub więcej postaci poniżej 30% wiary i jest zatruta magią. W każdej turze otrzymają obrażenia równe części ich zdrowia. Jeśli wiara spadnie do 0, postać nie będzie uczestniczyć w żadnych wyzwaniach. Wykonaj rytuał duchowego uzdrawiania i / lub popraw morale, aby zregenerować wiarę. \n\nKliknij, aby otworzyć ekwipunek grupy, której dotyczy problem.</Output>
+      <Output>Jedna lub więcej postaci ma poniżej 30% wiary i jest zatruta przez magię. W każdej turze postać otrzymuje obrażenia równe części jej zdrowia. Jeśli wiara spadnie do 0, nie będzie uczestniczyć w żadnych wyzwaniach. Wykonaj rytuał duchowego uzdrawiania i/lub popraw morale, aby zregenerować wiarę.\n\nKliknij, aby włączyć przegląd grupy, której dotyczy problem.</Output>
     </Texts>
   </Element>
-  <Element ID="3551" Key="DES_TOOLTIP_LOW_MORALE" Flag="0">
+  <Element ID="3551" Key="DES_TOOLTIP_LOW_MORALE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:01:35</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60052,10 +60157,15 @@
     </Groups>
     <Texts>
       <Input>Low Morale Alert</Input>
-      <Output>Ostrzeżenie o niskich moralach</Output>
+      <Output>Ostrzeżenie - Niski Poziom Morale</Output>
     </Texts>
   </Element>
-  <Element ID="3552" Key="DES_TOOLTIP_LOW_MORALE_DES" Flag="0">
+  <Element ID="3552" Key="DES_TOOLTIP_LOW_MORALE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:17:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60064,10 +60174,15 @@
     </Groups>
     <Texts>
       <Input>One or more characters feels their Morale is very low may leave to look for a better future away from you. Provide varied meals, let them rest and keep their Sanity high to recover Morale.\n\nClick to open the affected group's inventory.</Input>
-      <Output>Jedna lub więcej postaci czuje, że ich morale jest bardzo niskie, może odejść, aby odszukać lepszą przyszłość. Zapewnij urozmaicone posiłki, pozwól im odpocząć i utrzymuj wysoki poziom zdrowia, aby odzyskać morale. \n\nKliknij, aby otworzyć ekwipunek grupy, której dotyczy problem.</Output>
+      <Output>Jedna lub więcej postaci czuje, że jej morale jest bardzo niskie, może cię bezpowrotnie opuścić, aby odszukać lepszą przyszłość. Zapewnij urozmaicone posiłki, pozwól im odpocząć i utrzymuj wysoki poziom zdrowia, aby odzyskać morale.\n\nKliknij, aby włączyć przegląd grupy, której dotyczy problem.</Output>
     </Texts>
   </Element>
-  <Element ID="3553" Key="DES_TOOLTIP_OVERBURDENED_CHAR" Flag="0">
+  <Element ID="3553" Key="DES_TOOLTIP_OVERBURDENED_CHAR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:02:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60076,10 +60191,15 @@
     </Groups>
     <Texts>
       <Input>Overburdened Character Alert</Input>
-      <Output>Przeciążony alert o postaci</Output>
+      <Output>Ostrzeżenie - Przeciążenie Postaci</Output>
     </Texts>
   </Element>
-  <Element ID="3554" Key="DES_TOOLTIP_OVERBURDENED_CHAR_DES" Flag="0">
+  <Element ID="3554" Key="DES_TOOLTIP_OVERBURDENED_CHAR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:19:43</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60088,10 +60208,15 @@
     </Groups>
     <Texts>
       <Input>One or more characters has equipped items that weigh more than they can handle. They will suffer penalties until they take off some of that stuff.\n\nClick to open the affected group's inventory.</Input>
-      <Output>Jedna lub więcej postaci wyposażyło przedmioty ważące więcej niż mogą obsłużyć. Będą oni otrzymywać kary, dopóki nie zdejmą niektórych z tych rzeczy. \n\nKliknij, aby otworzyć ekwipunek grupy, której dotyczy problem.</Output>
+      <Output>Jedną lub więcej postaci wyposażono w przedmioty ważące więcej niż może udźwignąć. Będzie ona otrzymywać kary, dopóki nie zdejmie nadmiarowych rzeczy. \n\nKliknij, aby włączyć przegląd grupy, której dotyczy problem.</Output>
     </Texts>
   </Element>
-  <Element ID="3555" Key="DES_TOOLTIP_OVERBURDENED_GROUP" Flag="0">
+  <Element ID="3555" Key="DES_TOOLTIP_OVERBURDENED_GROUP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:02:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60100,10 +60225,15 @@
     </Groups>
     <Texts>
       <Input>Overburdened Group Alert</Input>
-      <Output>Przeciążony alert grupy</Output>
+      <Output>Ostrzeżenie - Przeciążenie Grupy</Output>
     </Texts>
   </Element>
-  <Element ID="3556" Key="DES_TOOLTIP_OVERBURDENED_GROUP_DES" Flag="0">
+  <Element ID="3556" Key="DES_TOOLTIP_OVERBURDENED_GROUP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:21:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60112,10 +60242,15 @@
     </Groups>
     <Texts>
       <Input>One of your groups is carrying more than they can handle and will suffer penalties. Their movement is reduced by 1MP for every 10% of weight they carry above their limit.\n\nClick to open the affected group's inventory.</Input>
-      <Output>Jedna z twoich grup nosi więcej, niż mogą sobie poradzić i otrzyma kary. Ich ruch zmniejsza się o 1 MP za każde 10% ciężaru, który przenoszą ponad swój limit. \n\nKliknij, aby otworzyć ekwipunek grupy, której dotyczy problem.</Output>
+      <Output>Jedna z twoich grup dźwiga zbyt wiele, jej członkowie otrzymują kary. Ruch zmniejsza się o 1 PR za każde 10% ciężaru, który przekracza limit. \n\nKliknij, aby włączyć przegląd grupy, której dotyczy problem.</Output>
     </Texts>
   </Element>
-  <Element ID="3557" Key="DES_TOOLTIP_MP" Flag="0">
+  <Element ID="3557" Key="DES_TOOLTIP_MP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:21:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60123,10 +60258,15 @@
     </Groups>
     <Texts>
       <Input>Remaining MP</Input>
-      <Output>Pozostały MP</Output>
+      <Output>Pozostałe PR</Output>
     </Texts>
   </Element>
-  <Element ID="3558" Key="DES_TOOLTIP_MP_DES" Flag="0">
+  <Element ID="3558" Key="DES_TOOLTIP_MP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:26:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60134,7 +60274,7 @@
     </Groups>
     <Texts>
       <Input>Shows your current and maximum amount of Movement Points. Each group will replenish MPs every turn, unless they are over encumbered.</Input>
-      <Output>Pokazuje twoją aktualną i maksymalną ilość punktów ruchu. Każda grupa będzie uzupełniać posłów w każdej turze, chyba że zostanie obciążona.</Output>
+      <Output>Pokazuje twoją aktualną i maksymalną ilość punktów ruchu. Iloś jest przywracana  w każdej turze, chyba że grupa zostanie przeciążona.</Output>
     </Texts>
   </Element>
   <Element ID="3559" Key="DES_TOOLTIP_MEMBERS" Flag="1">
@@ -60153,7 +60293,12 @@
       <Output>Rozmiar Grupy</Output>
     </Texts>
   </Element>
-  <Element ID="3560" Key="DES_TOOLTIP_MEMBERS_DES" Flag="0">
+  <Element ID="3560" Key="DES_TOOLTIP_MEMBERS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:24:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60161,10 +60306,15 @@
     </Groups>
     <Texts>
       <Input>Shows the number of characters in the currently selected group.</Input>
-      <Output>Pokazuje liczbę znaków w aktualnie wybranej grupie.</Output>
+      <Output>Pokazuje liczbę postaci w aktualnie wybranej grupie.</Output>
     </Texts>
   </Element>
-  <Element ID="3561" Key="DES_TOOLTIP_MEMBERS_SETUP_DES" Flag="0">
+  <Element ID="3561" Key="DES_TOOLTIP_MEMBERS_SETUP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:24:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60176,7 +60326,12 @@
       <Output>Jest to liczba postaci, z którymi rozpoczniesz grę. Im więcej, tym łatwiej.</Output>
     </Texts>
   </Element>
-  <Element ID="3562" Key="DES_TOOLTIP_MEMBERS_VILLAGE_DES" Flag="0">
+  <Element ID="3562" Key="DES_TOOLTIP_MEMBERS_VILLAGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:24:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60185,7 +60340,7 @@
     </Groups>
     <Texts>
       <Input>This is the number of characters in this group.</Input>
-      <Output>Jest to liczba znaków w tej grupie.</Output>
+      <Output>Jest to liczba postaci w tej grupie.</Output>
     </Texts>
   </Element>
   <Element ID="3563" Key="DES_TOOLTIP_ENCUMBRANCE" Flag="1">
@@ -60204,7 +60359,12 @@
       <Output>Obciążenie</Output>
     </Texts>
   </Element>
-  <Element ID="3564" Key="DES_TOOLTIP_ENCUMBRANCE_DES" Flag="0">
+  <Element ID="3564" Key="DES_TOOLTIP_ENCUMBRANCE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:26:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60212,13 +60372,13 @@
     </Groups>
     <Texts>
       <Input>Current and maximum weight of carried items. Going over the max value will cause movement penalties.</Input>
-      <Output>Aktualna i maksymalna waga przewożonych przedmiotów. Przekroczenie maksymalnej wartości spowoduje kary za ruch.</Output>
+      <Output>Aktualna i maksymalna waga dźwiganych przedmiotów. Przekroczenie maksymalnej wartości spowoduje kary za ruch.</Output>
     </Texts>
   </Element>
   <Element ID="3565" Key="DES_TOOLTIP_FUEL" Flag="1">
     <Confirmation>
-      <Time>2019-11-21 16:53:11</Time>
-      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <Time>2019-11-22 08:49:35</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
       <User>RPA</User>
     </Confirmation>
     <Groups>
@@ -60228,10 +60388,15 @@
     </Groups>
     <Texts>
       <Input>Fuel</Input>
-      <Output>Paliwo</Output>
+      <Output>Opał</Output>
     </Texts>
   </Element>
-  <Element ID="3566" Key="DES_TOOLTIP_FUEL_DES" Flag="0">
+  <Element ID="3566" Key="DES_TOOLTIP_FUEL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:27:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60239,7 +60404,7 @@
     </Groups>
     <Texts>
       <Input>Shows the number of turns before this group runs out of fuel. Fuel is only used by camps and villages.</Input>
-      <Output>Pokazuje liczbę tur, zanim ta grupa skończy się paliwo. Paliwo jest używane tylko przez obozy i wioski.</Output>
+      <Output>Pokazuje liczbę tur, zanim grupie skończy się opał. Paliwo jest używane tylko przez obozy i wioski.</Output>
     </Texts>
   </Element>
   <Element ID="3567" Key="DES_TOOLTIP_FOOD" Flag="1">
@@ -60258,7 +60423,12 @@
       <Output>Żywność</Output>
     </Texts>
   </Element>
-  <Element ID="3568" Key="DES_TOOLTIP_FOOD_DES" Flag="0">
+  <Element ID="3568" Key="DES_TOOLTIP_FOOD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:28:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60266,10 +60436,15 @@
     </Groups>
     <Texts>
       <Input>Shows the number of turns before this group runs out of food. Each group member uses 1 food item per turn.</Input>
-      <Output>Pokazuje liczbę tur, zanim skończy się jedzenie. Każdy członek grupy używa 1 przedmiotu żywnościowego na turę.</Output>
+      <Output>Pokazuje liczbę tur, zanim grupie skończy się żywność. Każdy członek grupy używa 1 sztukę jedzenia na turę.</Output>
     </Texts>
   </Element>
-  <Element ID="3569" Key="DES_TOOLTIP_XP" Flag="0">
+  <Element ID="3569" Key="DES_TOOLTIP_XP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:28:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60277,10 +60452,15 @@
     </Groups>
     <Texts>
       <Input>Experience Points</Input>
-      <Output>Punkty doświadczenia</Output>
+      <Output>Punkty Doświadczenia</Output>
     </Texts>
   </Element>
-  <Element ID="3570" Key="DES_TOOLTIP_XP_DES" Flag="0">
+  <Element ID="3570" Key="DES_TOOLTIP_XP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:29:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60307,7 +60487,12 @@
       <Output>Punkty Badawcze</Output>
     </Texts>
   </Element>
-  <Element ID="3572" Key="DES_TOOLTIP_RP_DES" Flag="0">
+  <Element ID="3572" Key="DES_TOOLTIP_RP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:18:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60315,7 +60500,7 @@
     </Groups>
     <Texts>
       <Input>Gather enough of these and you'll earn an Advancement Point, which you can use to unlock new resources, equipment recipes, buildings or rituals.</Input>
-      <Output>Zbierz ich wystarczająco dużo, a zdobędziesz punkt awansu, którego możesz użyć, aby odblokować nowe zasoby, przepisy na sprzęt, budynki lub rytuały.</Output>
+      <Output>Kiedy zbierzerz ich wystarczająco dużo, zdobędziesz punkt awansu, którego możesz użyć, aby odblokować nowe technologie.</Output>
     </Texts>
   </Element>
   <Element ID="3573" Key="DES_TOOLTIP_DAY" Flag="1">
@@ -60334,7 +60519,12 @@
       <Output>Dzień</Output>
     </Texts>
   </Element>
-  <Element ID="3574" Key="DES_TOOLTIP_DAY_DES" Flag="0">
+  <Element ID="3574" Key="DES_TOOLTIP_DAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:41:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60342,7 +60532,7 @@
     </Groups>
     <Texts>
       <Input>Day turns provide better visibility and roaming monsters are less aggressive.</Input>
-      <Output>Turnieje dnia zapewniają lepszą widoczność, a potwory wędrujące są mniej agresywne.</Output>
+      <Output>Podczas dziennych tur jest dobra widoczność, a wędrujące potwory są mniej agresywne.</Output>
     </Texts>
   </Element>
   <Element ID="3575" Key="DES_TOOLTIP_NIGHT" Flag="1">
@@ -60361,7 +60551,12 @@
       <Output>Noc</Output>
     </Texts>
   </Element>
-  <Element ID="3576" Key="DES_TOOLTIP_NIGHT_DES" Flag="0">
+  <Element ID="3576" Key="DES_TOOLTIP_NIGHT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:42:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60369,10 +60564,15 @@
     </Groups>
     <Texts>
       <Input>Visibility is limited during night turns and roaming monsters are more likely to follow your groups and attack.</Input>
-      <Output>Widoczność jest ograniczona podczas nocnych zakrętów, a wędrujące potwory częściej podążają za twoimi grupami i atakują.</Output>
+      <Output>Podczas nocnych tur widoczność jest ograniczona, a wędrujące potwory częściej podążają za twoimi grupami i atakują je.</Output>
     </Texts>
   </Element>
-  <Element ID="3577" Key="DES_TOOLTIP_ITEM_WEIGHT" Flag="0">
+  <Element ID="3577" Key="DES_TOOLTIP_ITEM_WEIGHT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:43:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60381,10 +60581,15 @@
     </Groups>
     <Texts>
       <Input>Item Weight</Input>
-      <Output>Waga przedmiotu</Output>
+      <Output>Waga Przedmiotu</Output>
     </Texts>
   </Element>
-  <Element ID="3578" Key="DES_TOOLTIP_ITEM_WEIGHT_DES" Flag="0">
+  <Element ID="3578" Key="DES_TOOLTIP_ITEM_WEIGHT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:43:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60393,10 +60598,15 @@
     </Groups>
     <Texts>
       <Input>How much an item weights depends on what materials it is made of.</Input>
-      <Output>Ile waży przedmiot zależy od tego, z jakich materiałów jest wykonany.</Output>
+      <Output>Ile waży przedmiot jest zależne od tego, z jakich materiałów jest wykonany.</Output>
     </Texts>
   </Element>
-  <Element ID="3579" Key="DES_TOOLTIP_PRODUCTION_COST" Flag="0">
+  <Element ID="3579" Key="DES_TOOLTIP_PRODUCTION_COST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:43:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60405,10 +60615,15 @@
     </Groups>
     <Texts>
       <Input>Production Cost</Input>
-      <Output>Koszt produkcji</Output>
+      <Output>Koszt Produkcji</Output>
     </Texts>
   </Element>
-  <Element ID="3580" Key="DES_TOOLTIP_PRODUCTION_COST_DES" Flag="0">
+  <Element ID="3580" Key="DES_TOOLTIP_PRODUCTION_COST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:43:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60417,10 +60632,15 @@
     </Groups>
     <Texts>
       <Input>How much production points it costs to create this item.</Input>
-      <Output>Ile punktów produkcyjnych kosztuje stworzenie tego przedmiotu.</Output>
+      <Output>Ile punktów produkcji kosztuje stworzenie tego przedmiotu.</Output>
     </Texts>
   </Element>
-  <Element ID="3581" Key="DES_TOOLTIP_ITEM_VALUE" Flag="0">
+  <Element ID="3581" Key="DES_TOOLTIP_ITEM_VALUE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:44:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60429,10 +60649,15 @@
     </Groups>
     <Texts>
       <Input>Item Value</Input>
-      <Output>Wartość przedmiotu</Output>
+      <Output>Wartość Przedmiotu</Output>
     </Texts>
   </Element>
-  <Element ID="3582" Key="DES_TOOLTIP_ITEM_VALUE_DES" Flag="0">
+  <Element ID="3582" Key="DES_TOOLTIP_ITEM_VALUE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:44:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60441,7 +60666,7 @@
     </Groups>
     <Texts>
       <Input>Value of this item when it is traded. Note, that Traders won't usually offer to pay you full prices, otherwise they would go bust!</Input>
-      <Output>Wartość tego przedmiotu podczas obrotu. Zwróć uwagę, że inwestorzy zwykle nie oferują pełnej ceny, w przeciwnym razie popadną w ruinę!</Output>
+      <Output>Wartość handlowa tego przedmiotu. Zwróć uwagę, że handlarze zwykle nie oferują pełnej ceny, w przeciwnym razie popadli by w ruinę!</Output>
     </Texts>
   </Element>
   <Element ID="3583" Key="DES_TOOLTIP_PACK_SIZE" Flag="1">
@@ -60491,10 +60716,15 @@
     </Groups>
     <Texts>
       <Input>Forfeit Challenge</Input>
-      <Output>Poddaj wyzwanie</Output>
+      <Output>Poddanie Wyzwania</Output>
     </Texts>
   </Element>
-  <Element ID="3586" Key="DES_TOOLTIP_FORFEIT_DES" Flag="0">
+  <Element ID="3586" Key="DES_TOOLTIP_FORFEIT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:45:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60502,10 +60732,15 @@
     </Groups>
     <Texts>
       <Input>Some challenges may simply be too hard. Running away is nothing to be ashamed of.</Input>
-      <Output>Niektóre wyzwania mogą być po prostu zbyt trudne. Ucieczka nie ma się czego wstydzić.</Output>
+      <Output>Niektóre wyzwania mogą być po prostu zbyt trudne. To nie tchórzostwo, to taktyczny odwrót.</Output>
     </Texts>
   </Element>
-  <Element ID="3587" Key="DES_TOOLTIP_MOVE" Flag="0">
+  <Element ID="3587" Key="DES_TOOLTIP_MOVE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:33:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60516,7 +60751,12 @@
       <Output>Ruch (M)</Output>
     </Texts>
   </Element>
-  <Element ID="3588" Key="DES_TOOLTIP_MOVE_DES" Flag="0">
+  <Element ID="3588" Key="DES_TOOLTIP_MOVE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:49:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60524,10 +60764,15 @@
     </Groups>
     <Texts>
       <Input>Order your group to move to another tile.</Input>
-      <Output>Zamów swoją grupę, aby przejść na inną płytkę.</Output>
+      <Output>Rozkaż swojej grupie iść na inne miejsce.</Output>
     </Texts>
   </Element>
-  <Element ID="3589" Key="DES_TOOLTIP_CAMP" Flag="0">
+  <Element ID="3589" Key="DES_TOOLTIP_CAMP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:33:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60538,7 +60783,12 @@
       <Output>Obóz (C)</Output>
     </Texts>
   </Element>
-  <Element ID="3590" Key="DES_TOOLTIP_CAMP_DES" Flag="0">
+  <Element ID="3590" Key="DES_TOOLTIP_CAMP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:50:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60546,10 +60796,15 @@
     </Groups>
     <Texts>
       <Input>Set up a Camp. Camps increase Health regeneration and allow you to craft and gather nearby resources.</Input>
-      <Output>Skonfiguruj obóz. Obozy zwiększają regenerację zdrowia i pozwalają tworzyć i zbierać pobliskie zasoby.</Output>
+      <Output>Rozbij obóz. Obozowiska zwiększają regenerację zdrowia i pozwalają wytwarzać przedmioty i zbierać pobliskie zasoby.</Output>
     </Texts>
   </Element>
-  <Element ID="3591" Key="DES_TOOLTIP_BREAK_CAMP" Flag="0">
+  <Element ID="3591" Key="DES_TOOLTIP_BREAK_CAMP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:51:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60558,10 +60813,15 @@
     </Groups>
     <Texts>
       <Input>Break Camp (C)</Input>
-      <Output>Obóz (C)</Output>
+      <Output>Zwiń Obóz (C)</Output>
     </Texts>
   </Element>
-  <Element ID="3592" Key="DES_TOOLTIP_BREAK_CAMP_DES" Flag="0">
+  <Element ID="3592" Key="DES_TOOLTIP_BREAK_CAMP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:53:06</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60570,10 +60830,15 @@
     </Groups>
     <Texts>
       <Input>Gather up your stuff and prepare to move out. Gathering and crafting progress will be lost, you will recover materials for any unfinished crafts.</Input>
-      <Output>Zbierz swoje rzeczy i przygotuj się do wyprowadzki. Gromadzenie i rozwój rzemiosła zostaną utracone, odzyskasz materiały na wszelkie niedokończone rzemiosła.</Output>
+      <Output>Zbierz swoje rzeczy i przygotuj się do dalszej drogi. Postęp w trwających prace zostanie utracony, wszelkie materiały z niedokończonych zadań zostaną przywrócone.</Output>
     </Texts>
   </Element>
-  <Element ID="3593" Key="DES_TOOLTIP_INVENTORY" Flag="0">
+  <Element ID="3593" Key="DES_TOOLTIP_INVENTORY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:33:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60581,10 +60846,15 @@
     </Groups>
     <Texts>
       <Input>Inventory (I)</Input>
-      <Output>Inwentaryzacja (I)</Output>
+      <Output>Spis (I)</Output>
     </Texts>
   </Element>
-  <Element ID="3594" Key="DES_TOOLTIP_INVENTORY_DES" Flag="0">
+  <Element ID="3594" Key="DES_TOOLTIP_INVENTORY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:53:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60592,10 +60862,15 @@
     </Groups>
     <Texts>
       <Input>Check what stuff your group is carrying.</Input>
-      <Output>Sprawdź, jakie rzeczy ma twoja grupa.</Output>
+      <Output>Sprawdź, co transportuje grupa.</Output>
     </Texts>
   </Element>
-  <Element ID="3595" Key="DES_TOOLTIP_EQUIP" Flag="0">
+  <Element ID="3595" Key="DES_TOOLTIP_EQUIP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:34:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60603,10 +60878,15 @@
     </Groups>
     <Texts>
       <Input>Equipment (E)</Input>
-      <Output>Sprzęt (E)</Output>
+      <Output>Ekwipunek (E)</Output>
     </Texts>
   </Element>
-  <Element ID="3596" Key="DES_TOOLTIP_EQUIP_DES" Flag="0">
+  <Element ID="3596" Key="DES_TOOLTIP_EQUIP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 09:54:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60614,10 +60894,15 @@
     </Groups>
     <Texts>
       <Input>Allows you to assign items to the members of this group.</Input>
-      <Output>Umożliwia przypisywanie elementów członkom tej grupy.</Output>
+      <Output>Umożliwia zarządzanie wyposażeniem członków grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3597" Key="DES_TOOLTIP_GATHERING" Flag="0">
+  <Element ID="3597" Key="DES_TOOLTIP_GATHERING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:34:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60625,10 +60910,15 @@
     </Groups>
     <Texts>
       <Input>Gathering (1)</Input>
-      <Output>Zbieranie (1)</Output>
+      <Output>Zbieractwo (1)</Output>
     </Texts>
   </Element>
-  <Element ID="3598" Key="DES_TOOLTIP_GATHERING_DES" Flag="0">
+  <Element ID="3598" Key="DES_TOOLTIP_GATHERING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:20:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60636,10 +60926,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Gathering panel which allows you to assign workers to gathering spots.</Input>
-      <Output>Otwiera panel Zbieranie, który umożliwia przypisanie pracowników do miejsc gromadzenia.</Output>
+      <Output>Otwiera panel zbieractwa, który umożliwia przypisanie pracowników do konkretnych zadań.</Output>
     </Texts>
   </Element>
-  <Element ID="3599" Key="DES_TOOLTIP_CRAFTING" Flag="0">
+  <Element ID="3599" Key="DES_TOOLTIP_CRAFTING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:34:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60650,7 +60945,12 @@
       <Output>Rzemiosło (2)</Output>
     </Texts>
   </Element>
-  <Element ID="3600" Key="DES_TOOLTIP_CRAFTING_DES" Flag="0">
+  <Element ID="3600" Key="DES_TOOLTIP_CRAFTING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:20:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60658,10 +60958,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Crafting panel which allows you to add item recipes and assign workers to tasks.</Input>
-      <Output>Otwiera panel Crafting, który umożliwia dodawanie receptur przedmiotów i przypisywanie pracowników do zadań.</Output>
+      <Output>Otwiera panel rzemiosła, który umożliwia przypisanie pracowników do konkretnych zadań.</Output>
     </Texts>
   </Element>
-  <Element ID="3601" Key="DES_TOOLTIP_COOKING" Flag="0">
+  <Element ID="3601" Key="DES_TOOLTIP_COOKING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:35:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60669,10 +60974,15 @@
     </Groups>
     <Texts>
       <Input>Cooking and Composites (3)</Input>
-      <Output>Gotowanie i kompozyty (3)</Output>
+      <Output>Gotowanie i Komponenty (3)</Output>
     </Texts>
   </Element>
-  <Element ID="3602" Key="DES_TOOLTIP_COOKING_DES" Flag="0">
+  <Element ID="3602" Key="DES_TOOLTIP_COOKING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:21:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60680,10 +60990,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Cooking and Composites panel which allows you to add food and material recipes and assign workers to tasks.</Input>
-      <Output>Otwiera panel Gotowanie i kompozycje, który umożliwia dodawanie receptur żywności i materiałów oraz przypisywanie pracowników do zadań.</Output>
+      <Output>Otwiera panel gotowania i komponentów, który umożliwia przypisanie pracowników do konkretnych zadań.</Output>
     </Texts>
   </Element>
-  <Element ID="3603" Key="DES_TOOLTIP_RESEARCH" Flag="0">
+  <Element ID="3603" Key="DES_TOOLTIP_RESEARCH" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:35:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60694,7 +61009,12 @@
       <Output>Badania (4)</Output>
     </Texts>
   </Element>
-  <Element ID="3604" Key="DES_TOOLTIP_RESEARCH_DES" Flag="0">
+  <Element ID="3604" Key="DES_TOOLTIP_RESEARCH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:21:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60702,10 +61022,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Research panel which allows you to assign workers to research tasks.</Input>
-      <Output>Otwiera panel Badania, który umożliwia przypisanie pracowników do zadań badawczych.</Output>
+      <Output>Otwiera panel badań, który umożliwia przypisanie pracowników do konkretnych zadań.</Output>
     </Texts>
   </Element>
-  <Element ID="3605" Key="DES_TOOLTIP_RITUALS" Flag="0">
+  <Element ID="3605" Key="DES_TOOLTIP_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:35:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60716,7 +61041,12 @@
       <Output>Rytuały (5)</Output>
     </Texts>
   </Element>
-  <Element ID="3606" Key="DES_TOOLTIP_RITUALS_DES" Flag="0">
+  <Element ID="3606" Key="DES_TOOLTIP_RITUALS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:21:33</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60724,10 +61054,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Rituals panel which allows you to assign workers to rituals tasks.</Input>
-      <Output>Otwiera panel Rytuały, który umożliwia przypisanie pracowników do zadań rytuałów.</Output>
+      <Output>Otwiera panel rytuałów, który umożliwia przypisanie pracowników do konkretnych zadań.</Output>
     </Texts>
   </Element>
-  <Element ID="3607" Key="DES_TOOLTIP_EXPLORING" Flag="0">
+  <Element ID="3607" Key="DES_TOOLTIP_EXPLORING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:22:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60735,10 +61070,15 @@
     </Groups>
     <Texts>
       <Input>Explore</Input>
-      <Output>Eksploruj</Output>
+      <Output>Eksploracja</Output>
     </Texts>
   </Element>
-  <Element ID="3608" Key="DES_TOOLTIP_EXPLORING_DES" Flag="0">
+  <Element ID="3608" Key="DES_TOOLTIP_EXPLORING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:21:47</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60746,10 +61086,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Explore panel which allows you to assign workers to exploration tasks.</Input>
-      <Output>Otwiera panel Eksploruj, który umożliwia przypisanie pracowników do zadań eksploracji.</Output>
+      <Output>Otwiera panel eksploracji, który umożliwia przypisanie pracowników do konkretnych zadań.</Output>
     </Texts>
   </Element>
-  <Element ID="3609" Key="DES_TOOLTIP_JOIN" Flag="0">
+  <Element ID="3609" Key="DES_TOOLTIP_JOIN" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:22:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60757,10 +61102,15 @@
     </Groups>
     <Texts>
       <Input>Join Groups (J)</Input>
-      <Output>Dołącz do grup (J)</Output>
+      <Output>Połącz Grupy (J)</Output>
     </Texts>
   </Element>
-  <Element ID="3610" Key="DES_TOOLTIP_JOIN_DES" Flag="0">
+  <Element ID="3610" Key="DES_TOOLTIP_JOIN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:22:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60768,10 +61118,15 @@
     </Groups>
     <Texts>
       <Input>Join this group to another group standing on the same tile.</Input>
-      <Output>Dołącz do tej grupy do innej grupy stojącej na tym samym kafelku.</Output>
+      <Output>Dołącz grupę do innej grupy stojącej na tym samym kafelku.</Output>
     </Texts>
   </Element>
-  <Element ID="3611" Key="DES_TOOLTIP_TRADE" Flag="0">
+  <Element ID="3611" Key="DES_TOOLTIP_TRADE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:35:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60782,7 +61137,12 @@
       <Output>Handel (T)</Output>
     </Texts>
   </Element>
-  <Element ID="3612" Key="DES_TOOLTIP_TRADE_DES" Flag="0">
+  <Element ID="3612" Key="DES_TOOLTIP_TRADE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:07:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60793,7 +61153,12 @@
       <Output>Handluj z grupą innego gracza.</Output>
     </Texts>
   </Element>
-  <Element ID="3613" Key="DES_TOOLTIP_OVERVIEW" Flag="0">
+  <Element ID="3613" Key="DES_TOOLTIP_OVERVIEW" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:07:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60804,7 +61169,12 @@
       <Output>Przegląd</Output>
     </Texts>
   </Element>
-  <Element ID="3614" Key="DES_TOOLTIP_OVERVIEW_DES" Flag="0">
+  <Element ID="3614" Key="DES_TOOLTIP_OVERVIEW_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:07:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60812,10 +61182,15 @@
     </Groups>
     <Texts>
       <Input>Opens the camp/village overview.</Input>
-      <Output>Otwiera przegląd obozu / wioski.</Output>
+      <Output>Otwiera przegląd obozu/wioski.</Output>
     </Texts>
   </Element>
-  <Element ID="3615" Key="DES_TOOLTIP_GROUP_INFO" Flag="0">
+  <Element ID="3615" Key="DES_TOOLTIP_GROUP_INFO" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:07:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60824,10 +61199,15 @@
     </Groups>
     <Texts>
       <Input>Group Info (O)</Input>
-      <Output>Informacje o grupie (O)</Output>
+      <Output>Informacje o Grupie (O)</Output>
     </Texts>
   </Element>
-  <Element ID="3616" Key="DES_TOOLTIP_GROUP_INFO_DES" Flag="0">
+  <Element ID="3616" Key="DES_TOOLTIP_GROUP_INFO_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:23:21</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60836,10 +61216,15 @@
     </Groups>
     <Texts>
       <Input>Opens the Group Info screen where you can manage food and fuel usage and see an overview of the group members' morale.</Input>
-      <Output>Otwiera ekran Informacje o grupie, w którym można zarządzać zużyciem żywności i paliwa oraz przeglądem morale członków grupy.</Output>
+      <Output>Otwiera ekran informacje o grupie, w którym można zarządzać zużyciem żywności i opału oraz przeglądać morale członków grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3617" Key="DES_TOOLTIP_ALWAYS_CONFIRM_DISMANTLE" Flag="0">
+  <Element ID="3617" Key="DES_TOOLTIP_ALWAYS_CONFIRM_DISMANTLE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:24:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60852,7 +61237,12 @@
       <Output>Zawsze potwierdzaj demontaż</Output>
     </Texts>
   </Element>
-  <Element ID="3618" Key="DES_TOOLTIP_ALWAYS_CONFIRM_DISMANTLE_DES" Flag="0">
+  <Element ID="3618" Key="DES_TOOLTIP_ALWAYS_CONFIRM_DISMANTLE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:24:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60862,10 +61252,15 @@
     </Groups>
     <Texts>
       <Input>When on, dismantling will always require confirmation.</Input>
-      <Output>Gdy jest włączony, demontaż zawsze wymaga potwierdzenia.</Output>
+      <Output>Demontaż zawsze wymaga potwierdzenia.</Output>
     </Texts>
   </Element>
-  <Element ID="3619" Key="DES_TOOLTIP_PLAY_INTRO" Flag="0">
+  <Element ID="3619" Key="DES_TOOLTIP_PLAY_INTRO" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:24:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60874,10 +61269,15 @@
     </Groups>
     <Texts>
       <Input>Play intro</Input>
-      <Output>Zagraj w intro</Output>
+      <Output>Uruchom intro</Output>
     </Texts>
   </Element>
-  <Element ID="3620" Key="DES_TOOLTIP_PLAY_INTRO_DES" Flag="0">
+  <Element ID="3620" Key="DES_TOOLTIP_PLAY_INTRO_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:24:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60886,10 +61286,15 @@
     </Groups>
     <Texts>
       <Input>If on, animated intro will play every time you start the game.</Input>
-      <Output>Jeśli włączone, animowane intro będzie odtwarzane przy każdym uruchomieniu gry.</Output>
+      <Output>Animowane intro będzie odtwarzane przy każdym uruchomieniu gry.</Output>
     </Texts>
   </Element>
-  <Element ID="3621" Key="DES_TOOLTIP_AUTO_END_TURN_CHALL" Flag="0">
+  <Element ID="3621" Key="DES_TOOLTIP_AUTO_END_TURN_CHALL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:25:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60900,10 +61305,15 @@
     </Groups>
     <Texts>
       <Input>Auto-end turn</Input>
-      <Output>Automatyczny koniec obrotu</Output>
+      <Output>Automatyczny koniec tury</Output>
     </Texts>
   </Element>
-  <Element ID="3622" Key="DES_TOOLTIP_AUTO_END_TURN_CHALL_DES" Flag="0">
+  <Element ID="3622" Key="DES_TOOLTIP_AUTO_END_TURN_CHALL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:25:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60914,10 +61324,15 @@
     </Groups>
     <Texts>
       <Input>Automatically end your turn when you run out of Action Points ({ICON:APIcon}) during a challenge.</Input>
-      <Output>Automatycznie zakończ swoją turę, gdy zabraknie Ci punktów akcji ({ICON:APIcon}) podczas wyzwania.</Output>
+      <Output>Automatycznie zakończ swoją turę, gdy zabraknie ci punktów akcji ({ICON:APIcon}) podczas wyzwania.</Output>
     </Texts>
   </Element>
-  <Element ID="3623" Key="DES_TOOLTIP_ALLOW_ENTERING_WATER" Flag="0">
+  <Element ID="3623" Key="DES_TOOLTIP_ALLOW_ENTERING_WATER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:27:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60927,10 +61342,15 @@
     </Groups>
     <Texts>
       <Input>Allow entering water tiles</Input>
-      <Output>Pozwól na wejście do płytek wodnych</Output>
+      <Output>Zezwól na pływanie wpław</Output>
     </Texts>
   </Element>
-  <Element ID="3624" Key="DES_TOOLTIP_ALLOW_ENTERING_WATER_DES" Flag="0">
+  <Element ID="3624" Key="DES_TOOLTIP_ALLOW_ENTERING_WATER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:26:33</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60940,10 +61360,15 @@
     </Groups>
     <Texts>
       <Input>When on, groups will be able to enter water tiles even if they don't carry a vessel. Their Movement Points ({ICON:MPIcon}) will be limited to 1 and each character's Personal Carry Limit ({ICON:PersonalCarryLimitIcon}) will be reduced to 40.</Input>
-      <Output>Kiedy są włączone, grupy będą mogły wejść na kafelki wody, nawet jeśli nie noszą naczynia. Ich Punkty Ruchu ({ICON:MPIcon}) będą ograniczone do 1, a Osobisty Limit Carry każdej postaci ({ICON:PersonalCarryLimitIcon}) zostanie zredukowany do 40.</Output>
+      <Output>Grupy będą mogły wejść na kafelki wodne, nawet jeśli nie mają łodzi. Ich punkty ruchu ({ICON:MPIcon}) będą ograniczone do 1, a udźwig osobisty każdej postaci ({ICON:PersonalCarryLimitIcon}) zostanie zredukowany do 40.</Output>
     </Texts>
   </Element>
-  <Element ID="3625" Key="DES_TOOLTIP_CURRENT_LEVEL" Flag="0">
+  <Element ID="3625" Key="DES_TOOLTIP_CURRENT_LEVEL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:27:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60952,10 +61377,15 @@
     </Groups>
     <Texts>
       <Input>Current Level</Input>
-      <Output>Aktualny poziom</Output>
+      <Output>Aktualny Poziom</Output>
     </Texts>
   </Element>
-  <Element ID="3626" Key="DES_TOOLTIP_CURRENT_LEVEL_DES" Flag="0">
+  <Element ID="3626" Key="DES_TOOLTIP_CURRENT_LEVEL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:27:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60964,10 +61394,15 @@
     </Groups>
     <Texts>
       <Input>Shows the current level of this character along with the accumulated Experience Points (XP) and XP required for the next level.</Input>
-      <Output>Pokazuje aktualny poziom tej postaci wraz ze zgromadzonymi punktami doświadczenia (XP) i XP wymaganymi do następnego poziomu.</Output>
+      <Output>Pokazuje aktualny poziom tej postaci wraz ze zgromadzonymi punktami doświadczenia (PD) i punktami wymaganymi do następnego poziomu.</Output>
     </Texts>
   </Element>
-  <Element ID="3627" Key="DES_TOOLTIP_GOD_POINTS" Flag="0">
+  <Element ID="3627" Key="DES_TOOLTIP_GOD_POINTS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 08:35:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60976,10 +61411,15 @@
     </Groups>
     <Texts>
       <Input>God Points</Input>
-      <Output>Boskie punkty</Output>
+      <Output>Boskie Punkty</Output>
     </Texts>
   </Element>
-  <Element ID="3628" Key="DES_TOOLTIP_GOD_POINTS_DES" Flag="0">
+  <Element ID="3628" Key="DES_TOOLTIP_GOD_POINTS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:28:00</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -60988,10 +61428,15 @@
     </Groups>
     <Texts>
       <Input>Use these to unlock God Traits. You will get additional points for finished games.</Input>
-      <Output>Użyj ich, aby odblokować Cechy Boga. Otrzymasz dodatkowe punkty za ukończone gry.</Output>
+      <Output>Użyj ich, aby odblokować cechy bóstwa. Otrzymasz dodatkowe punkty za ukończone gry.</Output>
     </Texts>
   </Element>
-  <Element ID="3629" Key="DES_TOOLTIP_EXACT_MATERIALS" Flag="0">
+  <Element ID="3629" Key="DES_TOOLTIP_EXACT_MATERIALS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:28:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61000,10 +61445,15 @@
     </Groups>
     <Texts>
       <Input>Exact Materials Needed</Input>
-      <Output>Potrzebne są dokładne materiały</Output>
+      <Output>Skrupulatne Użycie Surowca</Output>
     </Texts>
   </Element>
-  <Element ID="3630" Key="DES_TOOLTIP_EXACT_MATERIALS_DES" Flag="0">
+  <Element ID="3630" Key="DES_TOOLTIP_EXACT_MATERIALS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:30:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61012,10 +61462,15 @@
     </Groups>
     <Texts>
       <Input>This recipe only accepts the exact materials shown on the workbench (ie. if it shows Wood, you cannot substitute it with Elven Wood).</Input>
-      <Output>Ten przepis akceptuje tylko dokładne materiały pokazane na stole warsztatowym (tzn. Jeśli pokazuje drewno, nie można go zastąpić Elven Wood).</Output>
+      <Output>Ten przepis akceptuje tylko dokładne materiały pokazane na stole warsztatowym (tzn. jeśli pokazuje drewno, nie można go zastąpić zamiennikiem np. elfim drewnem).</Output>
     </Texts>
   </Element>
-  <Element ID="3631" Key="DES_TOOLTIP_CHILD_MATERIALS" Flag="0">
+  <Element ID="3631" Key="DES_TOOLTIP_CHILD_MATERIALS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:33:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61024,10 +61479,15 @@
     </Groups>
     <Texts>
       <Input>Substitute Materials Allowed</Input>
-      <Output>Dozwolone materiały zastępcze</Output>
+      <Output>Dozwolone Rodziny Surowców</Output>
     </Texts>
   </Element>
-  <Element ID="3632" Key="DES_TOOLTIP_CHILD_MATERIALS_DES" Flag="0">
+  <Element ID="3632" Key="DES_TOOLTIP_CHILD_MATERIALS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:33:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61036,10 +61496,15 @@
     </Groups>
     <Texts>
       <Input>This recipe will accept the base material and any other material that is its child (ie. if it shows Sandstone, you can also use Clay, Granite, Quartz, Obsidian or any stone composite).</Input>
-      <Output>Ten przepis zaakceptuje materiał podstawowy i każdy inny materiał, który jest jego dzieckiem (tzn. Jeśli pokazuje Piaskowiec, możesz również użyć Gliny, Granitu, Kwarcu, Obsydianu lub dowolnego kamienia).</Output>
+      <Output>Ten przepis akceptuje materiał podstawowy i każdy inny materiał z tej samej rodziny (tzn. jeśli pokazuje piaskowiec, możesz również użyć gliny, granitu, kwarcu, obsydianu lub dowolnego innego kamienia).</Output>
     </Texts>
   </Element>
-  <Element ID="3633" Key="DES_TOOLTIP_TOGGLE_RESOURCES" Flag="0">
+  <Element ID="3633" Key="DES_TOOLTIP_TOGGLE_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:33:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61048,10 +61513,15 @@
     </Groups>
     <Texts>
       <Input>Toggle Resources (Q)</Input>
-      <Output>Przełącz zasoby (Q)</Output>
+      <Output>Widok Surowców (Q)</Output>
     </Texts>
   </Element>
-  <Element ID="3634" Key="DES_TOOLTIP_TOGGLE_RESOURCES_DES" Flag="0">
+  <Element ID="3634" Key="DES_TOOLTIP_TOGGLE_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:34:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61060,10 +61530,15 @@
     </Groups>
     <Texts>
       <Input>Show/Hide resource icons on the map.</Input>
-      <Output>Pokaż / Ukryj ikony zasobów na mapie.</Output>
+      <Output>Pokaż/ukryj ikony surowców na mapie.</Output>
     </Texts>
   </Element>
-  <Element ID="3635" Key="DES_TOOLTIP_REPORT_A_BUG" Flag="0">
+  <Element ID="3635" Key="DES_TOOLTIP_REPORT_A_BUG" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:34:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61073,10 +61548,15 @@
     </Groups>
     <Texts>
       <Input>Report a Bug (F8)</Input>
-      <Output>Zgłoś błąd (F8)</Output>
+      <Output>Zgłoś Błąd (F8)</Output>
     </Texts>
   </Element>
-  <Element ID="3636" Key="DES_TOOLTIP_REPORT_A_BUG_DES" Flag="0">
+  <Element ID="3636" Key="DES_TOOLTIP_REPORT_A_BUG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 11:34:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63030,7 +63510,12 @@
       <Output>Zobacz umiejętności i efekty wybranej postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="3797" Key="DES_TOOLTIP_SHOW_TAGS" Flag="0">
+  <Element ID="3797" Key="DES_TOOLTIP_SHOW_TAGS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:24:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63042,7 +63527,12 @@
       <Output>Tagi</Output>
     </Texts>
   </Element>
-  <Element ID="3798" Key="DES_TOOLTIP_SHOW_TAGS_DES" Flag="0">
+  <Element ID="3798" Key="DES_TOOLTIP_SHOW_TAGS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:25:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63051,10 +63541,15 @@
     </Groups>
     <Texts>
       <Input>View special tags of the selected character.</Input>
-      <Output>Wyświetl specjalne znaczniki wybranego znaku.</Output>
+      <Output>Zobacz specjalne tagi wybranej postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="3799" Key="DES_TOOLTIP_SHOW_NOTES" Flag="0">
+  <Element ID="3799" Key="DES_TOOLTIP_SHOW_NOTES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:24:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63063,7 +63558,7 @@
     </Groups>
     <Texts>
       <Input>Notes</Input>
-      <Output>Uwagi</Output>
+      <Output>Notatki</Output>
     </Texts>
   </Element>
   <Element ID="3800" Key="DES_TOOLTIP_SHOW_NOTES_DES" Flag="0">
@@ -77578,7 +78073,7 @@
     </Groups>
     <Texts>
       <Input>Fuel Management</Input>
-      <Output>Zarządzanie opałem</Output>
+      <Output>Zarządzanie Opałem</Output>
     </Texts>
   </Element>
   <Element ID="4739" Key="UI_FOOD_BONUSES" Flag="1">
@@ -78266,7 +78761,7 @@
     </Groups>
     <Texts>
       <Input>Are you sure you want to forfeit this challenge? There might be bad consequence if you do.</Input>
-      <Output>Czy na pewno chcesz zrezygnować z tego wyzwania? Jeśli to zrobisz, mogą wystąpić złe konsekwencje.</Output>
+      <Output>Czy na pewno chcesz poddać to wyzwanie? Jeśli to zrobisz, mogą wystąpić złe konsekwencje.</Output>
     </Texts>
   </Element>
   <Element ID="4782" Key="UI_FACTIONS_AND_LOYALTY" Flag="1">
@@ -78637,7 +79132,7 @@
     </Groups>
     <Texts>
       <Input>There are different types of {COLOR:yellow}resources{END_COLOR} in the world. They can be used as {COLOR:yellow}crafting materials, food or fuel{END_COLOR}, but before your people can use them - they need to collect them.</Input>
-      <Output>Istnieją różne typy {COLOR:yellow}zasobów {END_COLOR}na świecie. Mogą być użyte jako {COLOR:yellow}materiały rzemieślnicze, żywność lub opał{END_COLOR}, ale zanim twoi ludzie będą mogli z nich korzystać - muszą je zebrać.</Output>
+      <Output>Istnieją różne typy {COLOR:yellow}zasobów{END_COLOR}na świecie. Mogą być użyte jako {COLOR:yellow}materiały rzemieślnicze, żywność lub opał{END_COLOR}, ale zanim twoi ludzie będą mogli z nich korzystać - muszą je zebrać.</Output>
     </Texts>
   </Element>
   <Element ID="4805" Key="UI_TUTORIAL_CAMP2" Flag="1">
@@ -78717,7 +79212,7 @@
     </Groups>
     <Texts>
       <Input>Camping also increases health recovery rate, provided the group has fuel. One unit of fuel ({ICON:FuelIcon}) is used per turn (more during Winter).</Input>
-      <Output>Obozowanie zwiększa również wskaźnik zdrowia, pod warunkiem, że grupa ma opał. Jedna jednostka paliwa ({ICON:FuelIcon}) jest zużywana na turę (więcej podczas zimy).</Output>
+      <Output>Obozowanie zwiększa również wskaźnik zdrowia, pod warunkiem, że grupa ma opał. Jedna jednostka ({ICON:FuelIcon}) jest zużywana na turę (więcej podczas zimy).</Output>
     </Texts>
   </Element>
   <Element ID="4810" Key="UI_TUTORIAL_CARDS1" Flag="1">
@@ -80672,9 +81167,9 @@
   </Element>
   <Element ID="4931" Key="UI_FUEL_FILTER" Flag="1">
     <Confirmation>
-      <Time>2019-08-17 00:10:32</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
+      <Time>2019-11-22 08:48:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>UI</Group>
@@ -80683,7 +81178,7 @@
     </Groups>
     <Texts>
       <Input>Fuel</Input>
-      <Output>Paliwo</Output>
+      <Output>Opał</Output>
     </Texts>
   </Element>
   <Element ID="4932" Key="UI_COOKED_FOOD_FILTER" Flag="1">
@@ -82201,7 +82696,7 @@
     </Groups>
     <Texts>
       <Input>Click the {COLOR:yellow}Forfeit Challenge{END_COLOR} button and confirm your decision on the popup.</Input>
-      <Output>Kliknij przycisk {COLOR:yellow}Uniknij Wyzwania {END_COLOR}i potwierdź swoją decyzję w wyskakującym okienku.</Output>
+      <Output>Kliknij przycisk {COLOR:yellow}Poddaj Wyzwanie{END_COLOR}i potwierdź swoją decyzję w wyskakującym okienku.</Output>
     </Texts>
   </Element>
   <Element ID="5024" Key="UI_TUTORIAL_CHALLENGE2_5" Flag="1">
@@ -82337,7 +82832,7 @@
     </Groups>
     <Texts>
       <Input>Losing (or forfeiting) a challenge against a concept may also have bad consequence, but it usually doesn't affect your characters' hit points.</Input>
-      <Output>Porażka (lub lucieczka) w wyzwaniu przeciwko koncepcji może mieć złe konsekwencje, ale zazwyczaj nie wpływa na punkty życia twoich postaci.</Output>
+      <Output>Porażka (lub poddanie) w wyzwaniu przeciwko koncepcji może mieć złe konsekwencje, ale zazwyczaj nie wpływa na punkty życia twoich postaci.</Output>
     </Texts>
   </Element>
   <Element ID="5032" Key="UI_TUTORIAL_CHALLENGE3_4" Flag="1">
@@ -86372,8 +86867,8 @@
   </Element>
   <Element ID="5291" Key="UI_FUEL" Flag="1">
     <Confirmation>
-      <Time>2019-06-06 10:45:18</Time>
-      <GUID>3F77FAF1-B25D-4178-9166-07BBB7F0088A</GUID>
+      <Time>2019-11-22 08:49:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
       <User>RPA</User>
     </Confirmation>
     <Groups>
@@ -86382,7 +86877,7 @@
     </Groups>
     <Texts>
       <Input>Fuel</Input>
-      <Output>Paliwo</Output>
+      <Output>Opał</Output>
     </Texts>
   </Element>
   <Element ID="5292" Key="UI_BUILDINGS_SHIPS" Flag="0">
@@ -86551,7 +87046,12 @@
       <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie.{END_COLOR}\nPrzywołuje twojego chowańca na wybrane miejsce w rzędzie dystansowym po twojej stronie pola bitwy.</Output>
     </Texts>
   </Element>
-  <Element ID="5303" Key="DES_TOOLTIP_GOD_POINTS_CLAIMED" Flag="0">
+  <Element ID="5303" Key="DES_TOOLTIP_GOD_POINTS_CLAIMED" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:21:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -86561,10 +87061,15 @@
     </Groups>
     <Texts>
       <Input>God Points</Input>
-      <Output>Boskie punkty</Output>
+      <Output>Boskie Punkty</Output>
     </Texts>
   </Element>
-  <Element ID="5304" Key="DES_TOOLTIP_GOD_POINTS_CLAIMED_DES" Flag="0">
+  <Element ID="5304" Key="DES_TOOLTIP_GOD_POINTS_CLAIMED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:24:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -86574,7 +87079,7 @@
     </Groups>
     <Texts>
       <Input>God Points are added to your profile when opening the Game Summary screen. If you continue playing and earn more points, only the difference will be added next time.</Input>
-      <Output>Boskie punkty są dodawane do twojego profilu po otwarciu ekranu Podsumowanie gry. Jeśli będziesz kontynuować grę i zdobędziesz więcej punktów, tylko różnica zostanie dodana następnym razem.</Output>
+      <Output>Punkty są dodawane do twojego profilu po otwarciu podsumowania gry. Jeśli będziesz kontynuować grę i zdobędziesz więcej punktów, następnym razem zostanie dodana tylko różnica.</Output>
     </Texts>
   </Element>
   <Element ID="5305" Key="UI_TUTORIAL_CAMP5A" Flag="1">
@@ -86690,7 +87195,12 @@
       <Output>Łączna wartość:</Output>
     </Texts>
   </Element>
-  <Element ID="5314" Key="DES_TOOLTIP_REPLAY_VO" Flag="0">
+  <Element ID="5314" Key="DES_TOOLTIP_REPLAY_VO" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:21:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -86699,10 +87209,15 @@
     </Groups>
     <Texts>
       <Input>Replay Narration</Input>
-      <Output>Powtórz narrację</Output>
+      <Output>Powtórz Narrację</Output>
     </Texts>
   </Element>
-  <Element ID="5315" Key="DES_TOOLTIP_REPLAY_VO_DES" Flag="0">
+  <Element ID="5315" Key="DES_TOOLTIP_REPLAY_VO_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:21:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -88314,7 +88829,12 @@
       <Output>Po zakończeniu wzrasta morale wszystkich członków grupy do 40.</Output>
     </Texts>
   </Element>
-  <Element ID="5432" Key="DES_RITUAL_MOON_BRIDGE" Flag="0">
+  <Element ID="5432" Key="DES_RITUAL_MOON_BRIDGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 17:40:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -88323,10 +88843,15 @@
     </Groups>
     <Texts>
       <Input>Moon Bridge</Input>
-      <Output>Most Księżycowy</Output>
+      <Output>Księżycowy Most</Output>
     </Texts>
   </Element>
-  <Element ID="5433" Key="DES_RITUAL_MOON_BRIDGE_DES" Flag="0">
+  <Element ID="5433" Key="DES_RITUAL_MOON_BRIDGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 17:40:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -88335,10 +88860,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, instantly transports all people and their cargo to another group located the closest to them.</Input>
-      <Output>Po zakończeniu natychmiast transportuje wszystkich ludzi i ich ładunek do innej grupy znajdującej się najbliżej nich.</Output>
+      <Output>Po zakończeniu natychmiast transportuje wszystkich członków grupy wraz ładunek do innej grupy znajdującej się najbliżej nich.</Output>
     </Texts>
   </Element>
-  <Element ID="5434" Key="DES_RITUAL_MYSTICAL_KNOWLEDGE" Flag="0">
+  <Element ID="5434" Key="DES_RITUAL_MYSTICAL_KNOWLEDGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 17:40:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -88434,7 +88964,12 @@
       <Output>[PLACECHOLDER] Daj jedno dziecko.</Output>
     </Texts>
   </Element>
-  <Element ID="5442" Key="DES_TOOLTIP_VILLAGE_INFO" Flag="0">
+  <Element ID="5442" Key="DES_TOOLTIP_VILLAGE_INFO" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:20:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -88443,7 +88978,7 @@
     </Groups>
     <Texts>
       <Input>Village Information (V)</Input>
-      <Output>Informacje o wiosce (V)</Output>
+      <Output>Informacje o Wiosce (V)</Output>
     </Texts>
   </Element>
   <Element ID="5443" Key="DES_TOOLTIP_VILLAGE_INFO_DES" Flag="0">
@@ -89749,7 +90284,12 @@
       <Output>Wyspy</Output>
     </Texts>
   </Element>
-  <Element ID="5525" Key="DES_TOOLTIP_ISLANDS_DES" Flag="0">
+  <Element ID="5525" Key="DES_TOOLTIP_ISLANDS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:20:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -89757,7 +90297,7 @@
     </Groups>
     <Texts>
       <Input>The world will consist of a set of islands. Each island will be a single biome and creatures from more difficult areas will not cross over.</Input>
-      <Output>Świat będzie się składał z zestawu wysp. Każda wyspa będzie pojedynczym biomem, a stworzenia z trudniejszych obszarów nie będą się krzyżować.</Output>
+      <Output>Świat będzie się składał z zestawu wysp. Każda wyspa będzie pojedynczym biomem, a stworzenia z trudniejszych obszarów nie będą się spotykać.</Output>
     </Texts>
   </Element>
   <Element ID="5526" Key="DES_TOOLTIP_PANGEA" Flag="1">
@@ -89776,7 +90316,12 @@
       <Output>Pangea</Output>
     </Texts>
   </Element>
-  <Element ID="5527" Key="DES_TOOLTIP_PANGEA_DES" Flag="0">
+  <Element ID="5527" Key="DES_TOOLTIP_PANGEA_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:16:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -89784,7 +90329,7 @@
     </Groups>
     <Texts>
       <Input>Most of the landmass will be located on a single island, but other, smaller islands are likely. One island can have more than one biome and you may be able to encounter more difficult enemies there.\n\n{COLOR:yellow}This option is recommended only for experienced players.{END_COLOR}</Input>
-      <Output>Większość lądu będzie zlokalizowana na jednej wyspie, ale inne mniejsze wyspy są prawdopodobne. Jedna wyspa może mieć więcej niż jeden biom i możesz tam spotkać trudniejszych wrogów. \n\n{COLOR:yellow}Ta opcja jest zalecana tylko dla doświadczonych graczy. {END_COLOR}</Output>
+      <Output>Większość lądu będzie zlokalizowana na jednej wyspie, ale możliwe, że wystąpią inne mniejsze wyspy. Wyspa może mieć więcej niż jeden biom i możesz tam spotkać trudniejszych wrogów.\n\n{COLOR:yellow}Ta opcja jest zalecana tylko dla doświadczonych graczy.{END_COLOR}</Output>
     </Texts>
   </Element>
   <Element ID="5528" Key="DES_TOOLTIP_SMALL" Flag="1">
@@ -90464,7 +91009,12 @@
       <Output>Bieżące Zadanie</Output>
     </Texts>
   </Element>
-  <Element ID="5574" Key="DES_TOOLTIP_CURRENT_TASK_DES" Flag="0">
+  <Element ID="5574" Key="DES_TOOLTIP_CURRENT_TASK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:15:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -90476,7 +91026,12 @@
       <Output>Ta postać jest obecnie przypisana do zadania.</Output>
     </Texts>
   </Element>
-  <Element ID="5575" Key="DES_TOOLTIP_CHARACTERS_LIST" Flag="0">
+  <Element ID="5575" Key="DES_TOOLTIP_CHARACTERS_LIST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:14:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -90485,10 +91040,15 @@
     </Groups>
     <Texts>
       <Input>Characters List (`)</Input>
-      <Output>Lista znaków (`)</Output>
+      <Output>Lista Postaci (`)</Output>
     </Texts>
   </Element>
-  <Element ID="5576" Key="DES_TOOLTIP_CHARACTERS_LIST_DES" Flag="0">
+  <Element ID="5576" Key="DES_TOOLTIP_CHARACTERS_LIST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-22 10:15:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
