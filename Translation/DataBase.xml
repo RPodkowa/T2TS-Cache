@@ -11820,7 +11820,7 @@
     </Groups>
     <Texts>
       <Input>Orc Matriarch</Input>
-      <Output>Matriarcha - Ork</Output>
+      <Output>Matrona - Ork</Output>
     </Texts>
   </Element>
   <Element ID="665" Key="DES_SUBRACE_ORC_WOUNDED_MATRIARCH" Flag="1">
@@ -11838,7 +11838,7 @@
     </Groups>
     <Texts>
       <Input>Orc Wounded Matriarch</Input>
-      <Output>Ranna matriarcha - Ork</Output>
+      <Output>Ranna Matrona - Ork</Output>
     </Texts>
   </Element>
   <Element ID="666" Key="DES_SUBRACE_ORC_MATRIARCH_DES" Flag="1">
@@ -11855,7 +11855,7 @@
     </Groups>
     <Texts>
       <Input>The matriarch is the leader of a clan and she must prove her worth in both combat and wits before she can claim her status. The title is not strictly hereditary, although the offspring of a previous matriarch is likely to succeed her mother. </Input>
-      <Output>Matriarchini jest przywódcą klanu i musi udowodnić swoją wartość zarówno w walce, jak i w próbie sprytu, zanim będzie mogła ubiegać się o swój status. Tytuł nie jest ściśle dziedziczny, chociaż potomstwo poprzedniej matriarchy prawdopodobnie zostanie następcą matki. </Output>
+      <Output>Matrona jest przywódcą klanu i musi udowodnić swoją wartość zarówno w walce, jak i w próbie sprytu, zanim będzie mogła ubiegać się o swój status. Tytuł nie jest ściśle dziedziczny, chociaż jest duże prawdopodobieństwo, że potomstwo poprzedniej matrony zostanie następczynią matki. </Output>
     </Texts>
   </Element>
   <Element ID="667" Key="DES_SUBRACE_ORC_WITCH" Flag="1">
@@ -11996,7 +11996,7 @@
     </Groups>
     <Texts>
       <Input>Orc Young Gatherer</Input>
-      <Output>Młody zbieracz - Ork</Output>
+      <Output>Młody Zbieracz - Ork</Output>
     </Texts>
   </Element>
   <Element ID="675" Key="DES_SUBRACE_ORC_PLODDER_GATHERER_DES" Flag="1">
@@ -12469,7 +12469,7 @@
     </Groups>
     <Texts>
       <Input>Clanless Dwarf Smith</Input>
-      <Output>Klanowy Kowal - Krasnolud</Output>
+      <Output>Bezklanowy Kowal - Krasnolud</Output>
     </Texts>
   </Element>
   <Element ID="702" Key="DES_SUBRACE_DWARF_CLANLESS_SMITH_TRAIT_DES" Flag="1">
@@ -42417,7 +42417,7 @@
     </Groups>
     <Texts>
       <Input>This armour not only protects from physical harm, it also improves combat abilities.</Input>
-      <Output>Ta zbroja chroni nie tylko przed fizycznymi obrażeniami, ale także poprawia zdolności bojowe.</Output>
+      <Output>Ta zbroja chroni nie ylko przed fizycznymi obrażeniami, ale także poprawia zdolności bojowe.</Output>
     </Texts>
   </Element>
   <Element ID="2447" Key="DES_SKILL_LIGHT_CONNECTION" Flag="0">
@@ -56946,7 +56946,12 @@
       <Output>Za każdym razem, gdy wroga postać wchodzi na pole bitwy, opóźnienie tej postaci zostaje zmniejszone.</Output>
     </Texts>
   </Element>
-  <Element ID="3373" Key="DES_TRAIT_ANIMAL_PATH" Flag="0">
+  <Element ID="3373" Key="DES_TRAIT_ANIMAL_PATH" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -56955,10 +56960,15 @@
     </Groups>
     <Texts>
       <Input>Animal Senses</Input>
-      <Output>Zwierzęce zmysły</Output>
+      <Output>Zwierzęce Zmysły</Output>
     </Texts>
   </Element>
-  <Element ID="3374" Key="DES_TRAIT_ANIMAL_PATH_DES" Flag="0">
+  <Element ID="3374" Key="DES_TRAIT_ANIMAL_PATH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -56967,10 +56977,15 @@
     </Groups>
     <Texts>
       <Input>Animals, elves and forest demons you control have +1 to each main attribute. Crafting attribute is decreased by 10% but Gathering attribute is increased by 10%.</Input>
-      <Output>Kontrolowane zwierzęta, elfy i demony lasu mają +1 do każdego głównego atrybutu. Atrybut rzemiosła jest zmniejszony o 10%, ale atrybut Zbieranie jest zwiększony o 10%.</Output>
+      <Output>Kontrolowane zwierzęta, elfy i demony lasu dostają premię +1 do każdego głównego atrybutu. Rzemiosło jest zmniejszone o 10%, ale zbieractwo jest zwiększone o 10%.</Output>
     </Texts>
   </Element>
-  <Element ID="3375" Key="DES_TRAIT_WARCRY" Flag="0">
+  <Element ID="3375" Key="DES_TRAIT_WARCRY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -56978,10 +56993,15 @@
     </Groups>
     <Texts>
       <Input>War Cry</Input>
-      <Output>Okrzyk wojenny</Output>
+      <Output>Okrzyk Wojenny</Output>
     </Texts>
   </Element>
-  <Element ID="3376" Key="DES_TRAIT_WARCRY_DES" Flag="0">
+  <Element ID="3376" Key="DES_TRAIT_WARCRY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57006,10 +57026,15 @@
     </Groups>
     <Texts>
       <Input>Mutual Love</Input>
-      <Output>Wzajemna miłość</Output>
+      <Output>Wzajemna Miłość</Output>
     </Texts>
   </Element>
-  <Element ID="3378" Key="DES_TRAIT_MUTUAL_LOVE_DES" Flag="0">
+  <Element ID="3378" Key="DES_TRAIT_MUTUAL_LOVE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57018,7 +57043,7 @@
     </Groups>
     <Texts>
       <Input>Gaining or losing faction loyalty points is 1.3x quicker. +4 mental shielding</Input>
-      <Output>Uzyskanie lub utrata punktów lojalności frakcji jest 1,3 razy szybsza. +4 mentalne ekranowanie</Output>
+      <Output>Przyrost lub spadek punktów lojalności frakcji jest 1,3 razy szybszy. Stały bonus +4 do osłony mentalnej.</Output>
     </Texts>
   </Element>
   <Element ID="3379" Key="DES_TRAIT_LONG_TRAVEL" Flag="1">
@@ -57035,10 +57060,15 @@
     </Groups>
     <Texts>
       <Input>Favourable Winds</Input>
-      <Output>Korzystne wiatry</Output>
+      <Output>Korzystne Wiatry</Output>
     </Texts>
   </Element>
-  <Element ID="3380" Key="DES_TRAIT_LONG_TRAVEL_DES" Flag="0">
+  <Element ID="3380" Key="DES_TRAIT_LONG_TRAVEL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57047,10 +57077,15 @@
     </Groups>
     <Texts>
       <Input>Start with a Stribog's Raft. +2 Movement Points when travelling on water.</Input>
-      <Output>Zacznij od tratwy Striboga. +2 punkty ruchu podczas podróży po wodzie.</Output>
+      <Output>Rozpoczynasz grę posiadając tratwę Strzyboga. Bonus +2 punkty ruchu podczas podróży po wodzie.</Output>
     </Texts>
   </Element>
-  <Element ID="3381" Key="DES_TRAIT_NIGHT_AFFINITY" Flag="0">
+  <Element ID="3381" Key="DES_TRAIT_NIGHT_AFFINITY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57059,10 +57094,15 @@
     </Groups>
     <Texts>
       <Input>Nocturnal Predator</Input>
-      <Output>Nocny drapieznik</Output>
+      <Output>Nocny Drapieżnik</Output>
     </Texts>
   </Element>
-  <Element ID="3382" Key="DES_TRAIT_NIGHT_AFFINITY_DES" Flag="0">
+  <Element ID="3382" Key="DES_TRAIT_NIGHT_AFFINITY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57071,10 +57111,15 @@
     </Groups>
     <Texts>
       <Input>Your characters have an increased visibility range , Wits, Perception and Destiny at night, but decreased during  the day. The Chosen can also summon a werewolf into battle and the beast's power will depend on the chosen's Perception attribute.</Input>
-      <Output>Twoje postacie mają zwiększony zasięg widoczności, spryt, percepcję i przeznaczenie w nocy, ale zmniejszają się w ciągu dnia. Wybrani mogą również wezwać wilkołaka do walki, a moc bestii będzie zależała od wybranego atrybutu Percepcji.</Output>
+      <Output>Twoje postacie mają zwiększony zasięg widoczności, spryt, percepcję i przeznaczenie w nocy, ale zmniejszają się w ciągu dnia. Wybraniec może również przywołać do pomocy w walce wilkołaka, a moc bestii będzie zależała od wartości jego percepcji.</Output>
     </Texts>
   </Element>
-  <Element ID="3383" Key="DES_TRAIT_NIGHTMARE_GIFT" Flag="0">
+  <Element ID="3383" Key="DES_TRAIT_NIGHTMARE_GIFT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57083,10 +57128,15 @@
     </Groups>
     <Texts>
       <Input>Unshaken Faith</Input>
-      <Output>Niewzruszona wiara</Output>
+      <Output>Niewzruszona Wiara</Output>
     </Texts>
   </Element>
-  <Element ID="3384" Key="DES_TRAIT_NIGHTMARE_GIFT_DES" Flag="0">
+  <Element ID="3384" Key="DES_TRAIT_NIGHTMARE_GIFT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57095,10 +57145,15 @@
     </Groups>
     <Texts>
       <Input>Your characters get +1 Spiritual regeneration, 10% bonus to Rituals attribute, +4 Spiritual Shielding and you get immediate access to the Moon Bridge ritual.</Input>
-      <Output>Twoje postacie otrzymują +1 do regeneracji duchowej, 10% premii do atrybutu Rytuały, +4 do duchowej osłony oraz natychmiastowy dostęp do rytuału Mostu Księżycowego.</Output>
+      <Output>Twoje postacie otrzymują +1 do regeneracji duchowej, 10% premii do rytuałów, +4 do duchowej osłony oraz natychmiastowy dostęp do rytuału Most Księżycowy.</Output>
     </Texts>
   </Element>
-  <Element ID="3385" Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL" Flag="0">
+  <Element ID="3385" Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57109,10 +57164,15 @@
     </Groups>
     <Texts>
       <Input>Many Hammers, One Anvil</Input>
-      <Output>Wiele młotów, jedno kowadło</Output>
+      <Output>Wiele Młotów, Jedno Kowadło</Output>
     </Texts>
   </Element>
-  <Element ID="3386" Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL_DES" Flag="0">
+  <Element ID="3386" Key="DES_TRAIT_MANY_HAMMERS_ONE_ANVIL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57123,7 +57183,7 @@
     </Groups>
     <Texts>
       <Input>Each character gets 20% bonus to Crafting attribute, +4 Health and Sanity, but Gathering attribute is decreased by 10%.</Input>
-      <Output>Każda postać otrzymuje 20% premii do atrybutu Wytwarzanie, +4 Zdrowia i Poczytalności, ale atrybut Gromadzenia jest zmniejszany o 10%.</Output>
+      <Output>Każda postać otrzymuje 20% premii do rzemiosła, +4 zdrowia fizycznego i poczytalności, ale zbieractwo jest zmniejszane o 10%.</Output>
     </Texts>
   </Element>
   <Element ID="3387" Key="DES_TRAIT_DIVINE_COMMANDER" Flag="1">
@@ -57140,10 +57200,15 @@
     </Groups>
     <Texts>
       <Input>Divine Commander</Input>
-      <Output>Boski dowódca</Output>
+      <Output>Boski Dowódca</Output>
     </Texts>
   </Element>
-  <Element ID="3388" Key="DES_TRAIT_DIVINE_COMMANDER_DES" Flag="0">
+  <Element ID="3388" Key="DES_TRAIT_DIVINE_COMMANDER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57152,10 +57217,15 @@
     </Groups>
     <Texts>
       <Input>At the end of each turn your characters gain 0.4 Experience Point. The Chosen starts with a special offensive skill.</Input>
-      <Output>Pod koniec każdej tury twoje postacie zyskują 0,4 punktu doświadczenia. Wybrani zaczynają od specjalnej umiejętności ofensywnej.</Output>
+      <Output>Pod koniec każdej tury twoje postacie zyskują 0,4 punktu doświadczenia. Wybraniec zaczyna posiadając specjalną umiejętność ofensywną.</Output>
     </Texts>
   </Element>
-  <Element ID="3389" Key="DES_TRAIT_IDOL_OF_PAIN" Flag="0">
+  <Element ID="3389" Key="DES_TRAIT_IDOL_OF_PAIN" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57165,10 +57235,15 @@
     </Groups>
     <Texts>
       <Input>Not Dead Yet</Input>
-      <Output>Jeszcze nie martwy</Output>
+      <Output>Nie Wszystek Umrę</Output>
     </Texts>
   </Element>
-  <Element ID="3390" Key="DES_TRAIT_IDOL_OF_PAIN_DES" Flag="0">
+  <Element ID="3390" Key="DES_TRAIT_IDOL_OF_PAIN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:59:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57178,7 +57253,7 @@
     </Groups>
     <Texts>
       <Input>If your Chosen dies, they change into an unliving corpse. Additionally, all your characters have a lower chance to die from heavy wounds.</Input>
-      <Output>Jeśli twój Wybrany umiera, zamieniają się w nieożywione zwłoki. Dodatkowo, wszystkie twoje postacie mają mniejszą szansę na śmierć z powodu ciężkich ran.</Output>
+      <Output>Jeśli twój wybraniec umiera, zamienia się w nieożywione zwłoki. Dodatkowo, wszystkie twoje postacie ponoszą mniejsze ryzyko śmierci z powodu ciężkich ran.</Output>
     </Texts>
   </Element>
   <Element ID="3391" Key="DES_TRAIT_ADD_HUM_CHILDREN" Flag="1">
@@ -57196,7 +57271,7 @@
     </Groups>
     <Texts>
       <Input>Add Characters - Children</Input>
-      <Output>Dodaj Postacie - Dzieci</Output>
+      <Output>Dodatkowe Postaci - Dzieci</Output>
     </Texts>
   </Element>
   <Element ID="3392" Key="DES_TRAIT_ADD_HUM_CHILDREN_DES" Flag="1">
@@ -57214,7 +57289,7 @@
     </Groups>
     <Texts>
       <Input>Begin with two additional characters - Human Children.</Input>
-      <Output>Zacznij z dwoma dodatkowymi postaciami - Ludzkie dzieci.</Output>
+      <Output>Zaczynasz z dwoma dodatkowymi postaciami: Dzieci - Ludzie.</Output>
     </Texts>
   </Element>
   <Element ID="3393" Key="DES_TRAIT_ADD_CHARACTER_WARRIOR" Flag="1">
@@ -57232,7 +57307,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Warrior</Input>
-      <Output>Dodaj Postać - Wojownik</Output>
+      <Output>Dodatkowa Postać - Wojownik</Output>
     </Texts>
   </Element>
   <Element ID="3394" Key="DES_TRAIT_ADD_CHARACTER_WARRIOR_DES" Flag="1">
@@ -57250,7 +57325,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Human Warrior.</Input>
-      <Output>Zacznij z dodatkową postacią - Ludzkim wojownikiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Wojownik - Człowiek.</Output>
     </Texts>
   </Element>
   <Element ID="3395" Key="DES_TRAIT_ADD_CHARACTER_CRAFTSMAN" Flag="1">
@@ -57268,7 +57343,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Craftsman</Input>
-      <Output>Dodaj Postać - Rzemieślnik</Output>
+      <Output>Dodatkowa Postać - Rzemieślnik</Output>
     </Texts>
   </Element>
   <Element ID="3396" Key="DES_TRAIT_ADD_CHARACTER_CRAFTSMAN_DES" Flag="1">
@@ -57286,7 +57361,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Human Craftsman.</Input>
-      <Output>Zacznij z dodatkową postacią - Ludzkim rzemieślnikiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Rzemieślnik - Człowiek.</Output>
     </Texts>
   </Element>
   <Element ID="3397" Key="DES_TRAIT_ADD_CHARACTER_GATHERER" Flag="1">
@@ -57304,7 +57379,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Gatherer</Input>
-      <Output>Dodaj Postać - Zbieracz</Output>
+      <Output>Dodatkowa Postać - Zbieracz</Output>
     </Texts>
   </Element>
   <Element ID="3398" Key="DES_TRAIT_ADD_CHARACTER_GATHERER_DES" Flag="1">
@@ -57322,7 +57397,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Human Gatherer.</Input>
-      <Output>Zacznij z dodatkową postacią - Ludzkim zbieraczem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Zbieracz - Człowiek</Output>
     </Texts>
   </Element>
   <Element ID="3399" Key="DES_TRAIT_ADD_CHARACTER_HUNTER" Flag="1">
@@ -57340,7 +57415,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Hunter</Input>
-      <Output>Dodaj Postać - Łowca</Output>
+      <Output>Dodatkowa Postać - Łowca</Output>
     </Texts>
   </Element>
   <Element ID="3400" Key="DES_TRAIT_ADD_CHARACTER_HUNTER_DES" Flag="1">
@@ -57358,7 +57433,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Human Hunter.</Input>
-      <Output>Zacznij z dodatkową postacią - Ludzkim łowcą.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Łowca - Człowiek</Output>
     </Texts>
   </Element>
   <Element ID="3401" Key="DES_TRAIT_ADD_CHARACTER_SCAVENGER" Flag="1">
@@ -57376,7 +57451,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Scavenger</Input>
-      <Output>Dodaj Postać - Śmieciarz</Output>
+      <Output>Dodatkowa Postać - Śmieciarz</Output>
     </Texts>
   </Element>
   <Element ID="3402" Key="DES_TRAIT_ADD_CHARACTER_SCAVENGER_DES" Flag="1">
@@ -57394,7 +57469,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Human Scavenger.</Input>
-      <Output>Zacznij z dodatkową postacią - Ludzkim śmieciarzem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Śmieciarz - Człowiek</Output>
     </Texts>
   </Element>
   <Element ID="3403" Key="DES_TRAIT_ADD_CHARACTER_SCOUNDREL" Flag="1">
@@ -57412,7 +57487,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Scoundrel</Input>
-      <Output>Dodaj Postać - Rzezimieszek</Output>
+      <Output>Dodatkowa Postać - Rzezimieszek</Output>
     </Texts>
   </Element>
   <Element ID="3404" Key="DES_TRAIT_ADD_CHARACTER_SCOUNDREL_DES" Flag="1">
@@ -57430,7 +57505,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Human Scoundrel.</Input>
-      <Output>Zacznij z dodatkową postacią - Ludzkim rzezimieszkiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Rzeziemieszek - Człowiek</Output>
     </Texts>
   </Element>
   <Element ID="3405" Key="DES_TRAIT_ADD_CHARACTER_SCOUNDREL_RAT" Flag="1">
@@ -57449,10 +57524,15 @@
     </Groups>
     <Texts>
       <Input>Add Characters - Scoundrel and Rat</Input>
-      <Output>Dodaj Postacie - Rzezimieszek i Szczur</Output>
+      <Output>Dodatkowe Postacie - Rzezimieszek i Szczur</Output>
     </Texts>
   </Element>
-  <Element ID="3406" Key="DES_TRAIT_ADD_CHARACTER_SCOUNDREL_RAT_DES" Flag="0">
+  <Element ID="3406" Key="DES_TRAIT_ADD_CHARACTER_SCOUNDREL_RAT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 06:50:00</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57463,7 +57543,7 @@
     </Groups>
     <Texts>
       <Input>Begin with two additional characters - a Human Scoundrel and a Rat.</Input>
-      <Output>Rozpocznij od dwóch dodatkowych postaci - Człowieka Łajdaka i Szczura.</Output>
+      <Output>Zaczynasz z dwoma dodatkowymi postaciami: Rzeziemieszek - Człowiek i Szczur.</Output>
     </Texts>
   </Element>
   <Element ID="3407" Key="DES_TRAIT_ADD_CHARACTER_ZERCA" Flag="1">
@@ -57481,7 +57561,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Young Zerca</Input>
-      <Output>Dodaj Postać - Młoda Żerca</Output>
+      <Output>Dodatkowa Postać - Młody Żerca</Output>
     </Texts>
   </Element>
   <Element ID="3408" Key="DES_TRAIT_ADD_CHARACTER_ZERCA_DES" Flag="1">
@@ -57499,7 +57579,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Young Human Zerca.</Input>
-      <Output>Zacznij z dodatkową postacią - Młoda ludzka Żerca.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Młody Żerca - Człowiek</Output>
     </Texts>
   </Element>
   <Element ID="3409" Key="DES_TRAIT_ADD_CHARACTER_SHAMAN" Flag="1">
@@ -57517,7 +57597,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Tainted Goblin Shaman</Input>
-      <Output>Dodaj Postać - Skażony Gobliński Szaman</Output>
+      <Output>Dodatkowa Postać - Plugawy Gobliński Szaman</Output>
     </Texts>
   </Element>
   <Element ID="3410" Key="DES_TRAIT_ADD_CHARACTER_SHAMAN_DES" Flag="1">
@@ -57535,7 +57615,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Tainted Goblin Shaman.</Input>
-      <Output>Zacznij z dodatkową postacią - Skażonego szamana goblinów.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Plugawy Szaman - Goblin.</Output>
     </Texts>
   </Element>
   <Element ID="3411" Key="DES_TRAIT_ADD_RAT" Flag="1">
@@ -57552,7 +57632,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Rat</Input>
-      <Output>Dodaj Postać - Szczur</Output>
+      <Output>Dodatkowa Postać - Szczur</Output>
     </Texts>
   </Element>
   <Element ID="3412" Key="DES_TRAIT_ADD_RAT_DES" Flag="1">
@@ -57569,7 +57649,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - Rat.</Input>
-      <Output>Zacznij z dodatkową postacią - Szczurem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Szczur.</Output>
     </Texts>
   </Element>
   <Element ID="3413" Key="DES_TRAIT_ADD_WOLF_ALPHA" Flag="1">
@@ -57587,7 +57667,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Alpha Wolf</Input>
-      <Output>Dodaj Postać - Wilk Alfa</Output>
+      <Output>Dodatkowa Postać - Wilk Alfa</Output>
     </Texts>
   </Element>
   <Element ID="3414" Key="DES_TRAIT_ADD_WOLF_ALPHA_DES" Flag="1">
@@ -57605,7 +57685,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - Alpha Wolf.</Input>
-      <Output>Zacznij z dodatkową postacią - Wilkiem alfa.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Wilk Alfa.</Output>
     </Texts>
   </Element>
   <Element ID="3415" Key="DES_TRAIT_ADD_SNAKE_ROYAL" Flag="1">
@@ -57623,7 +57703,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Royal Snake</Input>
-      <Output>Dodaj Postać - Królewski Wąż</Output>
+      <Output>Dodatkowa Postać - Królewski Wąż</Output>
     </Texts>
   </Element>
   <Element ID="3416" Key="DES_TRAIT_ADD_SNAKE_ROYAL_DES" Flag="1">
@@ -57641,7 +57721,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Royal Snake.</Input>
-      <Output>Zacznij z dodatkową postacią - Królewskim wężem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Królewski Wąż.</Output>
     </Texts>
   </Element>
   <Element ID="3417" Key="DES_TRAIT_ADD_SPIDER_GIANT" Flag="1">
@@ -57659,7 +57739,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Giant Spider</Input>
-      <Output>Dodaj Postać - Gigantyczny Pająk</Output>
+      <Output>Dodatkowa Postać - Gigantyczny Pająk</Output>
     </Texts>
   </Element>
   <Element ID="3418" Key="DES_TRAIT_ADD_SPIDER_GIANT_DES" Flag="1">
@@ -57677,7 +57757,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Giant Spider.</Input>
-      <Output>Zacznij z dodatkową postacią - Gigantycznym pająkiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Gigantyczn Pająk.</Output>
     </Texts>
   </Element>
   <Element ID="3419" Key="DES_TRAIT_ADD_ORC_CHILD" Flag="1">
@@ -57695,7 +57775,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Orc Child</Input>
-      <Output>Dodaj Postać - Orcze Dziecko</Output>
+      <Output>Dodatkowa Postać - Orcze Dziecko</Output>
     </Texts>
   </Element>
   <Element ID="3420" Key="DES_TRAIT_ADD_ORC_CHILD_DES" Flag="1">
@@ -57713,7 +57793,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - an Orc Child.</Input>
-      <Output>Zacznij z dodatkową postacią - Orczego dziecka.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Dziecko - Ork.</Output>
     </Texts>
   </Element>
   <Element ID="3421" Key="DES_TRAIT_ADD_ORC_YOUNG_PLODDER_GATHERER" Flag="1">
@@ -57733,10 +57813,15 @@
     </Groups>
     <Texts>
       <Input>Add Character - Young Plodder Gatherer</Input>
-      <Output>Dodaj Postać - Młoda Maruda Zbieracz</Output>
+      <Output>Dodatkowa Postać - Młody Ork</Output>
     </Texts>
   </Element>
-  <Element ID="3422" Key="DES_TRAIT_ADD_ORC_YOUNG_PLODDER_GATHERER_DES" Flag="0">
+  <Element ID="3422" Key="DES_TRAIT_ADD_ORC_YOUNG_PLODDER_GATHERER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:50:43</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -57748,7 +57833,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Young Orc Plodder Gatherer.</Input>
-      <Output>Zacznij od dodatkowej postaci - Zbieracza Ploddera Młodych Orków.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Młody Ork.</Output>
     </Texts>
   </Element>
   <Element ID="3423" Key="DES_TRAIT_ADD_DWARF_CHILD" Flag="1">
@@ -57766,7 +57851,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Dwarf Child</Input>
-      <Output>Dodaj Postać - Krasnoludzkie Dziecko</Output>
+      <Output>Dodatkowa Postać - Krasnoludzkie Dziecko</Output>
     </Texts>
   </Element>
   <Element ID="3424" Key="DES_TRAIT_ADD_DWARF_CHILD_DES" Flag="1">
@@ -57784,7 +57869,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Dwarf Child.</Input>
-      <Output>Zacznij z dodatkową postacią - Krasnoludzkim dzieckiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Dziecko - Krasnolud.</Output>
     </Texts>
   </Element>
   <Element ID="3425" Key="DES_TRAIT_ADD_DWARF_CLANLESS_SMITH" Flag="1">
@@ -57803,7 +57888,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Clanless Dwarf Smith</Input>
-      <Output>Dodaj Postać - Bezklanowy Krasnoludzki Kowal</Output>
+      <Output>Dodatkowa Postać - Bezklanowy Krasnoludzki Kowal</Output>
     </Texts>
   </Element>
   <Element ID="3426" Key="DES_TRAIT_ADD_DWARF_CLANLESS_SMITH_DES" Flag="1">
@@ -57822,7 +57907,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Clanless Dwarf Smith.</Input>
-      <Output>Zacznij z dodatkową postacią - Bezklanowym krasnoludzkim kowalem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Bezklanowy Kowal - Krasnolud</Output>
     </Texts>
   </Element>
   <Element ID="3427" Key="DES_TRAIT_ADD_ELF_CHILD" Flag="1">
@@ -57840,7 +57925,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Elf Child</Input>
-      <Output>Dodaj Postać - Elfie Dziecko</Output>
+      <Output>Dodatkowa Postać - Elfie Dziecko</Output>
     </Texts>
   </Element>
   <Element ID="3428" Key="DES_TRAIT_ADD_ELF_CHILD_DES" Flag="1">
@@ -57858,7 +57943,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - an Elf Child.</Input>
-      <Output>Zacznij z dodatkową postacią - Elfim dzieckiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Dziecko - Elf.</Output>
     </Texts>
   </Element>
   <Element ID="3429" Key="DES_TRAIT_ADD_ELF_YOUNG_DRUID" Flag="1">
@@ -57877,7 +57962,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Young Elf Druid</Input>
-      <Output>Dodaj Postać - Młody Elfi Druid</Output>
+      <Output>Dodatkowa Postać - Młody Elfi Druid</Output>
     </Texts>
   </Element>
   <Element ID="3430" Key="DES_TRAIT_ADD_ELF_YOUNG_DRUID_DES" Flag="1">
@@ -57896,7 +57981,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Young Elf Druid.</Input>
-      <Output>Zacznij z dodatkową postacią - Młodym elfim druidem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Młod Druid - Elf.</Output>
     </Texts>
   </Element>
   <Element ID="3431" Key="DES_TRAIT_ADD_GOB_CHILD" Flag="1">
@@ -57914,7 +57999,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Goblin Child</Input>
-      <Output>Dodaj Postać - Goblińskie Dziecko</Output>
+      <Output>Dodatkowa Postać - Goblińskie Dziecko</Output>
     </Texts>
   </Element>
   <Element ID="3432" Key="DES_TRAIT_ADD_GOB_CHILD_DES" Flag="1">
@@ -57932,7 +58017,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Goblin Child.</Input>
-      <Output>Zacznij z dodatkową postacią - Goblińskim dzieckiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Dziecko - Goblin.</Output>
     </Texts>
   </Element>
   <Element ID="3433" Key="DES_TRAIT_ADD_GOB_YOUNG_SKIRMISHER" Flag="1">
@@ -57951,7 +58036,7 @@
     </Groups>
     <Texts>
       <Input>Add Character - Goblin Skirmisher</Input>
-      <Output>Dodaj Postać - Gobliński Harcownik</Output>
+      <Output>Dodatkowa Postać - Gobliński Harcownik</Output>
     </Texts>
   </Element>
   <Element ID="3434" Key="DES_TRAIT_ADD_GOB_YOUNG_SKIRMISHER_DES" Flag="1">
@@ -57970,7 +58055,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Goblin Skirmisher.</Input>
-      <Output>Zacznij z dodatkową postacią - Goblińskim harcownikiem.</Output>
+      <Output>Zaczynasz z dodatkową postacią: Harcownik - Goblin.</Output>
     </Texts>
   </Element>
   <Element ID="3435" Key="DES_TRAIT_ADD_ICE_YOUNG_SNIEZYNKI" Flag="1">
@@ -57989,10 +58074,15 @@
     </Groups>
     <Texts>
       <Input>Add Character - Young Sniezynki</Input>
-      <Output>Dodaj Postać - Młoda Śnieżynka</Output>
+      <Output>Dodatkowa Postać - Młoda Śnieżynka</Output>
     </Texts>
   </Element>
-  <Element ID="3436" Key="DES_TRAIT_ADD_ICE_YOUNG_SNIEZYNKI_DES" Flag="0">
+  <Element ID="3436" Key="DES_TRAIT_ADD_ICE_YOUNG_SNIEZYNKI_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:50:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58003,7 +58093,7 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Young Sniezynki (Ice Demon).</Input>
-      <Output>Rozpocznij od dodatkowej postaci - Młodego Sniezynki (Ice Demon).</Output>
+      <Output>Zaczynasz z dodatkową postacią: Młoda Śnieżynka (Lodowy Demon)</Output>
     </Texts>
   </Element>
   <Element ID="3437" Key="DES_TRAIT_ADD_DEMON_YOUNG_HOHLICK" Flag="1">
@@ -58022,10 +58112,15 @@
     </Groups>
     <Texts>
       <Input>Add Character - Young Hohlick</Input>
-      <Output>Dodaj Postać - Młody Chochlik</Output>
+      <Output>Dodatkowa Postać - Młody Chochlik</Output>
     </Texts>
   </Element>
-  <Element ID="3438" Key="DES_TRAIT_ADD_DEMON_YOUNG_HOHLICK_DES" Flag="0">
+  <Element ID="3438" Key="DES_TRAIT_ADD_DEMON_YOUNG_HOHLICK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:50:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58036,10 +58131,15 @@
     </Groups>
     <Texts>
       <Input>Begin with an additional character - a Young Hohlick (Forest Demon).</Input>
-      <Output>Zacznij od dodatkowej postaci - Młodego Hohlicka (Demon Lasu).</Output>
+      <Output>Zaczynasz z dodatkową postacią: Młody Chochlik (Leśny Demon).</Output>
     </Texts>
   </Element>
-  <Element ID="3439" Key="DES_TRAIT_ADD_BASIC_PACK_FOOD" Flag="0">
+  <Element ID="3439" Key="DES_TRAIT_ADD_BASIC_PACK_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:05:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58050,10 +58150,15 @@
     </Groups>
     <Texts>
       <Input>Granny's Pantry</Input>
-      <Output>Spiżarnia babci</Output>
+      <Output>Spiżarnia Babci</Output>
     </Texts>
   </Element>
-  <Element ID="3440" Key="DES_TRAIT_ADD_BASIC_PACK_FOOD_DES" Flag="0">
+  <Element ID="3440" Key="DES_TRAIT_ADD_BASIC_PACK_FOOD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:05:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58064,7 +58169,7 @@
     </Groups>
     <Texts>
       <Input>Begin with a 10-15x of basic food and 1 piece of equipment.</Input>
-      <Output>Zacznij od 10-15x podstawowego jedzenia i 1 urządzenia.</Output>
+      <Output>Zaczynasz z 10-15 sztukami podstawowego jedzenia i 1 losowym elementem wyposażenia.</Output>
     </Texts>
   </Element>
   <Element ID="3441" Key="DES_TRAIT_FRIENDLY_FACE" Flag="1">
@@ -58081,10 +58186,15 @@
     </Groups>
     <Texts>
       <Input>Friendly Face</Input>
-      <Output>Przyjazna twarz</Output>
+      <Output>Przyjazna Twarz</Output>
     </Texts>
   </Element>
-  <Element ID="3442" Key="DES_TRAIT_FRIENDLY_FACE_DES" Flag="0">
+  <Element ID="3442" Key="DES_TRAIT_FRIENDLY_FACE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:54:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58093,7 +58203,7 @@
     </Groups>
     <Texts>
       <Input>Each faction starts with 7 points of loyalty towards you except Orks and Night/ Light Demons.</Input>
-      <Output>Każda frakcja zaczyna się od 7 punktów lojalności wobec ciebie, z wyjątkiem Orków i Nocnych / Lekkich Demonów.</Output>
+      <Output>Zaczynasz z 7 punktami lojalności u wszystkich frakcji, z wyjątkiem Orków i Nocnych Demonów i Demonów Światła.</Output>
     </Texts>
   </Element>
   <Element ID="3443" Key="DES_TRAIT_FRIEND_OF_THE_FOREST" Flag="1">
@@ -58112,10 +58222,15 @@
     </Groups>
     <Texts>
       <Input>Elves Interest</Input>
-      <Output>Zainteresowanie elfami</Output>
+      <Output>Przyjaciel Elfów</Output>
     </Texts>
   </Element>
-  <Element ID="3444" Key="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" Flag="0">
+  <Element ID="3444" Key="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:59:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58126,7 +58241,7 @@
     </Groups>
     <Texts>
       <Input>Elves faction starts with 15 points of loyalty towards you.</Input>
-      <Output>Frakcja elfów zaczyna od 15 punktów lojalności wobec ciebie.</Output>
+      <Output>Zaczynasz z 15 punktami lojalności u Elfów.</Output>
     </Texts>
   </Element>
   <Element ID="3445" Key="DES_TRAIT_START_LOYALTY_DEMONS" Flag="1">
@@ -58144,10 +58259,15 @@
     </Groups>
     <Texts>
       <Input>Demonic Loyalty</Input>
-      <Output>Demoniczna lojalność</Output>
+      <Output>Demoniczna Lojalność</Output>
     </Texts>
   </Element>
-  <Element ID="3446" Key="DES_TRAIT_START_LOYALTY_DEMONS_DES" Flag="0">
+  <Element ID="3446" Key="DES_TRAIT_START_LOYALTY_DEMONS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:59:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58157,10 +58277,15 @@
     </Groups>
     <Texts>
       <Input>Starting faction loyalty for all demon factions raises to 10.</Input>
-      <Output>Początek lojalności frakcji dla wszystkich frakcji demonów wzrasta do 10.</Output>
+      <Output>Zaczynasz z 10 punktami lojalności u wszystkich frakcji demonów.</Output>
     </Texts>
   </Element>
-  <Element ID="3447" Key="DES_TRAIT_FAMILIAR_AREA" Flag="0">
+  <Element ID="3447" Key="DES_TRAIT_FAMILIAR_AREA" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:59:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58169,10 +58294,15 @@
     </Groups>
     <Texts>
       <Input>Familiar Area</Input>
-      <Output>Obszar rodzinny</Output>
+      <Output>Przyjazny Teren</Output>
     </Texts>
   </Element>
-  <Element ID="3448" Key="DES_TRAIT_FAMILIAR_AREA_DES" Flag="0">
+  <Element ID="3448" Key="DES_TRAIT_FAMILIAR_AREA_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:59:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58181,10 +58311,15 @@
     </Groups>
     <Texts>
       <Input>Camping gives an extra gathering distance.</Input>
-      <Output>Camping daje dodatkową odległość zbierania.</Output>
+      <Output>W trakcie obozowania zwiększony jest obszar zbierania.</Output>
     </Texts>
   </Element>
-  <Element ID="3449" Key="DES_TRAIT_SMARTER_EVERY_DAY" Flag="0">
+  <Element ID="3449" Key="DES_TRAIT_SMARTER_EVERY_DAY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:59:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58194,10 +58329,15 @@
     </Groups>
     <Texts>
       <Input>Smarter Every Day</Input>
-      <Output>Mądrzejszy każdego dnia</Output>
+      <Output>Mądrzejszy Każdego Dnia</Output>
     </Texts>
   </Element>
-  <Element ID="3450" Key="DES_TRAIT_SMARTER_EVERY_DAY_DES" Flag="0">
+  <Element ID="3450" Key="DES_TRAIT_SMARTER_EVERY_DAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 07:59:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58224,10 +58364,15 @@
     </Groups>
     <Texts>
       <Input>Logic Wall</Input>
-      <Output>Ściana logiczna</Output>
+      <Output>Logiczna Ściana</Output>
     </Texts>
   </Element>
-  <Element ID="3452" Key="DES_TRAIT_LOGIC_WALL_DES" Flag="0">
+  <Element ID="3452" Key="DES_TRAIT_LOGIC_WALL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:02:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58236,7 +58381,7 @@
     </Groups>
     <Texts>
       <Input>All your followers get +4 mental and spiritual shielding.</Input>
-      <Output>Wszyscy twoi wyznawcy otrzymują +4 mentalne i duchowe osłonę.</Output>
+      <Output>Każda z twoich postaci otrzymuje bonus +4 do osłony mentalnej i duchowej.</Output>
     </Texts>
   </Element>
   <Element ID="3453" Key="DES_TRAIT_SEAL_OF_STRENGTH" Flag="1">
@@ -58254,10 +58399,15 @@
     </Groups>
     <Texts>
       <Input>Seal of Strength</Input>
-      <Output>Pieczęć siły</Output>
+      <Output>Pieczęć Siły</Output>
     </Texts>
   </Element>
-  <Element ID="3454" Key="DES_TRAIT_SEAL_OF_STRENGTH_DES" Flag="0">
+  <Element ID="3454" Key="DES_TRAIT_SEAL_OF_STRENGTH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:02:50</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58267,7 +58417,7 @@
     </Groups>
     <Texts>
       <Input>The Chosen starts with +3 strength bonus.</Input>
-      <Output>Wybrany zaczyna od premii +3 do siły.</Output>
+      <Output>Wybraniec zaczyna z premią +3 do siły.</Output>
     </Texts>
   </Element>
   <Element ID="3455" Key="DES_TRAIT_FAMILY_WEAPON" Flag="1">
@@ -58284,10 +58434,15 @@
     </Groups>
     <Texts>
       <Input>Family Weapon</Input>
-      <Output>Broń rodzinna</Output>
+      <Output>Rodowa Broń</Output>
     </Texts>
   </Element>
-  <Element ID="3456" Key="DES_TRAIT_FAMILY_WEAPON_DES" Flag="0">
+  <Element ID="3456" Key="DES_TRAIT_FAMILY_WEAPON_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:04:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58296,10 +58451,15 @@
     </Groups>
     <Texts>
       <Input>You start with a family heirloom - a quality weapon.</Input>
-      <Output>Zaczynasz od pamiątki rodzinnej - dobrej jakości broni.</Output>
+      <Output>Zaczynasz z rodzinną pamiątką - dobrej jakości bronią.</Output>
     </Texts>
   </Element>
-  <Element ID="3457" Key="DES_TRAIT_FAMILY_ARMOUR" Flag="0">
+  <Element ID="3457" Key="DES_TRAIT_FAMILY_ARMOUR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:04:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58308,10 +58468,15 @@
     </Groups>
     <Texts>
       <Input>Family Armour</Input>
-      <Output>Zbroja rodzinna</Output>
+      <Output>Rodowa Zbroja</Output>
     </Texts>
   </Element>
-  <Element ID="3458" Key="DES_TRAIT_FAMILY_ARMOUR_DES" Flag="0">
+  <Element ID="3458" Key="DES_TRAIT_FAMILY_ARMOUR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:04:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58320,7 +58485,7 @@
     </Groups>
     <Texts>
       <Input>You begin with an heirloom -  a quality piece of armour.</Input>
-      <Output>Zaczynasz od pamiątki - jakościowego pancerza.</Output>
+      <Output>Zaczynasz z rodzinną pamiątką - dobrej jakości pancerzem.</Output>
     </Texts>
   </Element>
   <Element ID="3459" Key="DES_TRAIT_FATHERS_TOOLS" Flag="1">
@@ -58337,10 +58502,15 @@
     </Groups>
     <Texts>
       <Input>Father's Tools</Input>
-      <Output>Narzędzia ojca</Output>
+      <Output>Narzędzia Ojca</Output>
     </Texts>
   </Element>
-  <Element ID="3460" Key="DES_TRAIT_FATHERS_TOOLS_DES" Flag="0">
+  <Element ID="3460" Key="DES_TRAIT_FATHERS_TOOLS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:05:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58349,10 +58519,15 @@
     </Groups>
     <Texts>
       <Input>You begin with one really good gathering or crafting tool.</Input>
-      <Output>Zaczynasz od jednego naprawdę dobrego narzędzia do zbierania lub tworzenia.</Output>
+      <Output>Zaczynasz z rodzinną pamiątką - naprawdę dobrego narzędzia zbieracza lub rzemieślnika.</Output>
     </Texts>
   </Element>
-  <Element ID="3461" Key="DES_TRAIT_BASIC_EQUIPMENT" Flag="0">
+  <Element ID="3461" Key="DES_TRAIT_BASIC_EQUIPMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:05:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58361,10 +58536,15 @@
     </Groups>
     <Texts>
       <Input>Crow's Hidden Gems</Input>
-      <Output>Ukryte klejnoty kruka</Output>
+      <Output>Ukryte Klejnoty Kruka</Output>
     </Texts>
   </Element>
-  <Element ID="3462" Key="DES_TRAIT_BASIC_EQUIPMENT_DES" Flag="0">
+  <Element ID="3462" Key="DES_TRAIT_BASIC_EQUIPMENT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:06:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58373,7 +58553,7 @@
     </Groups>
     <Texts>
       <Input>You start with 5-10x of random gems and a Crow pet.</Input>
-      <Output>Zaczynasz od 5-10x losowych klejnotów i zwierzaka Crow.</Output>
+      <Output>Zaczynasz z 5-10 sztukami losowych klejnotów i kruczym chowańcem.</Output>
     </Texts>
   </Element>
   <Element ID="3463" Key="DES_TRAIT_BASIC_ONE_ROBE" Flag="1">
@@ -58391,10 +58571,15 @@
     </Groups>
     <Texts>
       <Input>Advanced Robe</Input>
-      <Output>Zaawansowana szata</Output>
+      <Output>Dobra Szata</Output>
     </Texts>
   </Element>
-  <Element ID="3464" Key="DES_TRAIT_BASIC_ONE_ROBE_DES" Flag="0">
+  <Element ID="3464" Key="DES_TRAIT_BASIC_ONE_ROBE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:08:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58404,10 +58589,15 @@
     </Groups>
     <Texts>
       <Input>You start with one advanced robe.</Input>
-      <Output>Zaczynasz od jednej zaawansowanej szaty.</Output>
+      <Output>Zaczynasz z dobrą szatą.</Output>
     </Texts>
   </Element>
-  <Element ID="3465" Key="DES_TRAIT_BASIC_ONE_JEWELLERY" Flag="0">
+  <Element ID="3465" Key="DES_TRAIT_BASIC_ONE_JEWELLERY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:08:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58417,10 +58607,15 @@
     </Groups>
     <Texts>
       <Input>Advanced Jewellery</Input>
-      <Output>Zaawansowana biżuteria</Output>
+      <Output>Dobra Biżuteria</Output>
     </Texts>
   </Element>
-  <Element ID="3466" Key="DES_TRAIT_BASIC_ONE_JEWELLERY_DES" Flag="0">
+  <Element ID="3466" Key="DES_TRAIT_BASIC_ONE_JEWELLERY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:08:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58430,10 +58625,15 @@
     </Groups>
     <Texts>
       <Input>You start with one advanced piece of jewellery.</Input>
-      <Output>Zaczynasz od jednej zaawansowanej biżuterii.</Output>
+      <Output>Zaczynasz z jedną sztuką dobrej biżuterii.</Output>
     </Texts>
   </Element>
-  <Element ID="3467" Key="DES_TRAIT_BASIC_TWENTY_SUPPLIES" Flag="0">
+  <Element ID="3467" Key="DES_TRAIT_BASIC_TWENTY_SUPPLIES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:09:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58443,10 +58643,15 @@
     </Groups>
     <Texts>
       <Input>40x Basic Supplies</Input>
-      <Output>40x podstawowe materiały eksploatacyjne</Output>
+      <Output>40 Podstawych Zasobów</Output>
     </Texts>
   </Element>
-  <Element ID="3468" Key="DES_TRAIT_BASIC_TWENTY_SUPPLIES_DES" Flag="0">
+  <Element ID="3468" Key="DES_TRAIT_BASIC_TWENTY_SUPPLIES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:09:06</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58456,10 +58661,15 @@
     </Groups>
     <Texts>
       <Input>You start with 40 basic supplies - food, fuel or herbs.</Input>
-      <Output>Zaczynasz od 40 podstawowych materiałów - żywności, paliwa lub ziół.</Output>
+      <Output>Zaczynasz z 40 sztukami podstawowych materiałów - żywność, paliwo lub zióła.</Output>
     </Texts>
   </Element>
-  <Element ID="3469" Key="DES_TRAIT_TRUE_HEROES" Flag="0">
+  <Element ID="3469" Key="DES_TRAIT_TRUE_HEROES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:10:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58468,10 +58678,15 @@
     </Groups>
     <Texts>
       <Input>True Heroes</Input>
-      <Output>Prawdziwi bohaterowie</Output>
+      <Output>Prawdziwi Bohaterowie</Output>
     </Texts>
   </Element>
-  <Element ID="3470" Key="DES_TRAIT_TRUE_HEROES_DES" Flag="0">
+  <Element ID="3470" Key="DES_TRAIT_TRUE_HEROES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:10:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58480,10 +58695,15 @@
     </Groups>
     <Texts>
       <Input>Characters will have +2 shielding.</Input>
-      <Output>Postacie będą miały ekranowanie +2.</Output>
+      <Output>Postacie otrzymują bonus +2 do osłon.</Output>
     </Texts>
   </Element>
-  <Element ID="3471" Key="DES_TRAIT_STRONG_ONE_PET_DOG" Flag="0">
+  <Element ID="3471" Key="DES_TRAIT_STRONG_ONE_PET_DOG" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:11:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58494,10 +58714,15 @@
     </Groups>
     <Texts>
       <Input>Little Dog</Input>
-      <Output>Mały pies</Output>
+      <Output>Mały Pies</Output>
     </Texts>
   </Element>
-  <Element ID="3472" Key="DES_TRAIT_STRONG_ONE_PET_DOG_DES" Flag="0">
+  <Element ID="3472" Key="DES_TRAIT_STRONG_ONE_PET_DOG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:11:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58508,7 +58733,7 @@
     </Groups>
     <Texts>
       <Input>You start with a fierce friend. Dogo is its name.</Input>
-      <Output>Zaczynasz od zaciekłego przyjaciela. Dogo to jego nazwa.</Output>
+      <Output>Zaczynasz z najlepszym przyjacielem u boku. Wabi sie Reksio.</Output>
     </Texts>
   </Element>
   <Element ID="3473" Key="DES_TRAIT_BASIC_ONE_SHIELD" Flag="1">
@@ -58526,7 +58751,7 @@
     </Groups>
     <Texts>
       <Input>Advanced Shield</Input>
-      <Output>Zaawansowana tarcza</Output>
+      <Output>Dobra Tarcza</Output>
     </Texts>
   </Element>
   <Element ID="3474" Key="DES_TRAIT_BASIC_ONE_SHIELD_DES" Flag="1">
@@ -58544,10 +58769,15 @@
     </Groups>
     <Texts>
       <Input>You start with an advanced shield.</Input>
-      <Output>Zaczynasz z zaawansowaną tarczą.</Output>
+      <Output>Zaczynasz z dobrą tarczą.</Output>
     </Texts>
   </Element>
-  <Element ID="3475" Key="DES_TRAIT_BASIC_ONE_GATHERING_TOOL" Flag="0">
+  <Element ID="3475" Key="DES_TRAIT_BASIC_ONE_GATHERING_TOOL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:37:50</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58558,10 +58788,15 @@
     </Groups>
     <Texts>
       <Input>Advanced Gathering Tools</Input>
-      <Output>Zaawansowane narzędzia gromadzenia danych</Output>
+      <Output>Dobre Narzędzia Zbieracza</Output>
     </Texts>
   </Element>
-  <Element ID="3476" Key="DES_TRAIT_BASIC_ONE_GATHERING_TOOL_DES" Flag="0">
+  <Element ID="3476" Key="DES_TRAIT_BASIC_ONE_GATHERING_TOOL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:37:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58572,10 +58807,15 @@
     </Groups>
     <Texts>
       <Input>You start with advanced gathering tools.</Input>
-      <Output>Zaczynasz od zaawansowanych narzędzi do zbierania.</Output>
+      <Output>Zaczynasz z dobrymi narzędziami zbieracza.</Output>
     </Texts>
   </Element>
-  <Element ID="3477" Key="DES_TRAIT_BASIC_ONE_CRAFTING_TOOL" Flag="0">
+  <Element ID="3477" Key="DES_TRAIT_BASIC_ONE_CRAFTING_TOOL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:37:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58586,10 +58826,15 @@
     </Groups>
     <Texts>
       <Input>Advanced Crafting Tools</Input>
-      <Output>Zaawansowane narzędzia rzemieślnicze</Output>
+      <Output>Dobre Narzędzia Rzemieślnicze</Output>
     </Texts>
   </Element>
-  <Element ID="3478" Key="DES_TRAIT_BASIC_ONE_CRAFTING_TOOL_DES" Flag="0">
+  <Element ID="3478" Key="DES_TRAIT_BASIC_ONE_CRAFTING_TOOL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 08:37:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58600,10 +58845,15 @@
     </Groups>
     <Texts>
       <Input>You start with advanced crafting tools.</Input>
-      <Output>Zaczynasz od zaawansowanych narzędzi rzemieślniczych.</Output>
+      <Output>Zaczynasz z dobrymi narzędziami rzemieślnika.</Output>
     </Texts>
   </Element>
-  <Element ID="3479" Key="DES_TRAIT_BASIC_THREE_EQUIPMENT" Flag="0">
+  <Element ID="3479" Key="DES_TRAIT_BASIC_THREE_EQUIPMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 09:04:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58613,10 +58863,15 @@
     </Groups>
     <Texts>
       <Input>2x Advanced Equipment</Input>
-      <Output>2x Zaawansowane wyposażenie</Output>
+      <Output>2x Dobry Ekwipunek</Output>
     </Texts>
   </Element>
-  <Element ID="3480" Key="DES_TRAIT_BASIC_THREE_EQUIPMENT_DES" Flag="0">
+  <Element ID="3480" Key="DES_TRAIT_BASIC_THREE_EQUIPMENT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 09:04:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58626,10 +58881,15 @@
     </Groups>
     <Texts>
       <Input>You start with 2 advanced pieces of equipment.</Input>
-      <Output>Zaczynasz od 2 zaawansowanych urządzeń.</Output>
+      <Output>Zaczynasz z dwoma losowymi sztukami dobrego ekwipunku.</Output>
     </Texts>
   </Element>
-  <Element ID="3481" Key="DES_TRAIT_I_LIKE_GREEN" Flag="0">
+  <Element ID="3481" Key="DES_TRAIT_I_LIKE_GREEN" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 09:05:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58639,10 +58899,15 @@
     </Groups>
     <Texts>
       <Input>Green is your friend...</Input>
-      <Output>Zielony to twój przyjaciel ...</Output>
+      <Output>Zielony Przyjaciel</Output>
     </Texts>
   </Element>
-  <Element ID="3482" Key="DES_TRAIT_I_LIKE_GREEN_DES" Flag="0">
+  <Element ID="3482" Key="DES_TRAIT_I_LIKE_GREEN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 09:05:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58652,10 +58917,15 @@
     </Groups>
     <Texts>
       <Input>... not food. You start with +10 loyalty points towards Goblins.</Input>
-      <Output>... nie jedzenie. Zaczynasz z +10 punktami lojalności w kierunku Goblinów.</Output>
+      <Output>Zaczynasz z 10 punktami lojalności u Goblinów.</Output>
     </Texts>
   </Element>
-  <Element ID="3483" Key="DES_TRAIT_I_LIKE_FIGHT" Flag="0">
+  <Element ID="3483" Key="DES_TRAIT_I_LIKE_FIGHT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 09:05:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58668,7 +58938,12 @@
       <Output>Ochroniarze</Output>
     </Texts>
   </Element>
-  <Element ID="3484" Key="DES_TRAIT_I_LIKE_FIGHT_DES" Flag="0">
+  <Element ID="3484" Key="DES_TRAIT_I_LIKE_FIGHT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 09:06:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58678,10 +58953,15 @@
     </Groups>
     <Texts>
       <Input>You start with +10 loyalty points towards Orcs.</Input>
-      <Output>Zaczynasz z +10 punktami lojalności w stosunku do orków.</Output>
+      <Output>Zaczynasz z 10 punktami lojalności u Orków.</Output>
     </Texts>
   </Element>
-  <Element ID="3485" Key="DES_TRAIT_BETTER_OFF_ALONE" Flag="0">
+  <Element ID="3485" Key="DES_TRAIT_BETTER_OFF_ALONE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:26:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58691,10 +58971,15 @@
     </Groups>
     <Texts>
       <Input>Better Off Alone</Input>
-      <Output>Lepiej sam</Output>
+      <Output>Samemu Lepiej</Output>
     </Texts>
   </Element>
-  <Element ID="3486" Key="DES_TRAIT_BETTER_OFF_ALONE_DES" Flag="0">
+  <Element ID="3486" Key="DES_TRAIT_BETTER_OFF_ALONE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:55:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58704,10 +58989,15 @@
     </Groups>
     <Texts>
       <Input>[PLACECHOLDER] Starting group will not be available on start. You are only limited to 2 character points but that character have 125% starting attributes.</Input>
-      <Output>[PLACECHOLDER] Grupa startowa nie będzie dostępna na starcie. Masz tylko 2 punkty postaci, ale ta postać ma 125% atrybutów początkowych.</Output>
+      <Output>[PLACECHOLDER] Grupa startowa będzie ograniczona. Masz tylko 2 do wydania na postać, ale postać ta otrzyma 125% atrybutów początkowych.</Output>
     </Texts>
   </Element>
-  <Element ID="3487" Key="DES_TRAIT_EASIER_CRAFTING" Flag="0">
+  <Element ID="3487" Key="DES_TRAIT_EASIER_CRAFTING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:32:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58716,10 +59006,15 @@
     </Groups>
     <Texts>
       <Input>Crafting Adept</Input>
-      <Output>Adept rzemiosła</Output>
+      <Output>Adept Rzemiosła</Output>
     </Texts>
   </Element>
-  <Element ID="3488" Key="DES_TRAIT_EASIER_CRAFTING_DES" Flag="0">
+  <Element ID="3488" Key="DES_TRAIT_EASIER_CRAFTING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:32:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58728,10 +59023,15 @@
     </Groups>
     <Texts>
       <Input>Crafting is 10% cheaper.</Input>
-      <Output>Crafting jest o 10% tańszy.</Output>
+      <Output>Rzemiosło jest o 10% tańsze.</Output>
     </Texts>
   </Element>
-  <Element ID="3489" Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Flag="0">
+  <Element ID="3489" Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:33:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58741,10 +59041,15 @@
     </Groups>
     <Texts>
       <Input>Additional Research</Input>
-      <Output>Dodatkowe badania</Output>
+      <Output>Dodatkowe Badania</Output>
     </Texts>
   </Element>
-  <Element ID="3490" Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS_DES" Flag="0">
+  <Element ID="3490" Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:33:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58754,10 +59059,15 @@
     </Groups>
     <Texts>
       <Input>Begin the game with 4 additional Advancement Points.</Input>
-      <Output>Rozpocznij grę z 4 dodatkowymi punktami awansu.</Output>
+      <Output>Zaczynasz z 4 dodatkowymi punktami awansu.</Output>
     </Texts>
   </Element>
-  <Element ID="3491" Key="DES_TRAIT_FOUR_LEGS_FRIEND" Flag="0">
+  <Element ID="3491" Key="DES_TRAIT_FOUR_LEGS_FRIEND" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:57:08</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58767,10 +59077,15 @@
     </Groups>
     <Texts>
       <Input>Four-legged Friend</Input>
-      <Output>Czworonożny przyjaciel</Output>
+      <Output>Czworonożny Przyjaciel</Output>
     </Texts>
   </Element>
-  <Element ID="3492" Key="DES_TRAIT_FOUR_LEGS_FRIEND_DES" Flag="0">
+  <Element ID="3492" Key="DES_TRAIT_FOUR_LEGS_FRIEND_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:57:08</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58780,10 +59095,15 @@
     </Groups>
     <Texts>
       <Input>Begin with your very own four-legged friend.</Input>
-      <Output>Zacznij od swojego własnego czworonożnego przyjaciela.</Output>
+      <Output>Zaczynasz ze swoim własnym czworonożnym przyjacielem.</Output>
     </Texts>
   </Element>
-  <Element ID="3493" Key="DES_TRAIT_MITHRIL_GOAT" Flag="0">
+  <Element ID="3493" Key="DES_TRAIT_MITHRIL_GOAT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:59:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58792,10 +59112,15 @@
     </Groups>
     <Texts>
       <Input>Mithril Goat</Input>
-      <Output>Mitrilowy kozioł</Output>
+      <Output>Mitrilowa Koza</Output>
     </Texts>
   </Element>
-  <Element ID="3494" Key="DES_TRAIT_MITHRIL_GOAT_DES" Flag="0">
+  <Element ID="3494" Key="DES_TRAIT_MITHRIL_GOAT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 10:59:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58804,10 +59129,15 @@
     </Groups>
     <Texts>
       <Input>You start with a goat carrying sacks full of mithril (minimum 30).</Input>
-      <Output>Zaczynasz z kozami niosącymi worki pełne mithrilu (minimum 30).</Output>
+      <Output>Zaczynasz z juczną kozą niosą worki pełne mithrilu (minimum 30).</Output>
     </Texts>
   </Element>
-  <Element ID="3495" Key="DES_TRAIT_KINGS_TABLE" Flag="0">
+  <Element ID="3495" Key="DES_TRAIT_KINGS_TABLE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 11:00:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58816,10 +59146,15 @@
     </Groups>
     <Texts>
       <Input>King's Feast</Input>
-      <Output>Święto króla</Output>
+      <Output>Królewska Uczta</Output>
     </Texts>
   </Element>
-  <Element ID="3496" Key="DES_TRAIT_KINGS_TABLE_DES" Flag="0">
+  <Element ID="3496" Key="DES_TRAIT_KINGS_TABLE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 11:00:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58828,10 +59163,15 @@
     </Groups>
     <Texts>
       <Input>Start with all food recipes unlocked.</Input>
-      <Output>Zacznij od odblokowania wszystkich receptur żywności.</Output>
+      <Output>Zaczynasz z odblokowanymi wszystkimi recepturami żywności.</Output>
     </Texts>
   </Element>
-  <Element ID="3497" Key="DES_TRAIT_BEST_MEAL_EVER" Flag="0">
+  <Element ID="3497" Key="DES_TRAIT_BEST_MEAL_EVER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:12:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58841,10 +59181,15 @@
     </Groups>
     <Texts>
       <Input>Not Picky</Input>
-      <Output>Nie wybredny</Output>
+      <Output>Niewybredny</Output>
     </Texts>
   </Element>
-  <Element ID="3498" Key="DES_TRAIT_BEST_MEAL_EVER_DES" Flag="0">
+  <Element ID="3498" Key="DES_TRAIT_BEST_MEAL_EVER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:12:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58854,10 +59199,15 @@
     </Groups>
     <Texts>
       <Input>Your followers get additional morale for each two different types of food.</Input>
-      <Output>Twoi zwolennicy otrzymują dodatkowe morale za każde dwa różne rodzaje żywności.</Output>
+      <Output>Każda z twoich postaci otrzymuje dodatkowe morale za każde dwa różne rodzaje żywności.</Output>
     </Texts>
   </Element>
-  <Element ID="3499" Key="DES_TRAIT_RAFT" Flag="0">
+  <Element ID="3499" Key="DES_TRAIT_RAFT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:12:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58868,7 +59218,12 @@
       <Output>Tratwa</Output>
     </Texts>
   </Element>
-  <Element ID="3500" Key="DES_TRAIT_RAFT_DES" Flag="0">
+  <Element ID="3500" Key="DES_TRAIT_RAFT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:13:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58876,10 +59231,15 @@
     </Groups>
     <Texts>
       <Input>You start with a special raft.</Input>
-      <Output>Zaczynasz od specjalnej tratwy.</Output>
+      <Output>Zaczynasz ze specjalną tratwą.</Output>
     </Texts>
   </Element>
-  <Element ID="3501" Key="DES_TRAIT_WISH_I_HAD_A_WELL" Flag="0">
+  <Element ID="3501" Key="DES_TRAIT_WISH_I_HAD_A_WELL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:53:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58891,10 +59251,15 @@
     </Groups>
     <Texts>
       <Input>Wish I had a well...</Input>
-      <Output>Chciałbym mieć dobrze ...</Output>
+      <Output>Dobry Start</Output>
     </Texts>
   </Element>
-  <Element ID="3502" Key="DES_TRAIT_WISH_I_HAD_A_WELL_DES" Flag="0">
+  <Element ID="3502" Key="DES_TRAIT_WISH_I_HAD_A_WELL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:52:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58906,10 +59271,15 @@
     </Groups>
     <Texts>
       <Input>You start with 30-50 basic materials.</Input>
-      <Output>Zaczynasz od 30-50 podstawowych materiałów.</Output>
+      <Output>Zaczynasz z 30-50 sztukami podstawowych materiałów.</Output>
     </Texts>
   </Element>
-  <Element ID="3503" Key="DES_TRAIT_FOG_OF_KNOWLEDGE" Flag="0">
+  <Element ID="3503" Key="DES_TRAIT_FOG_OF_KNOWLEDGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:32:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58919,10 +59289,15 @@
     </Groups>
     <Texts>
       <Input>Fog Of Knowledge</Input>
-      <Output>Mgła wiedzy</Output>
+      <Output>Mgła Wiedzy</Output>
     </Texts>
   </Element>
-  <Element ID="3504" Key="DES_TRAIT_FOG_OF_KNOWLEDGE_DES" Flag="0">
+  <Element ID="3504" Key="DES_TRAIT_FOG_OF_KNOWLEDGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:49:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58932,10 +59307,15 @@
     </Groups>
     <Texts>
       <Input>In turn 1 you will see 5 hexes further than normal. Additionally, you start with 20 basic materials.</Input>
-      <Output>W pierwszej turze zobaczysz 5 heksów dalej niż normalnie. Dodatkowo zaczynasz od 20 podstawowych materiałów.</Output>
+      <Output>Podczas pierwszej tury widzisz 5 heksów dalej niż normalnie. Dodatkowo zaczynasz z 20 sztukami podstawowych materiałów.</Output>
     </Texts>
   </Element>
-  <Element ID="3505" Key="DES_TRAIT_SEASONED_FOLLOWERS" Flag="0">
+  <Element ID="3505" Key="DES_TRAIT_SEASONED_FOLLOWERS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:16:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58944,10 +59324,15 @@
     </Groups>
     <Texts>
       <Input>Seasoned Followers</Input>
-      <Output>Doświadczeni zwolennicy</Output>
+      <Output>Doświadczeni Wyznawcy</Output>
     </Texts>
   </Element>
-  <Element ID="3506" Key="DES_TRAIT_SEASONED_FOLLOWERS_DES" Flag="0">
+  <Element ID="3506" Key="DES_TRAIT_SEASONED_FOLLOWERS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:16:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58956,10 +59341,15 @@
     </Groups>
     <Texts>
       <Input>Start with 20 Experience Points divided equally between all members of your group.</Input>
-      <Output>Zacznij od 20 punktów doświadczenia podzielonych równo pomiędzy wszystkich członków twojej grupy.</Output>
+      <Output>Zaczynasz z 20 punktami doświadczenia podzielonymi równo pomiędzy wszystkich członków swojej grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="3507" Key="DES_TRAIT_SOLAR_POWERED" Flag="0">
+  <Element ID="3507" Key="DES_TRAIT_SOLAR_POWERED" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:19:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58968,10 +59358,15 @@
     </Groups>
     <Texts>
       <Input>Solar Powered</Input>
-      <Output>Zasilany energią słoneczną</Output>
+      <Output>Baterie Słoneczne</Output>
     </Texts>
   </Element>
-  <Element ID="3508" Key="DES_TRAIT_SOLAR_POWERED_DES" Flag="0">
+  <Element ID="3508" Key="DES_TRAIT_SOLAR_POWERED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:19:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58980,10 +59375,15 @@
     </Groups>
     <Texts>
       <Input>Your characters regenerate 1 additional Health, Sanity and Faith during the day but lose 1 Sanity during the night.</Input>
-      <Output>Twoje postacie regenerują 1 dodatkowe Zdrowie, Poczytalność i Wiarę w ciągu dnia, ale tracą 1 Poczytalność w nocy.</Output>
+      <Output>Twoje postacie regenerują 1 dodatkowy punkt zdrowia, poczytalności i wiary w ciągu dnia, ale w nody tracą 1 punkt poczytalności.</Output>
     </Texts>
   </Element>
-  <Element ID="3509" Key="DES_TRAIT_JUMPING_FISH" Flag="0">
+  <Element ID="3509" Key="DES_TRAIT_JUMPING_FISH" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:19:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -58992,10 +59392,15 @@
     </Groups>
     <Texts>
       <Input>Jumping Fish</Input>
-      <Output>Skacząca ryba</Output>
+      <Output>Skacząca Ryba</Output>
     </Texts>
   </Element>
-  <Element ID="3510" Key="DES_TRAIT_JUMPING_FISH_DES" Flag="0">
+  <Element ID="3510" Key="DES_TRAIT_JUMPING_FISH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:19:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59007,7 +59412,12 @@
       <Output>Grupy podróżujące drogą morską otrzymują po dwie ryby w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3511" Key="DES_TRAIT_NEW_DAY" Flag="0">
+  <Element ID="3511" Key="DES_TRAIT_NEW_DAY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:19:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59016,10 +59426,15 @@
     </Groups>
     <Texts>
       <Input>New Day</Input>
-      <Output>Nowy dzień</Output>
+      <Output>Nowy Dzień</Output>
     </Texts>
   </Element>
-  <Element ID="3512" Key="DES_TRAIT_NEW_DAY_DES" Flag="0">
+  <Element ID="3512" Key="DES_TRAIT_NEW_DAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:32:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59028,10 +59443,15 @@
     </Groups>
     <Texts>
       <Input>Each morning your characters get +10% Health also get 2 extra Movement Points for 3 turns. For the rest of day they have only Health bonus.</Input>
-      <Output>Każdego ranka twoje postacie otrzymują + 10% Zdrowia również otrzymują 2 dodatkowe Punkty Ruchu na 3 tury. Przez resztę dnia mają tylko premię do zdrowia.</Output>
+      <Output>Każdego ranka na czas dziennych tur twoje postacie otrzymują bonus +10% zdrowia oraz 2 dodatkowe punkty ruchu (ale te już tylko na 3 tury).</Output>
     </Texts>
   </Element>
-  <Element ID="3513" Key="DES_TRAIT_EAGLE_EYE" Flag="0">
+  <Element ID="3513" Key="DES_TRAIT_EAGLE_EYE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:26:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59040,10 +59460,15 @@
     </Groups>
     <Texts>
       <Input>Eagle Eye</Input>
-      <Output>Sokole oko</Output>
+      <Output>Sokole Oko</Output>
     </Texts>
   </Element>
-  <Element ID="3514" Key="DES_TRAIT_EAGLE_EYE_DES" Flag="0">
+  <Element ID="3514" Key="DES_TRAIT_EAGLE_EYE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 12:26:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59052,10 +59477,15 @@
     </Groups>
     <Texts>
       <Input>Your followers get +1 range of sight.</Input>
-      <Output>Twoi obserwatorzy otrzymują +1 zasięgu widzenia.</Output>
+      <Output>Twoje postacie otrzymują bonus +1 do zasięgu widzenia.</Output>
     </Texts>
   </Element>
-  <Element ID="3515" Key="DES_TRAIT_INNER_PEACE" Flag="0">
+  <Element ID="3515" Key="DES_TRAIT_INNER_PEACE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:55:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59064,10 +59494,15 @@
     </Groups>
     <Texts>
       <Input>Inner Peace</Input>
-      <Output>Wewnętrzny pokój</Output>
+      <Output>Wewnętrzny Spokój</Output>
     </Texts>
   </Element>
-  <Element ID="3516" Key="DES_TRAIT_INNER_PEACE_DES" Flag="0">
+  <Element ID="3516" Key="DES_TRAIT_INNER_PEACE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:55:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59076,7 +59511,7 @@
     </Groups>
     <Texts>
       <Input>The Chosen gets +4 Physical, Mental and Spiritual Shielding and 10% bonus to main attributes.</Input>
-      <Output>Wybrani otrzymują +4 Fizycznego, Psychicznego i Duchowego Ekranowania oraz 10% premii do głównych atrybutów.</Output>
+      <Output>Wybraniec otrzymuje bonus +4 do każdego rodzaju pancerza (fizyczny, mentalny, duchowy) oraz 10% premii do głównych atrybutów.</Output>
     </Texts>
   </Element>
   <Element ID="3517" Key="DES_TRAIT_HEALING_TOUCH" Flag="1">
@@ -59093,10 +59528,15 @@
     </Groups>
     <Texts>
       <Input>Healing Touch</Input>
-      <Output>Uzdrawiający dotyk</Output>
+      <Output>Uzdrawiający Dotyk</Output>
     </Texts>
   </Element>
-  <Element ID="3518" Key="DES_TRAIT_HEALING_TOUCH_DES" Flag="0">
+  <Element ID="3518" Key="DES_TRAIT_HEALING_TOUCH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:55:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59105,7 +59545,7 @@
     </Groups>
     <Texts>
       <Input>The Chosen starts with a healing skill.</Input>
-      <Output>Wybrany zaczyna od umiejętności leczenia.</Output>
+      <Output>Wybraniec zaczyna z umiejętnością leczenia.</Output>
     </Texts>
   </Element>
   <Element ID="3519" Key="DES_TRAIT_NATURAL_KNOWLEDGE" Flag="1">
@@ -59122,10 +59562,15 @@
     </Groups>
     <Texts>
       <Input>Natural Knowledge</Input>
-      <Output>Naturalna wiedza</Output>
+      <Output>Naturalna Wiedza</Output>
     </Texts>
   </Element>
-  <Element ID="3520" Key="DES_TRAIT_NATURAL_KNOWLEDGE_DES" Flag="0">
+  <Element ID="3520" Key="DES_TRAIT_NATURAL_KNOWLEDGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:56:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59134,10 +59579,15 @@
     </Groups>
     <Texts>
       <Input>Each of your followers get +2.5 Research.</Input>
-      <Output>Każdy z twoich zwolenników otrzymuje +2,5 badań.</Output>
+      <Output>Każda z twoich postaci otrzymuje bonus +2,5 do badań.</Output>
     </Texts>
   </Element>
-  <Element ID="3521" Key="DES_TRAIT_CRAFTERS_FLOCK" Flag="0">
+  <Element ID="3521" Key="DES_TRAIT_CRAFTERS_FLOCK" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:56:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59146,10 +59596,15 @@
     </Groups>
     <Texts>
       <Input>Flock of Craftsmen</Input>
-      <Output>Stado rzemieślników</Output>
+      <Output>Zgraja Rzemieślników</Output>
     </Texts>
   </Element>
-  <Element ID="3522" Key="DES_TRAIT_CRAFTERS_FLOCK_DES" Flag="0">
+  <Element ID="3522" Key="DES_TRAIT_CRAFTERS_FLOCK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:57:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59158,10 +59613,15 @@
     </Groups>
     <Texts>
       <Input>Each of your followers get +2.5 Crafting.</Input>
-      <Output>Każdy z twoich zwolenników otrzymuje +2,5 Craftingu.</Output>
+      <Output>Każda z twoich postaci otrzymuje bonus +2,5 do rzemiosła.</Output>
     </Texts>
   </Element>
-  <Element ID="3523" Key="DES_TRAIT_GATHERERS_FLOCK" Flag="0">
+  <Element ID="3523" Key="DES_TRAIT_GATHERERS_FLOCK" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:56:32</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59170,10 +59630,15 @@
     </Groups>
     <Texts>
       <Input>Flock of Gatherers</Input>
-      <Output>Zgraja zbieraczy</Output>
+      <Output>Zgraja Zbieraczy</Output>
     </Texts>
   </Element>
-  <Element ID="3524" Key="DES_TRAIT_GATHERERS_FLOCK_DES" Flag="0">
+  <Element ID="3524" Key="DES_TRAIT_GATHERERS_FLOCK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 13:57:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59182,10 +59647,15 @@
     </Groups>
     <Texts>
       <Input>Each of your followers get +2.5 Gathering.</Input>
-      <Output>Każdy z twoich zwolenników zbiera +2,5.</Output>
+      <Output>Każda z twoich postaci otrzymuje bonus +2,5 do zbieractwa.</Output>
     </Texts>
   </Element>
-  <Element ID="3525" Key="DES_TRAIT_CAMPING_GATHERING_RANGE" Flag="0">
+  <Element ID="3525" Key="DES_TRAIT_CAMPING_GATHERING_RANGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:19:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59195,10 +59665,15 @@
     </Groups>
     <Texts>
       <Input>Camp Gathering Range</Input>
-      <Output>Zakres gromadzenia obozu</Output>
+      <Output>Obozowy Zasięg Zbieractwa</Output>
     </Texts>
   </Element>
-  <Element ID="3526" Key="DES_TRAIT_CAMPING_GATHERING_RANGE_DES" Flag="0">
+  <Element ID="3526" Key="DES_TRAIT_CAMPING_GATHERING_RANGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:19:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59208,10 +59683,15 @@
     </Groups>
     <Texts>
       <Input>Camped groups have increased gathering range.</Input>
-      <Output>Grupy obozowe mają zwiększony zasięg zbierania.</Output>
+      <Output>Obozujące grupy mają zwiększony obszar zbierania.</Output>
     </Texts>
   </Element>
-  <Element ID="3527" Key="DES_TRAIT_ALL_ENEMIES_ARE_MINE" Flag="0">
+  <Element ID="3527" Key="DES_TRAIT_ALL_ENEMIES_ARE_MINE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:21:21</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59222,10 +59702,15 @@
     </Groups>
     <Texts>
       <Input>Target Practice</Input>
-      <Output>Praktyka celu</Output>
+      <Output>Po Trupach</Output>
     </Texts>
   </Element>
-  <Element ID="3528" Key="DES_TRAIT_ALL_ENEMIES_ARE_MINE_DES" Flag="0">
+  <Element ID="3528" Key="DES_TRAIT_ALL_ENEMIES_ARE_MINE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:21:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59239,7 +59724,12 @@
       <Output>Wrogowie dają 15% dodatkowych punktów doświadczenia.</Output>
     </Texts>
   </Element>
-  <Element ID="3529" Key="DES_TRAIT_TOUGH_GUY" Flag="0">
+  <Element ID="3529" Key="DES_TRAIT_TOUGH_GUY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:21:32</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59251,7 +59741,12 @@
       <Output>Twardziel</Output>
     </Texts>
   </Element>
-  <Element ID="3530" Key="DES_TRAIT_TOUGH_GUY_DES" Flag="0">
+  <Element ID="3530" Key="DES_TRAIT_TOUGH_GUY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:22:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59260,10 +59755,15 @@
     </Groups>
     <Texts>
       <Input>Your followers get +10% Health but have an additional 5% chance to die when their Health is below 30%.</Input>
-      <Output>Twoi wyznawcy otrzymują + 10% zdrowia, ale mają dodatkowe 5% szansy na śmierć, gdy ich zdrowie wynosi poniżej 30%.</Output>
+      <Output>Twoje postacie otrzymują +10% zdrowia, ale mają zwiększone o 5% ryzyko śmierci, gdy ich zdrowie spadnie poniżej 30%.</Output>
     </Texts>
   </Element>
-  <Element ID="3531" Key="DES_TRAIT_DEMONIC_POSSESSION" Flag="0">
+  <Element ID="3531" Key="DES_TRAIT_DEMONIC_POSSESSION" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:22:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59272,10 +59772,15 @@
     </Groups>
     <Texts>
       <Input>Demonic Possession</Input>
-      <Output>Demoniczne opętanie</Output>
+      <Output>Demoniczne Opętanie</Output>
     </Texts>
   </Element>
-  <Element ID="3532" Key="DES_TRAIT_DEMONIC_POSSESSION_DES" Flag="0">
+  <Element ID="3532" Key="DES_TRAIT_DEMONIC_POSSESSION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:23:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59284,10 +59789,15 @@
     </Groups>
     <Texts>
       <Input>The Chosen gets +15 Health and +30 Spiritual Shielding, but -80% Mysticism and Destiny.</Input>
-      <Output>The Chosen dostaje +15 punktów zdrowia i +30 duchowego osłony, ale -80% mistycyzmu i przeznaczenia.</Output>
+      <Output>Wybraniec otrzymuje +15 punktów zdrowia i +30 duchowej osłony, ale traci 80% mistycyzmu i przeznaczenia.</Output>
     </Texts>
   </Element>
-  <Element ID="3533" Key="DES_TRAIT_SHADOW_PROTECTION" Flag="0">
+  <Element ID="3533" Key="DES_TRAIT_SHADOW_PROTECTION" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:24:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59296,10 +59806,15 @@
     </Groups>
     <Texts>
       <Input>Divine Protection</Input>
-      <Output>Boska ochrona</Output>
+      <Output>Boska Ochrona</Output>
     </Texts>
   </Element>
-  <Element ID="3534" Key="DES_TRAIT_SHADOW_PROTECTION_DES" Flag="0">
+  <Element ID="3534" Key="DES_TRAIT_SHADOW_PROTECTION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:26:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59308,10 +59823,15 @@
     </Groups>
     <Texts>
       <Input>Penalty for forfeiting a challenge is halved.</Input>
-      <Output>Kara za utratę wyzwania jest zmniejszona o połowę.</Output>
+      <Output>Kara za poddanie się w tracie wyzwania jest zmniejszona o połowę.</Output>
     </Texts>
   </Element>
-  <Element ID="3535" Key="DES_TRAIT_MAGIC_SCROLL" Flag="0">
+  <Element ID="3535" Key="DES_TRAIT_MAGIC_SCROLL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:26:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59320,10 +59840,15 @@
     </Groups>
     <Texts>
       <Input>Magic Scroll</Input>
-      <Output>Magiczny zwój</Output>
+      <Output>Magiczny Zwój</Output>
     </Texts>
   </Element>
-  <Element ID="3536" Key="DES_TRAIT_MAGIC_SCROLL_DES" Flag="0">
+  <Element ID="3536" Key="DES_TRAIT_MAGIC_SCROLL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-20 14:26:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TRAIT</Group>
@@ -59332,7 +59857,7 @@
     </Groups>
     <Texts>
       <Input>You start with a good quality magic scroll.</Input>
-      <Output>Zaczynasz od dobrej jakości magicznego zwoju.</Output>
+      <Output>Zaczynasz z dobrej jakości magicznym zwojem.</Output>
     </Texts>
   </Element>
   <Element ID="3537" Key="DES_TOOLTIP_NO_FOOD" Flag="0">
