@@ -61816,7 +61816,12 @@
       <Output>Pokaż Zajęte Postacie</Output>
     </Texts>
   </Element>
-  <Element ID="3638" Key="DES_TOOLTIP_SHOW_BUSY_DES" Flag="0">
+  <Element ID="3638" Key="DES_TOOLTIP_SHOW_BUSY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:34:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61825,10 +61830,15 @@
     </Groups>
     <Texts>
       <Input>Toggle on to see all characters, no matter if they are assign to another task or not.</Input>
-      <Output>Włącz, aby zobaczyć wszystkie postacie, bez względu na to, czy są przypisane do innego zadania, czy nie.</Output>
+      <Output>Włącz, aby zobaczyć wszystkie postacie, bez względu na to, czy mają przypisane zadania, czy nie.</Output>
     </Texts>
   </Element>
-  <Element ID="3639" Key="DES_TOOLTIP_FORCE_OLD_CACHE" Flag="0">
+  <Element ID="3639" Key="DES_TOOLTIP_FORCE_OLD_CACHE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:35:06</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61838,10 +61848,15 @@
     </Groups>
     <Texts>
       <Input>Force Old Cache</Input>
-      <Output>Wymuś starą pamięć podręczną</Output>
+      <Output>Wymuś Stary Cache</Output>
     </Texts>
   </Element>
-  <Element ID="3640" Key="DES_TOOLTIP_FORCE_OLD_CACHE_DES" Flag="0">
+  <Element ID="3640" Key="DES_TOOLTIP_FORCE_OLD_CACHE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:36:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61851,7 +61866,7 @@
     </Groups>
     <Texts>
       <Input>Changes to some of the game's XML files require item cache to be rebuilt, otherwise crashes will occur. When this toggle is off, the game will rebuild the item cache every time there's a change in the XML files.\n\nSome changes however are safe (ie. localisation files) and do not require a new item cache. Set the toggle to on to force the game to use the old item cache, if it can be loaded.</Input>
-      <Output>Zmiany w niektórych plikach XML gry wymagają odbudowania pamięci podręcznej elementów, w przeciwnym razie wystąpią awarie. Gdy ten przełącznik jest wyłączony, gra odbuduje pamięć podręczną elementów za każdym razem, gdy nastąpi zmiana plików XML. \n\nNiektóre zmiany są jednak bezpieczne (np. Pliki lokalizacyjne) i nie wymagają nowej pamięci podręcznej elementów. Ustaw przełącznik w pozycji, aby zmusić grę do korzystania ze starej pamięci podręcznej elementów, jeśli można ją załadować.</Output>
+      <Output>Zmiany w niektórych plikach XML gry wymagają odbudowania cache elementów, w przeciwnym razie wystąpią awarie. Gdy ten przełącznik jest wyłączony, gra odbuduje cache elementów za każdym razem, gdy nastąpi zmiana plików XML. \n\nNiektóre zmiany są jednak bezpieczne (np. Pliki lokalizacyjne) i nie wymagają nowego cache. Ustaw przełącznik w pozycji, aby zmusić grę do korzystania ze starego cache, jeśli można go załadować.</Output>
     </Texts>
   </Element>
   <Element ID="3641" Key="DES_TOOLTIP_DEV_CONSOLE" Flag="1">
@@ -64307,7 +64322,12 @@
       <Output>Służy do szybkiego przesyłania żywności między grupami.</Output>
     </Texts>
   </Element>
-  <Element ID="3803" Key="DES_ENEMY_GROUP" Flag="0">
+  <Element ID="3803" Key="DES_ENEMY_GROUP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:14:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_ENEMY</Group>
@@ -64315,7 +64335,7 @@
     </Groups>
     <Texts>
       <Input>Enemy Group</Input>
-      <Output>Grupa przeciwników</Output>
+      <Output>Wroga Grupa</Output>
     </Texts>
   </Element>
   <Element ID="3804" Key="DES_GROUP_HUMANS" Flag="1">
@@ -65004,7 +65024,12 @@
       <Output>Duchowy Koncept</Output>
     </Texts>
   </Element>
-  <Element ID="3846" Key="DES_FACTIONS_SLAVYANS" Flag="0">
+  <Element ID="3846" Key="DES_FACTIONS_SLAVYANS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65012,10 +65037,15 @@
     </Groups>
     <Texts>
       <Input>Slavyans</Input>
-      <Output>Slawiani</Output>
+      <Output>Słowianie</Output>
     </Texts>
   </Element>
-  <Element ID="3847" Key="DES_FACTIONS_SCAVENGERS" Flag="0">
+  <Element ID="3847" Key="DES_FACTIONS_SCAVENGERS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65023,10 +65053,15 @@
     </Groups>
     <Texts>
       <Input>Scavengers</Input>
-      <Output>Zbieracze</Output>
+      <Output>Śmieciarze</Output>
     </Texts>
   </Element>
-  <Element ID="3848" Key="DES_FACTIONS_WOODLAND_KIN" Flag="0">
+  <Element ID="3848" Key="DES_FACTIONS_WOODLAND_KIN" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65035,10 +65070,15 @@
     </Groups>
     <Texts>
       <Input>Woodland Kin</Input>
-      <Output>Lud lasu</Output>
+      <Output>Lud Lasu</Output>
     </Texts>
   </Element>
-  <Element ID="3849" Key="DES_FACTIONS_EARTHBOUND" Flag="0">
+  <Element ID="3849" Key="DES_FACTIONS_EARTHBOUND" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65063,10 +65103,15 @@
     </Groups>
     <Texts>
       <Input>Alphaclans</Input>
-      <Output>Alfaklany</Output>
+      <Output>Klany Alfa</Output>
     </Texts>
   </Element>
-  <Element ID="3851" Key="DES_FACTIONS_SPIRIT_TALKERS" Flag="0">
+  <Element ID="3851" Key="DES_FACTIONS_SPIRIT_TALKERS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65075,7 +65120,7 @@
     </Groups>
     <Texts>
       <Input>Spirit Talkers</Input>
-      <Output>Mówiący z duchami</Output>
+      <Output>Mówiący z Duchami</Output>
     </Texts>
   </Element>
   <Element ID="3852" Key="DES_FACTIONS_LIGHTBRINGERS" Flag="1">
@@ -65091,10 +65136,15 @@
     </Groups>
     <Texts>
       <Input>Lightbringers</Input>
-      <Output>Nosiciele jasności</Output>
+      <Output>Nosiciele Jasności</Output>
     </Texts>
   </Element>
-  <Element ID="3853" Key="DES_FACTIONS_FOREST_DEMONS" Flag="0">
+  <Element ID="3853" Key="DES_FACTIONS_FOREST_DEMONS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65103,7 +65153,7 @@
     </Groups>
     <Texts>
       <Input>Forest Demons</Input>
-      <Output>Leśne demony</Output>
+      <Output>Leśne Demony</Output>
     </Texts>
   </Element>
   <Element ID="3854" Key="DES_FACTIONS_NIGHT_DEMONS" Flag="1">
@@ -65190,7 +65240,12 @@
       <Output>Lud Cienia</Output>
     </Texts>
   </Element>
-  <Element ID="3859" Key="DES_FACTIONS_BEASTS" Flag="0">
+  <Element ID="3859" Key="DES_FACTIONS_BEASTS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65201,7 +65256,12 @@
       <Output>Bestie</Output>
     </Texts>
   </Element>
-  <Element ID="3860" Key="DES_FACTIONS_WATER_BEASTS" Flag="0">
+  <Element ID="3860" Key="DES_FACTIONS_WATER_BEASTS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65210,10 +65270,15 @@
     </Groups>
     <Texts>
       <Input>Water Beasts</Input>
-      <Output>Wodne bestie</Output>
+      <Output>Wodne Bestie</Output>
     </Texts>
   </Element>
-  <Element ID="3861" Key="DES_FACTIONS_MYTHICAL_WATER_BEASTS" Flag="0">
+  <Element ID="3861" Key="DES_FACTIONS_MYTHICAL_WATER_BEASTS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:06</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65223,10 +65288,15 @@
     </Groups>
     <Texts>
       <Input>Mythical Water Beasts</Input>
-      <Output>Mityczne bestie wodne</Output>
+      <Output>Mityczne Wodne Bestie</Output>
     </Texts>
   </Element>
-  <Element ID="3862" Key="DES_FACTIONS_BANDITS" Flag="0">
+  <Element ID="3862" Key="DES_FACTIONS_BANDITS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65237,7 +65307,12 @@
       <Output>Bandyci</Output>
     </Texts>
   </Element>
-  <Element ID="3863" Key="DES_FACTIONS_HUMANS" Flag="0">
+  <Element ID="3863" Key="DES_FACTIONS_HUMANS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65248,7 +65323,12 @@
       <Output>Ludzie</Output>
     </Texts>
   </Element>
-  <Element ID="3864" Key="DES_FACTIONS_ELVES" Flag="0">
+  <Element ID="3864" Key="DES_FACTIONS_ELVES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65259,7 +65339,12 @@
       <Output>Elfy</Output>
     </Texts>
   </Element>
-  <Element ID="3865" Key="DES_FACTIONS_ORCS" Flag="0">
+  <Element ID="3865" Key="DES_FACTIONS_ORCS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65270,7 +65355,12 @@
       <Output>Orki</Output>
     </Texts>
   </Element>
-  <Element ID="3866" Key="DES_FACTIONS_GOBLINS" Flag="0">
+  <Element ID="3866" Key="DES_FACTIONS_GOBLINS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65281,7 +65371,12 @@
       <Output>Gobliny</Output>
     </Texts>
   </Element>
-  <Element ID="3867" Key="DES_FACTIONS_DWARVES" Flag="0">
+  <Element ID="3867" Key="DES_FACTIONS_DWARVES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65292,7 +65387,12 @@
       <Output>Krasnoludy</Output>
     </Texts>
   </Element>
-  <Element ID="3868" Key="DES_FACTIONS_SPIRITS" Flag="0">
+  <Element ID="3868" Key="DES_FACTIONS_SPIRITS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65303,7 +65403,12 @@
       <Output>Duchy</Output>
     </Texts>
   </Element>
-  <Element ID="3869" Key="DES_FACTIONS_MYTHICAL" Flag="0">
+  <Element ID="3869" Key="DES_FACTIONS_MYTHICAL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65311,7 +65416,7 @@
     </Groups>
     <Texts>
       <Input>Mythical</Input>
-      <Output>Mityczny</Output>
+      <Output>Mityczne</Output>
     </Texts>
   </Element>
   <Element ID="3870" Key="DES_FACTIONS_MROKI" Flag="1">
@@ -65396,7 +65501,12 @@
       <Output>Demony</Output>
     </Texts>
   </Element>
-  <Element ID="3875" Key="DES_FACTIONS_LIGHT_DEMONS" Flag="0">
+  <Element ID="3875" Key="DES_FACTIONS_LIGHT_DEMONS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65405,10 +65515,15 @@
     </Groups>
     <Texts>
       <Input>Light Demons</Input>
-      <Output>Lekkie demony</Output>
+      <Output>Świetliste Demony</Output>
     </Texts>
   </Element>
-  <Element ID="3876" Key="DES_FACTIONS_UNLIVING" Flag="0">
+  <Element ID="3876" Key="DES_FACTIONS_UNLIVING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:13:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_FACTIONS</Group>
@@ -65416,10 +65531,15 @@
     </Groups>
     <Texts>
       <Input>Unliving</Input>
-      <Output>Nieumarły</Output>
+      <Output>Nieumarli</Output>
     </Texts>
   </Element>
-  <Element ID="3877" Key="DES_SET_GHOST_SHIP" Flag="0">
+  <Element ID="3877" Key="DES_SET_GHOST_SHIP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:46:50</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65428,10 +65548,15 @@
     </Groups>
     <Texts>
       <Input>Ghost Ship</Input>
-      <Output>Statek duchów</Output>
+      <Output>Statek Duchów</Output>
     </Texts>
   </Element>
-  <Element ID="3878" Key="DES_SET_LOOT_CHEST" Flag="0">
+  <Element ID="3878" Key="DES_SET_LOOT_CHEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:49:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65440,10 +65565,15 @@
     </Groups>
     <Texts>
       <Input>Loot Chest</Input>
-      <Output>Skrzynia z łupem</Output>
+      <Output>Skrzynia z Łupem</Output>
     </Texts>
   </Element>
-  <Element ID="3879" Key="DES_SET_SHACK" Flag="0">
+  <Element ID="3879" Key="DES_SET_SHACK" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:49:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65486,7 +65616,12 @@
       <Output>Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3882" Key="DES_SET_LOOKOUT_TOWER" Flag="0">
+  <Element ID="3882" Key="DES_SET_LOOKOUT_TOWER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:49:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65495,7 +65630,7 @@
     </Groups>
     <Texts>
       <Input>Lookout Tower</Input>
-      <Output>Wieża widokowa</Output>
+      <Output>Wieża Obserwacyjna</Output>
     </Texts>
   </Element>
   <Element ID="3883" Key="DES_SET_MILL" Flag="1">
@@ -65516,9 +65651,9 @@
   </Element>
   <Element ID="3884" Key="DES_SET_KEEP" Flag="1">
     <Confirmation>
-      <Time>2019-10-14 11:07:13</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
+      <Time>2019-11-29 11:55:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>DES</Group>
@@ -65527,7 +65662,7 @@
     </Groups>
     <Texts>
       <Input>Keep</Input>
-      <Output>Zachowaj</Output>
+      <Output>Twierdza</Output>
     </Texts>
   </Element>
   <Element ID="3885" Key="DES_SET_NEST" Flag="1">
@@ -65578,7 +65713,12 @@
       <Output>Ruiny</Output>
     </Texts>
   </Element>
-  <Element ID="3888" Key="DES_SET_FLOATING_ROCK" Flag="0">
+  <Element ID="3888" Key="DES_SET_FLOATING_ROCK" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65587,7 +65727,7 @@
     </Groups>
     <Texts>
       <Input>Floating Rock</Input>
-      <Output>Pływająca skała</Output>
+      <Output>Pływająca Skała</Output>
     </Texts>
   </Element>
   <Element ID="3889" Key="DES_SET_POND" Flag="1">
@@ -65622,7 +65762,12 @@
       <Output>Jaskinia</Output>
     </Texts>
   </Element>
-  <Element ID="3891" Key="DES_SET_CAVE_ENTRANCE" Flag="0">
+  <Element ID="3891" Key="DES_SET_CAVE_ENTRANCE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65631,7 +65776,7 @@
     </Groups>
     <Texts>
       <Input>Cave Entrance</Input>
-      <Output>Wejście do jaskini</Output>
+      <Output>Wejście do Jaskini</Output>
     </Texts>
   </Element>
   <Element ID="3892" Key="DES_SET_RED_CAVE" Flag="1">
@@ -65668,7 +65813,12 @@
       <Output>Wielkie Drzewo</Output>
     </Texts>
   </Element>
-  <Element ID="3894" Key="DES_SET_WOODS" Flag="0">
+  <Element ID="3894" Key="DES_SET_WOODS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65713,7 +65863,12 @@
       <Output>Gniazdo Szczurów</Output>
     </Texts>
   </Element>
-  <Element ID="3897" Key="DES_SET_DEMONS_CIRCLE" Flag="0">
+  <Element ID="3897" Key="DES_SET_DEMONS_CIRCLE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65722,10 +65877,15 @@
     </Groups>
     <Texts>
       <Input>Demons' Circle</Input>
-      <Output>Krąg demonów</Output>
+      <Output>Krąg Demonów</Output>
     </Texts>
   </Element>
-  <Element ID="3898" Key="DES_SET_SPIDERS_LAIR" Flag="0">
+  <Element ID="3898" Key="DES_SET_SPIDERS_LAIR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65734,10 +65894,15 @@
     </Groups>
     <Texts>
       <Input>Spiders' Lair</Input>
-      <Output>Legowisko Pająków</Output>
+      <Output>Leże Pająków</Output>
     </Texts>
   </Element>
-  <Element ID="3899" Key="DES_SET_CROW_NEST" Flag="0">
+  <Element ID="3899" Key="DES_SET_CROW_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65746,10 +65911,15 @@
     </Groups>
     <Texts>
       <Input>Crows' Nest</Input>
-      <Output>Gniazdo wron</Output>
+      <Output>Gniazdo Kruków</Output>
     </Texts>
   </Element>
-  <Element ID="3900" Key="DES_SET_RATS_BATS_NEST" Flag="0">
+  <Element ID="3900" Key="DES_SET_RATS_BATS_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65759,10 +65929,15 @@
     </Groups>
     <Texts>
       <Input>Rats' and Bats' Nest</Input>
-      <Output>Gniazdo szczurów i nietoperzy</Output>
+      <Output>Gniazdo Szczurów i Nietoperzy</Output>
     </Texts>
   </Element>
-  <Element ID="3901" Key="DES_SET_SNAKE_NEST" Flag="0">
+  <Element ID="3901" Key="DES_SET_SNAKE_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:47</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65771,10 +65946,15 @@
     </Groups>
     <Texts>
       <Input>Snakes' Nest</Input>
-      <Output>Gniazdo węży</Output>
+      <Output>Gniazdo Węży</Output>
     </Texts>
   </Element>
-  <Element ID="3902" Key="DES_SET_BEARS_NEST" Flag="0">
+  <Element ID="3902" Key="DES_SET_BEARS_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65783,10 +65963,15 @@
     </Groups>
     <Texts>
       <Input>Bears' Lair</Input>
-      <Output>Legowisko niedźwiedzi</Output>
+      <Output>Leże Niedźwiedzi</Output>
     </Texts>
   </Element>
-  <Element ID="3903" Key="DES_SET_WOLVES_NEST" Flag="0">
+  <Element ID="3903" Key="DES_SET_WOLVES_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65795,10 +65980,15 @@
     </Groups>
     <Texts>
       <Input>Wolves' Lair</Input>
-      <Output>Lair wilków</Output>
+      <Output>Leże Wilków</Output>
     </Texts>
   </Element>
-  <Element ID="3904" Key="DES_SET_BOARS_NEST" Flag="0">
+  <Element ID="3904" Key="DES_SET_BOARS_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65807,10 +65997,15 @@
     </Groups>
     <Texts>
       <Input>Boars' Lair</Input>
-      <Output>Legowisko dzików</Output>
+      <Output>Leże Dzików</Output>
     </Texts>
   </Element>
-  <Element ID="3905" Key="DES_SET_BEAST_NEST" Flag="0">
+  <Element ID="3905" Key="DES_SET_BEAST_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65819,10 +66014,15 @@
     </Groups>
     <Texts>
       <Input>Beasts' Lair</Input>
-      <Output>Legowisko bestii</Output>
+      <Output>Leże Bestii</Output>
     </Texts>
   </Element>
-  <Element ID="3906" Key="DES_SET_TROLL_NEST" Flag="0">
+  <Element ID="3906" Key="DES_SET_TROLL_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65831,10 +66031,15 @@
     </Groups>
     <Texts>
       <Input>Trolls' Lair</Input>
-      <Output>Legowisko trolli</Output>
+      <Output>Leże Trolli</Output>
     </Texts>
   </Element>
-  <Element ID="3907" Key="DES_SET_UNI_NEST" Flag="0">
+  <Element ID="3907" Key="DES_SET_UNI_NEST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65843,10 +66048,15 @@
     </Groups>
     <Texts>
       <Input>Unlivings' Crypt</Input>
-      <Output>Krypta Unlivings</Output>
+      <Output>Krypta Nieumarłych</Output>
     </Texts>
   </Element>
-  <Element ID="3908" Key="DES_SET_SMALL_HUT" Flag="0">
+  <Element ID="3908" Key="DES_SET_SMALL_HUT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65855,10 +66065,15 @@
     </Groups>
     <Texts>
       <Input>Small Hut</Input>
-      <Output>Mała chata</Output>
+      <Output>Mała Chata</Output>
     </Texts>
   </Element>
-  <Element ID="3909" Key="DES_SET_LARGE_HUT" Flag="0">
+  <Element ID="3909" Key="DES_SET_LARGE_HUT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65867,10 +66082,15 @@
     </Groups>
     <Texts>
       <Input>Large Hut</Input>
-      <Output>Duża chata</Output>
+      <Output>Duża Chata</Output>
     </Texts>
   </Element>
-  <Element ID="3910" Key="DES_SET_HUMAN_VILLAGE" Flag="0">
+  <Element ID="3910" Key="DES_SET_HUMAN_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65879,10 +66099,15 @@
     </Groups>
     <Texts>
       <Input>Human Village</Input>
-      <Output>Ludzka wioska</Output>
+      <Output>Ludzka Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3911" Key="DES_SET_BANDITS_LAIR" Flag="0">
+  <Element ID="3911" Key="DES_SET_BANDITS_LAIR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:47:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65891,10 +66116,15 @@
     </Groups>
     <Texts>
       <Input>Bandits' Lair</Input>
-      <Output>Lądowisko bandytów</Output>
+      <Output>Kryjówka Bandytów</Output>
     </Texts>
   </Element>
-  <Element ID="3912" Key="DES_LIGHTBRINGERS_SPAWN" Flag="0">
+  <Element ID="3912" Key="DES_LIGHTBRINGERS_SPAWN" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:15:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_LIGHTBRINGERS</Group>
@@ -65902,14 +66132,14 @@
     </Groups>
     <Texts>
       <Input>Lightbringers' Spawn</Input>
-      <Output>Pomiot Lightbringers '</Output>
+      <Output>Pomioty Jasności</Output>
     </Texts>
   </Element>
   <Element ID="3913" Key="DES_SET_ORCISH_CAMP" Flag="1">
     <Confirmation>
-      <Time>2019-10-14 11:05:20</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
+      <Time>2019-11-29 11:48:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>DES</Group>
@@ -65919,10 +66149,15 @@
     </Groups>
     <Texts>
       <Input>Orcish Camp</Input>
-      <Output>Obóz Orków</Output>
+      <Output>Orczy Obóz</Output>
     </Texts>
   </Element>
-  <Element ID="3914" Key="DES_SET_ORCISH_WARHOUSE" Flag="0">
+  <Element ID="3914" Key="DES_SET_ORCISH_WARHOUSE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:48:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65931,14 +66166,14 @@
     </Groups>
     <Texts>
       <Input>Orcish Warhouse</Input>
-      <Output>Orczy dom wojenny</Output>
+      <Output>Orczy Dom Wojny</Output>
     </Texts>
   </Element>
   <Element ID="3915" Key="DES_SET_ORCISH_VILLAGE" Flag="1">
     <Confirmation>
-      <Time>2019-10-14 11:05:12</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
+      <Time>2019-11-29 11:49:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>DES</Group>
@@ -65948,10 +66183,15 @@
     </Groups>
     <Texts>
       <Input>Orcish Village</Input>
-      <Output>Wioska Orków</Output>
+      <Output>Orcza Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3916" Key="DES_SET_BOAR_TRAINGROUND" Flag="0">
+  <Element ID="3916" Key="DES_SET_BOAR_TRAINGROUND" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:48:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65960,10 +66200,15 @@
     </Groups>
     <Texts>
       <Input>Boar Training Grounds</Input>
-      <Output>Poligon dla knurów</Output>
+      <Output>Poligon Dzikich Jeźdźców</Output>
     </Texts>
   </Element>
-  <Element ID="3917" Key="DES_SET_GOBS_SCIENCE_TOWER" Flag="0">
+  <Element ID="3917" Key="DES_SET_GOBS_SCIENCE_TOWER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:48:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -65973,14 +66218,14 @@
     </Groups>
     <Texts>
       <Input>Goblin Science Tower</Input>
-      <Output>Wieża naukowa goblinów</Output>
+      <Output>Gobliśka Wieża Nauki</Output>
     </Texts>
   </Element>
   <Element ID="3918" Key="DES_SET_GOBLIN_VILLAGE" Flag="1">
     <Confirmation>
-      <Time>2019-10-14 11:05:04</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
+      <Time>2019-11-29 11:49:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>DES</Group>
@@ -65990,10 +66235,15 @@
     </Groups>
     <Texts>
       <Input>Goblin Village</Input>
-      <Output>Wioska Goblinów</Output>
+      <Output>Goblińska Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3919" Key="DES_SET_ELVEN_GUARD_POST" Flag="0">
+  <Element ID="3919" Key="DES_SET_ELVEN_GUARD_POST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:48:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66003,10 +66253,15 @@
     </Groups>
     <Texts>
       <Input>Elven Guard Post</Input>
-      <Output>Posterunek elfów</Output>
+      <Output>Elficki Posterunek</Output>
     </Texts>
   </Element>
-  <Element ID="3920" Key="DES_SET_SACRED_GROVE" Flag="0">
+  <Element ID="3920" Key="DES_SET_SACRED_GROVE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:48:43</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66015,14 +66270,14 @@
     </Groups>
     <Texts>
       <Input>Sacred Grove</Input>
-      <Output>Święty gaj</Output>
+      <Output>Święty Gaj</Output>
     </Texts>
   </Element>
   <Element ID="3921" Key="DES_SET_ELVEN_VILLAGE" Flag="1">
     <Confirmation>
-      <Time>2019-10-14 11:05:00</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
+      <Time>2019-11-29 11:49:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>DES</Group>
@@ -66032,10 +66287,15 @@
     </Groups>
     <Texts>
       <Input>Elven Village</Input>
-      <Output>Wioska Elfów</Output>
+      <Output>Elfia Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3922" Key="DES_SET_DWARVEN_RUNEFORGE" Flag="0">
+  <Element ID="3922" Key="DES_SET_DWARVEN_RUNEFORGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:48:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66044,7 +66304,7 @@
     </Groups>
     <Texts>
       <Input>Dwarven Runeforge</Input>
-      <Output>Krasnoludzka kuźnia run</Output>
+      <Output>Krasnoludzka Kuźnia Run</Output>
     </Texts>
   </Element>
   <Element ID="3923" Key="DES_SET_DWARVEN_BEER_HALL" Flag="1">
@@ -66062,10 +66322,15 @@
     </Groups>
     <Texts>
       <Input>Dwarven Beer Hall</Input>
-      <Output>Krasnoludzka sala piwa</Output>
+      <Output>Krasnoludzka Sala Piwa</Output>
     </Texts>
   </Element>
-  <Element ID="3924" Key="DES_SET_DWARVEN_VILLAGE" Flag="0">
+  <Element ID="3924" Key="DES_SET_DWARVEN_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:49:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66074,10 +66339,15 @@
     </Groups>
     <Texts>
       <Input>Dwarven Village</Input>
-      <Output>Krasnoludzka wioska</Output>
+      <Output>Krasnoludzka Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3925" Key="DES_SET_LIGHT_VILLAGE" Flag="0">
+  <Element ID="3925" Key="DES_SET_LIGHT_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:49:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66086,10 +66356,15 @@
     </Groups>
     <Texts>
       <Input>Light-engulfed Village</Input>
-      <Output>Wioska pochłonięta światłem</Output>
+      <Output>Pochłonięta Wioska</Output>
     </Texts>
   </Element>
-  <Element ID="3926" Key="DES_SET_FOREST_DEMONS_VILLAGE" Flag="0">
+  <Element ID="3926" Key="DES_SET_FOREST_DEMONS_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:55:35</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66099,10 +66374,15 @@
     </Groups>
     <Texts>
       <Input>Forest Demons' Den</Input>
-      <Output>Las Demonów Leśnych</Output>
+      <Output>Matecznik Leśnych Demonów </Output>
     </Texts>
   </Element>
-  <Element ID="3927" Key="DES_SET_NIGHT_DEMONS_VILLAGE" Flag="0">
+  <Element ID="3927" Key="DES_SET_NIGHT_DEMONS_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:55:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66115,7 +66395,12 @@
       <Output>Rezydencja Nocnych Demonów</Output>
     </Texts>
   </Element>
-  <Element ID="3928" Key="DES_SET_WATER_DEMONS_VILLAGE" Flag="0">
+  <Element ID="3928" Key="DES_SET_WATER_DEMONS_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:55:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66125,7 +66410,7 @@
     </Groups>
     <Texts>
       <Input>Water Demons' Mere</Input>
-      <Output>Woda demonów wodnych</Output>
+      <Output>Staw Wodnych Demonów </Output>
     </Texts>
   </Element>
   <Element ID="3929" Key="DES_SET_ICE_DEMONS_VILLAGE" Flag="1">
@@ -66146,7 +66431,12 @@
       <Output>Kryjówka Lodowych Demonów</Output>
     </Texts>
   </Element>
-  <Element ID="3930" Key="DES_SET_STINGERS_LAIR" Flag="0">
+  <Element ID="3930" Key="DES_SET_STINGERS_LAIR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:55:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66155,10 +66445,15 @@
     </Groups>
     <Texts>
       <Input>Stingers' Lair</Input>
-      <Output>Leżanka Stingersa</Output>
+      <Output>Leże Żądeł</Output>
     </Texts>
   </Element>
-  <Element ID="3931" Key="DES_SET_SHADOW_KIN_VILLAGE" Flag="0">
+  <Element ID="3931" Key="DES_SET_SHADOW_KIN_VILLAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:55:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66168,7 +66463,7 @@
     </Groups>
     <Texts>
       <Input>Shadow Kin Hamlet</Input>
-      <Output>Mała wioska ludu cienia</Output>
+      <Output>Mała Wioska Ludu Cienia</Output>
     </Texts>
   </Element>
   <Element ID="3932" Key="DES_SET_ICE_CAVE" Flag="1">
@@ -66188,7 +66483,12 @@
       <Output>Lodowa Jaskinia</Output>
     </Texts>
   </Element>
-  <Element ID="3933" Key="DES_SET_CRASHED_SHIP" Flag="0">
+  <Element ID="3933" Key="DES_SET_CRASHED_SHIP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 11:56:00</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SET</Group>
@@ -66197,7 +66497,7 @@
     </Groups>
     <Texts>
       <Input>Crashed Ship</Input>
-      <Output>Rozbity statek</Output>
+      <Output>Rozbity Statek</Output>
     </Texts>
   </Element>
   <Element ID="3934" Key="DES_DEFAULT_MOUNTAIN" Flag="1">
@@ -67384,17 +67684,27 @@
       </Output>
     </Texts>
   </Element>
-  <Element ID="4008" Key="DES_ELEMENTAL" Flag="0">
+  <Element ID="4008" Key="DES_ELEMENTAL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:16:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_ELEMENTAL</Group>
     </Groups>
     <Texts>
       <Input>Elemental</Input>
-      <Output>Żywiołak</Output>
+      <Output>Żywiołowy</Output>
     </Texts>
   </Element>
-  <Element ID="4009" Key="DES_LEGENDARY" Flag="0">
+  <Element ID="4009" Key="DES_LEGENDARY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:15:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_LEGENDARY</Group>
@@ -74057,7 +74367,7 @@
     </Groups>
     <Texts>
       <Input>Adventure Start Node</Input>
-      <Output>Blok Rozpoczęcia przygody</Output>
+      <Output>Blok Rozpoczęcia Przygody</Output>
     </Texts>
   </Element>
   <Element ID="4429" Key="UI_ADVENTURE_END_NODE" Flag="1">
@@ -74074,7 +74384,7 @@
     </Groups>
     <Texts>
       <Input>Adventure End Node</Input>
-      <Output>Blok zakończenia przygody</Output>
+      <Output>Blok Zakończenia Przygody</Output>
     </Texts>
   </Element>
   <Element ID="4430" Key="UI_ADVENTURE_CHALLENGE_NODE" Flag="1">
@@ -74091,7 +74401,7 @@
     </Groups>
     <Texts>
       <Input>Challenge Node</Input>
-      <Output>Blok wyzwania</Output>
+      <Output>Blok Wyzwania</Output>
     </Texts>
   </Element>
   <Element ID="4431" Key="UI_ADVENTURE_NODE" Flag="1">
@@ -74107,7 +74417,7 @@
     </Groups>
     <Texts>
       <Input>Adventure Node</Input>
-      <Output>Blok przygody</Output>
+      <Output>Blok Przygody</Output>
     </Texts>
   </Element>
   <Element ID="4432" Key="UI_ADVENTURE_DEAL_DAMAGE_NODE" Flag="1">
@@ -74142,7 +74452,7 @@
     </Groups>
     <Texts>
       <Input>Spawn Node</Input>
-      <Output>Blok pojawiania się</Output>
+      <Output>Blok Oznaczenia na Mapie</Output>
     </Texts>
   </Element>
   <Element ID="4434" Key="UI_ADVENTURE_TRADE_NODE" Flag="1">
@@ -75023,7 +75333,7 @@
     </Groups>
     <Texts>
       <Input>Add a Node</Input>
-      <Output>Dodaj blok</Output>
+      <Output>Dodaj Blok</Output>
     </Texts>
   </Element>
   <Element ID="4489" Key="UI_ADVENTURE" Flag="1">
@@ -75070,10 +75380,15 @@
     </Groups>
     <Texts>
       <Input>Spawn on Map</Input>
-      <Output>Wygneruj na mapie</Output>
+      <Output>Oznaczenie na Mapie</Output>
     </Texts>
   </Element>
-  <Element ID="4492" Key="UI_PRODUCE_DROP" Flag="0">
+  <Element ID="4492" Key="UI_PRODUCE_DROP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:56:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PRODUCE</Group>
@@ -75081,10 +75396,15 @@
     </Groups>
     <Texts>
       <Input>Produce Drop</Input>
-      <Output>Produkuj Drop</Output>
+      <Output>Strata</Output>
     </Texts>
   </Element>
-  <Element ID="4493" Key="UI_ADVENTURE_PRODUCE_DROP_NODE" Flag="0">
+  <Element ID="4493" Key="UI_ADVENTURE_PRODUCE_DROP_NODE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:56:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADVENTURE</Group>
@@ -75094,7 +75414,7 @@
     </Groups>
     <Texts>
       <Input>Produce Drop</Input>
-      <Output>Spadek produkcji</Output>
+      <Output>Blok Straty</Output>
     </Texts>
   </Element>
   <Element ID="4494" Key="UI_TRADE" Flag="1">
@@ -75125,7 +75445,7 @@
     </Groups>
     <Texts>
       <Input>Deal Damage</Input>
-      <Output>Zadaj obrażenia</Output>
+      <Output>Obrażenia</Output>
     </Texts>
   </Element>
   <Element ID="4496" Key="UI_ADVENTURE_END" Flag="1">
@@ -75141,7 +75461,7 @@
     </Groups>
     <Texts>
       <Input>Adventure End</Input>
-      <Output>Koniec przygody</Output>
+      <Output>Koniec Przygody</Output>
     </Texts>
   </Element>
   <Element ID="4497" Key="UI_SEARCH" Flag="1">
@@ -75209,7 +75529,12 @@
       <Output>Uwaga: Optymalny rozmiar obrazu to &lt;b&gt; 700x1000px &lt;/b&gt;. Można również stosować inne rozmiary o podobnym współczynniku proporcji. Używanie obrazu o różnych proporcjach spowoduje zniekształcenie obrazu. \nAby dodać nowe obrazy do tej listy, umieść je w folderze &lt;b&gt; StreamingAssets EventGraphics &lt;/b&gt; znajdującym się w folderze gry. &lt;b&gt; Używaj tylko formatów .png lub .jpg!&lt;/b&gt;</Output>
     </Texts>
   </Element>
-  <Element ID="4501" Key="UI_LOGIC_EDITOR" Flag="0">
+  <Element ID="4501" Key="UI_LOGIC_EDITOR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:44:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOGIC</Group>
@@ -75217,7 +75542,7 @@
     </Groups>
     <Texts>
       <Input>Logic Editor</Input>
-      <Output>Edytor logiki</Output>
+      <Output>Edytor Logiki</Output>
     </Texts>
   </Element>
   <Element ID="4502" Key="UI_FILTERS" Flag="1">
@@ -75265,7 +75590,12 @@
       <Output>Wyniki</Output>
     </Texts>
   </Element>
-  <Element ID="4505" Key="UI_EXIT_LOGIC" Flag="0">
+  <Element ID="4505" Key="UI_EXIT_LOGIC" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:44:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_EXIT</Group>
@@ -75273,7 +75603,7 @@
     </Groups>
     <Texts>
       <Input>Exit Logic</Input>
-      <Output>Wyjdź z logiki</Output>
+      <Output>Wyjdź</Output>
     </Texts>
   </Element>
   <Element ID="4506" Key="UI_SELECT_A_MODULE" Flag="1">
@@ -77117,7 +77447,12 @@
       <Output>Hostuj grę wieloosobową</Output>
     </Texts>
   </Element>
-  <Element ID="4622" Key="UI_ENTER_LOGIC_EDITOR" Flag="0">
+  <Element ID="4622" Key="UI_ENTER_LOGIC_EDITOR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:44:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ENTER</Group>
@@ -77126,10 +77461,15 @@
     </Groups>
     <Texts>
       <Input>Enter Logic Editor</Input>
-      <Output>Wprowadź Edytor logiki</Output>
+      <Output>Edytor Logiki</Output>
     </Texts>
   </Element>
-  <Element ID="4623" Key="UI_ADD_NEW_OUTPUT" Flag="0">
+  <Element ID="4623" Key="UI_ADD_NEW_OUTPUT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:45:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADD</Group>
@@ -77138,7 +77478,7 @@
     </Groups>
     <Texts>
       <Input>Add New Output</Input>
-      <Output>Dodaj nowe wyjście</Output>
+      <Output>Dodaj Nowe Wyjście</Output>
     </Texts>
   </Element>
   <Element ID="4624" Key="UI_ANSWER_TEXT" Flag="0">
@@ -77350,7 +77690,12 @@
       <Output>Lista wyzwań:</Output>
     </Texts>
   </Element>
-  <Element ID="4637" Key="UI_FROM_EVENT_OWNER" Flag="0">
+  <Element ID="4637" Key="UI_FROM_EVENT_OWNER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:59:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FROM</Group>
@@ -77359,10 +77704,15 @@
     </Groups>
     <Texts>
       <Input>From Event Owner:</Input>
-      <Output>Z właściciela wydarzenia:</Output>
+      <Output>Z Właściciela Zdarzenia:</Output>
     </Texts>
   </Element>
-  <Element ID="4638" Key="UI_FROM_GROUP" Flag="0">
+  <Element ID="4638" Key="UI_FROM_GROUP" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:57:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FROM</Group>
@@ -77370,7 +77720,7 @@
     </Groups>
     <Texts>
       <Input>From Group:</Input>
-      <Output>Z grupy:</Output>
+      <Output>Z Grupy:</Output>
     </Texts>
   </Element>
   <Element ID="4639" Key="UI_DMG_SOURCE_COUNT" Flag="1">
@@ -77414,7 +77764,7 @@
     </Groups>
     <Texts>
       <Input>Cargo Drop Percentage:</Input>
-      <Output>Procent spadku ładunku:</Output>
+      <Output>Procent Straty Ładunku:</Output>
     </Texts>
   </Element>
   <Element ID="4642" Key="UI_DROP_CARGO_PERCENTAGE" Flag="1">
@@ -77431,7 +77781,7 @@
     </Groups>
     <Texts>
       <Input>Body Drop Percentage:</Input>
-      <Output>Procent obniżenia zdrowia:</Output>
+      <Output>Procent Straty Zdrowia:</Output>
     </Texts>
   </Element>
   <Element ID="4643" Key="UI_TARGET_GROUP" Flag="1">
@@ -77566,7 +77916,7 @@
     </Groups>
     <Texts>
       <Input>Interrupt</Input>
-      <Output>Przerwij</Output>
+      <Output>Przerwanie</Output>
     </Texts>
   </Element>
   <Element ID="4652" Key="UI_GENERIC" Flag="1">
@@ -77592,7 +77942,7 @@
     </Groups>
     <Texts>
       <Input>Group Generic</Input>
-      <Output>Generic grupy</Output>
+      <Output>Generyczny dla Grupy</Output>
     </Texts>
   </Element>
   <Element ID="4654" Key="UI_EXPEDITION" Flag="1">
@@ -81581,7 +81931,12 @@
       <Output>MuHa Photon Cloud</Output>
     </Texts>
   </Element>
-  <Element ID="4902" Key="UI_SELF_HOSTED_SERVER" Flag="0">
+  <Element ID="4902" Key="UI_SELF_HOSTED_SERVER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 10:49:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELF</Group>
@@ -81590,7 +81945,7 @@
     </Groups>
     <Texts>
       <Input>Self Hosted Server</Input>
-      <Output>Serwer hostowany samodzielnie</Output>
+      <Output>Własny Serwer</Output>
     </Texts>
   </Element>
   <Element ID="4903" Key="UI_CHANGE_PROFILE" Flag="1">
@@ -89363,7 +89718,12 @@
       <Output>Jeśli inna umiejętność zada ci obrażenia od trucizny, które cię nie zabiją, regenerujesz zdrowie równe otrzymanym obrażeniom.</Output>
     </Texts>
   </Element>
-  <Element ID="5404" Key="DES_RITUAL_CREATE_BOG_BIES" Flag="0">
+  <Element ID="5404" Key="DES_RITUAL_CREATE_BOG_BIES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:20:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89373,10 +89733,15 @@
     </Groups>
     <Texts>
       <Input>Create Bog Bies</Input>
-      <Output>Utwórz Bog Bies</Output>
+      <Output>Stworzenie Bagiennego Biesa</Output>
     </Texts>
   </Element>
-  <Element ID="5405" Key="DES_RITUAL_CREATE_BOG_BIES_DES" Flag="0">
+  <Element ID="5405" Key="DES_RITUAL_CREATE_BOG_BIES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:24:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89386,10 +89751,15 @@
     </Groups>
     <Texts>
       <Input>Create character Bog Bies that will fight and work for you. It will perish after 5 turns.</Input>
-      <Output>Stwórz postać Bog Bies, która będzie walczyć i pracować dla ciebie. Zginie po 5 turach.</Output>
+      <Output>Tworzy postać bagiennego biesa gotowego na twoje zadania. Zniknie po 5 turach.</Output>
     </Texts>
   </Element>
-  <Element ID="5406" Key="DES_RITUAL_CREATE_ALKONOST" Flag="0">
+  <Element ID="5406" Key="DES_RITUAL_CREATE_ALKONOST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:20:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89398,10 +89768,15 @@
     </Groups>
     <Texts>
       <Input>Create Alkonost</Input>
-      <Output>Utwórz Alkonost</Output>
+      <Output>Stworzenie Alkonosta</Output>
     </Texts>
   </Element>
-  <Element ID="5407" Key="DES_RITUAL_CREATE_ALKONOST_DES" Flag="0">
+  <Element ID="5407" Key="DES_RITUAL_CREATE_ALKONOST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:24:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89410,10 +89785,15 @@
     </Groups>
     <Texts>
       <Input>Create character Alkonost that will fight and work for you. It will perish after 5 turns.</Input>
-      <Output>Stwórz postać Alkonost, która będzie walczyć i pracować dla ciebie. Zginie po 5 turach.</Output>
+      <Output>Tworzy postać alkonosta gotowego na twoje zadania. Zniknie po 5 turach.</Output>
     </Texts>
   </Element>
-  <Element ID="5408" Key="DES_RITUAL_CREATE_TROLL_ROCK" Flag="0">
+  <Element ID="5408" Key="DES_RITUAL_CREATE_TROLL_ROCK" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:21:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89423,10 +89803,15 @@
     </Groups>
     <Texts>
       <Input>Create Troll Rock</Input>
-      <Output>Utwórz Troll Rock</Output>
+      <Output>Stworzenie Kamiennego Trolla</Output>
     </Texts>
   </Element>
-  <Element ID="5409" Key="DES_RITUAL_CREATE_TROLL_ROCK_DES" Flag="0">
+  <Element ID="5409" Key="DES_RITUAL_CREATE_TROLL_ROCK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:24:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89436,10 +89821,15 @@
     </Groups>
     <Texts>
       <Input>Create character Troll Rock that will fight and work for you. It will perish after 3 turns.</Input>
-      <Output>Stwórz postać Troll Rock, która będzie walczyć i pracować dla ciebie. Zginie po 3 turach.</Output>
+      <Output>Tworzy postać kamiennego trolla gotowego na twoje zadania. Zniknie po 3 turach.</Output>
     </Texts>
   </Element>
-  <Element ID="5410" Key="DES_RITUAL_CATCH_DOMESTIC_PET" Flag="0">
+  <Element ID="5410" Key="DES_RITUAL_CATCH_DOMESTIC_PET" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:21:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89449,10 +89839,15 @@
     </Groups>
     <Texts>
       <Input>Catch Pet</Input>
-      <Output>Złap zwierzaka</Output>
+      <Output>Złapanie Chowańca</Output>
     </Texts>
   </Element>
-  <Element ID="5411" Key="DES_RITUAL_CATCH_DOMESTIC_PET_DES" Flag="0">
+  <Element ID="5411" Key="DES_RITUAL_CATCH_DOMESTIC_PET_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:21:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89462,7 +89857,7 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants a random, low level domestic pet.</Input>
-      <Output>Po ukończeniu udziela losowego, niskiego poziomu domowego zwierzaka.</Output>
+      <Output>Po ukończeniu przydziela losowego, nisko poziomowego chowańca.</Output>
     </Texts>
   </Element>
   <Element ID="5412" Key="DES_RITUAL_SUMMON_BOAT" Flag="1">
@@ -89482,7 +89877,12 @@
       <Output>Przywołanie Łodzi</Output>
     </Texts>
   </Element>
-  <Element ID="5413" Key="DES_RITUAL_SUMMON_BOAT_DES" Flag="0">
+  <Element ID="5413" Key="DES_RITUAL_SUMMON_BOAT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:37:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89491,10 +89891,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, a basic raft appears in the group's inventory.</Input>
-      <Output>Po zakończeniu, podstawowa tratwa pojawia się w ekwipunku grupy.</Output>
+      <Output>Po ukończeniu w ekwipunku grupy pojawia się tratwa.</Output>
     </Texts>
   </Element>
-  <Element ID="5414" Key="DES_RITUAL_EARTH_VISION" Flag="0">
+  <Element ID="5414" Key="DES_RITUAL_EARTH_VISION" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:37:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89503,10 +89908,15 @@
     </Groups>
     <Texts>
       <Input>Earth Vision</Input>
-      <Output>Wizja ziemi</Output>
+      <Output>Wizja Ziemi</Output>
     </Texts>
   </Element>
-  <Element ID="5415" Key="DES_RITUAL_EARTH_VISION_DES" Flag="0">
+  <Element ID="5415" Key="DES_RITUAL_EARTH_VISION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:38:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89515,10 +89925,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants +2 sight range for 3 turns.</Input>
-      <Output>Po zakończeniu, daje +2 zasięg widzenia na 3 tury.</Output>
+      <Output>Po ukończeniu grupa dostaje bonus +2 do zasięg widzenia na 3 tury.</Output>
     </Texts>
   </Element>
-  <Element ID="5416" Key="DES_RITUAL_PHYSICAL_BLESS" Flag="0">
+  <Element ID="5416" Key="DES_RITUAL_PHYSICAL_BLESS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:48:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89527,10 +89942,15 @@
     </Groups>
     <Texts>
       <Input>Physical Blessing</Input>
-      <Output>Błogosławieństwo fizyczne</Output>
+      <Output>Fizyczne Błogosławieństwo</Output>
     </Texts>
   </Element>
-  <Element ID="5417" Key="DES_RITUAL_PHYSICAL_BLESS_DES" Flag="0">
+  <Element ID="5417" Key="DES_RITUAL_PHYSICAL_BLESS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:48:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89539,10 +89959,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants a low level physical blessing for all group members which lasts 2 turns.</Input>
-      <Output>Po ukończeniu udziela fizycznego błogosławieństwa na niskim poziomie wszystkim członkom grupy, który trwa 2 tury.</Output>
+      <Output>Po ukończeniu każdy członek grupy dostaje trwające 2 tury fizyczne błogosławieństwo na niskim poziomie.</Output>
     </Texts>
   </Element>
-  <Element ID="5418" Key="DES_RITUAL_MENTAL_BLESS" Flag="0">
+  <Element ID="5418" Key="DES_RITUAL_MENTAL_BLESS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:48:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89551,10 +89976,15 @@
     </Groups>
     <Texts>
       <Input>Mental Blessing</Input>
-      <Output>Błogosławieństwo mentalne</Output>
+      <Output>Mentalne Błogosławieństwo</Output>
     </Texts>
   </Element>
-  <Element ID="5419" Key="DES_RITUAL_MENTAL_BLESS_DES" Flag="0">
+  <Element ID="5419" Key="DES_RITUAL_MENTAL_BLESS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:48:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89563,10 +89993,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants a low level mental blessing for all group members which lasts 2 turns.</Input>
-      <Output>Po zakończeniu przyznaje niski poziom mentalnego błogosławieństwa dla wszystkich członków grupy, który trwa 2 tury.</Output>
+      <Output>Po ukończeniu każdy członek grupy dostaje trwające 2 tury mentalne błogosławieństwo na niskim poziomie.</Output>
     </Texts>
   </Element>
-  <Element ID="5420" Key="DES_RITUAL_SPIRITUAL_BLESS" Flag="0">
+  <Element ID="5420" Key="DES_RITUAL_SPIRITUAL_BLESS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:48:41</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89575,10 +90010,15 @@
     </Groups>
     <Texts>
       <Input>Spiritual Blessing</Input>
-      <Output>Duchowe błogosławieństwo</Output>
+      <Output>Duchowe Błogosławieństwo</Output>
     </Texts>
   </Element>
-  <Element ID="5421" Key="DES_RITUAL_SPIRITUAL_BLESS_DES" Flag="0">
+  <Element ID="5421" Key="DES_RITUAL_SPIRITUAL_BLESS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:48:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89587,7 +90027,7 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants a low level spiritual blessing for all group members which lasts 2 turns.</Input>
-      <Output>Po zakończeniu udziela duchowego błogosławieństwa na niskim poziomie wszystkim członkom grupy, które trwają 2 tury.</Output>
+      <Output>Po ukończeniu każdy członek grupy dostaje trwające 2 tury duchowe błogosławieństwo na niskim poziomie.</Output>
     </Texts>
   </Element>
   <Element ID="5422" Key="DES_RITUAL_HIGHER_EDUCATION" Flag="1">
@@ -89604,10 +90044,15 @@
     </Groups>
     <Texts>
       <Input>Higher Education</Input>
-      <Output>Szkolnictwo wyższe</Output>
+      <Output>Szkolnictwo Wyższe</Output>
     </Texts>
   </Element>
-  <Element ID="5423" Key="DES_RITUAL_HIGHER_EDUCATION_DES" Flag="0">
+  <Element ID="5423" Key="DES_RITUAL_HIGHER_EDUCATION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:52:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89616,10 +90061,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants 3 Experience Points equally divided among members of the group.</Input>
-      <Output>Po zakończeniu przyznaje 3 punkty doświadczenia równo podzielone między członków grupy.</Output>
+      <Output>Po ukończeniu przyznaje grupie 3 punkty doświadczenia równo podzielone między wszystkich jej członków.</Output>
     </Texts>
   </Element>
-  <Element ID="5424" Key="DES_RITUAL_FIRE_GIFT" Flag="0">
+  <Element ID="5424" Key="DES_RITUAL_FIRE_GIFT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:52:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89628,10 +90078,15 @@
     </Groups>
     <Texts>
       <Input>Gift of Fire</Input>
-      <Output>Dar ognia</Output>
+      <Output>Dar Ognia</Output>
     </Texts>
   </Element>
-  <Element ID="5425" Key="DES_RITUAL_FIRE_GIFT_DES" Flag="0">
+  <Element ID="5425" Key="DES_RITUAL_FIRE_GIFT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:54:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89640,7 +90095,7 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants +2.5 Crafting but -1 Gathering to all members of the group for 5 turns.</Input>
-      <Output>Po zakończeniu przyznaje +2,5 Craftingu, ale -1 Zbiera wszystkich członków grupy przez 5 tur.</Output>
+      <Output>Po ukończeniu przyznaje wszystkim członkom grupy na 5 tur bonus +2,5 rzemiosła, ale dodaje też karę -1 zbieractwa.</Output>
     </Texts>
   </Element>
   <Element ID="5426" Key="DES_RITUAL_SHOULDERS_POWER" Flag="1">
@@ -89657,10 +90112,15 @@
     </Groups>
     <Texts>
       <Input>Strong Shoulders</Input>
-      <Output>Silne ramiona</Output>
+      <Output>Silne Ramiona</Output>
     </Texts>
   </Element>
-  <Element ID="5427" Key="DES_RITUAL_SHOULDERS_POWER_DES" Flag="0">
+  <Element ID="5427" Key="DES_RITUAL_SHOULDERS_POWER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:59:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89669,10 +90129,15 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants +1.5 Gathering to all members of the group and +10% Group Carry for 5 turns.</Input>
-      <Output>Po ukończeniu przyznaje +1,5 Gromadzenie wszystkim członkom grupy i + 10% Przenoszenie grupy na 5 tur.</Output>
+      <Output>Po ukończeniu przyznaje wszystkim członkom grupy na 5 tur bonus +1,5 zbieractwa i +10% udźwigu grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="5428" Key="DES_RITUAL_KNOWLEDGE_ARMOR" Flag="0">
+  <Element ID="5428" Key="DES_RITUAL_KNOWLEDGE_ARMOR" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 13:00:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89681,10 +90146,15 @@
     </Groups>
     <Texts>
       <Input>Armour of Knowledge</Input>
-      <Output>Zbroja wiedzy</Output>
+      <Output>Zbroja Wiedzy</Output>
     </Texts>
   </Element>
-  <Element ID="5429" Key="DES_RITUAL_KNOWLEDGE_ARMOR_DES" Flag="0">
+  <Element ID="5429" Key="DES_RITUAL_KNOWLEDGE_ARMOR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 13:00:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89693,7 +90163,7 @@
     </Groups>
     <Texts>
       <Input>Upon completion, grants +4 Physical Shielding to all members of the group. Lasts 5 turns.</Input>
-      <Output>Po ukończeniu udziela +4 Fizycznego Ekranowania wszystkim członkom grupy. Trwa 5 tur.</Output>
+      <Output>Po ukończeniu przyznaje wszystkim członkom grupy na 5 tur bonus +4 fizycznej osłony.</Output>
     </Texts>
   </Element>
   <Element ID="5430" Key="DES_RITUAL_CELEBRATION" Flag="1">
@@ -89712,7 +90182,12 @@
       <Output>Świętowanie</Output>
     </Texts>
   </Element>
-  <Element ID="5431" Key="DES_RITUAL_CELEBRATION_DES" Flag="0">
+  <Element ID="5431" Key="DES_RITUAL_CELEBRATION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 13:01:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89720,7 +90195,7 @@
     </Groups>
     <Texts>
       <Input>Upon completion, raises morale of all members of the group to 40.</Input>
-      <Output>Po zakończeniu wzrasta morale wszystkich członków grupy do 40.</Output>
+      <Output>Po ukończeniu morale wszystkich członków grupy wzrasta do 40.</Output>
     </Texts>
   </Element>
   <Element ID="5432" Key="DES_RITUAL_MOON_BRIDGE" Flag="1">
@@ -89771,10 +90246,15 @@
     </Groups>
     <Texts>
       <Input>Mystical Knowledge</Input>
-      <Output>Wiedza mistyczna</Output>
+      <Output>Wiedza Mistyczna</Output>
     </Texts>
   </Element>
-  <Element ID="5435" Key="DES_RITUAL_MYSTICAL_KNOWLEDGE_DES" Flag="0">
+  <Element ID="5435" Key="DES_RITUAL_MYSTICAL_KNOWLEDGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 13:03:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89786,7 +90266,12 @@
       <Output>[PLACECHOLDER] Każda postać otrzymuje losowy znacznik, taki jak TAG-WARRIOR, TAG-CRAFTSMAN, TAG-GATHERER, TAG-HUNTER, TAG-HEALER, TAG-MAGIC_USER.</Output>
     </Texts>
   </Element>
-  <Element ID="5436" Key="DES_RITUAL_DEMONIC_SPLINTER" Flag="0">
+  <Element ID="5436" Key="DES_RITUAL_DEMONIC_SPLINTER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 13:03:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89795,10 +90280,15 @@
     </Groups>
     <Texts>
       <Input>Demonic Splinter</Input>
-      <Output>Demoniczny odłamek</Output>
+      <Output>Demoniczny Odłamek</Output>
     </Texts>
   </Element>
-  <Element ID="5437" Key="DES_RITUAL_DEMONIC_SPLINTER_DES" Flag="0">
+  <Element ID="5437" Key="DES_RITUAL_DEMONIC_SPLINTER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 14:18:06</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89807,10 +90297,15 @@
     </Groups>
     <Texts>
       <Input>[PLACECHOLDER] Take 10% of each demon life (P M S) and lower demon faction loyalty for 30.</Input>
-      <Output>[PLACECHOLDER] Weź 10% każdego życia demona (PMS) i niższej lojalności frakcji demonów przez 30.</Output>
+      <Output>[PLACECHOLDER] Weź 10% każdego życia demona (F M D) i obniż lojalności frakcji demonów do 30.</Output>
     </Texts>
   </Element>
-  <Element ID="5438" Key="DES_RITUAL_MAGIC_POWDER" Flag="0">
+  <Element ID="5438" Key="DES_RITUAL_MAGIC_POWDER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 14:18:08</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89819,10 +90314,15 @@
     </Groups>
     <Texts>
       <Input>Magic Powder</Input>
-      <Output>Magiczny proszek</Output>
+      <Output>Magiczny Proszek</Output>
     </Texts>
   </Element>
-  <Element ID="5439" Key="DES_RITUAL_MAGIC_POWDER_DES" Flag="0">
+  <Element ID="5439" Key="DES_RITUAL_MAGIC_POWDER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 14:18:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89834,7 +90334,12 @@
       <Output>[PLACECHOLDER] Natychmiastowe pHeal każdego gracza na świecie.</Output>
     </Texts>
   </Element>
-  <Element ID="5440" Key="DES_RITUAL_CABBAGE_FIELD" Flag="0">
+  <Element ID="5440" Key="DES_RITUAL_CABBAGE_FIELD" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 14:18:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -89843,10 +90348,15 @@
     </Groups>
     <Texts>
       <Input>Grow the Cabbage</Input>
-      <Output>Uprawa kapusty</Output>
+      <Output>Uprawa Kapusty</Output>
     </Texts>
   </Element>
-  <Element ID="5441" Key="DES_RITUAL_CABBAGE_FIELD_DES" Flag="0">
+  <Element ID="5441" Key="DES_RITUAL_CABBAGE_FIELD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 14:18:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_RITUAL</Group>
@@ -90839,7 +91349,12 @@
       <Output>Ten mały gość został wyrzeźbiony z okazji Wigilii Wszystkich Świętych, ale dzięki sztuczkom demonów lub innej czarnej magii został obudzony. Wydaje się, że bardzo cię lubię i podąża za tobą, dokądkolwiek się udajesz - pomimo braku nóg.</Output>
     </Texts>
   </Element>
-  <Element ID="5501" Key="DES_SKILL_BEE_STING" Flag="0">
+  <Element ID="5501" Key="DES_SKILL_BEE_STING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:19:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -90848,10 +91363,15 @@
     </Groups>
     <Texts>
       <Input>Bee Sting</Input>
-      <Output>Żądło pszczoły</Output>
+      <Output>Żądło Pszczoły</Output>
     </Texts>
   </Element>
-  <Element ID="5502" Key="DES_SKILL_BEE_STING_DES" Flag="0">
+  <Element ID="5502" Key="DES_SKILL_BEE_STING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:19:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -90860,7 +91380,7 @@
     </Groups>
     <Texts>
       <Input>Sharp and deadly, this sting can easily bypass any armour.</Input>
-      <Output>Ostry i zabójczy, żądło może z łatwością ominąć każdą zbroję.</Output>
+      <Output>Ostry i zabójcze, żądło może z łatwością ominąć każdą zbroję.</Output>
     </Texts>
   </Element>
   <Element ID="5503" Key="DES_SKILL_FEINT" Flag="0">
@@ -91059,7 +91579,12 @@
       <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie.{END_COLOR}\nPrzywołuje dynię na wybrane miejsca po twojej stronie pola bitwy.</Output>
     </Texts>
   </Element>
-  <Element ID="5517" Key="DES_SUBSKILL_BEE_STING" Flag="0">
+  <Element ID="5517" Key="DES_SUBSKILL_BEE_STING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:18:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91068,7 +91593,7 @@
     </Groups>
     <Texts>
       <Input>Bee Sting</Input>
-      <Output>Żądło pszczoły</Output>
+      <Output>Żądło Pszczoły</Output>
     </Texts>
   </Element>
   <Element ID="5518" Key="DES_SUBSKILL_BEE_STING_DES" Flag="1">
@@ -91160,7 +91685,12 @@
       <Output>Każdy atakujący, który trafi tą postać normalnym atakiem, otrzymuje obrażenia na podstawie przeznaczenia postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="5523" Key="DES_SUBSKILL_GROUP_MEDICINE_DES" Flag="0">
+  <Element ID="5523" Key="DES_SUBSKILL_GROUP_MEDICINE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:19:10</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91169,7 +91699,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Healing attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Leczenie z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku bonus do leczenia.</Output>
     </Texts>
   </Element>
   <Element ID="5524" Key="DES_TOOLTIP_ISLANDS" Flag="1">
@@ -91866,7 +92396,12 @@
       <Output>Paskudne pomarańczowe warzywa, bezmyślnie wędrujące po ziemiach. Bardzo lubią słodycze i wiadomo, że stają się agresywne, jeśli ich nie dostaną.</Output>
     </Texts>
   </Element>
-  <Element ID="5566" Key="DES_SKILL_NIGHT_POWER" Flag="0">
+  <Element ID="5566" Key="DES_SKILL_NIGHT_POWER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:17:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -91875,10 +92410,15 @@
     </Groups>
     <Texts>
       <Input>Night Power</Input>
-      <Output>Nocna moc</Output>
+      <Output>Nocna Moc</Output>
     </Texts>
   </Element>
-  <Element ID="5567" Key="DES_SKILL_NIGHT_POWER_DES" Flag="0">
+  <Element ID="5567" Key="DES_SKILL_NIGHT_POWER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:17:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -91887,10 +92427,15 @@
     </Groups>
     <Texts>
       <Input>The character is blessed with the power of the night demons. During nights, they become more powerful.</Input>
-      <Output>Postać jest obdarzona mocą nocnych demonów. W nocy stają się silniejsze.</Output>
+      <Output>Postać jest obdarzona mocą nocnych demonów. W nocy staje się silniejsza.</Output>
     </Texts>
   </Element>
-  <Element ID="5568" Key="DES_SKILL_ANIMATED_WOOD" Flag="0">
+  <Element ID="5568" Key="DES_SKILL_ANIMATED_WOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:17:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -91899,10 +92444,15 @@
     </Groups>
     <Texts>
       <Input>Animated Wood</Input>
-      <Output>Animowane drewno</Output>
+      <Output>Animowane Drewno</Output>
     </Texts>
   </Element>
-  <Element ID="5569" Key="DES_SKILL_ANIMATED_WOOD_DES" Flag="0">
+  <Element ID="5569" Key="DES_SKILL_ANIMATED_WOOD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:17:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -91911,10 +92461,15 @@
     </Groups>
     <Texts>
       <Input>Magic forces give this wooden object special abilities. It now has properties of both wood and the avatar enchanted within.</Input>
-      <Output>Siły magiczne nadają temu drewnianemu obiektowi specjalne zdolności. Ma teraz właściwości zarówno drewna, jak i zaklętego awatara.</Output>
+      <Output>Siły magiczne nadają temu drewnianemu obiektowi specjalne zdolności. Ma teraz właściwości zarówno drewna, jak i zaklętego w nie ducha.</Output>
     </Texts>
   </Element>
-  <Element ID="5570" Key="DES_SKILL_FOREFATHER_ANGER" Flag="0">
+  <Element ID="5570" Key="DES_SKILL_FOREFATHER_ANGER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:18:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -91923,10 +92478,15 @@
     </Groups>
     <Texts>
       <Input>Forefathers' Anger</Input>
-      <Output>Gniew przodków</Output>
+      <Output>Gniew Przodków</Output>
     </Texts>
   </Element>
-  <Element ID="5571" Key="DES_SKILL_FOREFATHER_ANGER_DES" Flag="0">
+  <Element ID="5571" Key="DES_SKILL_FOREFATHER_ANGER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-29 12:18:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
