@@ -9175,7 +9175,7 @@
     </Groups>
     <Texts>
       <Input>Trash Quality</Input>
-      <Output>Śmieciowa Jakość</Output>
+      <Output>Marna Jakość</Output>
     </Texts>
   </Element>
   <Element ID="510" Key="DES_TAG_TRASH_QUALITY_DES" Flag="1">
@@ -9192,7 +9192,7 @@
     </Groups>
     <Texts>
       <Input>Trash Quality Description</Input>
-      <Output>Opis śmieciowej jakości</Output>
+      <Output>Opis marnej jakości</Output>
     </Texts>
   </Element>
   <Element ID="511" Key="DES_TAG_FUEL" Flag="1">
@@ -63627,7 +63627,12 @@
       <Output>Typ Surowca - Ulepszony</Output>
     </Texts>
   </Element>
-  <Element ID="3762" Key="DES_TOOLTIP_RES_IMPROVED_DES" Flag="0">
+  <Element ID="3762" Key="DES_TOOLTIP_RES_IMPROVED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 10:00:52</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63636,7 +63641,7 @@
     </Groups>
     <Texts>
       <Input>Items made from this kind of resource require more work, but are a bit lighter, faster and of slightly higher value.\nCrafting from Improved resources carries a small risk of failure and the item being Trash Quality.</Input>
-      <Output>Przedmioty wykonane z tego rodzaju zasobów wymagają więcej pracy, ale są nieco lżejsze, szybsze i mają nieco wyższą wartość. \nWytwarzanie z ulepszonych zasobów niesie ze sobą niewielkie ryzyko niepowodzenia, a przedmiotem jest jakość kosza.</Output>
+      <Output>Przedmioty wykonane z tego rodzaju zasobów wymagają więcej pracy, ale są nieco lżejsze, szybsze i mają trochę wyższą wartość. \nWytwarzanie z ulepszonych zasobów niesie ze sobą niewielkie ryzyko niepowodzenia i wykonania przedmiotu marnej jakości.</Output>
     </Texts>
   </Element>
   <Element ID="3763" Key="DES_TOOLTIP_RES_WILD" Flag="1">
@@ -63656,7 +63661,12 @@
       <Output>Typ Surowca - Dziki</Output>
     </Texts>
   </Element>
-  <Element ID="3764" Key="DES_TOOLTIP_RES_WILD_DES" Flag="0">
+  <Element ID="3764" Key="DES_TOOLTIP_RES_WILD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 10:07:10</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63665,10 +63675,15 @@
     </Groups>
     <Texts>
       <Input>Items made from this kind of resource require much more work, have a significantly better value and increased essence amounts.\nThe risk of failing a craft using Wild resources is significant so make sure your Craftsmen are experienced or you might end up with a Trash Quality item.</Input>
-      <Output>Przedmioty wykonane z tego rodzaju zasobów wymagają znacznie więcej pracy, mają znacznie lepszą wartość i zwiększoną ilość esencji. \nRyzyko zawalenia jednostki przy użyciu dzikich zasobów jest znaczące, więc upewnij się, że Twoi Rzemieślnicy są doświadczeni lub możesz skończyć z przedmiotem Trash Quality.</Output>
+      <Output>Przedmioty wykonane z tego rodzaju zasobów wymagają znacznie więcej pracy, ale mają znacznie lepszą wartość i zwiększoną ilość esencji. \nRyzyko niepowodzenia jest znaczące, więc upewnij się, że rzemieślnicy są doświadczeni, bo inaczej możesz skończyć z przedmiotem marnej jakości.</Output>
     </Texts>
   </Element>
-  <Element ID="3765" Key="DES_TOOLTIP_MASTERCRAFT_QUALITY_CHANCE" Flag="0">
+  <Element ID="3765" Key="DES_TOOLTIP_MASTERCRAFT_QUALITY_CHANCE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 10:17:52</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63678,7 +63693,7 @@
     </Groups>
     <Texts>
       <Input>Masterwork Quality Chance</Input>
-      <Output>Szansa na jakość Masterwork</Output>
+      <Output>Szansa na Mistrzowską Jakość</Output>
     </Texts>
   </Element>
   <Element ID="3766" Key="DES_TOOLTIP_MASTERCRAFT_QUALITY_CHANCE_DES" Flag="0">
@@ -63694,7 +63709,12 @@
       <Output>Pokazuje szansę, że przedmiot będzie miał jakość Masterwork. Bardziej wykwalifikowani rzemieślnicy są bardziej skłonni do produkcji przedmiotów wysokiej jakości. Takie przedmioty zwiększyły premię Essence.</Output>
     </Texts>
   </Element>
-  <Element ID="3767" Key="DES_TOOLTIP_TRASH_QUALITY_CHANCE" Flag="0">
+  <Element ID="3767" Key="DES_TOOLTIP_TRASH_QUALITY_CHANCE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 09:35:34</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63704,10 +63724,15 @@
     </Groups>
     <Texts>
       <Input>Trash Quality Chance</Input>
-      <Output>Szansa na jakość śmieci</Output>
+      <Output>Ryzyko Marnej Jakości</Output>
     </Texts>
   </Element>
-  <Element ID="3768" Key="DES_TOOLTIP_TRASH_QUALITY_CHANCE_DES" Flag="0">
+  <Element ID="3768" Key="DES_TOOLTIP_TRASH_QUALITY_CHANCE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 09:36:59</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63717,7 +63742,7 @@
     </Groups>
     <Texts>
       <Input>Shows a chance the item will be of Trash quality. More skilled Craftsmen are less likely to produce a Trash Quality item. Such items lose the properties from Improved or Wild resources and have reduced Essence.</Input>
-      <Output>Pokazuje szansę, że przedmiot będzie miał jakość Trash. Bardziej wykwalifikowani rzemieślnicy rzadziej wytwarzają przedmiot o jakości śmieci. Takie przedmioty tracą właściwości z zasobów Ulepszone lub Dzikie i mają zredukowaną Esencję.</Output>
+      <Output>Pokazuje ryzyko, że przedmiot będzie marnej jakości. Bardziej wykwalifikowani rzemieślnicy rzadziej wytwarzają kiepskie przedmiot. Takie przedmioty tracą właściwości z zasobów ulepszonych lub dzikich i mają zredukowaną esencję.</Output>
     </Texts>
   </Element>
   <Element ID="3769" Key="DES_TOOLTIP_GROUP_POINTS" Flag="0">
@@ -63823,7 +63848,12 @@
       <Output>Mistrzowska Jakość</Output>
     </Texts>
   </Element>
-  <Element ID="3776" Key="DES_TOOLTIP_MASTERCRAFT_QUALITY_DES" Flag="0">
+  <Element ID="3776" Key="DES_TOOLTIP_MASTERCRAFT_QUALITY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 09:29:29</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63832,10 +63862,15 @@
     </Groups>
     <Texts>
       <Input>This item is of Masterwork quality and has better attributes than a regular item of this type.</Input>
-      <Output>Ten przedmiot ma jakość Masterwork i ma lepsze atrybuty niż zwykły przedmiot tego typu.</Output>
+      <Output>Ten przedmiot ma doskonałej jakości i ma lepsze atrybuty niż zwykły przedmiot tego typu.</Output>
     </Texts>
   </Element>
-  <Element ID="3777" Key="DES_TOOLTIP_TRASH_QUALITY" Flag="0">
+  <Element ID="3777" Key="DES_TOOLTIP_TRASH_QUALITY" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 09:34:43</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63844,10 +63879,15 @@
     </Groups>
     <Texts>
       <Input>Trash Quality</Input>
-      <Output>Jakość kosza</Output>
+      <Output>Marna Jakość</Output>
     </Texts>
   </Element>
-  <Element ID="3778" Key="DES_TOOLTIP_TRASH_QUALITY_DES" Flag="0">
+  <Element ID="3778" Key="DES_TOOLTIP_TRASH_QUALITY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 09:34:40</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63856,7 +63896,7 @@
     </Groups>
     <Texts>
       <Input>This item is of Trash quality and has worse attributes than a regular item of this type.</Input>
-      <Output>Ten element ma jakość Kosz i ma gorsze atrybuty niż zwykły przedmiot tego typu.</Output>
+      <Output>Ten element jest bardzo kiepskiej jakości i ma gorsze atrybuty niż zwykły przedmiot tego typu.</Output>
     </Texts>
   </Element>
   <Element ID="3779" Key="DES_TOOLTIP_LOGBOOK" Flag="1">
@@ -64278,7 +64318,12 @@
       <Output>Grupa przeciwników</Output>
     </Texts>
   </Element>
-  <Element ID="3804" Key="DES_GROUP_HUMANS" Flag="0">
+  <Element ID="3804" Key="DES_GROUP_HUMANS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:09:51</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64289,7 +64334,12 @@
       <Output>Ludzie</Output>
     </Texts>
   </Element>
-  <Element ID="3805" Key="DES_GROUP_BANDITS" Flag="0">
+  <Element ID="3805" Key="DES_GROUP_BANDITS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:09:52</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64300,7 +64350,12 @@
       <Output>Bandyci</Output>
     </Texts>
   </Element>
-  <Element ID="3806" Key="DES_GROUP_SCAVENGERS" Flag="0">
+  <Element ID="3806" Key="DES_GROUP_SCAVENGERS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:00</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64308,10 +64363,15 @@
     </Groups>
     <Texts>
       <Input>Scavengers</Input>
-      <Output>Zbieracze</Output>
+      <Output>Śmieciarze</Output>
     </Texts>
   </Element>
-  <Element ID="3807" Key="DES_GROUP_WITCH" Flag="0">
+  <Element ID="3807" Key="DES_GROUP_WITCH" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:07</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64319,10 +64379,15 @@
     </Groups>
     <Texts>
       <Input>Witch</Input>
-      <Output>Czarownica</Output>
+      <Output>Wiedźma</Output>
     </Texts>
   </Element>
-  <Element ID="3808" Key="DES_GROUP_ELVES" Flag="0">
+  <Element ID="3808" Key="DES_GROUP_ELVES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:09</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64349,7 +64414,12 @@
       <Output>Druid</Output>
     </Texts>
   </Element>
-  <Element ID="3810" Key="DES_GROUP_FERALS" Flag="0">
+  <Element ID="3810" Key="DES_GROUP_FERALS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:13</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64360,7 +64430,12 @@
       <Output>Dzicy</Output>
     </Texts>
   </Element>
-  <Element ID="3811" Key="DES_GROUP_ORCS" Flag="0">
+  <Element ID="3811" Key="DES_GROUP_ORCS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:15</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64419,7 +64494,12 @@
       <Output>Krasnoludy</Output>
     </Texts>
   </Element>
-  <Element ID="3815" Key="DES_GROUP_STINGERS" Flag="0">
+  <Element ID="3815" Key="DES_GROUP_STINGERS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:23</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64446,7 +64526,12 @@
       <Output>Pająki</Output>
     </Texts>
   </Element>
-  <Element ID="3817" Key="DES_GROUP_BEES" Flag="0">
+  <Element ID="3817" Key="DES_GROUP_BEES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:26</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64457,7 +64542,12 @@
       <Output>Pszczoły</Output>
     </Texts>
   </Element>
-  <Element ID="3818" Key="DES_GROUP_RATS" Flag="0">
+  <Element ID="3818" Key="DES_GROUP_RATS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:28</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64468,7 +64558,12 @@
       <Output>Szczury</Output>
     </Texts>
   </Element>
-  <Element ID="3819" Key="DES_GROUP_CRADLE_POSSUMS" Flag="0">
+  <Element ID="3819" Key="DES_GROUP_CRADLE_POSSUMS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:19:09</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64477,10 +64572,15 @@
     </Groups>
     <Texts>
       <Input>Cradle Possums</Input>
-      <Output>Kołyska Opos</Output>
+      <Output>Oposy Kolebki</Output>
     </Texts>
   </Element>
-  <Element ID="3820" Key="DES_GROUP_SNAKES" Flag="0">
+  <Element ID="3820" Key="DES_GROUP_SNAKES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:31</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64491,7 +64591,12 @@
       <Output>Węże</Output>
     </Texts>
   </Element>
-  <Element ID="3821" Key="DES_GROUP_WOLVES" Flag="0">
+  <Element ID="3821" Key="DES_GROUP_WOLVES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:33</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64502,7 +64607,12 @@
       <Output>Wilki</Output>
     </Texts>
   </Element>
-  <Element ID="3822" Key="DES_GROUP_BOARS" Flag="0">
+  <Element ID="3822" Key="DES_GROUP_BOARS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:34</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64513,7 +64623,12 @@
       <Output>Dziki</Output>
     </Texts>
   </Element>
-  <Element ID="3823" Key="DES_GROUP_BATS" Flag="0">
+  <Element ID="3823" Key="DES_GROUP_BATS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:36</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64524,7 +64639,12 @@
       <Output>Nietoperze</Output>
     </Texts>
   </Element>
-  <Element ID="3824" Key="DES_GROUP_CROWS" Flag="0">
+  <Element ID="3824" Key="DES_GROUP_CROWS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:44</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64532,10 +64652,15 @@
     </Groups>
     <Texts>
       <Input>Crows</Input>
-      <Output>Wrony</Output>
+      <Output>Kruki</Output>
     </Texts>
   </Element>
-  <Element ID="3825" Key="DES_GROUP_BEARS" Flag="0">
+  <Element ID="3825" Key="DES_GROUP_BEARS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:46</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64546,7 +64671,12 @@
       <Output>Niedźwiedzie</Output>
     </Texts>
   </Element>
-  <Element ID="3826" Key="DES_GROUP_SEA_BEASTS" Flag="0">
+  <Element ID="3826" Key="DES_GROUP_SEA_BEASTS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:10:57</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64555,7 +64685,7 @@
     </Groups>
     <Texts>
       <Input>Sea Beasts</Input>
-      <Output>Bestie morskie</Output>
+      <Output>Morskie Bestie</Output>
     </Texts>
   </Element>
   <Element ID="3827" Key="DES_GROUP_KRAKEN" Flag="1">
@@ -64574,7 +64704,12 @@
       <Output>Kraken</Output>
     </Texts>
   </Element>
-  <Element ID="3828" Key="DES_GROUP_BABA_YAGA" Flag="0">
+  <Element ID="3828" Key="DES_GROUP_BABA_YAGA" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:11:01</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64687,7 +64822,12 @@
       <Output>Świetliste Demony</Output>
     </Texts>
   </Element>
-  <Element ID="3835" Key="DES_GROUP_UNLIVING" Flag="0">
+  <Element ID="3835" Key="DES_GROUP_UNLIVING" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:11:30</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64762,7 +64902,12 @@
       <Output>Trolle</Output>
     </Texts>
   </Element>
-  <Element ID="3840" Key="DES_GROUP_BEASTS_OF_DARKNESS" Flag="0">
+  <Element ID="3840" Key="DES_GROUP_BEASTS_OF_DARKNESS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:18:25</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64772,10 +64917,15 @@
     </Groups>
     <Texts>
       <Input>Beasts of Darkness</Input>
-      <Output>Bestie ciemności</Output>
+      <Output>Bestie Ciemności</Output>
     </Texts>
   </Element>
-  <Element ID="3841" Key="DES_GROUP_GUARDIAN_STATUES" Flag="0">
+  <Element ID="3841" Key="DES_GROUP_GUARDIAN_STATUES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:18:25</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64784,10 +64934,15 @@
     </Groups>
     <Texts>
       <Input>Guardian Statues</Input>
-      <Output>Posągi strażników</Output>
+      <Output>Pomniki Strażników</Output>
     </Texts>
   </Element>
-  <Element ID="3842" Key="DES_GROUP_NECROMANCER" Flag="0">
+  <Element ID="3842" Key="DES_GROUP_NECROMANCER" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:18:26</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64798,7 +64953,12 @@
       <Output>Nekromanta</Output>
     </Texts>
   </Element>
-  <Element ID="3843" Key="DES_GROUP_PHYSICAL_CONCEPT" Flag="0">
+  <Element ID="3843" Key="DES_GROUP_PHYSICAL_CONCEPT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:18:27</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64807,10 +64967,15 @@
     </Groups>
     <Texts>
       <Input>Physical Concept</Input>
-      <Output>Pojęcie fizyczne</Output>
+      <Output>Fizyczny Koncept</Output>
     </Texts>
   </Element>
-  <Element ID="3844" Key="DES_GROUP_MENTAL_CONCEPT" Flag="0">
+  <Element ID="3844" Key="DES_GROUP_MENTAL_CONCEPT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:18:57</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64819,10 +64984,15 @@
     </Groups>
     <Texts>
       <Input>Mental Concept</Input>
-      <Output>Koncepcja mentalna</Output>
+      <Output>Mentalny Koncept</Output>
     </Texts>
   </Element>
-  <Element ID="3845" Key="DES_GROUP_SPIRITUAL_CONCEPT" Flag="0">
+  <Element ID="3845" Key="DES_GROUP_SPIRITUAL_CONCEPT" Flag="1">
+    <Confirmation>
+      <Time>2019-11-28 13:18:57</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_GROUP</Group>
@@ -64831,7 +65001,7 @@
     </Groups>
     <Texts>
       <Input>Spiritual Concept</Input>
-      <Output>Koncepcja duchowa</Output>
+      <Output>Duchowy Koncept</Output>
     </Texts>
   </Element>
   <Element ID="3846" Key="DES_FACTIONS_SLAVYANS" Flag="0">
