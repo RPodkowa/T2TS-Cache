@@ -61692,7 +61692,7 @@
     </Groups>
     <Texts>
       <Input>This recipe only accepts the exact materials shown on the workbench (ie. if it shows Wood, you cannot substitute it with Elven Wood).</Input>
-      <Output>Ten przepis akceptuje tylko dokładne materiały pokazane na stole warsztatowym (tzn. jeśli pokazuje drewno, nie można go zastąpić zamiennikiem np. elfim drewnem).</Output>
+      <Output>Ta receptura akceptuje tylko dokładne materiały pokazane na stole warsztatowym (tzn. jeśli pokazuje drewno, nie można go zastąpić zamiennikiem np. elfim drewnem).</Output>
     </Texts>
   </Element>
   <Element ID="3631" Key="DES_TOOLTIP_CHILD_MATERIALS" Flag="1">
@@ -61726,7 +61726,7 @@
     </Groups>
     <Texts>
       <Input>This recipe will accept the base material and any other material that is its child (ie. if it shows Sandstone, you can also use Clay, Granite, Quartz, Obsidian or any stone composite).</Input>
-      <Output>Ten przepis akceptuje materiał podstawowy i każdy inny materiał z tej samej rodziny (tzn. jeśli pokazuje piaskowiec, możesz również użyć gliny, granitu, kwarcu, obsydianu lub dowolnego innego kamienia).</Output>
+      <Output>Ta receptura akceptuje materiał podstawowy i każdy inny materiał z tej samej rodziny (tzn. jeśli pokazuje piaskowiec, możesz również użyć gliny, granitu, kwarcu, obsydianu lub dowolnego innego kamienia).</Output>
     </Texts>
   </Element>
   <Element ID="3633" Key="DES_TOOLTIP_TOGGLE_RESOURCES" Flag="1">
@@ -61871,7 +61871,12 @@
       <Output>Włącz Konsolę Programisty</Output>
     </Texts>
   </Element>
-  <Element ID="3642" Key="DES_TOOLTIP_DEV_CONSOLE_DES" Flag="0">
+  <Element ID="3642" Key="DES_TOOLTIP_DEV_CONSOLE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:18:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -61880,7 +61885,7 @@
     </Groups>
     <Texts>
       <Input>Allow access to development console in the game by pressing F2. The console can be used to trigger events and scripts on a Single Player game.\n\nNote: some events may require the player's group to be selected or they need to be attached to a roaming group to work.</Input>
-      <Output>Zezwól na dostęp do konsoli programistycznej w grze, naciskając klawisz F2. Konsoli można używać do wywoływania zdarzeń i skryptów w grze dla jednego gracza. \n\nUwaga: niektóre wydarzenia mogą wymagać wyboru grupy gracza lub muszą być dołączone do grupy roamingowej, aby pracować.</Output>
+      <Output>Zezwól na dostęp do konsoli programistycznej w grze, naciskając klawisz F2. Konsoli można używać do wywoływania zdarzeń i skryptów w grze dla jednego gracza. \n\nUwaga: niektóre wydarzenia, aby działać poprawnie mogą wymagać wyboru grupy lub muszą być dołączone do wędrującej grupy.</Output>
     </Texts>
   </Element>
   <Element ID="3643" Key="DES_TOOLTIP_AUTORESOLVE_OUTCOME1" Flag="1">
@@ -62552,7 +62557,12 @@
       <Output>Postęp (R)</Output>
     </Texts>
   </Element>
-  <Element ID="3688" Key="DES_TOOLTIP_OPEN_ADVANCEMENT_DES" Flag="0">
+  <Element ID="3688" Key="DES_TOOLTIP_OPEN_ADVANCEMENT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 14:20:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -62561,7 +62571,7 @@
     </Groups>
     <Texts>
       <Input>Here you can spend your hard earned Advancement Points on unlocking new materials and recipes.</Input>
-      <Output>Tutaj możesz wydać swoje ciężko zarobione Punkty Awansu na odblokowanie nowych materiałów i przepisów.</Output>
+      <Output>Tutaj możesz wydać swoje ciężko zarobione punkty awansu na odblokowanie nowych materiałów i receptur.</Output>
     </Texts>
   </Element>
   <Element ID="3689" Key="DES_TOOLTIP_DB_CURRENT" Flag="0">
@@ -62829,7 +62839,12 @@
       <Output>Te karty pokazują, w jakim typie wyzwania można użyć tej umiejętności: \n\n{ICON:ChallengePhysical}- Wyzwanie fizyczne \n{ICON:ChallengeMental}- Wyzwanie mentalne \n{ICON:ChallengeSpiritual}- Wyzwanie duchowe \n\nNiektóre umiejętności można wykorzystać w więcej niż jeden typ wyzwania.</Output>
     </Texts>
   </Element>
-  <Element ID="3711" Key="DES_TOOLTIP_ONE_HANDED" Flag="0">
+  <Element ID="3711" Key="DES_TOOLTIP_ONE_HANDED" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:20:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -62838,10 +62853,15 @@
     </Groups>
     <Texts>
       <Input>1-Handed Item</Input>
-      <Output>Przedmiot z jedną ręką</Output>
+      <Output>Przedmiot Jednoręczny</Output>
     </Texts>
   </Element>
-  <Element ID="3712" Key="DES_TOOLTIP_ONE_HANDED_DES" Flag="0">
+  <Element ID="3712" Key="DES_TOOLTIP_ONE_HANDED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:21:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -62850,10 +62870,15 @@
     </Groups>
     <Texts>
       <Input>This item occupies the main hand equipment slot.</Input>
-      <Output>Ten przedmiot zajmuje miejsce w głównym wyposażeniu dłoni.</Output>
+      <Output>Ten przedmiot zajmuje główne miejsce w wyposażeniu dłoni.</Output>
     </Texts>
   </Element>
-  <Element ID="3713" Key="DES_TOOLTIP_TWO_HANDED" Flag="0">
+  <Element ID="3713" Key="DES_TOOLTIP_TWO_HANDED" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:20:12</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -62862,10 +62887,15 @@
     </Groups>
     <Texts>
       <Input>2-Handed Item</Input>
-      <Output>Przedmiot dwuręczny</Output>
+      <Output>Przedmiot Dwuręczny</Output>
     </Texts>
   </Element>
-  <Element ID="3714" Key="DES_TOOLTIP_TWO_HANDED_DES" Flag="0">
+  <Element ID="3714" Key="DES_TOOLTIP_TWO_HANDED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:20:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63876,10 +63906,15 @@
     </Groups>
     <Texts>
       <Input>Show Possible</Input>
-      <Output>Pokaż możliwe</Output>
+      <Output>Pokaż Możliwe</Output>
     </Texts>
   </Element>
-  <Element ID="3782" Key="DES_TOOLTIP_FAV_SHOW_POSSIBLE_DES" Flag="0">
+  <Element ID="3782" Key="DES_TOOLTIP_FAV_SHOW_POSSIBLE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:48:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63889,10 +63924,15 @@
     </Groups>
     <Texts>
       <Input>Toggle between all recipes and only those which you have enough materials for.</Input>
-      <Output>Przełącz pomiędzy wszystkimi przepisami i tylko tymi, dla których masz wystarczającą ilość materiałów.</Output>
+      <Output>Przełącz pomiędzy wszystkimi recepturami i tylko tymi, dla których masz wystarczającą ilość materiałów.</Output>
     </Texts>
   </Element>
-  <Element ID="3783" Key="DES_TOOLTIP_TRAIT_COST" Flag="0">
+  <Element ID="3783" Key="DES_TOOLTIP_TRAIT_COST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:44:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63901,10 +63941,15 @@
     </Groups>
     <Texts>
       <Input>Trait Cost</Input>
-      <Output>Koszt cechy</Output>
+      <Output>Koszt Cechy</Output>
     </Texts>
   </Element>
-  <Element ID="3784" Key="DES_TOOLTIP_TRAIT_COST_DES" Flag="0">
+  <Element ID="3784" Key="DES_TOOLTIP_TRAIT_COST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:44:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63913,10 +63958,15 @@
     </Groups>
     <Texts>
       <Input>This card has a trait cost. The total cost of all traits must be equal or lower than the maximum.</Input>
-      <Output>Ta karta ma koszt cechy. Całkowity koszt wszystkich cech musi być równy lub niższy od maksimum.</Output>
+      <Output>Cecha z tej karty ma swój koszt. Całkowity koszt wszystkich cech musi być równy lub niższy od maksimum.</Output>
     </Texts>
   </Element>
-  <Element ID="3785" Key="DES_TOOLTIP_SHOW_EQUIPPED" Flag="0">
+  <Element ID="3785" Key="DES_TOOLTIP_SHOW_EQUIPPED" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:46:00</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63925,10 +63975,15 @@
     </Groups>
     <Texts>
       <Input>Toggle Show Equipped</Input>
-      <Output>Przełącz Pokaż wyposażone</Output>
+      <Output>Przełącz Widok Wyposażonych</Output>
     </Texts>
   </Element>
-  <Element ID="3786" Key="DES_TOOLTIP_SHOW_EQUIPPED_DES" Flag="0">
+  <Element ID="3786" Key="DES_TOOLTIP_SHOW_EQUIPPED_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:45:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63937,10 +63992,15 @@
     </Groups>
     <Texts>
       <Input>Show/Hide any items equipped by your characters.</Input>
-      <Output>Pokaż / Ukryj wszystkie przedmioty wyposażone przez twoje postacie.</Output>
+      <Output>Pokaż/ukryj przedmioty, w które są wyposażone twoje postacie.</Output>
     </Texts>
   </Element>
-  <Element ID="3787" Key="DES_TOOLTIP_RECYCLE" Flag="0">
+  <Element ID="3787" Key="DES_TOOLTIP_RECYCLE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:46:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63948,10 +64008,15 @@
     </Groups>
     <Texts>
       <Input>Toggle Recycle Mode</Input>
-      <Output>Przełącz tryb recyklingu</Output>
+      <Output>Przełącz Tryb Recyklingu</Output>
     </Texts>
   </Element>
-  <Element ID="3788" Key="DES_TOOLTIP_RECYCLE_DES" Flag="0">
+  <Element ID="3788" Key="DES_TOOLTIP_RECYCLE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:46:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63962,7 +64027,12 @@
       <Output>Gdy ten tryb jest włączony, kliknij przedmiot, aby go zniszczyć i odzyskaj część materiałów, z których został wykonany.</Output>
     </Texts>
   </Element>
-  <Element ID="3789" Key="DES_TOOLTIP_SHOW_PAPERDOLL" Flag="0">
+  <Element ID="3789" Key="DES_TOOLTIP_SHOW_PAPERDOLL" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:24:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63971,10 +64041,15 @@
     </Groups>
     <Texts>
       <Input>Show Paperdoll</Input>
-      <Output>Pokaż Paperdoll</Output>
+      <Output>Pokaż Portret</Output>
     </Texts>
   </Element>
-  <Element ID="3790" Key="DES_TOOLTIP_SHOW_PAPERDOLL_DES" Flag="0">
+  <Element ID="3790" Key="DES_TOOLTIP_SHOW_PAPERDOLL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:23:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63983,10 +64058,15 @@
     </Groups>
     <Texts>
       <Input>Switch to full portrait view of a single character.</Input>
-      <Output>Przełącz do pełnego widoku portretowego pojedynczego znaku.</Output>
+      <Output>Przełącz na pełny widok portretowy pojedynczej postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="3791" Key="DES_TOOLTIP_SHOW_CHAR_LIST" Flag="0">
+  <Element ID="3791" Key="DES_TOOLTIP_SHOW_CHAR_LIST" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:22:08</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -63996,10 +64076,15 @@
     </Groups>
     <Texts>
       <Input>Show Characters List</Input>
-      <Output>Pokaż listę znaków</Output>
+      <Output>Pokaż Listę Postaci</Output>
     </Texts>
   </Element>
-  <Element ID="3792" Key="DES_TOOLTIP_SHOW_CHAR_LIST_DES" Flag="0">
+  <Element ID="3792" Key="DES_TOOLTIP_SHOW_CHAR_LIST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:22:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64009,10 +64094,15 @@
     </Groups>
     <Texts>
       <Input>Switch to a list showing multiple characters.</Input>
-      <Output>Przełącz na listę pokazującą wiele znaków.</Output>
+      <Output>Przełącz na listę pokazującą wiele postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="3793" Key="DES_TOOLTIP_TOGGLE_ATTRIBUTES" Flag="0">
+  <Element ID="3793" Key="DES_TOOLTIP_TOGGLE_ATTRIBUTES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:22:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64024,7 +64114,12 @@
       <Output>Atrybuty</Output>
     </Texts>
   </Element>
-  <Element ID="3794" Key="DES_TOOLTIP_TOGGLE_ATTRIBUTES_DES" Flag="0">
+  <Element ID="3794" Key="DES_TOOLTIP_TOGGLE_ATTRIBUTES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:24:40</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64033,10 +64128,15 @@
     </Groups>
     <Texts>
       <Input>View attributes of the selected character.</Input>
-      <Output>Wyświetl atrybuty wybranego znaku.</Output>
+      <Output>Wyświetl atrybuty wybranej postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="3795" Key="DES_TOOLTIP_TOGGLE_SKILLS" Flag="0">
+  <Element ID="3795" Key="DES_TOOLTIP_TOGGLE_SKILLS" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:24:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64045,10 +64145,15 @@
     </Groups>
     <Texts>
       <Input>Skills and Effects</Input>
-      <Output>Umiejętności i efekty</Output>
+      <Output>Umiejętności i Efekty</Output>
     </Texts>
   </Element>
-  <Element ID="3796" Key="DES_TOOLTIP_TOGGLE_SKILLS_DES" Flag="0">
+  <Element ID="3796" Key="DES_TOOLTIP_TOGGLE_SKILLS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:24:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64057,7 +64162,7 @@
     </Groups>
     <Texts>
       <Input>View skills and effects of the selected character.</Input>
-      <Output>Zobacz umiejętności i efekty wybranej postaci.</Output>
+      <Output>Wyświetl umiejętności i efekty działające na wybraną postać.</Output>
     </Texts>
   </Element>
   <Element ID="3797" Key="DES_TOOLTIP_SHOW_TAGS" Flag="1">
@@ -64111,7 +64216,12 @@
       <Output>Notatki</Output>
     </Texts>
   </Element>
-  <Element ID="3800" Key="DES_TOOLTIP_SHOW_NOTES_DES" Flag="0">
+  <Element ID="3800" Key="DES_TOOLTIP_SHOW_NOTES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:25:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64120,10 +64230,15 @@
     </Groups>
     <Texts>
       <Input>A space for custom notes.</Input>
-      <Output>Miejsce na notatki niestandardowe.</Output>
+      <Output>Miejsce na własne notatki.</Output>
     </Texts>
   </Element>
-  <Element ID="3801" Key="DES_TOOLTIP_TRANSFER_FOOD" Flag="0">
+  <Element ID="3801" Key="DES_TOOLTIP_TRANSFER_FOOD" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:25:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64132,10 +64247,15 @@
     </Groups>
     <Texts>
       <Input>Transfer Food</Input>
-      <Output>Transfer żywności</Output>
+      <Output>Transfer Żywności</Output>
     </Texts>
   </Element>
-  <Element ID="3802" Key="DES_TOOLTIP_TRANSFER_FOOD_DES" Flag="0">
+  <Element ID="3802" Key="DES_TOOLTIP_TRANSFER_FOOD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:25:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -64144,7 +64264,7 @@
     </Groups>
     <Texts>
       <Input>Use this to quickly transfer a variety of food between your groups.</Input>
-      <Output>Służy do szybkiego przesyłania różnych potraw między grupami.</Output>
+      <Output>Służy do szybkiego przesyłania żywności między grupami.</Output>
     </Texts>
   </Element>
   <Element ID="3803" Key="DES_ENEMY_GROUP" Flag="0">
@@ -78115,7 +78235,7 @@
     </Groups>
     <Texts>
       <Input>Unlocking this recipe will allow your people to craft the following item(s):</Input>
-      <Output>Odblokowanie tej formuły pozwoli twoim ludziom wykonać następujące przedmioty:</Output>
+      <Output>Odblokowanie tej receptury pozwoli twoim ludziom wykonać następujące przedmioty:</Output>
     </Texts>
   </Element>
   <Element ID="4705" Key="UI_UNLOCK_ITEM_CONFIRMATION2" Flag="1">
@@ -78132,7 +78252,7 @@
     </Groups>
     <Texts>
       <Input>Unlocking this recipe will allow your people to craft the following item(s) and provide a 5% essence bonus:</Input>
-      <Output>Odblokowanie tej formuły pozwoli twoim ludziom na wykonanie następujących przedmiotów i zapewnienie premii 5% esencji:</Output>
+      <Output>Odblokowanie tej receptury pozwoli twoim ludziom na wykonanie następujących przedmiotów i zapewnienie premii 5% esencji:</Output>
     </Texts>
   </Element>
   <Element ID="4706" Key="UI_UNLOCK_ITEM_CONFIRMATION3" Flag="1">
@@ -78149,7 +78269,7 @@
     </Groups>
     <Texts>
       <Input>Unlocking this recipe will further refine the item's design, adding 20% to any essence used in its crafting.</Input>
-      <Output>Odblokowanie tej formuły jeszcze bardziej udoskonali projekt przedmiotu, dodając 20% do każdej esencji użytej w jego tworzeniu.</Output>
+      <Output>Odblokowanie tej receptury jeszcze bardziej udoskonali projekt przedmiotu, dodając 20% do każdej esencji użytej w jego tworzeniu.</Output>
     </Texts>
   </Element>
   <Element ID="4707" Key="UI_UNLOCK_ITEM_CONFIRMATION4" Flag="1">
@@ -78250,7 +78370,7 @@
     </Groups>
     <Texts>
       <Input>Unlocking this food recipe will allow your people to cook dishes using the following raw food types:</Input>
-      <Output>Odblokowanie tego przepisu pozwoli twoim ludziom gotować potrawy przy użyciu następujących składników:</Output>
+      <Output>Odblokowanie tego receptury pozwoli twoim ludziom gotować potrawy przy użyciu następujących składników:</Output>
     </Texts>
   </Element>
   <Element ID="4713" Key="UI_ADVANCEMENT_RESOURCES" Flag="1">
@@ -78715,7 +78835,7 @@
     </Groups>
     <Texts>
       <Input>Pick a Recipe</Input>
-      <Output>Wybierz Przepis</Output>
+      <Output>Wybierz Recepturę</Output>
     </Texts>
   </Element>
   <Element ID="4742" Key="UI_BASE_VALUE" Flag="1">
@@ -79127,7 +79247,7 @@
     </Groups>
     <Texts>
       <Input>Select recipe</Input>
-      <Output>Wybierz formułę</Output>
+      <Output>Wybierz Recepturę</Output>
     </Texts>
   </Element>
   <Element ID="4768" Key="UI_PICK_ONE" Flag="1">
@@ -79548,7 +79668,7 @@
     </Groups>
     <Texts>
       <Input>You can add the recipe to the list of crafting tasks by pressing Confirm.\n\nWork on it can only be started if you have the {COLOR:yellow}required materials{END_COLOR} in your inventory.</Input>
-      <Output>Możesz dodać przepis do listy zadań rzemieślniczych, naciskając Potwierdź. \n\nPrace nad nim można rozpocząć tylko wtedy, gdy masz {COLOR:yellow}wymagane materiały {END_COLOR}w ekwipunku.</Output>
+      <Output>Możesz dodać recepturę do listy zadań rzemieślniczych, naciskając Potwierdź. \n\nPrace nad nią można rozpocząć tylko wtedy, gdy masz {COLOR:yellow}wymagane materiały {END_COLOR}w ekwipunku.</Output>
     </Texts>
   </Element>
   <Element ID="4794" Key="UI_TUTORIAL_MOVE1" Flag="1">
@@ -80028,7 +80148,7 @@
     </Groups>
     <Texts>
       <Input>Recipe</Input>
-      <Output>Przepis</Output>
+      <Output>Receptura</Output>
     </Texts>
   </Element>
   <Element ID="4824" Key="UI_TUTORIAL_EQUIP1" Flag="1">
@@ -80124,7 +80244,7 @@
     </Groups>
     <Texts>
       <Input>This screen lets you decide what you want to craft, and what do you want to craft it from.\n\n{COLOR:yellow}Step 1/5{END_COLOR} - Pick a recipe from the list at the top.</Input>
-      <Output>Ten ekran pozwala ci zdecydować, co chcesz stworzyć, i z czego chcesz to zrobić. \n\n{COLOR:yellow}Krok 1/5 {END_COLOR}- Wybierz przepis z listy na górze.</Output>
+      <Output>Ten ekran pozwala ci zdecydować, co chcesz stworzyć, i z czego chcesz to zrobić. \n\n{COLOR:yellow}Krok 1/5 {END_COLOR}- Wybierz recepturę z listy na górze.</Output>
     </Texts>
   </Element>
   <Element ID="4830" Key="UI_TUTORIAL_RECIPE2" Flag="1">
@@ -80204,7 +80324,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:yellow}Step 5/5{END_COLOR} - Press Confirm to add the recipe to the list of crafting tasks. Remember to assign villagers to the task!</Input>
-      <Output>{COLOR:yellow}Krok 5/5 {END_COLOR}- Naciśnij Potwierdź, aby dodać formułę do listy zadań rzemieślniczych. Pamiętaj, aby przypisać wieśniaków do zadania!</Output>
+      <Output>{COLOR:yellow}Krok 5/5 {END_COLOR}- Naciśnij Potwierdź, aby dodać recepturę do listy zadań rzemieślniczych. Pamiętaj, aby przypisać postacie do zadania!</Output>
     </Texts>
   </Element>
   <Element ID="4835" Key="UI_IMPORT" Flag="1">
@@ -84640,7 +84760,7 @@
     </Groups>
     <Texts>
       <Input>This screen allows you to spend any Advancement Points ({ICON:AdvancementPointIcon}) on new materials, crafting recipes and buildings.</Input>
-      <Output>Ten ekran pozwala ci wydać dowolne Punkty Awansu ({ICON:AdvancementPointIcon}) na nowe materiały, instrukcje rzemieślnicze i budynki.</Output>
+      <Output>Ten ekran pozwala ci wydać dowolne punkty awansu ({ICON:AdvancementPointIcon}) na nowe materiały, receptury rzemieślnicze i budynki.</Output>
     </Texts>
   </Element>
   <Element ID="5106" Key="UI_TUTORIAL_ADVANCEMENT2" Flag="1">
@@ -84672,7 +84792,7 @@
     </Groups>
     <Texts>
       <Input>The unlock cost of each recipe is shown next to its icon.</Input>
-      <Output>Koszt odblokowania każdej formuły jest wyświetlany obok jego ikony.</Output>
+      <Output>Koszt odblokowania każdej receptury jest wyświetlany obok jego ikony.</Output>
     </Texts>
   </Element>
   <Element ID="5108" Key="UI_TUTORIAL_ADVANCEMENT4" Flag="1">
@@ -84688,7 +84808,7 @@
     </Groups>
     <Texts>
       <Input>Materials in {COLOR:yellow}equipment recipes{END_COLOR} unlock in random order each playthrough, but you can see the details before you spend your Advancement Points by clicking on a recipe.</Input>
-      <Output>Materiały w {COLOR:yellow}schematach wyposażenia {END_COLOR}odblokowują się w losowej kolejności przy każdej rozgrywce, ale możesz zobaczyć szczegóły zanim wydasz swoje Punkty Awansu klikając na schemat.</Output>
+      <Output>Materiały w {COLOR:yellow}schematach wyposażenia{END_COLOR}odblokowują się w losowej kolejności przy każdej rozgrywce, ale możesz zobaczyć szczegóły zanim wydasz swoje punkty awansu klikając na recepturę.</Output>
     </Texts>
   </Element>
   <Element ID="5109" Key="UI_TUTORIAL_ADVANCEMENT5" Flag="1">
@@ -84704,7 +84824,7 @@
     </Groups>
     <Texts>
       <Input>Each recipe requires that you unlock at least one parent node that leads to it.</Input>
-      <Output>Każdy schemat lub formuła wymaga odblokowania co najmniej jednego węzła nadrzędnego, który do nich prowadzi.</Output>
+      <Output>Każda receptura wymaga odblokowania co najmniej jednego węzła nadrzędnego, który do nich prowadzi.</Output>
     </Texts>
   </Element>
   <Element ID="5110" Key="UI_TUTORIAL_ADVANCEMENT6" Flag="1">
@@ -87823,7 +87943,12 @@
       <Output>Powtórz narrację bieżącego akapitu.</Output>
     </Texts>
   </Element>
-  <Element ID="5316" Key="DES_TOOLTIP_MORALE" Flag="0">
+  <Element ID="5316" Key="DES_TOOLTIP_MORALE" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:26:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -87831,10 +87956,15 @@
     </Groups>
     <Texts>
       <Input>Morale Gain</Input>
-      <Output>Zysk morale</Output>
+      <Output>Przyrost Morale</Output>
     </Texts>
   </Element>
-  <Element ID="5317" Key="DES_TOOLTIP_MORALE_DES" Flag="0">
+  <Element ID="5317" Key="DES_TOOLTIP_MORALE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:26:27</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -87842,7 +87972,7 @@
     </Groups>
     <Texts>
       <Input>The amount of Morale gained from food each turn. Each character gets +1 Morale per turn for each type of food present in the group's inventory.</Input>
-      <Output>Ilość morale uzyskanego z jedzenia w każdej turze. Każda postać otrzymuje +1 morale na turę za każdy rodzaj żywności obecnej w ekwipunku grupy.</Output>
+      <Output>Ilość morale uzyskanego z jedzenia w każdej turze. Każda postać otrzymuje +1 morale na turę za każdy rodzaj żywności obecny w ekwipunku grupy.</Output>
     </Texts>
   </Element>
   <Element ID="5318" Key="UI_SELECT_LANGUAGE" Flag="0">
@@ -89575,7 +89705,12 @@
       <Output>Informacje o Wiosce (V)</Output>
     </Texts>
   </Element>
-  <Element ID="5443" Key="DES_TOOLTIP_VILLAGE_INFO_DES" Flag="0">
+  <Element ID="5443" Key="DES_TOOLTIP_VILLAGE_INFO_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-11-27 13:27:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_TOOLTIP</Group>
@@ -89584,7 +89719,7 @@
     </Groups>
     <Texts>
       <Input>Opens the Village Info screen where you can see all production tasks at a glance, along with any buildings and ships in your settlement.</Input>
-      <Output>Otwiera ekran Informacje o wiosce, w którym można zobaczyć wszystkie zadania produkcyjne na pierwszy rzut oka, wraz z wszelkimi budynkami i statkami w osadzie.</Output>
+      <Output>Otwiera ekran informacje o wiosce. Można zobaczyć wszystkie aktualne zadania, wraz z wszelkimi budynkami i statkami w osadzie.</Output>
     </Texts>
   </Element>
   <Element ID="5444" Key="QUEST_LOG16" Flag="1">
