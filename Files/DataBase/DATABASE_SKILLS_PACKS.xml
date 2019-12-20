@@ -148,6 +148,15 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-CLASS_CRAFTSMAN>
+	<SKILL_PACK-CLASS_INVENTOR>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <GuarantedSkill Value="SKILL-MASTER_INVENTOR"/>
+        <GuarantedSkill Value="SKILL-IMPROVISE"/>
+        <GuarantedSkill Value="SKILL-IMPROVISE_ARMOUR"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-CLASS_INVENTOR>
 	<SKILL_PACK-CLASS_CRAFTSMAN_YUKSLAVA>
 		<RarityRange MinimumCount="0" MaximumCount="50"/>
         <GuarantedSkill Value="SKILL-MASTER_INVENTOR"/>
@@ -285,10 +294,13 @@
 	<SKILL_PACK-ADV_INVENTOR>
 		<RarityRange MinimumCount="0" MaximumCount="70"/>
         <GuarantedSkill Value="SKILL-MASTER_INVENTOR"/>
+        <GuarantedSkill Value="SKILL-IMPROVISE"/>
+        <GuarantedSkill Value="SKILL-IMPROVISE_ARMOUR"/>
+        <GuarantedSkill Value="SKILL-RELIABLE_ARGUMENT"/>
+        <GuarantedSkill Value="SKILL-TOUGHNESS"/>
+        <GuarantedSkill Value="SKILL-LUCK"/>
 		<SkillGroupFilters>
 			<SkillGroupSingleFilter Name="ClassInventor" Requirement="OptionalType"/>
-			<SkillGroupSingleFilter Name="AdvWorker" Requirement="OptionalType"/>
-			<SkillGroupSingleFilter Name="BaseCraftsman" Requirement="ForbiddenType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-ADV_INVENTOR>
 	<SKILL_PACK-ADV_GHOST>

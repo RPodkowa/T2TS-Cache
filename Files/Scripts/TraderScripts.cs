@@ -28,7 +28,7 @@ namespace GameScript
         {
 
             if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) >0)
+                ce.GetAttribute(TAG.PET) > 0)
             {
                 return BuingCookedFoodAndPet(ce);
             }
@@ -55,41 +55,34 @@ namespace GameScript
         }
         static public int Tbv_TradeWoodBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.WOOD) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
             }
-            else return (int)(ce.Value * defaultBuyMultiplier);
+            else if (ce.GetAttribute(TAG.WOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
+            }
+            else
+            {
+                return (int)(ce.Value * defaultBuyMultiplier);
+            }
         }
 
         static public int Tbv_TradeRoamersBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.RANGE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.ARMOUR) > 0 ||
-                ce.GetAttribute(TAG.SHIELD) > 0 || 
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * friendlyBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
+                ce.GetAttribute(TAG.RANGE_WEAPON) > 0 ||
+                ce.GetAttribute(TAG.ARMOUR) > 0 ||
+                ce.GetAttribute(TAG.SHIELD) > 0)
+            {
+                return (int)(ce.Value * friendlyBuyMultiplier);
             }
             else
             {
@@ -98,22 +91,17 @@ namespace GameScript
         }
         static public int Tbv_TradeRoamersFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.RANGE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.ARMOUR) > 0 ||
-                ce.GetAttribute(TAG.SHIELD) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
+                ce.GetAttribute(TAG.RANGE_WEAPON) > 0 ||
+                ce.GetAttribute(TAG.ARMOUR) > 0 ||
+                ce.GetAttribute(TAG.SHIELD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -122,19 +110,15 @@ namespace GameScript
         }
         static public int Tbv_TradeScavengersBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.FOOD) > 0 ||
-                ce.GetAttribute(TAG.TOOLS) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.TOOLS) > 0 ||
+                ce.GetAttribute(TAG.FOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -143,19 +127,15 @@ namespace GameScript
         }
         static public int Tbv_TradeScavengersFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.FOOD) > 0 ||
-                ce.GetAttribute(TAG.TOOLS) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.TOOLS) > 0 ||
+                ce.GetAttribute(TAG.FOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -164,21 +144,16 @@ namespace GameScript
         }
         static public int Tbv_TradeElderKinBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.GOLD) > 0 ||
-                ce.GetAttribute(TAG.SILVER) > 0 ||
-                ce.GetAttribute(TAG.STEEL) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.GOLD) > 0 ||
+                ce.GetAttribute(TAG.SILVER) > 0 ||
+                ce.GetAttribute(TAG.STEEL) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -187,21 +162,16 @@ namespace GameScript
         }
         static public int Tbv_TradeElderKinFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.GOLD) > 0 ||
-                ce.GetAttribute(TAG.SILVER) > 0 ||
-                ce.GetAttribute(TAG.STEEL) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.GOLD) > 0 ||
+                ce.GetAttribute(TAG.SILVER) > 0 ||
+                ce.GetAttribute(TAG.STEEL) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -210,22 +180,17 @@ namespace GameScript
         }
         static public int Tbv_TradeShadowKinBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.SWORD_1H) > 0 ||
-                ce.GetAttribute(TAG.SWORD_2H) > 0 ||
-                ce.GetAttribute(TAG.POLEARM_1H) > 0 ||
-                ce.GetAttribute(TAG.POLEARM_2H) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.SWORD_1H) > 0 ||
+                ce.GetAttribute(TAG.SWORD_2H) > 0 ||
+                ce.GetAttribute(TAG.POLEARM_1H) > 0 ||
+                ce.GetAttribute(TAG.POLEARM_2H) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -234,22 +199,17 @@ namespace GameScript
         }
         static public int Tbv_TradeShadowKinFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.SWORD_1H) > 0 ||
-                ce.GetAttribute(TAG.SWORD_2H) > 0 ||
-                ce.GetAttribute(TAG.POLEARM_1H) > 0 ||
-                ce.GetAttribute(TAG.POLEARM_2H) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.SWORD_1H) > 0 ||
+                ce.GetAttribute(TAG.SWORD_2H) > 0 ||
+                ce.GetAttribute(TAG.POLEARM_1H) > 0 ||
+                ce.GetAttribute(TAG.POLEARM_2H) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -258,21 +218,16 @@ namespace GameScript
         }
         static public int Tbv_TradeEarthboundBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
-                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
-                ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
+                 ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
+                 ce.GetAttribute(TAG.ELVEN_WOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -281,21 +236,16 @@ namespace GameScript
         }
         static public int Tbv_TradeEarthboundFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
-                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
-                ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
+                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
+                ce.GetAttribute(TAG.ELVEN_WOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -304,24 +254,19 @@ namespace GameScript
         }
         static public int Tbv_TradeAlphaClansBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+                ce.GetAttribute(TAG.PET) > 0)
+            {
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
                 ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
                 ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
                 ce.GetAttribute(TAG.GOLD) > 0 ||
                 ce.GetAttribute(TAG.SILVER) > 0 ||
-                ce.GetAttribute(TAG.STEEL) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
+                ce.GetAttribute(TAG.STEEL) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -330,24 +275,19 @@ namespace GameScript
         }
         static public int Tbv_TradeAlphaClansFriandlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+                ce.GetAttribute(TAG.PET) > 0)
+            {
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
                 ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
                 ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
                 ce.GetAttribute(TAG.GOLD) > 0 ||
                 ce.GetAttribute(TAG.SILVER) > 0 ||
-                ce.GetAttribute(TAG.STEEL) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
+                ce.GetAttribute(TAG.STEEL) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -356,21 +296,17 @@ namespace GameScript
         }
         static public int Tbv_TradeClanlessBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
-                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
-                ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
-                ce.GetAttribute(TAG.FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
+                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
+                ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
+                ce.GetAttribute(TAG.FOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -379,21 +315,17 @@ namespace GameScript
         }
         static public int Tbv_TradeClanlessFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
-                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
-                ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
-                ce.GetAttribute(TAG.FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.DRYAD_WOOD) > 0 ||
+                ce.GetAttribute(TAG.DARK_WOOD) > 0 ||
+                ce.GetAttribute(TAG.ELVEN_WOOD) > 0 ||
+                ce.GetAttribute(TAG.FOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -402,20 +334,15 @@ namespace GameScript
         }
         static public int Tbv_TradeTinkerersBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.OBSIDIAN) > 0 ||
-                ce.GetAttribute(TAG.BOAR) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.OBSIDIAN) > 0 ||
+                ce.GetAttribute(TAG.BOAR) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -424,20 +351,15 @@ namespace GameScript
         }
         static public int Tbv_TradeTinkerersFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.OBSIDIAN) > 0 ||
-                ce.GetAttribute(TAG.BOAR) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.OBSIDIAN) > 0 ||
+                ce.GetAttribute(TAG.BOAR) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -446,20 +368,15 @@ namespace GameScript
         }
         static public int Tbv_TradeSpiritTalkersBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.GHOST) > 0 ||
-                ce.GetAttribute(TAG.WRAITH) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.GHOST) > 0 ||
+                ce.GetAttribute(TAG.WRAITH) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -468,20 +385,15 @@ namespace GameScript
         }
         static public int Tbv_TradeSpiritTalkersFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.GHOST) > 0 ||
-                ce.GetAttribute(TAG.WRAITH) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.GHOST) > 0 ||
+                ce.GetAttribute(TAG.WRAITH) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -490,22 +402,17 @@ namespace GameScript
         }
         static public int Tbv_TradeForestDemonsBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.MALACHITE) > 0 ||
-                ce.GetAttribute(TAG.TOPAZ) > 0 ||
-                ce.GetAttribute(TAG.RUBY) > 0 ||
-                ce.GetAttribute(TAG.BEAST) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.MALACHITE) > 0 ||
+                ce.GetAttribute(TAG.TOPAZ) > 0 ||
+                ce.GetAttribute(TAG.RUBY) > 0 ||
+                ce.GetAttribute(TAG.BEAST) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -514,22 +421,17 @@ namespace GameScript
         }
         static public int Tbv_TradeForestDemonsFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.MALACHITE) > 0 ||
-                ce.GetAttribute(TAG.TOPAZ) > 0 ||
-                ce.GetAttribute(TAG.RUBY) > 0 ||
-                ce.GetAttribute(TAG.BEAST) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.MALACHITE) > 0 ||
+                ce.GetAttribute(TAG.TOPAZ) > 0 ||
+                ce.GetAttribute(TAG.RUBY) > 0 ||
+                ce.GetAttribute(TAG.BEAST) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -538,20 +440,15 @@ namespace GameScript
         }
         static public int Tbv_TradeNightDemonsBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.RANGE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
+                ce.GetAttribute(TAG.RANGE_WEAPON) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -560,20 +457,15 @@ namespace GameScript
         }
         static public int Tbv_TradeNightDemonsFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.RANGE_WEAPON) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.MELEE_WEAPON) > 0 ||
+                ce.GetAttribute(TAG.RANGE_WEAPON) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -582,22 +474,17 @@ namespace GameScript
         }
         static public int Tbv_TradeWaterDemonsBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.CHILD) > 0 ||
-                ce.GetAttribute(TAG.CLAY) > 0 ||
-                ce.GetAttribute(TAG.QUARTZ) > 0 ||
-                ce.GetAttribute(TAG.GRANITE) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.CHILD) > 0 ||
+                ce.GetAttribute(TAG.CLAY) > 0 ||
+                ce.GetAttribute(TAG.QUARTZ) > 0 ||
+                ce.GetAttribute(TAG.GRANITE) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -606,22 +493,17 @@ namespace GameScript
         }
         static public int Tbv_TradeWaterDemonsFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.CHILD) > 0 ||
-                ce.GetAttribute(TAG.CLAY) > 0 ||
-                ce.GetAttribute(TAG.QUARTZ) > 0 ||
-                ce.GetAttribute(TAG.GRANITE) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.CHILD) > 0 ||
+                ce.GetAttribute(TAG.CLAY) > 0 ||
+                ce.GetAttribute(TAG.QUARTZ) > 0 ||
+                ce.GetAttribute(TAG.GRANITE) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -630,20 +512,15 @@ namespace GameScript
         }
         static public int Tbv_TradeIceDemonsBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.HUMANOID) > 0 ||
-                ce.GetAttribute(TAG.BEAST) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
+            }
+            else if (ce.GetAttribute(TAG.HUMANOID) > 0 ||
+                ce.GetAttribute(TAG.BEAST) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -652,20 +529,15 @@ namespace GameScript
         }
         static public int Tbv_TradeIceDemonsFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.HUMANOID) > 0 ||
-                ce.GetAttribute(TAG.BEAST) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
+            }
+            else if (ce.GetAttribute(TAG.HUMANOID) > 0 ||
+                ce.GetAttribute(TAG.BEAST) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
             }
             else
             {
@@ -674,37 +546,35 @@ namespace GameScript
         }
         static public int Tbv_TradeBeastBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPet(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPet(ce);
             }
-            else return (int)(ce.Value * defaultBuyMultiplier);
+            else if (ce.GetAttribute(TAG.FOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
+            }
+            else 
+            {
+                return (int) (ce.Value* defaultBuyMultiplier);
+            }
         }
         static public int Tbv_TradeBeastFriendlyBuying(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.FOOD) > 0 ||
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
                 ce.GetAttribute(TAG.PET) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    return BuingCookedFoodAndPetFriendly(ce);
-                }
-                else
-                {
-                    return (int)(ce.Value * lovedBuyMultiplier);
-                }
+                return BuingCookedFoodAndPetFriendly(ce);
             }
-            else return (int)(ce.Value * friendlyBuyMultiplier);
+            else if (ce.GetAttribute(TAG.FOOD) > 0)
+            {
+                return (int)(ce.Value * lovedBuyMultiplier);
+            }
+            else 
+            {
+                return (int)(ce.Value * friendlyBuyMultiplier);
+            }
         }
         #endregion
 
@@ -715,44 +585,38 @@ namespace GameScript
         }
         static public int Tsv_Trade2XSelling(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0)
             {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0)
-                {
-                    return (int)(ce.Value * 2.0f / cookedFoodDivisor);
-                }
-                else
-                {
-                    return (int)(ce.Value * petSellMultiplier);
-                }
-                
+                return (int)(ce.Value * 2.0f / cookedFoodDivisor);
             }
-            else return (int)(ce.Value * 2.0f);
+            else if (ce.GetAttribute(TAG.PET) > 0)
+            {
+                return (int)(ce.Value * petSellMultiplier);
+            }
+            else 
+            {
+                return (int)(ce.Value * 2.0f);
+            }
         }
 
         static public int Tsv_TradeAncientWoodSelling(ClientEntity ce)
         {
-            if (ce.GetAttribute(TAG.ANCIENT_WOOD) > 0 ||
-                ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-               {
-                if (ce.GetAttribute(TAG.COOKED_FOOD) > 0 ||
-                ce.GetAttribute(TAG.PET) > 0)
-                {
-                    if (ce.GetAttribute(TAG.COOKED_FOOD) > 0)
-                    {
-                        return (int)(ce.Value * 2.5f / cookedFoodDivisor);
-                    }
-                    else
-                    {
-                        return (int)(ce.Value * petSellMultiplier);
-                    }
-                }
-               else return (int)(ce.Value * 3.0f);
-
+            if (ce.GetAttribute(TAG.COOKED_FOOD) > 0)
+            {
+                return (int)(ce.Value * 2.5f / cookedFoodDivisor);
             }
-            else return (int)(ce.Value * 2.5f);
+            else if (ce.GetAttribute(TAG.PET) > 0)
+            {
+                return (int)(ce.Value * petSellMultiplier);
+            }
+            else if (ce.GetAttribute(TAG.ANCIENT_WOOD) > 0)
+            {
+                return (int)(ce.Value * 3.0f);
+            }
+            else
+            {
+                return (int)(ce.Value * 2.5f);
+            }
         }
         static public int Tbv_TradeFor1ValueSelling(ClientEntity ce)
         {

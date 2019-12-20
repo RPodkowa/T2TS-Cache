@@ -131,7 +131,7 @@
 'Have you come to feed our bloodlust, enemy of the night?'
 
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="1513" positionY="279" width="350" height="885">
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="1514" positionY="392" width="350" height="885">
       <logic>
         <FilterBlock>
           <LogicResultAction list="wood">
@@ -150,9 +150,9 @@
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Better leave." ownerID="4" targetID="25" fromX="1838" fromY="-212" />
-      <outputs name="Attack!" ownerID="4" targetID="26" group="G1" fromX="1838" fromY="-292" />
-      <outputs name="Attack!" ownerID="4" targetID="35" group="G1" fromX="1838" fromY="-372" />The inhabitants of this place begin circling you and you feel terribly exposed to their hunger.
+      <outputs name="Better leave." ownerID="4" targetID="25" fromX="1839" fromY="-99" />
+      <outputs name="Attack!" ownerID="4" targetID="26" group="G1" fromX="1839" fromY="-179" />
+      <outputs name="Attack!" ownerID="4" targetID="35" group="G1" fromX="1839" fromY="-259" />The inhabitants of this place begin circling you and you feel terribly exposed to their hunger.
 
 'You carry much silver,  mithril, or other material that was borne of the faul metals that hurt us  and come here.  Leave.'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="5" positionX="963" positionY="-173" width="460" height="699" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="true" targetGroup="ppl">
@@ -959,7 +959,7 @@ Will you agree to me my mistress of the night? One sweet bite and your world wil
         </FilterBlock>
       </logic>
       <outputs name="Begin." ownerID="71" targetID="69" fromX="2411" fromY="-4833" />'Challenge me? How delightful. Let us dance my dear.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="72" positionX="3127" positionY="-5296" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="72" positionX="3112" positionY="-5269" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicFilter name="elf">
@@ -977,11 +977,11 @@ Will you agree to me my mistress of the night? One sweet bite and your world wil
             <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
           </LogicProcessing>
           <LogicModifiers list="1elf">
-            <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" parameter="1" tag="SKILL_PACK-SUMMON_NIGHT_WEREWOLF" />
+            <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" parameter="1" tag="SKILL_PACK-Q_NIGHT_POWER" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Thank him and leave, this is getting awkward. " ownerID="72" targetID="73" fromX="3452" fromY="-5787" />'Ah, yes, children of light. Such a shame, still. I am enamoured and so shall gift you a servant so they may remind you of me. From now on, you shall be able to summon a werewolf mutt and he will be your to command. Now fare thee well, my love!'</nodes>
+      <outputs name="Thank him and leave, this is getting awkward. " ownerID="72" targetID="73" fromX="3438" fromY="-5760" />'Ah, yes, children of light. Such a shame, still. I am enamoured and so shall gift you a night-kiss so that it may remind you of me. From now on, you shall be part of our night pack, even if only a little. Now fare thee well, my love!'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="73" positionX="4213" positionY="-6031" width="350" height="530" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="74" positionX="3478" positionY="-6184" width="350" height="725">
       <logic>

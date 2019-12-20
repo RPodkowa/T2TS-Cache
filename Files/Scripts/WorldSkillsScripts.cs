@@ -787,7 +787,21 @@ namespace GameScript
 
             if (owner.superConnection == null || !owner.superConnection.Valid())
             {
-                owner.Destroy();
+                BuildingRecipe br = (BuildingRecipe)BUILD_REC.IDOL;
+                var idol = owner.group.Get().items.Find(o => o.GetItem().GetSource() == br);
+
+                if (idol == null)
+                {
+                    if(owner.group != null && owner.group.Get() != null)
+                    {
+                        owner.group.Get().TakeCharacter(owner, true);
+                    }
+                    owner.Destroy();
+                }
+                else
+                {
+                    idol.GetItem().SuperConnectWith(owner);
+                }
             }
 
             return null;

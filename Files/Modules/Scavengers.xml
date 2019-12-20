@@ -2949,7 +2949,7 @@ You dealt with the problem as asked, so you gain friendship.
         </FilterBlock>
       </logic>
       <outputs name="Yes, do it." ownerID="4" targetID="9" fromX="1329" fromY="-555" />
-      <outputs name="Just kill them the old-fashioned way." ownerID="4" targetID="24" fromX="1329" fromY="-635" />You track the wolves to their lair. It is a cave with only one way in or out. 
+      <outputs name="Just kill them the old-fashioned way." ownerID="4" targetID="24" fromX="984" fromY="-635" />You track the wolves to their lair. It is a cave with only one way in or out. 
 
 You can set a trap here and kill them off one by one.</nodes>
     <nodes xsi:type="NodeChallenge" ID="5" positionX="545" positionY="1760" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-WOLVES_3P_1M_0S" challengeScale="101" challengedList="beastatlkers">
@@ -3063,21 +3063,21 @@ You got rid of the problem as you were asked, so the scavengers are grateful.
       <outputs name="Lose" ownerID="16" targetID="33" fromX="1423" fromY="-1431" />
       <outputs name="Surrender" ownerID="16" targetID="53" fromX="1423" fromY="-1512" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="17" positionX="1617" positionY="682" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="17" positionX="1573" positionY="712" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicProcessing name="2" list1="ppl">
             <scriptCallWithTag scriptName="FLP_GetRandomXelements" />
           </LogicProcessing>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="6" tag="TAG-SCAVENGER" />
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="6" tag="TAG-LOYALTY_SCAVENGERS" />
           </LogicModifiers>
           <LogicModifiers list="2">
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-BLESS_M" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="17" targetID="36" fromX="1942" fromY="191" />You mark the territory and harass the pack for a time, so that in the end they move on.
+      <outputs name="Leave." ownerID="17" targetID="36" fromX="1894" fromY="226" />You mark the territory and harass the pack for a time, so that in the end they move on.
 
 You got rid of the problem as you were asked, so the scavengers are grateful.
 </nodes>
@@ -3191,8 +3191,8 @@ The scavengers hear your screams and come to your aid. They have to kill the wol
 
 The scavengers are happy with your work.
 </nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="36" positionX="2387.63965" positionY="1992.71545" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
-      <outputs ownerID="36" targetID="39" fromX="2836" fromY="1560" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="36" positionX="2437" positionY="1950" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="36" targetID="39" fromX="2886" fromY="1521" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="1823.09717" positionY="1417.966" width="350" height="725">
       <logic>

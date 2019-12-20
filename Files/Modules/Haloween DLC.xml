@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Haloween DLC" lastEventIndex="39" allowToUse="false" uniqueModuleID="-243310599">
   <Adventure name="Trick or Treat" uniqueID="1" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="62" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-221" positionY="196" width="347" height="661" image="Event103">
@@ -2204,14 +2204,14 @@ There is a map attached.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1427" positionY="-433" width="350" height="530" logBookName="QUEST_HALLOWINV" logBookDescription="QUEST_HALLOWINV_DES" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="Bear village" uniqueID="13" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="79" eventTag="TAG-LOG_HALOWEEN" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="1264" image="Event323">
-      <outputs ownerID="1" targetID="69" group="G1" fromX="334" fromY="-735" />
-      <outputs ownerID="1" targetID="74" group="G1" fromX="334" fromY="-815" />
-      <outputs ownerID="1" targetID="75" group="G1" fromX="334" fromY="-895" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-975" />
-      <outputs ownerID="1" targetID="52" group="G1" fromX="334" fromY="-1056" />
-      <outputs ownerID="1" targetID="79" group="G1" fromX="334" fromY="-1136" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-1216" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="1142" image="Event323">
+      <outputs ownerID="1" targetID="69" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="74" group="G1" fromX="334" fromY="-693" />
+      <outputs ownerID="1" targetID="75" group="G1" fromX="334" fromY="-773" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-854" />
+      <outputs ownerID="1" targetID="52" group="G1" fromX="334" fromY="-934" />
+      <outputs ownerID="1" targetID="79" group="G1" fromX="334" fromY="-1014" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-1094" />
     </nodes>
     <nodes xsi:type="NodeAdventure" allowOnce="true" ID="2" positionX="415" positionY="-41" width="350" height="725">
       <logic>
@@ -2238,7 +2238,7 @@ Or, you can visit some of our key spots, like the wise woman's hut where you can
     <nodes xsi:type="NodeAdventure" ID="5" positionX="-385" positionY="-1029" width="350" height="1046" image="Event322">
       <logic>
         <FilterBlock>
-          <LogicFilter name="stuff" makePublic="true">
+          <LogicFilter name="stuff">
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
           </LogicFilter>
           <LogicFilter name="ppl" makePublic="true">
@@ -2263,6 +2263,13 @@ Or, you can visit some of our key spots, like the wise woman's hut where you can
 
 Between the sculptures, you find food stalls filled with pumpkin themed goodies, but also roasted apples, hazelnuts and mead. You also see many revellers putting up decorations.</nodes>
     <nodes xsi:type="NodeTrade" ID="11" positionX="1224" positionY="-1068" width="460" height="479" traderProfile="TRADER-COOKER_FRIENDLY" playerInventory="stuff">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
       <outputs name="Confirm" ownerID="11" targetID="10" fromX="1654" fromY="-1396" />
       <outputs name="Cancel" ownerID="11" targetID="10" fromX="1654" fromY="-1476" />
     </nodes>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="VOLH DLC" lastEventIndex="41" allowToUse="true" uniqueModuleID="-1610678347">
   <Adventure name="Dark Volh" uniqueID="6" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="22" eventTag="TAG-LOGVOLH" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="13" positionY="112" width="347" height="661" image="Event011">
@@ -6714,7 +6714,7 @@ You dig the treasure out and split it evenly.</nodes>
       <outputs ownerID="48" targetID="27" fromX="4826" fromY="-3103" />
     </nodes>
   </Adventure>
-  <Adventure name="Chosen advancement" uniqueID="37" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="40" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="Chosen advancement" uniqueID="37" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="41" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-47" positionY="153" width="347" height="661" image="Event122">
       <logic>
         <FilterBlock>
@@ -6737,7 +6737,7 @@ You dig the treasure out and split it evenly.</nodes>
       </logic>
       <outputs ownerID="1" targetID="2" fromX="277" fromY="-450" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="417" positionY="-183" width="350" height="2730">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="417" positionY="-183" width="350" height="2810">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -6824,7 +6824,7 @@ You dig the treasure out and split it evenly.</nodes>
       <outputs name="[Gusla]It is time to become a true volh." ownerID="2" targetID="16" fromX="742" fromY="-1796" />
       <outputs name="[Scavenger]Through the divine path, you are healed of the taint that scavengers carry. Become a young zerca so you may spread the good word." ownerID="2" targetID="22" fromX="742" fromY="-1877" />
       <outputs name="[Scavenger male]Through the divine path, you are healed of the taint that scavengers carry. Become a gusla." ownerID="2" targetID="24" fromX="742" fromY="-1957" />
-      <outputs name="Do not change -- you are happy in your own skin." ownerID="2" targetID="25" fromX="742" fromY="-2037" />
+      <outputs name="Do not change - you are happy in your own skin." ownerID="2" targetID="25" fromX="742" fromY="-2037" />
       <outputs name="[Snake]Evolve into a royal snake." ownerID="2" targetID="27" fromX="742" fromY="-2117" />
       <outputs name="[Spider]Become a spider queen." ownerID="2" targetID="28" fromX="742" fromY="-2197" />
       <outputs name="[Rat]Become a cradlepossum." ownerID="2" targetID="29" fromX="742" fromY="-2278" />
@@ -6832,7 +6832,8 @@ You dig the treasure out and split it evenly.</nodes>
       <outputs name="[Pineconette]The time has come to become an eldercone." ownerID="2" targetID="30" fromX="742" fromY="-2438" />
       <outputs name="[Forest demon]Become a vily." ownerID="2" targetID="31" fromX="742" fromY="-2518" />
       <outputs name="[Human male]Become a gusla." ownerID="2" targetID="15" fromX="742" fromY="-2598" />
-      <outputs name="[Bat]Grow into a cmok!&#xD;&#xA;" ownerID="2" targetID="32" fromX="742" fromY="-2679" />As you have completed your path of the chosen, you can now advance or even change your career path.</nodes>
+      <outputs name="[Bat]Grow into a cmok!&#xD;" ownerID="2" targetID="32" fromX="742" fromY="-2679" />
+      <outputs name="[Human crafter] Become an inventor." ownerID="2" targetID="41" fromX="742" fromY="-2759" />As you have completed your path of the chosen, you can now advance or even change your career path.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="911" positionY="568" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
@@ -7297,7 +7298,7 @@ You dig the treasure out and split it evenly.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="409" positionY="-2983" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="428" positionY="-3029" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicFilter name="animal">
@@ -7398,6 +7399,29 @@ You dig the treasure out and split it evenly.</nodes>
         <ModifierBlock>
           <LogicModifiers list="chbeast">
             <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_GATHERER" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="41" positionX="-531" positionY="-2736" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="craft">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CRAFTSMAN" />
+          </LogicFilter>
+          <LogicProcessing name="chcraft" list1="craft" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="hum" list1="hum" list2="chcraft">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="hum">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="hum">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_INVENTOR" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>

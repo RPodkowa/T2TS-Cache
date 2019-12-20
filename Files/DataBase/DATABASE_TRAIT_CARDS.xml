@@ -205,6 +205,11 @@
 		<AddSubrace Value="SUBRACE-DEMON_YOUNG_HOHLICK_TRAIT"/> 
 		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
 	</TRAIT_CARD-ADD_DEMON_YOUNG_HOHLICK_TRAIT>
+	<TRAIT_CARD-ADD_CHARACTER_INVENTOR UnlockCost="15" UseCost="3">
+		<DescriptionInfo Name="DES_TRAIT_ADD_CHARACTER_INVENTOR" Description="DES_TRAIT_ADD_CHARACTER_INVENTOR_DES" IconName="DomainLight"/>
+		<AddSubrace Value="SUBRACE-HUM_INVENTOR_TRAIT"/> 
+		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
+	</TRAIT_CARD-ADD_CHARACTER_INVENTOR>
 	
 
 	<!-- DOMAIN NEUTRAL-->
@@ -315,21 +320,20 @@
 		<SkillForAllFollowers Value="SKILL-LOGIC_WALL"/>
 		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
 	</TRAIT_CARD-LOGIC_WALL>
-	<!--<TRAIT_CARD-ADDITIONAL_RESEARCH_POINT UnlockCost="5">
+	<TRAIT_CARD-ADDITIONAL_RESEARCH_POINT UnlockCost="5">
 		<DescriptionInfo Name="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Description="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS_DES" IconName="DomainIntellect"/>
 		<TraitGameStartScript>
 			<ScriptName Value="Tra_AditionalResearchAdvancementPoints"/>
 		</TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
-	</TRAIT_CARD-ADDITIONAL_RESEARCH_POINT>-->
-	<!--<TRAIT_CARD-BRAINER UnlockCost="5">
+	</TRAIT_CARD-ADDITIONAL_RESEARCH_POINT>
+	<TRAIT_CARD-BRAINER UnlockCost="10">
 		<DescriptionInfo Name="DES_TRAIT_BRAINER" Description="DES_TRAIT_BRAINER_DES" IconName="DomainIntellect"/>
-		<SkillForAllFollowers Value="SKILL-BRAINER"/>
 		<TraitGameStartScript>
 			<ScriptName Value="Tra_Brainer"/>
 		</TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
-	</TRAIT_CARD-BRAINER>-->
+	</TRAIT_CARD-BRAINER>
 	
 	<!-- DOMAIN LIGHT-->
 	<TRAIT_CARD-FAMILY_ARMOUR UnlockCost="5">
@@ -360,6 +364,13 @@
 		<SkillForAllFollowers Value="SKILL-EAGLE_EYE"/>
 		<DomainType Value="TAG-DOMAIN_LIGHT"/>
 	</TRAIT_CARD-EAGLE_EYE>
+	<TRAIT_CARD-LIGHTNING UnlockCost="10">
+		<DescriptionInfo Name="DES_TRAIT_SPARK" Description="DES_TRAIT_SPARK_DES" IconName="DomainLight"/>
+		<TraitGameStartScript>
+			<ScriptName Value="Tra_Lightening"/>
+		</TraitGameStartScript>
+		<DomainType Value="TAG-DOMAIN_LIGHT"/>
+	</TRAIT_CARD-LIGHTNING>
 	
 	<!-- DOMAIN HARMONY-->
 	<TRAIT_CARD-STRONG_ONE_PET_DOG UnlockCost="5">
@@ -367,20 +378,20 @@
 		<AddItemCargo Value="ITEM_CARGO-RARE_ONE_PET_DOG"/> 
 		<DomainType Value="TAG-DOMAIN_HARMONY"/>
 	</TRAIT_CARD-STRONG_ONE_PET_DOG>
-	<!--<TRAIT_CARD-FRIENDLY_FACE UnlockCost="5">
+	<TRAIT_CARD-FRIENDLY_FACE UnlockCost="5">
 		<DescriptionInfo Name="DES_TRAIT_FRIENDLY_FACE" Description="DES_TRAIT_FRIENDLY_FACE_DES" IconName="DomainHarmony"/>
 		<TraitGameStartScript>
 			<ScriptName Value="Tra_FriendlyFace"/>
 		</TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_HARMONY"/>
-	</TRAIT_CARD-FRIENDLY_FACE>-->
-	<!--<TRAIT_CARD-FRIEND_OF_THE_FOREST UnlockCost="5">
+	</TRAIT_CARD-FRIENDLY_FACE>
+	<TRAIT_CARD-FRIEND_OF_THE_FOREST UnlockCost="5">
 		<DescriptionInfo Name="DES_TRAIT_FRIEND_OF_THE_FOREST" Description="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" IconName="DomainHarmony"/>
 		<TraitGameStartScript>
 			<ScriptName Value="Tra_FriendOfTheForest"/>
 		</TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_HARMONY"/>
-	</TRAIT_CARD-FRIEND_OF_THE_FOREST>-->
+	</TRAIT_CARD-FRIEND_OF_THE_FOREST>
 	<TRAIT_CARD-INNER_PEACE UnlockCost="15">
 		<DescriptionInfo Name="DES_TRAIT_INNER_PEACE" Description="DES_TRAIT_INNER_PEACE_DES" IconName="DomainHarmony"/>
 		<TraitGameStartScript>
@@ -449,14 +460,14 @@
 		<AddItemCargo Value="ITEM_CARGO-RARE_ONE_WEAPON"/> 
 		<DomainType Value="TAG-DOMAIN_TURMOIL"/>
 	</TRAIT_CARD-FAMILY_WEAPON>
-	<!--<TRAIT_CARD-SEAL_OF_STRENGTH UnlockCost="1">
+	<TRAIT_CARD-SEAL_OF_STRENGTH UnlockCost="15">
 		<DescriptionInfo Name="DES_TRAIT_SEAL_OF_STRENGTH" Description="DES_TRAIT_SEAL_OF_STRENGTH_DES" IconName="DomainTurmoil"/>
 		<SkillForAllFollowers Value="SKILL-SEAL_OF_STRENGTH"/>
 		<TraitGameStartScript>
 			<ScriptName Value="Tra_SealOfStrength"/>
 		</TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_TURMOIL"/>
-	</TRAIT_CARD-SEAL_OF_STRENGTH>-->
+	</TRAIT_CARD-SEAL_OF_STRENGTH>
 	<TRAIT_CARD-CRAFTERS_FLOCK UnlockCost="5">
 		<DescriptionInfo Name="DES_TRAIT_CRAFTERS_FLOCK" Description="DES_TRAIT_CRAFTERS_FLOCK_DES" IconName="DomainTurmoil"/>
 		<SkillForAllFollowers Value="SKILL-CRAFTERS_FLOCK"/>
@@ -474,6 +485,13 @@
 		<SkillForAllFollowers Value="SKILL-TOUGH_GUY"/>
 		<DomainType Value="TAG-DOMAIN_TURMOIL"/>
 	</TRAIT_CARD-TOUGH_GUY>
+	<TRAIT_CARD-NATURAL_ARMOUR UnlockCost="10">
+		<DescriptionInfo Name="DES_TRAIT_NATURAL_ARMOUR" Description="DES_TRAIT_NATURAL_ARMOUR_DES" IconName="DomainTurmoil"/>
+		<TraitGameStartScript>
+			<ScriptName Value="Tra_NaturalArmour"/>
+		</TraitGameStartScript>
+		<DomainType Value="TAG-DOMAIN_TURMOIL"/>
+	</TRAIT_CARD-NATURAL_ARMOUR>
 	
 	
 	<!-- DOMAIN MAGIC-->
@@ -496,15 +514,11 @@
     </TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_MAGIC"/>
 	</TRAIT_CARD-DEMONIC_POSSESSION>
-	<!--
-			NEED TO BE CHANGE
-	<TRAIT_CARD-SHADOW_PROTECTION UnlockCost="10">
-		<DescriptionInfo Name="DES_TRAIT_SHADOW_PROTECTION" Description="DES_TRAIT_SHADOW_PROTECTION_DES" IconName="DomainMagic"/>
-		<TraitGameStartScript>
-			<ScriptName Value="Tra_ShadowProtection"/>
-		</TraitGameStartScript>
+	<TRAIT_CARD-NIGHT_WALKER UnlockCost="15">
+		<DescriptionInfo Name="DES_TRAIT_NIGHT_WALKER" Description="DES_TRAIT_NIGHT_WALKER_DES" IconName="DomainMagic"/>
+		<SkillForAllFollowers Value="SKILL-NIGHT_WALKER"/>
 		<DomainType Value="TAG-DOMAIN_MAGIC"/>
-	</TRAIT_CARD-SHADOW_PROTECTION>-->
+	</TRAIT_CARD-NIGHT_WALKER>
 	<TRAIT_CARD-MAGIC_SCROLL  UnlockCost="10">
 		<DescriptionInfo Name="DES_TRAIT_MAGIC_SCROLL" Description="DES_TRAIT_MAGIC_SCROLL_DES" IconName="DomainMagic"/>
 		<AddItemCargo Value="ITEM_CARGO-RARE_ONE_SCROLL_2H"/>

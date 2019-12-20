@@ -24,6 +24,7 @@
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-ADD_STRONG_CRAFTING"/>
 		<SkillSubskill Value="SUBSKILL-ADD_RESEARCH"/>
+		<SkillSubskill Value="SUBSKILL-ADD_VWEAK_PERSONAL_CARRY"/>
 		<SkillGroupFilter Value="ClassInventor"/>
 	</SKILL-MASTER_INVENTOR>
 	<SKILL-MASTER_HEALER  Rarity="10">
@@ -330,6 +331,19 @@
 		<SkillSubskill Value="SUBSKILL-NIGHT_POWER"/>
 		<SkillGroupFilter Value="NightPower"/>
 	</SKILL-NIGHT_POWER>
+    <SKILL-IMPROVISE Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_IMPROVISE" Description="DES_SKILL_IMPROVISE_DES" IconName="SkillImprovise"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-POISON_BOMB"/>
+		<SkillSubskill Value="SUBSKILL-HURRY_UP_SHIELDING"/>
+		<SkillGroupFilter Value="ClassInventor"/>
+	</SKILL-IMPROVISE>
+    <SKILL-IMPROVISE_ARMOUR Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_IMPROVISE_ARMOUR" Description="DES_SKILL_IMPROVISE_ARMOUR_DES" IconName="SkillImproviseShield"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_SHIELDING_PHYSICAL_MENTAL"/>
+		<SkillGroupFilter Value="ClassInventor"/>
+	</SKILL-IMPROVISE_ARMOUR>
 
 
 

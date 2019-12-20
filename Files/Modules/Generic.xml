@@ -308,10 +308,10 @@
       </logic>
       <outputs ownerID="24" targetID="32" fromX="1955" fromY="-1548" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="-500.707825" positionY="-1147.3219" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="-846" positionY="-1110" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
-          <LogicModifiers list="beast">
+          <LogicModifiers list="mythical">
             <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="3" tag="SKILL_PACK-BLESS_P" />
           </LogicModifiers>
         </ModifierBlock>
@@ -4151,7 +4151,7 @@ They do become skirmisher, but even in that they remain weak.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="16" positionX="2135" positionY="-1518" width="350" height="530" linkedEventUniqueID="21" />
     <nodes xsi:type="NodeAdventureEnd" ID="19" positionX="922" positionY="-732" width="350" height="530" linkedEventUniqueID="0" />
   </Adventure>
-  <Adventure name="Childgrowingup__" uniqueID="28" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="101" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="Childgrowingup__" uniqueID="28" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="104" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-139" positionY="518" width="347" height="661" image="Event010">
       <logic>
         <FilterBlock>
@@ -4177,7 +4177,7 @@ They do become skirmisher, but even in that they remain weak.</nodes>
       </logic>
       <outputs ownerID="1" targetID="2" fromX="185" fromY="-85" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="266" positionY="910" width="350" height="2570">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="266" positionY="910" width="350" height="2650">
       <logic>
         <FilterBlock>
           <LogicFilter name="hum">
@@ -4213,7 +4213,7 @@ They do become skirmisher, but even in that they remain weak.</nodes>
       <outputs name="[Wits and chance]Life of banditry is an unorthodox path to send your child on, but this world is harsh, and you need hardened folk." ownerID="2" targetID="71" group="G3" fromX="591" fromY="-463" />
       <outputs name="[Nature's path] You chose to strengthen your link to Nature, thus your child can be transformed into a forest demon, if the fates are kind of course..." ownerID="2" targetID="72" fromX="591" fromY="-543" />
       <outputs name="[Marovit's path] Allow your divine fate to transform the child." ownerID="2" targetID="79" fromX="591" fromY="-623" />
-      <outputs name="[Lada's path] Allow your divine fate to transform the child." ownerID="2" targetID="80" fromX="591" fromY="-703" />
+      <outputs name="[Lada's path] Allow your divine fate to transform the child." ownerID="2" targetID="80" group="G4" fromX="591" fromY="-703" />
       <outputs name="[Svarog's path] Allow your divine fate to transform the child." ownerID="2" targetID="81" fromX="591" fromY="-784" />
       <outputs name="[Stribog's path] Allow your divine fate to transform the child." ownerID="2" targetID="82" fromX="591" fromY="-864" />
       <outputs name="[Zorya's path] Allow your divine fate to transform the child." ownerID="2" targetID="83" fromX="591" fromY="-944" />
@@ -4222,7 +4222,8 @@ They do become skirmisher, but even in that they remain weak.</nodes>
       <outputs name="[Dzievanna's path] Allow your divine fate to transform the child." ownerID="2" targetID="86" fromX="591" fromY="-1185" />
       <outputs name="[Horz's path] Allow your divine fate to transform the child." ownerID="2" targetID="87" fromX="591" fromY="-1265" />
       <outputs name="[Mysticism, chance and male] Your child was born with the mark of the mystical. This path is dark and dangerous." ownerID="2" targetID="92" group="G1" fromX="591" fromY="-1345" />
-      <outputs name="[Mysticism, chance and male] Your child was born with the mark of the mystical. This path is dark and dangerous." ownerID="2" targetID="101" group="G1" fromX="591" fromY="-1425" />The traumatic events of the last few days made it clear your child is child no more. They now  face the time of the croppings, the rite of passage into adulthood.
+      <outputs name="[Mysticism, chance and male] Your child was born with the mark of the mystical. This path is dark and dangerous." ownerID="2" targetID="101" group="G1" fromX="591" fromY="-1425" />
+      <outputs name="[Lada's path] Allow your divine fate to transform the child." ownerID="2" targetID="104" group="G4" fromX="591" fromY="-1505" />The traumatic events of the last few days made it clear your child is child no more. They now  face the time of the croppings, the rite of passage into adulthood.
 
 But this path is never easy. You must now choose what journey the young one will take before, gods willing, they may return to you as an adult.</nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="758" positionY="1518" width="350" height="885">
@@ -5448,19 +5449,28 @@ But they are just as loyal to you and your gods as before.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="80" positionX="763" positionY="-1396" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="80" positionX="1012" positionY="-729" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
+          <LogicFilter name="f">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_FEMALE" />
+          </LogicFilter>
+          <LogicProcessing name="1" list1="1child" list2="f">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
           <LogicResultAction>
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DIV23" />
           </LogicResultAction>
           <LogicResultAction list="1child">
             <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="20" />
           </LogicResultAction>
+          <LogicResultAction list="1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers list="1child">
-            <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" tag="SUBRACE-WATER_LIGHT_SICK_BEFUDDLER" />
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" tag="SUBRACE-WATER_LIGHT_SICK_RUSALKA" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -5920,6 +5930,32 @@ But they are just as loyal to you and your gods as before.</nodes>
       <outputs name="Begin the trials." ownerID="101" targetID="98" group="G1" fromX="-3904" fromY="-3710" />
       <outputs name="Begin the trials." ownerID="101" targetID="99" group="G1" fromX="-3904" fromY="-3791" />
       <outputs name="Begin the trials." ownerID="101" targetID="100" group="G1" fromX="-3904" fromY="-3871" />The young boy must follow the volh into the depths of the greyworld and resist the temptation of power if they are to re-emerge as your kin.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="104" positionX="773" positionY="-951" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="m">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_MALE" />
+          </LogicFilter>
+          <LogicProcessing name="1" list1="1child" list2="m">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DIV23" />
+          </LogicResultAction>
+          <LogicResultAction list="1child">
+            <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="20" />
+          </LogicResultAction>
+          <LogicResultAction list="1">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="1child">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubrace" tag="SUBRACE-WATER_LIGHT_SICK_BEFUDDLER" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
   </Adventure>
   <Adventure name="Childgrowingup__Sea" uniqueID="29" allowToUse="false" seaEvent="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="88" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-139" positionY="518" width="347" height="661" image="Event010">

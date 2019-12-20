@@ -412,7 +412,6 @@
 		<GraphicMale Value="HumanCraftsmanM05"/>
 		<GraphicMale Value="HumanCraftsmanM06"/>
 		<GraphicMale Value="HumanCraftsmanM07"/>
-		<GraphicMale Value="HumanCraftsmanM08"/>
 		<GraphicMale Value="HumanCraftsmanM09"/>
 		<GraphicMale Value="HumanCraftsmanM10"/>
 		<GraphicMale Value="HumanCraftsmanM11"/>
@@ -435,6 +434,139 @@
 		<DefaultCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_MATERIALS"/>
 		<!-- BodyCargo -->
 	</SUBRACE-HUM_CRAFTSMAN>
+	<!-- challenge level 2p 4m 2s -->
+	<SUBRACE-HUM_INVENTOR>
+		<DescriptionInfo Name="DES_SUBRACE_HUM_INVENTOR" Description="DES_SUBRACE_HUM_INVENTOR_DES" IconName="ClassInventor"/>
+		<Race Value="RACE-HUMAN"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-CRAFTSMAN"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="7" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="12" Tag="TAG-WISDOM"/>
+        <MainSubraceAttributes Amount="5" Tag="TAG-MYSTICISM"/>
+        <MainSubraceAttributes Amount="4" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="20" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+        <SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="200" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-GENDER_FEMALE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="15">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_HUM"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_INVENTOR"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_INVENTOR"/>
+		<GraphicMale Value="HumanHerbalistM3"/>
+		<GraphicMale Value="HumanCraftsmanM08"/>
+		<GraphicFemale Value="HumanWitchF4"/>
+		<GraphicFemale Value="HumanHerbalistF1"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_FEW_FOOD"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ADV_ONE_CRAFTING_TOOL"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ADV_ONE_ARTIFACT_1H"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ADV_ONE_MEDIUM_ARMOUR"/>
+		<DefaultCargo Chance="80" ItemCargo="ITEM_CARGO-ADV_FEW_MATERIALS"/>
+		<!-- BodyCargo -->
+	</SUBRACE-HUM_INVENTOR>
+	<!-- challenge level 3p 4m 2s -->
+	<SUBRACE-HUM_INVENTOR_TRAIT>
+		<DescriptionInfo Name="DES_SUBRACE_HUM_INVENTOR" Description="DES_SUBRACE_HUM_INVENTOR_DES" IconName="ClassInventor"/>
+		<Race Value="RACE-HUMAN"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-CRAFTSMAN"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="8" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="9" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="12" Tag="TAG-WISDOM"/>
+        <MainSubraceAttributes Amount="5" Tag="TAG-MYSTICISM"/>
+        <MainSubraceAttributes Amount="4" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="30" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="20" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+        <SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="200" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-GENDER_FEMALE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="15">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_HUM"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_INVENTOR"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_INVENTOR"/>
+		<GraphicMale Value="HumanCraftsmanM07"/>
+		<GraphicMale Value="HumanCraftsmanM08"/>
+		<GraphicFemale Value="HumanCraftsmanF02"/>
+		<GraphicFemale Value="HumanCraftsmanF07"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_FEW_FOOD"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_CRAFTING_TOOL"/>
+		<!-- BodyCargo -->
+	</SUBRACE-HUM_INVENTOR_TRAIT>
 	<!-- challenge level 1p 2m 1s -->
 	<SUBRACE-HUM_CRAFTSMAN_MALE>
 		<DescriptionInfo Name="DES_SUBRACE_HUM_CRAFTSMAN" Description="DES_SUBRACE_HUM_CRAFTSMAN_DES" IconName="ClassCraftsman"/>
@@ -12426,10 +12558,10 @@
 		<MainSubraceAttributes Amount="10" Tag="TAG-WITS"/>
 		<MainSubraceAttributes Amount="34" Tag="TAG-STRENGTH"/>
 		<MainSubraceAttributes Amount="34" Tag="TAG-PERCEPTION"/>
-		<MainSubraceAttributes Amount="30" Tag="TAG-INTELLIGENCE"/>
-		<MainSubraceAttributes Amount="20" Tag="TAG-WISDOM"/>
-		<MainSubraceAttributes Amount="32" Tag="TAG-MYSTICISM"/>
-		<MainSubraceAttributes Amount="20" Tag="TAG-DESTINY"/>
+		<MainSubraceAttributes Amount="33" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="25" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="34" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="24" Tag="TAG-DESTINY"/>
 		<SecondSubraceAttributes Amount="50" Tag="TAG-SHIELDING_MENTAL"/>
 		<SecondSubraceAttributes Amount="50" Tag="TAG-SHIELDING_SPIRIT"/>
 		<SecondSubraceAttributes Amount="220" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
@@ -12480,22 +12612,10 @@
 			<CountedTag Amount="4" Tag="TAG-INTELLIGENCE"/>
 		</CommonSubraceAttributes>
 		<CommonSubraceAttributes Chance="50">
-			<CountedTag Amount="3" Tag="TAG-INTELLIGENCE"/>
-		</CommonSubraceAttributes>
-		<CommonSubraceAttributes Chance="50">
-			<CountedTag Amount="5" Tag="TAG-WISDOM"/>
-		</CommonSubraceAttributes>
-		<CommonSubraceAttributes Chance="50">
 			<CountedTag Amount="4" Tag="TAG-WISDOM"/>
 		</CommonSubraceAttributes>
 		<CommonSubraceAttributes Chance="50">
 			<CountedTag Amount="2" Tag="TAG-DESTINY"/>
-		</CommonSubraceAttributes>
-		<CommonSubraceAttributes Chance="50">
-			<CountedTag Amount="4" Tag="TAG-DESTINY"/>
-		</CommonSubraceAttributes>
-		<CommonSubraceAttributes Chance="50">
-			<CountedTag Amount="4" Tag="TAG-MYSTICISM"/>
 		</CommonSubraceAttributes>
 		<CommonSubraceAttributes Chance="50">
 			<CountedTag Amount="4" Tag="TAG-MYSTICISM"/>
@@ -12514,7 +12634,7 @@
 		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_HORDE_MATERIALS"/>
 		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_ONE_TOOL"/>
 		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_ONE_ARMOUR"/>
-		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-ANCIENT_ONE_JEWELLERY"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ANCIENT_ONE_JEWELLERY"/>
 		<!-- BodyCargo -->
 		<BodyCargo Chance="50" ItemCargo="ITEM_CARGO-STRONG_FEW_RANDOM_ITEMS"/>
 		<BodyCargo Chance="100" ItemCargo="ITEM_CARGO-PACK_DRAGON_BONE"/>
@@ -15957,6 +16077,88 @@
 		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-RARE_ONE_PET_CROW"/>
 		<!-- BodyCargo -->
 	</SUBRACE-IVAN_HUM_GUSLA>
+	<!-- challenge level 1p 2m 1s -->
+	<SUBRACE-HUM_CRAFTSMAN_NEEDLER>
+		<DescriptionInfo Name="DES_SUBRACE_HUM_CRAFTSMAN_NEEDLER" Description="DES_SUBRACE_HUM_CRAFTSMAN_NEEDLER_DES" IconName="ClassCraftsman"/>
+		<Race Value="RACE-HUMAN"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-CRAFTSMAN"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="1" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="10" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="13" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="19" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="13" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="6" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+        <SecondSubraceAttributes Amount="1" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="200" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="15">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="5">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="3" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="40">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="30">
+			<CountedTag Amount="2" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-WISDOM"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-INTELLIGENCE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="50">
+			<CountedTag Amount="1" Tag="TAG-STRENGTH"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-RACE_HUM"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_CRAFTSMAN"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_CRAFTSMAN"/>
+		<GraphicMale Value="HumanCraftsmanM01"/>
+		<GraphicMale Value="HumanCraftsmanM02"/>
+		<GraphicMale Value="HumanCraftsmanM03"/>
+		<GraphicMale Value="HumanCraftsmanM04"/>
+		<GraphicMale Value="HumanCraftsmanM05"/>
+		<GraphicMale Value="HumanCraftsmanM06"/>
+		<GraphicMale Value="HumanCraftsmanM07"/>
+		<GraphicMale Value="HumanCraftsmanM08"/>
+		<GraphicMale Value="HumanCraftsmanM09"/>
+		<GraphicMale Value="HumanCraftsmanM10"/>
+		<GraphicMale Value="HumanCraftsmanM11"/>
+		<GraphicMale Value="HumanCraftsmanM12"/>
+		<GraphicMale Value="HumanCraftsmanM13"/>
+		<GraphicMale Value="HumanCraftsmanM14"/>
+		<GraphicFemale Value="HumanCraftsmanF01"/>
+		<GraphicFemale Value="HumanCraftsmanF02"/>
+		<GraphicFemale Value="HumanCraftsmanF03"/>
+		<GraphicFemale Value="HumanCraftsmanF04"/>
+		<GraphicFemale Value="HumanCraftsmanF05"/>
+		<GraphicFemale Value="HumanCraftsmanF06"/>
+		<GraphicFemale Value="HumanCraftsmanF07"/>
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_FEW_FOOD"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ADV_ONE_TOOL"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_ARTIFACT_1H"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-ADV_ONE_MEDIUM_ARMOUR"/>
+		<DefaultCargo Chance="80" ItemCargo="ITEM_CARGO-BASIC_FEW_MATERIALS"/>
+		<!-- BodyCargo -->
+	</SUBRACE-HUM_CRAFTSMAN_NEEDLER>
 	
 	<!-- CONCEPTS -->
 	<SUBRACE-WEAK_CON_TANK_P>

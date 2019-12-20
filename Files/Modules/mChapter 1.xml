@@ -699,7 +699,7 @@ Deal's a deal, we stay away from that cave, you go do what you want with it. We 
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Thank her and go find the cave." ownerID="57" targetID="66" fromX="-1453" fromY="-2501" />'Well, all are mine, as I am the boss mamma, but its brood mamma died of the rot, and I never pay much attention to the whelps till they good for somethin', but this will do. Deal's a deal, here, I show you a passage to the cave you want. I warn you, those bandits will soon know you made deals with us, you best stay away from them.
+      <outputs name="Thank her and go find the cave." ownerID="57" targetID="67" fromX="-1453" fromY="-2501" />'Well, all are mine, as I am the boss mamma, but its brood mamma died of the rot, and I never pay much attention to the whelps till they good for somethin', but this will do. Deal's a deal, here, I show you a passage to the cave you want. I warn you, those bandits will soon know you made deals with us, you best stay away from them.
 
 Oh, and take Monia, as promised, she good to you. Now best go.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="58" positionX="-2460" positionY="-508" width="350" height="805">
@@ -758,11 +758,19 @@ Oh, and take Monia, as promised, she good to you. Now best go.'</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="66" positionX="-1292" positionY="-2588" width="480" height="503" radius="3" settlementID="SET-CAVE_RED" destroyOwner="false" linkedEventUniqueID="22">
-      <outputs ownerID="66" targetID="67" fromX="-843" fromY="-3020" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="66" positionX="-689" positionY="-2400" width="480" height="503" radius="3" settlementID="SET-CAVE_RED" destroyOwner="true" linkedEventUniqueID="22">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-MAIN74" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="66" targetID="68" fromX="-240" fromY="-2832" />
     </nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="67" positionX="-685" positionY="-2750" width="480" height="503" radius="4" groupID="GROUP-BANDITS_5P_4M_3S" destroyOwner="true" linkedEventUniqueID="27">
-      <outputs ownerID="67" targetID="68" fromX="-236" fromY="-3182" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="67" positionX="-1327" positionY="-2430" width="480" height="583" radius="4" groupID="GROUP-BANDITS_5P_4M_3S" destroyOwner="false" linkedEventUniqueID="27">
+      <outputs ownerID="67" targetID="66" group="G1" fromX="-878" fromY="-2862" />
+      <outputs ownerID="67" targetID="68" group="G1" fromX="-878" fromY="-2942" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="68" positionX="-74" positionY="-2957" width="350" height="530" allPlayersXP="6" allPlayersRP="5" logBookName="QUEST_MQ_SCAVENGERS" logBookDescription="QUEST_MQ_SCAVENGERS7_DES" linkedEventUniqueID="0">
       <logic>
@@ -2757,8 +2765,8 @@ He leaves with his men.</nodes>
 You are not able to spot much from a safe distance, but you see regular patrols of fairly well-armed folk.</nodes>
     <nodes xsi:type="NodeChallenge" ID="4" positionX="1134" positionY="1109" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_BANDITMIX_7P_6M_6S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="4" targetID="21" fromX="1575" fromY="613" />
-      <outputs name="Lose" ownerID="4" targetID="29" fromX="1575" fromY="533" />
-      <outputs name="Surrender" ownerID="4" targetID="29" fromX="1575" fromY="453" />
+      <outputs name="Lose" ownerID="4" targetID="29" fromX="1150" fromY="533" />
+      <outputs name="Surrender" ownerID="4" targetID="29" fromX="1150" fromY="533" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1294" positionY="2" width="350" height="966">
       <logic>
@@ -2953,10 +2961,18 @@ You find some goods, and even some cages where livestock and people were held. S
 'Splendid! My oh my, I never did think you'd go this way. 
 
 So, the cave entrance is now clear. I will go in first, make way and mark it for you on the map. Come join me if you want to find out more about the Shattering.'</nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="27" positionX="4480" positionY="1424" width="480" height="503" radius="2" settlementID="SET-CAVE" destroyOwner="false" linkedEventUniqueID="22">
-      <outputs ownerID="27" targetID="92" fromX="4928" fromY="991" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="27" positionX="4531" positionY="1390" width="480" height="503" radius="2" settlementID="SET-CAVE" destroyOwner="false" linkedEventUniqueID="22">
+      <outputs ownerID="27" targetID="92" fromX="4978" fromY="958" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="5724" positionY="1572" width="350" height="530" allPlayersXP="7" allPlayersRP="4" logBookName="QUEST_MQ_BANDITLAIR" logBookDescription="QUEST_MQ_BANDITLAIR_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="5724" positionY="1572" width="350" height="530" allPlayersXP="7" allPlayersRP="4" logBookName="QUEST_MQ_BANDITLAIR" logBookDescription="QUEST_MQ_BANDITLAIR_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-MAIN74" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
     <nodes xsi:type="NodeAdventure" ID="29" positionX="2850" positionY="604" width="350" height="805">
       <logic>
         <FilterBlock>
@@ -3472,7 +3488,7 @@ He rushes off.</nodes>
 He departs.</nodes>
     <nodes xsi:type="NodeAdventure" ID="85" positionX="2974" positionY="-243" width="350" height="805">
       <outputs name="Nod and leave." ownerID="85" targetID="31" group="G1" fromX="3299" fromY="-734" />
-      <outputs name="Nod and leave." ownerID="85" targetID="32" group="G1" fromX="3299" fromY="-814" />As you escape, the Alchemist approaches you:
+      <outputs name="Nod and leave." ownerID="85" targetID="32" group="G1" fromX="2955" fromY="-814" />As you escape, the Alchemist approaches you:
 
 'Oh my, you went in with a hammer, didn't you... hmm. Fat chance of getting in that way.
 
@@ -3683,7 +3699,7 @@ We will of course go and confirm. I am reluctant to trust strangers, but let us 
       </logic>
       <outputs ownerID="107" targetID="108" fromX="5589" fromY="567" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="108" positionX="5748" positionY="978" width="350" height="530" allPlayersXP="7" allPlayersRP="4" logBookName="QUEST_MQ_BANDITLAIR" logBookDescription="QUEST_MQ_BANDITLAIR8_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="108" positionX="5748" positionY="978" width="350" height="530" allPlayersXP="7" allPlayersRP="4" logBookName="QUEST_MQ_BANDITLAIR" logBookDescription="QUEST_MQ_BANDITLAIR8_DES" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="BabaYaga4" uniqueID="20" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="78" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-25" positionY="95" width="347" height="1062" image="Event124">
@@ -4338,8 +4354,8 @@ As you move forwards, you see gold ore that shouldn't glimmer but it does, as if
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="[Runemaster]Try to read the runes." ownerID="8" targetID="10" fromX="1712" fromY="-1334" />
-      <outputs name="[Light]Call upon the lord of light." ownerID="8" targetID="9" fromX="1712" fromY="-1414" />The gold is warm to the touch and its surface is indeed polished, even though some of it is clearly not mined yet.
+      <outputs name="[Runemaster]Try to read the runes." ownerID="8" targetID="10" fromX="1710" fromY="-1331" />
+      <outputs name="[Light]Call upon the lord of light." ownerID="8" targetID="9" fromX="1710" fromY="-1411" />The gold is warm to the touch and its surface is indeed polished, even though some of it is clearly not mined yet.
 
 As you run your fingers over the metal, it whispers to you, and you recognise not only dwarven runes but also a touch of Svarog's blessing lingering in these walls.</nodes>
     <nodes xsi:type="NodeAdventure" ID="9" positionX="1306" positionY="-1665" width="350" height="885">
@@ -4366,8 +4382,8 @@ In this flash, you know instantly that Svarog's touch protects this place. But w
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Proceed with caution and weapons drawn." ownerID="10" targetID="13" fromX="2248" fromY="-1191" />
-      <outputs name="Call out to whomever resides here. Tell them you are here to make a deal, not fight." ownerID="10" targetID="15" fromX="2248" fromY="-1271" />The runes are strong, but they were clearly made by a young runemaster, or perhaps one in too great a hurry to do their job properly! 
+      <outputs name="Proceed with caution and weapons drawn." ownerID="10" targetID="13" fromX="2247" fromY="-1191" />
+      <outputs name="Call out to whomever resides here. Tell them you are here to make a deal, not fight." ownerID="10" targetID="15" fromX="2247" fromY="-1271" />The runes are strong, but they were clearly made by a young runemaster, or perhaps one in too great a hurry to do their job properly! 
 
 As shoddy a job as it is, the runes are meant to absorb the pure energy of light onto the gold ore and then into the ground. </nodes>
     <nodes xsi:type="NodeAdventure" ID="11" positionX="2003" positionY="-1784" width="350" height="805">
@@ -4583,7 +4599,7 @@ With their vitality, we can do much. We have a yaga with us, she'll do us an ill
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="40" positionX="6514" positionY="-3098" width="350" height="725">
       <outputs name="Deal. Leave." ownerID="40" targetID="41" fromX="6839" fromY="-3589" />'Wonderful. We will hide for now, allow you better access. Beware, though - we do not make such deals twice, so you make it, you stick to it. You break it, we will never speak again. So you go lie to them, you speak the word and we come to help. Good luck.'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="41" positionX="7466" positionY="-3236" width="350" height="530" allPlayersXP="5" allPlayersRP="2" logBookName="QUEST_MQ_MINE" logBookDescription="QUEST_MQ_MINE3_DES" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="41" positionX="7292" positionY="-3688" width="350" height="530" allPlayersXP="5" allPlayersRP="2" logBookName="QUEST_MQ_MINE" logBookDescription="QUEST_MQ_MINE3_DES" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -4640,8 +4656,8 @@ You hear the clutter of claws and snarling getting more aggressive. You know you
     <nodes xsi:type="NodeAdventure" ID="49" positionX="4095" positionY="1425" width="350" height="725">
       <outputs name="Why?" ownerID="49" targetID="19" fromX="4420" fromY="933" />'Hmm, yes, you seem fair. Like I said, we guard against light and the bastards.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="50" positionX="3660" positionY="674" width="350" height="805">
-      <outputs name="Leave to regroup." ownerID="50" targetID="51" fromX="3986" fromY="191" />
-      <outputs name="Attack!" ownerID="50" targetID="53" fromX="3986" fromY="111" />'Your words smell of deceit. I can taste those red-ridge scumbags on your breath! 
+      <outputs name="Leave to regroup." ownerID="50" targetID="51" fromX="3985" fromY="182" />
+      <outputs name="Attack!" ownerID="50" targetID="53" fromX="3985" fromY="102" />'Your words smell of deceit. I can taste those red-ridge scumbags on your breath! 
 
 Leave or die!'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="4164" positionY="580" width="350" height="530" logBookName="QUEST_MQ_MINE" logBookDescription="QUEST_MQ_MINE8_DES" linkedEventUniqueID="0">
@@ -4688,6 +4704,9 @@ Leave or die!'</nodes>
         <ModifierBlock>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="1" tag="TAG-MAIN8" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-MAIN4" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -4809,7 +4828,7 @@ With their vitality, we can do much. We have a yaga with us, she'll do us an ill
       </logic>
       <outputs name="Agree." ownerID="69" targetID="40" fromX="3678" fromY="-2465" />
       <outputs name="Disagree. Ask if there is any other way to convince them to leave this mine." ownerID="69" targetID="23" fromX="3678" fromY="-2545" />
-      <outputs name="Refuse and just attack!" ownerID="69" targetID="53" fromX="3678" fromY="-2625" />'You're back, so let me remind you of our dealings. The case is simple. The red-ridge bandits take us, cage us, and sell us. We want them dead. We can help you do the deed, but we need you to do the heavy work. Kill the bandits, and we both get what we want.'</nodes>
+      <outputs name="Refuse and just attack!" ownerID="69" targetID="53" fromX="3678" fromY="-2465" />'You're back, so let me remind you of our dealings. The case is simple. The red-ridge bandits take us, cage us, and sell us. We want them dead. We can help you do the deed, but we need you to do the heavy work. Kill the bandits, and we both get what we want.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="70" positionX="-519" positionY="-68" width="350" height="725">
       <logic>
         <FilterBlock>
@@ -4933,8 +4952,8 @@ I see two ways. We can work on a mystical solution or, well, bash it.'</nodes>
         </FilterBlock>
       </logic>
       <outputs name="Win" ownerID="10" targetID="12" fromX="2784" fromY="609" />
-      <outputs name="Lose" ownerID="10" targetID="15" fromX="2359" fromY="529" />
-      <outputs name="Surrender" ownerID="10" targetID="15" fromX="2359" fromY="529" />
+      <outputs name="Lose" ownerID="10" targetID="15" fromX="2784" fromY="529" />
+      <outputs name="Surrender" ownerID="10" targetID="15" fromX="2784" fromY="449" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="11" positionX="3544" positionY="1244" width="350" height="725">
       <outputs name="Take a look around. " ownerID="11" targetID="13" fromX="3869" fromY="752" />For a time, you are sure the membrane will not break. With every swing, the odd substance simply repairs itself, and the gooey slime stings your skin and hurts your spirit. 
@@ -5011,8 +5030,8 @@ Through magic, you can weaken the weaves and thus hopefully walk through.</nodes
 You uncover the mechanism that should open the barrier, but it will not be easy to master.</nodes>
     <nodes xsi:type="NodeChallenge" ID="20" positionX="2452" positionY="-614" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_3M_0S" challengeScale="300" challengedList="ppl">
       <outputs name="Win" ownerID="20" targetID="22" fromX="2893" fromY="-1109" />
-      <outputs name="Lose" ownerID="20" targetID="26" fromX="2893" fromY="-1189" />
-      <outputs name="Surrender" ownerID="20" targetID="26" fromX="2893" fromY="-1269" />
+      <outputs name="Lose" ownerID="20" targetID="26" fromX="2468" fromY="-1189" />
+      <outputs name="Surrender" ownerID="20" targetID="26" fromX="2468" fromY="-1189" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="21" positionX="3604" positionY="-287" width="350" height="725">
       <outputs name="Take a look around. " ownerID="21" targetID="13" fromX="3929" fromY="-778" />Carefully, you unravel the complex weaves that keep the barrier up, and the whole thing collapses, allowing you to enter.</nodes>
@@ -7892,7 +7911,7 @@ They move on, and you gain the friendship of those who sent you here.
     <nodes xsi:type="NodeAdventure" ID="11" positionX="1789.41174" positionY="355.919952" width="350" height="681">
       <outputs name="Leave." ownerID="11" targetID="6" fromX="2115" fromY="-91" />'Good trading with you. Gods be with you.'</nodes>
   </Adventure>
-  <Adventure name="TrappedDwarf6" uniqueID="36" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="81" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+  <Adventure name="TrappedDwarf6" uniqueID="36" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="82" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-652" positionY="149" width="347" height="821" image="Event001">
       <outputs ownerID="1" targetID="77" group="G1" fromX="-327" fromY="-454" />
       <outputs ownerID="1" targetID="51" group="G1" fromX="-327" fromY="-534" />
@@ -8233,7 +8252,7 @@ You are suddenly very aware that the walls around you are not walls. They have e
       <outputs name="Lose" ownerID="35" targetID="49" fromX="8772" fromY="-566" />
       <outputs name="Surrender" ownerID="35" targetID="47" fromX="8772" fromY="-646" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="36" positionX="5745" positionY="-2094" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_TROLL_MIX_9P_7M_7S" challengeScale="101" challengedList="nppl">
+    <nodes xsi:type="NodeChallenge" ID="36" positionX="5808" positionY="-2465" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_TROLL_MIX_9P_7M_7S" challengeScale="101" challengedList="nppl">
       <logic>
         <FilterBlock>
           <LogicFilter name="nppl" makePublic="true">
@@ -8241,11 +8260,11 @@ You are suddenly very aware that the walls around you are not walls. They have e
           </LogicFilter>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="36" targetID="62" fromX="6186" fromY="-2589" />
-      <outputs name="Lose" ownerID="36" targetID="57" fromX="6186" fromY="-2669" />
-      <outputs name="Surrender" ownerID="36" targetID="61" fromX="6186" fromY="-2749" />
+      <outputs name="Win" ownerID="36" targetID="62" fromX="6249" fromY="-2960" />
+      <outputs name="Lose" ownerID="36" targetID="57" fromX="6249" fromY="-3040" />
+      <outputs name="Surrender" ownerID="36" targetID="61" fromX="6249" fromY="-3120" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="37" positionX="7844" positionY="-867" width="500" height="726" challengeType="TypeSpirit" versusGroup="GROUP-Q_TROLL_MIX_9P_7M_7S" challengeScale="101" challengedList="nppl">
+    <nodes xsi:type="NodeChallenge" ID="37" positionX="7770" positionY="-761" width="500" height="726" challengeType="TypeSpirit" versusGroup="GROUP-Q_TROLL_MIX_9P_7M_7S" challengeScale="101" challengedList="nppl">
       <logic>
         <FilterBlock>
           <LogicFilter name="nppl">
@@ -8256,9 +8275,9 @@ You are suddenly very aware that the walls around you are not walls. They have e
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="37" targetID="54" fromX="8285" fromY="-1362" />
-      <outputs name="Lose" ownerID="37" targetID="57" fromX="8285" fromY="-1442" />
-      <outputs name="Surrender" ownerID="37" targetID="48" fromX="8285" fromY="-1522" />
+      <outputs name="Win" ownerID="37" targetID="54" fromX="8245" fromY="-1256" />
+      <outputs name="Lose" ownerID="37" targetID="57" fromX="8245" fromY="-1336" />
+      <outputs name="Surrender" ownerID="37" targetID="48" fromX="8245" fromY="-1416" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="38" positionX="9010" positionY="460" width="350" height="885">
       <logic>
@@ -8700,7 +8719,7 @@ The dungeon was clearly designed to keep some large creatures captive. You spot 
     <nodes xsi:type="NodeSpawnOnMap" ID="79" positionX="-1733" positionY="-215" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="79" targetID="78" fromX="-1284" fromY="-647" />
     </nodes>
-    <nodes xsi:type="NodeProduceDrop" ID="80" positionX="4955" positionY="-2171" width="460" height="429">
+    <nodes xsi:type="NodeProduceDrop" ID="80" positionX="4953" positionY="-2227" width="460" height="429">
       <logic>
         <FilterBlock>
           <LogicFilter name="ail">
@@ -8719,9 +8738,9 @@ The dungeon was clearly designed to keep some large creatures captive. You spot 
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="80" targetID="36" fromX="5385" fromY="-2529" />
+      <outputs ownerID="80" targetID="36" fromX="5383" fromY="-2585" />
     </nodes>
-    <nodes xsi:type="NodeProduceDrop" ID="81" positionX="4945" positionY="-1703" width="460" height="429">
+    <nodes xsi:type="NodeProduceDrop" ID="81" positionX="4916" positionY="-1632" width="460" height="429">
       <logic>
         <FilterBlock>
           <LogicFilter name="ail">
@@ -8740,7 +8759,19 @@ The dungeon was clearly designed to keep some large creatures captive. You spot 
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="81" targetID="37" fromX="5376" fromY="-2061" />
+      <outputs ownerID="81" targetID="82" fromX="5346" fromY="-1990" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="82" positionX="5565" positionY="-1538" width="500" height="726" challengeType="TypeSpirit" versusGroup="GROUP-Q_TROLL_MIX_9P_7M_7S" challengeScale="101" challengedList="nppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="nppl">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="82" targetID="54" fromX="6006" fromY="-2033" />
+      <outputs name="Lose" ownerID="82" targetID="57" fromX="6006" fromY="-2113" />
+      <outputs name="Surrender" ownerID="82" targetID="48" fromX="6006" fromY="-2193" />
     </nodes>
   </Adventure>
   <Adventure name="Redcave1" uniqueID="37" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="15" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
@@ -10040,8 +10071,8 @@ They depart this place.</nodes>
       <outputs name="Proceed to the tree." ownerID="48" targetID="37" fromX="-170" fromY="-33" />You return to where the druid-tree lies in black mist. The shadow elves you attacked previously are gone.
 </nodes>
   </Adventure>
-  <Adventure name="NyiasCult" uniqueID="41" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="29" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-5" positionY="104" width="347" height="661" image="Event046">
+  <Adventure name="NyiasCult" uniqueID="41" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="29" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="WholeWorld">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-14" positionY="197" width="347" height="783" image="Event046">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -10055,7 +10086,7 @@ They depart this place.</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="15" fromX="319" fromY="-499" />
+      <outputs ownerID="1" targetID="15" fromX="309" fromY="-527" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="431" positionY="-195" width="350" height="885" image="Event038">
       <outputs name="Ask them why they helped you." ownerID="2" targetID="5" group="G1" fromX="756" fromY="-686" />
@@ -11362,9 +11393,9 @@ And if you do not want to build a village, you may use the seed to craft a speci
       </logic>
     </nodes>
   </Adventure>
-  <Adventure name="Lightbringers" uniqueID="46" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="16" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event208">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Lightbringers" uniqueID="46" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="16" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="WholeWorld">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event208">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="458" positionY="-204" width="350" height="1046">
       <logic>

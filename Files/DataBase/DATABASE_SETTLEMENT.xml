@@ -603,10 +603,9 @@
 		<SpawnGroup Group="GROUP-TROLL_LAVA_MIX_9P_7M_10S"/>
 		<DefaultDefender Group="GROUP-TROLL_LAVA_ONE_9P_6M_9S"/>
 		<DefaultDefender Group="GROUP-TROLL_LAVA_MIX_9P_7M_10S"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
 	</SET-TROLL_NEST_VULCANIC>
 	<SET-UNI_NEST_DEF1 Rarity="0">
 		<DescriptionInfo Name="DES_SET_UNI_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -680,6 +679,63 @@
 		<DefaultDefender Group="GROUP-BANDITS_4P_3M_1S"/>
 		<DefaultDefender Group="GROUP-BANDITS_5P_4M_3S"/>
 	</SET-WEAK_BANDITS_LAIR>
+	<SET-UNLI_DRAGON_NEST Rarity="0">
+		<DescriptionInfo Name="DES_SET_UNLI_DRAGON_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<TerrainModel Value="UnliDragonCave1"/>
+		<SpawnGroup Group="GROUP-UNLI_DRAGON_ONE_7P_7M_7S"/>
+		<SpawnGroup Group="GROUP-UNLI_DRAGONS_10P_11M_10S"/>
+		<DefaultDefender Group="GROUP-UNLI_DRAGONS_10P_11M_10S"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS3" Requirement="NecessaryType"/>
+	</SET-UNLI_DRAGON_NEST>
+	<SET-DRAGON_NEST Rarity="0">
+		<DescriptionInfo Name="DES_SET_DRAGON_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<TerrainModel Value="DragonCave2"/>
+        <EventsCollection Value="EVENTC-BEAST_NEST"/>
+		<SpawnGroup Group="GROUP-DRAGON_ONE_10P_8M_8S"/>
+		<SpawnGroup Group="GROUP-DRAGONS_13P_11M_11S"/>
+		<DefaultDefender Group="GROUP-DRAGONS_13P_11M_11S"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-GRAY_ASH1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-GRAY_ASH2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-BLACK_ASH1" Requirement="NecessaryType"/>
+	</SET-DRAGON_NEST>
+	<SET-DRAGON_ZMEY_NEST Rarity="0">
+		<DescriptionInfo Name="DES_SET_DRAGON_ZMEY_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<TerrainModel Value="DragonCave2"/>
+        <EventsCollection Value="EVENTC-BEAST_NEST"/>
+		<SpawnGroup Group="GROUP-DRAGON_ONE_10P_8M_8S"/>
+		<SpawnGroup Group="GROUP-ZMEY_ONE_8P_10M_9S"/>
+		<SpawnGroup Group="GROUP-DRAGON_ZMEYS_11P_12M_11S"/>
+		<DefaultDefender Group="GROUP-DRAGON_ZMEYS_11P_12M_11S"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="NecessaryType"/>
+	</SET-DRAGON_ZMEY_NEST>
+	<SET-ZMEY_DRAGON_NEST Rarity="0">
+		<DescriptionInfo Name="DES_SET_ZMEY_DRAGON_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<TerrainModel Value="DragonCave1"/>
+        <EventsCollection Value="EVENTC-BEAST_NEST"/>
+		<SpawnGroup Group="GROUP-DRAGON_ONE_10P_8M_8S"/>
+		<SpawnGroup Group="GROUP-ZMEY_ONE_8P_10M_9S"/>
+		<SpawnGroup Group="GROUP-ZMEY_DRAGONS_11P_12M_11S"/>
+		<DefaultDefender Group="GROUP-ZMEY_DRAGONS_11P_12M_11S"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS5" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="NecessaryType"/>
+	</SET-ZMEY_DRAGON_NEST>
 	
 	<SET-LIGHTBRINGERS_SPAWN_1 Rarity="10">
 		<DescriptionInfo Name="DES_LIGHTBRINGERS_SPAWN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>

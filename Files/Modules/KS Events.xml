@@ -2200,13 +2200,6 @@ The other goblins roll their eyes at her, except for one. A bearded, bulky fello
   </Adventure>
   <Adventure name="Fli Catapult Spwn2" uniqueID="9" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="7" eventTag="TAG-LOG7" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="12" positionY="-3" width="347" height="661" image="Event309">
-      <logic>
-        <FilterBlock>
-          <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-DARKNESS" />
-          </LogicResultAction>
-        </FilterBlock>
-      </logic>
       <outputs ownerID="1" targetID="2" fromX="336" fromY="-606" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="416" positionY="-101" width="350" height="805">

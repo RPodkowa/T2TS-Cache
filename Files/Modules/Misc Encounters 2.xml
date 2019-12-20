@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Misc Encounters 2" lastEventIndex="54" allowToUse="true" uniqueModuleID="-351469709">
   <Adventure name="SkshackAndHohlick4" uniqueID="19" allowOnce="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="1" nodeIdMax="33" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event009">
@@ -107,7 +107,7 @@ You feel ill. You also find some brown fur. Leopold?
 It stares at you in disbelief, laughs, throws up all over you with green gooish phlegm that spreads all over you and causes you to gag and likely get ill.
 
 As you swear at it, the creature shows the middle finger, but not to you, to someone or something up in the skies. Then it runs off.  </nodes>
-    <nodes xsi:type="NodeDealDamage" ID="24" positionX="700" positionY="-2269" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="30" maxDamage="50" useCountInPercent="true" targetGroup="warr">
+    <nodes xsi:type="NodeDealDamage" ID="24" positionX="700" positionY="-2269" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="30" maxDamage="50" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="24" targetID="10" fromX="1129" fromY="-2657" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="2091" positionY="-2727" width="350" height="455" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
@@ -970,7 +970,7 @@ They hide back in their houses and point in the direction where they last saw Zb
       </logic>
       <outputs name="Fools. Show them what wrath of the gods really means, attack!" ownerID="14" targetID="8" fromX="2669" fromY="-1336" />
       <outputs name="Nod and say that you know full well the games gods play with their chosen and their kin, but both you and they are fated to play along or perish. Ask where this Zbigniev is." ownerID="14" targetID="9" fromX="2669" fromY="-1416" />
-      <outputs name="Say that you are not interested in their excuses, where is this Zbigniev?" ownerID="14" targetID="9" fromX="2669" fromY="-1496" />They cower before your anger, but one of them remains defiant despite it all:
+      <outputs name="Say that you are not interested in their excuses, where is this Zbigniev?" ownerID="14" targetID="9" fromX="2669" fromY="-1336" />They cower before your anger, but one of them remains defiant despite it all:
 
 'We are simple folk and do not understand this balance of yours. Darkness was bad, light is good. We followed it because our chosen said so. It made sense.'
 </nodes>
@@ -1059,15 +1059,7 @@ That is all from me for now. The gods will call upon you again soon enough. For 
       <outputs name="Lose" ownerID="27" targetID="26" fromX="-892" fromY="585" />
       <outputs name="Surrender" ownerID="27" targetID="26" fromX="-892" fromY="505" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="2914" positionY="1412" width="350" height="530" allPlayersXP="4" allPlayersRP="2" logBookName="QUEST_THEO_HERESY" logBookDescription="QUEST_THEO_HERESY2_DES" linkedEventUniqueID="0" endOfQuest="true">
-      <logic>
-        <ModifierBlock>
-          <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-MAIN74" />
-          </LogicModifiers>
-        </ModifierBlock>
-      </logic>
-    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="2914" positionY="1412" width="350" height="530" allPlayersXP="4" allPlayersRP="2" logBookName="QUEST_THEO_HERESY" logBookDescription="QUEST_THEO_HERESY2_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventure" ID="30" positionX="1893" positionY="-1360" width="350" height="885">
       <logic>
         <FilterBlock>

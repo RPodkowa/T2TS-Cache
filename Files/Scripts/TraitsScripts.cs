@@ -266,6 +266,102 @@ namespace GameScript
                 player.unlockedTechs.Add(v.dbName);
             }
         }
+        static public void Tra_Brainer(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-BRAINER", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        static public void Tra_FriendlyFace(SPlayer player)
+        {
+            Attributes attributes = GameInstance.Get().sharedAttributes;
+            attributes.SetBaseTo(TAG.LOYALTY_FOREST_DEMONS, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_ICE_DEMONS, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_WATER_DEMONS, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_SLAVYAN, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_SCAVENGERS, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_WOODLAND_KIN, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_SHADOW_KIN, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_EARTHBOUND, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_SPIRIT_TALKERS, 5);
+            attributes.SetBaseTo(TAG.LOYALTY_STINGERS, 5);
+        }
+        static public void Tra_FriendOfTheForest(SPlayer player)
+        {
+            Attributes attributes = GameInstance.Get().sharedAttributes;
+            attributes.SetBaseTo(TAG.LOYALTY_FOREST_DEMONS, 18);
+            attributes.SetBaseTo(TAG.LOYALTY_WOODLAND_KIN, 18);
+        }
+        static public void Tra_SealOfStrength(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-SEAL_OF_STRENGTH", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        static public void Tra_NaturalArmour(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-NATURAL_ARMOUR", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        static public void Tra_Lightening(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-SPARK", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 #endif

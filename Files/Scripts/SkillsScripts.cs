@@ -203,7 +203,6 @@ namespace GameScript
                     FInt pow = data.t0.GetSkillCastingStrength(data.t1);
                     inspirePower = inspirePower * pow;
                     inspirePower *= 0.1f;
-                    inspirePower.CutToInt();
                 }
                 string inspireMod = "<sprite name=DamageInspire>" + inspirePower;
 
@@ -232,13 +231,9 @@ namespace GameScript
                 {
                     pow = GameplayUtils.GetDamageMultiplierFInt(character.GetAttribute(mainAtt));
                 }
-                FInt baseValue = inspirePower * modifier;
-                baseValue.CutToInt();
-                FInt finalValue = (modifier * inspirePower * pow) * 0.1f;
-                finalValue.CutToInt();
 
-                return SI_DefaultAttributeTrioChange(info) 
-                    + "<sprite name=DamageInspire>" + baseValue + "(" + finalValue + ")";
+                return SI_DefaultAttributeTrioChange(info)
+                    + "<sprite name=DamageInspire>" + inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")";
             }
         }
 
@@ -556,7 +551,6 @@ namespace GameScript
                     FInt pow = data.t0.GetSkillCastingStrength(data.t1);
                     inspirePower = inspirePower * pow;
                     inspirePower *= 0.1f;
-                    inspirePower.CutToInt();
                 }
                 return inspirePower + "<sprite name=DelayIcon>" + inspireSpeed;
             }
@@ -588,11 +582,8 @@ namespace GameScript
                         pow = GameplayUtils.GetDamageMultiplierFInt(character.GetAttribute(mainAtt));
                     }
                 }
-                FInt baseValue = inspirePower * modifier;
-                baseValue.CutToInt();
-                FInt finalValue = (modifier * inspirePower * pow) * 0.1f;
-                finalValue.CutToInt();
-                return baseValue + "("+ finalValue + ")<sprite name=DelayIcon>" + inspireSpeed;
+
+                return inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed;
             }
         }
 
@@ -649,7 +640,6 @@ namespace GameScript
                     FInt pow = data.t0.GetSkillCastingStrength(data.t1);
                     inspirePower = inspirePower * pow;
                     inspirePower *= 0.1f;
-                    inspirePower.CutToInt();
                 }
                 return inspirePower  + "<sprite name=DelayIcon>" + "+" + inspireSpeed;
             }
@@ -682,11 +672,7 @@ namespace GameScript
                     }
                 }
 
-                FInt baseValue = inspirePower * modifier;
-                baseValue.CutToInt();
-                FInt finalValue = (modifier * inspirePower * pow) * 0.1f;
-                finalValue.CutToInt();
-                return baseValue + "(" + finalValue + ")<sprite name=DelayIcon>" + inspireSpeed;
+                return inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed;
             }
         }
         static public string SI_BloodySacrifice(object info)
@@ -2531,7 +2517,6 @@ namespace GameScript
                 FInt pow = owner.GetSkillCastingStrength(ns);
                 inspirePower = inspirePower * pow;
                 inspirePower *= 0.1f;
-                inspirePower.CutToInt();
             }
 
             NetCard target = null;
@@ -2590,7 +2575,6 @@ namespace GameScript
                 FInt pow = owner.GetSkillCastingStrength(ns);
                 inspirePower = inspirePower * pow;
                 inspirePower *= 0.1f;
-                inspirePower.CutToInt();
             }
 
             NetCard target = null;
@@ -3243,7 +3227,6 @@ namespace GameScript
                 FInt pow = owner.GetSkillCastingStrength(ns);
                 inspirePower = inspirePower * pow;
                 inspirePower *= 0.1f;
-                inspirePower.CutToInt();
             }
 
             NetCard target = null;
@@ -3351,7 +3334,6 @@ namespace GameScript
             FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
             FInt multipier = ns.GetFloatAttribute("DmgMulti");
             FInt sacrificeHp = (owner.GetCA_HEALTH() + owner.GetCA_SHIELD()) * sacrifice;
-            sacrificeHp.CutToInt();
             FInt damage = sacrificeHp * multipier;
 
             // sacrifice health

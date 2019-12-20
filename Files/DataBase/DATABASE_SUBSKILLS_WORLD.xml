@@ -1176,6 +1176,37 @@
 			<SubskillAttribute Identifier="TAG-RITUALS" AttributeStringValue="+" AttributeFloatValue="9.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-ADD_RITUALS>
+	<SUBSKILL-ADD_VWEAK_PERSONAL_CARRY Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_PERSONAL_CARRY" Description="DES_SUBSKILL_ADD_PERSONAL_CARRY_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_PERSONAL_CARRY" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="10.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="20.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="30.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="40.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="50.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-ADD_VWEAK_PERSONAL_CARRY>
 	<SUBSKILL-ADD_PERSONAL_CARRY Delay="0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_PERSONAL_CARRY" Description="DES_SUBSKILL_ADD_PERSONAL_CARRY_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_PERSONAL_CARRY" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -1207,6 +1238,43 @@
 			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="200.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-ADD_PERSONAL_CARRY>
+	<SUBSKILL-ADD_WEAK_SHIELDING_PHYSICAL_MENTAL Delay="0.0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_SHIELDING_PHYSICAL_MENTAL" Description="DES_SUBSKILL_ADD_SHIELDING_PHYSICAL_MENTAL_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="5.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="11.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="11.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="15.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="15.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-ADD_WEAK_SHIELDING_PHYSICAL_MENTAL>
 
   <SUBSKILL-MP_GROUP_CARRY_KH Delay="0" Animation="" Sound="">
     <DescriptionInfo Name="DES_SUBSKILL_MP_GROUP_CARRY" Description="DES_SUBSKILL_MP_GROUP_CARRY_DES" IconName="SubskillAddAttribute"/>
@@ -4055,6 +4123,42 @@
 			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="4.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_ADD_SHIELDING_MENTAL>
+	<SUBSKILL-CONST_STRONG_SHIELDING_P_M Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_SHIELDING_PHYSICAL_MENTAL" Description="DES_SUBSKILL_ADD_SHIELDING_PHYSICAL_MENTAL_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_STRONG_SHIELDING_P_M>
 	<SUBSKILL-CONST_ADD_WITS Delay="0.0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_WITS" Description="DES_PLACEHOLDER_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_WITS" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -4117,6 +4221,37 @@
 			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="1.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_WEAK_ADD_STRENGTH>
+	<SUBSKILL-CONST_ADD_STRENGTH Delay="0.0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_STRENGTH" Description="DES_PLACEHOLDER_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_STRENGTH" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_ADD_STRENGTH>
 	<SUBSKILL-CONST_STRONG_ADD_STRENGTH Delay="0.0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_STRENGTH" Description="DES_PLACEHOLDER_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_STRENGTH" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -4242,8 +4377,8 @@
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_ADD_INTELLIGENCE>
 	<SUBSKILL-CONST_ADD_WISDOM Delay="0.0" Animation="" Sound="">
-		<DescriptionInfo Name="DES_SUBSKILL_ADD_INTELLIGENCE" Description="DES_PLACEHOLDER_DES" IconName="SubskillAddAttribute"/>
-        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_INTELLIGENCE" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_WISDOM" Description="DES_PLACEHOLDER_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_WISDOM" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
 		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
 			<TriggerGroup Value="Passive"/>
 			<TriggerScript ScriptName=""/>
@@ -4611,6 +4746,38 @@
 			<SubskillAttribute Identifier="TAG-HEALTH_SPIRIT" AttributeStringValue="+" AttributeFloatValue="1.0"/>
         </SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_GROUP_HEAL_S>
+	
+	<SUBSKILL-CONST_NIGHT_MOVEMENT_RANGE Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_GROUP_ADD_MOVEMENT" Description="DES_SUBSKILL_GROUP_ADD_MOVEMENT_DES" IconName="SubskillAddMovementBuilding"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_GROUP_ON_START_TURN" DamageIcon="TAG-DAMAGE_NIGHT_POWER" TargetIcon="TAG-TARGET_SELF_GROUP" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+		</Targets>
+		<Activation ScriptName="WAct_NightAttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MOVEMENT_RANGE" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MOVEMENT_RANGE" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MOVEMENT_RANGE" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MOVEMENT_RANGE" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MOVEMENT_RANGE" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-MOVEMENT_RANGE" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_NIGHT_MOVEMENT_RANGE>
+	
 	<SUBSKILL-CONST_MULTI_ADD_CRAFTING Delay="0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_CRAFTING" Description="DES_SUBSKILL_ADD_CRAFTING_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_CRAFTING" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>

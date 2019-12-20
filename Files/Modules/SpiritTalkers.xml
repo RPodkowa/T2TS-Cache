@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SpiritTalkers" lastEventIndex="75" allowToUse="true" uniqueModuleID="1987895295">
   <Adventure name="SpiritKillShelf" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="63" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event016">
@@ -3283,8 +3283,8 @@ The goblins are impressed with your efforts.
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Confirm" ownerID="15" targetID="20" group="G1" fromX="194" fromY="-1749" />
-      <outputs name="Cancel" ownerID="15" targetID="2" group="G1" fromX="194" fromY="-1830" />
+      <outputs name="Confirm" ownerID="15" targetID="20" fromX="194" fromY="-1749" />
+      <outputs name="Cancel" ownerID="15" targetID="2" fromX="194" fromY="-1830" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="18" positionX="2765.11377" positionY="70.95743" width="350" height="681">
       <outputs name="Leave." ownerID="18" targetID="10" fromX="3090" fromY="-376" />Eventually, you get rid of all the diseased bats.
@@ -3294,7 +3294,7 @@ The goblins are pleased with your efforts.
     <nodes xsi:type="NodeSpawnOnMap" ID="19" positionX="1891.91553" positionY="-691.4325" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="19" targetID="11" fromX="2340" fromY="-1123" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="20" positionX="363.770264" positionY="-1532.52454" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="363.770264" positionY="-1532.52454" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -3302,7 +3302,7 @@ The goblins are pleased with your efforts.
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="20" targetID="23" fromX="689" fromY="-1979" />You give the food away and lead the animals to another spot. 
+      <outputs name="Leave." ownerID="20" targetID="23" fromX="689" fromY="-2023" />You give the food away and lead the animals to another spot. 
 
 However, these are rabid animals, and not only do they eventually return, but the goblins are not impressed with you allowing the illness to spread on their land.
 

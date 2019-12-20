@@ -468,13 +468,6 @@ The spirit nods in agreement.</nodes>
   </Adventure>
   <Adventure name="Cemetery goblin D3" uniqueID="3" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="10" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="661" image="Event019">
-      <logic>
-        <FilterBlock>
-          <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-DARKNESS" />
-          </LogicResultAction>
-        </FilterBlock>
-      </logic>
       <outputs ownerID="1" targetID="3" fromX="143" fromY="-845" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="475.2423" positionY="-53.8071976" width="350" height="1126">
@@ -6824,18 +6817,8 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="cemetery orc D5" uniqueID="23" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="5" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="704" image="Event020">
-      <logic>
-        <FilterBlock>
-          <LogicResultAction resultGroup="G1">
-            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-VOLCANIC" />
-          </LogicResultAction>
-          <LogicResultAction resultGroup="G1">
-            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-METALLIC" />
-          </LogicResultAction>
-        </FilterBlock>
-      </logic>
-      <outputs ownerID="1" targetID="3" fromX="143" fromY="-887" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="661" image="Event020">
+      <outputs ownerID="1" targetID="3" fromX="143" fromY="-845" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="475.2423" positionY="-53.8071976" width="350" height="1046">
       <outputs name="Have a closer look." ownerID="3" targetID="5" group="G1" fromX="800" fromY="-544" />
@@ -6843,7 +6826,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
       <outputs name="Have a closer look." ownerID="3" targetID="7" group="G1" fromX="800" fromY="-705" />
       <outputs name="Have a closer look." ownerID="3" targetID="8" group="G1" fromX="800" fromY="-785" />
       <outputs name="Have a closer look." ownerID="3" targetID="11" group="G1" fromX="800" fromY="-865" />You discover an orc burial ground. The setup is simple and pragmatic. There are funeral pyres and signs of a feast. Some pyres have ornaments and even basic weaponry, but they are clearly ornamental, rather than the good stuff.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1375.31079" positionY="-33.2711678" width="350" height="455" linkedEventUniqueID="36">
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1375.31079" positionY="-33.2711678" width="350" height="530" linkedEventUniqueID="36">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6857,7 +6840,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="944" positionY="15" width="350" height="455" linkedEventUniqueID="25">
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="944" positionY="15" width="350" height="530" linkedEventUniqueID="25">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6866,7 +6849,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="968.2176" positionY="-704.4817" width="350" height="455" linkedEventUniqueID="26">
+    <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="968.2176" positionY="-704.4817" width="350" height="530" linkedEventUniqueID="26">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6875,7 +6858,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="1590" positionY="-567" width="350" height="455" linkedEventUniqueID="29">
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="1590" positionY="-567" width="350" height="530" linkedEventUniqueID="29">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -10739,7 +10722,7 @@ The contraption then explodes.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="19" targetID="7" fromX="371" fromY="-1196" />
+      <outputs ownerID="19" targetID="7" fromX="354" fromY="-1186" />
     </nodes>
   </Adventure>
   <Adventure name="Hum Cem Diff1" uniqueID="41" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="1" nodeIdMax="24" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">

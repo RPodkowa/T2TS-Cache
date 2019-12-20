@@ -626,6 +626,10 @@
 		<Entry Key="DES_SUBRACE_HUM_WOJ_DES" Val="A seasoned fighter. Proficient in Physical challenges, strong and tough."/>
 		<Entry Key="DES_SUBRACE_HUM_CRAFTSMAN" Val="Human Craftsman"/>
 		<Entry Key="DES_SUBRACE_HUM_CRAFTSMAN_DES" Val="Specialises in crafting items and construction."/>
+		<Entry Key="DES_SUBRACE_HUM_CRAFTSMAN_NEEDLER" Val="Human Craftsman"/>
+		<Entry Key="DES_SUBRACE_HUM_CRAFTSMAN_NEEDLER_DES" Val="An odd shoemaker you met when a dragon attacked your people. He was determined to have a virgin princess as reward for his clever dragon slaying idea, but he settled for coming along with you."/>
+		<Entry Key="DES_SUBRACE_HUM_INVENTOR" Val="Human Inventor"/>
+		<Entry Key="DES_SUBRACE_HUM_INVENTOR_DES" Val="Specialises in inventing. They also know how to craft items and construct structures."/>
 		<Entry Key="DES_SUBRACE_HUM_GATHERER" Val="Human Gatherer"/>
 		<Entry Key="DES_SUBRACE_HUM_GATHERER_DES" Val="Swift hands and sharp eyes make them proficient at harvesting resources."/>
 		<Entry Key="DES_SUBRACE_HUM_HUNTER" Val="Human Hunter"/>
@@ -2556,7 +2560,7 @@
 		<Entry Key="DES_SKILL_SEEDS_GROW" Val="Grow Seeds"/>
 		<Entry Key="DES_SKILL_SEEDS_GROW_DES" Val="Pineconettes grow fast near Nai-Ysir..."/>
 		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE" Val="Pumpkin Hellfire"/>
-		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE_DES" Val="Your pumpkin is fragile like a glass bottle. But be warned that inside it there is hellfire hidden so you better not brake it!"/>
+		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE_DES" Val="Your pumpkin is fragile like a glass bottle. But be warned that inside it there is hellfire hidden so you better not break it!"/>
 		<Entry Key="DES_SKILL_VIGOUR_DRAIN" Val="Drain Vigour"/>
 		<Entry Key="DES_SKILL_VIGOUR_DRAIN_DES" Val="Attack that damages your target's combat attributes and makes yours stronger."/>
 		<Entry Key="DES_SKILL_OVERENCUMBERED" Val="Over Encumbered"/>
@@ -2734,6 +2738,16 @@
 		<Entry Key="DES_SKILL_CAMP_GATHERING_RANGE_DES" Val="Camping groups receive +1 gathering range."/>
 		<Entry Key="DES_SKILL_NIGHT_POWER" Val="Night Power"/>
 		<Entry Key="DES_SKILL_NIGHT_POWER_DES" Val="The character is blessed with the power of the night demons. During nights, they become more powerful."/>
+		<Entry Key="DES_SKILL_NATURAL_ARMOUR" Val="Natural Armour"/>
+        <Entry Key="DES_SKILL_NATURAL_ARMOUR_DES" Val="The character is blessed with the +4 Physical and Mental Shielding."/>
+        <Entry Key="DES_SKILL_NIGHT_WALKER" Val="Night Walker"/>
+        <Entry Key="DES_SKILL_NIGHT_WALKER_DES" Val="The character is blessed with +1 MP during night turns."/>
+        <Entry Key="DES_SKILL_SPARK" Val="Spark Strike"/>
+        <Entry Key="DES_SKILL_SPARK_DES" Val="The character is blessed with the knowledge of Spark Strike skill."/>
+        <Entry Key="DES_SKILL_IMPROVISE" Val="Improvise"/>
+        <Entry Key="DES_SKILL_IMPROVISE_DES" Val="The character is great at creating something to attack or defend with, from anything that's at hand."/>
+        <Entry Key="DES_SKILL_IMPROVISE_ARMOUR" Val="Improvised Cover"/>
+        <Entry Key="DES_SKILL_IMPROVISE_ARMOUR_DES" Val="The character is able to shield themselves using anything they can hold."/>
 			
 		<Entry Key="DES_SKILL_PET_HORSE" Val="Horse"/>
 		<Entry Key="DES_SKILL_PET_HORSE_DES" Val="Increases movement and group carry limits."/>
@@ -2961,6 +2975,7 @@
 		<Entry Key="DES_SUBSKILL_ICE_SPIKE" Val="Ice Spike"/>
 		<Entry Key="DES_SUBSKILL_ICE_SPIKE_DES" Val="Stun attack and damage to one target."/>
 		<Entry Key="DES_SUBSKILL_LIGHTNING" Val="Lightning Strike"/>
+		<Entry Key="DES_SUBSKILL_SPARK" Val="Spark Strike"/>
 		<Entry Key="DES_SUBSKILL_LIGHTNING_DES" Val="Damages a single opponent selected at random."/>
 		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE" Val="Sacrificial Blood"/>
 		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Val="The caster deals Essence True Damage to themselves and then applies that damage, multiplied by the skill power, as an attack."/>
@@ -2997,8 +3012,6 @@
 		<Entry Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL_DES" Val="Increase Shielding of all allies at the cost of 20% of the caster's current health."/>
 		<Entry Key="DES_SUBSKILL_PROTECTING_OTHERS" Val="Protect Others"/>
 		<Entry Key="DES_SUBSKILL_PROTECTING_OTHERS_DES" Val="Increase Shielding of 1 to 3 selected allies."/>
-		<Entry Key="DES_SUBSKILL_ENTER_DMG" Val="Increase Shielding of 1 to 3 selected allies."/>
-		<Entry Key="DES_SUBSKILL_ENTER_DMG_DES" Val="Increase Shielding of 1 to 3 selected allies."/>
 		<Entry Key="DES_SUBSKILL_MIMIC_FRIEND_HEALTH" Val="Mimic Hit Points"/>
 		<Entry Key="DES_SUBSKILL_MIMIC_FRIEND_HEALTH_DES" Val="Copies the current hit points of another ally."/>
 		<Entry Key="DES_SUBSKILL_SELF_PROTECTION_M_S" Val="Self Protection"/>
@@ -3040,7 +3053,7 @@
 		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING" Val="Summon Unliving"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon 2 Unliving to a melee spot on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING_RAT" Val="Summon Unliving Rat"/>
-		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING_RAT_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon 2 Unliving to a melee spot on your side of the battlefield."/>
+		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING_RAT_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon up to 2 Unliving Rats to melee spots on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING_ARCHERS_ITEM" Val="Summon Unliving Archers"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_UNLIVING_ARCHERS_ITEM_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon 2 Unliving archers to a ranged or melee spot on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_WILD_BEAST" Val="Summon Wild Beast"/>
@@ -3294,6 +3307,8 @@
 		<Entry Key="DES_SUBSKILL_MIGHTY_ROAR_DES" Val="{COLOR:red}This subskill does not attack hand if battlefield is empty.{END_COLOR}\nEnemies affected by this subskill will suffer increased Delay and receive damage."/>
 		<Entry Key="DES_SUBSKILL_POISON_DUST" Val="Poison Dust"/>
 		<Entry Key="DES_SUBSKILL_POISON_DUST_DES" Val="Melee attack dealing poison damage to 3 opponents in a horizontal line."/>
+		<Entry Key="DES_SUBSKILL_POISON_BOMB" Val="Poison Bomb"/>
+		<Entry Key="DES_SUBSKILL_POISON_BOMB_DES" Val="Range attack dealing poison damage to 3 opponents in a horizontal line."/>
 		<Entry Key="DES_SUBSKILL_SNEAK_ATTACK" Val="Sneak Attack"/>
 		<Entry Key="DES_SUBSKILL_SNEAK_ATTACK_DES" Val="Targets a single enemy anywhere on the battlefield dealing poison damage."/>
 		<Entry Key="DES_SUBSKILL_EERIE_THROWING_AXE" Val="Ghostly Axe"/>
@@ -3319,7 +3334,7 @@
 		<Entry Key="DES_SUBSKILL_CHAIN_LIGHTNING" Val="Chain Lightning"/>
 		<Entry Key="DES_SUBSKILL_CHAIN_LIGHTNING_DES" Val="Damages 1-6 random targets."/>
 		<Entry Key="DES_SUBSKILL_FAST_MULTI_THROW_2" Val="Double Toss"/>
-		<Entry Key="DES_SUBSKILL_FAST_MULTI_THROW_2_DES" Val="Ranged attack that hits up to two targets."/>
+		<Entry Key="DES_SUBSKILL_FAST_MULTI_THROW_2_DES" Val="Ranged attack, targets any enemies, unless an enemy is standing in melee row opposite to you."/>
 		<Entry Key="DES_SUBSKILL_BLESSED_ARMOUR" Val="Blessed Armour"/>
 		<Entry Key="DES_SUBSKILL_BLESSED_ARMOUR_DES" Val="Increases Shielding and Combat Attributes of an ally once per round."/>
 		<Entry Key="DES_SUBSKILL_ESSENCE_SKIN" Val="Second Skin"/>
@@ -3643,10 +3658,10 @@
 		<Entry Key="DES_TRAIT_ADD_DEMON_YOUNG_HOHLICK_DES" Val="Begin with an additional character - a Young Hohlick (Forest Demon)."/>
 		<Entry Key="DES_TRAIT_ADD_BASIC_PACK_FOOD" Val="Granny's Pantry"/>
 		<Entry Key="DES_TRAIT_ADD_BASIC_PACK_FOOD_DES" Val="Begin with a 10-15x of basic food and 1 piece of equipment."/>
-		<Entry Key="DES_TRAIT_FRIENDLY_FACE" Val="Friendly Face"/>
-		<Entry Key="DES_TRAIT_FRIENDLY_FACE_DES" Val="Each faction starts with 7 points of loyalty towards you except Orks and Night/ Light Demons."/>
-		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST" Val="Elves Interest"/>
-		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" Val="Elves faction starts with 15 points of loyalty towards you."/>
+		<Entry Key="DES_TRAIT_FRIENDLY_FACE" Val="Lada Bleassing - Friendly Face"/>
+		<Entry Key="DES_TRAIT_FRIENDLY_FACE_DES" Val="Each faction starts with 5 points of loyalty towards you except Orks and Night/ Light Demons."/>
+		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST" Val="Mokosh Blessing - Elves Interest"/>
+		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" Val="Elves faction starts with 18 points of loyalty towards you."/>
 		<Entry Key="DES_TRAIT_START_LOYALTY_DEMONS" Val="Demonic Loyalty"/>
 		<Entry Key="DES_TRAIT_START_LOYALTY_DEMONS_DES" Val="Starting faction loyalty for all demon factions raises to 10."/>
 		<Entry Key="DES_TRAIT_FAMILIAR_AREA" Val="Familiar Area"/>
@@ -3654,8 +3669,8 @@
 		<Entry Key="DES_TRAIT_LOGIC_WALL" Val="Logic Wall"/>
 		<!--<Entry Key="DES_TRAIT_LOGIC_WALL_DES" Val="All your characters will share an additional pool of 20 Mental Hit Points, divided equally between them."/>-->
 		<Entry Key="DES_TRAIT_LOGIC_WALL_DES" Val="All your followers get +4 mental and spiritual shielding."/>
-		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH" Val="Seal of Strength"/>
-		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH_DES" Val="The Chosen starts with +3 strength bonus."/>
+		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH" Val="Zorya Blessing - Seal of Strength"/>
+		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH_DES" Val="Characters starts with +2 strength bonus."/>
 		<Entry Key="DES_TRAIT_FAMILY_WEAPON" Val="Family Weapon"/>
 		<Entry Key="DES_TRAIT_FAMILY_WEAPON_DES" Val="You start with a family heirloom - a quality weapon."/>
 		<Entry Key="DES_TRAIT_FAMILY_ARMOUR" Val="Family Armour"/>
@@ -3690,7 +3705,7 @@
 		<Entry Key="DES_TRAIT_BETTER_OFF_ALONE_DES" Val="[PLACECHOLDER] Starting group will not be available on start. You are only limited to 2 character points but that character have 125% starting attributes."/>
 		<Entry Key="DES_TRAIT_EASIER_CRAFTING" Val="Crafting Adept"/>
 		<Entry Key="DES_TRAIT_EASIER_CRAFTING_DES" Val="Crafting is 10% cheaper."/>
-		<Entry Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Val="Additional Research"/>
+		<Entry Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Val="Vales Blessing - Additional Research"/>
 		<Entry Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS_DES" Val="Begin the game with 4 additional Advancement Points."/>
 		<Entry Key="DES_TRAIT_FOUR_LEGS_FRIEND" Val="Four-legged Friend"/>
 		<Entry Key="DES_TRAIT_FOUR_LEGS_FRIEND_DES" Val="Begin with your very own four-legged friend."/>
@@ -3736,10 +3751,18 @@
 		<Entry Key="DES_TRAIT_TOUGH_GUY_DES" Val="Your followers get +10% Health but have an additional 5% chance to die when their Health is below 30%."/>
 		<Entry Key="DES_TRAIT_DEMONIC_POSSESSION" Val="Demonic Possession"/>
 		<Entry Key="DES_TRAIT_DEMONIC_POSSESSION_DES" Val="The Chosen gets +15 Health and +30 Spiritual Shielding, but -80% Mysticism and Destiny."/>
-		<Entry Key="DES_TRAIT_SHADOW_PROTECTION" Val="Divine Protection"/>
-		<Entry Key="DES_TRAIT_SHADOW_PROTECTION_DES" Val="Penalty for forfeiting a challenge is halved."/>
+		<Entry Key="DES_TRAIT_NIGHT_WALKER" Val="Horos's Blessing - Night Walker"/>
+		<Entry Key="DES_TRAIT_NIGHT_WALKER_DES" Val="Your followers get +1 Movement Point during night turns."/>
 		<Entry Key="DES_TRAIT_MAGIC_SCROLL" Val="Magic Scroll"/>
 		<Entry Key="DES_TRAIT_MAGIC_SCROLL_DES" Val="You start with a good quality magic scroll."/>
+		<Entry Key="DES_TRAIT_BRAINER" Val="Morena's Blessing - Sharp Mind"/>
+		<Entry Key="DES_TRAIT_BRAINER_DES" Val="The Chosen starts with +2 Intellect and +2 Wisdom."/>
+		<Entry Key="DES_TRAIT_NATURAL_ARMOUR" Val="Svarog's Blessing - Natural Armour"/>
+		<Entry Key="DES_TRAIT_NATURAL_ARMOUR_DES" Val="The Chosen starts with +8 Physical and Mental Shielding."/>
+		<Entry Key="DES_TRAIT_SPARK" Val="Perun's Blessing - Electric Spark"/>
+		<Entry Key="DES_TRAIT_SPARK_DES" Val="The Chosen starts with an offensive skill - Spark. The skill is based on Destiny and works in physical and spiritual combat."/>
+		<Entry Key="DES_TRAIT_ADD_CHARACTER_INVENTOR" Val="Add Character - Inventor"/>
+		<Entry Key="DES_TRAIT_ADD_CHARACTER_INVENTOR_DES" Val="Begin with an additional character - a Human Inventor."/>
 	
 		
 		<!-- TOOLTIPS -->
@@ -4029,8 +4052,16 @@
 		<Entry Key="DES_TOOLTIP_LARGE_DES" Val="World Size - Large"/>
 		<Entry Key="DES_TOOLTIP_CURRENT_TASK" Val="Current Task"/>
 		<Entry Key="DES_TOOLTIP_CURRENT_TASK_DES" Val="This character is currently assigned to a task."/>
-		<Entry Key="DES_TOOLTIP_CHARACTERS_LIST" Val="Characters List (`)"/>
+		<Entry Key="DES_TOOLTIP_CHARACTERS_LIST" Val="Characters List (F1)"/>
 		<Entry Key="DES_TOOLTIP_CHARACTERS_LIST_DES" Val="A global list of characters with the most important information available at a glance. Can be opened from anywhere."/>
+		<Entry Key="DES_TOOLTIP_MATERIAL_ESSENCE" Val="Essence from Material"/>
+		<Entry Key="DES_TOOLTIP_MATERIAL_ESSENCE_DES" Val="Shows all Essence that comes from the selected material and the amount that is needed for crafting. Better materials grant more Essence."/>
+		<Entry Key="DES_TOOLTIP_CURRENT_ESSENCE" Val="Current Essence"/>
+		<Entry Key="DES_TOOLTIP_CURRENT_ESSENCE_DES" Val="Shows the total amount of Essence that will be used to construct this item. Essence comes from materials and directly affects the skill level of the item - the higher the better."/>
+		<Entry Key="DES_TOOLTIP_CURRENT_ESSENCE_TYPES" Val="Essence Types"/>
+		<Entry Key="DES_TOOLTIP_CURRENT_ESSENCE_TYPES_DES" Val="Shows up to two highest types of Essence for this craft. Weapons acquire different attack types depending on the type of Essence used."/>
+		<Entry Key="DES_TOOLTIP_ITEM_SKILL_LEVEL_BAR" Val="Item Skill Level"/>
+		<Entry Key="DES_TOOLTIP_ITEM_SKILL_LEVEL_BAR_DES" Val="This bar fills as you increase the amount of Essence used in the craft. Each full part of the bar increases the level of the item's skill and thus its power."/>
 		
 		
 		<!-- LOCATIONS AND GROUPS -->
@@ -4069,7 +4100,11 @@
 		<Entry Key="DES_GROUP_UNLIVING" Val="Unliving"/>
 		<Entry Key="DES_GROUP_SPIRITS" Val="Spirits"/>
 		<Entry Key="DES_GROUP_DRAGON" Val="Dragon"/>
+		<Entry Key="DES_GROUP_DRAGONS" Val="Dragons"/>
 		<Entry Key="DES_GROUP_ZMEY" Val="Zmey"/>
+		<Entry Key="DES_GROUP_ZMEYS" Val="Zmeys"/>
+		<Entry Key="DES_GROUP_DRAGON_ZMEYS" Val="Dragon and Zmeys"/>
+		<Entry Key="DES_GROUP_ZMEY_DRAGONS" Val="Zmey and Dragons"/>
 		<Entry Key="DES_GROUP_TROLLS" Val="Trolls"/>
 		<Entry Key="DES_GROUP_BEASTS_OF_DARKNESS" Val="Beasts of Darkness"/>
 		<Entry Key="DES_GROUP_GUARDIAN_STATUES" Val="Guardian Statues"/>
@@ -4170,6 +4205,10 @@
 		<Entry Key="DES_SET_ICE_CAVE" Val="Ice Cave"/>
 		<Entry Key="DES_SET_CRASHED_SHIP" Val="Crashed Ship"/>
 		<Entry Key="DES_HUM_VILLAGE_HALLOWEEN" Val="Creapy Vilage"/>
+		<Entry Key="DES_SET_UNLI_DRAGON_NEST" Val="Unliving Dragons' Lair"/>
+		<Entry Key="DES_SET_DRAGON_NEST" Val="Dragons' Lair"/>
+		<Entry Key="DES_SET_DRAGON_ZMEY_NEST" Val="Dragons' and Zmay' Lair"/>
+		<Entry Key="DES_SET_ZMEY_DRAGON_NEST" Val="Zmay' and Dragons' Lair"/>
 		
 		<!-- BIOME TERRAINS -->
 

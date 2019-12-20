@@ -967,7 +967,7 @@
 	</SUBSKILL-WILL_DRAIN>
 	<SUBSKILL-LIGHTNING Delay="3.0" Animation="Spell5" Sound="SubskillLightning">
 		<DescriptionInfo Name="DES_SUBSKILL_LIGHTNING" Description="DES_SUBSKILL_LIGHTNING_DES" IconName="SubskillLightningSpell"/>
-		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ALTERNATE_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_RANDOM_ENEMIES1" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ALTERNATE_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_VERTICAL_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Damage}"/>
 		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
 			<TriggerGroup Value="DoAlternateAttack"/>
 			<TriggerScript ScriptName=""/>
@@ -1316,6 +1316,40 @@
 			<SubskillAttribute Identifier="Stun" AttributeFloatValue="13.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-MIGHTY_ROAR>
+	<SUBSKILL-POISON_BOMB Delay="4.5" Animation="PoisonFog" Sound="SubskillPoisonDust">
+		<DescriptionInfo Name="DES_SUBSKILL_POISON_BOMB" Description="DES_SUBSKILL_POISON_BOMB_DES" IconName="SubskillPoisonBomb"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ATTACK_RANGED" DamageIcon="TAG-DAMAGE_POISON_ESSENCE" TargetIcon="TAG-TARGET_RANGED_ENEMY" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="5" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="TRUE">
+			<TriggerGroup Value="DoAttack"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_RangeTargeting"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+			<SecondaryScript ScriptName="STrg_MeleeHorizontalSplash"/>
+		</Targets>
+		<Activation ScriptName="Act_PoisonEssenceDamage"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeMental"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+			<MainAtt Amount="1.0" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+			<MainAtt Amount="1.3" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+			<MainAtt Amount="1.7" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+			<MainAtt Amount="2.2" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+			<MainAtt Amount="2.8" Tag="TAG-INTELLIGENCE"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-POISON_BOMB>
 
 	
 	<!-- PHYSICAL -->
@@ -1598,16 +1632,16 @@
 			<MainAtt Amount="1.2" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
-			<MainAtt Amount="1.8" Tag="TAG-CA_1"/>
+			<MainAtt Amount="1.7" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
 			<MainAtt Amount="2.3" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
-			<MainAtt Amount="3.1" Tag="TAG-CA_1"/>
+			<MainAtt Amount="3.0" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
-			<MainAtt Amount="3.0" Tag="TAG-CA_1"/>
+			<MainAtt Amount="3.8" Tag="TAG-CA_1"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-HORN_IMPALE>
 	<SUBSKILL-BEE_STING Delay="6.5" Animation="BloodyHit4" Sound="SubskillBeeSting">
@@ -2080,6 +2114,41 @@
 			<MainAtt Amount="4.2" Tag="TAG-CA_2"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CON_DEFAULT_RANGE_HEAVY>
+	
+	<SUBSKILL-CONST_SPARK Delay="3.0" Animation="Spell5" Sound="SubskillLightning">
+		<DescriptionInfo Name="DES_SUBSKILL_SPARK" Description="DES_SUBSKILL_LIGHTNING_DES" IconName="SubskillLightningSpell"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_DO_ALTERNATE_ATTACK" DamageIcon="TAG-DAMAGE_NORMAL" TargetIcon="TAG-TARGET_VERTICAL_MELEE_ENEMY" AttackInfo="{SCRIPT:SI_Damage}"/>
+		<Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="DoAlternateAttack"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_OpponentBattlefieldOrHandPositions"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+			<SecondaryScript ScriptName="STrg_MeleeVerticalSplashWholeColumn"/>
+		</Targets>
+		<Activation ScriptName="Act_Damage"/>
+		<ChallengeType Value="TypePhysical"/>
+		<ChallengeType Value="TypeSpirit"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<MainAtt Amount="0.0" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+			<MainAtt Amount="1.7" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+			<MainAtt Amount="1.7" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+			<MainAtt Amount="1.7" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+			<MainAtt Amount="1.7" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+			<MainAtt Amount="1.7" Tag="TAG-DESTINY"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_SPARK>
 	
 	
 	<SUBSKILL-TUT_FAKE_WEAPON Delay="6.5" Animation="BloodyHit2" Sound="AttackAxe1H">

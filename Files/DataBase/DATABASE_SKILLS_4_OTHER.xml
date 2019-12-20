@@ -668,7 +668,7 @@
 	<SKILL-SEAL_OF_STRENGTH  Rarity="10">
 		<DescriptionInfo Name="DES_SKILL_SEAL_OF_STRENGTH" Description="DES_SKILL_SEAL_OF_STRENGTH_DES" IconName="SkillSealOfStrength"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
-		<SkillSubskill Value="SUBSKILL-CONST_STRONG_ADD_STRENGTH"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_STRENGTH"/>
 		<SkillGroupFilter Value="SkillTrait"/>
 	</SKILL-SEAL_OF_STRENGTH>
 	<SKILL-CRAFTERS_FLOCK Rarity="0">
@@ -705,6 +705,24 @@
 		<SkillSubskill Value="SUBSKILL-CAMP_CONST_WEAK_GATHERING_RANGE"/>
 		<SkillGroupFilter Value="SkillTrait"/>
 	</SKILL-CAMPING_GATHERING_RANGE>
+	<SKILL-NATURAL_ARMOUR Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_NATURAL_ARMOUR" Description="DES_SKILL_NATURAL_ARMOUR_DES" IconName="SkillNaturalArmour"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_STRONG_SHIELDING_P_M"/>
+		<SkillGroupFilter Value="SkillTrait"/>
+	</SKILL-NATURAL_ARMOUR>
+	<SKILL-NIGHT_WALKER Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_NIGHT_WALKER" Description="DES_SKILL_NIGHT_WALKER_DES" IconName="SkillNightWalker"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_NIGHT_MOVEMENT_RANGE"/>
+		<SkillGroupFilter Value="SkillTrait"/>
+	</SKILL-NIGHT_WALKER>
+	<SKILL-SPARK Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_SPARK" Description="DES_SKILL_SPARK_DES" IconName="SkillLightning"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_SPARK"/>
+		<SkillGroupFilter Value="SkillTrait"/>
+	</SKILL-SPARK>
 	
 	
 </SKILLS_4_OTHER>
