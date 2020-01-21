@@ -2854,7 +2854,7 @@
     </Groups>
     <Texts>
       <Input>Summon Guardian Demon</Input>
-      <Output>Przywołanie Strażniczego Demona</Output>
+      <Output>Przywołanie Demona Stróża</Output>
     </Texts>
   </Element>
   <Element ID="164" Key="DES_TAG_DAMAGE_GUARDIAN_DEMON_DES" Flag="1">
@@ -3037,7 +3037,7 @@
     </Groups>
     <Texts>
       <Input>Shield</Input>
-      <Output>Osłona</Output>
+      <Output>Tarcza</Output>
     </Texts>
   </Element>
   <Element ID="174" Key="DES_TAG_DAMAGE_SHIELD_DES" Flag="1">
@@ -6905,7 +6905,7 @@
     </Groups>
     <Texts>
       <Input>Over Encumbered</Input>
-      <Output>Nadmierne Obciążonie</Output>
+      <Output>Przeciążenie</Output>
     </Texts>
   </Element>
   <Element ID="382" Key="DES_TAG_DAMAGE_OVERENCUMBERED_DES" Flag="1">
@@ -10137,7 +10137,7 @@
     </Groups>
     <Texts>
       <Input>Medium Armour</Input>
-      <Output>Średni Pancerz</Output>
+      <Output>Lekki Pancerz</Output>
     </Texts>
   </Element>
   <Element ID="568" Key="DES_TAG_MEDIUM_ARMOUR_DES" Flag="1">
@@ -10171,7 +10171,7 @@
     </Groups>
     <Texts>
       <Input>Heavy Armour</Input>
-      <Output>Ciężka Zbroja</Output>
+      <Output>Ciężki Pancerz</Output>
     </Texts>
   </Element>
   <Element ID="570" Key="DES_TAG_HEAVY_ARMOUR_DES" Flag="1">
@@ -10301,7 +10301,7 @@
     </Groups>
     <Texts>
       <Input>Gathering Tool</Input>
-      <Output>Narzędzie Zbieracza</Output>
+      <Output>Narzędzia Zbieracza</Output>
     </Texts>
   </Element>
   <Element ID="578" Key="DES_TAG_GATHERING_TOOL_DES" Flag="1">
@@ -10335,7 +10335,7 @@
     </Groups>
     <Texts>
       <Input>Crafting Tool</Input>
-      <Output>Narzędzie Rzemieślnicze</Output>
+      <Output>Narzędzia Rzemieślnicze</Output>
     </Texts>
   </Element>
   <Element ID="580" Key="DES_TAG_CRAFTING_TOOL_DES" Flag="1">
@@ -10521,7 +10521,7 @@
     </Groups>
     <Texts>
       <Input>Alphaclans</Input>
-      <Output>Klan Alfa</Output>
+      <Output>Klany Alfa</Output>
     </Texts>
   </Element>
   <Element ID="591" Key="DES_TAG_LOYALTY_BETA_CLANS" Flag="1">
@@ -17735,7 +17735,7 @@
     </Groups>
     <Texts>
       <Input>Commonly used for crafting.</Input>
-      <Output>Powszechnie używany w rzemiośle.</Output>
+      <Output>Powszechnie stosowane w rzemiośle.</Output>
     </Texts>
   </Element>
   <Element ID="1007" Key="DES_RES_GOLD" Flag="1">
@@ -35093,7 +35093,7 @@
     </Groups>
     <Texts>
       <Input>Skshack</Input>
-      <Output>Skrzat</Output>
+      <Output>Skrzak</Output>
     </Texts>
   </Element>
   <Element ID="2015" Key="DES_PET_SKSHACK_DES" Flag="1">
@@ -40396,7 +40396,12 @@
       <Output>Główna forma ataku dla bestii.</Output>
     </Texts>
   </Element>
-  <Element ID="2327" Key="DES_SKILL_LINE_CHARGE" Flag="0">
+  <Element ID="2327" Key="DES_SKILL_LINE_CHARGE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:24</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -40573,7 +40578,7 @@
     </Groups>
     <Texts>
       <Input>Summon Shaman Minion</Input>
-      <Output>Przywołaj Szamana Sługę</Output>
+      <Output>Przywołanie Szamana Sługi</Output>
     </Texts>
   </Element>
   <Element ID="2338" Key="DES_SKILL_SUMMON_SHAMAN_MINION_DES" Flag="1">
@@ -41382,7 +41387,7 @@
     </Groups>
     <Texts>
       <Input>Poison Dust</Input>
-      <Output>Zatruty Pył</Output>
+      <Output>Trujący Pył</Output>
     </Texts>
   </Element>
   <Element ID="2386" Key="DES_SKILL_POISON_DUST_DES" Flag="1">
@@ -41656,7 +41661,7 @@
     </Groups>
     <Texts>
       <Input>Ground Shake</Input>
-      <Output>Wstrząs Ziemi</Output>
+      <Output>Trzęcienie Ziemi</Output>
     </Texts>
   </Element>
   <Element ID="2402" Key="DES_SKILL_GROUND_SHAKING_DES" Flag="1">
@@ -41792,7 +41797,7 @@
     </Groups>
     <Texts>
       <Input>Dive Attack</Input>
-      <Output>Atak z Powietrza</Output>
+      <Output>Atak Nurkowy</Output>
     </Texts>
   </Element>
   <Element ID="2410" Key="DES_SKILL_DIVE_ATTACK_DES" Flag="1">
@@ -42197,7 +42202,7 @@
     </Groups>
     <Texts>
       <Input>Corruption</Input>
-      <Output>Zepsucie</Output>
+      <Output>Korupcja</Output>
     </Texts>
   </Element>
   <Element ID="2434" Key="DES_SKILL_CORRUPTION_DES" Flag="1">
@@ -42332,7 +42337,7 @@
     </Groups>
     <Texts>
       <Input>Devouring Roar</Input>
-      <Output>Pochłaniający Ryk</Output>
+      <Output>Przerażający Ryk</Output>
     </Texts>
   </Element>
   <Element ID="2442" Key="DES_SKILL_DEVOURING_ROAR_DES" Flag="1">
@@ -42400,7 +42405,7 @@
     </Groups>
     <Texts>
       <Input>Blessed Armour</Input>
-      <Output>Błogosławiona Zbroja</Output>
+      <Output>Błogosławiony Pancerz</Output>
     </Texts>
   </Element>
   <Element ID="2446" Key="DES_SKILL_BLESSED_ARMOUR_DES" Flag="1">
@@ -42468,7 +42473,7 @@
     </Groups>
     <Texts>
       <Input>Dragon Breath</Input>
-      <Output>Oddech Smoka</Output>
+      <Output>Smoczy Oddech</Output>
     </Texts>
   </Element>
   <Element ID="2450" Key="DES_SKILL_DRAGON_BREATH_DES" Flag="1">
@@ -43016,7 +43021,7 @@
     </Groups>
     <Texts>
       <Input>Physical Blessing</Input>
-      <Output>Błogosławieństwo Fizyczne</Output>
+      <Output>Fizyczne Błogosławieństwo</Output>
     </Texts>
   </Element>
   <Element ID="2484" Key="DES_SKILL_BLESS_P_DES" Flag="1">
@@ -43050,7 +43055,7 @@
     </Groups>
     <Texts>
       <Input>Mental Blessing</Input>
-      <Output>Błogosławieństwo Mentalne</Output>
+      <Output>Mentalne Błogosławieństwo</Output>
     </Texts>
   </Element>
   <Element ID="2486" Key="DES_SKILL_BLESS_M_DES" Flag="1">
@@ -43084,7 +43089,7 @@
     </Groups>
     <Texts>
       <Input>Spiritual Blessing</Input>
-      <Output>Błogosławieństwo Duchowe</Output>
+      <Output>Duchowe Błogosławieństwo</Output>
     </Texts>
   </Element>
   <Element ID="2488" Key="DES_SKILL_BLESS_S_DES" Flag="1">
@@ -44033,7 +44038,7 @@
     </Groups>
     <Texts>
       <Input>Unliving Dragon</Input>
-      <Output>Nieumarły smok</Output>
+      <Output>Nieumarły Smok</Output>
     </Texts>
   </Element>
   <Element ID="2542" Key="DES_SKILL_RACE_UNLI_DRAGON_DES" Flag="0">
@@ -44196,7 +44201,12 @@
       <Output>Bonus za cechę Horza - ta postać jest silniejsza w nocy i słabsza w ciągu dnia.</Output>
     </Texts>
   </Element>
-  <Element ID="2554" Key="DES_SKILL_HORZ_BLOODY_SUMMON_WEREWOLF" Flag="0">
+  <Element ID="2554" Key="DES_SKILL_HORZ_BLOODY_SUMMON_WEREWOLF" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:12:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44224,7 +44234,12 @@
       <Output>Potężny sprzymierzeniec ... za cenę.</Output>
     </Texts>
   </Element>
-  <Element ID="2556" Key="DES_SKILL_DZIEVANNA_ANIMAL_PATH" Flag="0">
+  <Element ID="2556" Key="DES_SKILL_DZIEVANNA_ANIMAL_PATH" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:11:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44234,7 +44249,7 @@
     </Groups>
     <Texts>
       <Input>Animal Senses</Input>
-      <Output>Zwierzęce zmysły</Output>
+      <Output>Zwierzęce Zmysły</Output>
     </Texts>
   </Element>
   <Element ID="2557" Key="DES_SKILL_DZIEVANNA_ANIMAL_PATH_DES" Flag="0">
@@ -44302,7 +44317,12 @@
       <Output>Bonus za cechę Łady.</Output>
     </Texts>
   </Element>
-  <Element ID="2562" Key="DES_SKILL_STRIBOG_LONG_TRAVEL" Flag="0">
+  <Element ID="2562" Key="DES_SKILL_STRIBOG_LONG_TRAVEL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44312,7 +44332,7 @@
     </Groups>
     <Texts>
       <Input>Favourable Winds</Input>
-      <Output>Korzystne wiatry</Output>
+      <Output>Korzystne Wiatry</Output>
     </Texts>
   </Element>
   <Element ID="2563" Key="DES_SKILL_STRIBOG_LONG_TRAVEL_DES" Flag="0">
@@ -44328,7 +44348,12 @@
       <Output>Bonus za cechę Striboga.</Output>
     </Texts>
   </Element>
-  <Element ID="2564" Key="DES_SKILL_MAROVIT_NIGHTMARE_GIFT" Flag="0">
+  <Element ID="2564" Key="DES_SKILL_MAROVIT_NIGHTMARE_GIFT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:19:06</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44338,7 +44363,7 @@
     </Groups>
     <Texts>
       <Input>Unshaken Faith</Input>
-      <Output>Niewzruszona wiara</Output>
+      <Output>Niewzruszona Wiara</Output>
     </Texts>
   </Element>
   <Element ID="2565" Key="DES_SKILL_MAROVIT_NIGHTMARE_GIFT_DES" Flag="0">
@@ -44354,7 +44379,12 @@
       <Output>Bonus za cechę Marovita.</Output>
     </Texts>
   </Element>
-  <Element ID="2566" Key="DES_SKILL_SVAROG_MANY_HAMMERS_PATH" Flag="0">
+  <Element ID="2566" Key="DES_SKILL_SVAROG_MANY_HAMMERS_PATH" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44365,7 +44395,7 @@
     </Groups>
     <Texts>
       <Input>Many Hammers, One Anvil</Input>
-      <Output>Wiele młotów, jedno kowadło</Output>
+      <Output>Wiele Młotów, Jedno Kowadło</Output>
     </Texts>
   </Element>
   <Element ID="2567" Key="DES_SKILL_SVAROG_MANY_HAMMERS_PATH_DES" Flag="0">
@@ -44382,7 +44412,12 @@
       <Output>Bonus za cechę Svaroga.</Output>
     </Texts>
   </Element>
-  <Element ID="2568" Key="DES_SKILL_TRIGLAV_GODS_COMMANDER" Flag="0">
+  <Element ID="2568" Key="DES_SKILL_TRIGLAV_GODS_COMMANDER" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44392,7 +44427,7 @@
     </Groups>
     <Texts>
       <Input>Divine Commander</Input>
-      <Output>Boski dowódca</Output>
+      <Output>Boski Dowódca</Output>
     </Texts>
   </Element>
   <Element ID="2569" Key="DES_SKILL_TRIGLAV_GODS_COMMANDER_DES" Flag="0">
@@ -44436,7 +44471,12 @@
       <Output>Bycie Wybranym nie jest łatwym zadaniem. Triglav docenił to i postanowił nadać specjalną umiejętność wybranemu naśladowcy.</Output>
     </Texts>
   </Element>
-  <Element ID="2572" Key="DES_SKILL_IDOL_OF_PAIN" Flag="0">
+  <Element ID="2572" Key="DES_SKILL_IDOL_OF_PAIN" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:35</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44446,10 +44486,15 @@
     </Groups>
     <Texts>
       <Input>Not Dead Yet</Input>
-      <Output>Jeszcze nie martwy</Output>
+      <Output>Nie Wszystek Umrę</Output>
     </Texts>
   </Element>
-  <Element ID="2573" Key="DES_SKILL_IDOL_OF_PAIN_DES" Flag="0">
+  <Element ID="2573" Key="DES_SKILL_IDOL_OF_PAIN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44459,7 +44504,7 @@
     </Groups>
     <Texts>
       <Input>If your Chosen dies, they change into an unliving corpse. Additionally, all your characters have a lower chance to die from heavy wounds..</Input>
-      <Output>Jeśli twój Wybrany umiera, zamieniają się w nieożywione zwłoki. Dodatkowo, wszystkie twoje postacie mają mniejszą szansę na śmierć z powodu ciężkich ran ..</Output>
+      <Output>Jeśli twój wybraniec umiera, zamienia się w nieożywione zwłoki. Dodatkowo, wszystkie twoje postacie ponoszą mniejsze ryzyko śmierci z powodu ciężkich ran.</Output>
     </Texts>
   </Element>
   <Element ID="2574" Key="DES_SKILL_SHIP_SMALL" Flag="0">
@@ -44486,7 +44531,12 @@
       <Output>Pozwala płynąć po morzach. Zwolnij przy małej pojemności.</Output>
     </Texts>
   </Element>
-  <Element ID="2576" Key="DES_SKILL_STRIBOG_SHIP_SMALL" Flag="0">
+  <Element ID="2576" Key="DES_SKILL_STRIBOG_SHIP_SMALL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44496,7 +44546,7 @@
     </Groups>
     <Texts>
       <Input>Stribog's Raft</Input>
-      <Output>Tratwa Striboga</Output>
+      <Output>Tratwa Strzyboga</Output>
     </Texts>
   </Element>
   <Element ID="2577" Key="DES_SKILL_STRIBOG_SHIP_SMALL_DES" Flag="0">
@@ -44630,7 +44680,12 @@
       <Output>Krasnoludy bezklanowe cierpią z powodu dziwnej formy głodu - w każdej turze muszą spożywać metalowy pręt. Za każdym razem, gdy ta postać spożywa metalowy pręt, jest bliżej pozbycia się tej słabości.</Output>
     </Texts>
   </Element>
-  <Element ID="2588" Key="DES_SKILL_FOODIE" Flag="0">
+  <Element ID="2588" Key="DES_SKILL_FOODIE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44652,7 +44707,12 @@
       <Output>zwykli ludzie mają powiedzenie: „Nigdy nie jedz więcej niż możesz podnieść”. Ale krasnoludy dużo podnoszą i na pewno nie są zwykłymi ludźmi! Jako Krasnolud, ta postać ma szansę zjeść 1 dodatkową {ICON:FoodIcon}na turę.</Output>
     </Texts>
   </Element>
-  <Element ID="2590" Key="DES_SKILL_NATURE_PURITY" Flag="0">
+  <Element ID="2590" Key="DES_SKILL_NATURE_PURITY" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44661,7 +44721,7 @@
     </Groups>
     <Texts>
       <Input>Natural Purity</Input>
-      <Output>Naturalna czystość</Output>
+      <Output>Naturalna Czystość</Output>
     </Texts>
   </Element>
   <Element ID="2591" Key="DES_SKILL_NATURE_PURITY_DES" Flag="0">
@@ -44700,7 +44760,12 @@
       <Output>Aktualna pogoda sprawia, że trudno jest zobaczyć jak zwykle. Zakres widoczności jest zmniejszony.</Output>
     </Texts>
   </Element>
-  <Element ID="2594" Key="DES_SKILL_WEATHER_SUNNY_DAY" Flag="0">
+  <Element ID="2594" Key="DES_SKILL_WEATHER_SUNNY_DAY" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:59</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44710,7 +44775,7 @@
     </Groups>
     <Texts>
       <Input>Sunny Day</Input>
-      <Output>Słoneczny dzień</Output>
+      <Output>Słoneczny Dzień</Output>
     </Texts>
   </Element>
   <Element ID="2595" Key="DES_SKILL_WEATHER_SUNNY_DAY_DES" Flag="0">
@@ -44776,7 +44841,12 @@
       <Output>Błogosławiony przez twojego Boga, widzisz jeszcze przez chwilę.</Output>
     </Texts>
   </Element>
-  <Element ID="2600" Key="DES_SKILL_SMARTER_EVERY_DAY" Flag="0">
+  <Element ID="2600" Key="DES_SKILL_SMARTER_EVERY_DAY" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44786,7 +44856,7 @@
     </Groups>
     <Texts>
       <Input>Smarter Every Day</Input>
-      <Output>Coraz Mądrzejszy</Output>
+      <Output>Mądrzejszy Każdego Dnia</Output>
     </Texts>
   </Element>
   <Element ID="2601" Key="DES_SKILL_SMARTER_EVERY_DAY_DES" Flag="0">
@@ -44802,7 +44872,12 @@
       <Output>W każdej turze otrzymujesz trochę PD.</Output>
     </Texts>
   </Element>
-  <Element ID="2602" Key="DES_SKILL_TRUE_HEROES" Flag="0">
+  <Element ID="2602" Key="DES_SKILL_TRUE_HEROES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:19:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44811,7 +44886,7 @@
     </Groups>
     <Texts>
       <Input>True Heroes</Input>
-      <Output>Prawdziwi bohaterowie</Output>
+      <Output>Prawdziwi Bohaterowie</Output>
     </Texts>
   </Element>
   <Element ID="2603" Key="DES_SKILL_TRUE_HEROES_DES" Flag="0">
@@ -44826,7 +44901,12 @@
       <Output>Trochę osłony w każdym wyzwaniu, jakie każdy Bóg wyznaje każdemu wyznawcy.</Output>
     </Texts>
   </Element>
-  <Element ID="2604" Key="DES_SKILL_LOGIC_WALL" Flag="0">
+  <Element ID="2604" Key="DES_SKILL_LOGIC_WALL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:25</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44835,7 +44915,7 @@
     </Groups>
     <Texts>
       <Input>Logic Wall</Input>
-      <Output>Ściana logiczna</Output>
+      <Output>Logiczna Ściana</Output>
     </Texts>
   </Element>
   <Element ID="2605" Key="DES_SKILL_LOGIC_WALL_DES" Flag="0">
@@ -44872,7 +44952,12 @@
       <Output>Wybrańcy zostali pobłogosławieni zwiększoną inteligencją i mądrością.</Output>
     </Texts>
   </Element>
-  <Element ID="2608" Key="DES_SKILL_SOLAR_POWERED" Flag="0">
+  <Element ID="2608" Key="DES_SKILL_SOLAR_POWERED" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44881,7 +44966,7 @@
     </Groups>
     <Texts>
       <Input>Solar Powered</Input>
-      <Output>Energia Słońca</Output>
+      <Output>Baterie Słoneczne</Output>
     </Texts>
   </Element>
   <Element ID="2609" Key="DES_SKILL_SOLAR_POWERED_DES" Flag="0">
@@ -44896,7 +44981,12 @@
       <Output>Każdy wyznawca zwiększył regenerację zdrowia, poczytalności i wiary w ciągu dnia, ale otrzymuje obrażenia psychiczne w nocy.</Output>
     </Texts>
   </Element>
-  <Element ID="2610" Key="DES_SKILL_JUMPING_FISH" Flag="0">
+  <Element ID="2610" Key="DES_SKILL_JUMPING_FISH" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44905,7 +44995,7 @@
     </Groups>
     <Texts>
       <Input>Jumping Fish</Input>
-      <Output>Skacząca ryba</Output>
+      <Output>Skacząca Ryba</Output>
     </Texts>
   </Element>
   <Element ID="2611" Key="DES_SKILL_JUMPING_FISH_DES" Flag="0">
@@ -44968,7 +45058,12 @@
       <Output>Każdy wyznawca otrzymuje bonus do zdrowia.</Output>
     </Texts>
   </Element>
-  <Element ID="2616" Key="DES_SKILL_EAGLE_EYE" Flag="0">
+  <Element ID="2616" Key="DES_SKILL_EAGLE_EYE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:50</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -44992,7 +45087,12 @@
       <Output>Każdy wyznawca otrzymuje premię do zasięgu wzroku.</Output>
     </Texts>
   </Element>
-  <Element ID="2618" Key="DES_SKILL_INNER_PEACE" Flag="0">
+  <Element ID="2618" Key="DES_SKILL_INNER_PEACE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:20</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -45001,7 +45101,7 @@
     </Groups>
     <Texts>
       <Input>Inner Peace</Input>
-      <Output>Wewnętrzny pokój</Output>
+      <Output>Wewnętrzny Spokój</Output>
     </Texts>
   </Element>
   <Element ID="2619" Key="DES_SKILL_INNER_PEACE_DES" Flag="0">
@@ -45040,7 +45140,12 @@
       <Output>Twój Bóg dał ci dotyk, który może uzdrowić.</Output>
     </Texts>
   </Element>
-  <Element ID="2622" Key="DES_SKILL_NATURAL_KNOWLEDGE" Flag="0">
+  <Element ID="2622" Key="DES_SKILL_NATURAL_KNOWLEDGE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -45049,7 +45154,7 @@
     </Groups>
     <Texts>
       <Input>Natural Knowledge</Input>
-      <Output>Naturalna wiedza</Output>
+      <Output>Naturalna Wiedza</Output>
     </Texts>
   </Element>
   <Element ID="2623" Key="DES_SKILL_NATURAL_KNOWLEDGE_DES" Flag="0">
@@ -45119,7 +45224,12 @@
       <Output>Każdy wyznawca otrzymuje bonus do atrybutu Wytwarzanie.</Output>
     </Texts>
   </Element>
-  <Element ID="2628" Key="DES_SKILL_GATHERERS_FLOCK" Flag="0">
+  <Element ID="2628" Key="DES_SKILL_GATHERERS_FLOCK" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -45128,7 +45238,7 @@
     </Groups>
     <Texts>
       <Input>Flock of Gatherers</Input>
-      <Output>Wsparcie Zbieraczy</Output>
+      <Output>Zgraja Zbieraczy</Output>
     </Texts>
   </Element>
   <Element ID="2629" Key="DES_SKILL_GATHERERS_FLOCK_DES" Flag="0">
@@ -45945,7 +46055,7 @@
     </Groups>
     <Texts>
       <Input>Dwelling</Input>
-      <Output>Mieszkanie</Output>
+      <Output>Chata</Output>
     </Texts>
   </Element>
   <Element ID="2682" Key="DES_SKILL_DWELLING_BEDS_DES" Flag="1">
@@ -45979,7 +46089,7 @@
     </Groups>
     <Texts>
       <Input>Herbalist's Hut</Input>
-      <Output>Chata zielarza</Output>
+      <Output>Chata Zielarki</Output>
     </Texts>
   </Element>
   <Element ID="2684" Key="DES_SKILL_HERBALIST_HUT_DES" Flag="1">
@@ -46013,7 +46123,7 @@
     </Groups>
     <Texts>
       <Input>Wishing Well</Input>
-      <Output>Studia życzeń</Output>
+      <Output>Studnia Życzeń</Output>
     </Texts>
   </Element>
   <Element ID="2686" Key="DES_SKILL_WISHING_WELL_DES" Flag="1">
@@ -46081,7 +46191,7 @@
     </Groups>
     <Texts>
       <Input>Children's Playground</Input>
-      <Output>Plac zabaw dla dzieci</Output>
+      <Output>Plac Zabaw</Output>
     </Texts>
   </Element>
   <Element ID="2690" Key="DES_SKILL_CHILD_PLAYGROUND_DES" Flag="1">
@@ -46115,7 +46225,7 @@
     </Groups>
     <Texts>
       <Input>Guard Tower</Input>
-      <Output>Wieża strażnicza</Output>
+      <Output>Wieża Strażnicza</Output>
     </Texts>
   </Element>
   <Element ID="2692" Key="DES_SKILL_GUARD_TOWER_DES" Flag="1">
@@ -46149,7 +46259,7 @@
     </Groups>
     <Texts>
       <Input>Witch Hut</Input>
-      <Output>Chata czarownicy</Output>
+      <Output>Chatka Czarownicy</Output>
     </Texts>
   </Element>
   <Element ID="2694" Key="DES_SKILL_WITCH_HUT_DES" Flag="1">
@@ -46237,7 +46347,7 @@
     </Groups>
     <Texts>
       <Input>Crop Field</Input>
-      <Output>Pole uprawne</Output>
+      <Output>Pole Uprawne</Output>
     </Texts>
   </Element>
   <Element ID="2699" Key="DES_SKILL_CROP_FIELD_DES" Flag="1">
@@ -46354,7 +46464,7 @@
     </Groups>
     <Texts>
       <Input>Trading Post</Input>
-      <Output>Punkt handlowy</Output>
+      <Output>Punkt Handlowy</Output>
     </Texts>
   </Element>
   <Element ID="2706" Key="DES_SKILL_TRADING_POST_DES" Flag="1">
@@ -46390,7 +46500,7 @@
     </Groups>
     <Texts>
       <Input>Increase Max Health</Input>
-      <Output>Zwiększenie maksymalnego zdrowia</Output>
+      <Output>Zwiększenie Maksymalnego Zdrowia</Output>
     </Texts>
   </Element>
   <Element ID="2708" Key="DES_SKILL_EXTRA_MAX_HEALTH_P_DES" Flag="1">
@@ -46428,7 +46538,7 @@
     </Groups>
     <Texts>
       <Input>Increase Max Sanity</Input>
-      <Output>Zwiększ maksymalne zdrowie psychiczne</Output>
+      <Output>Zwiększenie Maksymalnej Poczytalności</Output>
     </Texts>
   </Element>
   <Element ID="2710" Key="DES_SKILL_EXTRA_MAX_HEALTH_M_DES" Flag="1">
@@ -46466,7 +46576,7 @@
     </Groups>
     <Texts>
       <Input>Increase Max Faith</Input>
-      <Output>Zwiększenie maksymalnej wiary</Output>
+      <Output>Zwiększenie Maksymalnej Wiary</Output>
     </Texts>
   </Element>
   <Element ID="2712" Key="DES_SKILL_EXTRA_MAX_HEALTH_S_DES" Flag="1">
@@ -46502,7 +46612,7 @@
     </Groups>
     <Texts>
       <Input>Increase Gathering</Input>
-      <Output>Zwiększenie zbieractwa</Output>
+      <Output>Zwiększenie Zbieractwa</Output>
     </Texts>
   </Element>
   <Element ID="2714" Key="DES_SKILL_EXTRA_GATHERING_DES" Flag="1">
@@ -46572,7 +46682,7 @@
     </Groups>
     <Texts>
       <Input>Increase Crafting</Input>
-      <Output>Zwiększenie rzemiosła</Output>
+      <Output>Zwiększenie Rzemiosła</Output>
     </Texts>
   </Element>
   <Element ID="2718" Key="DES_SKILL_EXTRA_CRAFTING_DES" Flag="1">
@@ -46717,7 +46827,7 @@
     </Groups>
     <Texts>
       <Input>Increase Physical Shielding</Input>
-      <Output>Zwiększenie fizycznej osłony</Output>
+      <Output>Zwiększenie Fizycznej Osłony</Output>
     </Texts>
   </Element>
   <Element ID="2726" Key="DES_SKILL_EXTRA_SHIELDING_P_DES" Flag="1">
@@ -46753,7 +46863,7 @@
     </Groups>
     <Texts>
       <Input>Increase Spiritual Shielding</Input>
-      <Output>Zwiększenie duchowej osłony</Output>
+      <Output>Zwiększenie Duchowej Osłony</Output>
     </Texts>
   </Element>
   <Element ID="2728" Key="DES_SKILL_EXTRA_SHIELDING_S_DES" Flag="1">
@@ -46790,7 +46900,7 @@
     </Groups>
     <Texts>
       <Input>Inc. Physical and Mental Shielding</Input>
-      <Output>Zwiększa fizyczną oraz psychiczną osłone</Output>
+      <Output>Zwiększenie Fizycznej i Mentalnej Osłony</Output>
     </Texts>
   </Element>
   <Element ID="2730" Key="DES_SKILL_EXTRA_SHIELDING_P_M_DES" Flag="1">
@@ -46829,7 +46939,7 @@
     </Groups>
     <Texts>
       <Input>Inc. Physical, Mental and Spiritual Shielding</Input>
-      <Output>Zwiększa fizyczną, psychiczną oraz duchową osłone</Output>
+      <Output>Zwiększenie Fizycznej, Mentalnej i Duchowej Osłony</Output>
     </Texts>
   </Element>
   <Element ID="2732" Key="DES_SKILL_EXTRA_SHIELDING_P_M_S_DES" Flag="1">
@@ -46904,7 +47014,7 @@
     </Groups>
     <Texts>
       <Input>Increase Research</Input>
-      <Output>Zwiększ badania</Output>
+      <Output>Zwiększenie Badań</Output>
     </Texts>
   </Element>
   <Element ID="2736" Key="DES_SKILL_EXTRA_RESEARCH_DES" Flag="1">
@@ -47118,7 +47228,7 @@
     </Groups>
     <Texts>
       <Input>Increase Rituals</Input>
-      <Output>Zwiększenie rytuałów</Output>
+      <Output>Zwiększenie Rytuałów</Output>
     </Texts>
   </Element>
   <Element ID="2748" Key="DES_SKILL_EXTRA_RITUALS_DES" Flag="1">
@@ -47152,7 +47262,7 @@
     </Groups>
     <Texts>
       <Input>Increase Luck</Input>
-      <Output>Zwiększ szczęście</Output>
+      <Output>Zwiększenie Szczęścia</Output>
     </Texts>
   </Element>
   <Element ID="2750" Key="DES_SKILL_EXTRA_LUCK_DES" Flag="1">
@@ -47696,7 +47806,7 @@
     </Groups>
     <Texts>
       <Input>Reliable Argument</Input>
-      <Output>Wiarygodny Argument</Output>
+      <Output>Rzetelny Argument</Output>
     </Texts>
   </Element>
   <Element ID="2782" Key="DES_SUBSKILL_RELIABLE_ARGUMENT_DES" Flag="1">
@@ -47881,7 +47991,7 @@
     </Groups>
     <Texts>
       <Input>Single target attack from ranged row.</Input>
-      <Output>Atak celujacy w przeciwnika z dystansowego rzędu.</Output>
+      <Output>Atak celujący w przeciwnika z dystansowego rzędu.</Output>
     </Texts>
   </Element>
   <Element ID="2793" Key="DES_SUBSKILL_SHADOW_WHISPERS" Flag="1">
@@ -47898,7 +48008,7 @@
     </Groups>
     <Texts>
       <Input>Destructive Words</Input>
-      <Output>Destrukcyjne Słowa</Output>
+      <Output>Niszczycielskie Słowa</Output>
     </Texts>
   </Element>
   <Element ID="2794" Key="DES_SUBSKILL_SHADOW_WHISPERS_DES" Flag="1">
@@ -48238,7 +48348,7 @@
     </Groups>
     <Texts>
       <Input>Ground Shake</Input>
-      <Output>Wstrząs</Output>
+      <Output>Trzęcienie Ziemi</Output>
     </Texts>
   </Element>
   <Element ID="2814" Key="DES_SUBSKILL_GROUND_SHAKING_DES" Flag="1">
@@ -48272,7 +48382,7 @@
     </Groups>
     <Texts>
       <Input>Ice Spike</Input>
-      <Output>Lodowy Kolec</Output>
+      <Output>Lodowy Pocisk</Output>
     </Texts>
   </Element>
   <Element ID="2816" Key="DES_SUBSKILL_ICE_SPIKE_DES" Flag="1">
@@ -48580,7 +48690,7 @@
     </Groups>
     <Texts>
       <Input>Claw Hit</Input>
-      <Output>Uderzenie Pazura</Output>
+      <Output>Uderzenie Pazurem</Output>
     </Texts>
   </Element>
   <Element ID="2834" Key="DES_SUBSKILL_CLAW_HIT_DES" Flag="1">
@@ -48614,7 +48724,7 @@
     </Groups>
     <Texts>
       <Input>Line Charge</Input>
-      <Output>Liniowa Szarża</Output>
+      <Output>Szarża</Output>
     </Texts>
   </Element>
   <Element ID="2836" Key="DES_SUBSKILL_LINE_CHARGE_DES" Flag="1">
@@ -48876,7 +48986,12 @@
       <Output>Zwiększa osłonę od 1 do 3 wybranych sojuszników.</Output>
     </Texts>
   </Element>
-  <Element ID="2851" Key="DES_SUBSKILL_ENTER_DMG" Flag="0">
+  <Element ID="2851" Key="DES_SUBSKILL_ENTER_DMG" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 11:28:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -48888,7 +49003,12 @@
       <Output>Zwiększa osłonę od 1 do 3 wybranych sojuszników.</Output>
     </Texts>
   </Element>
-  <Element ID="2852" Key="DES_SUBSKILL_ENTER_DMG_DES" Flag="0">
+  <Element ID="2852" Key="DES_SUBSKILL_ENTER_DMG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -48897,7 +49017,7 @@
     </Groups>
     <Texts>
       <Input>Increase Shielding of 1 to 3 selected allies.</Input>
-      <Output>Zwiększ osłonę od 1 do 3 wybranych sojuszników.</Output>
+      <Output>Zwiększa osłonę od 1 do 3 wybranych sojuszników.</Output>
     </Texts>
   </Element>
   <Element ID="2853" Key="DES_SUBSKILL_MIMIC_FRIEND_HEALTH" Flag="1">
@@ -49606,7 +49726,7 @@
     </Groups>
     <Texts>
       <Input>Summon Unliving</Input>
-      <Output>Przywołanie Nieumarłych</Output>
+      <Output>Przywołanie Nieumarłego</Output>
     </Texts>
   </Element>
   <Element ID="2892" Key="DES_SUBSKILL_SUMMON_UNLIVING_DES" Flag="1">
@@ -49823,7 +49943,7 @@
     </Groups>
     <Texts>
       <Input>Bloody Summon Werewolf</Input>
-      <Output>Krwawe przywołanie Wilkołaka</Output>
+      <Output>Krwawe Przywołanie Wilkołaka</Output>
     </Texts>
   </Element>
   <Element ID="2904" Key="DES_SUBSKILL_BLOODY_SUMMON_WEREWOLF_DES" Flag="1">
@@ -50273,7 +50393,7 @@
     </Groups>
     <Texts>
       <Input>Increase Max Faith</Input>
-      <Output>Zwiększenie Masymalnej Wiary</Output>
+      <Output>Zwiększenie Maksymalnej Wiary</Output>
     </Texts>
   </Element>
   <Element ID="2929" Key="DES_SUBSKILL_ADD_MAX_SPIRIT_DES" Flag="1">
@@ -50684,7 +50804,7 @@
     </Groups>
     <Texts>
       <Input>Increase Research</Input>
-      <Output>Zwiększenie Badania</Output>
+      <Output>Zwiększenie Badań</Output>
     </Texts>
   </Element>
   <Element ID="2953" Key="DES_SUBSKILL_ADD_RESEARCH_DES" Flag="1">
@@ -50896,7 +51016,7 @@
     </Groups>
     <Texts>
       <Input>Increase Rituals</Input>
-      <Output>Zwiększenie Rutuałów</Output>
+      <Output>Zwiększenie Rytuałów</Output>
     </Texts>
   </Element>
   <Element ID="2965" Key="DES_SUBSKILL_ADD_RITUALS_DES" Flag="1">
@@ -51258,7 +51378,7 @@
     </Groups>
     <Texts>
       <Input>Increase the character's maximum amount of Health (physical hit points).</Input>
-      <Output>Zwiększa maksymalną ilość zdrowia postaci (fizyczne punkty wytrzymałości).</Output>
+      <Output>Zwiększa maksymalną liczbę punktów życia (fizyczne punkty wytrzymałości).</Output>
     </Texts>
   </Element>
   <Element ID="2985" Key="DES_SUBSKILL_SUB_MAX_SPIRIT" Flag="1">
@@ -51827,7 +51947,7 @@
     </Groups>
     <Texts>
       <Input>Decrease Movement Points</Input>
-      <Output>Zmniejszenie Punktów Ruchu</Output>
+      <Output>Zmniejszenie Zasięgu</Output>
     </Texts>
   </Element>
   <Element ID="3018" Key="DES_SUBSKILL_SUB_MOVEMENT_DES" Flag="1">
@@ -52002,7 +52122,7 @@
     </Groups>
     <Texts>
       <Input>Over Encumbered</Input>
-      <Output>Nadmierne Obciążenie</Output>
+      <Output>Przeciążenie</Output>
     </Texts>
   </Element>
   <Element ID="3028" Key="DES_SUBSKILL_OVERENCUMBERED_DES" Flag="1">
@@ -52427,7 +52547,7 @@
     </Groups>
     <Texts>
       <Input>Day Weakness</Input>
-      <Output>Dzień Słabości</Output>
+      <Output>Dzienna Słabość</Output>
     </Texts>
   </Element>
   <Element ID="3052" Key="DES_SUBSKILL_DAY_WEAKNESS_DES" Flag="1">
@@ -52600,7 +52720,7 @@
     </Groups>
     <Texts>
       <Input>Horn Impale</Input>
-      <Output>Przebicie Rogami</Output>
+      <Output>Przebicie Rogiem</Output>
     </Texts>
   </Element>
   <Element ID="3062" Key="DES_SUBSKILL_HORN_IMPALE_DES" Flag="1">
@@ -52823,7 +52943,12 @@
       <Output>Niższe atrybuty walki wszystkich wrogów stojących na polu bitwy.</Output>
     </Texts>
   </Element>
-  <Element ID="3076" Key="DES_SUBSKILL_DEVOURING_ROAR" Flag="0">
+  <Element ID="3076" Key="DES_SUBSKILL_DEVOURING_ROAR" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52832,7 +52957,7 @@
     </Groups>
     <Texts>
       <Input>Devouring Roar</Input>
-      <Output>Pożerający Ryk</Output>
+      <Output>Przerażający Ryk</Output>
     </Texts>
   </Element>
   <Element ID="3077" Key="DES_SUBSKILL_DEVOURING_ROAR_DES" Flag="0">
@@ -52943,7 +53068,7 @@
     </Groups>
     <Texts>
       <Input>Inspire</Input>
-      <Output>Inspiruj</Output>
+      <Output>Inspiracja</Output>
     </Texts>
   </Element>
   <Element ID="3085" Key="DES_SUBSKILL_INSPIRE_DES" Flag="0">
@@ -53787,7 +53912,12 @@
       <Output>Rzut Skałą</Output>
     </Texts>
   </Element>
-  <Element ID="3137" Key="DES_SUBSKILL_THROW_DES" Flag="0">
+  <Element ID="3137" Key="DES_SUBSKILL_THROW_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:47</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53795,7 +53925,7 @@
     </Groups>
     <Texts>
       <Input>Single target attack dealing damage to a selected enemy.</Input>
-      <Output>Atak pojedynczego celu zadający obrażenia wybranemu wrogowi.</Output>
+      <Output>Atak na pojedyńczy cel zadający obrażenia wybranemu wrogowi.</Output>
     </Texts>
   </Element>
   <Element ID="3138" Key="DES_SUBSKILL_POISON_SPIT" Flag="1">
@@ -53812,7 +53942,7 @@
     </Groups>
     <Texts>
       <Input>Poison Spit</Input>
-      <Output>Pluniecię Trucizną</Output>
+      <Output>Splunięcie Trucizną</Output>
     </Texts>
   </Element>
   <Element ID="3139" Key="DES_SUBSKILL_POISON_SPIT_DES" Flag="0">
@@ -53827,7 +53957,12 @@
       <Output>Trujący pojedynczy atak zadający obrażenia wybranemu wrogowi.</Output>
     </Texts>
   </Element>
-  <Element ID="3140" Key="DES_SUBSKILL_DIVE_ATTACK" Flag="0">
+  <Element ID="3140" Key="DES_SUBSKILL_DIVE_ATTACK" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53836,7 +53971,7 @@
     </Groups>
     <Texts>
       <Input>Dive Attack</Input>
-      <Output>Atak nurkowy</Output>
+      <Output>Atak Nurkowy</Output>
     </Texts>
   </Element>
   <Element ID="3141" Key="DES_SUBSKILL_DIVE_ATTACK_DES" Flag="0">
@@ -54003,7 +54138,7 @@
     </Groups>
     <Texts>
       <Input>Poison Spew</Input>
-      <Output>Trujące Wymioty</Output>
+      <Output>Zionięcie Trucizną</Output>
     </Texts>
   </Element>
   <Element ID="3153" Key="DES_SUBSKILL_POISON_SPEW_DES" Flag="1">
@@ -54109,7 +54244,7 @@
     </Groups>
     <Texts>
       <Input>Blessed Armour</Input>
-      <Output>Błogosławiona Osłona</Output>
+      <Output>Błogosławiony Pancerz</Output>
     </Texts>
   </Element>
   <Element ID="3159" Key="DES_SUBSKILL_BLESSED_ARMOUR_DES" Flag="0">
@@ -54655,7 +54790,7 @@
     </Groups>
     <Texts>
       <Input>Foodie</Input>
-      <Output>Smakosz</Output>
+      <Output>Obżartuch</Output>
     </Texts>
   </Element>
   <Element ID="3191" Key="DES_SUBSKILL_FOODIE_DES" Flag="1">
@@ -55070,7 +55205,7 @@
     </Groups>
     <Texts>
       <Input>Extra Crafting Slots</Input>
-      <Output>Dodatkowe Miejsca Rzemiosła</Output>
+      <Output>Dodatkowe Miejsce Rzemieślnika</Output>
     </Texts>
   </Element>
   <Element ID="3217" Key="DES_SUBSKILL_BUILDING_ADD_CRAFTING_SLOTS_DES" Flag="1">
@@ -55208,7 +55343,12 @@
       <Output>Zwiększa fizyczną i mentalną osłonę wszystkich postaci w wiosce i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3224" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M_S" Flag="0">
+  <Element ID="3224" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M_S" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:05</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55221,7 +55361,7 @@
     </Groups>
     <Texts>
       <Input>Inc. Physical, Mental and Spiritual Shielding</Input>
-      <Output>Inc. Fizyczne, mentalne i duchowe osłony</Output>
+      <Output>Zwiększenie Fizycznej, Mentalnej i Duchowej Osłony</Output>
     </Texts>
   </Element>
   <Element ID="3225" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M_S_DES" Flag="0">
@@ -55240,7 +55380,12 @@
       <Output>Zwiększ fizyczne, mentalne i duchowe osłanianie wszystkich postaci w wiosce i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3226" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH" Flag="0">
+  <Element ID="3226" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55250,7 +55395,7 @@
     </Groups>
     <Texts>
       <Input>Increase Research</Input>
-      <Output>Zwiększenie badań</Output>
+      <Output>Zwiększenie Badań</Output>
     </Texts>
   </Element>
   <Element ID="3227" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_DES" Flag="0">
@@ -55266,7 +55411,12 @@
       <Output>Zwiększ atrybut atrybutu wszystkich postaci w wiosce i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3228" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_SLOTS" Flag="0">
+  <Element ID="3228" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_SLOTS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55277,7 +55427,7 @@
     </Groups>
     <Texts>
       <Input>Extra Research Slots</Input>
-      <Output>Dodatkowe gniazda badawcze</Output>
+      <Output>Dodatkowe Miejsce Badacza</Output>
     </Texts>
   </Element>
   <Element ID="3229" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_SLOTS_DES" Flag="0">
@@ -55294,7 +55444,12 @@
       <Output>Zwiększ liczbę slotów na badania, aby więcej osób mogło zostać przydzielonych do każdego zadania badawczego.</Output>
     </Texts>
   </Element>
-  <Element ID="3230" Key="DES_SUBSKILL_BUILDING_ADD_STRONG_RESEARCH_SLOTS" Flag="0">
+  <Element ID="3230" Key="DES_SUBSKILL_BUILDING_ADD_STRONG_RESEARCH_SLOTS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55306,10 +55461,15 @@
     </Groups>
     <Texts>
       <Input>Extra Research Slots</Input>
-      <Output>Dodatkowe gniazda badawcze</Output>
+      <Output>Dodatkowe Miejsce Badacza</Output>
     </Texts>
   </Element>
-  <Element ID="3231" Key="DES_SUBSKILL_BUILDING_THRESHOLD_MORALE" Flag="0">
+  <Element ID="3231" Key="DES_SUBSKILL_BUILDING_THRESHOLD_MORALE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55319,7 +55479,7 @@
     </Groups>
     <Texts>
       <Input>Morale Threshold</Input>
-      <Output>Próg morale</Output>
+      <Output>Próg Morale</Output>
     </Texts>
   </Element>
   <Element ID="3232" Key="DES_SUBSKILL_BUILDING_THRESHOLD_MORALE_DES" Flag="0">
@@ -55397,7 +55557,12 @@
       <Output>Zmniejsza szansę na śmierć z powodu poważnych ran wszystkich postaci w wiosce oraz wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3237" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING_SLOTS" Flag="0">
+  <Element ID="3237" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING_SLOTS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55408,7 +55573,7 @@
     </Groups>
     <Texts>
       <Input>Extra Gathering Slots</Input>
-      <Output>Dodatkowe miejsce na zbieranie</Output>
+      <Output>Dodatkowe Miejsce Zbieracza</Output>
     </Texts>
   </Element>
   <Element ID="3238" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING_SLOTS_DES" Flag="0">
@@ -56078,7 +56243,12 @@
       <Output>Zwiększ atrybut Przeznaczenia wszystkich dzieci w wiosce i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3284" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS" Flag="0">
+  <Element ID="3284" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56088,7 +56258,7 @@
     </Groups>
     <Texts>
       <Input>Increase Rituals</Input>
-      <Output>Zwiększ rytuały</Output>
+      <Output>Zwiększenie Rytuałów</Output>
     </Texts>
   </Element>
   <Element ID="3285" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS_DES" Flag="0">
@@ -56104,7 +56274,12 @@
       <Output>Zwiększ atrybut rytuałów wszystkich postaci w wiosce i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3286" Key="DES_SUBSKILL_BUILDING_ADD_LUCK" Flag="0">
+  <Element ID="3286" Key="DES_SUBSKILL_BUILDING_ADD_LUCK" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:11</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56114,7 +56289,7 @@
     </Groups>
     <Texts>
       <Input>Increase Luck</Input>
-      <Output>Zwiększ szczęście</Output>
+      <Output>Zwiększenie Szczęścia</Output>
     </Texts>
   </Element>
   <Element ID="3287" Key="DES_SUBSKILL_BUILDING_ADD_LUCK_DES" Flag="0">
@@ -59890,7 +60065,7 @@
     </Groups>
     <Texts>
       <Input>Eagle Eye</Input>
-      <Output>Sokole Oko</Output>
+      <Output>Orle Oko</Output>
     </Texts>
   </Element>
   <Element ID="3514" Key="DES_TRAIT_EAGLE_EYE_DES" Flag="1">
@@ -64923,7 +65098,7 @@
     </Groups>
     <Texts>
       <Input>Orcs</Input>
-      <Output>Orkowie</Output>
+      <Output>Orki</Output>
     </Texts>
   </Element>
   <Element ID="3812" Key="DES_GROUP_BLOODTRACKERS" Flag="1">
@@ -65315,7 +65490,7 @@
     </Groups>
     <Texts>
       <Input>Unliving</Input>
-      <Output>Nieumarły</Output>
+      <Output>Nieumarli</Output>
     </Texts>
   </Element>
   <Element ID="3836" Key="DES_GROUP_SPIRITS" Flag="1">
@@ -65892,7 +66067,7 @@
     </Groups>
     <Texts>
       <Input>Mroki</Input>
-      <Output>Mrokowie</Output>
+      <Output>Mroki</Output>
     </Texts>
   </Element>
   <Element ID="3871" Key="DES_FACTIONS_TROLLS" Flag="1">
@@ -66073,7 +66248,7 @@
     </Groups>
     <Texts>
       <Input>Village</Input>
-      <Output>Wioska</Output>
+      <Output>Osada</Output>
     </Texts>
   </Element>
   <Element ID="3882" Key="DES_SET_LOOKOUT_TOWER" Flag="1">
@@ -68227,7 +68402,12 @@
       <Output>Standardowa umiejętność pancerza. Pasywnie zwiększa ekranowanie.</Output>
     </Texts>
   </Element>
-  <Element ID="4014" Key="DES_SKILL_SHIELD_SKILL" Flag="0">
+  <Element ID="4014" Key="DES_SKILL_SHIELD_SKILL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:44</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -69225,7 +69405,7 @@
     </Groups>
     <Texts>
       <Input>But you decided to leave for now.</Input>
-      <Output>Ale na razie, postanawiacie odejść.</Output>
+      <Output>Ale decydujecie się na razie odejść.</Output>
     </Texts>
   </Element>
   <Element ID="4078" Key="QUEST_MQ_MINE2_DES" Flag="1">
@@ -72213,7 +72393,7 @@
     </Groups>
     <Texts>
       <Input>Alphaclans</Input>
-      <Output>Alfaklany</Output>
+      <Output>Klany Alfa</Output>
     </Texts>
   </Element>
   <Element ID="4265" Key="QUEST_ALPHACLANS" Flag="1">
@@ -75286,7 +75466,7 @@
     </Groups>
     <Texts>
       <Input>God Points: </Input>
-      <Output>Boskie punkty: </Output>
+      <Output>Boskie Punkty: </Output>
     </Texts>
   </Element>
   <Element ID="4457" Key="UI_SINGLE_PLAYER" Flag="1">
@@ -76322,7 +76502,7 @@
     </Groups>
     <Texts>
       <Input>Transfer Food</Input>
-      <Output>Przekazanie żywności</Output>
+      <Output>Transfer Żywności</Output>
     </Texts>
   </Element>
   <Element ID="4522" Key="UI_VARIETIES_FOR" Flag="1">
@@ -77537,7 +77717,7 @@
     </Groups>
     <Texts>
       <Input>Notes</Input>
-      <Output>Uwagi</Output>
+      <Output>Notatki</Output>
     </Texts>
   </Element>
   <Element ID="4599" Key="UI_RESOURCES_RECOVERED" Flag="1">
@@ -77761,7 +77941,7 @@
     </Groups>
     <Texts>
       <Input>Armours</Input>
-      <Output>Zbroje</Output>
+      <Output>Pancerze</Output>
     </Texts>
   </Element>
   <Element ID="4613" Key="UI_SORT_BY" Flag="1">
@@ -78075,7 +78255,7 @@
     </Groups>
     <Texts>
       <Input>Challenge Type:</Input>
-      <Output>Typ wyzwania:</Output>
+      <Output>Typ Wyzwania:</Output>
     </Texts>
   </Element>
   <Element ID="4632" Key="UI_AUTOSCALE_BY_ENEMY" Flag="1">
@@ -78262,7 +78442,7 @@
     </Groups>
     <Texts>
       <Input>Target Group:</Input>
-      <Output>Grupa docelowa:</Output>
+      <Output>Grupa Docelowa:</Output>
     </Texts>
   </Element>
   <Element ID="4644" Key="UI_SPAWN_SOURCE_GROUP" Flag="1">
@@ -79708,7 +79888,7 @@
     </Groups>
     <Texts>
       <Input>Gathering</Input>
-      <Output>Zbieranie</Output>
+      <Output>Zbieractwo</Output>
     </Texts>
   </Element>
   <Element ID="4735" Key="UI_BUILD_VER" Flag="1">
@@ -80090,7 +80270,7 @@
     </Groups>
     <Texts>
       <Input>Enemy Group:</Input>
-      <Output>Grupa przeciwników:</Output>
+      <Output>Wroga Grupa:</Output>
     </Texts>
   </Element>
   <Element ID="4759" Key="UI_VERSUS" Flag="1">
@@ -81924,7 +82104,7 @@
     </Groups>
     <Texts>
       <Input>Add Resources</Input>
-      <Output>Dodaj zasoby</Output>
+      <Output>Dodanie Zasobów</Output>
     </Texts>
   </Element>
   <Element ID="4873" Key="UI_OPTIONAL_EVENT_INVITE_GLOBAL" Flag="1">
@@ -82488,7 +82668,7 @@
     </Groups>
     <Texts>
       <Input>Always confirm dismantle</Input>
-      <Output>Zawsze potwierdzaj rozbiórkę na części</Output>
+      <Output>Zawsze potwierdzaj demontaż</Output>
     </Texts>
   </Element>
   <Element ID="4908" Key="UI_FOOD_ALERT_THRESHOLD" Flag="1">
@@ -82591,7 +82771,7 @@
     </Groups>
     <Texts>
       <Input>Allow entering water tiles</Input>
-      <Output>Pozwól chodzić po kafelkach wody</Output>
+      <Output>Zezwól na pływanie wpław</Output>
     </Texts>
   </Element>
   <Element ID="4914" Key="UI_RESET_HELP" Flag="1">
@@ -83495,7 +83675,7 @@
     </Groups>
     <Texts>
       <Input>Enable Dev Console</Input>
-      <Output>Włącz konsolę Dev</Output>
+      <Output>Włącz Konsolę Programisty</Output>
     </Texts>
   </Element>
   <Element ID="4970" Key="UI_WELCOME_HEADING" Flag="1">
@@ -85312,7 +85492,7 @@
     </Groups>
     <Texts>
       <Input>Total Defeat</Input>
-      <Output>Całkowita porażka</Output>
+      <Output>Całkowita Porażka</Output>
     </Texts>
   </Element>
   <Element ID="5079" Key="UI_VICTORY_WITH_GRAVE_INJURIES" Flag="1">
@@ -85381,7 +85561,7 @@
     </Groups>
     <Texts>
       <Input>Perfect Victory</Input>
-      <Output>Doskonałe zwycięstwo</Output>
+      <Output>Doskonałe Zwycięstwo</Output>
     </Texts>
   </Element>
   <Element ID="5083" Key="UI_AUTORESOLVE_OUTCOME_INFO" Flag="1">
@@ -89481,7 +89661,7 @@
     </Groups>
     <Texts>
       <Input>Dark Totem</Input>
-      <Output>Dark Totem</Output>
+      <Output>Mroczny Totem</Output>
     </Texts>
   </Element>
   <Element ID="5352" Key="DES_SUBRACE_DARK_TOTEM_DES" Flag="1">
@@ -89686,7 +89866,12 @@
       <Output>Twoja fascynacja ciemnością daje ci lepsze zrozumienie świata duchowego.</Output>
     </Texts>
   </Element>
-  <Element ID="5367" Key="DES_SKILL_DARK_TOTEM" Flag="0">
+  <Element ID="5367" Key="DES_SKILL_DARK_TOTEM" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -89695,7 +89880,7 @@
     </Groups>
     <Texts>
       <Input>Dark Totem</Input>
-      <Output>Mroczny totem</Output>
+      <Output>Mroczny Totem</Output>
     </Texts>
   </Element>
   <Element ID="5368" Key="DES_SKILL_DARK_TOTEM_DES" Flag="0">
@@ -89710,7 +89895,12 @@
       <Output>Przywołaj Mrocznego Totemu do pomocy. Jego mroczna magia wchłonie rany zadane każdemu sojusznikowi, o ile żyje.</Output>
     </Texts>
   </Element>
-  <Element ID="5369" Key="DES_SKILL_PAIN_COMMISSION" Flag="0">
+  <Element ID="5369" Key="DES_SKILL_PAIN_COMMISSION" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:18:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -89719,7 +89909,7 @@
     </Groups>
     <Texts>
       <Input>Pain Duty</Input>
-      <Output>Obowiązek bólu</Output>
+      <Output>Bolesna Służba</Output>
     </Texts>
   </Element>
   <Element ID="5370" Key="DES_SKILL_PAIN_COMMISSION_DES" Flag="0">
@@ -89734,7 +89924,12 @@
       <Output>Jedynym celem tego totemu jest odczuwanie bólu.</Output>
     </Texts>
   </Element>
-  <Element ID="5371" Key="DES_SKILL_DARK_SHIFT" Flag="0">
+  <Element ID="5371" Key="DES_SKILL_DARK_SHIFT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:16:39</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -89743,7 +89938,7 @@
     </Groups>
     <Texts>
       <Input>Dark Shift</Input>
-      <Output>Mroczna zamiana</Output>
+      <Output>Mroczne Przesunięcie</Output>
     </Texts>
   </Element>
   <Element ID="5372" Key="DES_SKILL_DARK_SHIFT_DES" Flag="0">
@@ -90113,7 +90308,12 @@
       <Output>Przekieruj do siebie wszystkie obrażenia, które w przeciwnym razie zostałyby zadane sojusznikom.</Output>
     </Texts>
   </Element>
-  <Element ID="5398" Key="DES_SUBSKILL_DARK_SHIFT" Flag="0">
+  <Element ID="5398" Key="DES_SUBSKILL_DARK_SHIFT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:16:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91859,7 +92059,12 @@
       <Output>Zwód</Output>
     </Texts>
   </Element>
-  <Element ID="5504" Key="DES_SKILL_FEINT_DES" Flag="0">
+  <Element ID="5504" Key="DES_SKILL_FEINT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-06 10:17:48</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -91867,7 +92072,7 @@
     </Groups>
     <Texts>
       <Input>Each enemy that deals damage to you will also receive damage.</Input>
-      <Output>Każdy wróg, który zadaje ci obrażenia, również otrzyma obrażenia.</Output>
+      <Output>Każdy wróg, który zada ci obrażenia, również otrzyma obrażenia.</Output>
     </Texts>
   </Element>
   <Element ID="5505" Key="DES_SKILL_PUMPKIN_HELLFIRE" Flag="0">
