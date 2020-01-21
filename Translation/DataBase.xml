@@ -48263,7 +48263,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}This subskill does not attack hand if battlefield is empty.{END_COLOR}\nDeals Poison Damage to all characters on the battlefield.</Input>
-      <Output>{COLOR:red}Ta podrzędna umiejętność nie atakuje ręki, jeśli pole bitwy jest puste. {END_COLOR}\nZadaje obrażenia od trucizny wszystkim postaciom na polu bitwy.</Output>
+      <Output>{COLOR:red}Ten efekt nie atakuje ręki, jeśli pole bitwy jest puste. {END_COLOR}\nZadaje obrażenia od trucizny wszystkim postaciom na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="2809" Key="DES_SUBSKILL_TRUE_FOG" Flag="1">
@@ -48297,7 +48297,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}This subskill does not attack hand if battlefield is empty.{END_COLOR}\nDeals True Damage to all characters on the battlefield.</Input>
-      <Output>{COLOR:red}Ta podrzędna umiejętność nie atakuje ręki, jeśli pole bitwy jest puste. {END_COLOR}\nZadaje czyste obrażenia wszystkim postaciom na polu bitwy.</Output>
+      <Output>{COLOR:red}Ten efekt nie atakuje ręki, jeśli pole bitwy jest puste.{END_COLOR}\nZadaje czyste obrażenia wszystkim postaciom na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="2811" Key="DES_SUBSKILL_ANCESTOR_VOICE" Flag="1">
@@ -52582,10 +52582,15 @@
     </Groups>
     <Texts>
       <Input>Mind-Spirit Weakness</Input>
-      <Output>Osłabienie Ducha Umysłu</Output>
+      <Output>Osłabienie Ducha i Umysłu</Output>
     </Texts>
   </Element>
-  <Element ID="3054" Key="DES_SUBSKILL_MIND_SPIRIT_WEAKNESS_DES" Flag="0">
+  <Element ID="3054" Key="DES_SUBSKILL_MIND_SPIRIT_WEAKNESS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:09:56</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52595,7 +52600,7 @@
     </Groups>
     <Texts>
       <Input>Decreases the character's Intelligence, Wisdom, Mysticism and Destiny attributes as well as their maximum Sanity and Faith.</Input>
-      <Output>Zmniejsza atrybuty Inteligencji, Mądrości, Mistycyzmu i Przeznaczenia postaci oraz ich maksymalne Poczytalność i Wiarę.</Output>
+      <Output>Zmniejsza atrybuty inteligencji, mądrości, mistycyzmu i przeznaczenia postaci oraz ich maksymalną poczytalność i wiarę.</Output>
     </Texts>
   </Element>
   <Element ID="3055" Key="DES_SUBSKILL_DAY_BLINDNESS" Flag="1">
@@ -52758,7 +52763,12 @@
       <Output>Odwet</Output>
     </Texts>
   </Element>
-  <Element ID="3064" Key="DES_SUBSKILL_RETALIATION_DMG_STR_DES" Flag="0">
+  <Element ID="3064" Key="DES_SUBSKILL_RETALIATION_DMG_STR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:11:11</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52768,7 +52778,7 @@
     </Groups>
     <Texts>
       <Input>Each attacker that hits this character receives damage based on the character's Strength.</Input>
-      <Output>Każdy atakujący, który trafi tę postać, otrzymuje obrażenia na podstawie Siły postaci.</Output>
+      <Output>Każdy atakujący, który trafi tę postać, otrzymuje obrażenia na podstawie siły postaci.</Output>
     </Texts>
   </Element>
   <Element ID="3065" Key="DES_SUBSKILL_RETALIATION_DMG_PER" Flag="1">
@@ -52789,7 +52799,12 @@
       <Output>Odwet</Output>
     </Texts>
   </Element>
-  <Element ID="3066" Key="DES_SUBSKILL_RETALIATION_DMG_PER_DES" Flag="0">
+  <Element ID="3066" Key="DES_SUBSKILL_RETALIATION_DMG_PER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:11:28</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52799,7 +52814,7 @@
     </Groups>
     <Texts>
       <Input>Each attacker that hits this character with a normal attack, receives damage based on the character's Perception.</Input>
-      <Output>Każdy atakujący, który trafi tę postać normalnym atakiem, otrzymuje obrażenia na podstawie Postrzegania postaci.</Output>
+      <Output>Każdy atakujący, który trafi tę postać normalnym atakiem, otrzymuje obrażenia na podstawie percepcji postaci.</Output>
     </Texts>
   </Element>
   <Element ID="3067" Key="DES_SUBSKILL_RETALIATION_DMG" Flag="1">
@@ -52819,7 +52834,12 @@
       <Output>Odwet</Output>
     </Texts>
   </Element>
-  <Element ID="3068" Key="DES_SUBSKILL_RETALIATION_DMG_DES" Flag="0">
+  <Element ID="3068" Key="DES_SUBSKILL_RETALIATION_DMG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:11:10</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52828,7 +52848,7 @@
     </Groups>
     <Texts>
       <Input>Each attacker that hits this character receives damage based on the character's Primary Combat Attributes.</Input>
-      <Output>Każdy atakujący, który trafi tę postać, otrzymuje obrażenia w oparciu o główne atrybuty walki postaci.</Output>
+      <Output>Każdy atakujący, który trafi tę postać, otrzymuje obrażenia na podstawie głównych atrybutów walki postaci.</Output>
     </Texts>
   </Element>
   <Element ID="3069" Key="DES_SUBSKILL_HEAL_ON_DMG" Flag="1">
@@ -52896,7 +52916,7 @@
     </Groups>
     <Texts>
       <Input>Regenerate a portion of health after receiving damage.</Input>
-      <Output>Regeneruj część życia po otrzymaniu obrażeń.</Output>
+      <Output>Regeneruje część życia po otrzymaniu obrażeń.</Output>
     </Texts>
   </Element>
   <Element ID="3073" Key="DES_SUBSKILL_WEAK_REGENERATION" Flag="1">
@@ -52932,7 +52952,12 @@
       <Output>Przytłoczenie</Output>
     </Texts>
   </Element>
-  <Element ID="3075" Key="DES_SUBSKILL_OVERWHELM_DES" Flag="0">
+  <Element ID="3075" Key="DES_SUBSKILL_OVERWHELM_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:11:57</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52940,7 +52965,7 @@
     </Groups>
     <Texts>
       <Input>Lower Combat Attributes of all enemies standing on the battlefield.</Input>
-      <Output>Niższe atrybuty walki wszystkich wrogów stojących na polu bitwy.</Output>
+      <Output>Obniża atrybuty walki wszystkich wrogów stojących na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3076" Key="DES_SUBSKILL_DEVOURING_ROAR" Flag="1">
@@ -52960,7 +52985,12 @@
       <Output>Przerażający Ryk</Output>
     </Texts>
   </Element>
-  <Element ID="3077" Key="DES_SUBSKILL_DEVOURING_ROAR_DES" Flag="0">
+  <Element ID="3077" Key="DES_SUBSKILL_DEVOURING_ROAR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:13:00</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52969,7 +52999,7 @@
     </Groups>
     <Texts>
       <Input>Lower Combat Attributes of enemies in T-type splash.</Input>
-      <Output>Niższe ataki przeciwników w pluskach typu T.</Output>
+      <Output>Obniża atrybuty walki zaatakowanych wrogów z rozpryskiem T.</Output>
     </Texts>
   </Element>
   <Element ID="3078" Key="DES_SUBSKILL_WEAKNESS" Flag="1">
@@ -52988,7 +53018,12 @@
       <Output>Słabość</Output>
     </Texts>
   </Element>
-  <Element ID="3079" Key="DES_SUBSKILL_WEAKNESS_DES" Flag="0">
+  <Element ID="3079" Key="DES_SUBSKILL_WEAKNESS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:15:17</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -52996,7 +53031,7 @@
     </Groups>
     <Texts>
       <Input>Lower Combat Attributes of the attacked character. Delay up to 2 targets.</Input>
-      <Output>Niższe atrybuty walki zaatakowanej postaci. Opóźnij do 2 celów.</Output>
+      <Output>Obniża atrybuty walki zaatakowanych wrogów. Opóźnia do 2 celów.</Output>
     </Texts>
   </Element>
   <Element ID="3080" Key="DES_SUBSKILL_TRANSFER_DMG" Flag="1">
@@ -53016,7 +53051,12 @@
       <Output>Przeniesienie Obrażeń</Output>
     </Texts>
   </Element>
-  <Element ID="3081" Key="DES_SUBSKILL_TRANSFER_DMG_DES" Flag="0">
+  <Element ID="3081" Key="DES_SUBSKILL_TRANSFER_DMG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 10:29:32</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53025,7 +53065,7 @@
     </Groups>
     <Texts>
       <Input>Upon getting hit, transfer any received damage to 1-3 other allies and heal half of that damage.</Input>
-      <Output>Po otrzymaniu trafienia, przenieś wszelkie otrzymane obrażenia na 1-3 innych sojuszników i ulecz połowę tego obrażenia.</Output>
+      <Output>Po otrzymaniu trafienia, przenosi wszelkie otrzymane obrażenia na 1-3 innych sojuszników i leczy połowę tych obrażeń.</Output>
     </Texts>
   </Element>
   <Element ID="3082" Key="DES_SUBSKILL_HEADBUTT" Flag="1">
@@ -53041,10 +53081,15 @@
     </Groups>
     <Texts>
       <Input>Headbutt</Input>
-      <Output>Uderzenie Głową</Output>
+      <Output>Uderzenie w Głowę</Output>
     </Texts>
   </Element>
-  <Element ID="3083" Key="DES_SUBSKILL_HEADBUTT_DES" Flag="0">
+  <Element ID="3083" Key="DES_SUBSKILL_HEADBUTT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 10:31:38</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53052,7 +53097,7 @@
     </Groups>
     <Texts>
       <Input>Melee attack on a single target that also increases their Delay.</Input>
-      <Output>Atak wręcz na pojedynczy cel, który również zwiększa ich opóźnienie.</Output>
+      <Output>Atak wręcz celujący w pojedynczego przeciwnika, który również zwiększa jego opóźnienie.</Output>
     </Texts>
   </Element>
   <Element ID="3084" Key="DES_SUBSKILL_INSPIRE" Flag="1">
@@ -53071,7 +53116,12 @@
       <Output>Inspiracja</Output>
     </Texts>
   </Element>
-  <Element ID="3085" Key="DES_SUBSKILL_INSPIRE_DES" Flag="0">
+  <Element ID="3085" Key="DES_SUBSKILL_INSPIRE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 10:32:25</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53202,7 +53252,12 @@
       <Output>Kryć Się!</Output>
     </Texts>
   </Element>
-  <Element ID="3093" Key="DES_SUBSKILL_HURRY_UP_SHIELDING_DES" Flag="0">
+  <Element ID="3093" Key="DES_SUBSKILL_HURRY_UP_SHIELDING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:07:54</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53212,7 +53267,7 @@
     </Groups>
     <Texts>
       <Input>Decreases Delay of a selected ally and improves their Shielding.</Input>
-      <Output>Zmniejsza opóźnienie wybranego sojusznika i poprawia ich osłonę.</Output>
+      <Output>Zmniejsza opóźnienie i poprawia osłonę wybranego sojusznika.</Output>
     </Texts>
   </Element>
   <Element ID="3094" Key="DES_SUBSKILL_SWARM_STRENGTH" Flag="1">
@@ -53232,7 +53287,12 @@
       <Output>Siła Roju</Output>
     </Texts>
   </Element>
-  <Element ID="3095" Key="DES_SUBSKILL_SWARM_STRENGTH_DES" Flag="0">
+  <Element ID="3095" Key="DES_SUBSKILL_SWARM_STRENGTH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:08:54</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53241,7 +53301,7 @@
     </Groups>
     <Texts>
       <Input>This character's Combat Attributes will increase for each other ally character placed on the battlefield after them.</Input>
-      <Output>Atrybuty walki tej postaci będą się zwiększać za każdą inną sojuszniczą postać umieszczoną za nimi na polu bitwy.</Output>
+      <Output>Zwiększa atrybuty walki tej postaci za każdym razem, kiedy inna sojuszniczą postać zostaje umieszczoną na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3096" Key="DES_SUBSKILL_SWARM_SPEED" Flag="1">
@@ -53275,7 +53335,7 @@
     </Groups>
     <Texts>
       <Input>This character's Delay will decrease for each other ally character placed on the battlefield after them.</Input>
-      <Output>Opóźnienie tej postaci zmniejszy się za każdą inną sojuszniczą postać umieszczoną po niej na polu bitwy.</Output>
+      <Output>Zmniejsza opóźnienie tej postaci za każdym razem, kiedy inna sojuszniczą postać zostaje umieszczoną na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3098" Key="DES_SUBSKILL_ARRIVAL_TRAP_DMG" Flag="1">
@@ -53296,7 +53356,12 @@
       <Output>Sidła</Output>
     </Texts>
   </Element>
-  <Element ID="3099" Key="DES_SUBSKILL_ARRIVAL_TRAP_DMG_DES" Flag="0">
+  <Element ID="3099" Key="DES_SUBSKILL_ARRIVAL_TRAP_DMG_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:10:19</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53306,7 +53371,7 @@
     </Groups>
     <Texts>
       <Input>Deals damage to the enemies played onto the battlefield.</Input>
-      <Output>Zadaje obrażenia przeciwnikom grającym na polu bitwy.</Output>
+      <Output>Zadaje obrażenia przeciwnikom wchodzącym na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3100" Key="DES_SUBSKILL_ARRIVAL_TRAP_DELAY" Flag="1">
@@ -53327,7 +53392,12 @@
       <Output>Zasadzka</Output>
     </Texts>
   </Element>
-  <Element ID="3101" Key="DES_SUBSKILL_ARRIVAL_TRAP_DELAY_DES" Flag="0">
+  <Element ID="3101" Key="DES_SUBSKILL_ARRIVAL_TRAP_DELAY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:10:27</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53465,7 +53535,12 @@
       <Output>Roztrzaskanie Tarczy</Output>
     </Texts>
   </Element>
-  <Element ID="3109" Key="DES_SUBSKILL_DESTROY_SHIELDING_DES" Flag="0">
+  <Element ID="3109" Key="DES_SUBSKILL_DESTROY_SHIELDING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:10:52</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53474,7 +53549,7 @@
     </Groups>
     <Texts>
       <Input>Destroy Shielding of a selected character on the battlefield.</Input>
-      <Output>Zniszcz osłonę wybranej postaci na polu bitwy.</Output>
+      <Output>Niszczy osłonę wybranej postaci na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3110" Key="DES_SUBSKILL_DAMAGE_SHIELDING_3" Flag="1">
@@ -53510,7 +53585,7 @@
     </Groups>
     <Texts>
       <Input>Damage a portion of Shielding of up to 3 chosen characters on the battlefield.</Input>
-      <Output>Obrażenia części Osłony do 3 wybranych postaci na polu bitwy.</Output>
+      <Output>Niszczy część osłony do 3 wybranych postaci na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3112" Key="DES_SUBSKILL_DAMAGE_SHIELDING" Flag="1">
@@ -53544,7 +53619,7 @@
     </Groups>
     <Texts>
       <Input>Damage Shielding of 1 characters on the battlefield.</Input>
-      <Output>Zadaje obrażenia Osłonie 1 postaci na polu bitwy.</Output>
+      <Output>Niszczy część osłony wybranej postaci na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3114" Key="DES_SUBSKILL_HUNTERS_MARK" Flag="1">
@@ -53564,7 +53639,12 @@
       <Output>Znak Łowcy</Output>
     </Texts>
   </Element>
-  <Element ID="3115" Key="DES_SUBSKILL_HUNTERS_MARK_PER_DES" Flag="0">
+  <Element ID="3115" Key="DES_SUBSKILL_HUNTERS_MARK_PER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:18:12</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53574,7 +53654,7 @@
     </Groups>
     <Texts>
       <Input>Lowers Combat Attributes of the attacked character and increases their Delay.</Input>
-      <Output>Obniża atrybuty walki zaatakowanej postaci i zwiększa ich opóźnienie.</Output>
+      <Output>Obniża atrybuty walki i zwiększa opóźnienie zaatakowanego przeciwnika.</Output>
     </Texts>
   </Element>
   <Element ID="3116" Key="DES_SUBSKILL_VIGOUR_DRAIN" Flag="1">
@@ -53623,7 +53703,12 @@
       <Output>Kołysanka</Output>
     </Texts>
   </Element>
-  <Element ID="3119" Key="DES_SUBSKILL_DELAY_ENEMY_DES" Flag="0">
+  <Element ID="3119" Key="DES_SUBSKILL_DELAY_ENEMY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:32:05</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53632,7 +53717,7 @@
     </Groups>
     <Texts>
       <Input>Enemy affected by this subskill will suffer increased Delay.</Input>
-      <Output>Wrogowie dotknięci tą umiejętnością będą mieli zwiększone opóźnienie.</Output>
+      <Output>Wrogowie dotknięci tym efektem będą mieli zwiększone opóźnienie.</Output>
     </Texts>
   </Element>
   <Element ID="3120" Key="DES_SUBSKILL_DELAY_ENEMIES" Flag="1">
@@ -53666,7 +53751,7 @@
     </Groups>
     <Texts>
       <Input>Enemies affected by this subskill suffer increased Delay. Affects 3 opponents in a horizontal line.</Input>
-      <Output>Wrogowie dotknięci tą umiejętnością podrzędną mają większe opóźnienie. Wpływa na 3 przeciwników w linii poziomej.</Output>
+      <Output>Wrogowie dotknięci tym efektem będą mieli zwiększone opóźnienie. Wpływa na 3 przeciwników w linii poziomej.</Output>
     </Texts>
   </Element>
   <Element ID="3122" Key="DES_SUBSKILL_SUSPENSION_ENEMIES" Flag="1">
@@ -53700,7 +53785,7 @@
     </Groups>
     <Texts>
       <Input>Delay up to three chosen enemies.</Input>
-      <Output>Opóźnij do trzech wybranych wrogów.</Output>
+      <Output>Wrogowie dotknięci tym efektem będą mieli zwiększone opóźnienie. Wpływa na do 3 wybranych przeciwników.</Output>
     </Texts>
   </Element>
   <Element ID="3124" Key="DES_SUBSKILL_ENTRANCE_STUN_ALL" Flag="1">
@@ -53721,7 +53806,12 @@
       <Output>Opóźnienie Wrogów</Output>
     </Texts>
   </Element>
-  <Element ID="3125" Key="DES_SUBSKILL_ENTRANCE_STUN_ALL_DES" Flag="0">
+  <Element ID="3125" Key="DES_SUBSKILL_ENTRANCE_STUN_ALL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:32:41</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53731,7 +53821,7 @@
     </Groups>
     <Texts>
       <Input>Enemies affected by this subskill suffer increased Delay. Affects all opponents in a battlefield.</Input>
-      <Output>Wrogowie dotknięci tą umiejętnością podrzędną doznają zwiększenia opóźnienia. Wpływa na wszystkich przeciwników na polu bitwy.</Output>
+      <Output>Wrogowie dotknięci tym efektem będą mieli zwiększone opóźnienie. Wpływa na wszystkich przeciwników na polu bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="3126" Key="DES_SUBSKILL_RANDOM_PROTECTION" Flag="1">
@@ -53780,7 +53870,12 @@
       <Output>Potężny Atakujący</Output>
     </Texts>
   </Element>
-  <Element ID="3129" Key="DES_SUBSKILL_MIGHTY_ROAR_DES" Flag="0">
+  <Element ID="3129" Key="DES_SUBSKILL_MIGHTY_ROAR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:41:04</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53789,7 +53884,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}This subskill does not attack hand if battlefield is empty.{END_COLOR}\nEnemies affected by this subskill will suffer increased Delay and receive damage.</Input>
-      <Output>{COLOR:red}Ta umiejętność podrzędna nie atakuje ręki, jeśli pole bitwy jest puste. {END_COLOR}\nWrogowie dotknięci tą umiejętnością będą mieli zwiększone opóźnienie i otrzymają obrażenia.</Output>
+      <Output>{COLOR:red}Ten efekt nie atakuje ręki, jeśli pole bitwy jest puste.{END_COLOR}\nWrogowie dotknięci tym efektem będą mieli zwiększone opóźnienie i otrzymają obrażenia.</Output>
     </Texts>
   </Element>
   <Element ID="3130" Key="DES_SUBSKILL_POISON_DUST" Flag="1">
@@ -54022,7 +54117,12 @@
       <Output>Eksplozja Energii</Output>
     </Texts>
   </Element>
-  <Element ID="3145" Key="DES_SUBSKILL_ENERGY_EXPLOSION_DES" Flag="0">
+  <Element ID="3145" Key="DES_SUBSKILL_ENERGY_EXPLOSION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:40:13</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54031,7 +54131,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}This subskill does not attack hand if battlefield is empty.{END_COLOR}\nDamage the entire battlefield (including friendly units) exept for the caster.</Input>
-      <Output>{COLOR:red}Ta umiejętność podrzędna nie atakuje ręki, jeśli pole bitwy jest puste. {END_COLOR}\nObrażenia całego pola bitwy (w tym przyjaznych jednostek), za wyjątkiem rzucającego.</Output>
+      <Output>{COLOR:red}Ten efekt nie atakuje ręki, jeśli pole bitwy jest puste.{END_COLOR}\nZadaje obrażenia wszystkim na polu bitwy (również sojusznikom), za wyjątkiem rzucającego.</Output>
     </Texts>
   </Element>
   <Element ID="3146" Key="DES_SUBSKILL_FROGS_RAIN" Flag="1">
@@ -54051,7 +54151,12 @@
       <Output>Deszcz Żab</Output>
     </Texts>
   </Element>
-  <Element ID="3147" Key="DES_SUBSKILL_FROGS_RAIN_DES" Flag="0">
+  <Element ID="3147" Key="DES_SUBSKILL_FROGS_RAIN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:40:12</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54060,7 +54165,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}This subskill does not attack the enemy's hand even if the Battlefield is empty.{END_COLOR}\nDamage all characters on the battlefied (including friendly units) exept for the caster.</Input>
-      <Output>{COLOR:red}Ta umiejętność nie atakuje ręki wroga, nawet jeśli pole bitwy jest puste. {END_COLOR}\nObrażenia wszystkich postaci w bitwie (w tym przyjaznych jednostek), za wyjątkiem rzucającego.</Output>
+      <Output>{COLOR:red}Ten efekt nie atakuje ręki, jeśli pole bitwy jest puste.{END_COLOR}\nZadaje obrażenia wszystkim na polu bitwy (również sojusznikom), za wyjątkiem rzucającego.</Output>
     </Texts>
   </Element>
   <Element ID="3148" Key="DES_SUBSKILL_FIREBALL" Flag="1">
@@ -58039,7 +58144,12 @@
       <Output>Okrzyk Bojowy Zorii</Output>
     </Texts>
   </Element>
-  <Element ID="3372" Key="DES_SUBSKILL_ZORYA_WARCRY_DES" Flag="0">
+  <Element ID="3372" Key="DES_SUBSKILL_ZORYA_WARCRY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 09:04:21</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -58098,7 +58208,7 @@
     </Groups>
     <Texts>
       <Input>War Cry</Input>
-      <Output>Okrzyk Wojenny</Output>
+      <Output>Okrzyk Bojowy</Output>
     </Texts>
   </Element>
   <Element ID="3376" Key="DES_TRAIT_WARCRY_DES" Flag="1">
@@ -58114,7 +58224,7 @@
     </Groups>
     <Texts>
       <Input>Every time an enemy character comes into the battlefield, the Delay of your characters standing on the battlefield is reduced.</Input>
-      <Output>Za każdym razem, gdy wroga postać wchodzi na pole bitwy, zmniejsza się opóźnienie twoich postaci stojących na polu bitwy.</Output>
+      <Output>Za każdym razem, gdy wroga postać wchodzi na pole bitwy, opóźnienie twoich postaci stojących na polu bitwy zmniejsza się.</Output>
     </Texts>
   </Element>
   <Element ID="3377" Key="DES_TRAIT_MUTUAL_LOVE" Flag="1">
@@ -79160,7 +79270,12 @@
       <Output>Trudność:</Output>
     </Texts>
   </Element>
-  <Element ID="4657" Key="UI_SUBSKILL_INFO" Flag="0">
+  <Element ID="4657" Key="UI_SUBSKILL_INFO" Flag="1">
+    <Confirmation>
+      <Time>2019-12-12 11:29:46</Time>
+      <GUID>D2B3755D-E729-446B-AE14-9AE524189470</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SUBSKILL</Group>
@@ -79168,7 +79283,7 @@
     </Groups>
     <Texts>
       <Input>Subskill Info</Input>
-      <Output>Informacje o umiejętnościach podrzędnych</Output>
+      <Output>Informacje o Efekcie</Output>
     </Texts>
   </Element>
   <Element ID="4658" Key="UI_LEVEL" Flag="1">
@@ -91030,7 +91145,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Dark Totem to a random spot on your side of the battlefield.</Input>
-      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołuje mroczny bożka na losowe miejsce po twojej stronie pola bitwy.</Output>
+      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołuje mrocznego bożka na losowe miejsce po twojej stronie pola bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="5392" Key="DES_SUBSKILL_RETALIATION_DMG_MIST" Flag="1">
