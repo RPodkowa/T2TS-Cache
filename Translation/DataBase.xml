@@ -48673,7 +48673,7 @@
     </Groups>
     <Texts>
       <Input>Melee attack, targets 3 enemies horizontally. The attacker recovers a portion of their health.</Input>
-      <Output>Atak wręcz który celuje w trzech wrogów w poziomie. Atakujący odzyskuje część swojego zdrowia.</Output>
+      <Output>Atak wręcz, który celuje w trzech wrogów w poziomie. Atakujący odzyskuje część swojego zdrowia.</Output>
     </Texts>
   </Element>
   <Element ID="2833" Key="DES_SUBSKILL_CLAW_HIT" Flag="1">
@@ -53674,7 +53674,12 @@
       <Output>Wyssanie Wigoru</Output>
     </Texts>
   </Element>
-  <Element ID="3117" Key="DES_SUBSKILL_VIGOUR_DRAIN_DES" Flag="0">
+  <Element ID="3117" Key="DES_SUBSKILL_VIGOUR_DRAIN_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:39:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53683,7 +53688,7 @@
     </Groups>
     <Texts>
       <Input>Each of your attacks will drain Combat Attributes from the targeted enemy and give the attacker a bonus from it.</Input>
-      <Output>Każdy z twoich ataków usunie atrybuty bojowe z wybranego wroga i da mu z niego premię.</Output>
+      <Output>Obniża atrybuty walki wybranego wroga i przekazuje je atakującemu.</Output>
     </Texts>
   </Element>
   <Element ID="3118" Key="DES_SUBSKILL_DELAY_ENEMY" Flag="1">
@@ -53841,7 +53846,12 @@
       <Output>Słowo Ostrzeżenia</Output>
     </Texts>
   </Element>
-  <Element ID="3127" Key="DES_SUBSKILL_RANDOM_PROTECTION_DES" Flag="0">
+  <Element ID="3127" Key="DES_SUBSKILL_RANDOM_PROTECTION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:38:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -53904,7 +53914,12 @@
       <Output>Trujący Pył</Output>
     </Texts>
   </Element>
-  <Element ID="3131" Key="DES_SUBSKILL_POISON_DUST_DES" Flag="0">
+  <Element ID="3131" Key="DES_SUBSKILL_POISON_DUST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:39:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54035,7 +54050,12 @@
       <Output>Splunięcie Trucizną</Output>
     </Texts>
   </Element>
-  <Element ID="3139" Key="DES_SUBSKILL_POISON_SPIT_DES" Flag="0">
+  <Element ID="3139" Key="DES_SUBSKILL_POISON_SPIT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:39:54</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54064,7 +54084,12 @@
       <Output>Atak Nurkowy</Output>
     </Texts>
   </Element>
-  <Element ID="3141" Key="DES_SUBSKILL_DIVE_ATTACK_DES" Flag="0">
+  <Element ID="3141" Key="DES_SUBSKILL_DIVE_ATTACK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:40:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54076,7 +54101,12 @@
       <Output>Celuje w jednego wroga w dowolnym miejscu na polu bitwy.</Output>
     </Texts>
   </Element>
-  <Element ID="3142" Key="DES_SUBSKILL_HEAVY_LIFTER" Flag="0">
+  <Element ID="3142" Key="DES_SUBSKILL_HEAVY_LIFTER" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:40:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54085,10 +54115,15 @@
     </Groups>
     <Texts>
       <Input>Heavy Lifter</Input>
-      <Output>Ciężki podnośnik</Output>
+      <Output>Mocny Tragarz</Output>
     </Texts>
   </Element>
-  <Element ID="3143" Key="DES_SUBSKILL_HEAVY_LIFTER_DES" Flag="0">
+  <Element ID="3143" Key="DES_SUBSKILL_HEAVY_LIFTER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:41:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54097,7 +54132,7 @@
     </Groups>
     <Texts>
       <Input>Heavy Lifter is better at carrying.</Input>
-      <Output>Ciężki Podnośnik jest lepszy w przenoszeniu.</Output>
+      <Output>Ten osobnik jest lepszy w dźwiganiu gratów.</Output>
     </Texts>
   </Element>
   <Element ID="3144" Key="DES_SUBSKILL_ENERGY_EXPLOSION" Flag="1">
@@ -54184,7 +54219,12 @@
       <Output>Kula Ognia</Output>
     </Texts>
   </Element>
-  <Element ID="3149" Key="DES_SUBSKILL_FIREBALL_DES" Flag="0">
+  <Element ID="3149" Key="DES_SUBSKILL_FIREBALL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:41:47</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54212,7 +54252,12 @@
       <Output>Smoczy Oddech</Output>
     </Texts>
   </Element>
-  <Element ID="3151" Key="DES_SUBSKILL_DRAGON_BREATH_DES" Flag="0">
+  <Element ID="3151" Key="DES_SUBSKILL_DRAGON_BREATH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:42:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54221,7 +54266,7 @@
     </Groups>
     <Texts>
       <Input>Damages two opponents in a vertical line. The damage is halved if the enemy has any number of shielding points.</Input>
-      <Output>Zniszcza dwóch przeciwników w linii pionowej. Obrażenia są zmniejszane o połowę, jeśli wróg ma dowolną liczbę punktów osłon.</Output>
+      <Output>Zadaje obrażenia dwóm przeciwnikom w linii pionowej. Obrażenia są zmniejszane o połowę, jeśli wróg posiada jakąkolwiek osłon.</Output>
     </Texts>
   </Element>
   <Element ID="3152" Key="DES_SUBSKILL_POISON_SPEW" Flag="1">
@@ -54347,7 +54392,12 @@
       <Output>Błogosławiony Pancerz</Output>
     </Texts>
   </Element>
-  <Element ID="3159" Key="DES_SUBSKILL_BLESSED_ARMOUR_DES" Flag="0">
+  <Element ID="3159" Key="DES_SUBSKILL_BLESSED_ARMOUR_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:43:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54356,7 +54406,7 @@
     </Groups>
     <Texts>
       <Input>Increases Shielding and Combat Attributes of an ally once per round.</Input>
-      <Output>Zwiększa atrybuty ekranowania i walki sojusznika raz na rundę.</Output>
+      <Output>Raz na rundę zwiększa osłonę i atrybuty walki sojusznika.</Output>
     </Texts>
   </Element>
   <Element ID="3160" Key="DES_SUBSKILL_ESSENCE_SKIN" Flag="1">
@@ -54804,7 +54854,12 @@
       <Output>Pierwsze Uderzenie</Output>
     </Texts>
   </Element>
-  <Element ID="3185" Key="DES_SUBSKILL_FIRST_STRIKE_DES" Flag="0">
+  <Element ID="3185" Key="DES_SUBSKILL_FIRST_STRIKE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:44:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54813,7 +54868,7 @@
     </Groups>
     <Texts>
       <Input>Deals damage to the enemy standing directly opposite when played onto the battlefield.</Input>
-      <Output>Zadaje obrażenia wrogowi stojącemu naprzeciwko, gdy zagrywa się go na pole bitwy.</Output>
+      <Output>Kiedy karta jest wstawiana na pole bitwy natychmiast zadaje obrażenia wrogowi stojącemu naprzeciwko.</Output>
     </Texts>
   </Element>
   <Element ID="3186" Key="DES_SUBSKILL_BLOOD_THIRSTY" Flag="1">
@@ -54833,7 +54888,12 @@
       <Output>Żądza Krwi</Output>
     </Texts>
   </Element>
-  <Element ID="3187" Key="DES_SUBSKILL_BLOOD_THIRSTY_DES" Flag="0">
+  <Element ID="3187" Key="DES_SUBSKILL_BLOOD_THIRSTY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:45:50</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54842,7 +54902,7 @@
     </Groups>
     <Texts>
       <Input>All creatures who call themselves 'Striga' suffer from a particular kind of thirst.</Input>
-      <Output>Wszystkie stworzenia, które nazywają siebie „Striga”, cierpią z powodu szczególnego rodzaju pragnienia.</Output>
+      <Output>Wszystkie stworzenia, które nazywają siebie "Strzygą", cierpią z powodu szczególnego rodzaju pragnienia.</Output>
     </Texts>
   </Element>
   <Element ID="3188" Key="DES_SUBSKILL_GREED" Flag="1">
@@ -54926,7 +54986,12 @@
       <Output>Naturalna Czystość</Output>
     </Texts>
   </Element>
-  <Element ID="3193" Key="DES_SUBSKILL_NATURE_PURITY_DES" Flag="0">
+  <Element ID="3193" Key="DES_SUBSKILL_NATURE_PURITY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:46:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54935,7 +55000,7 @@
     </Groups>
     <Texts>
       <Input>Some of this character's equipment slots are blocked, group's Sanity regeneration is increased.</Input>
-      <Output>Niektóre miejsca na wyposażenie tej postaci są zablokowane, zwiększona jest regeneracja poczytalności grupy.</Output>
+      <Output>Niektóre miejsca na wyposażenie tej postaci są zablokowane. Regeneracja poczytalności grupy jest zwiększona.</Output>
     </Texts>
   </Element>
   <Element ID="3194" Key="DES_SUBSKILL_SMALL_WEAPON_HATE" Flag="1">
@@ -54953,10 +55018,15 @@
     </Groups>
     <Texts>
       <Input>You Call That a Weapon?!</Input>
-      <Output>Nazywasz To Bronią?!</Output>
+      <Output>To Ma Być Broń?!</Output>
     </Texts>
   </Element>
-  <Element ID="3195" Key="DES_SUBSKILL_SMALL_WEAPON_HATE_DES" Flag="0">
+  <Element ID="3195" Key="DES_SUBSKILL_SMALL_WEAPON_HATE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:47:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54966,7 +55036,7 @@
     </Groups>
     <Texts>
       <Input>Orcs despise 1h weapons. Having one equipped decreases all Shielding types.</Input>
-      <Output>Orki gardzą 1h bronią. Posiadanie jednego wyposażonego zmniejsza wszystkie rodzaje osłon.</Output>
+      <Output>Orki gardzą jednoręczną bronią. Posiadanie takiej zmniejsza wszystkie rodzaje osłon.</Output>
     </Texts>
   </Element>
   <Element ID="3196" Key="DES_SUBSKILL_JUMPING_FISH" Flag="1">
@@ -54986,7 +55056,12 @@
       <Output>Skacząca Ryba</Output>
     </Texts>
   </Element>
-  <Element ID="3197" Key="DES_SUBSKILL_JUMPING_FISH_DES" Flag="0">
+  <Element ID="3197" Key="DES_SUBSKILL_JUMPING_FISH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:48:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54995,7 +55070,7 @@
     </Groups>
     <Texts>
       <Input>When travelling by sea, this group will get two fish each turn.</Input>
-      <Output>Podróżując drogą morską, ta grupa otrzyma po dwie ryby w każdej turze.</Output>
+      <Output>Podróżując wodą, ta grupa otrzyma po dwie ryby w każdej turze.</Output>
     </Texts>
   </Element>
   <Element ID="3198" Key="DES_SUBSKILL_BUILDING_SIGHT_RANGE" Flag="1">
@@ -91098,7 +91173,12 @@
       <Output>Obrona Wszystkich</Output>
     </Texts>
   </Element>
-  <Element ID="5389" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL_DES" Flag="0">
+  <Element ID="5389" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:48:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91109,7 +91189,7 @@
     </Groups>
     <Texts>
       <Input>Increase Shielding of all allies at the cost of 20% of the caster's current health.</Input>
-      <Output>Zwiększ osłonę wszystkich sojuszników kosztem 20% obecnego stanu zdrowia rzucającego.</Output>
+      <Output>Zwiększa osłonę wszystkich sojuszników kosztem 20% obecnego stanu zdrowia rzucającego.</Output>
     </Texts>
   </Element>
   <Element ID="5390" Key="DES_SUBSKILL_SUMMON_DARK_TOTEM" Flag="1">
@@ -91275,7 +91355,12 @@
       <Output>Mroczne Przesunięcie</Output>
     </Texts>
   </Element>
-  <Element ID="5399" Key="DES_SUBSKILL_DARK_SHIFT_DES" Flag="0">
+  <Element ID="5399" Key="DES_SUBSKILL_DARK_SHIFT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:50:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91284,7 +91369,7 @@
     </Groups>
     <Texts>
       <Input>Switch delay of two ally characters, give them extra shield.</Input>
-      <Output>Opóźnienie przełączenia dwóch sojuszniczych postaci, daj im dodatkową tarczę.</Output>
+      <Output>Zamienia opóźnienie dwóch sojuszników, daje im dodatkową osłonę.</Output>
     </Texts>
   </Element>
   <Element ID="5400" Key="DES_SUBSKILL_DEGRADATION" Flag="1">
@@ -91303,7 +91388,12 @@
       <Output>Rozpad</Output>
     </Texts>
   </Element>
-  <Element ID="5401" Key="DES_SUBSKILL_DEGRADATION_DES" Flag="0">
+  <Element ID="5401" Key="DES_SUBSKILL_DEGRADATION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:52:15</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91311,7 +91401,7 @@
     </Groups>
     <Texts>
       <Input>Receive a percentage of Health damage each turn.</Input>
-      <Output>Odbierz procent obrażeń od zdrowia w każdej turze.</Output>
+      <Output>Odbiera procent obrażeń od zdrowia w każdej turze.</Output>
     </Texts>
   </Element>
   <Element ID="5402" Key="DES_SUBSKILL_POISON_HEAL" Flag="1">
@@ -91331,7 +91421,12 @@
       <Output>Martwe Ciało</Output>
     </Texts>
   </Element>
-  <Element ID="5403" Key="DES_SUBSKILL_POISON_HEAL_DES" Flag="0">
+  <Element ID="5403" Key="DES_SUBSKILL_POISON_HEAL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-13 10:52:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -91340,7 +91435,7 @@
     </Groups>
     <Texts>
       <Input>If another skill would deal poison damage to you which does not kill you, you will regenerate health equal to the damage received.</Input>
-      <Output>Jeśli inna umiejętność zada ci obrażenia od trucizny, które cię nie zabiją, regenerujesz zdrowie równe otrzymanym obrażeniom.</Output>
+      <Output>Jeśli inna umiejętność zada tej postaci obrażenia od trucizny, które jej nie zabiją, regeneruje ona zdrowie równe otrzymanym obrażeniom.</Output>
     </Texts>
   </Element>
   <Element ID="5404" Key="DES_RITUAL_CREATE_BOG_BIES" Flag="1">
