@@ -52612,7 +52612,7 @@
     </Groups>
     <Texts>
       <Input>Day Blindness</Input>
-      <Output>Ślepota dnia</Output>
+      <Output>Ślepota Dnia</Output>
     </Texts>
   </Element>
   <Element ID="3056" Key="DES_SUBSKILL_DAY_BLINDNESS_DES" Flag="1">
@@ -52703,7 +52703,7 @@
     </Groups>
     <Texts>
       <Input>This character has reduced Personal Carry limit.</Input>
-      <Output>Ta postać ma obniżony Osobisty Udźwig.</Output>
+      <Output>Ta postać ma obniżony udźwig osobisty.</Output>
     </Texts>
   </Element>
   <Element ID="3061" Key="DES_SUBSKILL_HORN_IMPALE" Flag="1">
@@ -53164,7 +53164,7 @@
     </Groups>
     <Texts>
       <Input>Hurry Up!</Input>
-      <Output>Pospiesz się!</Output>
+      <Output>Szybciej!</Output>
     </Texts>
   </Element>
   <Element ID="3091" Key="DES_SUBSKILL_HURRY_UP_DES" Flag="1">
@@ -53199,7 +53199,7 @@
     </Groups>
     <Texts>
       <Input>Quick, Cover!</Input>
-      <Output>Szybko, ukryć się!</Output>
+      <Output>Kryć Się!</Output>
     </Texts>
   </Element>
   <Element ID="3093" Key="DES_SUBSKILL_HURRY_UP_SHIELDING_DES" Flag="0">
@@ -53683,7 +53683,7 @@
     </Groups>
     <Texts>
       <Input>Distract</Input>
-      <Output>Odwróć uwagę</Output>
+      <Output>Odwrócenie Uwagi</Output>
     </Texts>
   </Element>
   <Element ID="3123" Key="DES_SUBSKILL_SUSPENSION_ENEMIES_DES" Flag="1">
@@ -53718,15 +53718,10 @@
     </Groups>
     <Texts>
       <Input>Delay All Enemies</Input>
-      <Output>Opóźnij Wszystkich Wrogów</Output>
+      <Output>Opóźnienie Wrogów</Output>
     </Texts>
   </Element>
-  <Element ID="3125" Key="DES_SUBSKILL_ENTRANCE_STUN_ALL_DES" Flag="1">
-    <Confirmation>
-      <Time>2019-08-17 11:03:50</Time>
-      <GUID>2653AC96-8400-4A1D-9FD5-4EF61CF8E1FC</GUID>
-      <User>miol</User>
-    </Confirmation>
+  <Element ID="3125" Key="DES_SUBSKILL_ENTRANCE_STUN_ALL_DES" Flag="0">
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54898,7 +54893,12 @@
       <Output>Podróżując drogą morską, ta grupa otrzyma po dwie ryby w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3198" Key="DES_SUBSKILL_BUILDING_SIGHT_RANGE" Flag="0">
+  <Element ID="3198" Key="DES_SUBSKILL_BUILDING_SIGHT_RANGE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:35:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54908,7 +54908,7 @@
     </Groups>
     <Texts>
       <Input>Increase Village Sight Range</Input>
-      <Output>Zwiększenie Zasięg Wzroku Wioski</Output>
+      <Output>Zwiększenie Zasięg Widzenia Osady</Output>
     </Texts>
   </Element>
   <Element ID="3199" Key="DES_SUBSKILL_BUILDING_SIGHT_RANGE_DES" Flag="1">
@@ -54929,7 +54929,12 @@
       <Output>Zwiększa zasięg widzenia osady.</Output>
     </Texts>
   </Element>
-  <Element ID="3200" Key="DES_SUBSKILL_BUILDING_GATHERING_RANGE" Flag="0">
+  <Element ID="3200" Key="DES_SUBSKILL_BUILDING_GATHERING_RANGE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:36:36</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54939,10 +54944,15 @@
     </Groups>
     <Texts>
       <Input>Increase Village Gathering Range</Input>
-      <Output>Zwiększ zasięg zasięgu gromadzenia wioski</Output>
+      <Output>Zwiększenie Zasięg Zbieractwa Osady</Output>
     </Texts>
   </Element>
-  <Element ID="3201" Key="DES_SUBSKILL_BUILDING_GATHERING_RANGE_DES" Flag="0">
+  <Element ID="3201" Key="DES_SUBSKILL_BUILDING_GATHERING_RANGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:37:28</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54952,10 +54962,15 @@
     </Groups>
     <Texts>
       <Input>Increase Village Gathering Range, so your villagers can gather resources from farther tiles.</Input>
-      <Output>Zwiększ zasięg zgromadzenia wioski, aby twoi mieszkańcy mogli zbierać zasoby z dalszych płytek.</Output>
+      <Output>Zwiększa zasięg zbieractwa, aby mieszkańcy mogli zbierać zasoby z bardziej oddalonych pól.</Output>
     </Texts>
   </Element>
-  <Element ID="3202" Key="DES_SUBSKILL_CAMP_GATHERING_RANGE" Flag="0">
+  <Element ID="3202" Key="DES_SUBSKILL_CAMP_GATHERING_RANGE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 16:09:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54965,10 +54980,15 @@
     </Groups>
     <Texts>
       <Input>Increase Camp Gathering Range</Input>
-      <Output>Zwiększ zasięg obozu</Output>
+      <Output>Zwiększenie Zasięg Zbieractwa Obozu</Output>
     </Texts>
   </Element>
-  <Element ID="3203" Key="DES_SUBSKILL_CAMP_GATHERING_RANGE_DES" Flag="0">
+  <Element ID="3203" Key="DES_SUBSKILL_CAMP_GATHERING_RANGE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 16:09:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -54978,7 +54998,7 @@
     </Groups>
     <Texts>
       <Input>Increase Camp Gathering Range, so your followers can gather resources from farther tiles.</Input>
-      <Output>Zwiększ zasięg zbierania obozu, aby twoi obserwujący mogli zbierać zasoby z dalszych płytek.</Output>
+      <Output>Zwiększa zasięg zbieractwa, aby obozowicze mogli zbierać zasoby z bardziej oddalonych pól.</Output>
     </Texts>
   </Element>
   <Element ID="3204" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_P" Flag="1">
@@ -55001,7 +55021,12 @@
       <Output>Zwiększenie Maksymalnego Zdrowia</Output>
     </Texts>
   </Element>
-  <Element ID="3205" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_P_DES" Flag="0">
+  <Element ID="3205" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_P_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:51:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55013,7 +55038,7 @@
     </Groups>
     <Texts>
       <Input>Increase the maximum amount of Health for all characters in and around the village.</Input>
-      <Output>Zwiększ maksymalną ilość Zdrowia dla wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa maksymalną ilość zdrowia wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3206" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_M" Flag="1">
@@ -55036,7 +55061,12 @@
       <Output>Zwiększenie Maksymalnej Poczytalności</Output>
     </Texts>
   </Element>
-  <Element ID="3207" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_M_DES" Flag="0">
+  <Element ID="3207" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_M_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:51:03</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55048,7 +55078,7 @@
     </Groups>
     <Texts>
       <Input>Increase the maximum amount of Sanity for all characters in and around the village.</Input>
-      <Output>Zwiększ maksymalną ilość Poczytalności dla wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa maksymalną ilość poczytalności wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3208" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_S" Flag="1">
@@ -55071,7 +55101,12 @@
       <Output>Zwiększenie Maksymalnej Wiary</Output>
     </Texts>
   </Element>
-  <Element ID="3209" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_S_DES" Flag="0">
+  <Element ID="3209" Key="DES_SUBSKILL_BUILDING_ADD_MAX_HEALTH_S_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:51:02</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55083,7 +55118,7 @@
     </Groups>
     <Texts>
       <Input>Increase the maximum amount of Faith for all characters in and around the village.</Input>
-      <Output>Zwiększ maksymalną ilość Wiary dla wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa maksymalną ilość wiary wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3210" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING" Flag="1">
@@ -55119,7 +55154,7 @@
     </Groups>
     <Texts>
       <Input>Increase Gathering attribute of all characters in and around the village.</Input>
-      <Output>Zwiększa atrybut Zbieractwa wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa zbieractwo wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3212" Key="DES_SUBSKILL_BUILDING_ADD_MOVEMENT" Flag="1">
@@ -55155,7 +55190,7 @@
     </Groups>
     <Texts>
       <Input>Increase Movement Point of all characters in and around the village.</Input>
-      <Output>Zwiększa punkt ruchu wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa punkty ruchu wszystkich postaci w wiosce i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3214" Key="DES_SUBSKILL_BUILDING_ADD_CRAFTING" Flag="1">
@@ -55176,7 +55211,12 @@
       <Output>Zwiększenie Rzemiosła</Output>
     </Texts>
   </Element>
-  <Element ID="3215" Key="DES_SUBSKILL_BUILDING_ADD_CRAFTING_DES" Flag="0">
+  <Element ID="3215" Key="DES_SUBSKILL_BUILDING_ADD_CRAFTING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:51:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55186,7 +55226,7 @@
     </Groups>
     <Texts>
       <Input>Increase Crafting attribute of all characters in and around the village.</Input>
-      <Output>Zwiększ atrybut Rzemiosła wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa rzemiosło wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3216" Key="DES_SUBSKILL_BUILDING_ADD_CRAFTING_SLOTS" Flag="1">
@@ -55262,7 +55302,7 @@
     </Groups>
     <Texts>
       <Input>Increase Physical Shielding of all characters in and around the village.</Input>
-      <Output>Zwiększa fizyczną osłonę wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa fizyczną osłonę wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3220" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_S" Flag="1">
@@ -55300,7 +55340,7 @@
     </Groups>
     <Texts>
       <Input>Increase Spiritual Shielding of all characters in and around the village.</Input>
-      <Output>Zwiększenie duchowej osłony wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa duchową osłonę wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3222" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M" Flag="1">
@@ -55340,7 +55380,7 @@
     </Groups>
     <Texts>
       <Input>Increase Physical and Mental Shielding of all characters in and around the village.</Input>
-      <Output>Zwiększa fizyczną i mentalną osłonę wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa fizyczną i mentalną osłonę wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3224" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M_S" Flag="1">
@@ -55364,7 +55404,12 @@
       <Output>Zwiększenie Fizycznej, Mentalnej i Duchowej Osłony</Output>
     </Texts>
   </Element>
-  <Element ID="3225" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M_S_DES" Flag="0">
+  <Element ID="3225" Key="DES_SUBSKILL_BUILDING_ADD_SHIELDING_P_M_S_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:55:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55377,7 +55422,7 @@
     </Groups>
     <Texts>
       <Input>Increase Physical, Mental and Spiritual Shielding of all characters in and around the village.</Input>
-      <Output>Zwiększ fizyczne, mentalne i duchowe osłanianie wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa fizyczną, mentalną i duchową osłonę wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3226" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH" Flag="1">
@@ -55398,7 +55443,12 @@
       <Output>Zwiększenie Badań</Output>
     </Texts>
   </Element>
-  <Element ID="3227" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_DES" Flag="0">
+  <Element ID="3227" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:55:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55408,7 +55458,7 @@
     </Groups>
     <Texts>
       <Input>Increase Research attribute of all characters in and around the village.</Input>
-      <Output>Zwiększ atrybut atrybutu wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa badania wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3228" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_SLOTS" Flag="1">
@@ -55430,7 +55480,12 @@
       <Output>Dodatkowe Miejsce Badacza</Output>
     </Texts>
   </Element>
-  <Element ID="3229" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_SLOTS_DES" Flag="0">
+  <Element ID="3229" Key="DES_SUBSKILL_BUILDING_ADD_RESEARCH_SLOTS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:56:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55441,7 +55496,7 @@
     </Groups>
     <Texts>
       <Input>Increase the number of research slots so more people can be assigned to each Research task.</Input>
-      <Output>Zwiększ liczbę slotów na badania, aby więcej osób mogło zostać przydzielonych do każdego zadania badawczego.</Output>
+      <Output>Zwiększa liczbę miejsc badaczy, aby więcej osób mogło zostać przydzielonych do każdego zadania badawczego.</Output>
     </Texts>
   </Element>
   <Element ID="3230" Key="DES_SUBSKILL_BUILDING_ADD_STRONG_RESEARCH_SLOTS" Flag="1">
@@ -55482,7 +55537,12 @@
       <Output>Próg Morale</Output>
     </Texts>
   </Element>
-  <Element ID="3232" Key="DES_SUBSKILL_BUILDING_THRESHOLD_MORALE_DES" Flag="0">
+  <Element ID="3232" Key="DES_SUBSKILL_BUILDING_THRESHOLD_MORALE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:56:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55495,7 +55555,12 @@
       <Output>Utrzymuje morale wszystkich mieszkańców poniżej określonego progu.</Output>
     </Texts>
   </Element>
-  <Element ID="3233" Key="DES_SUBSKILL_BUILDING_MEDICINE" Flag="0">
+  <Element ID="3233" Key="DES_SUBSKILL_BUILDING_MEDICINE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:37:55</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55504,10 +55569,15 @@
     </Groups>
     <Texts>
       <Input>Increase Healing Rate</Input>
-      <Output>Zwiększ szybkość leczenia</Output>
+      <Output>Zwiększenie Szybkości Leczenia</Output>
     </Texts>
   </Element>
-  <Element ID="3234" Key="DES_SUBSKILL_BUILDING_MEDICINE_DES" Flag="0">
+  <Element ID="3234" Key="DES_SUBSKILL_BUILDING_MEDICINE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:57:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55516,7 +55586,7 @@
     </Groups>
     <Texts>
       <Input>Increase healing rate of all characters in and around the village.</Input>
-      <Output>Zwiększ szybkość leczenia wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa szybkość leczenia wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3235" Key="DES_SUBSKILL_BUILDING_LOWER_DEATH_CHANCE" Flag="1">
@@ -55554,7 +55624,7 @@
     </Groups>
     <Texts>
       <Input>Decrease the chance to die from serious wounds of all characters in and around the village.</Input>
-      <Output>Zmniejsza szansę na śmierć z powodu poważnych ran wszystkich postaci w wiosce oraz wokół niej.</Output>
+      <Output>Zmniejsza ryzyko śmierci z powodu poważnych ran wszystkich postaci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3237" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING_SLOTS" Flag="1">
@@ -55576,7 +55646,12 @@
       <Output>Dodatkowe Miejsce Zbieracza</Output>
     </Texts>
   </Element>
-  <Element ID="3238" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING_SLOTS_DES" Flag="0">
+  <Element ID="3238" Key="DES_SUBSKILL_BUILDING_ADD_GATHERING_SLOTS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:58:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55587,7 +55662,7 @@
     </Groups>
     <Texts>
       <Input>Increase the number of gathering slots so more people can be assigned to each Gathering task.</Input>
-      <Output>Zwiększ liczbę zgromadzonych slotów, aby więcej osób mogło zostać przydzielonych do każdego zadania Gromadzenia.</Output>
+      <Output>Zwiększa liczbę miejsc zbieraczy, aby więcej osób mogło zostać przydzielonych do każdego zadania zbierania surowców.</Output>
     </Texts>
   </Element>
   <Element ID="3239" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS_SLOTS" Flag="1">
@@ -55609,7 +55684,12 @@
       <Output>Dodatkowe Miejsce przy Rytuałach</Output>
     </Texts>
   </Element>
-  <Element ID="3240" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS_SLOTS_DES" Flag="0">
+  <Element ID="3240" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS_SLOTS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:59:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55620,10 +55700,15 @@
     </Groups>
     <Texts>
       <Input>Increase the number of rituals slots so more people can be assigned to each Rituals task.</Input>
-      <Output>Zwiększ liczbę miejsc na rytuały, aby więcej ludzi mogło zostać przydzielonych do każdego zadania Rytuałów.</Output>
+      <Output>Zwiększa liczbę miejsc przy rytuałach, aby więcej osób mogło zostać przydzielonych do każdego zadania rytualnego.</Output>
     </Texts>
   </Element>
-  <Element ID="3241" Key="DES_SUBSKILL_BUILDING_ADD_EXTRA_ESSENCE" Flag="0">
+  <Element ID="3241" Key="DES_SUBSKILL_BUILDING_ADD_EXTRA_ESSENCE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:38:22</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55634,10 +55719,15 @@
     </Groups>
     <Texts>
       <Input>Increase Essence Bonus</Input>
-      <Output>Zwiększ premię Essence</Output>
+      <Output>Zwiększenie Premii Esencji</Output>
     </Texts>
   </Element>
-  <Element ID="3242" Key="DES_SUBSKILL_BUILDING_ADD_EXTRA_ESSENCE_DES" Flag="0">
+  <Element ID="3242" Key="DES_SUBSKILL_BUILDING_ADD_EXTRA_ESSENCE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:59:43</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55648,10 +55738,15 @@
     </Groups>
     <Texts>
       <Input>Increase essence of all items crafted in or around the village.</Input>
-      <Output>Zwiększenie esencji wszystkich przedmiotów wykonanych w wiosce lub wokół niej.</Output>
+      <Output>Zwiększa esencję wszystkich przedmiotów wykonanych w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3243" Key="DES_SUBSKILL_BUILDING_ADD_STRONG_EXTRA_ESSENCE" Flag="0">
+  <Element ID="3243" Key="DES_SUBSKILL_BUILDING_ADD_STRONG_EXTRA_ESSENCE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:38:47</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55663,10 +55758,15 @@
     </Groups>
     <Texts>
       <Input>Greatly Increase Essence Bonus</Input>
-      <Output>Znacznie zwiększona premia za esencję</Output>
+      <Output>Znaczne Zwiększenie Premii Esencji</Output>
     </Texts>
   </Element>
-  <Element ID="3244" Key="DES_SUBSKILL_BUILDING_ADD_PET" Flag="0">
+  <Element ID="3244" Key="DES_SUBSKILL_BUILDING_ADD_PET" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:39:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55676,10 +55776,15 @@
     </Groups>
     <Texts>
       <Input>Seasonal Pet</Input>
-      <Output>Sezonowe zwierzę domowe</Output>
+      <Output>Sezonowy Chowaniec</Output>
     </Texts>
   </Element>
-  <Element ID="3245" Key="DES_SUBSKILL_BUILDING_ADD_PET_DES" Flag="0">
+  <Element ID="3245" Key="DES_SUBSKILL_BUILDING_ADD_PET_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:00:07</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55689,10 +55794,15 @@
     </Groups>
     <Texts>
       <Input>Groups in and around the village have a chance to get a pet at the start of each turn.</Input>
-      <Output>Grupy w wiosce i wokół niej mają szansę zdobyć zwierzę na początku każdej tury.</Output>
+      <Output>Grupy w osadzie i wokół niej mają szansę zdobyć chowańca na początku każdej tury.</Output>
     </Texts>
   </Element>
-  <Element ID="3246" Key="DES_SUBSKILL_BUILDING_ADD_T1_RESOURCES" Flag="0">
+  <Element ID="3246" Key="DES_SUBSKILL_BUILDING_ADD_T1_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:39:51</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55703,10 +55813,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 Resource</Input>
-      <Output>Dodaj zasób warstwy 1</Output>
+      <Output>Dodanie Surowca I Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3247" Key="DES_SUBSKILL_BUILDING_ADD_T1_RESOURCES_DES" Flag="0">
+  <Element ID="3247" Key="DES_SUBSKILL_BUILDING_ADD_T1_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:00:58</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55717,10 +55832,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 resource to the village's inventory each turn.</Input>
-      <Output>Dodaj zasób Poziomu 1 do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje surowiec I poziomu do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3248" Key="DES_SUBSKILL_BUILDING_ADD_LOW_RESOURCES" Flag="0">
+  <Element ID="3248" Key="DES_SUBSKILL_BUILDING_ADD_LOW_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:40:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55731,10 +55851,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 or 2 Resource</Input>
-      <Output>Dodaj zasób 1 lub 2</Output>
+      <Output>Dodanie Surowca I lub II Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3249" Key="DES_SUBSKILL_BUILDING_ADD_LOW_RESOURCES_DES" Flag="0">
+  <Element ID="3249" Key="DES_SUBSKILL_BUILDING_ADD_LOW_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:01:42</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55745,10 +55870,15 @@
     </Groups>
     <Texts>
       <Input>Add a common resource to the village's inventory each turn.</Input>
-      <Output>Dodaj wspólny zasób do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje pospolity surowiec do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3250" Key="DES_SUBSKILL_BUILDING_ADD_LOW_GEM" Flag="0">
+  <Element ID="3250" Key="DES_SUBSKILL_BUILDING_ADD_LOW_GEM" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:40:46</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55759,10 +55889,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 or 2 Gem</Input>
-      <Output>Dodaj klejnot poziomu 1 lub 2</Output>
+      <Output>Dodanie Klejnotu I lub II Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3251" Key="DES_SUBSKILL_BUILDING_ADD_LOW_GEM_DES" Flag="0">
+  <Element ID="3251" Key="DES_SUBSKILL_BUILDING_ADD_LOW_GEM_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:01:52</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55773,10 +55908,15 @@
     </Groups>
     <Texts>
       <Input>Add a common gem to the village's inventory each turn.</Input>
-      <Output>Dodaj wspólny klejnot do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje pospolity klejnot do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3252" Key="DES_SUBSKILL_BUILDING_ADD_WOOD_T1" Flag="0">
+  <Element ID="3252" Key="DES_SUBSKILL_BUILDING_ADD_WOOD_T1" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:41:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55787,10 +55927,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 Wood</Input>
-      <Output>Dodaj drewno poziomu 1</Output>
+      <Output>Dodanie Drewna Poziomu I</Output>
     </Texts>
   </Element>
-  <Element ID="3253" Key="DES_SUBSKILL_BUILDING_ADD_WOOD_T1_DES" Flag="0">
+  <Element ID="3253" Key="DES_SUBSKILL_BUILDING_ADD_WOOD_T1_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:02:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55801,10 +55946,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 wood to the village's inventory each turn.</Input>
-      <Output>Dodawaj drewno poziomu 1 do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje drewno I poziomu do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3254" Key="DES_SUBSKILL_BUILDING_ADD_HERBS" Flag="0">
+  <Element ID="3254" Key="DES_SUBSKILL_BUILDING_ADD_HERBS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:42:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55814,10 +55964,15 @@
     </Groups>
     <Texts>
       <Input>Add Herbs</Input>
-      <Output>Dodaj zioła</Output>
+      <Output>Dodanie Ziół</Output>
     </Texts>
   </Element>
-  <Element ID="3255" Key="DES_SUBSKILL_BUILDING_ADD_HERBS_DES" Flag="0">
+  <Element ID="3255" Key="DES_SUBSKILL_BUILDING_ADD_HERBS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:02:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55827,10 +55982,15 @@
     </Groups>
     <Texts>
       <Input>Add herbs to the village's inventory each turn.</Input>
-      <Output>Dodawaj zioła do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje zioła do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3256" Key="DES_SUBSKILL_BUILDING_ADD_VEGGIES" Flag="0">
+  <Element ID="3256" Key="DES_SUBSKILL_BUILDING_ADD_VEGGIES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:42:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55840,10 +56000,15 @@
     </Groups>
     <Texts>
       <Input>Add Vegetables</Input>
-      <Output>Dodaj warzywa</Output>
+      <Output>Dodanie Warzyw</Output>
     </Texts>
   </Element>
-  <Element ID="3257" Key="DES_SUBSKILL_BUILDING_ADD_VEGGIES_DES" Flag="0">
+  <Element ID="3257" Key="DES_SUBSKILL_BUILDING_ADD_VEGGIES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:02:38</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55853,10 +56018,15 @@
     </Groups>
     <Texts>
       <Input>Add vegetables to the village's inventory each turn.</Input>
-      <Output>Dodawaj warzywa do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje warzywa do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3258" Key="DES_SUBSKILL_BUILDING_ADD_DIGGED_RESOURCES" Flag="0">
+  <Element ID="3258" Key="DES_SUBSKILL_BUILDING_ADD_DIGGED_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:44:08</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55867,10 +56037,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 Resources</Input>
-      <Output>Dodaj zasoby poziomu 1</Output>
+      <Output>Dodanie Surowców I Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3259" Key="DES_SUBSKILL_BUILDING_ADD_DIGGED_RESOURCES_DES" Flag="0">
+  <Element ID="3259" Key="DES_SUBSKILL_BUILDING_ADD_DIGGED_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:03:53</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55881,10 +56056,15 @@
     </Groups>
     <Texts>
       <Input>Add Mineable Common Resources (Metals, Stones or Gems) to the village's inventory each turn.</Input>
-      <Output>Dodaj Mineable Common Resources (metale, kamienie lub klejnoty) do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje pospolite surowce kopalne (metal, kamień lub klejnot) do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3260" Key="DES_SUBSKILL_BUILDING_ADD_METAL_RESOURCES" Flag="0">
+  <Element ID="3260" Key="DES_SUBSKILL_BUILDING_ADD_METAL_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:44:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55895,10 +56075,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 or 2 Metal Resources</Input>
-      <Output>Dodaj Zasoby Poziomu 1 lub 2</Output>
+      <Output>Dodanie Metali I lub II Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3261" Key="DES_SUBSKILL_BUILDING_ADD_METAL_RESOURCES_DES" Flag="0">
+  <Element ID="3261" Key="DES_SUBSKILL_BUILDING_ADD_METAL_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:04:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55909,10 +56094,15 @@
     </Groups>
     <Texts>
       <Input>Add common metals to the village's inventory each turn.</Input>
-      <Output>Dodawaj zwykłe metale do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje pospolite metale do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3262" Key="DES_SUBSKILL_BUILDING_ADD_AMBER_RESOURCES" Flag="0">
+  <Element ID="3262" Key="DES_SUBSKILL_BUILDING_ADD_AMBER_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:44:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55923,10 +56113,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 or 2 Gem Resources</Input>
-      <Output>Dodaj zasoby klejnotów poziomu 1 lub 2</Output>
+      <Output>Dodanie Klejnotów I lub II Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3263" Key="DES_SUBSKILL_BUILDING_ADD_AMBER_RESOURCES_DES" Flag="0">
+  <Element ID="3263" Key="DES_SUBSKILL_BUILDING_ADD_AMBER_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:04:57</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55937,10 +56132,15 @@
     </Groups>
     <Texts>
       <Input>Add common gems to the village's inventory each turn.</Input>
-      <Output>Dodawaj zwykłe klejnoty do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje pospolite klejnoty do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3264" Key="DES_SUBSKILL_BUILDING_ADD_SANDSTONE_RESOURCES" Flag="0">
+  <Element ID="3264" Key="DES_SUBSKILL_BUILDING_ADD_SANDSTONE_RESOURCES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:44:49</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55951,10 +56151,15 @@
     </Groups>
     <Texts>
       <Input>Add Tier 1 or 2 Stone Resources</Input>
-      <Output>Dodaj zasoby kamienia 1 lub 2 poziomu</Output>
+      <Output>Dodanie Kamieni I lub II Poziomu</Output>
     </Texts>
   </Element>
-  <Element ID="3265" Key="DES_SUBSKILL_BUILDING_ADD_SANDSTONE_RESOURCES_DES" Flag="0">
+  <Element ID="3265" Key="DES_SUBSKILL_BUILDING_ADD_SANDSTONE_RESOURCES_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:04:56</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55965,7 +56170,7 @@
     </Groups>
     <Texts>
       <Input>Add common stones to the village's inventory each turn.</Input>
-      <Output>Dodawaj wspólne kamienie do ekwipunku wioski w każdej turze.</Output>
+      <Output>Dodaje pospolite kamienie do ekwipunku osady w każdej turze.</Output>
     </Texts>
   </Element>
   <Element ID="3266" Key="DES_SUBSKILL_BUILDING_ADD_XP" Flag="1">
@@ -55986,7 +56191,12 @@
       <Output>Dodatkowe Punkty Doświadczenia</Output>
     </Texts>
   </Element>
-  <Element ID="3267" Key="DES_SUBSKILL_BUILDING_ADD_XP_DES" Flag="0">
+  <Element ID="3267" Key="DES_SUBSKILL_BUILDING_ADD_XP_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:05:17</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -55996,7 +56206,7 @@
     </Groups>
     <Texts>
       <Input>Provides a small amount of Experience Points (XP) to all characters in and around the village.</Input>
-      <Output>Zapewnia niewielką ilość punktów doświadczenia (XP) wszystkim postaciom w wiosce i wokół niej.</Output>
+      <Output>Zapewnia niewielką ilość punktów doświadczenia (PD) wszystkim postaciom w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3268" Key="DES_SUBSKILL_BUILDING_ADD_RP" Flag="1">
@@ -56035,7 +56245,12 @@
       <Output>Zapewnia niewielką ilość punktów badawczych (PB) w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="3270" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT" Flag="0">
+  <Element ID="3270" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:14</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56046,10 +56261,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Attributes</Input>
-      <Output>Zwiększenie atrybutów dzieci</Output>
+      <Output>Zwiększenie Atrybutów Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3271" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_DES" Flag="0">
+  <Element ID="3271" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:07:18</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56060,10 +56280,15 @@
     </Groups>
     <Texts>
       <Input>Increase main attributes (Wits, Strength, Perceptions, Intelligence, Wisdom, Mysticism and Destiny) of all children in and around the village.</Input>
-      <Output>Zwiększ główne atrybuty (spryt, siłę, percepcję, inteligencję, mądrość, mistycyzm i przeznaczenie) wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa główne atrybuty (spryt, siłę, percepcję, inteligencję, mądrość, mistycyzm i przeznaczenie) wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3272" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_PER" Flag="0">
+  <Element ID="3272" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_PER" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56075,10 +56300,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Perception</Input>
-      <Output>Zwiększenie percepcji dzieci</Output>
+      <Output>Zwiększenie Percepcji Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3273" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_PER_DES" Flag="0">
+  <Element ID="3273" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_PER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:35</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56090,10 +56320,15 @@
     </Groups>
     <Texts>
       <Input>Increase Perception attribute of all children in and around the village.</Input>
-      <Output>Zwiększenie atrybutu postrzegania wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa percepcję wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3274" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WITS" Flag="0">
+  <Element ID="3274" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WITS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:19</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56105,10 +56340,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Wits</Input>
-      <Output>Zwiększenie rozumu dzieci</Output>
+      <Output>Zwiększenie Sprytu Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3275" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WITS_DES" Flag="0">
+  <Element ID="3275" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WITS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:34</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56120,10 +56360,15 @@
     </Groups>
     <Texts>
       <Input>Increase Wits attribute of all children in and around the village.</Input>
-      <Output>Zwiększ atrybut Wits wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa spryt wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3276" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_INT" Flag="0">
+  <Element ID="3276" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_INT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:21</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56135,10 +56380,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Intelligence</Input>
-      <Output>Zwiększ inteligencję dzieci</Output>
+      <Output>Zwiększenie Inteligencji Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3277" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_INT_DES" Flag="0">
+  <Element ID="3277" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_INT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:33</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56150,10 +56400,15 @@
     </Groups>
     <Texts>
       <Input>Increase Intelligence attribute of all children in and around the village.</Input>
-      <Output>Zwiększ atrybut Inteligencji wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa inteligencję wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3278" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WISD" Flag="0">
+  <Element ID="3278" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WISD" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56165,10 +56420,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Wisdom</Input>
-      <Output>Zwiększ mądrość dzieci</Output>
+      <Output>Zwiększenie Mądrości Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3279" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WISD_DES" Flag="0">
+  <Element ID="3279" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_WISD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:32</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56180,10 +56440,15 @@
     </Groups>
     <Texts>
       <Input>Increase Wisdom attribute of all children in and around the village.</Input>
-      <Output>Zwiększ atrybut Mądrości wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa mądrość wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3280" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_MYST" Flag="0">
+  <Element ID="3280" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_MYST" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:26</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56195,10 +56460,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Mysticism</Input>
-      <Output>Zwiększenie dziecięcego mistycyzmu</Output>
+      <Output>Zwiększenie Mistycyzmu Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3281" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_MYST_DES" Flag="0">
+  <Element ID="3281" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_MYST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56210,10 +56480,15 @@
     </Groups>
     <Texts>
       <Input>Increase Mysticism attribute of all children in and around the village.</Input>
-      <Output>Zwiększenie atrybutu mistycyzmu u wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa mistycyzm wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
-  <Element ID="3282" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_DEST" Flag="0">
+  <Element ID="3282" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_DEST" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 14:46:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56225,10 +56500,15 @@
     </Groups>
     <Texts>
       <Input>Increase Children's Destiny</Input>
-      <Output>Zwiększenie przeznaczenia dzieci</Output>
+      <Output>Zwiększenie Przeznaczenia Dzieci</Output>
     </Texts>
   </Element>
-  <Element ID="3283" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_DEST_DES" Flag="0">
+  <Element ID="3283" Key="DES_SUBSKILL_BUILDING_ADD_CHILDREN_ATT_DEST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:31</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56240,7 +56520,7 @@
     </Groups>
     <Texts>
       <Input>Increase Destiny attribute of all children in and around the village.</Input>
-      <Output>Zwiększ atrybut Przeznaczenia wszystkich dzieci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa przeznaczenie wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3284" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS" Flag="1">
@@ -56261,7 +56541,12 @@
       <Output>Zwiększenie Rytuałów</Output>
     </Texts>
   </Element>
-  <Element ID="3285" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS_DES" Flag="0">
+  <Element ID="3285" Key="DES_SUBSKILL_BUILDING_ADD_RITUALS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:30</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56271,7 +56556,7 @@
     </Groups>
     <Texts>
       <Input>Increase Rituals attribute of all characters in and around the village.</Input>
-      <Output>Zwiększ atrybut rytuałów wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa rytuały wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3286" Key="DES_SUBSKILL_BUILDING_ADD_LUCK" Flag="1">
@@ -56292,7 +56577,12 @@
       <Output>Zwiększenie Szczęścia</Output>
     </Texts>
   </Element>
-  <Element ID="3287" Key="DES_SUBSKILL_BUILDING_ADD_LUCK_DES" Flag="0">
+  <Element ID="3287" Key="DES_SUBSKILL_BUILDING_ADD_LUCK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:09:29</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56302,7 +56592,7 @@
     </Groups>
     <Texts>
       <Input>Increase Luck attribute of all characters in and around the village.</Input>
-      <Output>Zwiększ atrybut Szczęścia wszystkich postaci w wiosce i wokół niej.</Output>
+      <Output>Zwiększa szczęście wszystkich dzieci w osadzie i wokół niej.</Output>
     </Texts>
   </Element>
   <Element ID="3288" Key="DES_SUBSKILL_BUILDING_SUMMON_DEMON" Flag="1">
@@ -57605,7 +57895,12 @@
       <Output>Błyskawica</Output>
     </Texts>
   </Element>
-  <Element ID="3364" Key="DES_SUBSKILL_LIGHTNING_SPELL_DES" Flag="0">
+  <Element ID="3364" Key="DES_SUBSKILL_LIGHTNING_SPELL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 16:08:04</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -57614,7 +57909,7 @@
     </Groups>
     <Texts>
       <Input>Summon a lightning strike.</Input>
-      <Output>Przywołaj uderzenie pioruna.</Output>
+      <Output>Uderzenie piorunem.</Output>
     </Texts>
   </Element>
   <Element ID="3365" Key="DES_SUBSKILL_SUMMON_DEMON_SPELL" Flag="1">
@@ -90239,7 +90534,12 @@
       <Output>Postać jest nieżyjącym pająkiem. Przebudzony mistycznym wezwaniem i nową siłą życiową. Jest martwy, więc sprawia, że są trudniejsi fizycznie, a osiem pokrytych włosami nóg o większej liczbie oczu, niż można policzyć, z pewnością przyda się podczas wykonywania zadań ręcznych.</Output>
     </Texts>
   </Element>
-  <Element ID="5357" Key="DES_SKILL_MORNING_PILL" Flag="0">
+  <Element ID="5357" Key="DES_SKILL_MORNING_PILL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:46:45</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -90248,10 +90548,15 @@
     </Groups>
     <Texts>
       <Input>Completely Safe Pill</Input>
-      <Output>Całkowicie bezpieczna pigułka</Output>
+      <Output>Całkowicie Bezpieczna Pigułka</Output>
     </Texts>
   </Element>
-  <Element ID="5358" Key="DES_SKILL_MORNING_PILL_DES" Flag="0">
+  <Element ID="5358" Key="DES_SKILL_MORNING_PILL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:47:37</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -90260,7 +90565,7 @@
     </Groups>
     <Texts>
       <Input>Here, this will refresh your breath. 100% poison-free, approved by professional herbalists.\n&lt;size=50%&gt;Disclaimer: For a full list of possible side-effects consult your local health practitioner. Never exceed the recommended dose.&lt;size=100%&gt;</Input>
-      <Output>Tutaj odświeżysz oddech. W 100% wolny od trucizn, zatwierdzony przez profesjonalnych zielarzy. \n&lt;Rozmiar = 50%&gt; Zrzeczenie się odpowiedzialności: Pełna lista możliwych działań niepożądanych można uzyskać od lokalnego lekarza. Nigdy nie przekraczaj zalecanej dawki. &lt;Rozmiar = 100%&gt;</Output>
+      <Output>Leczy i ma przyjemny świeży smak. W 100% uwolnisz się od trucizn, zatwierdzona przez profesjonalnych zielarzy.\n&lt;size=50%&gt; Zrzeczenie się odpowiedzialności: Pełna lista możliwych działań niepożądanych można uzyskać od lokalnego znachora. Nigdy nie przekraczaj zalecanej dawki.&lt;size=100%&gt;</Output>
     </Texts>
   </Element>
   <Element ID="5359" Key="DES_SKILL_DARK_BLOOD_SHIELD" Flag="1">
@@ -90607,7 +90912,12 @@
       <Output>Widzisz cios, zanim spadnie. Nie możesz temu zapobiec, ale możesz skupić swój umysł, aby zmniejszyć ból.</Output>
     </Texts>
   </Element>
-  <Element ID="5385" Key="DES_SUBSKILL_MORNING_PILL" Flag="0">
+  <Element ID="5385" Key="DES_SUBSKILL_MORNING_PILL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:48:09</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -90616,10 +90926,15 @@
     </Groups>
     <Texts>
       <Input>Completely Safe Pill</Input>
-      <Output>Całkowicie bezpieczna pigułka</Output>
+      <Output>Całkowicie Bezpieczna Pigułka</Output>
     </Texts>
   </Element>
-  <Element ID="5386" Key="DES_SUBSKILL_MORNING_PILL_DES" Flag="0">
+  <Element ID="5386" Key="DES_SUBSKILL_MORNING_PILL_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 16:06:16</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -90649,7 +90964,12 @@
       <Output>Mroczne Uderzenie Pazurem</Output>
     </Texts>
   </Element>
-  <Element ID="5388" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL" Flag="0">
+  <Element ID="5388" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:41:43</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -90660,7 +90980,7 @@
     </Groups>
     <Texts>
       <Input>Protect All</Input>
-      <Output>Chroń wszystko</Output>
+      <Output>Obrona Wszystkich</Output>
     </Texts>
   </Element>
   <Element ID="5389" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL_DES" Flag="0">
@@ -90852,7 +91172,12 @@
       <Output>Opóźnienie przełączenia dwóch sojuszniczych postaci, daj im dodatkową tarczę.</Output>
     </Texts>
   </Element>
-  <Element ID="5400" Key="DES_SUBSKILL_DEGRADATION" Flag="0">
+  <Element ID="5400" Key="DES_SUBSKILL_DEGRADATION" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:41:01</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -90860,7 +91185,7 @@
     </Groups>
     <Texts>
       <Input>Degradation</Input>
-      <Output>Degradacja</Output>
+      <Output>Rozpad</Output>
     </Texts>
   </Element>
   <Element ID="5401" Key="DES_SUBSKILL_DEGRADATION_DES" Flag="0">
@@ -90874,7 +91199,12 @@
       <Output>Odbierz procent obrażeń od zdrowia w każdej turze.</Output>
     </Texts>
   </Element>
-  <Element ID="5402" Key="DES_SUBSKILL_POISON_HEAL" Flag="0">
+  <Element ID="5402" Key="DES_SUBSKILL_POISON_HEAL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:41:23</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -90883,7 +91213,7 @@
     </Groups>
     <Texts>
       <Input>Dead Flesh</Input>
-      <Output>Martwe ciało</Output>
+      <Output>Martwe Ciało</Output>
     </Texts>
   </Element>
   <Element ID="5403" Key="DES_SUBSKILL_POISON_HEAL_DES" Flag="0">
@@ -92658,7 +92988,12 @@
       <Output>Dynia</Output>
     </Texts>
   </Element>
-  <Element ID="5509" Key="DES_SKILL_CON_DEFAULT_MELEE" Flag="0">
+  <Element ID="5509" Key="DES_SKILL_CON_DEFAULT_MELEE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-11 15:13:13</Time>
+      <GUID>2CFDD243-E266-4B28-A2FB-83899B7FFE70</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -92668,7 +93003,7 @@
     </Groups>
     <Texts>
       <Input>Concept - Melee</Input>
-      <Output>Koncepcja - walka w zwarciu</Output>
+      <Output>Koncept - Zwarcie</Output>
     </Texts>
   </Element>
   <Element ID="5510" Key="DES_SKILL_CON_DEFAULT_MELEE_DES" Flag="0">
