@@ -54540,7 +54540,7 @@
     </Groups>
     <Texts>
       <Input>Increases the Group's Health regeneration.</Input>
-      <Output>Zwiększa regenerację Zdrowia Grupy.</Output>
+      <Output>Zwiększa regenerację zdrowia grupy.</Output>
     </Texts>
   </Element>
   <Element ID="3176" Key="DES_SUBSKILL_GROUP_HEAL_M" Flag="1">
@@ -54576,7 +54576,7 @@
     </Groups>
     <Texts>
       <Input>Increases the Group's Sanity regeneration.</Input>
-      <Output>Zwiększa regenerację Poczytalności Grupy.</Output>
+      <Output>Zwiększa regenerację poczytalności grupy.</Output>
     </Texts>
   </Element>
   <Element ID="3178" Key="DES_SUBSKILL_GROUP_HEAL_S" Flag="1">
@@ -54612,7 +54612,7 @@
     </Groups>
     <Texts>
       <Input>Increases the Group's Faith regeneration.</Input>
-      <Output>Zwiększa regenerację Wiary Grupy.</Output>
+      <Output>Zwiększa regenerację wiary grupy.</Output>
     </Texts>
   </Element>
   <Element ID="3180" Key="DES_SUBSKILL_LOWER_DEATH_CHANCE" Flag="1">
@@ -54926,7 +54926,7 @@
     </Groups>
     <Texts>
       <Input>Increase Sight Range of the village.</Input>
-      <Output>Zwiększa zasięg widzenia wioski.</Output>
+      <Output>Zwiększa zasięg widzenia osady.</Output>
     </Texts>
   </Element>
   <Element ID="3200" Key="DES_SUBSKILL_BUILDING_GATHERING_RANGE" Flag="0">
@@ -55535,7 +55535,7 @@
     </Groups>
     <Texts>
       <Input>Decrease Chance to Die</Input>
-      <Output>Zmniejszenie Szansy na Śmierć</Output>
+      <Output>Zmniejszenie Ryzyka Śmierci</Output>
     </Texts>
   </Element>
   <Element ID="3236" Key="DES_SUBSKILL_BUILDING_LOWER_DEATH_CHANCE_DES" Flag="1">
@@ -56323,7 +56323,12 @@
       <Output>Przywołanie Demona Stróża</Output>
     </Texts>
   </Element>
-  <Element ID="3289" Key="DES_SUBSKILL_BUILDING_SUMMON_DEMON_DES" Flag="0">
+  <Element ID="3289" Key="DES_SUBSKILL_BUILDING_SUMMON_DEMON_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:26:41</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56333,10 +56338,15 @@
     </Groups>
     <Texts>
       <Input>This building summons a Guardian Demon to guard your village.</Input>
-      <Output>Ten budynek przywołuje Demona Strażnika, by strzegł twojej wioski.</Output>
+      <Output>Ten budynek przywołuje demona stróża, by strzegł osady.</Output>
     </Texts>
   </Element>
-  <Element ID="3290" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_P" Flag="0">
+  <Element ID="3290" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_P" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:20:39</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56348,10 +56358,15 @@
     </Groups>
     <Texts>
       <Input>Max Health Bonus</Input>
-      <Output>Maksymalny bonus zdrowotny</Output>
+      <Output>Premia do Maksymalnego Zdrowia</Output>
     </Texts>
   </Element>
-  <Element ID="3291" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_P_DES" Flag="0">
+  <Element ID="3291" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_P_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:28:21</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56363,10 +56378,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to maximum Health from a nearby building.</Input>
-      <Output>Ta postać otrzymuje premię do maksymalnego zdrowia z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do maksymalnego zdrowia.</Output>
     </Texts>
   </Element>
-  <Element ID="3292" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_M" Flag="0">
+  <Element ID="3292" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_M" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:20:38</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56378,10 +56398,15 @@
     </Groups>
     <Texts>
       <Input>Max Sanity Bonus</Input>
-      <Output>Premia do maksymalnego zdrowia psychicznego</Output>
+      <Output>Premia do Maksymalnej Poczytalności</Output>
     </Texts>
   </Element>
-  <Element ID="3293" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_M_DES" Flag="0">
+  <Element ID="3293" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_M_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:28:29</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56393,10 +56418,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to maximum Sanity from a nearby building.</Input>
-      <Output>Ta postać otrzymuje premię do maksymalnego poczytalności z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do maksymalnej poczytalności.</Output>
     </Texts>
   </Element>
-  <Element ID="3294" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_S" Flag="0">
+  <Element ID="3294" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_S" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:20:41</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56408,10 +56438,15 @@
     </Groups>
     <Texts>
       <Input>Max Faith Bonus</Input>
-      <Output>Premia do maksymalnej wiary</Output>
+      <Output>Premia do Maksymalnej Wiary</Output>
     </Texts>
   </Element>
-  <Element ID="3295" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_S_DES" Flag="0">
+  <Element ID="3295" Key="DES_SUBSKILL_GROUP_ADD_MAX_HEALTH_S_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:28:41</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56423,10 +56458,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to maximum Faith from a nearby building.</Input>
-      <Output>Ta postać otrzymuje premię do maksymalnej Wiary z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do maksymalnej wiary.</Output>
     </Texts>
   </Element>
-  <Element ID="3296" Key="DES_SUBSKILL_GROUP_ADD_GATHERING" Flag="0">
+  <Element ID="3296" Key="DES_SUBSKILL_GROUP_ADD_GATHERING" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:23:43</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56436,10 +56476,15 @@
     </Groups>
     <Texts>
       <Input>Gathering Bonus</Input>
-      <Output>Premia do zbieractwa</Output>
+      <Output>Premia do Zbieractwa</Output>
     </Texts>
   </Element>
-  <Element ID="3297" Key="DES_SUBSKILL_GROUP_ADD_GATHERING_DES" Flag="0">
+  <Element ID="3297" Key="DES_SUBSKILL_GROUP_ADD_GATHERING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:29:20</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56449,10 +56494,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Gathering attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Zbieranie z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do zbieractwa.</Output>
     </Texts>
   </Element>
-  <Element ID="3298" Key="DES_SUBSKILL_GROUP_ADD_CRAFTING" Flag="0">
+  <Element ID="3298" Key="DES_SUBSKILL_GROUP_ADD_CRAFTING" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:23:42</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56462,10 +56512,15 @@
     </Groups>
     <Texts>
       <Input>Crafting Bonus</Input>
-      <Output>Premia rzemieślnicza</Output>
+      <Output>Premia do Rzemiosła</Output>
     </Texts>
   </Element>
-  <Element ID="3299" Key="DES_SUBSKILL_GROUP_ADD_CRAFTING_DES" Flag="0">
+  <Element ID="3299" Key="DES_SUBSKILL_GROUP_ADD_CRAFTING_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:29:28</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56475,10 +56530,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Crafting attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Crafting z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do rzemiosła.</Output>
     </Texts>
   </Element>
-  <Element ID="3300" Key="DES_SUBSKILL_GROUP_ADD_MOVEMENT" Flag="0">
+  <Element ID="3300" Key="DES_SUBSKILL_GROUP_ADD_MOVEMENT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:23:55</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56488,10 +56548,15 @@
     </Groups>
     <Texts>
       <Input>Movement Points Bonus</Input>
-      <Output>Premia za punkty ruchu</Output>
+      <Output>Premia do Punktów Ruchu</Output>
     </Texts>
   </Element>
-  <Element ID="3301" Key="DES_SUBSKILL_GROUP_ADD_MOVEMENT_DES" Flag="0">
+  <Element ID="3301" Key="DES_SUBSKILL_GROUP_ADD_MOVEMENT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:29:44</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56501,7 +56566,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Movement Points from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do punktów ruchu z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do punktów ruchu.</Output>
     </Texts>
   </Element>
   <Element ID="3302" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P" Flag="1">
@@ -56520,10 +56585,15 @@
     </Groups>
     <Texts>
       <Input>Physical Shielding Bonus</Input>
-      <Output>Bonus do Fizycznej Osłony</Output>
+      <Output>Premia do Fizycznej Osłony</Output>
     </Texts>
   </Element>
-  <Element ID="3303" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_DES" Flag="0">
+  <Element ID="3303" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:30:22</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56534,7 +56604,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Physical Shielding from a nearby building.</Input>
-      <Output>Ta postać otrzymuje premię do osłony fizycznej z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do fizycznej osłony.</Output>
     </Texts>
   </Element>
   <Element ID="3304" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_S" Flag="1">
@@ -56553,10 +56623,15 @@
     </Groups>
     <Texts>
       <Input>Spiritual Shielding Bonus</Input>
-      <Output>Bonus do Duchowej Osłony</Output>
+      <Output>Premia do Duchowej Osłony</Output>
     </Texts>
   </Element>
-  <Element ID="3305" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_S_DES" Flag="0">
+  <Element ID="3305" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_S_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:30:23</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56567,7 +56642,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Spiritual Shielding from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do osłony duchowej z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do duchowej osłony.</Output>
     </Texts>
   </Element>
   <Element ID="3306" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_M" Flag="1">
@@ -56587,10 +56662,15 @@
     </Groups>
     <Texts>
       <Input>Physical and Mental Shielding Bonus</Input>
-      <Output>Bonus do Fizycznej i Mentalnej Osłony</Output>
+      <Output>Premia do Fizycznej i Mentalnej Osłony</Output>
     </Texts>
   </Element>
-  <Element ID="3307" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_M_DES" Flag="0">
+  <Element ID="3307" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_M_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:30:51</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56602,7 +56682,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Physical and Mental Shielding from a nearby building.</Input>
-      <Output>Ta postać otrzymuje premię do Fizycznego i Psychicznego Ekranowania z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do fizycznej i mentalnej osłony.</Output>
     </Texts>
   </Element>
   <Element ID="3308" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_M_S" Flag="1">
@@ -56623,10 +56703,15 @@
     </Groups>
     <Texts>
       <Input>Physical Mental and Spiritual Shielding Bonus</Input>
-      <Output>Bonus do Mentalnej i Duchowej Osłony</Output>
+      <Output>Premia do Fizycznej, Mentalnej i Duchowej Osłony</Output>
     </Texts>
   </Element>
-  <Element ID="3309" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_M_S_DES" Flag="0">
+  <Element ID="3309" Key="DES_SUBSKILL_GROUP_ADD_SHIELDING_P_M_S_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:43:33</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56639,10 +56724,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Physical, Mental and Spiritual Shielding from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do fizycznego, mentalnego i duchowego osłaniania z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do fizycznej, mentalnej i duchowej osłony.</Output>
     </Texts>
   </Element>
-  <Element ID="3310" Key="DES_SUBSKILL_GROUP_ADD_RESEARCH" Flag="0">
+  <Element ID="3310" Key="DES_SUBSKILL_GROUP_ADD_RESEARCH" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:24:30</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56652,10 +56742,15 @@
     </Groups>
     <Texts>
       <Input>Research Bonus</Input>
-      <Output>Bonus badawczy</Output>
+      <Output>Premia do Badań</Output>
     </Texts>
   </Element>
-  <Element ID="3311" Key="DES_SUBSKILL_GROUP_ADD_RESEARCH_DES" Flag="0">
+  <Element ID="3311" Key="DES_SUBSKILL_GROUP_ADD_RESEARCH_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:43:55</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56665,10 +56760,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Research attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu badań z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do badań.</Output>
     </Texts>
   </Element>
-  <Element ID="3312" Key="DES_SUBSKILL_GROUP_MEDICINE" Flag="0">
+  <Element ID="3312" Key="DES_SUBSKILL_GROUP_MEDICINE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:24:29</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56677,10 +56777,15 @@
     </Groups>
     <Texts>
       <Input>Healing Bonus</Input>
-      <Output>Bonus do leczenia</Output>
+      <Output>Premia do Leczenia</Output>
     </Texts>
   </Element>
-  <Element ID="3313" Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE" Flag="0">
+  <Element ID="3313" Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:48:32</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56691,10 +56796,15 @@
     </Groups>
     <Texts>
       <Input>Lower Death Chance Bonus</Input>
-      <Output>Bonus za niższą szansę na śmierć</Output>
+      <Output>Premia do Niższego Ryzyka Śmierci</Output>
     </Texts>
   </Element>
-  <Element ID="3314" Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE_DES" Flag="0">
+  <Element ID="3314" Key="DES_SUBSKILL_GROUP_LOWER_DEATH_CHANCE_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:49:08</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56705,10 +56815,15 @@
     </Groups>
     <Texts>
       <Input>This character's chance to die from serious wounds is reduced by a nearby building.</Input>
-      <Output>Szansa na śmierć tej postaci z powodu poważnych ran zostaje zmniejszona przez pobliski budynek.</Output>
+      <Output>Ryzyko śmierć tej postaci z powodu poważnych ran zostaje zmniejszona przez pobliski budynek.</Output>
     </Texts>
   </Element>
-  <Element ID="3315" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT" Flag="0">
+  <Element ID="3315" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:48:02</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56719,10 +56834,15 @@
     </Groups>
     <Texts>
       <Input>Main Attribute Bonus</Input>
-      <Output>Główny atrybut atrybutu</Output>
+      <Output>Premia do Głównych Atrybutów</Output>
     </Texts>
   </Element>
-  <Element ID="3316" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_DES" Flag="0">
+  <Element ID="3316" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:47:42</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56733,10 +56853,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to main attributes from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do głównych atrybutów z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do głównych atrybutów.</Output>
     </Texts>
   </Element>
-  <Element ID="3317" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_PER" Flag="0">
+  <Element ID="3317" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_PER" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:03</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56748,10 +56873,15 @@
     </Groups>
     <Texts>
       <Input>Perception Bonus</Input>
-      <Output>Bonus percepcji</Output>
+      <Output>Premia do Percepcji</Output>
     </Texts>
   </Element>
-  <Element ID="3318" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_PER_DES" Flag="0">
+  <Element ID="3318" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_PER_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:47:23</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56763,10 +56893,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Perception attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Percepcji z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do percepcji.</Output>
     </Texts>
   </Element>
-  <Element ID="3319" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WITS" Flag="0">
+  <Element ID="3319" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WITS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:11</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56778,10 +56913,15 @@
     </Groups>
     <Texts>
       <Input>Wits Bonus</Input>
-      <Output>Bonus za spryt</Output>
+      <Output>Premia do Sprytu</Output>
     </Texts>
   </Element>
-  <Element ID="3320" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WITS_DES" Flag="0">
+  <Element ID="3320" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WITS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:44:10</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56793,10 +56933,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Wits attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Wits z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do sprytu.</Output>
     </Texts>
   </Element>
-  <Element ID="3321" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_INT" Flag="0">
+  <Element ID="3321" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_INT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:20</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56808,10 +56953,15 @@
     </Groups>
     <Texts>
       <Input>Intelligence Bonus</Input>
-      <Output>Premia za wywiad</Output>
+      <Output>Premia do Inteligencji</Output>
     </Texts>
   </Element>
-  <Element ID="3322" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_INT_DES" Flag="0">
+  <Element ID="3322" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_INT_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:44:22</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56823,10 +56973,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Intelligence attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Inteligencji z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do inteligencji.</Output>
     </Texts>
   </Element>
-  <Element ID="3323" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WISD" Flag="0">
+  <Element ID="3323" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WISD" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:27</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56838,10 +56993,15 @@
     </Groups>
     <Texts>
       <Input>Wisdom Bonus</Input>
-      <Output>Premia mądrości</Output>
+      <Output>Premia do Mądrości</Output>
     </Texts>
   </Element>
-  <Element ID="3324" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WISD_DES" Flag="0">
+  <Element ID="3324" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_WISD_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:44:32</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56853,10 +57013,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Wisdom attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Mądrości z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do mądrości.</Output>
     </Texts>
   </Element>
-  <Element ID="3325" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_MYST" Flag="0">
+  <Element ID="3325" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_MYST" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:35</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56868,10 +57033,15 @@
     </Groups>
     <Texts>
       <Input>Mysticism Bonus</Input>
-      <Output>Bonus mistycyzmu</Output>
+      <Output>Premia do Mistycyzmu</Output>
     </Texts>
   </Element>
-  <Element ID="3326" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_MYST_DES" Flag="0">
+  <Element ID="3326" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_MYST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:44:46</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56883,10 +57053,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Mysticism attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Mistycyzm z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do mistycyzmu.</Output>
     </Texts>
   </Element>
-  <Element ID="3327" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_DEST" Flag="0">
+  <Element ID="3327" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_DEST" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:44</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56898,10 +57073,15 @@
     </Groups>
     <Texts>
       <Input>Destiny Bonus</Input>
-      <Output>Premia przeznaczenia</Output>
+      <Output>Premia do Przeznaczenia</Output>
     </Texts>
   </Element>
-  <Element ID="3328" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_DEST_DES" Flag="0">
+  <Element ID="3328" Key="DES_SUBSKILL_GROUP_ADD_CHILDREN_ATT_DEST_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:44:53</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56913,10 +57093,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Destiny attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Przeznaczenia z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do przeznaczenia.</Output>
     </Texts>
   </Element>
-  <Element ID="3329" Key="DES_SUBSKILL_GROUP_ADD_RITUALS" Flag="0">
+  <Element ID="3329" Key="DES_SUBSKILL_GROUP_ADD_RITUALS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:25:43</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56926,10 +57111,15 @@
     </Groups>
     <Texts>
       <Input>Rituals Bonus</Input>
-      <Output>Premia za rytuały</Output>
+      <Output>Premia do Rytuałów</Output>
     </Texts>
   </Element>
-  <Element ID="3330" Key="DES_SUBSKILL_GROUP_ADD_RITUALS_DES" Flag="0">
+  <Element ID="3330" Key="DES_SUBSKILL_GROUP_ADD_RITUALS_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:45:05</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56939,10 +57129,15 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Rituals attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Rytuałów z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do rytuałów.</Output>
     </Texts>
   </Element>
-  <Element ID="3331" Key="DES_SUBSKILL_GROUP_ADD_LUCK" Flag="0">
+  <Element ID="3331" Key="DES_SUBSKILL_GROUP_ADD_LUCK" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:26:01</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56952,10 +57147,15 @@
     </Groups>
     <Texts>
       <Input>Luck Bonus</Input>
-      <Output>Premia do szczęscia</Output>
+      <Output>Premia do Szczęscia</Output>
     </Texts>
   </Element>
-  <Element ID="3332" Key="DES_SUBSKILL_GROUP_ADD_LUCK_DES" Flag="0">
+  <Element ID="3332" Key="DES_SUBSKILL_GROUP_ADD_LUCK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:45:42</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -56965,7 +57165,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Luck attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje bonus do atrybutu Szczęścia z pobliskiego budynku.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do szczęścia.</Output>
     </Texts>
   </Element>
   <Element ID="3333" Key="DES_SPIRITUAL_HEALING" Flag="1">
@@ -57527,7 +57727,12 @@
       <Output>Przywołuje dziką bestię. Można użyć tylko raz.</Output>
     </Texts>
   </Element>
-  <Element ID="3371" Key="DES_SUBSKILL_ZORYA_WARCRY" Flag="0">
+  <Element ID="3371" Key="DES_SUBSKILL_ZORYA_WARCRY" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:15:56</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -57536,7 +57741,7 @@
     </Groups>
     <Texts>
       <Input>Zorya's War Cry</Input>
-      <Output>Okrzyk bojowy Zorii</Output>
+      <Output>Okrzyk Bojowy Zorii</Output>
     </Texts>
   </Element>
   <Element ID="3372" Key="DES_SUBSKILL_ZORYA_WARCRY_DES" Flag="0">
@@ -68378,7 +68583,12 @@
       <Output>Standardowa umiejętność broni. Jego efekt zostanie uruchomiony, gdy zostanie użyty do ataku podczas Fight Turns.</Output>
     </Texts>
   </Element>
-  <Element ID="4012" Key="DES_SKILL_ARMOUR_SKILL" Flag="0">
+  <Element ID="4012" Key="DES_SKILL_ARMOUR_SKILL" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:17:36</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -68431,7 +68641,12 @@
       <Output>Standardowa umiejętność tarczy. Pasywnie zwiększa ekranowanie, ale może być użyty do zwiększenia ekranowania innego sojusznika.</Output>
     </Texts>
   </Element>
-  <Element ID="4016" Key="DES_SUBSKILL_WEAPON_ATTACK" Flag="0">
+  <Element ID="4016" Key="DES_SUBSKILL_WEAPON_ATTACK" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:16:26</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -68440,10 +68655,15 @@
     </Groups>
     <Texts>
       <Input>Weapon Attack</Input>
-      <Output>Atak broni</Output>
+      <Output>Atak Bronią</Output>
     </Texts>
   </Element>
-  <Element ID="4017" Key="DES_SUBSKILL_WEAPON_ATTACK_DES" Flag="0">
+  <Element ID="4017" Key="DES_SUBSKILL_WEAPON_ATTACK_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:17:19</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -68452,7 +68672,7 @@
     </Groups>
     <Texts>
       <Input>A normal weapon attack. Each weapon type may have different target, trigger and damage effects so check the icons to learn more.</Input>
-      <Output>Normalny atak bronią. Każdy typ broni może mieć różne efekty celu, spustu i obrażeń, więc sprawdź ikony, aby dowiedzieć się więcej.</Output>
+      <Output>Normalny atak bronią. Każdy typ broni może mieć różne rodzaje celu, aktywacji i obrażeń, więc sprawdź ikony, aby dowiedzieć się więcej.</Output>
     </Texts>
   </Element>
   <Element ID="4018" Key="DES_TUT_SUBSKILL_DEFAULT_AXE" Flag="0">
@@ -74866,7 +75086,12 @@
       <Output>Mówisz im, gdzie są gobliny za co ci gorąco dziękują. </Output>
     </Texts>
   </Element>
-  <Element ID="4420" Key="QUOTE_MARKS_EXAMPLE" Flag="0">
+  <Element ID="4420" Key="QUOTE_MARKS_EXAMPLE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 13:19:35</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>QUOTE</Group>
       <Group>QUOTE_MARKS</Group>
@@ -77861,7 +78086,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Gathering</Input>
-      <Output>Sortuj według Zbieractwa</Output>
+      <Output>Sortuj wg Zbieractwa</Output>
     </Texts>
   </Element>
   <Element ID="4608" Key="UI_COUNT_SORT" Flag="1">
@@ -77877,7 +78102,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Count</Input>
-      <Output>Sortuj według Liczebności</Output>
+      <Output>Sortuj wg Liczebności</Output>
     </Texts>
   </Element>
   <Element ID="4609" Key="UI_TYPE_SORT" Flag="1">
@@ -77893,7 +78118,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Type</Input>
-      <Output>Sortuj według Typu</Output>
+      <Output>Sortuj wg Typu</Output>
     </Texts>
   </Element>
   <Element ID="4610" Key="UI_NO_FILTER" Flag="1">
@@ -77957,7 +78182,7 @@
     </Groups>
     <Texts>
       <Input>Sort by</Input>
-      <Output>Sortuj według</Output>
+      <Output>Sortuj wg </Output>
     </Texts>
   </Element>
   <Element ID="4614" Key="UI_FILTER_BY" Flag="1">
@@ -78579,7 +78804,12 @@
       <Output>Generyczny</Output>
     </Texts>
   </Element>
-  <Element ID="4653" Key="UI_GROUP_GENERIC" Flag="0">
+  <Element ID="4653" Key="UI_GROUP_GENERIC" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:39:41</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GROUP</Group>
@@ -79540,9 +79770,9 @@
   </Element>
   <Element ID="4713" Key="UI_ADVANCEMENT_RESOURCES" Flag="1">
     <Confirmation>
-      <Time>2019-09-15 12:48:56</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
+      <Time>2019-12-10 15:51:59</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>UI</Group>
@@ -79551,14 +79781,14 @@
     </Groups>
     <Texts>
       <Input>Advancement - Resources</Input>
-      <Output>Awansowanie - zasoby</Output>
+      <Output>Ulepszenie - Surowce</Output>
     </Texts>
   </Element>
   <Element ID="4714" Key="UI_ADVANCEMENT_EQUIPMENT" Flag="1">
     <Confirmation>
-      <Time>2019-09-15 12:49:01</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
+      <Time>2019-12-10 15:51:59</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>UI</Group>
@@ -79567,14 +79797,14 @@
     </Groups>
     <Texts>
       <Input>Advancement - Equipment</Input>
-      <Output>Awansowanie - wyposażenie</Output>
+      <Output>Ulepszenie - Ekwipunek</Output>
     </Texts>
   </Element>
   <Element ID="4715" Key="UI_ADVANCEMENT_FOOD" Flag="1">
     <Confirmation>
-      <Time>2019-09-15 12:49:04</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
+      <Time>2019-12-10 15:51:58</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>UI</Group>
@@ -79583,14 +79813,14 @@
     </Groups>
     <Texts>
       <Input>Advancement - Food</Input>
-      <Output>Postęp - Żywność</Output>
+      <Output>Ulepszenie - Żywność</Output>
     </Texts>
   </Element>
   <Element ID="4716" Key="UI_ADVANCEMENT_BUILDINGS_AND_RITUALS" Flag="1">
     <Confirmation>
-      <Time>2019-09-15 12:49:06</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
+      <Time>2019-12-10 15:51:58</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>UI</Group>
@@ -79601,14 +79831,14 @@
     </Groups>
     <Texts>
       <Input>Advancement - Buildings and Rituals</Input>
-      <Output>Awans - Budynki i rytuały</Output>
+      <Output>Ulepszenie - Budynki i Rytuały</Output>
     </Texts>
   </Element>
   <Element ID="4717" Key="UI_ADVANCEMENT_SKILLS" Flag="1">
     <Confirmation>
-      <Time>2019-09-15 12:49:08</Time>
-      <GUID>2C20F381-152C-4934-865D-B18429C9BAD9</GUID>
-      <User>kiszony</User>
+      <Time>2019-12-10 15:51:57</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
     </Confirmation>
     <Groups>
       <Group>UI</Group>
@@ -79617,7 +79847,7 @@
     </Groups>
     <Texts>
       <Input>Advancement - Skills</Input>
-      <Output>Awans - Umiejętności</Output>
+      <Output>Ulepszenie - Umiejętności</Output>
     </Texts>
   </Element>
   <Element ID="4718" Key="UI_COST" Flag="1">
@@ -79664,7 +79894,7 @@
     </Groups>
     <Texts>
       <Input>Advancement Points</Input>
-      <Output>Punkty awansu</Output>
+      <Output>Punkty Awansu</Output>
     </Texts>
   </Element>
   <Element ID="4721" Key="UI_REROLL_SETS" Flag="1">
@@ -79715,7 +79945,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:#C80000}You need to unlock all parent advancements first.</Input>
-      <Output>{COLOR:#C80000}Musisz najpierw odblokować wszystkie postępy głównej umiejętności.</Output>
+      <Output>{COLOR:#C80000}Musisz najpierw odblokować wszystkie ulepszenia głównej umiejętności.</Output>
     </Texts>
   </Element>
   <Element ID="4724" Key="UI_WORKBENCH" Flag="1">
@@ -80094,7 +80324,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Crafting</Input>
-      <Output>Sortuj według Rzemiosła</Output>
+      <Output>Sortuj wg Rzemiosła</Output>
     </Texts>
   </Element>
   <Element ID="4748" Key="UI_GATHERING_SORT" Flag="1">
@@ -80110,7 +80340,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Gathering</Input>
-      <Output>Sortuj według Zbieractwa</Output>
+      <Output>Sortuj wg Zbieractwa</Output>
     </Texts>
   </Element>
   <Element ID="4749" Key="UI_RITUALS_SORT" Flag="1">
@@ -80126,7 +80356,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Rituals value</Input>
-      <Output>Sortuj według Rytuałów</Output>
+      <Output>Sortuj wg Rytuałów</Output>
     </Texts>
   </Element>
   <Element ID="4750" Key="UI_LOADING_MODULES" Flag="1">
@@ -80735,7 +80965,7 @@
     </Groups>
     <Texts>
       <Input>Playing a Card</Input>
-      <Output>Granie kartą</Output>
+      <Output>Granie Kartą</Output>
     </Texts>
   </Element>
   <Element ID="4788" Key="UI_TUTORIAL_CAST2" Flag="1">
@@ -80751,7 +80981,7 @@
     </Groups>
     <Texts>
       <Input>Start with playing cards from your {COLOR:yellow}Hand{END_COLOR} to the {COLOR:yellow}Battlefield{END_COLOR}. Here's how you do it:</Input>
-      <Output>Zacznij od zagrania karty z twojej {COLOR:yellow}Ręki{END_COLOR}na {COLOR:yellow}Polę bitwy{END_COLOR}. Oto jak to zrobić:</Output>
+      <Output>Zacznij od zagrania karty z twojej {COLOR:yellow}Ręki{END_COLOR}na {COLOR:yellow}Polę Bitwy{END_COLOR}. Oto jak to zrobić:</Output>
     </Texts>
   </Element>
   <Element ID="4789" Key="UI_TUTORIAL_CAST3" Flag="1">
@@ -80799,7 +81029,7 @@
     </Groups>
     <Texts>
       <Input>3. Select a slot to cast into.</Input>
-      <Output>3. Wybierz slot, na który chcesz rzucić.</Output>
+      <Output>3. Wybierz miejsce, na którym chcesz urzyć kartę.</Output>
     </Texts>
   </Element>
   <Element ID="4792" Key="UI_TUTORIAL_DESIGN_MODE1" Flag="1">
@@ -80865,7 +81095,7 @@
     </Groups>
     <Texts>
       <Input>To move your group from one tile to another:\n\n1. Left click on the group to select it,\n2. Press and hold RMB over another tile.\n\nTravelling uses up {COLOR:yellow}Movement Points{END_COLOR} ({ICON:MPIcon}) depending on terrain type.</Input>
-      <Output>Aby przenieść swoją drużynę z jednego hexa na drugi: \n\n1. Kliknij lewym przyciskiem myszy grupę, aby ją wybrać, \n2. Naciśnij i przytrzymaj RMB nad innym hexem. \n\nPodróżowanie zużywa {COLOR:yellow}punkty ruchu {END_COLOR}({ICON:MPIcon}) w zależności od rodzaju terenu.</Output>
+      <Output>Aby przenieść swoją drużynę z jednego pola na drugie: \n\n1. Kliknij lewym przyciskiem myszy grupę, aby ją wybrać, \n2. Naciśnij i przytrzymaj PPM nad innym polu. \n\nPodróżowanie zużywa {COLOR:yellow}punkty ruchu {END_COLOR}({ICON:MPIcon}) w zależności od rodzaju terenu.</Output>
     </Texts>
   </Element>
   <Element ID="4796" Key="UI_TUTORIAL_CAMERA1" Flag="1">
@@ -81043,7 +81273,7 @@
     </Groups>
     <Texts>
       <Input>Move your group near a tile with a resource located no further than one hex away.\n\nTo assign your workers to collecting resources, your group has to be in {COLOR:yellow}Camp Mode.{END_COLOR}</Input>
-      <Output>Przesuń swoją grupę w pobliżu płytki z zasobem znajdującym się nie dalej niż jeden heks dalej. \n\nAby przypisać swoich pracowników do zbierania zasobów, twoja grupa musi być w trybie obozu {COLOR:yellow}</Output>
+      <Output>Przesuń swoją grupę w miejsce znajdujące się nie dalej niż jedno pole od zasobu. \n\nAby przypisać swoich pracowników do zbierania zasobów, twoja grupa musi być w trybie obozu {COLOR:yellow}</Output>
     </Texts>
   </Element>
   <Element ID="4807" Key="UI_TUTORIAL_CAMP4" Flag="1">
@@ -82087,7 +82317,7 @@
     </Groups>
     <Texts>
       <Input>Add Advancement Points</Input>
-      <Output>Dodaj punkty awansu</Output>
+      <Output>Dodanie Punkty Awansu</Output>
     </Texts>
   </Element>
   <Element ID="4872" Key="UI_DEV_ADD_RESOURCES" Flag="1">
@@ -83475,14 +83705,19 @@
       <Output>Nie zapomnij nadać imion!</Output>
     </Texts>
   </Element>
-  <Element ID="4957" Key="UI_CREDITS" Flag="0">
+  <Element ID="4957" Key="UI_CREDITS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:04:43</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CREDITS</Group>
     </Groups>
     <Texts>
       <Input>Credits</Input>
-      <Output>Kredyty</Output>
+      <Output>Napisy</Output>
     </Texts>
   </Element>
   <Element ID="4958" Key="UI_DATABASE" Flag="1">
@@ -83976,7 +84211,7 @@
     </Groups>
     <Texts>
       <Input>- {COLOR:yellow}Battlefield{END_COLOR} - where you and your enemy place the cards you want to play,</Input>
-      <Output>- {COLOR:yellow}Pole bitwy {END_COLOR}- gdzie ty i twój przeciwnik zagrywacie karty,</Output>
+      <Output>- {COLOR:yellow}Pole Bitwy{END_COLOR}- gdzie ty i twój przeciwnik zagrywacie karty,</Output>
     </Texts>
   </Element>
   <Element ID="4988" Key="UI_TUTORIAL_CHALLENGE1_6" Flag="1">
@@ -85293,7 +85528,12 @@
       <Output>Wyświetl Podsumowanie</Output>
     </Texts>
   </Element>
-  <Element ID="5066" Key="UI_DEV_TOXINE_GROUP" Flag="0">
+  <Element ID="5066" Key="UI_DEV_TOXINE_GROUP" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:11:19</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DEV</Group>
@@ -85302,10 +85542,15 @@
     </Groups>
     <Texts>
       <Input>Apply Toxine to Group</Input>
-      <Output>Zastosuj Toxine do grupy</Output>
+      <Output>Nałożenie Toksyny na Grupę</Output>
     </Texts>
   </Element>
-  <Element ID="5067" Key="UI_DEV_COMBO_ADD" Flag="0">
+  <Element ID="5067" Key="UI_DEV_COMBO_ADD" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:10:55</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DEV</Group>
@@ -85314,10 +85559,15 @@
     </Groups>
     <Texts>
       <Input>Add Item Cargo</Input>
-      <Output>Dodaj ładunek towaru</Output>
+      <Output>Dodanie Ładunku</Output>
     </Texts>
   </Element>
-  <Element ID="5068" Key="UI_DEV_EXPORT_GROUP_POWERS" Flag="0">
+  <Element ID="5068" Key="UI_DEV_EXPORT_GROUP_POWERS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:10:40</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DEV</Group>
@@ -85327,10 +85577,15 @@
     </Groups>
     <Texts>
       <Input>Export Group Powers</Input>
-      <Output>Eksportuj moce grupy</Output>
+      <Output>Eksport Mocy Grupy</Output>
     </Texts>
   </Element>
-  <Element ID="5069" Key="UI_DEV_LOG_SELECTED_GROUP_DEBUG" Flag="0">
+  <Element ID="5069" Key="UI_DEV_LOG_SELECTED_GROUP_DEBUG" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:06:38</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DEV</Group>
@@ -85341,7 +85596,7 @@
     </Groups>
     <Texts>
       <Input>Log Selected Group Debug</Input>
-      <Output>Zaloguj się do wybranej grupy debugowania</Output>
+      <Output>Zapis Logów Wybranej Grupy</Output>
     </Texts>
   </Element>
   <Element ID="5070" Key="UI_DEV_ADD_MP" Flag="1">
@@ -85358,7 +85613,7 @@
     </Groups>
     <Texts>
       <Input>Add MP</Input>
-      <Output>Dodaj MP</Output>
+      <Output>Dodaj PR</Output>
     </Texts>
   </Element>
   <Element ID="5071" Key="UI_DEV_ADD_XP" Flag="1">
@@ -85375,7 +85630,7 @@
     </Groups>
     <Texts>
       <Input>Add XP</Input>
-      <Output>Dodaj XP</Output>
+      <Output>Dodaj PD</Output>
     </Texts>
   </Element>
   <Element ID="5072" Key="UI_CLIENT_CONNECTION_LOST" Flag="1">
@@ -86191,7 +86446,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Value</Input>
-      <Output>Sortuj według Wartości</Output>
+      <Output>Sortuj wg Wartości</Output>
     </Texts>
   </Element>
   <Element ID="5122" Key="UI_WEIGHT_SORT" Flag="1">
@@ -86207,7 +86462,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Weight</Input>
-      <Output>Sortuj według Wagi</Output>
+      <Output>Sortuj wg Wagi</Output>
     </Texts>
   </Element>
   <Element ID="5123" Key="UI_WEIGHT_TOTAL_SORT" Flag="1">
@@ -86224,7 +86479,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Total Weight</Input>
-      <Output>Sortuj według Całkowitej Wagi</Output>
+      <Output>Sortuj wg Całkowitej Wagi</Output>
     </Texts>
   </Element>
   <Element ID="5124" Key="UI_SKILL_LVL_SORT" Flag="1">
@@ -86241,7 +86496,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Skill Level</Input>
-      <Output>Sortuj według Poziomu Umiejętności</Output>
+      <Output>Sortuj wg Poziomu Umiejętności</Output>
     </Texts>
   </Element>
   <Element ID="5125" Key="UI_DEV_HEAL_GROUP" Flag="1">
@@ -86854,7 +87109,7 @@
     </Groups>
     <Texts>
       <Input>View Groups</Input>
-      <Output>Wyświetl grupy</Output>
+      <Output>Wyświetl Grupy</Output>
     </Texts>
   </Element>
   <Element ID="5164" Key="UI_CANNOT_MODIFY_EQUIPMENT" Flag="1">
@@ -87229,7 +87484,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Research</Input>
-      <Output>Sortuj według Badania</Output>
+      <Output>Sortuj wg Badania</Output>
     </Texts>
   </Element>
   <Element ID="5187" Key="UI_RESEARCH_ARTIFACTS" Flag="1">
@@ -87357,7 +87612,7 @@
     </Groups>
     <Texts>
       <Input>It's Spring!</Input>
-      <Output>Jest wiosna!</Output>
+      <Output>Jest Wiosna!</Output>
     </Texts>
   </Element>
   <Element ID="5195" Key="UI_ITS_SUMMER" Flag="1">
@@ -87373,7 +87628,7 @@
     </Groups>
     <Texts>
       <Input>It's Summer!</Input>
-      <Output>Jest lato!</Output>
+      <Output>Jest Lato!</Output>
     </Texts>
   </Element>
   <Element ID="5196" Key="UI_ITS_AUTUMN" Flag="1">
@@ -87389,7 +87644,7 @@
     </Groups>
     <Texts>
       <Input>It's Autumn!</Input>
-      <Output>Jest jesień!</Output>
+      <Output>Jest Jesień!</Output>
     </Texts>
   </Element>
   <Element ID="5197" Key="UI_ITS_WINTER" Flag="1">
@@ -87405,7 +87660,7 @@
     </Groups>
     <Texts>
       <Input>It's Winter!</Input>
-      <Output>Jest zima!</Output>
+      <Output>Jest Zima!</Output>
     </Texts>
   </Element>
   <Element ID="5198" Key="UI_SEASONAL_EFFECTS" Flag="1">
@@ -87505,7 +87760,12 @@
       <Output>Wrogowie są tak agresywni w ciągu dnia, jak w nocy</Output>
     </Texts>
   </Element>
-  <Element ID="5204" Key="UI_WINTER_EFFECT1" Flag="0">
+  <Element ID="5204" Key="UI_WINTER_EFFECT1" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:42:11</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WINTER</Group>
@@ -87513,10 +87773,15 @@
     </Groups>
     <Texts>
       <Input>Experience Points gain from events doubled for all characters</Input>
-      <Output>Zdobywanie punktów doświadczenia z wydarzeń podwojonych dla wszystkich postaci</Output>
+      <Output>Zdobywanie punktów doświadczenia z wydarzeń jest podwojonych dla wszystkich postaci</Output>
     </Texts>
   </Element>
-  <Element ID="5205" Key="UI_WINTER_EFFECT2" Flag="0">
+  <Element ID="5205" Key="UI_WINTER_EFFECT2" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:42:39</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WINTER</Group>
@@ -87527,7 +87792,12 @@
       <Output>Wrogowie są tak agresywni jak w nocy</Output>
     </Texts>
   </Element>
-  <Element ID="5206" Key="UI_WINTER_EFFECT3" Flag="0">
+  <Element ID="5206" Key="UI_WINTER_EFFECT3" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:43:04</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WINTER</Group>
@@ -87535,10 +87805,15 @@
     </Groups>
     <Texts>
       <Input>Monster nests spawn chance is higher</Input>
-      <Output>Szansa na pojawienie się gniazd Monster jest wyższa</Output>
+      <Output>Ryzyko pojawienie się gniazd potworów jest wyższe</Output>
     </Texts>
   </Element>
-  <Element ID="5207" Key="UI_WINTER_EFFECT4" Flag="0">
+  <Element ID="5207" Key="UI_WINTER_EFFECT4" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:43:47</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WINTER</Group>
@@ -87546,10 +87821,15 @@
     </Groups>
     <Texts>
       <Input>Camps and villages use 2 fuel per turn instead of 1</Input>
-      <Output>Obozy i wioski zużywają 2 paliwo na turę zamiast 1</Output>
+      <Output>Obozowiska i osady zużywają 2 jednostki opału na turę zamiast 1</Output>
     </Texts>
   </Element>
-  <Element ID="5208" Key="UI_WINTER_EFFECT5" Flag="0">
+  <Element ID="5208" Key="UI_WINTER_EFFECT5" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:44:24</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_WINTER</Group>
@@ -87557,7 +87837,7 @@
     </Groups>
     <Texts>
       <Input>Recovering Health, Sanity or Faith requires a fuelled camp or village</Input>
-      <Output>Odzyskiwanie Zdrowia, Poczytalności lub Wiary wymaga napędzanego obozu lub wioski</Output>
+      <Output>Odzyskiwanie Zdrowia, Poczytalności lub Wiary wymaga zaopatrzonego w opał obozowiska lub osady</Output>
     </Texts>
   </Element>
   <Element ID="5209" Key="UI_WINTER_EFFECT6" Flag="1">
@@ -87591,7 +87871,12 @@
       <Output>Cechy</Output>
     </Texts>
   </Element>
-  <Element ID="5211" Key="UI_COMPOSITE_INFO" Flag="0">
+  <Element ID="5211" Key="UI_COMPOSITE_INFO" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:45:48</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_COMPOSITE</Group>
@@ -87599,10 +87884,15 @@
     </Groups>
     <Texts>
       <Input>This resource is a composite and can be crafted on Cooking and Composites panel.</Input>
-      <Output>Ten zasób jest złożony i można go utworzyć na panelu Gotowanie i kompozyty.</Output>
+      <Output>Ten zasób jest komponentem i można go utworzyć w panelu gotowania i komponentów.</Output>
     </Texts>
   </Element>
-  <Element ID="5212" Key="UI_INVENTORY_SHIFT" Flag="0">
+  <Element ID="5212" Key="UI_INVENTORY_SHIFT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:45:56</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INVENTORY</Group>
@@ -87610,7 +87900,7 @@
     </Groups>
     <Texts>
       <Input>- transfer stack</Input>
-      <Output>- stos transferowy</Output>
+      <Output>- stos wymiany</Output>
     </Texts>
   </Element>
   <Element ID="5213" Key="UI_SEASONS" Flag="1">
@@ -87662,7 +87952,12 @@
       <Output>Wszystkie sezonowe efekty</Output>
     </Texts>
   </Element>
-  <Element ID="5216" Key="UI_PARTICIPATING_GROUPS" Flag="0">
+  <Element ID="5216" Key="UI_PARTICIPATING_GROUPS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:46:24</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PARTICIPATING</Group>
@@ -87670,10 +87965,15 @@
     </Groups>
     <Texts>
       <Input>Participating Group(s)</Input>
-      <Output>Grupy uczestniczące</Output>
+      <Output>Grupy Uczestniczące</Output>
     </Texts>
   </Element>
-  <Element ID="5217" Key="UI_TUTORIAL_EVENTS1" Flag="0">
+  <Element ID="5217" Key="UI_TUTORIAL_EVENTS1" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:21:54</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87681,10 +87981,15 @@
     </Groups>
     <Texts>
       <Input>You have encountered an event. Most events occur randomly at the end of turn or when moving around the map.</Input>
-      <Output>Spotkałeś się z wydarzeniem. Większość zdarzeń ma miejsce losowo na końcu tury lub podczas poruszania się po mapie.</Output>
+      <Output>Natknąłeś się na zdarzenie. Większość zdarzeń ma miejsce losowo na końcu tury lub podczas poruszania się po mapie.</Output>
     </Texts>
   </Element>
-  <Element ID="5218" Key="UI_TUTORIAL_EVENTS2" Flag="0">
+  <Element ID="5218" Key="UI_TUTORIAL_EVENTS2" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:26:11</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87692,10 +87997,15 @@
     </Groups>
     <Texts>
       <Input>If an event is triggered by a group located on land, {COLOR:yellow}other groups within 6 tiles range join as well (this depends on your difficulty setting).{END_COLOR}</Input>
-      <Output>Jeśli wydarzenie zostanie wywołane przez grupę znajdującą się na lądzie, {COLOR:yellow}dołączą także inne grupy w zasięgu 6 pól (zależy to od twojego poziomu trudności). {END_COLOR}</Output>
+      <Output>Jeśli wydarzenie zostanie wywołane przez grupę znajdującą się na lądzie, {COLOR:yellow}dołączyć mogą inne grupy w zasięgu kilku pól (w zależności od ustawień poziomu trudności). {END_COLOR}</Output>
     </Texts>
   </Element>
-  <Element ID="5219" Key="UI_TUTORIAL_EVENTS3" Flag="0">
+  <Element ID="5219" Key="UI_TUTORIAL_EVENTS3" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:27:02</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87703,10 +88013,15 @@
     </Groups>
     <Texts>
       <Input>Click on the View Group button to see exactly which groups take part in the event.</Input>
-      <Output>Kliknij przycisk Wyświetl grupę, aby zobaczyć, które grupy biorą udział w wydarzeniu.</Output>
+      <Output>Kliknij przycisk 'Wyświetl Grupy', aby zobaczyć, które grupy biorą udział w wydarzeniu.</Output>
     </Texts>
   </Element>
-  <Element ID="5220" Key="UI_TUTORIAL_EVENTS4" Flag="0">
+  <Element ID="5220" Key="UI_TUTORIAL_EVENTS4" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:27:23</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87714,10 +88029,15 @@
     </Groups>
     <Texts>
       <Input>Under each part of the story you will see one or more possible responses.</Input>
-      <Output>Pod każdą częścią opowieści zobaczysz jedną lub więcej możliwych odpowiedzi.</Output>
+      <Output>Pod każdą częścią historii zobaczysz jedną lub więcej możliwych odpowiedzi.</Output>
     </Texts>
   </Element>
-  <Element ID="5221" Key="UI_TUTORIAL_EVENTS5" Flag="0">
+  <Element ID="5221" Key="UI_TUTORIAL_EVENTS5" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:27:37</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87725,10 +88045,15 @@
     </Groups>
     <Texts>
       <Input>Some responses are only visible if your group meets a certain condition, i.e. contains a specific character type.</Input>
-      <Output>Niektóre odpowiedzi są widoczne tylko wtedy, gdy grupa spełnia określony warunek, tj. Zawiera określony typ znaku.</Output>
+      <Output>Niektóre odpowiedzi są widoczne tylko wtedy, gdy grupa spełnia określony warunek, tj. Zawiera określony typ postaci.</Output>
     </Texts>
   </Element>
-  <Element ID="5222" Key="UI_TUTORIAL_EVENTS6" Flag="0">
+  <Element ID="5222" Key="UI_TUTORIAL_EVENTS6" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:27:41</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87739,7 +88064,12 @@
       <Output>Jeśli widzisz którykolwiek z tych symboli:</Output>
     </Texts>
   </Element>
-  <Element ID="5223" Key="UI_TUTORIAL_EVENTS7" Flag="0">
+  <Element ID="5223" Key="UI_TUTORIAL_EVENTS7" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:27:51</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -87766,7 +88096,12 @@
       <Output>Pokaż Surowce!</Output>
     </Texts>
   </Element>
-  <Element ID="5225" Key="UI_MAP_OF_THEA" Flag="0">
+  <Element ID="5225" Key="UI_MAP_OF_THEA" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:40:21</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_MAP</Group>
@@ -87775,7 +88110,7 @@
     </Groups>
     <Texts>
       <Input>Map of Thea</Input>
-      <Output>Mapa Thea</Output>
+      <Output>Mapa</Output>
     </Texts>
   </Element>
   <Element ID="5226" Key="UI_WORLD" Flag="1">
@@ -87885,7 +88220,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Production Cost</Input>
-      <Output>Sortuj według kosztu produkcji</Output>
+      <Output>Sortuj wg Kosztu Produkcji</Output>
     </Texts>
   </Element>
   <Element ID="5233" Key="UI_LUCK_SORT" Flag="1">
@@ -87901,7 +88236,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Luck</Input>
-      <Output>Sortuj według Szczęścia</Output>
+      <Output>Sortuj wg Szczęścia</Output>
     </Texts>
   </Element>
   <Element ID="5234" Key="UI_DOMINATION_VICTORY" Flag="1">
@@ -87917,10 +88252,15 @@
     </Groups>
     <Texts>
       <Input>Domination Victory</Input>
-      <Output>Zwycięstwo Dominacji</Output>
+      <Output>Zwycięstwo</Output>
     </Texts>
   </Element>
-  <Element ID="5235" Key="UI_DOMINATION_VICTORY_DES" Flag="0">
+  <Element ID="5235" Key="UI_DOMINATION_VICTORY_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:29:51</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87928,10 +88268,15 @@
     </Groups>
     <Texts>
       <Input>To achieve Domination Victory, you must meet one requirement in each of these three categories:</Input>
-      <Output>Aby osiągnąć Zwycięstwo Dominacji, musisz spełnić jedno wymaganie w każdej z tych trzech kategorii:</Output>
+      <Output>Aby osiągnąć zwycięstwo, musisz spełnić jedno wymaganie w każdej z tych trzech kategorii:</Output>
     </Texts>
   </Element>
-  <Element ID="5236" Key="UI_DOMINATION_1A" Flag="0">
+  <Element ID="5236" Key="UI_DOMINATION_1A" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:36:25</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87939,10 +88284,15 @@
     </Groups>
     <Texts>
       <Input>Conquered at least half of the factions' settlements.</Input>
-      <Output>Podbił co najmniej połowę osiedli frakcji.</Output>
+      <Output>Podbić co najmniej połowę osiedli frakcji.</Output>
     </Texts>
   </Element>
-  <Element ID="5237" Key="UI_DOMINATION_1B" Flag="0">
+  <Element ID="5237" Key="UI_DOMINATION_1B" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:36:22</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87950,10 +88300,15 @@
     </Groups>
     <Texts>
       <Input>Friendly with at least 5 factions (Loyalty at 50 or higher).</Input>
-      <Output>Przyjazny z co najmniej 5 frakcjami (Lojalność na poziomie 50 lub wyższym).</Output>
+      <Output>Być w przyjaźni z co najmniej 5 frakcjami (lojalność na poziomie 50 lub wyższym).</Output>
     </Texts>
   </Element>
-  <Element ID="5238" Key="UI_DOMINATION_2A" Flag="0">
+  <Element ID="5238" Key="UI_DOMINATION_2A" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:35:05</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87961,10 +88316,15 @@
     </Groups>
     <Texts>
       <Input>Have at least 20 followers.</Input>
-      <Output>Masz co najmniej 20 obserwujących.</Output>
+      <Output>Mieć co najmniej 20 towarzyszy.</Output>
     </Texts>
   </Element>
-  <Element ID="5239" Key="UI_DOMINATION_2B" Flag="0">
+  <Element ID="5239" Key="UI_DOMINATION_2B" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:34:51</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87972,10 +88332,15 @@
     </Groups>
     <Texts>
       <Input>Have at least 7 different races among your followers.</Input>
-      <Output>Miej co najmniej 7 różnych ras wśród swoich zwolenników.</Output>
+      <Output>Mieć co najmniej 7 różnych ras wśród swoich towarzyszy.</Output>
     </Texts>
   </Element>
-  <Element ID="5240" Key="UI_DOMINATION_3A" Flag="0">
+  <Element ID="5240" Key="UI_DOMINATION_3A" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:37:01</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87983,10 +88348,15 @@
     </Groups>
     <Texts>
       <Input>Have at least 6 buildings with skill level 4.</Input>
-      <Output>Mieć co najmniej 6 budynków o poziomie umiejętności 4.</Output>
+      <Output>Mieć co najmniej 6 budynków na poziomie 4.</Output>
     </Texts>
   </Element>
-  <Element ID="5241" Key="UI_DOMINATION_3B" Flag="0">
+  <Element ID="5241" Key="UI_DOMINATION_3B" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:30:14</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_DOMINATION</Group>
@@ -87994,7 +88364,7 @@
     </Groups>
     <Texts>
       <Input>Have at least 6 characters on level 20.</Input>
-      <Output>Mieć co najmniej 6 znaków na poziomie 20.</Output>
+      <Output>Mieć co najmniej 6 postaci na poziomie 20.</Output>
     </Texts>
   </Element>
   <Element ID="5242" Key="UI_CURRENTLY_CONQUERED" Flag="1">
@@ -88010,7 +88380,7 @@
     </Groups>
     <Texts>
       <Input>Currently conquered:</Input>
-      <Output>Obecnie zdobyte:</Output>
+      <Output>Obecnie podbite:</Output>
     </Texts>
   </Element>
   <Element ID="5243" Key="UI_CURRENTLY_LOYAL" Flag="1">
@@ -88074,10 +88444,15 @@
     </Groups>
     <Texts>
       <Input>Owned level 4 buildings:</Input>
-      <Output>Posiadane budynki poziomu 4:</Output>
+      <Output>Budynki poziomu 4:</Output>
     </Texts>
   </Element>
-  <Element ID="5247" Key="UI_CHARACTERS_ON_LVL20" Flag="0">
+  <Element ID="5247" Key="UI_CHARACTERS_ON_LVL20" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:38:16</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CHARACTERS</Group>
@@ -88104,7 +88479,12 @@
       <Output>LUB</Output>
     </Texts>
   </Element>
-  <Element ID="5249" Key="UI_GROUP_POINTS" Flag="0">
+  <Element ID="5249" Key="UI_GROUP_POINTS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:38:53</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_GROUP</Group>
@@ -88112,7 +88492,7 @@
     </Groups>
     <Texts>
       <Input>Maximum Total Cost of Traits</Input>
-      <Output>Maksymalny całkowity koszt cech</Output>
+      <Output>Maksymalny Całkowity Koszt Cech</Output>
     </Texts>
   </Element>
   <Element ID="5250" Key="UI_STARTING_SEASON" Flag="1">
@@ -88189,7 +88569,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Rarity</Input>
-      <Output>Sortuj według Rzadkości</Output>
+      <Output>Sortuj wg Rzadkości</Output>
     </Texts>
   </Element>
   <Element ID="5255" Key="UI_UNLOCKED" Flag="1">
@@ -88266,7 +88646,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Domain</Input>
-      <Output>Sortuj według Domeny</Output>
+      <Output>Sortuj wg Domeny</Output>
     </Texts>
   </Element>
   <Element ID="5260" Key="UI_COST_SORT" Flag="1">
@@ -88282,7 +88662,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Cost</Input>
-      <Output>Sortuj według Kosztów</Output>
+      <Output>Sortuj wg Kosztów</Output>
     </Texts>
   </Element>
   <Element ID="5261" Key="UI_ACTIVE_QUESTS" Flag="1">
@@ -88301,7 +88681,12 @@
       <Output>Aktywne Zadania</Output>
     </Texts>
   </Element>
-  <Element ID="5262" Key="UI_PARENT_UNLOCK_REQUIRED" Flag="0">
+  <Element ID="5262" Key="UI_PARENT_UNLOCK_REQUIRED" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:53:55</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PARENT</Group>
@@ -88310,7 +88695,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:#C80000}You need to unlock the parent advancement first.</Input>
-      <Output>{COLOR:#C80000}Musisz najpierw odblokować awans rodzica.</Output>
+      <Output>{COLOR:#C80000}Musisz najpierw odblokować nadrzędne ulepszenie.</Output>
     </Texts>
   </Element>
   <Element ID="5263" Key="UI_CURRENT_TRADE_VALUE" Flag="1">
@@ -88397,7 +88782,12 @@
       <Output>Zapisz i Wyjdź</Output>
     </Texts>
   </Element>
-  <Element ID="5268" Key="UI_FINISHED_QUESTS" Flag="0">
+  <Element ID="5268" Key="UI_FINISHED_QUESTS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:25:38</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_FINISHED</Group>
@@ -88405,7 +88795,7 @@
     </Groups>
     <Texts>
       <Input>Finished Quests</Input>
-      <Output>Zakończone misje</Output>
+      <Output>Zakończone Zadania</Output>
     </Texts>
   </Element>
   <Element ID="5269" Key="UI_CHALLENGE_DIFFICULTY_INCREASE" Flag="0">
@@ -88433,7 +88823,7 @@
     </Groups>
     <Texts>
       <Input>Nyia Unlocked!</Input>
-      <Output>Nyja odblokowana!</Output>
+      <Output>Nyja Odblokowana!</Output>
     </Texts>
   </Element>
   <Element ID="5271" Key="UI_TRIGLAV_UNLOCKED" Flag="1">
@@ -88449,10 +88839,15 @@
     </Groups>
     <Texts>
       <Input>Triglav Unlocked!</Input>
-      <Output>Trzygłów odblokowany!</Output>
+      <Output>Trzygłów Odblokowany!</Output>
     </Texts>
   </Element>
-  <Element ID="5272" Key="UI_COAL_REMOVED_FROM_FIRST_ISLAND" Flag="0">
+  <Element ID="5272" Key="UI_COAL_REMOVED_FROM_FIRST_ISLAND" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:26:04</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_COAL</Group>
@@ -88483,7 +88878,12 @@
       <Output>Przejdź do Rozwiązania</Output>
     </Texts>
   </Element>
-  <Element ID="5274" Key="UI_ARE_YOU_SURE_SKIP_TO_RESOLUTION" Flag="0">
+  <Element ID="5274" Key="UI_ARE_YOU_SURE_SKIP_TO_RESOLUTION" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:26:24</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ARE</Group>
@@ -88495,7 +88895,7 @@
     </Groups>
     <Texts>
       <Input>Are you sure you want to finish casting your cards this round and skip to resolution? Your enemy will play their cards normally.</Input>
-      <Output>Czy na pewno chcesz zakończyć rzucanie kart w tej rundzie i przejść do rozdzielczości? Twój wróg normalnie zagra swoje karty.</Output>
+      <Output>Czy na pewno chcesz zakończyć rzucanie kart w tej rundzie i przejść do rozwiązania? Twój wróg normalnie zagra swoje karty.</Output>
     </Texts>
   </Element>
   <Element ID="5275" Key="UI_STRENGTH_CHARACTER_SORT" Flag="1">
@@ -88512,7 +88912,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Strength</Input>
-      <Output>Sortuj według Siły</Output>
+      <Output>Sortuj wg Siły</Output>
     </Texts>
   </Element>
   <Element ID="5276" Key="UI_PERCEPTION_CHARACTER_SORT" Flag="1">
@@ -88529,7 +88929,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Perception</Input>
-      <Output>Sortuj według Postrzegania</Output>
+      <Output>Sortuj wg Postrzegania</Output>
     </Texts>
   </Element>
   <Element ID="5277" Key="UI_INTELLIGENCE_CHARACTER_SORT" Flag="1">
@@ -88546,7 +88946,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Intelligence</Input>
-      <Output>Sortuj według Inteligencji</Output>
+      <Output>Sortuj wg Inteligencji</Output>
     </Texts>
   </Element>
   <Element ID="5278" Key="UI_WISDOM_CHARACTER_SORT" Flag="1">
@@ -88563,7 +88963,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Wisdom</Input>
-      <Output>Sortuj według Mądrości</Output>
+      <Output>Sortuj wg Mądrości</Output>
     </Texts>
   </Element>
   <Element ID="5279" Key="UI_MYSTICISM_CHARACTER_SORT" Flag="1">
@@ -88580,7 +88980,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Mysticism</Input>
-      <Output>Sortuj według Mistycyzmu</Output>
+      <Output>Sortuj wg Mistycyzmu</Output>
     </Texts>
   </Element>
   <Element ID="5280" Key="UI_DESTINY_CHARACTER_SORT" Flag="1">
@@ -88597,7 +88997,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Destiny</Input>
-      <Output>Sortuj według Przeznaczenia</Output>
+      <Output>Sortuj wg Przeznaczenia</Output>
     </Texts>
   </Element>
   <Element ID="5281" Key="UI_CRAFTING_CHARACTER_SORT" Flag="1">
@@ -88614,7 +89014,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Crafting</Input>
-      <Output>Sortuj według Rzemiosła</Output>
+      <Output>Sortuj wg Rzemiosła</Output>
     </Texts>
   </Element>
   <Element ID="5282" Key="UI_RESEARCH_CHARACTER_SORT" Flag="1">
@@ -88631,7 +89031,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Research</Input>
-      <Output>Sortuj według Badania</Output>
+      <Output>Sortuj wg Badania</Output>
     </Texts>
   </Element>
   <Element ID="5283" Key="UI_RITUALS_CHARACTER_SORT" Flag="1">
@@ -88648,7 +89048,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Rituals</Input>
-      <Output>Sortuj według Rutuałów</Output>
+      <Output>Sortuj wg Rutuałów</Output>
     </Texts>
   </Element>
   <Element ID="5284" Key="UI_CLASS_CHARACTER_SORT" Flag="1">
@@ -88665,7 +89065,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Class</Input>
-      <Output>Sortuj według Klasy</Output>
+      <Output>Sortuj wg Klasy</Output>
     </Texts>
   </Element>
   <Element ID="5285" Key="UI_CARRY_LIMIT_CHARACTER_SORT" Flag="1">
@@ -88683,10 +89083,15 @@
     </Groups>
     <Texts>
       <Input>Sort by Carry Limit</Input>
-      <Output>Sortuj według Limitu Udźwigu</Output>
+      <Output>Sortuj wg Udźwigu</Output>
     </Texts>
   </Element>
-  <Element ID="5286" Key="UI_AUTOSELECT" Flag="0">
+  <Element ID="5286" Key="UI_AUTOSELECT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:25:17</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_AUTOSELECT</Group>
@@ -88696,7 +89101,12 @@
       <Output>Automatyczny wybór</Output>
     </Texts>
   </Element>
-  <Element ID="5287" Key="UI_INFORMATION" Flag="0">
+  <Element ID="5287" Key="UI_INFORMATION" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:25:11</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INFORMATION</Group>
@@ -88706,7 +89116,12 @@
       <Output>Informacje</Output>
     </Texts>
   </Element>
-  <Element ID="5288" Key="UI_TUTORIALS_RESET" Flag="0">
+  <Element ID="5288" Key="UI_TUTORIALS_RESET" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:25:08</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIALS</Group>
@@ -88731,7 +89146,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Level</Input>
-      <Output>Sortuj według Poziomu</Output>
+      <Output>Sortuj wg Poziomu</Output>
     </Texts>
   </Element>
   <Element ID="5290" Key="UI_VILLAGERS" Flag="1">
@@ -88764,7 +89179,12 @@
       <Output>Opał</Output>
     </Texts>
   </Element>
-  <Element ID="5292" Key="UI_BUILDINGS_SHIPS" Flag="0">
+  <Element ID="5292" Key="UI_BUILDINGS_SHIPS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:25:02</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BUILDINGS</Group>
@@ -88772,7 +89192,7 @@
     </Groups>
     <Texts>
       <Input>Buildings &amp; Ships</Input>
-      <Output>Budynki i statki</Output>
+      <Output>Budynki i Statki</Output>
     </Texts>
   </Element>
   <Element ID="5293" Key="UI_LUCK_CHARACTER_SORT" Flag="1">
@@ -88789,7 +89209,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Luck</Input>
-      <Output>Sortuj według Szczęścia</Output>
+      <Output>Sortuj wg Szczęścia</Output>
     </Texts>
   </Element>
   <Element ID="5294" Key="UI_ESSENCE_AMOUNT_SORT" Flag="1">
@@ -88806,7 +89226,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Essence Amount</Input>
-      <Output>Sortuj według Wielkości Esencji</Output>
+      <Output>Sortuj wg Wielkości Esencji</Output>
     </Texts>
   </Element>
   <Element ID="5295" Key="UI_ESSENCE_TYPE_SORT" Flag="1">
@@ -88823,7 +89243,7 @@
     </Groups>
     <Texts>
       <Input>Sort by Essence Type</Input>
-      <Output>Sortuj według Typu Esencji</Output>
+      <Output>Sortuj wg Typu Esencji</Output>
     </Texts>
   </Element>
   <Element ID="5296" Key="UI_AUTORESOLVE_PROFICIENCY" Flag="1">
@@ -88872,7 +89292,12 @@
       <Output>Słabo</Output>
     </Texts>
   </Element>
-  <Element ID="5299" Key="UI_SWITCHING_DATABASE" Flag="0">
+  <Element ID="5299" Key="UI_SWITCHING_DATABASE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:22:57</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SWITCHING</Group>
@@ -88883,7 +89308,12 @@
       <Output>Zalecamy korzystanie z najnowszej wersji plików bazy danych i powrót do innej wersji, jeśli wiesz, co robisz. Upewnij się, że wersje gier są zgodne, użycie niewłaściwej bazy danych może spowodować awarie! Jeśli chcesz kontynuować grę zapisaną w poprzedniej wersji gry, przełącz się na poprzednią wersję, używając gałęzi beta.</Output>
     </Texts>
   </Element>
-  <Element ID="5300" Key="UI_PATCH_NOTES" Flag="0">
+  <Element ID="5300" Key="UI_PATCH_NOTES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:38:47</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PATCH</Group>
@@ -88891,7 +89321,7 @@
     </Groups>
     <Texts>
       <Input>Patch Notes</Input>
-      <Output>Uwagi do poprawki</Output>
+      <Output>Uwagi o Łatkach</Output>
     </Texts>
   </Element>
   <Element ID="5301" Key="UI_TAB_TO_SWITCH" Flag="1">
@@ -88982,7 +89412,12 @@
       <Output>Aby założyć obóz:</Output>
     </Texts>
   </Element>
-  <Element ID="5306" Key="UI_TUTORIAL_CAMP5B" Flag="0">
+  <Element ID="5306" Key="UI_TUTORIAL_CAMP5B" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:19:56</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -88990,10 +89425,15 @@
     </Groups>
     <Texts>
       <Input>1. Left click on the group. A radial menu will appear.</Input>
-      <Output>1. Kliknij lewym przyciskiem myszy na grupę. Pojawi się menu radialne.</Output>
+      <Output>1. Kliknij lewym przyciskiem myszy na grupę. Pojawi się okrągłe menu.</Output>
     </Texts>
   </Element>
-  <Element ID="5307" Key="UI_TUTORIAL_CAMP5C" Flag="0">
+  <Element ID="5307" Key="UI_TUTORIAL_CAMP5C" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:20:01</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -89004,7 +89444,12 @@
       <Output>2. Kliknij przycisk Obóz.</Output>
     </Texts>
   </Element>
-  <Element ID="5308" Key="UI_TUTORIAL_CAMP5D" Flag="0">
+  <Element ID="5308" Key="UI_TUTORIAL_CAMP5D" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:20:15</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_TUTORIAL</Group>
@@ -89012,7 +89457,7 @@
     </Groups>
     <Texts>
       <Input>The Gathering screen will open automatically.</Input>
-      <Output>Ekran Gathering otworzy się automatycznie.</Output>
+      <Output>Ekran zbieractwa otworzy się automatycznie.</Output>
     </Texts>
   </Element>
   <Element ID="5309" Key="UI_SEE_RESULTS" Flag="1">
@@ -89031,7 +89476,12 @@
       <Output>Zobacz Wyniki</Output>
     </Texts>
   </Element>
-  <Element ID="5310" Key="UI_LESS" Flag="0">
+  <Element ID="5310" Key="UI_LESS" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:23:07</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LESS</Group>
@@ -89041,7 +89491,12 @@
       <Output>Mniej</Output>
     </Texts>
   </Element>
-  <Element ID="5311" Key="UI_ADDED_TO_PROFILE" Flag="0">
+  <Element ID="5311" Key="UI_ADDED_TO_PROFILE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:21:34</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_ADDED</Group>
@@ -89050,17 +89505,22 @@
     </Groups>
     <Texts>
       <Input>Added To Profile:</Input>
-      <Output>Dodano do profilu:</Output>
+      <Output>Dodane do Profilu:</Output>
     </Texts>
   </Element>
-  <Element ID="5312" Key="UI_CLAIM" Flag="0">
+  <Element ID="5312" Key="UI_CLAIM" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:22:10</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CLAIM</Group>
     </Groups>
     <Texts>
       <Input>Claim Points</Input>
-      <Output>Punkty roszczenia</Output>
+      <Output>Zdobyte Punkty</Output>
     </Texts>
   </Element>
   <Element ID="5313" Key="UI_TOTAL_VALUE" Flag="1">
@@ -89076,7 +89536,7 @@
     </Groups>
     <Texts>
       <Input>Total Value:</Input>
-      <Output>Łączna wartość:</Output>
+      <Output>Łączny Wynik:</Output>
     </Texts>
   </Element>
   <Element ID="5314" Key="DES_TOOLTIP_REPLAY_VO" Flag="1">
@@ -89145,7 +89605,12 @@
       <Output>Ilość morale uzyskanego z jedzenia w każdej turze. Każda postać otrzymuje +1 morale na turę za każdy rodzaj żywności obecny w ekwipunku grupy.</Output>
     </Texts>
   </Element>
-  <Element ID="5318" Key="UI_SELECT_LANGUAGE" Flag="0">
+  <Element ID="5318" Key="UI_SELECT_LANGUAGE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:22:26</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SELECT</Group>
@@ -89153,10 +89618,15 @@
     </Groups>
     <Texts>
       <Input>Select Language</Input>
-      <Output>Wybierz język</Output>
+      <Output>Wybierz Język</Output>
     </Texts>
   </Element>
-  <Element ID="5319" Key="UI_LOADING_FILES_FROM_CLOUD_FAILED" Flag="0">
+  <Element ID="5319" Key="UI_LOADING_FILES_FROM_CLOUD_FAILED" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:23:46</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOADING</Group>
@@ -89167,10 +89637,15 @@
     </Groups>
     <Texts>
       <Input>Loading files from could has failed, possibly something is blocking drive access.\n\nWarning - data loss may occur! Please contact us on bugs@muhagames.com and we will try to help you resolve your issue.</Input>
-      <Output>Ładowanie plików z może nie powiodło się, prawdopodobnie coś blokuje dostęp do dysku. \n\nOstrzeżenie - może wystąpić utrata danych! Skontaktuj się z nami na bugs@muhagames.com, a my postaramy się pomóc Ci rozwiązać Twój problem.</Output>
+      <Output>Ładowanie plików z chmury nie powiodło się, prawdopodobnie coś blokuje dostęp do dysku. \n\nOstrzeżenie - może wystąpić utrata danych! Skontaktuj się z nami na bugs@muhagames.com, a my postaramy się pomóc Ci rozwiązać Twój problem.</Output>
     </Texts>
   </Element>
-  <Element ID="5320" Key="UI_LOCAL_AND_CLOUD_IS_DIFFERENT" Flag="0">
+  <Element ID="5320" Key="UI_LOCAL_AND_CLOUD_IS_DIFFERENT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 15:24:48</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_LOCAL</Group>
@@ -89181,7 +89656,7 @@
     </Groups>
     <Texts>
       <Input>Files on your local drive and in the cloud share the same name but are out of sync, which version would you like to keep?\n\n(Note: saves/profiles removed or lost on one computer will not be removed from the other. To prevent data loss, you will have to remove them again on the other computer if you wish.)</Input>
-      <Output>Pliki na dysku lokalnym iw chmurze mają tę samą nazwę, ale są niezsynchronizowane, którą wersję chcesz zachować? \n\n(Uwaga: zapisy / profile usunięte lub utracone na jednym komputerze nie zostaną usunięte z drugiego. Aby zapobiec utracie danych, musisz je ponownie usunąć na innym komputerze, jeśli chcesz.)</Output>
+      <Output>Pliki na dysku lokalnym i w chmurze mają tę samą nazwę, ale są niezsynchronizowane, którą wersję chcesz zachować? \n\n(Uwaga: zapisy/profile usunięte lub utracone na jednym komputerze nie zostaną usunięte z drugiego. Aby zapobiec utracie danych, musisz je ponownie usunąć na innym komputerze).</Output>
     </Texts>
   </Element>
   <Element ID="5321" Key="UI_USE_CLOUD" Flag="1">
@@ -89309,7 +89784,12 @@
       <Output>Opis</Output>
     </Texts>
   </Element>
-  <Element ID="5329" Key="UI_AUTHOR" Flag="0">
+  <Element ID="5329" Key="UI_AUTHOR" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:15:58</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_AUTHOR</Group>
@@ -89319,7 +89799,12 @@
       <Output>Autor:</Output>
     </Texts>
   </Element>
-  <Element ID="5330" Key="UI_VISIBILITY" Flag="0">
+  <Element ID="5330" Key="UI_VISIBILITY" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:16:00</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_VISIBILITY</Group>
@@ -89329,7 +89814,12 @@
       <Output>Widoczność:</Output>
     </Texts>
   </Element>
-  <Element ID="5331" Key="UI_CHANGES_TO_HAVE_EFFECT" Flag="0">
+  <Element ID="5331" Key="UI_CHANGES_TO_HAVE_EFFECT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:16:04</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_CHANGES</Group>
@@ -89388,7 +89878,12 @@
       <Output>Tylko Znajomi</Output>
     </Texts>
   </Element>
-  <Element ID="5335" Key="UI_PRIVATE" Flag="0">
+  <Element ID="5335" Key="UI_PRIVATE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:16:17</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_PRIVATE</Group>
@@ -89398,7 +89893,12 @@
       <Output>Prywatny</Output>
     </Texts>
   </Element>
-  <Element ID="5336" Key="UI_INCORRECT_VALUE" Flag="0">
+  <Element ID="5336" Key="UI_INCORRECT_VALUE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:16:28</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_INCORRECT</Group>
@@ -89406,7 +89906,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:yellow}Incorrect Value{END_COLOR}</Input>
-      <Output>{COLOR:yellow}Niepoprawna wartość {END_COLOR}</Output>
+      <Output>{COLOR:yellow}Niepoprawna Wartość{END_COLOR}</Output>
     </Texts>
   </Element>
   <Element ID="5337" Key="DES_TAG_HALF_RACE" Flag="0">
@@ -89661,7 +90161,7 @@
     </Groups>
     <Texts>
       <Input>Dark Totem</Input>
-      <Output>Mroczny Totem</Output>
+      <Output>Mroczny Bożek</Output>
     </Texts>
   </Element>
   <Element ID="5352" Key="DES_SUBRACE_DARK_TOTEM_DES" Flag="1">
@@ -89880,10 +90380,15 @@
     </Groups>
     <Texts>
       <Input>Dark Totem</Input>
-      <Output>Mroczny Totem</Output>
+      <Output>Mroczny Bożek</Output>
     </Texts>
   </Element>
-  <Element ID="5368" Key="DES_SKILL_DARK_TOTEM_DES" Flag="0">
+  <Element ID="5368" Key="DES_SKILL_DARK_TOTEM_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:15:07</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -89892,7 +90397,7 @@
     </Groups>
     <Texts>
       <Input>Summon Dark Totem to your aid. Its dark magic will soak up wounds dealt to any ally as long as it is alive.</Input>
-      <Output>Przywołaj Mrocznego Totemu do pomocy. Jego mroczna magia wchłonie rany zadane każdemu sojusznikowi, o ile żyje.</Output>
+      <Output>Przywołuje do pomocy mrocznego bożka. Póki żyje jego mroczna magia przejmie na siebie wszystkie obrażenia zadane sojusznikom.</Output>
     </Texts>
   </Element>
   <Element ID="5369" Key="DES_SKILL_PAIN_COMMISSION" Flag="1">
@@ -89912,7 +90417,12 @@
       <Output>Bolesna Służba</Output>
     </Texts>
   </Element>
-  <Element ID="5370" Key="DES_SKILL_PAIN_COMMISSION_DES" Flag="0">
+  <Element ID="5370" Key="DES_SKILL_PAIN_COMMISSION_DES" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:10:10</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SKILL</Group>
@@ -89921,7 +90431,7 @@
     </Groups>
     <Texts>
       <Input>This Totem's only purpose is to feel pain.</Input>
-      <Output>Jedynym celem tego totemu jest odczuwanie bólu.</Output>
+      <Output>Jedynym celem tego bożka jest odczuwanie bólu.</Output>
     </Texts>
   </Element>
   <Element ID="5371" Key="DES_SKILL_DARK_SHIFT" Flag="1">
@@ -90121,7 +90631,12 @@
       <Output>Pojedynczy celny atak trucizny z rzędu dystansowego.</Output>
     </Texts>
   </Element>
-  <Element ID="5387" Key="DES_SUBSKILL_DARK_CLAW_HIT" Flag="0">
+  <Element ID="5387" Key="DES_SUBSKILL_DARK_CLAW_HIT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 16:00:35</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>DES</Group>
       <Group>DES_SUBSKILL</Group>
@@ -90131,7 +90646,7 @@
     </Groups>
     <Texts>
       <Input>Dark Claw Hit</Input>
-      <Output>Uderzenie Mrocznego Pazura</Output>
+      <Output>Mroczne Uderzenie Pazurem</Output>
     </Texts>
   </Element>
   <Element ID="5388" Key="DES_SUBSKILL_BLOOD_PROTECTION_S_ALL" Flag="0">
@@ -90177,7 +90692,7 @@
     </Groups>
     <Texts>
       <Input>Dark Totem</Input>
-      <Output>Mroczny Totem</Output>
+      <Output>Mroczny Bożek</Output>
     </Texts>
   </Element>
   <Element ID="5391" Key="DES_SUBSKILL_SUMMON_DARK_TOTEM_DES" Flag="1">
@@ -90195,7 +90710,7 @@
     </Groups>
     <Texts>
       <Input>{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Dark Totem to a random spot on your side of the battlefield.</Input>
-      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołuje mroczny totem na losowe miejsce po twojej stronie pola bitwy.</Output>
+      <Output>{COLOR:red}Tylko jedna kopia tej postaci jest dozwolona na polu bitwy w dowolnym momencie. {END_COLOR}\nPrzywołuje mroczny bożka na losowe miejsce po twojej stronie pola bitwy.</Output>
     </Texts>
   </Element>
   <Element ID="5392" Key="DES_SUBSKILL_RETALIATION_DMG_MIST" Flag="1">
@@ -91895,7 +92410,12 @@
       <Output>Zapłaciłeś cenę we krwi i odeszli. Na razie... Może powinieneś spróbować go znaleźć, zanim wróci.</Output>
     </Texts>
   </Element>
-  <Element ID="5493" Key="UI_BUG_REPORTING_FEATURE_NOT_AVALIABLE" Flag="0">
+  <Element ID="5493" Key="UI_BUG_REPORTING_FEATURE_NOT_AVALIABLE" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:16:32</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_BUG</Group>
@@ -91937,7 +92457,7 @@
     </Groups>
     <Texts>
       <Input>6 Hexes</Input>
-      <Output>6 Heksów</Output>
+      <Output>6 Pól</Output>
     </Texts>
   </Element>
   <Element ID="5496" Key="UI_3_HEX" Flag="1">
@@ -91953,10 +92473,15 @@
     </Groups>
     <Texts>
       <Input>3 Hexes</Input>
-      <Output>3 Heksy</Output>
+      <Output>3 Pola</Output>
     </Texts>
   </Element>
-  <Element ID="5497" Key="UI_SAME_SPOT" Flag="0">
+  <Element ID="5497" Key="UI_SAME_SPOT" Flag="1">
+    <Confirmation>
+      <Time>2019-12-10 14:12:49</Time>
+      <GUID>433CB7E5-96F4-40DE-BA07-EB3D554D8079</GUID>
+      <User>RPA</User>
+    </Confirmation>
     <Groups>
       <Group>UI</Group>
       <Group>UI_SAME</Group>
@@ -91964,7 +92489,7 @@
     </Groups>
     <Texts>
       <Input>Same Hex Only</Input>
-      <Output>Tylko ten sam szesnastkowy</Output>
+      <Output>To Samo Pole</Output>
     </Texts>
   </Element>
   <Element ID="5498" Key="UI_FORFEIT" Flag="1">
@@ -92369,7 +92894,7 @@
     </Groups>
     <Texts>
       <Input>This character receives a bonus to Healing attribute from a nearby building.</Input>
-      <Output>Ta postać otrzymuje z pobliskiego budynku bonus do leczenia.</Output>
+      <Output>Ta postać otrzymuje z pobliskiego budynku premię do leczenia.</Output>
     </Texts>
   </Element>
   <Element ID="5524" Key="DES_TOOLTIP_ISLANDS" Flag="1">
