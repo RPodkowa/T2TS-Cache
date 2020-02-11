@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Earthbound" lastEventIndex="85" allowToUse="true" uniqueModuleID="-144450658">
+<?xml version="1.0" encoding="windows-1250"?>
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Earthbound" lastEventIndex="87" allowToUse="true" uniqueModuleID="-144450658">
   <Adventure name="EarthboundTradesmall" uniqueID="29" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="13" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="579" image="Event216">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-531" />
@@ -1098,8 +1098,8 @@ No guarantees, but we ain't chargin' for it either.'</nodes>
       <outputs ownerID="105" targetID="6" fromX="1311" fromY="1037" />
     </nodes>
   </Adventure>
-  <Adventure name="EarthboundVillageMed" uniqueID="35" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="119" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="382" width="347" height="902" image="Event181">
+  <Adventure name="EarthboundVillageMed" uniqueID="35" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="120" eventTag="TAG-LOG24" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="382" width="347" height="982" image="Event181">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -1109,8 +1109,9 @@ No guarantees, but we ain't chargin' for it either.'</nodes>
       </logic>
       <outputs ownerID="1" targetID="112" group="G1" fromX="334" fromY="-221" />
       <outputs ownerID="1" targetID="113" group="G1" fromX="334" fromY="-301" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-381" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-462" />
+      <outputs ownerID="1" targetID="120" group="G1" fromX="334" fromY="-381" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-462" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-542" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="475" positionY="-67" width="350" height="1447">
       <logic>
@@ -1122,6 +1123,11 @@ No guarantees, but we ain't chargin' for it either.'</nodes>
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-DWARF" />
           </LogicFilter>
         </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC35" />
+          </LogicModifiers>
+        </ModifierBlock>
       </logic>
       <outputs name="Ask if there is anything you can help with." ownerID="2" targetID="21" fromX="800" fromY="-558" />
       <outputs name="Say you just came to rest and visit, perhaps heal your wounds." ownerID="2" targetID="11" fromX="800" fromY="-638" />
@@ -1137,7 +1143,7 @@ No guarantees, but we ain't chargin' for it either.'</nodes>
 Some village activities will only be available when you are friends with its people and some are restricted to chance, so coming back from time to time may be worth it.
 
 Once you become friends, you will get the chance to recruit.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1506" positionY="-865" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1537" positionY="-887" width="350" height="530" logBookName="QUEST_EARTHBOUND" logBookDescription="QUEST_EARTHBOUND_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="3077" positionY="-2046" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="5" positionX="473" positionY="947" width="350" height="885">
       <logic>
@@ -1179,13 +1185,21 @@ You see armed dwarves gathering.</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Leave." ownerID="6" targetID="15" fromX="1801" fromY="947" />The village lies destroyed, and the spoils are yours.</nodes>
-    <nodes xsi:type="NodeChallenge" ID="7" positionX="867" positionY="950" width="500" height="807" challengeType="TypePhysical" versusGroup="GROUP-HORDE_DWARVES_9P_8M_6S" challengeScale="101" challengedList="ppl">
-      <outputs name="Win" ownerID="7" targetID="119" group="G1" fromX="1308" fromY="454" />
-      <outputs name="Lose" ownerID="7" targetID="58" fromX="1308" fromY="374" />
-      <outputs name="Surrender" ownerID="7" targetID="101" fromX="1308" fromY="294" />
-      <outputs name="Win" ownerID="7" targetID="6" group="G1" fromX="1308" fromY="214" />
+    <nodes xsi:type="NodeChallenge" ID="7" positionX="907" positionY="968" width="500" height="807" challengeType="TypePhysical" versusGroup="GROUP-HORDE_DWARVES_9P_8M_6S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="7" targetID="119" group="G1" fromX="1348" fromY="472" />
+      <outputs name="Lose" ownerID="7" targetID="58" fromX="1348" fromY="392" />
+      <outputs name="Surrender" ownerID="7" targetID="101" fromX="1348" fromY="312" />
+      <outputs name="Win" ownerID="7" targetID="6" group="G1" fromX="1348" fromY="231" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2526" positionY="1214" width="350" height="530" allPlayersXP="6" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2526" positionY="1214" width="350" height="530" allPlayersXP="8" allPlayersRP="5" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-WATERDLC35" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
     <nodes xsi:type="NodeAdventure" allowOnce="true" ID="10" positionX="1510" positionY="55" width="350" height="805">
       <outputs name="Agree." ownerID="10" targetID="17" fromX="1835" fromY="-436" />
       <outputs name="Decline and leave." ownerID="10" targetID="3" fromX="1835" fromY="-516" />'Aye, we do have a wee problem. Some armoured bears escaped our handlers. Nasty beasties, they are. We ain't thinking to have them back, at least not easily, but see if ya can do anythin' about them, eh?'</nodes>
@@ -1911,7 +1925,7 @@ The dwarves take your goods and watch you run.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="112" positionX="-638" positionY="-502" width="350" height="530" linkedEventUniqueID="79">
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="112" positionX="-1122" positionY="-736" width="350" height="530" linkedEventUniqueID="79">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -1926,7 +1940,7 @@ The dwarves take your goods and watch you run.</nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="113" positionX="-307" positionY="-576" width="350" height="530" linkedEventUniqueID="80">
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="113" positionX="-747" positionY="-885" width="350" height="530" linkedEventUniqueID="80">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2082,6 +2096,18 @@ The dwarves take your goods and watch you run.</nodes>
         </FilterBlock>
       </logic>
       <outputs ownerID="119" targetID="6" fromX="1246" fromY="1098" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="120" positionX="-367" positionY="-596" width="350" height="530" linkedEventUniqueID="87">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC37" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-OCCUPENDDWARF1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
     </nodes>
   </Adventure>
   <Adventure name="DwarfKillsmallSyrin" uniqueID="48" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="66" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
@@ -4273,7 +4299,7 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
       <outputs ownerID="68" targetID="67" fromX="2459" fromY="-3138" />
     </nodes>
   </Adventure>
-  <Adventure name="Army" uniqueID="65" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="34" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+  <Adventure name="Army" uniqueID="65" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="34" eventTag="TAG-LOG24" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event149">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
@@ -4304,8 +4330,8 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
       </logic>
       <outputs name="Ask if they want to trade." ownerID="3" targetID="27" fromX="1115" fromY="107" />
       <outputs name="Have a drink together." ownerID="3" targetID="24" fromX="1115" fromY="26" />'Ah, good day to you, friends, well met.'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1901" positionY="848" width="350" height="455" linkedEventUniqueID="29" />
-    <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="-467" positionY="-518" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1901" positionY="848" width="350" height="530" linkedEventUniqueID="29" />
+    <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="-487" positionY="-316" width="350" height="530" logBookName="QUEST_EARTHBOUNDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <FilterBlock>
           <LogicResultAction resultGroup="G1">
@@ -4337,7 +4363,7 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
       <outputs name="Lose" ownerID="12" targetID="34" fromX="2069" fromY="-1054" />
       <outputs name="Surrender" ownerID="12" targetID="34" fromX="2069" fromY="-1134" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="2902.06519" positionY="-383.361359" width="350" height="530" allPlayersXP="-1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="2976" positionY="-246" width="350" height="530" allPlayersXP="-1" logBookName="QUEST_EARTHBOUNDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -4346,7 +4372,7 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="4294" positionY="-759" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="4294" positionY="-759" width="350" height="530" logBookName="QUEST_EARTHBOUNDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -4364,15 +4390,15 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
         </FilterBlock>
       </logic>
       <outputs name="Win" ownerID="15" targetID="16" fromX="1355" fromY="-1705" />
-      <outputs name="Lose" ownerID="15" targetID="20" fromX="930" fromY="-1785" />
-      <outputs name="Surrender" ownerID="15" targetID="20" fromX="930" fromY="-1785" />
+      <outputs name="Lose" ownerID="15" targetID="20" fromX="1355" fromY="-1785" />
+      <outputs name="Surrender" ownerID="15" targetID="20" fromX="1355" fromY="-1865" />
     </nodes>
     <nodes xsi:type="NodeProduceDrop" ID="16" positionX="1615.33264" positionY="-1380.193" width="460" height="429" fromEventOwner="true">
       <outputs ownerID="16" targetID="17" fromX="2045" fromY="-1738" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="17" positionX="2283.5918" positionY="-1471.655" width="350" height="725">
       <outputs name="Take their stuff and leave." ownerID="17" targetID="22" fromX="2609" fromY="-1962" />'Fine, fine, here, you take your bounty, we back away. No need for fightin' and no hard feelings either, eh?'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="18" positionX="3321.27271" positionY="-1357.81689" width="350" height="530" allPlayersXP="-1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="18" positionX="3321.27271" positionY="-1357.81689" width="350" height="530" allPlayersXP="-1" logBookName="QUEST_EARTHBOUNDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -4415,7 +4441,7 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="25" positionX="-952" positionY="-1128" width="500" height="726" challengeType="TypeMental" versusEventOwner="true" challengeScale="0" challengedList="ppl">
+    <nodes xsi:type="NodeChallenge" ID="25" positionX="-1034" positionY="-783" width="500" height="726" challengeType="TypeMental" versusEventOwner="true" challengeScale="0" challengedList="ppl">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -4423,21 +4449,21 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="25" targetID="26" fromX="-510" fromY="-1623" />
-      <outputs name="Lose" ownerID="25" targetID="20" fromX="-510" fromY="-1703" />
-      <outputs name="Surrender" ownerID="25" targetID="20" fromX="-510" fromY="-1783" />
+      <outputs name="Win" ownerID="25" targetID="26" fromX="-592" fromY="-1278" />
+      <outputs name="Lose" ownerID="25" targetID="20" fromX="-592" fromY="-1358" />
+      <outputs name="Surrender" ownerID="25" targetID="20" fromX="-592" fromY="-1438" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="26" positionX="-399" positionY="-1129" width="350" height="805">
-      <outputs name="Agree to pay." ownerID="26" targetID="28" fromX="-73" fromY="-1620" />
-      <outputs name="Say you do not need their good word, bid them farewell." ownerID="26" targetID="31" fromX="-73" fromY="-1700" />'Perhaps ya ain't the enemy. Ya pay us, we put in a good word with our kin.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="-375" positionY="-1402" width="350" height="805">
+      <outputs name="Agree to pay." ownerID="26" targetID="28" fromX="-49" fromY="-1893" />
+      <outputs name="Say you do not need their good word, bid them farewell." ownerID="26" targetID="31" fromX="-49" fromY="-1973" />'Perhaps ya ain't the enemy. Ya pay us, we put in a good word with our kin.'</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="27" positionX="1330" positionY="823" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="27" targetID="4" fromX="1778" fromY="390" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="28" positionX="1" positionY="-1244" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-20">
-      <outputs name="Confirm" ownerID="28" targetID="30" fromX="431" fromY="-1572" />
-      <outputs name="Cancel" ownerID="28" targetID="26" fromX="431" fromY="-1652" />
+    <nodes xsi:type="NodeTrade" ID="28" positionX="118" positionY="-1403" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-20">
+      <outputs name="Confirm" ownerID="28" targetID="30" fromX="548" fromY="-1731" />
+      <outputs name="Cancel" ownerID="28" targetID="26" fromX="548" fromY="-1811" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="222" positionY="-2051" width="350" height="530" allPlayersXP="-1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="222" positionY="-2051" width="350" height="530" allPlayersXP="-1" logBookName="QUEST_EARTHBOUNDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -4446,21 +4472,21 @@ The earthbound dwarves are not impressed with your efforts, saying that you shou
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeSpawnOnMap" ID="30" positionX="-316" positionY="-2007" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
-      <outputs ownerID="30" targetID="29" fromX="132" fromY="-2439" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="30" positionX="-369" positionY="-2145" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="30" targetID="29" fromX="79" fromY="-2577" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="31" positionX="-1115" positionY="-1937" width="350" height="725">
-      <outputs name="Leave." ownerID="31" targetID="32" fromX="-789" fromY="-2429" />'Ya spoke well, so begone.'</nodes>
+      <outputs name="Leave." ownerID="31" targetID="32" fromX="-789" fromY="-2428" />'Ya spoke well, so begone.'</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="32" positionX="-745" positionY="-2672" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="32" targetID="33" fromX="-296" fromY="-3104" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="33" positionX="-197" positionY="-2858" width="350" height="530" allPlayersXP="-1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="33" positionX="-197" positionY="-2858" width="350" height="530" allPlayersXP="-1" logBookName="QUEST_EARTHBOUNDARM" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventure" ID="34" positionX="3609" positionY="-575" width="350" height="725">
       <outputs name="Run." ownerID="34" targetID="14" fromX="3934" fromY="-1066" />You are badly beaten and forced to flee, which loses you some respect from your enemy.</nodes>
   </Adventure>
   <Adventure name="DwarfsmallTunnel" uniqueID="66" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="35" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="704" image="Event027">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-656" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event027">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="413" positionY="-192" width="350" height="885">
       <logic>
@@ -4845,7 +4871,7 @@ The dwarves are happy with your results and reward you well.</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Leave." ownerID="34" targetID="16" fromX="2037" fromY="-2387" />You leave the tunnels and report back. The dwarves are not impressed with your incompetence.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="35" positionX="-17" positionY="-619" width="350" height="455" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="35" positionX="-17" positionY="-619" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -6188,7 +6214,7 @@ The dwarves thank you for getting rid of the nuisance and they leave a reward.</
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="25" positionX="-2754" positionY="-360" width="350" height="761">
+    <nodes xsi:type="NodeAdventure" ID="25" positionX="-2754" positionY="-360" width="350" height="805">
       <outputs name="Take the wraith." ownerID="25" targetID="60" fromX="-2428" fromY="-851" />
       <outputs name="Kill the wraith, as it's clearly an instrument of this evil!" ownerID="25" targetID="34" fromX="-2428" fromY="-931" />The skeletons and their dark master lie dead, but his body dissolves into thick smoke before you can inspect it further.
 
@@ -6287,7 +6313,7 @@ They move away, but the dwarves are angry that you did not kill the scourge.</no
       <outputs name="Leave." ownerID="50" targetID="77" group="G1" fromX="2845" fromY="-1999" />These unliving bones must have been away from their master for a long time. They listen to your commands as if they were yearning for someone to give one.
 
 They move away, but the dwarves are angry that you did not kill the scourge. As a mark of their honour, they pay you for the job, but your friendship does not grow.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="52" positionX="-1088" positionY="247" width="350" height="922">
+    <nodes xsi:type="NodeAdventure" ID="52" positionX="-1088" positionY="247" width="350" height="966">
       <logic>
         <FilterBlock>
           <LogicFilter name="percep">
@@ -6315,7 +6341,7 @@ They move away, but the dwarves are angry that you did not kill the scourge. As 
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="56" positionX="2780" positionY="831" width="350" height="681">
       <outputs name="Leave." ownerID="56" targetID="48" fromX="3105" fromY="383" />The unliving orcs beat you badly and force you to flee. The dwarves have to come to your rescue and are not impressed with your 'help.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="58" positionX="-1217" positionY="-883" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="58" positionX="-1217" positionY="-883" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -6604,15 +6630,15 @@ Your brethren beg you to come with them, to guide them away from the dark and on
       </logic>
       <outputs name="You spot a wraith trapped here too, and it wants to attach itself to you." ownerID="90" targetID="74" group="G1" fromX="1828" fromY="-2602" />
       <outputs name="Leave." ownerID="90" targetID="77" group="G1" fromX="1828" fromY="-2682" />The dwarves are angry that you did not kill the scourge. As a mark of their honour, they pay you for the job, but your friendship does not grow.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="91" positionX="-3224" positionY="-321" width="350" height="761">
+    <nodes xsi:type="NodeAdventure" ID="91" positionX="-3224" positionY="-321" width="350" height="805">
       <outputs name="Take the wraith." ownerID="91" targetID="60" fromX="-2898" fromY="-812" />
       <outputs name="Kill the wraith, as it's clearly an instrument of this evil!" ownerID="91" targetID="34" fromX="-2898" fromY="-892" />You find the remains of the skeletons.
 
 You also find a wraith, likely the product of whatever dark arts were performed here. It may want to stay with you.</nodes>
   </Adventure>
   <Adventure name="Smithy Temple" uniqueID="72" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="36" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event064">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event064">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="568.3247" positionY="-74.41851" width="350" height="885">
       <logic>
@@ -6923,8 +6949,8 @@ Here, carry it with pride. Good travels. Stone and metal be with ya.'
     </nodes>
   </Adventure>
   <Adventure name="Dragon dwarf" uniqueID="73" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="59" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-660.7346" positionY="-465.963867" width="347" height="661" image="Event002">
-      <outputs ownerID="1" targetID="2" fromX="-336" fromY="-1069" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-660.7346" positionY="-465.963867" width="347" height="783" image="Event002">
+      <outputs ownerID="1" targetID="2" fromX="-336" fromY="-1191" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="-274.567963" positionY="-203.817474" width="350" height="885">
       <logic>
@@ -7214,12 +7240,12 @@ Your scout, however, improved their skill.</nodes>
       <outputs ownerID="58" targetID="45" fromX="3740" fromY="-925" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="59" positionX="-243.349854" positionY="-1219.88232" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
-      <outputs ownerID="59" targetID="54" fromX="205" fromY="-1201" />
+      <outputs ownerID="59" targetID="54" fromX="205" fromY="-1651" />
     </nodes>
   </Adventure>
-  <Adventure name="Dwarf loot" uniqueID="74" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="17" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event025">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Dwarf loot" uniqueID="74" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="17" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event025">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="559.7958" positionY="-191.802261" width="350" height="725">
       <logic>
@@ -7294,8 +7320,8 @@ More importantly, there's a chest intact.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="DragonCave" uniqueID="75" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="89" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-230" positionY="184.8515" width="347" height="661" image="Event027">
-      <outputs ownerID="1" targetID="2" fromX="94" fromY="-418" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-230" positionY="184.8515" width="347" height="783" image="Event027">
+      <outputs ownerID="1" targetID="2" fromX="94" fromY="-540" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="230.45723" positionY="451.226746" width="350" height="885">
       <logic>
@@ -7871,8 +7897,8 @@ And by the time he finishes, you realise you were robbed as you see the drake fl
     </nodes>
   </Adventure>
   <Adventure name="DragonLootSpwn" uniqueID="76" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="16" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event041">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event041">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="427.213043" positionY="-146.925766" width="350" height="885">
       <logic>
@@ -8546,8 +8572,8 @@ You hold the frozen snowdrop and can now take it to the red cave for the dwarves
       </logic>
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="13" positionX="362" positionY="696" width="350" height="805">
-      <outputs name="Pay them." ownerID="13" targetID="3" fromX="688" fromY="205" />
-      <outputs name="No, leave." ownerID="13" targetID="5" fromX="688" fromY="124" />A young smith looks your way. But they ask that you pay for their services.</nodes>
+      <outputs name="Pay them." ownerID="13" targetID="3" fromX="687" fromY="204" />
+      <outputs name="No, leave." ownerID="13" targetID="5" fromX="687" fromY="124" />A young smith looks your way. But they ask that you pay for their services.</nodes>
     <nodes xsi:type="NodeTrade" ID="14" positionX="1420" positionY="175" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="nofood" startingBalance="-35000">
       <logic>
         <FilterBlock>
@@ -8637,5 +8663,259 @@ You hold the frozen snowdrop and can now take it to the red cave for the dwarves
       </logic>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="12" positionY="-722" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Occupation Dwarf_" uniqueID="87" allowToUse="false" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="61" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event330">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="-1188" positionY="545" width="350" height="1126">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Attack the pirates!" ownerID="2" targetID="4" fromX="-862" fromY="54" />
+      <outputs name="Leave." ownerID="2" targetID="3" fromX="-862" fromY="-25" />
+      <outputs name="[Pirate]Try to parley with the pirates." ownerID="2" targetID="55" group="G1" fromX="-862" fromY="-106" />
+      <outputs name="Try to parley with the pirates and convince them that their efforts are futile." ownerID="2" targetID="9" group="G1" fromX="-862" fromY="-186" />
+      <outputs name="Ask what pirates are doing on land." ownerID="2" targetID="56" fromX="-862" fromY="-266" />
+      <outputs name="Review your options again." ownerID="2" targetID="58" fromX="-862" fromY="-346" />You see the dwarf stronghold surrounded by pirate troops. They are camped outside, and they look worn out, hungry, and wounded.
+The earthbound town is closed but does not look damaged. Still, you will not be able to visit right now.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="-556" positionY="-741" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="844" positionY="239" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-PIRATES_SEA_THING_9P_10M_10S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="38" fromX="1285" fromY="-256" />
+      <outputs name="Lose" ownerID="4" targetID="6" fromX="1285" fromY="-336" />
+      <outputs name="Surrender" ownerID="4" targetID="6" fromX="1285" fromY="-416" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1991" positionY="402" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="takenpirates" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="25%;0;1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_EARTHBOUND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDDWARF1" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_BEAR" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;50" tag="ITEM_CARGO-DWARFMOONSHINE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="5" targetID="17" fromX="2316" fromY="-89" />You defeat the pirates and liberate the settlement. The dwarves are grateful, but they tell you they could have lasted another ten years inside their walls before they would need any outside contact.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="2493" positionY="-712" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="35" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="6" targetID="36" fromX="2818" fromY="-1203" />You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="9" positionX="894" positionY="-585" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_SEA_THING_9P_9M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="9" targetID="13" fromX="1335" fromY="-1080" />
+      <outputs name="Lose" ownerID="9" targetID="12" fromX="1335" fromY="-1160" />
+      <outputs name="Surrender" ownerID="9" targetID="12" fromX="1335" fromY="-1240" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="2108" positionY="-920" width="350" height="805">
+      <outputs name="Leave." ownerID="12" targetID="36" fromX="2433" fromY="-1411" />
+      <outputs name="Attack!" ownerID="12" targetID="4" fromX="2433" fromY="-1491" />'You ain't got anything we want, and if you did we'd just take it off your corpse. Beat it, or come closer and taste our iron!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="1646" positionY="-1179" width="350" height="1126">
+      <outputs name="Refuse and leave." ownerID="13" targetID="3" fromX="1971" fromY="-1670" />
+      <outputs name="Attack!" ownerID="13" targetID="4" fromX="1971" fromY="-1750" />
+      <outputs name="Pay." ownerID="13" targetID="49" fromX="1971" fromY="-1830" />
+      <outputs name="Sell an elf slave." ownerID="13" targetID="46" fromX="1971" fromY="-1910" />
+      <outputs name="Ask what task they want you to do." ownerID="13" targetID="52" fromX="1971" fromY="-1990" />
+      <outputs name="This captain seems familiar. Remind him of the Szuvarek business!" ownerID="13" targetID="61" fromX="1971" fromY="-2071" />The pirate captain looks at you, and you see a spark of hope in his tired eyes:
+'This be bad for a captain to say, but methinks we will lose this here battle. Truth be told, my boss is just stubborn. So pay us, give us a good elf slave, or do me a favour, and then we be off, honour saved and all.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="2425" positionY="298" width="350" height="530" allPlayersXP="10" allPlayersRP="8" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="36" positionX="2980" positionY="-704" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeProduceDrop" ID="38" positionX="1430" positionY="155" width="460" height="429" sourceGroup="GROUP-HORDE_DWARVES_9P_8M_6S" cargoPercentage="100">
+      <outputs ownerID="38" targetID="5" fromX="1860" fromY="-203" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="44" positionX="2158" positionY="-1782" width="480" height="503" radius="0" destroyOwner="false" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddResourceOnMap" parameter="5" tag="RES-MITHRILL" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="44" targetID="45" fromX="2606" fromY="-2214" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="45" positionX="2711" positionY="-1734" width="350" height="530" allPlayersXP="5" allPlayersRP="5" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC33" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="46" positionX="2474" positionY="-2416" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="elf" startingBalance="-1">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="elf">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-ELF" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="46" targetID="48" fromX="2904" fromY="-2744" />
+      <outputs name="Cancel" ownerID="46" targetID="13" fromX="2904" fromY="-2824" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="47" positionX="3569" positionY="-2798" width="350" height="530" allPlayersXP="10" allPlayersRP="8" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDDWARF1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="48" positionX="3181" positionY="-2432" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_BEAR" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_PET_GOAT" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-10" tag="TAG-LOYALTY_EARTHBOUND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="48" targetID="47" fromX="3506" fromY="-2923" />They take the elf and leave as promised, but the dwarves are outraged at the sacrifice. They tell you they could have lasted another ten years inside and needed no aid, especially not enslaving an elder child.</nodes>
+    <nodes xsi:type="NodeTrade" ID="49" positionX="1506" positionY="-2747" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-45000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="49" targetID="50" fromX="1936" fromY="-3075" />
+      <outputs name="Cancel" ownerID="49" targetID="13" fromX="1936" fromY="-3155" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="2128" positionY="-3226" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_EARTHBOUND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_BEAR" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_PET_GOAT" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="50" targetID="47" fromX="2453" fromY="-3717" />The pirates take their payment and leave as promised. In fact, they look relieved as they sail away. The dwarves are grateful, although they tell you they could have lasted another ten years inside their walls before they would need any outside contact.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="52" positionX="981" positionY="-1583" width="350" height="1126">
+      <outputs name="Agree." ownerID="52" targetID="44" fromX="1306" fromY="-2074" />
+      <outputs name="Attack!" ownerID="52" targetID="4" fromX="1306" fromY="-2154" />
+      <outputs name="Pay." ownerID="52" targetID="49" fromX="1306" fromY="-2234" />
+      <outputs name="Sell an elf slave." ownerID="52" targetID="46" fromX="1306" fromY="-2314" />
+      <outputs name="Refuse and leave." ownerID="52" targetID="3" fromX="1306" fromY="-2394" />
+      <outputs name="Pay the 100 mithril now." ownerID="52" targetID="59" fromX="1306" fromY="-2475" />'Ah, well. The reason we are here is we heard of this mithril the dwarves use. They say their town is carved in the stuff. Methinks it is all bullcrap my boss dreamed up. But a boss is a boss. Give me 100 mithril - I know of a vein nearby, but we do not mine. So, see, this way we both win.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="55" positionX="1474" positionY="-403" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_9P_8M_7S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="pir">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="ch">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="adult" list1="pir" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="adult">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="55" targetID="13" fromX="1915" fromY="-898" />
+      <outputs name="Lose" ownerID="55" targetID="12" fromX="1915" fromY="-978" />
+      <outputs name="Surrender" ownerID="55" targetID="12" fromX="1915" fromY="-1058" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="56" positionX="-107" positionY="-1009" width="350" height="966">
+      <outputs name="Attack the pirates!" ownerID="56" targetID="4" fromX="218" fromY="-1500" />
+      <outputs name="Leave." ownerID="56" targetID="3" fromX="218" fromY="-1580" />
+      <outputs name="[Pirate]Try to parley with the pirates." ownerID="56" targetID="55" group="G1" fromX="218" fromY="-1660" />
+      <outputs name="Try to parley with the pirates." ownerID="56" targetID="9" group="G1" fromX="218" fromY="-1740" />'That be our business, land-lover. But I admit, this land of stone and metal feels all bad to me, not enough water. Still, them rock folk are said to have treasure, and we be liking treasure, arr!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="58" positionX="440" positionY="-1445" width="350" height="1046">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC33" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Leave." ownerID="58" targetID="3" fromX="765" fromY="-1936" />
+      <outputs name="Attack!" ownerID="58" targetID="4" fromX="765" fromY="-2016" />
+      <outputs name="Pay them to leave instead." ownerID="58" targetID="49" fromX="765" fromY="-2096" />
+      <outputs name="Sell an elf slave so they leave." ownerID="58" targetID="46" fromX="765" fromY="-2176" />
+      <outputs name="Pay the 100 mithril now." ownerID="58" targetID="59" fromX="765" fromY="-2256" />'Huh? Go get my 100 mithril! You be testing my patience. Go do what you said, or beat it.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="59" positionX="945" positionY="-3045" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="mith" startingBalance="-100">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="mith">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsResources" parameter="1" tag="TAG-MITHRILL" />
+          </LogicFilter>
+          <LogicResultAction list="mith">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="100" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="59" targetID="50" fromX="1375" fromY="-3373" />
+      <outputs name="Cancel" ownerID="59" targetID="13" fromX="1375" fromY="-3453" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="61" positionX="2744" positionY="-2944" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC19" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_EARTHBOUND" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_BEAR" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_PET_GOAT" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="61" targetID="47" fromX="3069" fromY="-3435" />'Well, I be damned! It be you, as the sea waters are salty!
+Tell ya what, I had me a promotion after that business, so I be in your debt. I tell my boss this is stupid and we should go. May the sea be kind to ya.'
+The pirates leave as promised. The dwarves are grateful, although they tell you they could have lasted another ten years inside their walls before they would need any outside contact.</nodes>
   </Adventure>
 </MODULE>

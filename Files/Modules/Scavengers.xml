@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Scavengers" lastEventIndex="80" allowToUse="true" uniqueModuleID="-78645587">
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Scavengers" lastEventIndex="87" allowToUse="true" uniqueModuleID="-78645587">
   <Adventure name="ScavengersTradesmall" uniqueID="29" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="12" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event006">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
@@ -784,10 +784,18 @@ Come in, but we're watching you!'</nodes>
       <outputs ownerID="71" targetID="6" fromX="1395" fromY="946" />
     </nodes>
   </Adventure>
-  <Adventure name="ScavengersVillageMed" uniqueID="33" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="77" eventTag="TAG-LOG5" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="1" positionY="11" width="347" height="741" image="Event043">
-      <outputs ownerID="1" targetID="5" group="G1" fromX="325" fromY="-592" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="325" fromY="-672" />
+  <Adventure name="ScavengersVillageMed" uniqueID="33" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="78" eventTag="TAG-LOG5" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="1" positionY="11" width="347" height="821" image="Event043">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC28" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="1" targetID="78" group="G1" fromX="325" fromY="-592" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="325" fromY="-672" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="325" fromY="-752" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="453" positionY="-284" width="350" height="1206">
       <logic>
@@ -849,10 +857,10 @@ You see armed folk gathering.</nodes>
       </logic>
       <outputs name="Leave." ownerID="6" targetID="15" fromX="1791" fromY="426" />The village lies destroyed, and the spoils are yours.</nodes>
     <nodes xsi:type="NodeChallenge" ID="7" positionX="850" positionY="901" width="500" height="807" challengeType="TypePhysical" versusGroup="GROUP-SCAVENGER_3P_3M_2S" challengeScale="101" challengedList="ppl">
-      <outputs name="Win" ownerID="7" targetID="77" group="G1" fromX="1291" fromY="406" />
+      <outputs name="Win" ownerID="7" targetID="77" group="G1" fromX="1291" fromY="405" />
       <outputs name="Lose" ownerID="7" targetID="73" fromX="1291" fromY="325" />
       <outputs name="Surrender" ownerID="7" targetID="72" fromX="1291" fromY="245" />
-      <outputs name="Win" ownerID="7" targetID="6" group="G1" fromX="1291" fromY="165" />
+      <outputs name="Win" ownerID="7" targetID="6" group="G1" fromX="1291" fromY="164" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2398" positionY="1066" width="350" height="530" allPlayersXP="5" allPlayersRP="1" logBookName="QUEST_SCAVENGERS" logBookDescription="QUEST_SCAVENGERS_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventureEnd" ID="9" positionX="3599" positionY="1141" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
@@ -1161,7 +1169,7 @@ We cannot give much in return 'cause we ain't as odd as you, but here, have what
       <outputs name="Confirm" ownerID="39" targetID="37" fromX="2848" fromY="-1756" />
       <outputs name="Cancel" ownerID="39" targetID="21" fromX="2848" fromY="-1836" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="40" positionX="-432.171326" positionY="-283.2957" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="40" positionX="-550" positionY="-679" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -1183,7 +1191,7 @@ We cannot give much in return 'cause we ain't as odd as you, but here, have what
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Buy a slave." ownerID="40" targetID="41" fromX="-106" fromY="-774" />'Sure thing, let's deal, we may have some live'uns for ya.'
+      <outputs name="Buy a slave." ownerID="40" targetID="41" fromX="-224" fromY="-1170" />'Sure thing, let's deal, we may have some live'uns for ya.'
 </nodes>
     <nodes xsi:type="NodeTrade" ID="41" positionX="-1049" positionY="-427" width="460" height="639" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-7000">
       <logic>
@@ -1419,7 +1427,19 @@ Come in, but we're watching you!'</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="77" targetID="6" fromX="1382" fromY="1021" />
+      <outputs ownerID="77" targetID="6" fromX="1381" fromY="1021" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="78" positionX="-388" positionY="-83" width="350" height="530" linkedEventUniqueID="86">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC27" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-OCCUPENDSCAV1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
     </nodes>
   </Adventure>
   <Adventure name="scavKillsmallBees" uniqueID="34" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="52" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
@@ -7174,5 +7194,400 @@ We ain't rich, but we can offer you a fair price.'</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
+  </Adventure>
+  <Adventure name="Occupation Scav_" uniqueID="86" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="58" eventTag="TAG-LOGOCCUPORC" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event330">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="430" positionY="79" width="350" height="1126">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Attack the pirates!" ownerID="2" targetID="4" fromX="755" fromY="-412" />
+      <outputs name="Leave." ownerID="2" targetID="3" fromX="755" fromY="-492" />
+      <outputs name="[Pirate]Try to parley with the pirates." ownerID="2" targetID="55" group="G1" fromX="755" fromY="-572" />
+      <outputs name="Try to parley with the pirates." ownerID="2" targetID="9" group="G1" fromX="755" fromY="-652" />
+      <outputs name="Ask what pirates are doing on land." ownerID="2" targetID="56" fromX="755" fromY="-732" />
+      <outputs name="Say that you did not do the task yet, but want to review your options again." ownerID="2" targetID="58" fromX="755" fromY="-813" />This settlement is now overrun with orc pirates. Some of the locals are chained and forced to work, with others locked up in cages or hung on display as examples. </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="-473" positionY="-797" width="350" height="530" logBookName="QUEST_OCCUPSCAV" logBookDescription="QUEST_OCCUPSLAV_DES3" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="844" positionY="239" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-PIRATES_5P_4M_2S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="38" fromX="1285" fromY="-256" />
+      <outputs name="Lose" ownerID="4" targetID="6" fromX="1285" fromY="-336" />
+      <outputs name="Surrender" ownerID="4" targetID="6" fromX="1285" fromY="-416" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1991" positionY="402" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="takenpirates" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="3%;0;1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_SCAVENGERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDSCAV1" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-STRONG_ONE_PET_DOG" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-WATERDLC30" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="5" targetID="17" fromX="2316" fromY="-89" />You defeat the pirates and liberate the settlement. The people are grateful to you and offer whatever reward they can. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="2493" positionY="-712" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="20" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="6" targetID="36" fromX="2818" fromY="-1203" />You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="9" positionX="871" positionY="-637" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_5P_4M_2S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="9" targetID="13" fromX="1312" fromY="-1132" />
+      <outputs name="Lose" ownerID="9" targetID="12" fromX="1312" fromY="-1212" />
+      <outputs name="Surrender" ownerID="9" targetID="12" fromX="1312" fromY="-1292" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="2108" positionY="-920" width="350" height="805">
+      <outputs name="Leave." ownerID="12" targetID="36" fromX="2433" fromY="-1411" />
+      <outputs name="Attack!" ownerID="12" targetID="4" fromX="2433" fromY="-1491" />'You ain't got anything we want, and if you did we'd just take it off your corpse. Beat it, or come closer and taste our iron!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="1512" positionY="-1381" width="350" height="1126">
+      <outputs name="Ask what task they want you to do." ownerID="13" targetID="14" group="G1" fromX="1837" fromY="-1872" />
+      <outputs name="Refuse and leave." ownerID="13" targetID="3" fromX="1837" fromY="-1952" />
+      <outputs name="Attack!" ownerID="13" targetID="4" fromX="1837" fromY="-2032" />
+      <outputs name="Pay." ownerID="13" targetID="49" fromX="1837" fromY="-2112" />
+      <outputs name="Sell an elf slave." ownerID="13" targetID="46" fromX="1837" fromY="-2192" />
+      <outputs name="Ask what task they want you to do." ownerID="13" targetID="52" group="G1" fromX="1837" fromY="-2273" />'I tell ya what, this here scavenger dump doesn't please my captain much. We took some of them little ones to see if they make good pirates one day, but methinks it's not bloody likely. Your man-flesh is pink and mushy. It will not like our waters much.
+So, do a task for me and my men will leave this place be. Or ya can pay us. If ya have any pointy-ears, they're worth more to us than any human, so we'll buy 'em.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="1958" positionY="-1739" width="350" height="966">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC26" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Attack!" ownerID="14" targetID="4" fromX="2283" fromY="-2230" />
+      <outputs name="Pay." ownerID="14" targetID="49" fromX="2283" fromY="-2310" />
+      <outputs name="Sell an elf slave." ownerID="14" targetID="46" fromX="2283" fromY="-2390" />
+      <outputs name="Refuse and leave." ownerID="14" targetID="3" fromX="2283" fromY="-2470" />'Oh, right, you already failed to do what we asked. Well, I guess you pay or bugger off.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="2425" positionY="298" width="350" height="530" allPlayersXP="5" allPlayersRP="4" logBookName="QUEST_OCCUPSCAV" logBookDescription="QUEST_OCCUPSLAV_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="36" positionX="2980" positionY="-704" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_OCCUPSCAV" logBookDescription="QUEST_OCCUPSLAV_DES4" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeProduceDrop" ID="38" positionX="1482" positionY="120" width="460" height="429" sourceGroup="GROUP-BANDITS_5P_4M_3S" cargoPercentage="150">
+      <outputs ownerID="38" targetID="5" fromX="1912" fromY="-238" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="44" positionX="2417" positionY="-1780" width="480" height="503" radius="7" settlementID="SET-WOODS" destroyOwner="false" linkedEventUniqueID="87">
+      <outputs ownerID="44" targetID="45" fromX="2865" fromY="-2212" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="45" positionX="3005" positionY="-1808" width="350" height="530" allPlayersXP="3" allPlayersRP="3" logBookName="QUEST_OCCUPSCAV" logBookDescription="QUEST_OCCUPSCAV_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC30" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="46" positionX="2439" positionY="-2665" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="elf" startingBalance="-1">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="elf">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-ELF" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="46" targetID="48" fromX="2869" fromY="-2993" />
+      <outputs name="Cancel" ownerID="46" targetID="13" fromX="2869" fromY="-3073" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="47" positionX="3569" positionY="-2798" width="350" height="530" allPlayersXP="4" allPlayersRP="4" logBookName="QUEST_OCCUPSCAV" logBookDescription="QUEST_OCCUPSLAV_DES5" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDSCAV1" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-WATERDLC30" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="48" positionX="3074" positionY="-2636" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_SCAVENGERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_HORSE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_PET_DOG" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="48" targetID="47" fromX="3399" fromY="-3127" />They take the elf and leave as promised. The townspeople are overjoyed with your help.</nodes>
+    <nodes xsi:type="NodeTrade" ID="49" positionX="1469" positionY="-2772" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-10000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="49" targetID="50" fromX="1899" fromY="-3100" />
+      <outputs name="Cancel" ownerID="49" targetID="13" fromX="1899" fromY="-3180" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="2612" positionY="-3238" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_SCAVENGERS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_HORSE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-RARE_ONE_PET_DOG" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="50" targetID="47" fromX="2937" fromY="-3729" />They take the goods and leave as promised. The townspeople are overjoyed with your help.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="52" positionX="1026" positionY="-1751" width="350" height="1046">
+      <outputs name="Agree." ownerID="52" targetID="44" fromX="1351" fromY="-2242" />
+      <outputs name="Attack!" ownerID="52" targetID="4" fromX="1351" fromY="-2322" />
+      <outputs name="Pay." ownerID="52" targetID="49" fromX="1351" fromY="-2402" />
+      <outputs name="Sell an elf slave." ownerID="52" targetID="46" fromX="1351" fromY="-2482" />
+      <outputs name="Refuse and leave." ownerID="52" targetID="3" fromX="1351" fromY="-2562" />'We're interested in capturing some of them forest pinecone thingies. Our captain wants to see if we can use them, or maybe he wants to eat one? Dunno. But I'll be damned if I go and catch stupid pinecones, so you do it and we'll leave this dump. The scavengers are all weak and ill and they stink. I am tired of being here.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="55" positionX="1474" positionY="-403" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_5P_4M_2S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="pir">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="ch">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="adult" list1="pir" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="adult">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="55" targetID="13" fromX="1915" fromY="-898" />
+      <outputs name="Lose" ownerID="55" targetID="12" fromX="1915" fromY="-978" />
+      <outputs name="Surrender" ownerID="55" targetID="12" fromX="1915" fromY="-1058" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="56" positionX="-26" positionY="-1061" width="350" height="966">
+      <outputs name="Attack the pirates!" ownerID="56" targetID="4" fromX="299" fromY="-1552" />
+      <outputs name="Leave." ownerID="56" targetID="3" fromX="299" fromY="-1632" />
+      <outputs name="[Pirate]Try to parley with the pirates." ownerID="56" targetID="55" group="G1" fromX="299" fromY="-1712" />
+      <outputs name="Try to parley with the pirates." ownerID="56" targetID="9" group="G1" fromX="299" fromY="-1792" />'That be our business, land-lover. We rule the seas, aye, but now maybe we be land lords too, eh? Ha ha. Now, come challenge us or be off.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="58" positionX="426" positionY="-1092" width="350" height="966">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC30" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Leave." ownerID="58" targetID="3" fromX="751" fromY="-1583" />
+      <outputs name="Attack!" ownerID="58" targetID="4" fromX="751" fromY="-1663" />
+      <outputs name="Pay them to leave instead." ownerID="58" targetID="49" fromX="751" fromY="-1743" />
+      <outputs name="Sell an elf slave so they leave." ownerID="58" targetID="46" fromX="751" fromY="-1823" />'Huh? You be testing my patience. Go do what you said, or beat it!'</nodes>
+  </Adventure>
+  <Adventure name="Capturing pine slaves" uniqueID="87" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="28" eventTag="TAG-LOGOCCUPORC" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="0" positionY="10" width="347" height="741" image="Event327">
+      <outputs ownerID="1" targetID="26" group="G1" fromX="324" fromY="-593" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="324" fromY="-673" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="385" positionY="120" width="350" height="966">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="orc" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-ORC" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Attack!" ownerID="2" targetID="4" fromX="710" fromY="-371" />
+      <outputs name="Approach them and speak of the pirates." ownerID="2" targetID="22" fromX="710" fromY="-451" />
+      <outputs name="Leave." ownerID="2" targetID="3" fromX="710" fromY="-531" />
+      <outputs name="Outsmart the pineconettes and capture some. " ownerID="2" targetID="5" fromX="710" fromY="-611" />You track down the grove where you spot a pack of pineconettes. They seem to be unusually agitated, but they are not paying any attention to you.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="-395" positionY="-534" width="350" height="530" logBookName="QUEST_OCCUPSCAV2" logBookDescription="QUEST_OCCUPSLAV_DES3" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="832" positionY="170" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-ELDERCONE_MIX_5P_5M_5S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="6" fromX="1273" fromY="-325" />
+      <outputs name="Lose" ownerID="4" targetID="8" fromX="1273" fromY="-405" />
+      <outputs name="Surrender" ownerID="4" targetID="7" fromX="1273" fromY="-485" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="5" positionX="722" positionY="-916" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_5M_0S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="5" targetID="16" fromX="1163" fromY="-1411" />
+      <outputs name="Lose" ownerID="5" targetID="8" fromX="1163" fromY="-1491" />
+      <outputs name="Surrender" ownerID="5" targetID="21" fromX="1163" fromY="-1571" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="1400" positionY="623" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_FOREST_DEMONS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-10" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Take the demon back to the pirate-occupied town." ownerID="6" targetID="13" fromX="1725" fromY="131" />
+      <outputs name="Keep the pineconette for yourself and deal with the pirates another way." ownerID="6" targetID="11" fromX="1725" fromY="51" />You defeat the pineconettes. Only one youngling remains alive. The others seem to have perished as soon as you stepped away from their grove.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="7" positionX="1868" positionY="-123" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <outputs ownerID="7" targetID="8" fromX="2297" fromY="-511" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="2406" positionY="-150" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_FOREST_DEMONS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="8" targetID="9" fromX="2731" fromY="-641" />You lost and are forced to flee the forest. </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="9" positionX="2834" positionY="-53" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="9" targetID="10" fromX="3282" fromY="-485" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="3363" positionY="-70" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_OCCUPSCAV2" logBookDescription="QUEST_OCCUPSLAV_DES4" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC26" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="11" positionX="3827" positionY="816" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-FOREST_PINECONETTES" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-5" tag="TAG-LOYALTY_FOREST_DEMONS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="11" targetID="12" fromX="4275" fromY="383" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="12" positionX="4971" positionY="512" width="350" height="530" allPlayersXP="5" allPlayersRP="3" logBookName="QUEST_OCCUPSCAV2" logBookDescription="QUEST_OCCUPSCAV2_DES2" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC26" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="1831" positionY="866" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_FOREST_DEMONS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDSCAV1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="13" targetID="14" fromX="2156" fromY="374" />You meet some of the pirates on your way and they take the child. They promise that they will now leave the town.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="14" positionX="2270" positionY="1091" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="14" targetID="15" fromX="2718" fromY="658" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="2852" positionY="1223" width="350" height="530" allPlayersXP="5" allPlayersRP="3" logBookName="QUEST_OCCUPSCAV2" logBookDescription="QUEST_OCCUPSCAV2_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="1270" positionY="-878" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_FOREST_DEMONS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Take it back to the pirate-occupied town." ownerID="16" targetID="13" fromX="1595" fromY="-1369" />
+      <outputs name="Take the young pineconette with you instead. " ownerID="16" targetID="18" fromX="1595" fromY="-1449" />You manage to capture some pineconettes without a fight, but you realise that most perish as soon as you leave the grove. One does survive.</nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="18" positionX="1928" positionY="-1244" width="460" height="429">
+      <outputs ownerID="18" targetID="19" group="G1" fromX="2358" fromY="-1602" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="19" positionX="3969" positionY="-319" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-FOREST_PINECONETTES" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="19" targetID="12" fromX="4417" fromY="-751" />
+    </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="21" positionX="2463" positionY="-1030" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <outputs ownerID="21" targetID="8" fromX="2892" fromY="-1418" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="-241" positionY="-1143" width="350" height="885">
+      <outputs name="Attack!" ownerID="22" targetID="4" fromX="84" fromY="-1634" />
+      <outputs name="Do not interfere. Leave this place in peace." ownerID="22" targetID="23" fromX="84" fromY="-1714" />
+      <outputs name="Outsmart the pineconettes and capture some. " ownerID="22" targetID="5" fromX="84" fromY="-1794" />The pineconettes do not speak to you, but as you come closer, you are witness to what must be their hatching. You see little pineconettes emerge from the earth, confused and agitated, and older cones trying to catch them and take them away.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="23" positionX="-819" positionY="-1400" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="8" tag="TAG-LOYALTY_FOREST_DEMONS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="23" targetID="24" fromX="-370" fromY="-1832" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="24" positionX="-1241" positionY="-1376" width="350" height="530" allPlayersXP="4" allPlayersRP="4" logBookName="QUEST_OCCUPSCAV2" logBookDescription="QUEST_OCCUPSLAV_DES6" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC26" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="-857" positionY="-121" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-OCCUPENDSCAV1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Leave." ownerID="26" targetID="27" fromX="-531" fromY="-612" />There is nothing of interest here.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="27" positionX="-1446" positionY="-254" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="27" targetID="28" fromX="-997" fromY="-686" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="-1894" positionY="-255" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true" />
   </Adventure>
 </MODULE>

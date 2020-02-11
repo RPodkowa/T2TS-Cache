@@ -391,7 +391,7 @@ Remember, the price is high and it will get higher every time you abuse your div
       <logic>
         <FilterBlock>
           <LogicFilter name="deadchosen">
-            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+            <scriptCallWithTag scriptName="FwT_UnSafe_ThisPlayerAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
           </LogicFilter>
           <LogicResultAction list="deadchosen">
             <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="0" />
@@ -600,7 +600,7 @@ Remember, the price is high and it will get higher every time you abuse your div
         </FilterBlock>
       </logic>
       <outputs name="Confirm" ownerID="17" targetID="4" fromX="2318" fromY="-1680" />
-      <outputs name="Cancel" ownerID="17" targetID="2" fromX="1874" fromY="-1760" />
+      <outputs name="Cancel" ownerID="17" targetID="2" fromX="2318" fromY="-1760" />
     </nodes>
     <nodes xsi:type="NodeProduceDrop" ID="19" positionX="27" positionY="-1416" width="460" height="429">
       <logic>
@@ -672,7 +672,7 @@ Remember, the price is high and it will get higher every time you abuse your div
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Depart." ownerID="2" targetID="3" group="G1" fromX="737" fromY="-573" />Damn the gods and their divine games! The strain of this dark world is too much and so you have abandoned you duties in search for a more peaceful life. </nodes>
+      <outputs name="Depart." ownerID="2" targetID="3" group="G1" fromX="737" fromY="-573" />Damn the gods and their divine games! The strain of this dark world is too much and so you have abandoned your duties in search for a more peaceful life. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="843" positionY="-280" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
@@ -1013,7 +1013,7 @@ Remember, the price is high and it will get higher every time you abuse your div
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="412" positionY="-82" width="350" height="725">
-      <outputs name="Depart." ownerID="2" targetID="3" group="G1" fromX="737" fromY="-573" />Damn the gods and their divine games! The strain of this dark world is too much and so you have abandoned you duties in search for a more peaceful life. </nodes>
+      <outputs name="Depart." ownerID="2" targetID="3" group="G1" fromX="737" fromY="-573" />Damn the gods and their divine games! The strain of this dark world is too much and so you have abandoned your duties in search for a more peaceful life. </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="843" positionY="-280" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>

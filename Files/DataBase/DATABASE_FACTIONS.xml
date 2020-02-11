@@ -203,13 +203,13 @@
 		<DescriptionInfo Name="DES_FACTIONS_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="FactionWaterDemons"/>
 		<UnitsBehavior Value="BEH-NORMAL"/>
 		<SmallVillage Value="SET-WATER_SMALL_VILLAGE"/>
-		<SmallVillageEvent Value="EVENTC-WOODKIN_VILLAGE_SMALL"/>
+		<SmallVillageEvent Value="EVENTC-WATER_DEMONS_VILLAGE_SMALL"/>
 		<BigVillage Value="SET-WATER_SMALL_VILLAGE"/>
-		<BigVillageEvent Value="EVENTC-WOODKIN_VILLAGE_MED"/>
+		<BigVillageEvent Value="EVENTC-WATER_DEMONS_VILLAGE_MED"/>
 		<Army Value="GROUP-RUSALKA_4P_5M_4S"/>
-		<ArmyEvent Value="EVENTC-ARMY_SLAVYAN"/>
+		<ArmyEvent Value="EVENTC-ARMY_WATER_DEMONS"/>
 		<Civilian Value="GROUP-RUSALKA_4P_5M_4S"/>
-		<CivilianEvent Value="EVENTC-ARMY_SLAVYAN"/>
+		<CivilianEvent Value="EVENTC-ARMY_WATER_DEMONS"/>
 	</FAC-WATER_DEMONS>
 	<FAC-ICE_DEMONS CompulsoryAttendent="FALSE" Rarity="20">
 		<LoyaltyTag Value="TAG-LOYALTY_ICE_DEMONS"/>
@@ -291,28 +291,7 @@
 		<Civilian Value="GROUP-BEES_2P_1M_0S"/>
 		<CivilianEvent Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
 	</FAC-NEUTRAL_BEAST>
-	<FAC-NEUTRAL_WATER_BEAST CompulsoryAttendent="FALSE" Rarity="1">
-		<LoyaltyTag Value="TAG-LOYALTY_NEUTRAL"/>
-		<DescriptionInfo Name="DES_FACTIONS_WATER_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="Placeholder"/>
-		<UnitsBehavior Value="BEH-NORMAL"/>
-		<Army Value="GROUP-SEA_BEAST_2P_1M_1S"/>
-		<Army Value="GROUP-SEA_BEAST_3P_1M_1S"/>
-		<Army Value="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
-		<Army Value="GROUP-JURATA_MIX_6P_6M_6S"/>
-		<ArmyEvent Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<Civilian Value="GROUP-SEA_BEAST_2P_1M_1S"/>
-		<CivilianEvent Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-	</FAC-NEUTRAL_WATER_BEAST>
-	<FAC-NEUTRAL_WATER_MYTHICAL CompulsoryAttendent="FALSE" Rarity="1">
-		<LoyaltyTag Value="TAG-LOYALTY_NEUTRAL"/>
-		<DescriptionInfo Name="DES_FACTIONS_MYTHICAL_WATER_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="Placeholder"/>
-		<UnitsBehavior Value="BEH-NORMAL"/>
-		<Army Value="GROUP-JURATA_MIX_6P_6M_6S"/>
-		<Army Value="GROUP-ONE_KRAKEN_10P_8M_8S"/>
-		<ArmyEvent Value="EVENTC-ARMY_NEUTRAL_MYTHICAL"/>
-		<Civilian Value="GROUP-JURATA_MIX_6P_6M_6S"/>
-		<CivilianEvent Value="EVENTC-ARMY_NEUTRAL_MYTHICAL"/>
-	</FAC-NEUTRAL_WATER_MYTHICAL>
+	
 	<FAC-NEUTRAL_HUM_BANDITS CompulsoryAttendent="FALSE" Rarity="1">
 		<LoyaltyTag Value="TAG-LOYALTY_NEUTRAL"/>
 		<DescriptionInfo Name="DES_FACTIONS_BANDITS" Description="DES_PLACEHOLDER_DES"  IconName="Placeholder"/>

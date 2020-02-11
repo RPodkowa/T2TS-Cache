@@ -15,7 +15,6 @@
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_LIGHT"/>
     <FactionRogue Value="FAC-NEUTRAL_SOCIAL_DEMON"/>
     <FactionRogue Value="FAC-NEUTRAL_UNLIVING"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
     <Settlement Value="SET-RUINS_DEF"/>
     <Settlement Value="SET-CEMENTARY_DEF"/>
     <AMountain Name="DES_DEFAULT_MOUNTAIN" Description="DES_DEFAULT_MOUNTAIN_DES" IconName="DefaultMountain"/>
@@ -41,9 +40,6 @@
     <FactionRogue Value="FAC-NEUTRAL_SOCIAL_DEMON_NIGHT"/>
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_LIGHT"/>
     <FactionRogue Value="FAC-NEUTRAL_UNLIVING"/>
-    <FactionRogue Value="FAC-NEUTRAL_UNLI_DRAGON"/>
-    <FactionRogue Value="FAC-NEUTRAL_UNLI_DRAGONS"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
     <Settlement Value="SET-RUINS_DARKNESS"/>
     <Settlement Value="SET-CEMENTARY_DARKNESS"/>
     <AMountain Name="DES_DARKNESS_MOUNTAIN" Description="DES_DARKNESS_MOUNTAIN_DES" IconName="DarknessMountain"/>
@@ -58,6 +54,7 @@
     <MinDiff Value="4"/>
     <MaxDiff Value="8"/>
     <FactionRequired Value="FAC-ICE_DEMONS"/>
+    <FactionRequired Value="FAC-WATER_DEMONS"/>
     <FactionRequired Value="FAC-LIGHTBRINGERS"/>
     <FactionOptional Value="FAC-SHADOW_KIN"/>
     <FactionRogue Value="FAC-NEUTRAL_BEAST"/>
@@ -71,9 +68,6 @@
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_ICE"/>
     <FactionRogue Value="FAC-NEUTRAL_SOCIAL_DEMON_ICE"/>
     <FactionRogue Value="FAC-NEUTRAL_UNLIVING"/>
-    <FactionRogue Value="FAC-NEUTRAL_UNLI_DRAGON"/>
-    <FactionRogue Value="FAC-NEUTRAL_UNLI_DRAGONS"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
     <Settlement Value="SET-RUINS_ICE"/>
     <AMountain Name="DES_ICY_MOUNTAIN" Description="DES_ICY_MOUNTAIN_DES" IconName="IcyMountain"/>
     <AHill Name="DES_ICY_HILL" Description="DES_ICY_HILL_DES" IconName="IcyHill"/>
@@ -95,10 +89,6 @@
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_LIGHT"/>
     <FactionRogue Value="FAC-NEUTRAL_SOCIAL_DEMON_LIGHT"/>
     <FactionRogue Value="FAC-NEUTRAL_UNLIVING"/>
-    <FactionRogue Value="FAC-NEUTRAL_DRAGON"/>
-    <FactionRogue Value="FAC-NEUTRAL_DRAGONS"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_MYTHICAL"/>
     <Settlement Value="SET-RUINS_VULCANIC"/>
     <Settlement Value="SET-CEMENTARY_VULCANIC"/>
     <AMountain Name="DES_VOLCANIC_MOUNTAIN" Description="DES_VOLCANIC_MOUNTAIN_DES" IconName="VolcanicMountain"/>
@@ -120,11 +110,6 @@
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_FOREST"/>
     <FactionRogue Value="FAC-NEUTRAL_SOCIAL_DEMON_FOREST"/>
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_LIGHT"/>
-    <FactionRogue Value="FAC-NEUTRAL_DRAGON"/>
-    <FactionRogue Value="FAC-NEUTRAL_DRAGONS"/>
-    <FactionRogue Value="FAC-NEUTRAL_MYTHICAL"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_MYTHICAL"/>
     <Settlement Value="SET-RUINS_ANCIENT_FOREST"/>
     <Settlement Value="SET-CEMENTARY_ANCIENT_FOREST"/>
     <AMountain Name="DES_ANCIENT_MOUNTAIN" Description="DES_ANCIENT_MOUNTAIN_DES" IconName="AncientMountain"/>
@@ -144,13 +129,8 @@
     <FactionRogue Value="FAC-NEUTRAL_BEAST"/>
     <FactionRogue Value="FAC-NEUTRAL_DWARVES"/>
     <FactionRogue Value="FAC-NEUTRAL_TROLL"/>
-    <FactionRogue Value="FAC-NEUTRAL_ZMEY"/>
-    <FactionRogue Value="FAC-NEUTRAL_MYTHICAL"/>
-    <FactionRogue Value="FAC-NEUTRAL_ZMEYS"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
     <FactionRogue Value="FAC-NEUTRAL_PHYSICAL_DEMON_LIGHT"/>
     <FactionRogue Value="FAC-NEUTRAL_SOCIAL_DEMON_LIGHT"/>
-    <SeaFactionRogue Value="FAC-NEUTRAL_WATER_MYTHICAL"/>
     <Settlement Value="SET-RUINS_METAL"/>
     <Settlement Value="SET-CEMENTARY_METAL"/>
     <AMountain Name="DES_METALLIC_MOUNTAIN" Description="DES_METALLIC_MOUNTAIN_DES" IconName="MetallicMountain"/>
@@ -161,25 +141,19 @@
     <AForest Name="DES_METALLIC_FOREST" Description="DES_METALLIC_FOREST_DES" IconName="MetallicForest"/>
   </BIOME-METALLIC>
 
-  <BIOME-SEA X="-1" Y="0">
-    <Name Value="sea"/>
-    <MinDiff Value="5"/>
-    <MaxDiff Value="9"/>
-    <FactionRequired Value="FAC-NEUTRAL_WATER_BEAST"/>
-    <FactionRogue Value="FAC-NEUTRAL_WATER_BEAST"/>
-  </BIOME-SEA>
-
   <!-- that terrain is in around all biomes-->
   <TERRAIN-SEASHORE MovementCost="1" ID="TerrainSeashore">
     <DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="DefaultCoast"/>
     <ResourcesSpawnChance ChanceToSpawn="5.0" Resource="RES-AMBER"/>
     <ResourcesSpawnChance ChanceToSpawn="5.0" Resource="RES-FISH"/>
+    <ResourcesSpawnChance ChanceToSpawn="7.0" Resource="RES-SEAWEED"/>
     <Tag Value="TAG-TERRAIN_SEASHORE" />
   </TERRAIN-SEASHORE>
 
   <TERRAIN-SEA MovementCost="1" ID="Sea">
     <DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="Sea"/>
-    <ResourcesSpawnChance ChanceToSpawn="10.0" Resource="RES-FISH"/>
+    <ResourcesSpawnChance ChanceToSpawn="7.0" Resource="RES-FISH"/>
+    <ResourcesSpawnChance ChanceToSpawn="7.0" Resource="RES-SEAWEED"/>
     <Tag Value="TAG-TERRAIN_SEA" />
   </TERRAIN-SEA>
 

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Woodlandkin" lastEventIndex="59" allowToUse="true" uniqueModuleID="1612101016">
+<?xml version="1.0" encoding="windows-1250"?>
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Woodlandkin" lastEventIndex="61" allowToUse="true" uniqueModuleID="1612101016">
   <Adventure name="WoodKillsmallShelf" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="53" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event016">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
@@ -3472,13 +3472,14 @@ The elves are dismayed at your brutish nature. They pay you as agreed, but you l
       </logic>
       <outputs name="Leave." ownerID="63" targetID="44" fromX="3666.38184" fromY="-1478.26685" />You are badly beaten. The elves have to come to your rescue and are not impressed with your 'help.'</nodes>
   </Adventure>
-  <Adventure name="WoodkinVillageMed" uniqueID="25" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="118" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-66" positionY="226" width="347" height="982" image="Event035">
+  <Adventure name="WoodkinVillageMed" uniqueID="25" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="119" eventTag="TAG-LOG23" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-66" positionY="226" width="347" height="1062" image="Event035">
       <outputs ownerID="1" targetID="111" group="G1" fromX="258" fromY="-377" />
       <outputs ownerID="1" targetID="105" group="G1" fromX="258" fromY="-457" />
       <outputs ownerID="1" targetID="104" group="G1" fromX="258" fromY="-537" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="258" fromY="-618" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="258" fromY="-698" />
+      <outputs ownerID="1" targetID="119" group="G1" fromX="258" fromY="-618" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="258" fromY="-698" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="258" fromY="-778" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="392" positionY="-61" width="350" height="1527">
       <logic>
@@ -3496,6 +3497,11 @@ The elves are dismayed at your brutish nature. They pay you as agreed, but you l
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
           </LogicFilter>
         </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC36" />
+          </LogicModifiers>
+        </ModifierBlock>
       </logic>
       <outputs name="Ask if there is anything you can help with." ownerID="2" targetID="21" fromX="717" fromY="-552" />
       <outputs name="Say you just came to rest and visit, perhaps heal your wounds." ownerID="2" targetID="79" fromX="717" fromY="-632" />
@@ -3510,7 +3516,7 @@ The elves are dismayed at your brutish nature. They pay you as agreed, but you l
       <outputs name="You see a familiar face, approach." ownerID="2" targetID="117" fromX="717" fromY="-1354" />'Welcome, what brings you to our haven?'
 
 Some village activities will only be available when you are friends with its people and some are restricted to chance, so coming back from time to time may be worth it.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="3565.721" positionY="1486.53271" width="350" height="360.8" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="3565.721" positionY="1486.53271" width="350" height="530" logBookName="QUEST_WOODLAND" logBookDescription="QUEST_WOODLAND_DES" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="4497" positionY="-2120" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="5" positionX="432.185" positionY="931.1078" width="350" height="885">
       <logic>
@@ -3558,7 +3564,15 @@ You do not see anyone, but you feel watched. </nodes>
       <outputs name="Surrender" ownerID="7" targetID="16" fromX="1322" fromY="320" />
       <outputs name="Win" ownerID="7" targetID="6" group="G1" fromX="1322" fromY="239" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2450.95752" positionY="943.6915" width="350" height="455" allPlayersXP="8" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2450.95752" positionY="943.6915" width="350" height="530" allPlayersXP="8" allPlayersRP="5" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-WATERDLC36" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="9" positionX="2003.477" positionY="383.7362" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
@@ -3615,7 +3629,7 @@ You do not see anyone, but you feel watched. </nodes>
 Elven ruins lie not far from here. If you seek enlightenment, go seek them out, but please, remain respectful of our ancestry.'</nodes>
     <nodes xsi:type="NodeAdventure" allowOnce="true" ID="19" positionX="2458.121" positionY="-31.6077137" width="350" height="805">
       <outputs name="Agree." ownerID="19" targetID="20" fromX="2783" fromY="-522" />
-      <outputs name="Decline and leave." ownerID="19" targetID="3" fromX="2783" fromY="-602" />'Remnants of the dark curse ever linger in our woods, so many forest demons and even animals behave oddly, to say the least. 
+      <outputs name="Decline and leave." ownerID="19" targetID="3" fromX="2439" fromY="-602" />'Remnants of the dark curse ever linger in our woods, so many forest demons and even animals behave oddly, to say the least. 
 
 One such place lies nearby. Seek out what ails our forest and make reparations.'</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="20" positionX="2834.08447" positionY="-74.88287" width="480" height="503" radius="5" groupID="GROUP-BOARS_2P_1M_0S" destroyOwner="false" linkedEventUniqueID="26">
@@ -4408,7 +4422,7 @@ You feel any dark energy slowly drained away.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="104" positionX="-504" positionY="-628" width="350" height="530" linkedEventUniqueID="45">
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="104" positionX="-533" positionY="-592" width="350" height="530" linkedEventUniqueID="45">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -4465,7 +4479,7 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="112" positionX="-76" positionY="-785" width="350" height="530" linkedEventUniqueID="54">
+    <nodes xsi:type="NodeAdventureEnd" ID="112" positionX="-67" positionY="-864" width="350" height="530" linkedEventUniqueID="54">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -4562,7 +4576,7 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
       <outputs name="Confirm" ownerID="115" targetID="65" fromX="2781" fromY="-1808" />
       <outputs name="Cancel" ownerID="115" targetID="21" fromX="2781" fromY="-1888" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="116" positionX="-85" positionY="-1336" width="350" height="530" linkedEventUniqueID="55">
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="116" positionX="-76" positionY="-1386" width="350" height="530" linkedEventUniqueID="55">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -4607,6 +4621,18 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
       </logic>
       <outputs ownerID="118" targetID="6" fromX="1346" fromY="1098" />
     </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="119" positionX="-527" positionY="-1152" width="350" height="530" linkedEventUniqueID="61">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC34" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-OCCUPENDELF1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+    </nodes>
   </Adventure>
   <Adventure name="WoodKillVily" uniqueID="26" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="55" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-451.314148" positionY="-29.9478874" width="347" height="661" image="Event015">
@@ -4646,13 +4672,13 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="You know how to handle vily. Try to figure it out." ownerID="2" targetID="3" fromX="337" fromY="-482" />
-      <outputs name="[Hunter]Stalk these vily for a time and observe them." ownerID="2" targetID="4" fromX="337" fromY="-562" />
-      <outputs name="Through nature or intellect, use your mental prowess to figure out what to do. " ownerID="2" targetID="16" fromX="337" fromY="-642" />
-      <outputs name="[Leshy]Dominate the vily and call for obedience!" ownerID="2" targetID="50" fromX="337" fromY="-723" />
-      <outputs name="Attack!" ownerID="2" targetID="24" fromX="337" fromY="-803" />
-      <outputs name="Come back later." ownerID="2" targetID="31" fromX="337" fromY="-883" />You approach the area where the pack of unruly vily you were asked to deal with is said to roam.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="-702.95" positionY="1802.00781" width="350" height="1162.65">
+      <outputs name="You know how to handle vily. Try to figure it out." ownerID="2" targetID="3" fromX="335" fromY="-480" />
+      <outputs name="[Hunter]Stalk these vily for a time and observe them." ownerID="2" targetID="4" fromX="335" fromY="-560" />
+      <outputs name="Through nature or intellect, use your mental prowess to figure out what to do. " ownerID="2" targetID="16" fromX="335" fromY="-640" />
+      <outputs name="[Leshy]Dominate the vily and call for obedience!" ownerID="2" targetID="50" fromX="335" fromY="-720" />
+      <outputs name="Attack!" ownerID="2" targetID="24" fromX="335" fromY="-800" />
+      <outputs name="Come back later." ownerID="2" targetID="31" fromX="335" fromY="-881" />You approach the area where the pack of unruly vily you were asked to deal with is said to roam.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="-702.95" positionY="1802.00781" width="350" height="1206">
       <logic>
         <FilterBlock>
           <LogicProcessing name="viatry" makePublic="true" list1="vily" list2="viatroviec">
@@ -4666,13 +4692,13 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="[Vily and viatroviec]Join their chaotic flight and try to find out what is happening from within. " ownerID="3" targetID="7" group="G1" fromX="-377.199982" fromY="1354.93774" />
-      <outputs name="[Vily and viatroviec]Join their chaotic flight and try to find out what is happening from within. " ownerID="3" targetID="42" group="G1" fromX="-377.199982" fromY="1274.73779" />
-      <outputs name="Speak to the vily. Call upon their duty to the forest!" ownerID="3" targetID="5" group="G1" fromX="-377.199982" fromY="1194.53784" />
-      <outputs name="[Leshy]Dominate the vily and call for obedience!" ownerID="3" targetID="50" fromX="-377.199982" fromY="1114.33789" />
-      <outputs name="Set a trap for the pack and attack when they are weakened." ownerID="3" targetID="30" fromX="-377.199982" fromY="1034.13782" />
-      <outputs name="[Magic user]These vily seem taken by some dark curse. Try to break through it to release them!" ownerID="3" targetID="52" fromX="-377.199982" fromY="953.937744" />
-      <outputs name="[Leshy]You sense these vily are held by some odd force. Use your forest voice to call for obedience!" ownerID="3" targetID="6" fromX="-377.199982" fromY="873.7379" />You get in closer and observe. The vily are swirling around a single young sapling. They seem crazed, snapping and hissing at the tree. </nodes>
+      <outputs name="[Vily and viatroviec]Join their chaotic flight and try to find out what is happening from within. " ownerID="3" targetID="7" group="G1" fromX="-377" fromY="1310" />
+      <outputs name="[Vily and viatroviec]Join their chaotic flight and try to find out what is happening from within. " ownerID="3" targetID="42" group="G1" fromX="-377" fromY="1230" />
+      <outputs name="Speak to the vily. Call upon their duty to the forest!" ownerID="3" targetID="5" group="G1" fromX="-377" fromY="1150" />
+      <outputs name="[Leshy]Dominate the vily and call for obedience!" ownerID="3" targetID="50" fromX="-377" fromY="1070" />
+      <outputs name="Set a trap for the pack and attack when they are weakened." ownerID="3" targetID="30" fromX="-377" fromY="990" />
+      <outputs name="[Magic user]These vily seem taken by some dark curse. Try to break through it to release them!" ownerID="3" targetID="52" fromX="-377" fromY="909" />
+      <outputs name="[Leshy]You sense these vily are held by some odd force. Use your forest voice to call for obedience!" ownerID="3" targetID="6" fromX="-377" fromY="829" />You get in closer and observe. The vily are swirling around a single young sapling. They seem crazed, snapping and hissing at the tree. </nodes>
     <nodes xsi:type="NodeAdventure" ID="4" positionX="1079.43433" positionY="-21.7207184" width="350" height="805">
       <logic>
         <FilterBlock>
@@ -4705,7 +4731,7 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
       <outputs name="Lose" ownerID="5" targetID="32" fromX="1015.93561" fromY="1709.98413" />
       <outputs name="Surrender" ownerID="5" targetID="32" fromX="1015.93561" fromY="1629.78418" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="6" positionX="334.2104" positionY="1487.60754" width="500" height="689.76" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_1S" challengeScale="200" challengedList="ppl">
+    <nodes xsi:type="NodeChallenge" ID="6" positionX="334.2104" positionY="1487.60754" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_1S" challengeScale="200" challengedList="ppl">
       <logic>
         <FilterBlock>
           <LogicResultAction list="leshy">
@@ -4713,9 +4739,9 @@ This is now a shadow town and its corrupted inhabitants don't seem eager to spea
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="6" targetID="51" fromX="775.335266" fromY="1029.24756" />
-      <outputs name="Lose" ownerID="6" targetID="33" fromX="775.335266" fromY="949.0476" />
-      <outputs name="Surrender" ownerID="6" targetID="33" fromX="775.335266" fromY="868.847534" />
+      <outputs name="Win" ownerID="6" targetID="51" fromX="775" fromY="992" />
+      <outputs name="Lose" ownerID="6" targetID="33" fromX="775" fromY="911" />
+      <outputs name="Surrender" ownerID="6" targetID="33" fromX="775" fromY="831" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="45.8724136" positionY="3003.78125" width="350" height="681.449951">
       <logic>
@@ -4774,8 +4800,8 @@ The winds calm, and the demons return to their duties. The elves are very gratef
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeDealDamage" ID="11" positionX="2427.71631" positionY="-632.391968" width="460" height="459.36" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="30" useCountInPercent="true" targetGroup="ppl">
-      <outputs ownerID="11" targetID="13" fromX="2856.96631" fromY="-1020.75195" />
+    <nodes xsi:type="NodeDealDamage" ID="11" positionX="2427.71631" positionY="-632.391968" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="30" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="11" targetID="13" fromX="2856" fromY="-1020" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="12" positionX="2189.332" positionY="-31.621664" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <logic>
@@ -4790,7 +4816,7 @@ The winds calm, and the demons return to their duties. The elves are very gratef
     <nodes xsi:type="NodeAdventure" ID="13" positionX="2991.19019" positionY="-642.893" width="350" height="681.449951">
       <outputs name="Put them down." ownerID="13" targetID="18" fromX="3316.94043" fromY="-1089.963" />Some of the vily fight back and wound you.
 </nodes>
-    <nodes xsi:type="NodeChallenge" ID="16" positionX="982.445862" positionY="-856.3269" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_1M_0S" challengeScale="400" challengedList="ppl">
+    <nodes xsi:type="NodeChallenge" ID="16" positionX="982.445862" positionY="-856.3269" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_3M_0S" challengeScale="400" challengedList="ppl">
       <logic>
         <FilterBlock>
           <LogicResultAction resultGroup="G1">
@@ -4837,10 +4863,10 @@ This leads you to a small wooden idol, buried nearby. You destroy it and the vil
     <nodes xsi:type="NodeSpawnOnMap" ID="19" positionX="1891.91553" positionY="-691.4325" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="19" targetID="11" fromX="2340" fromY="-1123" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="24" positionX="2035.2384" positionY="-1503.46716" width="500" height="689.76" challengeType="TypePhysical" versusGroup="GROUP-VILY_4P_4M_3S" challengeScale="150" challengedList="ppl">
-      <outputs name="Win" ownerID="24" targetID="55" fromX="2476.36328" fromY="-1961.82715" />
-      <outputs name="Lose" ownerID="24" targetID="26" fromX="2476.36328" fromY="-2042.0271" />
-      <outputs name="Surrender" ownerID="24" targetID="26" fromX="2476.36328" fromY="-2122.227" />
+    <nodes xsi:type="NodeChallenge" ID="24" positionX="2035.2384" positionY="-1503.46716" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-VILY_4P_4M_3S" challengeScale="150" challengedList="ppl">
+      <outputs name="Win" ownerID="24" targetID="55" fromX="2476" fromY="-1998" />
+      <outputs name="Lose" ownerID="24" targetID="26" fromX="2476" fromY="-2079" />
+      <outputs name="Surrender" ownerID="24" targetID="26" fromX="2476" fromY="-2159" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="26" positionX="3243.04" positionY="-1657.54871" width="350" height="681.449951">
       <logic>
@@ -5505,7 +5531,7 @@ Within the lair, you find some dead boars[R34], but also a few that may yet live
       <outputs name="Lose" ownerID="3" targetID="56" fromX="1345" fromY="262" />
       <outputs name="Surrender" ownerID="3" targetID="56" fromX="1345" fromY="182" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="4" positionX="897.4968" positionY="120.365417" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_1M_0S" challengeScale="400" challengedList="ppl">
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="897.4968" positionY="120.365417" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_3M_0S" challengeScale="400" challengedList="ppl">
       <logic>
         <FilterBlock>
           <LogicFilter name="hunter">
@@ -6653,8 +6679,8 @@ They move on and the elves are impressed with your peaceful resolution.
     </nodes>
   </Adventure>
   <Adventure name="Crazy elf" uniqueID="33" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="70" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event035">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event035">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="460.387878" positionY="-71.72876" width="350" height="805">
       <logic>
@@ -8009,17 +8035,17 @@ However, when you approach the place they guarded, a small running spring, its w
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="45" positionX="-1331" positionY="-96" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeSpawnOnMap" ID="46" positionX="-620.305359" positionY="-840.7992" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
-      <outputs ownerID="46" targetID="35" fromX="-171" fromY="-1272" />
+      <outputs ownerID="46" targetID="35" fromX="-171" fromY="-822" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="47" positionX="-866" positionY="-91" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="47" targetID="45" fromX="-417" fromY="-523" />
     </nodes>
   </Adventure>
-  <Adventure name="Elf Loot" uniqueID="36" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="12" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="579" image="Event009">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-531" />
+  <Adventure name="Elf Loot" uniqueID="36" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="12" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event009">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="495.902771" positionY="-102.638977" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="495.902771" positionY="-102.638977" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -8027,8 +8053,8 @@ However, when you approach the place they guarded, a small running spring, its w
           </LogicFilter>
         </FilterBlock>
       </logic>
-      <outputs name="Gather any loot and leave." ownerID="2" targetID="12" fromX="821" fromY="-549" />These elven ruins look fairly fresh, seemingly abandoned due to violence rather than age. The elves were evacuated, but you may still find some usable resources. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="1002.83789" positionY="-607.890442" width="350" height="681" image="Event025">
+      <outputs name="Gather any loot and leave." ownerID="2" targetID="12" fromX="821" fromY="-593" />These elven ruins look fairly fresh, seemingly abandoned due to violence rather than age. The elves were evacuated, but you may still find some usable resources. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1002.83789" positionY="-607.890442" width="350" height="725" image="Event025">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -8036,10 +8062,10 @@ However, when you approach the place they guarded, a small running spring, its w
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Take the chest." ownerID="3" targetID="6" fromX="1328" fromY="-1054" />You find a chest with some weaponry, but just as you reach for it, an unstable building above crumbles down on you, leaving many bruises.
+      <outputs name="Take the chest." ownerID="3" targetID="6" fromX="1328" fromY="-1099" />You find a chest with some weaponry, but just as you reach for it, an unstable building above crumbles down on you, leaving many bruises.
 
 Still, you get the chest.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1005.93878" positionY="-19.5613251" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1005.93878" positionY="-19.5613251" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -8059,7 +8085,7 @@ Still, you get the chest.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="6" positionX="1513.26453" positionY="-799.924561" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="2" maxDamage="6" useCountInPercent="false" targetGroup="ppl">
       <outputs name="wstan i idz" ownerID="6" targetID="10" fromX="1942" fromY="-1188" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="9" positionX="1428.71094" positionY="-350.056366" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="9" positionX="1428.71094" positionY="-350.056366" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -8482,11 +8508,11 @@ You are free to search the ruin.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="367.807129" positionY="-1368.312" width="350" height="360.8" linkedEventUniqueID="36" />
   </Adventure>
-  <Adventure name="cemetery elf guard" uniqueID="39" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="74" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-28.0198021" positionY="271.098083" width="347" height="579" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="296" fromY="-250" />
+  <Adventure name="cemetery elf guard" uniqueID="39" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="74" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-28.0198021" positionY="271.098083" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="296" fromY="-454" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="449.7873" positionY="620.599" width="350" height="1082">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="449.7873" positionY="620.599" width="350" height="1126">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -8503,12 +8529,12 @@ You are free to search the ruin.</nodes>
           </LogicProcessing>
         </FilterBlock>
       </logic>
-      <outputs name="[Forest folk]State you have come for the blessings of the memory tree, as is your right." ownerID="2" targetID="4" fromX="775" fromY="173" />
-      <outputs name="Bow in respect and say you have come seeking wisdom from the elves." ownerID="2" targetID="6" fromX="775" fromY="93" />
-      <outputs name="[Orc or turmoil]You feel strangely weakened standing in the presence of the tree. Say you come in peace." ownerID="2" targetID="28" fromX="775" fromY="13" />
-      <outputs name="Attack the elves and pillage the tree." ownerID="2" targetID="32" fromX="775" fromY="-67" />
-      <outputs name="Say you are merely here out of curiosity." ownerID="2" targetID="56" fromX="775" fromY="-147" />
-      <outputs name="Leave." ownerID="2" targetID="62" fromX="775" fromY="-227" />You step in closer and hear a faint rustling of leaves. You look up and see some bows aimed at you. 
+      <outputs name="[Forest folk]State you have come for the blessings of the memory tree, as is your right." ownerID="2" targetID="4" fromX="775" fromY="129" />
+      <outputs name="Bow in respect and say you have come seeking wisdom from the elves." ownerID="2" targetID="6" fromX="775" fromY="49" />
+      <outputs name="[Orc or turmoil]You feel strangely weakened standing in the presence of the tree. Say you come in peace." ownerID="2" targetID="28" fromX="775" fromY="-30" />
+      <outputs name="Attack the elves and pillage the tree." ownerID="2" targetID="32" fromX="775" fromY="-111" />
+      <outputs name="Say you are merely here out of curiosity." ownerID="2" targetID="56" fromX="775" fromY="-191" />
+      <outputs name="Leave." ownerID="2" targetID="62" fromX="775" fromY="-271" />You step in closer and hear a faint rustling of leaves. You look up and see some bows aimed at you. 
 
 'What do you seek in this sacred place?'
 </nodes>
@@ -8543,7 +8569,7 @@ You are free to search the ruin.</nodes>
       <outputs name="Ask why they haven't done it yet." ownerID="5" targetID="13" fromX="1452" fromY="1633" />'Since you are here, we have a boon to ask. A corrupted spirit invades this sacred place, and we are bound not to leave this tree. The spirit resides not far away and can only be dealt with there. Will you help?
 
 All you need to do is carry this branch to the place. It will trap the evil spirit and prevent it from pestering the memory tree.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="933.8743" positionY="707.956665" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="933.8743" positionY="707.956665" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicResultAction resultGroup="G1">
@@ -8557,7 +8583,7 @@ All you need to do is carry this branch to the place. It will trap the evil spir
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Bow in thanks for the blessing." ownerID="6" targetID="68" fromX="1259" fromY="260" />'You follow the right path. You may proceed.'
+      <outputs name="Bow in thanks for the blessing." ownerID="6" targetID="68" fromX="1259" fromY="216" />'You follow the right path. You may proceed.'
 
 You stand by the memory tree and meditate. You hear a faint yet moving song in your head, and the words seem to come from every crystal that hangs before you.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="3019.025" positionY="32.3255272" width="350" height="360.8" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
@@ -8720,7 +8746,7 @@ You feel a growing, heavy stare of the forest upon you.
       <outputs name="Leave." ownerID="27" targetID="46" fromX="4511.248" fromY="23.1664734" />You fail to kill the spirit and feel a growing, heavy stare of the forest upon you.
 
 You get the sense that you are lucky the elf guards cannot leave their post.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="28" positionX="1299.8916" positionY="-431.704285" width="350" height="922">
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="1299.8916" positionY="-431.704285" width="350" height="966">
       <logic>
         <FilterBlock>
           <LogicFilter name="orc">
@@ -8734,13 +8760,13 @@ You get the sense that you are lucky the elf guards cannot leave their post.</no
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Agree to be tested." ownerID="28" targetID="29" group="G1" fromX="1625" fromY="-878" />
-      <outputs name="Agree to be tested." ownerID="28" targetID="30" group="G1" fromX="1625" fromY="-958" />
-      <outputs name="Decline and leave." ownerID="28" targetID="62" fromX="1625" fromY="-1039" />
-      <outputs name="Attack instead!" ownerID="28" targetID="32" fromX="1625" fromY="-1119" />'Strange words coming from you. You follow a path of turmoil and warmongering. It is not welcome in this place. 
+      <outputs name="Agree to be tested." ownerID="28" targetID="29" group="G1" fromX="1625" fromY="-922" />
+      <outputs name="Agree to be tested." ownerID="28" targetID="30" group="G1" fromX="1625" fromY="-1003" />
+      <outputs name="Decline and leave." ownerID="28" targetID="62" fromX="1625" fromY="-1083" />
+      <outputs name="Attack instead!" ownerID="28" targetID="32" fromX="1625" fromY="-1163" />'Strange words coming from you. You follow a path of turmoil and warmongering. It is not welcome in this place. 
 
 If you wish to stay, you may be judged harshly by the memories and risk your spirit, but we will allow you to touch the tree if you wish.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="29" positionX="1781.33044" positionY="-326.505737" width="350" height="761">
+    <nodes xsi:type="NodeAdventure" ID="29" positionX="1781.33044" positionY="-326.505737" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -8753,8 +8779,8 @@ If you wish to stay, you may be judged harshly by the memories and risk your spi
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="29" targetID="50" fromX="2107" fromY="-773" />
-      <outputs name="Attack!" ownerID="29" targetID="32" fromX="2107" fromY="-853" />You reach for the tree and feel its energy reaching back. It is full of light and calmness, serenity... dull, stifling, suffocating, tugging at the very fibre of turmoil within you!
+      <outputs name="Leave." ownerID="29" targetID="50" fromX="2107" fromY="-817" />
+      <outputs name="Attack!" ownerID="29" targetID="32" fromX="2107" fromY="-897" />You reach for the tree and feel its energy reaching back. It is full of light and calmness, serenity... dull, stifling, suffocating, tugging at the very fibre of turmoil within you!
 
 You manage to step back, but you feel a deep burning within. </nodes>
     <nodes xsi:type="NodeAdventure" ID="30" positionX="1725.43188" positionY="-1202.26184" width="350" height="681.449951">
@@ -8923,13 +8949,13 @@ You get the sense that you are lucky the elf guards cannot leave their post.</no
     <nodes xsi:type="NodeDealDamage" ID="55" positionX="2513.16284" positionY="-2750.5105" width="460" height="459.36" challengeTypeDamage="TypeSpirit" minDamage="2" maxDamage="5" useCountInPercent="false" targetGroup="elf">
       <outputs ownerID="55" targetID="66" fromX="2942.41284" fromY="-3138.87061" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="56" positionX="257.335449" positionY="-666.8797" width="350" height="841">
-      <outputs name="Agree to be tested." ownerID="56" targetID="57" group="G1" fromX="583" fromY="-1113" />
-      <outputs name="Agree to be tested." ownerID="56" targetID="30" group="G1" fromX="583" fromY="-1194" />
-      <outputs name="Decline and leave." ownerID="56" targetID="62" fromX="583" fromY="-1274" />'You are a stranger here. Still, the memory tree is a place of contemplation for all.
+    <nodes xsi:type="NodeAdventure" ID="56" positionX="257.335449" positionY="-666.8797" width="350" height="885">
+      <outputs name="Agree to be tested." ownerID="56" targetID="57" group="G1" fromX="583" fromY="-1158" />
+      <outputs name="Agree to be tested." ownerID="56" targetID="30" group="G1" fromX="583" fromY="-1238" />
+      <outputs name="Decline and leave." ownerID="56" targetID="62" fromX="583" fromY="-1318" />'You are a stranger here. Still, the memory tree is a place of contemplation for all.
 
 If you wish to stay, you may be judged harshly by the memories and risk your spirit, but we will allow you to touch the tree if you wish.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="57" positionX="803.58075" positionY="-614.336548" width="350" height="761">
+    <nodes xsi:type="NodeAdventure" ID="57" positionX="803.58075" positionY="-614.336548" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -8942,8 +8968,8 @@ If you wish to stay, you may be judged harshly by the memories and risk your spi
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="57" targetID="50" fromX="1129" fromY="-1061" />
-      <outputs name="Attack!" ownerID="57" targetID="32" fromX="1129" fromY="-1141" />You reach for the tree and feel its energy reaching back. It is full of light and calmness, serenity... dull, stifling, suffocating, tugging at the very fibre of turmoil within you!
+      <outputs name="Leave." ownerID="57" targetID="50" fromX="1129" fromY="-1105" />
+      <outputs name="Attack!" ownerID="57" targetID="32" fromX="1129" fromY="-1185" />You reach for the tree and feel its energy reaching back. It is full of light and calmness, serenity... dull, stifling, suffocating, tugging at the very fibre of turmoil within you!
 
 You manage to step back, but you feel a deep burning within. </nodes>
     <nodes xsi:type="NodeDealDamage" ID="58" positionX="2162.709" positionY="1474.37476" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="30" maxDamage="60" useCountInPercent="true" targetGroup="fdemon">
@@ -9033,11 +9059,11 @@ You manage to step back, but you feel a deep burning within. </nodes>
       <outputs ownerID="74" targetID="45" fromX="5501.47852" fromY="2340.69434" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery elf ghost" uniqueID="40" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="50" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="704" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-656" />
+  <Adventure name="cemetery elf ghost" uniqueID="40" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="50" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="-21.9474411" positionY="-782.6209" width="350" height="761">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="-21.9474411" positionY="-782.6209" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -9189,7 +9215,7 @@ I will also allow you to reach for the ones up top, for they carry greater bless
       <outputs name="Agree to face the mental challenge." ownerID="14" targetID="24" fromX="1508" fromY="308" />'Such desires can lead you astray, young one, so be wary of them. 
 
 Yet I do not sense malice in your intent, so I will allow you to face a challenge of your wits or spirits. If either proves to my liking, I will grant you the boon from the memory tree.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="15" positionX="1634.40137" positionY="681.0215" width="350" height="922">
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="1634.40137" positionY="681.0215" width="350" height="966">
       <outputs name="Agree to face the spirit challenge." ownerID="15" targetID="22" fromX="1960" fromY="189" />
       <outputs name="Agree to face the mental challenge." ownerID="15" targetID="24" fromX="1960" fromY="109" />
       <outputs name="Attack the apparition!" ownerID="15" targetID="18" group="G1" fromX="1960" fromY="29" />
@@ -9214,7 +9240,7 @@ The tears can grant boons if given by a guardian willingly.'</nodes>
       <outputs name="Say that you are not yet ready to leave the physical plane, merely here to pay your respects." ownerID="17" targetID="6" fromX="1675" fromY="1569" />'This is the consequence of following these mortal gods, my young brethren. Be cautious on your path.
 
 The ever-sleep is when we decide to shed our material shells and rejoin the ever-light from whence we came.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="18" positionX="1074.328" positionY="-804.7416" width="350" height="681">
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="1074.328" positionY="-804.7416" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -9457,11 +9483,11 @@ The ever-sleep is when we decide to shed our material shells and rejoin the ever
       <outputs ownerID="50" targetID="11" group="G1" fromX="5258.30371" fromY="379.33252" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery elf statue" uniqueID="41" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="47" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="579" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-531" />
+  <Adventure name="cemetery elf statue" uniqueID="41" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="47" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="510.381378" positionY="-159.995" width="350" height="1162">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="510.381378" positionY="-159.995" width="350" height="1206">
       <logic>
         <FilterBlock>
           <LogicFilter name="elf" makePublic="true">
@@ -9481,14 +9507,14 @@ The ever-sleep is when we decide to shed our material shells and rejoin the ever
           </LogicProcessing>
         </FilterBlock>
       </logic>
-      <outputs name="You feel your divine connection pulling you towards the statue. Touch it. " ownerID="2" targetID="3" fromX="836" fromY="-607" />
-      <outputs name="[Elf]Sing the ever-sleep song to soothe your elven brethren on their journey." ownerID="2" targetID="9" fromX="836" fromY="-687" />
-      <outputs name="You sense faint remnants of life within the woodwork -- a spirit almost crossed over, perhaps? Meditate in respect for this soul." ownerID="2" targetID="18" fromX="836" fromY="-767" />
-      <outputs name="[Dwarf]As statues go, this one was not made by mortal hands. Examine the craft." ownerID="2" targetID="4" fromX="836" fromY="-847" />
-      <outputs name="Take the precious stuff out." ownerID="2" targetID="27" group="G2" fromX="836" fromY="-927" />
-      <outputs name="Take the precious stuff out." ownerID="2" targetID="5" group="G2" fromX="836" fromY="-1008" />
-      <outputs name="Pay your respects and leave." ownerID="2" targetID="43" fromX="836" fromY="-1088" />You come closer to the tree and realise that out of one of the roots grows the figure of an elf -- a wooden statue, lifelike yet clearly static. There are several ornaments made of precious stones and metals on the statue -- a tiara, some rings, and a decorative chest piece. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="3" positionX="562.658936" positionY="871.292236" width="350" height="922">
+      <outputs name="You feel your divine connection pulling you towards the statue. Touch it. " ownerID="2" targetID="3" fromX="836" fromY="-651" />
+      <outputs name="[Elf]Sing the ever-sleep song to soothe your elven brethren on their journey." ownerID="2" targetID="9" fromX="836" fromY="-731" />
+      <outputs name="You sense faint remnants of life within the woodwork -- a spirit almost crossed over, perhaps? Meditate in respect for this soul." ownerID="2" targetID="18" fromX="836" fromY="-811" />
+      <outputs name="[Dwarf]As statues go, this one was not made by mortal hands. Examine the craft." ownerID="2" targetID="4" fromX="836" fromY="-891" />
+      <outputs name="Take the precious stuff out." ownerID="2" targetID="27" group="G2" fromX="836" fromY="-971" />
+      <outputs name="Take the precious stuff out." ownerID="2" targetID="5" group="G2" fromX="836" fromY="-1052" />
+      <outputs name="Pay your respects and leave." ownerID="2" targetID="43" fromX="836" fromY="-1132" />You come closer to the tree and realise that out of one of the roots grows the figure of an elf -- a wooden statue, lifelike yet clearly static. There are several ornaments made of precious stones and metals on the statue -- a tiara, some rings, and a decorative chest piece. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="562.658936" positionY="871.292236" width="350" height="966">
       <logic>
         <FilterBlock>
           <LogicResultAction resultGroup="G1">
@@ -9499,13 +9525,13 @@ The ever-sleep is when we decide to shed our material shells and rejoin the ever
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Give some of your spirit so that this soul may cross over in peace." ownerID="3" targetID="28" fromX="888" fromY="424" />
-      <outputs name="Pillage the goods from the statue." ownerID="3" targetID="27" group="G1" fromX="888" fromY="344" />
-      <outputs name="Pillage the goods from the statue." ownerID="3" targetID="5" group="G1" fromX="888" fromY="263" />
-      <outputs name="Do not offer your spirit, but pay your respects before leaving here." ownerID="3" targetID="42" fromX="888" fromY="183" />When you touch the statue, you feel it tugging at your bond to the gods. 
+      <outputs name="Give some of your spirit so that this soul may cross over in peace." ownerID="3" targetID="28" fromX="888" fromY="380" />
+      <outputs name="Pillage the goods from the statue." ownerID="3" targetID="27" group="G1" fromX="888" fromY="299" />
+      <outputs name="Pillage the goods from the statue." ownerID="3" targetID="5" group="G1" fromX="888" fromY="219" />
+      <outputs name="Do not offer your spirit, but pay your respects before leaving here." ownerID="3" targetID="42" fromX="888" fromY="139" />When you touch the statue, you feel it tugging at your bond to the gods. 
 
 There is an emptiness inside the sleeping elf, and your domain seems to correspond to what is missing. You feel that you would be able to feed this emptiness, but it may be risky. </nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="2009.53784" positionY="-90.1687" width="350" height="841">
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="2009.53784" positionY="-90.1687" width="350" height="885">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -9516,18 +9542,18 @@ There is an emptiness inside the sleeping elf, and your domain seems to correspo
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Create a small stone carving and add it to this statue in honour of the soul that is passing." ownerID="4" targetID="42" fromX="2335" fromY="-537" />
-      <outputs name="Pillage the goods from the statue." ownerID="4" targetID="27" group="G2" fromX="2335" fromY="-617" />
-      <outputs name="Pillage the goods from the statue." ownerID="4" targetID="5" group="G2" fromX="2335" fromY="-697" />The carving is too delicate, the design too imperfect in its absolute perfection. This must the sacred elven ever-sleep. Like some of your own ancient kin who fall to stone upon death, the elves are said to choose their time of death and turn into statues before their spirit forms float away.
+      <outputs name="Create a small stone carving and add it to this statue in honour of the soul that is passing." ownerID="4" targetID="42" fromX="2335" fromY="-581" />
+      <outputs name="Pillage the goods from the statue." ownerID="4" targetID="27" group="G2" fromX="2335" fromY="-661" />
+      <outputs name="Pillage the goods from the statue." ownerID="4" targetID="5" group="G2" fromX="2335" fromY="-741" />The carving is too delicate, the design too imperfect in its absolute perfection. This must the sacred elven ever-sleep. Like some of your own ancient kin who fall to stone upon death, the elves are said to choose their time of death and turn into statues before their spirit forms float away.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="5" positionX="1020.24817" positionY="-879.1128" width="350" height="761">
-      <outputs name="Try to resist." ownerID="5" targetID="6" fromX="1345" fromY="-1326" />
-      <outputs name="Run away." ownerID="5" targetID="47" fromX="1345" fromY="-1406" />You try to take the statue apart, but its eyes open and a ray of stifling bright light engulfs you in its burning blaze.</nodes>
-    <nodes xsi:type="NodeChallenge" ID="6" positionX="1479.88635" positionY="-900.6983" width="500" height="769" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_1S" challengeScale="200" challengedList="ppl">
-      <outputs name="Win" ownerID="6" targetID="25" group="G1" fromX="1921" fromY="-1359" />
-      <outputs name="Lose" ownerID="6" targetID="26" fromX="1921" fromY="-1439" />
-      <outputs name="Surrender" ownerID="6" targetID="26" fromX="1921" fromY="-1519" />
-      <outputs name="Win" ownerID="6" targetID="19" group="G1" fromX="1921" fromY="-1599" />
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1020.24817" positionY="-879.1128" width="350" height="805">
+      <outputs name="Try to resist." ownerID="5" targetID="6" fromX="1345" fromY="-1370" />
+      <outputs name="Run away." ownerID="5" targetID="47" fromX="1345" fromY="-1450" />You try to take the statue apart, but its eyes open and a ray of stifling bright light engulfs you in its burning blaze.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="6" positionX="1479.88635" positionY="-900.6983" width="500" height="807" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_1S" challengeScale="200" challengedList="ppl">
+      <outputs name="Win" ownerID="6" targetID="25" group="G1" fromX="1921" fromY="-1396" />
+      <outputs name="Lose" ownerID="6" targetID="26" fromX="1921" fromY="-1476" />
+      <outputs name="Surrender" ownerID="6" targetID="26" fromX="1921" fromY="-1556" />
+      <outputs name="Win" ownerID="6" targetID="19" group="G1" fromX="1921" fromY="-1636" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="-104.675537" positionY="-1445.49548" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="9" positionX="538.896362" positionY="-1977.81677" width="350" height="841">
@@ -9598,7 +9624,7 @@ The ever-song soothes such sleepers and tells them of your own life path.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="18" positionX="952.3618" positionY="198.817322" width="350" height="922">
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="952.3618" positionY="198.817322" width="350" height="966">
       <logic>
         <FilterBlock>
           <LogicFilter name="myst">
@@ -9612,10 +9638,10 @@ The ever-song soothes such sleepers and tells them of your own life path.
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Attempt the ritual." ownerID="18" targetID="35" fromX="1278" fromY="-248" />
-      <outputs name="Pay your respects and leave." ownerID="18" targetID="43" group="G1" fromX="1278" fromY="-328" />
-      <outputs name="Pillage the goods from the statue." ownerID="18" targetID="27" group="G2" fromX="1278" fromY="-408" />
-      <outputs name="Pillage the goods from the statue." ownerID="18" targetID="5" group="G2" fromX="1278" fromY="-488" />You feel an energy trying to escape from this plane, but you also sense a stifling force keeping it unnaturally bound.
+      <outputs name="Attempt the ritual." ownerID="18" targetID="35" fromX="1278" fromY="-292" />
+      <outputs name="Pay your respects and leave." ownerID="18" targetID="43" group="G1" fromX="1278" fromY="-372" />
+      <outputs name="Pillage the goods from the statue." ownerID="18" targetID="27" group="G2" fromX="1278" fromY="-452" />
+      <outputs name="Pillage the goods from the statue." ownerID="18" targetID="5" group="G2" fromX="1278" fromY="-532" />You feel an energy trying to escape from this plane, but you also sense a stifling force keeping it unnaturally bound.
 
 You can attempt a ritual to help free this soul, but if you fail, it could harm you.</nodes>
     <nodes xsi:type="NodeAdventure" ID="19" positionX="1086.70886" positionY="-2925.94824" width="350" height="681.449951">
@@ -9791,7 +9817,7 @@ You feel that you can take whatever the soul left for you without being disrespe
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="1480.67847" positionY="-345.736542" width="350" height="408" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="1480.67847" positionY="-345.736542" width="350" height="530" allPlayersXP="3" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -9886,9 +9912,9 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
       <outputs ownerID="47" targetID="7" fromX="900" fromY="-1850" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery elf" uniqueID="42" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="7" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="cemetery elf" uniqueID="42" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="7" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="494.9358" positionY="-43.55951" width="350" height="885">
       <outputs name="Investigate." ownerID="2" targetID="3" group="G1" fromX="820" fromY="-534" />
@@ -9914,7 +9940,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1056.5199" positionY="-594.0545" width="350" height="530" linkedEventUniqueID="41" />
   </Adventure>
-  <Adventure name="ArmyWoodkin" uniqueID="44" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="28" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+  <Adventure name="ArmyWoodkin" uniqueID="44" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="28" eventTag="TAG-LOG23" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event169">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
@@ -9945,7 +9971,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
       <outputs name="Ask if they want to trade." ownerID="3" targetID="4" fromX="1133" fromY="102" />
       <outputs name="Meditate together." ownerID="3" targetID="23" fromX="1133" fromY="22" />'Apologies, friends. We did not recognise you. Greetings and well wishes.'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1242.26245" positionY="596.8367" width="350" height="530" linkedEventUniqueID="29" />
-    <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="-62.93344" positionY="-823.593567" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="-62.93344" positionY="-823.593567" width="350" height="530" logBookName="QUEST_WOODLANDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <FilterBlock>
           <LogicResultAction resultGroup="G1">
@@ -9981,7 +10007,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
       <outputs name="Lose" ownerID="12" targetID="14" fromX="2010" fromY="-885" />
       <outputs name="Surrender" ownerID="12" targetID="14" fromX="2010" fromY="-965" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="2865.2334" positionY="-417.8168" width="350" height="530" allPlayersXP="-1" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="2865.2334" positionY="-417.8168" width="350" height="530" allPlayersXP="-1" allPlayersRP="1" logBookName="QUEST_WOODLANDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -9990,7 +10016,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="3249" positionY="-757" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="3249" positionY="-757" width="350" height="530" logBookName="QUEST_WOODLANDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -10019,7 +10045,7 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
 
 They depart, and some drop their goods before you.
 </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="18" positionX="3337.90649" positionY="-1385.14355" width="350" height="530" allPlayersXP="-1" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="18" positionX="3337.90649" positionY="-1385.14355" width="350" height="530" allPlayersXP="-1" allPlayersRP="1" logBookName="QUEST_WOODLANDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -10062,7 +10088,7 @@ They depart, and some drop their goods before you.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="24" positionX="2060" positionY="-2319" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="24" positionX="2060" positionY="-2319" width="350" height="530" logBookName="QUEST_WOODLANDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicFilter name="stuff">
@@ -10109,7 +10135,7 @@ They depart, and some drop their goods before you.
     <nodes xsi:type="NodeSpawnOnMap" ID="27" positionX="2799" positionY="-2125" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="27" targetID="28" fromX="3247" fromY="-2557" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="3455" positionY="-2089" width="350" height="530" allPlayersXP="-1" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="3455" positionY="-2089" width="350" height="530" allPlayersXP="-1" allPlayersRP="1" logBookName="QUEST_WOODLANDARM" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -11420,5 +11446,207 @@ You will of course leave the customary gift in exchange for their service.'
       </logic>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="12" positionY="-722" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Occupation Elf_" uniqueID="61" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="62" eventTag="TAG-GENDER_MALE" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event169">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="418" positionY="115" width="350" height="1046">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Track down one of the pirate groups and attack them!" ownerID="2" targetID="4" fromX="743" fromY="-376" />
+      <outputs name="Leave." ownerID="2" targetID="3" fromX="743" fromY="-456" />
+      <outputs name="[Pirate]Follow one of the pirate bands and try to parley with them." ownerID="2" targetID="55" group="G1" fromX="743" fromY="-536" />
+      <outputs name="Follow one of the pirate bands and try to parley with them." ownerID="2" targetID="9" group="G1" fromX="743" fromY="-616" />
+      <outputs name="Ask what pirates are doing on land." ownerID="2" targetID="56" fromX="743" fromY="-696" />The elf village is closed to visitors. The drawbridges that once led up into the trees are gone, and armed guards watch your every move.
+You see the heads of many pirates on pikes. An elf guardian informs you coldly:
+'None can enter our realm until we track down and rescue our children. They were taken by pirates, but the scoundrels split into so many groups, we cannot chase them all at once. Leave us be.' He walks off.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="-473" positionY="-797" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="844" positionY="239" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-LOTS_PIRATES_10P_9M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="38" fromX="1285" fromY="-256" />
+      <outputs name="Lose" ownerID="4" targetID="6" fromX="1285" fromY="-336" />
+      <outputs name="Surrender" ownerID="4" targetID="6" fromX="1285" fromY="-416" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1991" positionY="402" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="takenpirates" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="35%;0;1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDELF1" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_TURTLE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;50" tag="ITEM_CARGO-FEW_HIGH_RANDOM_GEMSTONE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="5" targetID="17" fromX="2316" fromY="-89" />You kill the pirates and rescue the elf slaves they captured. The Woodlandkin are very grateful for your help, although they claim they could have handled it themselves well enough.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="2493" positionY="-712" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="40" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="6" targetID="36" fromX="2818" fromY="-1203" />You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="9" positionX="885" positionY="-553" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_SEA_THING_9P_10M_10S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="9" targetID="13" fromX="1326" fromY="-1048" />
+      <outputs name="Lose" ownerID="9" targetID="12" fromX="1326" fromY="-1128" />
+      <outputs name="Surrender" ownerID="9" targetID="12" fromX="1326" fromY="-1208" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="2108" positionY="-920" width="350" height="805" image="Event330">
+      <outputs name="Leave." ownerID="12" targetID="36" fromX="2433" fromY="-1411" />
+      <outputs name="Attack!" ownerID="12" targetID="4" fromX="2433" fromY="-1491" />'You ain't got anything we want, and if you did we'd just take it off your corpse. Beat it, or come closer and taste our iron!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="1512" positionY="-1381" width="350" height="1046" image="Event330">
+      <outputs name="Refuse and leave." ownerID="13" targetID="3" fromX="1837" fromY="-1872" />
+      <outputs name="Attack!" ownerID="13" targetID="4" fromX="1837" fromY="-1952" />
+      <outputs name="Pay." ownerID="13" targetID="49" fromX="1837" fromY="-2032" />
+      <outputs name="Sell your people." ownerID="13" targetID="46" fromX="1837" fromY="-2112" />
+      <outputs name="Agree to the deal. Take their child and lie to the elves." ownerID="13" targetID="62" fromX="1837" fromY="-2192" />You catch the pirates. They look tired and a bit scared as they speak to you:
+'I hear ya. Methinks it a terrible idea to anger the pointy-ears so close to their home. But the boss... I be willing to leave, for a price. Pay in goods - give three of your own good-quality folk, how's about it? Or, better yet, you lie to them, tell them we went some other direction, and we give ya one of our own little blue whelps, eh?'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="2425" positionY="298" width="350" height="530" allPlayersXP="10" allPlayersRP="8" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="36" positionX="2980" positionY="-704" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeProduceDrop" ID="38" positionX="1430" positionY="155" width="460" height="429" sourceGroup="GROUP-HORDE_ELVES_9P_9M_8S" cargoPercentage="100">
+      <outputs ownerID="38" targetID="5" fromX="1860" fromY="-203" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="46" positionX="2474" positionY="-2416" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="noelf" startingBalance="-3">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="elf">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-ELF" />
+          </LogicFilter>
+          <LogicFilter name="nobeast">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="0" tag="TAG-BEAST" />
+          </LogicFilter>
+          <LogicFilter name="noscav">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="0" tag="TAG-SCAVENGER" />
+          </LogicFilter>
+          <LogicProcessing name="goodppl" list1="nobeast" list2="noscav">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+          <LogicProcessing name="noelf" list1="goodppl" list2="elf">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="46" targetID="48" fromX="2904" fromY="-2744" />
+      <outputs name="Cancel" ownerID="46" targetID="13" fromX="2904" fromY="-2824" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="47" positionX="3569" positionY="-2798" width="350" height="530" allPlayersXP="10" allPlayersRP="8" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDELF1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="48" positionX="3092" positionY="-2384" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="15" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_CROW" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_PET_TURTLE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="48" targetID="47" fromX="3417" fromY="-2875" />They take the people and leave as promised, but the elves are not too impressed with your willingness to enslave your own kind. Still, they do appreciate that elf lives are worth more than others.</nodes>
+    <nodes xsi:type="NodeTrade" ID="49" positionX="1469" positionY="-2772" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-40000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="49" targetID="50" fromX="1899" fromY="-3100" />
+      <outputs name="Cancel" ownerID="49" targetID="13" fromX="1899" fromY="-3180" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="2128" positionY="-3226" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_SKSHACK" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_PET_CROW" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-ANCIENT_ONE_ELF_WEAPON" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="50" targetID="47" fromX="2453" fromY="-3717" />The pirates take their payment and leave the elf slaves they captured. The Woodlandkin are very grateful for your help, although they claim they could have handled it themselves well enough.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="55" positionX="1474" positionY="-403" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-LOTS_PIRATES_10P_9M_9S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="pir">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="ch">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="adult" list1="pir" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="adult">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="55" targetID="13" fromX="1915" fromY="-898" />
+      <outputs name="Lose" ownerID="55" targetID="12" fromX="1915" fromY="-978" />
+      <outputs name="Surrender" ownerID="55" targetID="12" fromX="1915" fromY="-1058" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="56" positionX="-26" positionY="-1061" width="350" height="966">
+      <outputs name="Attack the pirates!" ownerID="56" targetID="4" fromX="299" fromY="-1552" />
+      <outputs name="Leave." ownerID="56" targetID="3" fromX="299" fromY="-1632" />
+      <outputs name="[Pirate]Try to parley with the pirates." ownerID="56" targetID="55" group="G1" fromX="299" fromY="-1712" />
+      <outputs name="Try to parley with the pirates." ownerID="56" targetID="9" group="G1" fromX="299" fromY="-1792" />'That be our business, land-lover. We rule the seas, aye, but now maybe we be land lords too, eh? Besides, we like ourselves some pointy-eared slaves, that we do. In the old days them lot hunted us and killed us. Now we keep them as pets.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="62" positionX="1962" positionY="-1969" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-30" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="62" targetID="47" fromX="2287" fromY="-2460" />They give you their own child and leave quickly. You lie to the elves, but alas, they know their lands best and their scouts soon realise your deceit. The Woodlandkin are outraged at your complicity and lies. </nodes>
   </Adventure>
 </MODULE>

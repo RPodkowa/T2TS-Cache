@@ -112,6 +112,21 @@ namespace GameScript
 
             return WAct_AttributeChange(skillAttributes, addons, multipliers, changeID, changeLog, c);
         }
+        static public object WAct_WaterAttributeChange(InterpolatedSkillAttributes skillAttributes,
+                                                Dictionary<Tag, FInt> addons,
+                                                Dictionary<Tag, float> multipliers,
+                                                Int64 changeID,
+                                                List<Multitype<Int64, Tag, FInt, bool>> changeLog,
+                                                Character c
+                                                )
+        {
+            if (World.IsLand(c.group.Get().Position))
+            {
+                return null;
+            }
+
+            return WAct_AttributeChange(skillAttributes, addons, multipliers, changeID, changeLog, c);
+        }
         static public object WAct_DievannaAnimalPath(InterpolatedSkillAttributes skillAttributes,
                                                 Dictionary<Tag, FInt> addons,
                                                 Dictionary<Tag, float> multipliers,
@@ -629,6 +644,30 @@ namespace GameScript
 
             return null;
         }
+
+
+        static public object WActA_Overencumered(InterpolatedSkillAttributes skillAttributes,
+                                                SkillInstance si,
+                                                Subskill ss,
+                                                Character owner
+                                              )
+        {
+            List<int> takenSlots = new List<int>();
+
+            for (int i = 0; i < (int)EInventorySlot.Companion; i++)
+            {
+                EInventorySlot slot = (EInventorySlot)i;
+                if (owner.GetEquipment(slot) != null)
+                {
+                    takenSlots.Add(i);
+                }
+            }
+
+            int randomInt = UnityEngine.Random.Range(0, takenSlots.Count);
+            owner.UnEquip(owner.GetEquipment(takenSlots[randomInt]), true);
+
+            return null;
+        }
         static public object WActA_UnlockBlockedSlots(InterpolatedSkillAttributes skillAttributes,
                                                 SkillInstance si,
                                                 Subskill ss,
@@ -1044,8 +1083,16 @@ namespace GameScript
         static public object GActA_AddItemCargoWithChance(CountEntityBase source, InterpolatedSkillAttributes skillAttributes, Thea2.Server.Group target)
         {
             //Apply bonus only for the group which contains building
-            if (source == null || target != source.item.Get().GetGroup()) return null;
-            
+            if (source == null) return null;
+            if (target == null)
+            {
+                target = source.item.Get().GetGroup();                 
+            }
+            else if (target != source.item.Get().GetGroup())
+            {
+                return null;
+            }
+
             if (skillAttributes.attributes != null && target != null)
             {
                 FInt chance = skillAttributes.GetFInt("ItemCargo");
@@ -1060,7 +1107,15 @@ namespace GameScript
         static public object GActA_AddItemCargo(CountEntityBase source, InterpolatedSkillAttributes skillAttributes, Thea2.Server.Group target)
         {
             //Apply bonus only for the group which contains building
-            if (source == null || target != source.item.Get().GetGroup()) return null;
+            if (source == null) return null;
+            if (target == null)
+            {
+                target = source.item.Get().GetGroup();
+            }
+            else if (target != source.item.Get().GetGroup())
+            {
+                return null;
+            }
 
             if (skillAttributes.attributes != null && target != null)
             {
@@ -1088,6 +1143,7 @@ namespace GameScript
                                 ceb.count = count;
 
                                 target.AddItem(ceb);
+                                ClientTurnSummaryData.RegisterNewItemCargoEvent(target, ceb);
                             }
                         }
                     }

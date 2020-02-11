@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Awakening DLC" lastEventIndex="41" allowToUse="true" uniqueModuleID="1727971019">
   <Adventure name="PerunWrath" uniqueID="1" allowOnce="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="6" nodeIdMax="21" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="47" positionY="-37" width="347" height="661" image="Event068">
@@ -2454,7 +2454,7 @@ Fed up, you finally return to your beds, but you feel your luck diminished.</nod
       <outputs ownerID="27" targetID="17" fromX="2289" fromY="-2959" />
     </nodes>
   </Adventure>
-  <Adventure name="HarvestMoon" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="5" nodeIdMax="30" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+  <Adventure name="HarvestMoon" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="5" nodeIdMax="31" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event112">
       <logic>
         <FilterBlock>
@@ -2577,7 +2577,7 @@ You feel a curse upon your people as punishment for your failure!</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Leave." ownerID="18" targetID="14" fromX="3529" fromY="-1480" />You feel the blessing of your god upon you!</nodes>
-    <nodes xsi:type="NodeAdventure" ID="19" positionX="349" positionY="-1223" width="350" height="1367">
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="349" positionY="-1223" width="350" height="1447">
       <outputs name="Honour Horz!" ownerID="19" targetID="20" group="G1" fromX="674" fromY="-1714" />
       <outputs name="Honour Zorya!" ownerID="19" targetID="22" group="G1" fromX="674" fromY="-1794" />
       <outputs name="Honour Dievanna!" ownerID="19" targetID="23" group="G1" fromX="674" fromY="-1874" />
@@ -2586,7 +2586,8 @@ You feel a curse upon your people as punishment for your failure!</nodes>
       <outputs name="Honour Marovit!" ownerID="19" targetID="26" group="G1" fromX="674" fromY="-2115" />
       <outputs name="Honour Triglav!" ownerID="19" targetID="27" group="G1" fromX="674" fromY="-2195" />
       <outputs name="Honour Nyia!" ownerID="19" targetID="28" group="G1" fromX="674" fromY="-2275" />
-      <outputs name="Honour Lada!" ownerID="19" targetID="29" group="G1" fromX="674" fromY="-2355" />You make preparations to celebrate the Harvest Moon and its mystical powers.</nodes>
+      <outputs name="Honour Lada!" ownerID="19" targetID="29" group="G1" fromX="674" fromY="-2355" />
+      <outputs name="Honour Mokosh!" ownerID="19" targetID="31" group="G1" fromX="674" fromY="-2435" />You make preparations to celebrate the Harvest Moon and its mystical powers.</nodes>
     <nodes xsi:type="NodeAdventure" ID="20" positionX="879" positionY="-1006" width="350" height="725" image="Event291">
       <logic>
         <FilterBlock>
@@ -2768,7 +2769,7 @@ The power of the Harvest Moon washes over your people and the chosen ones feel t
       <outputs name="Give thanks to Marovit." ownerID="26" targetID="30" fromX="1287" fromY="-3062" />Marovit was never amused by the social connections within his family, but the power of the Harvest Moon is undeniable and so you seek to honour your Lord this night. Your wise ones perform mystical rituals, calling on the spirits of the dead and weaving the winds of magic.
 
 The power of the Harvest Moon washes over your people and the chosen ones feel this power seeping into them!</nodes>
-    <nodes xsi:type="NodeAdventure" ID="27" positionX="639" positionY="-2730" width="350" height="725" image="Event294">
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="640" positionY="-2785" width="350" height="725" image="Event294">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2787,10 +2788,10 @@ The power of the Harvest Moon washes over your people and the chosen ones feel t
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Give thanks to Triglav." ownerID="27" targetID="30" fromX="964" fromY="-3223" />Triglav was awakened for war and vengeance, but the trinity knows well the value of ritual and reverence. In honour of the Harvest Moon you hold duels and burn fires that can reach the moon itself.
+      <outputs name="Give thanks to Triglav." ownerID="27" targetID="30" fromX="965" fromY="-3276" />Triglav was awakened for war and vengeance, but the trinity knows well the value of ritual and reverence. In honour of the Harvest Moon you hold duels and burn fires that can reach the moon itself.
 
 The power of the Harvest Moon washes over your people and the chosen ones feel this power seeping into them!</nodes>
-    <nodes xsi:type="NodeAdventure" ID="28" positionX="199" positionY="-2710" width="350" height="725" image="Event296">
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="166" positionY="-2768" width="350" height="725" image="Event296">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2818,7 +2819,7 @@ The power of the Harvest Moon washes over your people and the chosen ones feel t
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Give thanks to Nyia." ownerID="28" targetID="30" fromX="525" fromY="-3201" />Nyia was never amused by the social connections within his family, but the power of the Harvest Moon is undeniable and so you seek to honour your Lord this night. Your wise ones perform mystical rituals, calling on the spirits of the dead and weaving the winds of magic.
+      <outputs name="Give thanks to Nyia." ownerID="28" targetID="30" fromX="491" fromY="-3259" />Nyia was never amused by the social connections within his family, but the power of the Harvest Moon is undeniable and so you seek to honour your Lord this night. Your wise ones perform mystical rituals, calling on the spirits of the dead and weaving the winds of magic.
 
 The power of the Harvest Moon washes over your people and the chosen ones feel this power seeping into them!</nodes>
     <nodes xsi:type="NodeAdventure" ID="29" positionX="-241" positionY="-2608" width="350" height="725" image="Event289">
@@ -2850,6 +2851,31 @@ The power of the Harvest Moon washes over your people and the chosen ones feel t
 
 As you dance in the warm, orange glow of the low hanging moon, you feel the blessing of your Goddess upon you!</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="30" positionX="2176" positionY="-3056" width="350" height="530" allPlayersXP="3" allPlayersRP="3" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="-191" positionY="-1783" width="350" height="725" image="Event304">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="ppl">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="4" tag="SKILL_PACK-BLESS_M" />
+          </LogicModifiers>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="4" tag="TAG-GATHERING" />
+          </LogicModifiers>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="10" tag="TAG-MAX_HEALTH_MENTAL" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="31" targetID="30" fromX="132" fromY="-2276" />The divine mother is patron of all life and nature, and she cherishes her children, Horz and Zorya. In honour of the Harvest Moon celebrations and of mother nature, you shall dance under the moon's gaze, your bodies covered in none but the sacred earth.
+
+The power of the Harvest Moon washes over your people and the chosen ones feel this power seeping into them!</nodes>
   </Adventure>
   <Adventure name="Tesknica" uniqueID="11" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="true" difficulty="4" nodeIdMax="13" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event075">
@@ -4101,7 +4127,7 @@ Reads his makeshift sign, below it, there is an additional note:
     <nodes xsi:type="NodeAdventure" ID="9" positionX="1472" positionY="-790" width="350" height="725">
       <outputs name="A princess?" ownerID="9" targetID="10" fromX="1797" fromY="-1281" />'Bah, insane! I am an entrepren- a trade man, yes, and a master of my arts. And how I plan to rid you of your problem, is my business, ya pay the price, I help to slay the dragon.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="2416" positionY="-596" width="350" height="805">
-      <outputs name="Radicicolous reward aside, ask how he plans to slay the dragon?" ownerID="10" targetID="12" fromX="2741" fromY="-1087" />
+      <outputs name="Ridiculous reward aside, ask how he plans to slay the dragon?" ownerID="10" targetID="12" fromX="2741" fromY="-1087" />
       <outputs name="Say that he clearly is insane." ownerID="10" targetID="11" fromX="2741" fromY="-1167" />'Well, okay, so I am not countin' on an actual Princess, times are tough, I know. I just need me a virgin female. Preferably of noble blood, posh like, you know?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="11" positionX="2880" positionY="-1366" width="350" height="725">
       <outputs name="If he knows the way, ask why doesn't he kill the beast?" ownerID="11" targetID="13" fromX="3205" fromY="-1857" />'Calling me crazy isn't going to get you places. Here's my offer:
@@ -4164,7 +4190,7 @@ I hear the dragon only gets hungrier with time, soon it won't be just burned peo
           </LogicProcessing>
         </FilterBlock>
       </logic>
-      <outputs name="Hand over the good and ask what the plan is?" ownerID="3" targetID="5" fromX="930" fromY="-662" />
+      <outputs name="Hand over the goods and ask what the plan is?" ownerID="3" targetID="5" fromX="930" fromY="-662" />
       <outputs name="No, leave." ownerID="3" targetID="4" fromX="930" fromY="-742" />
       <outputs name="Tell him you changed your mind and will kill the dragon yourself. Attack!" ownerID="3" targetID="7" fromX="930" fromY="-822" />You find Needler again and you see he is sewing what looks like a carcass of a sheep. You give him the stuff and he uses it to finish his fake sheep. 
 
@@ -4887,11 +4913,11 @@ The little fella, a hochlick, decided it will join your village, and it really w
       </logic>
       <outputs name="Great, get back to daily duties." ownerID="20" targetID="18" fromX="3474" fromY="-2374" />After the wedding, the newlyweds are blessed with the arrival of the much-coveted offspring from the cabbage patch!
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="22" positionX="-378" positionY="-908" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="-394" positionY="-643" width="350" height="725">
       <logic>
         <FilterBlock>
           <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-STRIBOG" />
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
           </LogicResultAction>
         </FilterBlock>
         <ModifierBlock>
@@ -4900,9 +4926,9 @@ The little fella, a hochlick, decided it will join your village, and it really w
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="The celebrations take a toll on everyone. You must see how well you all did against the inevitable alcohol poisoning and upset stomachs. " ownerID="22" targetID="12" fromX="-52" fromY="-1399" />The cleansing power of water is well known to all Easterlanders, but as followers of XXX, this becomes even more true for you.
+      <outputs name="The celebrations take a toll on everyone. You must see how well you all did against the inevitable alcohol poisoning and upset stomachs. " ownerID="22" targetID="12" fromX="-68" fromY="-1134" />The cleansing power of water is well known to all Easterlanders, but as followers of Mokosh, this becomes even more true for you.
 
-The couple wishing to become married must stand naked in a river and submerge for several minutes to prove their trust in XXX and in each other. 
+The couple wishing to become married must stand naked in a river and submerge for several minutes to prove their trust in Mokosh and in each other. 
 
 The newlyweds are then blessed by their goddess with good fortune and fertility. Once emerged from the waters, the newlyweds are considered cleansed and ready to begin and to give new life.
 
@@ -6395,8 +6421,8 @@ It is a man who is righteous and honourable. Now, I solemnly swear I will releas
 Now, by the power of a rightfully anointed king of Camroth, I pronounce you knights of Camroth, and I command you to take the sword for me!'</nodes>
     <nodes xsi:type="NodeChallenge" ID="15" positionX="3763" positionY="333" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_3P_0M_0S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="15" targetID="23" fromX="4204" fromY="-162" />
-      <outputs name="Lose" ownerID="15" targetID="21" fromX="4204" fromY="-242" />
-      <outputs name="Surrender" ownerID="15" targetID="21" fromX="4204" fromY="-322" />
+      <outputs name="Lose" ownerID="15" targetID="21" fromX="3779" fromY="-242" />
+      <outputs name="Surrender" ownerID="15" targetID="21" fromX="3779" fromY="-242" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="17" positionX="3259" positionY="-1185" width="350" height="725">
       <outputs name="Leave." ownerID="17" targetID="34" fromX="3584" fromY="-1676" />'Well, that is a shame, but I cannot force one to become a knight.
@@ -6450,7 +6476,7 @@ As the king's body collapses, he whispers: 'It is cursed, you fools?'
 The body of the king disappears in a ray of bright light. You are left standing with the bloodied sword in your hands and some belongings left behind by Arathor.</nodes>
     <nodes xsi:type="NodeAdventure" ID="26" positionX="5531" positionY="-373" width="350" height="805">
       <outputs name="Still, it's a good sword, take it." ownerID="26" targetID="29" fromX="5856" fromY="-864" />
-      <outputs name="Thrust it back into the stone!" ownerID="26" targetID="27" fromX="5856" fromY="-944" />The blade is of great quality, but you feel a heavy darkness upon it. It calls for blood and murder, but it also draws upon your own life force.</nodes>
+      <outputs name="Thrust it back into the stone!" ownerID="26" targetID="27" fromX="5512" fromY="-944" />The blade is of great quality, but you feel a heavy darkness upon it. It calls for blood and murder, but it also draws upon your own life force.</nodes>
     <nodes xsi:type="NodeAdventure" ID="27" positionX="6055" positionY="-906" width="350" height="725">
       <logic>
         <ModifierBlock>
@@ -6488,7 +6514,7 @@ A lingering effect takes hold of you, but you feel it could have been much worse
       </logic>
       <outputs name="Leave." ownerID="29" targetID="28" fromX="6374" fromY="-639" />You claim the sword and it transforms into a great weapon, but you also feel a curse fall upon you all, and the one who held the sword is hit the hardest!</nodes>
     <nodes xsi:type="NodeAdventure" ID="30" positionX="4872" positionY="509" width="350" height="805">
-      <outputs name="Thank him and ask wat he will do now?" ownerID="30" targetID="31" fromX="5197" fromY="17" />
+      <outputs name="Thank him and ask what he will do now?" ownerID="30" targetID="31" fromX="5197" fromY="17" />
       <outputs name="Thank him and wish him well." ownerID="30" targetID="32" fromX="5197" fromY="-62" />The king drops down on one knee as he accepts the sword from you. He speaks, and his voice becomes more forceful and clear than before:
 
 'Well done, my knights! You have passed the test of loyalty and purity of soul, for this sword is known to lead its keepers astray.
@@ -6509,7 +6535,7 @@ I wish I could tell you more, but it seems other lands are in peril, and it is a
 
 The king bows to you and holds up the sword. A light shines down from the skies and he disappears!</nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="32" positionX="5443" positionY="294" width="480" height="503" radius="9" settlementID="SET-CAVE" destroyOwner="false" linkedEventUniqueID="33">
-      <outputs ownerID="32" targetID="33" fromX="5891" fromY="-138" />
+      <outputs ownerID="32" targetID="33" fromX="5891" fromY="311" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="33" positionX="6098" positionY="531" width="350" height="530" allPlayersXP="3" allPlayersRP="2" logBookName="QUEST_ARATH" logBookDescription="QUEST_ARATH_DES" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="2709" positionY="-1961" width="350" height="530" allPlayersXP="1" logBookName="QUEST_ARATH" logBookDescription="QUEST_ARATH_DES4" linkedEventUniqueID="0" />
@@ -8236,7 +8262,7 @@ But, I have sworn off killing and bloodshed! Yet, my primal urges cannot be tame
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="6" tag="TAG-INTELLIGENCE" />
           </LogicFilter>
           <LogicFilter name="inv">
-            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="SUBRACE-HUM_INVENTOR" />
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-INVENTOR" />
           </LogicFilter>
           <LogicFilter name="buil">
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsBuildings" parameter="1" tag="TAG-BUILDING_SCHOOL" />
@@ -8292,7 +8318,7 @@ But, I have sworn off killing and bloodshed! Yet, my primal urges cannot be tame
       <outputs name="Politely decline for now, the scholar may return later." ownerID="2" targetID="8" fromX="732" fromY="-891" />Your school has attracted the attention of an odd looking scholar. He says he is an inventor. He is interested in your craftsmen, for they have been known to show promise in the field. 
 
 'Yes, I create wonders, I make dreams come to life and ideas awakened! Well, sometimes... Most of the time I make crap that breaks, but it is a great profession. I will teach it to those who are worthy, for a price.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="3" positionX="835" positionY="-178" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-10000">
+    <nodes xsi:type="NodeTrade" ID="3" positionX="835" positionY="-178" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-10000">
       <outputs name="Confirm" ownerID="3" targetID="4" fromX="1265" fromY="-506" />
       <outputs name="Cancel" ownerID="3" targetID="2" fromX="1265" fromY="-586" />
     </nodes>
@@ -8308,13 +8334,13 @@ But, I have sworn off killing and bloodshed! Yet, my primal urges cannot be tame
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="5" positionX="854" positionY="-738" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_1M_0S" challengeScale="101" challengedList="1">
-      <outputs name="Win" ownerID="5" targetID="7" fromX="1295" fromY="-1233" />
-      <outputs name="Lose" ownerID="5" targetID="6" fromX="1295" fromY="-1313" />
-      <outputs name="Surrender" ownerID="5" targetID="6" fromX="1295" fromY="-1393" />
+    <nodes xsi:type="NodeChallenge" ID="5" positionX="903" positionY="-721" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_1M_0S" challengeScale="101" challengedList="1">
+      <outputs name="Win" ownerID="5" targetID="7" fromX="1344" fromY="-1216" />
+      <outputs name="Lose" ownerID="5" targetID="6" fromX="1344" fromY="-1296" />
+      <outputs name="Surrender" ownerID="5" targetID="6" fromX="1344" fromY="-1376" />
     </nodes>
     <nodes xsi:type="NodeDealDamage" ID="6" positionX="1456" positionY="-1247" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="50" maxDamage="70" useCountInPercent="true" targetGroup="1">
-      <outputs ownerID="6" targetID="9" fromX="1885" fromY="-1635" />
+      <outputs ownerID="6" targetID="9" fromX="1885" fromY="-1229" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="2070" positionY="-433" width="350" height="725">
       <logic>
@@ -8328,6 +8354,6 @@ But, I have sworn off killing and bloodshed! Yet, my primal urges cannot be tame
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="-433" positionY="-734" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="9" positionX="1986" positionY="-1250" width="350" height="805">
       <outputs name="Pay him and one of you may become an inventor." ownerID="9" targetID="3" fromX="2311" fromY="-1741" />
-      <outputs name="Politely decline for now, the scholar may return later." ownerID="9" targetID="8" fromX="2311" fromY="-1821" />'No, no, no, methinks you have much to learn still. Pay up, and I may still wish to teach you.'</nodes>
+      <outputs name="Politely decline for now, the scholar may return later." ownerID="9" targetID="8" fromX="1967" fromY="-1821" />'No, no, no, methinks you have much to learn still. Pay up, and I may still wish to teach you.'</nodes>
   </Adventure>
 </MODULE>

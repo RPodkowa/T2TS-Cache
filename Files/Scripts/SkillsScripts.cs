@@ -536,6 +536,14 @@ namespace GameScript
         {
             return "x1-5";
         }
+        static public object SI_SummonX13(object info)
+        {
+            return "x1-13";
+        }
+        static public object SI_SummonX18(object info)
+        {
+            return "x1-18";
+        }
 
         static public string SI_Inspire(object info)
         {
@@ -584,6 +592,103 @@ namespace GameScript
                 }
 
                 return inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed;
+            }
+        }
+        static public string SI_BloodyInspire(object info)
+        {
+            Multitype<NetCard, NetSkill, NetBattlefield> data = info as Multitype<NetCard, NetSkill, NetBattlefield>;
+            if (data != null)
+            {
+                FInt inspireSpeed = -1 * data.t1.GetFloatAttribute("InspireSpeed");
+                FInt inspirePower = data.t1.GetFloatAttribute("InspirePower");
+                if (data.t1.MainAtt != null)
+                {
+                    //pow is main attribtue strength * its local multiplier if applicable
+                    //attribute is applicable in scale 0.1 so eg. 25 Strength  provides multiplier 2.5 to the InspirePower
+                    FInt pow = data.t0.GetSkillCastingStrength(data.t1);
+                    inspirePower = inspirePower * pow;
+                    inspirePower *= 0.1f;
+                }
+
+                NetCard nc = data.t0;
+                NetSkill ns = data.t1;
+                FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
+                FInt damage = nc.GetCA_HEALTH() * sacrifice;
+                damage *= 0.1f;
+                damage.CutToInt();
+
+                return inspirePower + "<sprite name=DelayIcon>" + inspireSpeed + " <sprite name=HealthPhysicalIcon>" + "-" + damage;
+            }
+
+            {
+                Multitype<SkillInstance, Subskill, ClientEntityCharacter> dInfo = info as Multitype<SkillInstance, Subskill, ClientEntityCharacter>;
+                SkillInstance si = dInfo.t0;
+                Subskill ss = dInfo.t1;
+                ClientEntityCharacter character = dInfo.t2;
+                var dataInWorld = si.GetCurrentSkillAttributes()[ss];
+
+                FInt modifier = FInt.ONE;
+                FInt pow = FInt.ONE;
+
+                FInt inspireSpeed = -1 * dataInWorld.GetFInt("InspireSpeed");
+                FInt inspirePower = dataInWorld.GetFInt("InspirePower");
+                FInt sacrifice = dataInWorld.GetFInt("HealthSacrifice");
+                FInt damage = FInt.ONE;
+
+                if (dataInWorld.mainAtt != null)
+                {
+                    modifier = dataInWorld.GetFIntMain();
+
+                    string mainAtt = dataInWorld.GetMainName(EChallengeType.TypePhysical);
+                    if (character == null)
+                    {
+                        pow = FInt.ONE;
+                        sacrifice *= 10;
+                        return inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed + "\n<sprite name=HealthPhysicalIcon>" + "-" + sacrifice + "(%)";
+                    }
+                    else
+                    {
+                        pow = GameplayUtils.GetDamageMultiplierFInt(character.GetAttribute(mainAtt));
+
+                        damage = character.GetPHYSICAL_HP() * sacrifice;
+                        damage *= 0.1f;
+                        damage.CutToInt();
+                    }
+                }
+
+                return inspirePower * modifier + "(" + ((modifier * inspirePower * pow) * 0.1f) + ")<sprite name=DelayIcon>" + inspireSpeed + "\n<sprite name=HealthPhysicalIcon>" + "-" + damage;
+            }
+        }
+        // SI for Mutation Curse skill. Shows inspire buff and life debuff as a percent values based only on skill attributes
+        static public string SI_MutationCurse(object info)
+        {
+            Multitype<NetCard, NetSkill, NetBattlefield> data = info as Multitype<NetCard, NetSkill, NetBattlefield>;
+            if (data != null)
+            {
+                NetCard nc = data.t0;
+                FInt inspirePower = data.t1.GetFloatAttribute("InspirePower");
+                FInt decreaseLife = data.t1.GetFloatAttribute("DecreaseLife");
+                
+                return 100 * inspirePower  + "% <sprite name=HealthPhysicalIcon>" + "-" + 100 * decreaseLife + "%";
+            }
+
+            {
+                Multitype<SkillInstance, Subskill, ClientEntityCharacter> dInfo = info as Multitype<SkillInstance, Subskill, ClientEntityCharacter>;
+                SkillInstance si = dInfo.t0;
+                Subskill ss = dInfo.t1;
+                ClientEntityCharacter character = dInfo.t2;
+                var dataInWorld = si.GetCurrentSkillAttributes()[ss];
+
+                FInt inspirePower = dataInWorld.GetFInt("InspirePower");
+                FInt decreaseLife = dataInWorld.GetFInt("DecreaseLife");
+                
+
+                if (dataInWorld.mainAtt != null)
+                {
+                    return 100 * inspirePower + "% <sprite name=HealthPhysicalIcon> " + "-" + 100 * decreaseLife + "%";
+                }
+
+                return "";
             }
         }
 
@@ -684,7 +789,7 @@ namespace GameScript
                 NetSkill ns = data.t1;
                 FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
                 FInt multipier = ns.GetFloatAttribute("DmgMulti");
-                FInt sacrificeHp = (nc.GetCA_HEALTH() + nc.GetCA_SHIELD()) * sacrifice;
+                FInt sacrificeHp = nc.GetCA_HEALTH() * sacrifice;
                 sacrificeHp.CutToInt();
                 FInt damage = sacrificeHp * multipier;
                 return damage + " <sprite name=HealthPhysicalIcon>" + "-" + sacrificeHp;
@@ -704,9 +809,7 @@ namespace GameScript
 
                     if(character != null)
                     {
-                        FInt shield = character.GetAttribute((Tag)TAG.SHIELDING_PHYSICAL);
-                        shield.CutToInt();
-                        FInt sacrificeHp = (character.GetPHYSICAL_HP() + shield) * sacrifice;
+                        FInt sacrificeHp = character.GetPHYSICAL_HP() * sacrifice;
                         sacrificeHp.CutToInt();
                         FInt damage = sacrificeHp * multipier;
                         return damage + " <sprite name=HealthPhysicalIcon>" + "-" + sacrificeHp;
@@ -1419,6 +1522,28 @@ namespace GameScript
 
             return targets;
         }
+        static public List<int> Trg_WoundedFriendlyTargetExceptCaster(NetBattlefield bf, NetSkill ns, int bfPosition)
+        {
+            if (bf == null || ns == null) return null;
+
+            NetCard nc = bf.GetCardByID(ns.OwnerCardID);
+
+            if (nc == null) return null;
+
+            List<int> livingFriendlies = bf.GetOwnLivingCardsBFPositions(nc.PlayerOwnerID);
+            List<int> targets = null;
+            foreach (var v in livingFriendlies)
+            {
+                NetCard nc2 = bf.GetCardFromBattleSlot(v);
+                if (nc2 != null && nc2.GetCA_MAX_HEALTH() > nc2.GetCA_HEALTH() && nc != nc2)
+                {
+                    if (targets == null) targets = new List<int>();
+                    targets.Add(v);
+                }
+            }
+
+            return targets;
+        }
         static public List<int> Trg_FriendlyTarget(NetBattlefield bf, NetSkill ns, int bfPosition)
         {
             if (bf == null || ns == null) return null;
@@ -1428,6 +1553,28 @@ namespace GameScript
             if (nc == null) return null;
 
             return bf.GetOwnLivingCardsBFPositions(nc.PlayerOwnerID);
+        }
+        static public List<int> Trg_FriendlyTargetExceptCaster(NetBattlefield bf, NetSkill ns, int bfPosition)
+        {
+            if (bf == null || ns == null) return null;
+
+            NetCard nc = bf.GetCardByID(ns.OwnerCardID);
+
+            if (nc == null) return null;
+
+            List<int> livingFriendlies = bf.GetOwnLivingCardsBFPositions(nc.PlayerOwnerID);
+            List<int> targets = null;
+            foreach (var v in livingFriendlies)
+            {
+                NetCard nc2 = bf.GetCardFromBattleSlot(v);
+                if (nc2 != null &&  nc != nc2)
+                {
+                    if (targets == null) targets = new List<int>();
+                    targets.Add(v);
+                }
+            }
+
+            return targets;
         }
         static public List<int> Trg_OwnBattlefield(NetBattlefield bf, NetSkill ns, int bfPosition)
         {
@@ -1606,6 +1753,42 @@ namespace GameScript
             List<int> list = new List<int>(a);
             list.AddRange(b);
             
+            return list;
+        }
+        //in each column target enemy closest to the caster, if column is free target nobody
+        static public List<int> Trg_AllEnemyInColumnCloseToCaster(NetBattlefield bf, NetSkill ns, int bfPosition)
+        {
+            if (bf == null || ns == null) return null;
+
+            NetCard nc = bf.GetCardByID(ns.OwnerCardID);
+
+            if (nc == null) return null;
+
+            int bfSize = bf.BattlefieldSize;
+            List<int> list = new List<int>();
+
+            if (nc.PlayerOwnerID > 0)
+            {
+                for (int i = bfSize; i < bfSize * 2; i++)
+                {
+                    if(!bf.IsSlotFree(i))
+                        list.Add(i);
+                    else if(!bf.IsSlotFree(i - bfSize))
+                        list.Add(i - bfSize);
+                }
+            }
+            else
+            {
+                for (int i = bfSize * 2; i < bfSize * 3; i++)
+                {
+                    if (!bf.IsSlotFree(i))
+                        list.Add(i);
+                    else if (!bf.IsSlotFree(i + bfSize))
+                        list.Add(i + bfSize);
+                }
+
+            }
+
             return list;
         }
         static public List<int> Trg_OwnFreePositions(NetBattlefield bf, NetSkill ns, int bfPosition)
@@ -2556,6 +2739,71 @@ namespace GameScript
             return null;
         }
         /// <summary>
+        /// Decrease Delay, increase CA1 of the target and decrease HP of the caster
+        /// Note! script does not check if CA_SHIELD is set correctly as main attribute, but uses its strength!
+        /// </summary>
+        static public object Act_BloodyInspireEffect(NetBattlefield bf, NetQueueItem q, List<NetQueueItem> stack, List<NetQueueItem> previousItems, MHRandom random)
+        {
+            NetSkill ns = q.GetNetSkill(bf);
+            NetCard owner = bf.GetCardByID(ns.OwnerCardID);
+
+            FInt inspireSpeed = ns.GetFloatAttribute("InspireSpeed");
+            FInt inspirePower = ns.GetFloatAttribute("InspirePower");
+
+            FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
+            FInt damage = owner.GetCA_HEALTH() * sacrifice;
+            damage *= 0.1f;
+
+            //if any attributes are used for the power calculation they are scaled down, so that 10 main attribute produces +1 boost
+            if (ns.MainAtt != null)
+            {
+                //pow is main attribtue strength * its local multiplier if applicable
+                //attribute is applicable in scale 0.1 so eg. 25 Strength  provides multiplier 2.5 to the InspirePower
+                FInt pow = owner.GetSkillCastingStrength(ns);
+                inspirePower = inspirePower * pow;
+                inspirePower *= 0.1f;
+            }
+
+            // sacrifice health
+            owner.ReciveDamageBypassShield(damage, bf, q, -1);
+
+            NetCard target = null;
+
+            if (NetTypeAtomic.IsNullOrEmpty(q.Targets)) return null;
+            foreach (int t in q.Targets.value)
+            {
+                target = bf.ConvertPositionIDToCard(t);
+                if (target == null) continue;
+
+                NetQueueItem opQ = bf.GetNetQItemFromBFPosition(t);
+
+                target.CAAdd += inspirePower;
+
+                if (opQ != null)
+                {
+                    opQ.Delay -= inspireSpeed;
+                }
+            }
+
+            if (NetTypeAtomic.IsNullOrEmpty(q.SecondaryTargets)) return null;
+            foreach (int t in q.SecondaryTargets.value)
+            {
+                target = bf.ConvertPositionIDToCard(t);
+                if (target == null) continue;
+
+                NetQueueItem opQ = bf.GetNetQItemFromBFPosition(t);
+
+                target.CAAdd += inspirePower;
+
+                if (opQ != null)
+                {
+                    opQ.Delay -= inspireSpeed;
+                }
+            }            
+
+            return null;
+        }
+        /// <summary>
         /// Increase Delay and Decrease CA1 & CA2 of the target
         /// Note! script does not check if CA_SHIELD is set correctly as main attribute, but uses its strength!
         /// </summary>
@@ -2616,6 +2864,51 @@ namespace GameScript
             return null;
         }
 
+        /// <summary>
+        /// Increase damage of the target and decrease Health of the target by percent value from skill, character attributes doesn't matter
+        /// </summary>
+        static public object Act_MutationCurse(NetBattlefield bf, NetQueueItem q, List<NetQueueItem> stack, List<NetQueueItem> previousItems, MHRandom random)
+        {
+            NetSkill ns = q.GetNetSkill(bf);
+            NetCard owner = bf.GetCardByID(ns.OwnerCardID);
+
+            FInt inspirePower = ns.GetFloatAttribute("InspirePower");
+            FInt decreaseLife = ns.GetFloatAttribute("DecreaseLife");
+            FInt damage;
+            FInt pow;
+
+            NetCard target = null;
+            NetSkill targetSkill = null;
+            if (NetTypeAtomic.IsNullOrEmpty(q.Targets)) return null;
+            foreach (int t in q.Targets.value)
+            {
+                target = bf.ConvertPositionIDToCard(t);
+                targetSkill = bf.GetSkillUsedFromBattleSlot(t);
+                if (target == null || targetSkill == null) continue;
+
+                pow = target.GetSkillCastingStrength(bf.GetSkillUsedFromBattleSlot(t)); 
+                target.CAAdd += pow * inspirePower;
+                damage = target.GetCA_HEALTH() * decreaseLife;
+                damage.ToInt();
+                target.ReciveDamageBypassShield(damage, bf, q, t);
+            } 
+
+            if (NetTypeAtomic.IsNullOrEmpty(q.SecondaryTargets)) return null;
+            foreach (int t in q.SecondaryTargets.value)
+            {
+                target = bf.ConvertPositionIDToCard(t);
+                targetSkill = bf.GetSkillUsedFromBattleSlot(t);
+                if (target == null || targetSkill == null) continue;
+
+                pow = target.GetSkillCastingStrength(bf.GetSkillUsedFromBattleSlot(t));
+                target.CAAdd += pow * inspirePower;
+                damage = target.GetCA_HEALTH() * decreaseLife;
+                damage.ToInt();
+                target.ReciveDamageBypassShield(damage, bf, q, t);
+            }
+
+            return null;
+        }
         /// <summary>
         /// Add shielding to target based on attributes coming only from skill
         /// </summary>
@@ -3333,11 +3626,12 @@ namespace GameScript
 
             FInt sacrifice = ns.GetFloatAttribute("HealthSacrifice");
             FInt multipier = ns.GetFloatAttribute("DmgMulti");
-            FInt sacrificeHp = (owner.GetCA_HEALTH() + owner.GetCA_SHIELD()) * sacrifice;
+            FInt sacrificeHp = owner.GetCA_HEALTH() * sacrifice;
+            sacrificeHp.CutToInt();
             FInt damage = sacrificeHp * multipier;
 
             // sacrifice health
-            owner.ReciveTrueDamageEssence(sacrificeHp, bf, q, -1);
+            owner.ReciveDamageBypassShield(sacrificeHp, bf, q, -1);
 
             // do damage
             foreach (var v in q.Targets.value)
@@ -3345,7 +3639,7 @@ namespace GameScript
                 target = bf.ConvertPositionIDToCard(v);
                 if (target != null)
                 {
-                    target.ReciveTrueDamageEssence(damage, bf, q, v);
+                    target.ReciveDamageBypassShield(damage, bf, q, v);
                 }
             }
 
@@ -3358,7 +3652,7 @@ namespace GameScript
                 target = bf.ConvertPositionIDToCard(v);
                 if (target != null)
                 {
-                    target.ReciveTrueDamageEssence(damage, bf, q, v);
+                    target.ReciveDamageBypassShield(damage, bf, q, v);
                 }
             }
 

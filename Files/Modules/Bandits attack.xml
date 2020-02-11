@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Bandits attack" lastEventIndex="16" allowToUse="true" uniqueModuleID="1722647765">
   <Adventure name="Orc bandits" uniqueID="1" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="5" nodeIdMax="42" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="94.00925" positionY="620.6304" width="347" height="661" image="Event142">
@@ -64,7 +64,7 @@
       <outputs name="Lose" ownerID="11" targetID="15" fromX="958" fromY="-2588" />
       <outputs name="Surrender" ownerID="11" targetID="42" fromX="958" fromY="-2668" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="13" positionX="2892.61914" positionY="821.9209" width="350" height="725">
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="3085" positionY="622" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -72,7 +72,7 @@
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="13" targetID="14" fromX="3218" fromY="330" />The orcs are dead, and their loot is yours.
+      <outputs name="Leave." ownerID="13" targetID="14" fromX="3411" fromY="132" />The orcs are dead, and their loot is yours.
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="14" positionX="4950" positionY="39" width="350" height="530" allPlayersXP="5" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
@@ -269,7 +269,7 @@ They walk off.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeProduceDrop" ID="34" positionX="1824.3429" positionY="749.075562" width="460" height="509">
+    <nodes xsi:type="NodeProduceDrop" ID="34" positionX="1872" positionY="1006" width="460" height="509">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -280,10 +280,10 @@ They walk off.
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="34" targetID="35" group="G1" fromX="2254" fromY="390" />
-      <outputs ownerID="34" targetID="13" group="G1" fromX="2254" fromY="310" />
+      <outputs ownerID="34" targetID="35" group="G1" fromX="2303" fromY="647" />
+      <outputs ownerID="34" targetID="13" group="G1" fromX="2303" fromY="567" />
     </nodes>
-    <nodes xsi:type="NodeProduceDrop" ID="35" positionX="2351.42114" positionY="663.088135" width="460" height="429">
+    <nodes xsi:type="NodeProduceDrop" ID="35" positionX="2403" positionY="1029" width="460" height="429">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -296,7 +296,7 @@ They walk off.
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="35" targetID="13" fromX="2781" fromY="304" />
+      <outputs ownerID="35" targetID="13" fromX="2834" fromY="670" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="1491" positionY="-190" width="350" height="885">
       <logic>
@@ -510,7 +510,7 @@ Still, some may decide to join you.</nodes>
         </FilterBlock>
       </logic>
       <outputs name="Try to break through their lines and run away!" ownerID="19" targetID="20" fromX="391" fromY="-1322" />
-      <outputs name="Attack!" ownerID="19" targetID="3" fromX="391" fromY="-1402" />'Oi, this one will bring an extra good price. Yeah, yeah, fuck the young ones, let's take this one!'
+      <outputs name="Attack!" ownerID="19" targetID="3" fromX="394" fromY="-1402" />'Oi, this one will bring an extra good price. Yeah, yeah, fuck the young ones, let's take this one!'
 
 They draw in closer.</nodes>
     <nodes xsi:type="NodeChallenge" ID="20" positionX="485" positionY="-1294" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_5P_0M_0S" challengeScale="101" challengedList="ppl">
@@ -621,7 +621,7 @@ They draw in closer.</nodes>
           <LogicProcessing name="1" list1="ppl">
             <scriptCallWithTag scriptName="FLP_GetRandomXelementsIfPossible" parameter="1" />
           </LogicProcessing>
-          <LogicModifiers list="ppl">
+          <LogicModifiers list="1">
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-INTELLIGENCE" />
           </LogicModifiers>
           <LogicModifiers list="1">
@@ -679,7 +679,7 @@ He points to a wolf by his side.</nodes>
           <LogicProcessing name="1" list1="ppl">
             <scriptCallWithTag scriptName="FLP_GetRandomXelementsIfPossible" parameter="1" />
           </LogicProcessing>
-          <LogicModifiers list="ppl">
+          <LogicModifiers list="1">
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-INTELLIGENCE" />
           </LogicModifiers>
           <LogicModifiers list="1">
@@ -693,11 +693,11 @@ He points to a wolf by his side.</nodes>
       <outputs name="Use this distraction as an opportunity to make a run for it!" ownerID="33" targetID="6" group="G1" fromX="1387" fromY="-2924" />
       <outputs name="Now that they don't expect it, attack!" ownerID="33" targetID="30" fromX="1387" fromY="-3005" />'Guess we've been a bit overburdened as it is. Tell ya what, how about you become customers instead? You pay us, we give you a child -- healthy, obedient, good as new.'
 </nodes>
-    <nodes xsi:type="NodeTrade" ID="34" positionX="1542.54529" positionY="-2559.00854" width="460" height="639" traderProfile="TRADER-BANDIT" playerInventory="things" startingBalance="-300">
-      <outputs name="Confirm" ownerID="34" targetID="36" group="G1" fromX="1972" fromY="-2887" />
-      <outputs name="Cancel" ownerID="34" targetID="33" fromX="1972" fromY="-2967" />
-      <outputs name="Confirm" ownerID="34" targetID="37" group="G1" fromX="1972" fromY="-3047" />
-      <outputs name="Confirm" ownerID="34" targetID="38" group="G1" fromX="1972" fromY="-3127" />
+    <nodes xsi:type="NodeTrade" ID="34" positionX="1488" positionY="-2293" width="460" height="639" traderProfile="TRADER-BANDIT" playerInventory="things" startingBalance="-300">
+      <outputs name="Confirm" ownerID="34" targetID="36" group="G1" fromX="2066" fromY="-2887" />
+      <outputs name="Cancel" ownerID="34" targetID="33" fromX="2066" fromY="-2967" />
+      <outputs name="Confirm" ownerID="34" targetID="37" group="G1" fromX="2066" fromY="-3047" />
+      <outputs name="Confirm" ownerID="34" targetID="38" group="G1" fromX="2066" fromY="-3127" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="36" positionX="2047.41284" positionY="-2729.104" width="350" height="530" allPlayersXP="5" allPlayersRP="2" linkedEventUniqueID="0">
       <logic>

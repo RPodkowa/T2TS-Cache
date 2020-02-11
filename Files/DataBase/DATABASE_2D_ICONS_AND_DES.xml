@@ -2773,6 +2773,9 @@
 			<IconResLink ResorceName="RES-MEAT" SecondResorceName="RES-MUSHROOMS"> <!-- GOLABKI -->				
 				<DescriptionInfo Name="DES_COOKING_MEAT_VEGGIES" Description="DES_COOKING_MEAT_VEGGIES_DES" IconName="Golabki"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-MEAT" SecondResorceName="RES-SEAWEED"> <!-- GOLABKI -->				
+				<DescriptionInfo Name="DES_COOKING_MEAT_VEGGIES" Description="DES_COOKING_MEAT_VEGGIES_DES" IconName="Golabki"/>
+			</IconResLink>
 			<IconResLink ResorceName="RES-FISH" SecondResorceName="RES-MEAT"> <!--BAKED FISH -->
 				<DescriptionInfo Name="DES_COOKING_FISH_MEAT" Description="DES_COOKING_FISH_MEAT_DES" IconName="BakedFish"/>
 			</IconResLink>
@@ -2794,6 +2797,9 @@
 			<IconResLink ResorceName="RES-FISH" SecondResorceName="RES-MUSHROOMS"> <!--FISH SALAD -->
 				<DescriptionInfo Name="DES_COOKING_FISH_VEGGIES" Description="DES_COOKING_FISH_VEGGIES_DES" IconName="FishSalad"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-FISH" SecondResorceName="RES-SEAWEED"> <!--FISH SALAD -->
+				<DescriptionInfo Name="DES_COOKING_FISH_VEGGIES" Description="DES_COOKING_FISH_VEGGIES_DES" IconName="FishSalad"/>
+			</IconResLink>
 			<IconResLink ResorceName="RES-EGGS" SecondResorceName="RES-MEAT"> <!-- FRIED EGG -->
 				<DescriptionInfo Name="DES_COOKING_EGGS_MEAT" Description="DES_COOKING_EGGS_MEAT_DES" IconName="FriedEgg"/>
 			</IconResLink>
@@ -2813,6 +2819,9 @@
 				<DescriptionInfo Name="DES_COOKING_EGGS_VEGGIES" Description="DES_COOKING_EGGS_VEGGIES_DES" IconName="Quiche"/>
 			</IconResLink>
 			<IconResLink ResorceName="RES-EGGS" SecondResorceName="RES-MUSHROOMS"> <!--QUICHE -->
+				<DescriptionInfo Name="DES_COOKING_EGGS_VEGGIES" Description="DES_COOKING_EGGS_VEGGIES_DES" IconName="Quiche"/>
+			</IconResLink>	
+			<IconResLink ResorceName="RES-EGGS" SecondResorceName="RES-SEAWEED"> <!--QUICHE -->
 				<DescriptionInfo Name="DES_COOKING_EGGS_VEGGIES" Description="DES_COOKING_EGGS_VEGGIES_DES" IconName="Quiche"/>
 			</IconResLink>			
 			<IconResLink ResorceName="RES-BEETLE_JELLY" SecondResorceName="RES-MEAT"> <!-- GALART -->
@@ -2836,6 +2845,9 @@
 			<IconResLink ResorceName="RES-BEETLE_JELLY" SecondResorceName="RES-MUSHROOMS"> <!-- JELLIED GREENS -->
 				<DescriptionInfo Name="DES_COOKING_BEETLEJELLY_VEGGIES" Description="DES_COOKING_BEETLEJELLY_VEGGIES_DES" IconName="JelliedGreens"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-BEETLE_JELLY" SecondResorceName="RES-SEAWEED"> <!-- JELLIED GREENS -->
+				<DescriptionInfo Name="DES_COOKING_BEETLEJELLY_VEGGIES" Description="DES_COOKING_BEETLEJELLY_VEGGIES_DES" IconName="JelliedGreens"/>
+			</IconResLink>
 		</IconRecipeLink>
 				
 		<IconRecipeLink ItemRecipe="ITEM_REC-COOKING_VEGGIES1">	
@@ -2848,6 +2860,9 @@
 			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-MUSHROOMS"> <!-- PICKES -->
 				<DescriptionInfo Name="DES_COOKING_VEGGIES_VEGGIES" Description="DES_COOKING_VEGGIES_VEGGIES_DES" IconName="Pickles"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-SEAWEED"> <!-- PICKES -->
+				<DescriptionInfo Name="DES_COOKING_VEGGIES_VEGGIES" Description="DES_COOKING_VEGGIES_VEGGIES_DES" IconName="Pickles"/>
+			</IconResLink>
 			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-SPICES"> <!-- GROCHOWKA -->
 				<DescriptionInfo Name="DES_COOKING_VEGGIES_SPICES" Description="DES_COOKING_VEGGIES_SPICES_DES" IconName="Grochowka"/>
 			</IconResLink>
@@ -2857,10 +2872,13 @@
 			<IconResLink ResorceName="RES-GRAIN" SecondResorceName="RES-VEGGIES"> <!-- SANDWICH -->
 				<DescriptionInfo Name="DES_COOKING_GRAIN_VEGGIES" Description="DES_COOKING_GRAIN_VEGGIES_DES" IconName="Sandwich"/>
 			</IconResLink>
-			<IconResLink ResorceName="RES-GRAIN" SecondResorceName="RES-GRAIN"> <!-- SANDWICH -->
-				<DescriptionInfo Name="DES_COOKING_GRAIN_VEGGIES" Description="DES_COOKING_GRAIN_VEGGIES_DES" IconName="Sandwich"/>
+			<IconResLink ResorceName="RES-GRAIN" SecondResorceName="RES-GRAIN"> <!-- BREAD -->
+				<DescriptionInfo Name="DES_COOKING_GRAIN_VEGGIES_BREAD" Description="DES_COOKING_GRAIN_VEGGIES_BREAD_DES" IconName="Bread"/>
 			</IconResLink>
 			<IconResLink ResorceName="RES-GRAIN" SecondResorceName="RES-MUSHROOMS"> <!-- SANDWICH -->
+				<DescriptionInfo Name="DES_COOKING_GRAIN_VEGGIES" Description="DES_COOKING_GRAIN_VEGGIES_DES" IconName="Sandwich"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-GRAIN" SecondResorceName="RES-SEAWEED"> <!-- SANDWICH -->
 				<DescriptionInfo Name="DES_COOKING_GRAIN_VEGGIES" Description="DES_COOKING_GRAIN_VEGGIES_DES" IconName="Sandwich"/>
 			</IconResLink>
 			<IconResLink ResorceName="RES-GRAIN" SecondResorceName="RES-SPICES"> <!-- DWARF MOONSHINE -->
@@ -2878,11 +2896,32 @@
 			<IconResLink ResorceName="RES-MUSHROOMS" SecondResorceName="RES-MUSHROOMS"> <!-- MUSHROOM BAKE -->
 				<DescriptionInfo Name="DES_COOKING_MUSHROOMS_VEGGIES" Description="DES_COOKING_MUSHROOMS_VEGGIES_DES" IconName="MushroomBake"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-MUSHROOMS" SecondResorceName="RES-SEAWEED"> <!-- MUSHROOM BAKE -->
+				<DescriptionInfo Name="DES_COOKING_MUSHROOMS_VEGGIES" Description="DES_COOKING_MUSHROOMS_VEGGIES_DES" IconName="MushroomBake"/>
+			</IconResLink>
 			<IconResLink ResorceName="RES-MUSHROOMS" SecondResorceName="RES-SPICES"> <!-- FRIED MUSHROOMS -->
 				<DescriptionInfo Name="DES_COOKING_MUSHROOMS_SPICES" Description="DES_COOKING_MUSHROOMS_SPICES_DES" IconName="FriedMushrooms"/>
 			</IconResLink>
 			<IconResLink ResorceName="RES-MUSHROOMS" SecondResorceName="RES-HERBS"> <!-- FRIED MUSHROOMS -->
 				<DescriptionInfo Name="DES_COOKING_MUSHROOMS_SPICES" Description="DES_COOKING_MUSHROOMS_SPICES_DES" IconName="FriedMushrooms"/>
+			</IconResLink>			
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-VEGGIES"> <!-- GREEN SOUP -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_VEGGIES" Description="DES_COOKING_SEAWEED_VEGGIES_DES" IconName="GreenSoup"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-GRAIN"> <!-- GREEN SOUP -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_VEGGIES" Description="DES_COOKING_SEAWEED_VEGGIES_DES" IconName="GreenSoup"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-MUSHROOMS"> <!-- GREEN SOUP -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_VEGGIES" Description="DES_COOKING_SEAWEED_VEGGIES_DES" IconName="GreenSoup"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-SEAWEED"> <!-- GREEN SOUP -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_VEGGIES" Description="DES_COOKING_SEAWEED_VEGGIES_DES" IconName="GreenSoup"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-SPICES"> <!-- SPIRIT OF THE SEAS -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_SPICES" Description="DES_COOKING_SEAWEED_SPICES_DES" IconName="SpiritOfTheSeas"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-HERBS"> <!-- SPIRIT OF THE SEAS -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_SPICES" Description="DES_COOKING_SEAWEED_SPICES_DES" IconName="SpiritOfTheSeas"/>
 			</IconResLink>
 		</IconRecipeLink>
 		
@@ -2896,8 +2935,8 @@
 			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-EGGS"> <!-- BIGOS -->
 				<DescriptionInfo Name="DES_COOKING_VEGGIES_MEAT" Description="DES_COOKING_VEGGIES_MEAT_DES" IconName="Bigos"/>
 			</IconResLink>
-			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-BEETLE_JELLY"> <!-- BIGOS -->
-				<DescriptionInfo Name="DES_COOKING_VEGGIES_MEAT" Description="DES_COOKING_VEGGIES_MEAT_DES" IconName="Bigos"/>
+			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-BEETLE_JELLY"> <!-- BORSCHT -->
+				<DescriptionInfo Name="DES_COOKING_VEGGIES_MEAT_BORSCHT" Description="DES_COOKING_VEGGIES_MEAT_BORSCHT_DES" IconName="Borscht"/>
 			</IconResLink>			
 			<IconResLink ResorceName="RES-VEGGIES" SecondResorceName="RES-FRUITS"> <!-- LECZO -->
 				<DescriptionInfo Name="DES_COOKING_VEGGIES_FRUITS" Description="DES_COOKING_VEGGIES_FRUITS_DES" IconName="Leczo"/>
@@ -2941,6 +2980,24 @@
 			<IconResLink ResorceName="RES-MUSHROOMS" SecondResorceName="RES-NUTS"> <!-- MUSHROOM SALAD -->
 				<DescriptionInfo Name="DES_COOKING_MUSHROOMS_FRUITS" Description="DES_COOKING_MUSHROOMS_FRUITS_DES" IconName="MushroomSalad"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-MEAT"> <!-- SUSHI -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_MEAT" Description="DES_COOKING_SEAWEED_MEAT_DES" IconName="Sushi"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-FISH"> <!-- SUSHI -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_MEAT" Description="DES_COOKING_SEAWEED_MEAT_DES" IconName="Sushi"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-EGGS"> <!-- SUSHI -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_MEAT" Description="DES_COOKING_SEAWEED_MEAT_DES" IconName="Sushi"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-BEETLE_JELLY"> <!-- SUSHI -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_MEAT" Description="DES_COOKING_SEAWEED_MEAT_DES" IconName="Sushi"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-FRUITS"> <!-- SEAWEED SALAD -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_FRUITS" Description="DES_COOKING_SEAWEED_FRUITS_DES" IconName="SeaweedSalad"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-SEAWEED" SecondResorceName="RES-NUTS"> <!-- SEAWEED SALAD -->
+				<DescriptionInfo Name="DES_COOKING_SEAWEED_FRUITS" Description="DES_COOKING_SEAWEED_FRUITS_DES" IconName="SeaweedSalad"/>
+			</IconResLink>
 		</IconRecipeLink>
 		
 		<IconRecipeLink ItemRecipe="ITEM_REC-COOKING_FRUITS1">	
@@ -2965,6 +3022,9 @@
 			<IconResLink ResorceName="RES-NUTS" SecondResorceName="RES-MUSHROOMS"> <!-- NUT ROAST -->
 				<DescriptionInfo Name="DES_COOKING_NUTS_VEGGIES" Description="DES_COOKING_NUTS_VEGGIES_DES" IconName="NutRoast"/>
 			</IconResLink>
+			<IconResLink ResorceName="RES-NUTS" SecondResorceName="RES-SEAWEED"> <!-- NUT ROAST -->
+				<DescriptionInfo Name="DES_COOKING_NUTS_VEGGIES" Description="DES_COOKING_NUTS_VEGGIES_DES" IconName="NutRoast"/>
+			</IconResLink>
 			<IconResLink ResorceName="RES-FRUITS" SecondResorceName="RES-VEGGIES"> <!-- VEGGIE BAKE -->
 				<DescriptionInfo Name="DES_COOKING_FRUITS_VEGGIES" Description="DES_COOKING_FRUITS_VEGGIES_DES" IconName="VeggieBake"/>
 			</IconResLink>
@@ -2972,6 +3032,9 @@
 				<DescriptionInfo Name="DES_COOKING_FRUITS_VEGGIES" Description="DES_COOKING_FRUITS_VEGGIES_DES" IconName="VeggieBake"/>
 			</IconResLink>
 			<IconResLink ResorceName="RES-FRUITS" SecondResorceName="RES-MUSHROOMS"> <!-- VEGGIE BAKE -->
+				<DescriptionInfo Name="DES_COOKING_FRUITS_VEGGIES" Description="DES_COOKING_FRUITS_VEGGIES_DES" IconName="VeggieBake"/>
+			</IconResLink>
+			<IconResLink ResorceName="RES-FRUITS" SecondResorceName="RES-SEAWEED"> <!-- VEGGIE BAKE -->
 				<DescriptionInfo Name="DES_COOKING_FRUITS_VEGGIES" Description="DES_COOKING_FRUITS_VEGGIES_DES" IconName="VeggieBake"/>
 			</IconResLink>
 		</IconRecipeLink>

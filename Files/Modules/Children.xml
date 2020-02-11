@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Children" lastEventIndex="46" allowToUse="true" uniqueModuleID="1995964287">
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Children" lastEventIndex="51" allowToUse="true" uniqueModuleID="1995964287">
   <Adventure name="StorkHum" uniqueID="1" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="3" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
       <logic>
@@ -2353,6 +2353,520 @@ Your unliving friend got really friendly with someone, and the stork decided to 
         <ModifierBlock>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-UNLI_RAT" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="StorkBOrcMix" uniqueID="47" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="male">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_MALE" />
+          </LogicFilter>
+          <LogicFilter name="female">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_FEMALE" />
+          </LogicFilter>
+          <LogicFilter name="human">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-HUMAN" />
+          </LogicFilter>
+          <LogicFilter name="orc">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="orcmale" list1="orc" list2="male">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="humfemale" list1="female" list2="human">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildmale" makePublic="true" list1="orcmale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="nocholdfemale" makePublic="true" list1="humfemale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nochildmale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="nocholdfemale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="2" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualTag" tag="TAG-KS_COUNTD1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="435" positionY="-156" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="nochildmale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicProcessing name="2" list1="nocholdfemale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTurnTag" parameter="300" tag="TAG-KS_COUNTD1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Rejoice." ownerID="2" targetID="3" group="G1" fromX="760" fromY="-647" />
+      <outputs name="Rejoice." ownerID="2" targetID="5" group="G1" fromX="760" fromY="-727" />The nights are long and lonely, some of you find comfort in each other's company.
+
+ 
+But the ever-vigilant and slightly over enthusiastic stork is spotted nearby and as sure as death, a child is brought to you soon after.
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1007" positionY="-179" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="15" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="5" positionX="1428" positionY="-537" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-HUM_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="5" targetID="6" fromX="1858" fromY="-895" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1975" positionY="-481" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="ch">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="SUBRACE-HUM_CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="new" list1="ch" list2="ppl">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicModifiers list="new">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-STRENGTH" />
+          </LogicModifiers>
+          <LogicModifiers list="new">
+            <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" parameter="1" tag="SKILL_PACK-Q_ONLY_PIRATE_RACE" />
+          </LogicModifiers>
+          <LogicModifiers list="new">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-HALF_RACE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+  </Adventure>
+  <Adventure name="StorkBlOrcMix2" uniqueID="48" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="male">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_MALE" />
+          </LogicFilter>
+          <LogicFilter name="female">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_FEMALE" />
+          </LogicFilter>
+          <LogicFilter name="human">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-HUMAN" />
+          </LogicFilter>
+          <LogicFilter name="orc">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="orcmale" list1="human" list2="male">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="humfemale" list1="female" list2="orc">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildmale" makePublic="true" list1="orcmale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildfemale" makePublic="true" list1="humfemale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nochildmale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="nochildfemale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualTag" tag="TAG-KS_COUNTD1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="435" positionY="-156" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="nochildmale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicProcessing name="2" list1="nochildfemale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTurnTag" parameter="200" tag="TAG-KS_COUNTD1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Rejoice." ownerID="2" targetID="3" group="G1" fromX="760" fromY="-647" />
+      <outputs name="Rejoice." ownerID="2" targetID="6" group="G1" fromX="760" fromY="-727" />The nights are long and lonely, some of you find comfort in each other's company.
+
+ 
+But the ever-vigilant and slightly over enthusiastic stork is spotted nearby and as sure as death, a child is brought to you soon after.
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1007" positionY="-179" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="15" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="2066" positionY="-416" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="ch">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="SUBRACE-HUM_CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="new" list1="ch" list2="ppl">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicModifiers list="new">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-STRENGTH" />
+          </LogicModifiers>
+          <LogicModifiers list="new">
+            <scriptCallWithTag scriptName="FMO_ChangeLearnedSkillOnCharacter" parameter="1" tag="SKILL_PACK-Q_ONLY_PIRATE_RACE" />
+          </LogicModifiers>
+          <LogicModifiers list="new">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-HALF_RACE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="6" positionX="1503" positionY="-508" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-HUM_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="6" targetID="5" fromX="1933" fromY="-866" />
+    </nodes>
+  </Adventure>
+  <Adventure name="StorkBlOrc" uniqueID="49" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="3" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="male">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_MALE" />
+          </LogicFilter>
+          <LogicFilter name="female">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_FEMALE" />
+          </LogicFilter>
+          <LogicFilter name="human">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="hummale" list1="human" list2="male">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="humfemale" list1="female" list2="human">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildM" list1="hummale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildF" list1="humfemale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nochildF">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="nochildM">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PopulationChance" parameter="2" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualTag" tag="TAG-KS_COUNTC1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="435" positionY="-156" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTurnTag" parameter="400" tag="TAG-KS_COUNTC1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Rejoice." ownerID="2" targetID="3" fromX="760" fromY="-647" />The nights are long and lonely, some of you find comfort in each other's company.
+
+But the ever-vigilant and slightly over enthusiastic stork is spotted nearby and as sure as death, a child is brought to you soon after.
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="854" positionY="-334" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="StorkBlOrcOrc" uniqueID="50" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="male">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_MALE" />
+          </LogicFilter>
+          <LogicFilter name="female">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_FEMALE" />
+          </LogicFilter>
+          <LogicFilter name="human">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-ORC" />
+          </LogicFilter>
+          <LogicFilter name="orc">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="orcmale" list1="orc" list2="male">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="humfemale" list1="female" list2="human">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildmale" makePublic="true" list1="orcmale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="nocholdfemale" makePublic="true" list1="humfemale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nochildmale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="nocholdfemale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PopulationChance" parameter="2" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualTag" tag="TAG-KS_COUNTD1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="435" positionY="-156" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="nochildmale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicProcessing name="2" list1="nocholdfemale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTurnTag" parameter="300" tag="TAG-KS_COUNTD1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Rejoice." ownerID="2" targetID="3" group="G1" fromX="760" fromY="-647" />
+      <outputs name="Rejoice." ownerID="2" targetID="5" group="G1" fromX="760" fromY="-727" />The nights are long and lonely, some of you find comfort in each other's company.
+
+But the ever-vigilant and slightly over enthusiastic stork is spotted nearby and as sure as death, a child is brought to you soon after.
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1007" positionY="-179" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="25" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="5" positionX="1428" positionY="-537" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="5" targetID="6" fromX="1858" fromY="-895" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1975" positionY="-481" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="StorkBlOrcOrc2" uniqueID="51" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="7" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event052">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="male">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_MALE" />
+          </LogicFilter>
+          <LogicFilter name="female">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-GENDER_FEMALE" />
+          </LogicFilter>
+          <LogicFilter name="human">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="RACE-ORC" />
+          </LogicFilter>
+          <LogicFilter name="orc">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="child">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="orcmale" list1="human" list2="male">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="humfemale" list1="female" list2="orc">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildmale" makePublic="true" list1="orcmale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="nochildfemale" makePublic="true" list1="humfemale" list2="child">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="nochildmale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="nochildfemale">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PopulationChance" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualTag" tag="TAG-KS_COUNTD1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="435" positionY="-156" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="nochildmale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicProcessing name="2" list1="nochildfemale">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers list="2">
+            <scriptCallWithTag scriptName="FMO_ChangeEffectSkillOnCharacter" parameter="1" tag="SKILL_PACK-BLESS_P" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTurnTag" parameter="200" tag="TAG-KS_COUNTD1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Rejoice." ownerID="2" targetID="3" group="G1" fromX="760" fromY="-647" />
+      <outputs name="Rejoice." ownerID="2" targetID="7" group="G1" fromX="760" fromY="-727" />The nights are long and lonely, some of you find comfort in each other's company.
+
+ 
+But the ever-vigilant and slightly over enthusiastic stork is spotted nearby and as sure as death, a child is brought to you soon after.
+</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1007" positionY="-179" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="25" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="985" positionY="-743" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-ORC_CHILD" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>

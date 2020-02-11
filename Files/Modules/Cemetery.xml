@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="windows-1250"?>
 <MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Cemetery" lastEventIndex="43" allowToUse="true" uniqueModuleID="-829823726">
-  <Adventure name="Cemetery gob ghost" uniqueID="1" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="66" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event019">
+  <Adventure name="Cemetery gob ghost" uniqueID="1" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="66" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event019">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -9,7 +9,7 @@
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="478.749573" positionY="27.806778" width="350" height="1126">
       <logic>
@@ -466,9 +466,9 @@ The spirit nods in agreement.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="778.9223" positionY="-365.3902" width="350" height="530" linkedEventUniqueID="14" />
   </Adventure>
-  <Adventure name="Cemetery goblin D3" uniqueID="3" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="10" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="661" image="Event019">
-      <outputs ownerID="1" targetID="3" fromX="143" fromY="-845" />
+  <Adventure name="Cemetery goblin D3" uniqueID="3" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="10" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="783" image="Event019">
+      <outputs ownerID="1" targetID="3" fromX="143" fromY="-967" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="475.2423" positionY="-53.8071976" width="350" height="1126">
       <outputs name="Have a closer look." ownerID="3" targetID="4" group="G1" fromX="800" fromY="-544" />
@@ -529,9 +529,9 @@ The spirit nods in agreement.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="10" positionX="932.0685" positionY="-1724.69519" width="350" height="530" linkedEventUniqueID="40" />
   </Adventure>
-  <Adventure name="Cemetery skeletons" uniqueID="4" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="3" nodeIdMax="54" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event012">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery skeletons" uniqueID="4" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="3" nodeIdMax="54" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event012">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="443.6543" positionY="155.778183" width="350" height="1046">
       <logic>
@@ -889,9 +889,9 @@ This may not be the awakening you hoped for, but it's a first step. The skeleton
       <outputs ownerID="54" targetID="7" fromX="337" fromY="796" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery loot" uniqueID="5" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event025">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery loot" uniqueID="5" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event025">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="481.235748" positionY="-150.736374" width="350" height="966">
       <logic>
@@ -1024,9 +1024,9 @@ This may not be the awakening you hoped for, but it's a first step. The skeleton
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="19" positionX="-18" positionY="-780" width="350" height="530" linkedEventUniqueID="0" />
   </Adventure>
-  <Adventure name="cem goblin trinketDiff3" uniqueID="6" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="30" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event019">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="cem goblin trinketDiff3" uniqueID="6" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="30" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event019">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="464.3781" positionY="-86.15531" width="350" height="1206">
       <logic>
@@ -1258,9 +1258,9 @@ The contraption then explodes.</nodes>
       <outputs ownerID="30" targetID="10" fromX="-224" fromY="-695" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery gob ghost2" uniqueID="7" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="44" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event019">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery gob ghost2" uniqueID="7" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="44" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event019">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="474.029083" positionY="-120.028122" width="350" height="966">
       <logic>
@@ -1691,9 +1691,9 @@ One of the souls, now changed into its rightful spirit form, decides to become y
       <outputs ownerID="44" targetID="27" fromX="3694" fromY="-3066" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery dwarf" uniqueID="8" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="30.9454536" positionY="-55.81818" width="347" height="661" image="Event023">
-      <outputs ownerID="1" targetID="3" fromX="355" fromY="-659" />
+  <Adventure name="Cemetery dwarf" uniqueID="8" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="30.9454536" positionY="-55.81818" width="347" height="783" image="Event023">
+      <outputs ownerID="1" targetID="3" fromX="355" fromY="-781" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="475.2423" positionY="-53.8071976" width="350" height="1126">
       <outputs name="Have a closer look." ownerID="3" targetID="11" group="G1" fromX="800" fromY="-544" />
@@ -1755,8 +1755,8 @@ One of the souls, now changed into its rightful spirit form, decides to become y
     </nodes>
   </Adventure>
   <Adventure name="Cem dwarf guard" uniqueID="9" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="52" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event023">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event023">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="465.5266" positionY="-23.7545166" width="350" height="1126">
       <logic>
@@ -2034,9 +2034,9 @@ They show you a stone ring. You know you must enter and be judged by the stone a
       <outputs ownerID="52" targetID="16" fromX="-1740" fromY="-1106" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery  dwrockers" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="41" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event023">
-      <outputs ownerID="1" targetID="3" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery  dwrockers" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="41" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event023">
+      <outputs ownerID="1" targetID="3" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="445.535858" positionY="-131.968475" width="350" height="1126">
       <logic>
@@ -2269,9 +2269,9 @@ The rocker cries pebbles, and the others join in.</nodes>
       <outputs ownerID="41" targetID="12" fromX="2931" fromY="849" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery graverob" uniqueID="11" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="59" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-11.3861389" positionY="4.25742626" width="347" height="661" image="Event195">
-      <outputs ownerID="1" targetID="2" fromX="313" fromY="-599" />
+  <Adventure name="cemetery graverob" uniqueID="11" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="59" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-11.3861389" positionY="4.25742626" width="347" height="783" image="Event195">
+      <outputs ownerID="1" targetID="2" fromX="313" fromY="-721" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="400.0159" positionY="223.516724" width="350" height="1046">
       <logic>
@@ -2650,9 +2650,9 @@ You feel the spirits of metal and stone favour you.</nodes>
       <outputs ownerID="59" targetID="31" fromX="1994" fromY="1781" />
     </nodes>
   </Adventure>
-  <Adventure name="Cem dwarf ghost" uniqueID="12" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="60" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event023">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cem dwarf ghost" uniqueID="12" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="60" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event023">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="458.252625" positionY="-31.5720062" width="350" height="1126">
       <logic>
@@ -2979,9 +2979,9 @@ You see the statue move faster than any stone should. It rushes into the nearby 
       <outputs ownerID="60" targetID="44" fromX="6246" fromY="-2415" />
     </nodes>
   </Adventure>
-  <Adventure name="smith ghost" uniqueID="13" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="67" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-286" positionY="918" width="347" height="704" image="Event023">
-      <outputs ownerID="1" targetID="2" fromX="38" fromY="271" />
+  <Adventure name="smith ghost" uniqueID="13" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="67" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-286" positionY="918" width="347" height="783" image="Event023">
+      <outputs ownerID="1" targetID="2" fromX="38" fromY="192" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="394.541565" positionY="901.493469" width="350" height="1046">
       <logic>
@@ -3483,9 +3483,9 @@ Strangely, however, you find a stone mannequin wearing robes and holding a dwarv
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="11" positionX="940.2759" positionY="-1928.46533" width="350" height="455" linkedEventUniqueID="5" />
   </Adventure>
-  <Adventure name="Cemetery hum ghost" uniqueID="15" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="3" nodeIdMax="38" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event007">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery hum ghost" uniqueID="15" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="3" nodeIdMax="38" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event007">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="439.1245" positionY="3.572277" width="350" height="966">
       <logic>
@@ -4211,9 +4211,9 @@ As you step inside, candles light up along your path and, within, you find a sto
       <outputs ownerID="61" targetID="4" fromX="2443" fromY="398" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery hum striga" uniqueID="17" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="74" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-22.8628616" positionY="24.4130783" width="347" height="661" image="Event007">
-      <outputs ownerID="1" targetID="2" fromX="301" fromY="-579" />
+  <Adventure name="cemetery hum striga" uniqueID="17" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="74" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-22.8628616" positionY="24.4130783" width="347" height="783" image="Event007">
+      <outputs ownerID="1" targetID="2" fromX="301" fromY="-700" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="421.676971" positionY="87.2096252" width="350" height="805">
       <logic>
@@ -4749,9 +4749,9 @@ You stab it repeatedly before it can rise fully, but it put up a fight and left 
       <outputs ownerID="74" targetID="41" fromX="5032" fromY="-1219" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery hum unliv" uniqueID="18" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="94" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-53.0656929" positionY="-76.21898" width="347" height="661" image="Event007">
-      <outputs ownerID="1" targetID="2" fromX="271" fromY="-679" />
+  <Adventure name="cemetery hum unliv" uniqueID="18" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="95" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-53.0656929" positionY="-76.21898" width="347" height="783" image="Event007">
+      <outputs ownerID="1" targetID="2" fromX="271" fromY="-801" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="469.158875" positionY="235.338531" width="350" height="885">
       <logic>
@@ -4790,7 +4790,7 @@ It could be grave robbers, but it could be something more...</nodes>
       <outputs name="[Demon or zerca]Try to figure out what creature this may be." ownerID="4" targetID="7" group="G1" fromX="190" fromY="1132" />
       <outputs name="[Magic users]You sense some magic here. Take a closer look." ownerID="4" targetID="10" group="G1" fromX="190" fromY="1052" />
       <outputs name="[Harmony]Your connection to the divine tingles. Time to investigate." ownerID="4" targetID="11" group="G3" fromX="190" fromY="972" />
-      <outputs name="[Nature]You feel something unnatural. Investigate." ownerID="4" targetID="11" group="G3" fromX="190" fromY="892" />
+      <outputs name="[Nature]You feel something unnatural. Investigate." ownerID="4" targetID="95" group="G3" fromX="190" fromY="892" />
       <outputs name="Black cats and mice are often signs of witchery. Best approach with caution." ownerID="4" targetID="78" group="G2" fromX="190" fromY="812" />
       <outputs name="Black cats and mice are often signs of witchery. Kill the creature!" ownerID="4" targetID="9" group="G2" fromX="190" fromY="731" />You go in closer and notice a figure sitting on a gravestone, crying. The figure shifts its shape from a black cat to a mouse to a ghostly visage of a woman and back again. </nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="45.23974" positionY="-1214.34534" width="350" height="885">
@@ -4854,11 +4854,8 @@ Judging from the setting, you suspect that the unliving roam these grounds!
     <nodes xsi:type="NodeAdventure" ID="11" positionX="1433.39136" positionY="927.8847" width="350" height="885">
       <logic>
         <FilterBlock>
-          <LogicResultAction resultGroup="G1">
+          <LogicResultAction>
             <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_HARMONY" />
-          </LogicResultAction>
-          <LogicResultAction resultGroup="G1">
-            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_NATURE" />
           </LogicResultAction>
         </FilterBlock>
       </logic>
@@ -5303,10 +5300,24 @@ The unliving stand there for a second, staring at you in disbelief. The mother f
     <nodes xsi:type="NodeSpawnOnMap" ID="93" positionX="770.293152" positionY="3458.70483" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
       <outputs ownerID="93" targetID="26" fromX="1218" fromY="3026" />
     </nodes>
+    <nodes xsi:type="NodeAdventure" ID="95" positionX="1011" positionY="1011" width="350" height="885">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_NATURE" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Perform a dance of nature and harmony to try to bring this creature back from its torment." ownerID="95" targetID="60" fromX="1337" fromY="519" />
+      <outputs name="Attack!" ownerID="95" targetID="6" fromX="1337" fromY="439" />
+      <outputs name="Leave this place of unnatural turmoil." ownerID="95" targetID="93" fromX="1337" fromY="359" />You sense the overwhelming power of harmony, twisted and unnatural. Something is very wrong here; the laws of harmony and nature are being broken!
+
+The figure sees you and speaks: 'You, you're living... good... or no? No, bad... they will feed on you! Oh, no!'
+</nodes>
   </Adventure>
-  <Adventure name="cemetery elf" uniqueID="19" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="7" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="cemetery elf" uniqueID="19" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="7" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="494.9358" positionY="-43.55951" width="350" height="885">
       <outputs name="Investigate." ownerID="2" targetID="3" group="G1" fromX="820" fromY="-534" />
@@ -5332,9 +5343,9 @@ The unliving stand there for a second, staring at you in disbelief. The mother f
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1100" positionY="-953" width="350" height="530" linkedEventUniqueID="22" />
   </Adventure>
-  <Adventure name="cemetery elf guard" uniqueID="20" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="75" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-177" positionY="256" width="347" height="661" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="147" fromY="-347" />
+  <Adventure name="cemetery elf guard" uniqueID="20" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="75" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-177" positionY="256" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="147" fromY="-469" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="351" positionY="623" width="350" height="1126">
       <logic>
@@ -5362,7 +5373,7 @@ The unliving stand there for a second, staring at you in disbelief. The mother f
 
 'What do you seek in this sacred place?'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="472.2622" positionY="1790.40369" width="350" height="805">
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="324" positionY="1769" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction list="woodkin">
@@ -5375,8 +5386,8 @@ The unliving stand there for a second, staring at you in disbelief. The mother f
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Thank them." ownerID="4" targetID="5" group="G1" fromX="798" fromY="1299" />
-      <outputs name="Thank them." ownerID="4" targetID="10" group="G1" fromX="798" fromY="1219" />'Forgive our caution. Some of our kin has moved far from the light and remembers our ways not. Come to the memory tree, then, and ask for your blessings.'</nodes>
+      <outputs name="Thank them." ownerID="4" targetID="5" group="G1" fromX="655" fromY="1277" />
+      <outputs name="Thank them." ownerID="4" targetID="10" group="G1" fromX="655" fromY="1197" />'Forgive our caution. Some of our kin has moved far from the light and remembers our ways not. Come to the memory tree, then, and ask for your blessings.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1065" positionY="2277" width="350" height="885">
       <logic>
         <FilterBlock>
@@ -5919,9 +5930,9 @@ You manage to step back, but you feel a deep burning within. </nodes>
       <outputs ownerID="75" targetID="45" fromX="5631" fromY="2292" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery elf ghost" uniqueID="21" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="51" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="cemetery elf ghost" uniqueID="21" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="51" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="-34" positionY="-742" width="350" height="805">
       <logic>
@@ -6376,9 +6387,9 @@ The ever-sleep is when we decide to shed our material shells and rejoin the ever
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="393.3877" positionY="-928.8088" width="350" height="530" linkedEventUniqueID="0" />
   </Adventure>
-  <Adventure name="cemetery elf statue" uniqueID="22" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="47" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event022">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="cemetery elf statue" uniqueID="22" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="47" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event022">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="510.381378" positionY="-159.995" width="350" height="1206">
       <logic>
@@ -6401,12 +6412,12 @@ The ever-sleep is when we decide to shed our material shells and rejoin the ever
         </FilterBlock>
       </logic>
       <outputs name="You feel your divine connection pulling you towards the statue. Touch it. " ownerID="2" targetID="3" fromX="836" fromY="-651" />
-      <outputs name="[Elf]Sing the ever-sleep song to soothe your elven brethren on their journey." ownerID="2" targetID="9" fromX="838" fromY="-731" />
-      <outputs name="You sense faint remnants of life within the woodwork -- a spirit almost crossed over, perhaps? Meditate in respect for this soul." ownerID="2" targetID="18" fromX="838" fromY="-811" />
-      <outputs name="[Dwarf]As statues go, this one was not made by mortal hands. Examine the craft." ownerID="2" targetID="4" fromX="838" fromY="-891" />
-      <outputs name="Take the precious stuff out." ownerID="2" targetID="27" group="G2" fromX="838" fromY="-971" />
-      <outputs name="Take the precious stuff out." ownerID="2" targetID="5" group="G2" fromX="838" fromY="-1052" />
-      <outputs name="Pay your respects and leave." ownerID="2" targetID="43" fromX="838" fromY="-1132" />You come closer to the tree and realise that out of one of the roots grows a figure of an elf -- a wooden statue, lifelike yet clearly static. It has several ornaments made of precious stones and metals, including a tiara, some rings, and a decorative chest piece. </nodes>
+      <outputs name="[Elf]Sing the ever-sleep song to soothe your elven brethren on their journey." ownerID="2" targetID="9" fromX="836" fromY="-731" />
+      <outputs name="You sense faint remnants of life within the woodwork -- a spirit almost crossed over, perhaps? Meditate in respect for this soul." ownerID="2" targetID="18" fromX="836" fromY="-811" />
+      <outputs name="[Dwarf]As statues go, this one was not made by mortal hands. Examine the craft." ownerID="2" targetID="4" fromX="836" fromY="-891" />
+      <outputs name="Take the precious stuff out." ownerID="2" targetID="27" group="G2" fromX="836" fromY="-971" />
+      <outputs name="Take the precious stuff out." ownerID="2" targetID="5" group="G2" fromX="836" fromY="-1052" />
+      <outputs name="Pay your respects and leave." ownerID="2" targetID="43" fromX="836" fromY="-1132" />You come closer to the tree and realise that out of one of the roots grows a figure of an elf -- a wooden statue, lifelike yet clearly static. It has several ornaments made of precious stones and metals, including a tiara, some rings, and a decorative chest piece. </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="562.658936" positionY="871.292236" width="350" height="966">
       <logic>
         <FilterBlock>
@@ -6816,9 +6827,9 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
       <outputs ownerID="47" targetID="7" fromX="649" fromY="-1799" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery orc D5" uniqueID="23" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="5" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="661" image="Event020">
-      <outputs ownerID="1" targetID="3" fromX="143" fromY="-845" />
+  <Adventure name="cemetery orc D5" uniqueID="23" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="5" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-181.127274" positionY="-241.709122" width="347" height="783" image="Event020">
+      <outputs ownerID="1" targetID="3" fromX="143" fromY="-967" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="475.2423" positionY="-53.8071976" width="350" height="1046">
       <outputs name="Have a closer look." ownerID="3" targetID="5" group="G1" fromX="800" fromY="-544" />
@@ -6869,9 +6880,9 @@ Any who know of elven cultures are struck by the finality of this death.</nodes>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="11" positionX="702.652161" positionY="-1295.19788" width="350" height="455" linkedEventUniqueID="39" />
   </Adventure>
-  <Adventure name="cemetery orc witch" uniqueID="25" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="46" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event020">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="cemetery orc witch" uniqueID="25" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="5" nodeIdMax="46" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event020">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="449.787323" positionY="683.569458" width="350" height="1206">
       <logic>
@@ -7212,10 +7223,10 @@ You know which of the weapons laid here are proper and which are mere honour sym
       <outputs ownerID="46" targetID="4" fromX="-198" fromY="-449" />
     </nodes>
   </Adventure>
-  <Adventure name="cemetery orc ghost" uniqueID="26" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="90" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-252.275757" positionY="369.61618" width="347" height="741" image="Event020">
-      <outputs ownerID="1" targetID="2" group="G1" fromX="72" fromY="-233" />
-      <outputs ownerID="1" targetID="33" group="G1" fromX="72" fromY="-314" />
+  <Adventure name="cemetery orc ghost" uniqueID="26" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="90" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-252.275757" positionY="369.61618" width="347" height="863" image="Event020">
+      <outputs ownerID="1" targetID="2" group="G1" fromX="72" fromY="-355" />
+      <outputs ownerID="1" targetID="33" group="G1" fromX="72" fromY="-435" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="439.9853" positionY="817.8267" width="350" height="966">
       <logic>
@@ -7393,7 +7404,7 @@ You wanna play a game or no?'</nodes>
       <outputs name="And that's it?" ownerID="23" targetID="10" fromX="4862" fromY="-895" />'Why, do you think everything in life has to have logic or meaning?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="24" positionX="1694.31653" positionY="1017.62354" width="350" height="805">
       <outputs name="Ask what game they mean." ownerID="24" targetID="8" fromX="2020" fromY="526" />
-      <outputs name="Attack the abomination!" ownerID="24" targetID="6" fromX="2020" fromY="446" />'It is.'</nodes>
+      <outputs name="Attack the abomination!" ownerID="24" targetID="6" fromX="2020" fromY="526" />'It is.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="864.787842" positionY="62.2310638" width="350" height="885">
       <outputs name="Ask what game they mean." ownerID="25" targetID="8" fromX="1190" fromY="-428" />
       <outputs name="Kill it!" ownerID="25" targetID="6" fromX="1190" fromY="-509" />
@@ -7783,7 +7794,7 @@ You wonder what the creature may have done to you. The orc skeleton, however, is
       <outputs ownerID="90" targetID="74" fromX="-506" fromY="-4417" />
     </nodes>
   </Adventure>
-  <Adventure name="place of power spaw" uniqueID="27" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="32" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="place of power spaw" uniqueID="27" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="32" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-9.009901" positionY="11.3861389" width="347" height="741" image="Event004">
       <outputs ownerID="1" targetID="2" group="G1" fromX="315" fromY="-592" />
       <outputs ownerID="1" targetID="27" group="G1" fromX="315" fromY="-672" />
@@ -8000,9 +8011,9 @@ The dwarves in your party feel the brunt of their shame.</nodes>
       <outputs ownerID="32" targetID="19" fromX="3992" fromY="-1842" />
     </nodes>
   </Adventure>
-  <Adventure name="Dwarf demon spwn" uniqueID="28" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="20" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-136.627731" positionY="-8.423358" width="347" height="661" image="Event078">
-      <outputs ownerID="1" targetID="2" fromX="187" fromY="-611" />
+  <Adventure name="Dwarf demon spwn" uniqueID="28" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="20" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-136.627731" positionY="-8.423358" width="347" height="783" image="Event078">
+      <outputs ownerID="1" targetID="2" fromX="187" fromY="-733" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="339.3056" positionY="-42.4475746" width="350" height="805">
       <logic>
@@ -8162,9 +8173,9 @@ When you go back to the dwarf, the smithy is collapsed in rubble, and all you fi
       <outputs name="Surrender" ownerID="19" targetID="17" fromX="1773" fromY="-2158" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery beasts orc" uniqueID="29" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="35" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event020">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery beasts orc" uniqueID="29" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="35" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event020">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="431.965546" positionY="-152.866287" width="350" height="1126">
       <logic>
@@ -8508,8 +8519,8 @@ This pack will continue to roam, but you are free to loot the pyres.
     </nodes>
   </Adventure>
   <Adventure name="Witch house" uniqueID="31" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="59" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event044">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event044">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="444.188782" positionY="168.3676" width="350" height="1046">
       <logic>
@@ -9764,9 +9775,9 @@ This may not be the awakening you hoped for, but it's a first step. The skeleton
       <outputs ownerID="54" targetID="7" fromX="337" fromY="346" />
     </nodes>
   </Adventure>
-  <Adventure name="CemeteryGraverob6" uniqueID="37" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="60" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-11.3861389" positionY="4.25742626" width="347" height="661" image="Event195">
-      <outputs ownerID="1" targetID="2" fromX="313" fromY="-599" />
+  <Adventure name="CemeteryGraverob6" uniqueID="37" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="60" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-11.3861389" positionY="4.25742626" width="347" height="783" image="Event195">
+      <outputs ownerID="1" targetID="2" fromX="313" fromY="-721" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="400.0159" positionY="223.516724" width="350" height="1046">
       <logic>
@@ -10182,9 +10193,9 @@ You feel the spirits of metal and stone favour you.</nodes>
       </logic>
       <outputs name="Leave." ownerID="60" targetID="54" fromX="2185" fromY="-4169" />You defeat the wraiths and your spirit is lifted by the deed.</nodes>
   </Adventure>
-  <Adventure name="CemGoblinTrinketDiff4" uniqueID="38" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="30" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event019">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="CemGoblinTrinketDiff4" uniqueID="38" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="30" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event019">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="464.3781" positionY="-86.15531" width="350" height="1206">
       <logic>
@@ -10415,9 +10426,9 @@ The contraption then explodes.</nodes>
       <outputs ownerID="30" targetID="10" fromX="-224" fromY="-536" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery lootOrc" uniqueID="39" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event025">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery lootOrc" uniqueID="39" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event025">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="481.235748" positionY="-150.736374" width="350" height="966">
       <logic>
@@ -10573,9 +10584,9 @@ The contraption then explodes.</nodes>
       <outputs ownerID="19" targetID="7" fromX="359" fromY="-1187" />
     </nodes>
   </Adventure>
-  <Adventure name="Cemetery loot Gob" uniqueID="40" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event025">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery loot Gob" uniqueID="40" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event025">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="481.235748" positionY="-150.736374" width="350" height="966">
       <logic>
@@ -10726,8 +10737,8 @@ The contraption then explodes.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="Hum Cem Diff1" uniqueID="41" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="1" nodeIdMax="24" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event007">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event007">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="427" positionY="-178" width="350" height="1126">
       <logic>
@@ -10933,9 +10944,9 @@ The contraption then explodes.</nodes>
       <outputs name="Thank him and leave." ownerID="23" targetID="8" fromX="3111" fromY="-2984" />'Oh, I am sorry. I was just... lost. Your beautiful visage snapped me out of this wretched trance. Thank you for calming me down. I must go search for my pond now. Here, a gift for your kind deed.'</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="24" positionX="412" positionY="-1388" width="350" height="530" linkedEventUniqueID="5" />
   </Adventure>
-  <Adventure name="Cemetery loot Dw" uniqueID="42" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event025">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+  <Adventure name="Cemetery loot Dw" uniqueID="42" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="19" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event025">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="481.235748" positionY="-150.736374" width="350" height="966">
       <logic>
@@ -11088,12 +11099,12 @@ The contraption then explodes.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="19" targetID="7" fromX="372" fromY="-1158" />
+      <outputs ownerID="19" targetID="7" fromX="345" fromY="-1143" />
     </nodes>
   </Adventure>
-  <Adventure name="__Cemetery dwarf" uniqueID="43" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="30.9454536" positionY="-55.81818" width="347" height="661" image="Event023">
-      <outputs ownerID="1" targetID="3" fromX="355" fromY="-659" />
+  <Adventure name="__Cemetery dwarf" uniqueID="43" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="6" nodeIdMax="11" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="30.9454536" positionY="-55.81818" width="347" height="783" image="Event023">
+      <outputs ownerID="1" targetID="3" fromX="355" fromY="-781" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="475.2423" positionY="-53.8071976" width="350" height="1126">
       <outputs name="Have a closer look." ownerID="3" targetID="11" group="G1" fromX="800" fromY="-544" />

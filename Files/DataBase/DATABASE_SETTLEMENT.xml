@@ -4,6 +4,7 @@
 		<DescriptionInfo Name="DES_SET_GHOST_SHIP" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
 		<TerrainModel Value="GhostShip1"/>
 		<EventsCollection Value="EVENTC-CEMENTARY"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
 	</SET-GHOST_SHIP>
 	<SET-LOOT_CHEST Rarity="20">
 		<DescriptionInfo Name="DES_SET_LOOT_CHEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -182,6 +183,206 @@
 		<EventsCollection Value="EVENTC-ABANDONED_HOUSE"/>
 	</SET-BANDITS_LAIR>
 	
+	<!--WATER NEUTRAL SET -->
+  <SET-WATER_WHIRLPOOL Rarity="100" WaterRuins="true">
+    <DescriptionInfo Name="DES_SET_WATER_WHIRLPOOL" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="Whirlpool"/>
+    <EventsCollection Value="EVENTC-WATER_RUINS"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_WHIRLPOOL>
+  <SET-WATER_FLOATING_CRATES Rarity="100" WaterRuins="true">
+    <DescriptionInfo Name="DES_SET_WATER_FLOATING_CRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="FloatCrates"/>
+    <EventsCollection Value="EVENTC-WATER_RUINS"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_FLOATING_CRATES>
+  <SET-WATER_SEA_CAVE Rarity="100" WaterRuins="true">
+    <DescriptionInfo Name="DES_SET_WATER_FLOATING_CRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SeaCave"/>
+    <EventsCollection Value="EVENTC-WATER_RUINS"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_SEA_CAVE>
+  <SET-WATER_SEASHELF Rarity="100" WaterRuins="true">
+    <DescriptionInfo Name="DES_SET_WATER_SEASHELF" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="HugeSeaShell"/>
+    <EventsCollection Value="EVENTC-WATER_RUINS"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_SEASHELF>
+  <SET-WATER_SEAGHOSTSHIP Rarity="100" WaterRuins="true">
+    <DescriptionInfo Name="DES_SET_WATER_SEAGHOSTSHIP" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SeaGhostShip"/>
+    <EventsCollection Value="EVENTC-WATER_RUINS"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_SEAGHOSTSHIP>
+  <SET-ANCIENT_CITY Rarity="100" WaterRuins="true">
+    <DescriptionInfo Name="DES_SET_ANCIENT_CITY" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="AncientCity"/>
+    <EventsCollection Value="EVENTC-WATER_RUINS"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-ANCIENT_CITY>
+  
+  <SET-WATER_PIRATES_VILLAGE_SMALL Rarity="100">
+    <DescriptionInfo Name="DES_SET_WATER_PIRATES_VILLAGE_SMALL" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SeaShackVilage"/>
+    <EventsCollection Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+    <SpawnGroup Group="GROUP-PIRATES_YOUNGLINGS_1P_1M_1S"/>
+    <SpawnGroup Group="GROUP-PIRATES_2P_3M_2S"/>
+    <SpawnGroup Group="GROUP-PIRATES_4P_3M_2S"/>
+    <SpawnGroup Group="GROUP-PIRATES_5P_4M_2S"/>
+    <SpawnGroup Group="GROUP-PIRATES_6P_5M_3S"/>
+    <SpawnGroup Group="GROUP-PIRATES_6P_5M_5S"/>
+    <SpawnGroup Group="GROUP-PIRATES_7P_5M_5S"/>
+    <SpawnGroup Group="GROUP-PIRATES_ONE_SEA_THING_6P_7M_6S"/>
+    <SpawnGroup Group="GROUP-LOTS_PIRATES_7P_4M_3S"/>
+    <SpawnGroup Group="GROUP-PIRATES_8P_7M_5S"/>
+    <SpawnGroup Group="GROUP-PIRATES_SEA_THING_9P_9M_9S"/>
+    <SpawnGroup Group="GROUP-PIRATES_9P_8M_7S"/>
+    <SpawnGroup Group="GROUP-PIRATES_SEA_THING_9P_10M_10S"/>
+    <DefaultDefender Group="GROUP-PIRATES_5P_4M_2S"/>
+    <DefaultDefender Group="GROUP-PIRATES_6P_5M_3S"/>
+    <DefaultDefender Group="GROUP-PIRATES_6P_5M_5S"/>
+    <DefaultDefender Group="GROUP-PIRATES_7P_5M_5S"/>
+    <DefaultDefender Group="GROUP-PIRATES_ONE_SEA_THING_6P_7M_6S"/>
+    <DefaultDefender Group="GROUP-LOTS_PIRATES_7P_4M_3S"/>
+    <DefaultDefender Group="GROUP-PIRATES_8P_7M_5S"/>
+    <DefaultDefender Group="GROUP-PIRATES_SEA_THING_9P_9M_9S"/>
+    <DefaultDefender Group="GROUP-PIRATES_9P_8M_7S"/>
+    <DefaultDefender Group="GROUP-PIRATES_SEA_THING_9P_10M_10S"/>
+    <DefaultDefender Group="GROUP-LOTS_PIRATES_10P_9M_9S"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_PIRATES_VILLAGE_SMALL>
+  <SET-WATER_PIRATES_VILLAGE_BIG Rarity="100">
+    <DescriptionInfo Name="DES_SET_WATER_PIRATES_VILLAGE_BIG" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SeaBigVilage"/>
+    <EventsCollection Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+    <SpawnGroup Group="GROUP-PIRATES_5P_4M_2S"/>
+    <SpawnGroup Group="GROUP-PIRATES_6P_5M_3S"/>
+    <SpawnGroup Group="GROUP-PIRATES_6P_5M_5S"/>
+    <SpawnGroup Group="GROUP-PIRATES_7P_5M_5S"/>
+    <SpawnGroup Group="GROUP-PIRATES_ONE_SEA_THING_6P_7M_6S"/>
+    <SpawnGroup Group="GROUP-LOTS_PIRATES_7P_4M_3S"/>
+    <SpawnGroup Group="GROUP-PIRATES_8P_7M_5S"/>
+    <SpawnGroup Group="GROUP-PIRATES_SEA_THING_9P_9M_9S"/>
+    <SpawnGroup Group="GROUP-PIRATES_9P_8M_7S"/>
+    <SpawnGroup Group="GROUP-PIRATES_SEA_THING_9P_10M_10S"/>
+    <SpawnGroup Group="GROUP-LOTS_PIRATES_10P_9M_9S"/>
+    <SpawnGroup Group="GROUP-HORD_PIRATES_12P_10M_10S"/>
+    <DefaultDefender Group="GROUP-PIRATES_5P_4M_2S"/>
+    <DefaultDefender Group="GROUP-PIRATES_6P_5M_3S"/>
+    <DefaultDefender Group="GROUP-PIRATES_6P_5M_5S"/>
+    <DefaultDefender Group="GROUP-PIRATES_7P_5M_5S"/>
+    <DefaultDefender Group="GROUP-PIRATES_ONE_SEA_THING_6P_7M_6S"/>
+    <DefaultDefender Group="GROUP-LOTS_PIRATES_7P_4M_3S"/>
+    <DefaultDefender Group="GROUP-PIRATES_8P_7M_5S"/>
+    <DefaultDefender Group="GROUP-PIRATES_SEA_THING_9P_9M_9S"/>
+    <DefaultDefender Group="GROUP-PIRATES_9P_8M_7S"/>
+    <DefaultDefender Group="GROUP-PIRATES_SEA_THING_9P_10M_10S"/>
+    <DefaultDefender Group="GROUP-LOTS_PIRATES_10P_9M_9S"/>
+    <DefaultDefender Group="GROUP-HORD_PIRATES_12P_10M_10S"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_PIRATES_VILLAGE_BIG>
+  
+  <SET-WATER_LAIR Rarity="100">
+    <DescriptionInfo Name="DES_SET_WATER_LAIR" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="WhirlpoolNoShip"/>
+    <EventsCollection Value="EVENTC-WATER_NEST"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_1P_0M_0S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_ONE_3P_3M_3S"/>
+    <SpawnGroup Group="GROUP-SHARKS_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-JURATA_ONE_4P_4M_4S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <SpawnGroup Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S"/>
+    <DefaultDefender Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <DefaultDefender Group="GROUP-CZYTLICA_ONE_3P_3M_3S"/>
+    <DefaultDefender Group="GROUP-SHARKS_4P_2M_1S"/>
+    <DefaultDefender Group="GROUP-JURATA_ONE_4P_4M_4S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <DefaultDefender Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <DefaultDefender Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_LAIR>  
+  <SET-WATER_LAIR2 Rarity="100">
+    <DescriptionInfo Name="DES_SET_WATER_LAIR" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SunkenRuins"/>
+    <EventsCollection Value="EVENTC-WATER_NEST"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_1P_0M_0S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_ONE_3P_3M_3S"/>
+    <SpawnGroup Group="GROUP-SHARKS_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-JURATA_ONE_4P_4M_4S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <SpawnGroup Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S"/>
+    <SpawnGroup Group="GROUP-ONE_KRAKEN_10P_8M_8S"/>
+    <DefaultDefender Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <DefaultDefender Group="GROUP-CZYTLICA_ONE_3P_3M_3S"/>
+    <DefaultDefender Group="GROUP-SHARKS_4P_2M_1S"/>
+    <DefaultDefender Group="GROUP-JURATA_ONE_4P_4M_4S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <DefaultDefender Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <DefaultDefender Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S"/>
+    <DefaultDefender Group="GROUP-ONE_KRAKEN_10P_8M_8S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_DEMONS_MIX_11P_9M_9S"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_LAIR2>
+  <SET-WATER_LAIR3 Rarity="100">
+    <DescriptionInfo Name="DES_SET_WATER_LAIR" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SunkenRuinsKraken"/>
+    <EventsCollection Value="EVENTC-WATER_NEST"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_1P_0M_0S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_ONE_3P_3M_3S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-SHARKS_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-JURATA_ONE_4P_4M_4S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <SpawnGroup Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S"/>
+    <SpawnGroup Group="GROUP-ONE_KRAKEN_10P_8M_8S"/>
+    <DefaultDefender Group="GROUP-ONE_KRAKEN_10P_8M_8S"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_LAIR3>
+  <SET-WATER_LAIR4 Rarity="100">
+    <DescriptionInfo Name="DES_SET_WATER_LAIR" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+    <TerrainModel Value="SeaBush"/>
+    <EventsCollection Value="EVENTC-WATER_NEST"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_1P_0M_0S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <SpawnGroup Group="GROUP-SHARKS_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <SpawnGroup Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <SpawnGroup Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <DefaultDefender Group="GROUP-SEA_BEAST_2P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SHARK_ONE_2P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SEA_BEAST_3P_1M_1S"/>
+    <DefaultDefender Group="GROUP-SHARKS_4P_2M_1S"/>
+    <DefaultDefender Group="GROUP-JURATA_ONE_4P_4M_4S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_BEAST_4P_2M_1S"/>
+    <DefaultDefender Group="GROUP-CZYTLICA_5P_5M_5S"/>
+    <DefaultDefender Group="GROUP-JURATA_MIX_6P_6M_6S"/>
+    <DefaultDefender Group="GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S"/>
+    <SpawnTerrain Terrain="TERRAIN-SEA" Requirement="OptionalType"/>
+  </SET-WATER_LAIR4>
+  
+  
 	<!-- SPAWNING SET-->
 	<SET-CROW_NEST Rarity="0">
 		<DescriptionInfo Name="DES_SET_CROW_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -193,12 +394,12 @@
 		<SpawnGroup Group="GROUP-LOTS_CROW_3P_3M_3S"/>
 		<DefaultDefender Group="GROUP-CROW_2P_2M_2S"/>
 		<DefaultDefender Group="GROUP-LOTS_CROW_3P_3M_3S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-CROW_NEST>
 	<SET-RATS_NEST Rarity="0">
 		<DescriptionInfo Name="DES_SET_RAT_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -213,12 +414,12 @@
 		<DefaultDefender Group="GROUP-RATS_1P_1M_1S"/>
 		<DefaultDefender Group="GROUP-LOTS_RATS_2P_2M_2S"/>
 		<DefaultDefender Group="GROUP-HORDE_RATS_3P_3M_3S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-RATS_NEST>
 	<SET-RATS_NEST_DARKNESS Rarity="0">
 		<DescriptionInfo Name="DES_SET_RAT_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -228,10 +429,10 @@
         <EventsCollection Value="EVENTC-NEST"/>
 		<SpawnGroup Group="GROUP-CRADLE_POSSUM_3P_1M_0S"/>
 		<DefaultDefender Group="GROUP-HORDE_RATS_3P_3M_3S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="OptionalType"/>
 	</SET-RATS_NEST_DARKNESS>
 	<SET-RATS_BATS_NEST Rarity="0">
 		<DescriptionInfo Name="DES_SET_RATS_BATS_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -249,12 +450,12 @@
 		<DefaultDefender Group="GROUP-RATS_1P_1M_1S"/>
 		<DefaultDefender Group="GROUP-LOTS_RATS_2P_2M_2S"/>
 		<DefaultDefender Group="GROUP-HORDE_RATS_3P_3M_3S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-RATS_BATS_NEST>
 	<SET-SNAKE_NEST Rarity="0">
 		<DescriptionInfo Name="DES_SET_SNAKE_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -269,12 +470,12 @@
 		<DefaultDefender Group="GROUP-SNAKES_2P_1M_0S"/>
 		<DefaultDefender Group="GROUP-SNAKES_3P_2M_0S"/>
 		<DefaultDefender Group="GROUP-HORDE_SNAKES_4P_2M_0S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-SNAKE_NEST>
 	<SET-SNAKE_NEST_DARKNESS Rarity="0">
 		<DescriptionInfo Name="DES_SET_SNAKE_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -286,10 +487,10 @@
 		<SpawnGroup Group="GROUP-HORDE_SNAKES_4P_2M_0S"/>
 		<DefaultDefender Group="GROUP-SNAKES_3P_2M_0S"/>
 		<DefaultDefender Group="GROUP-HORDE_SNAKES_4P_2M_0S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS4" Requirement="OptionalType"/>
 	</SET-SNAKE_NEST_DARKNESS>
 	<SET-BEES_NEST Rarity="0">
 		<DescriptionInfo Name="DES_SET_BEE_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -306,12 +507,12 @@
 		<DefaultDefender Group="GROUP-BEES_3P_2M_0S"/>
 		<DefaultDefender Group="GROUP-LOTS_BEES_4P_3M_1S"/>
 		<DefaultDefender Group="GROUP-HORD_BEES_5P_4M_2S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
 	</SET-BEES_NEST>
 	<SET-BEES_DARKNESS Rarity="0">
 		<DescriptionInfo Name="DES_SET_BEE_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -325,10 +526,10 @@
         <DefaultDefender Group="GROUP-LOTS_BEES_4P_3M_1S"/>
         <DefaultDefender Group="GROUP-HORD_BEES_5P_4M_2S"/>
         <DefaultDefender Group="GROUP-HORD_BEES_6P_5M_2S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
 	</SET-BEES_DARKNESS>
 	<SET-BEES_ANCIENT_FOREST Rarity="0">
 		<DescriptionInfo Name="DES_SET_BEE_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -357,11 +558,11 @@
 		<DefaultDefender Group="GROUP-SPIDERS_QUEEN_MIX_3P_2M_1S"/>
 		<DefaultDefender Group="GROUP-LOTS_SPIDERS_3P_2M_1S"/>
 		<DefaultDefender Group="GROUP-HORDE_SPIDERS_4P_3M_1S"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-SPIDERS_LAIR>
 	<SET-SPIDERS_DARKNESS Rarity="0">
 		<DescriptionInfo Name="DES_SET_SPIDERS_LAIR" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -373,10 +574,10 @@
 		<SpawnGroup Group="GROUP-HORDE_SPIDERS_4P_3M_1S"/>
 		<DefaultDefender Group="GROUP-LOTS_SPIDERS_3P_2M_1S"/>
 		<DefaultDefender Group="GROUP-HORDE_SPIDERS_4P_3M_1S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS4" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS4" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
 	</SET-SPIDERS_DARKNESS>
 	<SET-DEMONS_CIRCLE Rarity="0">
 		<DescriptionInfo Name="DES_SET_DEMONS_CIRCLE" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -398,10 +599,10 @@
 		<DefaultDefender Group="GROUP-KARAKANDZAS_4P_3M_2S"/>
 		<DefaultDefender Group="GROUP-KARAKANDZA_5P_4M_3S"/>
 		<DefaultDefender Group="GROUP-ALKONOSTS_5P_4M_3S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="OptionalType"/>
 	</SET-DEMONS_NEST_DEF>
 	<SET-DEMONS_NEST_DARKNESS Rarity="0">
 		<DescriptionInfo Name="DES_SET_DEMONS_CIRCLE" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -412,14 +613,36 @@
 		<SpawnGroup Group="GROUP-WEREWOLF_MIX_6P_3M_2S"/>
 		<SpawnGroup Group="GROUP-WEREWOLFS_7P_4M_4S"/>
 		<SpawnGroup Group="GROUP-NIGHT_DEMON_8P_8M_8S"/>
+		<SpawnGroup Group="GROUP-NIGHT_DEMON_9P_9M_9S"/>
+		<SpawnGroup Group="GROUP-HORDE_ELDER_DEMON_D_9P_9M_9S"/>
+		<SpawnGroup Group="GROUP-ELDER_MROKI_9P_7M_8S"/>
 		<DefaultDefender Group="GROUP-STRIGA_MASTER_6P_6M_7S"/>
 		<DefaultDefender Group="GROUP-STRIGA_MISTRESS_6P_7M_6S"/>
 		<DefaultDefender Group="GROUP-NIGHT_DEMON_8P_8M_8S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="NecessaryType"/>
+		<DefaultDefender Group="GROUP-NIGHT_DEMON_9P_9M_9S"/>
+		<DefaultDefender Group="GROUP-HORDE_ELDER_DEMON_D_9P_9M_9S"/>
+		<DefaultDefender Group="GROUP-ELDER_MROKI_9P_7M_8S"/>
+		<DefaultDefender Group="GROUP-NIGHT_ELDER_DEMON_10P_10M_10S"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="OptionalType"/>
 	</SET-DEMONS_NEST_DARKNESS>
+	<SET-DEMONS_NEST_DARKNESS_2 Rarity="0">
+		<DescriptionInfo Name="DES_SET_DEMONS_CIRCLE" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<TerrainModel Value="DemonCircle1"/>
+        <EventsCollection Value="EVENTC-DEMON_NEST"/>
+		<SpawnGroup Group="GROUP-NIGHT_DEMON_9P_9M_9S"/>
+		<SpawnGroup Group="GROUP-HORDE_ELDER_DEMON_D_9P_9M_9S"/>
+		<SpawnGroup Group="GROUP-ELDER_MROKI_9P_7M_8S"/>
+		<DefaultDefender Group="GROUP-HORDE_ELDER_DEMON_D_9P_9M_9S"/>
+		<DefaultDefender Group="GROUP-ELDER_MROKI_9P_7M_8S"/>
+		<DefaultDefender Group="GROUP-NIGHT_ELDER_DEMON_10P_10M_10S"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="OptionalType"/>
+	</SET-DEMONS_NEST_DARKNESS_2>
 	<SET-DEMONS_NEST_ICY Rarity="0">
 		<DescriptionInfo Name="DES_SET_DEMONS_CIRCLE" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
 		<TerrainModel Value="DemonCircle1"/>
@@ -429,14 +652,16 @@
 		<SpawnGroup Group="GROUP-LOTS_DEMON_I_6P_6M_6S"/>
 		<SpawnGroup Group="GROUP-DZIAD_MROZ_ONE_7P_7M_7S"/>
 		<SpawnGroup Group="GROUP-HORDE_DEMON_I_8P_7M_8S"/>
+		<SpawnGroup Group="GROUP-HORDE_ELDER_DEMON_I_9P_9M_9S"/>
 		<DefaultDefender Group="GROUP-LOTS_DEMON_I_6P_6M_6S"/>
 		<DefaultDefender Group="GROUP-DZIAD_MROZ_ONE_7P_7M_7S"/>
 		<DefaultDefender Group="GROUP-HORDE_DEMON_I_8P_7M_8S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS3" Requirement="NecessaryType"/>
+		<DefaultDefender Group="GROUP-HORDE_ELDER_DEMON_I_9P_9M_9S"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS3" Requirement="OptionalType"/>
 	</SET-DEMONS_NEST_ICY>
 	<!--<SET-DEMONS_NEST_METALLIC Rarity="0">
 		<DescriptionInfo Name="DES_SET_DEMONS_CIRCLE" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -460,12 +685,12 @@
 		<SpawnGroup Group="GROUP-HORDE_VODNIK_MIX_6P_8M_6S"/>
 		<DefaultDefender Group="GROUP-LOTS_VODNIK_MIX_5P_7M_5S"/>
 		<DefaultDefender Group="GROUP-HORDE_VODNIK_MIX_6P_8M_6S"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT3" Requirement="OptionalType"/>
 	</SET-DEMONS_NEST_ANCIENT_FOREST1>
 	<SET-DEMONS_NEST_ANCIENT_FOREST2 Rarity="0">
 		<DescriptionInfo Name="DES_SET_DEMONS_CIRCLE" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -475,16 +700,18 @@
 		<SpawnGroup Group="GROUP-LESHY_MIX_7P_6M_7S"/>
 		<SpawnGroup Group="GROUP-LOTS_FOREST_D_8P_8M_8S"/>
 		<SpawnGroup Group="GROUP-LOTS_FOREST_D_10P_9M_10S"/>
+		<SpawnGroup Group="GROUP-LOTS_ELDER_FOREST_D_11P_10M_11S"/>
 		<DefaultDefender Group="GROUP-ELDERCONE_MIX_5P_5M_5S"/>
 		<DefaultDefender Group="GROUP-LESHY_MIX_7P_6M_7S"/>
 		<DefaultDefender Group="GROUP-LOTS_FOREST_D_8P_8M_8S"/>
 		<DefaultDefender Group="GROUP-LOTS_FOREST_D_10P_9M_10S"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT3" Requirement="NecessaryType"/>
+		<DefaultDefender Group="GROUP-LOTS_ELDER_FOREST_D_11P_10M_11S"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT3" Requirement="OptionalType"/>
 	</SET-DEMONS_NEST_ANCIENT_FOREST2>
 	<SET-BEARS_NEST_DEF Rarity="0">
 		<DescriptionInfo Name="DES_SET_BEARS_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -498,11 +725,11 @@
 		<SpawnGroup Group="GROUP-BEARS_5P_2M_0S"/>
 		<DefaultDefender Group="GROUP-BEARS_4P_1M_0S"/>
 		<DefaultDefender Group="GROUP-BEARS_5P_2M_0S"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-BEARS_NEST_DEF>
 	<SET-WOLVES_NEST_DEF Rarity="0">
 		<DescriptionInfo Name="DES_SET_WOLVES_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -515,11 +742,11 @@
 		<SpawnGroup Group="GROUP-WOLVES_4P_2M_0S"/>
 		<DefaultDefender Group="GROUP-WOLVES_3P_1M_0S"/>
 		<DefaultDefender Group="GROUP-WOLVES_4P_2M_0S"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-WOLVES_NEST_DEF>
 	<SET-BOARS_NEST_DEF Rarity="0">
 		<DescriptionInfo Name="DES_SET_BOARS_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -531,11 +758,11 @@
 		<SpawnGroup Group="GROUP-BOARS_GIANT_WILD_3P_1M_0S"/>
 		<DefaultDefender Group="GROUP-BOARS_2P_1M_0S"/>
 		<DefaultDefender Group="GROUP-BOARS_GIANT_WILD_3P_1M_0S"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
 	</SET-BOARS_NEST_DEF>
 	<SET-BEAST_NEST_ICE Rarity="0">
 		<DescriptionInfo Name="DES_SET_BEAST_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -549,10 +776,10 @@
 		<SpawnGroup Group="GROUP-BEARS_5P_2M_0S"/>
 		<DefaultDefender Group="GROUP-BEARS_4P_1M_0S"/>
 		<DefaultDefender Group="GROUP-BEARS_5P_2M_0S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
 	</SET-BEAST_NEST_ICE>
 	<SET-TROLL_NEST_ICE Rarity="0">
 		<DescriptionInfo Name="DES_SET_TROLL_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -562,9 +789,9 @@
         <EventsCollection Value="EVENTC-BEAST_NEST"/>
 		<SpawnGroup Group="GROUP-TROLL_ICE_ONE_8P_7M_5S"/>
 		<DefaultDefender Group="GROUP-TROLL_ICE_ONE_8P_7M_5S"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS3" Requirement="OptionalType"/>
 	</SET-TROLL_NEST_ICE>
 	<SET-TROLL_NEST_ANCIENT_FOREST Rarity="0">
 		<DescriptionInfo Name="DES_SET_TROLL_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -574,9 +801,9 @@
         <EventsCollection Value="EVENTC-BEAST_NEST"/>
 		<SpawnGroup Group="GROUP-TROLL_SWAMP_MIX_7P_8M_8S"/>
 		<DefaultDefender Group="GROUP-TROLL_SWAMP_MIX_7P_8M_8S"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="OptionalType"/>
 	</SET-TROLL_NEST_ANCIENT_FOREST>
 	<SET-TROLL_NEST_METALLIC Rarity="0">
 		<DescriptionInfo Name="DES_SET_TROLL_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -588,10 +815,10 @@
 		<SpawnGroup Group="GROUP-TROLL_ROCK_MIX_9P_7M_6S"/>
 		<DefaultDefender Group="GROUP-TROLL_ROCK_ONE_8P_6M_5S"/>
 		<DefaultDefender Group="GROUP-TROLL_ROCK_MIX_9P_7M_6S"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="OptionalType"/>
 	</SET-TROLL_NEST_METALLIC>
 	<SET-TROLL_NEST_VULCANIC Rarity="0">
 		<DescriptionInfo Name="DES_SET_TROLL_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -603,9 +830,10 @@
 		<SpawnGroup Group="GROUP-TROLL_LAVA_MIX_9P_7M_10S"/>
 		<DefaultDefender Group="GROUP-TROLL_LAVA_ONE_9P_6M_9S"/>
 		<DefaultDefender Group="GROUP-TROLL_LAVA_MIX_9P_7M_10S"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="OptionalType"/>
 	</SET-TROLL_NEST_VULCANIC>
 	<SET-UNI_NEST_DEF1 Rarity="0">
 		<DescriptionInfo Name="DES_SET_UNI_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -616,10 +844,10 @@
 		<SpawnGroup Group="GROUP-SKELETON_MIX_5P_3M_3S"/>
 		<DefaultDefender Group="GROUP-SKELETON_MIX_4P_2M_2S"/>
 		<DefaultDefender Group="GROUP-SKELETON_MIX_5P_3M_3S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT4" Requirement="OptionalType"/>
 	</SET-UNI_NEST_DEF1>
 	<SET-UNI_NEST_DARKNESS1 Rarity="0">
 		<DescriptionInfo Name="DES_SET_UNI_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -630,10 +858,10 @@
 		<SpawnGroup Group="GROUP-WRAITH_5P_4M_5S"/>
 		<DefaultDefender Group="GROUP-LOTS_GHOST_4P_5M_6S"/>
 		<DefaultDefender Group="GROUP-WRAITH_5P_4M_5S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT4" Requirement="OptionalType"/>
 	</SET-UNI_NEST_DARKNESS1>
 	<SET-UNI_NEST_ICE1 Rarity="0">
 		<DescriptionInfo Name="DES_SET_UNI_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -651,10 +879,10 @@
 		<DefaultDefender Group="GROUP-ORC_SKELETON_5P_1M_2S"/>
 		<DefaultDefender Group="GROUP-ORC_SKELETON_6P_2M_3S"/>
 		<DefaultDefender Group="GROUP-HORDE_ORC_SKELETON_7P_3M_4S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
 	</SET-UNI_NEST_ICE1>
 	<SET-UNI_NEST_ICE2 Rarity="0">
 		<DescriptionInfo Name="DES_SET_UNI_NEST" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -665,10 +893,10 @@
 		<SpawnGroup Group="GROUP-LOTS_WRAITH_6P_5M_6S"/>
 		<DefaultDefender Group="GROUP-WRAITH_5P_4M_5S"/>
 		<DefaultDefender Group="GROUP-LOTS_WRAITH_6P_5M_6S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
 	</SET-UNI_NEST_ICE2>
 	<SET-WEAK_BANDITS_LAIR Rarity="10">
 		<DescriptionInfo Name="DES_SET_BANDITS_LAIR" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -750,27 +978,27 @@
 		<DefaultDefender Group="GROUP-LIGHT_3P_3M_3S"/>
 		<DefaultDefender Group="GROUP-LIGHT_4P_4M_4S"/>
 		<DefaultDefender Group="GROUP-LIGHT_5P_5M_5S"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT5" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-FIELDS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SWAMP2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT5" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="OptionalType"/>
 	</SET-LIGHTBRINGERS_SPAWN_1>
 	<SET-LIGHTBRINGERS_SPAWN_2 Rarity="10">
 		<DescriptionInfo Name="DES_LIGHTBRINGERS_SPAWN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -783,32 +1011,32 @@
 		<DefaultDefender Group="GROUP-LIGHT_6P_6M_6S"/>
 		<DefaultDefender Group="GROUP-LIGHT_7P_7M_7S"/>
 		<DefaultDefender Group="GROUP-LIGHT_8P_8M_8S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT5" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT4" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-GRAY_ASH1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-GRAY_ASH2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BLACK_ROCK3" Requirement="NecessaryType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT5" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT4" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-GRAY_ASH1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-GRAY_ASH2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BLACK_ROCK3" Requirement="OptionalType"/>
 	</SET-LIGHTBRINGERS_SPAWN_2>
 	<SET-LIGHTBRINGERS_SPAWN_3 Rarity="10">
 		<DescriptionInfo Name="DES_LIGHTBRINGERS_SPAWN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -818,36 +1046,38 @@
 		<SpawnGroup Group="GROUP-LIGHT_8P_8M_8S"/>
 		<SpawnGroup Group="GROUP-LIGHT_9P_9M_9S"/>
 		<SpawnGroup Group="GROUP-LIGHT_10P_10M_10S"/>
+		<SpawnGroup Group="GROUP-LIGHT_11P_11M_11S"/>
 		<DefaultDefender Group="GROUP-LIGHT_5P_5M_5S"/>
 		<DefaultDefender Group="GROUP-LIGHT_9P_9M_9S"/>
 		<DefaultDefender Group="GROUP-LIGHT_10P_10M_10S"/>
 		<DefaultDefender Group="GROUP-LIGHT_11P_11M_11S"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT5" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS4" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS5" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS6" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS2" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS3" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BLACK_ASH1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BLACK_ROCK1" Requirement="NecessaryType"/>
-		<SpawnTerrain Terrain="TERRAIN-BLACK_ROCK2" Requirement="NecessaryType"/>
+		<DefaultDefender Group="GROUP-ELDER_LIGHT_12P_12M_12S"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_DIRT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DARK_GRASS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DIRTY_SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-SNOWY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ICY_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-DRY_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-MED_ANCIENT5" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-WET_ANCIENT3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-ROCKY_PLAINS4" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS4" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS5" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-METALLIC_PLAINS6" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS2" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BURNT_PLAINS3" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BLACK_ASH1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BLACK_ROCK1" Requirement="OptionalType"/>
+		<SpawnTerrain Terrain="TERRAIN-BLACK_ROCK2" Requirement="OptionalType"/>
 	</SET-LIGHTBRINGERS_SPAWN_3>
 	
 	<!-- HUMAN SET-->
@@ -1221,11 +1451,12 @@
 		<EventsCollection Value="EVENTC-ABANDONED_HOUSE"/>
 		<SpawnGroup>
 			<Scale MinimumCount="80.0" MaximumCount="100.0"/>
-			<Group Value="GROUP-VODNIKS_4P_6M_4S"/>
+			<Group Value="GROUP-LOTS_VODNIK_MIX_5P_7M_5S"/>
+			<Group Value="GROUP-HORDE_VODNIK_MIX_6P_8M_6S"/>
 		</SpawnGroup>
 		<DefaultDefender>
 			<Scale MinimumCount="100.0" MaximumCount="120.0"/>
-			<Group Value="GROUP-VODNIKS_4P_6M_4S"/>
+			<Group Value="GROUP-HORDE_WATER_DEMON_MIX_9P_9M_9S"/>
 		</DefaultDefender>
 	</SET-WATER_SMALL_VILLAGE>
 	<SET-WATER_BIG_VILLAGE Rarity="50">
@@ -1234,11 +1465,13 @@
 		<EventsCollection Value="EVENTC-ABANDONED_HOUSE"/>
 		<SpawnGroup>
 			<Scale MinimumCount="80.0" MaximumCount="100.0"/>
-			<Group Value="GROUP-VODNIKS_4P_6M_4S"/>
+			<Group Value="GROUP-SZUVAREK_10P_10M_10S"/>
+			<Group Value="GROUP-SZUVAREK_MIX_10P_10M_10S"/>
+			<Group Value="GROUP-SZUVAREK_ONE_8P_8M_8S"/>
 		</SpawnGroup>
 		<DefaultDefender>
 			<Scale MinimumCount="100.0" MaximumCount="120.0"/>
-			<Group Value="GROUP-VODNIKS_4P_6M_4S"/>
+			<Group Value="GROUP-LOTS_SZUVAREK_MIX_11P_11M_11S"/>
 		</DefaultDefender>
 	</SET-WATER_BIG_VILLAGE>
 	

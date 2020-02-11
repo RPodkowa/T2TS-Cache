@@ -372,6 +372,38 @@
 		<SkillSubskill Value="SUBSKILL-SUMMON_DEMON"/>
 		<SkillGroupFilter Value="Child"/>
 	</SKILL-GOB_CHILD_GROW_UP>
+	<SKILL-TROLL_CHILD_GROW_UP Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_TROLL_CHILD_GROW_UP" Description="DES_SKILL_TROLL_CHILD_GROW_UP_DES" IconName="SkillChildrenGrowUp"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<ChargesCounter>
+			<ChargesCount MinimumCount="150" MaximumCount="300"/>
+			<ChargesTrigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+				<TriggerGroup Value="OnEndTurn"/>
+				<TriggerScript ScriptName=""/>
+			</ChargesTrigger>
+			<Script ScriptName="Deg_SimpleCountdown"/>
+            <FinalScript ScriptName="WActA_GrowUp"/>
+		</ChargesCounter>
+		<SkillSubskill Value="SUBSKILL-CHILD_GROW_UP"/>
+		<SkillSubskill Value="SUBSKILL-STRONG_REDUCE_PERSONAL_CARRY_LIMIT"/>
+		<SkillGroupFilter Value="Child"/>
+	</SKILL-TROLL_CHILD_GROW_UP>
+	<SKILL-PINECONETTES_CHILD_GROW_UP Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_PINECONETTES_CHILD_GROW_UP" Description="DES_SKILL_PINECONETTES_CHILD_GROW_UP_DES" IconName="SkillChildrenGrowUp"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<ChargesCounter>
+			<ChargesCount MinimumCount="150" MaximumCount="300"/>
+			<ChargesTrigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+				<TriggerGroup Value="OnEndTurn"/>
+				<TriggerScript ScriptName=""/>
+			</ChargesTrigger>
+			<Script ScriptName="Deg_SimpleCountdown"/>
+            <FinalScript ScriptName="WActA_GrowUp"/>
+		</ChargesCounter>
+		<SkillSubskill Value="SUBSKILL-CHILD_GROW_UP"/>
+		<SkillSubskill Value="SUBSKILL-STRONG_REDUCE_PERSONAL_CARRY_LIMIT"/>
+		<SkillGroupFilter Value="Child"/>
+	</SKILL-PINECONETTES_CHILD_GROW_UP>
 	
 	<!-- SPECIAL SKILLS -->
 	<SKILL-FOODIE Rarity="0">
@@ -475,6 +507,12 @@
 		<SkillSubskill Value="SUBSKILL-DEGRADATION"/>
 		<SkillGroupFilter Value="UnstableCreation"/>
 	</SKILL-UNSTABLE_CREATION_TROLL_ROCK>
+	<SKILL-SLAVE Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_SLAVE" Description="DES_SKILL_SLAVE_DES" IconName="SkillSlave"/>
+		<BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_WEAK_SUB_ATTRIBUTES"/>
+		<SkillGroupFilter Value="Slave"/>
+	</SKILL-SLAVE>
 
 	<!-- GODS SKILL-->
 	<SKILL-DZIEVANNA_ANIMAL_PATH Rarity="0">
@@ -553,6 +591,22 @@
 		<SkillSubskill Value="SUBSKILL-NYIA_LOWER_DEATH_CHANCE"/>
 		<SkillGroupFilter Value="GodNyia"/>
 	</SKILL-IDOL_OF_PAIN>
+	<SKILL-MOTHER_CARING_LOOK Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_MOTHER_CARING_LOOK" Description="DES_SKILL_MOTHER_CARING_LOOK_DES" IconName="SkillMokosh"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_STRONG_PHYSICAL_MENTAL_SHIELDING"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_CRAFTING"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_GATHERING"/>
+		<SkillSubskill Value="SUBSKILL-EARTHY_SKIN"/>
+		<SkillSubskill Value="SUBSKILL-CONST_MULTI_SUB_RESEARCH"/>
+		<SkillGroupFilter Value="GodMokosh"/>
+	</SKILL-MOTHER_CARING_LOOK>
+	<SKILL-MOTHER_PROTECTION_CHOSEN Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_MOTHER_PROTECTION" Description="DES_SKILL_MOTHER_PROTECTION_DES" IconName="SkillMokoshChosen"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ESSENCE_SKIN"/>
+		<SkillGroupFilter Value="GodMokosh"/>
+	</SKILL-MOTHER_PROTECTION_CHOSEN>
 	
 	<!-- TRAIT SKILLS -->
 	<SKILL-FOG_OF_KNOWLADGE Rarity="0">
@@ -718,11 +772,29 @@
 		<SkillGroupFilter Value="SkillTrait"/>
 	</SKILL-NIGHT_WALKER>
 	<SKILL-SPARK Rarity="0">
-		<DescriptionInfo Name="DES_SKILL_SPARK" Description="DES_SKILL_SPARK_DES" IconName="SkillLightning"/>
+		<DescriptionInfo Name="DES_SKILL_SPARK" Description="DES_SKILL_SPARK_DES" IconName="SkillSpark"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-CONST_SPARK"/>
 		<SkillGroupFilter Value="SkillTrait"/>
 	</SKILL-SPARK>
+   <SKILL-SPATIAL_AWARNESS Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_SPATIAL_AWARNESS" Description="DES_SKILL_SPATIAL_AWARNESS_DES" IconName="SkillSpatialAwarness"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_WITS"/>
+		<SkillGroupFilter Value="SkillTrait"/>
+	</SKILL-SPATIAL_AWARNESS>
+	<SKILL-PERFECT_AIMING Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_PERFECT_AIMING" Description="DES_SKILL_PERFECT_AIMING_DES" IconName="SkillPerfectAiming"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_PERCEPTION"/>
+		<SkillGroupFilter Value="SkillTrait"/>
+	</SKILL-PERFECT_AIMING>
+	<SKILL-I_TAKE_IT Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_I_TAKE_IT" Description="DES_SKILL_I_TAKE_IT_DES" IconName="SKillITakeIt"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-CONST_ADD_STRONG_PERSONAL_CARRY"/>
+		<SkillGroupFilter Value="SkillTrait"/>
+	</SKILL-I_TAKE_IT>
 	
 	
 </SKILLS_4_OTHER>

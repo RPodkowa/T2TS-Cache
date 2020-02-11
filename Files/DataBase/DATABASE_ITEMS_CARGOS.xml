@@ -77,6 +77,25 @@
 		<ExcludeTag Value="TAG-RESOURCE"/>
 		<ExcludeTag Value="TAG-UNIQUE"/>
 	</ITEM_CARGO-ADV_ONE_EQUIPMENT>
+	<ITEM_CARGO-RARE_ONE_EQUIPMENT TrashChance="5" MasterChance="20">
+		<ResourceRarityRange MinimumCount="50" MaximumCount="80"/>
+		<SkillRarityRange MinimumCount="60" MaximumCount="80"/>
+		<LevelRange MinimumCount="4" MaximumCount="4"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-EQUIPMENT"/>
+		<ExcludeTag Value="TAG-RESOURCE"/>
+		<ExcludeTag Value="TAG-UNIQUE"/>
+	</ITEM_CARGO-RARE_ONE_EQUIPMENT>
+	<ITEM_CARGO-ANCIENT_ONE_EQUIPMENT TrashChance="0" MasterChance="20">
+		<ResourceRarityRange MinimumCount="70" MaximumCount="95"/>
+		<SkillRarityRange MinimumCount="80" MaximumCount="100"/>
+		<LevelRange MinimumCount="5" MaximumCount="5"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-EQUIPMENT"/>
+		<ExcludeTag Value="TAG-RESOURCE"/>
+		<ExcludeTag Value="TAG-UNIQUE"/>
+	</ITEM_CARGO-ANCIENT_ONE_EQUIPMENT>
+	
 	<ITEM_CARGO-LOW_RES_TWO_EQUIPMENT TrashChance="20" MasterChance="20">
 		<ResourceRarityRange MinimumCount="0" MaximumCount="30"/>
 		<SkillRarityRange MinimumCount="0" MaximumCount="20"/>
@@ -717,6 +736,17 @@
 		<RequiredTag Value="TAG-SANDSTONE"/>
 		<ExcludeTag Value="TAG-WOOD"/>
 	</ITEM_CARGO-ANCIENT_ONE_ORC_WEAPON>
+	
+	<ITEM_CARGO-P_ADV_ONE_ORC_RANGE_WEAPON TrashChance="15" MasterChance="20">
+		<ResourceRarityRange MinimumCount="10" MaximumCount="30"/>
+		<SkillRarityRange MinimumCount="20" MaximumCount="40"/>
+		<LevelRange MinimumCount="2" MaximumCount="2"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<OptionalTag Value="TAG-BOW"/>
+		<OptionalTag Value="TAG-THROWN_SPEARS"/>
+		<RequiredTag Value="TAG-SANDSTONE"/>
+		<ExcludeTag Value="TAG-WOOD"/>
+	</ITEM_CARGO-P_ADV_ONE_ORC_RANGE_WEAPON>
 	
 	<ITEM_CARGO-BASIC_ONE_ORC_ARMOUR TrashChance="20" MasterChance="20">
 		<ResourceRarityRange MinimumCount="0" MaximumCount="10"/>
@@ -3190,6 +3220,14 @@
 		<OptionalTag Value="TAG-SCROLL_2H"/>
 	</ITEM_CARGO-STRONG_ONE_CLUB_2H_OR_SCROLL_2H>
 	
+	<ITEM_CARGO-BASIC_ONE_CLUB_2H_NO_AMBER TrashChance="15" MasterChance="20">
+		<ResourceRarityRange MinimumCount="0" MaximumCount="10"/>
+		<SkillRarityRange MinimumCount="20" MaximumCount="40"/>
+		<LevelRange MinimumCount="2" MaximumCount="2"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<OptionalTag Value="TAG-CLUB_1H"/>
+		<ExcludeTag Value="TAG-AMBER"/>
+	</ITEM_CARGO-BASIC_ONE_CLUB_2H_NO_AMBER>
 	<ITEM_CARGO-ADV_ONE_CLUB_2H_NO_AMBER TrashChance="15" MasterChance="20">
 		<ResourceRarityRange MinimumCount="10" MaximumCount="30"/>
 		<SkillRarityRange MinimumCount="20" MaximumCount="40"/>
@@ -3198,6 +3236,14 @@
 		<OptionalTag Value="TAG-CLUB_1H"/>
 		<ExcludeTag Value="TAG-AMBER"/>
 	</ITEM_CARGO-ADV_ONE_CLUB_2H_NO_AMBER>
+	<ITEM_CARGO-ADV_ONE_THROWN_SPEARS_NO_AMBER TrashChance="10" MasterChance="20">
+		<ResourceRarityRange MinimumCount="10" MaximumCount="30"/>
+		<SkillRarityRange MinimumCount="20" MaximumCount="40"/>
+		<LevelRange MinimumCount="2" MaximumCount="2"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<OptionalTag Value="TAG-THROWN_SPEARS"/>
+		<ExcludeTag Value="TAG-AMBER"/>
+	</ITEM_CARGO-ADV_ONE_THROWN_SPEARS_NO_AMBER>
 	<ITEM_CARGO-STRONG_ONE_THROWN_SPEARS_NO_AMBER TrashChance="10" MasterChance="20">
 		<ResourceRarityRange MinimumCount="30" MaximumCount="50"/>
 		<SkillRarityRange MinimumCount="20" MaximumCount="40"/>
@@ -3723,6 +3769,42 @@
         <RequiredTag Value="TAG-EGGS"/>
         <ExcludeTag Value="TAG-COOKED_FOOD"/>
     </ITEM_CARGO-FEW_EGGS>
+	<ITEM_CARGO-SEAWEED>
+        <ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>
+        <LevelRange MinimumCount="1" MaximumCount="1"/>
+        <NumberOfItems MinimumCount="1" MaximumCount="1"/>
+        <RequiredTag Value="TAG-RESOURCE"/>
+        <RequiredTag Value="TAG-SEAWEED"/>
+        <ExcludeTag Value="TAG-COOKED_FOOD"/>
+    </ITEM_CARGO-SEAWEED>
+	<ITEM_CARGO-ONE_TO2_SEAWEEDS>
+        <ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>
+        <LevelRange MinimumCount="1" MaximumCount="1"/>
+        <NumberOfItems MinimumCount="1" MaximumCount="2"/>
+        <RequiredTag Value="TAG-RESOURCE"/>
+        <RequiredTag Value="TAG-SEAWEED"/>
+        <ExcludeTag Value="TAG-COOKED_FOOD"/>
+    </ITEM_CARGO-ONE_TO2_SEAWEEDS>
+	<ITEM_CARGO-ONE_TO3_SEAWEEDS>
+        <ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>
+        <LevelRange MinimumCount="1" MaximumCount="1"/>
+        <NumberOfItems MinimumCount="1" MaximumCount="3"/>
+        <RequiredTag Value="TAG-RESOURCE"/>
+        <RequiredTag Value="TAG-SEAWEED"/>
+        <ExcludeTag Value="TAG-COOKED_FOOD"/>
+    </ITEM_CARGO-ONE_TO3_SEAWEEDS>
+	<ITEM_CARGO-FEW_SEAWEEDS>
+        <ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>
+        <LevelRange MinimumCount="1" MaximumCount="1"/>
+        <NumberOfItems MinimumCount="1" MaximumCount="5"/>
+        <RequiredTag Value="TAG-RESOURCE"/>
+        <RequiredTag Value="TAG-SEAWEED"/>
+        <ExcludeTag Value="TAG-COOKED_FOOD"/>
+    </ITEM_CARGO-FEW_SEAWEEDS>
 
 	<ITEM_CARGO-ONE_HERBS>
 		<ResourceRarityRange MinimumCount="0" MaximumCount="20"/>
@@ -7134,6 +7216,78 @@
 		<RequiredTag Value="TAG-PET_CHICKEN"/>
 	</ITEM_CARGO-ANCIENT_ONE_PET_CHICKEN>
 						
+	<ITEM_CARGO-WEAK_ONE_PET_PARROT TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="1" MaximumCount="1"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PARROT"/>
+	</ITEM_CARGO-WEAK_ONE_PET_PARROT>
+	<ITEM_CARGO-ADV_ONE_PET_PARROT TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="11" MaximumCount="51"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="2" MaximumCount="2"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PARROT"/>
+	</ITEM_CARGO-ADV_ONE_PET_PARROT>
+	<ITEM_CARGO-STRONG_ONE_PET_PARROT TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="51" MaximumCount="61"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="3" MaximumCount="3"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PARROT"/>
+	</ITEM_CARGO-STRONG_ONE_PET_PARROT>
+	<ITEM_CARGO-RARE_ONE_PET_PARROT TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="70" MaximumCount="81"/>
+		<SkillRarityRange MinimumCount="50" MaximumCount="100"/>
+		<LevelRange MinimumCount="4" MaximumCount="4"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PARROT"/>
+	</ITEM_CARGO-RARE_ONE_PET_PARROT>
+	<ITEM_CARGO-ANCIENT_ONE_PET_PARROT TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="81" MaximumCount="96"/>
+		<SkillRarityRange MinimumCount="50" MaximumCount="100"/>
+		<LevelRange MinimumCount="5" MaximumCount="5"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_PARROT"/>
+	</ITEM_CARGO-ANCIENT_ONE_PET_PARROT>
+						
+	<ITEM_CARGO-WEAK_ONE_PET_CRAB TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="0" MaximumCount="15"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="1" MaximumCount="1"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_CRAB"/>
+	</ITEM_CARGO-WEAK_ONE_PET_CRAB>
+	<ITEM_CARGO-ADV_ONE_PET_CRAB TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="11" MaximumCount="51"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="2" MaximumCount="2"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_CRAB"/>
+	</ITEM_CARGO-ADV_ONE_PET_CRAB>
+	<ITEM_CARGO-STRONG_ONE_PET_CRAB TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="51" MaximumCount="61"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="50"/>
+		<LevelRange MinimumCount="3" MaximumCount="3"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_CRAB"/>
+	</ITEM_CARGO-STRONG_ONE_PET_CRAB>
+	<ITEM_CARGO-RARE_ONE_PET_CRAB TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="70" MaximumCount="81"/>
+		<SkillRarityRange MinimumCount="50" MaximumCount="100"/>
+		<LevelRange MinimumCount="4" MaximumCount="4"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_CRAB"/>
+	</ITEM_CARGO-RARE_ONE_PET_CRAB>
+	<ITEM_CARGO-ANCIENT_ONE_PET_CRAB TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="81" MaximumCount="96"/>
+		<SkillRarityRange MinimumCount="50" MaximumCount="100"/>
+		<LevelRange MinimumCount="5" MaximumCount="5"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PET_CRAB"/>
+	</ITEM_CARGO-ANCIENT_ONE_PET_CRAB>
+						
 	
 	<ITEM_CARGO-STRONG_ONE_PET_BUNNY_GOAT TrashChance="0" MasterChance="0">
 		<ResourceRarityRange MinimumCount="51" MaximumCount="61"/>
@@ -7164,6 +7318,20 @@
 		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
 		<RequiredTag Value="TAG-STRIBOG_RAFT"/>
 	</ITEM_CARGO-STRIBOG_RAFT>
+	<ITEM_CARGO-PIRATE_SHIP1 TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="10" MaximumCount="50"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>
+		<LevelRange MinimumCount="1" MaximumCount="5"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PIRATE_SHIP1"/>
+	</ITEM_CARGO-PIRATE_SHIP1>
+	<ITEM_CARGO-PIRATE_SHIP2 TrashChance="0" MasterChance="0">
+		<ResourceRarityRange MinimumCount="10" MaximumCount="50"/>
+		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>
+		<LevelRange MinimumCount="1" MaximumCount="5"/>
+		<NumberOfItems MinimumCount="1" MaximumCount="1"/>
+		<RequiredTag Value="TAG-PIRATE_SHIP2"/>
+	</ITEM_CARGO-PIRATE_SHIP2>
 	<ITEM_CARGO-PICKLES>
 		<ResourceRarityRange MinimumCount="5" MaximumCount="5"/>
 		<SkillRarityRange MinimumCount="0" MaximumCount="100"/>

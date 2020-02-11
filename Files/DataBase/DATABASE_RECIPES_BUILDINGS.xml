@@ -565,6 +565,7 @@
 			<DescriptionInfo Name="DES_SHIP_MEDIUM" Description="DES_SHIP_MEDIUM_DES" IconName="Ship2Sailboat"/>
 			<CountedTag Tag="TAG-SHIP" Amount="1.0"/>
 			<CountedTag Tag="TAG-MEDIUM_SHIP" Amount="1.0"/>
+      <CountedTag Tag="TAG-WATER_CAMP" Amount="1.0"/>
 			<MaterialRow>
 				<Material ResourceCount="75">
 					<Resource Value="RES-WOOD"/>
@@ -598,6 +599,7 @@
 			<DescriptionInfo Name="DES_SHIP_LARGE" Description="DES_SHIP_LARGE_DES" IconName="Ship3Ship"/>
 			<CountedTag Tag="TAG-SHIP" Amount="1.0"/>
 			<CountedTag Tag="TAG-HEAVY_SHIP" Amount="1.0"/>
+      <CountedTag Tag="TAG-WATER_CAMP" Amount="2.0"/>
 			<MaterialRow>
 				<Material ResourceCount="200">
 					<Resource Value="RES-WOOD"/>
@@ -659,4 +661,70 @@
 		</RecipeBase>
 		<Skills Value="SKILL_PACK-SHIP_SMALL_STRIBOG"/>
 	</BUILD_REC-SHIP_SMALL_STRIBOG>
+	<BUILD_REC-PIRATE_SHIP1 Durability="30" WeightMultiplier="0.5">
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_PIRATE_SHIP1" Description="DES_PIRATE_SHIP1_DES" IconName="ShipPirate1"/>
+			<CountedTag Tag="TAG-PIRATE_SHIP1" Amount="1.0"/>
+			<CountedTag Tag="TAG-WATER_CAMP" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="25">
+					<Resource Value="RES-WOOD"/>
+				</Material>                
+				<Material ResourceCount="18">
+					<Resource Value="RES-WOOD"/>
+				</Material>
+                <Material ResourceCount="14">
+                    <Resource Value="RES-BONE"/>
+                </Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+                <Material ResourceCount="13">
+                    <Resource Value="RES-WOOD"/>
+                </Material>
+                <Material ResourceCount="7">
+                    <Resource Value="RES-GOLD"/>
+                </Material>
+                <Material ResourceCount="10">
+                    <Resource Value="RES-BONE"/>
+                </Material>
+            </MaterialRow>
+		</RecipeBase>
+		<Skills Value="SKILL_PACK-PIRATE_SHIP1"/>
+	</BUILD_REC-PIRATE_SHIP1>
+	<BUILD_REC-PIRATE_SHIP2 Durability="30" WeightMultiplier="0.5">
+		<RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+			<DescriptionInfo Name="DES_PIRATE_SHIP2" Description="DES_PIRATE_SHIP2_DES" IconName="ShipPirate2"/>
+			<CountedTag Tag="TAG-PIRATE_SHIP2" Amount="1.0"/>
+			<CountedTag Tag="TAG-WATER_CAMP" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="25">
+					<Resource Value="RES-WOOD"/>
+				</Material>                
+				<Material ResourceCount="18">
+					<Resource Value="RES-BONE"/>
+				</Material>
+                <Material ResourceCount="14">
+                    <Resource Value="RES-BONE"/>
+                </Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="15">
+					<Resource Value="RES-LEATHER"/>
+				</Material>
+                <Material ResourceCount="13">
+                    <Resource Value="RES-WOOD"/>
+                </Material>
+                <Material ResourceCount="7">
+                    <Resource Value="RES-GOLD"/>
+                </Material>
+                <Material ResourceCount="10">
+                    <Resource Value="RES-BONE"/>
+                </Material>
+            </MaterialRow>
+		</RecipeBase>
+		<Skills Value="SKILL_PACK-PIRATE_SHIP2"/>
+	</BUILD_REC-PIRATE_SHIP2>
 </RECEIPTS_BUILDING>

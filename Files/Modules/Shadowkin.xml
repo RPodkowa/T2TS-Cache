@@ -319,7 +319,7 @@ You may enter, but at your own peril and know that fate is in turmoil in our hom
       <outputs ownerID="5" targetID="24" group="G1" fromX="1812" fromY="407" />
       <outputs ownerID="5" targetID="11" group="G1" fromX="1812" fromY="327" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="6" positionX="1471" positionY="-134" width="350" height="966">
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="1483" positionY="-127" width="350" height="966">
       <logic>
         <FilterBlock>
           <LogicResultAction list="elf">
@@ -327,10 +327,10 @@ You may enter, but at your own peril and know that fate is in turmoil in our hom
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Go in." ownerID="6" targetID="5" fromX="1796" fromY="-625" />
-      <outputs name="Turn back." ownerID="6" targetID="4" fromX="1796" fromY="-705" />
-      <outputs name="Say that you do want to be changed into shadow kin." ownerID="6" targetID="7" fromX="1796" fromY="-785" />
-      <outputs name="Tell them your elven child will embrace the path of the shadow if their offer is true?" ownerID="6" targetID="9" fromX="1796" fromY="-865" />'A child of light graces us with their presence, do you wish to become shadowkin? Are you curious how we turned out curse into a new path? You are welcome to join, darkness is open to all. You could die, of course... 
+      <outputs name="Go in." ownerID="6" targetID="5" fromX="1808" fromY="-619" />
+      <outputs name="Turn back." ownerID="6" targetID="4" fromX="1808" fromY="-699" />
+      <outputs name="Say that you do want to be changed into shadow kin." ownerID="6" targetID="7" fromX="1808" fromY="-779" />
+      <outputs name="Tell them your elven child will embrace the path of the shadow if their offer is true?" ownerID="6" targetID="9" fromX="1808" fromY="-859" />'A child of light graces us with their presence, do you wish to become shadowkin? Are you curious how we turned our curse into a new path? You are welcome to join, darkness is open to all. You could die, of course... 
 
 Enter, but at your own peril and know that fate is in turmoil in our home and we will not aid you if it wishes to play games.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="1942" positionY="-528" width="350" height="805" image="Event173">
@@ -727,7 +727,7 @@ Here, you can visit a few places that are open to outsiders.
         </FilterBlock>
       </logic>
       <outputs name="Trade." ownerID="33" targetID="29" fromX="-141" fromY="-532" />
-      <outputs name="Visit the town." ownerID="33" targetID="30" fromX="-141" fromY="-612" />You enter the lands of the shadowkin and you feel the raw presence of darkness here. A thick, low hanging black mist covers the ground to you can never see your feet. And another such layer, albeit thinner, shrouds the sky. A voice from the shadow speaks:
+      <outputs name="Visit the town." ownerID="33" targetID="30" fromX="-141" fromY="-612" />You enter the lands of the shadowkin and you feel the raw presence of darkness here. A thick, low hanging black mist covers the ground so you can never see your feet. And another such layer, albeit thinner, shrouds the sky. A voice from the shadow speaks:
 
 'Friend, enter and we shall shield you from our darkness.'</nodes>
     <nodes xsi:type="NodeTrade" ID="34" positionX="-2656" positionY="-1372" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="noch" startingBalance="-1">
@@ -882,7 +882,7 @@ You can also visit the settlement now. </nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="One of your orc females has the dark taint of magic upon her, even though she is untrained. The shadowkin offer to awaken those gifts ad transform her into a witch." ownerID="42" targetID="41" fromX="823" fromY="-2010" />
+      <outputs name="One of your orc females has the dark taint of magic upon her, even though she is untrained. The shadowkin offer to awaken those gifts and transform her into a witch." ownerID="42" targetID="41" fromX="823" fromY="-2010" />
       <outputs name="Enter." ownerID="42" targetID="46" fromX="823" fromY="-2090" />'Ah, a child born of darkness, much like us, only more - primal. What do you seek from us? If you are here to visit, enter, darkness will not harm you, probably...'</nodes>
     <nodes xsi:type="NodeAdventure" ID="43" positionX="46" positionY="-1359" width="350" height="805">
       <logic>
@@ -951,8 +951,8 @@ You may enter, but at your own peril and know that fate is in turmoil in our hom
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave without looting." ownerID="50" targetID="53" fromX="-397" fromY="-2462" />
-      <outputs name="Loot and leave." ownerID="50" targetID="55" fromX="-397" fromY="-2542" />The dark town is laid to ruin and you can loot it, but beware, darkness lingers here and will likely infect you.</nodes>
+      <outputs name="Leave without looting." ownerID="50" targetID="53" fromX="-397" fromY="-2461" />
+      <outputs name="Loot and leave." ownerID="50" targetID="55" fromX="-397" fromY="-2541" />The dark town is laid to ruin and you can loot it, but beware, darkness lingers here and will likely infect you.</nodes>
     <nodes xsi:type="NodeAdventure" ID="52" positionX="-1284" positionY="1754" width="350" height="725">
       <logic>
         <FilterBlock>

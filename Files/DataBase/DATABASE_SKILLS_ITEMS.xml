@@ -64,7 +64,7 @@
 	<SKILL-JEWELLERY_BEAR_SPIRIT Rarity="50">
 		<DescriptionInfo Name="DES_SKILL_JEWELLERY_BEAR_SPIRIT" Description="DES_SKILL_JEWELLERY_BEAR_SPIRIT_DES" IconName="SkillBearSpirit"/>
 		<BaseEssence Amount="16" Tag="TAG-ESSENCE_METAL"/>
-		<SkillSubskill Value="SUBSKILL-CLAW_HIT"/>
+		<SkillSubskill Value="SUBSKILL-MYSTIC_CLAW_HIT"/>
 		<SkillGroupFilter Value="Item"/>
 		<SkillGroupFilter Value="Jewellery"/>
 	</SKILL-JEWELLERY_BEAR_SPIRIT>
@@ -377,6 +377,23 @@
 		<SkillGroupFilter Value="Pet"/>
 		<SkillGroupFilter Value="PetChicken"/>
 	</SKILL-PET_CHICKEN>
+	<SKILL-PET_PARROT Rarity="1">
+		<DescriptionInfo Name="DES_SKILL_PET_PARROT" Description="DES_SKILL_PET_PARROT_DES" IconName="SkillParrot"/>
+		<BaseEssence Amount="6" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_DESTINY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_LUCK"/>
+		<SkillGroupFilter Value="Pet"/>
+		<SkillGroupFilter Value="PetParrot"/>
+	</SKILL-PET_PARROT>
+	<SKILL-PET_CRAB Rarity="1">
+		<DescriptionInfo Name="DES_SKILL_PET_CRAB" Description="DES_SKILL_PET_CRAB_DES" IconName="SkillCrab"/>
+		<BaseEssence Amount="6" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_WITS"/>
+		<SkillSubskill Value="SUBSKILL-ADD_WEAK_STRENGTH"/>
+		<SkillGroupFilter Value="Pet"/>
+		<SkillGroupFilter Value="PetCrab"/>
+	</SKILL-PET_CRAB>
 	
 	
 	<SKILL-TUT_FAKE_WEAPON Rarity="1">

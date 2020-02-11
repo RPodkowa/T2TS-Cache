@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Divine" lastEventIndex="27" allowToUse="true" uniqueModuleID="1711258550">
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Divine" lastEventIndex="31" allowToUse="true" uniqueModuleID="1711258550">
   <Adventure name="Divine Q Start" uniqueID="1" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="3" nodeIdMax="39" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-522" positionY="61" width="347" height="661" image="Event122">
       <logic>
@@ -602,7 +602,7 @@ Thus, I commend you for walking the path truly.'
 Thus, I commend you for walking the path truly.'
 </nodes>
   </Adventure>
-  <Adventure name="Divine 1a" uniqueID="2" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="49" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+  <Adventure name="Divine 1a" uniqueID="2" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="51" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event001">
       <outputs ownerID="1" targetID="5" group="G1" fromX="334" fromY="-613" />
       <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-693" />
@@ -771,11 +771,12 @@ Perhaps this chram is a place of worship for a child of the two gods. Thus, the 
       <outputs name="Show your mark of Svarog with pride." ownerID="9" targetID="43" fromX="2065" fromY="1197" />The chram shakes and a gust of wind throws dust in your eyes. After you rub it away, you see the chram through a thin veil of green light, but as it must have stood many centuries ago. A voice issues forth and a spirit appears soon after:
 
 'I accept your offering, chosen. What seek you here?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="10" positionX="2218" positionY="2433" width="350" height="966">
+    <nodes xsi:type="NodeAdventure" ID="10" positionX="2218" positionY="2433" width="350" height="1046">
       <outputs name="Say that you follow Zorya." ownerID="10" targetID="37" fromX="2543" fromY="1941" />
       <outputs name="You are chosen of Triglav!" ownerID="10" targetID="42" fromX="2543" fromY="1861" />
       <outputs name="Show your mark of Svarog with pride." ownerID="10" targetID="43" fromX="2543" fromY="1781" />
-      <outputs name="Say you follow Stribog." ownerID="10" targetID="49" fromX="2543" fromY="1701" />'Yes, this is clear. I have granted you my boon, for your offering was true. But this is hardly what you seek. 
+      <outputs name="Say you follow Stribog." ownerID="10" targetID="49" fromX="2543" fromY="1701" />
+      <outputs name="Proclaim you are the chosen of Mokosh." ownerID="10" targetID="50" fromX="2543" fromY="1621" />'Yes, this is clear. I have granted you my boon, for your offering was true. But this is hardly what you seek. 
 
 As the world shattered, so has the memory of your divine. If you can piece together the past, your future will hold strong. Tell me, whose path do you walk, chosen?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="11" positionX="2932" positionY="856" width="350" height="725">
@@ -1044,7 +1045,7 @@ What is odd, though, is that these markings are not quite right. They seem merge
 I know where his rod lies buried. Go to the ice plains. Find the rod and hold it in your hands. If you are worthy, Perun will surely reward you with the clarity you seek.'
 
 The spirit fades away and the place turns to ruin once more.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="37" positionX="3250" positionY="2636" width="350" height="805">
+    <nodes xsi:type="NodeAdventure" ID="37" positionX="3254" positionY="2627" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -1052,8 +1053,8 @@ The spirit fades away and the place turns to ruin once more.</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Keep listening." ownerID="37" targetID="36" fromX="3575" fromY="2144" />
-      <outputs name="His father was Perun? Why isn't he a god of the pantheon, then?" ownerID="37" targetID="39" fromX="3575" fromY="2064" />'Zorya, Svarog's favoured daughter and my father's most valiant rival. 
+      <outputs name="Keep listening." ownerID="37" targetID="36" fromX="3579" fromY="2135" />
+      <outputs name="His father was Perun? Why isn't he a god of the pantheon, then?" ownerID="37" targetID="39" fromX="3579" fromY="2055" />'Zorya, Svarog's favoured daughter and my father's most valiant rival. 
 
 I too walked the path of war, and perhaps this is why I was never allowed to ascend, for your goddess does not play well with others or share her bright spotlight.'
 
@@ -1064,15 +1065,23 @@ You see the spirit ripple with red veins but it passes quickly.</nodes>
 Still. As I understand it, your gods have forgotten who they are. Not entirely, of course, but they are acting out of instinct, unrooted. 
 
 There is a reason. I do not know it, but I suspect my father's fate has everything to do with it.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="39" positionX="4016" positionY="206" width="350" height="885">
+    <nodes xsi:type="NodeAdventure" ID="39" positionX="4016" positionY="206" width="350" height="966">
       <outputs name="And the truth?" ownerID="39" targetID="41" fromX="4341" fromY="-285" />
       <outputs name="Who is Mokosh?" ownerID="39" targetID="40" fromX="4341" fromY="-365" />
-      <outputs name="Ask him why you were sent here. What does it have to do with unlocking your potential?" ownerID="39" targetID="38" fromX="4341" fromY="-445" />'I was for a brief time. But my divine spark faded as my followers diminished. Some will say I failed to inspire them, that I was not ready.
+      <outputs name="Ask him why you were sent here. What does it have to do with unlocking your potential?" ownerID="39" targetID="38" fromX="4341" fromY="-445" />
+      <outputs name="Point out that he clearly blames your goddess for his fate." ownerID="39" targetID="51" fromX="4341" fromY="-525" />'I was for a brief time. But my divine spark faded as my followers diminished. Some will say I failed to inspire them, that I was not ready.
 
 Others will say Mokosh is not the homely mother that folk think her to be. And am I not her son, after all?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="40" positionX="4561" positionY="-198" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerDoesNotHaveTagExactly" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
       <outputs name="And the truth?" ownerID="40" targetID="41" fromX="4886" fromY="-689" />
-      <outputs name="Ask him why you were sent here. What does it have to do with unlocking your potential?" ownerID="40" targetID="38" fromX="4886" fromY="-769" />'I do not wish to speak of her. She is the mother of all the gods of the Tree. She is gone now too. Good.'</nodes>
+      <outputs name="Ask him why you were sent here. What does it have to do with unlocking your potential?" ownerID="40" targetID="38" fromX="4542" fromY="-769" />'I do not wish to speak of her. She is the mother of all the gods of the Tree. She is gone now too. Good.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="41" positionX="4823" positionY="616" width="350" height="725">
       <outputs name="Ask him why you were sent here. What does it have to do with unlocking your potential?" ownerID="41" targetID="38" fromX="5148" fromY="124" />'If I admit to the first, will you admire my humility and grant me sympathy, maybe even rage at the injustice of it all - and will you not later think: but did he only say it to make himself look good? And if I say it was her, will you not assume a scorned child's anger directs my words?
 
@@ -1121,6 +1130,32 @@ I often feel he stole the light from me, but that is childish, I know it.'</node
 But seeing as his domain is that of water and the winds, the sky and the seas, I imagine both my father Perun and his eternal lady Mokosh, were pleased to welcome him...'
 
 You see the spirit ripple with red veins but it passes quickly.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="1629" positionY="2897" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Keep listening." ownerID="50" targetID="36" fromX="1954" fromY="2405" />
+      <outputs name="His father was Perun? Why isn't he a god of the pantheon, then?" ownerID="50" targetID="39" fromX="1954" fromY="2325" />'Mokosh? My father's eternal mate. She has... returned? I... Your goddess is the mother of all, but do not mistake her maternal role for one of peace or nurture. She once held dominion over all the divine domains. I suppose, if I sense you right, she now holds nature and turmoil as her own. Fitting, for she was ever a violent parent.'
+
+You see the spirit ripple with red veins, but it passes quickly.
+
+You see the spirit ripple with red veins but it passes quickly.
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="51" positionX="5309" positionY="62" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Ask him why you were sent here. What does it have to do with unlocking your potential?" ownerID="51" targetID="38" fromX="5634" fromY="-429" />'I... it was long ago, and I had time to reflect. I admit, I hold no love for your mother, but I no longer hate her. 
+
+It matters little now. I am what I am. I thank you for the visit, but my time here fades.'</nodes>
   </Adventure>
   <Adventure name="Divine 1b" uniqueID="3" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="29" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event298">
@@ -1171,7 +1206,7 @@ Beside it, you see a bustling of light swirling in and out, trying to carve its 
       <outputs name="Win" ownerID="6" targetID="22" group="G1" fromX="395" fromY="-1660" />
       <outputs name="Lose" ownerID="6" targetID="16" fromX="395" fromY="-1740" />
       <outputs name="Surrender" ownerID="6" targetID="28" fromX="395" fromY="-1820" />
-      <outputs name="Win" ownerID="6" targetID="23" group="G1" fromX="395" fromY="-1660" />
+      <outputs name="Win" ownerID="6" targetID="23" group="G1" fromX="395" fromY="-1901" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="2245" positionY="-440" width="350" height="885">
       <outputs name="[Harmony]You sense the overwhelming power of this light. It calls even to you, promising harmony. But you know this to be a lie. Open yourself up to your domain and try to show the truth to these lightbringers." ownerID="7" targetID="8" fromX="2570" fromY="-931" />
@@ -1367,7 +1402,7 @@ Sadly, most of them perish, as if the link to the light-mind was their only rema
     <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="-895" positionY="-233" width="350" height="530" logBookName="QUEST_DIV_ALLPATHS1" logBookDescription="QUEST_DIV_ALLPATHS_ONE_DES" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="Divine 2c" uniqueID="4" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="40" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event307">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event307">
       <logic>
         <FilterBlock>
           <LogicFilter name="ch">
@@ -1398,7 +1433,7 @@ Sadly, most of them perish, as if the link to the light-mind was their only rema
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="463" positionY="-273" width="350" height="885">
       <logic>
@@ -2451,9 +2486,9 @@ So, yes and no. They carry the will of all three elder gods, yet also their own.
     </nodes>
   </Adventure>
   <Adventure name="Divine 2c spwn" uniqueID="7" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="50" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event307">
-      <outputs ownerID="1" targetID="38" group="G1" fromX="334" fromY="-613" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-693" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="863" image="Event307">
+      <outputs ownerID="1" targetID="38" group="G1" fromX="334" fromY="-735" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-815" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="463" positionY="-273" width="350" height="885">
       <logic>
@@ -2926,7 +2961,7 @@ The domain of Intellect wass gifted to the child of hope, for it iss her tassk t
       </logic>
     </nodes>
   </Adventure>
-  <Adventure name="Divine 2a" uniqueID="8" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="49" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+  <Adventure name="Divine 2a" uniqueID="8" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="51" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event302">
       <logic>
         <FilterBlock>
@@ -3100,17 +3135,19 @@ A thundering voice booms at you:
 
 'Finally! The seal is broken. It is time for the young gods to remember and for their chosen to grow. Now, bow before my power and accept the divine gift.'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="15" positionX="4493" positionY="2757" width="350" height="1046">
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="4493" positionY="2757" width="350" height="1126">
       <outputs name="Ask why he has abandoned the pantheon." ownerID="15" targetID="16" fromX="4818" fromY="2265" />
       <outputs name="Zorya." ownerID="15" targetID="17" fromX="4818" fromY="2185" />
       <outputs name="Triglav." ownerID="15" targetID="18" fromX="4818" fromY="2105" />
       <outputs name="Svarog." ownerID="15" targetID="45" fromX="4818" fromY="2025" />
-      <outputs name="Stribog." ownerID="15" targetID="46" fromX="4818" fromY="1945" />'I am the voice of Perun, the father of the skies. I am here to tell you what your next steps will be. Whom do you serve, child?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="16" positionX="4874" positionY="3771" width="350" height="966">
-      <outputs name="Zorya." ownerID="16" targetID="17" fromX="5199" fromY="3279" />
-      <outputs name="Triglav." ownerID="16" targetID="18" fromX="5199" fromY="3199" />
-      <outputs name="Svarog." ownerID="16" targetID="45" fromX="5199" fromY="3119" />
-      <outputs name="Stribog." ownerID="16" targetID="46" fromX="5199" fromY="3039" />'The skies cannot remain still; the thunder does not linger. We were needed, so we left. The skies, the earth, and the underworld, the power of three as one to hold the earth in our grasp and allow our children to stand strong. I was made divine to stand for Light, and thus my power was needed to keep it at bay. But you will know all once your divine memory is restored. Now, whom do you serve, child?'</nodes>
+      <outputs name="Stribog." ownerID="15" targetID="46" fromX="4818" fromY="1945" />
+      <outputs name="Mokosh." ownerID="15" targetID="50" fromX="4818" fromY="1864" />'I am the voice of Perun, the father of the skies. I am here to tell you what your next steps will be. Whom do you serve, child?'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="4854" positionY="3933" width="350" height="1046">
+      <outputs name="Zorya." ownerID="16" targetID="17" fromX="5179" fromY="3441" />
+      <outputs name="Triglav." ownerID="16" targetID="18" fromX="5179" fromY="3361" />
+      <outputs name="Svarog." ownerID="16" targetID="45" fromX="5179" fromY="3281" />
+      <outputs name="Stribog." ownerID="16" targetID="46" fromX="5179" fromY="3201" />
+      <outputs name="Mokosh." ownerID="16" targetID="50" fromX="5179" fromY="3121" />'The skies cannot remain still; the thunder does not linger. We were needed, so we left. The skies, the earth, and the underworld, the power of three as one to hold the earth in our grasp and allow our children to stand strong. I was made divine to stand for Light, and thus my power was needed to keep it at bay. But you will know all once your divine memory is restored. Now, whom do you serve, child?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="17" positionX="5405" positionY="3780" width="350" height="725">
       <logic>
         <FilterBlock>
@@ -3138,7 +3175,7 @@ The voice fades, and when your eyesight is restored, the giant hand holds the ro
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Leave." ownerID="18" targetID="48" fromX="6259" fromY="2638" />'Interesting. The unstoppable wrath of the pantheon. A force of nature drawn from the depths of earth's fire to face the other core that slept near it.
+      <outputs name="Leave." ownerID="18" targetID="48" fromX="6258" fromY="2638" />'Interesting. The unstoppable wrath of the pantheon. A force of nature drawn from the depths of earth's fire to face the other core that slept near it.
 
 You must travel into the volcanic lands, made so by your very birth. Or should I say the birth of your god? I forget myself. Good luck to you, chosen of the fire.'
 
@@ -3529,8 +3566,35 @@ The voice fades, and when your eyesight is restored, the giant hand holds the ro
         </ModifierBlock>
       </logic>
     </nodes>
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="4405" positionY="3826" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+          <LogicResultAction list="div8">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Leave." ownerID="50" targetID="51" fromX="4731" fromY="3335" />'Mokosh! My love eternal, ha! So, it is time she becomes one - good. She is of all, but turmoil flows strong in her veins. She was the one who gifted it to me, after all.
+She must be freed from the Three. Thus to the lands of the volcanos you will go. There, in the red pits, you will ask Triglav to release the mother to us, for she is needed now.'
+
+The voice fades, and when your eyesight is restored, the giant hand holds the rod again.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="4008" positionY="3957" width="350" height="530" allPlayersXP="6" allPlayersRP="4" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOAMOKOSH_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="div8">
+            <scriptCallWithTag scriptName="FMO_SetTags" parameter="0" tag="TAG-DIV10" />
+          </LogicModifiers>
+          <LogicModifiers list="div8">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DIV11" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
   </Adventure>
-  <Adventure name="Divine 2a spwn" uniqueID="9" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="57" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+  <Adventure name="Divine 2a spwn" uniqueID="9" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="60" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event302">
       <outputs ownerID="1" targetID="47" group="G1" fromX="334" fromY="-613" />
       <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-693" />
@@ -3681,17 +3745,19 @@ A thundering voice booms at you:
 
 'Finally! The seal is broken. It is time for the young gods to remember and for their chosen to grow. Now, bow before my power and accept the divine gift.'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="15" positionX="4495" positionY="2450" width="350" height="1046">
-      <outputs name="Ask why he has abandoned the pantheon." ownerID="15" targetID="16" fromX="4820" fromY="1958" />
-      <outputs name="Zorya." ownerID="15" targetID="17" fromX="4820" fromY="1878" />
-      <outputs name="Triglav." ownerID="15" targetID="18" fromX="4820" fromY="1798" />
-      <outputs name="Svarog." ownerID="15" targetID="45" fromX="4820" fromY="1718" />
-      <outputs name="Stribog." ownerID="15" targetID="46" fromX="4820" fromY="1638" />'I am the voice of Perun, the father of the skies. I am here to tell you what your next steps will be. Whom do you serve, child?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="16" positionX="4972" positionY="2778" width="350" height="966">
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="4477" positionY="2399" width="350" height="1126">
+      <outputs name="Ask why he has abandoned the pantheon." ownerID="15" targetID="16" fromX="4802" fromY="1907" />
+      <outputs name="Zorya." ownerID="15" targetID="17" fromX="4458" fromY="1827" />
+      <outputs name="Triglav." ownerID="15" targetID="18" fromX="4458" fromY="1827" />
+      <outputs name="Svarog." ownerID="15" targetID="45" fromX="4458" fromY="1827" />
+      <outputs name="Stribog." ownerID="15" targetID="46" fromX="4458" fromY="1827" />
+      <outputs name="Mokosh." ownerID="15" targetID="58" fromX="4458" fromY="1827" />'I am the voice of Perun, the father of the skies. I am here to tell you what your next steps will be. Whom do you serve, child?'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="4972" positionY="2778" width="350" height="1046">
       <outputs name="Zorya." ownerID="16" targetID="17" fromX="5297" fromY="2286" />
       <outputs name="Triglav." ownerID="16" targetID="18" fromX="5297" fromY="2206" />
       <outputs name="Svarog." ownerID="16" targetID="45" fromX="5297" fromY="2126" />
-      <outputs name="Stribog." ownerID="16" targetID="46" fromX="5297" fromY="2046" />'The skies cannot remain still; the thunder does not linger. We were needed, so we left. The skies, the earth, and the underworld, the power of three as one to hold the earth in our grasp and allow our children to stand strong. But you will know all once your divine memory is restored. Now, whom do you serve, child?'</nodes>
+      <outputs name="Stribog." ownerID="16" targetID="46" fromX="5297" fromY="2046" />
+      <outputs name="Mokosh." ownerID="16" targetID="58" fromX="4950" fromY="1966" />'The skies cannot remain still; the thunder does not linger. We were needed, so we left. The skies, the earth, and the underworld, the power of three as one to hold the earth in our grasp and allow our children to stand strong. But you will know all once your divine memory is restored. Now, whom do you serve, child?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="17" positionX="5440" positionY="3104" width="350" height="725">
       <logic>
         <FilterBlock>
@@ -3960,7 +4026,7 @@ As such, your skill is increased, and you are gifted with the tools to create di
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Win" ownerID="35" targetID="36" group="G1" fromX="2197" fromY="-185" />
+      <outputs name="Win" ownerID="35" targetID="36" fromX="2197" fromY="-185" />
       <outputs name="Lose" ownerID="35" targetID="33" fromX="2197" fromY="-265" />
       <outputs name="Surrender" ownerID="35" targetID="33" fromX="2197" fromY="-345" />
     </nodes>
@@ -4146,9 +4212,40 @@ The voice fades, and when your eyesight is restored, the giant hand holds the ro
       <outputs ownerID="56" targetID="57" fromX="2130" fromY="-1845" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="57" positionX="1780" positionY="-2070" width="350" height="530" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOA_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="58" positionX="4485" positionY="3241" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+          <LogicResultAction list="div8">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Leave." ownerID="58" targetID="59" fromX="4810" fromY="2749" />'Mokosh! My love eternal, ha! So, it is time she becomes one - good. She is of all, but turmoil flows strong in her veins. She was the one who gifted it to me, after all.
+
+She must be freed from the Three. Thus to the lands of the volcanos you will go. There, in the red pits, you will ask Triglav to release the mother to us, for she is needed now.'
+
+The voice fades, and when your eyesight is restored, the giant hand holds the rod again.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="59" positionX="4889" positionY="3723" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="59" targetID="60" fromX="5337" fromY="3740" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="60" positionX="5451" positionY="3841" width="350" height="530" allPlayersXP="6" allPlayersRP="4" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOAMOKOSH_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="div8">
+            <scriptCallWithTag scriptName="FMO_SetTags" parameter="0" tag="TAG-DIV10" />
+          </LogicModifiers>
+          <LogicModifiers list="div8">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DIV11" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
   </Adventure>
-  <Adventure name="Divine 2b" uniqueID="10" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="59" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-9" positionY="17" width="347" height="783" image="DefaultForest">
+  <Adventure name="Divine 2b" uniqueID="10" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="61" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-9" positionY="17" width="347" height="661" image="DefaultForest">
       <logic>
         <FilterBlock>
           <LogicFilter name="div7">
@@ -4185,7 +4282,7 @@ The voice fades, and when your eyesight is restored, the giant hand holds the ro
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" fromX="315" fromY="-708" />
+      <outputs ownerID="1" targetID="2" fromX="315" fromY="-586" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="387" positionY="10" width="350" height="885">
       <logic>
@@ -4297,8 +4394,8 @@ As the place turns barren and the leshy's remains turn to ash, you are able to a
         </FilterBlock>
       </logic>
       <outputs name="Confirm" ownerID="10" targetID="11" group="G1" fromX="1724" fromY="913" />
-      <outputs name="Cancel" ownerID="10" targetID="29" fromX="1280" fromY="833" />
-      <outputs name="Confirm" ownerID="10" targetID="17" group="G1" fromX="1280" fromY="833" />
+      <outputs name="Cancel" ownerID="10" targetID="29" fromX="1724" fromY="833" />
+      <outputs name="Confirm" ownerID="10" targetID="17" group="G1" fromX="1724" fromY="753" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="11" positionX="1857" positionY="1426" width="350" height="885">
       <logic>
@@ -4553,13 +4650,14 @@ Your vitality grows and you feel strengthened throughout. A fellow beast also jo
       <outputs name="Leave it for now." ownerID="35" targetID="24" fromX="1165" fromY="-2879" />The leshy defeats you, and surprisingly, it does not seem hostile beyond defending itself. 
 
 You feel a flow of negative energy from the tree trunk, though. It seems that whatever god essence resides here, it was not impressed with you.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="36" positionX="5653" positionY="2643" width="350" height="1126">
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="5653" positionY="2643" width="350" height="1206">
       <outputs name="Dievanna." ownerID="36" targetID="41" fromX="5978" fromY="2151" />
       <outputs name="Horz." ownerID="36" targetID="43" fromX="5978" fromY="2071" />
       <outputs name="Triglav." ownerID="36" targetID="44" fromX="5978" fromY="1991" />
-      <outputs name="Nyia." ownerID="36" targetID="45" fromX="5978" fromY="1911" />
-      <outputs name="Lada." ownerID="36" targetID="46" fromX="5978" fromY="1831" />
-      <outputs name="Stribog." ownerID="36" targetID="58" fromX="5978" fromY="1750" />'That choice is always yours, but there is a final stage of your journey, one that will lead you to your divine patron and thus unlock both of your potentials further.
+      <outputs name="Nyia." ownerID="36" targetID="45" fromX="5631" fromY="1911" />
+      <outputs name="Lada." ownerID="36" targetID="46" fromX="5631" fromY="1911" />
+      <outputs name="Stribog." ownerID="36" targetID="58" fromX="5631" fromY="1911" />
+      <outputs name="Mokosh." ownerID="36" targetID="60" fromX="5631" fromY="1911" />'That choice is always yours, but there is a final stage of your journey, one that will lead you to your divine patron and thus unlock both of your potentials further.
 
 Which deity do you call to?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="5391" positionY="1066" width="350" height="725">
@@ -4858,8 +4956,33 @@ The leshy does not wait for a reply, but goes back into slumber.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
+    <nodes xsi:type="NodeAdventure" ID="60" positionX="5180" positionY="2604" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Bow in thanks and leave." ownerID="60" targetID="61" fromX="5505" fromY="2112" />'Ah, the mother nature herself, in turmoil she dwells, for change is life. She once held dominion over all the divine domains, but in time she chose to share her power to seek greater balance. She now holds nature and turmoil as her own. You walk the path of the primal mother, and so you must learn to act for the good of all.
+
+She must be freed from the Three. Thus to the lands of the volcanos you will go. There, in the red pits, you will ask Triglav to release the mother to us, for she is needed now.'
+
+The leshy does not wait for a reply, but goes back into slumber.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="61" positionX="5315" positionY="3246" width="350" height="530" allPlayersXP="6" allPlayersRP="5" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOBMOKOSH_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_SetTags" parameter="0" tag="TAG-DIV12" />
+          </LogicModifiers>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DIV13" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
   </Adventure>
-  <Adventure name="Divine 2b spwn" uniqueID="11" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="66" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+  <Adventure name="Divine 2b spwn" uniqueID="11" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="69" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-9" positionY="17" width="347" height="741" image="DefaultForest">
       <outputs ownerID="1" targetID="54" group="G1" fromX="315" fromY="-586" />
       <outputs ownerID="1" targetID="2" group="G1" fromX="315" fromY="-666" />
@@ -5230,13 +5353,14 @@ Your vitality grows and you feel strengthened throughout. A fellow beast also jo
       <outputs name="Leave it for now." ownerID="35" targetID="24" fromX="1165" fromY="-2879" />The leshy defeats you, and surprisingly, it does not seem hostile beyond defending itself. 
 
 You feel a flow of negative energy from the tree trunk, though. It seems that whatever god essence resides here, it was not impressed with you.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="36" positionX="5566" positionY="2692" width="350" height="1126">
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="5566" positionY="2692" width="350" height="1206">
       <outputs name="Dievanna." ownerID="36" targetID="41" fromX="5891" fromY="2200" />
       <outputs name="Horz." ownerID="36" targetID="43" fromX="5891" fromY="2120" />
       <outputs name="Triglav." ownerID="36" targetID="44" fromX="5891" fromY="2040" />
       <outputs name="Nyia." ownerID="36" targetID="45" fromX="5891" fromY="1960" />
       <outputs name="Lada." ownerID="36" targetID="46" fromX="5891" fromY="1880" />
-      <outputs name="Stribog." ownerID="36" targetID="64" fromX="5891" fromY="1799" />'That choice is always yours, but there is a final stage of your journey, one that will lead you to your divine patron and thus unlock both of your potentials further.
+      <outputs name="Stribog." ownerID="36" targetID="64" fromX="5891" fromY="1799" />
+      <outputs name="Mokosh." ownerID="36" targetID="67" fromX="5891" fromY="1719" />'That choice is always yours, but there is a final stage of your journey, one that will lead you to your divine patron and thus unlock both of your potentials further.
 
 Which deity do you call to?'</nodes>
     <nodes xsi:type="NodeAdventure" ID="37" positionX="5391" positionY="1066" width="350" height="725">
@@ -5536,6 +5660,33 @@ The leshy does not wait for a reply, but goes back into slumber.</nodes>
       <outputs ownerID="65" targetID="66" fromX="7906" fromY="1067" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="66" positionX="8075" positionY="1508" width="350" height="530" allPlayersXP="6" allPlayersRP="5" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOBSTRIBOG_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_SetTags" parameter="0" tag="TAG-DIV12" />
+          </LogicModifiers>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DIV13" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="67" positionX="5054" positionY="2690" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Bow in thanks and leave." ownerID="67" targetID="68" fromX="5379" fromY="2198" />'Ah, the mother nature herself, in turmoil she dwells, for change is life. She once held dominion over all the divine domains, but in time she chose to share her power to seek greater balance. She now holds nature and turmoil as her own. You walk the path of the primal mother, and so you must learn to act for the good of all.
+
+She must be freed from the Three. Thus to the lands of the volcanos you will go. There, in the red pits, you will ask Triglav to release the mother to us, for she is needed now.'
+The leshy does not wait for a reply, but goes back into slumber.</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="68" positionX="5022" positionY="3361" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="68" targetID="69" fromX="5470" fromY="3378" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="69" positionX="5604" positionY="3518" width="350" height="530" allPlayersXP="6" allPlayersRP="5" logBookName="QUEST_DIV_PATH_ALLPATHS2" logBookDescription="QUEST_DIV_PATH_TWOBMOKOSH_DES" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers list="ch">
@@ -6093,7 +6244,7 @@ She blows you a kiss and continues dancing.</nodes>
 
 Now, speak your questions, my champion, for we do not have much time here.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="10" positionX="3730" positionY="1843" width="350" height="805">
-      <outputs name="Why did he lose his memory in the first place? " ownerID="10" targetID="11" fromX="4055" fromY="1351" />
+      <outputs name="Why did she lose his memory in the first place? " ownerID="10" targetID="11" fromX="4055" fromY="1351" />
       <outputs name="Why and how did she become a god?" ownerID="10" targetID="25" fromX="4055" fromY="1271" />'I chose to follow my primal nature. This will affect you and me. For better or worse? We will see. 
 
 You gave me clarity, chosen. I now understand the sacrifices made by the older gods and what we, the young, must do.'</nodes>
@@ -10086,7 +10237,7 @@ You turn for a second and you no longer see Dievanna, only the forest and so you
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="23" targetID="54" fromX="6099" fromY="-291" />
+      <outputs ownerID="23" targetID="54" fromX="6099" fromY="84" />
     </nodes>
     <nodes xsi:type="NodeProduceDrop" ID="24" positionX="5677" positionY="-376" width="460" height="429">
       <logic>
@@ -10100,9 +10251,9 @@ You turn for a second and you no longer see Dievanna, only the forest and so you
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="5099" positionY="2852" width="350" height="966">
       <outputs name="Why did she lose her memory in the first place? " ownerID="25" targetID="11" fromX="5424" fromY="2360" />
-      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="16" group="G1" fromX="5424" fromY="2360" />
-      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="21" group="G1" fromX="5424" fromY="2360" />
-      <outputs name="So are the three gods gone for good?" ownerID="25" targetID="13" fromX="5424" fromY="2360" />'Veles chose a dark path away from his origins. Mokosh grew stronger as the maker, and was unable to stay close to the woodlands. The new gods are needed and the forest needed one, so I shed my elven past, just as Veles once did, and I chose to join the children of the cosmic tree.'</nodes>
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="16" group="G1" fromX="5424" fromY="2280" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="21" group="G1" fromX="5424" fromY="2200" />
+      <outputs name="So are the three gods gone for good?" ownerID="25" targetID="13" fromX="5424" fromY="2120" />'Veles chose a dark path away from his origins. Mokosh grew stronger as the maker, and was unable to stay close to the woodlands. The new gods are needed and the forest needed one, so I shed my elven past, just as Veles once did, and I chose to join the children of the cosmic tree.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="26" positionX="4397" positionY="2706" width="350" height="725">
       <outputs name="Keep listening." ownerID="26" targetID="34" fromX="4722" fromY="2214" />'It is neither bad nor good, just like its sibling, darkness. They are both driven to obey their nature.
 
@@ -10276,10 +10427,10 @@ So, yes and no. They carry the will of all three elder gods, yet also their own.
       <outputs ownerID="53" targetID="49" fromX="6717" fromY="-873" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="54" positionX="6291" positionY="117" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
-      <outputs ownerID="54" targetID="17" fromX="6740" fromY="-307" />
+      <outputs ownerID="54" targetID="17" fromX="6739" fromY="-315" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="55" positionX="5688" positionY="748" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
-      <outputs ownerID="55" targetID="48" fromX="6147" fromY="316" />
+      <outputs ownerID="55" targetID="48" fromX="6136" fromY="315" />
     </nodes>
   </Adventure>
   <Adventure name="__Horz" uniqueID="25" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="54" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
@@ -11456,5 +11607,810 @@ If you wish to unlock your true potential, you must find out why the gods remain
       <outputs name="Seek out the path of Magic. " ownerID="32" targetID="27" fromX="3540" fromY="215" />'An inquisitive mind is the brightest, yes. I do, but I will not share them with you. I am merely here to point you in the right direction.
 
 If you wish to unlock your true potential, you must find out why the gods remain weak. Follow your divine path and search for the truth.'</nodes>
+  </Adventure>
+  <Adventure name="Mokosh_" uniqueID="30" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="56" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="VolcanicMountain">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="div6">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV7" />
+          </LogicFilter>
+          <LogicFilter name="div9">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV13" />
+          </LogicFilter>
+          <LogicFilter name="div8">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV8" />
+          </LogicFilter>
+          <LogicFilter name="div11">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV11" />
+          </LogicFilter>
+          <LogicProcessing name="ch1" list1="div6" list2="div9">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="ch2" list1="div8" list2="div11">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="ch" list1="ch1" list2="ch2">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+          <LogicResultAction list="ch">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="50" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_IsOnTerrain" tag="BIOME-VOLCANIC" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="0" tag="TAG-DIV40" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV40" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="440" positionY="-27" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="ch" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Go in closer." ownerID="2" targetID="3" fromX="765" fromY="-518" />You come into the lands of fire and ash, and you seek out the lava pit where Triglav was said to be forged.
+You feel like a part of you resides in this pit also. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="886" positionY="8" width="350" height="725">
+      <outputs name="Tell them you are here to speak to Mokosh, the mother earth and your goddess." ownerID="3" targetID="7" fromX="1211" fromY="-483" />As you approach, you see three lava trolls emerging from the pit. They stand back to back to one another. One troll holds a great rod in its hand and wears armour, one has antlers and a book, and the last has tree vines running through its body.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="7" positionX="1347" positionY="319" width="350" height="1126">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="destiny" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-DESTINY" />
+          </LogicFilter>
+          <LogicFilter name="trolls" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="" tag="SUBRACE-TROLL_YOUNG_SWAMP" />
+          </LogicFilter>
+          <LogicFilter name="fdemon" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-FOREST_DEMON" />
+          </LogicFilter>
+          <LogicFilter name="watdemon" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-WATER_DEMON" />
+          </LogicFilter>
+          <LogicFilter name="pirate" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="[Chosen only]Speak to the tree-troll. Implore her to come to you." ownerID="7" targetID="40" fromX="1672" fromY="-172" />
+      <outputs name="[Chosen only]Trust in your divine connection. Walk over, take the tree-troll's hand, and pull it towards you. Accept any damage you may incur from the guardians." ownerID="7" targetID="46" fromX="1672" fromY="-252" />
+      <outputs name="[Forest demon Chosen only]Ask the spirit of the forest to speak through you and awaken Mokosh from this fiery rock." ownerID="7" targetID="29" fromX="1672" fromY="-332" />
+      <outputs name="Attack the ones who guard the tree-troll!" ownerID="7" targetID="30" fromX="1672" fromY="-412" />
+      <outputs name="[Magic user Chosen only]Open your spirit and allow the three gods to judge you so they may see your true intent here." ownerID="7" targetID="39" fromX="1672" fromY="-492" />
+      <outputs name="Retreat and return when you are truly ready!" ownerID="7" targetID="50" fromX="1672" fromY="-573" />The troll intertwined with tree vines turns to you. You feel its deep gaze go through you. It does not speak, but the others take a step forwards, as if guarding it from you.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="8" positionX="2602" positionY="1222" width="460" height="539" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <outputs ownerID="8" targetID="9" group="G1" fromX="3031" fromY="833" />
+      <outputs ownerID="8" targetID="19" group="G1" fromX="3031" fromY="753" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="9" positionX="3188" positionY="1652" width="350" height="885">
+      <logic>
+        <FilterBlock>
+          <LogicProcessing name="demony" list1="fdemon" list2="watdemon">
+            <scriptCallWithTag scriptName="FLP_AorB" parameter="" />
+          </LogicProcessing>
+          <LogicProcessing name="demonylubtrole" list1="demony" list2="trolls">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="2" tag="TAG-DIV1" />
+          </LogicResultAction>
+          <LogicResultAction list="demonylubtrole">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="destiny">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="3" />
+          </LogicResultAction>
+          <LogicResultAction list="pirate">
+            <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="1" tag="---" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV14" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="What does it mean that she chose this path? Were there others?" ownerID="9" targetID="10" fromX="3513" fromY="1160" />
+      <outputs name="Why did she need you to be free? And why now?" ownerID="9" targetID="11" fromX="3513" fromY="1080" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="9" targetID="16" fromX="3513" fromY="1000" />'So, you followed my path thus far. Respected the laws of nature in your choice of companionship at least, or chose the path of measured neutrality or action when following the divine path. Good. As my presence here is at the moment tied to you, I shall reshape my avatar to follow this path also.
+Now, speak your questions, my champion, for we do not have much time here.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="10" positionX="3617" positionY="1907" width="350" height="805">
+      <outputs name="Why did she need you to be free? And why now?" ownerID="10" targetID="11" fromX="3942" fromY="1415" />
+      <outputs name="Why and how did she become a god?" ownerID="10" targetID="25" fromX="3598" fromY="1335" />'As I said, my form here is tied to you. Thus, for a time, your choices will reflect my gifts to you and the nature of my being. It is neither good nor bad, simply a path.
+Your presence here allowed me to separate myself from the three. It was time, but your aid was needed.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="4055" positionY="1966" width="350" height="885">
+      <outputs name="Keep listening." ownerID="11" targetID="12" fromX="4380" fromY="1474" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="11" targetID="16" group="G1" fromX="4036" fromY="1394" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="11" targetID="21" group="G1" fromX="4036" fromY="1394" />'Need is perhaps a strong word, but let us say I required an anchor to pull me back onto the earth. When We formed the Three, We became, hmm, together. I do not know how else to say it. Your faith in me alone was my anchor.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="4669" positionY="1880" width="350" height="966">
+      <outputs name="So what happens to Triglav now?" ownerID="12" targetID="13" fromX="4994" fromY="1388" />
+      <outputs name="But why is the light bad? " ownerID="12" targetID="26" fromX="4994" fromY="1308" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="12" targetID="16" group="G1" fromX="4994" fromY="1228" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="12" targetID="21" group="G1" fromX="4994" fromY="1148" />'The Three were called so the earth would not shatter, but now the Lightbringer beast needs to be dealt with, and more, I heard whispers of the seas growing impatient, of an old, dark foe that I shall need to face again. And so, it was time to return.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="5164" positionY="1813" width="350" height="725">
+      <outputs name="Will the other two gods return also?" ownerID="13" targetID="14" fromX="5489" fromY="1321" />'The two can remain Triglav without me for now. Although a part of me remains with them, of course.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="5594" positionY="1787" width="350" height="725">
+      <outputs name="So why was it necessary to wait for a chosen?" ownerID="14" targetID="15" fromX="5919" fromY="1295" />'Perhaps, when the time is right. It will do them good to stay together a while longer. They never could stop arguing in the past...
+I digress. They are needed where they are for now.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="4145" positionY="878" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-DIV46" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="What now?" ownerID="15" targetID="16" group="G1" fromX="4470" fromY="386" />
+      <outputs name="What now?" ownerID="15" targetID="21" group="G1" fromX="4470" fromY="306" />'It has always been the primal law that we cannot directly act in the mortal realms. Sometimes we are able to send down avatars with limited power and awareness of their divine purpose. But those are very costly. 
+The chosen are a less reliable route, for you so often act according to whim and personal gain. Still, you are what we need and what we are allowed to have. Simple.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="4794" positionY="878" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DIV14" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Take your gift." ownerID="16" targetID="18" fromX="5119" fromY="386" />'Now you and me both, we are free. I shall resume my divine duties in full, as whatever your choices may yet be, there are ever greater perils in our realms.
+My last blessing to you may reveal itself when one of your children becomes an adult. But as I see, your path here has already unlocked your might, so go forth, my chosen, and choose your path in my name.'
+You turn for a second and no longer see Mokosh, only a lone oak tree amongst the lava pits. And so, you are left alone, with a last gift placed at your feet.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="6489" positionY="817" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_ALLGODS_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-DIV14" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV17" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_RANGE_WEAPON" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="5275" positionY="843" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="4" tag="TAG-LUCK" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV47" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="18" targetID="48" fromX="5600" fromY="351" />As you walk away, you feel your fate improved also.
+(As part of your final gift, you will gain a small chance of an unusual class choice when your child grows up.)</nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="2926" positionY="488" width="350" height="885">
+      <outputs name="What does it mean that she chose this path? Were there others?" ownerID="19" targetID="20" fromX="3251" fromY="-3" />
+      <outputs name="Why did she need you to be free? And why now?" ownerID="19" targetID="11" fromX="3251" fromY="-83" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="19" targetID="21" fromX="3251" fromY="-163" />'I see you have struggled to follow my path with clarity, but you also have passed all the tests given to you and arrived here. This tells me it is time for me to choose the divine path and shed my primal nature, at least for now.
+Now, speak your questions, my champion, for we do not have much time here.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="3399" positionY="574" width="350" height="725">
+      <outputs name="Why did she need you to be free? And why now?" ownerID="20" targetID="11" fromX="3724" fromY="82" />'It matters little to you, child. I am still awakening from the fiery dream. Thus my presence here and my gifts to you are guided in part by your past choices. 
+Your presence here allowed me to separate myself from the three. It was time, but your aid was needed.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="4806" positionY="101" width="350" height="725">
+      <outputs name="Take your gift." ownerID="21" targetID="22" fromX="5131" fromY="-390" />'Now you and me both, we are free. I shall resume my divine duties in full, as whatever your choices may yet be, there are ever greater perils in our realms.
+My last blessing to you may reveal itself when one of your children becomes an adult. But as I see, your path here has already unlocked your might, so go forth, my chosen, and choose your path in my name.'
+You turn for a second and no longer see Mokosh, only a lone oak tree amongst the lava pits. And so, you are left alone, with a last gift placed at your feet.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="5244" positionY="59" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="4" tag="TAG-LUCK" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Choose Nature and increase the chance of forest demons when you allow fate to guide your child, and increase the chance of a druid elf." ownerID="22" targetID="23" fromX="5569" fromY="-432" />
+      <outputs name="Choose Turmoil and increase the chances of your children becoming bandits." ownerID="22" targetID="24" fromX="5569" fromY="-512" />As you walk away, you feel your fate improved also.
+(As part of your final gift, you may choose one more bonus in accordance with your god's domains. This bonus will apply for children growing up.)</nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="23" positionX="5669" positionY="67" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV21" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="23" targetID="17" fromX="6099" fromY="-291" />
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="24" positionX="5677" positionY="-376" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV20" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="24" targetID="49" fromX="6107" fromY="-734" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="25" positionX="5099" positionY="2852" width="350" height="966">
+      <outputs name="Why did she need you to be free? And why now?" ownerID="25" targetID="11" fromX="5424" fromY="2360" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="16" group="G1" fromX="5424" fromY="2280" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="21" group="G1" fromX="5424" fromY="2200" />
+      <outputs name="So are the three gods gone for good?" ownerID="25" targetID="13" fromX="5424" fromY="2120" />'Become? Oh, child. I am god, I am earth, nature, birth, and death. In time, I gave parts of me away, shared, but I am still She who gave birth to the cosmic tree. This is all you need to know.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="4434" positionY="2799" width="350" height="725">
+      <outputs name="Keep listening." ownerID="26" targetID="34" fromX="4759" fromY="2307" />'It is neither bad nor good, just like its sibling, the darkness. They are both driven to obey their nature.
+You see, at first, there was balance as the two coexisted. But the child of darkness cannot stand still. They changed the world, and made new races - orcs, who sought to conquer, and goblins, who mastered the spirit realms.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="29" positionX="1222" positionY="2361" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_2S" challengeScale="101" challengedList="bch">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="beast">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-FOREST_DEMON" />
+          </LogicFilter>
+          <LogicProcessing name="bch" list1="beast" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="bch">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" tag="TAG-DOMAIN_TURMOIL" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="29" targetID="44" fromX="1663" fromY="1865" />
+      <outputs name="Lose" ownerID="29" targetID="32" fromX="1663" fromY="1785" />
+      <outputs name="Surrender" ownerID="29" targetID="32" fromX="1663" fromY="1705" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="30" positionX="1021" positionY="3445" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-TROLL_LAVA_ONE_9P_6M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="30" targetID="36" fromX="1462" fromY="2949" />
+      <outputs name="Lose" ownerID="30" targetID="37" fromX="1462" fromY="2869" />
+      <outputs name="Surrender" ownerID="30" targetID="37" fromX="1462" fromY="2789" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="2484" positionY="2003" width="350" height="725">
+      <outputs name="Bow before the goddess." ownerID="31" targetID="8" fromX="2809" fromY="1511" />As you come closer to the three creatures, you sense the clear presence of Mokosh reaching out to you. Through you, you see her become stronger. Eventually, all three lava trolls guarding her step aside, merge as one, and melt into lava. The tree vines, however, remain, and form into the shape of an oak. 
+'Good. You showed great determination and faith. It was time for me to become one again, at least in part.'</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="32" positionX="1445" positionY="1511" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="100" maxDamage="120" useCountInPercent="true" targetGroup="ch">
+      <outputs ownerID="32" targetID="33" fromX="1874" fromY="1122" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="1991" positionY="1577" width="350" height="725">
+      <outputs name="Bow before the goddess." ownerID="33" targetID="8" fromX="2316" fromY="1085" />You fail to reach the tree-troll, whom you now know is your goddess, Mokosh. The heat from the trolls engulfs you as they seem to reach into your spirit. Eventually, all three lava trolls guarding her step aside, merge as one, and melt into lava. The tree vines, however, remain, and form into the shape of an oak. As chosen, you feel your spirit drained.
+'You are not as strong as the earth and nature demand! Still, you came and survived. Even the runt of the litter can sometimes serve.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="34" positionX="3898" positionY="2794" width="350" height="725">
+      <outputs name="Keep listening." ownerID="34" targetID="35" fromX="4223" fromY="2302" />'Humans were born out of both, but they seem to favour darkness, ever pushing to meddle in dark arts and change their world. In fact, they proved even more unpredictable than the others.
+The child of light grew ever envious. They did not understand their sibling's drive for change. One day they decided the world was broken and must be purged.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="35" positionX="3499" positionY="2704" width="350" height="725">
+      <outputs name="If she used to be Triglav, what happens to the god now?" ownerID="35" targetID="13" fromX="3824" fromY="2212" />'Their feud almost destroyed Thea, until the gods managed to finally cage the two. Darkness was locked in the skies and held there by the crown of the cosmic trees that grew throughout the lands.
+Light was sunk deep into the core of the earth, held in place by the sacrifice of the eldest of giants, Starovit, who gave his own heart as a seal. But the seal has clearly been broken, and thus the child of light threatens to purge the world again.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="1592" positionY="3949" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="5" tag="TAG-LUCK" />
+          </LogicModifiers>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_SetHealthPercentTo" parameter="100" tag="TAG-HEALTH_PHYSICAL" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Bow before the goddess." ownerID="36" targetID="8" fromX="1917" fromY="3457" />You kill two of the three trolls and their bodies turn back into lava. The third troll melts away also, but its tree vines remain and form into the shape of an oak. You hear Mokosh:
+'You chose to fight, and you've proven it was a wise choice. Good. Many before you assumed my motherly nature seeks only peace. It does not! We must fight when it is necessary.' </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="37" positionX="1607" positionY="3180" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="100" maxDamage="120" useCountInPercent="true" targetGroup="ch">
+      <outputs ownerID="37" targetID="43" fromX="2036" fromY="2791" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="39" positionX="-609" positionY="1447" width="500" height="726" challengeType="TypeSpirit" versusGroup="GROUP-CON_S_0P_0M_3S" challengeScale="101" challengedList="chd">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="druid">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-MAGIC_USER" />
+          </LogicFilter>
+          <LogicProcessing name="chd" list1="druid" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="chd">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="39" targetID="44" fromX="-167" fromY="951" />
+      <outputs name="Lose" ownerID="39" targetID="32" fromX="-167" fromY="871" />
+      <outputs name="Surrender" ownerID="39" targetID="32" fromX="-167" fromY="791" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="40" positionX="-18" positionY="2114" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_3M_0S" challengeScale="101" challengedList="ch">
+      <outputs name="Win" ownerID="40" targetID="31" fromX="423" fromY="1618" />
+      <outputs name="Lose" ownerID="40" targetID="32" fromX="-1" fromY="1538" />
+      <outputs name="Surrender" ownerID="40" targetID="32" fromX="-1" fromY="1538" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="43" positionX="2960" positionY="3960" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_TakeCharacters" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="43" targetID="47" fromX="3285" fromY="3468" />You fail to kill the trolls and they simply melt away. The tree vines, however, remain, and form into the shape of an oak. You hear Mokosh:
+'You chose to fight when you were not ready - what a waste. You are not the chosen I had hoped for. Go forth and redeem yourself, but know that you will not receive my final blessing.'</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="44" positionX="1846" positionY="2202" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-LUCK" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="44" targetID="31" fromX="2275" fromY="1813" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="46" positionX="184" positionY="1381" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_4P_0M_0S" challengeScale="101" challengedList="ch">
+      <outputs name="Win" ownerID="46" targetID="54" fromX="625" fromY="885" />
+      <outputs name="Lose" ownerID="46" targetID="32" fromX="625" fromY="805" />
+      <outputs name="Surrender" ownerID="46" targetID="32" fromX="625" fromY="725" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="47" positionX="3405" positionY="3867" width="350" height="530" allPlayersXP="2" allPlayersRP="2" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_MOKOSH_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="48" positionX="5827" positionY="750" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_ALLGODSs_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-DIV14" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV17" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_SCROLL_2H" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="49" positionX="6481" positionY="186" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_ALLGODS_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-DIV14" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV17" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_SCROLL_2H" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="50" positionX="1859" positionY="-575" width="480" height="503" radius="0" settlementID="SET-RUINS_VULCANIC" destroyOwner="false" linkedEventUniqueID="31">
+      <outputs ownerID="50" targetID="51" fromX="2307" fromY="-1007" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="2412" positionY="-670" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DIV48" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="54" positionX="756" positionY="1344" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="60" maxDamage="100" useCountInPercent="true" targetGroup="ch">
+      <outputs ownerID="54" targetID="31" fromX="1185" fromY="955" />
+    </nodes>
+  </Adventure>
+  <Adventure name="Mokosh_spwn" uniqueID="31" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="62" eventTag="TAG-DIVINELOGBOOK" joinIsForced="false" joinType="OnlyOwn" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="VolcanicMountain">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="div6">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV7" />
+          </LogicFilter>
+          <LogicFilter name="div9">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV13" />
+          </LogicFilter>
+          <LogicFilter name="div8">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV8" />
+          </LogicFilter>
+          <LogicFilter name="div11">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV11" />
+          </LogicFilter>
+          <LogicProcessing name="ch1" list1="div6" list2="div9">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="ch2" list1="div8" list2="div11">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicProcessing name="ch" list1="ch1" list2="ch2">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV40" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="1" targetID="61" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-693" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="440" positionY="-27" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicFilter name="ch" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHOSEN" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Go in closer." ownerID="2" targetID="3" fromX="765" fromY="-518" />You come into the lands of fire and ash, and you seek out the lava pit where Triglav was said to be forged.
+You feel like a part of you resides in this pit also. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="886" positionY="8" width="350" height="725">
+      <outputs name="Tell them you are here to speak to Mokosh, the mother earth and your goddess." ownerID="3" targetID="7" fromX="1211" fromY="-483" />As you approach, you see three lava trolls emerging from the pit. They stand back to back to one another. One troll holds a great rod in its hand and wears armour, one has antlers and a book, and the last has tree vines running through its body.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="7" positionX="1347" positionY="319" width="350" height="1126">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="destiny" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="12" tag="TAG-DESTINY" />
+          </LogicFilter>
+          <LogicFilter name="trolls" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="" tag="SUBRACE-TROLL_YOUNG_SWAMP" />
+          </LogicFilter>
+          <LogicFilter name="fdemon" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-FOREST_DEMON" />
+          </LogicFilter>
+          <LogicFilter name="watdemon" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_UnSafe_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-WATER_DEMON" />
+          </LogicFilter>
+          <LogicFilter name="pirate" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="[Chosen only]Speak to the tree-troll. Implore her to come to you." ownerID="7" targetID="40" fromX="1672" fromY="-172" />
+      <outputs name="[Chosen only]Trust in your divine connection. Walk over, take the tree-troll's hand, and pull it towards you. Accept any damage you may incur from the guardians." ownerID="7" targetID="46" fromX="1672" fromY="-252" />
+      <outputs name="[Forest demon Chosen only]Ask the spirit of the forest to speak through you and awaken Mokosh from this fiery rock." ownerID="7" targetID="29" fromX="1672" fromY="-332" />
+      <outputs name="Attack the ones who guard the tree-troll!" ownerID="7" targetID="30" fromX="1672" fromY="-412" />
+      <outputs name="[Magic user Chosen only]Open your spirit and allow the three gods to judge you so they may see your true intent here." ownerID="7" targetID="39" fromX="1672" fromY="-492" />
+      <outputs name="Retreat and return when you are truly ready!" ownerID="7" targetID="50" fromX="1672" fromY="-573" />The troll intertwined with tree vines turns to you. You feel its deep gaze go through you. It does not speak, but the others take a step forwards, as if guarding it from you.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="8" positionX="2602" positionY="1222" width="460" height="539" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <outputs ownerID="8" targetID="9" group="G1" fromX="3031" fromY="833" />
+      <outputs ownerID="8" targetID="19" group="G1" fromX="3031" fromY="753" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="9" positionX="3188" positionY="1652" width="350" height="885">
+      <logic>
+        <FilterBlock>
+          <LogicProcessing name="demony" list1="fdemon" list2="watdemon">
+            <scriptCallWithTag scriptName="FLP_AorB" parameter="" />
+          </LogicProcessing>
+          <LogicProcessing name="demonylubtrole" list1="demony" list2="trolls">
+            <scriptCallWithTag scriptName="FLP_AorB" />
+          </LogicProcessing>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="2" tag="TAG-DIV1" />
+          </LogicResultAction>
+          <LogicResultAction list="demonylubtrole">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="destiny">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="3" />
+          </LogicResultAction>
+          <LogicResultAction list="pirate">
+            <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="1" tag="---" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV14" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="What does it mean that she chose this path? Were there others?" ownerID="9" targetID="10" fromX="3513" fromY="1160" />
+      <outputs name="Why did she need you to be free? And why now?" ownerID="9" targetID="11" fromX="3513" fromY="1080" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="9" targetID="16" fromX="3513" fromY="1000" />'So, you followed my path thus far. Respected the laws of nature in your choice of companionship at least, or chose the path of measured neutrality or action when following the divine path. Good. As my presence here is at the moment tied to you, I shall reshape my avatar to follow this path also.
+Now, speak your questions, my champion, for we do not have much time here.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="10" positionX="3617" positionY="1907" width="350" height="805">
+      <outputs name="Why did she need you to be free? And why now?" ownerID="10" targetID="11" fromX="3942" fromY="1415" />
+      <outputs name="Why and how did she become a god?" ownerID="10" targetID="25" fromX="3598" fromY="1335" />'As I said, my form here is tied to you. Thus, for a time, your choices will reflect my gifts to you and the nature of my being. It is neither good nor bad, simply a path.
+Your presence here allowed me to separate myself from the three. It was time, but your aid was needed.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="4055" positionY="1966" width="350" height="885">
+      <outputs name="Keep listening." ownerID="11" targetID="12" fromX="4380" fromY="1474" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="11" targetID="16" group="G1" fromX="4380" fromY="1394" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="11" targetID="21" group="G1" fromX="4380" fromY="1314" />'Need is perhaps a strong word, but let us say I required an anchor to pull me back onto the earth. When We formed the Three, We became, hmm, together. I do not know how else to say it. Your faith in me alone was my anchor.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="4669" positionY="1880" width="350" height="966">
+      <outputs name="So what happens to Triglav now?" ownerID="12" targetID="13" fromX="4994" fromY="1388" />
+      <outputs name="But why is the light bad? " ownerID="12" targetID="26" fromX="4994" fromY="1308" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="12" targetID="16" group="G1" fromX="4994" fromY="1228" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="12" targetID="21" group="G1" fromX="4994" fromY="1148" />'The Three were called so the earth would not shatter, but now the Lightbringer beast needs to be dealt with, and more, I heard whispers of the seas growing impatient, of an old, dark foe that I shall need to face again. And so, it was time to return.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="5164" positionY="1813" width="350" height="725">
+      <outputs name="Will the other two gods return also?" ownerID="13" targetID="14" fromX="5489" fromY="1321" />'The two can remain Triglav without me for now. Although a part of me remains with them, of course.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="5594" positionY="1787" width="350" height="725">
+      <outputs name="So why was it necessary to wait for a chosen?" ownerID="14" targetID="15" fromX="5919" fromY="1295" />'Perhaps, when the time is right. It will do them good to stay together a while longer. They never could stop arguing in the past...
+I digress. They are needed where they are for now.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="4145" positionY="878" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-DIV46" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="What now?" ownerID="15" targetID="16" group="G1" fromX="4470" fromY="386" />
+      <outputs name="What now?" ownerID="15" targetID="21" group="G1" fromX="4470" fromY="306" />'It has always been the primal law that we cannot directly act in the mortal realms. Sometimes we are able to send down avatars with limited power and awareness of their divine purpose. But those are very costly. 
+The chosen are a less reliable route, for you so often act according to whim and personal gain. Still, you are what we need and what we are allowed to have. Simple.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="4794" positionY="878" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DIV14" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Take your gift." ownerID="16" targetID="18" fromX="5119" fromY="386" />'Now you and me both, we are free. I shall resume my divine duties in full, as whatever your choices may yet be, there are ever greater perils in our realms.
+My last blessing to you may reveal itself when one of your children becomes an adult. But as I see, your path here has already unlocked your might, so go forth, my chosen, and choose your path in my name.'
+You turn for a second and no longer see Mokosh, only a lone oak tree amongst the lava pits. And so, you are left alone, with a last gift placed at your feet.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="7094" positionY="201" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_ALLGODS_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-DIV14" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV17" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_RANGE_WEAPON" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="5275" positionY="843" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="4" tag="TAG-LUCK" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV47" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="18" targetID="58" fromX="5600" fromY="351" />As you walk away, you feel your fate improved also.
+(As part of your final gift, you will gain a small chance of an unusual class choice when your child grows up.)</nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="2926" positionY="488" width="350" height="885">
+      <outputs name="What does it mean that she chose this path? Were there others?" ownerID="19" targetID="20" fromX="3251" fromY="-3" />
+      <outputs name="Why did she need you to be free? And why now?" ownerID="19" targetID="11" fromX="3251" fromY="-83" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="19" targetID="21" fromX="3251" fromY="-163" />'I see you have struggled to follow my path with clarity, but you also have passed all the tests given to you and arrived here. This tells me it is time for me to choose the divine path and shed my primal nature, at least for now.
+Now, speak your questions, my champion, for we do not have much time here.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="3399" positionY="574" width="350" height="725">
+      <outputs name="Why did she need you to be free? And why now?" ownerID="20" targetID="11" fromX="3724" fromY="82" />'It matters little to you, child. I am still awakening from the fiery dream. Thus my presence here and my gifts to you are guided in part by your past choices. 
+Your presence here allowed me to separate myself from the three. It was time, but your aid was needed.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="4806" positionY="101" width="350" height="725">
+      <outputs name="Take your gift." ownerID="21" targetID="22" fromX="5131" fromY="-390" />'Now you and me both, we are free. I shall resume my divine duties in full, as whatever your choices may yet be, there are ever greater perils in our realms.
+My last blessing to you may reveal itself when one of your children becomes an adult. But as I see, your path here has already unlocked your might, so go forth, my chosen, and choose your path in my name.'
+You turn for a second and no longer see Mokosh, only a lone oak tree amongst the lava pits. And so, you are left alone, with a last gift placed at your feet.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="5244" positionY="59" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="4" tag="TAG-LUCK" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Choose Nature and increase the chance of forest demons when you allow fate to guide your child, and increase the chance of a druid elf." ownerID="22" targetID="23" fromX="5569" fromY="-432" />
+      <outputs name="Choose Turmoil and increase the chances of your children becoming bandits." ownerID="22" targetID="24" fromX="5569" fromY="-512" />As you walk away, you feel your fate improved also.
+(As part of your final gift, you may choose one more bonus in accordance with your god's domains. This bonus will apply for children growing up.)</nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="23" positionX="5669" positionY="67" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV21" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="23" targetID="59" fromX="6099" fromY="-291" />
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="24" positionX="5677" positionY="-376" width="460" height="429">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV20" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="24" targetID="60" fromX="6107" fromY="-734" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="25" positionX="5099" positionY="2852" width="350" height="966">
+      <outputs name="Why did she need you to be free? And why now?" ownerID="25" targetID="11" fromX="5424" fromY="2360" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="16" group="G1" fromX="5424" fromY="2280" />
+      <outputs name="Say that you seek no answers; the world awaits your return. Bow before your god and ask for a final blessing. " ownerID="25" targetID="21" group="G1" fromX="5424" fromY="2200" />
+      <outputs name="So are the three gods gone for good?" ownerID="25" targetID="13" fromX="5424" fromY="2120" />'Become? Oh, child. I am god, I am earth, nature, birth, and death. In time, I gave parts of me away, shared, but I am still She who gave birth to the cosmic tree. This is all you need to know.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="4434" positionY="2799" width="350" height="725">
+      <outputs name="Keep listening." ownerID="26" targetID="34" fromX="4759" fromY="2307" />'It is neither bad nor good, just like its sibling, the darkness. They are both driven to obey their nature.
+You see, at first, there was balance as the two coexisted. But the child of darkness cannot stand still. They changed the world, and made new races -- orcs, who sought to conquer, and goblins, who mastered the spirit realms.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="29" positionX="1222" positionY="2361" width="500" height="726" challengeType="TypeSpirit" versusConcept="true" versusGroup="GROUP-CON_S_0P_0M_2S" challengeScale="101" challengedList="bch">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="beast">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-FOREST_DEMON" />
+          </LogicFilter>
+          <LogicProcessing name="bch" list1="beast" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="bch">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" tag="TAG-DOMAIN_TURMOIL" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="29" targetID="44" fromX="1663" fromY="1865" />
+      <outputs name="Lose" ownerID="29" targetID="32" fromX="1663" fromY="1785" />
+      <outputs name="Surrender" ownerID="29" targetID="32" fromX="1663" fromY="1705" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="30" positionX="1021" positionY="3445" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-TROLL_LAVA_ONE_9P_6M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="30" targetID="36" fromX="1462" fromY="2949" />
+      <outputs name="Lose" ownerID="30" targetID="37" fromX="1462" fromY="2869" />
+      <outputs name="Surrender" ownerID="30" targetID="37" fromX="1462" fromY="2789" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="31" positionX="2484" positionY="2003" width="350" height="725">
+      <outputs name="Bow before the goddess." ownerID="31" targetID="8" fromX="2809" fromY="1511" />As you come closer to the three creatures, you sense the clear presence of Mokosh reaching out to you. Through you, you see her become stronger. Eventually, all three lava trolls guarding her step aside, merge as one, and melt into lava. The tree vines, however, remain, and form into the shape of an oak. 
+'Good. You showed great determination and faith. It was time for me to become one again, at least in part.'</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="32" positionX="1445" positionY="1511" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="100" maxDamage="120" useCountInPercent="true" targetGroup="ch">
+      <outputs ownerID="32" targetID="33" fromX="1874" fromY="1122" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="1991" positionY="1577" width="350" height="725">
+      <outputs name="Bow before the goddess." ownerID="33" targetID="8" fromX="2316" fromY="1085" />You fail to reach the tree-troll, whom you now know is your goddess, Mokosh. The heat from the trolls engulfs you as they seem to reach into your spirit. Eventually, all three lava trolls guarding her step aside, merge as one, and melt into lava. The tree vines, however, remain, and form into the shape of an oak. As chosen, you feel your spirit drained.
+'You are not as strong as the earth and nature demand! Still, you came and survived. Even the runt of the litter can sometimes serve.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="34" positionX="3898" positionY="2794" width="350" height="725">
+      <outputs name="Keep listening." ownerID="34" targetID="35" fromX="4223" fromY="2302" />'Humans were born out of both, but they seem to favour darkness, ever pushing to meddle in dark arts and change their world. In fact, they proved even more unpredictable than the others.
+The child of light grew ever envious. They did not understand their sibling's drive for change. One day they decided the world was broken and must be purged.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="35" positionX="3499" positionY="2704" width="350" height="725">
+      <outputs name="If she used to be Triglav, what happens to the god now?" ownerID="35" targetID="13" fromX="3824" fromY="2212" />'Their feud almost destroyed Thea, until the gods managed to finally cage the two. Darkness was locked in the skies and held there by the crown of the cosmic trees that grew throughout the lands.
+Light was sunk deep into the core of the earth, held in place by the sacrifice of the eldest of giants, Starovit, who gave his own heart as a seal. But the seal has clearly been broken, and thus the child of light threatens to purge the world again.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="36" positionX="1592" positionY="3949" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="5" tag="TAG-LUCK" />
+          </LogicModifiers>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_SetHealthPercentTo" parameter="100" tag="TAG-HEALTH_PHYSICAL" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Bow before the goddess." ownerID="36" targetID="8" fromX="1917" fromY="3457" />You kill two of the three trolls and their bodies turn back into lava. The third troll melts away also, but its tree vines remain and form into the shape of an oak. You hear Mokosh:
+'You chose to fight, and you've proven it was a wise choice. Good. Many before you assumed my motherly nature seeks only peace. It does not! We must fight when it is necessary.' </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="37" positionX="1607" positionY="3180" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="100" maxDamage="120" useCountInPercent="true" targetGroup="ch">
+      <outputs ownerID="37" targetID="43" fromX="2036" fromY="2791" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="39" positionX="-609" positionY="1447" width="500" height="726" challengeType="TypeSpirit" versusGroup="GROUP-CON_S_0P_0M_3S" challengeScale="101" challengedList="chd">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="druid">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-MAGIC_USER" />
+          </LogicFilter>
+          <LogicProcessing name="chd" list1="druid" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="chd">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="39" targetID="44" fromX="-167" fromY="951" />
+      <outputs name="Lose" ownerID="39" targetID="32" fromX="-167" fromY="871" />
+      <outputs name="Surrender" ownerID="39" targetID="32" fromX="-167" fromY="791" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="40" positionX="-18" positionY="2114" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_3M_0S" challengeScale="101" challengedList="ch">
+      <outputs name="Win" ownerID="40" targetID="31" fromX="423" fromY="1618" />
+      <outputs name="Lose" ownerID="40" targetID="32" fromX="423" fromY="1538" />
+      <outputs name="Surrender" ownerID="40" targetID="32" fromX="423" fromY="1458" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="43" positionX="2960" positionY="3960" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="ppl">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_TakeCharacters" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="43" targetID="57" fromX="3285" fromY="3468" />You fail to kill the trolls and they simply melt away. The tree vines, however, remain, and form into the shape of an oak. You hear Mokosh:
+'You chose to fight when you were not ready -- what a waste. You are not the chosen I had hoped for. Go forth and redeem yourself, but know that you will not receive my final blessing.'</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="44" positionX="1846" positionY="2202" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-LUCK" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="44" targetID="31" fromX="2275" fromY="1813" />
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="46" positionX="184" positionY="1381" width="500" height="726" challengeType="TypePhysical" versusConcept="true" versusGroup="GROUP-CON_P_4P_0M_0S" challengeScale="101" challengedList="ch">
+      <outputs name="Win" ownerID="46" targetID="54" fromX="625" fromY="885" />
+      <outputs name="Lose" ownerID="46" targetID="32" fromX="625" fromY="805" />
+      <outputs name="Surrender" ownerID="46" targetID="32" fromX="625" fromY="725" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="47" positionX="3963" positionY="3996" width="350" height="530" allPlayersXP="2" allPlayersRP="2" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_MOKOSH_DES" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="48" positionX="6320" positionY="899" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_ALLGODSs_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-DIV14" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV17" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_SCROLL_2H" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="49" positionX="7106" positionY="-386" width="350" height="530" allPlayersXP="10" allPlayersRP="7" logBookName="QUEST_DIV_MOKOSH" logBookDescription="QUEST_DIV_ALLGODS_DES" linkedEventUniqueID="0" endOfQuest="true">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagToPlayer" parameter="0" tag="TAG-DIV14" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagToPlayer" parameter="1" tag="TAG-DIV17" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_SCROLL_2H" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="50" positionX="1859" positionY="-575" width="480" height="503" radius="0" settlementID="SET-RUINS_VULCANIC" destroyOwner="false" linkedEventUniqueID="0">
+      <outputs ownerID="50" targetID="51" fromX="2307" fromY="-1007" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="51" positionX="2412" positionY="-670" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers list="ch">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DIV48" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeDealDamage" ID="54" positionX="756" positionY="1344" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="60" maxDamage="100" useCountInPercent="true" targetGroup="ch">
+      <outputs ownerID="54" targetID="31" fromX="1185" fromY="955" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="57" positionX="3408" positionY="3869" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="57" targetID="47" fromX="3857" fromY="3437" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="58" positionX="5731" positionY="830" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="58" targetID="48" fromX="6189" fromY="398" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="59" positionX="6320" positionY="117" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="59" targetID="17" fromX="6772" fromY="-315" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="60" positionX="6301" positionY="-428" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="60" targetID="49" fromX="6752" fromY="-860" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="61" positionX="-490" positionY="-167" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="48">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-DIV48" />
+          </LogicFilter>
+          <LogicResultAction list="48">
+            <scriptCallWithTag scriptName="FRA_ListSizeLessEqualThan" parameter="0" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Leave." ownerID="61" targetID="62" fromX="-164" fromY="-658" />This is the path of Mokosh. You can enter only with the chosen who began this journey.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="62" positionX="-123" positionY="-783" width="350" height="530" linkedEventUniqueID="0" />
   </Adventure>
 </MODULE>

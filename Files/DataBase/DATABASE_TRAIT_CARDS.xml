@@ -60,6 +60,14 @@
 		<DescriptionInfo Name="DES_TRAIT_IDOL_OF_PAIN" Description="DES_TRAIT_IDOL_OF_PAIN_DES" IconName="TraitNyia"/>
     <SkillForAllFollowers Value="SKILL-IDOL_OF_PAIN"/>
   </TRAIT_CARD-IDOL_OF_PAIN>
+	<!-- MOKOSH -->
+	<TRAIT_CARD-MOTHER_PROTECTION UnlockCost="-1">
+		<DescriptionInfo Name="DES_TRAIT_MOTHER_PROTECTION" Description="DES_TRAIT_MOTHER_PROTECTION_DES" IconName="TraitMokosh"/>
+    <TraitGameStartScript>
+		<ScriptName Value="Tra_MotherProtection"/>
+    </TraitGameStartScript>
+	<SkillForAllFollowers Value="SKILL-MOTHER_CARING_LOOK"/>
+  </TRAIT_CARD-MOTHER_PROTECTION>
 	
 	<!-- CHARACTERS -->
 	<TRAIT_CARD-ADD_HUM_CHILDREN UnlockCost="0" UseCost="1">
@@ -93,6 +101,11 @@
 		<AddSubrace Value="SUBRACE-RAT"/>
 		<DomainType Value="TAG-DOMAIN_NEUTRAL"/>
 	</TRAIT_CARD-ADD_RAT>
+	<TRAIT_CARD-ADD_ELF_SLAVE UnlockCost="25" UseCost="3">
+		<DescriptionInfo Name="DES_TRAIT_ADD_ELF_SLAVE" Description="DES_TRAIT_ADD_ELF_SLAVE_DES" IconName="DomainNeutral"/>
+		<AddSubrace Value="SUBRACE-ELF_SLAVE_TRAIT"/> 
+		<DomainType Value="TAG-DOMAIN_NEUTRAL"/>
+	</TRAIT_CARD-ADD_ELF_SLAVE>
 	
 	<TRAIT_CARD-ADD_CHARACTER_HUNTER UnlockCost="0" UseCost="2">
 		<DescriptionInfo Name="DES_TRAIT_ADD_CHARACTER_HUNTER" Description="DES_TRAIT_ADD_CHARACTER_HUNTER_DES" IconName="DomainNature"/>
@@ -206,7 +219,7 @@
 		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
 	</TRAIT_CARD-ADD_DEMON_YOUNG_HOHLICK_TRAIT>
 	<TRAIT_CARD-ADD_CHARACTER_INVENTOR UnlockCost="15" UseCost="3">
-		<DescriptionInfo Name="DES_TRAIT_ADD_CHARACTER_INVENTOR" Description="DES_TRAIT_ADD_CHARACTER_INVENTOR_DES" IconName="DomainLight"/>
+		<DescriptionInfo Name="DES_TRAIT_ADD_CHARACTER_INVENTOR" Description="DES_TRAIT_ADD_CHARACTER_INVENTOR_DES" IconName="DomainIntellect"/>
 		<AddSubrace Value="SUBRACE-HUM_INVENTOR_TRAIT"/> 
 		<DomainType Value="TAG-DOMAIN_INTELLECT"/>
 	</TRAIT_CARD-ADD_CHARACTER_INVENTOR>
@@ -420,13 +433,6 @@
 		<AddItemCargo Value="ITEM_CARGO-WEAK_ONE_PET_GOAT"/> 
 		<DomainType Value="TAG-DOMAIN_NATURE"/>
 	</TRAIT_CARD-MITHRIL_GOAT>
-	<!--<TRAIT_CARD-FAMILIAR_AREA UnlockCost="5">
-		<DescriptionInfo Name="DES_TRAIT_FAMILIAR_AREA" Description="DES_TRAIT_FAMILIAR_AREA_DES" IconName="DomainNature"/>
-		<TraitGameStartScript>
-			<ScriptName Value="Tra_FamiliarArea"/>
-		</TraitGameStartScript>
-		<DomainType Value="TAG-DOMAIN_NATURE"/>
-	</TRAIT_CARD-FAMILIAR_AREA >-->
 	<TRAIT_CARD-KINGS_TABLE UnlockCost="5">
 		<DescriptionInfo Name="DES_TRAIT_KINGS_TABLE" Description="DES_TRAIT_KINGS_TABLE_DES" IconName="DomainNature"/>
 		<TraitGameStartScript>
@@ -453,6 +459,25 @@
     </TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_NATURE"/>
 	</TRAIT_CARD-CAMPING_GATHERING_RANGE>
+	<TRAIT_CARD-NATURAL_ARMOUR UnlockCost="10">
+		<DescriptionInfo Name="DES_TRAIT_NATURAL_ARMOUR" Description="DES_TRAIT_NATURAL_ARMOUR_DES" IconName="DomainNature"/>
+		<TraitGameStartScript>
+			<ScriptName Value="Tra_NaturalArmour"/>
+		</TraitGameStartScript>
+		<DomainType Value="TAG-DOMAIN_NATURE"/>
+	</TRAIT_CARD-NATURAL_ARMOUR>
+  <TRAIT_CARD-SPATIAL_AWARNESS UnlockCost="7">
+		<DescriptionInfo Name="DES_TRAIT_SPATIAL_AWARNESS" Description="DES_TRAIT_SPATIAL_AWARNESS_DES" IconName="DomainNature"/>
+		<SkillForAllFollowers Value="SKILL-SPATIAL_AWARNESS"/>
+		<DomainType Value="TAG-DOMAIN_NATURE"/>
+	</TRAIT_CARD-SPATIAL_AWARNESS>
+	<TRAIT_CARD-PERFECT_AIMING UnlockCost="15">
+		<DescriptionInfo Name="DES_TRAIT_PERFECT_AIMING" Description="DES_TRAIT_PERFECT_AIMING_DES" IconName="DomainNature"/>	
+		<TraitGameStartScript>
+			<ScriptName Value="Tra_PerfectAiming"/>
+		</TraitGameStartScript>
+		<DomainType Value="TAG-DOMAIN_NATURE"/>
+	</TRAIT_CARD-PERFECT_AIMING>
 	
 	<!-- DOMAIN TURMOIL-->
 	<TRAIT_CARD-FAMILY_WEAPON UnlockCost="5">
@@ -485,13 +510,13 @@
 		<SkillForAllFollowers Value="SKILL-TOUGH_GUY"/>
 		<DomainType Value="TAG-DOMAIN_TURMOIL"/>
 	</TRAIT_CARD-TOUGH_GUY>
-	<TRAIT_CARD-NATURAL_ARMOUR UnlockCost="10">
-		<DescriptionInfo Name="DES_TRAIT_NATURAL_ARMOUR" Description="DES_TRAIT_NATURAL_ARMOUR_DES" IconName="DomainTurmoil"/>
+	<TRAIT_CARD-I_TAKE_IT UnlockCost="7">
+		<DescriptionInfo Name="DES_TRAIT_I_TAKE_IT" Description="DES_TRAIT_I_TAKE_IT_DES" IconName="DomainTurmoil"/>
 		<TraitGameStartScript>
-			<ScriptName Value="Tra_NaturalArmour"/>
+			<ScriptName Value="Tra_ITakeIt"/>
 		</TraitGameStartScript>
 		<DomainType Value="TAG-DOMAIN_TURMOIL"/>
-	</TRAIT_CARD-NATURAL_ARMOUR>
+	</TRAIT_CARD-I_TAKE_IT>
 	
 	
 	<!-- DOMAIN MAGIC-->

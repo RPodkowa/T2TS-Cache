@@ -1990,6 +1990,23 @@ namespace GameScript
         {            
             return !FRA_PlayersHaveSharedTag(advData, resultAction, node);
         }
+        [ScriptAttribute(null, typeof(int))]
+        static public bool FRA_TurnAboveOrEqualValue(AdventureEventData advData, LogicResultAction resultAction, AdvNode node)
+        {
+            try
+            {
+                int value = Convert.ToInt32(resultAction.scriptCallWithTag.parameter);
+                int index = ServerManager.GetTurnManager().tunrIndex;
+
+                return index >= value;
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("[ERROR]parameter: " + resultAction.scriptCallWithTag.parameter + " seems to lead to error:" + e);
+            }
+
+            return false;
+        }
         [ScriptAttribute(typeof(Tag))]
         static public bool FRA_TurnAboveOrEqualTag(AdventureEventData advData, LogicResultAction resultAction, AdvNode node)
         {
@@ -2978,6 +2995,37 @@ namespace GameScript
                 }
             }
 
+        }
+
+        [ScriptAttribute(typeof(Resource))]        
+        [ScriptAttribute(typeof(ItemTech))]
+        [ScriptAttribute(typeof(BuildingTech))]
+        static public void FMO_UnlockTech(NOAdventureStatus status, AdventureEventData advData, LogicModifier modificationData, AdvNode node)
+        {
+            SPlayer sPlayer = GameInstance.Get().GetPlayer(advData.GetMainPlayerID());
+            object obj = Globals.GetInstanceFromDB(modificationData.scriptCallWithTag.tag);
+            if (obj is Resource)
+            {
+                sPlayer.unlockPoints += (obj as Resource).researchCost;
+            }
+            else if (obj is ItemTech)
+            {
+                sPlayer.unlockPoints += (obj as ItemTech).upgradeCost;
+            }
+            else if (obj is BuildingTech)
+            {
+                sPlayer.unlockPoints += (obj as BuildingTech).upgradeCost;
+            }
+            else
+            {
+                //unknown type
+                return;
+            }
+
+            NOCSUnlockThis unlockTechOrder = new NOCSUnlockThis();
+            //script calls contain data in variable "tag", which was later extended and contains more than just tags, based on param before method
+            unlockTechOrder.dbName = modificationData.scriptCallWithTag.tag;
+            unlockTechOrder.Activate(new NONetworkOrder(sPlayer));
         }
         [ScriptAttribute(typeof(Subrace))]
         static public void FMO_UpgradeToSubrace(NOAdventureStatus status, AdventureEventData advData, LogicModifier modificationData, AdvNode node)

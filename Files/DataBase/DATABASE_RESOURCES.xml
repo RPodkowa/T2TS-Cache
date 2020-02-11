@@ -1070,6 +1070,22 @@
 		<Tag Value="TAG-FOOD"/>
 		<Parent Value="RES-VEGGIES"/>
 	</RES-MUSHROOMS>
+	<RES-SEAWEED ResearchCost="-1" Rarity="5" Worth="3" ProductionPoints="45" Weight="1.5" GatheringMultiplier="0.5" SpringMultiplier="-0.25" SummerMultiplier="0" AutumnMultiplier="0" WinterMultiplier="-0.25">
+		<DescriptionInfo Name="DES_RES_SEAWEED" Description="DES_RES_SEAWEED_DES" IconName="Seaweed"/>
+		<ResourceDeposit MinimumCount="10.0" MaximumCount="50.0"/>
+		<WorkersAllowedToWork MinimumCount="1.0" MaximumCount="5.0"/>
+		<HiddenResourceLayers MinimumCount="0.0" MaximumCount="0.0"/>
+		<ResLifeCycle DSeasonKillPercent="100" RSeasonGrowPercent="50">
+			<RegenerationSeason Value="TAG-SUMMER"/>
+			<DeadSeason Value="TAG-WINTER"/>
+		</ResLifeCycle>
+		<TerrainModel Value="Seaweed"/>
+		<Essences Amount="0.0" Tag="TAG-ESSENCE_GRAY"/>
+		<Tag Value="TAG-RESOURCE"/>
+		<Tag Value="TAG-SEAWEED"/>
+		<Tag Value="TAG-FOOD"/>
+		<Parent Value="RES-VEGGIES"/>
+	</RES-SEAWEED>
 	<!-- Gathering cost per unit (PP/Amout=) 5.4-->
 	<RES-EGGS ResearchCost="-1" Rarity="15" Worth="5" ProductionPoints="81" Weight="1.5" GatheringMultiplier="0.6">
 		<DescriptionInfo Name="DES_RES_EGGS" Description="DES_RES_EGGS_DES" IconName="Eggs"/>

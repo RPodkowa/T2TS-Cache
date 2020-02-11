@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="Windows-1252"?>
-<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Alphaclan" lastEventIndex="80" allowToUse="true" uniqueModuleID="1862270847">
+<?xml version="1.0" encoding="windows-1250"?>
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Alphaclan" lastEventIndex="87" allowToUse="true" uniqueModuleID="1862270847">
   <Adventure name="OrcKillDwarf" uniqueID="10" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="57" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="825" image="Event016">
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-777" />
@@ -1958,8 +1958,8 @@ A huge orc woman approaches you with an iron rod.</nodes>
       <outputs ownerID="83" targetID="6" fromX="1371" fromY="1117" />
     </nodes>
   </Adventure>
-  <Adventure name="AlphaclansVillageMed" uniqueID="35" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="107" eventTag="TAG-LOG3" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="18" positionY="151" width="347" height="902" image="Event182">
+  <Adventure name="AlphaclansVillageMed" uniqueID="35" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="109" eventTag="TAG-LOG3" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="18" positionY="151" width="347" height="982" image="Event182">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -1969,8 +1969,9 @@ A huge orc woman approaches you with an iron rod.</nodes>
       </logic>
       <outputs ownerID="1" targetID="98" group="G1" fromX="342" fromY="-452" />
       <outputs ownerID="1" targetID="96" group="G1" fromX="342" fromY="-532" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="342" fromY="-612" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="342" fromY="-693" />
+      <outputs ownerID="1" targetID="109" group="G1" fromX="342" fromY="-612" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="342" fromY="-693" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="342" fromY="-773" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="444" positionY="-448" width="350" height="1447">
       <logic>
@@ -2000,7 +2001,7 @@ A huge orc woman approaches you with an iron rod.</nodes>
 Some village activities will only be available when you are friends with its people and some are restricted to chance, so coming back from time to time may be worth it.
 
 Once you become friends, you will get the chance to recruit.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1464" positionY="-933" width="350" height="530" logBookName="QUEST_ALPHACLANS" logBookDescription="QUEST_ALPHACLANS_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="6209" positionY="1941" width="350" height="530" logBookName="QUEST_ALPHACLANS" logBookDescription="QUEST_ALPHACLANS_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="3232" positionY="-2235" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventure" ID="5" positionX="425" positionY="1218" width="350" height="885">
       <logic>
@@ -2048,7 +2049,7 @@ You see armed orcs gathering.</nodes>
       <outputs name="Surrender" ownerID="7" targetID="58" fromX="1310" fromY="253" />
       <outputs name="Win" ownerID="7" targetID="6" group="G1" fromX="1310" fromY="172" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2639" positionY="1131" width="350" height="530" allPlayersXP="6" allPlayersRP="2" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2481" positionY="1299" width="350" height="530" allPlayersXP="6" allPlayersRP="2" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventureEnd" ID="9" positionX="2060" positionY="569" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
         <ModifierBlock>
@@ -2108,6 +2109,13 @@ You see armed orcs gathering.</nodes>
       <outputs ownerID="14" targetID="94" group="G1" fromX="1364" fromY="-708" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="15" positionX="1878" positionY="1207" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC29" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
       <outputs ownerID="15" targetID="8" fromX="2326" fromY="774" />
     </nodes>
     <nodes xsi:type="NodeSpawnOnMap" ID="16" positionX="2566" positionY="552" width="480" height="503" radius="0" destroyOwner="false" linkedEventUniqueID="0">
@@ -2333,7 +2341,7 @@ We can spare some of our scraps for you.'</nodes>
       <outputs name="Confirm" ownerID="39" targetID="37" fromX="2880" fromY="-1719" />
       <outputs name="Cancel" ownerID="39" targetID="21" fromX="2880" fromY="-1799" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="40" positionX="-484" positionY="-160" width="350" height="725" image="Event142">
+    <nodes xsi:type="NodeAdventure" ID="40" positionX="-409" positionY="414" width="350" height="725" image="Event142">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2349,8 +2357,8 @@ We can spare some of our scraps for you.'</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Buy a wolf. " ownerID="40" targetID="41" fromX="-158" fromY="-651" />'We have some good wolves, but be sure you can tame them - they are no pets. They are beasts that may become your companion!'</nodes>
-    <nodes xsi:type="NodeTrade" ID="41" positionX="-1107" positionY="-244" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="sell" startingBalance="-300">
+      <outputs name="Buy a wolf. " ownerID="40" targetID="41" fromX="-83" fromY="-77" />'We have some good wolves, but be sure you can tame them - they are no pets. They are beasts that may become your companion!'</nodes>
+    <nodes xsi:type="NodeTrade" ID="41" positionX="-1134" positionY="-634" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="sell" startingBalance="-300">
       <logic>
         <FilterBlock>
           <LogicFilter name="stuff">
@@ -2373,8 +2381,8 @@ We can spare some of our scraps for you.'</nodes>
           </LogicProcessing>
         </FilterBlock>
       </logic>
-      <outputs name="Confirm" ownerID="41" targetID="63" fromX="-676" fromY="-572" />
-      <outputs name="Cancel" ownerID="41" targetID="2" fromX="-676" fromY="-652" />
+      <outputs name="Confirm" ownerID="41" targetID="63" fromX="-703" fromY="-962" />
+      <outputs name="Cancel" ownerID="41" targetID="2" fromX="-703" fromY="-1042" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="42" positionX="-2266" positionY="-191" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
@@ -2490,8 +2498,8 @@ We can spare some of our scraps for you.'</nodes>
     <nodes xsi:type="NodeDealDamage" ID="63" positionX="-1640" positionY="-310" width="460" height="699" challengeTypeDamage="TypePhysical" minDamage="20" maxDamage="30" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="63" targetID="84" group="G1" fromX="-1210" fromY="-698" />
       <outputs ownerID="63" targetID="42" group="G1" fromX="-1210" fromY="-778" />
-      <outputs ownerID="63" targetID="54" group="G1" fromX="-1210" fromY="-858" />
-      <outputs ownerID="63" targetID="62" group="G1" fromX="-1210" fromY="-938" />
+      <outputs ownerID="63" targetID="54" group="G1" fromX="-1210" fromY="-698" />
+      <outputs ownerID="63" targetID="62" group="G1" fromX="-1210" fromY="-698" />
     </nodes>
     <nodes xsi:type="NodeTrade" ID="65" positionX="-1227" positionY="-2251" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="sell" startingBalance="-350">
       <logic>
@@ -2919,9 +2927,9 @@ A huge orc woman approaches you with an iron rod.</nodes>
     <nodes xsi:type="NodeDealDamage" ID="93" positionX="1752" positionY="-1685" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="40" useCountInPercent="true" targetGroup="lessthan100">
       <outputs ownerID="93" targetID="25" fromX="2181" fromY="-2073" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="94" positionX="-595" positionY="587" width="350" height="725">
-      <outputs name="Leave." ownerID="94" targetID="3" fromX="-269" fromY="95" />'Either we do not have any work for you, or you or your kin are already set on a path to aid us. Finish that path before you ask for new tasks.'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="96" positionX="-60" positionY="-828" width="350" height="530" linkedEventUniqueID="74">
+    <nodes xsi:type="NodeAdventure" ID="94" positionX="-815" positionY="660" width="350" height="725">
+      <outputs name="Leave." ownerID="94" targetID="3" fromX="-489" fromY="168" />'Either we do not have any work for you, or you or your kin are already set on a path to aid us. Finish that path before you ask for new tasks.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" allowOnce="true" ID="96" positionX="-41" positionY="-854" width="350" height="530" linkedEventUniqueID="74">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -3041,6 +3049,18 @@ A huge orc woman approaches you with an iron rod.</nodes>
         </FilterBlock>
       </logic>
       <outputs ownerID="107" targetID="6" fromX="1292" fromY="1060" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="109" positionX="-483" positionY="-332" width="350" height="530" linkedEventUniqueID="85">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC3" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-OCCUPENDORC1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
     </nodes>
   </Adventure>
   <Adventure name="OrcKillOrcs" uniqueID="49" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="74" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
@@ -7213,8 +7233,8 @@ The orcs are pleased with your help and offer a small reward. Later, you notice 
     </nodes>
   </Adventure>
   <Adventure name="Cemetery beasts orc" uniqueID="63" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="36" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event020">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event020">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="431.965546" positionY="-152.866287" width="350" height="1126">
       <logic>
@@ -7240,11 +7260,11 @@ The orcs are pleased with your help and offer a small reward. Later, you notice 
         </FilterBlock>
       </logic>
       <outputs name="[Orc]Take a closer look at the pack to see if they have the mark of the starchasers." ownerID="2" targetID="5" group="G1" fromX="757" fromY="-644" />
-      <outputs name="[Orc]Take a closer look at the pack to see if they have the mark of the starchasers." ownerID="2" targetID="4" group="G1" fromX="760" fromY="-724" />
-      <outputs name="You have the skills to deal with angry beasts. Watch the pack to figure out a way to handle this." ownerID="2" targetID="16" fromX="760" fromY="-804" />
-      <outputs name="Attack the wolves!" ownerID="2" targetID="7" fromX="760" fromY="-884" />
-      <outputs name="[Horz] In the name of Horz, make them bow to you!" ownerID="2" targetID="27" fromX="757" fromY="-644" />
-      <outputs name="Leave." ownerID="2" targetID="23" fromX="757" fromY="-644" />You realise these are no ruins, but a burial ground of an orc clan.
+      <outputs name="[Orc]Take a closer look at the pack to see if they have the mark of the starchasers." ownerID="2" targetID="4" group="G1" fromX="757" fromY="-724" />
+      <outputs name="You have the skills to deal with angry beasts. Watch the pack to figure out a way to handle this." ownerID="2" targetID="16" fromX="757" fromY="-804" />
+      <outputs name="Attack the wolves!" ownerID="2" targetID="7" fromX="757" fromY="-884" />
+      <outputs name="[Horz] In the name of Horz, make them bow to you!" ownerID="2" targetID="27" fromX="757" fromY="-964" />
+      <outputs name="Leave." ownerID="2" targetID="23" fromX="757" fromY="-1045" />You realise these are no ruins, but a burial ground of an orc clan.
 
 You see several old pyres and one that is new. You also spot a pack of wolves circling.</nodes>
     <nodes xsi:type="NodeAdventure" ID="4" positionX="686" positionY="935" width="350" height="805">
@@ -7569,8 +7589,8 @@ This pack will continue to roam, but you are free to loot the pyres.
     </nodes>
   </Adventure>
   <Adventure name="Unliving" uniqueID="64" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="69" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="-97.64846" positionY="21.6831665" width="347" height="825" image="Event189">
-      <outputs ownerID="1" targetID="2" difficulty="Auto" fromX="226" fromY="-746" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="-97.64846" positionY="21.6831665" width="347" height="783" image="Event189">
+      <outputs ownerID="1" targetID="2" difficulty="Auto" fromX="226" fromY="-703" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="426.704041" positionY="77.1544647" width="350" height="1367">
       <logic>
@@ -8175,8 +8195,8 @@ Your spirits are lifted as you feel the presence of the fallen now at peace. </n
     <nodes xsi:type="NodeAdventureEnd" ID="69" positionX="-448.324066" positionY="-1373.13452" width="350" height="408" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="Traps" uniqueID="65" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="4" nodeIdMax="41" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="825" image="Event021">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-777" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event021">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="465.521881" positionY="78.10279" width="350" height="1206">
       <logic>
@@ -8203,7 +8223,7 @@ Your spirits are lifted as you feel the presence of the fallen now at peace. </n
 In the old days, the clans were mostly nomadic, so this is a rare find. 
 
 You soon realise that the area is riddled with traps, surely protecting something farther in.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="958.1365" positionY="-911.4832" width="350" height="455" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="958.1365" positionY="-911.4832" width="350" height="530" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeChallenge" ID="4" positionX="912" positionY="-80" width="500" height="726" challengeType="TypeMental" versusConcept="true" versusGroup="GROUP-CON_M_0P_4M_0S" challengeScale="101" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -8526,9 +8546,9 @@ As you search the crude yet sturdy old structures, you spot a group of orcs also
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Agree to take part in a spirit ritual." ownerID="10" targetID="37" fromX="850" fromY="-270" />
-      <outputs name="Refuse and attack!" ownerID="10" targetID="4" fromX="850" fromY="-350" />
-      <outputs name="Decline and leave." ownerID="10" targetID="55" fromX="850" fromY="-430" />'Ah, the misguided children of our mistress, yes! 
+      <outputs name="Agree to take part in a spirit ritual." ownerID="10" targetID="37" fromX="847" fromY="-270" />
+      <outputs name="Refuse and attack!" ownerID="10" targetID="4" fromX="847" fromY="-350" />
+      <outputs name="Decline and leave." ownerID="10" targetID="55" fromX="847" fromY="-430" />'Ah, the misguided children of our mistress, yes! 
 
 You allow men in your ranks as equals. This belittles you, but perhaps one day you will learn.
 
@@ -8689,7 +8709,7 @@ Go, search the outskirts and be glad of the scraps you find there. It is an hono
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs ownerID="33" targetID="55" fromX="-222" fromY="-987" />
+      <outputs ownerID="33" targetID="55" fromX="-221" fromY="-987" />
     </nodes>
     <nodes xsi:type="NodeChallenge" ID="34" positionX="-1193.90613" positionY="-1362.201" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-ORCS_5P_3M_1S" challengeScale="101" challengedList="ppl">
       <logic>
@@ -10498,9 +10518,9 @@ Their hungry eyes fall on you and they rise, weapons raised.
       </logic>
     </nodes>
   </Adventure>
-  <Adventure name="Orc loot" uniqueID="71" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="8" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="704" image="Event025">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-656" />
+  <Adventure name="Orc loot" uniqueID="71" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="8" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event025">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="516.4857" positionY="-32.4147835" width="350" height="725">
       <logic>
@@ -10515,7 +10535,7 @@ Their hungry eyes fall on you and they rise, weapons raised.
 In the old days, the clans were mostly nomadic, so this is a rare find. 
 
 The remains seem entirely abandoned. </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1449.47632" positionY="13.8370361" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1449.47632" positionY="13.8370361" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -10529,7 +10549,7 @@ The remains seem entirely abandoned. </nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1792.63416" positionY="-339.603455" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1792.63416" positionY="-339.603455" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -10546,7 +10566,7 @@ The remains seem entirely abandoned. </nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1532.52942" positionY="-719.0924" width="350" height="408" allPlayersXP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1532.52942" positionY="-719.0924" width="350" height="530" allPlayersXP="1" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -10583,8 +10603,8 @@ The remains seem entirely abandoned. </nodes>
     </nodes>
   </Adventure>
   <Adventure name="Wolves" uniqueID="72" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="2" nodeIdMax="33" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="825" image="Event100">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-777" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event100">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="503.952759" positionY="1.39533234" width="350" height="885">
       <logic>
@@ -10853,8 +10873,8 @@ You must either face them or turn back into the hurricane.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="Witch house" uniqueID="73" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="2" nodeIdMax="58" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event044">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event044">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="444.188782" positionY="168.3676" width="350" height="1046">
       <logic>
@@ -11352,8 +11372,8 @@ The bones fall into a pattern.</nodes>
     </nodes>
   </Adventure>
   <Adventure name="OrcMain" uniqueID="74" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="10" eventTag="TAG-MAINLOGBOOK1" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event062">
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event062">
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="422" positionY="-175" width="350" height="805">
       <logic>
@@ -11637,20 +11657,20 @@ The place is dead.</nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Agree to pay a clan price for a fighter." ownerID="2" targetID="4" fromX="729" fromY="-570" />
-      <outputs name="Ask if this isn't a type slavery and weren't orcs violently against slavery due to their past?" ownerID="2" targetID="6" fromX="729" fromY="-651" />
-      <outputs name="Leave." ownerID="2" targetID="23" fromX="729" fromY="-731" />
-      <outputs name="Agree to pay for a worker." ownerID="2" targetID="24" fromX="729" fromY="-811" />'As friend of the alpha clans, you are invited to take part in the fighting pits - as spectator. 
+      <outputs name="Ask if this isn't a type slavery and weren't orcs violently against slavery due to their past?" ownerID="2" targetID="6" fromX="729" fromY="-650" />
+      <outputs name="Leave." ownerID="2" targetID="23" fromX="729" fromY="-730" />
+      <outputs name="Agree to pay for a worker." ownerID="2" targetID="24" fromX="729" fromY="-810" />'As friend of the alpha clans, you are invited to take part in the fighting pits - as spectator. 
 
 Losers of such fights will be dishonoured and live in shame, so some of them come to you after and ask to be accepted into your 'clan' instead. You would have to pay a clan price to the alphas, to ensure some shreds of honour are saved.'
 
-[You can only recruit in this faction once, with a small chance for second when your population if very low]</nodes>
-    <nodes xsi:type="NodeAdventure" ID="4" positionX="919" positionY="135" width="350" height="1126">
-      <outputs name="Pay the honour price for a fighter." ownerID="4" targetID="7" fromX="1244" fromY="-356" />
-      <outputs name="[Orc, Dwarf or Turmoil] Say you will fight instead of paying, it is the honourable way." ownerID="4" targetID="22" fromX="1244" fromY="-436" />
-      <outputs name="Pay the honour price for a bloodtracker." ownerID="4" targetID="12" fromX="1244" fromY="-516" />
-      <outputs name="Pay the honour price for an orc child who failed their battle trials." ownerID="4" targetID="19" fromX="1244" fromY="-596" />
-      <outputs name="Children can also lose their honour here?" ownerID="4" targetID="11" fromX="1244" fromY="-676" />
-      <outputs name="There no one who wants to join right now, or it is not the right time for you. Leave." ownerID="4" targetID="23" fromX="1244" fromY="-757" />'Good. They carry the biggest clan-price, as they are strong, but they may die from their wounds. Go, see who wants to join your clan.'
+[You can only recruit in this faction once, with a small chance for second when your population is very low]</nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="917" positionY="193" width="350" height="1126">
+      <outputs name="Pay the honour price for a fighter." ownerID="4" targetID="7" fromX="1243" fromY="-297" />
+      <outputs name="[Orc, Dwarf or Turmoil] Say you will fight instead of paying, it is the honourable way." ownerID="4" targetID="22" fromX="1243" fromY="-377" />
+      <outputs name="Pay the honour price for a bloodtracker." ownerID="4" targetID="12" fromX="1243" fromY="-457" />
+      <outputs name="Pay the honour price for an orc child who failed their battle trials." ownerID="4" targetID="19" fromX="1243" fromY="-538" />
+      <outputs name="Children can also lose their honour here?" ownerID="4" targetID="11" fromX="1243" fromY="-618" />
+      <outputs name="There no one who wants to join right now, or it is not the right time for you. Leave." ownerID="4" targetID="23" fromX="1243" fromY="-698" />'Good. They carry the biggest clan-price, as they are strong, but they may die from their wounds. Go, see who wants to join your clan.'
 
 [You can only recruit in this faction once, with a tiny chance for second when your population is very low]</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1277" positionY="-1920" width="350" height="725">
@@ -12351,5 +12371,749 @@ Those who fail, have a chance to regain honour later, but it is unlikely. Many m
       </logic>
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="12" positionY="-722" width="350" height="530" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Occupation Alpha_" uniqueID="85" allowToUse="false" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="61" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="821" image="Event330">
+      <outputs ownerID="1" targetID="18" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="15" group="G1" fromX="334" fromY="-693" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-773" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="421" positionY="-53" width="350" height="966">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Join the alpha clans and fight the pirates!" ownerID="2" targetID="4" fromX="746" fromY="-544" />
+      <outputs name="Leave." ownerID="2" targetID="3" fromX="746" fromY="-624" />
+      <outputs name="[Pirate]Try to parley with the pirates." ownerID="2" targetID="55" group="G1" fromX="746" fromY="-704" />
+      <outputs name="Intimidate the pirates. Make them see that fighting on two fronts will only bring them death!" ownerID="2" targetID="9" group="G1" fromX="746" fromY="-784" />You approach the alpha clan town and see it is under siege!
+Pirates have surrounded the place and there are skirmishes outside the gates. The fight looks bloody. There are dead on both sides, but the pirates have the numbers.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="-434" positionY="-485" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="4" positionX="1738" positionY="-569" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-CAP_PIRATES_8P_7M_7S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="4" targetID="38" fromX="2179" fromY="-1064" />
+      <outputs name="Lose" ownerID="4" targetID="6" fromX="2179" fromY="-1144" />
+      <outputs name="Surrender" ownerID="4" targetID="6" fromX="2179" fromY="-1224" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="1991" positionY="402" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="takenpirates" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="25%;0;1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="30" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDORC1" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-ANCIENT_ONE_PET_WOLF" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="5" targetID="17" fromX="2316" fromY="-89" />You defeat the pirates and liberate the settlement. The orcs sing songs of your joint victory!</nodes>
+    <nodes xsi:type="NodeAdventure" ID="6" positionX="2493" positionY="-712" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="35" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="6" targetID="36" fromX="2818" fromY="-1203" />You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="-2642" positionY="407" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC6" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="-1754" positionY="877" width="350" height="530" allPlayersXP="9" allPlayersRP="5" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC4" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeChallenge" ID="9" positionX="888" positionY="-656" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_9P_8M_7S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="9" targetID="13" fromX="1329" fromY="-1151" />
+      <outputs name="Lose" ownerID="9" targetID="12" fromX="1329" fromY="-1231" />
+      <outputs name="Surrender" ownerID="9" targetID="12" fromX="1329" fromY="-1311" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="884" positionY="-1373" width="350" height="805">
+      <outputs name="Leave." ownerID="12" targetID="36" fromX="1209" fromY="-1864" />
+      <outputs name="Attack!" ownerID="12" targetID="4" fromX="1209" fromY="-1944" />'You ain't got anything we want, and if you did we'd just take it off your corpse. Beat it, or come closer and taste our iron!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="1543" positionY="-1472" width="350" height="1046">
+      <outputs name="Ask to also buy back the slaves they captured." ownerID="13" targetID="52" fromX="1868" fromY="-1963" />
+      <outputs name="Refuse and leave." ownerID="13" targetID="3" fromX="1868" fromY="-2043" />
+      <outputs name="Attack!" ownerID="13" targetID="4" fromX="1868" fromY="-2123" />
+      <outputs name="Pay." ownerID="13" targetID="56" fromX="1868" fromY="-2203" />
+      <outputs name="Sell an elf slave to the orcs." ownerID="13" targetID="46" fromX="1868" fromY="-2283" />'I be in a good mood today. We killed many of the green land-lovers, and we have some to take back with us already. You pay us some, and we go.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="-1287" positionY="331" width="350" height="885" image="Event232">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="1" tag="TAG-WATERDLC5" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC3" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC5" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Attack the pirates!" ownerID="15" targetID="37" fromX="-961" fromY="-160" />
+      <outputs name="Leave." ownerID="15" targetID="60" fromX="-961" fromY="-240" />
+      <outputs name="Call out to the captain. Ask him about the map piece and offer a deal if he is willing to part with it." ownerID="15" targetID="16" fromX="-961" fromY="-320" />This settlement is now overrun with pirates. Some of the locals are chained and forced to work, with others locked up in cages or hung on display as examples. 
+You spot a small camp nearby and the captain is not an orc, but a man. He looks like a learned man, and on his belt you see a leather tube bearing the symbol of Gosk's Might. </nodes>
+    <nodes xsi:type="NodeChallenge" ID="16" positionX="-2763" positionY="-213" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_INVENTOR_NEMOSLAV_9P_10M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="16" targetID="19" fromX="-2321" fromY="-708" />
+      <outputs name="Lose" ownerID="16" targetID="59" fromX="-2321" fromY="-788" />
+      <outputs name="Surrender" ownerID="16" targetID="59" fromX="-2321" fromY="-868" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="2425" positionY="298" width="350" height="530" allPlayersXP="8" allPlayersRP="6" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="-747" positionY="706" width="350" height="885" image="Event232">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC5" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC6" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC5" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Attack the pirates!" ownerID="18" targetID="37" fromX="-421" fromY="214" />
+      <outputs name="Leave." ownerID="18" targetID="3" fromX="-421" fromY="134" />
+      <outputs name="Call out to the captain. Ask him about the map piece and offer a deal if he is willing to part with it." ownerID="18" targetID="16" fromX="-421" fromY="54" />This settlement is now overrun with pirates. Some of the locals are chained and forced to work, with others locked up in cages or hung on display as examples. 
+You spot a small camp nearby and the captain is not an orc, but a man. He looks like a learned man, and on his belt you see a leather tube bearing the symbol of Gosk's Might. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="-2150" positionY="-29" width="350" height="885">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-WATERDLC6" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Ask more about the map first." ownerID="19" targetID="20" fromX="-1824" fromY="-520" />
+      <outputs name="Pay." ownerID="19" targetID="22" fromX="-1824" fromY="-600" />
+      <outputs name="Refuse and attack!" ownerID="19" targetID="37" fromX="-1824" fromY="-680" />'So you know my paternal legacy. How interesting. I was always told that one day a chosen of the gods will come to claim this and that I should heed their claim. 
+But that was then, and this is now. Pay me, and the piece is yours.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="-4351" positionY="-298" width="350" height="725">
+      <outputs name="Ask why he did not go after it, then." ownerID="20" targetID="21" fromX="-4025" fromY="-789" />'My piece comes from my ancestor, Nemoslav, who was a famed inventor and explorer. It was said he delved so deep into the seas, he met the gods themselves there. 
+Gosk's Might is said to unlock the sea's greatest power. Others say it is a treasure sunken many millennia ago, waiting for the right person to claim it.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="-3954" positionY="-73" width="350" height="805">
+      <outputs name="Pay him." ownerID="21" targetID="22" fromX="-3628" fromY="-564" />
+      <outputs name="Refuse and attack!" ownerID="21" targetID="37" fromX="-3628" fromY="-644" />'My grandfather tried, his father before him, and my own dad dabbled in it for a time. They all perished in the end, poor, wretched, and crazy. No, it is not for me. 
+I am a scoundrel, sure, but I believe this map was meant for another. You, perhaps, for the right price.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="22" positionX="-3346" positionY="-977" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-8000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="22" targetID="24" fromX="-2915" fromY="-1305" />
+      <outputs name="Cancel" ownerID="22" targetID="32" fromX="-2915" fromY="-1385" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="-3896" positionY="-1387" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC4" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Ask for clues to the next piece of the map." ownerID="24" targetID="25" fromX="-3570" fromY="-1878" />'Well, here you go. Take it and find your destiny on the high seas.'</nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="25" positionX="-4421" positionY="-1591" width="460" height="509">
+      <outputs ownerID="25" targetID="26" group="G1" fromX="-3990" fromY="-1949" />
+      <outputs ownerID="25" targetID="27" group="G1" fromX="-3990" fromY="-2029" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="-5064" positionY="-1467" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC2" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Thank him and ask if he will leave the town be." ownerID="26" targetID="28" fromX="-4738" fromY="-1958" />He takes a look at what you have and speaks:
+'You have the drunkard's piece - that of the unfortunate prince, Eric, so the one you seek now is Kastytis. 
+If you have the three, he will come to you, for he is the general. So swim the seas if you dare, and he will come.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="-5085" positionY="-2248" width="350" height="725">
+      <outputs name="Thank him and ask if he will leave the town be." ownerID="27" targetID="28" fromX="-4759" fromY="-2739" />He takes a look at what you have and speaks:
+'You have the drunkard's piece. You found the ruins. Now you must swim the high seas and seek out Eric. He feels the map being drawn together; he will come to you.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="-4625" positionY="-2240" width="350" height="966">
+      <outputs name="Leave." ownerID="28" targetID="29" fromX="-4299" fromY="-2731" />
+      <outputs name="[Inventor and attractive]Ask him if he would consider staying with you instead. Say that you feel he could teach you so much, and perhaps you could return the favour." ownerID="28" targetID="30" group="G1" fromX="-4299" fromY="-2811" />
+      <outputs name="[Intellect]Ask him to stay with you. Tell him you both clearly follow the path of intellect, so you should work together." ownerID="28" targetID="35" group="G1" fromX="-4299" fromY="-2891" />
+      <outputs name="[Crafter]Ask if he will train you as an inventor." ownerID="28" targetID="42" group="G1" fromX="-4299" fromY="-2972" />'Oh, afraid not. I am only here visiting. The blue orc pirates have taken this village, so it is them you must speak to or kill. I care not. My business here is done. Farewell, and may the seas treat you well.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="29" positionX="-4074" positionY="-2398" width="350" height="530" allPlayersXP="9" allPlayersRP="5" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="30" positionX="-4076" positionY="-2989" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="inv">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-INVENTOR" />
+          </LogicFilter>
+          <LogicFilter name="attr">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-ATTRACTIVE" />
+          </LogicFilter>
+          <LogicProcessing name="prettyinv" list1="inv" list2="attr">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="prettyinv">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="prettyinv">
+            <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="70" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="prettyinv">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-HUM_INVENTOR_NEMOSLAV" />
+          </LogicModifiers>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DESTINY" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Take him and leave together." ownerID="30" targetID="43" fromX="-3750" fromY="-3480" />'Oh, well, yes, you did catch my eye there, but now that you say you are a fellow inventor! I have not had my... brain stimulated in too long. Yes, I shall stay.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="31" positionX="-1011" positionY="-1188" width="350" height="530" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="-3194" positionY="-1584" width="350" height="805">
+      <outputs name="Leave." ownerID="32" targetID="33" fromX="-2868" fromY="-2075" />
+      <outputs name="Refuse and attack!" ownerID="32" targetID="37" fromX="-2868" fromY="-2155" />'Tell ya what, I'll be camping not far from here for a time. Come and pay when yer ready, but the price is now 10,000.'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="33" positionX="-2964" positionY="-2210" width="480" height="503" radius="3" settlementID="SET-ORC_FOREIGN_CAMP" destroyOwner="false" linkedEventUniqueID="87">
+      <outputs ownerID="33" targetID="34" fromX="-2515" fromY="-2642" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="-2416" positionY="-2234" width="350" height="530" allPlayersXP="9" allPlayersRP="5" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="35" positionX="-3643" positionY="-2930" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction list="prettyinv">
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_INTELLECT" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="30" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="1" tag="SUBRACE-HUM_INVENTOR_NEMOSLAV" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Take him and leave together." ownerID="35" targetID="43" fromX="-3317" fromY="-3421" />'Oh, well, yes, you do follow the correct path for my liking. Yes, I shall stay.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="36" positionX="2980" positionY="-704" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeChallenge" ID="37" positionX="-3795" positionY="1045" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_INVENTOR_NEMOSLAV_9P_10M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="37" targetID="40" fromX="-3353" fromY="549" />
+      <outputs name="Lose" ownerID="37" targetID="41" fromX="-3353" fromY="469" />
+      <outputs name="Surrender" ownerID="37" targetID="41" fromX="-3353" fromY="389" />
+    </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="38" positionX="1452" positionY="188" width="460" height="429" sourceGroup="GROUP-HORDE_ORCS_8P_7M_6S" cargoPercentage="150">
+      <outputs ownerID="38" targetID="5" fromX="1882" fromY="-170" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="39" positionX="-2160" positionY="1046" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="39" targetID="8" fromX="-1834" fromY="554" />You defeat Nemoslav and get another map piece. </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="40" positionX="-2752" positionY="893" width="460" height="429">
+      <outputs ownerID="40" targetID="39" fromX="-2321" fromY="534" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="41" positionX="-3238" positionY="911" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="20" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="41" targetID="61" fromX="-2912" fromY="419" />You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="42" positionX="-4588" positionY="-3275" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="craft">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CRAFTSMAN" />
+          </LogicFilter>
+          <LogicFilter name="hum" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-HUMAN" />
+          </LogicFilter>
+          <LogicProcessing name="humcr" list1="craft" list2="hum">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="humcr">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="humcr">
+            <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="60" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="humcr">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_INVENTOR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Wish him well and leave." ownerID="42" targetID="43" fromX="-4262" fromY="-3766" />'All right, I shall, you seem like the right sort to try.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="43" positionX="-3161" positionY="-3296" width="350" height="530" allPlayersXP="9" allPlayersRP="5" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeTrade" ID="46" positionX="2481" positionY="-2555" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="elf" startingBalance="-1">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="elf">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-ELF" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="46" targetID="48" fromX="2911" fromY="-2883" />
+      <outputs name="Cancel" ownerID="46" targetID="13" fromX="2911" fromY="-2963" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="47" positionX="3569" positionY="-2798" width="350" height="530" allPlayersXP="5" allPlayersRP="5" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDORC1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="48" positionX="3053" positionY="-2506" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-30" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_WOODLAND_KIN" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="48" targetID="47" fromX="3378" fromY="-2997" />They take the elf and leave as promised. But the orcs are furious with you. 
+'You and your talking, honourless scum, you took our victory! And you sold your own flesh into slavery. Disgusting!'</nodes>
+    <nodes xsi:type="NodeTrade" ID="49" positionX="1951" positionY="-2706" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-30000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="49" targetID="50" fromX="2381" fromY="-3034" />
+      <outputs name="Cancel" ownerID="49" targetID="13" fromX="2381" fromY="-3114" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="50" positionX="2612" positionY="-3238" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-8" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_WOLF" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="0;1" tag="ITEM_CARGO-ANCIENT_ONE_ORC_WEAPON" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-GOBLINWINE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="50" targetID="47" fromX="2937" fromY="-3729" />They take the goods and leave as promised. The orcs are angry at the lost victory, for in their eyes, your deed was honourless. But they do repay you for their people.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="52" positionX="768" positionY="-1813" width="350" height="1046">
+      <outputs name="Attack!" ownerID="52" targetID="4" fromX="1093" fromY="-2304" />
+      <outputs name="Pay to get the slaves back." ownerID="52" targetID="49" fromX="1093" fromY="-2384" />
+      <outputs name="Sell an elf slave to the orcs." ownerID="52" targetID="46" fromX="1093" fromY="-2464" />
+      <outputs name="Refuse and leave." ownerID="52" targetID="3" fromX="1093" fromY="-2544" />
+      <outputs name="Pay only for the pirates to leave." ownerID="52" targetID="56" fromX="1093" fromY="-2624" />'Arr, you drive a hard bargain. It be a hefty price, but if you pay, I sell.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="55" positionX="888" positionY="131" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-PIRATES_8P_7M_5S" challengeScale="101" challengedList="ppl">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="pir">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicFilter name="ch">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CHILD" />
+          </LogicFilter>
+          <LogicProcessing name="adult" list1="pir" list2="ch">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicResultAction list="adult">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Win" ownerID="55" targetID="13" fromX="1329" fromY="-364" />
+      <outputs name="Lose" ownerID="55" targetID="12" fromX="1329" fromY="-444" />
+      <outputs name="Surrender" ownerID="55" targetID="12" fromX="1329" fromY="-524" />
+    </nodes>
+    <nodes xsi:type="NodeTrade" ID="56" positionX="1406" positionY="-2873" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-10000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="56" targetID="57" fromX="1836" fromY="-3201" />
+      <outputs name="Cancel" ownerID="56" targetID="13" fromX="1836" fromY="-3281" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="57" positionX="1940" positionY="-3210" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-15" tag="TAG-LOYALTY_ALPHA_CLANS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="57" targetID="47" fromX="2265" fromY="-3701" />They take the goods and leave as promised. But the orcs are furious with you. 
+'You and your talking, honourless scum, you took our victory!'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="58" positionX="-1707" positionY="-576" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="20" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="58" targetID="61" fromX="-1381" fromY="-1067" />While you talked, the pirates ambushed you. You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="59" positionX="-2753" positionY="-986" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="65" maxDamage="90" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="59" targetID="58" fromX="-2323" fromY="-1374" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="60" positionX="-936" positionY="-359" width="480" height="503" radius="0" settlementID="SET-ORC_FOREIGN_CAMP" destroyOwner="false" linkedEventUniqueID="87">
+      <outputs ownerID="60" targetID="31" fromX="-487" fromY="-791" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="61" positionX="-3300" positionY="149" width="480" height="503" radius="0" settlementID="SET-ORC_FOREIGN_CAMP" destroyOwner="false" linkedEventUniqueID="87">
+      <outputs ownerID="61" targetID="7" fromX="-2851" fromY="-283" />
+    </nodes>
+  </Adventure>
+  <Adventure name="Nemoslav spwn2__" uniqueID="87" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="67" eventTag="TAG-LOGGOSK" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event232">
+      <outputs ownerID="1" targetID="64" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="15" group="G1" fromX="334" fromY="-693" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="7" positionX="-2733" positionY="477" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_NEMOSLAV" logBookDescription="QUEST_NEMOSLAV_DES" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC6" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="-1147" positionY="1363" width="350" height="530" allPlayersXP="9" allPlayersRP="5" logBookName="QUEST_NEMOSLAV" logBookDescription="QUEST_NEMOSLAV_DES5" linkedEventUniqueID="0">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC4" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-OCCUPENDSLAV1" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="-1300" positionY="685" width="350" height="885" image="Event232">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC5" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Attack the pirates!" ownerID="15" targetID="37" fromX="-974" fromY="193" />
+      <outputs name="Leave." ownerID="15" targetID="31" fromX="-974" fromY="113" />
+      <outputs name="Call out to the captain. Ask him about the map piece and offer a deal if he is willing to part with it." ownerID="15" targetID="16" fromX="-974" fromY="33" />You come back to Nemoslav's camp.</nodes>
+    <nodes xsi:type="NodeChallenge" ID="16" positionX="-2904" positionY="-223" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-Q_INVENTOR_NEMOSLAV_9P_10M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="16" targetID="19" fromX="-2462" fromY="-718" />
+      <outputs name="Lose" ownerID="16" targetID="57" fromX="-2462" fromY="-798" />
+      <outputs name="Surrender" ownerID="16" targetID="57" fromX="-2462" fromY="-878" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="-2260" positionY="-269" width="350" height="885">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_SetTagShared" parameter="0" tag="TAG-WATERDLC6" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Ask more about the map first." ownerID="19" targetID="20" fromX="-1934" fromY="-760" />
+      <outputs name="Pay." ownerID="19" targetID="22" fromX="-1934" fromY="-840" />
+      <outputs name="Refuse and attack!" ownerID="19" targetID="37" fromX="-1934" fromY="-920" />'So you know my paternal legacy. How interesting. I was always told that one day a chosen of the gods will come to claim this and that I should heed their claim. 
+But that was then, and this is now. Pay me, and the piece is yours.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="-4351" positionY="-298" width="350" height="725">
+      <outputs name="Ask why he did not go after it, then." ownerID="20" targetID="21" fromX="-4025" fromY="-789" />'My piece comes from my ancestor, Nemoslav, who was a famed inventor and explorer. It was said he delved so deep into the seas, he met the gods themselves there. 
+Gosk's Might is said to unlock the sea's greatest power. Others say it is a treasure sunken many millennia ago, waiting for the right person to claim it.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="-3954" positionY="-73" width="350" height="805">
+      <outputs name="Pay him." ownerID="21" targetID="22" fromX="-3628" fromY="-564" />
+      <outputs name="Refuse and attack!" ownerID="21" targetID="37" fromX="-3628" fromY="-644" />'My grandfather tried, his father before him, and my own dad dabbled in it for a time. They all perished in the end, poor, wretched, and crazy. No, it is not for me. 
+I am a scoundrel, sure, but I believe this map was meant for another. You, perhaps, for the right price.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="22" positionX="-3357" positionY="-1101" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-8000">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="stuff">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+        </FilterBlock>
+      </logic>
+      <outputs name="Confirm" ownerID="22" targetID="24" fromX="-2926" fromY="-1429" />
+      <outputs name="Cancel" ownerID="22" targetID="32" fromX="-2926" fromY="-1509" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="-3716" positionY="-1432" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC4" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Ask for clues to the next piece of the map." ownerID="24" targetID="66" fromX="-3390" fromY="-1923" />'Well, here you go. Take it and find your destiny on the high seas.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="-5195" positionY="-1427" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC2" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Thank him and ask if he will leave the town be." ownerID="26" targetID="28" fromX="-4869" fromY="-1918" />He takes a look at what you have and speaks:
+'You have the drunkard's piece - that of the unfortunate prince, Eric, so the one you seek now is Kastytis. 
+If you have the three, he will come to you, for he is the general. So swim the seas if you dare, and he will come.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="-5085" positionY="-2248" width="350" height="725">
+      <outputs name="Thank him and ask if he will leave the town be." ownerID="27" targetID="28" fromX="-4759" fromY="-2739" />He takes a look at what you have and speaks:
+'You have the drunkard's piece. You found the ruins. Now you must swim the high seas and seek out Eric. He feels the map being drawn together; he will come to you.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="-4571" positionY="-2287" width="350" height="966">
+      <outputs name="Leave." ownerID="28" targetID="67" fromX="-4245" fromY="-2778" />
+      <outputs name="[Inventor and attractive]Ask him if he would consider staying with you instead. Say that you feel he could teach you so much, and perhaps you could return the favour." ownerID="28" targetID="30" group="G1" fromX="-4245" fromY="-2858" />
+      <outputs name="[Intellect]Ask him to stay with you. Tell him you both clearly follow the path of intellect, so you should work together." ownerID="28" targetID="35" group="G1" fromX="-4245" fromY="-2938" />
+      <outputs name="[Crafter]Ask if he will train you as an inventor." ownerID="28" targetID="42" group="G1" fromX="-4245" fromY="-3018" />'Oh, afraid not. I am only here visiting. The blue orc pirates have taken this village, so it is them you must speak to or kill. I care not. My business here is done. Farewell, and may the seas treat you well.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="30" positionX="-4076" positionY="-2989" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="inv">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-INVENTOR" />
+          </LogicFilter>
+          <LogicFilter name="attr">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-ATTRACTIVE" />
+          </LogicFilter>
+          <LogicProcessing name="prettyinv" list1="inv" list2="attr">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="prettyinv">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="prettyinv">
+            <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="50" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="prettyinv">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-HUM_INVENTOR_WEAK_NEMOSLAV" />
+          </LogicModifiers>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-DESTINY" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Take him and leave together." ownerID="30" targetID="67" fromX="-3750" fromY="-3480" />'Oh, well, yes, you did catch my eye there, but now that you say you are a fellow inventor! I have not had my... brain stimulated in too long. Yes, I shall stay.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="31" positionX="-1039" positionY="-344" width="350" height="530" logBookName="QUEST_NEMOSLAV" logBookDescription="QUEST_NEMOSLAV_DES4" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="-3166" positionY="-1731" width="350" height="805">
+      <outputs name="Leave." ownerID="32" targetID="33" fromX="-2840" fromY="-2222" />
+      <outputs name="Refuse and attack!" ownerID="32" targetID="37" fromX="-2840" fromY="-2302" />'Tell you what, I'll be camping not far from here for a time. Come and pay when you are ready, but the price is now 10,000.'</nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="33" positionX="-2920" positionY="-2600" width="480" height="503" radius="0" destroyOwner="false" linkedEventUniqueID="0">
+      <outputs ownerID="33" targetID="34" fromX="-2471" fromY="-3032" />
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="-2348" positionY="-2583" width="350" height="530" allPlayersXP="5" allPlayersRP="5" logBookName="QUEST_NEMOSLAV" logBookDescription="QUEST_NEMOSLAV_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="35" positionX="-3643" positionY="-2930" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction list="prettyinv">
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-DOMAIN_INTELLECT" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="15" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-HUM_INVENTOR_WEAK_NEMOSLAV" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Take him and leave together." ownerID="35" targetID="67" fromX="-3317" fromY="-3421" />'Oh, well, yes, you do follow the correct path for my liking. Yes, I shall stay.'</nodes>
+    <nodes xsi:type="NodeChallenge" ID="37" positionX="-3795" positionY="1045" width="500" height="726" challengeType="TypePhysical" versusGroup="GROUP-Q_INVENTOR_NEMOSLAV_9P_10M_9S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="37" targetID="40" fromX="-3353" fromY="549" />
+      <outputs name="Lose" ownerID="37" targetID="41" fromX="-3353" fromY="469" />
+      <outputs name="Surrender" ownerID="37" targetID="41" fromX="-3353" fromY="389" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="39" positionX="-2256" positionY="1241" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_ReturnItems" parameter="takenpirates" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1;2" tag="ITEM_CARGO-RARE_ONE_PET_HORSE" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddCharacter" parameter="20%;0;1" tag="SUBRACE-ORC_PIRATE_CHILD" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="You see one of the map pieces on the captain's corpse. Pick it up." ownerID="39" targetID="62" fromX="-1930" fromY="749" />You defeat the pirates and liberate the settlement. The people are grateful to you and offer whatever reward they can. </nodes>
+    <nodes xsi:type="NodeProduceDrop" ID="40" positionX="-2899" positionY="1125" width="460" height="429" sourceGroup="GROUP-BANDITS_LEADER_4P_4M_2S" cargoPercentage="200">
+      <outputs ownerID="40" targetID="39" fromX="-2468" fromY="766" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="41" positionX="-3229" positionY="523" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="20" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="41" targetID="7" fromX="-2903" fromY="31" />You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="42" positionX="-4588" positionY="-3275" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="craft">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-CRAFTSMAN" />
+          </LogicFilter>
+          <LogicFilter name="hum" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-HUMAN" />
+          </LogicFilter>
+          <LogicProcessing name="humcr" list1="craft" list2="hum">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="humcr">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="humcr">
+            <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="60" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicProcessing name="1" list1="humcr">
+            <scriptCallWithTag scriptName="FLP_GetRandomXelements" parameter="1" />
+          </LogicProcessing>
+          <LogicModifiers list="1">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_INVENTOR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Wish him well and leave." ownerID="42" targetID="67" fromX="-4262" fromY="-3766" />'All right, I shall, you seem like the right sort to try.'</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="43" positionX="-2677" positionY="-3490" width="350" height="530" allPlayersXP="9" allPlayersRP="5" logBookName="QUEST_NEMOSLAV" logBookDescription="QUEST_NEMOSLAV_DES5" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="56" positionX="-1834" positionY="-291" width="350" height="725">
+      <logic>
+        <ModifierBlock>
+          <LogicFilter name="things">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsItems" />
+          </LogicFilter>
+          <LogicProcessing name="20" list1="things">
+            <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="20" />
+          </LogicProcessing>
+          <LogicModifiers list="20">
+            <scriptCallWithTag scriptName="FMO_TakeItems" parameter="takenpirates" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="56" targetID="65" fromX="-1508" fromY="-782" />While you talked, the pirates ambushed you. You are badly beaten and forced to flee and abandon some equipment.</nodes>
+    <nodes xsi:type="NodeDealDamage" ID="57" positionX="-2716" positionY="-1243" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="50" maxDamage="80" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="57" targetID="56" fromX="-2286" fromY="-1631" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="62" positionX="-1805" positionY="1200" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="62" targetID="8" fromX="-1356" fromY="767" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="64" positionX="-500" positionY="406" width="350" height="805" image="Event232">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ppl" makePublic="true">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" />
+          </LogicFilter>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-WATERDLC6" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDLC5" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Attack the pirates!" ownerID="64" targetID="37" fromX="-174" fromY="-85" />
+      <outputs name="Leave." ownerID="64" targetID="31" fromX="-174" fromY="-165" />You come back to Nemoslav's camp.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="65" positionX="-1464" positionY="-600" width="350" height="530" allPlayersXP="1" allPlayersRP="1" logBookName="QUEST_NEMOSLAV" logBookDescription="QUEST_NEMOSLAV_DES" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeSpawnOnMap" ID="66" positionX="-4379" positionY="-1520" width="480" height="583" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="66" targetID="26" fromX="-3930" fromY="-1952" />
+      <outputs ownerID="66" targetID="27" fromX="-3930" fromY="-2032" />
+    </nodes>
+    <nodes xsi:type="NodeSpawnOnMap" ID="67" positionX="-3248" positionY="-3608" width="480" height="503" radius="0" destroyOwner="true" linkedEventUniqueID="0">
+      <outputs ownerID="67" targetID="43" fromX="-2799" fromY="-4040" />
+    </nodes>
   </Adventure>
 </MODULE>

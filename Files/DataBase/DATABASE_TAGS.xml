@@ -1,4 +1,5 @@
-﻿<TAGS>
+﻿
+<TAGS>
 	<!--CHARACTER MAIN ATRIBUTES-->
 	<TAG-GENDER_MALE Visible="FALSE" Listed="FALSE">
 		<DescriptionInfo Name="DES_TAG_GENDER_MALE" Description="DES_TAG_GENDER_MALE_DES" IconName="IconPlaceholder"/>
@@ -484,6 +485,10 @@
 		<DescriptionInfo Name="DES_TAG_DAMAGE_RESIST_POISON" Description="DES_TAG_DAMAGE_RESIST_POISON_DES" IconName="DamageResistPoison"/>
 		<TagType Value="CharacterType"/>
 	</TAG-DAMAGE_RESIST_POISON>
+	<TAG-DAMAGE_LIFE_ONLY Visible="FALSE" Data="1.1">
+		<DescriptionInfo Name="DES_TAG_DAMAGE_LIFE_ONLY" Description="DES_TAG_DAMAGE_LIFE_ONLY_DES" IconName="DamageLifeOnly"/>
+		<TagType Value="CharacterType"/>
+	</TAG-DAMAGE_LIFE_ONLY>
 
   <!-- TAGS FOR GENERATED SKILLS - ESSENCE -->
   <TAG-DAMAGE_TRUE_ESSENCE Visible="FALSE" Data="1.15">
@@ -862,6 +867,10 @@
 		<DescriptionInfo Name="DES_TAG_DAMAGE_INSPIRE" Description="DES_TAG_DAMAGE_INSPIRE_DES" IconName="DamageInspire"/>
 		<TagType Value="CharacterType"/>
 	</TAG-DAMAGE_INSPIRE>
+	<TAG-DAMAGE_BLOODY_INSPIRE Visible="FALSE">
+		<DescriptionInfo Name="DES_TAG_DAMAGE_BLOODY_INSPIRE" Description="DES_TAG_DAMAGE_BLOODY_INSPIRE_DES" IconName="DamageBloodyInspire"/>
+		<TagType Value="CharacterType"/>
+	</TAG-DAMAGE_BLOODY_INSPIRE>
 	<TAG-DAMAGE_DECREASES_DELAY Visible="FALSE">
 		<DescriptionInfo Name="DES_TAG_DAMAGE_DECREASES_DELAY" Description="DES_TAG_DAMAGE_DECREASES_DELAY_DES" IconName="DelayDecreaseIcon"/>
 		<TagType Value="CharacterType"/>
@@ -874,6 +883,10 @@
 		<DescriptionInfo Name="DES_TAG_DAMAGE_NIGHT_POWER" Description="DES_TAG_DAMAGE_NIGHT_POWER_DES" IconName="DamageNightStrength"/>
 		<TagType Value="CharacterType"/>
 	</TAG-DAMAGE_NIGHT_POWER>
+	<TAG-DAMAGE_SEA_POWER Visible="FALSE">
+		<DescriptionInfo Name="DES_TAG_DAMAGE_SEA_POWER" Description="DES_TAG_DAMAGE_SEA_POWER_DES" IconName="DamageSeaPower"/>
+		<TagType Value="CharacterType"/>
+	</TAG-DAMAGE_SEA_POWER>
 	<TAG-DAMAGE_NIGHT_MENTAL_WEAKNESS Visible="FALSE">
 		<DescriptionInfo Name="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS" Description="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS_DES" IconName="DamageNightWeakness"/>
 		<TagType Value="CharacterType"/>
@@ -902,6 +915,10 @@
 		<DescriptionInfo Name="DES_TAG_DAMAGE_BIGGER_DEATH_CHANCE" Description="DES_TAG_DAMAGE_BIGGER_DEATH_CHANCE_DES" IconName="DamageBiggerDeathChance"/>
 		<TagType Value="CharacterType"/>
 	</TAG-DAMAGE_BIGGER_DEATH_CHANCE>
+	<TAG-DAMAGE_MUTATION Visible="FALSE">
+		<DescriptionInfo Name="DES_TAG_DAMAGE_MUTATION" Description="DES_TAG_DAMAGE_MUTATION_DES" IconName="DamageMutation"/>
+		<TagType Value="CharacterType"/>
+	</TAG-DAMAGE_MUTATION>
 		
 	<TAG-DAMAGE_OVERWHELM Visible="FALSE">
 		<DescriptionInfo Name="DES_TAG_DAMAGE_OVERWHELM" Description="DES_TAG_DAMAGE_OVERWHELM_DES" IconName="DamageOverwhelm"/>
@@ -975,6 +992,10 @@
 		<DescriptionInfo Name="DES_TAG_DAMAGE_SUB_CRAFTING" Description="DES_TAG_DAMAGE_SUB_CRAFTING_DES" IconName="CraftingIcon"/>
 		<TagType Value="CharacterType"/>
 	</TAG-DAMAGE_SUB_CRAFTING>
+	<TAG-DAMAGE_SUB_RESEARCH Visible="FALSE">
+		<DescriptionInfo Name="DES_TAG_DAMAGE_SUB_RESEARCH" Description="DES_TAG_DAMAGE_SUB_RESEARCH_DES" IconName="ResearchIcon"/>
+		<TagType Value="CharacterType"/>
+	</TAG-DAMAGE_SUB_RESEARCH>
 	<TAG-DAMAGE_SUB_PERSONAL_CARRY Visible="FALSE">
 		<DescriptionInfo Name="DES_TAG_DAMAGE_SUB_PERSONAL_CARRY" Description="DES_TAG_DAMAGE_SUB_PERSONAL_CARRY_DES" IconName="PersonalCarryLimitIcon"/>
 		<TagType Value="CharacterType"/>
@@ -1231,6 +1252,10 @@
 		<DescriptionInfo Name="DES_TAG_TARGET_DIRECTLY_OPPOSITE" Description="DES_TAG_TARGET_DIRECTLY_OPPOSITE_DES" IconName="TargetDirectlyOpposite"/>
 		<TagType Value="CharacterType"/>
 	</TAG-TARGET_DIRECTLY_OPPOSITE>
+	<TAG-TARGET_CLOSER_IN_EACH_COLUMN Visible="FALSE" Data="1.0">
+		<DescriptionInfo Name="DES_TAG_TARGET_CLOSER_IN_EACH_COLUMN" Description="DES_TAG_TARGET_CLOSER_IN_EACH_COLUMN_DES" IconName="TargetCloserInEachColumn"/>
+		<TagType Value="CharacterType"/>
+	</TAG-TARGET_CLOSER_IN_EACH_COLUMN>
 	
 	<!-- CHARACTER PROFFESION-->
 	<TAG-HUMANOID Visible="FALSE">
@@ -1288,6 +1313,11 @@
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-CHILD"/>
 	</TAG-CHILD_ORC>
+	<TAG-CHILD_PIRATE_ORC Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-CHILD"/>
+	</TAG-CHILD_PIRATE_ORC>
 	<TAG-CHILD_DWARF Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
@@ -1312,6 +1342,11 @@
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
 	</TAG-CRAFTSMAN>
+	<TAG-INVENTOR Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-CRAFTSMAN"/>
+	</TAG-INVENTOR>
 	<TAG-GATHERER Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
@@ -1426,6 +1461,11 @@
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-BEAST"/>
 	</TAG-SEA_BEAST>
+	<TAG-SHARK Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-SEA_BEAST"/>
+	</TAG-SHARK>
 	<TAG-DEMON Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
@@ -1435,6 +1475,36 @@
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-DEMON"/>
 	</TAG-COMMON_DEMON>
+	<TAG-SYRIN Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-COMMON_DEMON"/>
+	</TAG-SYRIN>
+	<TAG-ALKONOST Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-COMMON_DEMON"/>
+	</TAG-ALKONOST>
+	<TAG-POLUDNICA Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-COMMON_DEMON"/>
+	</TAG-POLUDNICA>
+	<TAG-KARAKANDZA Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-COMMON_DEMON"/>
+	</TAG-KARAKANDZA>
+	<TAG-CMUCH Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-COMMON_DEMON"/>
+	</TAG-CMUCH>
+	<TAG-BIES Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-COMMON_DEMON"/>
+	</TAG-BIES>
 	<TAG-FOREST_DEMON Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
@@ -1442,6 +1512,16 @@
 		<Parent Value="TAG-ANIMALKIN"/>
 		<Parent Value="TAG-WOODFOLK"/>
 	</TAG-FOREST_DEMON>
+	<TAG-VILY Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-FOREST_DEMON"/>
+	</TAG-VILY>
+	<TAG-ROGGNYR Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-FOREST_DEMON"/>
+	</TAG-ROGGNYR>
 	<TAG-NIGHT_DEMON Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
@@ -1457,6 +1537,21 @@
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-DEMON"/>
 	</TAG-WATER_DEMON>
+	<TAG-RUSALKA Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-WATER_DEMON"/>
+	</TAG-RUSALKA>
+	<TAG-VODNIK Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-WATER_DEMON"/>
+	</TAG-VODNIK>
+	<TAG-BEFUDDLER Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-WATER_DEMON"/>
+	</TAG-BEFUDDLER>
 	<TAG-ICE_DEMON Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
@@ -1500,17 +1595,49 @@
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-MYTHICAL"/>
 	</TAG-TROLL>
+	<TAG-QMOKOSH Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-TROLL"/>
+	</TAG-QMOKOSH>
 	<TAG-BEAST_OF_DARKNESS Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-MYTHICAL"/>
 	</TAG-BEAST_OF_DARKNESS>
+	<TAG-ELF_SHADOW Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-BEAST_OF_DARKNESS"/>
+	</TAG-ELF_SHADOW>
 	<TAG-KRAKEN Visible="FALSE">
 		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
 		<TagType Value="CharacterType"/>
 		<Parent Value="TAG-MYTHICAL"/>
 		<Parent Value="TAG-SEA_BEAST"/>
 	</TAG-KRAKEN>
+	<TAG-AEGIR Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-MYTHICAL"/>
+		<Parent Value="TAG-WATER_DEMON"/>
+	</TAG-AEGIR>
+	<TAG-JURASMAT Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-MYTHICAL"/>
+		<Parent Value="TAG-WATER_DEMON"/>
+	</TAG-JURASMAT>
+	<TAG-MIKOLAY Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+		<Parent Value="TAG-MYTHICAL"/>
+		<Parent Value="TAG-WATER_DEMON"/>
+	</TAG-MIKOLAY>
+	<TAG-SLAVE Visible="FALSE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="CharacterType"/>
+	</TAG-SLAVE>
 
 	<!-- ITEMS AND ABSTRACT TAGS-->
 	<TAG-ITEM Visible="FALSE">
@@ -1642,6 +1769,20 @@
         <TagType Value="ItemType"/>  
 		<Parent Value="TAG-SHIP"/>      
     </TAG-HEAVY_SHIP>
+    <TAG-PIRATE_SHIP1 Visible="TRUE">
+        <DescriptionInfo Name="DES_TAG_BUILDING" Description="DES_TAG_BUILDING_DES" IconName="IconPlaceholder"/>
+        <TagType Value="ItemType"/>  
+		<Parent Value="TAG-SHIP"/>      
+    </TAG-PIRATE_SHIP1>
+    <TAG-PIRATE_SHIP2 Visible="TRUE">
+        <DescriptionInfo Name="DES_TAG_BUILDING" Description="DES_TAG_BUILDING_DES" IconName="IconPlaceholder"/>
+        <TagType Value="ItemType"/>  
+		<Parent Value="TAG-SHIP"/>      
+    </TAG-PIRATE_SHIP2>
+  <TAG-WATER_CAMP Visible="FALSE">
+    <DescriptionInfo Name="Placeholder" Description="Placeholder" IconName="IconPlaceholder"/>
+    <TagType Value="ItemType"/>
+  </TAG-WATER_CAMP>
 	<TAG-PET Visible="TRUE">
 		<DescriptionInfo Name="DES_TAG_PET" Description="DES_TAG_PET_DES" IconName="IconPlaceholder"/>
 		<TagType Value="ItemType"/>
@@ -2117,6 +2258,10 @@
 		<DescriptionInfo Name="DES_RES_MUSHROOMS" Description="DES_RES_MUSHROOMS_DES" IconName="Mushrooms"/>
 		<TagType Value="ResourcesType"/>
 	</TAG-MUSHROOMS>
+	<TAG-SEAWEED Visible="FALSE">
+		<DescriptionInfo Name="DES_RES_SEAWEED" Description="DES_RES_SEAWEED_DES" IconName="Seaweed"/>
+		<TagType Value="ResourcesType"/>
+	</TAG-SEAWEED>
 	<TAG-EGGS Visible="FALSE">
 		<DescriptionInfo Name="DES_RES_EGGS" Description="DES_RES_EGGS_DES" IconName="Eggs"/>
 		<TagType Value="ResourcesType"/>
@@ -2369,6 +2514,16 @@
 		<TagType Value="ItemType"/>
 		<Parent Value="TAG-PET"/>
 	</TAG-PET_CHICKEN>
+	<TAG-PET_PARROT Visible="TRUE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="ItemType"/>
+		<Parent Value="TAG-PET"/>
+	</TAG-PET_PARROT>
+	<TAG-PET_CRAB Visible="TRUE">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
+		<TagType Value="ItemType"/>
+		<Parent Value="TAG-PET"/>
+	</TAG-PET_CRAB>
 
     <!-- BUILDING -->
     <TAG-SUMMON_USED Visible="FALSE">
@@ -2494,6 +2649,10 @@
 		<DescriptionInfo Name="DES_TAG_NYIA" Description="DES_TAG_NYIA_DES" IconName="Placeholder"/>
 		<TagType Value="GodType"/>
 	</TAG-NYIA>
+	<TAG-MOKOSH Visible="TRUE">
+		<DescriptionInfo Name="DES_TAG_NYIA" Description="DES_TAG_NYIA_DES" IconName="Placeholder"/>
+		<TagType Value="GodType"/>
+	</TAG-MOKOSH>
 	
 	<!--DOMAIN_WITH_DESCRIPTION-->
 	<TAG-DOMAIN_NEUTRAL Visible="TRUE">
@@ -2653,4 +2812,5 @@
     <DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" IconName="IconPlaceholder"/>
     <TagType Value="GodType"/>
   </TAG-ALL_ENEMIES_ARE_MINE>
+
 </TAGS>

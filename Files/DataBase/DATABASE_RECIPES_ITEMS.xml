@@ -1270,6 +1270,42 @@
 		</RecipeBase>
 		<Skills Value="SKILL_PACK-PET_CHICKEN"/>
 	</ITEM_REC-CHICKEN>
+	<ITEM_REC-PARROT ItemsAmount="0" WeightMultiplier="0.0">
+		<InventorySlot Value="Companion"/>
+		<RecipeBase ResearchCost="-2">
+			<DescriptionInfo Name="DES_PET_PARROT" Description="DES_PET_PARROT_DES" IconName="PetParrot"/>
+			<CountedTag Tag="TAG-PET_PARROT" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="12">
+					<Resource Value="RES-BONE"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="6">
+					<Resource Value="RES-MEAT"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+		<Skills Value="SKILL_PACK-PET_PARROT"/>
+	</ITEM_REC-PARROT>
+	<ITEM_REC-CRAB ItemsAmount="0" WeightMultiplier="0.0">
+		<InventorySlot Value="Companion"/>
+		<RecipeBase ResearchCost="-2">
+			<DescriptionInfo Name="DES_PET_CRAB" Description="DES_PET_CRAB_DES" IconName="PetCrab"/>
+			<CountedTag Tag="TAG-PET_CRAB" Amount="1.0"/>
+			<MaterialRow>
+				<Material ResourceCount="12">
+					<Resource Value="RES-BONE"/>
+				</Material>
+			</MaterialRow>
+			<MaterialRow>
+				<Material ResourceCount="6">
+					<Resource Value="RES-FISH"/>
+				</Material>
+			</MaterialRow>
+		</RecipeBase>
+		<Skills Value="SKILL_PACK-PET_CRAB"/>
+	</ITEM_REC-CRAB>
 	
 	<!-- SPECIAL ITEMS -->
 	<ITEM_REC-COSMIC_RING ItemsAmount="1" WeightMultiplier="0.1">

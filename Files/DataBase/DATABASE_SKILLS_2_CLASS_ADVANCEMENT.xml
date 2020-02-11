@@ -19,6 +19,13 @@
 		<SkillSubskill Value="SUBSKILL-ADD_VSTRONG_CRAFTING"/>
 		<SkillGroupFilter Value="ClassCraftsman"/>
 	</SKILL-MASTER_CRAFTSMAN>
+	<SKILL-MASTER_LABOURER  Rarity="10">
+		<DescriptionInfo Name="DES_SKILL_MASTER_LABOURER" Description="DES_SKILL_MASTER_LABOURER_DES" IconName="SkillMasterLabourer"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_GATHERING"/>
+		<SkillSubskill Value="SUBSKILL-ADD_CRAFTING"/>
+		<SkillGroupFilter Value="ClassCraftsman"/>
+	</SKILL-MASTER_LABOURER>
 	<SKILL-MASTER_INVENTOR  Rarity="40">
 		<DescriptionInfo Name="DES_SKILL_MASTER_INVENTOR" Description="DES_SKILL_MASTER_INVENTOR_DES" IconName="SkillMasterInventor"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
@@ -44,6 +51,7 @@
 		<SkillGroupFilter Value="AdvFighter"/>
 		<SkillGroupFilter Value="AdvTank"/>
 		<SkillGroupFilter Value="ClassCraftsman"/>
+		<SkillGroupFilter Value="ClassCapitan"/>
 	</SKILL-TOUGHNESS>
 	<SKILL-PARRY Rarity="10">
 		<DescriptionInfo Name="DES_SKILL_PARRY" Description="DES_SKILL_PARRY_DES" IconName="SkillParry"/>
@@ -52,6 +60,7 @@
 		<SkillGroupFilter Value="AdvFighter"/>
 		<SkillGroupFilter Value="AdvAssassin"/>
 		<SkillGroupFilter Value="ClassVolh"/>
+		<SkillGroupFilter Value="ClassQuartermaster"/>
 	</SKILL-PARRY>
 	<SKILL-LUCK Rarity="10">
 		<DescriptionInfo Name="DES_SKILL_LUCK" Description="DES_SKILL_LUCK_DES" IconName="SkillMasterLuck"/>
@@ -95,6 +104,7 @@
 		<SkillSubskill Value="SUBSKILL-LINE_CHARGE"/>
 		<SkillGroupFilter Value="ClassLargeAnimal"/>
 		<SkillGroupFilter Value="AdvFighter"/>
+		<SkillGroupFilter Value="ClassCapitan"/>
 	</SKILL-LINE_CHARGE>
 	<SKILL-SUMMON_BEE Rarity="20">
 		<DescriptionInfo Name="DES_SKILL_SUMMON_BEE" Description="DES_SKILL_SUMMON_BEE_DES" IconName="SkillSummonBee"/>
@@ -126,6 +136,7 @@
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-HEADBUTT"/>
 		<SkillGroupFilter Value="AdvFighter"/>
+		<SkillGroupFilter Value="ClassCapitan"/>
 	</SKILL-HEADBUTT>
 	<SKILL-POISON_THROWING_DAGGER Rarity="30">
 		<DescriptionInfo Name="DES_SKILL_POISON_THROWING_DAGGER" Description="DES_SKILL_POISON_THROWING_DAGGER_DES" IconName="SkillPoisonThrowingDagger"/>
@@ -149,6 +160,12 @@
 		<SkillGroupFilter Value="ClassZerca"/>
 		<SkillGroupFilter Value="AdvBuffGiver"/>
 	</SKILL-INSPIRE>
+	<SKILL-GODS_PRESENCE Rarity="60">
+		<DescriptionInfo Name="DES_SKILL_GODS_PRESENCE" Description="DES_SKILL_GODS_PRESENCE_DES" IconName="SkillGodsPresence"/>
+		<BaseEssence Amount="20" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-STRONG_INSPIRE_STANCE"/>
+		<SkillGroupFilter Value="ClassSzuvarek"/>
+	</SKILL-GODS_PRESENCE>
 	<SKILL-FROGS_RAIN Rarity="40">
 		<DescriptionInfo Name="DES_SKILL_FROGS_RAIN" Description="DES_SKILL_FROGS_RAIN_DES" IconName="SkillFrogsRain"/>
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
@@ -187,6 +204,7 @@
 		<SkillGroupFilter Value="ClassWarrior"/>
 		<SkillGroupFilter Value="AdvWorker"/>
 		<SkillGroupFilter Value="ClassGusla"/>
+		<SkillGroupFilter Value="ClassCapitan"/>
 	</SKILL-SHOWING_OFF>
 	<SKILL-WAR_SHOUT Rarity="40">
 		<DescriptionInfo Name="DES_SKILL_WAR_SHOUT" Description="DES_SKILL_WAR_SHOUT_DES" IconName="SkillWarShout"/>
@@ -243,6 +261,7 @@
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-DEVOURING_ROAR"/>
 		<SkillGroupFilter Value="ClassIceTroll"/>
+		<SkillGroupFilter Value="ClassSeaThing"/>
 	</SKILL-DEVOURING_ROAR>
 	<SKILL-DARKNESS_VORTEX Rarity="80">
 		<DescriptionInfo Name="DES_SKILL_DARKNESS_VORTEX" Description="DES_SKILL_DARKNESS_VORTEX_DES" IconName="SkillDarknessVortex"/>
@@ -268,6 +287,7 @@
 		<SkillSubskill Value="SUBSKILL-EERIE_THROWING_AXE"/>
 		<SkillGroupFilter Value="ClassHunter"/>
 		<SkillGroupFilter Value="AdvShooter"/>
+		<SkillGroupFilter Value="ClassCapitan"/>
 	</SKILL-EERIE_THROWING_AXE>
 	<SKILL-PEBBLES_THROW Rarity="0">
 		<DescriptionInfo Name="DES_SKILL_PEBBLES_THROW" Description="DES_SKILL_PEBBLES_THROW_DES" IconName="SkillPebblesThrow"/>
@@ -288,6 +308,7 @@
 		<SkillSubskill Value="SUBSKILL-HYPNOTISE_MOVE"/>
 		<SkillSubskill Value="SUBSKILL-DELAY_ENEMY"/>
 		<SkillGroupFilter Value="Hypnosis"/>
+		<SkillGroupFilter Value="ClassSeaThing"/>
 	</SKILL-HYPNOSIS>
 	<SKILL-OUTMANOEUVRE Rarity="30">
 		<DescriptionInfo Name="DES_SKILL_OUTMANOEUVRE" Description="DES_SKILL_OUTMANOEUVRE_DES" IconName="SkillOutmanoeuvre"/>
@@ -306,6 +327,7 @@
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-BLOOD_PROTECTION_S_ALL"/>
 		<SkillGroupFilter Value="ClassGusla"/>
+		<SkillGroupFilter Value="ClassQuartermaster"/>
 	</SKILL-DARK_BLOOD_SHIELD>
 	<SKILL-DARK_TOTEM Rarity="60">
 		<DescriptionInfo Name="DES_SKILL_DARK_TOTEM" Description="DES_SKILL_DARK_TOTEM_DES" IconName="SkillDarkTotem"/>
@@ -324,6 +346,7 @@
 		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
 		<SkillSubskill Value="SUBSKILL-DARK_CLAW_HIT"/>
 		<SkillGroupFilter Value="ClassVolh"/>
+		<SkillGroupFilter Value="ClassQuartermaster"/>
 	</SKILL-DARK_CLAW>
     <SKILL-NIGHT_POWER Rarity="0">
 		<DescriptionInfo Name="DES_SKILL_NIGHT_POWER" Description="DES_SKILL_NIGHT_POWER_DES" IconName="SkillRaceNightDemon"/>
@@ -344,8 +367,12 @@
 		<SkillSubskill Value="SUBSKILL-ADD_WEAK_SHIELDING_PHYSICAL_MENTAL"/>
 		<SkillGroupFilter Value="ClassInventor"/>
 	</SKILL-IMPROVISE_ARMOUR>
-
-
+	<SKILL-GHOST_BOLT Rarity="20">
+		<DescriptionInfo Name="DES_SKILL_GHOST_BOLT" Description="DES_SKILL_GHOST_BOLT_DES" IconName="SkillGhostBolt"/>
+		<BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-GHOST_BOLT"/>
+		<SkillGroupFilter Value="ClassGhostBallist"/>
+	</SKILL-GHOST_BOLT>
 
 
 </SKILLS_2_CLASS_ADVANCEMENT>

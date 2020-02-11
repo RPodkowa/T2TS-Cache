@@ -4403,7 +4403,7 @@ The chest breaks into pieces, destroying the map forever.</nodes>
       <logic>
         <FilterBlock>
           <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST74" />
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-QUEST83" />
           </LogicResultAction>
           <LogicResultAction list="ppl">
             <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="40" />
@@ -4427,9 +4427,9 @@ The chest breaks into pieces, destroying the map forever.</nodes>
 When you examine the chest, you see a map carved on top. It must lead to this home the girl spoke of. The chest does not seem to have a way to open it - no locks, hinges, or other signs of how it works.</nodes>
   </Adventure>
   <Adventure name="Sea Haven 4" uniqueID="26" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="18" eventTag="TAG-LOG10" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="863" image="Event236">
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-735" />
-      <outputs ownerID="1" targetID="15" group="G1" fromX="334" fromY="-815" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event236">
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="15" group="G1" fromX="334" fromY="-693" />
     </nodes>
     <nodes xsi:type="NodeAdventure" allowOnce="true" ID="2" positionX="449" positionY="-196" width="350" height="805">
       <logic>
@@ -4600,7 +4600,7 @@ But we are bound by demon laws, and sooner or later they always call to us. With
 
 The city is vast, but it is also wild and unruly. You find some traders, and you can also heal your wounds and curses here.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="16" positionX="2884" positionY="-831" width="350" height="530" logBookName="QUEST_KS_SEAHEAVENEND" logBookDescription="QUEST_KS_SEAHEAVENEND_DES" linkedEventUniqueID="0" endOfQuest="true" />
-    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="-30" positionY="-1622" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true" />
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="-30" positionY="-1622" width="350" height="530" logBookName="QUEST_KS_SEAHEAVENEND" logBookDescription="QUEST_KS_SEAHEAVENEND_DES" linkedEventUniqueID="0" endOfQuest="true" />
     <nodes xsi:type="NodeAdventure" ID="18" positionX="1768" positionY="157" width="350" height="725">
       <logic>
         <FilterBlock>
@@ -4946,7 +4946,7 @@ Pay, my dearies, and your curses shall be cured!'</nodes>
       <outputs name="Confirm" ownerID="11" targetID="12" fromX="1766" fromY="-519" />
       <outputs name="Cancel" ownerID="11" targetID="2" fromX="1766" fromY="-599" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="12" positionX="2037" positionY="-673" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="12" positionX="1952" positionY="-658" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers list="nppl">
@@ -4961,13 +4961,13 @@ Pay, my dearies, and your curses shall be cured!'</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="13" positionX="2159" positionY="-1138" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-25">
-      <outputs name="Confirm" ownerID="13" targetID="8" fromX="2589" fromY="-1466" />
-      <outputs name="Cancel" ownerID="13" targetID="2" fromX="2589" fromY="-1546" />
+    <nodes xsi:type="NodeTrade" ID="13" positionX="2445" positionY="-1125" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-25">
+      <outputs name="Confirm" ownerID="13" targetID="8" fromX="2875" fromY="-1453" />
+      <outputs name="Cancel" ownerID="13" targetID="2" fromX="2875" fromY="-1533" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="14" positionX="2687" positionY="-1053" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-45">
-      <outputs name="Confirm" ownerID="14" targetID="12" fromX="3117" fromY="-1381" />
-      <outputs name="Cancel" ownerID="14" targetID="2" fromX="3117" fromY="-1461" />
+    <nodes xsi:type="NodeTrade" ID="14" positionX="2979" positionY="-1056" width="460" height="479" traderProfile="TRADER-BANDIT_TWO" playerInventory="stuff" startingBalance="-45">
+      <outputs name="Confirm" ownerID="14" targetID="12" fromX="3409" fromY="-1384" />
+      <outputs name="Cancel" ownerID="14" targetID="2" fromX="3409" fromY="-1464" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="15" positionX="831" positionY="-751" width="350" height="805">
       <outputs name="Pay for one curse." ownerID="15" targetID="16" fromX="1156" fromY="-1242" />
@@ -13531,7 +13531,7 @@ They slowly move away. The bog bies smells your blood and circles ever closer.</
       <outputs name="Nope! Just leave." ownerID="11" targetID="3" fromX="1546" fromY="-563" />
       <outputs name="This is all very suspicious. When in doubt, charge!" ownerID="11" targetID="5" fromX="1546" fromY="-643" />The goblin nods and whispers, as he is too weak to speak:
 
-'Just please take care. It is a nasty bog toxin that got into my blood...?I wouldn't want you to get hurt too.'</nodes>
+'Just please take care. It is a nasty bog toxin that got into my blood...I wouldn't want you to get hurt too.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="12" positionX="1364" positionY="-901" width="350" height="966" image="Event026">
       <outputs name="This is all very suspicious. When in doubt, charge!" ownerID="12" targetID="5" fromX="1689" fromY="-1392" />
       <outputs name="[Healer]Offer to try to heal the goblin." ownerID="12" targetID="11" fromX="1689" fromY="-1472" />

@@ -268,11 +268,14 @@ namespace GameScript
 
             answer.AddRange(entities.FindAll(o => o.domainType == (Tag)TAG.DOMAIN_NEUTRAL));
 
-            foreach (var v in godsDomains)
+            foreach(var v in entities)
             {
-                answer.AddRange(entities.FindAll(o => o.domainType == v));
+                if(godsDomains.Find(o => o == v.domainType) != null)
+                {
+                    answer.Add(v);
+                }
             }
-
+            
             return answer;
         }
         static public object UIF_TraitsCharacters(List<Trait> entities, object data)

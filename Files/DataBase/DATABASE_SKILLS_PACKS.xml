@@ -57,6 +57,39 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-NATURAL_KRAKEN>
+	<SKILL_PACK-NATURAL_AEGIR>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-ANGRY_WAVES"/>
+        <GuarantedSkill Value="SKILL-MUTATION_CURSE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_AEGIR>
+	<SKILL_PACK-NATURAL_JURASMAT>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-SUMMON_SEA_DRAGON"/>
+        <GuarantedSkill Value="SKILL-SEA_PILLAR"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_JURASMAT>
+	<SKILL_PACK-NATURAL_MIKOLAY>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-WAVE_SHOT"/>
+        <GuarantedSkill Value="SKILL-SUMMON_SEA_VINES"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_MIKOLAY>
+	<SKILL_PACK-NATURAL_SEA_DRAGON>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-BITE"/>
+        <GuarantedSkill Value="SKILL-SHOWING_OFF"/>
+        <GuarantedSkill Value="SKILL-SHIELDING_DEGENERATION"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_SEA_DRAGON>
 	
 	
 	<!-- CLASS_SKILL_PACK-->
@@ -271,6 +304,30 @@
 			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-CLASS_IVAN>
+	<SKILL_PACK-CLASS_AEGIR>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <GuarantedSkill Value="SKILL-ANGRY_WAVES"/>
+        <GuarantedSkill Value="SKILL-MUTATION_CURSE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-CLASS_AEGIR>
+	<SKILL_PACK-CLASS_JURASMAT>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <GuarantedSkill Value="SKILL-SUMMON_SEA_DRAGON"/>
+        <GuarantedSkill Value="SKILL-SEA_PILLAR"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-CLASS_JURASMAT>
+	<SKILL_PACK-CLASS_MIKOLAY>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <GuarantedSkill Value="SKILL-WAVE_SHOT"/>
+        <GuarantedSkill Value="SKILL-SUMMON_SEA_VINES"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-CLASS_MIKOLAY>
 	
 	<!-- ADVANCEMENT_SKILL_PACK-->
 	<SKILL_PACK-ADV_GATHERER>
@@ -717,6 +774,15 @@
 			<SkillGroupSingleFilter Name="PoisonSpit" Requirement="OptionalType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-SEA_SNAKE>
+	<SKILL_PACK-SEA_DRAGON>
+        <RarityRange MinimumCount="0" MaximumCount="70"/>
+		<GuarantedSkill Value="SKILL-WILL_DRAIN"/>
+		<GuarantedSkill Value="SKILL-SHIELDING_DEGENERATION"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Poison" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="PoisonSpit" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-SEA_DRAGON>
 	<SKILL_PACK-SPIDER>
         <RarityRange MinimumCount="0" MaximumCount="70"/>
 		<SkillGroupFilters>
@@ -911,6 +977,14 @@
 			<SkillGroupSingleFilter Name="AdvBuffGiver" Requirement="OptionalType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-WATER_VODNIK>
+	<SKILL_PACK-WATER_SZUVAREK>
+		<RarityRange MinimumCount="20" MaximumCount="70"/>
+		<GuarantedSkill Value="SKILL-GODS_PRESENCE"/>
+		<GuarantedSkill Value="SKILL-EERIE_THROWING_AXE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassSzuvarek" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-WATER_SZUVAREK>
 	<SKILL_PACK-WATER_RUSALKA>
 		<RarityRange MinimumCount="10" MaximumCount="60"/>
 		<SkillGroupFilters>
@@ -1217,6 +1291,21 @@
 		</SkillGroupFilters>
 	</SKILL_PACK-SHIP_SMALL_STRIBOG>
 	
+	<SKILL_PACK-PIRATE_SHIP1>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PIRATE_SHIP1"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATE_SHIP1>
+	<SKILL_PACK-PIRATE_SHIP2>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PIRATE_SHIP2"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATE_SHIP2>
+	
 
 	<!-- PET SKILL-->
 	<SKILL_PACK-PET_HORSE>
@@ -1351,6 +1440,20 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-PET_CHICKEN>
+	<SKILL_PACK-PET_PARROT>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PET_PARROT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PET_PARROT>
+	<SKILL_PACK-PET_CRAB>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PET_CRAB"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PET_CRAB>
 	
 	<!-- OTHER-->
 	<SKILL_PACK-RACE_SPIDER>
@@ -1582,6 +1685,20 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-ORC_CHILD_GROW>
+	<SKILL_PACK-ORC_PIRATES_CHILD_RACE>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS_CHILD"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-ORC_PIRATES_CHILD_RACE>
+	<SKILL_PACK-ORC_PIRATES_CHILD_GROW>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-ORC_CHILD_GROW_UP"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-ORC_PIRATES_CHILD_GROW>
 	<SKILL_PACK-RACE_ORCS>
 		<RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-RACE_ORCS"/>
@@ -1659,6 +1776,13 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-RACE_GOB_ZOSH>
+	<SKILL_PACK-RACE_PINECONETTES_BABY>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-PINECONETTES_CHILD_GROW_UP"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_PINECONETTES_BABY>
 	<SKILL_PACK-RACE_DEMON_LESHY>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-RACE_DEMON"/>
@@ -1685,6 +1809,22 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-RACE_DEMON>
+	<SKILL_PACK-RACE_WATER_DEMON>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_WATER_DEMON"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_WATER_DEMON>
+	<SKILL_PACK-RACE_WATER_DEMON_SZUVAREK>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_WATER_DEMON"/>
+        <GuarantedSkill Value="SKILL-GODS_PRESENCE"/>
+        <GuarantedSkill Value="SKILL-EERIE_THROWING_AXE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_WATER_DEMON_SZUVAREK>
 	<SKILL_PACK-RACE_DEMON_CZORT>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-RACE_DEMON"/>
@@ -1843,6 +1983,13 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-RACE_UNLI_SPIDER>
+	<SKILL_PACK-RACE_TROLL_BABY>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-TROLL_CHILD_GROW_UP"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_TROLL_BABY>
 	<SKILL_PACK-RACE_TROLL>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-RACE_TROLL"/>
@@ -1960,6 +2107,184 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-RACE_ELVES_MILOSZ>
+	<SKILL_PACK-PIRATES_ELF_SLAVE>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-SLAVE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_ELF_SLAVE>
+	<SKILL_PACK-RACE_PIRATES_ELF_SLAVE>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_ELVES_SLAVE"/>
+        <GuarantedSkill Value="SKILL-MASTER_LABOURER"/>
+        <GuarantedSkill Value="SKILL-LIFETIME_SERVANT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_PIRATES_ELF_SLAVE>
+	<SKILL_PACK-PIRATES_SLAVE_CLASS>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <GuarantedSkill Value="SKILL-MASTER_LABOURER"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_SLAVE_CLASS>
+	<SKILL_PACK-PIRATES_SLAVE_ADV>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassCraftsman" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="ClassGatherer" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvWorker" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="BaseCraftsman" Requirement="ForbiddenType"/>
+			<SkillGroupSingleFilter Name="BaseGatherer" Requirement="ForbiddenType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_SLAVE_ADV>
+	<SKILL_PACK-RACE_PIRATES_ORC>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-NET_SHOT"/>
+        <GuarantedSkill Value="SKILL-GANG_SUPPORT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_PIRATES_ORC>
+	<SKILL_PACK-RACE_PIRATES_ORC_COOPER>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-NET_SHOT"/>
+        <GuarantedSkill Value="SKILL-GANG_SUPPORT"/>
+        <GuarantedSkill Value="SKILL-MASTER_CRAFTSMAN"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_PIRATES_ORC_COOPER>
+	<SKILL_PACK-RACE_PIRATES_ORC_BOATSWAIN>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-INSPIRE"/>
+        <GuarantedSkill Value="SKILL-GANG_SUPPORT"/>
+        <GuarantedSkill Value="SKILL-WAR_SHOUT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_PIRATES_ORC_BOATSWAIN>
+	<SKILL_PACK-PIRATES_ORC_WARRIOR>
+		<RarityRange MinimumCount="0" MaximumCount="70"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassWarrior" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvFighter" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvMindSoulWarrior" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_ORC_WARRIOR>
+	<SKILL_PACK-PIRATES_ORC_BOATSWAIN>
+		<RarityRange MinimumCount="0" MaximumCount="70"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassWarrior" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvFighter" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvMindSoulWarrior" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_ORC_BOATSWAIN>
+	<SKILL_PACK-PIRATES_ORC_BOATSWAIN_M>
+		<RarityRange MinimumCount="0" MaximumCount="70"/>
+		<GuarantedSkill Value="SKILL-WAR_SHOUT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="AdvMindSoulWarrior" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_ORC_BOATSWAIN_M>
+	<SKILL_PACK-PIRATES_ORC_CLASS_CRAFTSMAN>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <!--<GuarantedSkill Value="SKILL-MASTER_CRAFTSMAN"/>-->
+        <GuarantedSkill Value="SKILL-POISON_THROWING_DAGGER"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_ORC_CLASS_CRAFTSMAN>
+	<SKILL_PACK-PIRATES_ORC_ADV_CRAFTSMAN>
+		<RarityRange MinimumCount="0" MaximumCount="50"/>
+        <GuarantedSkill Value="SKILL-MASTER_CRAFTSMAN"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassCraftsman" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvWorker" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="BaseCraftsman" Requirement="ForbiddenType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_ORC_ADV_CRAFTSMAN>
+	<SKILL_PACK-RACE_PIRATES_BRUTES>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-NET_SHOT"/>
+        <GuarantedSkill Value="SKILL-GANG_SUPPORT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_PIRATES_BRUTES>
+	<SKILL_PACK-PIRATES_BRUTES>
+		<RarityRange MinimumCount="30" MaximumCount="80"/>
+		<GuarantedSkill Value="SKILL-GROUND_SHAKING"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="AdvTank" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvFighter" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="ClassTroll" Requirement="OptionalType"/>
+			<SkillGroupSingleFilter Name="AdvMindSoulWarrior" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-PIRATES_BRUTES>
+	<SKILL_PACK-RACE_PIRATE_QUARTERMASTER>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-NET_SHOT"/>
+        <GuarantedSkill Value="SKILL-FIRST_CLASS_BLADES"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-RACE_PIRATE_QUARTERMASTER>
+	<SKILL_PACK-CLASS_QUARTERMASTER>
+        <RarityRange MinimumCount="20" MaximumCount="59"/>
+        <GuarantedSkill Value="SKILL-RUM_BARREL_THROW"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-CLASS_QUARTERMASTER>
+	<SKILL_PACK-ADV_QUARTERMASTER>
+        <RarityRange MinimumCount="20" MaximumCount="70"/>
+		<GuarantedSkill Value="SKILL-DARK_CLAW"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassQuartermaster" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-ADV_QUARTERMASTER>
+	<SKILL_PACK-RACE_PIRATE_CAPTAIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-NET_SHOT"/>
+        <GuarantedSkill Value="SKILL-GANG_SUPPORT"/>
+        <GuarantedSkill Value="SKILL-SUMMON_GHOST_BALLISTA"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_PIRATE_CAPTAIN>
+	<SKILL_PACK-PIRATE_CAPTAIN>
+        <RarityRange MinimumCount="20" MaximumCount="90"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="ClassCapitan" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-PIRATE_CAPTAIN>
+	<SKILL_PACK-RACE_SEA_THING>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_TROLL"/>
+        <GuarantedSkill Value="SKILL-CLAW_HIT"/>
+        <GuarantedSkill Value="SKILL-CORRUPTION"/>
+        <GuarantedSkill Value="SKILL-FLYING_ANVILS"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-RACE_SEA_THING>
+	<SKILL_PACK-SEA_THING>
+		<RarityRange MinimumCount="30" MaximumCount="80"/>
+		<GuarantedSkill Value="SKILL-POISON_DUST"/>
+		<GuarantedSkill Value="SKILL-POISON_SPIT"/>
+		<SkillGroupFilters>=
+			<SkillGroupSingleFilter Name="ClassSeaThing" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-SEA_THING>
 	
 	<SKILL_PACK-CRATED_NATURAL_ANIMAL_BITE>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
@@ -1998,6 +2323,13 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-CON_TANK_P_NATURAL>
+	<SKILL_PACK-CON_TANK_STRONG_P_NATURAL>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-CON_DEFAULT_STRONG_MELEE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-CON_TANK_STRONG_P_NATURAL>
 	<SKILL_PACK-CON_TANK_P>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-TOUGHNESS"/>
@@ -2061,6 +2393,13 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-CON_HUNTER_M>
+	<SKILL_PACK-CON_STRONG_HUNTER_M>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-CORRUPTION"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-CON_STRONG_HUNTER_M>
 	<SKILL_PACK-CON_WILD_M_NATURAL>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-CON_DEFAULT_RANGE_HEAVY"/>
@@ -2117,6 +2456,13 @@
 			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-CON_WILD_S>
+	<SKILL_PACK-CON_STRONG_WILD_S>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-CON_DEFAULT_STRONG_WILD"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-CON_STRONG_WILD_S>
 
 	<!-- BUILDINGS-->
 	<SKILL_PACK-BUILDING_IDOL>
@@ -2461,6 +2807,13 @@
 			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-SUMMON_KRAKEN_TENTACLE>
+	<SKILL_PACK-SUMMON_SEA_VINE>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-TIMELESS_GRIP"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-SUMMON_SEA_VINE>
 	<SKILL_PACK-SUMMON_TROLL_LAVA_ROCKERS>
         <RarityRange MinimumCount="0" MaximumCount="100"/>
         <GuarantedSkill Value="SKILL-RACE_TROLL"/>
@@ -2526,6 +2879,14 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
     </SKILL_PACK-SUMMON_DARK_TOTEM>
+	<SKILL_PACK-SUMMON_GHOST_BALLISTA>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_UNLI"/>
+        <GuarantedSkill Value="SKILL-GHOST_BOLT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-SUMMON_GHOST_BALLISTA>
 	
 	
 	<!--MORALE BONUS -->
@@ -2685,6 +3046,29 @@
 			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
 		</SkillGroupFilters>
 	</SKILL_PACK-Q_NIGHT_POWER>
+	<SKILL_PACK-Q_ONLY_WATER_DEMON>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_WATER_DEMON"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-Q_ONLY_WATER_DEMON>
+	<SKILL_PACK-Q_ONLY_PIRATE_RACE>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-Q_ONLY_PIRATE_RACE>
+	<SKILL_PACK-Q_FULL_PIRATE_RACE>
+		<RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-RACE_PIRATE_ORCS"/>
+        <GuarantedSkill Value="SKILL-NET_SHOT"/>
+        <GuarantedSkill Value="SKILL-GANG_SUPPORT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-Q_FULL_PIRATE_RACE>
 	
 
 	

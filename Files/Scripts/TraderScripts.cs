@@ -20,7 +20,7 @@ namespace GameScript
         const float friendlyBuyMultiplier = 1.5f;
         const float lovedBuyMultiplier = 2.0f;
         const float cookedFoodDivisor = 4.0f;
-        const float petBuyMultiplier = 3.0f;
+        const float petBuyMultiplier = 2.0f;
         const float petSellMultiplier = 5.0f;
 
 

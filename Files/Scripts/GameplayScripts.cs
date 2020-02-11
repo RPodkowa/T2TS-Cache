@@ -568,20 +568,69 @@ namespace GameScript
                 if (targetGroup.items != null)
                 {
                     var tag = TAG.SHIP;
-                    var ship = targetGroup.items.Find(o => o.GetItem().attributes.Contains(tag));
-
-                    string graphic;
-                    if (ship == null)
+                    CountEntityBase ship = null;
+                    int value = 0;
+                    foreach(var v in targetGroup.items)
                     {
-                        graphic = "Raft";
+                        if (v.GetItem().attributes.Contains(tag))
+                        {
+                            if (ship == null) ship = v;
+                            else
+                            {                                
+                                ClientEntityItem it = new ClientEntityItem(v, false, true);
+                                int newValue = it.GetValue();
+
+                                if (value == FInt.ZERO)
+                                {
+                                    it = new ClientEntityItem(ship, false, true);
+                                    value = it.GetValue();
+                                }                         
+                                if(value < newValue)
+                                {
+                                    value = newValue;
+                                    ship = v;
+                                }
+                            }                            
+                        }
                     }
-                    else
+
+                    string graphic = null;
+                    if (ship != null)
                     {
                         graphic = ship.GetItem().GetDescriptionInfo().iconName;
                     }
+                    else
+                    {
+                        Tag seaMp = (Tag)TAG.SEA_MOVEMENT_RANGE;
+                        bool canSwim = targetGroup.characters != null && targetGroup.characters.Count > 0;
+                        foreach (var v in targetGroup.characters)
+                        {
+                            if (v.Get().attributes.GetFinal(seaMp) < FInt.ONE)
+                            {
+                                canSwim = false;
+                                break;
+                            }
+                        }
 
-                    actors.Add(graphic);
-                    return actors;
+                        if (!canSwim)
+                        {
+                            if (targetGroup.ownerID > 0)
+                            {
+                                graphic = "Raft";
+                            }
+                            else
+                            {
+                                graphic = "ShipPirate2";
+                            }
+                        }
+                    }
+
+                    //if some ship graphic have been assigned use it, otherwise fall back to normal unit graphics
+                    if (graphic != null)
+                    {
+                        actors.Add(graphic);
+                        return actors;
+                    }
                 }
             }
 
@@ -596,7 +645,9 @@ namespace GameScript
 
                 sortedChars.Sort(delegate (EntityReference<Character> a, EntityReference<Character> b)
                 {
-                    return a.Get().level.CompareTo(b.Get().level);
+                    var A = a.Get().GetPowerLevel(false);
+                    var B = b.Get().GetPowerLevel(false);
+                    return -A.CompareTo(B);
                 });
 
                 for (int i = 0; i < 3; i++)

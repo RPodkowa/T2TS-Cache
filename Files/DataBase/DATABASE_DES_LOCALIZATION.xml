@@ -162,6 +162,8 @@
 		<Entry Key="DES_TAG_TARGET_SELF_GROUP_DES" Val="Targets the group in possession of this item or a character knowing this skill."/>
 		<Entry Key="DES_TAG_TARGET_DIRECTLY_OPPOSITE" Val="Target - Directly Opposite"/>
 		<Entry Key="DES_TAG_TARGET_DIRECTLY_OPPOSITE_DES" Val="Targets only the enemy card located directly opposite in melee or ranged row."/>
+		<Entry Key="DES_TAG_TARGET_CLOSER_IN_EACH_COLUMN" Val="Target - Closest in each Column"/>
+		<Entry Key="DES_TAG_TARGET_CLOSER_IN_EACH_COLUMN_DES" Val="Targets the first enemy in each column standing closer to the caster."/>
 		<Entry Key="DES_TAG_DAMAGE_NORMAL" Val="Normal Damage"/>
 		<Entry Key="DES_TAG_DAMAGE_NORMAL_DES" Val="Regular damage. The number typically indicates damage multiplier, or added damage with '+' sign."/>
 		<Entry Key="DES_TAG_DAMAGE_HEAL" Val="Heal"/>
@@ -212,6 +214,8 @@
 		<Entry Key="DES_TAG_DAMAGE_LOWER_DEATH_CHANCE_DES" Val="Characters in this group have a lower chance to die from heavy wounds."/>
 		<Entry Key="DES_TAG_DAMAGE_BIGGER_DEATH_CHANCE" Val="Increased Chance to Die"/>
 		<Entry Key="DES_TAG_DAMAGE_BIGGER_DEATH_CHANCE_DES" Val="Characters in this group have a higher chance to die from heavy wounds."/>
+		<Entry Key="DES_TAG_DAMAGE_MUTATION" Val="Mutation"/>
+		<Entry Key="DES_TAG_DAMAGE_MUTATION_DES" Val="Change a percent of character's hit points and damage."/>
 		<Entry Key="DES_TAG_DAMAGE_BUILDING_SIGHT_RANGE" Val="Sight Range"/>
 		<Entry Key="DES_TAG_DAMAGE_BUILDING_SIGHT_RANGE_DES" Val="Improves visibility around the village so you will be able to spot enemies from further away."/>
 		<Entry Key="DES_TAG_DAMAGE_BUILDING_GATHERING_RANGE" Val="Gathering Range"/>
@@ -244,6 +248,8 @@
 		<Entry Key="DES_TAG_DAMAGE_SOAK_DAMAGE_DES" Val="All damage dealt to allies is dealt to the skill owner instead, as long as they are alive."/>
 		<Entry Key="DES_TAG_DAMAGE_RESIST_POISON" Val="Resist Poison"/>
 		<Entry Key="DES_TAG_DAMAGE_RESIST_POISON_DES" Val="Grants resistance to any form of poison damage."/>
+		<Entry Key="DES_TAG_DAMAGE_LIFE_ONLY" Val="Damage Hit Points"/>
+		<Entry Key="DES_TAG_DAMAGE_LIFE_ONLY_DES" Val="Damage that avoids Shielding and affects Hit Points only."/>
 		
 		<Entry Key="DES_TAG_DAMAGE_TRUE" Val="True Damage"/>
 		<Entry Key="DES_TAG_DAMAGE_POISON" Val="Poison Damage"/>
@@ -326,6 +332,8 @@
 		<Entry Key="DES_TAG_DAMAGE_ADD_SEA_MOVEMENT_POINTS_DES" Val="Provides a bonus to the Sea Movement Points attribute."/>
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_POWER" Val="Night Power"/>
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_POWER_DES" Val="Increases Wits, Strength, Perception, Intelligence, Wisdom, Mysticism and Destiny during night turns."/>
+		<Entry Key="DES_TAG_DAMAGE_SEA_POWER" Val="Sea Power"/>
+		<Entry Key="DES_TAG_DAMAGE_SEA_POWER_DES" Val="Increases Wits, Strength, Perception, Intelligence, Wisdom, Mysticism and Destiny when travelling by water."/>
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS" Val="Night Mental Weakness"/>
 		<Entry Key="DES_TAG_DAMAGE_NIGHT_MENTAL_WEAKNESS_DES" Val="Decrease Sanity during night turns."/>
 		<Entry Key="DES_TAG_DAMAGE_OVERWHELM" Val="Overwhelm"/>
@@ -366,6 +374,8 @@
 		<Entry Key="DES_TAG_DAMAGE_SUB_GATHERING_DES" Val="Lower the Gathering attribute."/>
 		<Entry Key="DES_TAG_DAMAGE_SUB_CRAFTING" Val="Decrease Crafting"/>
 		<Entry Key="DES_TAG_DAMAGE_SUB_CRAFTING_DES" Val="Lower the Crafting attribute."/>
+		<Entry Key="DES_TAG_DAMAGE_SUB_RESEARCH" Val="Decrease Research"/>
+		<Entry Key="DES_TAG_DAMAGE_SUB_RESEARCH_DES" Val="Lower the Crafting attribute."/>
 		<Entry Key="DES_TAG_DAMAGE_SUB_PERSONAL_CARRY" Val="Decrease Personal Carry"/>
 		<Entry Key="DES_TAG_DAMAGE_SUB_PERSONAL_CARRY_DES" Val="Lower the Personal Carry attribute."/>
 		<Entry Key="DES_TAG_DAMAGE_SUB_GROUP_CARRY" Val="Decrease Group Carry"/>
@@ -380,6 +390,8 @@
 		<Entry Key="DES_TAG_DAMAGE_GROW_UP_DES" Val="Shows how many turns need to pass before this child grows into an adult."/>
 		<Entry Key="DES_TAG_DAMAGE_INSPIRE" Val="Inspire"/>
 		<Entry Key="DES_TAG_DAMAGE_INSPIRE_DES" Val="Decreases Delay of a selected Ally's action and increases this character's Combat Attributes."/>
+		<Entry Key="DES_TAG_DAMAGE_BLOODY_INSPIRE" Val="Bloody Inspire"/>
+		<Entry Key="DES_TAG_DAMAGE_BLOODY_INSPIRE_DES" Val="Decreases Delay of a selected Ally's action and increases this character's Combat Attributes at the cost of 25% of the caster's current Health."/>
 		<Entry Key="DES_TAG_DAMAGE_DECREASES_DELAY" Val="Decrease Delay"/>
 		<Entry Key="DES_TAG_DAMAGE_DECREASES_DELAY_DES" Val="Decrease Delay of a character on the battlefield, so they will act faster."/>
 		<Entry Key="DES_TAG_DAMAGE_INCREASES_DELAY" Val="Increase Delay"/>
@@ -513,6 +525,8 @@
 		<Entry Key="DES_TAG_TRIGLAV_DES" Val="Triglav Description"/>
 		<Entry Key="DES_TAG_NYIA" Val="Nyia"/>
 		<Entry Key="DES_TAG_NYIA_DES" Val="Nyia Description"/>
+		<Entry Key="DES_TAG_MOKOSH" Val="Mokosh"/>
+		<Entry Key="DES_TAG_MOKOSH_DES" Val="Mokosh Description"/>
 		<Entry Key="DES_TAG_MASTERPIECE_QUALITY" Val="Masterpiece Quality"/>
 		<Entry Key="DES_TAG_MASTERPIECE_QUALITY_DES" Val="Masterpiece Quality Description"/>
 		<Entry Key="DES_TAG_GOOD_QUALITY" Val="Good Quality"/>
@@ -629,8 +643,10 @@
 		<Entry Key="DES_SUBRACE_HUM_CRAFTSMAN_NEEDLER" Val="Human Craftsman"/>
 		<Entry Key="DES_SUBRACE_HUM_CRAFTSMAN_NEEDLER_DES" Val="An odd shoemaker you met when a dragon attacked your people. He was determined to have a virgin princess as reward for his clever dragon slaying idea, but he settled for coming along with you."/>
 		<Entry Key="DES_SUBRACE_HUM_INVENTOR" Val="Human Inventor"/>
-		<Entry Key="DES_SUBRACE_HUM_INVENTOR_DES" Val="Specialises in inventing. They also know how to craft items and construct structures."/>
-		<Entry Key="DES_SUBRACE_HUM_GATHERER" Val="Human Gatherer"/>
+		<Entry Key="DES_SUBRACE_HUM_INVENTOR_DES" Val="Specialises in invention and research. They also know how to craft items and construct structures."/>	
+		<Entry Key="DES_SUBRACE_HUM_INVENTOR_NEMOSLAV" Val="Nemoslav Jr"/>
+    <Entry Key="DES_SUBRACE_HUM_INVENTOR_NEMOSLAV_DES" Val="Nemoslav comes from a long line of incredible inventors and explorers. His great, great grandfather was said to posses a ship that could swim underwater. Nemoslav Jr is yet to acquire such renown for himself, but he is certainly bright and full of ambition."/>		
+    <Entry Key="DES_SUBRACE_HUM_GATHERER" Val="Human Gatherer"/>
 		<Entry Key="DES_SUBRACE_HUM_GATHERER_DES" Val="Swift hands and sharp eyes make them proficient at harvesting resources."/>
 		<Entry Key="DES_SUBRACE_HUM_HUNTER" Val="Human Hunter"/>
 		<Entry Key="DES_SUBRACE_HUM_HUNTER_DES" Val="Adept at hunting prey and scouting."/>
@@ -671,19 +687,23 @@
 		<Entry Key="DES_SUBRACE_ELF_WEAK_GUARDIAN" Val="Weak Elven Guardian"/>
 		<Entry Key="DES_SUBRACE_ELF_WEAK_GUARDIAN_DES" Val="this guardian barely passed their training which left many scars on their body and mind. Nevertheless they make it their goal to prove one day they can become more."/>
 		<Entry Key="DES_SUBRACE_ELF_GUARDIAN" Val="Elven Guardian"/>
+		<Entry Key="DES_SUBRACE_ELDER_ELF_GUARDIAN" Val="Elder Elven Guardian"/>
 		<Entry Key="DES_SUBRACE_ELF_GUARDIAN_DES" Val="Proud and stoic protectors of the wildlands. Elves tend to favour diplomacy over violence, or so they like the world to think. Despite this apparent pacifism, the elven warriors are trained from youth to be ruthless and precise. Be it 'the last resort' or 'do as we say or perish' it is not wise to stand against a guardian. "/>
 		<Entry Key="DES_SUBRACE_ELF_FOREST_CRAFTSMAN" Val="Elven Forest Craftsman"/>
 		<Entry Key="DES_SUBRACE_ELF_FOREST_CRAFTSMAN_DES" Val="Adept at crafting beautiful items that many would consider art. These artisans tend to reject violence and focus on the art of creation; thus, diplomacy is their preferred path."/>
 		<Entry Key="DES_SUBRACE_ELF_FOREST_GATHERER" Val="Elven Forest Gatherer"/>
 		<Entry Key="DES_SUBRACE_ELF_FOREST_GATHERER_DES" Val="Atuned to nature and her gifts, elven gatheres are skilled at harvesting resources. They are nimble but they tend to be fragile and gentle souls."/>
 		<Entry Key="DES_SUBRACE_ELF_DRUID" Val="Elven Druid"/>
+		<Entry Key="DES_SUBRACE_ELDER_ELF_DRUID" Val="Elder Elven Druid"/>
 		<Entry Key="DES_SUBRACE_ELF_DRUID_DES" Val="Wild and animalistic, druids often prefer the company of woodland kin to other humanoids, even those of their own kind. During the days of darkness, the druids were amongst the leaders who held the elven people together long enough to heal the taint of darkness and rebuild. As such, they were the most revered among their people."/>
 		<Entry Key="DES_SUBRACE_ELF_BANISHED_DRUID_TRAIT" Val="Elven Banished Druid"/>
 		<Entry Key="DES_SUBRACE_ELF_BANISHED_DRUID_TRAIT_DES" Val="Banished druids are an oddity even amongst their typically outsider cast of druids. They refuse to wear anything but weapons and willingly leave the forest in favour of adventure. Despite their unusual behaviours, they are actually considered whimsical and will often bring good humour to those who travel with them."/>
 		<Entry Key="DES_SUBRACE_ELF_MAGE" Val="Elven Mage"/>
+		<Entry Key="DES_SUBRACE_ELDER_ELF_MAGE" Val="Elder Elven Mage"/>
 		<Entry Key="DES_SUBRACE_ELF_YOUNG_MAGE" Val="Elven Young Mage"/>
 		<Entry Key="DES_SUBRACE_ELF_MAGE_DES" Val="Keepers of ancient lore and masters of the mystical arts. Often more 'civilised' than their woodland kin due to their affinity for travel and cultural exchange. Apart from very rare exceptions, mages are actually amongst the youngest of the elven kin, because they were the first to perish when darkness took the world in the past."/>
 		<Entry Key="DES_SUBRACE_ELF_SHADOW" Val="Elven Shadow"/>
+		<Entry Key="DES_SUBRACE_ELDER_ELF_SHADOW" Val="Elder Elven Shadow"/>
 		<Entry Key="DES_SUBRACE_ELF_SHADOW_DES" Val="Corrupted by darkness long ago, a banished caste of assassins more akin to demons of the dark than their own kind."/>
 		<Entry Key="DES_SUBRACE_LIGHT_SICK_ELF_SHADOW" Val="Unbalanced Shadow Elf"/>
 		<Entry Key="DES_SUBRACE_LIGHT_SICK_ELF_SHADOW_DES" Val="Shadow elves are those who accepted their dark taint and found an odd balance on their new path. Sadly, many remain torn by their departure from light and cannot achieve this goal."/>
@@ -694,6 +714,7 @@
 		<Entry Key="DES_SUBRACE_ORC_WITCH" Val="Orc Witch"/>
 		<Entry Key="DES_SUBRACE_ORC_WITCH_DES" Val="Orc witches are said to use an old and twisted form of magic, heavily reliant on blood rituals and sacrifices. How much of this is true remains unclear. Apart from magic, some whisper of their ability to commune with beasts. They are also the ones who hold the knowledge of the clans and form an advisory circle for their matriarch."/>
 		<Entry Key="DES_SUBRACE_ORC_SLUGGER" Val="Orc Slugger"/>
+		<Entry Key="DES_SUBRACE_ORC_ELDER_SLUGGER" Val="Elder Orc Slugger"/>
 		<Entry Key="DES_SUBRACE_ORC_SLUGGER_DES" Val="Bred for killing and honour, strong, muscular and brutish, if there is more to them, you rarely get a chance to find out."/>
 		<Entry Key="DES_SUBRACE_ORC_PLODDER_CRAFTSMAN" Val="Orc Plodder"/>
 		<Entry Key="DES_SUBRACE_ORC_PLODDER_CRAFTSMAN_DES" Val="Not all orcs are destined to be warriors, but only a handful do not fear education. Plodders may be laughed at by their warrior peers, but sometimes their knowledge proves indispensable."/>
@@ -728,6 +749,7 @@
 		<Entry Key="DES_SUBRACE_DWARF_CLANLESS_SMITH_TRAIT" Val="Clanless Dwarf Smith"/>
 		<Entry Key="DES_SUBRACE_DWARF_CLANLESS_SMITH_TRAIT_DES" Val="A dwarven smith with a dark past. Dwarves are driven by their sense of personal honour, thus some become clanless when they feel they failed their dwarven kin. Redemption can take time, it may never come, but a clanless dwarf will strive to achieve it still."/>
 		<Entry Key="DES_SUBRACE_DWARF_RUNEMASTER" Val="Dwarf Runemaster"/>
+		<Entry Key="DES_SUBRACE_ELDER_DWARF_RUNEMASTER" Val="Elder Dwarf Runemaster"/>
 		<Entry Key="DES_SUBRACE_DWARF_RUNEMASTER_DES" Val="The runemaster is a title given to the eldest, wisest of the dwarven smith masters who know the ancient, secret arts of carving runes."/>
 		<Entry Key="DES_SUBRACE_DWARF_LABORER" Val="Dwarf Labourer"/>
 		<Entry Key="DES_SUBRACE_DWARF_LABORER_DES" Val="Dwarven labourers are the heart and soul of their community, toiling away day and night and gathering resources vital for their kin."/>
@@ -797,9 +819,17 @@
 		<Entry Key="DES_SUBRACE_SEA_CZYTLICA_YOUNG" Val="Young Czytlica"/>
 		<Entry Key="DES_SUBRACE_SEA_CZYTLICA_YOUNG_DES" Val="Part aquatic part humanoid, all beast. Demons of the sea were not known to Slavyans, now they terrify all. A young czytlica may be weaker, but she is no less brutal."/>
 		<Entry Key="DES_SUBRACE_SEA_JURATA" Val="Jurata"/>
-		<Entry Key="DES_SUBRACE_SEA_JURATA_DES" Val="Jurata the queens of the sea, rulers of the czytlica. Part humanoid part aquatic, they hide their cruel nature behind illusionary beauty and serene voice. "/>
+		<Entry Key="DES_SUBRACE_SEA_JURATA_DES" Val="Jurata the queens of the sea, rulers of the czytlica. Part humanoid part aquatic, they hide their cruel nature behind illusionary beauty and serene voice."/>
+		<Entry Key="DES_SUBRACE_SEA_ARIEL" Val="Ariel"/>
+		<Entry Key="DES_SUBRACE_SEA_ARIEL_DES" Val="A jurata queen, one of the first daughters of Jurasmat and Kastitys. She cursed her love, Eric, to unlife as he failed to take her to the land and give her a life as a human."/>
 		<Entry Key="DES_SUBRACE_KRAKEN" Val="Kraken"/>
 		<Entry Key="DES_SUBRACE_KRAKEN_DES" Val="Krakens are creatures of dark legends of old, returned after the shattering to once more bring terror to the seas."/>
+		<Entry Key="DES_SUBRACE_AEGIR" Val="Gosk"/>
+		<Entry Key="DES_SUBRACE_AEGIR_DES" Val="Once he was considered to be the master of the north sea, a god in his domain. "/>
+		<Entry Key="DES_SUBRACE_JURASMAT" Val="Jurasmat"/>
+		<Entry Key="DES_SUBRACE_JURASMAT_DES" Val="The mother of the jurata and the queen of the underwater depths. Once a prospective god of the seas, Jurasmat was cast down and punished by the gods. Angry and vengeful, she now seeks to prove her might."/>
+		<Entry Key="DES_SUBRACE_MIKOLAY" Val="Kastitys"/>
+		<Entry Key="DES_SUBRACE_MIKOLAY_DES" Val="Once a young man, perhaps even a chosen of the gods. He was cursed to live his life as a tree that grew on the seashore. He was later awakened and partially restored, likely by his once lover Jurasmat. It is said he is the father of the jurata and czytlica, who like him, are cursed to live a life as part human, part beast. "/>
 		<Entry Key="DES_SUBRACE_DEMON_BABA_YAGA" Val="Baba Yaga"/>
 		<Entry Key="DES_SUBRACE_DEMON_BABA_YAGA_DES" Val="Baba Yaga is one of the oldest Slavyan demons, but her true nature remains hidden. Is it a witch gone too far? An apparition of darkness? Or simply another tormented soul twisted by sorrow?"/>
 		<Entry Key="DES_SUBRACE_DEMON_SKSHACK" Val="Skshack"/>
@@ -809,6 +839,7 @@
 		<Entry Key="DES_SUBRACE_DEMON_POLUDNICA_LIGHT_SICK" Val="Light-Sick Poludnica"/>
 		<Entry Key="DES_SUBRACE_DEMON_POLUDNICA_LIGHT_SICK_DES" Val="Poludnica, or the midday lady is a field demon who appears at high noon and can cause sudden death to farmers or stray children."/>
 		<Entry Key="DES_SUBRACE_DEMON_POLUDNICA" Val="Poludnica"/>
+		<Entry Key="DES_SUBRACE_DEMON_ELDER_POLUDNICA" Val="Elder Poludnica"/>
 		<Entry Key="DES_SUBRACE_DEMON_POLUDNICA_DES" Val="Poludnica, or the midday lady is a field demon who appears at high noon and can cause sudden death to farmers or stray children."/>
 		<Entry Key="DES_SUBRACE_DEMON_KARAKANDZA" Val="Karakandza"/>
 		<Entry Key="DES_SUBRACE_DEMON_KARAKANDZA_DES" Val="An evil-natured, goblin-like creature that tends to prefer living underground, often tunnelling under structures to weaken them on purpose."/>
@@ -840,50 +871,64 @@
 		<Entry Key="DES_SUBRACE_FOREST_ELDERCONE" Val="Eldercone"/>
 		<Entry Key="DES_SUBRACE_FOREST_ELDERCONE_DES" Val="Thoroughly pissed off pineconettes that have grown to become pretty vicious when needed. Or, wiser, older spirits, depends on your luck."/>
 		<Entry Key="DES_SUBRACE_FOREST_LESHY" Val="Leshy"/>
+		<Entry Key="DES_SUBRACE_FOREST_YOUNG_LESHY" Val="Young Leshy"/>
+		<Entry Key="DES_SUBRACE_ELDER_FOREST_LESHY" Val="Elder Leshy"/>
 		<Entry Key="DES_SUBRACE_FOREST_LESHY_DES" Val="The leshy is the ancient shepherd of the forest and the grand spirit of the woodlands. They can appear as old, bearded men or walking trees."/>
 		<Entry Key="DES_SUBRACE_FOREST_DORMANT_LESHY" Val="Dormant Leshy"/>
 		<Entry Key="DES_SUBRACE_FOREST_DORMANT_LESHY_DES" Val="The dormant leshy is the ancient shepherd of the forest, but this one is not fully awakened from its tree sleep."/>
 		<Entry Key="DES_SUBRACE_FOREST_LIGHT_SICK_VILY" Val="Light-Sick Vily"/>
 		<Entry Key="DES_SUBRACE_FOREST_LIGHT_SICK_VILY_DES" Val="Vily are wind demons but also loyal guardians of the woodlands often serving the leshy when needed. They can appear during, or even cause a storm."/>
 		<Entry Key="DES_SUBRACE_FOREST_VILY" Val="Vily"/>
+		<Entry Key="DES_SUBRACE_ELDER_FOREST_VILY" Val="Elder Vily"/>
 		<Entry Key="DES_SUBRACE_FOREST_VILY_DES" Val="Vily are wind demons but also loyal guardians of the woodlands often serving the leshy when needed. They can appear during, or even cause a storm."/>
 		<Entry Key="DES_SUBRACE_FOREST_VIATROVIEC" Val="Viatroviec"/>
+		<Entry Key="DES_SUBRACE_ELDER_FOREST_VIATROVIEC" Val="Elder Viatroviec"/>
 		<Entry Key="DES_SUBRACE_FOREST_VIATROVIEC_DES" Val="Viatroviec are spirits of the wind and nature. They often form an alliance with forest demons and serve as guardians alongside their vily sisters."/>
 		<Entry Key="DES_SUBRACE_NIGHT_WEREWOLF_WEAK" Val="Weak Werewolf"/>
 		<Entry Key="DES_SUBRACE_NIGHT_WEREWOLF_WEAK_DES" Val="Also known as wolf men, werewolves are seen as both blessed by the moon lord and yet cursed with the beast taint."/>
 		<Entry Key="DES_SUBRACE_NIGHT_WEREWOLF" Val="Werewolf"/>
+		<Entry Key="DES_SUBRACE_ELDER_NIGHT_WEREWOLF" Val="Elder Werewolf"/>
 		<Entry Key="DES_SUBRACE_NIGHT_WEREWOLF_DES" Val="Also known as wolf men, werewolves are seen as both blessed by the moon lord and yet cursed with the beast taint."/>
 		<Entry Key="DES_SUBRACE_NIGHT_STRIGA" Val="Striga"/>
 		<Entry Key="DES_SUBRACE_NIGHT_STRIGA_DES" Val="Those born with extra row of teeth, a unibrow, or uncommon organs all risk awakening after death to become striga and haunt their own loved ones."/>
 		<Entry Key="DES_SUBRACE_NIGHT_LIGHT_SICK_STRIGA" Val="Light-Sick Striga"/>
 		<Entry Key="DES_SUBRACE_NIGHT_LIGHT_SICK_STRIGA_DES" Val="A fiend of the night yet cursed by light, which makes it weaker, but also angrier."/>
 		<Entry Key="DES_SUBRACE_NIGHT_STRIGA_MASTER" Val="Striga Master"/>
+		<Entry Key="DES_SUBRACE_ELDER_NIGHT_STRIGA_MASTER" Val="Elder Striga Master"/>
 		<Entry Key="DES_SUBRACE_NIGHT_LIGHT_SICK_STRIGA_MASTER" Val="Light-Sick Striga Master"/>
 		<Entry Key="DES_SUBRACE_NIGHT_STRIGA_MASTER_DES" Val="A striga master is adept at hiding their true nature, luring beautiful women to become his eternal brides - or dinner."/>
 		<Entry Key="DES_SUBRACE_NIGHT_LIGHT_SICK_STRIGA_MASTER_DES" Val="A striga master touched by the light-sickness, making him more unstable."/>
 		<Entry Key="DES_SUBRACE_NIGHT_STRIGA_MISTRESS" Val="Striga Mistress"/>
+		<Entry Key="DES_SUBRACE_ELDER_NIGHT_STRIGA_MISTRESS" Val="Elder Striga Mistress"/>
 		<Entry Key="DES_SUBRACE_NIGHT_LIGHT_SICK_STRIGA_MISTRESS" Val="Light-Sick Striga Mistress"/>
 		<Entry Key="DES_SUBRACE_NIGHT_STRIGA_MISTRESS_DES" Val="A striga mistress beguiles unsuspecting men with the illusion of beauty only to lure them as her mates, or her playthings."/>
 		<Entry Key="DES_SUBRACE_NIGHT_LIGHT_SICK_STRIGA_MISTRESS_DES" Val="A striga mistress previously attacked by the lightbringers, she now carries their taint of her dark soul."/>
 		<Entry Key="DES_SUBRACE_NIGHT_CMOK" Val="Cmok"/>
 		<Entry Key="DES_SUBRACE_NIGHT_CMOK_DES" Val="The cmok is said to be the stallion of the striga mistress and the doom of those who see it flying in the night."/>
 		<Entry Key="DES_SUBRACE_WATER_VODNIK" Val="Vodnik"/>
+		<Entry Key="DES_SUBRACE_WATER_ELDER_VODNIK" Val="Elder Vodnik"/>
 		<Entry Key="DES_SUBRACE_WATER_LIGHT_SICK_VODNIK" Val="Light-Sick Vodnik"/>
 		<Entry Key="DES_SUBRACE_WATER_VODNIK_DES" Val="Formidable and ancient water demon. Once master of the lakes and rivers, now challenged by the appearance of the seas."/>
+		<Entry Key="DES_SUBRACE_WATER_SZUVAREK" Val="Szuvarek"/>
+		<Entry Key="DES_SUBRACE_WATER_SZUVAREK" Val="The king of all vodniks, he is said to be immortal. Some whisper that Szuvarek is the son of the moon itself and that he walked the land as far as the days of the giants. Others say he came to life when the first man drowned in a lake under the fool moon. Whatever his origin, he lives in the emerald pond and he is the supreme king of all water demons and as such, he comes to the aid of his kin in times of great strife. "/>
 		<Entry Key="DES_SUBRACE_WATER_LIGHT_SICK_VODNIK_DES" Val="Formidable and ancient water demon that fought off an attack from the lightbringers, but not without a price. He is now weaker than his peers."/>
 		<Entry Key="DES_SUBRACE_WATER_RUSALKA" Val="Rusalka"/>
+		<Entry Key="DES_SUBRACE_WATER_ELDER_RUSALKA" Val="Elder Rusalka"/>
 		<Entry Key="DES_SUBRACE_WATER_RUSALKA_DES" Val="The rusalkas are equal in beauty and ferocity. Unable to bear offspring without the aid of a human, they are known to lure both children and men for their own, dark desires."/>
 		<Entry Key="DES_SUBRACE_WATER_LIGHT_SICK_RUSALKA" Val="Light-Sick Rusalka"/>
 		<Entry Key="DES_SUBRACE_WATER_LIGHT_SICK_RUSALKA_DES" Val="The rusalkas are equal in beauty and ferocity. The light-sickness weakens her dark soul, but not her ferocious desires."/>
 		<Entry Key="DES_SUBRACE_WATER_UTOPIEC" Val="Utopiec"/>
 		<Entry Key="DES_SUBRACE_WATER_UTOPIEC_DES" Val="Often confused with the drowned, the utopiec are water demons loyal to the vodnik, territorial and less likely to use tricks favouring directness."/>
 		<Entry Key="DES_SUBRACE_WATER_BEFUDDLER" Val="Befuddler"/>
+		<Entry Key="DES_SUBRACE_WATER_ELDER_BEFUDDLER" Val="Elder Befuddler"/>
 		<Entry Key="DES_SUBRACE_WATER_LIGHT_SICK_BEFUDDLER" Val="Light-Sick Befuddler"/>
 		<Entry Key="DES_SUBRACE_WATER_BEFUDDLER_DES" Val="Befuddler is the male child of a rusalka, as such he is an abomination, neither man nor water nymph, they are often killed by their own mothers."/>
 		<Entry Key="DES_SUBRACE_WATER_LIGHT_SICK_BEFUDDLER_DES" Val="Befuddler is the male child of a rusalka, rejected by his mother and now also tainted by light. He is not a happy fella."/>
 		<Entry Key="DES_SUBRACE_ICE_DZIAD_MROZ" Val="Dziad Mroz"/>
+		<Entry Key="DES_SUBRACE_ELDER_ICE_DZIAD_MROZ" Val="Elder Dziad Mroz"/>
 		<Entry Key="DES_SUBRACE_ICE_DZIAD_MROZ_DES" Val="Dziad mroz is an ancient, mysterious creature roaming frozen lands in chilling silence. Seeing one would often herald a nasty winter."/>
 		<Entry Key="DES_SUBRACE_ICE_SNIEZYNKI" Val="Sniezynki"/>
+		<Entry Key="DES_SUBRACE_ELDER_ICE_SNIEZYNKI" Val="Elder Sniezynki"/>
 		<Entry Key="DES_SUBRACE_ICE_SNIEZYNKI_DES" Val="Sniezynki are ice demonettes who inhabit frozen lands, they are curious of warm blooded creatures, but can turn icy very quickly."/>
 		<Entry Key="DES_SUBRACE_LIGHT_HUM_CHILD" Val="Light-sick Human Child"/>
 		<Entry Key="DES_SUBRACE_LIGHT_HUM_CHILD_DES" Val="Light-taken child."/>
@@ -922,6 +967,7 @@
 		<Entry Key="DES_SUBRACE_UNLI_DRAGON" Val="Unliving Dragon"/>
 		<Entry Key="DES_SUBRACE_UNLI_DRAGON_DES" Val="Once a majestic drake, now the unliving corpse animated by some dark magic."/>
 		<Entry Key="DES_SUBRACE_MYTHICAL_DRAGON" Val="Dragon"/>
+		<Entry Key="DES_SUBRACE_MYTHICAL_BLUE_DRAGON" Val="Blue Dragon"/>
 		<Entry Key="DES_SUBRACE_MYTHICAL_DRAGON_DES" Val="As old as time itself, Dragons have long been masters of the skies and keepers of greatest treasures. Some really like virgins too."/>
 		<Entry Key="DES_SUBRACE_MYTHICAL_ZMEY" Val="Zmey"/>
 		<Entry Key="DES_SUBRACE_MYTHICAL_ZMEY_DES" Val="The zmey is an ancient creature, a dragon, yet more snake like than their cousins - stories talk of one zmey who is chaos incarnate, some even whisper of his secret ties to the cosmic tree and the old god Veles. The common zmey are either his offspring or avatars. Unlike their fiery cousins, who favour physical confrontations, the zmey often employ their wits and silver, forked tongues to entice people to mischief and misery."/>
@@ -934,12 +980,20 @@
 		<Entry Key="DES_SUBRACE_TROLL_ROCKERS" Val="Rockers"/>
 		<Entry Key="DES_SUBRACE_TROLL_ROCKERS_DES" Val="Often seen as swarms of cascading pebbles, rockers are the young of rock trolls. Only some will ever grow into adults, but they are still extremely attached to their parents."/>
 		<Entry Key="DES_SUBRACE_TROLL_ROCK" Val="Rock Troll"/>
-		<Entry Key="DES_SUBRACE_TROLL_ROCK_DES" Val="The most common of trolls. Likes to eat, especially humans. Prone to bribery and guarding bridges for money."/>
+		<Entry Key="DES_SUBRACE_TROLL_YOUNG_ROCK" Val="Teenage Rocker"/>
+    <Entry Key="DES_SUBRACE_TROLL_YOUNG_ROCK_DES" Val="Not quite a troll yet, but no longer a baby, teenage rockers are known for their mood swings, brooding and making a lot of unnecessary noise. There is none alive who has devised a way of dealing with it all, one must simply survive it."/>
+    <Entry Key="DES_SUBRACE_TROLL_ROCK_DES" Val="The most common of trolls. Likes to eat, especially humans. Prone to bribery and guarding bridges for money."/>
 		<Entry Key="DES_SUBRACE_TROLL_SWAMP" Val="Swamp Troll"/>
-		<Entry Key="DES_SUBRACE_TROLL_SWAMP_DES" Val="The least violent of troll kind, but no lesss dangerous when pushed. Their natural habitat is swamps, but some can settle outside. "/>
-		<Entry Key="DES_SUBRACE_TROLL_ICE" Val="Ice Troll"/>
+		<Entry Key="DES_SUBRACE_TROLL_YOUNG_SWAMP" Val="Swamp Troll Youngster"/>
+    <Entry Key="DES_SUBRACE_TROLL_YOUNG_SWAMP_DES" Val="Not quite a troll yet, but no longer a baby, swamp troll youngsters can be very volatile and moody. Their natural shyness becomes even more pronounced, and they become hypersensitive to any form of criticism, so one must be extra careful when dealing with them."/>
+    <Entry Key="DES_SUBRACE_TROLL_SWAMP_DES" Val="The least violent of troll kind, but no lesss dangerous when pushed. Their natural habitat is swamps, but some can settle outside. "/>
+		<Entry Key="DES_SUBRACE_TROLL_YOUNG_ICE" Val="Ice Troll Youth"/>
+    <Entry Key="DES_SUBRACE_TROLL_YOUNG_ICE_DES" Val="Not quite a troll yet, but no longer a baby, the ice troll youths are known to become extra icy and mean during this volatile period. Prone to dramatic outbursts, or unreasonably long periods of isolation and sulking, the youths are best left t their own devices until adulthood."/>
+    <Entry Key="DES_SUBRACE_TROLL_ICE" Val="Ice Troll"/>
 		<Entry Key="DES_SUBRACE_TROLL_ICE_DES" Val="Solitary creature seen mainly in the desolate ice plains. They are said to be ruled by the dziod mroz, like every other creature of the ice plains."/>
-		<Entry Key="DES_SUBRACE_TROLL_LAVA" Val="Lava Troll"/>
+		<Entry Key="DES_SUBRACE_TROLL_YOUNG_LAVA" Val="Teenage lava rocker"/>
+    <Entry Key="DES_SUBRACE_TROLL_YOUNG_LAVA" Val="Not quite a troll yet, but no longer a baby, teenage lava rockers are known for their fiery mood swings followed by long periods of intense brooding, that can end it sudden, hot outbursts of aggression. There is none alive who has devised a way of dealing with it all, one must simply survive it."/>
+    <Entry Key="DES_SUBRACE_TROLL_LAVA" Val="Lava Troll"/>
 		<Entry Key="DES_SUBRACE_TROLL_LAVA_DES" Val="Risen from the hot pits of molten lava, these trolls are extremely aggressive and like to incinerate folks and challenge them to unfair duels."/>
 		<Entry Key="DES_SUBRACE_DARKNESS_MROKI" Val="Mroki"/>
 		<Entry Key="DES_SUBRACE_DARKNESS_MROKI_DES" Val="Said to have been a giant during the awakening, taken by darkness and twisted into a creature of the shadows. The mroki now dwell in the lands of darkness, together with shadow elves they form the Shadowkin."/>
@@ -952,8 +1006,11 @@
 		<Entry Key="DES_SUBRACE_FAIL_SUMMON" Val="Failed Summon"/>
 		<Entry Key="DES_SUBRACE_FAIL_SUMMON_DES" Val="This is what you get when you try your hand at summoning something you can't handle."/>
 		<Entry Key="DES_SUBRACE_KRAKEN_TENTACLE" Val="Kraken Tentacle"/>
-		<Entry Key="DES_SUBRACE_KRAKEN_TENTACLE_DES" Val="Kraken tentacles have a life of their own and you best avoid their attention."/>		
+		<Entry Key="DES_SUBRACE_KRAKEN_TENTACLE_DES" Val="Kraken tentacles have a life of their own and you best avoid their attention."/>	
+		<Entry Key="DES_SUBRACE_SEA_VINE" Val="Sea Vine"/>
+		<Entry Key="DES_SUBRACE_SEA_VINE_DES" Val="Sea Vines fill all the battle field by the will of Mikolay."/>		
 		<Entry Key="DES_SUBRACE_DZIEVANNAS_FERAL_1" Val="Dzievanna's Feral"/>
+		<Entry Key="DES_SUBRACE_ELDER_DZIEVANNAS_FERAL_1" Val="Elder Dzievanna's Feral"/>
 		<Entry Key="DES_SUBRACE_DZIEVANNAS_FERAL_1_DES" Val="Once they were an elven druid, now they follow the path of the forest fully shedding any constraints of civilisation in favour of becoming a beast."/>
 		<Entry Key="DES_SUBRACE_DZIEVANNAS_FERAL_2" Val="Dzievanna's Feral"/>
 		<Entry Key="DES_SUBRACE_DZIEVANNAS_FERAL_2_DES" Val="The call of the wild drove these elven druids to become truly one with nature. Wild and free they roam the forest ever vigilant and very territorial."/>
@@ -963,12 +1020,14 @@
 		<Entry Key="DES_SUBRACE_LIGHT_SICK_ROGGNYR" Val="Light-Sick Roggnyr"/>
 		<Entry Key="DES_SUBRACE_LIGHT_SICK_ROGGNYR_DES" Val="A rare forest demon that doesn't actually like the company of animals. This one is clearly infected with light-sickness, making it weaker, but likely meaner too."/>
 		<Entry Key="DES_SUBRACE_ROGGNYR" Val="Roggnyr"/>
+		<Entry Key="DES_SUBRACE_ELDER_ROGGNYR" Val="Elder Roggnyr"/>
 		<Entry Key="DES_SUBRACE_ROGGNYR_DES" Val="A rare forest demon that doesn't actually like the company of animals. Beware, they carry grudges like their wrinkles once crossed!"/>
 		<Entry Key="DES_SUBRACE_ENCHANTED_ROGGNYR" Val="Enchanted Roggnyr"/>
 		<Entry Key="DES_SUBRACE_ENCHANTED_ROGGNYR_DES" Val="This typically elusive forest demon has taken possession of an enchanted pipe that allows him to lure children into his twisted lair, where he drains their blood for power."/>
 		<Entry Key="DES_SUBRACE_WARRAX" Val="Warrax"/>
 		<Entry Key="DES_SUBRACE_WARRAX_DES" Val="A hooded warrior clad in heavy armour and roaming the land to seek revenge. Once a legendary warlord of Perun, his soul was stolen by the machinations of dwarven runemasters and bound to eternal servitude."/>
 		<Entry Key="DES_SUBRACE_MENAVCA" Val="Menavca"/>
+		<Entry Key="DES_SUBRACE_ELDER_MENAVCA" Val="Elder Menavca"/>
 		<Entry Key="DES_SUBRACE_MENAVCA_DES" Val="A mysterious and rare demon that is said to have the ability to mimic its victims."/>
 		<Entry Key="DES_SUBRACE_BOG_BIES" Val="Bog Bies"/>
 		<Entry Key="DES_SUBRACE_BOG_BIES_DES" Val="A mysterious creature found lurking the swamps. They are often thought to be an offshoot of the bies, and as such considered as deceptive and dangerous."/>
@@ -985,6 +1044,7 @@
 		<Entry Key="DES_BEAST" Val="Beast"/>
 		<Entry Key="DES_DEMON" Val="Demon"/>
 		<Entry Key="DES_SUBRACE_WARRAKUS" Val="Warrakus"/>
+		<Entry Key="DES_SUBRACE_ELDER_WARRAKUS" Val="Elder Warrakus"/>
 		<Entry Key="DES_SUBRACE_WARRAKUS_DES" Val="The origin or nature of the warrakus is unclear. It is a creature of pure metal and yet it is animated. Some call it demon work, curse, others whisper of dwarven handiwork."/>
 		<Entry Key="DES_SUBRACE_LIGHT_SICK_WARRAKUS" Val="Light-Sick Warrakus"/>
 		<Entry Key="DES_SUBRACE_LIGHT_SICK_WARRAKUS_DES" Val="The origin or nature of the warrakus is unclear. It is a creature of pure metal and yet it is animated. Some call it demon work, curse, others whisper of dwarven handiwork. The light seems unable to claim them, but it does weaken the metal."/>
@@ -1008,6 +1068,32 @@
 		<Entry Key="DES_SUBRACE_POSSESSED_ELDER_PUMPKIN" Val="Possessed Elder Pumpkin"/>
 		<Entry Key="DES_SUBRACE_POSSESSED_ANCIENT_PUMPKIN" Val="Possessed Ancient Pumpkin"/>
 		<Entry Key="DES_SUBRACE_POSSESSED_PUMPKIN_DES" Val="Nasty orange vegetables, mindlessly roaming the lands. They like sweets a lot and have been known to get violent when you don’t give them some."/>
+		<Entry Key="DES_SUBRACE_SEA_DRAGON" Val="Sea Dragon"/>
+		<Entry Key="DES_SUBRACE_SEA_DRAGON_DES" Val="Sea dragon is extremaly rare. Only thing that is know about them is that they destroy armor realy fast."/>
+		<Entry Key="DES_SUBRACE_ELF_SLAVE" Val="Elven Slave"/>
+		<Entry Key="DES_SUBRACE_ELF_SLAVE_DES" Val="The blue orc pirates, like any bandit in Thea, do not shy away from the slave trade. But on their own ships, they keep only the elven slaves, believing this to be a sign of dominance and strength. Elves enslaved by the blue orcs resemble their free kin in every way, except their eyes are sad and empty and their bodies weakened from the mistreatment. "/>
+		<Entry Key="DES_SUBRACE_ORC_PIRATE" Val="Blue Pirate"/>
+		<Entry Key="DES_SUBRACE_ELDER_ORC_PIRATE" Val="Elder Blue Pirate"/>
+		<Entry Key="DES_SUBRACE_ORC_PIRATE_DES" Val="The blue pirates are known for their ferocity and love of conflict. When they first emerged, migrants from the broken Westernlands, they were a mere rubble of blood thirsty orcs seeking a new life. But then it was said they found a new master, one who whispered to them from deep beneath the waters. In time they became more organised and thus more dangerous. Pirate is the most common rank, given to any boatswine that managed to kill their first enemy or find good treasure.  "/> 
+		<Entry Key="DES_SUBRACE_ORC_BOATSWAIN" Val="Boatswine"/>
+		<Entry Key="DES_SUBRACE_ORC_YOUNG_BOATSWAIN" Val="Young Boatswine"/>
+		<Entry Key="DES_SUBRACE_ORC_BOATSWAIN_DES" Val="In the good old tradition of pirate lore, the boatswine are the lowest rank on the ship, not counting the slaves, of course. The boatswine are either youngsters mastering their trade, or the dumb ones who never made it to full rank. They wash the deck, fetch for the officers and do whatever is needed until they can be called pirate."/>
+		<Entry Key="DES_SUBRACE_ORC_COOPER" Val="Cooper"/>
+		<Entry Key="DES_SUBRACE_ORC_COOPER_DES" Val="The cooper is a skilled craftsman who takes care of the maintenance of the ship. Despite their brutish culture, the blue pirates know full well they could not sail without their brainiacs. The coopers thus enjoy a good reputation and protection from their crew. "/>
+		<Entry Key="DES_SUBRACE_BRUTES" Val="Brutes"/>
+		<Entry Key="DES_SUBRACE_BRUTES_DES" Val="Bulky, misshapen oafs, the brutes are the muscle of the blue pirates, not too smart, but brutal in combat. All blue pirates have undergone aquatic mutations over the centuries, most likely gifts from their master. The brutes seem to have fallen in the cauldron when said mutations were handed out. "/>
+		<Entry Key="DES_SUBRACE_QUARTERMASTER" Val="Quartermaster"/>
+		<Entry Key="DES_SUBRACE_QUARTERMASTER_DES" Val="Powerful and mysterious characters, often feared the most by those who see beyond only brute force. The quartermasters are the neck of any good ship. It is them who steer their captains in the right direction. They must walk the line between the crew and the leader, to ensure they are friend to both. The quartermasters are also blessed by the deep waters with mystical power that allows them to guide the ship even among the worst of conditions. "/>
+		<Entry Key="DES_SUBRACE_PIRATE_CAPTAIN" Val="Pirate Captain"/>
+		<Entry Key="DES_SUBRACE_PIRATE_CAPTAIN_DES" Val="There are many ways one can become captain on a pirate ship and none is pretty. As such, they are typically mean, rough and standoffish so that they may rule with an iron hand. A captain can be challenged at any time, so they need to remain sharp, vigilant and strong. Many lose limbs, or wits during their climb to power, and so they can often have peg legs and odd pets as companions. "/>
+		<Entry Key="DES_SUBRACE_PIRATE_CAPTAIN_ERICK" Val="Captain Eric"/>
+		<Entry Key="DES_SUBRACE_PIRATE_CAPTAIN_ERICK_DES" Val="The captain of an unliving ship, manned by men bound to the unlife by some old curse. Some call the captain prince, as this was once his station. Erik’s life force is bound to his old lover, a jurata, but the two have long been apart. "/>
+		<Entry Key="DES_SUBRACE_ORC_PIRATE_CHILD" Val="Pirate child"/>
+		<Entry Key="DES_SUBRACE_ORC_PIRATE_CHILD_DES" Val="A young blue orc, born into the pirate life and so destined to grow up as a plunderer and rogue."/>
+		<Entry Key="DES_SUBRACE_GHOST_BALLIST" Val="Ghost Ballist"/>
+		<Entry Key="DES_SUBRACE_GHOST_BALLIST_DES" Val="That ballist have a screaming soul chain to it."/>
+		<Entry Key="DES_SUBRACE_SEA_THING" Val="Sea Thing"/>
+		<Entry Key="DES_SUBRACE_SEA_THING_DES" Val="A creature born of the depths of the oceans crawled out onto land by some wicked design of its masters. No one really knows how this thing came to life or what its true design may be, but they are often found in the company of the blue pirates. This coalition suggests the two may share a common master."/>
 
 		
 		<!-- RESOURCES -->
@@ -1145,6 +1231,8 @@
 		<Entry Key="DES_RES_COSMIC_SEED_DES" Val="Cosmic Seed is the fruit of the cosmic tree itself, a sacred material given to mortals by the gods to help rebuild Thea."/>
 		<Entry Key="DES_RES_COAL" Val="Coal"/>
 		<Entry Key="DES_RES_COAL_DES" Val="A rather weird kind of rock. Quite useless for crafting but at least it burns well."/>
+		<Entry Key="DES_RES_SEAWEED" Val="Seaweed"/>
+		<Entry Key="DES_RES_SEAWEED_DES" Val="Green and somewhat slimy plant you pulled out of the sea. Smells disgusting, but apparently it's edible."/>
 		<Entry Key="DES_TERRAIN_ARTIFACT" Val="Terrain Artefact"/>
 		<Entry Key="DES_TERRAIN_ARTIFACT_DES" Val="These shiny floating crystals look a bit unusual. Maybe they were sent by the gods to aid you? Gather them and uncover bits of ancient knowledge stored within."/>
 		<Entry Key="DES_RESEARCH_GENERIC" Val="A Bit of Research"/>
@@ -2047,25 +2135,29 @@
 		<Entry Key="DES_COSMIC_RING" Val="The Other Ring"/>
 		<Entry Key="DES_COSMIC_RING_DES" Val="Somehow this little ring feels full of energy. Just put it on your finger, you know you want to..."/>
 		<Entry Key="DES_SHIP_SMALL" Val="Raft"/>
-		<Entry Key="DES_SHIP_SMALL_DES" Val="A basic vessel that will allow you to sail."/>
+		<Entry Key="DES_SHIP_SMALL_DES" Val="A basic vessel that will allow you to sail but cannot be used for gathering or crafting."/>
 		<Entry Key="DES_SHIP_SMALL_STRIBOG" Val="Stribog's Raft"/>
-		<Entry Key="DES_SHIP_SMALL_STRIBOG_DES" Val="A blessed vessel that will allow you to sail."/>
+		<Entry Key="DES_SHIP_SMALL_STRIBOG_DES" Val="A blessed vessel that will allow you to sail but cannot be used for gathering or crafting."/>
 		<Entry Key="DES_SHIP_MEDIUM" Val="Sailboat"/>
-		<Entry Key="DES_SHIP_MEDIUM_DES" Val="A decent boat that will allow you to sail and maybe take some supplies too."/>
+		<Entry Key="DES_SHIP_MEDIUM_DES" Val="A decent boat that will allow you to sail and maybe take some supplies too. Allows to gather sea resources and craft while sailing."/>
 		<Entry Key="DES_SHIP_LARGE" Val="Ship"/>
-		<Entry Key="DES_SHIP_LARGE_DES" Val="If you're serious about water travel, this is what you want."/>
+		<Entry Key="DES_SHIP_LARGE_DES" Val="If you're serious about water travel, this is what you want. Allows to gather sea resources and craft while sailing."/>
+		<Entry Key="DES_PIRATE_SHIP1" Val="Drifter"/>
+		<Entry Key="DES_PIRATE_SHIP1_DES" Val="A pirate vessel, held together by ropes and good spirits of its crew. Allows to gather sea resources and craft while sailing."/>
+		<Entry Key="DES_PIRATE_SHIP2" Val="Wayfarer"/>
+		<Entry Key="DES_PIRATE_SHIP2_DES" Val="A big pirate vessel, has seen better days but it still floats. Allows to gather sea resources and craft while sailing."/>
 		<Entry Key="DES_COOKING" Val="Cooked Food"/>
 		<Entry Key="DES_COOKING_DES" Val="Mmmm smells nice!"/>
 		<Entry Key="DES_COOKING_MEAT1" Val="Sweet Meat"/>
 		<Entry Key="DES_COOKING_MEAT1_DES" Val="Spicy meat with fruits.\nPrimary ingredients:\n{ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs}\nSecondary ingredients:\n{ICON:Fruits} {ICON:Nuts} {ICON:Spices} {ICON:Herbs}"/>
 		<Entry Key="DES_COOKING_MEAT2" Val="Meaty Meals"/>
-		<Entry Key="DES_COOKING_MEAT2_DES" Val="Hearty meat and vegetables recipes.\nPrimary ingredients:\n{ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs}\nSecondary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Mushrooms} {ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs}"/>
+		<Entry Key="DES_COOKING_MEAT2_DES" Val="Hearty meat and vegetables recipes.\nPrimary ingredients:\n{ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs}\nSecondary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Seaweed} {ICON:Mushrooms} {ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs}"/>
 		<Entry Key="DES_COOKING_VEGGIES1" Val="Vegetarian Choice"/>
-		<Entry Key="DES_COOKING_VEGGIES1_DES" Val="Spicy vegetables.\nPrimary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Mushrooms}\nSecondary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Mushrooms} {ICON:Spices} {ICON:Herbs}"/>
+		<Entry Key="DES_COOKING_VEGGIES1_DES" Val="Spicy vegetables.\nPrimary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Mushrooms}\nSecondary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Seaweed} {ICON:Mushrooms} {ICON:Spices} {ICON:Herbs}"/>
 		<Entry Key="DES_COOKING_VEGGIES2" Val="Traditional Menu"/>
-		<Entry Key="DES_COOKING_VEGGIES2_DES" Val="Traditional Slavic dishes.\nPrimary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Mushrooms}\nSecondary ingredients:\n{ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs} {ICON:Fruits} {ICON:Nuts}"/>
+		<Entry Key="DES_COOKING_VEGGIES2_DES" Val="Traditional Slavic dishes.\nPrimary ingredients:\n{ICON:Veggies} {ICON:Grain} {ICON:Seaweed} {ICON:Mushrooms}\nSecondary ingredients:\n{ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs} {ICON:Fruits} {ICON:Nuts}"/>
 		<Entry Key="DES_COOKING_FRUITS1" Val="Grandma's Treats"/>
-		<Entry Key="DES_COOKING_FRUITS1_DES" Val="Treats for special occasions.\nPrimary ingredients:\n{ICON:Fruits} {ICON:Nuts}\nSecondary ingredients:\n{ICON:Fruits} {ICON:Nuts} {ICON:Veggies} {ICON:Grain} {ICON:Mushrooms}"/>
+		<Entry Key="DES_COOKING_FRUITS1_DES" Val="Treats for special occasions.\nPrimary ingredients:\n{ICON:Fruits} {ICON:Nuts}\nSecondary ingredients:\n{ICON:Fruits} {ICON:Nuts} {ICON:Veggies} {ICON:Grain} {ICON:Seaweed} {ICON:Mushrooms}"/>
 		<Entry Key="DES_COOKING_FRUITS2" Val="Goblin Recipes"/>
 		<Entry Key="DES_COOKING_FRUITS2_DES" Val="Dishes and drinks from Goblins' Donoughteet Book.\nPrimary ingredients:\n{ICON:Fruits} {ICON:Nuts}\nSecondary ingredients:\n{ICON:Meat} {ICON:Fish} {ICON:BeetleJelly} {ICON:Eggs} {ICON:Spices} {ICON:Herbs}"/>
 		<Entry Key="DES_PET_HORSE" Val="Horse"/>
@@ -2104,6 +2196,10 @@
 		<Entry Key="DES_PET_CHICKEN_DES" Val="Your Slavyan Cock is the envy of all your neighbours."/>
 		<Entry Key="DES_PET_PUMPKIN" Val="Pumpkin"/>
 		<Entry Key="DES_PET_PUMPKIN_DES" Val="This little fella was carved to celebrate the All Hallows Eve, but through demon trickery or some other dark magic, it was awakened. It seems to like you very much, and follows you wherever you go - despite not having any legs. "/>
+		<Entry Key="DES_PET_PARROT" Val="Parrot"/>
+		<Entry Key="DES_PET_PARROT_DES" Val="Please insert crackers."/>
+		<Entry Key="DES_PET_CRAB" Val="Crab"/>
+		<Entry Key="DES_PET_CRAB_DES" Val="It always wanted to be a giant space crab."/>
 
 		<!-- BUILDINGS -->
 		<Entry Key="DES_IDOL" Val="Idol"/>
@@ -2257,6 +2353,18 @@
 		<Entry Key="DES_COOKING_NUTS_FRUITS_DES" Val="Muesli, breakfast of choice for fancy folk."/>
 		<Entry Key="DES_COOKING_NUTS_SPICES" Val="Nut Tincture"/>
 		<Entry Key="DES_COOKING_NUTS_SPICES_DES" Val="Nut Tincture. If it sounds suspicious then it probably is, so consume at your own risk."/>
+		<Entry Key="DES_COOKING_SEAWEED_VEGGIES" Val="Green Soup"/>
+		<Entry Key="DES_COOKING_SEAWEED_VEGGIES_DES" Val="Boiled kelp and other vegetables. If you spice it enough, you can probably eat it."/>
+		<Entry Key="DES_COOKING_SEAWEED_SPICES" Val="Spirit Of The Seas"/>
+		<Entry Key="DES_COOKING_SEAWEED_SPICES_DES" Val="An old tale says that it was discovered by sailors, who forgot about some slimy leaves they stored in a barrel."/>
+		<Entry Key="DES_COOKING_SEAWEED_MEAT" Val="Sushi"/>
+		<Entry Key="DES_COOKING_SEAWEED_MEAT_DES" Val="A bunch of ingredients wrapped in a seaweed leaf. Apparently edible."/>
+		<Entry Key="DES_COOKING_SEAWEED_FRUITS" Val="Seaweed Salad"/>
+		<Entry Key="DES_COOKING_SEAWEED_FRUITS_DES" Val="Smells funny and not much like food but some chefs insist it's actually healthy."/>
+		<Entry Key="DES_COOKING_GRAIN_VEGGIES_BREAD" Val="Bread"/>
+		<Entry Key="DES_COOKING_GRAIN_VEGGIES_BREAD_DES" Val="Because we all know that a sandwich without the filling is not really a sandwich."/>
+		<Entry Key="DES_COOKING_VEGGIES_MEAT_BORSCHT" Val="Borscht"/>
+		<Entry Key="DES_COOKING_VEGGIES_MEAT_BORSCHT_DES" Val="A traditional soup made with beetroot and beetle jelly."/>
 		
 		<!-- Tech -->
 		<Entry Key="DES_TECH_SWORDS" Val="Swords"/>
@@ -2449,12 +2557,18 @@
 		<Entry Key="DES_SKILL_PARRY_DES" Val="Adds extra shielding."/>
 		<Entry Key="DES_SKILL_CHILD_GROW_UP" Val="Child growing up"/>
 		<Entry Key="DES_SKILL_CHILD_GROW_UP_DES" Val="This child will grow into an adult once the counter reaches 0."/>
+		<Entry Key="DES_SKILL_TROLL_CHILD_GROW_UP" Val="Troll Child growing up"/>
+		<Entry Key="DES_SKILL_TROLL_CHILD_GROW_UP_DES" Val="This troll child will grow into an adult once the counter reaches 0."/>
+		<Entry Key="DES_SKILL_PINECONETTES_CHILD_GROW_UP" Val="Pineconettes Child growing up"/>
+		<Entry Key="DES_SKILL_PINECONETTES_CHILD_GROW_UP_DES" Val="This pineconettes child will grow into an adult once the counter reaches 0."/>
 		<Entry Key="DES_SKILL_MASTER_LUCK" Val="Lucky Sod"/>
 		<Entry Key="DES_SKILL_MASTER_LUCK_DES" Val="This character has a special talent for finding things - be it loot or trouble."/>
 		<Entry Key="DES_SKILL_MASTER_GATHERER" Val="Master Gatherer"/>
 		<Entry Key="DES_SKILL_MASTER_GATHERER_DES" Val="This character specialises in Gathering."/>
 		<Entry Key="DES_SKILL_MASTER_CRAFTSMAN" Val="Master Craftsman"/>
 		<Entry Key="DES_SKILL_MASTER_CRAFTSMAN_DES" Val="This character specialises in creating items."/>
+		<Entry Key="DES_SKILL_MASTER_LABOURER" Val="Master Labourer"/>
+		<Entry Key="DES_SKILL_MASTER_LABOURER_DES" Val="This character knows how to craft items and gather materials."/>
 		<Entry Key="DES_SKILL_MASTER_INVENTOR" Val="Master Inventor"/>
 		<Entry Key="DES_SKILL_MASTER_INVENTOR_DES" Val="This character specialises in creating items and research."/>
 		<Entry Key="DES_SKILL_MASTER_HEALER" Val="Master Healer"/>
@@ -2470,11 +2584,13 @@
 		<Entry Key="DES_SKILL_BEE_STING" Val="Bee Sting"/>
 		<Entry Key="DES_SKILL_BEE_STING_DES" Val="Sharp and deadly, this sting can easily bypass any armour."/>
 		<Entry Key="DES_SKILL_BOILED_BLOOD" Val="Boiled Blood"/>
-		<Entry Key="DES_SKILL_BOILED_BLOOD_DES" Val="You blood turns into a weapon against your enemies. Using blood from wounds to burn the attackers."/>
+		<Entry Key="DES_SKILL_BOILED_BLOOD_DES" Val="Your blood turns into a weapon against your enemies. Using blood from wounds to burn the attackers."/>
 		<Entry Key="DES_SKILL_HEADBUTT" Val="Headbutt"/>
 		<Entry Key="DES_SKILL_HEADBUTT_DES" Val="Fast, brutal and unexpected. Create chaos in the enemy's head."/>
 		<Entry Key="DES_SKILL_INSPIRE" Val="Inspire"/>
 		<Entry Key="DES_SKILL_INSPIRE_DES" Val="Inspire your allies. They will fight faster and hit harder with your support."/>
+		<Entry Key="DES_SKILL_GODS_PRESENCE" Val="God's Presence"/>
+		<Entry Key="DES_SKILL_GODS_PRESENCE_DES" Val="Your God's inspiration flows through you. You can change one normal person into a powerful warrior. They will fight faster and hit harder with your support."/>
 		<Entry Key="DES_SKILL_DIZZINESS_POWDER" Val="Dizziness Powder"/>
 		<Entry Key="DES_SKILL_DIZZINESS_POWDER_DES" Val="Any enemy hit by the powder gets dizzy and confused."/>
 		<Entry Key="DES_SKILL_BLIZZARD" Val="Blizzard"/>
@@ -2495,6 +2611,8 @@
 		<Entry Key="DES_SKILL_SNEAK_ATTACK_DES" Val="Strike an unexpected blow from the shadows."/>
 		<Entry Key="DES_SKILL_EERIE_THROWING_AXE" Val="Ghostly Axe"/>
 		<Entry Key="DES_SKILL_EERIE_THROWING_AXE_DES" Val="A throwing axe which, oddly enough, only materialises once thrown. Able to damage both body and soul."/>
+		<Entry Key="DES_SKILL_GHOST_BOLT" Val="Ghost Bolt"/>
+		<Entry Key="DES_SKILL_GHOST_BOLT_DES" Val="A bolt fired from the Ghost Ballista. You will not see it coming, just hear its scream. Able to damage both body and soul."/>
 		<Entry Key="DES_SKILL_GROUND_SHAKING" Val="Ground Shake"/>
 		<Entry Key="DES_SKILL_GROUND_SHAKING_DES" Val="Shake the ground under the feet of your enemies."/>
 		<Entry Key="DES_SKILL_ICE_SPIKE" Val="Ice Spike"/>
@@ -2559,6 +2677,38 @@
 		<Entry Key="DES_SKILL_CHAIN_WHIP_DES" Val="The chains not only hit like a whip but can also steal life from the enemies."/>
 		<Entry Key="DES_SKILL_SEEDS_GROW" Val="Grow Seeds"/>
 		<Entry Key="DES_SKILL_SEEDS_GROW_DES" Val="Pineconettes grow fast near Nai-Ysir..."/>
+		<Entry Key="DES_SKILL_ANGRY_WAVES" Val="Angry Waves"/>
+		<Entry Key="DES_SKILL_ANGRY_WAVES_DES" Val="It's impossible but that waves seems to be angry at you."/>
+		<Entry Key="DES_SKILL_MUTATION_CURSE" Val="Mutation"/>
+		<Entry Key="DES_SKILL_MUTATION_CURSE_DES" Val="Magic mutated one of your friends. They lose some of their hit points but become more aggressive."/>
+		<Entry Key="DES_SKILL_SUMMON_SEA_DRAGON" Val="Summon Sea Dragons"/>
+		<Entry Key="DES_SKILL_SUMMON_SEA_DRAGON_DES" Val="Sea Dragons? What are those funny creatures...? Hey, don't eat my armour!"/>
+		<Entry Key="DES_SKILL_WAVE_SHOT" Val="Wave Shot"/>
+		<Entry Key="DES_SKILL_WAVE_SHOT_DES" Val="Water projectiles can be dangerous too, especially if they are this big."/>
+		<Entry Key="DES_SKILL_SUMMON_SEA_VINES" Val="Summon Sea Vines"/>
+		<Entry Key="DES_SKILL_SUMMON_SEA_VINES_DES" Val="Looks like seaweed, but waaay bigger and they move on your plate."/>
+		<Entry Key="DES_SKILL_TIMELESS_GRIP" Val="Timeless Grip"/>
+		<Entry Key="DES_SKILL_TIMELESS_GRIP_DES" Val="Time is warped near those who mastered this skill."/>
+		<Entry Key="DES_SKILL_SEA_WOLF" Val="Sea Wolf"/>
+		<Entry Key="DES_SKILL_SEA_WOLF_DES" Val="Yo ho, yo ho, and a bottle of rum!"/>
+		<Entry Key="DES_SKILL_NET_SHOT" Val="Net Shot"/>
+		<Entry Key="DES_SKILL_NET_SHOT_DES" Val="Each pirate has a net-shooting crossbow. It's small and can't really can kill anybody but serves as a good distraction."/>
+		<Entry Key="DES_SKILL_LIFETIME_SERVANT" Val="Lifetime Servant"/>
+		<Entry Key="DES_SKILL_LIFETIME_SERVANT_DES" Val="You are broken and your only hope is to serve untill you die."/>
+		<Entry Key="DES_SKILL_GANG_SUPPORT" Val="Gang Support"/>
+		<Entry Key="DES_SKILL_GANG_SUPPORT_DES" Val="The more of us, the harder we are to kill."/>
+		<Entry Key="DES_SKILL_FIRST_CLASS_BLADES" Val="First Class Blades"/>
+		<Entry Key="DES_SKILL_FIRST_CLASS_BLADES_DES" Val="When you are on the battlefield your weapon's blade seems to be sharper."/>
+		<Entry Key="DES_SKILL_RUM_BARREL_THROW" Val="Rum Barrel Throw"/>
+		<Entry Key="DES_SKILL_RUM_BARREL_THROW_DES" Val="You got your oponents drunk!"/>
+		<Entry Key="DES_SKILL_SUMMON_GHOST_BALLISTA" Val="Summon Ghost Ballista"/>
+		<Entry Key="DES_SKILL_SUMMON_GHOST_BALLISTA_DES" Val="Its appearance on the battlefiled is always accompanied by a startling scream."/>
+		<Entry Key="DES_SKILL_FLYING_ANVILS" Val="Flying Anvils"/>
+		<Entry Key="DES_SKILL_FLYING_ANVILS_DES" Val="There are things that are not supposed to fly and anvils are one of them. If you can somehow manage to throw one, it becomes a terryfing projectile."/>
+		<Entry Key="DES_SKILL_SEA_PILLAR" Val="Sea Pillar"/>
+		<Entry Key="DES_SKILL_SEA_PILLAR_DES" Val="The sea starts bubbling and after a moment it explodes with a pillar of water, flying right at the target."/>
+		<Entry Key="DES_SKILL_SHIELDING_DEGENERATION" Val="Shielding Degeneration"/>
+		<Entry Key="DES_SKILL_SHIELDING_DEGENERATION_DES" Val="Your presence destroys some of your enemies' armour. Just like that!"/>
 		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE" Val="Pumpkin Hellfire"/>
 		<Entry Key="DES_SKILL_PUMPKIN_HELLFIRE_DES" Val="Your pumpkin is fragile like a glass bottle. But be warned that inside it there is hellfire hidden so you better not break it!"/>
 		<Entry Key="DES_SKILL_VIGOUR_DRAIN" Val="Drain Vigour"/>
@@ -2618,11 +2768,16 @@
 		<Entry Key="DES_SKILL_RACE_ELVES" Val="Elf"/>
 		<Entry Key="DES_SKILL_RACE_ELVES_WEAK" Val="Elf"/>
 		<Entry Key="DES_SKILL_RACE_ELVES_DES" Val="The character is an elf. They are immortal beings known for greater wisdom and connection to magic."/>
+		<Entry Key="DES_SKILL_RACE_ELVES_SLAVE" Val="Slave Elf"/>
+		<Entry Key="DES_SKILL_RACE_ELVES_SLAVE_DES" Val="The character is a slave elf. They are weaker and broken and cannot use Ancestors' Voice any more."/>
 		<Entry Key="DES_SKILL_RACE_ORCS" Val="Orc"/>
-		<Entry Key="DES_SKILL_RACE_ORCS_DES" Val="The character is an orc. They are a warrior race that lives in a matriarchal clan structure. They are known for their strength, ferocity and disdain for 1h weapons."/>
+		<Entry Key="DES_SKILL_RACE_ORCS_DES" Val="The character is an orc. They are a warrior race that lives in a matriarchal clan structure. They are known for their strength, ferocity and despise of 1h weapons."/>
+		<Entry Key="DES_SKILL_RACE_PIRATE_ORCS" Val="Pirate Orc"/>
+		<Entry Key="DES_SKILL_RACE_PIRATE_ORCS_DES" Val="The character is an pirate orc. They show from other unknow part of Thea. They are known for their strength, ferocity and despise of 1h weapons."/>
 		<Entry Key="DES_SKILL_RACE_GOBLINS" Val="Goblin"/>
 		<Entry Key="DES_SKILL_RACE_GOBLINS_DES" Val="The character is a goblin. They love tinkering, so they are better at research and rituals."/>
 		<Entry Key="DES_SKILL_RACE_DEMON" Val="Demon"/>
+		<Entry Key="DES_SKILL_RACE_WATER_DEMON" Val="Water Demon"/>
 		<Entry Key="DES_SKILL_RACE_DEMON_FLYING" Val="Flying Demon"/>
 		<Entry Key="DES_SKILL_RACE_DEMON_CMUCH" Val="Demon Cmuch"/>
 		<Entry Key="DES_SKILL_RACE_DEMON_DES" Val="The character is a demon. A creature weaved from magic, which gives them bonuses to faith. They also tend to be great talkers."/>
@@ -2673,15 +2828,23 @@
  		<Entry Key="DES_SKILL_TRIGLAV_GODS_COMMANDER_CHOSEN" Val="Triglav's Chosen"/>
 		<Entry Key="DES_SKILL_TRIGLAV_GODS_COMMANDER_CHOSEN_DES" Val="Being a Chosen is not an easy task. Triglav appreciated that and decided to bestow a special ability on his chosen follower."/>
  		<Entry Key="DES_SKILL_IDOL_OF_PAIN" Val="Not Dead Yet"/>
-		<Entry Key="DES_SKILL_IDOL_OF_PAIN_DES" Val="If your Chosen dies, they change into an unliving corpse. Additionally, all your characters have a lower chance to die from heavy wounds.."/>
+		<Entry Key="DES_SKILL_IDOL_OF_PAIN_DES" Val="If your Chosen dies, they change into an unliving corpse. Additionally, all your characters have a lower chance to die from heavy wounds."/>
+ 		<Entry Key="DES_SKILL_MOTHER_CARING_LOOK" Val="Mother's Watchful Eye"/>
+		<Entry Key="DES_SKILL_MOTHER_CARING_LOOK_DES" Val="Ever watchful eye of the mother gives all characters a bonus to Physical and Mental Shielding, Gathering and Crafting. However they cannot use Jewellery and their Research is lower by 10%."/> 		
+		<Entry Key="DES_SKILL_MOTHER_PROTECTION" Val="Mother's Protection"/>
+		<Entry Key="DES_SKILL_MOTHER_PROTECTION_DES" Val="The Chosen is the apple of the mother's eye. They can bestow a special protection that increases Shielding of a selected ally on the battlefield."/>
 		<Entry Key="DES_SKILL_SHIP_SMALL" Val="Raft"/>
-		<Entry Key="DES_SKILL_SHIP_SMALL_DES" Val="Allows to sail on seas. Slow with small capacity."/>
+		<Entry Key="DES_SKILL_SHIP_SMALL_DES" Val="Allows to sail on seas. Slow with small capacity. Cannot be used for gathering or crafting while sailing."/>
 		<Entry Key="DES_SKILL_STRIBOG_SHIP_SMALL" Val="Stribog's Raft"/>
-		<Entry Key="DES_SKILL_STRIBOG_SHIP_SMALL_DES" Val="Allows to sail on seas. Very light yet surprisingly capacious."/>
+		<Entry Key="DES_SKILL_STRIBOG_SHIP_SMALL_DES" Val="Allows to sail on seas. Very light yet surprisingly capacious. Cannot be used for gathering or crafting while sailing."/>
 		<Entry Key="DES_SKILL_SHIP_MEDIUM" Val="Sailboat"/>
-		<Entry Key="DES_SKILL_SHIP_MEDIUM_DES" Val="Allows to sail on seas. Fast with medium capacity."/>
+		<Entry Key="DES_SKILL_SHIP_MEDIUM_DES" Val="Allows to sail on seas. Fast with medium capacity. Can be used for gathering or crafting while sailing."/>
 		<Entry Key="DES_SKILL_SHIP_LARGE" Val="Ship"/>
-		<Entry Key="DES_SKILL_SHIP_LARGE_DES" Val="Allows to sail on seas. Slow with big capacity."/>
+		<Entry Key="DES_SKILL_SHIP_LARGE_DES" Val="Allows to sail on seas. Slow with big capacity. Can be used for gathering or crafting while sailing."/>
+		<Entry Key="DES_SKILL_PIRATE_SHIP1" Val="Drifter"/>
+		<Entry Key="DES_SKILL_PIRATE_SHIP1_DES" Val="Allows to sail on seas. Slow with medium capacity, provides XP per turn. Can be used for gathering or crafting while sailing."/>
+		<Entry Key="DES_SKILL_PIRATE_SHIP2" Val="Wayfarer"/>
+		<Entry Key="DES_SKILL_PIRATE_SHIP2_DES" Val="Allows to sail on seas. Slow with big capacity, provides Shielding bonus. Can be used for gathering or crafting while sailing."/>
 		<Entry Key="DES_SKILL_COSMIC_SEED" Val="Cosmic Seed's Root"/>
 		<Entry Key="DES_SKILL_COSMIC_SEED_DES" Val="You become the gate of cosmic energy."/>
 		<Entry Key="DES_SKILL_FOREFATHER_STIGMA" Val="Stigma of the Forefathers"/>
@@ -2690,6 +2853,8 @@
 		<Entry Key="DES_SKILL_GREED_DES" Val="Clanless dwarves suffer from an odd form of hunger - they need to ingest a metal bar each turn. Every time this character ingests a metal bar, they are closer to getting rid of this weakness."/>
 		<Entry Key="DES_SKILL_FOODIE" Val="Foodie"/>
 		<Entry Key="DES_SKILL_FOODIE_DES" Val="The common folk have a saying - 'Never eat more than you can lift'. But dwarves lift a lot and they surely aren't common folk! As a Dwarf, this character has chance to eat 1 extra {ICON:FoodIcon} per turn."/>
+		<Entry Key="DES_SKILL_SLAVE" Val="Slave Mark"/>
+		<Entry Key="DES_SKILL_SLAVE_DES" Val="Each slave has a mark. Not only on their body but also on their mind and soul. Slave Mark is a dreadful symbol of their past, future and present."/>
 		<Entry Key="DES_SKILL_NATURE_PURITY" Val="Natural Purity"/>
 		<Entry Key="DES_SKILL_NATURE_PURITY_DES" Val="This character refuses to wear any equipment other than weapons, but their songs put all group members minds at ease, increasing Sanity regeneration."/>
 		<Entry Key="DES_SKILL_WEATHER_VIS" Val="Rain"/>
@@ -2748,6 +2913,12 @@
         <Entry Key="DES_SKILL_IMPROVISE_DES" Val="The character is great at creating something to attack or defend with, from anything that's at hand."/>
         <Entry Key="DES_SKILL_IMPROVISE_ARMOUR" Val="Improvised Cover"/>
         <Entry Key="DES_SKILL_IMPROVISE_ARMOUR_DES" Val="The character is able to shield themselves using anything they can hold."/>
+        <Entry Key="DES_SKILL_SPATIAL_AWARNESS" Val="Spatial Awarness"/>
+        <Entry Key="DES_SKILL_SPATIAL_AWARNESS_DES" Val="You know how to use environment to your advantage and are able to take better positions during challenges."/>
+        <Entry Key="DES_SKILL_PERFECT_AIMING" Val="Perfect Aiming"/>
+        <Entry Key="DES_SKILL_PERFECT_AIMING_DES" Val="Your sharp eyesight allows you to aim better and hit harder at a distance."/>
+        <Entry Key="DES_SKILL_I_TAKE_IT" Val="I'll Take It"/>
+        <Entry Key="DES_SKILL_I_TAKE_IT_DES" Val="You are a little greedy and want everything for yourself. Others may look at you with contempt, but this trait has made your back stronger and you can carry more."/>
 			
 		<Entry Key="DES_SKILL_PET_HORSE" Val="Horse"/>
 		<Entry Key="DES_SKILL_PET_HORSE_DES" Val="Increases movement and group carry limits."/>
@@ -2786,6 +2957,10 @@
 		<Entry Key="DES_SKILL_PET_PUMPKIN" Val="Pet Pumpkin"/>
 		<Entry Key="DES_SKILL_PET_PUMPKIN_DES" Val="Pet Pumpkin"/>
 		<Entry Key="DES_SKILL_PET_SUMMON_DES" Val="Summon Pet"/>
+		<Entry Key="DES_SKILL_PET_PARROT" Val="Pet Parrot"/>
+		<Entry Key="DES_SKILL_PET_PARROT_DES" Val="Pet Parrot"/>
+		<Entry Key="DES_SKILL_PET_CRAB" Val="Pet Crab"/>
+		<Entry Key="DES_SKILL_PET_CRAB_DES" Val="Pet Crab"/>
 		
 		<Entry Key="DES_SKILL_IDOL" Val="Idol"/>
 		<Entry Key="DES_SKILL_IDOL_DES" Val="Creates a village and allows villagers to carry out gathering tasks within its range. Base visibility and gathering range is 1 hex."/>
@@ -2893,6 +3068,8 @@
 		<Entry Key="DES_SKILL_DARK_SHIFT_DES" Val="You can bend the reality for two allies, filling them with dark energy. This switches their initiative and gives them dark shielding protection."/>
 		<Entry Key="DES_SKILL_DARK_CLAW" Val="Dark Claw"/>
 		<Entry Key="DES_SKILL_DARK_CLAW_DES" Val="You are able to conjure a bear claw out of the dark energy within you, sharp enough to slice your enemies like carrots."/>
+		<Entry Key="DES_SKILL_DARK_CLAW" Val="Dark Claw"/>
+		<Entry Key="DES_SKILL_DARK_CLAW_DES" Val="You are able to conjure a bear claw out of the dark energy within you, sharp enough to slice your enemies like carrots."/>
 		<Entry Key="DES_SKILL_ANIMATED_WOOD" Val="Animated Wood"/>
 		<Entry Key="DES_SKILL_ANIMATED_WOOD_DES" Val="Magic forces give this wooden object special abilities. It now has properties of both wood and the avatar enchanted within."/>
 		<Entry Key="DES_SKILL_UNSTABLE_CREATION" Val="Unstable Creation"/>
@@ -2911,6 +3088,8 @@
 		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE_DES" Val="This concept card will prefer ranged spots of the battlefield."/>
 		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE_HEAVY" Val="Concept - Ranged Heavy"/>
 		<Entry Key="DES_SKILL_CON_DEFAULT_RANGE_HEAVY_DES" Val="This concept card will prefer ranged spots of the battlefield."/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_STRONG_WILD" Val="Concept - Strong Range Wild"/>
+		<Entry Key="DES_SKILL_CON_DEFAULT_STRONG_WILD_DES" Val="This concept card will prefer ranged spots of the battlefield."/>
 		<Entry Key="DES_SKILL_FOREFATHER_ANGER" Val="Forefathers' Anger"/>
 		<Entry Key="DES_SKILL_FOREFATHER_ANGER_DES" Val="When battle starts, your anger will call a forefather as an ally to fight on your side."/>
 			
@@ -2978,7 +3157,7 @@
 		<Entry Key="DES_SUBSKILL_SPARK" Val="Spark Strike"/>
 		<Entry Key="DES_SUBSKILL_LIGHTNING_DES" Val="Damages a single opponent selected at random."/>
 		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE" Val="Sacrificial Blood"/>
-		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Val="The caster deals Essence True Damage to themselves and then applies that damage, multiplied by the skill power, as an attack."/>
+		<Entry Key="DES_SUBSKILL_BLOODY_SACRIFICE_DES" Val="The caster deals damage to its actual health and then applies that damage, multiplied by the skill power, as an attack ignoring enemy armour."/>
 		<Entry Key="DES_SUBSKILL_EXPLODING_DEAD" Val="Exploding Dead"/>
 		<Entry Key="DES_SUBSKILL_EXPLODING_DEAD_DES" Val="An opponent killed with this ability explodes, dealing a massive amount of damage to anyone stading next to them."/>
 		<Entry Key="DES_SUBSKILL_BITE" Val="Bite"/>
@@ -2991,8 +3170,11 @@
 		<Entry Key="DES_SUBSKILL_LEECH_BITE_DES" Val="Melee attack, targets a single enemy closest to the attacker. The attacker recovers a portion of their health."/>
 		<Entry Key="DES_SUBSKILL_LEECH_WHIP_HIT" Val="Leech Whip Hit"/>
 		<Entry Key="DES_SUBSKILL_LEECH_WHIP_HIT_DES" Val="Melee attack, targets 3 enemies horizontally. The attacker recovers a portion of their health."/>
+		<Entry Key="DES_SUBSKILL_ANGRY_WAVES" Val="Angry Waves"/>
+		<Entry Key="DES_SUBSKILL_ANGRY_WAVES_DES" Val="Melee attack, targets only closer enemy in each column on battlefield."/>
 		<Entry Key="DES_SUBSKILL_CLAW_HIT" Val="Claw Hit"/>
 		<Entry Key="DES_SUBSKILL_DARK_CLAW_HIT" Val="Dark Claw Hit"/>
+		<Entry Key="DES_SUBSKILL_MYSTIC_CLAW_HIT" Val="Mystic Claw Hit"/>
 		<Entry Key="DES_SUBSKILL_CLAW_HIT_DES" Val="Melee attack, targets 3 enemies in horizontal line."/>
 		<Entry Key="DES_SUBSKILL_LINE_CHARGE" Val="Line Charge"/>
 		<Entry Key="DES_SUBSKILL_LINE_CHARGE_DES" Val="Melee attack, targets two opponents in a vertical line."/>
@@ -3066,16 +3248,22 @@
 		<Entry Key="DES_SUBSKILL_BLOODY_SUMMON_WEREWOLF_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Werewolf to a melee spot on your side of the battlefield. The caster loses half of their current Health."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_DARK_TOTEM" Val="Dark Totem"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_DARK_TOTEM_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Dark Totem to a random spot on your side of the battlefield."/>
+		<Entry Key="DES_SUBSKILL_SUMMON_SEA_DRAGON" Val="Sea Dragon"/>
+		<Entry Key="DES_SUBSKILL_SUMMON_SEA_DRAGON_DES" Val="{COLOR:red}Only two copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Sea Dragon to a melee spot on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_BEE" Val="Summon Bee"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_BEE_DES" Val="Summon 2 bees to melee spots on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_KRAKEN_TENTACLE" Val="Summon Tentacle"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_KRAKEN_TENTACLE_DES" Val="{COLOR:red}Requires the caster to be present on the battlefield.{END_COLOR}\nSummon 4 Tentacles to melee spots on your side of the battlefield."/>
+		<Entry Key="DES_SUBSKILL_SUMMON_SEA_VINES" Val="Summon Sea Vines"/>
+		<Entry Key="DES_SUBSKILL_SUMMON_SEA_VINES_DES" Val="{COLOR:red}Requires the caster to be present on the battlefield.{END_COLOR}\nSummon maximum 18 Sea Vines to all friendly spots on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_TROLL_LAVA_ROCKERS" Val="Summon Lava Rockers"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_TROLL_LAVA_ROCKERS_DES" Val="{COLOR:red}Requires the caster to be present on the battlefield.{END_COLOR}\nSummon 3 Rockers to melee spots on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_LIGHT_SVIATELKO" Val="Summon Light Sviatelko"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_LIGHT_SVIATELKO_DES" Val="{COLOR:red}Requires the caster to be present on the battlefield.{END_COLOR}\nSummon 3 Sviatelko to melee spots on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_WRAITH" Val="Summon Wraith"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_ANCESTOR_WRAITH" Val="Summon Ancestor Wraith"/>
+		<Entry Key="DES_SUBSKILL_SUMMON_BALLISTA" Val="Summon Ghost Ballista"/>
+		<Entry Key="DES_SUBSKILL_SUMMON_BALLISTA_DES" Val="{COLOR:red}Only one copy of this character is permitted on the battlefield at any time.{END_COLOR}\nSummon a Ghost Ballista to a ranged spot on your side of the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_GHOST" Val="Summon Ghost"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_WOLF" Val="Summon Wolf"/>
 		<Entry Key="DES_SUBSKILL_SUMMON_PET_BEAR" Val="Summon Bear"/>
@@ -3206,6 +3394,8 @@
 		<Entry Key="DES_SUBSKILL_TOXINE_DES" Val="Deals physical damage to the affected character at the end of each turn, until it wears off."/>
 		<Entry Key="DES_SUBSKILL_NIGHT_POWER" Val="Night Power"/>
 		<Entry Key="DES_SUBSKILL_NIGHT_POWER_DES" Val="Increase the character's main attributes (Wits, Strength, Perception, Intelligence, Wisdom, Mysticism and Destiny) during night turns."/>
+		<Entry Key="DES_SUBSKILL_SEA_POWER" Val="Sea Power"/>
+		<Entry Key="DES_SUBSKILL_SEA_POWER_DES" Val="Increase the character's main attributes (Wits, Strength, Perception, Intelligence, Wisdom, Mysticism and Destiny) when travelling by water."/>
 		<Entry Key="DES_SUBSKILL_NIGHT_PREDATOR_WITS" Val="Night Wits"/>
 		<Entry Key="DES_SUBSKILL_NIGHT_PREDATOR_WITS_DES" Val="Increase the character's Wits attribute during night turns."/>
 		<Entry Key="DES_SUBSKILL_NIGHT_PREDATOR_SIGHT" Val="Night Range of Sight"/>
@@ -3222,6 +3412,8 @@
 		<Entry Key="DES_SUBSKILL_MIND_SPIRIT_WEAKNESS_DES" Val="Decreases the character's Intelligence, Wisdom, Mysticism and Destiny attributes as well as their maximum Sanity and Faith."/>
 		<Entry Key="DES_SUBSKILL_DAY_BLINDNESS" Val="Day Blindness"/>
 		<Entry Key="DES_SUBSKILL_DAY_BLINDNESS_DES" Val="Decrease the character's attributes during day turns."/>
+		<Entry Key="DES_SUBSKILL_SLAVE" Val="Slave"/>
+		<Entry Key="DES_SUBSKILL_SLAVE" Val="Decrease the character's attributes."/>
 		<Entry Key="DES_SUBSKILL_CHILD_GROW_UP" Val="Child growing up process"/>
 		<Entry Key="DES_SUBSKILL_CHILD_GROW_UP_DES" Val="The counter shows the number of turns left before the child will turn into an adult."/>
 		<Entry Key="DES_SUBSKILL_REDUCE_PERSONAL_CARRY_LIMIT" Val="Reduced Carry"/>
@@ -3230,6 +3422,8 @@
 		<Entry Key="DES_SUBSKILL_HORN_IMPALE_DES" Val="True Damage attack on a single target."/>
 		<Entry Key="DES_SUBSKILL_BEE_STING" Val="Bee Sting"/>
 		<Entry Key="DES_SUBSKILL_BEE_STING_DES" Val="True Damage attack on a single target."/>
+		<Entry Key="DES_SUBSKILL_TIMELESS_GRIP" Val="Timeless Grip"/>
+		<Entry Key="DES_SUBSKILL_TIMELESS_GRIP_DES" Val="Stun Damage attack on a single target."/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_STR" Val="Retaliation"/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_STR_DES" Val="Each attacker that hits this character receives damage based on the character's Strength."/>
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_PER" Val="Retaliation"/>
@@ -3244,6 +3438,8 @@
 		<Entry Key="DES_SUBSKILL_RETALIATION_DMG_DES" Val="Each attacker that hits this character receives damage based on the character's Primary Combat Attributes."/>
 		<Entry Key="DES_SUBSKILL_HEAL_ON_DMG" Val="Brush It Off"/>
 		<Entry Key="DES_SUBSKILL_HEAL_ON_DMG_DES" Val="Heal straight after recieving damage."/>
+		<Entry Key="DES_SUBSKILL_HEAL_FLOW" Val="Healing Flow"/> 
+		<Entry Key="DES_SUBSKILL_HEAL_FLOW_DES" Val="When the caster enters the battlefield, heal one random wounded ally."/>
 		<Entry Key="DES_SUBSKILL_REGENERATION" Val="Regeneration"/>
 		<Entry Key="DES_SUBSKILL_REGENERATION_DES" Val="Regenerate a portion of health after receiving damage."/>
 		<Entry Key="DES_SUBSKILL_WEAK_REGENERATION" Val="Weak Regeneration"/>
@@ -3257,10 +3453,18 @@
 		<Entry Key="DES_SUBSKILL_TRANSFER_DMG_DES" Val="Upon getting hit, transfer any received damage to 1-3 other allies and heal half of that damage."/>
 		<Entry Key="DES_SUBSKILL_HEADBUTT" Val="Headbutt"/>
 		<Entry Key="DES_SUBSKILL_HEADBUTT_DES" Val="Melee attack on a single target that also increases their Delay."/>
+		<Entry Key="DES_SUBSKILL_RUM_BARREL_THROW" Val="Rum Barrel Throw"/>
+		<Entry Key="DES_SUBSKILL_RUM_BARREL_THROW_DES" Val="Ranged attack on a target that also increases their Delay. Splashes to 3 opponents in a horizontal line."/>
+		<Entry Key="DES_SUBSKILL_NET_SHOT" Val="Net Shot"/>
+		<Entry Key="DES_SUBSKILL_NET_SHOT_DES" Val="Range attack on a single target that also increases their Delay."/>
 		<Entry Key="DES_SUBSKILL_INSPIRE" Val="Inspire"/>
 		<Entry Key="DES_SUBSKILL_INSPIRE_DES" Val="Decreases Delay of a selected Ally and increases their Combat Attributes."/>
 		<Entry Key="DES_SUBSKILL_INSPIRE_STANCE" Val="Inspiring Presence"/>
-		<Entry Key="DES_SUBSKILL_INSPIRE_STANCE_DES" Val="When this card enters the Battlefield, it decreases Delay of 2 random Allies and increases their Combat Attributes."/>
+		<Entry Key="DES_SUBSKILL_INSPIRE_STANCE_DES" Val="When this card enters the battlefield, it decreases the Delay of 2 random Allies and increases their Combat Attributes."/>
+		<Entry Key="DES_SUBSKILL_STRONG_INSPIRE_STANCE" Val="God's Inspiring Presence"/>
+		<Entry Key="DES_SUBSKILL_STRONG_INSPIRE_STANCE_DES" Val="When this card enters the battlefield, it decreases the Delay of 2 random Allies and greatly increases their Combat Attributes."/>
+		<Entry Key="DES_SUBSKILL_BLOODY_INSPIRE_STANCE" Val="Bloody Inspiring Presence"/>
+		<Entry Key="DES_SUBSKILL_BLOODY_INSPIRE_STANCE_DES" Val="When this card enters the battlefield, it decreases Delay of 1 random Allies and increases their Combat Attributesat the cost of 25% of the caster's current Health."/>
 		<Entry Key="DES_SUBSKILL_BLOOD_BROTHERHOOD" Val="Brotherhood of Blood "/>
 		<Entry Key="DES_SUBSKILL_BLOOD_BROTHERHOOD_DES" Val="Decreases Delay of wounded ally and boosts their combat attributes."/>
 		<Entry Key="DES_SUBSKILL_HURRY_UP" Val="Hurry Up!"/>
@@ -3271,8 +3475,12 @@
 		<Entry Key="DES_SUBSKILL_HURRY_UP_SHIELDING_DES" Val="Decreases Delay of a selected ally and improves their Shielding."/>
 		<Entry Key="DES_SUBSKILL_SWARM_STRENGTH" Val="Strength of the Swarm"/>
 		<Entry Key="DES_SUBSKILL_SWARM_STRENGTH_DES" Val="This character's Combat Attributes will increase for each other ally character placed on the battlefield after them."/>
+		<Entry Key="DES_SUBSKILL_PATRONAGE_DMG" Val="Enourage Presence"/>
+		<Entry Key="DES_SUBSKILL_PATRONAGE_DMG_DES" Val="When this character is present on the battlefield, they increases Combat Attributes of each other ally on the battlefield."/>
 		<Entry Key="DES_SUBSKILL_SWARM_SPEED" Val="Speed of the Swarm"/>
 		<Entry Key="DES_SUBSKILL_SWARM_SPEED_DES" Val="This character's Delay will decrease for each other ally character placed on the battlefield after them."/>
+		<Entry Key="DES_SUBSKILL_SWARM_DEF" Val="Defence of the Swarm"/>
+		<Entry Key="DES_SUBSKILL_SWARM_DEF_DES" Val="This character's Defence will increase for each other ally character placed on the battlefield after them."/>
 		<Entry Key="DES_SUBSKILL_ARRIVAL_TRAP_DMG" Val="Snare"/>
 		<Entry Key="DES_SUBSKILL_ARRIVAL_TRAP_DMG_DES" Val="Deals damage to the enemies played onto the battlefield."/>
 		<Entry Key="DES_SUBSKILL_ARRIVAL_TRAP_DELAY" Val="Ambush"/>
@@ -3285,6 +3493,8 @@
 		<Entry Key="DES_SUBSKILL_INTERNAL_PAIN_DES" Val="Each time you receive damage, you lose a bit of health."/>
 		<Entry Key="DES_SUBSKILL_DESTROY_SHIELDING" Val="Shatter Shield"/>
 		<Entry Key="DES_SUBSKILL_DESTROY_SHIELDING_DES" Val="Destroy Shielding of a selected character on the battlefield."/>
+		<Entry Key="DES_SUBSKILL_SHIELDING_DEGENERATION" Val="Shielding Degeneration"/>
+		<Entry Key="DES_SUBSKILL_SHIELDING_DEGENERATION_DES" Val="Damage a portion of Shielding of a random character on the battlefield."/>
 		<Entry Key="DES_SUBSKILL_DAMAGE_SHIELDING_3" Val="Damage Three Shields"/>
 		<Entry Key="DES_SUBSKILL_DAMAGE_SHIELDING_3_DES" Val="Damage a portion of Shielding of up to 3 chosen characters on the battlefield."/>
 		<Entry Key="DES_SUBSKILL_DAMAGE_SHIELDING" Val="Damage Shield"/>
@@ -3313,8 +3523,12 @@
 		<Entry Key="DES_SUBSKILL_SNEAK_ATTACK_DES" Val="Targets a single enemy anywhere on the battlefield dealing poison damage."/>
 		<Entry Key="DES_SUBSKILL_EERIE_THROWING_AXE" Val="Ghostly Axe"/>
 		<Entry Key="DES_SUBSKILL_EERIE_THROWING_AXE_DES" Val="Single target attack dealing damage to a selected enemy."/>
+		<Entry Key="DES_SUBSKILL_GHOST_BOLT" Val="Ghost Bolt"/>
+		<Entry Key="DES_SUBSKILL_GHOST_BOLT_DES" Val="Single target attack dealing damage to a ranged enemy."/>
 		<Entry Key="DES_SUBSKILL_THROW" Val="Throw A Rock"/>
 		<Entry Key="DES_SUBSKILL_THROW_DES" Val="Single target attack dealing damage to a selected enemy."/>
+		<Entry Key="DES_SUBSKILL_WAVE_SHOT" Val="Wave Shot"/>
+		<Entry Key="DES_SUBSKILL_WAVE_SHOT_DES" Val="Damage up to three enemies standing anywhere on the battlefield."/>
 		<Entry Key="DES_SUBSKILL_POISON_SPIT" Val="Poison Spit"/>
 		<Entry Key="DES_SUBSKILL_POISON_SPIT_DES" Val="Poisonous single target attack dealing damage to a selected enemy."/>
 		<Entry Key="DES_SUBSKILL_DIVE_ATTACK" Val="Dive Attack"/>
@@ -3345,10 +3559,14 @@
 		<Entry Key="DES_SUBSKILL_ESSENCE_SKINS_DES" Val="Increases Shielding of 1-3 chosen allies."/>
 		<Entry Key="DES_SUBSKILL_CON_DEFAULT_MELEE" Val="Concept Melee Attack"/>
 		<Entry Key="DES_SUBSKILL_CON_DEFAULT_MELEE_DES" Val="Melee attack, targets a single enemy closest to you."/>
+		<Entry Key="DES_SUBSKILL_CON_DEFAULT_STRONG_MELEE" Val="Concept Strong Melee Attack"/>
+		<Entry Key="DES_SUBSKILL_CON_DEFAULT_STRONG_MELEE_DES" Val="Melee attack with stun, targets a single enemy closest to you."/>
 		<Entry Key="DES_SUBSKILL_CON_DEFAULT_RANGE" Val="Concept Ranged Attack"/>
 		<Entry Key="DES_SUBSKILL_CON_DEFAULT_RANGE_DES" Val="Ranged attack, targets any enemy, unless an enemy is standing in melee row opposite to you."/>
 		<Entry Key="DES_SUBSKILL_CON_DEFAULT_RANGE_HEAVY" Val="Concept Heavy Ranged Attack"/>
 		<Entry Key="DES_SUBSKILL_CON_DEFAULT_RANGE_HEAVY_DES" Val="Ranged attack, targets any enemy, unless an enemy is standing in the melee row opposite to you."/>
+		<Entry Key="DES_SUBSKILL_CON_DEFAULT_STRONG_WILD" Val="Concept Strong Wild Range Attack"/>
+		<Entry Key="DES_SUBSKILL_CON_DEFAULT_STRONG_WILD_DES" Val="Ranged attack, deals True Damage to up to 3 chosen targets."/>
 		<Entry Key="DES_SUBSKILL_DEMON_BIND" Val="Village-bound"/>
 		<Entry Key="DES_SUBSKILL_DEMON_BIND_DES" Val="This character cannot leave the village and only exists as long as the Idol it is bound to stands."/>
 		<Entry Key="DES_SUBSKILL_GROUP_HEAL_P" Val="Group's Health Reg."/>
@@ -3371,6 +3589,8 @@
 		<Entry Key="DES_SUBSKILL_FOODIE_DES" Val="Each turn there is 25% chance that one extra food will 'disappear'."/>
 		<Entry Key="DES_SUBSKILL_NATURE_PURITY" Val="Natural Purity"/>
 		<Entry Key="DES_SUBSKILL_NATURE_PURITY_DES" Val="Some of this character's equipment slots are blocked, group's Sanity regeneration is increased."/>
+		<Entry Key="DES_SUBSKILL_EARTHY_SKIN" Val="Earthy Skin"/>
+		<Entry Key="DES_SUBSKILL_EARTHY_SKIN_DES" Val="Jewellery slot of this character's equipment is blocked."/>
 		<Entry Key="DES_SUBSKILL_SMALL_WEAPON_HATE" Val="You Call That a Weapon?!"/>
 		<Entry Key="DES_SUBSKILL_SMALL_WEAPON_HATE_DES" Val="Orcs despise 1h weapons. Having one equipped decreases all Shielding types."/>
 		<Entry Key="DES_SUBSKILL_JUMPING_FISH" Val="Jumping Fish"/>
@@ -3383,6 +3603,12 @@
 		<Entry Key="DES_SUBSKILL_DEGRADATION_DES" Val="Receive a percentage of Health damage each turn."/>
 		<Entry Key="DES_SUBSKILL_POISON_HEAL" Val="Dead Flesh"/>
 		<Entry Key="DES_SUBSKILL_POISON_HEAL_DES" Val="If another skill would deal poison damage to you which does not kill you, you will regenerate health equal to the damage received."/>
+		<Entry Key="DES_SUBSKILL_MUTATION_CURSE" Val="Mutation"/>
+		<Entry Key="DES_SUBSKILL_MUTATION_CURSE_DES" Val="A random ally loses a part of their hit points but their increased Combat Attributes increase."/>
+		<Entry Key="DES_SUBSKILL_SEA_PILLAR" Val="Sea Pillar"/>
+		<Entry Key="DES_SUBSKILL_SEA_PILLAR_DES" Val="Deals regular damage to a single target and splash damage to the rest of the column."/>
+		<Entry Key="DES_SUBSKILL_RANDOM_STRONG_THROW2" Val="Throw Stuff"/>
+		<Entry Key="DES_SUBSKILL_RANDOM_STRONG_THROW2_DES" Val="Deals damage to up to 2 randomly selected enemies."/>
 		
 		<Entry Key="DES_SUBSKILL_BUILDING_SIGHT_RANGE" Val="Increase Village Sight Range"/>
 		<Entry Key="DES_SUBSKILL_BUILDING_SIGHT_RANGE_DES" Val="Increase Sight Range of the village."/>
@@ -3608,6 +3834,8 @@
 		<Entry Key="DES_TRAIT_DIVINE_COMMANDER_DES" Val="At the end of each turn your characters gain 0.4 Experience Point. The Chosen starts with a special offensive skill."/>
 		<Entry Key="DES_TRAIT_IDOL_OF_PAIN" Val="Not Dead Yet"/>
 		<Entry Key="DES_TRAIT_IDOL_OF_PAIN_DES" Val="If your Chosen dies, they change into an unliving corpse. Additionally, all your characters have a lower chance to die from heavy wounds."/>
+		<Entry Key="DES_TRAIT_MOTHER_PROTECTION" Val="Mother's Care"/>
+		<Entry Key="DES_TRAIT_MOTHER_PROTECTION_DES" Val="All your characters get a bonus to Physical and Mental Shielding and a bonus to Gathering and Crafting. However, they cannot use Jewellery and their Research is 10% lower. The Chosen can increase Physical and Mental Shielding of a selected ally on the battlefield."/>
 		<Entry Key="DES_TRAIT_ADD_HUM_CHILDREN" Val="Add Characters - Children"/>
 		<Entry Key="DES_TRAIT_ADD_HUM_CHILDREN_DES" Val="Begin with two additional characters - Human Children."/>
 		<Entry Key="DES_TRAIT_ADD_CHARACTER_WARRIOR" Val="Add Character - Warrior"/>
@@ -3658,18 +3886,16 @@
 		<Entry Key="DES_TRAIT_ADD_DEMON_YOUNG_HOHLICK_DES" Val="Begin with an additional character - a Young Hohlick (Forest Demon)."/>
 		<Entry Key="DES_TRAIT_ADD_BASIC_PACK_FOOD" Val="Granny's Pantry"/>
 		<Entry Key="DES_TRAIT_ADD_BASIC_PACK_FOOD_DES" Val="Begin with a 10-15x of basic food and 1 piece of equipment."/>
-		<Entry Key="DES_TRAIT_FRIENDLY_FACE" Val="Lada Bleassing - Friendly Face"/>
-		<Entry Key="DES_TRAIT_FRIENDLY_FACE_DES" Val="Each faction starts with 5 points of loyalty towards you except Orks and Night/ Light Demons."/>
-		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST" Val="Mokosh Blessing - Elves Interest"/>
-		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" Val="Elves faction starts with 18 points of loyalty towards you."/>
+		<Entry Key="DES_TRAIT_FRIENDLY_FACE" Val="Lada's Blessing - Friendly Face"/>
+		<Entry Key="DES_TRAIT_FRIENDLY_FACE_DES" Val="You start with 5 points of loyalty towards every faction except for Orcs and Night/Light Demons."/>
+		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST" Val="Dzievanna's Blessing - Elves Interest"/>
+		<Entry Key="DES_TRAIT_FRIEND_OF_THE_FOREST_DES" Val="You start with 18 points of loyalty towards Elves."/>
 		<Entry Key="DES_TRAIT_START_LOYALTY_DEMONS" Val="Demonic Loyalty"/>
 		<Entry Key="DES_TRAIT_START_LOYALTY_DEMONS_DES" Val="Starting faction loyalty for all demon factions raises to 10."/>
-		<Entry Key="DES_TRAIT_FAMILIAR_AREA" Val="Familiar Area"/>
-		<Entry Key="DES_TRAIT_FAMILIAR_AREA_DES" Val="Camping gives an extra gathering distance."/>
 		<Entry Key="DES_TRAIT_LOGIC_WALL" Val="Logic Wall"/>
 		<!--<Entry Key="DES_TRAIT_LOGIC_WALL_DES" Val="All your characters will share an additional pool of 20 Mental Hit Points, divided equally between them."/>-->
 		<Entry Key="DES_TRAIT_LOGIC_WALL_DES" Val="All your followers get +4 mental and spiritual shielding."/>
-		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH" Val="Zorya Blessing - Seal of Strength"/>
+		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH" Val="Zorya's Blessing - Seal of Strength"/>
 		<Entry Key="DES_TRAIT_SEAL_OF_STRENGTH_DES" Val="Characters starts with +2 strength bonus."/>
 		<Entry Key="DES_TRAIT_FAMILY_WEAPON" Val="Family Weapon"/>
 		<Entry Key="DES_TRAIT_FAMILY_WEAPON_DES" Val="You start with a family heirloom - a quality weapon."/>
@@ -3705,7 +3931,7 @@
 		<Entry Key="DES_TRAIT_BETTER_OFF_ALONE_DES" Val="[PLACECHOLDER] Starting group will not be available on start. You are only limited to 2 character points but that character have 125% starting attributes."/>
 		<Entry Key="DES_TRAIT_EASIER_CRAFTING" Val="Crafting Adept"/>
 		<Entry Key="DES_TRAIT_EASIER_CRAFTING_DES" Val="Crafting is 10% cheaper."/>
-		<Entry Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Val="Vales Blessing - Additional Research"/>
+		<Entry Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS" Val="Veles' Blessing - Additional Research"/>
 		<Entry Key="DES_TRAIT_ADDITIONAL_RESEARCH_POINTS_DES" Val="Begin the game with 4 additional Advancement Points."/>
 		<Entry Key="DES_TRAIT_FOUR_LEGS_FRIEND" Val="Four-legged Friend"/>
 		<Entry Key="DES_TRAIT_FOUR_LEGS_FRIEND_DES" Val="Begin with your very own four-legged friend."/>
@@ -3751,18 +3977,28 @@
 		<Entry Key="DES_TRAIT_TOUGH_GUY_DES" Val="Your followers get +10% Health but have an additional 5% chance to die when their Health is below 30%."/>
 		<Entry Key="DES_TRAIT_DEMONIC_POSSESSION" Val="Demonic Possession"/>
 		<Entry Key="DES_TRAIT_DEMONIC_POSSESSION_DES" Val="The Chosen gets +15 Health and +30 Spiritual Shielding, but -80% Mysticism and Destiny."/>
-		<Entry Key="DES_TRAIT_NIGHT_WALKER" Val="Horos's Blessing - Night Walker"/>
-		<Entry Key="DES_TRAIT_NIGHT_WALKER_DES" Val="Your followers get +1 Movement Point during night turns."/>
+		<Entry Key="DES_TRAIT_SHADOW_PROTECTION" Val="Divine Protection"/>
+		<Entry Key="DES_TRAIT_SHADOW_PROTECTION_DES" Val="Penalty for forfeiting a challenge is halved."/>
+		<Entry Key="DES_TRAIT_NIGHT_WALKER" Val="Horos' Blessing - Night Walker"/>
+		<Entry Key="DES_TRAIT_NIGHT_WALKER_DES" Val="Your followers get +1 Movement Point during the night."/>
 		<Entry Key="DES_TRAIT_MAGIC_SCROLL" Val="Magic Scroll"/>
 		<Entry Key="DES_TRAIT_MAGIC_SCROLL_DES" Val="You start with a good quality magic scroll."/>
 		<Entry Key="DES_TRAIT_BRAINER" Val="Morena's Blessing - Sharp Mind"/>
 		<Entry Key="DES_TRAIT_BRAINER_DES" Val="The Chosen starts with +2 Intellect and +2 Wisdom."/>
-		<Entry Key="DES_TRAIT_NATURAL_ARMOUR" Val="Svarog's Blessing - Natural Armour"/>
+		<Entry Key="DES_TRAIT_NATURAL_ARMOUR" Val="Mokosh's Blessing - Natural Armour"/>
 		<Entry Key="DES_TRAIT_NATURAL_ARMOUR_DES" Val="The Chosen starts with +8 Physical and Mental Shielding."/>
 		<Entry Key="DES_TRAIT_SPARK" Val="Perun's Blessing - Electric Spark"/>
 		<Entry Key="DES_TRAIT_SPARK_DES" Val="The Chosen starts with an offensive skill - Spark. The skill is based on Destiny and works in physical and spiritual combat."/>
 		<Entry Key="DES_TRAIT_ADD_CHARACTER_INVENTOR" Val="Add Character - Inventor"/>
 		<Entry Key="DES_TRAIT_ADD_CHARACTER_INVENTOR_DES" Val="Begin with an additional character - a Human Inventor."/>
+		<Entry Key="DES_TRAIT_ADD_ELF_SLAVE" Val="Add Character - Elf Slave"/>
+		<Entry Key="DES_TRAIT_ADD_ELF_SLAVE_DES" Val="Begin with an additional character - a Elf Slave."/>
+		<Entry Key="DES_TRAIT_SPATIAL_AWARNESS" Val="Spatial Awarness"/>
+		<Entry Key="DES_TRAIT_SPATIAL_AWARNESS_DES" Val="Your characters start with +2 Wits."/>
+		<Entry Key="DES_TRAIT_PERFECT_AIMING" Val="Perfect Aiming"/>
+		<Entry Key="DES_TRAIT_PERFECT_AIMING_DES" Val="Your Chosen starts with +2 Perception."/>
+		<Entry Key="DES_TRAIT_I_TAKE_IT" Val="I'll Take It"/>
+		<Entry Key="DES_TRAIT_I_TAKE_IT_DES" Val="Your Chosen's Personal Carry is increased by 150."/>
 	
 		
 		<!-- TOOLTIPS -->
@@ -3783,7 +4019,7 @@
 		<Entry Key="DES_TOOLTIP_LOW_MORALE" Val="Low Morale Alert"/>
 		<Entry Key="DES_TOOLTIP_LOW_MORALE_DES" Val="One or more characters feels their Morale is very low may leave to look for a better future away from you. Provide varied meals, let them rest and keep their Sanity high to recover Morale.\n\nClick to open the affected group's inventory."/>
 		<Entry Key="DES_TOOLTIP_OVERBURDENED_CHAR" Val="Overburdened Character Alert"/>
-		<Entry Key="DES_TOOLTIP_OVERBURDENED_CHAR_DES" Val="One or more characters has equipped items that weigh more than they can handle. They will suffer penalties until they take off some of that stuff.\n\nClick to open the affected group's inventory."/>
+		<Entry Key="DES_TOOLTIP_OVERBURDENED_CHAR_DES" Val="One or more characters has equipped items that weigh more than they can handle. If you do not take action and balance character carry limits, some of character's stuff will be taken off randomly and droped to inventory.\n\nClick to open the affected characters equipment screen."/>
 		<Entry Key="DES_TOOLTIP_OVERBURDENED_GROUP" Val="Overburdened Group Alert"/>
 		<Entry Key="DES_TOOLTIP_OVERBURDENED_GROUP_DES" Val="One of your groups is carrying more than they can handle and will suffer penalties. Their movement is reduced by 1MP for every 10% of weight they carry above their limit.\n\nClick to open the affected group's inventory."/>
 		<Entry Key="DES_TOOLTIP_MP" Val="Remaining MP"/>
@@ -4077,6 +4313,7 @@
 		<Entry Key="DES_GROUP_BLOODTRACKERS" Val="Bloodtrackers"/>
 		<Entry Key="DES_GROUP_GOBLINS" Val="Goblins"/>
 		<Entry Key="DES_GROUP_DWARVES" Val="Dwarves"/>
+		<Entry Key="DES_GROUP_PIRATES" Val="Pirates"/>
 		<Entry Key="DES_GROUP_STINGERS" Val="Stingers"/>
 		<Entry Key="DES_GROUP_SPIDERS" Val="Spiders"/>
 		<Entry Key="DES_GROUP_BEES" Val="Bees"/>
@@ -4140,14 +4377,11 @@
 		<Entry Key="DES_FACTIONS_TROLLS" Val="Trolls"/>
 		<Entry Key="DES_FACTIONS_ICE_TROLLS" Val="Ice Trolls"/>
 		<Entry Key="DES_FACTIONS_LAVA_TROLLS" Val="Lava Trolls"/>
-		<Entry Key="DES_FACTIONS_FOREST_DEMONS" Val="Forest Demons"/>
 		<Entry Key="DES_FACTIONS_DEMONS" Val="Demons"/>
-		<Entry Key="DES_FACTIONS_NIGHT_DEMONS" Val="Night Demons"/>
-		<Entry Key="DES_FACTIONS_WATER_DEMONS" Val="Water Demons"/>
-		<Entry Key="DES_FACTIONS_ICE_DEMONS" Val="Ice Demons"/>
 		<Entry Key="DES_FACTIONS_LIGHT_DEMONS" Val="Light Demons"/>
 		<Entry Key="DES_FACTIONS_UNLIVING" Val="Unliving"/>
 		<Entry Key="DES_SET_GHOST_SHIP" Val="Ghost Ship"/>
+		<Entry Key="DES_SET_WATER_LAIR" Val="Water Lair"/>
 		<Entry Key="DES_SET_LOOT_CHEST" Val="Loot Chest"/>
 		<Entry Key="DES_SET_SHACK" Val="Shack"/>
 		<Entry Key="DES_SET_HUT" Val="Hut"/>
@@ -4209,6 +4443,14 @@
 		<Entry Key="DES_SET_DRAGON_NEST" Val="Dragons' Lair"/>
 		<Entry Key="DES_SET_DRAGON_ZMEY_NEST" Val="Dragons' and Zmay' Lair"/>
 		<Entry Key="DES_SET_ZMEY_DRAGON_NEST" Val="Zmay' and Dragons' Lair"/>
+		<Entry Key="DES_SET_WATER_WHIRLPOOL" Val="Whirlpool"/>
+		<Entry Key="DES_SET_WATER_FLOATING_CRATES" Val="Floating Crates"/>
+		<Entry Key="DES_SET_WATER_SEA_CAVE" Val="Sea Cave"/>
+		<Entry Key="DES_SET_WATER_PIRATES_VILLAGE_SMALL" Val="Pirates Small Village"/>
+		<Entry Key="DES_SET_WATER_PIRATES_VILLAGE_BIG" Val="Pirates Big Village"/>
+		<Entry Key="DES_SET_WATER_SEASHELF" Val="Water Seashelf"/>
+		<Entry Key="DES_SET_WATER_SEAGHOSTSHIP" Val="Sea GhostShip"/>
+		<Entry Key="DES_SET_ANCIENT_CITY" Val="Sea AncientCity"/>
 		
 		<!-- BIOME TERRAINS -->
 
@@ -4263,7 +4505,7 @@
 		<Entry Key="DES_VOLCANIC_DESERT" Val="Volcanic Dryland"/>
 		<Entry Key="DES_VOLCANIC_DESERT_DES" Val="Drylands are the staple terrain of the volcanic lands. Cracked earth, steaming hot-spots and lava pits. Occasionally, one can find the scorched ruins of old cities, or burial grounds for warriors fallen in some great battle."/>
 		<Entry Key="DES_VOLCANIC_FOREST" Val="Volcanic Forest"/>
-		<Entry Key="DES_VOLCANIC_FOREST_DES" Val="The eleves would not call these burned out husks trees nor the ash-covered groupings of the husks as forests, but this is what the volcanic land has to offer. If any live trees do survive and thrive on this harsh soil, they are to be admired."/>
+		<Entry Key="DES_VOLCANIC_FOREST_DES" Val="The elves would not call these burned out husks trees nor the ash-covered groupings of the husks as forests, but this is what the volcanic land has to offer. If any live trees do survive and thrive on this harsh soil, they are to be admired."/>
 		
 		<Entry Key="DES_ANCIENT_MOUNTAIN" Val="Ancient Forest Mountains"/>
 		<Entry Key="DES_ANCIENT_MOUNTAIN_DES" Val="The green mountain tops on the ancient forest lands are often referred to as sleeping giants by the elder kin. But is this is a metaphor to describe their grandeur and shape, or a factual description?"/>
@@ -4310,5 +4552,11 @@
 		<Entry Key="DES_TUT_SUBSKILL_DEFAULT_AXE" Val="Axe Chop"/>
 		<Entry Key="DES_TUT_SUBSKILL_DEFAULT_AXE_DES" Val="Melee attack, targets a single enemy closest to you."/>	
 		
+		<!-- ENDINGS -->
+		<Entry Key="DES_TAG_GOSKEND_WIN_DES" Val="You proved to be the true hero of Thea and the rightful chosen of the Cosmic Tree Pantheon once more. By defeating the devious Gosk and putting an end to his plotting, you ensured that the lands of your gods are safe."/>
+		<Entry Key="DES_TAG_GOSKEND_LOSE_DES" Val="You allowed the banished god of the sea, Gosk, to escape his prison and you failed to defeat him before his devious plans took shape. All the lands in Thea will now sink under the cold wave of the dark oceans ruled by the vengeful deity. The Cosmic Tree begins to weaken even now..."/>
+		<Entry Key="DES_TAG_CHONEEND2_DES" Val="You were called upon as the chosen of the divine and tasked with examining the rising threat of the Lightbringers. You answered the call and defeated the Light Beast, who sought to destroy all darkness and thus freeze the world in a state of eternal stagnation.\n\nWith the beast safely returned to its divine prison, the shattering of the land should cease and in time, the world may regain its balance."/>
+		<Entry Key="DES_TAG_MAIN62_DES" Val="You were called upon as the chosen of the divine and tasked with examining the rising threat of the Lightbringers. You answered the call, but decided to join the Light Beast who seeks to destroy all darkness and thus freeze the world in a state of eternal stagnation.\n\nWith your support, many townships have already fallen to the light cleansing, and in time, all will follow suit. For better or for worse, you chose light and shaped the future of the land according to your will, as was your right as chosen."/>
+		<Entry Key="DES_TAG_END_DES" Val="Your chosen and their people are dead, you no longer hold any influence over the lands of the living…"/>
     </LOC_LIBRARY-DES>
 </DATABASE_DES_LOCALIZATION-NO_HSH>

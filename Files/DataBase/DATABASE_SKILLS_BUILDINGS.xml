@@ -408,6 +408,25 @@
 		<SkillGroupFilter Value="ShipSmallStribog"/>
 	</SKILL-SHIP_SMALL_STRIBOG>
 	
+	<SKILL-PIRATE_SHIP1 Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_PIRATE_SHIP1" Description="DES_SKILL_PIRATE_SHIP1_DES" IconName="SkillShip"/>
+		<BaseEssence Amount="12" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_SEA_MOVEMENT"/>
+		<SkillSubskill Value="SUBSKILL-ADD_STRONG_SEA_GROUP_CARRY"/>
+		<SkillSubskill Value="SUBSKILL-BUILDING_ADD_XP"/>
+		<SkillGroupFilter Value="Ship"/>
+		<SkillGroupFilter Value="ShipPirate1"/>
+	</SKILL-PIRATE_SHIP1>
+	<SKILL-PIRATE_SHIP2 Rarity="0">
+		<DescriptionInfo Name="DES_SKILL_PIRATE_SHIP2" Description="DES_SKILL_PIRATE_SHIP2_DES" IconName="SkillShip"/>
+		<BaseEssence Amount="12" Tag="TAG-ESSENCE_GRAY"/>
+		<SkillSubskill Value="SUBSKILL-ADD_SEA_MOVEMENT"/>
+		<SkillSubskill Value="SUBSKILL-ADD_STRONG_SEA_GROUP_CARRY"/>
+		<SkillSubskill Value="SUBSKILL-BUILDING_ADD_SHIELDING_P_M_S"/>
+		<SkillGroupFilter Value="Ship"/>
+		<SkillGroupFilter Value="ShipPirate2"/>
+	</SKILL-PIRATE_SHIP2>
+	
 	<!-- CHARACTER SKILL FROM BUILDINGS -->
 	<SKILL-EXTRA_WEAK_MAX_HEALTH_P Rarity="0">
 		<DescriptionInfo Name="DES_SKILL_EXTRA_MAX_HEALTH_P" Description="DES_SKILL_EXTRA_MAX_HEALTH_P_DES" IconName="SkillAddHealth"/>

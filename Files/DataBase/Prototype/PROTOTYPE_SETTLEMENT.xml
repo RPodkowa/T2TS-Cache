@@ -12,6 +12,9 @@
 
 	<!--Information about the settlement and its inhabitants/groups inside-->
 	<SETTLEMENT Name="Settlement" Abbreviation="SET">
+    <!-- is this settlement used only as water ruins-->
+    <WaterRuins Name="waterRuins" Type="bool" Required="FALSE"/>
+    
 		<!-- How popular is it? 0 – available anywhere, 100 – not available -->		
 		<Rarity Name="rarity" Type="int" Required="TRUE"/>
 		<!-- Type of event this group take-->

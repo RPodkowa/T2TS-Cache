@@ -335,6 +335,37 @@
 			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="+" AttributeFloatValue="5.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-ADD_WITS>
+	<SUBSKILL-ADD_WEAK_STRENGTH Delay="0.0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_PERCEPTION" Description="DES_SUBSKILL_ADD_PERCEPTION_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_PERCEPTION" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="+" AttributeFloatValue="3.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-ADD_WEAK_STRENGTH>
 	<SUBSKILL-ADD_WEAK_PERCEPTION Delay="0.0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_PERCEPTION" Description="DES_SUBSKILL_ADD_PERCEPTION_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_PERCEPTION" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -614,6 +645,37 @@
 			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="+" AttributeFloatValue="3.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-ADD_WEAK_DESTINY>
+	<SUBSKILL-ADD_LUCK Delay="0.0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_LUCK" Description="DES_SUBSKILL_ADD_LUCK_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_LUCK" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-LUCK" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-LUCK" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-LUCK" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-LUCK" AttributeStringValue="+" AttributeFloatValue="3.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-LUCK" AttributeStringValue="+" AttributeFloatValue="4.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-LUCK" AttributeStringValue="+" AttributeFloatValue="5.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-ADD_LUCK>
 	<SUBSKILL-ADD_STRONG_LUCK Delay="0.0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_LUCK" Description="DES_SUBSKILL_ADD_LUCK_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_LUCK" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -2994,6 +3056,73 @@
 			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="130"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-NIGHT_POWER>
+	<SUBSKILL-SEA_POWER Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_SEA_POWER" Description="DES_SUBSKILL_SEA_POWER_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SEA_POWER" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_WaterAttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="100"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="*" AttributeFloatValue="120"/>
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="120"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="120"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="120"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="120"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="120"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="120"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="*" AttributeFloatValue="125"/>
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="125"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="125"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="125"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="125"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="125"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="125"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="*" AttributeFloatValue="130"/>
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="130"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="130"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="130"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="130"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="130"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="130"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="*" AttributeFloatValue="135"/>
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="135"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="135"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="135"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="135"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="135"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="135"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-WITS" AttributeStringValue="*" AttributeFloatValue="140"/>
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="140"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="140"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="140"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="140"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="140"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="140"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-SEA_POWER>
 	<SUBSKILL-CONST_NIGHT_POWER Delay="0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_NIGHT_POWER" Description="DES_SUBSKILL_NIGHT_POWER_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_NIGHT_POWER" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -3938,36 +4067,73 @@
 		</Targets>
 		<Activation ScriptName="WAct_AttributeChange"/>
 		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
-			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
-			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
-			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
-			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
-			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
 		</SubskillAttributesOnLevel>
 		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
-			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
-			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_ADD_STRONG_SHIELDING>
+	<SUBSKILL-CONST_ADD_STRONG_PHYSICAL_MENTAL_SHIELDING Delay="0.0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_SHIELDING" Description="DES_SUBSKILL_ADD_SHIELDING_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+			<SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_ADD_STRONG_PHYSICAL_MENTAL_SHIELDING>
 	<SUBSKILL-CONST_WEAK_ADD_SHIELDING_SPIRIT Delay="0.0" Animation="" Sound="">
 		<DescriptionInfo Name="DES_SUBSKILL_ADD_SHIELDING_SPIRIT" Description="DES_SUBSKILL_ADD_SHIELDING_SPIRIT_DES" IconName="SubskillAddAttribute"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
@@ -5251,6 +5417,37 @@
 			<SubskillAttribute Identifier="TAG-GROUP_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="100.0"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_ADD_GROUP_CARRY>
+	<SUBSKILL-CONST_ADD_STRONG_PERSONAL_CARRY Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_ADD_PERSONAL_CARRY" Description="DES_SUBSKILL_ADD_PERSONAL_CARRY_DES" IconName="SubskillAddAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_PERSONAL_CARRY" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="0.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="150.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="150.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="150.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="150.0"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-PERSONAL_CARRY_LIMIT" AttributeStringValue="+" AttributeFloatValue="150.0"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_ADD_STRONG_PERSONAL_CARRY>
 	
 	
 	<!-- SUB ATTRIBUTE -->
@@ -6396,6 +6593,37 @@
 		  <SubskillAttribute Identifier="TAG-GATHERING" AttributeStringValue="+" AttributeFloatValue="-1"/>
 		</SubskillAttributesOnLevel>
 	</SUBSKILL-CONST_SUB_WEAK_GATHERING>
+	<SUBSKILL-CONST_MULTI_SUB_RESEARCH Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_SUB_RESEARCH" Description="DES_SUBSKILL_SUB_RESEARCH_DES" IconName="SubskillSubAttribute"/>
+		<ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SUB_RESEARCH" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+		  <TriggerGroup Value="Passive"/>
+		  <TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+		  <TargetScript ScriptName="Trg_Self"/>
+		  <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+		  <SubskillAttribute Identifier="TAG-RESEARCH" AttributeStringValue="*" AttributeFloatValue="90"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+		  <SubskillAttribute Identifier="TAG-RESEARCH" AttributeStringValue="*" AttributeFloatValue="90"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+		  <SubskillAttribute Identifier="TAG-RESEARCH" AttributeStringValue="*" AttributeFloatValue="90"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+		  <SubskillAttribute Identifier="TAG-RESEARCH" AttributeStringValue="*" AttributeFloatValue="90"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+		  <SubskillAttribute Identifier="TAG-RESEARCH" AttributeStringValue="*" AttributeFloatValue="90"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+		  <SubskillAttribute Identifier="TAG-RESEARCH" AttributeStringValue="*" AttributeFloatValue="90"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_MULTI_SUB_RESEARCH>
     <SUBSKILL-CONST_BIGGER_DEATH_CHANCE Delay="0" Animation="" Sound="">
         <DescriptionInfo Name="DES_SUBSKILL_BIGGER_DEATH_CHANCE" Description="DES_SUBSKILL_BIGGER_DEATH_CHANCE_DES" IconName="SubskillLowerDeathChance"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_LOWER_DEATH_CHANCE" TargetIcon="TAG-TARGET_SELF_GROUP" AttackInfo="{SCRIPT:SI_DeathChanceModification}"/>
@@ -6427,6 +6655,85 @@
 			<SubskillAttribute Identifier="TAG-DEATH_CHANCE_MODIFIER" AttributeStringValue="+" AttributeFloatValue="-5.0"/>
         </SubskillAttributesOnLevel>
     </SUBSKILL-CONST_BIGGER_DEATH_CHANCE>
+	<SUBSKILL-CONST_WEAK_SUB_ATTRIBUTES Delay="0" Animation="" Sound="">
+		<DescriptionInfo Name="DES_SUBSKILL_SLAVE" Description="DES_SUBSKILL_SLAVE_DES" IconName="SubskillSubAttribute"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SUB_ATTRIBUTES" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}"/>
+		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+			<TriggerGroup Value="Passive"/>
+			<TriggerScript ScriptName=""/>
+		</Trigger>
+		<Targets>
+			<TargetScript ScriptName="Trg_Self"/>
+			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+		</Targets>
+		<Activation ScriptName="WAct_AttributeChange"/>
+		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="100"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="100"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="70"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="70"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="70"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="70"/>
+		</SubskillAttributesOnLevel>
+		<SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			<SubskillAttribute Identifier="TAG-STRENGTH" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-PERCEPTION" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-INTELLIGENCE" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-WISDOM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MYSTICISM" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-DESTINY" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_PHYSICAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_MENTAL" AttributeStringValue="*" AttributeFloatValue="70"/>
+			<SubskillAttribute Identifier="TAG-MAX_HEALTH_SPIRIT" AttributeStringValue="*" AttributeFloatValue="70"/>
+		</SubskillAttributesOnLevel>
+	</SUBSKILL-CONST_WEAK_SUB_ATTRIBUTES>
 	
 	
 	<!-- OTHER -->
@@ -6560,14 +6867,14 @@
 		<DescriptionInfo Name="DES_SUBSKILL_OVERENCUMBERED" Description="DES_SUBSKILL_OVERENCUMBERED_DES" IconName="SubskillOverencumbered"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_OVERENCUMBERED" TargetIcon="TAG-TARGET_SELF" AttackInfo="UI_EMPTY"/>
 		<Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
-			<TriggerGroup Value="Passive"/>
+			<TriggerGroup Value="OnEndTurn"/>
 			<TriggerScript ScriptName=""/>
 		</Trigger>
 		<Targets>
 			<TargetScript ScriptName="Trg_Self"/>
 			<TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
 		</Targets>
-		<Activation ScriptName="WAct_Placeholder"/>
+		<Activation ScriptName="WActA_Overencumered"/>
 		<SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
 			<SubskillAttribute Identifier="Overencumbered" AttributeStringValue="+" AttributeFloatValue="0.0"/>
 		</SubskillAttributesOnLevel>
@@ -6970,6 +7277,37 @@
           <SubskillAttribute Identifier="TAG-BLOCKED_COMPANION" AttributeStringValue="+" AttributeFloatValue="1.0"/>
         </SubskillAttributesOnLevel>
     </SUBSKILL-NATURE_PURITY>
+    <SUBSKILL-EARTHY_SKIN Delay="0" Animation="" Sound="">
+        <DescriptionInfo Name="DES_SUBSKILL_EARTHY_SKIN" Description="DES_SUBSKILL_EARTHY_SKIN_DES" IconName="SubskillEarthySkin"/>
+        <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SLOT_BLOCK" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_NaturePurity}"/>
+        <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+            <TriggerGroup Value="OnStartTurn"/>
+            <TriggerScript ScriptName=""/>
+        </Trigger>
+        <Targets>
+            <TargetScript ScriptName="Trg_Self"/>
+            <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random"/>
+        </Targets>
+        <Activation ScriptName="WActA_NaturePurity"/>
+        <SubskillAttributesOnLevel Level="0" PowerLevel="0.0"> 
+				<SubskillAttribute Identifier="TAG-BLOCKED_JEWELLERY" AttributeStringValue="+" AttributeFloatValue="0.0"/> 
+        </SubskillAttributesOnLevel>
+        <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+			  <SubskillAttribute Identifier="TAG-BLOCKED_JEWELLERY" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+        </SubskillAttributesOnLevel>
+        <SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+			  <SubskillAttribute Identifier="TAG-BLOCKED_JEWELLERY" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+        </SubskillAttributesOnLevel>
+        <SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+			  <SubskillAttribute Identifier="TAG-BLOCKED_JEWELLERY" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+        </SubskillAttributesOnLevel>
+        <SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+			  <SubskillAttribute Identifier="TAG-BLOCKED_JEWELLERY" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+        </SubskillAttributesOnLevel>
+        <SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+			  <SubskillAttribute Identifier="TAG-BLOCKED_JEWELLERY" AttributeStringValue="+" AttributeFloatValue="1.0"/>
+        </SubskillAttributesOnLevel>
+    </SUBSKILL-EARTHY_SKIN>
     <SUBSKILL-LOWER_DEATH_CHANCE Delay="0" Animation="" Sound="">
         <DescriptionInfo Name="DES_SUBSKILL_LOWER_DEATH_CHANCE" Description="DES_SUBSKILL_LOWER_DEATH_CHANCE_DES" IconName="SubskillLowerDeathChance"/>
         <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_LOWER_DEATH_CHANCE" TargetIcon="TAG-TARGET_SELF_GROUP" AttackInfo="{SCRIPT:SI_DeathChanceModification}"/>

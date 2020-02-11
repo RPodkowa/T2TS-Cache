@@ -1680,7 +1680,7 @@ Your time together proved magical, and you feel your destiny strengthened by it.
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="65" positionX="11964" positionY="-840" width="350" height="530" allPlayersXP="6" allPlayersRP="2" logBookName="QUEST_MQ_BABA" logBookDescription="QUEST_MQ_BABA3_DES" linkedEventUniqueID="0" />
   </Adventure>
-  <Adventure name="Dream0" uniqueID="10" allowOnce="true" typeGeneric="true" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="2" nodeIdMax="70" eventTag="TAG-MAINLOGBOOK1" joinIsForced="true" joinType="AllAlly" joinRange="WholeWorld">
+  <Adventure name="Dream0" uniqueID="10" allowOnce="true" typeGeneric="true" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="2" nodeIdMax="75" eventTag="TAG-MAINLOGBOOK1" joinIsForced="true" joinType="AllAlly" joinRange="WholeWorld">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-62" positionY="44" width="347" height="661" image="Event018">
       <logic>
         <FilterBlock>
@@ -1723,16 +1723,17 @@ The land beneath your feet is scorched and the air heavy with a dark mist. But t
 
 The island is small enough to hold only one tiny tree sapling, barely grown from the evergreen soil beneath its long silver roots. And yet, its presence is overwhelming as it tugs at the very fabric of your being.
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="8" positionX="2015" positionY="1344" width="350" height="1367" image="Event122">
+    <nodes xsi:type="NodeAdventure" ID="8" positionX="2015" positionY="1344" width="350" height="1447" image="Event122">
       <outputs name="Choose Light and Turmoil for Svarog." ownerID="8" targetID="9" fromX="2340" fromY="852" />
-      <outputs name="Choose Harmony and Intellect for Lada." ownerID="8" targetID="25" fromX="2343" fromY="772" />
-      <outputs name="Choose Nature and Harmony for Dievanna." ownerID="8" targetID="32" fromX="2343" fromY="692" />
-      <outputs name="Choose Harmony and Light for Stribog." ownerID="8" targetID="37" fromX="2343" fromY="612" />
-      <outputs name="Choose Magic and Intellect for Marovit." ownerID="8" targetID="40" fromX="2343" fromY="532" />
-      <outputs name="Choose Magic and Turmoil for Zorya." ownerID="8" targetID="48" fromX="2343" fromY="451" />
-      <outputs name="Choose Magic and Nature for Horz." ownerID="8" targetID="65" fromX="2343" fromY="371" />
-      <outputs name="Choose Nature, Magic, and Intellect for Nyia. " ownerID="8" targetID="55" fromX="2343" fromY="291" />
-      <outputs name="Choose Turmoil, Nature, and Light for Triglav." ownerID="8" targetID="60" fromX="2343" fromY="211" />Six stones lie before you, floating in the air. 
+      <outputs name="Choose Harmony and Intellect for Lada." ownerID="8" targetID="25" fromX="2340" fromY="772" />
+      <outputs name="Choose Nature and Harmony for Dievanna." ownerID="8" targetID="32" fromX="2340" fromY="692" />
+      <outputs name="Choose Harmony and Light for Stribog." ownerID="8" targetID="37" fromX="2340" fromY="612" />
+      <outputs name="Choose Magic and Intellect for Marovit." ownerID="8" targetID="40" fromX="2340" fromY="532" />
+      <outputs name="Choose Magic and Turmoil for Zorya." ownerID="8" targetID="48" fromX="2340" fromY="451" />
+      <outputs name="Choose Magic and Nature for Horz." ownerID="8" targetID="65" fromX="2340" fromY="371" />
+      <outputs name="Choose Nature, Magic, and Intellect for Nyia. " ownerID="8" targetID="55" fromX="2340" fromY="291" />
+      <outputs name="Choose Turmoil, Nature, and Light for Triglav." ownerID="8" targetID="60" fromX="2340" fromY="211" />
+      <outputs name="Choose Nature, twofold and turmoil, for Mokosh." ownerID="8" targetID="71" fromX="2340" fromY="131" />Six stones lie before you, floating in the air. 
 One is smooth and black with a single rune glowing on it.
 One is rough, uncut, woven in green vine.
 One is made of red ruby and shaped into a heart.
@@ -1844,8 +1845,8 @@ Marked by the pantheon, you and those who will join you will find the truth that
       <outputs name="Wake up." ownerID="23" targetID="50" fromX="6536" fromY="1313" />'You will find signs, you will see the wrongs of this land. In time, your true purpose will become clear to you. 
 
 Be well, my children!'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="24" positionX="1635" positionY="99" width="350" height="725">
-      <outputs name="Approach it." ownerID="24" targetID="8" fromX="1960" fromY="-392" />You walk away, try to wake, but nothing works. Eventually, the path leads you to a lone island upon a sea of white sand. 
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="1215" positionY="-68" width="350" height="725">
+      <outputs name="Approach it." ownerID="24" targetID="8" fromX="1540" fromY="-559" />You walk away, try to wake, but nothing works. Eventually, the path leads you to a lone island upon a sea of white sand. 
 
 The island is small enough to hold only one tiny tree sapling, barely grown from the evergreen soil beneath its long silver roots.</nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="2523" positionY="659" width="350" height="805">
@@ -1863,7 +1864,7 @@ The island is small enough to hold only one tiny tree sapling, barely grown from
 </nodes>
     <nodes xsi:type="NodeAdventure" ID="26" positionX="3489" positionY="503" width="350" height="805">
       <outputs name="Refuse." ownerID="26" targetID="28" fromX="3814" fromY="11" />
-      <outputs name="Accept this calling." ownerID="26" targetID="30" fromX="3817" fromY="-68" />'A reluctant hero, then. Very well. After all, so was my thundering father, once upon a time...
+      <outputs name="Accept this calling." ownerID="26" targetID="30" fromX="3814" fromY="-68" />'A reluctant hero, then. Very well. After all, so was my thundering father, once upon a time...
 
 Be it by design, choice, or pure fate, you are mine. Born of love and hope, ready to fight for them.
 
@@ -1892,13 +1893,13 @@ You must stand in defence of the weak. You must take action and fight against yo
 You must be my bearer, for the land will soon shatter into oblivion.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="31" positionX="5709" positionY="1967" width="350" height="885">
       <outputs name="Kneel in acceptance." ownerID="31" targetID="23" fromX="6034" fromY="1475" />
-      <outputs name="Nod defiantly.&#xD;" ownerID="31" targetID="23" fromX="5690" fromY="1395" />
-      <outputs name="Ask what of the other gods, other chosen who you feel here with you." ownerID="31" targetID="45" fromX="5690" fromY="1395" />The voice of all gods speaks to you with sadness:
+      <outputs name="Nod defiantly.&#xD;" ownerID="31" targetID="23" fromX="6034" fromY="1395" />
+      <outputs name="Ask what of the other gods, other chosen who you feel here with you." ownerID="31" targetID="45" fromX="6034" fromY="1315" />The voice of all gods speaks to you with sadness:
 
 'It is something old, something hidden, something that beckons me to its grasp. Fires burn ever brighter, the sun grows stronger, and yet it feels wrong.
 
 Our time here grows short. I know not what path you need to take, but I will guide your steps as you will guide my sight. Go. Live. Grow. But do not forget your purpose!'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="32" positionX="2573" positionY="-122" width="350" height="805">
+    <nodes xsi:type="NodeAdventure" ID="32" positionX="2583" positionY="-169" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction list="svarog">
@@ -1906,14 +1907,14 @@ Our time here grows short. I know not what path you need to take, but I will gui
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Deny it. You did not choose this path!" ownerID="32" targetID="33" fromX="2898" fromY="-613" />
-      <outputs name="Confirm it. You have always felt you were made for something more!" ownerID="32" targetID="34" fromX="2898" fromY="-693" />You smell freshness of the wild forest and sense the watchful eye of the huntress upon you.
+      <outputs name="Deny it. You did not choose this path!" ownerID="32" targetID="33" fromX="2908" fromY="-660" />
+      <outputs name="Confirm it. You have always felt you were made for something more!" ownerID="32" targetID="34" fromX="2908" fromY="-740" />You smell freshness of the wild forest and sense the watchful eye of the huntress upon you.
 
 'SO YOU ARE MY CHOSEN?'
 </nodes>
-    <nodes xsi:type="NodeAdventure" ID="33" positionX="3495" positionY="-288" width="350" height="805">
-      <outputs name="Refuse." ownerID="33" targetID="36" fromX="3820" fromY="-779" />
-      <outputs name="Accept this calling." ownerID="33" targetID="35" fromX="3820" fromY="-859" />'A reluctant hero, then. Very well. After all, so was our thundering father, once upon a time...
+    <nodes xsi:type="NodeAdventure" ID="33" positionX="3533" positionY="-326" width="350" height="805">
+      <outputs name="Refuse." ownerID="33" targetID="36" fromX="3858" fromY="-817" />
+      <outputs name="Accept this calling." ownerID="33" targetID="35" fromX="3858" fromY="-897" />'A reluctant hero, then. Very well. After all, so was our thundering father, once upon a time...
 
 Be it by design, choice, or pure fate, you are mine. Born of the wild, nature's child, destined to protect its laws.
 
@@ -1923,9 +1924,9 @@ And if you shall fall, another will take your place, until there are no faithful
       <outputs name="Accept this calling." ownerID="34" targetID="35" fromX="3392" fromY="-1002" />'Yes, good. You heard the call of the wild and answered even before knowing it was my voice calling. 
 
 Now you must be my arrow amongst the lands of the living.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="35" positionX="4067" positionY="-374" width="350" height="805">
-      <outputs name="Ask for more information." ownerID="35" targetID="14" fromX="4392" fromY="-865" />
-      <outputs name="Accept their bidding." ownerID="35" targetID="15" fromX="4392" fromY="-945" />'The mark of the wild is not for everyone.
+    <nodes xsi:type="NodeAdventure" ID="35" positionX="4175" positionY="-337" width="350" height="805">
+      <outputs name="Ask for more information." ownerID="35" targetID="14" fromX="4500" fromY="-828" />
+      <outputs name="Accept their bidding." ownerID="35" targetID="15" fromX="4500" fromY="-908" />'The mark of the wild is not for everyone.
 
 You must stand in defence of nature in all its diversity, be it the beauty of the green world or the terror of her wrath. Balance is your calling.
 
@@ -1957,7 +1958,7 @@ You stand before the tree sapling again.
 Now you must be my herald amongst the lands of the living.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="39" positionX="3362" positionY="-1274" width="350" height="805">
       <outputs name="Ask for more information." ownerID="39" targetID="14" fromX="3687" fromY="-1765" />
-      <outputs name="Accept their bidding." ownerID="39" targetID="15" fromX="3690" fromY="-1845" />'The mark of the wind is wrought with challenge. 
+      <outputs name="Accept their bidding." ownerID="39" targetID="15" fromX="3687" fromY="-1845" />'The mark of the wind is wrought with challenge. 
 
 You must try to be the compass by which others find their path, seek balance and peace, but defend them too when needs be.
 
@@ -2023,7 +2024,7 @@ Then, slowly, you are returned to your form, with only a nasty aftertaste in you
 You stand before the tree sapling again.
 
 'READY?'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="48" positionX="2097" positionY="-71" width="350" height="805">
+    <nodes xsi:type="NodeAdventure" ID="48" positionX="2139" positionY="-133" width="350" height="805">
       <logic>
         <FilterBlock>
           <LogicResultAction list="svarog">
@@ -2031,8 +2032,8 @@ You stand before the tree sapling again.
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="Deny it. You did not choose this path!" ownerID="48" targetID="52" fromX="2422" fromY="-562" />
-      <outputs name="Confirm it. You have always felt you were made for something more!" ownerID="48" targetID="51" fromX="2422" fromY="-642" />You hear the clutter of blades clashing, and you are blinded by three stars appearing before you.
+      <outputs name="Deny it. You did not choose this path!" ownerID="48" targetID="52" fromX="2464" fromY="-624" />
+      <outputs name="Confirm it. You have always felt you were made for something more!" ownerID="48" targetID="51" fromX="2464" fromY="-704" />You hear the clutter of blades clashing, and you are blinded by three stars appearing before you.
 
 'MY CHOSEN!'
 </nodes>
@@ -2189,6 +2190,50 @@ Heed my howl, heel to my will, and thus be free and wild!'</nodes>
       <outputs name="Nod and wake up." ownerID="70" targetID="50" fromX="653" fromY="-1272" />'DIRECT, GOOD.' 
 
 You are chosen, you WILL do as the gods will it and soon, once you are settled, a mission of great importance will become clear to you.
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="71" positionX="5324" positionY="-367" width="350" height="805">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction list="svarog">
+            <scriptCallWithTag scriptName="FRA_PlayerHaveTag" parameter="1" tag="TAG-MOKOSH" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs name="Deny it. You did not choose this path!" ownerID="71" targetID="72" fromX="5649" fromY="-858" />
+      <outputs name="Confirm it. You have always felt you were made for something more!" ownerID="71" targetID="73" fromX="5649" fromY="-938" />You hear the rustling of leaves and the rumbling of the earth moving beneath your feet. You sense the presence of mother earth.
+
+'CHOSEN, GOOD'
+
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="72" positionX="5836" positionY="-332" width="350" height="805">
+      <outputs name="Refuse." ownerID="72" targetID="74" fromX="6161" fromY="-823" />
+      <outputs name="Accept this calling." ownerID="72" targetID="75" fromX="6161" fromY="-903" />'A reluctant hero, then. Very well. After all, so were many of my children, once upon a time...
+
+Be it by design, choice, or pure fate, you are mine. Born of the earth, nature's child, destined to protect its laws, with force if need be.
+
+And if you shall fall, another will take your place, until there are no faithful to call upon.'
+
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="73" positionX="6353" positionY="-740" width="350" height="725">
+      <outputs name="Accept this calling." ownerID="73" targetID="75" fromX="6678" fromY="-1231" />'Yes, good. You heard the call of the land and answered even before knowing it was my voice calling. 
+
+Now you must be my instrument amongst the lands of the living.'
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="74" positionX="6817" positionY="-370" width="350" height="725">
+      <outputs name="Accept this calling." ownerID="74" targetID="75" fromX="7142" fromY="-861" />You begin to hear voices, prayers, dreams, pleading, hundreds, then thousands, then more. You feel their fears, their pain their needs. You feel the weight of their existence upon your shoulder, and you know this is a mere snippet of the true burden. 
+
+Your body shakes from the emotions and you feel you would have perished it persisted any longer.
+
+You stand before the tree sapling again.
+
+'READY?'
+</nodes>
+    <nodes xsi:type="NodeAdventure" ID="75" positionX="7299" positionY="-398" width="350" height="805">
+      <outputs name="Ask for more information." ownerID="75" targetID="14" fromX="7624" fromY="-889" />
+      <outputs name="Accept their bidding." ownerID="75" targetID="15" fromX="7624" fromY="-969" />'The mark of the earth is heavy.
+You must adhere to the laws of nature, the eternal balance of all life, and yet, when needed you must not be afraid to take arms, to destroy your enemy without mercy.
+
+You must be my sapling, for the land will soon shatter into oblivion.'
 </nodes>
   </Adventure>
   <Adventure name="WhispsMist1" uniqueID="17" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="45" eventTag="TAG-MAINLOGBOOK1" joinIsForced="true" joinType="AllAlly" joinRange="MovementArea">
@@ -5869,16 +5914,16 @@ You see armed folk gathering.</nodes>
         </FilterBlock>
       </logic>
       <outputs name="Pay to get physical wounds healed. " ownerID="11" targetID="46" fromX="998" fromY="-2200" />
-      <outputs name="Pay to get mental wounds healed. " ownerID="11" targetID="43" fromX="998" fromY="-2200" />
-      <outputs name="Pay to have poison removed." ownerID="11" targetID="27" fromX="998" fromY="-2200" />
-      <outputs name="Ask if there's a wise one who can heal spiritual ailments." ownerID="11" targetID="26" fromX="998" fromY="-2200" />
-      <outputs name="A zerca is telling the story of the cosmic tree. Go listen to his tale in honour of the gods." ownerID="11" targetID="34" fromX="998" fromY="-2200" />
-      <outputs name="Come back another day." ownerID="11" targetID="3" fromX="998" fromY="-2200" />'It will be a cold day in summer before we refuse hospitality to the weary.
+      <outputs name="Pay to get mental wounds healed. " ownerID="11" targetID="43" fromX="998" fromY="-2280" />
+      <outputs name="Pay to have poison removed." ownerID="11" targetID="27" fromX="998" fromY="-2361" />
+      <outputs name="Ask if there's a wise one who can heal spiritual ailments." ownerID="11" targetID="26" fromX="998" fromY="-2441" />
+      <outputs name="A zerca is telling the story of the cosmic tree. Go listen to his tale in honour of the gods." ownerID="11" targetID="34" fromX="998" fromY="-2521" />
+      <outputs name="Come back another day." ownerID="11" targetID="3" fromX="998" fromY="-2601" />'It will be a cold day in summer before we refuse hospitality to the weary.
 
 We also have a healer in the village. If they're not busy, they're good with the body and the mind.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="12" positionX="1085.22278" positionY="-1572.70459" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-50">
-      <outputs name="Confirm" ownerID="12" targetID="13" fromX="1515" fromY="-1901" />
-      <outputs name="Cancel" ownerID="12" targetID="11" fromX="1515" fromY="-1981" />
+    <nodes xsi:type="NodeTrade" ID="12" positionX="1107" positionY="-1520" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-500">
+      <outputs name="Confirm" ownerID="12" targetID="13" fromX="1537" fromY="-1848" />
+      <outputs name="Cancel" ownerID="12" targetID="11" fromX="1537" fromY="-1928" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="1578.57556" positionY="-1597.28" width="350" height="530" linkedEventUniqueID="0">
       <logic>
@@ -5930,9 +5975,9 @@ We also have a healer in the village. If they're not busy, they're good with the
     <nodes xsi:type="NodeSpawnOnMap" ID="23" positionX="3758.66333" positionY="53.10034" width="480" height="503" radius="4" groupID="GROUP-SCAVENGER_1P_1M_2S" destroyOwner="false" linkedEventUniqueID="34">
       <outputs ownerID="23" targetID="57" fromX="4207" fromY="-378" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="24" positionX="1341" positionY="-2110" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-100">
+    <nodes xsi:type="NodeTrade" ID="24" positionX="1341" positionY="-2110" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-1000">
       <outputs name="Confirm" ownerID="24" targetID="25" fromX="1771" fromY="-2438" />
-      <outputs name="Cancel" ownerID="24" targetID="11" fromX="1771" fromY="-2438" />
+      <outputs name="Cancel" ownerID="24" targetID="11" fromX="1771" fromY="-2518" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="1965" positionY="-2127" width="350" height="530" linkedEventUniqueID="0">
       <logic>
@@ -5954,7 +5999,7 @@ We also have a healer in the village. If they're not busy, they're good with the
       <outputs name="[Witch]Say you only need your sister's aid, and you'll pay the price yourself and promise not to burden her. " ownerID="26" targetID="29" fromX="2648" fromY="-2446" />
       <outputs name="Agree to pay the price to remove curses." ownerID="26" targetID="31" fromX="2648" fromY="-2526" />
       <outputs name="Ask to have your spirit wounds healed." ownerID="26" targetID="55" fromX="2648" fromY="-2606" />'A witch, that's what you're after, eh? Magic comes at a price. Healing the spirit is easier, but curses, well, they are nasty things. They'll cost you more, cost you blood.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="27" positionX="1135.68176" positionY="-2609.58325" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-60">
+    <nodes xsi:type="NodeTrade" ID="27" positionX="1135.68176" positionY="-2609.58325" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-1000">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6003,7 +6048,7 @@ We also have a healer in the village. If they're not busy, they're good with the
 
 Together, you remove any curses you had.
 </nodes>
-    <nodes xsi:type="NodeDealDamage" ID="30" positionX="3129" positionY="-2672" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="20" useCountInPercent="true" targetGroup="half">
+    <nodes xsi:type="NodeDealDamage" ID="30" positionX="3127" positionY="-2783" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="10" maxDamage="20" useCountInPercent="true" targetGroup="half">
       <logic>
         <FilterBlock>
           <LogicProcessing name="half" list1="ppl">
@@ -6011,11 +6056,11 @@ Together, you remove any curses you had.
           </LogicProcessing>
         </FilterBlock>
       </logic>
-      <outputs ownerID="30" targetID="32" fromX="3558" fromY="-3060" />
+      <outputs ownerID="30" targetID="32" fromX="3559" fromY="-3170" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="31" positionX="2573" positionY="-2809" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-100">
-      <outputs name="Confirm" ownerID="31" targetID="30" fromX="3003" fromY="-3137" />
-      <outputs name="Cancel" ownerID="31" targetID="11" fromX="3003" fromY="-3137" />
+    <nodes xsi:type="NodeTrade" ID="31" positionX="2583" positionY="-2860" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-800">
+      <outputs name="Confirm" ownerID="31" targetID="30" fromX="3013" fromY="-3189" />
+      <outputs name="Cancel" ownerID="31" targetID="11" fromX="3013" fromY="-3269" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="3640" positionY="-2710" width="350" height="530" linkedEventUniqueID="0">
       <logic>
@@ -6032,7 +6077,7 @@ Together, you remove any curses you had.
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="192.986984" positionY="-2837.61084" width="350" height="408" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="34" positionX="192.986984" positionY="-2837.61084" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6181,7 +6226,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
       <outputs ownerID="43" targetID="44" group="G1" fromX="620" fromY="-2470" />
       <outputs ownerID="43" targetID="24" group="G1" fromX="620" fromY="-2550" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="44" positionX="-355.024323" positionY="-2366.26367" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-50">
+    <nodes xsi:type="NodeTrade" ID="44" positionX="-355.024323" positionY="-2366.26367" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-500">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6192,7 +6237,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
       <outputs name="Confirm" ownerID="44" targetID="25" fromX="75" fromY="-2694" />
       <outputs name="Cancel" ownerID="44" targetID="11" fromX="75" fromY="-2774" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="45" positionX="-960.915955" positionY="-1773.6947" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-25">
+    <nodes xsi:type="NodeTrade" ID="45" positionX="-960.915955" positionY="-1773.6947" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-250">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -6251,7 +6296,7 @@ Come in, but we're watching you!'</nodes>
     <nodes xsi:type="NodeAdventure" ID="53" positionX="-1555.80664" positionY="456.301" width="350" height="805">
       <outputs name="Attack!" ownerID="53" targetID="7" fromX="-1230" fromY="-34" />
       <outputs name="Leave." ownerID="53" targetID="3" fromX="-1230" fromY="-115" />'Go away!'</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="54" positionX="-1334.52271" positionY="-832.9047" width="350" height="408" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="54" positionX="-1334.52271" positionY="-832.9047" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -6260,11 +6305,11 @@ Come in, but we're watching you!'</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="55" positionX="1642" positionY="-3279" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-100">
-      <outputs name="Confirm" ownerID="55" targetID="56" fromX="2073" fromY="-3607" />
-      <outputs name="Cancel" ownerID="55" targetID="11" fromX="2073" fromY="-3688" />
+    <nodes xsi:type="NodeTrade" ID="55" positionX="1642" positionY="-3279" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-800">
+      <outputs name="Confirm" ownerID="55" targetID="56" fromX="2072" fromY="-3607" />
+      <outputs name="Cancel" ownerID="55" targetID="11" fromX="2072" fromY="-3687" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="56" positionX="2478" positionY="-3357" width="350" height="408" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="56" positionX="2478" positionY="-3357" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers list="ppl">

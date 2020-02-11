@@ -1524,7 +1524,7 @@ You know that, as water kin, you can store the pearls safely within your own bod
       </logic>
       <outputs name="Leave." ownerID="25" targetID="23" fromX="-207" fromY="-594" />You come to the kraken pond but find it abandoned - no beast, no treasure, just an ordinary pond. Perhaps someone beat you to it, or maybe the creature found its way back to the sea. </nodes>
     <nodes xsi:type="NodeDealDamage" ID="26" positionX="3520" positionY="-209" width="460" height="459" challengeTypeDamage="TypePhysical" minDamage="30" maxDamage="50" useCountInPercent="true" targetGroup="ppl">
-      <outputs ownerID="26" targetID="27" fromX="3949" fromY="-191" />
+      <outputs ownerID="26" targetID="27" fromX="3949" fromY="-597" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="27" positionX="3078" positionY="69" width="350" height="805">
       <outputs name="Leave." ownerID="27" targetID="24" fromX="3403" fromY="-422" />
@@ -1556,7 +1556,7 @@ You are able to loot some of the treasure that is not covered by the beast.</nod
     </nodes>
   </Adventure>
   <Adventure name="Release the kraken" uniqueID="15" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="3" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="783" image="Event048">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event048">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -1567,7 +1567,7 @@ You are able to loot some of the treasure that is not covered by the beast.</nod
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" fromX="334" fromY="-735" />
+      <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="435" positionY="-147" width="350" height="725">
       <logic>
@@ -1587,7 +1587,7 @@ You are able to loot some of the treasure that is not covered by the beast.</nod
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="3" tag="TAG-DESTINY" />
           </LogicModifiers>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST74" />
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST83" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -1669,7 +1669,7 @@ Still, the fruits of your labours must be gathered. </nodes>
       <outputs name="[Snake]The dziuk are very sensitive to snake venom. Bite the women to get rid of the demon spawn and to protect them in the fields. " ownerID="4" targetID="6" fromX="1575" fromY="246" />
       <outputs name="Apply some lard and speak these words to make the demons leave: 'May you die, shrink, and turn to stone.' This will hurt the affected, but should get rid of the creatures." ownerID="4" targetID="10" fromX="1575" fromY="166" />
       <outputs name="Cut out the affected areas carefully." ownerID="4" targetID="9" fromX="1575" fromY="86" />
-      <outputs name="These demons can be lethal -- or, worse, they can corrupt and change their host. Still, some welcome the chance for change, and with your knowledge, you can improve their odds of survival. Allow the dziuk larvae to remain." ownerID="4" targetID="13" fromX="1575" fromY="6" />It is the dziuk -- small, snake-like demons that like to crawl under a victim's skin and lay eggs. They target women so the eggs may actually come to beastly fruition.</nodes>
+      <outputs name="These demons can be lethal -- or, worse, they can corrupt and change their host. Still, some welcome the chance for change, and with your knowledge, you can improve their odds of survival. Allow the dziuk larvae to remain." ownerID="4" targetID="13" fromX="1575" fromY="6" />It is the dziuk - small, snake-like demons that like to crawl under a victim's skin and lay eggs. They target women so the eggs may actually come to beastly fruition.</nodes>
     <nodes xsi:type="NodeChallenge" ID="5" positionX="656" positionY="-1292" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-POLUDNICA_ONE_1P_2M_2S" challengeScale="0" challengedList="ppl">
       <logic>
         <FilterBlock>
@@ -2060,7 +2060,7 @@ Within hours, you see snake-like creatures slithering under the skin of the affl
       <outputs name="[Snake]The dziuk are very sensitive to snake venom. Bite the women to get rid of the demon spawn and to protect them in the fields. " ownerID="26" targetID="6" fromX="608" fromY="521" />
       <outputs name="Apply some lard and speak these words to make the demons leave: 'May you die, shrink, and turn to stone.' This will hurt the affected, but should get rid of the creatures." ownerID="26" targetID="10" fromX="608" fromY="441" />
       <outputs name="Cut out the affected areas carefully." ownerID="26" targetID="9" fromX="608" fromY="361" />
-      <outputs name="Leave it be. Perhaps the women can overcome this.&#xD;&#xA;" ownerID="26" targetID="13" fromX="608" fromY="281" />It is the dziuk -- small, snake-like demons that like to crawl under a victim's skin and lay eggs. They target women so the eggs may actually come to beastly fruition.</nodes>
+      <outputs name="Leave it be. Perhaps the women can overcome this.&#xD;&#xA;" ownerID="26" targetID="13" fromX="608" fromY="281" />It is the dziuk - small, snake-like demons that like to crawl under a victim's skin and lay eggs. They target women so the eggs may actually come to beastly fruition.</nodes>
     <nodes xsi:type="NodeAdventure" ID="27" positionX="244" positionY="-1301" width="350" height="1126">
       <logic>
         <FilterBlock>
@@ -3052,8 +3052,8 @@ You do not feel good about this and are sure the gods are not happy.
     <nodes xsi:type="NodeAdventureEnd" ID="8" positionX="2028" positionY="24" width="350" height="530" allPlayersXP="3" allPlayersRP="2" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="Pikulik" uniqueID="19" allowOnce="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="15" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="6" positionY="112" width="347" height="783" image="Event197">
-      <outputs ownerID="1" targetID="2" fromX="330" fromY="-613" />
+    <nodes xsi:type="NodeStarting" ID="1" positionX="6" positionY="112" width="347" height="661" image="Event197">
+      <outputs ownerID="1" targetID="2" fromX="330" fromY="-491" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="469" positionY="-189" width="350" height="805">
       <logic>
@@ -3085,7 +3085,7 @@ You do not feel good about this and are sure the gods are not happy.
       <outputs name="Play the dice game." ownerID="4" targetID="8" fromX="1313" fromY="-815" />
       <outputs name="Politely refuse and leave." ownerID="4" targetID="3" fromX="1313" fromY="-895" />
       <outputs name="[Wisdom or intelligence ]Say that demon deals always have a catch, so what is it here?" ownerID="4" targetID="15" fromX="1313" fromY="-975" />'I have two right now. One is a simple game of dice with me. You win, you get rewards. You lose, I get a piece of your soul.
-Second, I have here a genuine pikulik. This little fella will grant you small amounts of riches and luck as long as it lives -- or as long as you live -- and in return, you feed it your spirit every now and again.'</nodes>
+Second, I have here a genuine pikulik. This little fella will grant you small amounts of riches and luck as long as it lives - or as long as you live - and in return, you feed it your spirit every now and again.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="5" positionX="1498" positionY="45" width="350" height="885">
       <logic>
         <FilterBlock>
@@ -3183,7 +3183,7 @@ The czort disappears in a puff of red smoke.</nodes>
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="10" targetID="7" fromX="3406" fromY="-1446" />'Bah, you won. How annoying. Still, deal's a deal. See ya.'
+      <outputs name="Leave." ownerID="10" targetID="7" fromX="3405" fromY="-1446" />'Bah, you won. How annoying. Still, deal's a deal. See ya.'
 The czort disappears in a puff of red smoke.</nodes>
     <nodes xsi:type="NodeAdventure" ID="11" positionX="3732" positionY="-1301" width="350" height="725">
       <logic>
@@ -3212,7 +3212,7 @@ The czort disappears in a puff of red smoke.</nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="12" targetID="11" fromX="3560" fromY="-2103" />
+      <outputs ownerID="12" targetID="11" fromX="3559" fromY="-2102" />
     </nodes>
     <nodes xsi:type="NodeDealDamage" ID="13" positionX="1992" positionY="-1755" width="460" height="459" challengeTypeDamage="TypeSpirit" minDamage="50" maxDamage="70" useCountInPercent="true" targetGroup="ppl">
       <outputs ownerID="13" targetID="14" fromX="2421" fromY="-2143" />
@@ -3244,7 +3244,7 @@ The czort disappears in a puff of red smoke.</nodes>
 The pikulik, well, my friend, he's a little fella, but very thirsty. Let's just say that he takes the 'selling your soul' business seriously, and I have known folk to die after his services are finished. On the other hand, some lived and became very rich.'</nodes>
   </Adventure>
   <Adventure name="Pikulik consequence" uniqueID="20" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="13" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="741" image="Event040">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="863" image="Event040">
       <logic>
         <FilterBlock>
           <LogicFilter name="tag76">
@@ -3260,12 +3260,12 @@ The pikulik, well, my friend, he's a little fella, but very thirsty. Let's just 
             <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
           </LogicResultAction>
           <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="4" tag="TAG-QUEST77" />
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="4" tag="TAG-QUEST76" />
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-613" />
-      <outputs ownerID="1" targetID="12" group="G1" fromX="334" fromY="-693" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-735" />
+      <outputs ownerID="1" targetID="12" group="G1" fromX="334" fromY="-815" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="390" positionY="-213" width="350" height="725">
       <logic>
@@ -3277,12 +3277,12 @@ The pikulik, well, my friend, he's a little fella, but very thirsty. Let's just 
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="TAG-QUEST77" />
           </LogicFilter>
           <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="3" tag="TAG-QUEST77" />
+            <scriptCallWithTag scriptName="FRA_PlayersDoNotHaveSharedTag" parameter="3" tag="TAG-QUEST76" />
           </LogicResultAction>
         </FilterBlock>
         <ModifierBlock>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST77" />
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST76" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -3421,12 +3421,12 @@ The pikulik, well, my friend, he's a little fella, but very thirsty. Let's just 
             <scriptCallWithTag scriptName="FMO_AddTags" parameter="2" tag="TAG-DESTINY" />
           </LogicModifiers>
           <LogicModifiers>
-            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST77" />
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-QUEST76" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
       <outputs name="Leave." ownerID="12" targetID="13" fromX="-135" fromY="-975" />Your pikulik demon has left you now, satisfied with its service and your payment.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="-858" positionY="-658" width="350" height="530" allPlayersXP="2" allPlayersRP="2" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="-858" positionY="-658" width="350" height="530" allPlayersXP="2" allPlayersRP="2" linkedEventUniqueID="0" endOfQuest="true" />
   </Adventure>
   <Adventure name="Old nanny" uniqueID="21" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="37" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-981" positionY="235" width="347" height="661" image="Event255">
@@ -6714,7 +6714,7 @@ You dig the treasure out and split it evenly.</nodes>
       <outputs ownerID="48" targetID="27" fromX="4826" fromY="-3103" />
     </nodes>
   </Adventure>
-  <Adventure name="Chosen advancement" uniqueID="37" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="41" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="Chosen advancement" uniqueID="37" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="7" nodeIdMax="43" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="-47" positionY="153" width="347" height="661" image="Event122">
       <logic>
         <FilterBlock>
@@ -6737,7 +6737,7 @@ You dig the treasure out and split it evenly.</nodes>
       </logic>
       <outputs ownerID="1" targetID="2" fromX="277" fromY="-450" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="417" positionY="-183" width="350" height="2810">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="417" positionY="-183" width="350" height="2971">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -6833,7 +6833,9 @@ You dig the treasure out and split it evenly.</nodes>
       <outputs name="[Forest demon]Become a vily." ownerID="2" targetID="31" fromX="742" fromY="-2518" />
       <outputs name="[Human male]Become a gusla." ownerID="2" targetID="15" fromX="742" fromY="-2598" />
       <outputs name="[Bat]Grow into a cmok!&#xD;" ownerID="2" targetID="32" fromX="742" fromY="-2679" />
-      <outputs name="[Human crafter] Become an inventor." ownerID="2" targetID="41" fromX="742" fromY="-2759" />As you have completed your path of the chosen, you can now advance or even change your career path.</nodes>
+      <outputs name="[Human crafter] Become an inventor." ownerID="2" targetID="41" fromX="742" fromY="-2759" />
+      <outputs name="[Pirate] Advance to a brute!" ownerID="2" targetID="42" fromX="742" fromY="-2839" />
+      <outputs name="[Boatswine] Become a full pirate!" ownerID="2" targetID="43" fromX="742" fromY="-2919" />As you have completed your path of the chosen, you can now advance or even change your career path.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="911" positionY="568" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
@@ -7050,7 +7052,7 @@ You dig the treasure out and split it evenly.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="-94" positionY="-3087" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="15" positionX="-105" positionY="-2914" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicFilter name="mag">
@@ -7298,7 +7300,7 @@ You dig the treasure out and split it evenly.</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="428" positionY="-3029" width="350" height="530" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="350" positionY="-3349" width="350" height="530" linkedEventUniqueID="0">
       <logic>
         <FilterBlock>
           <LogicFilter name="animal">
@@ -7422,6 +7424,46 @@ You dig the treasure out and split it evenly.</nodes>
         <ModifierBlock>
           <LogicModifiers list="hum">
             <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-HUM_INVENTOR" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="42" positionX="1176" positionY="-3299" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="animal">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="SUBRACE-ORC_PIRATE" />
+          </LogicFilter>
+          <LogicProcessing name="chanimal" list1="ch" list2="animal">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="chanimal">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="chanimal">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-BRUTE" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="43" positionX="1560" positionY="-3333" width="350" height="530" linkedEventUniqueID="0">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="animal">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="1" tag="SUBRACE-ORC_BOATSWAIN" />
+          </LogicFilter>
+          <LogicProcessing name="chanimal" list1="ch" list2="animal">
+            <scriptCallWithTag scriptName="FLP_AandB" />
+          </LogicProcessing>
+          <LogicResultAction list="chanimal">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="chanimal">
+            <scriptCallWithTag scriptName="FMO_UpgradeToSubraceHalfReset" tag="SUBRACE-ORC_PIRATE" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -7561,7 +7603,7 @@ Others nod. You hear them mention curses, bad omens, and evil spirits. The witch
       <outputs name="Win" ownerID="12" targetID="11" group="G1" fromX="4322" fromY="-225" />
       <outputs name="Lose" ownerID="12" targetID="37" fromX="4322" fromY="-305" />
       <outputs name="Surrender" ownerID="12" targetID="37" fromX="4322" fromY="-385" />
-      <outputs name="Win" ownerID="12" targetID="43" group="G1" fromX="4322" fromY="-225" />
+      <outputs name="Win" ownerID="12" targetID="43" group="G1" fromX="4322" fromY="-466" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="13" positionX="3169" positionY="2291" width="350" height="805">
       <logic>
@@ -7571,8 +7613,8 @@ Others nod. You hear them mention curses, bad omens, and evil spirits. The witch
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Go look for the elf." ownerID="13" targetID="41" fromX="3495" fromY="1800" />
-      <outputs name="Kill some rats." ownerID="13" targetID="44" fromX="3495" fromY="1720" />'Well, when I curse someone, I do it well and good, so there are only two ways I know of. One is to suck out the bad magic. Of course, not anyone can suck like that. But I know of an elf nearby who can, although how you will convince them to touch a rat is your problem.
+      <outputs name="Go look for the elf." ownerID="13" targetID="41" fromX="3494" fromY="1799" />
+      <outputs name="Kill some rats." ownerID="13" targetID="44" fromX="3494" fromY="1719" />'Well, when I curse someone, I do it well and good, so there are only two ways I know of. One is to suck out the bad magic. Of course, not anyone can suck like that. But I know of an elf nearby who can, although how you will convince them to touch a rat is your problem.
 The other way is a tad bloodier. You need to kill some rats - a specific bunch, to be precise - then smear their blood on yourself, walk backwards to the stone circle, and finally, bathe in human blood under the full moon.'</nodes>
     <nodes xsi:type="NodeAdventure" ID="14" positionX="2097" positionY="-1085" width="350" height="885">
       <outputs name="[Witch or volh]You have a small window of opportunity to break the curse and escape this new one. Act now." ownerID="14" targetID="46" fromX="2422" fromY="-1576" />
@@ -7712,7 +7754,7 @@ She follows your instructions to the letter and even aids you in preparing the p
         </FilterBlock>
       </logic>
       <outputs name="[Cursed rat only]Drink up." ownerID="31" targetID="30" fromX="3042" fromY="1201" />
-      <outputs name="Try a different way." ownerID="31" targetID="9" fromX="3042" fromY="1201" />'Bah, a man-witch tellin' me what to do... In my day, you were clever enough to hide your mugs! Veles be damned for allowing this. But fair is fair - here.'
+      <outputs name="Try a different way." ownerID="31" targetID="9" fromX="3042" fromY="1121" />'Bah, a man-witch tellin' me what to do... In my day, you were clever enough to hide your mugs! Veles be damned for allowing this. But fair is fair - here.'
 She follows your instructions to the letter and even aids you in preparing the potion. Now all you must do is drink it and not throw up. You only get one go.</nodes>
     <nodes xsi:type="NodeAdventure" ID="32" positionX="4942" positionY="1505" width="350" height="725">
       <logic>

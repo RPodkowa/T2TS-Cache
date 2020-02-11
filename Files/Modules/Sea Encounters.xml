@@ -842,7 +842,7 @@ You spot several corpses picked clean by the fish. You also see a wraith, aimles
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Well, good. Loot the ship also and leave." ownerID="26" targetID="27" fromX="2388" fromY="-1804" />You've heroically rescued...a trained wolf.</nodes>
+      <outputs name="Well, good. Loot the ship also and leave." ownerID="26" targetID="27" fromX="2387" fromY="-1804" />You've heroically rescued...a trained wolf.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="27" positionX="2520" positionY="-1335" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
@@ -1292,7 +1292,7 @@ You spot several corpses picked clean by the fish. You also see a wraith, aimles
       <outputs name="[Unliving]They will likely attack only warm-blooded creatures. Go in carefully and loot the place." ownerID="19" targetID="18" fromX="1591" fromY="-829" />
       <outputs name="Attack!" ownerID="19" targetID="14" fromX="1591" fromY="-909" />
       <outputs name="Leave this place." ownerID="19" targetID="4" fromX="1591" fromY="-989" />Your unliving kin are bound to this shipwreck. They will attack any living soul that approaches.</nodes>
-    <nodes xsi:type="NodeAdventure" ID="20" positionX="814" positionY="-919" width="350" height="966" image="Event210">
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="798" positionY="-1243" width="350" height="966" image="Event210">
       <logic>
         <FilterBlock>
           <LogicResultAction list="magic">
@@ -1300,10 +1300,10 @@ You spot several corpses picked clean by the fish. You also see a wraith, aimles
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs name="[Magic user]Some dark magic lingers here. Prepare a ritual to cleanse this place and thus release these poor souls. " ownerID="20" targetID="6" fromX="1139" fromY="-1410" />
-      <outputs name="[Unliving]They will likely attack only warm-blooded creatures. Go in carefully and loot the place." ownerID="20" targetID="18" fromX="1139" fromY="-1490" />
-      <outputs name="Attack!" ownerID="20" targetID="14" fromX="1139" fromY="-1570" />
-      <outputs name="Leave this place." ownerID="20" targetID="4" fromX="1139" fromY="-1650" />The unliving are bound by a dark spell to this shipwreck. They will attack any living soul that approaches.</nodes>
+      <outputs name="[Magic user]Some dark magic lingers here. Prepare a ritual to cleanse this place and thus release these poor souls. " ownerID="20" targetID="6" fromX="1123" fromY="-1734" />
+      <outputs name="[Unliving]They will likely attack only warm-blooded creatures. Go in carefully and loot the place." ownerID="20" targetID="18" fromX="1123" fromY="-1814" />
+      <outputs name="Attack!" ownerID="20" targetID="14" fromX="1123" fromY="-1894" />
+      <outputs name="Leave this place." ownerID="20" targetID="4" fromX="1123" fromY="-1974" />The unliving are bound by a dark spell to this shipwreck. They will attack any living soul that approaches.</nodes>
     <nodes xsi:type="NodeAdventure" ID="21" positionX="1269" positionY="-1247" width="350" height="805" image="Event210">
       <outputs name="Attack!" ownerID="21" targetID="14" fromX="1594" fromY="-1738" />
       <outputs name="Try to escape." ownerID="21" targetID="22" fromX="1594" fromY="-1818" />You go in and quickly realise that you are surrounded by the unliving!</nodes>
@@ -1338,7 +1338,7 @@ You spot several corpses picked clean by the fish. You also see a wraith, aimles
       <outputs ownerID="30" targetID="28" fromX="3260" fromY="-3079" />
     </nodes>
   </Adventure>
-  <Adventure name="Czytlica" uniqueID="6" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="5" nodeIdMax="47" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="Czytlica" uniqueID="6" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="5" nodeIdMax="49" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event186">
       <logic>
         <FilterBlock>
@@ -1349,7 +1349,7 @@ You spot several corpses picked clean by the fish. You also see a wraith, aimles
       </logic>
       <outputs ownerID="1" targetID="2" fromX="334" fromY="-613" />
     </nodes>
-    <nodes xsi:type="NodeAdventure" ID="2" positionX="474" positionY="-68" width="350" height="885">
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="474" positionY="-68" width="350" height="966">
       <logic>
         <FilterBlock>
           <LogicFilter name="ppl" makePublic="true">
@@ -1380,7 +1380,8 @@ You spot several corpses picked clean by the fish. You also see a wraith, aimles
       </logic>
       <outputs name="[Magic user]There is magic at work here. Prepare yourself for an attack." ownerID="2" targetID="3" fromX="799" fromY="-559" />
       <outputs name="[Water demon or syrin]You know this trick - an enchanted song to lure victims into a trap. Nasty sea creatures copying your style. Stay ready for this poor excuse for entrapment." ownerID="2" targetID="6" fromX="799" fromY="-639" />
-      <outputs name="Keep going." ownerID="2" targetID="44" fromX="799" fromY="-719" />The waters are calm, the skies clear, and you hear a faint yet alluring song carried on the waves. </nodes>
+      <outputs name="Keep going." ownerID="2" targetID="44" fromX="799" fromY="-719" />
+      <outputs name="[Pirate]Use a blue pirate shell to call away the czytlica." ownerID="2" targetID="48" fromX="799" fromY="-799" />The waters are calm, the skies clear, and you hear a faint yet alluring song carried on the waves. </nodes>
     <nodes xsi:type="NodeAdventure" ID="3" positionX="886" positionY="472" width="350" height="805" image="Event184">
       <logic>
         <FilterBlock>
@@ -1457,6 +1458,12 @@ They swim away but blow you a sweet kiss. </nodes>
           </LogicModifiers>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="20;40" tag="ITEM_CARGO-FISH" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-LOYALTY_WATER_DEMONS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDEMON3" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -1543,6 +1550,9 @@ But, sometime later, the sea carries a child for you, likely born out of the sea
           </LogicModifiers>
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="5;10" tag="ITEM_CARGO-FEW_TOPAZ" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-LOYALTY_WATER_DEMONS" />
           </LogicModifiers>
         </ModifierBlock>
       </logic>
@@ -1644,6 +1654,9 @@ The jurata, our queens, claimed the seas when the earth broke. Now we are master
           <LogicModifiers>
             <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-RARE_ONE_ARTIFACT_1H" />
           </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="5" tag="TAG-LOYALTY_WATER_DEMONS" />
+          </LogicModifiers>
         </ModifierBlock>
       </logic>
       <outputs name="Bow to her in thanks." ownerID="26" targetID="27" fromX="5021" fromY="-2386" />
@@ -1661,6 +1674,11 @@ The jurata, our queens, claimed the seas when the earth broke. Now we are master
             <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" parameter="" tag="SUBRACE-HUM_CHILD" />
           </LogicFilter>
         </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="-5" tag="TAG-LOYALTY_WATER_DEMONS" />
+          </LogicModifiers>
+        </ModifierBlock>
       </logic>
       <outputs name="Bow down to her and offer tribute." ownerID="28" targetID="29" fromX="5022" fromY="-3245" />
       <outputs name="Defy her, even if it means death!" ownerID="28" targetID="33" fromX="5022" fromY="-3325" />The jurata queen comes in all her sea glory:
@@ -1677,7 +1695,7 @@ Her words carry a command that you know will break you. She truly is the queen o
     <nodes xsi:type="NodeDealDamage" ID="31" positionX="5700" positionY="-2651" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="70" maxDamage="90" useCountInPercent="true" targetGroup="1vod">
       <outputs ownerID="31" targetID="30" fromX="6129" fromY="-3039" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="6403" positionY="-3491" width="350" height="408" allPlayersXP="5" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="32" positionX="6403" positionY="-3491" width="350" height="530" allPlayersXP="5" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="33" positionX="5140" positionY="-3287" width="350" height="725">
       <logic>
         <ModifierBlock>
@@ -1752,8 +1770,8 @@ She clicks her fingers, and you follow her into the depths of your new home, for
       <outputs name="Confirm" ownerID="39" targetID="38" fromX="1345" fromY="-2444" />
       <outputs name="Cancel" ownerID="39" targetID="37" fromX="1345" fromY="-2524" />
     </nodes>
-    <nodes xsi:type="NodeDealDamage" ID="40" positionX="648" positionY="-1591" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
-      <outputs ownerID="40" targetID="37" fromX="1077" fromY="-1979" />
+    <nodes xsi:type="NodeDealDamage" ID="40" positionX="650" positionY="-1618" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="0" maxDamage="0" useCountInPercent="false">
+      <outputs ownerID="40" targetID="37" fromX="1079" fromY="-2006" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="41" positionX="1255" positionY="-2992" width="350" height="725">
       <logic>
@@ -1809,10 +1827,10 @@ You see several sea demons surround your boat and circle as they sing.
       <outputs name="Lose" ownerID="45" targetID="9" fromX="762" fromY="164" />
       <outputs name="Surrender" ownerID="45" targetID="9" fromX="762" fromY="84" />
     </nodes>
-    <nodes xsi:type="NodeChallenge" ID="46" positionX="-36" positionY="-860" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-CZYTLICA_5P_5M_5S" challengeScale="101" challengedList="ppl">
-      <outputs name="Win" ownerID="46" targetID="47" fromX="405" fromY="-1355" />
-      <outputs name="Lose" ownerID="46" targetID="9" fromX="405" fromY="-1435" />
-      <outputs name="Surrender" ownerID="46" targetID="9" fromX="405" fromY="-1515" />
+    <nodes xsi:type="NodeChallenge" ID="46" positionX="-128" positionY="-810" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-CZYTLICA_5P_5M_5S" challengeScale="101" challengedList="ppl">
+      <outputs name="Win" ownerID="46" targetID="47" fromX="313" fromY="-1305" />
+      <outputs name="Lose" ownerID="46" targetID="9" fromX="313" fromY="-1385" />
+      <outputs name="Surrender" ownerID="46" targetID="9" fromX="313" fromY="-1465" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="47" positionX="-491" positionY="-66" width="350" height="725">
       <logic>
@@ -1836,6 +1854,27 @@ You see several sea demons surround your boat and circle as they sing.
 'You broke free, so you can see the true faces of us three. May the seas reward you.'
 
 They swim away but blow you a sweet kiss. </nodes>
+    <nodes xsi:type="NodeAdventure" ID="48" positionX="884" positionY="-742" width="350" height="725">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="pirate">
+            <scriptCallWithTag scriptName="FwT_AllPlayersAllGroupsCharacters" tag="RACE-PIRATES" />
+          </LogicFilter>
+          <LogicResultAction list="pirate">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="pirate">
+            <scriptCallWithTag scriptName="FRA_ChancePlusLuck" parameter="25" />
+          </LogicResultAction>
+        </FilterBlock>
+        <ModifierBlock>
+          <LogicModifiers list="pirate">
+            <scriptCallWithTag scriptName="FMO_AddTags" parameter="1" tag="TAG-LUCK" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs name="Leave." ownerID="48" targetID="49" fromX="1209" fromY="-1233" />The czytlica listens to your call and swims away.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="49" positionX="469" positionY="-1046" width="350" height="530" allPlayersXP="2" allPlayersRP="2" linkedEventUniqueID="0" />
   </Adventure>
   <Adventure name="SeaCzytlica3" uniqueID="7" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="47" joinIsForced="false" joinType="AllAlly" joinRange="MovementArea">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event183">
@@ -1898,6 +1937,16 @@ They swim away but blow you a sweet kiss. </nodes>
 
 Orcs are known for their sturdy metalwork. Perhaps something survived the crash. But there are some small fish and a larger shape swimming here.</nodes>
     <nodes xsi:type="NodeAdventure" ID="7" positionX="2449" positionY="803" width="350" height="805">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="2" tag="TAG-LOYALTY_WATER_DEMONS" />
+          </LogicModifiers>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddTagShared" parameter="1" tag="TAG-WATERDEMON3" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
       <outputs name="Ignore the wraith and loot what you can." ownerID="7" targetID="35" fromX="2774" fromY="311" />
       <outputs name="The wraith does not seem instantly aggressive. Perhaps there is a way to capture it. Go in and try." ownerID="7" targetID="9" fromX="2774" fromY="231" />The fish turned out to be a sea demon in the shape of a part-woman, part-fish creature. She is dead now and you are free to loot.
 
@@ -2499,7 +2548,7 @@ You can try to swim for the potential loot with or without your boat. </nodes>
     </nodes>
   </Adventure>
   <Adventure name="SeaDiff4" uniqueID="12" allowToUse="false" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="6" nodeIdMax="4" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="864" image="Event017">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="821" image="Event017">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2507,11 +2556,11 @@ You can try to swim for the potential loot with or without your boat. </nodes>
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="3" group="G1" fromX="334" fromY="-656" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-736" />
-      <outputs ownerID="1" targetID="4" group="G1" fromX="334" fromY="-816" />
+      <outputs ownerID="1" targetID="3" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-693" />
+      <outputs ownerID="1" targetID="4" group="G1" fromX="334" fromY="-773" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="2" positionX="496" positionY="88" width="350" height="455" linkedEventUniqueID="5">
+    <nodes xsi:type="NodeAdventureEnd" ID="2" positionX="496" positionY="88" width="350" height="530" linkedEventUniqueID="5">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2520,7 +2569,7 @@ You can try to swim for the potential loot with or without your boat. </nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1111" positionY="-226" width="350" height="455" linkedEventUniqueID="7">
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1111" positionY="-226" width="350" height="530" linkedEventUniqueID="7">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -2529,7 +2578,7 @@ You can try to swim for the potential loot with or without your boat. </nodes>
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="480" positionY="-1000" width="350" height="455" linkedEventUniqueID="13" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="480" positionY="-1000" width="350" height="530" linkedEventUniqueID="13" />
   </Adventure>
   <Adventure name="FloatingLoot3" uniqueID="13" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="16" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event271">
@@ -2744,7 +2793,10 @@ You can try to swim for the potential loot with or without your boat. </nodes>
           <LogicProcessing name="unstuff" makePublic="true" list1="stuff">
             <scriptCallWithTag scriptName="FLP_FilterAnyUnEquippedItems" />
           </LogicProcessing>
-          <LogicProcessing name="40" makePublic="true" list1="unstuff">
+          <LogicProcessing name="noship" list1="unstuff" list2="ship">
+            <scriptCallWithTag scriptName="FLP_AminusB" />
+          </LogicProcessing>
+          <LogicProcessing name="40" makePublic="true" list1="noship">
             <scriptCallWithTag scriptName="FLP_GetRandomXPercentElements" parameter="40" />
           </LogicProcessing>
         </ModifierBlock>
@@ -2886,7 +2938,7 @@ Seeing that it almost made you crash, it cries out an apology and flies away.</n
       </logic>
       <outputs name="Leave." ownerID="19" targetID="20" fromX="536" fromY="-2864" />You lose the fight and your boat crashes on the rocks. But at least the wind creature flies away.</nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="20" positionX="808" positionY="-2622" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventureEnd" ID="21" positionX="2828" positionY="-1725" width="350" height="455" allPlayersXP="5" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="21" positionX="2828" positionY="-1725" width="350" height="530" allPlayersXP="5" allPlayersRP="1" linkedEventUniqueID="0" />
     <nodes xsi:type="NodeAdventure" ID="23" positionX="912" positionY="30" width="350" height="805">
       <logic>
         <FilterBlock>
@@ -2905,8 +2957,8 @@ Seeing that it almost made you crash, it cries out an apology and flies away.</n
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="25" positionX="2859" positionY="136" width="350" height="805">
       <outputs name="Agree to let him stay on the ship until you reach land." ownerID="25" targetID="30" fromX="3184" fromY="-355" />
-      <outputs name="No, tell him to leave, now!" ownerID="25" targetID="29" fromX="3184" fromY="-355" />'You, you speak to me? I am viatroviec. I got lost in the winds and blown into this wretched thing humans call the sea. It is so vast, no trees...I know I am made of wind, but I was born to roam the land, not this! I will stop causing you trouble, but will you please take me home? Any land will do.'</nodes>
-    <nodes xsi:type="NodeAdventure" ID="26" positionX="-205" positionY="-2175" width="350" height="725">
+      <outputs name="No, tell him to leave, now!" ownerID="25" targetID="29" fromX="3184" fromY="-435" />'You, you speak to me? I am viatroviec. I got lost in the winds and blown into this wretched thing humans call the sea. It is so vast, no trees...I know I am made of wind, but I was born to roam the land, not this! I will stop causing you trouble, but will you please take me home? Any land will do.'</nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="-636" positionY="-2137" width="350" height="725">
       <logic>
         <ModifierBlock>
           <LogicModifiers list="ship">
@@ -2917,7 +2969,7 @@ Seeing that it almost made you crash, it cries out an apology and flies away.</n
           </LogicModifiers>
         </ModifierBlock>
       </logic>
-      <outputs name="Leave." ownerID="26" targetID="20" fromX="120" fromY="-2666" />You fail to manoeuver your boat and it crashes on the rocks. But at least the wind creature flies away.</nodes>
+      <outputs name="Leave." ownerID="26" targetID="20" fromX="-310" fromY="-2628" />You fail to manoeuver your boat and it crashes on the rocks. But at least the wind creature flies away.</nodes>
     <nodes xsi:type="NodeAdventure" ID="27" positionX="4099" positionY="-675" width="350" height="725">
       <logic>
         <ModifierBlock>
@@ -3401,7 +3453,7 @@ The ship is in pieces. There is still blood in the water and you spot a shark ci
     </nodes>
   </Adventure>
   <Adventure name="SeaDiff5" uniqueID="17" allowToUse="false" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="false" typeExpedition="true" typeVillage="false" difficulty="8" nodeIdMax="4" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
-    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="864" image="Event017">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="821" image="Event017">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -3409,11 +3461,11 @@ The ship is in pieces. There is still blood in the water and you spot a shark ci
           </LogicResultAction>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-656" />
-      <outputs ownerID="1" targetID="3" group="G1" fromX="334" fromY="-736" />
-      <outputs ownerID="1" targetID="4" group="G1" fromX="334" fromY="-816" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="334" fromY="-613" />
+      <outputs ownerID="1" targetID="3" group="G1" fromX="334" fromY="-693" />
+      <outputs ownerID="1" targetID="4" group="G1" fromX="334" fromY="-773" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="2" positionX="470" positionY="-112" width="350" height="455" linkedEventUniqueID="14">
+    <nodes xsi:type="NodeAdventureEnd" ID="2" positionX="470" positionY="-112" width="350" height="530" linkedEventUniqueID="14">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -3422,7 +3474,7 @@ The ship is in pieces. There is still blood in the water and you spot a shark ci
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="488" positionY="-594" width="350" height="455" linkedEventUniqueID="6">
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="488" positionY="-594" width="350" height="530" linkedEventUniqueID="6">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -3431,7 +3483,7 @@ The ship is in pieces. There is still blood in the water and you spot a shark ci
         </FilterBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="28" positionY="-942" width="350" height="455" linkedEventUniqueID="19" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="28" positionY="-942" width="350" height="530" linkedEventUniqueID="19" />
   </Adventure>
   <Adventure name="Sea storm" uniqueID="18" seaEvent="true" typeGeneric="false" typePerGroupGeneric="false" typeInterrupt="true" typeExpedition="true" typeVillage="false" difficulty="3" nodeIdMax="35" joinIsForced="false" joinType="AllAlly" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="10" positionY="-10" width="347" height="661" image="Event055">
@@ -3533,7 +3585,7 @@ You must try to weather this storm. </nodes>
         </ModifierBlock>
       </logic>
       <outputs name="Take the dog, search the wreckage, and leave." ownerID="14" targetID="17" fromX="3211" fromY="-1183" />In the wreckage, you find a dog still clinging to life.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="3615.644" positionY="-1144.36731" width="350" height="455" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="17" positionX="3615.644" positionY="-1144.36731" width="350" height="530" allPlayersXP="4" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers>

@@ -107,11 +107,11 @@ You feel ill. You also find some brown fur. Leopold?
 It stares at you in disbelief, laughs, throws up all over you with green gooish phlegm that spreads all over you and causes you to gag and likely get ill.
 
 As you swear at it, the creature shows the middle finger, but not to you, to someone or something up in the skies. Then it runs off.  </nodes>
-    <nodes xsi:type="NodeDealDamage" ID="24" positionX="700" positionY="-2269" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="30" maxDamage="50" useCountInPercent="true" targetGroup="ppl">
-      <outputs ownerID="24" targetID="10" fromX="1129" fromY="-2657" />
+    <nodes xsi:type="NodeDealDamage" ID="24" positionX="655" positionY="-2263" width="460" height="459" challengeTypeDamage="TypeMental" minDamage="30" maxDamage="50" useCountInPercent="true" targetGroup="ppl">
+      <outputs ownerID="24" targetID="10" fromX="1084" fromY="-2651" />
     </nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="2091" positionY="-2727" width="350" height="455" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventureEnd" ID="26" positionX="2267" positionY="-2018" width="350" height="455" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
+    <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="1911" positionY="-2829" width="350" height="530" allPlayersXP="1" allPlayersRP="1" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="26" positionX="2267" positionY="-2018" width="350" height="530" allPlayersXP="2" allPlayersRP="1" linkedEventUniqueID="0">
       <logic>
         <ModifierBlock>
           <LogicModifiers>
@@ -190,9 +190,9 @@ Now, typically, our gods do not care. But the culprit was a chosen, like you. Th
           </LogicFilter>
         </FilterBlock>
       </logic>
-      <outputs ownerID="1" targetID="61" group="G1" fromX="414" fromY="-319" />
-      <outputs ownerID="1" targetID="5" group="G1" fromX="414" fromY="-399" />
-      <outputs ownerID="1" targetID="2" group="G1" fromX="414" fromY="-479" />
+      <outputs ownerID="1" targetID="61" group="G1" fromX="413" fromY="-319" />
+      <outputs ownerID="1" targetID="5" group="G1" fromX="413" fromY="-399" />
+      <outputs ownerID="1" targetID="2" group="G1" fromX="413" fromY="-479" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="403" positionY="-620" width="350" height="1367">
       <logic>
@@ -298,14 +298,14 @@ You see armed folk gathering.</nodes>
       <outputs name="Pay to get physical wounds healed. " ownerID="11" targetID="46" fromX="1050" fromY="-2431" />
       <outputs name="Pay to get mental wounds healed. " ownerID="11" targetID="43" fromX="1050" fromY="-2511" />
       <outputs name="Pay to have poison removed." ownerID="11" targetID="27" fromX="1050" fromY="-2591" />
-      <outputs name="Ask if there's a wise one who can heal spiritual ailments." ownerID="11" targetID="26" fromX="1050" fromY="-2671" />
-      <outputs name="A zerca is telling the story of the cosmic tree. Go listen to his tale in honour of the gods." ownerID="11" targetID="34" fromX="1050" fromY="-2751" />
-      <outputs name="Come back another day." ownerID="11" targetID="3" fromX="1050" fromY="-2832" />'It will be a cold day in summer before we refuse hospitality to the weary.
+      <outputs name="Ask if there's a wise one who can heal spiritual ailments." ownerID="11" targetID="26" fromX="703" fromY="-2671" />
+      <outputs name="A zerca is telling the story of the cosmic tree. Go listen to his tale in honour of the gods." ownerID="11" targetID="34" fromX="703" fromY="-2671" />
+      <outputs name="Come back another day." ownerID="11" targetID="3" fromX="703" fromY="-2671" />'It will be a cold day in summer before we refuse hospitality to the weary.
 
 We also have a healer in the village. If they're not busy, they're good with the body and the mind.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="12" positionX="1085.22278" positionY="-1572.70459" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-50">
+    <nodes xsi:type="NodeTrade" ID="12" positionX="1085.22278" positionY="-1572.70459" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-500">
       <outputs name="Confirm" ownerID="12" targetID="13" fromX="1515" fromY="-1901" />
-      <outputs name="Cancel" ownerID="12" targetID="11" fromX="1515" fromY="-1981" />
+      <outputs name="Cancel" ownerID="12" targetID="11" fromX="1072" fromY="-1981" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="13" positionX="1578.57556" positionY="-1597.28" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
@@ -349,9 +349,9 @@ We also have a healer in the village. If they're not busy, they're good with the
       <outputs name="You see they are in need of stone, so tell them you're willing to give away some of yours." ownerID="21" targetID="38" fromX="2262" fromY="-1495" />
       <outputs name="Come back another day." ownerID="21" targetID="3" fromX="2262" fromY="-1575" />
       <outputs name="Ask if anything needs killing." ownerID="21" targetID="58" group="G1" fromX="2262" fromY="-1655" />'You lookin' to help a fellow, eh? Sure, there's always trouble.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="24" positionX="1158.747" positionY="-2088.89063" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-100">
-      <outputs name="Confirm" ownerID="24" targetID="25" fromX="1589" fromY="-2417" />
-      <outputs name="Cancel" ownerID="24" targetID="11" fromX="1589" fromY="-2497" />
+    <nodes xsi:type="NodeTrade" ID="24" positionX="1160" positionY="-2074" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-1000">
+      <outputs name="Confirm" ownerID="24" targetID="25" fromX="1590" fromY="-2402" />
+      <outputs name="Cancel" ownerID="24" targetID="11" fromX="1146" fromY="-2482" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="25" positionX="1691.31" positionY="-2152.72583" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
@@ -364,9 +364,9 @@ We also have a healer in the village. If they're not busy, they're good with the
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="26" positionX="2113" positionY="-1995" width="350" height="885">
       <outputs name="[Witch]Say you only need your sister's aid, and you'll pay the price yourself and promise not to burden her. " ownerID="26" targetID="29" fromX="2438" fromY="-2486" />
-      <outputs name="Agree to pay the price to remove curses." ownerID="26" targetID="31" fromX="2438" fromY="-2566" />
-      <outputs name="Ask to have your spirit wounds healed." ownerID="26" targetID="55" fromX="2438" fromY="-2646" />'A witch, that's what you're after, eh? Magic comes at a price. Healing the spirit is easier, but curses, well, they are nasty things. They'll cost you more, cost you blood.'</nodes>
-    <nodes xsi:type="NodeTrade" ID="27" positionX="1135.68176" positionY="-2609.58325" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-100">
+      <outputs name="Agree to pay the price to remove curses." ownerID="26" targetID="31" fromX="2094" fromY="-2566" />
+      <outputs name="Ask to have your spirit wounds healed." ownerID="26" targetID="55" fromX="2094" fromY="-2566" />'A witch, that's what you're after, eh? Magic comes at a price. Healing the spirit is easier, but curses, well, they are nasty things. They'll cost you more, cost you blood.'</nodes>
+    <nodes xsi:type="NodeTrade" ID="27" positionX="1135.68176" positionY="-2609.58325" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-1000">
       <logic>
         <FilterBlock>
           <LogicProcessing name="t" list1="ppl">
@@ -384,7 +384,7 @@ We also have a healer in the village. If they're not busy, they're good with the
         </FilterBlock>
       </logic>
       <outputs name="Confirm" ownerID="27" targetID="28" fromX="1565" fromY="-2937" />
-      <outputs name="Cancel" ownerID="27" targetID="11" fromX="1565" fromY="-3018" />
+      <outputs name="Cancel" ownerID="27" targetID="11" fromX="1122" fromY="-3018" />
     </nodes>
     <nodes xsi:type="NodeAdventureEnd" ID="28" positionX="1666.13672" positionY="-2619.01563" width="350" height="530" linkedEventUniqueID="0" endOfQuest="true">
       <logic>
@@ -431,7 +431,7 @@ Together, you remove any curses you had.
       </logic>
       <outputs ownerID="30" targetID="32" fromX="3478" fromY="-3067" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="31" positionX="2559.99219" positionY="-2844.13037" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-100">
+    <nodes xsi:type="NodeTrade" ID="31" positionX="2559.99219" positionY="-2844.13037" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="unstuff" startingBalance="-800">
       <outputs name="Confirm" ownerID="31" targetID="30" fromX="2990" fromY="-3172" />
       <outputs name="Cancel" ownerID="31" targetID="11" fromX="2990" fromY="-3252" />
     </nodes>
@@ -615,7 +615,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
       <outputs ownerID="43" targetID="44" group="G1" fromX="583" fromY="-2477" />
       <outputs ownerID="43" targetID="24" group="G1" fromX="583" fromY="-2557" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="44" positionX="-355.024323" positionY="-2366.26367" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-50">
+    <nodes xsi:type="NodeTrade" ID="44" positionX="-355.024323" positionY="-2366.26367" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-500">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -626,7 +626,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
       <outputs name="Confirm" ownerID="44" targetID="25" fromX="75" fromY="-2694" />
       <outputs name="Cancel" ownerID="44" targetID="11" fromX="75" fromY="-2774" />
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="45" positionX="-960.915955" positionY="-1773.6947" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-25">
+    <nodes xsi:type="NodeTrade" ID="45" positionX="-960.915955" positionY="-1773.6947" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-250">
       <logic>
         <FilterBlock>
           <LogicResultAction>
@@ -649,7 +649,7 @@ We cannot give much, but here, have what we can spare.'</nodes>
         </FilterBlock>
       </logic>
       <outputs ownerID="46" targetID="45" group="G1" fromX="30" fromY="-2134" />
-      <outputs ownerID="46" targetID="12" group="G1" fromX="39" fromY="-2214" />
+      <outputs ownerID="46" targetID="12" group="G1" fromX="30" fromY="-2214" />
     </nodes>
     <nodes xsi:type="NodeChallenge" ID="49" positionX="-999" positionY="759" width="500" height="726" challengeType="TypeMental" versusGroup="GROUP-HUMS_4P_2M_2S" challengeScale="101" challengedList="ppl">
       <outputs name="Win" ownerID="49" targetID="50" fromX="-557" fromY="263" />
@@ -698,7 +698,7 @@ Come in, but we're watching you!'</nodes>
         </ModifierBlock>
       </logic>
     </nodes>
-    <nodes xsi:type="NodeTrade" ID="55" positionX="1940.92358" positionY="-3073.13965" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-100">
+    <nodes xsi:type="NodeTrade" ID="55" positionX="1940.92358" positionY="-3073.13965" width="460" height="479" traderProfile="TRADER-BANDIT" playerInventory="stuff" startingBalance="-800">
       <outputs name="Confirm" ownerID="55" targetID="56" fromX="2371" fromY="-3401" />
       <outputs name="Cancel" ownerID="55" targetID="11" fromX="2371" fromY="-3481" />
     </nodes>

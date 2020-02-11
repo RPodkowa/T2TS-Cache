@@ -745,6 +745,28 @@
 			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-HORDE_ELVES_9P_9M_8S>
+	<GROUP-LOTS_ELDER_ELVES_10P_10M_10S>
+		<ChallengeLvl Physical="10" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_ELVES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_ELF_GUARDIAN"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DZIEVANNAS_ELDER_FERAL"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_ELF_MAGES"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-LOTS_ELDER_ELVES_10P_10M_10S>
 	<GROUP-DRUID_MIX_6P_5M_5S>
 		<ChallengeLvl Physical="6" Mental="5" Spirit="5"/>
 		<DescriptionInfo Name="DES_GROUP_DRUID" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -950,6 +972,40 @@
 			<MemberCount MinimumCount="1" MaximumCount="1"/>
 		</Member>
 	</GROUP-ORC_MATRIARCH_ONE_5P_4M_2S>
+	<GROUP-ORC_MATRIARCH_6P_5M_2S>
+		<ChallengeLvl Physical="6" Mental="5" Spirit="2"/>
+		<DescriptionInfo Name="DES_GROUP_ORCS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BLOODTRACKER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_WOUNDED_MATRIARCH"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-ORC_MATRIARCH_6P_5M_2S>
+	<GROUP-ORC_MATRIARCH_7P_6M_6S>
+		<ChallengeLvl Physical="7" Mental="6" Spirit="6"/>
+		<DescriptionInfo Name="DES_GROUP_ORCS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_WITCH"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_WOUNDED_MATRIARCH"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BLOODTRACKER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-ORC_MATRIARCH_7P_6M_6S>
 
 	<!-- GOBLINS-->
 	<GROUP-GOBS_2P_4M_3S>
@@ -1150,6 +1206,50 @@
 			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
 		</Member>
 	</GROUP-HORDE_DWARVES_9P_8M_6S>
+	<GROUP-HORD_DWARVES_10P_9M_7S>
+		<ChallengeLvl Physical="10" Mental="9" Spirit="7"/>
+		<DescriptionInfo Name="DES_GROUP_DWARVES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WARRAKUS"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DWARF_SMITH_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DWARF_SMITH"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DWARF_RUNEMASTER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-HORD_DWARVES_10P_9M_7S>
+	<GROUP-ELDER_DWARVES_11P_8M_8S>
+		<ChallengeLvl Physical="11" Mental="8" Spirit="8"/>
+		<DescriptionInfo Name="DES_GROUP_DWARVES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDAR_WARRAKUS"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DWARF_ELDER_RUNEMASTER"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-ELDER_DWARVES_11P_8M_8S>
 	<GROUP-SMITH_ONE_3P_4M_0S>
 		<ChallengeLvl Physical="3" Mental="4" Spirit="0"/>
 		<DescriptionInfo Name="DES_GROUP_DWARVES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -1173,6 +1273,358 @@
 			<MemberCount MinimumCount="1" MaximumCount="1"/>
 		</Member>
 	</GROUP-IRON_STORM_ONE_4P_2M_1S>
+	
+	<!-- PIRATES-->
+	<GROUP-PIRATES_YOUNGLINGS_1P_1M_1S>
+		<ChallengeLvl Physical="1" Mental="1" Spirit="1"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE_CHILD"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+		</Member>
+	</GROUP-PIRATES_YOUNGLINGS_1P_1M_1S>
+	<GROUP-PIRATES_2P_3M_2S>
+		<ChallengeLvl Physical="2" Mental="3" Spirit="2"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE_CHILD"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_2P_3M_2S>
+	<GROUP-PIRATES_4P_3M_2S>
+		<ChallengeLvl Physical="4" Mental="3" Spirit="2"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE_CHILD"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_4P_3M_2S>
+	<GROUP-PIRATES_5P_4M_2S>
+		<ChallengeLvl Physical="5" Mental="4" Spirit="2"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_YOUNG_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-PIRATES_5P_4M_2S>
+	<GROUP-PIRATES_6P_5M_3S>
+		<ChallengeLvl Physical="6" Mental="5" Spirit="3"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_6P_5M_3S>
+	<GROUP-PIRATES_6P_5M_5S>
+		<ChallengeLvl Physical="6" Mental="5" Spirit="5"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-PIRATES_6P_5M_5S>
+	<GROUP-PIRATES_7P_5M_5S>
+		<ChallengeLvl Physical="7" Mental="5" Spirit="5"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_ORC_PIRATE"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_7P_5M_5S>
+	<GROUP-PIRATES_ONE_SEA_THING_6P_7M_6S>
+		<ChallengeLvl Physical="6" Mental="7" Spirit="6"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_THING"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_ONE_SEA_THING_6P_7M_6S>
+	<GROUP-LOTS_PIRATES_7P_4M_3S>
+		<ChallengeLvl Physical="7" Mental="4" Spirit="3"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_PIRATE"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-LOTS_PIRATES_7P_4M_3S>
+	<GROUP-PIRATES_8P_7M_5S>
+		<ChallengeLvl Physical="8" Mental="6" Spirit="5"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BRUTE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_8P_7M_5S>
+	<GROUP-PIRATES_SEA_THING_9P_9M_9S>
+		<ChallengeLvl Physical="9" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_THING"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BRUTE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_SEA_THING_9P_9M_9S>
+	<GROUP-PIRATES_9P_8M_7S>
+		<ChallengeLvl Physical="9" Mental="8" Spirit="7"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BRUTE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_9P_8M_7S>
+	<GROUP-CAP_PIRATES_ONE_7P_7M_7S>
+		<ChallengeLvl Physical="7" Mental="7" Spirit="7"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-CAP_PIRATES_ONE_7P_7M_7S>
+	<GROUP-CAP_PIRATES_8P_7M_7S>
+		<ChallengeLvl Physical="8" Mental="7" Spirit="7"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-CAP_PIRATES_8P_7M_7S>
+	<GROUP-CAP_PIRATES_8P_8M_8S>
+		<ChallengeLvl Physical="8" Mental="8" Spirit="8"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_COOPER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-CAP_PIRATES_8P_8M_8S>
+	<GROUP-PIRATES_SEA_THING_9P_10M_10S>
+		<ChallengeLvl Physical="9" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_THING"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-PIRATES_SEA_THING_9P_10M_10S>
+	<GROUP-LOTS_PIRATES_10P_9M_9S>
+		<ChallengeLvl Physical="10" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_ORC_PIRATE"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BRUTE"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELF_SLAVE"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-LOTS_PIRATES_10P_9M_9S>
+	<GROUP-HORD_PIRATES_12P_10M_10S>
+		<ChallengeLvl Physical="12" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PIRATES"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BRUTE"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QUARTERMASTER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member> 
+			<MemberSubrace Value="SUBRACE-ORC_BOATSWAIN_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-HORD_PIRATES_12P_10M_10S>
 
 	<!-- STINGERS-->
 	<GROUP-STINGERS_2P_1M_0S>
@@ -1960,8 +2412,8 @@
 	<GROUP-SEA_BEAST_1P_0M_0S>
 		<ChallengeLvl Physical="1" Mental="0" Spirit="0"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_PREDATOR_FISH"/>
@@ -1971,8 +2423,8 @@
 	<GROUP-SEA_BEAST_2P_1M_1S>
 		<ChallengeLvl Physical="2" Mental="0" Spirit="0"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_SERPENT"/>
@@ -1982,8 +2434,8 @@
 	<GROUP-SEA_BEAST_3P_1M_1S>
 		<ChallengeLvl Physical="3" Mental="1" Spirit="1"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_SHARK"/>
@@ -2001,8 +2453,8 @@
 	<GROUP-LOTS_SEA_BEAST_4P_2M_1S>
 		<ChallengeLvl Physical="4" Mental="2" Spirit="1"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_SERPENT"/>
@@ -2020,8 +2472,8 @@
 	<GROUP-SHARK_ONE_2P_1M_1S>
 		<ChallengeLvl Physical="2" Mental="1" Spirit="1"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_SHARK"/>
@@ -2031,8 +2483,8 @@
 	<GROUP-SHARKS_4P_2M_1S>
 		<ChallengeLvl Physical="4" Mental="2" Spirit="1"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_BEAST"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_SHARK"/>
@@ -2042,8 +2494,8 @@
 	<GROUP-CZYTLICA_ONE_3P_3M_3S>
 		<ChallengeLvl Physical="3" Mental="3" Spirit="3"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
 		<PreferredChallenge Value="TypeMental"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_CZYTLICA_YOUNG"/>
@@ -2053,8 +2505,8 @@
 	<GROUP-CZYTLICA_5P_5M_5S>
 		<ChallengeLvl Physical="5" Mental="5" Spirit="5"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
 		<PreferredChallenge Value="TypeMental"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_CZYTLICA"/>
@@ -2069,8 +2521,8 @@
 	<GROUP-JURATA_ONE_4P_4M_4S>
 		<ChallengeLvl Physical="4" Mental="4" Spirit="4"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
 		<PreferredChallenge Value="TypeMental"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_JURATA"/>
@@ -2080,8 +2532,8 @@
 	<GROUP-JURATA_MIX_6P_6M_6S>
 		<ChallengeLvl Physical="6" Mental="6" Spirit="6"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
 		<PreferredChallenge Value="TypeMental"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_PREDATOR_FISH"/>
@@ -2099,8 +2551,8 @@
 	<GROUP-LOTS_SEA_DEMONS_MIX_8P_7M_7S>
 		<ChallengeLvl Physical="8" Mental="7" Spirit="7"/>
 		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-SEA_SHARK"/>
@@ -2122,14 +2574,55 @@
 	<GROUP-ONE_KRAKEN_10P_8M_8S>
 		<ChallengeLvl Physical="10" Mental="8" Spirit="8"/>
 		<DescriptionInfo Name="DES_GROUP_KRAKEN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
-		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
-		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_WATER_BEAST"/>
 		<PreferredChallenge Value="TypePhysical"/>
 		<Member>
 			<MemberSubrace Value="SUBRACE-KRAKEN"/>
 			<MemberCount MinimumCount="1" MaximumCount="1"/>
 		</Member>
 	</GROUP-ONE_KRAKEN_10P_8M_8S>
+	<GROUP-KRAKEN_11P_9M_9S>
+		<ChallengeLvl Physical="11" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_KRAKEN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-KRAKEN"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-KRAKEN_11P_9M_9S>
+	<GROUP-KRAKEN_12P_10M_10S>
+		<ChallengeLvl Physical="12" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_KRAKEN" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-KRAKEN"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-KRAKEN_12P_10M_10S>
+	<GROUP-LOTS_SEA_DEMONS_MIX_11P_9M_9S>
+		<ChallengeLvl Physical="11" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_SEA_BEASTS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SEA_DEMONS"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-KRAKEN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_CZYTLICA"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_JURATA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-LOTS_SEA_DEMONS_MIX_11P_9M_9S>
 
 	<!-- DEMONS-->
 	<GROUP-BABA_YAGA_4P_4M_6S>
@@ -2617,6 +3110,29 @@
 			<MemberCount MinimumCount="1" MaximumCount="1"/>
 		</Member>
 	</GROUP-LOTS_FOREST_D_10P_9M_10S>
+	<GROUP-LOTS_ELDER_FOREST_D_11P_10M_11S>
+		<ChallengeLvl Physical="11" Mental="10" Spirit="11"/>
+		<DescriptionInfo Name="DES_GROUP_FOREST_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_FOREST_ROGGNYR"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_FOREST_VIATROVIEC"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_FOREST_VILY"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_FOREST_LESHY"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-LOTS_ELDER_FOREST_D_11P_10M_11S>
 	<GROUP-VILY_4P_4M_3S>
 		<ChallengeLvl Physical="4" Mental="4" Spirit="3"/>
 		<DescriptionInfo Name="DES_GROUP_FOREST_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -2892,7 +3408,7 @@
 		</Member>
 		<Member>
 			<MemberSubrace Value="SUBRACE-NIGHT_WEREWOLF"/>
-			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
 			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
 		</Member>
 		<Member>
@@ -2906,6 +3422,60 @@
 			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-NIGHT_DEMON_8P_8M_8S>
+	<GROUP-NIGHT_DEMON_9P_9M_9S>
+		<ChallengeLvl Physical="9" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_NIGHT_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SPIRIT"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SPIRIT"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-NIGHT_STRIGA_MASTER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-NIGHT_STRIGA_MISTRESS"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-NIGHT_WEREWOLF"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BAT_STRIGA"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-NIGHT_CMOK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-NIGHT_DEMON_9P_9M_9S>
+	<GROUP-NIGHT_ELDER_DEMON_10P_10M_10S>
+		<ChallengeLvl Physical="10" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_NIGHT_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SPIRIT"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SPIRIT"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_NIGHT_STRIGA_MASTER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_NIGHT_STRIGA_MISTRESS"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_NIGHT_WEREWOLF"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-NIGHT_ELDER_DEMON_10P_10M_10S>
 	<GROUP-CMOK_ONE_3P_1M_1S>
 		<ChallengeLvl Physical="3" Mental="1" Spirit="1"/>
 		<DescriptionInfo Name="DES_GROUP_NIGHT_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -3012,6 +3582,120 @@
 			<MemberCount MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-HORDE_VODNIK_MIX_6P_8M_6S>
+	<GROUP-HORDE_WATER_DEMON_MIX_9P_9M_9S>
+		<ChallengeLvl Physical="9" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_UTOPIEC"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_VODNIK"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_SZUVAREK"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_RUSALKA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_BEFUDDLER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-HORDE_WATER_DEMON_MIX_9P_9M_9S>
+	
+	
+
+	<GROUP-SZUVAREK_ONE_8P_8M_8S>
+		<ChallengeLvl Physical="8" Mental="8" Spirit="8"/>
+		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_SZUVAREK"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-SZUVAREK_ONE_8P_8M_8S>
+	<GROUP-SZUVAREK_MIX_10P_10M_10S>
+		<ChallengeLvl Physical="10" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_VODNIK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_SZUVAREK"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-SZUVAREK_MIX_10P_10M_10S>
+	<GROUP-SZUVAREK_10P_10M_10S>
+		<ChallengeLvl Physical="10" Mental="10" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_SZUVAREK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-SZUVAREK_10P_10M_10S>
+	<GROUP-LOTS_SZUVAREK_MIX_11P_11M_11S>
+		<ChallengeLvl Physical="11" Mental="11" Spirit="11"/>
+		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_SZUVAREK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_VODNIK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_RUSALKA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_BEFUDDLER"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-LOTS_SZUVAREK_MIX_11P_11M_11S>
+	<GROUP-HORDE_SZUVAREK_MIX_12P_12M_12S>
+		<ChallengeLvl Physical="12" Mental="12" Spirit="12"/>
+		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_SZUVAREK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_VODNIK"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_RUSALKA"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_BEFUDDLER"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-HORDE_SZUVAREK_MIX_12P_12M_12S>
+	
 	<GROUP-RUSALKA_ONE_2P_3M_2S>
 		<ChallengeLvl Physical="2" Mental="3" Spirit="2"/>
 		<DescriptionInfo Name="DES_GROUP_WATER_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -3198,6 +3882,30 @@
 			<MemberCount MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-HORDE_DEMON_I_8P_7M_8S>
+	<GROUP-HORDE_ELDER_DEMON_I_9P_9M_9S>
+		<ChallengeLvl Physical="9" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_ICE_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ICE_ELDER_SNIEZYNKI"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-UNLI_ELDER_WRAITH"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_ICE_DZIAD_MROZ"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DEMON_ELDER_POLUDNICA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-HORDE_ELDER_DEMON_I_9P_9M_9S>
 	
 	<GROUP-LIGHT_1P_1M_1S>
 		<ChallengeLvl Physical="1" Mental="1" Spirit="1"/>
@@ -3420,6 +4128,33 @@
 			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-LIGHT_11P_11M_11S>
+	<GROUP-ELDER_LIGHT_12P_12M_12S>
+		<ChallengeLvl Physical="12" Mental="12" Spirit="12"/>
+		<DescriptionInfo Name="DES_GROUP_LIGHT_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_SOCIAL"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_LIGHT_LIGHTBRINGER"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_LIGHT_ENLIGHTENED_DWARF_SMITH"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-LIGHT_TROLL_ROCK"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-LIGHT_ENLIGHTENED_LESHY"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-ELDER_LIGHT_12P_12M_12S>
 	<GROUP-Q_LIGHT_FAMILY_3P_2M_2S>
 		<ChallengeLvl Physical="3" Mental="2" Spirit="2"/>
 		<DescriptionInfo Name="DES_GROUP_LIGHT_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -4016,6 +4751,18 @@
 			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-TROLL_LAVA_ONE_9P_6M_9S>
+	<GROUP-TROLL_LAVA_TWO_10P_7M_10S>
+		<ChallengeLvl Physical="10" Mental="7" Spirit="10"/>
+		<DescriptionInfo Name="DES_GROUP_TROLLS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_TROLL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_TROLL"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TROLL_LAVA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-TROLL_LAVA_TWO_10P_7M_10S>
 	<GROUP-TROLL_SWAMP_MIX_7P_8M_8S>
 		<ChallengeLvl Physical="7" Mental="9" Spirit="8"/>
 		<DescriptionInfo Name="DES_GROUP_TROLLS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
@@ -4222,6 +4969,40 @@
 			<MemberCount MinimumCount="3" MaximumCount="3"/>
 		</Member>
 	</GROUP-HORDE_DEMON_D_9P_8M_9S>
+	<GROUP-HORDE_ELDER_DEMON_D_9P_9M_9S>
+		<ChallengeLvl Physical="9" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_BEASTS_OF_DARKNESS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_MYTHICAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_MYTHICAL"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_DARKNESS_MROKI"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_ELF_SHADOW"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_MENAVCA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-UNLI_ELDER_WRAITH"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-HORDE_ELDER_DEMON_D_9P_9M_9S>
+	<GROUP-ELDER_MROKI_9P_7M_8S>
+		<ChallengeLvl Physical="9" Mental="7" Spirit="8"/>
+		<DescriptionInfo Name="DES_GROUP_BEASTS_OF_DARKNESS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_MYTHICAL"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_MYTHICAL"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ELDER_DARKNESS_MROKI"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-ELDER_MROKI_9P_7M_8S>
 
 
 	<!-- QUEST CREATURES-->
@@ -4736,7 +5517,7 @@
 		</Member>
 	</GROUP-Q_DZIEVANNAS_YOUNG_FERAL_3P_3M_3S>
 	<GROUP-Q_TRICKORTREAT_5P_4M_4S>
-		<ChallengeLvl Physical="3" Mental="3" Spirit="3"/>
+		<ChallengeLvl Physical="5" Mental="4" Spirit="4"/>
 		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
 		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
 		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
@@ -4758,6 +5539,269 @@
 			<MemberCount MinimumCount="1" MaximumCount="1"/>
 		</Member>
 	</GROUP-Q_TRICKORTREAT_5P_4M_4S>
+	<GROUP-Q_WATER_OLD_GODS_18P_18M_18S>
+		<ChallengeLvl Physical="18" Mental="18" Spirit="18"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-AEGIR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-JURASMAT"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_WATER_OLD_GODS_18P_18M_18S>
+	<GROUP-QQ_WATER_OLD_GODS_18P_18M_18S>
+		<ChallengeLvl Physical="18" Mental="18" Spirit="18"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QQ_AEGIR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QQ_JURASMAT"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-QQ_WATER_OLD_GODS_18P_18M_18S>
+	<GROUP-Q_AEGIR_15P_15M_14S>
+		<ChallengeLvl Physical="15" Mental="15" Spirit="14"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-AEGIR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_AEGIR_15P_15M_14S>
+	<GROUP-QQ_AEGIR_15P_15M_14S>
+		<ChallengeLvl Physical="15" Mental="15" Spirit="14"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QQ_AEGIR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-QQ_AEGIR_15P_15M_14S>
+	<GROUP-Q_JURASMAT_15P_14M_15S>
+		<ChallengeLvl Physical="15" Mental="14" Spirit="15"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-JURASMAT"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_JURASMAT_15P_14M_15S>
+	<GROUP-QQ_JURASMAT_15P_14M_15S>
+		<ChallengeLvl Physical="15" Mental="14" Spirit="15"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-QQ_JURASMAT"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-QQ_JURASMAT_15P_14M_15S>
+	<GROUP-Q_JURASMAT_BLUE_DRAGON_15P_15M_15S>
+		<ChallengeLvl Physical="15" Mental="15" Spirit="15"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-JURASMAT"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BLUE_DRAGON"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-Q_JURASMAT_BLUE_DRAGON_15P_15M_15S>
+	<GROUP-Q_RIDICULOUS_AEGIR_JURASMAT_19P_19M_19S>
+		<ChallengeLvl Physical="19" Mental="19" Spirit="19"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-AEGIR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-JURASMAT"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BLUE_DRAGON"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-Q_RIDICULOUS_AEGIR_JURASMAT_19P_19M_19S>
+	<GROUP-Q_RIDICULOUS_AEGIR_JURASMAT_20P_20M_20S>
+		<ChallengeLvl Physical="20" Mental="20" Spirit="20"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-AEGIR"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-JURASMAT"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-Q_RIDICULOUS_AEGIR_JURASMAT_20P_20M_20S>
+	<GROUP-Q_RIDICULOUS_JURASMAT_ONLY_18P_18M_18S>
+		<ChallengeLvl Physical="18" Mental="18" Spirit="18"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-JURASMAT"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-Q_RIDICULOUS_JURASMAT_ONLY_18P_18M_18S>
+	<GROUP-Q_RIDICULOUS_LIGHT_BEAST_16P_16M_16S>
+		<ChallengeLvl Physical="16" Mental="16" Spirit="16"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-BOSS"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+		</Member>
+	</GROUP-Q_RIDICULOUS_LIGHT_BEAST_16P_16M_16S>
+	<GROUP-Q_RIDICULOUS_TROLLS_16P_16M_16S>
+		<ChallengeLvl Physical="16" Mental="16" Spirit="16"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TROLL_LAVA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TROLL_ICE"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TROLL_SWAMP"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TROLL_ROCK"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-Q_RIDICULOUS_TROLLS_16P_16M_16S>
+	<GROUP-Q_MIKOLAY_12P_12M_12S>
+		<ChallengeLvl Physical="12" Mental="12" Spirit="12"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-MIKOLAY"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_MIKOLAY_12P_12M_12S>
+	<GROUP-Q_CAPTAIN_ERICK_9P_9M_9S>
+		<ChallengeLvl Physical="9" Mental="9" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN_ERICK"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-UNLI_DRAGON"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-UNLI_ELDER_WRAITH"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+	</GROUP-Q_CAPTAIN_ERICK_9P_9M_9S>
+	<GROUP-Q_INVENTOR_NEMOSLAV_9P_10M_9S>
+		<ChallengeLvl Physical="9" Mental="10" Spirit="9"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HUM_INVENTOR_NEMOSLAV"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-HUM_ELDER_VOLH"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_ELDER_SLUGGER"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-DWARF_SMITH"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-WATER_ELDER_VODNIK"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-TROLL_SWAMP"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_INVENTOR_NEMOSLAV_9P_10M_9S>
+	<GROUP-Q_ARIEL_KRAKEN_JURATA_11P_8M_8S>
+		<ChallengeLvl Physical="11" Mental="8" Spirit="8"/>
+		<DescriptionInfo Name="DES_GROUP_DEMONS" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_PHYSICAL_DEMON"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_ARIEL"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-SEA_JURATA"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-KRAKEN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_ARIEL_KRAKEN_JURATA_11P_8M_8S>
+	<GROUP-Q_CAP_MATRIARCH_8P_8M_7S>
+		<ChallengeLvl Physical="8" Mental="8" Spirit="7"/>
+		<DescriptionInfo Name="DES_GROUP_PIRATES" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-ORC_MATRIARCH"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-PIRATE_CAPTAIN"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-Q_CAP_MATRIARCH_8P_8M_7S>
 
 
 	<!-- CONCEPTS -->
@@ -5390,6 +6434,697 @@
 			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
 		</Member>
 	</GROUP-CON_S_0P_0M_10S>
+	
+	<GROUP-CON_P_11P_0M_0S>
+		<ChallengeLvl Physical="11" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-CON_P_11P_0M_0S>
+	<GROUP-CON_M_0P_11M_0S>
+		<ChallengeLvl Physical="0" Mental="11" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+	</GROUP-CON_M_0P_11M_0S>
+	<GROUP-CON_S_0P_0M_11S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="11"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_11S>
+	<GROUP-CON_P_12P_0M_0S>
+		<ChallengeLvl Physical="12" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_12P_0M_0S>
+	<GROUP-CON_M_0P_12M_0S>
+		<ChallengeLvl Physical="0" Mental="12" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_12M_0S>
+	<GROUP-CON_S_0P_0M_12S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="12"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_12S>
+	<GROUP-CON_P_13P_0M_0S>
+		<ChallengeLvl Physical="13" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_13P_0M_0S>
+	<GROUP-CON_M_0P_13M_0S>
+		<ChallengeLvl Physical="0" Mental="13" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>		
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_13M_0S>
+	<GROUP-CON_S_0P_0M_13S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="13"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_13S>
+	<GROUP-CON_P_14P_0M_0S>
+		<ChallengeLvl Physical="14" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_14P_0M_0S>
+	<GROUP-CON_M_0P_14M_0S>
+		<ChallengeLvl Physical="0" Mental="14" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="1" MaximumCount="1"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_14M_0S>
+	<GROUP-CON_S_0P_0M_14S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="14"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_14S>
+	<GROUP-CON_P_15P_0M_0S>
+		<ChallengeLvl Physical="15" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_15P_0M_0S>
+	<GROUP-CON_M_0P_15M_0S>
+		<ChallengeLvl Physical="0" Mental="15" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_15M_0S>
+	<GROUP-CON_S_0P_0M_15S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="15"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_15S>
+	<GROUP-CON_P_16P_0M_0S>
+		<ChallengeLvl Physical="16" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_16P_0M_0S>
+	<GROUP-CON_M_0P_16M_0S>
+		<ChallengeLvl Physical="0" Mental="16" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_16M_0S>
+	<GROUP-CON_S_0P_0M_16S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="16"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_16S>
+	<GROUP-CON_P_17P_0M_0S>
+		<ChallengeLvl Physical="17" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_17P_0M_0S>
+	<GROUP-CON_M_0P_17M_0S>
+		<ChallengeLvl Physical="0" Mental="17" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_17M_0S>
+	<GROUP-CON_S_0P_0M_17S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="17"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_17S>
+	<GROUP-CON_P_18P_0M_0S>
+		<ChallengeLvl Physical="18" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_18P_0M_0S>
+	<GROUP-CON_M_0P_18M_0S>
+		<ChallengeLvl Physical="0" Mental="18" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_18M_0S>
+	<GROUP-CON_S_0P_0M_18S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="18"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-VVVSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="3" MaximumCount="3"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_18S>
+	<GROUP-CON_P_19P_0M_0S>
+		<ChallengeLvl Physical="19" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_19P_0M_0S>
+	<GROUP-CON_M_0P_19M_0S>
+		<ChallengeLvl Physical="0" Mental="19" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_19M_0S>
+	<GROUP-CON_S_0P_0M_19S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="19"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_19S>
+	<GROUP-CON_P_20P_0M_0S>
+		<ChallengeLvl Physical="20" Mental="0" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_PHYSICAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypePhysical"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_P"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_P"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_P"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_P_20P_0M_0S>
+	<GROUP-CON_M_0P_20M_0S>
+		<ChallengeLvl Physical="0" Mental="20" Spirit="0"/>
+		<DescriptionInfo Name="DES_GROUP_MENTAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeMental"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_M"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_M"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_M"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_M_0P_20M_0S>
+	<GROUP-CON_S_0P_0M_20S>
+		<ChallengeLvl Physical="0" Mental="0" Spirit="20"/>
+		<DescriptionInfo Name="DES_GROUP_SPIRITUAL_CONCEPT" Description="DES_PLACEHOLDER_DES"  IconName="IconPlaceholder"/>
+		<EventsLoyalty Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<EventsRoaming Value="EVENTC-ARMY_NEUTRAL_HUMANOID"/>
+		<PreferredChallenge Value="TypeSpirit"/>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_TANK_S"/>
+			<MemberCount MinimumCount="2" MaximumCount="2"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_HUNTER_S"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+		<Member>
+			<MemberSubrace Value="SUBRACE-XSTRONG_CON_WILD_S"/>
+			<MemberCount MinimumCount="4" MaximumCount="4"/>
+			<MembersLevelRange MinimumCount="2" MaximumCount="2"/>
+		</Member>
+	</GROUP-CON_S_0P_0M_20S>
 
 	<!-- TUTORIAL GROUPS -->
 	<GROUP-TUT_WARRIOR_YANEK>

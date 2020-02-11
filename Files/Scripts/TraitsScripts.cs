@@ -107,6 +107,25 @@ namespace GameScript
                 }
             }
         }
+        static public void Tra_MotherProtection(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-MOTHER_PROTECTION_CHOSEN", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
         static public void Tra_ILoveYou(SPlayer player)
         {
             player.attributes.AddToBase((Tag)TAG.LADA_LOVE, FInt.ONE);
@@ -356,6 +375,44 @@ namespace GameScript
                         {
                             var co = (Character)c;
                             co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-SPARK", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        static public void Tra_PerfectAiming(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-PERFECT_AMING", FInt.ONE);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        static public void Tra_ITakeIt(SPlayer player)
+        {
+            var sPlayerGroups = GameInstance.Get().GetPlayerGroups().FindAll(o => o.ownerID == player.ID);
+            foreach (var v in sPlayerGroups)
+            {
+                if (v.characters != null)
+                {
+                    foreach (var c in v.characters)
+                    {
+                        if (c.Get().attributes.GetBase(TAG.CHOSEN) > FInt.ZERO)
+                        {
+                            var co = (Character)c;
+                            co.LearnSkill(Character.SkillCategory.Effect, (Skill)"SKILL-I_TAKE_IT", FInt.ONE);
                             return;
                         }
                     }
